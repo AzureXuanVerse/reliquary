@@ -55,12 +55,17 @@ use base64::Engine;
 use thiserror::Error;
 use tracing::{info, info_span, instrument, trace, warn};
 
-use crate::network::command::{GameCommand, GameCommandError};
-use crate::network::connection::{parse_connection_packet, ConnectionPacketError};
-use crate::network::crypto::{decrypt_command, get_game_version, lookup_initial_key, new_key_from_seed};
 use crate::network::command::proto::PlayerGetTokenScRsp::PlayerGetTokenScRsp;
-use crate::network::kcp::{KcpError, KcpSniffer};
-use crate::network::command::command_id;
+use crate::network::command::GameCommand;
+use crate::network::command::{command_id, GameCommandError};
+use crate::network::connection::parse_connection_packet;
+use crate::network::crypto::{
+    decrypt_command, get_game_version, lookup_initial_key, new_key_from_seed,
+};
+use crate::network::kcp::KcpSniffer;
+
+pub use crate::network::connection::ConnectionPacketError;
+pub use crate::network::kcp::KcpError;
 
 fn bytes_as_hex(bytes: &[u8]) -> String {
     bytes.iter().fold(String::new(), |mut output, b| {
@@ -148,13 +153,12 @@ impl ConversationSniffer {
             PacketDirection::Received => &mut self.recv_kcp,
         };
 
-        kcp.receive_segments(kcp_seg)
-            .map(|segments| {
-                segments
-                    .into_iter()
-                    .map(|data| self.receive_command(direction, data, initial_keys))
-                    .collect()
-            })
+        kcp.receive_segments(kcp_seg).map(|segments| {
+            segments
+                .into_iter()
+                .map(|data| self.receive_command(direction, data, initial_keys))
+                .collect()
+        })
     }
 
     #[instrument(skip_all, fields(conv_id = self.conv_id, len = data.len()))]
@@ -190,7 +194,7 @@ impl ConversationSniffer {
                 decrypted = decrypted_version,
                 "decrypted version does not match expected version"
             );
-            
+
             // If the client sent this command, we likely used an outdated key.
             // Buffer the original bytes and retry after we get PlayerGetTokenScRsp.
             if let Some(orig) = original_data {
@@ -273,19 +277,19 @@ impl GameSniffer {
 
             ConnectionPacket::HandshakeEstablished { conv_id } => {
                 info!(conv_id, "handshake established, creating new conversation");
-                self.conversations.insert(conv_id, ConversationSniffer::new(conv_id));
+                self.conversations
+                    .insert(conv_id, ConversationSniffer::new(conv_id));
                 Ok(vec![GamePacket::Connection(packet)])
             }
 
-            ConnectionPacket::Disconnected => {
-                Ok(vec![GamePacket::Connection(packet)])
-            }
+            ConnectionPacket::Disconnected => Ok(vec![GamePacket::Connection(packet)]),
 
             ConnectionPacket::SegmentData(direction, kcp_seg) => {
                 let conv_id = kcp::validate_kcp_segment(&kcp_seg)?;
-                
+
                 // Get or create conversation
-                let conversation = self.conversations
+                let conversation = self
+                    .conversations
                     .entry(conv_id)
                     .or_insert_with(|| ConversationSniffer::new(conv_id));
 
@@ -297,7 +301,10 @@ impl GameSniffer {
 
                 // Emit any deferred commands from key update
                 for cmd in conversation.take_deferred_commands() {
-                    commands.push(GamePacket::Commands { conv_id, result: Ok(cmd) });
+                    commands.push(GamePacket::Commands {
+                        conv_id,
+                        result: Ok(cmd),
+                    });
                 }
 
                 Ok(commands)
