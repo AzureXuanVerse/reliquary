@@ -11,7 +11,7 @@
 //!         - The KCP header contains an extra field that needs to be removed
 //!           to be compatible with the regular KCP protocol
 //!     - **[`GameCommand`]**, encrypted using XOR
-//!     - **Protobuf**, payload, needs to be parsed into using the types generated in [`gen::proto`]
+//!     - **Protobuf**, payload, needs to be parsed into using the types generated in [`command::proto`]
 //!
 //! [`GameCommand`]s are encrypted using an XOR-key.
 //! One of the first packets sent is a request for a new key from a seed.
