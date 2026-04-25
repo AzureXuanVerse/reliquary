@@ -28,16 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct PunkLordBattleResultScNotify {
     // message fields
-    // @@protoc_insertion_point(field:PunkLordBattleResultScNotify.OPOEHBBMPAA)
-    pub OPOEHBBMPAA: u32,
-    // @@protoc_insertion_point(field:PunkLordBattleResultScNotify.PIHNNBPAPCF)
-    pub PIHNNBPAPCF: u32,
-    // @@protoc_insertion_point(field:PunkLordBattleResultScNotify.LNDDKEOCIEK)
-    pub LNDDKEOCIEK: ::protobuf::MessageField<super::PunkLordMonsterBasicInfo::PunkLordMonsterBasicInfo>,
-    // @@protoc_insertion_point(field:PunkLordBattleResultScNotify.IMHHGHFHELB)
-    pub IMHHGHFHELB: u32,
-    // @@protoc_insertion_point(field:PunkLordBattleResultScNotify.LMIBKPGNPPO)
-    pub LMIBKPGNPPO: ::protobuf::MessageField<super::ABLFLHPFPGJ::ABLFLHPFPGJ>,
+    // @@protoc_insertion_point(field:PunkLordBattleResultScNotify.FFCDPHMJJKG)
+    pub FFCDPHMJJKG: ::protobuf::MessageField<super::PunkLordMonsterBasicInfo::PunkLordMonsterBasicInfo>,
+    // @@protoc_insertion_point(field:PunkLordBattleResultScNotify.GGHCFMOLDNI)
+    pub GGHCFMOLDNI: u32,
+    // @@protoc_insertion_point(field:PunkLordBattleResultScNotify.MHDJJDNHILK)
+    pub MHDJJDNHILK: u32,
+    // @@protoc_insertion_point(field:PunkLordBattleResultScNotify.PDBNGNABDJI)
+    pub PDBNGNABDJI: u32,
+    // @@protoc_insertion_point(field:PunkLordBattleResultScNotify.FHPOILIMKII)
+    pub FHPOILIMKII: ::protobuf::MessageField<super::PHOCECJOBHH::PHOCECJOBHH>,
     // special fields
     // @@protoc_insertion_point(special_field:PunkLordBattleResultScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,30 +57,30 @@ impl PunkLordBattleResultScNotify {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "OPOEHBBMPAA",
-            |m: &PunkLordBattleResultScNotify| { &m.OPOEHBBMPAA },
-            |m: &mut PunkLordBattleResultScNotify| { &mut m.OPOEHBBMPAA },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "PIHNNBPAPCF",
-            |m: &PunkLordBattleResultScNotify| { &m.PIHNNBPAPCF },
-            |m: &mut PunkLordBattleResultScNotify| { &mut m.PIHNNBPAPCF },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::PunkLordMonsterBasicInfo::PunkLordMonsterBasicInfo>(
-            "LNDDKEOCIEK",
-            |m: &PunkLordBattleResultScNotify| { &m.LNDDKEOCIEK },
-            |m: &mut PunkLordBattleResultScNotify| { &mut m.LNDDKEOCIEK },
+            "FFCDPHMJJKG",
+            |m: &PunkLordBattleResultScNotify| { &m.FFCDPHMJJKG },
+            |m: &mut PunkLordBattleResultScNotify| { &mut m.FFCDPHMJJKG },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "IMHHGHFHELB",
-            |m: &PunkLordBattleResultScNotify| { &m.IMHHGHFHELB },
-            |m: &mut PunkLordBattleResultScNotify| { &mut m.IMHHGHFHELB },
+            "GGHCFMOLDNI",
+            |m: &PunkLordBattleResultScNotify| { &m.GGHCFMOLDNI },
+            |m: &mut PunkLordBattleResultScNotify| { &mut m.GGHCFMOLDNI },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ABLFLHPFPGJ::ABLFLHPFPGJ>(
-            "LMIBKPGNPPO",
-            |m: &PunkLordBattleResultScNotify| { &m.LMIBKPGNPPO },
-            |m: &mut PunkLordBattleResultScNotify| { &mut m.LMIBKPGNPPO },
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "MHDJJDNHILK",
+            |m: &PunkLordBattleResultScNotify| { &m.MHDJJDNHILK },
+            |m: &mut PunkLordBattleResultScNotify| { &mut m.MHDJJDNHILK },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "PDBNGNABDJI",
+            |m: &PunkLordBattleResultScNotify| { &m.PDBNGNABDJI },
+            |m: &mut PunkLordBattleResultScNotify| { &mut m.PDBNGNABDJI },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::PHOCECJOBHH::PHOCECJOBHH>(
+            "FHPOILIMKII",
+            |m: &PunkLordBattleResultScNotify| { &m.FHPOILIMKII },
+            |m: &mut PunkLordBattleResultScNotify| { &mut m.FHPOILIMKII },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<PunkLordBattleResultScNotify>(
             "PunkLordBattleResultScNotify",
@@ -100,20 +100,20 @@ impl ::protobuf::Message for PunkLordBattleResultScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                24 => {
-                    self.OPOEHBBMPAA = is.read_uint32()?;
+                18 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.FFCDPHMJJKG)?;
                 },
-                32 => {
-                    self.PIHNNBPAPCF = is.read_uint32()?;
+                96 => {
+                    self.GGHCFMOLDNI = is.read_uint32()?;
                 },
-                90 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.LNDDKEOCIEK)?;
+                120 => {
+                    self.MHDJJDNHILK = is.read_uint32()?;
                 },
-                48 => {
-                    self.IMHHGHFHELB = is.read_uint32()?;
+                88 => {
+                    self.PDBNGNABDJI = is.read_uint32()?;
                 },
-                98 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.LMIBKPGNPPO)?;
+                66 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.FHPOILIMKII)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -127,20 +127,20 @@ impl ::protobuf::Message for PunkLordBattleResultScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.OPOEHBBMPAA != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.OPOEHBBMPAA);
-        }
-        if self.PIHNNBPAPCF != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.PIHNNBPAPCF);
-        }
-        if let Some(v) = self.LNDDKEOCIEK.as_ref() {
+        if let Some(v) = self.FFCDPHMJJKG.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.IMHHGHFHELB != 0 {
-            my_size += ::protobuf::rt::uint32_size(6, self.IMHHGHFHELB);
+        if self.GGHCFMOLDNI != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.GGHCFMOLDNI);
         }
-        if let Some(v) = self.LMIBKPGNPPO.as_ref() {
+        if self.MHDJJDNHILK != 0 {
+            my_size += ::protobuf::rt::uint32_size(15, self.MHDJJDNHILK);
+        }
+        if self.PDBNGNABDJI != 0 {
+            my_size += ::protobuf::rt::uint32_size(11, self.PDBNGNABDJI);
+        }
+        if let Some(v) = self.FHPOILIMKII.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -150,20 +150,20 @@ impl ::protobuf::Message for PunkLordBattleResultScNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.OPOEHBBMPAA != 0 {
-            os.write_uint32(3, self.OPOEHBBMPAA)?;
+        if let Some(v) = self.FFCDPHMJJKG.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
         }
-        if self.PIHNNBPAPCF != 0 {
-            os.write_uint32(4, self.PIHNNBPAPCF)?;
+        if self.GGHCFMOLDNI != 0 {
+            os.write_uint32(12, self.GGHCFMOLDNI)?;
         }
-        if let Some(v) = self.LNDDKEOCIEK.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
+        if self.MHDJJDNHILK != 0 {
+            os.write_uint32(15, self.MHDJJDNHILK)?;
         }
-        if self.IMHHGHFHELB != 0 {
-            os.write_uint32(6, self.IMHHGHFHELB)?;
+        if self.PDBNGNABDJI != 0 {
+            os.write_uint32(11, self.PDBNGNABDJI)?;
         }
-        if let Some(v) = self.LMIBKPGNPPO.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
+        if let Some(v) = self.FHPOILIMKII.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -182,21 +182,21 @@ impl ::protobuf::Message for PunkLordBattleResultScNotify {
     }
 
     fn clear(&mut self) {
-        self.OPOEHBBMPAA = 0;
-        self.PIHNNBPAPCF = 0;
-        self.LNDDKEOCIEK.clear();
-        self.IMHHGHFHELB = 0;
-        self.LMIBKPGNPPO.clear();
+        self.FFCDPHMJJKG.clear();
+        self.GGHCFMOLDNI = 0;
+        self.MHDJJDNHILK = 0;
+        self.PDBNGNABDJI = 0;
+        self.FHPOILIMKII.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static PunkLordBattleResultScNotify {
         static instance: PunkLordBattleResultScNotify = PunkLordBattleResultScNotify {
-            OPOEHBBMPAA: 0,
-            PIHNNBPAPCF: 0,
-            LNDDKEOCIEK: ::protobuf::MessageField::none(),
-            IMHHGHFHELB: 0,
-            LMIBKPGNPPO: ::protobuf::MessageField::none(),
+            FFCDPHMJJKG: ::protobuf::MessageField::none(),
+            GGHCFMOLDNI: 0,
+            MHDJJDNHILK: 0,
+            PDBNGNABDJI: 0,
+            FHPOILIMKII: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -221,13 +221,13 @@ impl ::protobuf::reflect::ProtobufValue for PunkLordBattleResultScNotify {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\"PunkLordBattleResultScNotify.proto\x1a\x11ABLFLHPFPGJ.proto\x1a\x1eP\
+    \n\"PunkLordBattleResultScNotify.proto\x1a\x11PHOCECJOBHH.proto\x1a\x1eP\
     unkLordMonsterBasicInfo.proto\"\xf1\x01\n\x1cPunkLordBattleResultScNotif\
-    y\x12\x20\n\x0bOPOEHBBMPAA\x18\x03\x20\x01(\rR\x0bOPOEHBBMPAA\x12\x20\n\
-    \x0bPIHNNBPAPCF\x18\x04\x20\x01(\rR\x0bPIHNNBPAPCF\x12;\n\x0bLNDDKEOCIEK\
-    \x18\x0b\x20\x01(\x0b2\x19.PunkLordMonsterBasicInfoR\x0bLNDDKEOCIEK\x12\
-    \x20\n\x0bIMHHGHFHELB\x18\x06\x20\x01(\rR\x0bIMHHGHFHELB\x12.\n\x0bLMIBK\
-    PGNPPO\x18\x0c\x20\x01(\x0b2\x0c.ABLFLHPFPGJR\x0bLMIBKPGNPPOb\x06proto3\
+    y\x12;\n\x0bFFCDPHMJJKG\x18\x02\x20\x01(\x0b2\x19.PunkLordMonsterBasicIn\
+    foR\x0bFFCDPHMJJKG\x12\x20\n\x0bGGHCFMOLDNI\x18\x0c\x20\x01(\rR\x0bGGHCF\
+    MOLDNI\x12\x20\n\x0bMHDJJDNHILK\x18\x0f\x20\x01(\rR\x0bMHDJJDNHILK\x12\
+    \x20\n\x0bPDBNGNABDJI\x18\x0b\x20\x01(\rR\x0bPDBNGNABDJI\x12.\n\x0bFHPOI\
+    LIMKII\x18\x08\x20\x01(\x0b2\x0c.PHOCECJOBHHR\x0bFHPOILIMKIIb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -245,7 +245,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
-            deps.push(super::ABLFLHPFPGJ::file_descriptor().clone());
+            deps.push(super::PHOCECJOBHH::file_descriptor().clone());
             deps.push(super::PunkLordMonsterBasicInfo::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(PunkLordBattleResultScNotify::generated_message_descriptor_data());

@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct DestroyItemScRsp {
     // message fields
-    // @@protoc_insertion_point(field:DestroyItemScRsp.PFCILKPDCGL)
-    pub PFCILKPDCGL: u32,
     // @@protoc_insertion_point(field:DestroyItemScRsp.retcode)
     pub retcode: u32,
+    // @@protoc_insertion_point(field:DestroyItemScRsp.PIAFCPCDCDF)
+    pub PIAFCPCDCDF: u32,
     // special fields
     // @@protoc_insertion_point(special_field:DestroyItemScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl DestroyItemScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "PFCILKPDCGL",
-            |m: &DestroyItemScRsp| { &m.PFCILKPDCGL },
-            |m: &mut DestroyItemScRsp| { &mut m.PFCILKPDCGL },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &DestroyItemScRsp| { &m.retcode },
             |m: &mut DestroyItemScRsp| { &mut m.retcode },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "PIAFCPCDCDF",
+            |m: &DestroyItemScRsp| { &m.PIAFCPCDCDF },
+            |m: &mut DestroyItemScRsp| { &mut m.PIAFCPCDCDF },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<DestroyItemScRsp>(
             "DestroyItemScRsp",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for DestroyItemScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                88 => {
-                    self.PFCILKPDCGL = is.read_uint32()?;
-                },
-                112 => {
+                48 => {
                     self.retcode = is.read_uint32()?;
+                },
+                80 => {
+                    self.PIAFCPCDCDF = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for DestroyItemScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.PFCILKPDCGL != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.PFCILKPDCGL);
-        }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(6, self.retcode);
+        }
+        if self.PIAFCPCDCDF != 0 {
+            my_size += ::protobuf::rt::uint32_size(10, self.PIAFCPCDCDF);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for DestroyItemScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.PFCILKPDCGL != 0 {
-            os.write_uint32(11, self.PFCILKPDCGL)?;
-        }
         if self.retcode != 0 {
-            os.write_uint32(14, self.retcode)?;
+            os.write_uint32(6, self.retcode)?;
+        }
+        if self.PIAFCPCDCDF != 0 {
+            os.write_uint32(10, self.PIAFCPCDCDF)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,15 +132,15 @@ impl ::protobuf::Message for DestroyItemScRsp {
     }
 
     fn clear(&mut self) {
-        self.PFCILKPDCGL = 0;
         self.retcode = 0;
+        self.PIAFCPCDCDF = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static DestroyItemScRsp {
         static instance: DestroyItemScRsp = DestroyItemScRsp {
-            PFCILKPDCGL: 0,
             retcode: 0,
+            PIAFCPCDCDF: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -165,9 +165,9 @@ impl ::protobuf::reflect::ProtobufValue for DestroyItemScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x16DestroyItemScRsp.proto\"N\n\x10DestroyItemScRsp\x12\x20\n\x0bPFCIL\
-    KPDCGL\x18\x0b\x20\x01(\rR\x0bPFCILKPDCGL\x12\x18\n\x07retcode\x18\x0e\
-    \x20\x01(\rR\x07retcodeb\x06proto3\
+    \n\x16DestroyItemScRsp.proto\"N\n\x10DestroyItemScRsp\x12\x18\n\x07retco\
+    de\x18\x06\x20\x01(\rR\x07retcode\x12\x20\n\x0bPIAFCPCDCDF\x18\n\x20\x01\
+    (\rR\x0bPIAFCPCDCDFb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

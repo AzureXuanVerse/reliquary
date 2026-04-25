@@ -30,10 +30,10 @@ pub struct ParkourGetRankingInfoScRsp {
     // message fields
     // @@protoc_insertion_point(field:ParkourGetRankingInfoScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:ParkourGetRankingInfoScRsp.PFOIIHNFOAE)
-    pub PFOIIHNFOAE: ::std::vec::Vec<super::EDHDHKFIIEM::EDHDHKFIIEM>,
-    // @@protoc_insertion_point(field:ParkourGetRankingInfoScRsp.JLJGCDFNMKP)
-    pub JLJGCDFNMKP: ::protobuf::MessageField<super::EDHDHKFIIEM::EDHDHKFIIEM>,
+    // @@protoc_insertion_point(field:ParkourGetRankingInfoScRsp.IMDCEFEGIPB)
+    pub IMDCEFEGIPB: ::protobuf::MessageField<super::AFDBEFKBBFM::AFDBEFKBBFM>,
+    // @@protoc_insertion_point(field:ParkourGetRankingInfoScRsp.DEHBAPFMBMB)
+    pub DEHBAPFMBMB: ::std::vec::Vec<super::AFDBEFKBBFM::AFDBEFKBBFM>,
     // special fields
     // @@protoc_insertion_point(special_field:ParkourGetRankingInfoScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -58,15 +58,15 @@ impl ParkourGetRankingInfoScRsp {
             |m: &ParkourGetRankingInfoScRsp| { &m.retcode },
             |m: &mut ParkourGetRankingInfoScRsp| { &mut m.retcode },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "PFOIIHNFOAE",
-            |m: &ParkourGetRankingInfoScRsp| { &m.PFOIIHNFOAE },
-            |m: &mut ParkourGetRankingInfoScRsp| { &mut m.PFOIIHNFOAE },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::AFDBEFKBBFM::AFDBEFKBBFM>(
+            "IMDCEFEGIPB",
+            |m: &ParkourGetRankingInfoScRsp| { &m.IMDCEFEGIPB },
+            |m: &mut ParkourGetRankingInfoScRsp| { &mut m.IMDCEFEGIPB },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::EDHDHKFIIEM::EDHDHKFIIEM>(
-            "JLJGCDFNMKP",
-            |m: &ParkourGetRankingInfoScRsp| { &m.JLJGCDFNMKP },
-            |m: &mut ParkourGetRankingInfoScRsp| { &mut m.JLJGCDFNMKP },
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "DEHBAPFMBMB",
+            |m: &ParkourGetRankingInfoScRsp| { &m.DEHBAPFMBMB },
+            |m: &mut ParkourGetRankingInfoScRsp| { &mut m.DEHBAPFMBMB },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ParkourGetRankingInfoScRsp>(
             "ParkourGetRankingInfoScRsp",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for ParkourGetRankingInfoScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                80 => {
+                48 => {
                     self.retcode = is.read_uint32()?;
                 },
-                98 => {
-                    self.PFOIIHNFOAE.push(is.read_message()?);
+                34 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.IMDCEFEGIPB)?;
                 },
-                50 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.JLJGCDFNMKP)?;
+                18 => {
+                    self.DEHBAPFMBMB.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -108,16 +108,16 @@ impl ::protobuf::Message for ParkourGetRankingInfoScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(6, self.retcode);
         }
-        for value in &self.PFOIIHNFOAE {
-            let len = value.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        };
-        if let Some(v) = self.JLJGCDFNMKP.as_ref() {
+        if let Some(v) = self.IMDCEFEGIPB.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
+        for value in &self.DEHBAPFMBMB {
+            let len = value.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        };
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
@@ -125,14 +125,14 @@ impl ::protobuf::Message for ParkourGetRankingInfoScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.retcode != 0 {
-            os.write_uint32(10, self.retcode)?;
+            os.write_uint32(6, self.retcode)?;
         }
-        for v in &self.PFOIIHNFOAE {
-            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
+        if let Some(v) = self.IMDCEFEGIPB.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
+        }
+        for v in &self.DEHBAPFMBMB {
+            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
         };
-        if let Some(v) = self.JLJGCDFNMKP.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
-        }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -151,16 +151,16 @@ impl ::protobuf::Message for ParkourGetRankingInfoScRsp {
 
     fn clear(&mut self) {
         self.retcode = 0;
-        self.PFOIIHNFOAE.clear();
-        self.JLJGCDFNMKP.clear();
+        self.IMDCEFEGIPB.clear();
+        self.DEHBAPFMBMB.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ParkourGetRankingInfoScRsp {
         static instance: ParkourGetRankingInfoScRsp = ParkourGetRankingInfoScRsp {
             retcode: 0,
-            PFOIIHNFOAE: ::std::vec::Vec::new(),
-            JLJGCDFNMKP: ::protobuf::MessageField::none(),
+            IMDCEFEGIPB: ::protobuf::MessageField::none(),
+            DEHBAPFMBMB: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -185,11 +185,11 @@ impl ::protobuf::reflect::ProtobufValue for ParkourGetRankingInfoScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x20ParkourGetRankingInfoScRsp.proto\x1a\x11EDHDHKFIIEM.proto\"\x96\
-    \x01\n\x1aParkourGetRankingInfoScRsp\x12\x18\n\x07retcode\x18\n\x20\x01(\
-    \rR\x07retcode\x12.\n\x0bPFOIIHNFOAE\x18\x0c\x20\x03(\x0b2\x0c.EDHDHKFII\
-    EMR\x0bPFOIIHNFOAE\x12.\n\x0bJLJGCDFNMKP\x18\x06\x20\x01(\x0b2\x0c.EDHDH\
-    KFIIEMR\x0bJLJGCDFNMKPb\x06proto3\
+    \n\x20ParkourGetRankingInfoScRsp.proto\x1a\x11AFDBEFKBBFM.proto\"\x96\
+    \x01\n\x1aParkourGetRankingInfoScRsp\x12\x18\n\x07retcode\x18\x06\x20\
+    \x01(\rR\x07retcode\x12.\n\x0bIMDCEFEGIPB\x18\x04\x20\x01(\x0b2\x0c.AFDB\
+    EFKBBFMR\x0bIMDCEFEGIPB\x12.\n\x0bDEHBAPFMBMB\x18\x02\x20\x03(\x0b2\x0c.\
+    AFDBEFKBBFMR\x0bDEHBAPFMBMBb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -207,7 +207,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::EDHDHKFIIEM::file_descriptor().clone());
+            deps.push(super::AFDBEFKBBFM::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(ParkourGetRankingInfoScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

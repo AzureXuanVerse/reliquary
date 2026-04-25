@@ -30,8 +30,8 @@ pub struct ReplaceLineupScRsp {
     // message fields
     // @@protoc_insertion_point(field:ReplaceLineupScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:ReplaceLineupScRsp.GDBLLNAMBFI)
-    pub GDBLLNAMBFI: u32,
+    // @@protoc_insertion_point(field:ReplaceLineupScRsp.PODLDPEIKKI)
+    pub PODLDPEIKKI: u32,
     // special fields
     // @@protoc_insertion_point(special_field:ReplaceLineupScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,9 +57,9 @@ impl ReplaceLineupScRsp {
             |m: &mut ReplaceLineupScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "GDBLLNAMBFI",
-            |m: &ReplaceLineupScRsp| { &m.GDBLLNAMBFI },
-            |m: &mut ReplaceLineupScRsp| { &mut m.GDBLLNAMBFI },
+            "PODLDPEIKKI",
+            |m: &ReplaceLineupScRsp| { &m.PODLDPEIKKI },
+            |m: &mut ReplaceLineupScRsp| { &mut m.PODLDPEIKKI },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ReplaceLineupScRsp>(
             "ReplaceLineupScRsp",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for ReplaceLineupScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                96 => {
+                32 => {
                     self.retcode = is.read_uint32()?;
                 },
                 104 => {
-                    self.GDBLLNAMBFI = is.read_uint32()?;
+                    self.PODLDPEIKKI = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -98,10 +98,10 @@ impl ::protobuf::Message for ReplaceLineupScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(4, self.retcode);
         }
-        if self.GDBLLNAMBFI != 0 {
-            my_size += ::protobuf::rt::uint32_size(13, self.GDBLLNAMBFI);
+        if self.PODLDPEIKKI != 0 {
+            my_size += ::protobuf::rt::uint32_size(13, self.PODLDPEIKKI);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,10 +110,10 @@ impl ::protobuf::Message for ReplaceLineupScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.retcode != 0 {
-            os.write_uint32(12, self.retcode)?;
+            os.write_uint32(4, self.retcode)?;
         }
-        if self.GDBLLNAMBFI != 0 {
-            os.write_uint32(13, self.GDBLLNAMBFI)?;
+        if self.PODLDPEIKKI != 0 {
+            os.write_uint32(13, self.PODLDPEIKKI)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -133,14 +133,14 @@ impl ::protobuf::Message for ReplaceLineupScRsp {
 
     fn clear(&mut self) {
         self.retcode = 0;
-        self.GDBLLNAMBFI = 0;
+        self.PODLDPEIKKI = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ReplaceLineupScRsp {
         static instance: ReplaceLineupScRsp = ReplaceLineupScRsp {
             retcode: 0,
-            GDBLLNAMBFI: 0,
+            PODLDPEIKKI: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for ReplaceLineupScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x18ReplaceLineupScRsp.proto\"P\n\x12ReplaceLineupScRsp\x12\x18\n\x07r\
-    etcode\x18\x0c\x20\x01(\rR\x07retcode\x12\x20\n\x0bGDBLLNAMBFI\x18\r\x20\
-    \x01(\rR\x0bGDBLLNAMBFIb\x06proto3\
+    etcode\x18\x04\x20\x01(\rR\x07retcode\x12\x20\n\x0bPODLDPEIKKI\x18\r\x20\
+    \x01(\rR\x0bPODLDPEIKKIb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

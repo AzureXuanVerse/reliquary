@@ -30,12 +30,12 @@ pub struct DiscardRelicScRsp {
     // message fields
     // @@protoc_insertion_point(field:DiscardRelicScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:DiscardRelicScRsp.MIAPGIPAGBA)
-    pub MIAPGIPAGBA: ::protobuf::EnumOrUnknown<super::RelicDiscardType::RelicDiscardType>,
     // @@protoc_insertion_point(field:DiscardRelicScRsp.relic_ids)
     pub relic_ids: ::std::vec::Vec<u32>,
-    // @@protoc_insertion_point(field:DiscardRelicScRsp.EJFDEBPPFMN)
-    pub EJFDEBPPFMN: bool,
+    // @@protoc_insertion_point(field:DiscardRelicScRsp.HHHLMNLMAGC)
+    pub HHHLMNLMAGC: ::protobuf::EnumOrUnknown<super::RelicDiscardType::RelicDiscardType>,
+    // @@protoc_insertion_point(field:DiscardRelicScRsp.LEINLFGHIBC)
+    pub LEINLFGHIBC: bool,
     // special fields
     // @@protoc_insertion_point(special_field:DiscardRelicScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -60,20 +60,20 @@ impl DiscardRelicScRsp {
             |m: &DiscardRelicScRsp| { &m.retcode },
             |m: &mut DiscardRelicScRsp| { &mut m.retcode },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MIAPGIPAGBA",
-            |m: &DiscardRelicScRsp| { &m.MIAPGIPAGBA },
-            |m: &mut DiscardRelicScRsp| { &mut m.MIAPGIPAGBA },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "relic_ids",
             |m: &DiscardRelicScRsp| { &m.relic_ids },
             |m: &mut DiscardRelicScRsp| { &mut m.relic_ids },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "EJFDEBPPFMN",
-            |m: &DiscardRelicScRsp| { &m.EJFDEBPPFMN },
-            |m: &mut DiscardRelicScRsp| { &mut m.EJFDEBPPFMN },
+            "HHHLMNLMAGC",
+            |m: &DiscardRelicScRsp| { &m.HHHLMNLMAGC },
+            |m: &mut DiscardRelicScRsp| { &mut m.HHHLMNLMAGC },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "LEINLFGHIBC",
+            |m: &DiscardRelicScRsp| { &m.LEINLFGHIBC },
+            |m: &mut DiscardRelicScRsp| { &mut m.LEINLFGHIBC },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<DiscardRelicScRsp>(
             "DiscardRelicScRsp",
@@ -93,20 +93,20 @@ impl ::protobuf::Message for DiscardRelicScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                64 => {
+                16 => {
                     self.retcode = is.read_uint32()?;
                 },
-                88 => {
-                    self.MIAPGIPAGBA = is.read_enum_or_unknown()?;
-                },
-                58 => {
+                74 => {
                     is.read_repeated_packed_uint32_into(&mut self.relic_ids)?;
                 },
-                56 => {
+                72 => {
                     self.relic_ids.push(is.read_uint32()?);
                 },
-                32 => {
-                    self.EJFDEBPPFMN = is.read_bool()?;
+                112 => {
+                    self.HHHLMNLMAGC = is.read_enum_or_unknown()?;
+                },
+                96 => {
+                    self.LEINLFGHIBC = is.read_bool()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -121,13 +121,13 @@ impl ::protobuf::Message for DiscardRelicScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(2, self.retcode);
         }
-        if self.MIAPGIPAGBA != ::protobuf::EnumOrUnknown::new(super::RelicDiscardType::RelicDiscardType::RelicDiscardType_BODGEBNACIK) {
-            my_size += ::protobuf::rt::int32_size(11, self.MIAPGIPAGBA.value());
+        my_size += ::protobuf::rt::vec_packed_uint32_size(9, &self.relic_ids);
+        if self.HHHLMNLMAGC != ::protobuf::EnumOrUnknown::new(super::RelicDiscardType::RelicDiscardType::EGEJGNADOHG_IFPDLCOIENF) {
+            my_size += ::protobuf::rt::int32_size(14, self.HHHLMNLMAGC.value());
         }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(7, &self.relic_ids);
-        if self.EJFDEBPPFMN != false {
+        if self.LEINLFGHIBC != false {
             my_size += 1 + 1;
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
@@ -137,14 +137,14 @@ impl ::protobuf::Message for DiscardRelicScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.retcode != 0 {
-            os.write_uint32(8, self.retcode)?;
+            os.write_uint32(2, self.retcode)?;
         }
-        if self.MIAPGIPAGBA != ::protobuf::EnumOrUnknown::new(super::RelicDiscardType::RelicDiscardType::RelicDiscardType_BODGEBNACIK) {
-            os.write_enum(11, ::protobuf::EnumOrUnknown::value(&self.MIAPGIPAGBA))?;
+        os.write_repeated_packed_uint32(9, &self.relic_ids)?;
+        if self.HHHLMNLMAGC != ::protobuf::EnumOrUnknown::new(super::RelicDiscardType::RelicDiscardType::EGEJGNADOHG_IFPDLCOIENF) {
+            os.write_enum(14, ::protobuf::EnumOrUnknown::value(&self.HHHLMNLMAGC))?;
         }
-        os.write_repeated_packed_uint32(7, &self.relic_ids)?;
-        if self.EJFDEBPPFMN != false {
-            os.write_bool(4, self.EJFDEBPPFMN)?;
+        if self.LEINLFGHIBC != false {
+            os.write_bool(12, self.LEINLFGHIBC)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -164,18 +164,18 @@ impl ::protobuf::Message for DiscardRelicScRsp {
 
     fn clear(&mut self) {
         self.retcode = 0;
-        self.MIAPGIPAGBA = ::protobuf::EnumOrUnknown::new(super::RelicDiscardType::RelicDiscardType::RelicDiscardType_BODGEBNACIK);
         self.relic_ids.clear();
-        self.EJFDEBPPFMN = false;
+        self.HHHLMNLMAGC = ::protobuf::EnumOrUnknown::new(super::RelicDiscardType::RelicDiscardType::EGEJGNADOHG_IFPDLCOIENF);
+        self.LEINLFGHIBC = false;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static DiscardRelicScRsp {
         static instance: DiscardRelicScRsp = DiscardRelicScRsp {
             retcode: 0,
-            MIAPGIPAGBA: ::protobuf::EnumOrUnknown::from_i32(0),
             relic_ids: ::std::vec::Vec::new(),
-            EJFDEBPPFMN: false,
+            HHHLMNLMAGC: ::protobuf::EnumOrUnknown::from_i32(0),
+            LEINLFGHIBC: false,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -201,10 +201,10 @@ impl ::protobuf::reflect::ProtobufValue for DiscardRelicScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x17DiscardRelicScRsp.proto\x1a\x16RelicDiscardType.proto\"\xa1\x01\n\
-    \x11DiscardRelicScRsp\x12\x18\n\x07retcode\x18\x08\x20\x01(\rR\x07retcod\
-    e\x123\n\x0bMIAPGIPAGBA\x18\x0b\x20\x01(\x0e2\x11.RelicDiscardTypeR\x0bM\
-    IAPGIPAGBA\x12\x1b\n\trelic_ids\x18\x07\x20\x03(\rR\x08relicIds\x12\x20\
-    \n\x0bEJFDEBPPFMN\x18\x04\x20\x01(\x08R\x0bEJFDEBPPFMNb\x06proto3\
+    \x11DiscardRelicScRsp\x12\x18\n\x07retcode\x18\x02\x20\x01(\rR\x07retcod\
+    e\x12\x1b\n\trelic_ids\x18\t\x20\x03(\rR\x08relicIds\x123\n\x0bHHHLMNLMA\
+    GC\x18\x0e\x20\x01(\x0e2\x11.RelicDiscardTypeR\x0bHHHLMNLMAGC\x12\x20\n\
+    \x0bLEINLFGHIBC\x18\x0c\x20\x01(\x08R\x0bLEINLFGHIBCb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

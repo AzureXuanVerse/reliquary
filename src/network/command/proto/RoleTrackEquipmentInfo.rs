@@ -28,16 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct RoleTrackEquipmentInfo {
     // message fields
-    // @@protoc_insertion_point(field:RoleTrackEquipmentInfo.source)
-    pub source: ::protobuf::EnumOrUnknown<super::GridFightEquipTrackSource::GridFightEquipTrackSource>,
-    // @@protoc_insertion_point(field:RoleTrackEquipmentInfo.FMFIMAIGLHI)
-    pub FMFIMAIGLHI: u32,
-    // @@protoc_insertion_point(field:RoleTrackEquipmentInfo.HHFGLCPLLPL)
-    pub HHFGLCPLLPL: u32,
-    // @@protoc_insertion_point(field:RoleTrackEquipmentInfo.track_equipped_id_list)
-    pub track_equipped_id_list: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:RoleTrackEquipmentInfo.BCGCGHEPDEA)
+    pub BCGCGHEPDEA: u32,
     // @@protoc_insertion_point(field:RoleTrackEquipmentInfo.grid_fight_item_list)
     pub grid_fight_item_list: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:RoleTrackEquipmentInfo.FANOLNOMHFI)
+    pub FANOLNOMHFI: u32,
+    // @@protoc_insertion_point(field:RoleTrackEquipmentInfo.track_equipped_id_list)
+    pub track_equipped_id_list: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:RoleTrackEquipmentInfo.source)
+    pub source: ::protobuf::EnumOrUnknown<super::GridFightEquipTrackSource::GridFightEquipTrackSource>,
     // special fields
     // @@protoc_insertion_point(special_field:RoleTrackEquipmentInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -58,29 +58,29 @@ impl RoleTrackEquipmentInfo {
         let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "source",
-            |m: &RoleTrackEquipmentInfo| { &m.source },
-            |m: &mut RoleTrackEquipmentInfo| { &mut m.source },
+            "BCGCGHEPDEA",
+            |m: &RoleTrackEquipmentInfo| { &m.BCGCGHEPDEA },
+            |m: &mut RoleTrackEquipmentInfo| { &mut m.BCGCGHEPDEA },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "grid_fight_item_list",
+            |m: &RoleTrackEquipmentInfo| { &m.grid_fight_item_list },
+            |m: &mut RoleTrackEquipmentInfo| { &mut m.grid_fight_item_list },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "FMFIMAIGLHI",
-            |m: &RoleTrackEquipmentInfo| { &m.FMFIMAIGLHI },
-            |m: &mut RoleTrackEquipmentInfo| { &mut m.FMFIMAIGLHI },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "HHFGLCPLLPL",
-            |m: &RoleTrackEquipmentInfo| { &m.HHFGLCPLLPL },
-            |m: &mut RoleTrackEquipmentInfo| { &mut m.HHFGLCPLLPL },
+            "FANOLNOMHFI",
+            |m: &RoleTrackEquipmentInfo| { &m.FANOLNOMHFI },
+            |m: &mut RoleTrackEquipmentInfo| { &mut m.FANOLNOMHFI },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "track_equipped_id_list",
             |m: &RoleTrackEquipmentInfo| { &m.track_equipped_id_list },
             |m: &mut RoleTrackEquipmentInfo| { &mut m.track_equipped_id_list },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "grid_fight_item_list",
-            |m: &RoleTrackEquipmentInfo| { &m.grid_fight_item_list },
-            |m: &mut RoleTrackEquipmentInfo| { &mut m.grid_fight_item_list },
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "source",
+            |m: &RoleTrackEquipmentInfo| { &m.source },
+            |m: &mut RoleTrackEquipmentInfo| { &mut m.source },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<RoleTrackEquipmentInfo>(
             "RoleTrackEquipmentInfo",
@@ -100,26 +100,26 @@ impl ::protobuf::Message for RoleTrackEquipmentInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                40 => {
-                    self.source = is.read_enum_or_unknown()?;
-                },
-                32 => {
-                    self.FMFIMAIGLHI = is.read_uint32()?;
-                },
-                16 => {
-                    self.HHFGLCPLLPL = is.read_uint32()?;
+                120 => {
+                    self.BCGCGHEPDEA = is.read_uint32()?;
                 },
                 50 => {
-                    is.read_repeated_packed_uint32_into(&mut self.track_equipped_id_list)?;
-                },
-                48 => {
-                    self.track_equipped_id_list.push(is.read_uint32()?);
-                },
-                114 => {
                     is.read_repeated_packed_uint32_into(&mut self.grid_fight_item_list)?;
                 },
-                112 => {
+                48 => {
                     self.grid_fight_item_list.push(is.read_uint32()?);
+                },
+                56 => {
+                    self.FANOLNOMHFI = is.read_uint32()?;
+                },
+                98 => {
+                    is.read_repeated_packed_uint32_into(&mut self.track_equipped_id_list)?;
+                },
+                96 => {
+                    self.track_equipped_id_list.push(is.read_uint32()?);
+                },
+                40 => {
+                    self.source = is.read_enum_or_unknown()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -133,34 +133,34 @@ impl ::protobuf::Message for RoleTrackEquipmentInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.source != ::protobuf::EnumOrUnknown::new(super::GridFightEquipTrackSource::GridFightEquipTrackSource::GridFightEquipTrackSource_EGKKIFHLLHA) {
+        if self.BCGCGHEPDEA != 0 {
+            my_size += ::protobuf::rt::uint32_size(15, self.BCGCGHEPDEA);
+        }
+        my_size += ::protobuf::rt::vec_packed_uint32_size(6, &self.grid_fight_item_list);
+        if self.FANOLNOMHFI != 0 {
+            my_size += ::protobuf::rt::uint32_size(7, self.FANOLNOMHFI);
+        }
+        my_size += ::protobuf::rt::vec_packed_uint32_size(12, &self.track_equipped_id_list);
+        if self.source != ::protobuf::EnumOrUnknown::new(super::GridFightEquipTrackSource::GridFightEquipTrackSource::HNKKNDHLOGN_HLNMMMKHEEM) {
             my_size += ::protobuf::rt::int32_size(5, self.source.value());
         }
-        if self.FMFIMAIGLHI != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.FMFIMAIGLHI);
-        }
-        if self.HHFGLCPLLPL != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.HHFGLCPLLPL);
-        }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(6, &self.track_equipped_id_list);
-        my_size += ::protobuf::rt::vec_packed_uint32_size(14, &self.grid_fight_item_list);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.source != ::protobuf::EnumOrUnknown::new(super::GridFightEquipTrackSource::GridFightEquipTrackSource::GridFightEquipTrackSource_EGKKIFHLLHA) {
+        if self.BCGCGHEPDEA != 0 {
+            os.write_uint32(15, self.BCGCGHEPDEA)?;
+        }
+        os.write_repeated_packed_uint32(6, &self.grid_fight_item_list)?;
+        if self.FANOLNOMHFI != 0 {
+            os.write_uint32(7, self.FANOLNOMHFI)?;
+        }
+        os.write_repeated_packed_uint32(12, &self.track_equipped_id_list)?;
+        if self.source != ::protobuf::EnumOrUnknown::new(super::GridFightEquipTrackSource::GridFightEquipTrackSource::HNKKNDHLOGN_HLNMMMKHEEM) {
             os.write_enum(5, ::protobuf::EnumOrUnknown::value(&self.source))?;
         }
-        if self.FMFIMAIGLHI != 0 {
-            os.write_uint32(4, self.FMFIMAIGLHI)?;
-        }
-        if self.HHFGLCPLLPL != 0 {
-            os.write_uint32(2, self.HHFGLCPLLPL)?;
-        }
-        os.write_repeated_packed_uint32(6, &self.track_equipped_id_list)?;
-        os.write_repeated_packed_uint32(14, &self.grid_fight_item_list)?;
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -178,21 +178,21 @@ impl ::protobuf::Message for RoleTrackEquipmentInfo {
     }
 
     fn clear(&mut self) {
-        self.source = ::protobuf::EnumOrUnknown::new(super::GridFightEquipTrackSource::GridFightEquipTrackSource::GridFightEquipTrackSource_EGKKIFHLLHA);
-        self.FMFIMAIGLHI = 0;
-        self.HHFGLCPLLPL = 0;
-        self.track_equipped_id_list.clear();
+        self.BCGCGHEPDEA = 0;
         self.grid_fight_item_list.clear();
+        self.FANOLNOMHFI = 0;
+        self.track_equipped_id_list.clear();
+        self.source = ::protobuf::EnumOrUnknown::new(super::GridFightEquipTrackSource::GridFightEquipTrackSource::HNKKNDHLOGN_HLNMMMKHEEM);
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static RoleTrackEquipmentInfo {
         static instance: RoleTrackEquipmentInfo = RoleTrackEquipmentInfo {
-            source: ::protobuf::EnumOrUnknown::from_i32(0),
-            FMFIMAIGLHI: 0,
-            HHFGLCPLLPL: 0,
-            track_equipped_id_list: ::std::vec::Vec::new(),
+            BCGCGHEPDEA: 0,
             grid_fight_item_list: ::std::vec::Vec::new(),
+            FANOLNOMHFI: 0,
+            track_equipped_id_list: ::std::vec::Vec::new(),
+            source: ::protobuf::EnumOrUnknown::from_i32(0),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -218,12 +218,12 @@ impl ::protobuf::reflect::ProtobufValue for RoleTrackEquipmentInfo {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1cRoleTrackEquipmentInfo.proto\x1a\x1fGridFightEquipTrackSource.prot\
-    o\"\xf6\x01\n\x16RoleTrackEquipmentInfo\x122\n\x06source\x18\x05\x20\x01\
-    (\x0e2\x1a.GridFightEquipTrackSourceR\x06source\x12\x20\n\x0bFMFIMAIGLHI\
-    \x18\x04\x20\x01(\rR\x0bFMFIMAIGLHI\x12\x20\n\x0bHHFGLCPLLPL\x18\x02\x20\
-    \x01(\rR\x0bHHFGLCPLLPL\x123\n\x16track_equipped_id_list\x18\x06\x20\x03\
-    (\rR\x13trackEquippedIdList\x12/\n\x14grid_fight_item_list\x18\x0e\x20\
-    \x03(\rR\x11gridFightItemListb\x06proto3\
+    o\"\xf6\x01\n\x16RoleTrackEquipmentInfo\x12\x20\n\x0bBCGCGHEPDEA\x18\x0f\
+    \x20\x01(\rR\x0bBCGCGHEPDEA\x12/\n\x14grid_fight_item_list\x18\x06\x20\
+    \x03(\rR\x11gridFightItemList\x12\x20\n\x0bFANOLNOMHFI\x18\x07\x20\x01(\
+    \rR\x0bFANOLNOMHFI\x123\n\x16track_equipped_id_list\x18\x0c\x20\x03(\rR\
+    \x13trackEquippedIdList\x122\n\x06source\x18\x05\x20\x01(\x0e2\x1a.GridF\
+    ightEquipTrackSourceR\x06sourceb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

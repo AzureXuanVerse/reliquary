@@ -27,14 +27,14 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:StatType)
 pub enum StatType {
-    // @@protoc_insertion_point(enum_value:StatType.StatType_MNFEPONEDDJ)
-    StatType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:StatType.StatType_AMFIHOHBLHK)
-    StatType_AMFIHOHBLHK = 1,
-    // @@protoc_insertion_point(enum_value:StatType.StatType_AKJNOIBPFMC)
-    StatType_AKJNOIBPFMC = 2,
-    // @@protoc_insertion_point(enum_value:StatType.StatType_BLMOCCEJCCM)
-    StatType_BLMOCCEJCCM = 3,
+    // @@protoc_insertion_point(enum_value:StatType.POHDIBANGEF_PCPDHELPKEM)
+    POHDIBANGEF_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:StatType.POHDIBANGEF_GNPNMGPCJDD)
+    POHDIBANGEF_GNPNMGPCJDD = 1,
+    // @@protoc_insertion_point(enum_value:StatType.POHDIBANGEF_LJMICELEHAL)
+    POHDIBANGEF_LJMICELEHAL = 2,
+    // @@protoc_insertion_point(enum_value:StatType.POHDIBANGEF_LDLFFJPOEPK)
+    POHDIBANGEF_LDLFFJPOEPK = 3,
 }
 
 impl ::protobuf::Enum for StatType {
@@ -46,29 +46,29 @@ impl ::protobuf::Enum for StatType {
 
     fn from_i32(value: i32) -> ::std::option::Option<StatType> {
         match value {
-            0 => ::std::option::Option::Some(StatType::StatType_MNFEPONEDDJ),
-            1 => ::std::option::Option::Some(StatType::StatType_AMFIHOHBLHK),
-            2 => ::std::option::Option::Some(StatType::StatType_AKJNOIBPFMC),
-            3 => ::std::option::Option::Some(StatType::StatType_BLMOCCEJCCM),
+            0 => ::std::option::Option::Some(StatType::POHDIBANGEF_PCPDHELPKEM),
+            1 => ::std::option::Option::Some(StatType::POHDIBANGEF_GNPNMGPCJDD),
+            2 => ::std::option::Option::Some(StatType::POHDIBANGEF_LJMICELEHAL),
+            3 => ::std::option::Option::Some(StatType::POHDIBANGEF_LDLFFJPOEPK),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<StatType> {
         match str {
-            "StatType_MNFEPONEDDJ" => ::std::option::Option::Some(StatType::StatType_MNFEPONEDDJ),
-            "StatType_AMFIHOHBLHK" => ::std::option::Option::Some(StatType::StatType_AMFIHOHBLHK),
-            "StatType_AKJNOIBPFMC" => ::std::option::Option::Some(StatType::StatType_AKJNOIBPFMC),
-            "StatType_BLMOCCEJCCM" => ::std::option::Option::Some(StatType::StatType_BLMOCCEJCCM),
+            "POHDIBANGEF_PCPDHELPKEM" => ::std::option::Option::Some(StatType::POHDIBANGEF_PCPDHELPKEM),
+            "POHDIBANGEF_GNPNMGPCJDD" => ::std::option::Option::Some(StatType::POHDIBANGEF_GNPNMGPCJDD),
+            "POHDIBANGEF_LJMICELEHAL" => ::std::option::Option::Some(StatType::POHDIBANGEF_LJMICELEHAL),
+            "POHDIBANGEF_LDLFFJPOEPK" => ::std::option::Option::Some(StatType::POHDIBANGEF_LDLFFJPOEPK),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [StatType] = &[
-        StatType::StatType_MNFEPONEDDJ,
-        StatType::StatType_AMFIHOHBLHK,
-        StatType::StatType_AKJNOIBPFMC,
-        StatType::StatType_BLMOCCEJCCM,
+        StatType::POHDIBANGEF_PCPDHELPKEM,
+        StatType::POHDIBANGEF_GNPNMGPCJDD,
+        StatType::POHDIBANGEF_LJMICELEHAL,
+        StatType::POHDIBANGEF_LDLFFJPOEPK,
     ];
 }
 
@@ -86,7 +86,7 @@ impl ::protobuf::EnumFull for StatType {
 
 impl ::std::default::Default for StatType {
     fn default() -> Self {
-        StatType::StatType_MNFEPONEDDJ
+        StatType::POHDIBANGEF_PCPDHELPKEM
     }
 }
 
@@ -97,9 +97,10 @@ impl StatType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x0eStatType.proto*r\n\x08StatType\x12\x18\n\x14StatType_MNFEPONEDDJ\
-    \x10\0\x12\x18\n\x14StatType_AMFIHOHBLHK\x10\x01\x12\x18\n\x14StatType_A\
-    KJNOIBPFMC\x10\x02\x12\x18\n\x14StatType_BLMOCCEJCCM\x10\x03b\x06proto3\
+    \n\x0eStatType.proto*~\n\x08StatType\x12\x1b\n\x17POHDIBANGEF_PCPDHELPKE\
+    M\x10\0\x12\x1b\n\x17POHDIBANGEF_GNPNMGPCJDD\x10\x01\x12\x1b\n\x17POHDIB\
+    ANGEF_LJMICELEHAL\x10\x02\x12\x1b\n\x17POHDIBANGEF_LDLFFJPOEPK\x10\x03b\
+    \x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -79,10 +79,10 @@ impl ::protobuf::Message for GridFightLineupHpSyncInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                8 => {
+                104 => {
                     self.grid_fight_lineup_max_hp = is.read_uint32()?;
                 },
-                16 => {
+                112 => {
                     self.grid_fight_lineup_hp = is.read_uint32()?;
                 },
                 tag => {
@@ -98,10 +98,10 @@ impl ::protobuf::Message for GridFightLineupHpSyncInfo {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.grid_fight_lineup_max_hp != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.grid_fight_lineup_max_hp);
+            my_size += ::protobuf::rt::uint32_size(13, self.grid_fight_lineup_max_hp);
         }
         if self.grid_fight_lineup_hp != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.grid_fight_lineup_hp);
+            my_size += ::protobuf::rt::uint32_size(14, self.grid_fight_lineup_hp);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,10 +110,10 @@ impl ::protobuf::Message for GridFightLineupHpSyncInfo {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.grid_fight_lineup_max_hp != 0 {
-            os.write_uint32(1, self.grid_fight_lineup_max_hp)?;
+            os.write_uint32(13, self.grid_fight_lineup_max_hp)?;
         }
         if self.grid_fight_lineup_hp != 0 {
-            os.write_uint32(2, self.grid_fight_lineup_hp)?;
+            os.write_uint32(14, self.grid_fight_lineup_hp)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -166,9 +166,9 @@ impl ::protobuf::reflect::ProtobufValue for GridFightLineupHpSyncInfo {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1fGridFightLineupHpSyncInfo.proto\"\x84\x01\n\x19GridFightLineupHpSy\
-    ncInfo\x126\n\x18grid_fight_lineup_max_hp\x18\x01\x20\x01(\rR\x14gridFig\
-    htLineupMaxHp\x12/\n\x14grid_fight_lineup_hp\x18\x02\x20\x01(\rR\x11grid\
-    FightLineupHpb\x06proto3\
+    ncInfo\x126\n\x18grid_fight_lineup_max_hp\x18\r\x20\x01(\rR\x14gridFight\
+    LineupMaxHp\x12/\n\x14grid_fight_lineup_hp\x18\x0e\x20\x01(\rR\x11gridFi\
+    ghtLineupHpb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

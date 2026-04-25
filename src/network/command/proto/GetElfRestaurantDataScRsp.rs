@@ -28,18 +28,18 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GetElfRestaurantDataScRsp {
     // message fields
-    // @@protoc_insertion_point(field:GetElfRestaurantDataScRsp.NMLDGLIMOLJ)
-    pub NMLDGLIMOLJ: ::protobuf::MessageField<super::BMFNBCJMFHP::BMFNBCJMFHP>,
-    // @@protoc_insertion_point(field:GetElfRestaurantDataScRsp.AFABNPDGKFI)
-    pub AFABNPDGKFI: ::protobuf::MessageField<super::KDONGKJEJHL::KDONGKJEJHL>,
-    // @@protoc_insertion_point(field:GetElfRestaurantDataScRsp.EFLJEBAIJOH)
-    pub EFLJEBAIJOH: ::protobuf::MessageField<super::OEFFEKNHPAG::OEFFEKNHPAG>,
-    // @@protoc_insertion_point(field:GetElfRestaurantDataScRsp.KHBPPEFJADN)
-    pub KHBPPEFJADN: ::protobuf::MessageField<super::HBGLLKIMMNE::HBGLLKIMMNE>,
-    // @@protoc_insertion_point(field:GetElfRestaurantDataScRsp.MKGGGENFKDE)
-    pub MKGGGENFKDE: ::protobuf::MessageField<super::ICCAKHPCOPI::ICCAKHPCOPI>,
+    // @@protoc_insertion_point(field:GetElfRestaurantDataScRsp.BNJBFPCDAFE)
+    pub BNJBFPCDAFE: ::protobuf::MessageField<super::BCNJMGCEGAA::BCNJMGCEGAA>,
+    // @@protoc_insertion_point(field:GetElfRestaurantDataScRsp.OCGNOACLJAJ)
+    pub OCGNOACLJAJ: ::protobuf::MessageField<super::NCPCAIKAJGD::NCPCAIKAJGD>,
     // @@protoc_insertion_point(field:GetElfRestaurantDataScRsp.retcode)
     pub retcode: u32,
+    // @@protoc_insertion_point(field:GetElfRestaurantDataScRsp.DCIDLIFMNLA)
+    pub DCIDLIFMNLA: ::protobuf::MessageField<super::BBCLLNPDIAH::BBCLLNPDIAH>,
+    // @@protoc_insertion_point(field:GetElfRestaurantDataScRsp.LIBKPMMGGLJ)
+    pub LIBKPMMGGLJ: ::protobuf::MessageField<super::AFOECDHJPII::AFOECDHJPII>,
+    // @@protoc_insertion_point(field:GetElfRestaurantDataScRsp.KIIINGJLEHG)
+    pub KIIINGJLEHG: ::protobuf::MessageField<super::MFLDHBJNEOO::MFLDHBJNEOO>,
     // special fields
     // @@protoc_insertion_point(special_field:GetElfRestaurantDataScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -59,35 +59,35 @@ impl GetElfRestaurantDataScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(6);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::BMFNBCJMFHP::BMFNBCJMFHP>(
-            "NMLDGLIMOLJ",
-            |m: &GetElfRestaurantDataScRsp| { &m.NMLDGLIMOLJ },
-            |m: &mut GetElfRestaurantDataScRsp| { &mut m.NMLDGLIMOLJ },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::BCNJMGCEGAA::BCNJMGCEGAA>(
+            "BNJBFPCDAFE",
+            |m: &GetElfRestaurantDataScRsp| { &m.BNJBFPCDAFE },
+            |m: &mut GetElfRestaurantDataScRsp| { &mut m.BNJBFPCDAFE },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::KDONGKJEJHL::KDONGKJEJHL>(
-            "AFABNPDGKFI",
-            |m: &GetElfRestaurantDataScRsp| { &m.AFABNPDGKFI },
-            |m: &mut GetElfRestaurantDataScRsp| { &mut m.AFABNPDGKFI },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::OEFFEKNHPAG::OEFFEKNHPAG>(
-            "EFLJEBAIJOH",
-            |m: &GetElfRestaurantDataScRsp| { &m.EFLJEBAIJOH },
-            |m: &mut GetElfRestaurantDataScRsp| { &mut m.EFLJEBAIJOH },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::HBGLLKIMMNE::HBGLLKIMMNE>(
-            "KHBPPEFJADN",
-            |m: &GetElfRestaurantDataScRsp| { &m.KHBPPEFJADN },
-            |m: &mut GetElfRestaurantDataScRsp| { &mut m.KHBPPEFJADN },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ICCAKHPCOPI::ICCAKHPCOPI>(
-            "MKGGGENFKDE",
-            |m: &GetElfRestaurantDataScRsp| { &m.MKGGGENFKDE },
-            |m: &mut GetElfRestaurantDataScRsp| { &mut m.MKGGGENFKDE },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::NCPCAIKAJGD::NCPCAIKAJGD>(
+            "OCGNOACLJAJ",
+            |m: &GetElfRestaurantDataScRsp| { &m.OCGNOACLJAJ },
+            |m: &mut GetElfRestaurantDataScRsp| { &mut m.OCGNOACLJAJ },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &GetElfRestaurantDataScRsp| { &m.retcode },
             |m: &mut GetElfRestaurantDataScRsp| { &mut m.retcode },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::BBCLLNPDIAH::BBCLLNPDIAH>(
+            "DCIDLIFMNLA",
+            |m: &GetElfRestaurantDataScRsp| { &m.DCIDLIFMNLA },
+            |m: &mut GetElfRestaurantDataScRsp| { &mut m.DCIDLIFMNLA },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::AFOECDHJPII::AFOECDHJPII>(
+            "LIBKPMMGGLJ",
+            |m: &GetElfRestaurantDataScRsp| { &m.LIBKPMMGGLJ },
+            |m: &mut GetElfRestaurantDataScRsp| { &mut m.LIBKPMMGGLJ },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::MFLDHBJNEOO::MFLDHBJNEOO>(
+            "KIIINGJLEHG",
+            |m: &GetElfRestaurantDataScRsp| { &m.KIIINGJLEHG },
+            |m: &mut GetElfRestaurantDataScRsp| { &mut m.KIIINGJLEHG },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetElfRestaurantDataScRsp>(
             "GetElfRestaurantDataScRsp",
@@ -107,23 +107,23 @@ impl ::protobuf::Message for GetElfRestaurantDataScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                26 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.NMLDGLIMOLJ)?;
+                58 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.BNJBFPCDAFE)?;
                 },
-                10 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.AFABNPDGKFI)?;
+                66 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.OCGNOACLJAJ)?;
                 },
-                122 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.EFLJEBAIJOH)?;
-                },
-                42 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.KHBPPEFJADN)?;
-                },
-                106 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.MKGGGENFKDE)?;
-                },
-                88 => {
+                16 => {
                     self.retcode = is.read_uint32()?;
+                },
+                90 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.DCIDLIFMNLA)?;
+                },
+                26 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.LIBKPMMGGLJ)?;
+                },
+                98 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.KIIINGJLEHG)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -137,28 +137,28 @@ impl ::protobuf::Message for GetElfRestaurantDataScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.NMLDGLIMOLJ.as_ref() {
+        if let Some(v) = self.BNJBFPCDAFE.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if let Some(v) = self.AFABNPDGKFI.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.EFLJEBAIJOH.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.KHBPPEFJADN.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.MKGGGENFKDE.as_ref() {
+        if let Some(v) = self.OCGNOACLJAJ.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(2, self.retcode);
+        }
+        if let Some(v) = self.DCIDLIFMNLA.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if let Some(v) = self.LIBKPMMGGLJ.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if let Some(v) = self.KIIINGJLEHG.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -166,23 +166,23 @@ impl ::protobuf::Message for GetElfRestaurantDataScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.NMLDGLIMOLJ.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
+        if let Some(v) = self.BNJBFPCDAFE.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
         }
-        if let Some(v) = self.AFABNPDGKFI.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
-        }
-        if let Some(v) = self.EFLJEBAIJOH.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
-        }
-        if let Some(v) = self.KHBPPEFJADN.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
-        }
-        if let Some(v) = self.MKGGGENFKDE.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
+        if let Some(v) = self.OCGNOACLJAJ.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(11, self.retcode)?;
+            os.write_uint32(2, self.retcode)?;
+        }
+        if let Some(v) = self.DCIDLIFMNLA.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
+        }
+        if let Some(v) = self.LIBKPMMGGLJ.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
+        }
+        if let Some(v) = self.KIIINGJLEHG.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -201,23 +201,23 @@ impl ::protobuf::Message for GetElfRestaurantDataScRsp {
     }
 
     fn clear(&mut self) {
-        self.NMLDGLIMOLJ.clear();
-        self.AFABNPDGKFI.clear();
-        self.EFLJEBAIJOH.clear();
-        self.KHBPPEFJADN.clear();
-        self.MKGGGENFKDE.clear();
+        self.BNJBFPCDAFE.clear();
+        self.OCGNOACLJAJ.clear();
         self.retcode = 0;
+        self.DCIDLIFMNLA.clear();
+        self.LIBKPMMGGLJ.clear();
+        self.KIIINGJLEHG.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetElfRestaurantDataScRsp {
         static instance: GetElfRestaurantDataScRsp = GetElfRestaurantDataScRsp {
-            NMLDGLIMOLJ: ::protobuf::MessageField::none(),
-            AFABNPDGKFI: ::protobuf::MessageField::none(),
-            EFLJEBAIJOH: ::protobuf::MessageField::none(),
-            KHBPPEFJADN: ::protobuf::MessageField::none(),
-            MKGGGENFKDE: ::protobuf::MessageField::none(),
+            BNJBFPCDAFE: ::protobuf::MessageField::none(),
+            OCGNOACLJAJ: ::protobuf::MessageField::none(),
             retcode: 0,
+            DCIDLIFMNLA: ::protobuf::MessageField::none(),
+            LIBKPMMGGLJ: ::protobuf::MessageField::none(),
+            KIIINGJLEHG: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -242,15 +242,15 @@ impl ::protobuf::reflect::ProtobufValue for GetElfRestaurantDataScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1fGetElfRestaurantDataScRsp.proto\x1a\x11BMFNBCJMFHP.proto\x1a\x11HB\
-    GLLKIMMNE.proto\x1a\x11ICCAKHPCOPI.proto\x1a\x11KDONGKJEJHL.proto\x1a\
-    \x11OEFFEKNHPAG.proto\"\xa5\x02\n\x19GetElfRestaurantDataScRsp\x12.\n\
-    \x0bNMLDGLIMOLJ\x18\x03\x20\x01(\x0b2\x0c.BMFNBCJMFHPR\x0bNMLDGLIMOLJ\
-    \x12.\n\x0bAFABNPDGKFI\x18\x01\x20\x01(\x0b2\x0c.KDONGKJEJHLR\x0bAFABNPD\
-    GKFI\x12.\n\x0bEFLJEBAIJOH\x18\x0f\x20\x01(\x0b2\x0c.OEFFEKNHPAGR\x0bEFL\
-    JEBAIJOH\x12.\n\x0bKHBPPEFJADN\x18\x05\x20\x01(\x0b2\x0c.HBGLLKIMMNER\
-    \x0bKHBPPEFJADN\x12.\n\x0bMKGGGENFKDE\x18\r\x20\x01(\x0b2\x0c.ICCAKHPCOP\
-    IR\x0bMKGGGENFKDE\x12\x18\n\x07retcode\x18\x0b\x20\x01(\rR\x07retcodeb\
+    \n\x1fGetElfRestaurantDataScRsp.proto\x1a\x11AFOECDHJPII.proto\x1a\x11BB\
+    CLLNPDIAH.proto\x1a\x11BCNJMGCEGAA.proto\x1a\x11MFLDHBJNEOO.proto\x1a\
+    \x11NCPCAIKAJGD.proto\"\xa5\x02\n\x19GetElfRestaurantDataScRsp\x12.\n\
+    \x0bBNJBFPCDAFE\x18\x07\x20\x01(\x0b2\x0c.BCNJMGCEGAAR\x0bBNJBFPCDAFE\
+    \x12.\n\x0bOCGNOACLJAJ\x18\x08\x20\x01(\x0b2\x0c.NCPCAIKAJGDR\x0bOCGNOAC\
+    LJAJ\x12\x18\n\x07retcode\x18\x02\x20\x01(\rR\x07retcode\x12.\n\x0bDCIDL\
+    IFMNLA\x18\x0b\x20\x01(\x0b2\x0c.BBCLLNPDIAHR\x0bDCIDLIFMNLA\x12.\n\x0bL\
+    IBKPMMGGLJ\x18\x03\x20\x01(\x0b2\x0c.AFOECDHJPIIR\x0bLIBKPMMGGLJ\x12.\n\
+    \x0bKIIINGJLEHG\x18\x0c\x20\x01(\x0b2\x0c.MFLDHBJNEOOR\x0bKIIINGJLEHGb\
     \x06proto3\
 ";
 
@@ -269,11 +269,11 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(5);
-            deps.push(super::BMFNBCJMFHP::file_descriptor().clone());
-            deps.push(super::HBGLLKIMMNE::file_descriptor().clone());
-            deps.push(super::ICCAKHPCOPI::file_descriptor().clone());
-            deps.push(super::KDONGKJEJHL::file_descriptor().clone());
-            deps.push(super::OEFFEKNHPAG::file_descriptor().clone());
+            deps.push(super::AFOECDHJPII::file_descriptor().clone());
+            deps.push(super::BBCLLNPDIAH::file_descriptor().clone());
+            deps.push(super::BCNJMGCEGAA::file_descriptor().clone());
+            deps.push(super::MFLDHBJNEOO::file_descriptor().clone());
+            deps.push(super::NCPCAIKAJGD::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GetElfRestaurantDataScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

@@ -30,10 +30,10 @@ pub struct RechargeSuccNotify {
     // message fields
     // @@protoc_insertion_point(field:RechargeSuccNotify.product_id)
     pub product_id: ::std::string::String,
-    // @@protoc_insertion_point(field:RechargeSuccNotify.month_card_out_date_time)
-    pub month_card_out_date_time: u64,
     // @@protoc_insertion_point(field:RechargeSuccNotify.item_list)
     pub item_list: ::protobuf::MessageField<super::ItemList::ItemList>,
+    // @@protoc_insertion_point(field:RechargeSuccNotify.month_card_out_date_time)
+    pub month_card_out_date_time: u64,
     // @@protoc_insertion_point(field:RechargeSuccNotify.price_tier)
     pub price_tier: ::std::string::String,
     // special fields
@@ -60,15 +60,15 @@ impl RechargeSuccNotify {
             |m: &RechargeSuccNotify| { &m.product_id },
             |m: &mut RechargeSuccNotify| { &mut m.product_id },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "month_card_out_date_time",
-            |m: &RechargeSuccNotify| { &m.month_card_out_date_time },
-            |m: &mut RechargeSuccNotify| { &mut m.month_card_out_date_time },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemList::ItemList>(
             "item_list",
             |m: &RechargeSuccNotify| { &m.item_list },
             |m: &mut RechargeSuccNotify| { &mut m.item_list },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "month_card_out_date_time",
+            |m: &RechargeSuccNotify| { &m.month_card_out_date_time },
+            |m: &mut RechargeSuccNotify| { &mut m.month_card_out_date_time },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "price_tier",
@@ -93,16 +93,16 @@ impl ::protobuf::Message for RechargeSuccNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                18 => {
+                66 => {
                     self.product_id = is.read_string()?;
                 },
-                80 => {
-                    self.month_card_out_date_time = is.read_uint64()?;
-                },
-                42 => {
+                98 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.item_list)?;
                 },
-                50 => {
+                32 => {
+                    self.month_card_out_date_time = is.read_uint64()?;
+                },
+                26 => {
                     self.price_tier = is.read_string()?;
                 },
                 tag => {
@@ -118,17 +118,17 @@ impl ::protobuf::Message for RechargeSuccNotify {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if !self.product_id.is_empty() {
-            my_size += ::protobuf::rt::string_size(2, &self.product_id);
-        }
-        if self.month_card_out_date_time != 0 {
-            my_size += ::protobuf::rt::uint64_size(10, self.month_card_out_date_time);
+            my_size += ::protobuf::rt::string_size(8, &self.product_id);
         }
         if let Some(v) = self.item_list.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
+        if self.month_card_out_date_time != 0 {
+            my_size += ::protobuf::rt::uint64_size(4, self.month_card_out_date_time);
+        }
         if !self.price_tier.is_empty() {
-            my_size += ::protobuf::rt::string_size(6, &self.price_tier);
+            my_size += ::protobuf::rt::string_size(3, &self.price_tier);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -137,16 +137,16 @@ impl ::protobuf::Message for RechargeSuccNotify {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if !self.product_id.is_empty() {
-            os.write_string(2, &self.product_id)?;
-        }
-        if self.month_card_out_date_time != 0 {
-            os.write_uint64(10, self.month_card_out_date_time)?;
+            os.write_string(8, &self.product_id)?;
         }
         if let Some(v) = self.item_list.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
+        }
+        if self.month_card_out_date_time != 0 {
+            os.write_uint64(4, self.month_card_out_date_time)?;
         }
         if !self.price_tier.is_empty() {
-            os.write_string(6, &self.price_tier)?;
+            os.write_string(3, &self.price_tier)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -166,8 +166,8 @@ impl ::protobuf::Message for RechargeSuccNotify {
 
     fn clear(&mut self) {
         self.product_id.clear();
-        self.month_card_out_date_time = 0;
         self.item_list.clear();
+        self.month_card_out_date_time = 0;
         self.price_tier.clear();
         self.special_fields.clear();
     }
@@ -175,8 +175,8 @@ impl ::protobuf::Message for RechargeSuccNotify {
     fn default_instance() -> &'static RechargeSuccNotify {
         static instance: RechargeSuccNotify = RechargeSuccNotify {
             product_id: ::std::string::String::new(),
-            month_card_out_date_time: 0,
             item_list: ::protobuf::MessageField::none(),
+            month_card_out_date_time: 0,
             price_tier: ::std::string::String::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -203,10 +203,10 @@ impl ::protobuf::reflect::ProtobufValue for RechargeSuccNotify {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x18RechargeSuccNotify.proto\x1a\x0eItemList.proto\"\xb2\x01\n\x12Rech\
-    argeSuccNotify\x12\x1d\n\nproduct_id\x18\x02\x20\x01(\tR\tproductId\x126\
-    \n\x18month_card_out_date_time\x18\n\x20\x01(\x04R\x14monthCardOutDateTi\
-    me\x12&\n\titem_list\x18\x05\x20\x01(\x0b2\t.ItemListR\x08itemList\x12\
-    \x1d\n\nprice_tier\x18\x06\x20\x01(\tR\tpriceTierb\x06proto3\
+    argeSuccNotify\x12\x1d\n\nproduct_id\x18\x08\x20\x01(\tR\tproductId\x12&\
+    \n\titem_list\x18\x0c\x20\x01(\x0b2\t.ItemListR\x08itemList\x126\n\x18mo\
+    nth_card_out_date_time\x18\x04\x20\x01(\x04R\x14monthCardOutDateTime\x12\
+    \x1d\n\nprice_tier\x18\x03\x20\x01(\tR\tpriceTierb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

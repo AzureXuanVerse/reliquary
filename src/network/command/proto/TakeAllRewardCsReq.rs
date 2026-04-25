@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct TakeAllRewardCsReq {
     // message fields
-    // @@protoc_insertion_point(field:TakeAllRewardCsReq.KGHFNDBFLFB)
-    pub KGHFNDBFLFB: ::std::vec::Vec<super::OptionalReward::OptionalReward>,
+    // @@protoc_insertion_point(field:TakeAllRewardCsReq.GGBKOFKEHND)
+    pub GGBKOFKEHND: ::std::vec::Vec<super::OptionalReward::OptionalReward>,
     // special fields
     // @@protoc_insertion_point(special_field:TakeAllRewardCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl TakeAllRewardCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "KGHFNDBFLFB",
-            |m: &TakeAllRewardCsReq| { &m.KGHFNDBFLFB },
-            |m: &mut TakeAllRewardCsReq| { &mut m.KGHFNDBFLFB },
+            "GGBKOFKEHND",
+            |m: &TakeAllRewardCsReq| { &m.GGBKOFKEHND },
+            |m: &mut TakeAllRewardCsReq| { &mut m.GGBKOFKEHND },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<TakeAllRewardCsReq>(
             "TakeAllRewardCsReq",
@@ -73,7 +73,7 @@ impl ::protobuf::Message for TakeAllRewardCsReq {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
                 74 => {
-                    self.KGHFNDBFLFB.push(is.read_message()?);
+                    self.GGBKOFKEHND.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,7 +87,7 @@ impl ::protobuf::Message for TakeAllRewardCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        for value in &self.KGHFNDBFLFB {
+        for value in &self.GGBKOFKEHND {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
@@ -97,7 +97,7 @@ impl ::protobuf::Message for TakeAllRewardCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.KGHFNDBFLFB {
+        for v in &self.GGBKOFKEHND {
             ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
         };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
@@ -117,13 +117,13 @@ impl ::protobuf::Message for TakeAllRewardCsReq {
     }
 
     fn clear(&mut self) {
-        self.KGHFNDBFLFB.clear();
+        self.GGBKOFKEHND.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static TakeAllRewardCsReq {
         static instance: TakeAllRewardCsReq = TakeAllRewardCsReq {
-            KGHFNDBFLFB: ::std::vec::Vec::new(),
+            GGBKOFKEHND: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -149,8 +149,8 @@ impl ::protobuf::reflect::ProtobufValue for TakeAllRewardCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x18TakeAllRewardCsReq.proto\x1a\x14OptionalReward.proto\"G\n\x12TakeA\
-    llRewardCsReq\x121\n\x0bKGHFNDBFLFB\x18\t\x20\x03(\x0b2\x0f.OptionalRewa\
-    rdR\x0bKGHFNDBFLFBb\x06proto3\
+    llRewardCsReq\x121\n\x0bGGBKOFKEHND\x18\t\x20\x03(\x0b2\x0f.OptionalRewa\
+    rdR\x0bGGBKOFKEHNDb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

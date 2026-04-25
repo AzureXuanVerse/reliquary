@@ -27,80 +27,80 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdAlleyType)
 pub enum CmdAlleyType {
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_MNFEPONEDDJ)
-    CmdAlleyType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_NEFKGKIBBAP)
-    CmdAlleyType_NEFKGKIBBAP = 4719,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_BINICIPJKNG)
-    CmdAlleyType_BINICIPJKNG = 4781,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_HCILOFKFFIC)
-    CmdAlleyType_HCILOFKFFIC = 4768,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_FLAMKNKDICI)
-    CmdAlleyType_FLAMKNKDICI = 4709,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_MHEGCPEFMMP)
-    CmdAlleyType_MHEGCPEFMMP = 4740,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_MJAILEGEGDH)
-    CmdAlleyType_MJAILEGEGDH = 4712,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_POPOEMPJPMA)
-    CmdAlleyType_POPOEMPJPMA = 4717,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_BBGJLEOKGCL)
-    CmdAlleyType_BBGJLEOKGCL = 4745,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_OOCJHOCPGIK)
-    CmdAlleyType_OOCJHOCPGIK = 4705,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_PMLEHPHGCCK)
-    CmdAlleyType_PMLEHPHGCCK = 4757,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_MDBGKGNNHJC)
-    CmdAlleyType_MDBGKGNNHJC = 4727,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_LIDKHFHHPMO)
-    CmdAlleyType_LIDKHFHHPMO = 4796,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_NDLBPBMLIHD)
-    CmdAlleyType_NDLBPBMLIHD = 4746,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_AMMOAJNOJEF)
-    CmdAlleyType_AMMOAJNOJEF = 4734,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_HCAHKOKGEOJ)
-    CmdAlleyType_HCAHKOKGEOJ = 4737,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_IFEOADEPEJE)
-    CmdAlleyType_IFEOADEPEJE = 4706,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_INBLJGOJNPE)
-    CmdAlleyType_INBLJGOJNPE = 4769,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_BMDJMKKFPDP)
-    CmdAlleyType_BMDJMKKFPDP = 4708,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_LMFKCCGECON)
-    CmdAlleyType_LMFKCCGECON = 4790,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_LMPNLOOAJDD)
-    CmdAlleyType_LMPNLOOAJDD = 4701,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_JNECLKNPINP)
-    CmdAlleyType_JNECLKNPINP = 4722,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_GKBOFGLHJKI)
-    CmdAlleyType_GKBOFGLHJKI = 4748,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_BDOEIECNODG)
-    CmdAlleyType_BDOEIECNODG = 4783,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_EODPJFNFBAJ)
-    CmdAlleyType_EODPJFNFBAJ = 4731,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_KBKFBFCADGH)
-    CmdAlleyType_KBKFBFCADGH = 4800,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_MDHIBHANJHF)
-    CmdAlleyType_MDHIBHANJHF = 4703,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_HOPOFCONGGM)
-    CmdAlleyType_HOPOFCONGGM = 4788,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_LDPJDCKALLL)
-    CmdAlleyType_LDPJDCKALLL = 4702,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_HJEDKGPCKPI)
-    CmdAlleyType_HJEDKGPCKPI = 4718,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_IBLJMAKPGLE)
-    CmdAlleyType_IBLJMAKPGLE = 4764,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_JFGBJJDMBDB)
-    CmdAlleyType_JFGBJJDMBDB = 4762,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_LIKKNOBAAEH)
-    CmdAlleyType_LIKKNOBAAEH = 4743,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_LAKOGLFFJCL)
-    CmdAlleyType_LAKOGLFFJCL = 4791,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_JGDDNJMHPLI)
-    CmdAlleyType_JGDDNJMHPLI = 4724,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_EBLGNKIPLFM)
-    CmdAlleyType_EBLGNKIPLFM = 4784,
-    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyType_MDAELDLBFCD)
-    CmdAlleyType_MDAELDLBFCD = 4704,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.MOFLOJNJDGL_PCPDHELPKEM)
+    MOFLOJNJDGL_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdKCOBMOPKLPL)
+    CmdKCOBMOPKLPL = 4798,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdMCPHAPNLNIG)
+    CmdMCPHAPNLNIG = 4753,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdSaveLogisticsCsReq)
+    CmdSaveLogisticsCsReq = 4796,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdActivityRaidPlacingGameCsReq)
+    CmdActivityRaidPlacingGameCsReq = 4793,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdGetSaveLogisticsMapCsReq)
+    CmdGetSaveLogisticsMapCsReq = 4765,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdGetAlleyInfoCsReq)
+    CmdGetAlleyInfoCsReq = 4791,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdFBDJEJDHCIO)
+    CmdFBDJEJDHCIO = 4789,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdGetAlleyInfoScRsp)
+    CmdGetAlleyInfoScRsp = 4710,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyShipmentEventEffectsScNotify)
+    CmdAlleyShipmentEventEffectsScNotify = 4728,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdLogisticsScoreRewardSyncInfoScNotify)
+    CmdLogisticsScoreRewardSyncInfoScNotify = 4720,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdHCDIHOBPLJE)
+    CmdHCDIHOBPLJE = 4726,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.MOFLOJNJDGL_HMCMLHEABKI)
+    MOFLOJNJDGL_HMCMLHEABKI = 4732,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyFundsScNotify)
+    CmdAlleyFundsScNotify = 4744,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdLOINGBNGDFO)
+    CmdLOINGBNGDFO = 4717,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.MOFLOJNJDGL_OLJIHEBEBCA)
+    MOFLOJNJDGL_OLJIHEBEBCA = 4708,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyEventChangeNotify)
+    CmdAlleyEventChangeNotify = 4763,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdLogisticsGameScRsp)
+    CmdLogisticsGameScRsp = 4795,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyPlacingGameScRsp)
+    CmdAlleyPlacingGameScRsp = 4737,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.MOFLOJNJDGL_CNGAGLKBHPK)
+    MOFLOJNJDGL_CNGAGLKBHPK = 4772,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyOrderChangedScNotify)
+    CmdAlleyOrderChangedScNotify = 4733,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdIJMICOMCFKK)
+    CmdIJMICOMCFKK = 4779,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdPrestigeLevelUpScRsp)
+    CmdPrestigeLevelUpScRsp = 4758,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdTakeEventRewardCsReq)
+    CmdTakeEventRewardCsReq = 4751,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyTakeEventRewardScRsp)
+    CmdAlleyTakeEventRewardScRsp = 4725,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdPrestigeLevelUpCsReq)
+    CmdPrestigeLevelUpCsReq = 4707,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdLogisticsGameCsReq)
+    CmdLogisticsGameCsReq = 4794,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdLogisticsDetonateStarSkiffCsReq)
+    CmdLogisticsDetonateStarSkiffCsReq = 4754,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdStartAlleyEventCsReq)
+    CmdStartAlleyEventCsReq = 4709,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdActivityRaidPlacingGameScRsp)
+    CmdActivityRaidPlacingGameScRsp = 4702,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.MOFLOJNJDGL_KKJPGOMOPAI)
+    MOFLOJNJDGL_KKJPGOMOPAI = 4800,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdLogisticsInfoScNotify)
+    CmdLogisticsInfoScNotify = 4721,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdKCHEPLKMONL)
+    CmdKCHEPLKMONL = 4757,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdGetSaveLogisticsMapScRsp)
+    CmdGetSaveLogisticsMapScRsp = 4773,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdTakePrestigeRewardCsReq)
+    CmdTakePrestigeRewardCsReq = 4739,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdAlleyPlacingGameCsReq)
+    CmdAlleyPlacingGameCsReq = 4774,
+    // @@protoc_insertion_point(enum_value:CmdAlleyType.CmdTakePrestigeRewardScRsp)
+    CmdTakePrestigeRewardScRsp = 4701,
 }
 
 impl ::protobuf::Enum for CmdAlleyType {
@@ -112,128 +112,128 @@ impl ::protobuf::Enum for CmdAlleyType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdAlleyType> {
         match value {
-            0 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_MNFEPONEDDJ),
-            4719 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_NEFKGKIBBAP),
-            4781 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_BINICIPJKNG),
-            4768 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_HCILOFKFFIC),
-            4709 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_FLAMKNKDICI),
-            4740 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_MHEGCPEFMMP),
-            4712 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_MJAILEGEGDH),
-            4717 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_POPOEMPJPMA),
-            4745 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_BBGJLEOKGCL),
-            4705 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_OOCJHOCPGIK),
-            4757 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_PMLEHPHGCCK),
-            4727 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_MDBGKGNNHJC),
-            4796 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_LIDKHFHHPMO),
-            4746 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_NDLBPBMLIHD),
-            4734 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_AMMOAJNOJEF),
-            4737 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_HCAHKOKGEOJ),
-            4706 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_IFEOADEPEJE),
-            4769 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_INBLJGOJNPE),
-            4708 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_BMDJMKKFPDP),
-            4790 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_LMFKCCGECON),
-            4701 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_LMPNLOOAJDD),
-            4722 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_JNECLKNPINP),
-            4748 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_GKBOFGLHJKI),
-            4783 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_BDOEIECNODG),
-            4731 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_EODPJFNFBAJ),
-            4800 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_KBKFBFCADGH),
-            4703 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_MDHIBHANJHF),
-            4788 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_HOPOFCONGGM),
-            4702 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_LDPJDCKALLL),
-            4718 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_HJEDKGPCKPI),
-            4764 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_IBLJMAKPGLE),
-            4762 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_JFGBJJDMBDB),
-            4743 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_LIKKNOBAAEH),
-            4791 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_LAKOGLFFJCL),
-            4724 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_JGDDNJMHPLI),
-            4784 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_EBLGNKIPLFM),
-            4704 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_MDAELDLBFCD),
+            0 => ::std::option::Option::Some(CmdAlleyType::MOFLOJNJDGL_PCPDHELPKEM),
+            4798 => ::std::option::Option::Some(CmdAlleyType::CmdKCOBMOPKLPL),
+            4753 => ::std::option::Option::Some(CmdAlleyType::CmdMCPHAPNLNIG),
+            4796 => ::std::option::Option::Some(CmdAlleyType::CmdSaveLogisticsCsReq),
+            4793 => ::std::option::Option::Some(CmdAlleyType::CmdActivityRaidPlacingGameCsReq),
+            4765 => ::std::option::Option::Some(CmdAlleyType::CmdGetSaveLogisticsMapCsReq),
+            4791 => ::std::option::Option::Some(CmdAlleyType::CmdGetAlleyInfoCsReq),
+            4789 => ::std::option::Option::Some(CmdAlleyType::CmdFBDJEJDHCIO),
+            4710 => ::std::option::Option::Some(CmdAlleyType::CmdGetAlleyInfoScRsp),
+            4728 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyShipmentEventEffectsScNotify),
+            4720 => ::std::option::Option::Some(CmdAlleyType::CmdLogisticsScoreRewardSyncInfoScNotify),
+            4726 => ::std::option::Option::Some(CmdAlleyType::CmdHCDIHOBPLJE),
+            4732 => ::std::option::Option::Some(CmdAlleyType::MOFLOJNJDGL_HMCMLHEABKI),
+            4744 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyFundsScNotify),
+            4717 => ::std::option::Option::Some(CmdAlleyType::CmdLOINGBNGDFO),
+            4708 => ::std::option::Option::Some(CmdAlleyType::MOFLOJNJDGL_OLJIHEBEBCA),
+            4763 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyEventChangeNotify),
+            4795 => ::std::option::Option::Some(CmdAlleyType::CmdLogisticsGameScRsp),
+            4737 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyPlacingGameScRsp),
+            4772 => ::std::option::Option::Some(CmdAlleyType::MOFLOJNJDGL_CNGAGLKBHPK),
+            4733 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyOrderChangedScNotify),
+            4779 => ::std::option::Option::Some(CmdAlleyType::CmdIJMICOMCFKK),
+            4758 => ::std::option::Option::Some(CmdAlleyType::CmdPrestigeLevelUpScRsp),
+            4751 => ::std::option::Option::Some(CmdAlleyType::CmdTakeEventRewardCsReq),
+            4725 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyTakeEventRewardScRsp),
+            4707 => ::std::option::Option::Some(CmdAlleyType::CmdPrestigeLevelUpCsReq),
+            4794 => ::std::option::Option::Some(CmdAlleyType::CmdLogisticsGameCsReq),
+            4754 => ::std::option::Option::Some(CmdAlleyType::CmdLogisticsDetonateStarSkiffCsReq),
+            4709 => ::std::option::Option::Some(CmdAlleyType::CmdStartAlleyEventCsReq),
+            4702 => ::std::option::Option::Some(CmdAlleyType::CmdActivityRaidPlacingGameScRsp),
+            4800 => ::std::option::Option::Some(CmdAlleyType::MOFLOJNJDGL_KKJPGOMOPAI),
+            4721 => ::std::option::Option::Some(CmdAlleyType::CmdLogisticsInfoScNotify),
+            4757 => ::std::option::Option::Some(CmdAlleyType::CmdKCHEPLKMONL),
+            4773 => ::std::option::Option::Some(CmdAlleyType::CmdGetSaveLogisticsMapScRsp),
+            4739 => ::std::option::Option::Some(CmdAlleyType::CmdTakePrestigeRewardCsReq),
+            4774 => ::std::option::Option::Some(CmdAlleyType::CmdAlleyPlacingGameCsReq),
+            4701 => ::std::option::Option::Some(CmdAlleyType::CmdTakePrestigeRewardScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdAlleyType> {
         match str {
-            "CmdAlleyType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_MNFEPONEDDJ),
-            "CmdAlleyType_NEFKGKIBBAP" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_NEFKGKIBBAP),
-            "CmdAlleyType_BINICIPJKNG" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_BINICIPJKNG),
-            "CmdAlleyType_HCILOFKFFIC" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_HCILOFKFFIC),
-            "CmdAlleyType_FLAMKNKDICI" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_FLAMKNKDICI),
-            "CmdAlleyType_MHEGCPEFMMP" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_MHEGCPEFMMP),
-            "CmdAlleyType_MJAILEGEGDH" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_MJAILEGEGDH),
-            "CmdAlleyType_POPOEMPJPMA" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_POPOEMPJPMA),
-            "CmdAlleyType_BBGJLEOKGCL" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_BBGJLEOKGCL),
-            "CmdAlleyType_OOCJHOCPGIK" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_OOCJHOCPGIK),
-            "CmdAlleyType_PMLEHPHGCCK" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_PMLEHPHGCCK),
-            "CmdAlleyType_MDBGKGNNHJC" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_MDBGKGNNHJC),
-            "CmdAlleyType_LIDKHFHHPMO" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_LIDKHFHHPMO),
-            "CmdAlleyType_NDLBPBMLIHD" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_NDLBPBMLIHD),
-            "CmdAlleyType_AMMOAJNOJEF" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_AMMOAJNOJEF),
-            "CmdAlleyType_HCAHKOKGEOJ" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_HCAHKOKGEOJ),
-            "CmdAlleyType_IFEOADEPEJE" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_IFEOADEPEJE),
-            "CmdAlleyType_INBLJGOJNPE" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_INBLJGOJNPE),
-            "CmdAlleyType_BMDJMKKFPDP" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_BMDJMKKFPDP),
-            "CmdAlleyType_LMFKCCGECON" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_LMFKCCGECON),
-            "CmdAlleyType_LMPNLOOAJDD" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_LMPNLOOAJDD),
-            "CmdAlleyType_JNECLKNPINP" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_JNECLKNPINP),
-            "CmdAlleyType_GKBOFGLHJKI" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_GKBOFGLHJKI),
-            "CmdAlleyType_BDOEIECNODG" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_BDOEIECNODG),
-            "CmdAlleyType_EODPJFNFBAJ" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_EODPJFNFBAJ),
-            "CmdAlleyType_KBKFBFCADGH" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_KBKFBFCADGH),
-            "CmdAlleyType_MDHIBHANJHF" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_MDHIBHANJHF),
-            "CmdAlleyType_HOPOFCONGGM" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_HOPOFCONGGM),
-            "CmdAlleyType_LDPJDCKALLL" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_LDPJDCKALLL),
-            "CmdAlleyType_HJEDKGPCKPI" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_HJEDKGPCKPI),
-            "CmdAlleyType_IBLJMAKPGLE" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_IBLJMAKPGLE),
-            "CmdAlleyType_JFGBJJDMBDB" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_JFGBJJDMBDB),
-            "CmdAlleyType_LIKKNOBAAEH" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_LIKKNOBAAEH),
-            "CmdAlleyType_LAKOGLFFJCL" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_LAKOGLFFJCL),
-            "CmdAlleyType_JGDDNJMHPLI" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_JGDDNJMHPLI),
-            "CmdAlleyType_EBLGNKIPLFM" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_EBLGNKIPLFM),
-            "CmdAlleyType_MDAELDLBFCD" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyType_MDAELDLBFCD),
+            "MOFLOJNJDGL_PCPDHELPKEM" => ::std::option::Option::Some(CmdAlleyType::MOFLOJNJDGL_PCPDHELPKEM),
+            "CmdKCOBMOPKLPL" => ::std::option::Option::Some(CmdAlleyType::CmdKCOBMOPKLPL),
+            "CmdMCPHAPNLNIG" => ::std::option::Option::Some(CmdAlleyType::CmdMCPHAPNLNIG),
+            "CmdSaveLogisticsCsReq" => ::std::option::Option::Some(CmdAlleyType::CmdSaveLogisticsCsReq),
+            "CmdActivityRaidPlacingGameCsReq" => ::std::option::Option::Some(CmdAlleyType::CmdActivityRaidPlacingGameCsReq),
+            "CmdGetSaveLogisticsMapCsReq" => ::std::option::Option::Some(CmdAlleyType::CmdGetSaveLogisticsMapCsReq),
+            "CmdGetAlleyInfoCsReq" => ::std::option::Option::Some(CmdAlleyType::CmdGetAlleyInfoCsReq),
+            "CmdFBDJEJDHCIO" => ::std::option::Option::Some(CmdAlleyType::CmdFBDJEJDHCIO),
+            "CmdGetAlleyInfoScRsp" => ::std::option::Option::Some(CmdAlleyType::CmdGetAlleyInfoScRsp),
+            "CmdAlleyShipmentEventEffectsScNotify" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyShipmentEventEffectsScNotify),
+            "CmdLogisticsScoreRewardSyncInfoScNotify" => ::std::option::Option::Some(CmdAlleyType::CmdLogisticsScoreRewardSyncInfoScNotify),
+            "CmdHCDIHOBPLJE" => ::std::option::Option::Some(CmdAlleyType::CmdHCDIHOBPLJE),
+            "MOFLOJNJDGL_HMCMLHEABKI" => ::std::option::Option::Some(CmdAlleyType::MOFLOJNJDGL_HMCMLHEABKI),
+            "CmdAlleyFundsScNotify" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyFundsScNotify),
+            "CmdLOINGBNGDFO" => ::std::option::Option::Some(CmdAlleyType::CmdLOINGBNGDFO),
+            "MOFLOJNJDGL_OLJIHEBEBCA" => ::std::option::Option::Some(CmdAlleyType::MOFLOJNJDGL_OLJIHEBEBCA),
+            "CmdAlleyEventChangeNotify" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyEventChangeNotify),
+            "CmdLogisticsGameScRsp" => ::std::option::Option::Some(CmdAlleyType::CmdLogisticsGameScRsp),
+            "CmdAlleyPlacingGameScRsp" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyPlacingGameScRsp),
+            "MOFLOJNJDGL_CNGAGLKBHPK" => ::std::option::Option::Some(CmdAlleyType::MOFLOJNJDGL_CNGAGLKBHPK),
+            "CmdAlleyOrderChangedScNotify" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyOrderChangedScNotify),
+            "CmdIJMICOMCFKK" => ::std::option::Option::Some(CmdAlleyType::CmdIJMICOMCFKK),
+            "CmdPrestigeLevelUpScRsp" => ::std::option::Option::Some(CmdAlleyType::CmdPrestigeLevelUpScRsp),
+            "CmdTakeEventRewardCsReq" => ::std::option::Option::Some(CmdAlleyType::CmdTakeEventRewardCsReq),
+            "CmdAlleyTakeEventRewardScRsp" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyTakeEventRewardScRsp),
+            "CmdPrestigeLevelUpCsReq" => ::std::option::Option::Some(CmdAlleyType::CmdPrestigeLevelUpCsReq),
+            "CmdLogisticsGameCsReq" => ::std::option::Option::Some(CmdAlleyType::CmdLogisticsGameCsReq),
+            "CmdLogisticsDetonateStarSkiffCsReq" => ::std::option::Option::Some(CmdAlleyType::CmdLogisticsDetonateStarSkiffCsReq),
+            "CmdStartAlleyEventCsReq" => ::std::option::Option::Some(CmdAlleyType::CmdStartAlleyEventCsReq),
+            "CmdActivityRaidPlacingGameScRsp" => ::std::option::Option::Some(CmdAlleyType::CmdActivityRaidPlacingGameScRsp),
+            "MOFLOJNJDGL_KKJPGOMOPAI" => ::std::option::Option::Some(CmdAlleyType::MOFLOJNJDGL_KKJPGOMOPAI),
+            "CmdLogisticsInfoScNotify" => ::std::option::Option::Some(CmdAlleyType::CmdLogisticsInfoScNotify),
+            "CmdKCHEPLKMONL" => ::std::option::Option::Some(CmdAlleyType::CmdKCHEPLKMONL),
+            "CmdGetSaveLogisticsMapScRsp" => ::std::option::Option::Some(CmdAlleyType::CmdGetSaveLogisticsMapScRsp),
+            "CmdTakePrestigeRewardCsReq" => ::std::option::Option::Some(CmdAlleyType::CmdTakePrestigeRewardCsReq),
+            "CmdAlleyPlacingGameCsReq" => ::std::option::Option::Some(CmdAlleyType::CmdAlleyPlacingGameCsReq),
+            "CmdTakePrestigeRewardScRsp" => ::std::option::Option::Some(CmdAlleyType::CmdTakePrestigeRewardScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdAlleyType] = &[
-        CmdAlleyType::CmdAlleyType_MNFEPONEDDJ,
-        CmdAlleyType::CmdAlleyType_NEFKGKIBBAP,
-        CmdAlleyType::CmdAlleyType_BINICIPJKNG,
-        CmdAlleyType::CmdAlleyType_HCILOFKFFIC,
-        CmdAlleyType::CmdAlleyType_FLAMKNKDICI,
-        CmdAlleyType::CmdAlleyType_MHEGCPEFMMP,
-        CmdAlleyType::CmdAlleyType_MJAILEGEGDH,
-        CmdAlleyType::CmdAlleyType_POPOEMPJPMA,
-        CmdAlleyType::CmdAlleyType_BBGJLEOKGCL,
-        CmdAlleyType::CmdAlleyType_OOCJHOCPGIK,
-        CmdAlleyType::CmdAlleyType_PMLEHPHGCCK,
-        CmdAlleyType::CmdAlleyType_MDBGKGNNHJC,
-        CmdAlleyType::CmdAlleyType_LIDKHFHHPMO,
-        CmdAlleyType::CmdAlleyType_NDLBPBMLIHD,
-        CmdAlleyType::CmdAlleyType_AMMOAJNOJEF,
-        CmdAlleyType::CmdAlleyType_HCAHKOKGEOJ,
-        CmdAlleyType::CmdAlleyType_IFEOADEPEJE,
-        CmdAlleyType::CmdAlleyType_INBLJGOJNPE,
-        CmdAlleyType::CmdAlleyType_BMDJMKKFPDP,
-        CmdAlleyType::CmdAlleyType_LMFKCCGECON,
-        CmdAlleyType::CmdAlleyType_LMPNLOOAJDD,
-        CmdAlleyType::CmdAlleyType_JNECLKNPINP,
-        CmdAlleyType::CmdAlleyType_GKBOFGLHJKI,
-        CmdAlleyType::CmdAlleyType_BDOEIECNODG,
-        CmdAlleyType::CmdAlleyType_EODPJFNFBAJ,
-        CmdAlleyType::CmdAlleyType_KBKFBFCADGH,
-        CmdAlleyType::CmdAlleyType_MDHIBHANJHF,
-        CmdAlleyType::CmdAlleyType_HOPOFCONGGM,
-        CmdAlleyType::CmdAlleyType_LDPJDCKALLL,
-        CmdAlleyType::CmdAlleyType_HJEDKGPCKPI,
-        CmdAlleyType::CmdAlleyType_IBLJMAKPGLE,
-        CmdAlleyType::CmdAlleyType_JFGBJJDMBDB,
-        CmdAlleyType::CmdAlleyType_LIKKNOBAAEH,
-        CmdAlleyType::CmdAlleyType_LAKOGLFFJCL,
-        CmdAlleyType::CmdAlleyType_JGDDNJMHPLI,
-        CmdAlleyType::CmdAlleyType_EBLGNKIPLFM,
-        CmdAlleyType::CmdAlleyType_MDAELDLBFCD,
+        CmdAlleyType::MOFLOJNJDGL_PCPDHELPKEM,
+        CmdAlleyType::CmdKCOBMOPKLPL,
+        CmdAlleyType::CmdMCPHAPNLNIG,
+        CmdAlleyType::CmdSaveLogisticsCsReq,
+        CmdAlleyType::CmdActivityRaidPlacingGameCsReq,
+        CmdAlleyType::CmdGetSaveLogisticsMapCsReq,
+        CmdAlleyType::CmdGetAlleyInfoCsReq,
+        CmdAlleyType::CmdFBDJEJDHCIO,
+        CmdAlleyType::CmdGetAlleyInfoScRsp,
+        CmdAlleyType::CmdAlleyShipmentEventEffectsScNotify,
+        CmdAlleyType::CmdLogisticsScoreRewardSyncInfoScNotify,
+        CmdAlleyType::CmdHCDIHOBPLJE,
+        CmdAlleyType::MOFLOJNJDGL_HMCMLHEABKI,
+        CmdAlleyType::CmdAlleyFundsScNotify,
+        CmdAlleyType::CmdLOINGBNGDFO,
+        CmdAlleyType::MOFLOJNJDGL_OLJIHEBEBCA,
+        CmdAlleyType::CmdAlleyEventChangeNotify,
+        CmdAlleyType::CmdLogisticsGameScRsp,
+        CmdAlleyType::CmdAlleyPlacingGameScRsp,
+        CmdAlleyType::MOFLOJNJDGL_CNGAGLKBHPK,
+        CmdAlleyType::CmdAlleyOrderChangedScNotify,
+        CmdAlleyType::CmdIJMICOMCFKK,
+        CmdAlleyType::CmdPrestigeLevelUpScRsp,
+        CmdAlleyType::CmdTakeEventRewardCsReq,
+        CmdAlleyType::CmdAlleyTakeEventRewardScRsp,
+        CmdAlleyType::CmdPrestigeLevelUpCsReq,
+        CmdAlleyType::CmdLogisticsGameCsReq,
+        CmdAlleyType::CmdLogisticsDetonateStarSkiffCsReq,
+        CmdAlleyType::CmdStartAlleyEventCsReq,
+        CmdAlleyType::CmdActivityRaidPlacingGameScRsp,
+        CmdAlleyType::MOFLOJNJDGL_KKJPGOMOPAI,
+        CmdAlleyType::CmdLogisticsInfoScNotify,
+        CmdAlleyType::CmdKCHEPLKMONL,
+        CmdAlleyType::CmdGetSaveLogisticsMapScRsp,
+        CmdAlleyType::CmdTakePrestigeRewardCsReq,
+        CmdAlleyType::CmdAlleyPlacingGameCsReq,
+        CmdAlleyType::CmdTakePrestigeRewardScRsp,
     ];
 }
 
@@ -245,43 +245,43 @@ impl ::protobuf::EnumFull for CmdAlleyType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdAlleyType::CmdAlleyType_MNFEPONEDDJ => 0,
-            CmdAlleyType::CmdAlleyType_NEFKGKIBBAP => 1,
-            CmdAlleyType::CmdAlleyType_BINICIPJKNG => 2,
-            CmdAlleyType::CmdAlleyType_HCILOFKFFIC => 3,
-            CmdAlleyType::CmdAlleyType_FLAMKNKDICI => 4,
-            CmdAlleyType::CmdAlleyType_MHEGCPEFMMP => 5,
-            CmdAlleyType::CmdAlleyType_MJAILEGEGDH => 6,
-            CmdAlleyType::CmdAlleyType_POPOEMPJPMA => 7,
-            CmdAlleyType::CmdAlleyType_BBGJLEOKGCL => 8,
-            CmdAlleyType::CmdAlleyType_OOCJHOCPGIK => 9,
-            CmdAlleyType::CmdAlleyType_PMLEHPHGCCK => 10,
-            CmdAlleyType::CmdAlleyType_MDBGKGNNHJC => 11,
-            CmdAlleyType::CmdAlleyType_LIDKHFHHPMO => 12,
-            CmdAlleyType::CmdAlleyType_NDLBPBMLIHD => 13,
-            CmdAlleyType::CmdAlleyType_AMMOAJNOJEF => 14,
-            CmdAlleyType::CmdAlleyType_HCAHKOKGEOJ => 15,
-            CmdAlleyType::CmdAlleyType_IFEOADEPEJE => 16,
-            CmdAlleyType::CmdAlleyType_INBLJGOJNPE => 17,
-            CmdAlleyType::CmdAlleyType_BMDJMKKFPDP => 18,
-            CmdAlleyType::CmdAlleyType_LMFKCCGECON => 19,
-            CmdAlleyType::CmdAlleyType_LMPNLOOAJDD => 20,
-            CmdAlleyType::CmdAlleyType_JNECLKNPINP => 21,
-            CmdAlleyType::CmdAlleyType_GKBOFGLHJKI => 22,
-            CmdAlleyType::CmdAlleyType_BDOEIECNODG => 23,
-            CmdAlleyType::CmdAlleyType_EODPJFNFBAJ => 24,
-            CmdAlleyType::CmdAlleyType_KBKFBFCADGH => 25,
-            CmdAlleyType::CmdAlleyType_MDHIBHANJHF => 26,
-            CmdAlleyType::CmdAlleyType_HOPOFCONGGM => 27,
-            CmdAlleyType::CmdAlleyType_LDPJDCKALLL => 28,
-            CmdAlleyType::CmdAlleyType_HJEDKGPCKPI => 29,
-            CmdAlleyType::CmdAlleyType_IBLJMAKPGLE => 30,
-            CmdAlleyType::CmdAlleyType_JFGBJJDMBDB => 31,
-            CmdAlleyType::CmdAlleyType_LIKKNOBAAEH => 32,
-            CmdAlleyType::CmdAlleyType_LAKOGLFFJCL => 33,
-            CmdAlleyType::CmdAlleyType_JGDDNJMHPLI => 34,
-            CmdAlleyType::CmdAlleyType_EBLGNKIPLFM => 35,
-            CmdAlleyType::CmdAlleyType_MDAELDLBFCD => 36,
+            CmdAlleyType::MOFLOJNJDGL_PCPDHELPKEM => 0,
+            CmdAlleyType::CmdKCOBMOPKLPL => 1,
+            CmdAlleyType::CmdMCPHAPNLNIG => 2,
+            CmdAlleyType::CmdSaveLogisticsCsReq => 3,
+            CmdAlleyType::CmdActivityRaidPlacingGameCsReq => 4,
+            CmdAlleyType::CmdGetSaveLogisticsMapCsReq => 5,
+            CmdAlleyType::CmdGetAlleyInfoCsReq => 6,
+            CmdAlleyType::CmdFBDJEJDHCIO => 7,
+            CmdAlleyType::CmdGetAlleyInfoScRsp => 8,
+            CmdAlleyType::CmdAlleyShipmentEventEffectsScNotify => 9,
+            CmdAlleyType::CmdLogisticsScoreRewardSyncInfoScNotify => 10,
+            CmdAlleyType::CmdHCDIHOBPLJE => 11,
+            CmdAlleyType::MOFLOJNJDGL_HMCMLHEABKI => 12,
+            CmdAlleyType::CmdAlleyFundsScNotify => 13,
+            CmdAlleyType::CmdLOINGBNGDFO => 14,
+            CmdAlleyType::MOFLOJNJDGL_OLJIHEBEBCA => 15,
+            CmdAlleyType::CmdAlleyEventChangeNotify => 16,
+            CmdAlleyType::CmdLogisticsGameScRsp => 17,
+            CmdAlleyType::CmdAlleyPlacingGameScRsp => 18,
+            CmdAlleyType::MOFLOJNJDGL_CNGAGLKBHPK => 19,
+            CmdAlleyType::CmdAlleyOrderChangedScNotify => 20,
+            CmdAlleyType::CmdIJMICOMCFKK => 21,
+            CmdAlleyType::CmdPrestigeLevelUpScRsp => 22,
+            CmdAlleyType::CmdTakeEventRewardCsReq => 23,
+            CmdAlleyType::CmdAlleyTakeEventRewardScRsp => 24,
+            CmdAlleyType::CmdPrestigeLevelUpCsReq => 25,
+            CmdAlleyType::CmdLogisticsGameCsReq => 26,
+            CmdAlleyType::CmdLogisticsDetonateStarSkiffCsReq => 27,
+            CmdAlleyType::CmdStartAlleyEventCsReq => 28,
+            CmdAlleyType::CmdActivityRaidPlacingGameScRsp => 29,
+            CmdAlleyType::MOFLOJNJDGL_KKJPGOMOPAI => 30,
+            CmdAlleyType::CmdLogisticsInfoScNotify => 31,
+            CmdAlleyType::CmdKCHEPLKMONL => 32,
+            CmdAlleyType::CmdGetSaveLogisticsMapScRsp => 33,
+            CmdAlleyType::CmdTakePrestigeRewardCsReq => 34,
+            CmdAlleyType::CmdAlleyPlacingGameCsReq => 35,
+            CmdAlleyType::CmdTakePrestigeRewardScRsp => 36,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -289,7 +289,7 @@ impl ::protobuf::EnumFull for CmdAlleyType {
 
 impl ::std::default::Default for CmdAlleyType {
     fn default() -> Self {
-        CmdAlleyType::CmdAlleyType_MNFEPONEDDJ
+        CmdAlleyType::MOFLOJNJDGL_PCPDHELPKEM
     }
 }
 
@@ -300,32 +300,31 @@ impl CmdAlleyType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x12CmdAlleyType.proto*\x88\t\n\x0cCmdAlleyType\x12\x1c\n\x18CmdAlleyT\
-    ype_MNFEPONEDDJ\x10\0\x12\x1d\n\x18CmdAlleyType_NEFKGKIBBAP\x10\xef$\x12\
-    \x1d\n\x18CmdAlleyType_BINICIPJKNG\x10\xad%\x12\x1d\n\x18CmdAlleyType_HC\
-    ILOFKFFIC\x10\xa0%\x12\x1d\n\x18CmdAlleyType_FLAMKNKDICI\x10\xe5$\x12\
-    \x1d\n\x18CmdAlleyType_MHEGCPEFMMP\x10\x84%\x12\x1d\n\x18CmdAlleyType_MJ\
-    AILEGEGDH\x10\xe8$\x12\x1d\n\x18CmdAlleyType_POPOEMPJPMA\x10\xed$\x12\
-    \x1d\n\x18CmdAlleyType_BBGJLEOKGCL\x10\x89%\x12\x1d\n\x18CmdAlleyType_OO\
-    CJHOCPGIK\x10\xe1$\x12\x1d\n\x18CmdAlleyType_PMLEHPHGCCK\x10\x95%\x12\
-    \x1d\n\x18CmdAlleyType_MDBGKGNNHJC\x10\xf7$\x12\x1d\n\x18CmdAlleyType_LI\
-    DKHFHHPMO\x10\xbc%\x12\x1d\n\x18CmdAlleyType_NDLBPBMLIHD\x10\x8a%\x12\
-    \x1d\n\x18CmdAlleyType_AMMOAJNOJEF\x10\xfe$\x12\x1d\n\x18CmdAlleyType_HC\
-    AHKOKGEOJ\x10\x81%\x12\x1d\n\x18CmdAlleyType_IFEOADEPEJE\x10\xe2$\x12\
-    \x1d\n\x18CmdAlleyType_INBLJGOJNPE\x10\xa1%\x12\x1d\n\x18CmdAlleyType_BM\
-    DJMKKFPDP\x10\xe4$\x12\x1d\n\x18CmdAlleyType_LMFKCCGECON\x10\xb6%\x12\
-    \x1d\n\x18CmdAlleyType_LMPNLOOAJDD\x10\xdd$\x12\x1d\n\x18CmdAlleyType_JN\
-    ECLKNPINP\x10\xf2$\x12\x1d\n\x18CmdAlleyType_GKBOFGLHJKI\x10\x8c%\x12\
-    \x1d\n\x18CmdAlleyType_BDOEIECNODG\x10\xaf%\x12\x1d\n\x18CmdAlleyType_EO\
-    DPJFNFBAJ\x10\xfb$\x12\x1d\n\x18CmdAlleyType_KBKFBFCADGH\x10\xc0%\x12\
-    \x1d\n\x18CmdAlleyType_MDHIBHANJHF\x10\xdf$\x12\x1d\n\x18CmdAlleyType_HO\
-    POFCONGGM\x10\xb4%\x12\x1d\n\x18CmdAlleyType_LDPJDCKALLL\x10\xde$\x12\
-    \x1d\n\x18CmdAlleyType_HJEDKGPCKPI\x10\xee$\x12\x1d\n\x18CmdAlleyType_IB\
-    LJMAKPGLE\x10\x9c%\x12\x1d\n\x18CmdAlleyType_JFGBJJDMBDB\x10\x9a%\x12\
-    \x1d\n\x18CmdAlleyType_LIKKNOBAAEH\x10\x87%\x12\x1d\n\x18CmdAlleyType_LA\
-    KOGLFFJCL\x10\xb7%\x12\x1d\n\x18CmdAlleyType_JGDDNJMHPLI\x10\xf4$\x12\
-    \x1d\n\x18CmdAlleyType_EBLGNKIPLFM\x10\xb0%\x12\x1d\n\x18CmdAlleyType_MD\
-    AELDLBFCD\x10\xe0$b\x06proto3\
+    \n\x12CmdAlleyType.proto*\xeb\x08\n\x0cCmdAlleyType\x12\x1b\n\x17MOFLOJN\
+    JDGL_PCPDHELPKEM\x10\0\x12\x13\n\x0eCmdKCOBMOPKLPL\x10\xbe%\x12\x13\n\
+    \x0eCmdMCPHAPNLNIG\x10\x91%\x12\x1a\n\x15CmdSaveLogisticsCsReq\x10\xbc%\
+    \x12$\n\x1fCmdActivityRaidPlacingGameCsReq\x10\xb9%\x12\x20\n\x1bCmdGetS\
+    aveLogisticsMapCsReq\x10\x9d%\x12\x19\n\x14CmdGetAlleyInfoCsReq\x10\xb7%\
+    \x12\x13\n\x0eCmdFBDJEJDHCIO\x10\xb5%\x12\x19\n\x14CmdGetAlleyInfoScRsp\
+    \x10\xe6$\x12)\n$CmdAlleyShipmentEventEffectsScNotify\x10\xf8$\x12,\n'Cm\
+    dLogisticsScoreRewardSyncInfoScNotify\x10\xf0$\x12\x13\n\x0eCmdHCDIHOBPL\
+    JE\x10\xf6$\x12\x1c\n\x17MOFLOJNJDGL_HMCMLHEABKI\x10\xfc$\x12\x1a\n\x15C\
+    mdAlleyFundsScNotify\x10\x88%\x12\x13\n\x0eCmdLOINGBNGDFO\x10\xed$\x12\
+    \x1c\n\x17MOFLOJNJDGL_OLJIHEBEBCA\x10\xe4$\x12\x1e\n\x19CmdAlleyEventCha\
+    ngeNotify\x10\x9b%\x12\x1a\n\x15CmdLogisticsGameScRsp\x10\xbb%\x12\x1d\n\
+    \x18CmdAlleyPlacingGameScRsp\x10\x81%\x12\x1c\n\x17MOFLOJNJDGL_CNGAGLKBH\
+    PK\x10\xa4%\x12!\n\x1cCmdAlleyOrderChangedScNotify\x10\xfd$\x12\x13\n\
+    \x0eCmdIJMICOMCFKK\x10\xab%\x12\x1c\n\x17CmdPrestigeLevelUpScRsp\x10\x96\
+    %\x12\x1c\n\x17CmdTakeEventRewardCsReq\x10\x8f%\x12!\n\x1cCmdAlleyTakeEv\
+    entRewardScRsp\x10\xf5$\x12\x1c\n\x17CmdPrestigeLevelUpCsReq\x10\xe3$\
+    \x12\x1a\n\x15CmdLogisticsGameCsReq\x10\xba%\x12'\n\"CmdLogisticsDetonat\
+    eStarSkiffCsReq\x10\x92%\x12\x1c\n\x17CmdStartAlleyEventCsReq\x10\xe5$\
+    \x12$\n\x1fCmdActivityRaidPlacingGameScRsp\x10\xde$\x12\x1c\n\x17MOFLOJN\
+    JDGL_KKJPGOMOPAI\x10\xc0%\x12\x1d\n\x18CmdLogisticsInfoScNotify\x10\xf1$\
+    \x12\x13\n\x0eCmdKCHEPLKMONL\x10\x95%\x12\x20\n\x1bCmdGetSaveLogisticsMa\
+    pScRsp\x10\xa5%\x12\x1f\n\x1aCmdTakePrestigeRewardCsReq\x10\x83%\x12\x1d\
+    \n\x18CmdAlleyPlacingGameCsReq\x10\xa6%\x12\x1f\n\x1aCmdTakePrestigeRewa\
+    rdScRsp\x10\xdd$b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

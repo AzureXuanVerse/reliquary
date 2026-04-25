@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ChenLingSelectCardCsReq {
     // message fields
-    // @@protoc_insertion_point(field:ChenLingSelectCardCsReq.JCPFJOGBLEM)
-    pub JCPFJOGBLEM: u32,
+    // @@protoc_insertion_point(field:ChenLingSelectCardCsReq.ECDHLIHIPME)
+    pub ECDHLIHIPME: u32,
     // special fields
     // @@protoc_insertion_point(special_field:ChenLingSelectCardCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl ChenLingSelectCardCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "JCPFJOGBLEM",
-            |m: &ChenLingSelectCardCsReq| { &m.JCPFJOGBLEM },
-            |m: &mut ChenLingSelectCardCsReq| { &mut m.JCPFJOGBLEM },
+            "ECDHLIHIPME",
+            |m: &ChenLingSelectCardCsReq| { &m.ECDHLIHIPME },
+            |m: &mut ChenLingSelectCardCsReq| { &mut m.ECDHLIHIPME },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ChenLingSelectCardCsReq>(
             "ChenLingSelectCardCsReq",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for ChenLingSelectCardCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                104 => {
-                    self.JCPFJOGBLEM = is.read_uint32()?;
+                32 => {
+                    self.ECDHLIHIPME = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,8 +87,8 @@ impl ::protobuf::Message for ChenLingSelectCardCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.JCPFJOGBLEM != 0 {
-            my_size += ::protobuf::rt::uint32_size(13, self.JCPFJOGBLEM);
+        if self.ECDHLIHIPME != 0 {
+            my_size += ::protobuf::rt::uint32_size(4, self.ECDHLIHIPME);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -96,8 +96,8 @@ impl ::protobuf::Message for ChenLingSelectCardCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.JCPFJOGBLEM != 0 {
-            os.write_uint32(13, self.JCPFJOGBLEM)?;
+        if self.ECDHLIHIPME != 0 {
+            os.write_uint32(4, self.ECDHLIHIPME)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -116,13 +116,13 @@ impl ::protobuf::Message for ChenLingSelectCardCsReq {
     }
 
     fn clear(&mut self) {
-        self.JCPFJOGBLEM = 0;
+        self.ECDHLIHIPME = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ChenLingSelectCardCsReq {
         static instance: ChenLingSelectCardCsReq = ChenLingSelectCardCsReq {
-            JCPFJOGBLEM: 0,
+            ECDHLIHIPME: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -148,7 +148,7 @@ impl ::protobuf::reflect::ProtobufValue for ChenLingSelectCardCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1dChenLingSelectCardCsReq.proto\";\n\x17ChenLingSelectCardCsReq\x12\
-    \x20\n\x0bJCPFJOGBLEM\x18\r\x20\x01(\rR\x0bJCPFJOGBLEMb\x06proto3\
+    \x20\n\x0bECDHLIHIPME\x18\x04\x20\x01(\rR\x0bECDHLIHIPMEb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

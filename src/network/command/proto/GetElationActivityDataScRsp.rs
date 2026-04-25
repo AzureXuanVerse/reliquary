@@ -79,7 +79,7 @@ impl ::protobuf::Message for GetElationActivityDataScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                88 => {
+                80 => {
                     self.retcode = is.read_uint32()?;
                 },
                 50 => {
@@ -98,7 +98,7 @@ impl ::protobuf::Message for GetElationActivityDataScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(10, self.retcode);
         }
         for value in &self.level_data_list {
             let len = value.compute_size();
@@ -111,7 +111,7 @@ impl ::protobuf::Message for GetElationActivityDataScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.retcode != 0 {
-            os.write_uint32(11, self.retcode)?;
+            os.write_uint32(10, self.retcode)?;
         }
         for v in &self.level_data_list {
             ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
@@ -167,7 +167,7 @@ impl ::protobuf::reflect::ProtobufValue for GetElationActivityDataScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n!GetElationActivityDataScRsp.proto\x1a\x1eElationActivityLevelData.pro\
-    to\"z\n\x1bGetElationActivityDataScRsp\x12\x18\n\x07retcode\x18\x0b\x20\
+    to\"z\n\x1bGetElationActivityDataScRsp\x12\x18\n\x07retcode\x18\n\x20\
     \x01(\rR\x07retcode\x12A\n\x0flevel_data_list\x18\x06\x20\x03(\x0b2\x19.\
     ElationActivityLevelDataR\rlevelDataListb\x06proto3\
 ";

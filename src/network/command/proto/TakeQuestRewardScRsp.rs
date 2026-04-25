@@ -28,14 +28,14 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct TakeQuestRewardScRsp {
     // message fields
-    // @@protoc_insertion_point(field:TakeQuestRewardScRsp.retcode)
-    pub retcode: u32,
     // @@protoc_insertion_point(field:TakeQuestRewardScRsp.reward)
     pub reward: ::protobuf::MessageField<super::ItemList::ItemList>,
     // @@protoc_insertion_point(field:TakeQuestRewardScRsp.succ_quest_id_list)
     pub succ_quest_id_list: ::std::vec::Vec<u32>,
-    // @@protoc_insertion_point(field:TakeQuestRewardScRsp.NHDCEJIDLLA)
-    pub NHDCEJIDLLA: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:TakeQuestRewardScRsp.FNIPKMFJMCE)
+    pub FNIPKMFJMCE: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:TakeQuestRewardScRsp.retcode)
+    pub retcode: u32,
     // special fields
     // @@protoc_insertion_point(special_field:TakeQuestRewardScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -55,11 +55,6 @@ impl TakeQuestRewardScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(4);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "retcode",
-            |m: &TakeQuestRewardScRsp| { &m.retcode },
-            |m: &mut TakeQuestRewardScRsp| { &mut m.retcode },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemList::ItemList>(
             "reward",
             |m: &TakeQuestRewardScRsp| { &m.reward },
@@ -71,9 +66,14 @@ impl TakeQuestRewardScRsp {
             |m: &mut TakeQuestRewardScRsp| { &mut m.succ_quest_id_list },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "NHDCEJIDLLA",
-            |m: &TakeQuestRewardScRsp| { &m.NHDCEJIDLLA },
-            |m: &mut TakeQuestRewardScRsp| { &mut m.NHDCEJIDLLA },
+            "FNIPKMFJMCE",
+            |m: &TakeQuestRewardScRsp| { &m.FNIPKMFJMCE },
+            |m: &mut TakeQuestRewardScRsp| { &mut m.FNIPKMFJMCE },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "retcode",
+            |m: &TakeQuestRewardScRsp| { &m.retcode },
+            |m: &mut TakeQuestRewardScRsp| { &mut m.retcode },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<TakeQuestRewardScRsp>(
             "TakeQuestRewardScRsp",
@@ -93,23 +93,23 @@ impl ::protobuf::Message for TakeQuestRewardScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                72 => {
-                    self.retcode = is.read_uint32()?;
-                },
-                42 => {
+                10 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.reward)?;
                 },
-                82 => {
+                34 => {
                     is.read_repeated_packed_uint32_into(&mut self.succ_quest_id_list)?;
                 },
-                80 => {
+                32 => {
                     self.succ_quest_id_list.push(is.read_uint32()?);
                 },
-                10 => {
-                    is.read_repeated_packed_uint32_into(&mut self.NHDCEJIDLLA)?;
+                18 => {
+                    is.read_repeated_packed_uint32_into(&mut self.FNIPKMFJMCE)?;
                 },
-                8 => {
-                    self.NHDCEJIDLLA.push(is.read_uint32()?);
+                16 => {
+                    self.FNIPKMFJMCE.push(is.read_uint32()?);
+                },
+                40 => {
+                    self.retcode = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -123,29 +123,29 @@ impl ::protobuf::Message for TakeQuestRewardScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.retcode);
-        }
         if let Some(v) = self.reward.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(10, &self.succ_quest_id_list);
-        my_size += ::protobuf::rt::vec_packed_uint32_size(1, &self.NHDCEJIDLLA);
+        my_size += ::protobuf::rt::vec_packed_uint32_size(4, &self.succ_quest_id_list);
+        my_size += ::protobuf::rt::vec_packed_uint32_size(2, &self.FNIPKMFJMCE);
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(5, self.retcode);
+        }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.retcode != 0 {
-            os.write_uint32(9, self.retcode)?;
-        }
         if let Some(v) = self.reward.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
         }
-        os.write_repeated_packed_uint32(10, &self.succ_quest_id_list)?;
-        os.write_repeated_packed_uint32(1, &self.NHDCEJIDLLA)?;
+        os.write_repeated_packed_uint32(4, &self.succ_quest_id_list)?;
+        os.write_repeated_packed_uint32(2, &self.FNIPKMFJMCE)?;
+        if self.retcode != 0 {
+            os.write_uint32(5, self.retcode)?;
+        }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -163,19 +163,19 @@ impl ::protobuf::Message for TakeQuestRewardScRsp {
     }
 
     fn clear(&mut self) {
-        self.retcode = 0;
         self.reward.clear();
         self.succ_quest_id_list.clear();
-        self.NHDCEJIDLLA.clear();
+        self.FNIPKMFJMCE.clear();
+        self.retcode = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static TakeQuestRewardScRsp {
         static instance: TakeQuestRewardScRsp = TakeQuestRewardScRsp {
-            retcode: 0,
             reward: ::protobuf::MessageField::none(),
             succ_quest_id_list: ::std::vec::Vec::new(),
-            NHDCEJIDLLA: ::std::vec::Vec::new(),
+            FNIPKMFJMCE: ::std::vec::Vec::new(),
+            retcode: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -201,10 +201,10 @@ impl ::protobuf::reflect::ProtobufValue for TakeQuestRewardScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1aTakeQuestRewardScRsp.proto\x1a\x0eItemList.proto\"\xa2\x01\n\x14Ta\
-    keQuestRewardScRsp\x12\x18\n\x07retcode\x18\t\x20\x01(\rR\x07retcode\x12\
-    !\n\x06reward\x18\x05\x20\x01(\x0b2\t.ItemListR\x06reward\x12+\n\x12succ\
-    _quest_id_list\x18\n\x20\x03(\rR\x0fsuccQuestIdList\x12\x20\n\x0bNHDCEJI\
-    DLLA\x18\x01\x20\x03(\rR\x0bNHDCEJIDLLAb\x06proto3\
+    keQuestRewardScRsp\x12!\n\x06reward\x18\x01\x20\x01(\x0b2\t.ItemListR\
+    \x06reward\x12+\n\x12succ_quest_id_list\x18\x04\x20\x03(\rR\x0fsuccQuest\
+    IdList\x12\x20\n\x0bFNIPKMFJMCE\x18\x02\x20\x03(\rR\x0bFNIPKMFJMCE\x12\
+    \x18\n\x07retcode\x18\x05\x20\x01(\rR\x07retcodeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

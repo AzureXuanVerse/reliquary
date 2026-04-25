@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct CurAssistChangedNotify {
     // message fields
-    // @@protoc_insertion_point(field:CurAssistChangedNotify.AFBCCLCCPPE)
-    pub AFBCCLCCPPE: ::protobuf::MessageField<super::PlayerAssistInfo::PlayerAssistInfo>,
+    // @@protoc_insertion_point(field:CurAssistChangedNotify.ILPKPBOKMEN)
+    pub ILPKPBOKMEN: ::protobuf::MessageField<super::PlayerAssistInfo::PlayerAssistInfo>,
     // special fields
     // @@protoc_insertion_point(special_field:CurAssistChangedNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl CurAssistChangedNotify {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::PlayerAssistInfo::PlayerAssistInfo>(
-            "AFBCCLCCPPE",
-            |m: &CurAssistChangedNotify| { &m.AFBCCLCCPPE },
-            |m: &mut CurAssistChangedNotify| { &mut m.AFBCCLCCPPE },
+            "ILPKPBOKMEN",
+            |m: &CurAssistChangedNotify| { &m.ILPKPBOKMEN },
+            |m: &mut CurAssistChangedNotify| { &mut m.ILPKPBOKMEN },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<CurAssistChangedNotify>(
             "CurAssistChangedNotify",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for CurAssistChangedNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                66 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.AFBCCLCCPPE)?;
+                106 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.ILPKPBOKMEN)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,7 +87,7 @@ impl ::protobuf::Message for CurAssistChangedNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.AFBCCLCCPPE.as_ref() {
+        if let Some(v) = self.ILPKPBOKMEN.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -97,8 +97,8 @@ impl ::protobuf::Message for CurAssistChangedNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.AFBCCLCCPPE.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+        if let Some(v) = self.ILPKPBOKMEN.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -117,13 +117,13 @@ impl ::protobuf::Message for CurAssistChangedNotify {
     }
 
     fn clear(&mut self) {
-        self.AFBCCLCCPPE.clear();
+        self.ILPKPBOKMEN.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static CurAssistChangedNotify {
         static instance: CurAssistChangedNotify = CurAssistChangedNotify {
-            AFBCCLCCPPE: ::protobuf::MessageField::none(),
+            ILPKPBOKMEN: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -149,8 +149,8 @@ impl ::protobuf::reflect::ProtobufValue for CurAssistChangedNotify {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1cCurAssistChangedNotify.proto\x1a\x16PlayerAssistInfo.proto\"M\n\
-    \x16CurAssistChangedNotify\x123\n\x0bAFBCCLCCPPE\x18\x08\x20\x01(\x0b2\
-    \x11.PlayerAssistInfoR\x0bAFBCCLCCPPEb\x06proto3\
+    \x16CurAssistChangedNotify\x123\n\x0bILPKPBOKMEN\x18\r\x20\x01(\x0b2\x11\
+    .PlayerAssistInfoR\x0bILPKPBOKMENb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

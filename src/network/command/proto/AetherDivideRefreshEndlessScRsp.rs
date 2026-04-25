@@ -30,8 +30,8 @@ pub struct AetherDivideRefreshEndlessScRsp {
     // message fields
     // @@protoc_insertion_point(field:AetherDivideRefreshEndlessScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:AetherDivideRefreshEndlessScRsp.FJGBPNDMLEI)
-    pub FJGBPNDMLEI: u32,
+    // @@protoc_insertion_point(field:AetherDivideRefreshEndlessScRsp.KBFFBPDDCFF)
+    pub KBFFBPDDCFF: u32,
     // special fields
     // @@protoc_insertion_point(special_field:AetherDivideRefreshEndlessScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,9 +57,9 @@ impl AetherDivideRefreshEndlessScRsp {
             |m: &mut AetherDivideRefreshEndlessScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "FJGBPNDMLEI",
-            |m: &AetherDivideRefreshEndlessScRsp| { &m.FJGBPNDMLEI },
-            |m: &mut AetherDivideRefreshEndlessScRsp| { &mut m.FJGBPNDMLEI },
+            "KBFFBPDDCFF",
+            |m: &AetherDivideRefreshEndlessScRsp| { &m.KBFFBPDDCFF },
+            |m: &mut AetherDivideRefreshEndlessScRsp| { &mut m.KBFFBPDDCFF },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<AetherDivideRefreshEndlessScRsp>(
             "AetherDivideRefreshEndlessScRsp",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for AetherDivideRefreshEndlessScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                16 => {
+                88 => {
                     self.retcode = is.read_uint32()?;
                 },
-                64 => {
-                    self.FJGBPNDMLEI = is.read_uint32()?;
+                24 => {
+                    self.KBFFBPDDCFF = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -98,10 +98,10 @@ impl ::protobuf::Message for AetherDivideRefreshEndlessScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(11, self.retcode);
         }
-        if self.FJGBPNDMLEI != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.FJGBPNDMLEI);
+        if self.KBFFBPDDCFF != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.KBFFBPDDCFF);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,10 +110,10 @@ impl ::protobuf::Message for AetherDivideRefreshEndlessScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.retcode != 0 {
-            os.write_uint32(2, self.retcode)?;
+            os.write_uint32(11, self.retcode)?;
         }
-        if self.FJGBPNDMLEI != 0 {
-            os.write_uint32(8, self.FJGBPNDMLEI)?;
+        if self.KBFFBPDDCFF != 0 {
+            os.write_uint32(3, self.KBFFBPDDCFF)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -133,14 +133,14 @@ impl ::protobuf::Message for AetherDivideRefreshEndlessScRsp {
 
     fn clear(&mut self) {
         self.retcode = 0;
-        self.FJGBPNDMLEI = 0;
+        self.KBFFBPDDCFF = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static AetherDivideRefreshEndlessScRsp {
         static instance: AetherDivideRefreshEndlessScRsp = AetherDivideRefreshEndlessScRsp {
             retcode: 0,
-            FJGBPNDMLEI: 0,
+            KBFFBPDDCFF: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for AetherDivideRefreshEndlessScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n%AetherDivideRefreshEndlessScRsp.proto\"]\n\x1fAetherDivideRefreshEndl\
-    essScRsp\x12\x18\n\x07retcode\x18\x02\x20\x01(\rR\x07retcode\x12\x20\n\
-    \x0bFJGBPNDMLEI\x18\x08\x20\x01(\rR\x0bFJGBPNDMLEIb\x06proto3\
+    essScRsp\x12\x18\n\x07retcode\x18\x0b\x20\x01(\rR\x07retcode\x12\x20\n\
+    \x0bKBFFBPDDCFF\x18\x03\x20\x01(\rR\x0bKBFFBPDDCFFb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -27,18 +27,18 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdStarFightType)
 pub enum CmdStarFightType {
-    // @@protoc_insertion_point(enum_value:CmdStarFightType.CmdStarFightType_MNFEPONEDDJ)
-    CmdStarFightType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdStarFightType.CmdStarFightType_KGMLPOAICGO)
-    CmdStarFightType_KGMLPOAICGO = 7162,
-    // @@protoc_insertion_point(enum_value:CmdStarFightType.CmdStarFightType_GFOMPOIGDOA)
-    CmdStarFightType_GFOMPOIGDOA = 7166,
-    // @@protoc_insertion_point(enum_value:CmdStarFightType.CmdStarFightType_GFLBEDMFIAH)
-    CmdStarFightType_GFLBEDMFIAH = 7163,
-    // @@protoc_insertion_point(enum_value:CmdStarFightType.CmdStarFightType_KLJJDJEHECA)
-    CmdStarFightType_KLJJDJEHECA = 7161,
-    // @@protoc_insertion_point(enum_value:CmdStarFightType.CmdStarFightType_HOCKFLIEHEF)
-    CmdStarFightType_HOCKFLIEHEF = 7168,
+    // @@protoc_insertion_point(enum_value:CmdStarFightType.JHPDEBBIDMN_PCPDHELPKEM)
+    JHPDEBBIDMN_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdStarFightType.CmdGetStarFightDataScRsp)
+    CmdGetStarFightDataScRsp = 7170,
+    // @@protoc_insertion_point(enum_value:CmdStarFightType.CmdStartStarFightLevelScRsp)
+    CmdStartStarFightLevelScRsp = 7167,
+    // @@protoc_insertion_point(enum_value:CmdStarFightType.CmdStarFightDataChangeNotify)
+    CmdStarFightDataChangeNotify = 7165,
+    // @@protoc_insertion_point(enum_value:CmdStarFightType.CmdGetStarFightDataCsReq)
+    CmdGetStarFightDataCsReq = 7169,
+    // @@protoc_insertion_point(enum_value:CmdStarFightType.CmdStartStarFightLevelCsReq)
+    CmdStartStarFightLevelCsReq = 7161,
 }
 
 impl ::protobuf::Enum for CmdStarFightType {
@@ -50,35 +50,35 @@ impl ::protobuf::Enum for CmdStarFightType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdStarFightType> {
         match value {
-            0 => ::std::option::Option::Some(CmdStarFightType::CmdStarFightType_MNFEPONEDDJ),
-            7162 => ::std::option::Option::Some(CmdStarFightType::CmdStarFightType_KGMLPOAICGO),
-            7166 => ::std::option::Option::Some(CmdStarFightType::CmdStarFightType_GFOMPOIGDOA),
-            7163 => ::std::option::Option::Some(CmdStarFightType::CmdStarFightType_GFLBEDMFIAH),
-            7161 => ::std::option::Option::Some(CmdStarFightType::CmdStarFightType_KLJJDJEHECA),
-            7168 => ::std::option::Option::Some(CmdStarFightType::CmdStarFightType_HOCKFLIEHEF),
+            0 => ::std::option::Option::Some(CmdStarFightType::JHPDEBBIDMN_PCPDHELPKEM),
+            7170 => ::std::option::Option::Some(CmdStarFightType::CmdGetStarFightDataScRsp),
+            7167 => ::std::option::Option::Some(CmdStarFightType::CmdStartStarFightLevelScRsp),
+            7165 => ::std::option::Option::Some(CmdStarFightType::CmdStarFightDataChangeNotify),
+            7169 => ::std::option::Option::Some(CmdStarFightType::CmdGetStarFightDataCsReq),
+            7161 => ::std::option::Option::Some(CmdStarFightType::CmdStartStarFightLevelCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdStarFightType> {
         match str {
-            "CmdStarFightType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdStarFightType::CmdStarFightType_MNFEPONEDDJ),
-            "CmdStarFightType_KGMLPOAICGO" => ::std::option::Option::Some(CmdStarFightType::CmdStarFightType_KGMLPOAICGO),
-            "CmdStarFightType_GFOMPOIGDOA" => ::std::option::Option::Some(CmdStarFightType::CmdStarFightType_GFOMPOIGDOA),
-            "CmdStarFightType_GFLBEDMFIAH" => ::std::option::Option::Some(CmdStarFightType::CmdStarFightType_GFLBEDMFIAH),
-            "CmdStarFightType_KLJJDJEHECA" => ::std::option::Option::Some(CmdStarFightType::CmdStarFightType_KLJJDJEHECA),
-            "CmdStarFightType_HOCKFLIEHEF" => ::std::option::Option::Some(CmdStarFightType::CmdStarFightType_HOCKFLIEHEF),
+            "JHPDEBBIDMN_PCPDHELPKEM" => ::std::option::Option::Some(CmdStarFightType::JHPDEBBIDMN_PCPDHELPKEM),
+            "CmdGetStarFightDataScRsp" => ::std::option::Option::Some(CmdStarFightType::CmdGetStarFightDataScRsp),
+            "CmdStartStarFightLevelScRsp" => ::std::option::Option::Some(CmdStarFightType::CmdStartStarFightLevelScRsp),
+            "CmdStarFightDataChangeNotify" => ::std::option::Option::Some(CmdStarFightType::CmdStarFightDataChangeNotify),
+            "CmdGetStarFightDataCsReq" => ::std::option::Option::Some(CmdStarFightType::CmdGetStarFightDataCsReq),
+            "CmdStartStarFightLevelCsReq" => ::std::option::Option::Some(CmdStarFightType::CmdStartStarFightLevelCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdStarFightType] = &[
-        CmdStarFightType::CmdStarFightType_MNFEPONEDDJ,
-        CmdStarFightType::CmdStarFightType_KGMLPOAICGO,
-        CmdStarFightType::CmdStarFightType_GFOMPOIGDOA,
-        CmdStarFightType::CmdStarFightType_GFLBEDMFIAH,
-        CmdStarFightType::CmdStarFightType_KLJJDJEHECA,
-        CmdStarFightType::CmdStarFightType_HOCKFLIEHEF,
+        CmdStarFightType::JHPDEBBIDMN_PCPDHELPKEM,
+        CmdStarFightType::CmdGetStarFightDataScRsp,
+        CmdStarFightType::CmdStartStarFightLevelScRsp,
+        CmdStarFightType::CmdStarFightDataChangeNotify,
+        CmdStarFightType::CmdGetStarFightDataCsReq,
+        CmdStarFightType::CmdStartStarFightLevelCsReq,
     ];
 }
 
@@ -90,12 +90,12 @@ impl ::protobuf::EnumFull for CmdStarFightType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdStarFightType::CmdStarFightType_MNFEPONEDDJ => 0,
-            CmdStarFightType::CmdStarFightType_KGMLPOAICGO => 1,
-            CmdStarFightType::CmdStarFightType_GFOMPOIGDOA => 2,
-            CmdStarFightType::CmdStarFightType_GFLBEDMFIAH => 3,
-            CmdStarFightType::CmdStarFightType_KLJJDJEHECA => 4,
-            CmdStarFightType::CmdStarFightType_HOCKFLIEHEF => 5,
+            CmdStarFightType::JHPDEBBIDMN_PCPDHELPKEM => 0,
+            CmdStarFightType::CmdGetStarFightDataScRsp => 1,
+            CmdStarFightType::CmdStartStarFightLevelScRsp => 2,
+            CmdStarFightType::CmdStarFightDataChangeNotify => 3,
+            CmdStarFightType::CmdGetStarFightDataCsReq => 4,
+            CmdStarFightType::CmdStartStarFightLevelCsReq => 5,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -103,7 +103,7 @@ impl ::protobuf::EnumFull for CmdStarFightType {
 
 impl ::std::default::Default for CmdStarFightType {
     fn default() -> Self {
-        CmdStarFightType::CmdStarFightType_MNFEPONEDDJ
+        CmdStarFightType::JHPDEBBIDMN_PCPDHELPKEM
     }
 }
 
@@ -114,12 +114,11 @@ impl CmdStarFightType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x16CmdStarFightType.proto*\xe3\x01\n\x10CmdStarFightType\x12\x20\n\
-    \x1cCmdStarFightType_MNFEPONEDDJ\x10\0\x12!\n\x1cCmdStarFightType_KGMLPO\
-    AICGO\x10\xfa7\x12!\n\x1cCmdStarFightType_GFOMPOIGDOA\x10\xfe7\x12!\n\
-    \x1cCmdStarFightType_GFLBEDMFIAH\x10\xfb7\x12!\n\x1cCmdStarFightType_KLJ\
-    JDJEHECA\x10\xf97\x12!\n\x1cCmdStarFightType_HOCKFLIEHEF\x10\x808b\x06pr\
-    oto3\
+    \n\x16CmdStarFightType.proto*\xd4\x01\n\x10CmdStarFightType\x12\x1b\n\
+    \x17JHPDEBBIDMN_PCPDHELPKEM\x10\0\x12\x1d\n\x18CmdGetStarFightDataScRsp\
+    \x10\x828\x12\x20\n\x1bCmdStartStarFightLevelScRsp\x10\xff7\x12!\n\x1cCm\
+    dStarFightDataChangeNotify\x10\xfd7\x12\x1d\n\x18CmdGetStarFightDataCsRe\
+    q\x10\x818\x12\x20\n\x1bCmdStartStarFightLevelCsReq\x10\xf97b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

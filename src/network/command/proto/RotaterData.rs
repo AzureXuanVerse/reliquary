@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct RotaterData {
     // message fields
-    // @@protoc_insertion_point(field:RotaterData.HIIHFHPBJKH)
-    pub HIIHFHPBJKH: u32,
+    // @@protoc_insertion_point(field:RotaterData.MBAFIOCLMAI)
+    pub MBAFIOCLMAI: f32,
     // @@protoc_insertion_point(field:RotaterData.group_id)
     pub group_id: u32,
-    // @@protoc_insertion_point(field:RotaterData.BAGKGNMEKKE)
-    pub BAGKGNMEKKE: f32,
+    // @@protoc_insertion_point(field:RotaterData.PBOLMBLKDND)
+    pub PBOLMBLKDND: u32,
     // special fields
     // @@protoc_insertion_point(special_field:RotaterData.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -54,9 +54,9 @@ impl RotaterData {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "HIIHFHPBJKH",
-            |m: &RotaterData| { &m.HIIHFHPBJKH },
-            |m: &mut RotaterData| { &mut m.HIIHFHPBJKH },
+            "MBAFIOCLMAI",
+            |m: &RotaterData| { &m.MBAFIOCLMAI },
+            |m: &mut RotaterData| { &mut m.MBAFIOCLMAI },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "group_id",
@@ -64,9 +64,9 @@ impl RotaterData {
             |m: &mut RotaterData| { &mut m.group_id },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BAGKGNMEKKE",
-            |m: &RotaterData| { &m.BAGKGNMEKKE },
-            |m: &mut RotaterData| { &mut m.BAGKGNMEKKE },
+            "PBOLMBLKDND",
+            |m: &RotaterData| { &m.PBOLMBLKDND },
+            |m: &mut RotaterData| { &mut m.PBOLMBLKDND },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<RotaterData>(
             "RotaterData",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for RotaterData {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                32 => {
-                    self.HIIHFHPBJKH = is.read_uint32()?;
+                45 => {
+                    self.MBAFIOCLMAI = is.read_float()?;
                 },
-                64 => {
+                72 => {
                     self.group_id = is.read_uint32()?;
                 },
-                61 => {
-                    self.BAGKGNMEKKE = is.read_float()?;
+                112 => {
+                    self.PBOLMBLKDND = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -107,14 +107,14 @@ impl ::protobuf::Message for RotaterData {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.HIIHFHPBJKH != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.HIIHFHPBJKH);
+        if self.MBAFIOCLMAI != 0. {
+            my_size += 1 + 4;
         }
         if self.group_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.group_id);
+            my_size += ::protobuf::rt::uint32_size(9, self.group_id);
         }
-        if self.BAGKGNMEKKE != 0. {
-            my_size += 1 + 4;
+        if self.PBOLMBLKDND != 0 {
+            my_size += ::protobuf::rt::uint32_size(14, self.PBOLMBLKDND);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -122,14 +122,14 @@ impl ::protobuf::Message for RotaterData {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.HIIHFHPBJKH != 0 {
-            os.write_uint32(4, self.HIIHFHPBJKH)?;
+        if self.MBAFIOCLMAI != 0. {
+            os.write_float(5, self.MBAFIOCLMAI)?;
         }
         if self.group_id != 0 {
-            os.write_uint32(8, self.group_id)?;
+            os.write_uint32(9, self.group_id)?;
         }
-        if self.BAGKGNMEKKE != 0. {
-            os.write_float(7, self.BAGKGNMEKKE)?;
+        if self.PBOLMBLKDND != 0 {
+            os.write_uint32(14, self.PBOLMBLKDND)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -148,17 +148,17 @@ impl ::protobuf::Message for RotaterData {
     }
 
     fn clear(&mut self) {
-        self.HIIHFHPBJKH = 0;
+        self.MBAFIOCLMAI = 0.;
         self.group_id = 0;
-        self.BAGKGNMEKKE = 0.;
+        self.PBOLMBLKDND = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static RotaterData {
         static instance: RotaterData = RotaterData {
-            HIIHFHPBJKH: 0,
+            MBAFIOCLMAI: 0.,
             group_id: 0,
-            BAGKGNMEKKE: 0.,
+            PBOLMBLKDND: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -183,10 +183,10 @@ impl ::protobuf::reflect::ProtobufValue for RotaterData {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x11RotaterData.proto\"l\n\x0bRotaterData\x12\x20\n\x0bHIIHFHPBJKH\x18\
-    \x04\x20\x01(\rR\x0bHIIHFHPBJKH\x12\x19\n\x08group_id\x18\x08\x20\x01(\r\
-    R\x07groupId\x12\x20\n\x0bBAGKGNMEKKE\x18\x07\x20\x01(\x02R\x0bBAGKGNMEK\
-    KEb\x06proto3\
+    \n\x11RotaterData.proto\"l\n\x0bRotaterData\x12\x20\n\x0bMBAFIOCLMAI\x18\
+    \x05\x20\x01(\x02R\x0bMBAFIOCLMAI\x12\x19\n\x08group_id\x18\t\x20\x01(\r\
+    R\x07groupId\x12\x20\n\x0bPBOLMBLKDND\x18\x0e\x20\x01(\rR\x0bPBOLMBLKDND\
+    b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

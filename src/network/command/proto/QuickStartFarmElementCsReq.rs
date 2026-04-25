@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct QuickStartFarmElementCsReq {
     // message fields
-    // @@protoc_insertion_point(field:QuickStartFarmElementCsReq.CKIHMAFPNOA)
-    pub CKIHMAFPNOA: u32,
+    // @@protoc_insertion_point(field:QuickStartFarmElementCsReq.MHLFHLEMCCB)
+    pub MHLFHLEMCCB: u32,
     // @@protoc_insertion_point(field:QuickStartFarmElementCsReq.world_level)
     pub world_level: u32,
-    // @@protoc_insertion_point(field:QuickStartFarmElementCsReq.CMFPEABAKPB)
-    pub CMFPEABAKPB: u32,
+    // @@protoc_insertion_point(field:QuickStartFarmElementCsReq.JIABAGAFEEA)
+    pub JIABAGAFEEA: u32,
     // special fields
     // @@protoc_insertion_point(special_field:QuickStartFarmElementCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -54,9 +54,9 @@ impl QuickStartFarmElementCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "CKIHMAFPNOA",
-            |m: &QuickStartFarmElementCsReq| { &m.CKIHMAFPNOA },
-            |m: &mut QuickStartFarmElementCsReq| { &mut m.CKIHMAFPNOA },
+            "MHLFHLEMCCB",
+            |m: &QuickStartFarmElementCsReq| { &m.MHLFHLEMCCB },
+            |m: &mut QuickStartFarmElementCsReq| { &mut m.MHLFHLEMCCB },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "world_level",
@@ -64,9 +64,9 @@ impl QuickStartFarmElementCsReq {
             |m: &mut QuickStartFarmElementCsReq| { &mut m.world_level },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "CMFPEABAKPB",
-            |m: &QuickStartFarmElementCsReq| { &m.CMFPEABAKPB },
-            |m: &mut QuickStartFarmElementCsReq| { &mut m.CMFPEABAKPB },
+            "JIABAGAFEEA",
+            |m: &QuickStartFarmElementCsReq| { &m.JIABAGAFEEA },
+            |m: &mut QuickStartFarmElementCsReq| { &mut m.JIABAGAFEEA },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<QuickStartFarmElementCsReq>(
             "QuickStartFarmElementCsReq",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for QuickStartFarmElementCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                88 => {
-                    self.CKIHMAFPNOA = is.read_uint32()?;
+                16 => {
+                    self.MHLFHLEMCCB = is.read_uint32()?;
                 },
-                48 => {
+                72 => {
                     self.world_level = is.read_uint32()?;
                 },
-                16 => {
-                    self.CMFPEABAKPB = is.read_uint32()?;
+                120 => {
+                    self.JIABAGAFEEA = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -107,14 +107,14 @@ impl ::protobuf::Message for QuickStartFarmElementCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.CKIHMAFPNOA != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.CKIHMAFPNOA);
+        if self.MHLFHLEMCCB != 0 {
+            my_size += ::protobuf::rt::uint32_size(2, self.MHLFHLEMCCB);
         }
         if self.world_level != 0 {
-            my_size += ::protobuf::rt::uint32_size(6, self.world_level);
+            my_size += ::protobuf::rt::uint32_size(9, self.world_level);
         }
-        if self.CMFPEABAKPB != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.CMFPEABAKPB);
+        if self.JIABAGAFEEA != 0 {
+            my_size += ::protobuf::rt::uint32_size(15, self.JIABAGAFEEA);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -122,14 +122,14 @@ impl ::protobuf::Message for QuickStartFarmElementCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.CKIHMAFPNOA != 0 {
-            os.write_uint32(11, self.CKIHMAFPNOA)?;
+        if self.MHLFHLEMCCB != 0 {
+            os.write_uint32(2, self.MHLFHLEMCCB)?;
         }
         if self.world_level != 0 {
-            os.write_uint32(6, self.world_level)?;
+            os.write_uint32(9, self.world_level)?;
         }
-        if self.CMFPEABAKPB != 0 {
-            os.write_uint32(2, self.CMFPEABAKPB)?;
+        if self.JIABAGAFEEA != 0 {
+            os.write_uint32(15, self.JIABAGAFEEA)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -148,17 +148,17 @@ impl ::protobuf::Message for QuickStartFarmElementCsReq {
     }
 
     fn clear(&mut self) {
-        self.CKIHMAFPNOA = 0;
+        self.MHLFHLEMCCB = 0;
         self.world_level = 0;
-        self.CMFPEABAKPB = 0;
+        self.JIABAGAFEEA = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static QuickStartFarmElementCsReq {
         static instance: QuickStartFarmElementCsReq = QuickStartFarmElementCsReq {
-            CKIHMAFPNOA: 0,
+            MHLFHLEMCCB: 0,
             world_level: 0,
-            CMFPEABAKPB: 0,
+            JIABAGAFEEA: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -184,9 +184,9 @@ impl ::protobuf::reflect::ProtobufValue for QuickStartFarmElementCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x20QuickStartFarmElementCsReq.proto\"\x81\x01\n\x1aQuickStartFarmElem\
-    entCsReq\x12\x20\n\x0bCKIHMAFPNOA\x18\x0b\x20\x01(\rR\x0bCKIHMAFPNOA\x12\
-    \x1f\n\x0bworld_level\x18\x06\x20\x01(\rR\nworldLevel\x12\x20\n\x0bCMFPE\
-    ABAKPB\x18\x02\x20\x01(\rR\x0bCMFPEABAKPBb\x06proto3\
+    entCsReq\x12\x20\n\x0bMHLFHLEMCCB\x18\x02\x20\x01(\rR\x0bMHLFHLEMCCB\x12\
+    \x1f\n\x0bworld_level\x18\t\x20\x01(\rR\nworldLevel\x12\x20\n\x0bJIABAGA\
+    FEEA\x18\x0f\x20\x01(\rR\x0bJIABAGAFEEAb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

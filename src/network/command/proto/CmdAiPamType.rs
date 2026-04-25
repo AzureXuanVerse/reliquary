@@ -27,44 +27,52 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdAiPamType)
 pub enum CmdAiPamType {
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_ICIAGHDBDOJ)
-    CmdAiPamType_ICIAGHDBDOJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_MPCMLGGLJFB)
-    CmdAiPamType_MPCMLGGLJFB = 9521,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_NMELKKGPLNG)
-    CmdAiPamType_NMELKKGPLNG = 9534,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_NIJJCAAGABK)
-    CmdAiPamType_NIJJCAAGABK = 9514,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_NAHIMHGPACK)
-    CmdAiPamType_NAHIMHGPACK = 9524,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_JGAPJABGNHI)
-    CmdAiPamType_JGAPJABGNHI = 9512,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_CMICCPGGPAB)
-    CmdAiPamType_CMICCPGGPAB = 9508,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_CGEOAIAHOIJ)
-    CmdAiPamType_CGEOAIAHOIJ = 9522,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_PGPBBGMHHDH)
-    CmdAiPamType_PGPBBGMHHDH = 9503,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_JCPNGPONDNK)
-    CmdAiPamType_JCPNGPONDNK = 9511,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_FGMLOAHMHEB)
-    CmdAiPamType_FGMLOAHMHEB = 9529,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_ALHKBKFLBKD)
-    CmdAiPamType_ALHKBKFLBKD = 9538,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_MHIGLNKJEDJ)
-    CmdAiPamType_MHIGLNKJEDJ = 9507,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_DPMJIPOBJHC)
-    CmdAiPamType_DPMJIPOBJHC = 9523,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_MFNGMCJPDGC)
-    CmdAiPamType_MFNGMCJPDGC = 9501,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_BGEGODNMCJB)
-    CmdAiPamType_BGEGODNMCJB = 9504,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_MJEPEDGAFPC)
-    CmdAiPamType_MJEPEDGAFPC = 9518,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_IDCBKKJPLDB)
-    CmdAiPamType_IDCBKKJPLDB = 9539,
-    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamType_JBNPKLJFECG)
-    CmdAiPamType_JBNPKLJFECG = 9540,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.JCIOGLMGOPM_FEAOLFOCPPJ)
+    JCIOGLMGOPM_FEAOLFOCPPJ = 0,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamResponseFeedbackScRsp)
+    CmdAiPamResponseFeedbackScRsp = 9518,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdGetAiPamChatInfoScRsp)
+    CmdGetAiPamChatInfoScRsp = 9502,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdUpdateAiPamSettingsScRsp)
+    CmdUpdateAiPamSettingsScRsp = 9531,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdGetAiPamNextQuestionScRsp)
+    CmdGetAiPamNextQuestionScRsp = 9505,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdTriggerAiPamSpeakCsReq)
+    CmdTriggerAiPamSpeakCsReq = 9503,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdTriggerAiPamSpeakScRsp)
+    CmdTriggerAiPamSpeakScRsp = 9550,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdIPPACOOGLPK)
+    CmdIPPACOOGLPK = 9506,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdGetAiPamChatHistoryScRsp)
+    CmdGetAiPamChatHistoryScRsp = 9535,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdGetAiPamChatHistoryCsReq)
+    CmdGetAiPamChatHistoryCsReq = 9527,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamResponseFeedbackCommentCsReq)
+    CmdAiPamResponseFeedbackCommentCsReq = 9545,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdUpdateAiPamSettingsCsReq)
+    CmdUpdateAiPamSettingsCsReq = 9516,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamMotionScNotify)
+    CmdAiPamMotionScNotify = 9521,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdRecvAiPamChatEventScNotify)
+    CmdRecvAiPamChatEventScNotify = 9530,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAIKHMIAMBIF)
+    CmdAIKHMIAMBIF = 9526,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdGetAiPamChatInfoCsReq)
+    CmdGetAiPamChatInfoCsReq = 9519,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamResponseFeedbackCsReq)
+    CmdAiPamResponseFeedbackCsReq = 9544,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdCGPFNCNAMOP)
+    CmdCGPFNCNAMOP = 9549,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamSendMsgScRsp)
+    CmdAiPamSendMsgScRsp = 9507,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdIMHLIHAOCPE)
+    CmdIMHLIHAOCPE = 9515,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamResponseFeedbackCommentScRsp)
+    CmdAiPamResponseFeedbackCommentScRsp = 9536,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdGetAiPamNextQuestionCsReq)
+    CmdGetAiPamNextQuestionCsReq = 9538,
+    // @@protoc_insertion_point(enum_value:CmdAiPamType.CmdAiPamTeamExplainCsReq)
+    CmdAiPamTeamExplainCsReq = 9513,
 }
 
 impl ::protobuf::Enum for CmdAiPamType {
@@ -76,74 +84,86 @@ impl ::protobuf::Enum for CmdAiPamType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdAiPamType> {
         match value {
-            0 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_ICIAGHDBDOJ),
-            9521 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_MPCMLGGLJFB),
-            9534 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_NMELKKGPLNG),
-            9514 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_NIJJCAAGABK),
-            9524 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_NAHIMHGPACK),
-            9512 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_JGAPJABGNHI),
-            9508 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_CMICCPGGPAB),
-            9522 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_CGEOAIAHOIJ),
-            9503 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_PGPBBGMHHDH),
-            9511 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_JCPNGPONDNK),
-            9529 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_FGMLOAHMHEB),
-            9538 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_ALHKBKFLBKD),
-            9507 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_MHIGLNKJEDJ),
-            9523 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_DPMJIPOBJHC),
-            9501 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_MFNGMCJPDGC),
-            9504 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_BGEGODNMCJB),
-            9518 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_MJEPEDGAFPC),
-            9539 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_IDCBKKJPLDB),
-            9540 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_JBNPKLJFECG),
+            0 => ::std::option::Option::Some(CmdAiPamType::JCIOGLMGOPM_FEAOLFOCPPJ),
+            9518 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamResponseFeedbackScRsp),
+            9502 => ::std::option::Option::Some(CmdAiPamType::CmdGetAiPamChatInfoScRsp),
+            9531 => ::std::option::Option::Some(CmdAiPamType::CmdUpdateAiPamSettingsScRsp),
+            9505 => ::std::option::Option::Some(CmdAiPamType::CmdGetAiPamNextQuestionScRsp),
+            9503 => ::std::option::Option::Some(CmdAiPamType::CmdTriggerAiPamSpeakCsReq),
+            9550 => ::std::option::Option::Some(CmdAiPamType::CmdTriggerAiPamSpeakScRsp),
+            9506 => ::std::option::Option::Some(CmdAiPamType::CmdIPPACOOGLPK),
+            9535 => ::std::option::Option::Some(CmdAiPamType::CmdGetAiPamChatHistoryScRsp),
+            9527 => ::std::option::Option::Some(CmdAiPamType::CmdGetAiPamChatHistoryCsReq),
+            9545 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamResponseFeedbackCommentCsReq),
+            9516 => ::std::option::Option::Some(CmdAiPamType::CmdUpdateAiPamSettingsCsReq),
+            9521 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamMotionScNotify),
+            9530 => ::std::option::Option::Some(CmdAiPamType::CmdRecvAiPamChatEventScNotify),
+            9526 => ::std::option::Option::Some(CmdAiPamType::CmdAIKHMIAMBIF),
+            9519 => ::std::option::Option::Some(CmdAiPamType::CmdGetAiPamChatInfoCsReq),
+            9544 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamResponseFeedbackCsReq),
+            9549 => ::std::option::Option::Some(CmdAiPamType::CmdCGPFNCNAMOP),
+            9507 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamSendMsgScRsp),
+            9515 => ::std::option::Option::Some(CmdAiPamType::CmdIMHLIHAOCPE),
+            9536 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamResponseFeedbackCommentScRsp),
+            9538 => ::std::option::Option::Some(CmdAiPamType::CmdGetAiPamNextQuestionCsReq),
+            9513 => ::std::option::Option::Some(CmdAiPamType::CmdAiPamTeamExplainCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdAiPamType> {
         match str {
-            "CmdAiPamType_ICIAGHDBDOJ" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_ICIAGHDBDOJ),
-            "CmdAiPamType_MPCMLGGLJFB" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_MPCMLGGLJFB),
-            "CmdAiPamType_NMELKKGPLNG" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_NMELKKGPLNG),
-            "CmdAiPamType_NIJJCAAGABK" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_NIJJCAAGABK),
-            "CmdAiPamType_NAHIMHGPACK" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_NAHIMHGPACK),
-            "CmdAiPamType_JGAPJABGNHI" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_JGAPJABGNHI),
-            "CmdAiPamType_CMICCPGGPAB" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_CMICCPGGPAB),
-            "CmdAiPamType_CGEOAIAHOIJ" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_CGEOAIAHOIJ),
-            "CmdAiPamType_PGPBBGMHHDH" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_PGPBBGMHHDH),
-            "CmdAiPamType_JCPNGPONDNK" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_JCPNGPONDNK),
-            "CmdAiPamType_FGMLOAHMHEB" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_FGMLOAHMHEB),
-            "CmdAiPamType_ALHKBKFLBKD" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_ALHKBKFLBKD),
-            "CmdAiPamType_MHIGLNKJEDJ" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_MHIGLNKJEDJ),
-            "CmdAiPamType_DPMJIPOBJHC" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_DPMJIPOBJHC),
-            "CmdAiPamType_MFNGMCJPDGC" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_MFNGMCJPDGC),
-            "CmdAiPamType_BGEGODNMCJB" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_BGEGODNMCJB),
-            "CmdAiPamType_MJEPEDGAFPC" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_MJEPEDGAFPC),
-            "CmdAiPamType_IDCBKKJPLDB" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_IDCBKKJPLDB),
-            "CmdAiPamType_JBNPKLJFECG" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamType_JBNPKLJFECG),
+            "JCIOGLMGOPM_FEAOLFOCPPJ" => ::std::option::Option::Some(CmdAiPamType::JCIOGLMGOPM_FEAOLFOCPPJ),
+            "CmdAiPamResponseFeedbackScRsp" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamResponseFeedbackScRsp),
+            "CmdGetAiPamChatInfoScRsp" => ::std::option::Option::Some(CmdAiPamType::CmdGetAiPamChatInfoScRsp),
+            "CmdUpdateAiPamSettingsScRsp" => ::std::option::Option::Some(CmdAiPamType::CmdUpdateAiPamSettingsScRsp),
+            "CmdGetAiPamNextQuestionScRsp" => ::std::option::Option::Some(CmdAiPamType::CmdGetAiPamNextQuestionScRsp),
+            "CmdTriggerAiPamSpeakCsReq" => ::std::option::Option::Some(CmdAiPamType::CmdTriggerAiPamSpeakCsReq),
+            "CmdTriggerAiPamSpeakScRsp" => ::std::option::Option::Some(CmdAiPamType::CmdTriggerAiPamSpeakScRsp),
+            "CmdIPPACOOGLPK" => ::std::option::Option::Some(CmdAiPamType::CmdIPPACOOGLPK),
+            "CmdGetAiPamChatHistoryScRsp" => ::std::option::Option::Some(CmdAiPamType::CmdGetAiPamChatHistoryScRsp),
+            "CmdGetAiPamChatHistoryCsReq" => ::std::option::Option::Some(CmdAiPamType::CmdGetAiPamChatHistoryCsReq),
+            "CmdAiPamResponseFeedbackCommentCsReq" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamResponseFeedbackCommentCsReq),
+            "CmdUpdateAiPamSettingsCsReq" => ::std::option::Option::Some(CmdAiPamType::CmdUpdateAiPamSettingsCsReq),
+            "CmdAiPamMotionScNotify" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamMotionScNotify),
+            "CmdRecvAiPamChatEventScNotify" => ::std::option::Option::Some(CmdAiPamType::CmdRecvAiPamChatEventScNotify),
+            "CmdAIKHMIAMBIF" => ::std::option::Option::Some(CmdAiPamType::CmdAIKHMIAMBIF),
+            "CmdGetAiPamChatInfoCsReq" => ::std::option::Option::Some(CmdAiPamType::CmdGetAiPamChatInfoCsReq),
+            "CmdAiPamResponseFeedbackCsReq" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamResponseFeedbackCsReq),
+            "CmdCGPFNCNAMOP" => ::std::option::Option::Some(CmdAiPamType::CmdCGPFNCNAMOP),
+            "CmdAiPamSendMsgScRsp" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamSendMsgScRsp),
+            "CmdIMHLIHAOCPE" => ::std::option::Option::Some(CmdAiPamType::CmdIMHLIHAOCPE),
+            "CmdAiPamResponseFeedbackCommentScRsp" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamResponseFeedbackCommentScRsp),
+            "CmdGetAiPamNextQuestionCsReq" => ::std::option::Option::Some(CmdAiPamType::CmdGetAiPamNextQuestionCsReq),
+            "CmdAiPamTeamExplainCsReq" => ::std::option::Option::Some(CmdAiPamType::CmdAiPamTeamExplainCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdAiPamType] = &[
-        CmdAiPamType::CmdAiPamType_ICIAGHDBDOJ,
-        CmdAiPamType::CmdAiPamType_MPCMLGGLJFB,
-        CmdAiPamType::CmdAiPamType_NMELKKGPLNG,
-        CmdAiPamType::CmdAiPamType_NIJJCAAGABK,
-        CmdAiPamType::CmdAiPamType_NAHIMHGPACK,
-        CmdAiPamType::CmdAiPamType_JGAPJABGNHI,
-        CmdAiPamType::CmdAiPamType_CMICCPGGPAB,
-        CmdAiPamType::CmdAiPamType_CGEOAIAHOIJ,
-        CmdAiPamType::CmdAiPamType_PGPBBGMHHDH,
-        CmdAiPamType::CmdAiPamType_JCPNGPONDNK,
-        CmdAiPamType::CmdAiPamType_FGMLOAHMHEB,
-        CmdAiPamType::CmdAiPamType_ALHKBKFLBKD,
-        CmdAiPamType::CmdAiPamType_MHIGLNKJEDJ,
-        CmdAiPamType::CmdAiPamType_DPMJIPOBJHC,
-        CmdAiPamType::CmdAiPamType_MFNGMCJPDGC,
-        CmdAiPamType::CmdAiPamType_BGEGODNMCJB,
-        CmdAiPamType::CmdAiPamType_MJEPEDGAFPC,
-        CmdAiPamType::CmdAiPamType_IDCBKKJPLDB,
-        CmdAiPamType::CmdAiPamType_JBNPKLJFECG,
+        CmdAiPamType::JCIOGLMGOPM_FEAOLFOCPPJ,
+        CmdAiPamType::CmdAiPamResponseFeedbackScRsp,
+        CmdAiPamType::CmdGetAiPamChatInfoScRsp,
+        CmdAiPamType::CmdUpdateAiPamSettingsScRsp,
+        CmdAiPamType::CmdGetAiPamNextQuestionScRsp,
+        CmdAiPamType::CmdTriggerAiPamSpeakCsReq,
+        CmdAiPamType::CmdTriggerAiPamSpeakScRsp,
+        CmdAiPamType::CmdIPPACOOGLPK,
+        CmdAiPamType::CmdGetAiPamChatHistoryScRsp,
+        CmdAiPamType::CmdGetAiPamChatHistoryCsReq,
+        CmdAiPamType::CmdAiPamResponseFeedbackCommentCsReq,
+        CmdAiPamType::CmdUpdateAiPamSettingsCsReq,
+        CmdAiPamType::CmdAiPamMotionScNotify,
+        CmdAiPamType::CmdRecvAiPamChatEventScNotify,
+        CmdAiPamType::CmdAIKHMIAMBIF,
+        CmdAiPamType::CmdGetAiPamChatInfoCsReq,
+        CmdAiPamType::CmdAiPamResponseFeedbackCsReq,
+        CmdAiPamType::CmdCGPFNCNAMOP,
+        CmdAiPamType::CmdAiPamSendMsgScRsp,
+        CmdAiPamType::CmdIMHLIHAOCPE,
+        CmdAiPamType::CmdAiPamResponseFeedbackCommentScRsp,
+        CmdAiPamType::CmdGetAiPamNextQuestionCsReq,
+        CmdAiPamType::CmdAiPamTeamExplainCsReq,
     ];
 }
 
@@ -155,25 +175,29 @@ impl ::protobuf::EnumFull for CmdAiPamType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdAiPamType::CmdAiPamType_ICIAGHDBDOJ => 0,
-            CmdAiPamType::CmdAiPamType_MPCMLGGLJFB => 1,
-            CmdAiPamType::CmdAiPamType_NMELKKGPLNG => 2,
-            CmdAiPamType::CmdAiPamType_NIJJCAAGABK => 3,
-            CmdAiPamType::CmdAiPamType_NAHIMHGPACK => 4,
-            CmdAiPamType::CmdAiPamType_JGAPJABGNHI => 5,
-            CmdAiPamType::CmdAiPamType_CMICCPGGPAB => 6,
-            CmdAiPamType::CmdAiPamType_CGEOAIAHOIJ => 7,
-            CmdAiPamType::CmdAiPamType_PGPBBGMHHDH => 8,
-            CmdAiPamType::CmdAiPamType_JCPNGPONDNK => 9,
-            CmdAiPamType::CmdAiPamType_FGMLOAHMHEB => 10,
-            CmdAiPamType::CmdAiPamType_ALHKBKFLBKD => 11,
-            CmdAiPamType::CmdAiPamType_MHIGLNKJEDJ => 12,
-            CmdAiPamType::CmdAiPamType_DPMJIPOBJHC => 13,
-            CmdAiPamType::CmdAiPamType_MFNGMCJPDGC => 14,
-            CmdAiPamType::CmdAiPamType_BGEGODNMCJB => 15,
-            CmdAiPamType::CmdAiPamType_MJEPEDGAFPC => 16,
-            CmdAiPamType::CmdAiPamType_IDCBKKJPLDB => 17,
-            CmdAiPamType::CmdAiPamType_JBNPKLJFECG => 18,
+            CmdAiPamType::JCIOGLMGOPM_FEAOLFOCPPJ => 0,
+            CmdAiPamType::CmdAiPamResponseFeedbackScRsp => 1,
+            CmdAiPamType::CmdGetAiPamChatInfoScRsp => 2,
+            CmdAiPamType::CmdUpdateAiPamSettingsScRsp => 3,
+            CmdAiPamType::CmdGetAiPamNextQuestionScRsp => 4,
+            CmdAiPamType::CmdTriggerAiPamSpeakCsReq => 5,
+            CmdAiPamType::CmdTriggerAiPamSpeakScRsp => 6,
+            CmdAiPamType::CmdIPPACOOGLPK => 7,
+            CmdAiPamType::CmdGetAiPamChatHistoryScRsp => 8,
+            CmdAiPamType::CmdGetAiPamChatHistoryCsReq => 9,
+            CmdAiPamType::CmdAiPamResponseFeedbackCommentCsReq => 10,
+            CmdAiPamType::CmdUpdateAiPamSettingsCsReq => 11,
+            CmdAiPamType::CmdAiPamMotionScNotify => 12,
+            CmdAiPamType::CmdRecvAiPamChatEventScNotify => 13,
+            CmdAiPamType::CmdAIKHMIAMBIF => 14,
+            CmdAiPamType::CmdGetAiPamChatInfoCsReq => 15,
+            CmdAiPamType::CmdAiPamResponseFeedbackCsReq => 16,
+            CmdAiPamType::CmdCGPFNCNAMOP => 17,
+            CmdAiPamType::CmdAiPamSendMsgScRsp => 18,
+            CmdAiPamType::CmdIMHLIHAOCPE => 19,
+            CmdAiPamType::CmdAiPamResponseFeedbackCommentScRsp => 20,
+            CmdAiPamType::CmdGetAiPamNextQuestionCsReq => 21,
+            CmdAiPamType::CmdAiPamTeamExplainCsReq => 22,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -181,7 +205,7 @@ impl ::protobuf::EnumFull for CmdAiPamType {
 
 impl ::std::default::Default for CmdAiPamType {
     fn default() -> Self {
-        CmdAiPamType::CmdAiPamType_ICIAGHDBDOJ
+        CmdAiPamType::JCIOGLMGOPM_FEAOLFOCPPJ
     }
 }
 
@@ -192,20 +216,22 @@ impl CmdAiPamType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x12CmdAiPamType.proto*\xda\x04\n\x0cCmdAiPamType\x12\x1c\n\x18CmdAiPa\
-    mType_ICIAGHDBDOJ\x10\0\x12\x1d\n\x18CmdAiPamType_MPCMLGGLJFB\x10\xb1J\
-    \x12\x1d\n\x18CmdAiPamType_NMELKKGPLNG\x10\xbeJ\x12\x1d\n\x18CmdAiPamTyp\
-    e_NIJJCAAGABK\x10\xaaJ\x12\x1d\n\x18CmdAiPamType_NAHIMHGPACK\x10\xb4J\
-    \x12\x1d\n\x18CmdAiPamType_JGAPJABGNHI\x10\xa8J\x12\x1d\n\x18CmdAiPamTyp\
-    e_CMICCPGGPAB\x10\xa4J\x12\x1d\n\x18CmdAiPamType_CGEOAIAHOIJ\x10\xb2J\
-    \x12\x1d\n\x18CmdAiPamType_PGPBBGMHHDH\x10\x9fJ\x12\x1d\n\x18CmdAiPamTyp\
-    e_JCPNGPONDNK\x10\xa7J\x12\x1d\n\x18CmdAiPamType_FGMLOAHMHEB\x10\xb9J\
-    \x12\x1d\n\x18CmdAiPamType_ALHKBKFLBKD\x10\xc2J\x12\x1d\n\x18CmdAiPamTyp\
-    e_MHIGLNKJEDJ\x10\xa3J\x12\x1d\n\x18CmdAiPamType_DPMJIPOBJHC\x10\xb3J\
-    \x12\x1d\n\x18CmdAiPamType_MFNGMCJPDGC\x10\x9dJ\x12\x1d\n\x18CmdAiPamTyp\
-    e_BGEGODNMCJB\x10\xa0J\x12\x1d\n\x18CmdAiPamType_MJEPEDGAFPC\x10\xaeJ\
-    \x12\x1d\n\x18CmdAiPamType_IDCBKKJPLDB\x10\xc3J\x12\x1d\n\x18CmdAiPamTyp\
-    e_JBNPKLJFECG\x10\xc4Jb\x06proto3\
+    \n\x12CmdAiPamType.proto*\xe4\x05\n\x0cCmdAiPamType\x12\x1b\n\x17JCIOGLM\
+    GOPM_FEAOLFOCPPJ\x10\0\x12\"\n\x1dCmdAiPamResponseFeedbackScRsp\x10\xaeJ\
+    \x12\x1d\n\x18CmdGetAiPamChatInfoScRsp\x10\x9eJ\x12\x20\n\x1bCmdUpdateAi\
+    PamSettingsScRsp\x10\xbbJ\x12!\n\x1cCmdGetAiPamNextQuestionScRsp\x10\xa1\
+    J\x12\x1e\n\x19CmdTriggerAiPamSpeakCsReq\x10\x9fJ\x12\x1e\n\x19CmdTrigge\
+    rAiPamSpeakScRsp\x10\xceJ\x12\x13\n\x0eCmdIPPACOOGLPK\x10\xa2J\x12\x20\n\
+    \x1bCmdGetAiPamChatHistoryScRsp\x10\xbfJ\x12\x20\n\x1bCmdGetAiPamChatHis\
+    toryCsReq\x10\xb7J\x12)\n$CmdAiPamResponseFeedbackCommentCsReq\x10\xc9J\
+    \x12\x20\n\x1bCmdUpdateAiPamSettingsCsReq\x10\xacJ\x12\x1b\n\x16CmdAiPam\
+    MotionScNotify\x10\xb1J\x12\"\n\x1dCmdRecvAiPamChatEventScNotify\x10\xba\
+    J\x12\x13\n\x0eCmdAIKHMIAMBIF\x10\xb6J\x12\x1d\n\x18CmdGetAiPamChatInfoC\
+    sReq\x10\xafJ\x12\"\n\x1dCmdAiPamResponseFeedbackCsReq\x10\xc8J\x12\x13\
+    \n\x0eCmdCGPFNCNAMOP\x10\xcdJ\x12\x19\n\x14CmdAiPamSendMsgScRsp\x10\xa3J\
+    \x12\x13\n\x0eCmdIMHLIHAOCPE\x10\xabJ\x12)\n$CmdAiPamResponseFeedbackCom\
+    mentScRsp\x10\xc0J\x12!\n\x1cCmdGetAiPamNextQuestionCsReq\x10\xc2J\x12\
+    \x1d\n\x18CmdAiPamTeamExplainCsReq\x10\xa9Jb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

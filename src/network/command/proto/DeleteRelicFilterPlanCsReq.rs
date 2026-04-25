@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct DeleteRelicFilterPlanCsReq {
     // message fields
-    // @@protoc_insertion_point(field:DeleteRelicFilterPlanCsReq.JMBHGCBMPBM)
-    pub JMBHGCBMPBM: bool,
-    // @@protoc_insertion_point(field:DeleteRelicFilterPlanCsReq.MABKNLJDBNH)
-    pub MABKNLJDBNH: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:DeleteRelicFilterPlanCsReq.IBJMBIACFEK)
+    pub IBJMBIACFEK: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:DeleteRelicFilterPlanCsReq.KIPBINBIDAE)
+    pub KIPBINBIDAE: bool,
     // special fields
     // @@protoc_insertion_point(special_field:DeleteRelicFilterPlanCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -51,15 +51,15 @@ impl DeleteRelicFilterPlanCsReq {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "JMBHGCBMPBM",
-            |m: &DeleteRelicFilterPlanCsReq| { &m.JMBHGCBMPBM },
-            |m: &mut DeleteRelicFilterPlanCsReq| { &mut m.JMBHGCBMPBM },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "MABKNLJDBNH",
-            |m: &DeleteRelicFilterPlanCsReq| { &m.MABKNLJDBNH },
-            |m: &mut DeleteRelicFilterPlanCsReq| { &mut m.MABKNLJDBNH },
+            "IBJMBIACFEK",
+            |m: &DeleteRelicFilterPlanCsReq| { &m.IBJMBIACFEK },
+            |m: &mut DeleteRelicFilterPlanCsReq| { &mut m.IBJMBIACFEK },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "KIPBINBIDAE",
+            |m: &DeleteRelicFilterPlanCsReq| { &m.KIPBINBIDAE },
+            |m: &mut DeleteRelicFilterPlanCsReq| { &mut m.KIPBINBIDAE },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<DeleteRelicFilterPlanCsReq>(
             "DeleteRelicFilterPlanCsReq",
@@ -79,14 +79,14 @@ impl ::protobuf::Message for DeleteRelicFilterPlanCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                56 => {
-                    self.JMBHGCBMPBM = is.read_bool()?;
+                106 => {
+                    is.read_repeated_packed_uint32_into(&mut self.IBJMBIACFEK)?;
                 },
-                90 => {
-                    is.read_repeated_packed_uint32_into(&mut self.MABKNLJDBNH)?;
+                104 => {
+                    self.IBJMBIACFEK.push(is.read_uint32()?);
                 },
-                88 => {
-                    self.MABKNLJDBNH.push(is.read_uint32()?);
+                32 => {
+                    self.KIPBINBIDAE = is.read_bool()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -100,20 +100,20 @@ impl ::protobuf::Message for DeleteRelicFilterPlanCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.JMBHGCBMPBM != false {
+        my_size += ::protobuf::rt::vec_packed_uint32_size(13, &self.IBJMBIACFEK);
+        if self.KIPBINBIDAE != false {
             my_size += 1 + 1;
         }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(11, &self.MABKNLJDBNH);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.JMBHGCBMPBM != false {
-            os.write_bool(7, self.JMBHGCBMPBM)?;
+        os.write_repeated_packed_uint32(13, &self.IBJMBIACFEK)?;
+        if self.KIPBINBIDAE != false {
+            os.write_bool(4, self.KIPBINBIDAE)?;
         }
-        os.write_repeated_packed_uint32(11, &self.MABKNLJDBNH)?;
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -131,15 +131,15 @@ impl ::protobuf::Message for DeleteRelicFilterPlanCsReq {
     }
 
     fn clear(&mut self) {
-        self.JMBHGCBMPBM = false;
-        self.MABKNLJDBNH.clear();
+        self.IBJMBIACFEK.clear();
+        self.KIPBINBIDAE = false;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static DeleteRelicFilterPlanCsReq {
         static instance: DeleteRelicFilterPlanCsReq = DeleteRelicFilterPlanCsReq {
-            JMBHGCBMPBM: false,
-            MABKNLJDBNH: ::std::vec::Vec::new(),
+            IBJMBIACFEK: ::std::vec::Vec::new(),
+            KIPBINBIDAE: false,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -165,8 +165,8 @@ impl ::protobuf::reflect::ProtobufValue for DeleteRelicFilterPlanCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x20DeleteRelicFilterPlanCsReq.proto\"`\n\x1aDeleteRelicFilterPlanCsRe\
-    q\x12\x20\n\x0bJMBHGCBMPBM\x18\x07\x20\x01(\x08R\x0bJMBHGCBMPBM\x12\x20\
-    \n\x0bMABKNLJDBNH\x18\x0b\x20\x03(\rR\x0bMABKNLJDBNHb\x06proto3\
+    q\x12\x20\n\x0bIBJMBIACFEK\x18\r\x20\x03(\rR\x0bIBJMBIACFEK\x12\x20\n\
+    \x0bKIPBINBIDAE\x18\x04\x20\x01(\x08R\x0bKIPBINBIDAEb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

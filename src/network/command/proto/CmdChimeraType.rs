@@ -27,40 +27,40 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdChimeraType)
 pub enum CmdChimeraType {
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_MNFEPONEDDJ)
-    CmdChimeraType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_GEIGAJKCLIN)
-    CmdChimeraType_GEIGAJKCLIN = 8176,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_JLJJBALBEMF)
-    CmdChimeraType_JLJJBALBEMF = 8162,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_GMPGAHAFPMA)
-    CmdChimeraType_GMPGAHAFPMA = 8164,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_OEFEDOKIGFE)
-    CmdChimeraType_OEFEDOKIGFE = 8167,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_PCFGHLPHCPK)
-    CmdChimeraType_PCFGHLPHCPK = 8173,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_DIEBAGCGDCF)
-    CmdChimeraType_DIEBAGCGDCF = 8171,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_BEJDNLAHONH)
-    CmdChimeraType_BEJDNLAHONH = 8170,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_GDDDMLJDNLH)
-    CmdChimeraType_GDDDMLJDNLH = 8163,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_JMFHKLJECFO)
-    CmdChimeraType_JMFHKLJECFO = 8169,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_OOPPIOMNHPC)
-    CmdChimeraType_OOPPIOMNHPC = 8165,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_IDBEFIFFINL)
-    CmdChimeraType_IDBEFIFFINL = 8177,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_ALBBDELMDKA)
-    CmdChimeraType_ALBBDELMDKA = 8179,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_JPLMJMHIGGO)
-    CmdChimeraType_JPLMJMHIGGO = 8172,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_HHNCJMENJFN)
-    CmdChimeraType_HHNCJMENJFN = 8166,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_POHFKFBMHBB)
-    CmdChimeraType_POHFKFBMHBB = 8175,
-    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraType_ODIBMOGGGII)
-    CmdChimeraType_ODIBMOGGGII = 8161,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.ECGCPKLHDEC_PCPDHELPKEM)
+    ECGCPKLHDEC_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraStartEndlessCsReq)
+    CmdChimeraStartEndlessCsReq = 8174,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdGetDataScRsp)
+    CmdGetDataScRsp = 8180,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraFinishEndlessRoundScRsp)
+    CmdChimeraFinishEndlessRoundScRsp = 8179,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraQuitEndlessScRsp)
+    CmdChimeraQuitEndlessScRsp = 8178,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraFinishRoundCsReq)
+    CmdChimeraFinishRoundCsReq = 8175,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraFinishRound)
+    CmdChimeraFinishRound = 8168,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdINIELDCAGDG)
+    CmdINIELDCAGDG = 8173,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraDoFinalRoundScRsp)
+    CmdChimeraDoFinalRoundScRsp = 8163,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraStartEndlessScRsp)
+    CmdChimeraStartEndlessScRsp = 8177,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraDoFinalRoundCsReq)
+    CmdChimeraDoFinalRoundCsReq = 8164,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraRoundWorkStartCsReq)
+    CmdChimeraRoundWorkStartCsReq = 8169,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraGetDataCsReq)
+    CmdChimeraGetDataCsReq = 8161,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.ECGCPKLHDEC_AICOENEPACM)
+    ECGCPKLHDEC_AICOENEPACM = 8162,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdOIJJDMGODJP)
+    CmdOIJJDMGODJP = 8170,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraFinishEndlessRoundCsReq)
+    CmdChimeraFinishEndlessRoundCsReq = 8167,
+    // @@protoc_insertion_point(enum_value:CmdChimeraType.CmdChimeraQuitEndlessCsReq)
+    CmdChimeraQuitEndlessCsReq = 8171,
 }
 
 impl ::protobuf::Enum for CmdChimeraType {
@@ -72,68 +72,68 @@ impl ::protobuf::Enum for CmdChimeraType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdChimeraType> {
         match value {
-            0 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_MNFEPONEDDJ),
-            8176 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_GEIGAJKCLIN),
-            8162 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_JLJJBALBEMF),
-            8164 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_GMPGAHAFPMA),
-            8167 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_OEFEDOKIGFE),
-            8173 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_PCFGHLPHCPK),
-            8171 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_DIEBAGCGDCF),
-            8170 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_BEJDNLAHONH),
-            8163 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_GDDDMLJDNLH),
-            8169 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_JMFHKLJECFO),
-            8165 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_OOPPIOMNHPC),
-            8177 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_IDBEFIFFINL),
-            8179 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_ALBBDELMDKA),
-            8172 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_JPLMJMHIGGO),
-            8166 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_HHNCJMENJFN),
-            8175 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_POHFKFBMHBB),
-            8161 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_ODIBMOGGGII),
+            0 => ::std::option::Option::Some(CmdChimeraType::ECGCPKLHDEC_PCPDHELPKEM),
+            8174 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraStartEndlessCsReq),
+            8180 => ::std::option::Option::Some(CmdChimeraType::CmdGetDataScRsp),
+            8179 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraFinishEndlessRoundScRsp),
+            8178 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraQuitEndlessScRsp),
+            8175 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraFinishRoundCsReq),
+            8168 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraFinishRound),
+            8173 => ::std::option::Option::Some(CmdChimeraType::CmdINIELDCAGDG),
+            8163 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraDoFinalRoundScRsp),
+            8177 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraStartEndlessScRsp),
+            8164 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraDoFinalRoundCsReq),
+            8169 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraRoundWorkStartCsReq),
+            8161 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraGetDataCsReq),
+            8162 => ::std::option::Option::Some(CmdChimeraType::ECGCPKLHDEC_AICOENEPACM),
+            8170 => ::std::option::Option::Some(CmdChimeraType::CmdOIJJDMGODJP),
+            8167 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraFinishEndlessRoundCsReq),
+            8171 => ::std::option::Option::Some(CmdChimeraType::CmdChimeraQuitEndlessCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdChimeraType> {
         match str {
-            "CmdChimeraType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_MNFEPONEDDJ),
-            "CmdChimeraType_GEIGAJKCLIN" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_GEIGAJKCLIN),
-            "CmdChimeraType_JLJJBALBEMF" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_JLJJBALBEMF),
-            "CmdChimeraType_GMPGAHAFPMA" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_GMPGAHAFPMA),
-            "CmdChimeraType_OEFEDOKIGFE" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_OEFEDOKIGFE),
-            "CmdChimeraType_PCFGHLPHCPK" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_PCFGHLPHCPK),
-            "CmdChimeraType_DIEBAGCGDCF" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_DIEBAGCGDCF),
-            "CmdChimeraType_BEJDNLAHONH" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_BEJDNLAHONH),
-            "CmdChimeraType_GDDDMLJDNLH" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_GDDDMLJDNLH),
-            "CmdChimeraType_JMFHKLJECFO" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_JMFHKLJECFO),
-            "CmdChimeraType_OOPPIOMNHPC" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_OOPPIOMNHPC),
-            "CmdChimeraType_IDBEFIFFINL" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_IDBEFIFFINL),
-            "CmdChimeraType_ALBBDELMDKA" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_ALBBDELMDKA),
-            "CmdChimeraType_JPLMJMHIGGO" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_JPLMJMHIGGO),
-            "CmdChimeraType_HHNCJMENJFN" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_HHNCJMENJFN),
-            "CmdChimeraType_POHFKFBMHBB" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_POHFKFBMHBB),
-            "CmdChimeraType_ODIBMOGGGII" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraType_ODIBMOGGGII),
+            "ECGCPKLHDEC_PCPDHELPKEM" => ::std::option::Option::Some(CmdChimeraType::ECGCPKLHDEC_PCPDHELPKEM),
+            "CmdChimeraStartEndlessCsReq" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraStartEndlessCsReq),
+            "CmdGetDataScRsp" => ::std::option::Option::Some(CmdChimeraType::CmdGetDataScRsp),
+            "CmdChimeraFinishEndlessRoundScRsp" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraFinishEndlessRoundScRsp),
+            "CmdChimeraQuitEndlessScRsp" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraQuitEndlessScRsp),
+            "CmdChimeraFinishRoundCsReq" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraFinishRoundCsReq),
+            "CmdChimeraFinishRound" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraFinishRound),
+            "CmdINIELDCAGDG" => ::std::option::Option::Some(CmdChimeraType::CmdINIELDCAGDG),
+            "CmdChimeraDoFinalRoundScRsp" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraDoFinalRoundScRsp),
+            "CmdChimeraStartEndlessScRsp" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraStartEndlessScRsp),
+            "CmdChimeraDoFinalRoundCsReq" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraDoFinalRoundCsReq),
+            "CmdChimeraRoundWorkStartCsReq" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraRoundWorkStartCsReq),
+            "CmdChimeraGetDataCsReq" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraGetDataCsReq),
+            "ECGCPKLHDEC_AICOENEPACM" => ::std::option::Option::Some(CmdChimeraType::ECGCPKLHDEC_AICOENEPACM),
+            "CmdOIJJDMGODJP" => ::std::option::Option::Some(CmdChimeraType::CmdOIJJDMGODJP),
+            "CmdChimeraFinishEndlessRoundCsReq" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraFinishEndlessRoundCsReq),
+            "CmdChimeraQuitEndlessCsReq" => ::std::option::Option::Some(CmdChimeraType::CmdChimeraQuitEndlessCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdChimeraType] = &[
-        CmdChimeraType::CmdChimeraType_MNFEPONEDDJ,
-        CmdChimeraType::CmdChimeraType_GEIGAJKCLIN,
-        CmdChimeraType::CmdChimeraType_JLJJBALBEMF,
-        CmdChimeraType::CmdChimeraType_GMPGAHAFPMA,
-        CmdChimeraType::CmdChimeraType_OEFEDOKIGFE,
-        CmdChimeraType::CmdChimeraType_PCFGHLPHCPK,
-        CmdChimeraType::CmdChimeraType_DIEBAGCGDCF,
-        CmdChimeraType::CmdChimeraType_BEJDNLAHONH,
-        CmdChimeraType::CmdChimeraType_GDDDMLJDNLH,
-        CmdChimeraType::CmdChimeraType_JMFHKLJECFO,
-        CmdChimeraType::CmdChimeraType_OOPPIOMNHPC,
-        CmdChimeraType::CmdChimeraType_IDBEFIFFINL,
-        CmdChimeraType::CmdChimeraType_ALBBDELMDKA,
-        CmdChimeraType::CmdChimeraType_JPLMJMHIGGO,
-        CmdChimeraType::CmdChimeraType_HHNCJMENJFN,
-        CmdChimeraType::CmdChimeraType_POHFKFBMHBB,
-        CmdChimeraType::CmdChimeraType_ODIBMOGGGII,
+        CmdChimeraType::ECGCPKLHDEC_PCPDHELPKEM,
+        CmdChimeraType::CmdChimeraStartEndlessCsReq,
+        CmdChimeraType::CmdGetDataScRsp,
+        CmdChimeraType::CmdChimeraFinishEndlessRoundScRsp,
+        CmdChimeraType::CmdChimeraQuitEndlessScRsp,
+        CmdChimeraType::CmdChimeraFinishRoundCsReq,
+        CmdChimeraType::CmdChimeraFinishRound,
+        CmdChimeraType::CmdINIELDCAGDG,
+        CmdChimeraType::CmdChimeraDoFinalRoundScRsp,
+        CmdChimeraType::CmdChimeraStartEndlessScRsp,
+        CmdChimeraType::CmdChimeraDoFinalRoundCsReq,
+        CmdChimeraType::CmdChimeraRoundWorkStartCsReq,
+        CmdChimeraType::CmdChimeraGetDataCsReq,
+        CmdChimeraType::ECGCPKLHDEC_AICOENEPACM,
+        CmdChimeraType::CmdOIJJDMGODJP,
+        CmdChimeraType::CmdChimeraFinishEndlessRoundCsReq,
+        CmdChimeraType::CmdChimeraQuitEndlessCsReq,
     ];
 }
 
@@ -145,23 +145,23 @@ impl ::protobuf::EnumFull for CmdChimeraType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdChimeraType::CmdChimeraType_MNFEPONEDDJ => 0,
-            CmdChimeraType::CmdChimeraType_GEIGAJKCLIN => 1,
-            CmdChimeraType::CmdChimeraType_JLJJBALBEMF => 2,
-            CmdChimeraType::CmdChimeraType_GMPGAHAFPMA => 3,
-            CmdChimeraType::CmdChimeraType_OEFEDOKIGFE => 4,
-            CmdChimeraType::CmdChimeraType_PCFGHLPHCPK => 5,
-            CmdChimeraType::CmdChimeraType_DIEBAGCGDCF => 6,
-            CmdChimeraType::CmdChimeraType_BEJDNLAHONH => 7,
-            CmdChimeraType::CmdChimeraType_GDDDMLJDNLH => 8,
-            CmdChimeraType::CmdChimeraType_JMFHKLJECFO => 9,
-            CmdChimeraType::CmdChimeraType_OOPPIOMNHPC => 10,
-            CmdChimeraType::CmdChimeraType_IDBEFIFFINL => 11,
-            CmdChimeraType::CmdChimeraType_ALBBDELMDKA => 12,
-            CmdChimeraType::CmdChimeraType_JPLMJMHIGGO => 13,
-            CmdChimeraType::CmdChimeraType_HHNCJMENJFN => 14,
-            CmdChimeraType::CmdChimeraType_POHFKFBMHBB => 15,
-            CmdChimeraType::CmdChimeraType_ODIBMOGGGII => 16,
+            CmdChimeraType::ECGCPKLHDEC_PCPDHELPKEM => 0,
+            CmdChimeraType::CmdChimeraStartEndlessCsReq => 1,
+            CmdChimeraType::CmdGetDataScRsp => 2,
+            CmdChimeraType::CmdChimeraFinishEndlessRoundScRsp => 3,
+            CmdChimeraType::CmdChimeraQuitEndlessScRsp => 4,
+            CmdChimeraType::CmdChimeraFinishRoundCsReq => 5,
+            CmdChimeraType::CmdChimeraFinishRound => 6,
+            CmdChimeraType::CmdINIELDCAGDG => 7,
+            CmdChimeraType::CmdChimeraDoFinalRoundScRsp => 8,
+            CmdChimeraType::CmdChimeraStartEndlessScRsp => 9,
+            CmdChimeraType::CmdChimeraDoFinalRoundCsReq => 10,
+            CmdChimeraType::CmdChimeraRoundWorkStartCsReq => 11,
+            CmdChimeraType::CmdChimeraGetDataCsReq => 12,
+            CmdChimeraType::ECGCPKLHDEC_AICOENEPACM => 13,
+            CmdChimeraType::CmdOIJJDMGODJP => 14,
+            CmdChimeraType::CmdChimeraFinishEndlessRoundCsReq => 15,
+            CmdChimeraType::CmdChimeraQuitEndlessCsReq => 16,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -169,7 +169,7 @@ impl ::protobuf::EnumFull for CmdChimeraType {
 
 impl ::std::default::Default for CmdChimeraType {
     fn default() -> Self {
-        CmdChimeraType::CmdChimeraType_MNFEPONEDDJ
+        CmdChimeraType::ECGCPKLHDEC_PCPDHELPKEM
     }
 }
 
@@ -180,19 +180,18 @@ impl CmdChimeraType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x14CmdChimeraType.proto*\xc0\x04\n\x0eCmdChimeraType\x12\x1e\n\x1aCmd\
-    ChimeraType_MNFEPONEDDJ\x10\0\x12\x1f\n\x1aCmdChimeraType_GEIGAJKCLIN\
-    \x10\xf0?\x12\x1f\n\x1aCmdChimeraType_JLJJBALBEMF\x10\xe2?\x12\x1f\n\x1a\
-    CmdChimeraType_GMPGAHAFPMA\x10\xe4?\x12\x1f\n\x1aCmdChimeraType_OEFEDOKI\
-    GFE\x10\xe7?\x12\x1f\n\x1aCmdChimeraType_PCFGHLPHCPK\x10\xed?\x12\x1f\n\
-    \x1aCmdChimeraType_DIEBAGCGDCF\x10\xeb?\x12\x1f\n\x1aCmdChimeraType_BEJD\
-    NLAHONH\x10\xea?\x12\x1f\n\x1aCmdChimeraType_GDDDMLJDNLH\x10\xe3?\x12\
-    \x1f\n\x1aCmdChimeraType_JMFHKLJECFO\x10\xe9?\x12\x1f\n\x1aCmdChimeraTyp\
-    e_OOPPIOMNHPC\x10\xe5?\x12\x1f\n\x1aCmdChimeraType_IDBEFIFFINL\x10\xf1?\
-    \x12\x1f\n\x1aCmdChimeraType_ALBBDELMDKA\x10\xf3?\x12\x1f\n\x1aCmdChimer\
-    aType_JPLMJMHIGGO\x10\xec?\x12\x1f\n\x1aCmdChimeraType_HHNCJMENJFN\x10\
-    \xe6?\x12\x1f\n\x1aCmdChimeraType_POHFKFBMHBB\x10\xef?\x12\x1f\n\x1aCmdC\
-    himeraType_ODIBMOGGGII\x10\xe1?b\x06proto3\
+    \n\x14CmdChimeraType.proto*\xa3\x04\n\x0eCmdChimeraType\x12\x1b\n\x17ECG\
+    CPKLHDEC_PCPDHELPKEM\x10\0\x12\x20\n\x1bCmdChimeraStartEndlessCsReq\x10\
+    \xee?\x12\x14\n\x0fCmdGetDataScRsp\x10\xf4?\x12&\n!CmdChimeraFinishEndle\
+    ssRoundScRsp\x10\xf3?\x12\x1f\n\x1aCmdChimeraQuitEndlessScRsp\x10\xf2?\
+    \x12\x1f\n\x1aCmdChimeraFinishRoundCsReq\x10\xef?\x12\x1a\n\x15CmdChimer\
+    aFinishRound\x10\xe8?\x12\x13\n\x0eCmdINIELDCAGDG\x10\xed?\x12\x20\n\x1b\
+    CmdChimeraDoFinalRoundScRsp\x10\xe3?\x12\x20\n\x1bCmdChimeraStartEndless\
+    ScRsp\x10\xf1?\x12\x20\n\x1bCmdChimeraDoFinalRoundCsReq\x10\xe4?\x12\"\n\
+    \x1dCmdChimeraRoundWorkStartCsReq\x10\xe9?\x12\x1b\n\x16CmdChimeraGetDat\
+    aCsReq\x10\xe1?\x12\x1c\n\x17ECGCPKLHDEC_AICOENEPACM\x10\xe2?\x12\x13\n\
+    \x0eCmdOIJJDMGODJP\x10\xea?\x12&\n!CmdChimeraFinishEndlessRoundCsReq\x10\
+    \xe7?\x12\x1f\n\x1aCmdChimeraQuitEndlessCsReq\x10\xeb?b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

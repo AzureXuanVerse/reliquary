@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct SetLanguageReq {
     // message fields
-    // @@protoc_insertion_point(field:SetLanguageReq.GCGMJOHLMNA)
-    pub GCGMJOHLMNA: ::protobuf::EnumOrUnknown<super::LanguageType::LanguageType>,
+    // @@protoc_insertion_point(field:SetLanguageReq.BNPGKDAEJPB)
+    pub BNPGKDAEJPB: ::protobuf::EnumOrUnknown<super::LanguageType::LanguageType>,
     // special fields
     // @@protoc_insertion_point(special_field:SetLanguageReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl SetLanguageReq {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "GCGMJOHLMNA",
-            |m: &SetLanguageReq| { &m.GCGMJOHLMNA },
-            |m: &mut SetLanguageReq| { &mut m.GCGMJOHLMNA },
+            "BNPGKDAEJPB",
+            |m: &SetLanguageReq| { &m.BNPGKDAEJPB },
+            |m: &mut SetLanguageReq| { &mut m.BNPGKDAEJPB },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<SetLanguageReq>(
             "SetLanguageReq",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for SetLanguageReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                24 => {
-                    self.GCGMJOHLMNA = is.read_enum_or_unknown()?;
+                88 => {
+                    self.BNPGKDAEJPB = is.read_enum_or_unknown()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,8 +87,8 @@ impl ::protobuf::Message for SetLanguageReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.GCGMJOHLMNA != ::protobuf::EnumOrUnknown::new(super::LanguageType::LanguageType::LANGUAGE_NONE) {
-            my_size += ::protobuf::rt::int32_size(3, self.GCGMJOHLMNA.value());
+        if self.BNPGKDAEJPB != ::protobuf::EnumOrUnknown::new(super::LanguageType::LanguageType::LANGUAGE_NONE) {
+            my_size += ::protobuf::rt::int32_size(11, self.BNPGKDAEJPB.value());
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -96,8 +96,8 @@ impl ::protobuf::Message for SetLanguageReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.GCGMJOHLMNA != ::protobuf::EnumOrUnknown::new(super::LanguageType::LanguageType::LANGUAGE_NONE) {
-            os.write_enum(3, ::protobuf::EnumOrUnknown::value(&self.GCGMJOHLMNA))?;
+        if self.BNPGKDAEJPB != ::protobuf::EnumOrUnknown::new(super::LanguageType::LanguageType::LANGUAGE_NONE) {
+            os.write_enum(11, ::protobuf::EnumOrUnknown::value(&self.BNPGKDAEJPB))?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -116,13 +116,13 @@ impl ::protobuf::Message for SetLanguageReq {
     }
 
     fn clear(&mut self) {
-        self.GCGMJOHLMNA = ::protobuf::EnumOrUnknown::new(super::LanguageType::LanguageType::LANGUAGE_NONE);
+        self.BNPGKDAEJPB = ::protobuf::EnumOrUnknown::new(super::LanguageType::LanguageType::LANGUAGE_NONE);
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static SetLanguageReq {
         static instance: SetLanguageReq = SetLanguageReq {
-            GCGMJOHLMNA: ::protobuf::EnumOrUnknown::from_i32(0),
+            BNPGKDAEJPB: ::protobuf::EnumOrUnknown::from_i32(0),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -148,8 +148,8 @@ impl ::protobuf::reflect::ProtobufValue for SetLanguageReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x14SetLanguageReq.proto\x1a\x12LanguageType.proto\"A\n\x0eSetLanguage\
-    Req\x12/\n\x0bGCGMJOHLMNA\x18\x03\x20\x01(\x0e2\r.LanguageTypeR\x0bGCGMJ\
-    OHLMNAb\x06proto3\
+    Req\x12/\n\x0bBNPGKDAEJPB\x18\x0b\x20\x01(\x0e2\r.LanguageTypeR\x0bBNPGK\
+    DAEJPBb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

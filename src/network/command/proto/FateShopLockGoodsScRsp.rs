@@ -79,10 +79,10 @@ impl ::protobuf::Message for FateShopLockGoodsScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                8 => {
+                32 => {
                     self.is_locked = is.read_bool()?;
                 },
-                32 => {
+                56 => {
                     self.retcode = is.read_uint32()?;
                 },
                 tag => {
@@ -101,7 +101,7 @@ impl ::protobuf::Message for FateShopLockGoodsScRsp {
             my_size += 1 + 1;
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(7, self.retcode);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,10 +110,10 @@ impl ::protobuf::Message for FateShopLockGoodsScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.is_locked != false {
-            os.write_bool(1, self.is_locked)?;
+            os.write_bool(4, self.is_locked)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(4, self.retcode)?;
+            os.write_uint32(7, self.retcode)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for FateShopLockGoodsScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1cFateShopLockGoodsScRsp.proto\"O\n\x16FateShopLockGoodsScRsp\x12\
-    \x1b\n\tis_locked\x18\x01\x20\x01(\x08R\x08isLocked\x12\x18\n\x07retcode\
-    \x18\x04\x20\x01(\rR\x07retcodeb\x06proto3\
+    \x1b\n\tis_locked\x18\x04\x20\x01(\x08R\x08isLocked\x12\x18\n\x07retcode\
+    \x18\x07\x20\x01(\rR\x07retcodeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

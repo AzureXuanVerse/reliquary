@@ -27,16 +27,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdContentPackageType)
 pub enum CmdContentPackageType {
-    // @@protoc_insertion_point(enum_value:CmdContentPackageType.CmdContentPackageType_MNFEPONEDDJ)
-    CmdContentPackageType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdContentPackageType.CmdContentPackageType_AKGBLCMLCKI)
-    CmdContentPackageType_AKGBLCMLCKI = 7512,
-    // @@protoc_insertion_point(enum_value:CmdContentPackageType.CmdContentPackageType_GCDJHIAEKOP)
-    CmdContentPackageType_GCDJHIAEKOP = 7504,
-    // @@protoc_insertion_point(enum_value:CmdContentPackageType.CmdContentPackageType_MJKEKLBGLHA)
-    CmdContentPackageType_MJKEKLBGLHA = 7540,
-    // @@protoc_insertion_point(enum_value:CmdContentPackageType.CmdContentPackageType_FEOIFENDNAE)
-    CmdContentPackageType_FEOIFENDNAE = 7501,
+    // @@protoc_insertion_point(enum_value:CmdContentPackageType.CGDHKGPIDLM_PCPDHELPKEM)
+    CGDHKGPIDLM_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdContentPackageType.CmdContentPackageSyncDataScNotify)
+    CmdContentPackageSyncDataScNotify = 7530,
+    // @@protoc_insertion_point(enum_value:CmdContentPackageType.CmdContentPackageGetDataCsReq)
+    CmdContentPackageGetDataCsReq = 7513,
+    // @@protoc_insertion_point(enum_value:CmdContentPackageType.CmdContentPackageGetDataScRsp)
+    CmdContentPackageGetDataScRsp = 7507,
+    // @@protoc_insertion_point(enum_value:CmdContentPackageType.CmdContentPackageTransferScNotify)
+    CmdContentPackageTransferScNotify = 7538,
 }
 
 impl ::protobuf::Enum for CmdContentPackageType {
@@ -48,32 +48,32 @@ impl ::protobuf::Enum for CmdContentPackageType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdContentPackageType> {
         match value {
-            0 => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageType_MNFEPONEDDJ),
-            7512 => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageType_AKGBLCMLCKI),
-            7504 => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageType_GCDJHIAEKOP),
-            7540 => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageType_MJKEKLBGLHA),
-            7501 => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageType_FEOIFENDNAE),
+            0 => ::std::option::Option::Some(CmdContentPackageType::CGDHKGPIDLM_PCPDHELPKEM),
+            7530 => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageSyncDataScNotify),
+            7513 => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageGetDataCsReq),
+            7507 => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageGetDataScRsp),
+            7538 => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageTransferScNotify),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdContentPackageType> {
         match str {
-            "CmdContentPackageType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageType_MNFEPONEDDJ),
-            "CmdContentPackageType_AKGBLCMLCKI" => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageType_AKGBLCMLCKI),
-            "CmdContentPackageType_GCDJHIAEKOP" => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageType_GCDJHIAEKOP),
-            "CmdContentPackageType_MJKEKLBGLHA" => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageType_MJKEKLBGLHA),
-            "CmdContentPackageType_FEOIFENDNAE" => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageType_FEOIFENDNAE),
+            "CGDHKGPIDLM_PCPDHELPKEM" => ::std::option::Option::Some(CmdContentPackageType::CGDHKGPIDLM_PCPDHELPKEM),
+            "CmdContentPackageSyncDataScNotify" => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageSyncDataScNotify),
+            "CmdContentPackageGetDataCsReq" => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageGetDataCsReq),
+            "CmdContentPackageGetDataScRsp" => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageGetDataScRsp),
+            "CmdContentPackageTransferScNotify" => ::std::option::Option::Some(CmdContentPackageType::CmdContentPackageTransferScNotify),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdContentPackageType] = &[
-        CmdContentPackageType::CmdContentPackageType_MNFEPONEDDJ,
-        CmdContentPackageType::CmdContentPackageType_AKGBLCMLCKI,
-        CmdContentPackageType::CmdContentPackageType_GCDJHIAEKOP,
-        CmdContentPackageType::CmdContentPackageType_MJKEKLBGLHA,
-        CmdContentPackageType::CmdContentPackageType_FEOIFENDNAE,
+        CmdContentPackageType::CGDHKGPIDLM_PCPDHELPKEM,
+        CmdContentPackageType::CmdContentPackageSyncDataScNotify,
+        CmdContentPackageType::CmdContentPackageGetDataCsReq,
+        CmdContentPackageType::CmdContentPackageGetDataScRsp,
+        CmdContentPackageType::CmdContentPackageTransferScNotify,
     ];
 }
 
@@ -85,11 +85,11 @@ impl ::protobuf::EnumFull for CmdContentPackageType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdContentPackageType::CmdContentPackageType_MNFEPONEDDJ => 0,
-            CmdContentPackageType::CmdContentPackageType_AKGBLCMLCKI => 1,
-            CmdContentPackageType::CmdContentPackageType_GCDJHIAEKOP => 2,
-            CmdContentPackageType::CmdContentPackageType_MJKEKLBGLHA => 3,
-            CmdContentPackageType::CmdContentPackageType_FEOIFENDNAE => 4,
+            CmdContentPackageType::CGDHKGPIDLM_PCPDHELPKEM => 0,
+            CmdContentPackageType::CmdContentPackageSyncDataScNotify => 1,
+            CmdContentPackageType::CmdContentPackageGetDataCsReq => 2,
+            CmdContentPackageType::CmdContentPackageGetDataScRsp => 3,
+            CmdContentPackageType::CmdContentPackageTransferScNotify => 4,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -97,7 +97,7 @@ impl ::protobuf::EnumFull for CmdContentPackageType {
 
 impl ::std::default::Default for CmdContentPackageType {
     fn default() -> Self {
-        CmdContentPackageType::CmdContentPackageType_MNFEPONEDDJ
+        CmdContentPackageType::CGDHKGPIDLM_PCPDHELPKEM
     }
 }
 
@@ -108,11 +108,11 @@ impl CmdContentPackageType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1bCmdContentPackageType.proto*\xde\x01\n\x15CmdContentPackageType\
-    \x12%\n!CmdContentPackageType_MNFEPONEDDJ\x10\0\x12&\n!CmdContentPackage\
-    Type_AKGBLCMLCKI\x10\xd8:\x12&\n!CmdContentPackageType_GCDJHIAEKOP\x10\
-    \xd0:\x12&\n!CmdContentPackageType_MJKEKLBGLHA\x10\xf4:\x12&\n!CmdConten\
-    tPackageType_FEOIFENDNAE\x10\xcd:b\x06proto3\
+    \n\x1bCmdContentPackageType.proto*\xcc\x01\n\x15CmdContentPackageType\
+    \x12\x1b\n\x17CGDHKGPIDLM_PCPDHELPKEM\x10\0\x12&\n!CmdContentPackageSync\
+    DataScNotify\x10\xea:\x12\"\n\x1dCmdContentPackageGetDataCsReq\x10\xd9:\
+    \x12\"\n\x1dCmdContentPackageGetDataScRsp\x10\xd3:\x12&\n!CmdContentPack\
+    ageTransferScNotify\x10\xf2:b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

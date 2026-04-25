@@ -28,20 +28,20 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct UpdateMapRotationDataScNotify {
     // message fields
-    // @@protoc_insertion_point(field:UpdateMapRotationDataScNotify.EFMLPKJCPBJ)
-    pub EFMLPKJCPBJ: ::std::vec::Vec<super::RotaterData::RotaterData>,
-    // @@protoc_insertion_point(field:UpdateMapRotationDataScNotify.LDIJAKPKLIN)
-    pub LDIJAKPKLIN: i32,
-    // @@protoc_insertion_point(field:UpdateMapRotationDataScNotify.HNPDHHKNKMB)
-    pub HNPDHHKNKMB: ::std::vec::Vec<super::ChargerInfo::ChargerInfo>,
+    // @@protoc_insertion_point(field:UpdateMapRotationDataScNotify.JHDLNBPNEKG)
+    pub JHDLNBPNEKG: i32,
+    // @@protoc_insertion_point(field:UpdateMapRotationDataScNotify.BCPCBHMFIIN)
+    pub BCPCBHMFIIN: u32,
     // @@protoc_insertion_point(field:UpdateMapRotationDataScNotify.energy_info)
     pub energy_info: ::protobuf::MessageField<super::RotaterEnergyInfo::RotaterEnergyInfo>,
-    // @@protoc_insertion_point(field:UpdateMapRotationDataScNotify.KMINHNLKPIC)
-    pub KMINHNLKPIC: u32,
-    // @@protoc_insertion_point(field:UpdateMapRotationDataScNotify.rogue_map)
-    pub rogue_map: ::protobuf::MessageField<super::RotateMapInfo::RotateMapInfo>,
-    // @@protoc_insertion_point(field:UpdateMapRotationDataScNotify.EPBFBCKPFDI)
-    pub EPBFBCKPFDI: bool,
+    // @@protoc_insertion_point(field:UpdateMapRotationDataScNotify.GPKABIBKJHF)
+    pub GPKABIBKJHF: ::std::vec::Vec<super::ChargerInfo::ChargerInfo>,
+    // @@protoc_insertion_point(field:UpdateMapRotationDataScNotify.DJHDDOFHMCF)
+    pub DJHDDOFHMCF: ::std::vec::Vec<super::RotaterData::RotaterData>,
+    // @@protoc_insertion_point(field:UpdateMapRotationDataScNotify.DIMOGLIMLBD)
+    pub DIMOGLIMLBD: bool,
+    // @@protoc_insertion_point(field:UpdateMapRotationDataScNotify.AMMJECHPGPE)
+    pub AMMJECHPGPE: ::protobuf::MessageField<super::RotateMapInfo::RotateMapInfo>,
     // special fields
     // @@protoc_insertion_point(special_field:UpdateMapRotationDataScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -61,40 +61,40 @@ impl UpdateMapRotationDataScNotify {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(7);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "EFMLPKJCPBJ",
-            |m: &UpdateMapRotationDataScNotify| { &m.EFMLPKJCPBJ },
-            |m: &mut UpdateMapRotationDataScNotify| { &mut m.EFMLPKJCPBJ },
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "JHDLNBPNEKG",
+            |m: &UpdateMapRotationDataScNotify| { &m.JHDLNBPNEKG },
+            |m: &mut UpdateMapRotationDataScNotify| { &mut m.JHDLNBPNEKG },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "LDIJAKPKLIN",
-            |m: &UpdateMapRotationDataScNotify| { &m.LDIJAKPKLIN },
-            |m: &mut UpdateMapRotationDataScNotify| { &mut m.LDIJAKPKLIN },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "HNPDHHKNKMB",
-            |m: &UpdateMapRotationDataScNotify| { &m.HNPDHHKNKMB },
-            |m: &mut UpdateMapRotationDataScNotify| { &mut m.HNPDHHKNKMB },
+            "BCPCBHMFIIN",
+            |m: &UpdateMapRotationDataScNotify| { &m.BCPCBHMFIIN },
+            |m: &mut UpdateMapRotationDataScNotify| { &mut m.BCPCBHMFIIN },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::RotaterEnergyInfo::RotaterEnergyInfo>(
             "energy_info",
             |m: &UpdateMapRotationDataScNotify| { &m.energy_info },
             |m: &mut UpdateMapRotationDataScNotify| { &mut m.energy_info },
         ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "GPKABIBKJHF",
+            |m: &UpdateMapRotationDataScNotify| { &m.GPKABIBKJHF },
+            |m: &mut UpdateMapRotationDataScNotify| { &mut m.GPKABIBKJHF },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "DJHDDOFHMCF",
+            |m: &UpdateMapRotationDataScNotify| { &m.DJHDDOFHMCF },
+            |m: &mut UpdateMapRotationDataScNotify| { &mut m.DJHDDOFHMCF },
+        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "KMINHNLKPIC",
-            |m: &UpdateMapRotationDataScNotify| { &m.KMINHNLKPIC },
-            |m: &mut UpdateMapRotationDataScNotify| { &mut m.KMINHNLKPIC },
+            "DIMOGLIMLBD",
+            |m: &UpdateMapRotationDataScNotify| { &m.DIMOGLIMLBD },
+            |m: &mut UpdateMapRotationDataScNotify| { &mut m.DIMOGLIMLBD },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::RotateMapInfo::RotateMapInfo>(
-            "rogue_map",
-            |m: &UpdateMapRotationDataScNotify| { &m.rogue_map },
-            |m: &mut UpdateMapRotationDataScNotify| { &mut m.rogue_map },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "EPBFBCKPFDI",
-            |m: &UpdateMapRotationDataScNotify| { &m.EPBFBCKPFDI },
-            |m: &mut UpdateMapRotationDataScNotify| { &mut m.EPBFBCKPFDI },
+            "AMMJECHPGPE",
+            |m: &UpdateMapRotationDataScNotify| { &m.AMMJECHPGPE },
+            |m: &mut UpdateMapRotationDataScNotify| { &mut m.AMMJECHPGPE },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<UpdateMapRotationDataScNotify>(
             "UpdateMapRotationDataScNotify",
@@ -114,26 +114,26 @@ impl ::protobuf::Message for UpdateMapRotationDataScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                10 => {
-                    self.EFMLPKJCPBJ.push(is.read_message()?);
+                64 => {
+                    self.JHDLNBPNEKG = is.read_int32()?;
                 },
-                112 => {
-                    self.LDIJAKPKLIN = is.read_int32()?;
+                16 => {
+                    self.BCPCBHMFIIN = is.read_uint32()?;
                 },
-                18 => {
-                    self.HNPDHHKNKMB.push(is.read_message()?);
-                },
-                82 => {
+                122 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.energy_info)?;
                 },
-                72 => {
-                    self.KMINHNLKPIC = is.read_uint32()?;
-                },
                 34 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.rogue_map)?;
+                    self.GPKABIBKJHF.push(is.read_message()?);
                 },
-                64 => {
-                    self.EPBFBCKPFDI = is.read_bool()?;
+                114 => {
+                    self.DJHDDOFHMCF.push(is.read_message()?);
+                },
+                40 => {
+                    self.DIMOGLIMLBD = is.read_bool()?;
+                },
+                98 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.AMMJECHPGPE)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -147,30 +147,30 @@ impl ::protobuf::Message for UpdateMapRotationDataScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        for value in &self.EFMLPKJCPBJ {
-            let len = value.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        };
-        if self.LDIJAKPKLIN != 0 {
-            my_size += ::protobuf::rt::int32_size(14, self.LDIJAKPKLIN);
+        if self.JHDLNBPNEKG != 0 {
+            my_size += ::protobuf::rt::int32_size(8, self.JHDLNBPNEKG);
         }
-        for value in &self.HNPDHHKNKMB {
-            let len = value.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        };
+        if self.BCPCBHMFIIN != 0 {
+            my_size += ::protobuf::rt::uint32_size(2, self.BCPCBHMFIIN);
+        }
         if let Some(v) = self.energy_info.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.KMINHNLKPIC != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.KMINHNLKPIC);
+        for value in &self.GPKABIBKJHF {
+            let len = value.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        };
+        for value in &self.DJHDDOFHMCF {
+            let len = value.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        };
+        if self.DIMOGLIMLBD != false {
+            my_size += 1 + 1;
         }
-        if let Some(v) = self.rogue_map.as_ref() {
+        if let Some(v) = self.AMMJECHPGPE.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if self.EPBFBCKPFDI != false {
-            my_size += 1 + 1;
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -178,26 +178,26 @@ impl ::protobuf::Message for UpdateMapRotationDataScNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.EFMLPKJCPBJ {
-            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
-        };
-        if self.LDIJAKPKLIN != 0 {
-            os.write_int32(14, self.LDIJAKPKLIN)?;
+        if self.JHDLNBPNEKG != 0 {
+            os.write_int32(8, self.JHDLNBPNEKG)?;
         }
-        for v in &self.HNPDHHKNKMB {
-            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
-        };
+        if self.BCPCBHMFIIN != 0 {
+            os.write_uint32(2, self.BCPCBHMFIIN)?;
+        }
         if let Some(v) = self.energy_info.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
         }
-        if self.KMINHNLKPIC != 0 {
-            os.write_uint32(9, self.KMINHNLKPIC)?;
-        }
-        if let Some(v) = self.rogue_map.as_ref() {
+        for v in &self.GPKABIBKJHF {
             ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
+        };
+        for v in &self.DJHDDOFHMCF {
+            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
+        };
+        if self.DIMOGLIMLBD != false {
+            os.write_bool(5, self.DIMOGLIMLBD)?;
         }
-        if self.EPBFBCKPFDI != false {
-            os.write_bool(8, self.EPBFBCKPFDI)?;
+        if let Some(v) = self.AMMJECHPGPE.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -216,25 +216,25 @@ impl ::protobuf::Message for UpdateMapRotationDataScNotify {
     }
 
     fn clear(&mut self) {
-        self.EFMLPKJCPBJ.clear();
-        self.LDIJAKPKLIN = 0;
-        self.HNPDHHKNKMB.clear();
+        self.JHDLNBPNEKG = 0;
+        self.BCPCBHMFIIN = 0;
         self.energy_info.clear();
-        self.KMINHNLKPIC = 0;
-        self.rogue_map.clear();
-        self.EPBFBCKPFDI = false;
+        self.GPKABIBKJHF.clear();
+        self.DJHDDOFHMCF.clear();
+        self.DIMOGLIMLBD = false;
+        self.AMMJECHPGPE.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static UpdateMapRotationDataScNotify {
         static instance: UpdateMapRotationDataScNotify = UpdateMapRotationDataScNotify {
-            EFMLPKJCPBJ: ::std::vec::Vec::new(),
-            LDIJAKPKLIN: 0,
-            HNPDHHKNKMB: ::std::vec::Vec::new(),
+            JHDLNBPNEKG: 0,
+            BCPCBHMFIIN: 0,
             energy_info: ::protobuf::MessageField::none(),
-            KMINHNLKPIC: 0,
-            rogue_map: ::protobuf::MessageField::none(),
-            EPBFBCKPFDI: false,
+            GPKABIBKJHF: ::std::vec::Vec::new(),
+            DJHDDOFHMCF: ::std::vec::Vec::new(),
+            DIMOGLIMLBD: false,
+            AMMJECHPGPE: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -261,14 +261,14 @@ impl ::protobuf::reflect::ProtobufValue for UpdateMapRotationDataScNotify {
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n#UpdateMapRotationDataScNotify.proto\x1a\x11ChargerInfo.proto\x1a\x13R\
     otateMapInfo.proto\x1a\x11RotaterData.proto\x1a\x17RotaterEnergyInfo.pro\
-    to\"\xc7\x02\n\x1dUpdateMapRotationDataScNotify\x12.\n\x0bEFMLPKJCPBJ\
-    \x18\x01\x20\x03(\x0b2\x0c.RotaterDataR\x0bEFMLPKJCPBJ\x12\x20\n\x0bLDIJ\
-    AKPKLIN\x18\x0e\x20\x01(\x05R\x0bLDIJAKPKLIN\x12.\n\x0bHNPDHHKNKMB\x18\
-    \x02\x20\x03(\x0b2\x0c.ChargerInfoR\x0bHNPDHHKNKMB\x123\n\x0benergy_info\
-    \x18\n\x20\x01(\x0b2\x12.RotaterEnergyInfoR\nenergyInfo\x12\x20\n\x0bKMI\
-    NHNLKPIC\x18\t\x20\x01(\rR\x0bKMINHNLKPIC\x12+\n\trogue_map\x18\x04\x20\
-    \x01(\x0b2\x0e.RotateMapInfoR\x08rogueMap\x12\x20\n\x0bEPBFBCKPFDI\x18\
-    \x08\x20\x01(\x08R\x0bEPBFBCKPFDIb\x06proto3\
+    to\"\xcc\x02\n\x1dUpdateMapRotationDataScNotify\x12\x20\n\x0bJHDLNBPNEKG\
+    \x18\x08\x20\x01(\x05R\x0bJHDLNBPNEKG\x12\x20\n\x0bBCPCBHMFIIN\x18\x02\
+    \x20\x01(\rR\x0bBCPCBHMFIIN\x123\n\x0benergy_info\x18\x0f\x20\x01(\x0b2\
+    \x12.RotaterEnergyInfoR\nenergyInfo\x12.\n\x0bGPKABIBKJHF\x18\x04\x20\
+    \x03(\x0b2\x0c.ChargerInfoR\x0bGPKABIBKJHF\x12.\n\x0bDJHDDOFHMCF\x18\x0e\
+    \x20\x03(\x0b2\x0c.RotaterDataR\x0bDJHDDOFHMCF\x12\x20\n\x0bDIMOGLIMLBD\
+    \x18\x05\x20\x01(\x08R\x0bDIMOGLIMLBD\x120\n\x0bAMMJECHPGPE\x18\x0c\x20\
+    \x01(\x0b2\x0e.RotateMapInfoR\x0bAMMJECHPGPEb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

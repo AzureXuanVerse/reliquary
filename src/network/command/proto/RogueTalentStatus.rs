@@ -27,12 +27,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:RogueTalentStatus)
 pub enum RogueTalentStatus {
-    // @@protoc_insertion_point(enum_value:RogueTalentStatus.RogueTalentStatus_game_lock_info)
-    RogueTalentStatus_game_lock_info = 0,
-    // @@protoc_insertion_point(enum_value:RogueTalentStatus.RogueTalentStatus_CCJMKNNHKKE)
-    RogueTalentStatus_CCJMKNNHKKE = 1,
-    // @@protoc_insertion_point(enum_value:RogueTalentStatus.RogueTalentStatus_has_recommand)
-    RogueTalentStatus_has_recommand = 2,
+    // @@protoc_insertion_point(enum_value:RogueTalentStatus.JHIDLBHJPBJ_DKLPAAFFLEE)
+    JHIDLBHJPBJ_DKLPAAFFLEE = 0,
+    // @@protoc_insertion_point(enum_value:RogueTalentStatus.JHIDLBHJPBJ_NGMMICOGDFP)
+    JHIDLBHJPBJ_NGMMICOGDFP = 1,
+    // @@protoc_insertion_point(enum_value:RogueTalentStatus.JHIDLBHJPBJ_KPAKAKOGDCM)
+    JHIDLBHJPBJ_KPAKAKOGDCM = 2,
 }
 
 impl ::protobuf::Enum for RogueTalentStatus {
@@ -44,26 +44,26 @@ impl ::protobuf::Enum for RogueTalentStatus {
 
     fn from_i32(value: i32) -> ::std::option::Option<RogueTalentStatus> {
         match value {
-            0 => ::std::option::Option::Some(RogueTalentStatus::RogueTalentStatus_game_lock_info),
-            1 => ::std::option::Option::Some(RogueTalentStatus::RogueTalentStatus_CCJMKNNHKKE),
-            2 => ::std::option::Option::Some(RogueTalentStatus::RogueTalentStatus_has_recommand),
+            0 => ::std::option::Option::Some(RogueTalentStatus::JHIDLBHJPBJ_DKLPAAFFLEE),
+            1 => ::std::option::Option::Some(RogueTalentStatus::JHIDLBHJPBJ_NGMMICOGDFP),
+            2 => ::std::option::Option::Some(RogueTalentStatus::JHIDLBHJPBJ_KPAKAKOGDCM),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<RogueTalentStatus> {
         match str {
-            "RogueTalentStatus_game_lock_info" => ::std::option::Option::Some(RogueTalentStatus::RogueTalentStatus_game_lock_info),
-            "RogueTalentStatus_CCJMKNNHKKE" => ::std::option::Option::Some(RogueTalentStatus::RogueTalentStatus_CCJMKNNHKKE),
-            "RogueTalentStatus_has_recommand" => ::std::option::Option::Some(RogueTalentStatus::RogueTalentStatus_has_recommand),
+            "JHIDLBHJPBJ_DKLPAAFFLEE" => ::std::option::Option::Some(RogueTalentStatus::JHIDLBHJPBJ_DKLPAAFFLEE),
+            "JHIDLBHJPBJ_NGMMICOGDFP" => ::std::option::Option::Some(RogueTalentStatus::JHIDLBHJPBJ_NGMMICOGDFP),
+            "JHIDLBHJPBJ_KPAKAKOGDCM" => ::std::option::Option::Some(RogueTalentStatus::JHIDLBHJPBJ_KPAKAKOGDCM),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [RogueTalentStatus] = &[
-        RogueTalentStatus::RogueTalentStatus_game_lock_info,
-        RogueTalentStatus::RogueTalentStatus_CCJMKNNHKKE,
-        RogueTalentStatus::RogueTalentStatus_has_recommand,
+        RogueTalentStatus::JHIDLBHJPBJ_DKLPAAFFLEE,
+        RogueTalentStatus::JHIDLBHJPBJ_NGMMICOGDFP,
+        RogueTalentStatus::JHIDLBHJPBJ_KPAKAKOGDCM,
     ];
 }
 
@@ -81,7 +81,7 @@ impl ::protobuf::EnumFull for RogueTalentStatus {
 
 impl ::std::default::Default for RogueTalentStatus {
     fn default() -> Self {
-        RogueTalentStatus::RogueTalentStatus_game_lock_info
+        RogueTalentStatus::JHIDLBHJPBJ_DKLPAAFFLEE
     }
 }
 
@@ -92,10 +92,9 @@ impl RogueTalentStatus {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x17RogueTalentStatus.proto*\x81\x01\n\x11RogueTalentStatus\x12$\n\x20\
-    RogueTalentStatus_game_lock_info\x10\0\x12!\n\x1dRogueTalentStatus_CCJMK\
-    NNHKKE\x10\x01\x12#\n\x1fRogueTalentStatus_has_recommand\x10\x02b\x06pro\
-    to3\
+    \n\x17RogueTalentStatus.proto*j\n\x11RogueTalentStatus\x12\x1b\n\x17JHID\
+    LBHJPBJ_DKLPAAFFLEE\x10\0\x12\x1b\n\x17JHIDLBHJPBJ_NGMMICOGDFP\x10\x01\
+    \x12\x1b\n\x17JHIDLBHJPBJ_KPAKAKOGDCM\x10\x02b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

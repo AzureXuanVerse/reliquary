@@ -27,34 +27,34 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:MatchThreeStatisticsType)
 pub enum MatchThreeStatisticsType {
-    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MatchThreeStatisticsType_ONMIHMEHAII)
-    MatchThreeStatisticsType_ONMIHMEHAII = 0,
-    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MatchThreeStatisticsType_ALCCABDLOLF)
-    MatchThreeStatisticsType_ALCCABDLOLF = 1,
-    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MatchThreeStatisticsType_GCOGDOIFKEI)
-    MatchThreeStatisticsType_GCOGDOIFKEI = 2,
-    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MatchThreeStatisticsType_FIKCCCLMBAC)
-    MatchThreeStatisticsType_FIKCCCLMBAC = 3,
-    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MatchThreeStatisticsType_PLABLNDKPEA)
-    MatchThreeStatisticsType_PLABLNDKPEA = 4,
-    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MatchThreeStatisticsType_HBHPKKJMBGG)
-    MatchThreeStatisticsType_HBHPKKJMBGG = 5,
-    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MatchThreeStatisticsType_OMOLNANDMGA)
-    MatchThreeStatisticsType_OMOLNANDMGA = 6,
-    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MatchThreeStatisticsType_BJBMGNBODAN)
-    MatchThreeStatisticsType_BJBMGNBODAN = 7,
-    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MatchThreeStatisticsType_AEOGLCHCFFC)
-    MatchThreeStatisticsType_AEOGLCHCFFC = 8,
-    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MatchThreeStatisticsType_DCJFIBAOCOE)
-    MatchThreeStatisticsType_DCJFIBAOCOE = 9,
-    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MatchThreeStatisticsType_LGKHKJENCPD)
-    MatchThreeStatisticsType_LGKHKJENCPD = 10,
-    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MatchThreeStatisticsType_EDDMEDLBFGM)
-    MatchThreeStatisticsType_EDDMEDLBFGM = 11,
-    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MatchThreeStatisticsType_PBLOJNCBCKJ)
-    MatchThreeStatisticsType_PBLOJNCBCKJ = 12,
-    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MatchThreeStatisticsType_OFLKHGPCHAL)
-    MatchThreeStatisticsType_OFLKHGPCHAL = 13,
+    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MPKINOEENMO_NIHDCPMEGMG)
+    MPKINOEENMO_NIHDCPMEGMG = 0,
+    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MPKINOEENMO_LLGELGPDNIG)
+    MPKINOEENMO_LLGELGPDNIG = 1,
+    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MPKINOEENMO_ACBHOILPJDM)
+    MPKINOEENMO_ACBHOILPJDM = 2,
+    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MPKINOEENMO_FDBNMIHKBFC)
+    MPKINOEENMO_FDBNMIHKBFC = 3,
+    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MPKINOEENMO_MPCNECOPEOK)
+    MPKINOEENMO_MPCNECOPEOK = 4,
+    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MPKINOEENMO_OJODACPPHLP)
+    MPKINOEENMO_OJODACPPHLP = 5,
+    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MPKINOEENMO_PLALKOMCDJN)
+    MPKINOEENMO_PLALKOMCDJN = 6,
+    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MPKINOEENMO_ILGKLDEBJFB)
+    MPKINOEENMO_ILGKLDEBJFB = 7,
+    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MPKINOEENMO_FIEMNJJNJJJ)
+    MPKINOEENMO_FIEMNJJNJJJ = 8,
+    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MPKINOEENMO_PDEBMPJIHLO)
+    MPKINOEENMO_PDEBMPJIHLO = 9,
+    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MPKINOEENMO_CAADHHABMAG)
+    MPKINOEENMO_CAADHHABMAG = 10,
+    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MPKINOEENMO_CKCNHOBCDKI)
+    MPKINOEENMO_CKCNHOBCDKI = 11,
+    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MPKINOEENMO_KJEMHDMHOFL)
+    MPKINOEENMO_KJEMHDMHOFL = 12,
+    // @@protoc_insertion_point(enum_value:MatchThreeStatisticsType.MPKINOEENMO_FOLKEFOJCLM)
+    MPKINOEENMO_FOLKEFOJCLM = 13,
 }
 
 impl ::protobuf::Enum for MatchThreeStatisticsType {
@@ -66,59 +66,59 @@ impl ::protobuf::Enum for MatchThreeStatisticsType {
 
     fn from_i32(value: i32) -> ::std::option::Option<MatchThreeStatisticsType> {
         match value {
-            0 => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_ONMIHMEHAII),
-            1 => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_ALCCABDLOLF),
-            2 => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_GCOGDOIFKEI),
-            3 => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_FIKCCCLMBAC),
-            4 => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_PLABLNDKPEA),
-            5 => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_HBHPKKJMBGG),
-            6 => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_OMOLNANDMGA),
-            7 => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_BJBMGNBODAN),
-            8 => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_AEOGLCHCFFC),
-            9 => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_DCJFIBAOCOE),
-            10 => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_LGKHKJENCPD),
-            11 => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_EDDMEDLBFGM),
-            12 => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_PBLOJNCBCKJ),
-            13 => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_OFLKHGPCHAL),
+            0 => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_NIHDCPMEGMG),
+            1 => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_LLGELGPDNIG),
+            2 => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_ACBHOILPJDM),
+            3 => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_FDBNMIHKBFC),
+            4 => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_MPCNECOPEOK),
+            5 => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_OJODACPPHLP),
+            6 => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_PLALKOMCDJN),
+            7 => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_ILGKLDEBJFB),
+            8 => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_FIEMNJJNJJJ),
+            9 => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_PDEBMPJIHLO),
+            10 => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_CAADHHABMAG),
+            11 => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_CKCNHOBCDKI),
+            12 => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_KJEMHDMHOFL),
+            13 => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_FOLKEFOJCLM),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<MatchThreeStatisticsType> {
         match str {
-            "MatchThreeStatisticsType_ONMIHMEHAII" => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_ONMIHMEHAII),
-            "MatchThreeStatisticsType_ALCCABDLOLF" => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_ALCCABDLOLF),
-            "MatchThreeStatisticsType_GCOGDOIFKEI" => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_GCOGDOIFKEI),
-            "MatchThreeStatisticsType_FIKCCCLMBAC" => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_FIKCCCLMBAC),
-            "MatchThreeStatisticsType_PLABLNDKPEA" => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_PLABLNDKPEA),
-            "MatchThreeStatisticsType_HBHPKKJMBGG" => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_HBHPKKJMBGG),
-            "MatchThreeStatisticsType_OMOLNANDMGA" => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_OMOLNANDMGA),
-            "MatchThreeStatisticsType_BJBMGNBODAN" => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_BJBMGNBODAN),
-            "MatchThreeStatisticsType_AEOGLCHCFFC" => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_AEOGLCHCFFC),
-            "MatchThreeStatisticsType_DCJFIBAOCOE" => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_DCJFIBAOCOE),
-            "MatchThreeStatisticsType_LGKHKJENCPD" => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_LGKHKJENCPD),
-            "MatchThreeStatisticsType_EDDMEDLBFGM" => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_EDDMEDLBFGM),
-            "MatchThreeStatisticsType_PBLOJNCBCKJ" => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_PBLOJNCBCKJ),
-            "MatchThreeStatisticsType_OFLKHGPCHAL" => ::std::option::Option::Some(MatchThreeStatisticsType::MatchThreeStatisticsType_OFLKHGPCHAL),
+            "MPKINOEENMO_NIHDCPMEGMG" => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_NIHDCPMEGMG),
+            "MPKINOEENMO_LLGELGPDNIG" => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_LLGELGPDNIG),
+            "MPKINOEENMO_ACBHOILPJDM" => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_ACBHOILPJDM),
+            "MPKINOEENMO_FDBNMIHKBFC" => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_FDBNMIHKBFC),
+            "MPKINOEENMO_MPCNECOPEOK" => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_MPCNECOPEOK),
+            "MPKINOEENMO_OJODACPPHLP" => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_OJODACPPHLP),
+            "MPKINOEENMO_PLALKOMCDJN" => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_PLALKOMCDJN),
+            "MPKINOEENMO_ILGKLDEBJFB" => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_ILGKLDEBJFB),
+            "MPKINOEENMO_FIEMNJJNJJJ" => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_FIEMNJJNJJJ),
+            "MPKINOEENMO_PDEBMPJIHLO" => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_PDEBMPJIHLO),
+            "MPKINOEENMO_CAADHHABMAG" => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_CAADHHABMAG),
+            "MPKINOEENMO_CKCNHOBCDKI" => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_CKCNHOBCDKI),
+            "MPKINOEENMO_KJEMHDMHOFL" => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_KJEMHDMHOFL),
+            "MPKINOEENMO_FOLKEFOJCLM" => ::std::option::Option::Some(MatchThreeStatisticsType::MPKINOEENMO_FOLKEFOJCLM),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [MatchThreeStatisticsType] = &[
-        MatchThreeStatisticsType::MatchThreeStatisticsType_ONMIHMEHAII,
-        MatchThreeStatisticsType::MatchThreeStatisticsType_ALCCABDLOLF,
-        MatchThreeStatisticsType::MatchThreeStatisticsType_GCOGDOIFKEI,
-        MatchThreeStatisticsType::MatchThreeStatisticsType_FIKCCCLMBAC,
-        MatchThreeStatisticsType::MatchThreeStatisticsType_PLABLNDKPEA,
-        MatchThreeStatisticsType::MatchThreeStatisticsType_HBHPKKJMBGG,
-        MatchThreeStatisticsType::MatchThreeStatisticsType_OMOLNANDMGA,
-        MatchThreeStatisticsType::MatchThreeStatisticsType_BJBMGNBODAN,
-        MatchThreeStatisticsType::MatchThreeStatisticsType_AEOGLCHCFFC,
-        MatchThreeStatisticsType::MatchThreeStatisticsType_DCJFIBAOCOE,
-        MatchThreeStatisticsType::MatchThreeStatisticsType_LGKHKJENCPD,
-        MatchThreeStatisticsType::MatchThreeStatisticsType_EDDMEDLBFGM,
-        MatchThreeStatisticsType::MatchThreeStatisticsType_PBLOJNCBCKJ,
-        MatchThreeStatisticsType::MatchThreeStatisticsType_OFLKHGPCHAL,
+        MatchThreeStatisticsType::MPKINOEENMO_NIHDCPMEGMG,
+        MatchThreeStatisticsType::MPKINOEENMO_LLGELGPDNIG,
+        MatchThreeStatisticsType::MPKINOEENMO_ACBHOILPJDM,
+        MatchThreeStatisticsType::MPKINOEENMO_FDBNMIHKBFC,
+        MatchThreeStatisticsType::MPKINOEENMO_MPCNECOPEOK,
+        MatchThreeStatisticsType::MPKINOEENMO_OJODACPPHLP,
+        MatchThreeStatisticsType::MPKINOEENMO_PLALKOMCDJN,
+        MatchThreeStatisticsType::MPKINOEENMO_ILGKLDEBJFB,
+        MatchThreeStatisticsType::MPKINOEENMO_FIEMNJJNJJJ,
+        MatchThreeStatisticsType::MPKINOEENMO_PDEBMPJIHLO,
+        MatchThreeStatisticsType::MPKINOEENMO_CAADHHABMAG,
+        MatchThreeStatisticsType::MPKINOEENMO_CKCNHOBCDKI,
+        MatchThreeStatisticsType::MPKINOEENMO_KJEMHDMHOFL,
+        MatchThreeStatisticsType::MPKINOEENMO_FOLKEFOJCLM,
     ];
 }
 
@@ -136,7 +136,7 @@ impl ::protobuf::EnumFull for MatchThreeStatisticsType {
 
 impl ::std::default::Default for MatchThreeStatisticsType {
     fn default() -> Self {
-        MatchThreeStatisticsType::MatchThreeStatisticsType_ONMIHMEHAII
+        MatchThreeStatisticsType::MPKINOEENMO_NIHDCPMEGMG
     }
 }
 
@@ -147,18 +147,16 @@ impl MatchThreeStatisticsType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1eMatchThreeStatisticsType.proto*\xe6\x04\n\x18MatchThreeStatisticsT\
-    ype\x12(\n$MatchThreeStatisticsType_ONMIHMEHAII\x10\0\x12(\n$MatchThreeS\
-    tatisticsType_ALCCABDLOLF\x10\x01\x12(\n$MatchThreeStatisticsType_GCOGDO\
-    IFKEI\x10\x02\x12(\n$MatchThreeStatisticsType_FIKCCCLMBAC\x10\x03\x12(\n\
-    $MatchThreeStatisticsType_PLABLNDKPEA\x10\x04\x12(\n$MatchThreeStatistic\
-    sType_HBHPKKJMBGG\x10\x05\x12(\n$MatchThreeStatisticsType_OMOLNANDMGA\
-    \x10\x06\x12(\n$MatchThreeStatisticsType_BJBMGNBODAN\x10\x07\x12(\n$Matc\
-    hThreeStatisticsType_AEOGLCHCFFC\x10\x08\x12(\n$MatchThreeStatisticsType\
-    _DCJFIBAOCOE\x10\t\x12(\n$MatchThreeStatisticsType_LGKHKJENCPD\x10\n\x12\
-    (\n$MatchThreeStatisticsType_EDDMEDLBFGM\x10\x0b\x12(\n$MatchThreeStatis\
-    ticsType_PBLOJNCBCKJ\x10\x0c\x12(\n$MatchThreeStatisticsType_OFLKHGPCHAL\
-    \x10\rb\x06proto3\
+    \n\x1eMatchThreeStatisticsType.proto*\xb0\x03\n\x18MatchThreeStatisticsT\
+    ype\x12\x1b\n\x17MPKINOEENMO_NIHDCPMEGMG\x10\0\x12\x1b\n\x17MPKINOEENMO_\
+    LLGELGPDNIG\x10\x01\x12\x1b\n\x17MPKINOEENMO_ACBHOILPJDM\x10\x02\x12\x1b\
+    \n\x17MPKINOEENMO_FDBNMIHKBFC\x10\x03\x12\x1b\n\x17MPKINOEENMO_MPCNECOPE\
+    OK\x10\x04\x12\x1b\n\x17MPKINOEENMO_OJODACPPHLP\x10\x05\x12\x1b\n\x17MPK\
+    INOEENMO_PLALKOMCDJN\x10\x06\x12\x1b\n\x17MPKINOEENMO_ILGKLDEBJFB\x10\
+    \x07\x12\x1b\n\x17MPKINOEENMO_FIEMNJJNJJJ\x10\x08\x12\x1b\n\x17MPKINOEEN\
+    MO_PDEBMPJIHLO\x10\t\x12\x1b\n\x17MPKINOEENMO_CAADHHABMAG\x10\n\x12\x1b\
+    \n\x17MPKINOEENMO_CKCNHOBCDKI\x10\x0b\x12\x1b\n\x17MPKINOEENMO_KJEMHDMHO\
+    FL\x10\x0c\x12\x1b\n\x17MPKINOEENMO_FOLKEFOJCLM\x10\rb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

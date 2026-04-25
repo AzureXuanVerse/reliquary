@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GetMonopolyFriendRankingListScRsp {
     // message fields
-    // @@protoc_insertion_point(field:GetMonopolyFriendRankingListScRsp.JFNMAPLKJPM)
-    pub JFNMAPLKJPM: ::std::vec::Vec<super::GetMonopolyFriendRankingListCsReq::GetMonopolyFriendRankingListCsReq>,
+    // @@protoc_insertion_point(field:GetMonopolyFriendRankingListScRsp.KNNIAEBMHGM)
+    pub KNNIAEBMHGM: ::protobuf::MessageField<super::GetMonopolyFriendRankingListCsReq::GetMonopolyFriendRankingListCsReq>,
     // @@protoc_insertion_point(field:GetMonopolyFriendRankingListScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:GetMonopolyFriendRankingListScRsp.FOHCNBLJCBP)
-    pub FOHCNBLJCBP: ::protobuf::MessageField<super::GetMonopolyFriendRankingListCsReq::GetMonopolyFriendRankingListCsReq>,
+    // @@protoc_insertion_point(field:GetMonopolyFriendRankingListScRsp.JPNALKEFHOH)
+    pub JPNALKEFHOH: ::std::vec::Vec<super::GetMonopolyFriendRankingListCsReq::GetMonopolyFriendRankingListCsReq>,
     // special fields
     // @@protoc_insertion_point(special_field:GetMonopolyFriendRankingListScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -53,20 +53,20 @@ impl GetMonopolyFriendRankingListScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "JFNMAPLKJPM",
-            |m: &GetMonopolyFriendRankingListScRsp| { &m.JFNMAPLKJPM },
-            |m: &mut GetMonopolyFriendRankingListScRsp| { &mut m.JFNMAPLKJPM },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GetMonopolyFriendRankingListCsReq::GetMonopolyFriendRankingListCsReq>(
+            "KNNIAEBMHGM",
+            |m: &GetMonopolyFriendRankingListScRsp| { &m.KNNIAEBMHGM },
+            |m: &mut GetMonopolyFriendRankingListScRsp| { &mut m.KNNIAEBMHGM },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &GetMonopolyFriendRankingListScRsp| { &m.retcode },
             |m: &mut GetMonopolyFriendRankingListScRsp| { &mut m.retcode },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GetMonopolyFriendRankingListCsReq::GetMonopolyFriendRankingListCsReq>(
-            "FOHCNBLJCBP",
-            |m: &GetMonopolyFriendRankingListScRsp| { &m.FOHCNBLJCBP },
-            |m: &mut GetMonopolyFriendRankingListScRsp| { &mut m.FOHCNBLJCBP },
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "JPNALKEFHOH",
+            |m: &GetMonopolyFriendRankingListScRsp| { &m.JPNALKEFHOH },
+            |m: &mut GetMonopolyFriendRankingListScRsp| { &mut m.JPNALKEFHOH },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetMonopolyFriendRankingListScRsp>(
             "GetMonopolyFriendRankingListScRsp",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for GetMonopolyFriendRankingListScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                58 => {
-                    self.JFNMAPLKJPM.push(is.read_message()?);
+                50 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.KNNIAEBMHGM)?;
                 },
-                24 => {
+                16 => {
                     self.retcode = is.read_uint32()?;
                 },
-                74 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.FOHCNBLJCBP)?;
+                34 => {
+                    self.JPNALKEFHOH.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -107,32 +107,32 @@ impl ::protobuf::Message for GetMonopolyFriendRankingListScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        for value in &self.JFNMAPLKJPM {
-            let len = value.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        };
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.retcode);
-        }
-        if let Some(v) = self.FOHCNBLJCBP.as_ref() {
+        if let Some(v) = self.KNNIAEBMHGM.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(2, self.retcode);
+        }
+        for value in &self.JPNALKEFHOH {
+            let len = value.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        };
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.JFNMAPLKJPM {
-            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
-        };
+        if let Some(v) = self.KNNIAEBMHGM.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
+        }
         if self.retcode != 0 {
-            os.write_uint32(3, self.retcode)?;
+            os.write_uint32(2, self.retcode)?;
         }
-        if let Some(v) = self.FOHCNBLJCBP.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
-        }
+        for v in &self.JPNALKEFHOH {
+            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
+        };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -150,17 +150,17 @@ impl ::protobuf::Message for GetMonopolyFriendRankingListScRsp {
     }
 
     fn clear(&mut self) {
-        self.JFNMAPLKJPM.clear();
+        self.KNNIAEBMHGM.clear();
         self.retcode = 0;
-        self.FOHCNBLJCBP.clear();
+        self.JPNALKEFHOH.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetMonopolyFriendRankingListScRsp {
         static instance: GetMonopolyFriendRankingListScRsp = GetMonopolyFriendRankingListScRsp {
-            JFNMAPLKJPM: ::std::vec::Vec::new(),
+            KNNIAEBMHGM: ::protobuf::MessageField::none(),
             retcode: 0,
-            FOHCNBLJCBP: ::protobuf::MessageField::none(),
+            JPNALKEFHOH: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -186,11 +186,11 @@ impl ::protobuf::reflect::ProtobufValue for GetMonopolyFriendRankingListScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n'GetMonopolyFriendRankingListScRsp.proto\x1a'GetMonopolyFriendRankingL\
-    istCsReq.proto\"\xc9\x01\n!GetMonopolyFriendRankingListScRsp\x12D\n\x0bJ\
-    FNMAPLKJPM\x18\x07\x20\x03(\x0b2\".GetMonopolyFriendRankingListCsReqR\
-    \x0bJFNMAPLKJPM\x12\x18\n\x07retcode\x18\x03\x20\x01(\rR\x07retcode\x12D\
-    \n\x0bFOHCNBLJCBP\x18\t\x20\x01(\x0b2\".GetMonopolyFriendRankingListCsRe\
-    qR\x0bFOHCNBLJCBPb\x06proto3\
+    istCsReq.proto\"\xc9\x01\n!GetMonopolyFriendRankingListScRsp\x12D\n\x0bK\
+    NNIAEBMHGM\x18\x06\x20\x01(\x0b2\".GetMonopolyFriendRankingListCsReqR\
+    \x0bKNNIAEBMHGM\x12\x18\n\x07retcode\x18\x02\x20\x01(\rR\x07retcode\x12D\
+    \n\x0bJPNALKEFHOH\x18\x04\x20\x03(\x0b2\".GetMonopolyFriendRankingListCs\
+    ReqR\x0bJPNALKEFHOHb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

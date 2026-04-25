@@ -27,68 +27,68 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdActivityType)
 pub enum CmdActivityType {
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_MNFEPONEDDJ)
-    CmdActivityType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_OCPHLKLDIHN)
-    CmdActivityType_OCPHLKLDIHN = 2634,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_FOCGJNDAJAI)
-    CmdActivityType_FOCGJNDAJAI = 2659,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_MFNNFEKAONI)
-    CmdActivityType_MFNNFEKAONI = 2628,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_FPFAHBDDLGC)
-    CmdActivityType_FPFAHBDDLGC = 2698,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_HHPCFAFLMCE)
-    CmdActivityType_HHPCFAFLMCE = 2686,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_NKJILBMHHBF)
-    CmdActivityType_NKJILBMHHBF = 2604,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_NOFAIGALJAK)
-    CmdActivityType_NOFAIGALJAK = 2607,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_GDJHPGILABF)
-    CmdActivityType_GDJHPGILABF = 2688,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_CBNCJIFDANI)
-    CmdActivityType_CBNCJIFDANI = 2648,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_MADMGPCBDIJ)
-    CmdActivityType_MADMGPCBDIJ = 2636,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_DIMKGFDOGMD)
-    CmdActivityType_DIMKGFDOGMD = 2650,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_AAAFKJGPJPG)
-    CmdActivityType_AAAFKJGPJPG = 2654,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_OHDBHBHGGKB)
-    CmdActivityType_OHDBHBHGGKB = 2658,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_DKOFCHEIKPB)
-    CmdActivityType_DKOFCHEIKPB = 2635,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_MMAHDHPLOIO)
-    CmdActivityType_MMAHDHPLOIO = 2613,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_PLDJAGANEIF)
-    CmdActivityType_PLDJAGANEIF = 2609,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_JLEJIFAAAKA)
-    CmdActivityType_JLEJIFAAAKA = 2625,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_BHJPFCJDIFG)
-    CmdActivityType_BHJPFCJDIFG = 2624,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_HACHFAJGGJK)
-    CmdActivityType_HACHFAJGGJK = 2616,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_HAIMMCJPIPL)
-    CmdActivityType_HAIMMCJPIPL = 2694,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_BBIMCOALGAM)
-    CmdActivityType_BBIMCOALGAM = 2665,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_KMJICCDFBPN)
-    CmdActivityType_KMJICCDFBPN = 2611,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_KEJOPDDHNJH)
-    CmdActivityType_KEJOPDDHNJH = 2639,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_BJNGNPHBNBM)
-    CmdActivityType_BJNGNPHBNBM = 2678,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_MABOMOEKHMD)
-    CmdActivityType_MABOMOEKHMD = 2614,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_GECHAEEIJAD)
-    CmdActivityType_GECHAEEIJAD = 2683,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_MIHGFNIOMIF)
-    CmdActivityType_MIHGFNIOMIF = 2603,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_HFIGOCLEEBG)
-    CmdActivityType_HFIGOCLEEBG = 2677,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_DLFPKDPEGDJ)
-    CmdActivityType_DLFPKDPEGDJ = 2644,
-    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdActivityType_NHJNMMCMDAA)
-    CmdActivityType_NHJNMMCMDAA = 2681,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.FPLEHFOAEKF_PCPDHELPKEM)
+    FPLEHFOAEKF_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdGINDKJGLPJM)
+    CmdGINDKJGLPJM = 2688,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdTakeMaterialSubmitActivityRewardScRsp)
+    CmdTakeMaterialSubmitActivityRewardScRsp = 2658,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdGetLoginActivityScRsp)
+    CmdGetLoginActivityScRsp = 2610,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdGetMaterialSubmitActivityDataCsReq)
+    CmdGetMaterialSubmitActivityDataCsReq = 2672,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdGetMaterialSubmitActivityDataScRsp)
+    CmdGetMaterialSubmitActivityDataScRsp = 2632,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdTakeTrialActivityRewardCsReq)
+    CmdTakeTrialActivityRewardCsReq = 2629,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdGetLoginActivityCsReq)
+    CmdGetLoginActivityCsReq = 2691,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdGetActivityScheduleConfigCsReq)
+    CmdGetActivityScheduleConfigCsReq = 2614,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdSubmitMaterialSubmitActivityMaterialCsReq)
+    CmdSubmitMaterialSubmitActivityMaterialCsReq = 2633,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdGetTrialActivityDataCsReq)
+    CmdGetTrialActivityDataCsReq = 2692,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdTrialActivityNotify)
+    CmdTrialActivityNotify = 2652,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdTakeLoginActivityRewardCsReq)
+    CmdTakeLoginActivityRewardCsReq = 2694,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdStartTrialActivity)
+    CmdStartTrialActivity = 2616,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdGetAvatarRewardDataScRsp)
+    CmdGetAvatarRewardDataScRsp = 2669,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdTakeLoginActivityRewardScRsp)
+    CmdTakeLoginActivityRewardScRsp = 2695,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdGetAvatarRewardDataCsReq)
+    CmdGetAvatarRewardDataCsReq = 2690,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdChooseAvatarCsReq)
+    CmdChooseAvatarCsReq = 2641,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdEnterTrialActivityStageScRsp)
+    CmdEnterTrialActivityStageScRsp = 2659,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdSubmitMaterialSubmitActivityMaterialScRsp)
+    CmdSubmitMaterialSubmitActivityMaterialScRsp = 2661,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdStartTrialActivityCsReq)
+    CmdStartTrialActivityCsReq = 2677,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdTakeRewardCsReq)
+    CmdTakeRewardCsReq = 2670,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.FPLEHFOAEKF_BMNCDAJDLPA)
+    FPLEHFOAEKF_BMNCDAJDLPA = 2642,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdLeaveTrialActivityCsReq)
+    CmdLeaveTrialActivityCsReq = 2606,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdChooseAvatarScRsp)
+    CmdChooseAvatarScRsp = 2662,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdTrialActivityDataChangeScNotify)
+    CmdTrialActivityDataChangeScNotify = 2678,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdGetTrialActivityDataScRsp)
+    CmdGetTrialActivityDataScRsp = 2624,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdTakeTrialActivityRewardScRsp)
+    CmdTakeTrialActivityRewardScRsp = 2612,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdGetActivityScheduleConfigScRsp)
+    CmdGetActivityScheduleConfigScRsp = 2618,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdTakeRewardScRsp)
+    CmdTakeRewardScRsp = 2668,
+    // @@protoc_insertion_point(enum_value:CmdActivityType.CmdTakeMaterialSubmitActivityRewardCsReq)
+    CmdTakeMaterialSubmitActivityRewardCsReq = 2607,
 }
 
 impl ::protobuf::Enum for CmdActivityType {
@@ -100,110 +100,110 @@ impl ::protobuf::Enum for CmdActivityType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdActivityType> {
         match value {
-            0 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_MNFEPONEDDJ),
-            2634 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_OCPHLKLDIHN),
-            2659 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_FOCGJNDAJAI),
-            2628 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_MFNNFEKAONI),
-            2698 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_FPFAHBDDLGC),
-            2686 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_HHPCFAFLMCE),
-            2604 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_NKJILBMHHBF),
-            2607 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_NOFAIGALJAK),
-            2688 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_GDJHPGILABF),
-            2648 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_CBNCJIFDANI),
-            2636 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_MADMGPCBDIJ),
-            2650 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_DIMKGFDOGMD),
-            2654 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_AAAFKJGPJPG),
-            2658 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_OHDBHBHGGKB),
-            2635 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_DKOFCHEIKPB),
-            2613 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_MMAHDHPLOIO),
-            2609 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_PLDJAGANEIF),
-            2625 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_JLEJIFAAAKA),
-            2624 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_BHJPFCJDIFG),
-            2616 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_HACHFAJGGJK),
-            2694 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_HAIMMCJPIPL),
-            2665 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_BBIMCOALGAM),
-            2611 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_KMJICCDFBPN),
-            2639 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_KEJOPDDHNJH),
-            2678 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_BJNGNPHBNBM),
-            2614 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_MABOMOEKHMD),
-            2683 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_GECHAEEIJAD),
-            2603 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_MIHGFNIOMIF),
-            2677 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_HFIGOCLEEBG),
-            2644 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_DLFPKDPEGDJ),
-            2681 => ::std::option::Option::Some(CmdActivityType::CmdActivityType_NHJNMMCMDAA),
+            0 => ::std::option::Option::Some(CmdActivityType::FPLEHFOAEKF_PCPDHELPKEM),
+            2688 => ::std::option::Option::Some(CmdActivityType::CmdGINDKJGLPJM),
+            2658 => ::std::option::Option::Some(CmdActivityType::CmdTakeMaterialSubmitActivityRewardScRsp),
+            2610 => ::std::option::Option::Some(CmdActivityType::CmdGetLoginActivityScRsp),
+            2672 => ::std::option::Option::Some(CmdActivityType::CmdGetMaterialSubmitActivityDataCsReq),
+            2632 => ::std::option::Option::Some(CmdActivityType::CmdGetMaterialSubmitActivityDataScRsp),
+            2629 => ::std::option::Option::Some(CmdActivityType::CmdTakeTrialActivityRewardCsReq),
+            2691 => ::std::option::Option::Some(CmdActivityType::CmdGetLoginActivityCsReq),
+            2614 => ::std::option::Option::Some(CmdActivityType::CmdGetActivityScheduleConfigCsReq),
+            2633 => ::std::option::Option::Some(CmdActivityType::CmdSubmitMaterialSubmitActivityMaterialCsReq),
+            2692 => ::std::option::Option::Some(CmdActivityType::CmdGetTrialActivityDataCsReq),
+            2652 => ::std::option::Option::Some(CmdActivityType::CmdTrialActivityNotify),
+            2694 => ::std::option::Option::Some(CmdActivityType::CmdTakeLoginActivityRewardCsReq),
+            2616 => ::std::option::Option::Some(CmdActivityType::CmdStartTrialActivity),
+            2669 => ::std::option::Option::Some(CmdActivityType::CmdGetAvatarRewardDataScRsp),
+            2695 => ::std::option::Option::Some(CmdActivityType::CmdTakeLoginActivityRewardScRsp),
+            2690 => ::std::option::Option::Some(CmdActivityType::CmdGetAvatarRewardDataCsReq),
+            2641 => ::std::option::Option::Some(CmdActivityType::CmdChooseAvatarCsReq),
+            2659 => ::std::option::Option::Some(CmdActivityType::CmdEnterTrialActivityStageScRsp),
+            2661 => ::std::option::Option::Some(CmdActivityType::CmdSubmitMaterialSubmitActivityMaterialScRsp),
+            2677 => ::std::option::Option::Some(CmdActivityType::CmdStartTrialActivityCsReq),
+            2670 => ::std::option::Option::Some(CmdActivityType::CmdTakeRewardCsReq),
+            2642 => ::std::option::Option::Some(CmdActivityType::FPLEHFOAEKF_BMNCDAJDLPA),
+            2606 => ::std::option::Option::Some(CmdActivityType::CmdLeaveTrialActivityCsReq),
+            2662 => ::std::option::Option::Some(CmdActivityType::CmdChooseAvatarScRsp),
+            2678 => ::std::option::Option::Some(CmdActivityType::CmdTrialActivityDataChangeScNotify),
+            2624 => ::std::option::Option::Some(CmdActivityType::CmdGetTrialActivityDataScRsp),
+            2612 => ::std::option::Option::Some(CmdActivityType::CmdTakeTrialActivityRewardScRsp),
+            2618 => ::std::option::Option::Some(CmdActivityType::CmdGetActivityScheduleConfigScRsp),
+            2668 => ::std::option::Option::Some(CmdActivityType::CmdTakeRewardScRsp),
+            2607 => ::std::option::Option::Some(CmdActivityType::CmdTakeMaterialSubmitActivityRewardCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdActivityType> {
         match str {
-            "CmdActivityType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_MNFEPONEDDJ),
-            "CmdActivityType_OCPHLKLDIHN" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_OCPHLKLDIHN),
-            "CmdActivityType_FOCGJNDAJAI" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_FOCGJNDAJAI),
-            "CmdActivityType_MFNNFEKAONI" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_MFNNFEKAONI),
-            "CmdActivityType_FPFAHBDDLGC" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_FPFAHBDDLGC),
-            "CmdActivityType_HHPCFAFLMCE" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_HHPCFAFLMCE),
-            "CmdActivityType_NKJILBMHHBF" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_NKJILBMHHBF),
-            "CmdActivityType_NOFAIGALJAK" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_NOFAIGALJAK),
-            "CmdActivityType_GDJHPGILABF" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_GDJHPGILABF),
-            "CmdActivityType_CBNCJIFDANI" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_CBNCJIFDANI),
-            "CmdActivityType_MADMGPCBDIJ" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_MADMGPCBDIJ),
-            "CmdActivityType_DIMKGFDOGMD" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_DIMKGFDOGMD),
-            "CmdActivityType_AAAFKJGPJPG" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_AAAFKJGPJPG),
-            "CmdActivityType_OHDBHBHGGKB" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_OHDBHBHGGKB),
-            "CmdActivityType_DKOFCHEIKPB" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_DKOFCHEIKPB),
-            "CmdActivityType_MMAHDHPLOIO" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_MMAHDHPLOIO),
-            "CmdActivityType_PLDJAGANEIF" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_PLDJAGANEIF),
-            "CmdActivityType_JLEJIFAAAKA" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_JLEJIFAAAKA),
-            "CmdActivityType_BHJPFCJDIFG" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_BHJPFCJDIFG),
-            "CmdActivityType_HACHFAJGGJK" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_HACHFAJGGJK),
-            "CmdActivityType_HAIMMCJPIPL" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_HAIMMCJPIPL),
-            "CmdActivityType_BBIMCOALGAM" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_BBIMCOALGAM),
-            "CmdActivityType_KMJICCDFBPN" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_KMJICCDFBPN),
-            "CmdActivityType_KEJOPDDHNJH" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_KEJOPDDHNJH),
-            "CmdActivityType_BJNGNPHBNBM" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_BJNGNPHBNBM),
-            "CmdActivityType_MABOMOEKHMD" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_MABOMOEKHMD),
-            "CmdActivityType_GECHAEEIJAD" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_GECHAEEIJAD),
-            "CmdActivityType_MIHGFNIOMIF" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_MIHGFNIOMIF),
-            "CmdActivityType_HFIGOCLEEBG" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_HFIGOCLEEBG),
-            "CmdActivityType_DLFPKDPEGDJ" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_DLFPKDPEGDJ),
-            "CmdActivityType_NHJNMMCMDAA" => ::std::option::Option::Some(CmdActivityType::CmdActivityType_NHJNMMCMDAA),
+            "FPLEHFOAEKF_PCPDHELPKEM" => ::std::option::Option::Some(CmdActivityType::FPLEHFOAEKF_PCPDHELPKEM),
+            "CmdGINDKJGLPJM" => ::std::option::Option::Some(CmdActivityType::CmdGINDKJGLPJM),
+            "CmdTakeMaterialSubmitActivityRewardScRsp" => ::std::option::Option::Some(CmdActivityType::CmdTakeMaterialSubmitActivityRewardScRsp),
+            "CmdGetLoginActivityScRsp" => ::std::option::Option::Some(CmdActivityType::CmdGetLoginActivityScRsp),
+            "CmdGetMaterialSubmitActivityDataCsReq" => ::std::option::Option::Some(CmdActivityType::CmdGetMaterialSubmitActivityDataCsReq),
+            "CmdGetMaterialSubmitActivityDataScRsp" => ::std::option::Option::Some(CmdActivityType::CmdGetMaterialSubmitActivityDataScRsp),
+            "CmdTakeTrialActivityRewardCsReq" => ::std::option::Option::Some(CmdActivityType::CmdTakeTrialActivityRewardCsReq),
+            "CmdGetLoginActivityCsReq" => ::std::option::Option::Some(CmdActivityType::CmdGetLoginActivityCsReq),
+            "CmdGetActivityScheduleConfigCsReq" => ::std::option::Option::Some(CmdActivityType::CmdGetActivityScheduleConfigCsReq),
+            "CmdSubmitMaterialSubmitActivityMaterialCsReq" => ::std::option::Option::Some(CmdActivityType::CmdSubmitMaterialSubmitActivityMaterialCsReq),
+            "CmdGetTrialActivityDataCsReq" => ::std::option::Option::Some(CmdActivityType::CmdGetTrialActivityDataCsReq),
+            "CmdTrialActivityNotify" => ::std::option::Option::Some(CmdActivityType::CmdTrialActivityNotify),
+            "CmdTakeLoginActivityRewardCsReq" => ::std::option::Option::Some(CmdActivityType::CmdTakeLoginActivityRewardCsReq),
+            "CmdStartTrialActivity" => ::std::option::Option::Some(CmdActivityType::CmdStartTrialActivity),
+            "CmdGetAvatarRewardDataScRsp" => ::std::option::Option::Some(CmdActivityType::CmdGetAvatarRewardDataScRsp),
+            "CmdTakeLoginActivityRewardScRsp" => ::std::option::Option::Some(CmdActivityType::CmdTakeLoginActivityRewardScRsp),
+            "CmdGetAvatarRewardDataCsReq" => ::std::option::Option::Some(CmdActivityType::CmdGetAvatarRewardDataCsReq),
+            "CmdChooseAvatarCsReq" => ::std::option::Option::Some(CmdActivityType::CmdChooseAvatarCsReq),
+            "CmdEnterTrialActivityStageScRsp" => ::std::option::Option::Some(CmdActivityType::CmdEnterTrialActivityStageScRsp),
+            "CmdSubmitMaterialSubmitActivityMaterialScRsp" => ::std::option::Option::Some(CmdActivityType::CmdSubmitMaterialSubmitActivityMaterialScRsp),
+            "CmdStartTrialActivityCsReq" => ::std::option::Option::Some(CmdActivityType::CmdStartTrialActivityCsReq),
+            "CmdTakeRewardCsReq" => ::std::option::Option::Some(CmdActivityType::CmdTakeRewardCsReq),
+            "FPLEHFOAEKF_BMNCDAJDLPA" => ::std::option::Option::Some(CmdActivityType::FPLEHFOAEKF_BMNCDAJDLPA),
+            "CmdLeaveTrialActivityCsReq" => ::std::option::Option::Some(CmdActivityType::CmdLeaveTrialActivityCsReq),
+            "CmdChooseAvatarScRsp" => ::std::option::Option::Some(CmdActivityType::CmdChooseAvatarScRsp),
+            "CmdTrialActivityDataChangeScNotify" => ::std::option::Option::Some(CmdActivityType::CmdTrialActivityDataChangeScNotify),
+            "CmdGetTrialActivityDataScRsp" => ::std::option::Option::Some(CmdActivityType::CmdGetTrialActivityDataScRsp),
+            "CmdTakeTrialActivityRewardScRsp" => ::std::option::Option::Some(CmdActivityType::CmdTakeTrialActivityRewardScRsp),
+            "CmdGetActivityScheduleConfigScRsp" => ::std::option::Option::Some(CmdActivityType::CmdGetActivityScheduleConfigScRsp),
+            "CmdTakeRewardScRsp" => ::std::option::Option::Some(CmdActivityType::CmdTakeRewardScRsp),
+            "CmdTakeMaterialSubmitActivityRewardCsReq" => ::std::option::Option::Some(CmdActivityType::CmdTakeMaterialSubmitActivityRewardCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdActivityType] = &[
-        CmdActivityType::CmdActivityType_MNFEPONEDDJ,
-        CmdActivityType::CmdActivityType_OCPHLKLDIHN,
-        CmdActivityType::CmdActivityType_FOCGJNDAJAI,
-        CmdActivityType::CmdActivityType_MFNNFEKAONI,
-        CmdActivityType::CmdActivityType_FPFAHBDDLGC,
-        CmdActivityType::CmdActivityType_HHPCFAFLMCE,
-        CmdActivityType::CmdActivityType_NKJILBMHHBF,
-        CmdActivityType::CmdActivityType_NOFAIGALJAK,
-        CmdActivityType::CmdActivityType_GDJHPGILABF,
-        CmdActivityType::CmdActivityType_CBNCJIFDANI,
-        CmdActivityType::CmdActivityType_MADMGPCBDIJ,
-        CmdActivityType::CmdActivityType_DIMKGFDOGMD,
-        CmdActivityType::CmdActivityType_AAAFKJGPJPG,
-        CmdActivityType::CmdActivityType_OHDBHBHGGKB,
-        CmdActivityType::CmdActivityType_DKOFCHEIKPB,
-        CmdActivityType::CmdActivityType_MMAHDHPLOIO,
-        CmdActivityType::CmdActivityType_PLDJAGANEIF,
-        CmdActivityType::CmdActivityType_JLEJIFAAAKA,
-        CmdActivityType::CmdActivityType_BHJPFCJDIFG,
-        CmdActivityType::CmdActivityType_HACHFAJGGJK,
-        CmdActivityType::CmdActivityType_HAIMMCJPIPL,
-        CmdActivityType::CmdActivityType_BBIMCOALGAM,
-        CmdActivityType::CmdActivityType_KMJICCDFBPN,
-        CmdActivityType::CmdActivityType_KEJOPDDHNJH,
-        CmdActivityType::CmdActivityType_BJNGNPHBNBM,
-        CmdActivityType::CmdActivityType_MABOMOEKHMD,
-        CmdActivityType::CmdActivityType_GECHAEEIJAD,
-        CmdActivityType::CmdActivityType_MIHGFNIOMIF,
-        CmdActivityType::CmdActivityType_HFIGOCLEEBG,
-        CmdActivityType::CmdActivityType_DLFPKDPEGDJ,
-        CmdActivityType::CmdActivityType_NHJNMMCMDAA,
+        CmdActivityType::FPLEHFOAEKF_PCPDHELPKEM,
+        CmdActivityType::CmdGINDKJGLPJM,
+        CmdActivityType::CmdTakeMaterialSubmitActivityRewardScRsp,
+        CmdActivityType::CmdGetLoginActivityScRsp,
+        CmdActivityType::CmdGetMaterialSubmitActivityDataCsReq,
+        CmdActivityType::CmdGetMaterialSubmitActivityDataScRsp,
+        CmdActivityType::CmdTakeTrialActivityRewardCsReq,
+        CmdActivityType::CmdGetLoginActivityCsReq,
+        CmdActivityType::CmdGetActivityScheduleConfigCsReq,
+        CmdActivityType::CmdSubmitMaterialSubmitActivityMaterialCsReq,
+        CmdActivityType::CmdGetTrialActivityDataCsReq,
+        CmdActivityType::CmdTrialActivityNotify,
+        CmdActivityType::CmdTakeLoginActivityRewardCsReq,
+        CmdActivityType::CmdStartTrialActivity,
+        CmdActivityType::CmdGetAvatarRewardDataScRsp,
+        CmdActivityType::CmdTakeLoginActivityRewardScRsp,
+        CmdActivityType::CmdGetAvatarRewardDataCsReq,
+        CmdActivityType::CmdChooseAvatarCsReq,
+        CmdActivityType::CmdEnterTrialActivityStageScRsp,
+        CmdActivityType::CmdSubmitMaterialSubmitActivityMaterialScRsp,
+        CmdActivityType::CmdStartTrialActivityCsReq,
+        CmdActivityType::CmdTakeRewardCsReq,
+        CmdActivityType::FPLEHFOAEKF_BMNCDAJDLPA,
+        CmdActivityType::CmdLeaveTrialActivityCsReq,
+        CmdActivityType::CmdChooseAvatarScRsp,
+        CmdActivityType::CmdTrialActivityDataChangeScNotify,
+        CmdActivityType::CmdGetTrialActivityDataScRsp,
+        CmdActivityType::CmdTakeTrialActivityRewardScRsp,
+        CmdActivityType::CmdGetActivityScheduleConfigScRsp,
+        CmdActivityType::CmdTakeRewardScRsp,
+        CmdActivityType::CmdTakeMaterialSubmitActivityRewardCsReq,
     ];
 }
 
@@ -215,37 +215,37 @@ impl ::protobuf::EnumFull for CmdActivityType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdActivityType::CmdActivityType_MNFEPONEDDJ => 0,
-            CmdActivityType::CmdActivityType_OCPHLKLDIHN => 1,
-            CmdActivityType::CmdActivityType_FOCGJNDAJAI => 2,
-            CmdActivityType::CmdActivityType_MFNNFEKAONI => 3,
-            CmdActivityType::CmdActivityType_FPFAHBDDLGC => 4,
-            CmdActivityType::CmdActivityType_HHPCFAFLMCE => 5,
-            CmdActivityType::CmdActivityType_NKJILBMHHBF => 6,
-            CmdActivityType::CmdActivityType_NOFAIGALJAK => 7,
-            CmdActivityType::CmdActivityType_GDJHPGILABF => 8,
-            CmdActivityType::CmdActivityType_CBNCJIFDANI => 9,
-            CmdActivityType::CmdActivityType_MADMGPCBDIJ => 10,
-            CmdActivityType::CmdActivityType_DIMKGFDOGMD => 11,
-            CmdActivityType::CmdActivityType_AAAFKJGPJPG => 12,
-            CmdActivityType::CmdActivityType_OHDBHBHGGKB => 13,
-            CmdActivityType::CmdActivityType_DKOFCHEIKPB => 14,
-            CmdActivityType::CmdActivityType_MMAHDHPLOIO => 15,
-            CmdActivityType::CmdActivityType_PLDJAGANEIF => 16,
-            CmdActivityType::CmdActivityType_JLEJIFAAAKA => 17,
-            CmdActivityType::CmdActivityType_BHJPFCJDIFG => 18,
-            CmdActivityType::CmdActivityType_HACHFAJGGJK => 19,
-            CmdActivityType::CmdActivityType_HAIMMCJPIPL => 20,
-            CmdActivityType::CmdActivityType_BBIMCOALGAM => 21,
-            CmdActivityType::CmdActivityType_KMJICCDFBPN => 22,
-            CmdActivityType::CmdActivityType_KEJOPDDHNJH => 23,
-            CmdActivityType::CmdActivityType_BJNGNPHBNBM => 24,
-            CmdActivityType::CmdActivityType_MABOMOEKHMD => 25,
-            CmdActivityType::CmdActivityType_GECHAEEIJAD => 26,
-            CmdActivityType::CmdActivityType_MIHGFNIOMIF => 27,
-            CmdActivityType::CmdActivityType_HFIGOCLEEBG => 28,
-            CmdActivityType::CmdActivityType_DLFPKDPEGDJ => 29,
-            CmdActivityType::CmdActivityType_NHJNMMCMDAA => 30,
+            CmdActivityType::FPLEHFOAEKF_PCPDHELPKEM => 0,
+            CmdActivityType::CmdGINDKJGLPJM => 1,
+            CmdActivityType::CmdTakeMaterialSubmitActivityRewardScRsp => 2,
+            CmdActivityType::CmdGetLoginActivityScRsp => 3,
+            CmdActivityType::CmdGetMaterialSubmitActivityDataCsReq => 4,
+            CmdActivityType::CmdGetMaterialSubmitActivityDataScRsp => 5,
+            CmdActivityType::CmdTakeTrialActivityRewardCsReq => 6,
+            CmdActivityType::CmdGetLoginActivityCsReq => 7,
+            CmdActivityType::CmdGetActivityScheduleConfigCsReq => 8,
+            CmdActivityType::CmdSubmitMaterialSubmitActivityMaterialCsReq => 9,
+            CmdActivityType::CmdGetTrialActivityDataCsReq => 10,
+            CmdActivityType::CmdTrialActivityNotify => 11,
+            CmdActivityType::CmdTakeLoginActivityRewardCsReq => 12,
+            CmdActivityType::CmdStartTrialActivity => 13,
+            CmdActivityType::CmdGetAvatarRewardDataScRsp => 14,
+            CmdActivityType::CmdTakeLoginActivityRewardScRsp => 15,
+            CmdActivityType::CmdGetAvatarRewardDataCsReq => 16,
+            CmdActivityType::CmdChooseAvatarCsReq => 17,
+            CmdActivityType::CmdEnterTrialActivityStageScRsp => 18,
+            CmdActivityType::CmdSubmitMaterialSubmitActivityMaterialScRsp => 19,
+            CmdActivityType::CmdStartTrialActivityCsReq => 20,
+            CmdActivityType::CmdTakeRewardCsReq => 21,
+            CmdActivityType::FPLEHFOAEKF_BMNCDAJDLPA => 22,
+            CmdActivityType::CmdLeaveTrialActivityCsReq => 23,
+            CmdActivityType::CmdChooseAvatarScRsp => 24,
+            CmdActivityType::CmdTrialActivityDataChangeScNotify => 25,
+            CmdActivityType::CmdGetTrialActivityDataScRsp => 26,
+            CmdActivityType::CmdTakeTrialActivityRewardScRsp => 27,
+            CmdActivityType::CmdGetActivityScheduleConfigScRsp => 28,
+            CmdActivityType::CmdTakeRewardScRsp => 29,
+            CmdActivityType::CmdTakeMaterialSubmitActivityRewardCsReq => 30,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -253,7 +253,7 @@ impl ::protobuf::EnumFull for CmdActivityType {
 
 impl ::std::default::Default for CmdActivityType {
     fn default() -> Self {
-        CmdActivityType::CmdActivityType_MNFEPONEDDJ
+        CmdActivityType::FPLEHFOAEKF_PCPDHELPKEM
     }
 }
 
@@ -264,31 +264,30 @@ impl CmdActivityType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x15CmdActivityType.proto*\xae\x08\n\x0fCmdActivityType\x12\x1f\n\x1bC\
-    mdActivityType_MNFEPONEDDJ\x10\0\x12\x20\n\x1bCmdActivityType_OCPHLKLDIH\
-    N\x10\xca\x14\x12\x20\n\x1bCmdActivityType_FOCGJNDAJAI\x10\xe3\x14\x12\
-    \x20\n\x1bCmdActivityType_MFNNFEKAONI\x10\xc4\x14\x12\x20\n\x1bCmdActivi\
-    tyType_FPFAHBDDLGC\x10\x8a\x15\x12\x20\n\x1bCmdActivityType_HHPCFAFLMCE\
-    \x10\xfe\x14\x12\x20\n\x1bCmdActivityType_NKJILBMHHBF\x10\xac\x14\x12\
-    \x20\n\x1bCmdActivityType_NOFAIGALJAK\x10\xaf\x14\x12\x20\n\x1bCmdActivi\
-    tyType_GDJHPGILABF\x10\x80\x15\x12\x20\n\x1bCmdActivityType_CBNCJIFDANI\
-    \x10\xd8\x14\x12\x20\n\x1bCmdActivityType_MADMGPCBDIJ\x10\xcc\x14\x12\
-    \x20\n\x1bCmdActivityType_DIMKGFDOGMD\x10\xda\x14\x12\x20\n\x1bCmdActivi\
-    tyType_AAAFKJGPJPG\x10\xde\x14\x12\x20\n\x1bCmdActivityType_OHDBHBHGGKB\
-    \x10\xe2\x14\x12\x20\n\x1bCmdActivityType_DKOFCHEIKPB\x10\xcb\x14\x12\
-    \x20\n\x1bCmdActivityType_MMAHDHPLOIO\x10\xb5\x14\x12\x20\n\x1bCmdActivi\
-    tyType_PLDJAGANEIF\x10\xb1\x14\x12\x20\n\x1bCmdActivityType_JLEJIFAAAKA\
-    \x10\xc1\x14\x12\x20\n\x1bCmdActivityType_BHJPFCJDIFG\x10\xc0\x14\x12\
-    \x20\n\x1bCmdActivityType_HACHFAJGGJK\x10\xb8\x14\x12\x20\n\x1bCmdActivi\
-    tyType_HAIMMCJPIPL\x10\x86\x15\x12\x20\n\x1bCmdActivityType_BBIMCOALGAM\
-    \x10\xe9\x14\x12\x20\n\x1bCmdActivityType_KMJICCDFBPN\x10\xb3\x14\x12\
-    \x20\n\x1bCmdActivityType_KEJOPDDHNJH\x10\xcf\x14\x12\x20\n\x1bCmdActivi\
-    tyType_BJNGNPHBNBM\x10\xf6\x14\x12\x20\n\x1bCmdActivityType_MABOMOEKHMD\
-    \x10\xb6\x14\x12\x20\n\x1bCmdActivityType_GECHAEEIJAD\x10\xfb\x14\x12\
-    \x20\n\x1bCmdActivityType_MIHGFNIOMIF\x10\xab\x14\x12\x20\n\x1bCmdActivi\
-    tyType_HFIGOCLEEBG\x10\xf5\x14\x12\x20\n\x1bCmdActivityType_DLFPKDPEGDJ\
-    \x10\xd4\x14\x12\x20\n\x1bCmdActivityType_NHJNMMCMDAA\x10\xf9\x14b\x06pr\
-    oto3\
+    \n\x15CmdActivityType.proto*\xdf\x08\n\x0fCmdActivityType\x12\x1b\n\x17F\
+    PLEHFOAEKF_PCPDHELPKEM\x10\0\x12\x13\n\x0eCmdGINDKJGLPJM\x10\x80\x15\x12\
+    -\n(CmdTakeMaterialSubmitActivityRewardScRsp\x10\xe2\x14\x12\x1d\n\x18Cm\
+    dGetLoginActivityScRsp\x10\xb2\x14\x12*\n%CmdGetMaterialSubmitActivityDa\
+    taCsReq\x10\xf0\x14\x12*\n%CmdGetMaterialSubmitActivityDataScRsp\x10\xc8\
+    \x14\x12$\n\x1fCmdTakeTrialActivityRewardCsReq\x10\xc5\x14\x12\x1d\n\x18\
+    CmdGetLoginActivityCsReq\x10\x83\x15\x12&\n!CmdGetActivityScheduleConfig\
+    CsReq\x10\xb6\x14\x121\n,CmdSubmitMaterialSubmitActivityMaterialCsReq\
+    \x10\xc9\x14\x12!\n\x1cCmdGetTrialActivityDataCsReq\x10\x84\x15\x12\x1b\
+    \n\x16CmdTrialActivityNotify\x10\xdc\x14\x12$\n\x1fCmdTakeLoginActivityR\
+    ewardCsReq\x10\x86\x15\x12\x1a\n\x15CmdStartTrialActivity\x10\xb8\x14\
+    \x12\x20\n\x1bCmdGetAvatarRewardDataScRsp\x10\xed\x14\x12$\n\x1fCmdTakeL\
+    oginActivityRewardScRsp\x10\x87\x15\x12\x20\n\x1bCmdGetAvatarRewardDataC\
+    sReq\x10\x82\x15\x12\x19\n\x14CmdChooseAvatarCsReq\x10\xd1\x14\x12$\n\
+    \x1fCmdEnterTrialActivityStageScRsp\x10\xe3\x14\x121\n,CmdSubmitMaterial\
+    SubmitActivityMaterialScRsp\x10\xe5\x14\x12\x1f\n\x1aCmdStartTrialActivi\
+    tyCsReq\x10\xf5\x14\x12\x17\n\x12CmdTakeRewardCsReq\x10\xee\x14\x12\x1c\
+    \n\x17FPLEHFOAEKF_BMNCDAJDLPA\x10\xd2\x14\x12\x1f\n\x1aCmdLeaveTrialActi\
+    vityCsReq\x10\xae\x14\x12\x19\n\x14CmdChooseAvatarScRsp\x10\xe6\x14\x12'\
+    \n\"CmdTrialActivityDataChangeScNotify\x10\xf6\x14\x12!\n\x1cCmdGetTrial\
+    ActivityDataScRsp\x10\xc0\x14\x12$\n\x1fCmdTakeTrialActivityRewardScRsp\
+    \x10\xb4\x14\x12&\n!CmdGetActivityScheduleConfigScRsp\x10\xba\x14\x12\
+    \x17\n\x12CmdTakeRewardScRsp\x10\xec\x14\x12-\n(CmdTakeMaterialSubmitAct\
+    ivityRewardCsReq\x10\xaf\x14b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

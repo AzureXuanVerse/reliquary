@@ -27,22 +27,22 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:GridFightDropType)
 pub enum GridFightDropType {
-    // @@protoc_insertion_point(enum_value:GridFightDropType.GridFightDropType_MNFEPONEDDJ)
-    GridFightDropType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:GridFightDropType.GridFightDropType_item_value)
-    GridFightDropType_item_value = 1,
-    // @@protoc_insertion_point(enum_value:GridFightDropType.GridFightDropType_exp)
-    GridFightDropType_exp = 2,
-    // @@protoc_insertion_point(enum_value:GridFightDropType.GridFightDropType_EONEKNGLGJD)
-    GridFightDropType_EONEKNGLGJD = 3,
-    // @@protoc_insertion_point(enum_value:GridFightDropType.GridFightDropType_role_goods_info)
-    GridFightDropType_role_goods_info = 4,
-    // @@protoc_insertion_point(enum_value:GridFightDropType.GridFightDropType_DPKEKEFBJLI)
-    GridFightDropType_DPKEKEFBJLI = 5,
-    // @@protoc_insertion_point(enum_value:GridFightDropType.GridFightDropType_JGHBFLGKBCC)
-    GridFightDropType_JGHBFLGKBCC = 6,
-    // @@protoc_insertion_point(enum_value:GridFightDropType.GridFightDropType_DOINFBHBMOB)
-    GridFightDropType_DOINFBHBMOB = 7,
+    // @@protoc_insertion_point(enum_value:GridFightDropType.HIOLCNPOPON_PCPDHELPKEM)
+    HIOLCNPOPON_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:GridFightDropType.HIOLCNPOPON_HHNBGNFBDHO)
+    HIOLCNPOPON_HHNBGNFBDHO = 1,
+    // @@protoc_insertion_point(enum_value:GridFightDropType.HIOLCNPOPON_HOLOJHGGIOG)
+    HIOLCNPOPON_HOLOJHGGIOG = 2,
+    // @@protoc_insertion_point(enum_value:GridFightDropType.HIOLCNPOPON_NOKNNMPMGGN)
+    HIOLCNPOPON_NOKNNMPMGGN = 3,
+    // @@protoc_insertion_point(enum_value:GridFightDropType.HIOLCNPOPON_NOFPIDPIKLJ)
+    HIOLCNPOPON_NOFPIDPIKLJ = 4,
+    // @@protoc_insertion_point(enum_value:GridFightDropType.HIOLCNPOPON_BIKHOEGFEFD)
+    HIOLCNPOPON_BIKHOEGFEFD = 5,
+    // @@protoc_insertion_point(enum_value:GridFightDropType.HIOLCNPOPON_MKPPCDPCHIE)
+    HIOLCNPOPON_MKPPCDPCHIE = 6,
+    // @@protoc_insertion_point(enum_value:GridFightDropType.HIOLCNPOPON_BHJOKLLJLPL)
+    HIOLCNPOPON_BHJOKLLJLPL = 7,
 }
 
 impl ::protobuf::Enum for GridFightDropType {
@@ -54,41 +54,41 @@ impl ::protobuf::Enum for GridFightDropType {
 
     fn from_i32(value: i32) -> ::std::option::Option<GridFightDropType> {
         match value {
-            0 => ::std::option::Option::Some(GridFightDropType::GridFightDropType_MNFEPONEDDJ),
-            1 => ::std::option::Option::Some(GridFightDropType::GridFightDropType_item_value),
-            2 => ::std::option::Option::Some(GridFightDropType::GridFightDropType_exp),
-            3 => ::std::option::Option::Some(GridFightDropType::GridFightDropType_EONEKNGLGJD),
-            4 => ::std::option::Option::Some(GridFightDropType::GridFightDropType_role_goods_info),
-            5 => ::std::option::Option::Some(GridFightDropType::GridFightDropType_DPKEKEFBJLI),
-            6 => ::std::option::Option::Some(GridFightDropType::GridFightDropType_JGHBFLGKBCC),
-            7 => ::std::option::Option::Some(GridFightDropType::GridFightDropType_DOINFBHBMOB),
+            0 => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_PCPDHELPKEM),
+            1 => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_HHNBGNFBDHO),
+            2 => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_HOLOJHGGIOG),
+            3 => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_NOKNNMPMGGN),
+            4 => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_NOFPIDPIKLJ),
+            5 => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_BIKHOEGFEFD),
+            6 => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_MKPPCDPCHIE),
+            7 => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_BHJOKLLJLPL),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<GridFightDropType> {
         match str {
-            "GridFightDropType_MNFEPONEDDJ" => ::std::option::Option::Some(GridFightDropType::GridFightDropType_MNFEPONEDDJ),
-            "GridFightDropType_item_value" => ::std::option::Option::Some(GridFightDropType::GridFightDropType_item_value),
-            "GridFightDropType_exp" => ::std::option::Option::Some(GridFightDropType::GridFightDropType_exp),
-            "GridFightDropType_EONEKNGLGJD" => ::std::option::Option::Some(GridFightDropType::GridFightDropType_EONEKNGLGJD),
-            "GridFightDropType_role_goods_info" => ::std::option::Option::Some(GridFightDropType::GridFightDropType_role_goods_info),
-            "GridFightDropType_DPKEKEFBJLI" => ::std::option::Option::Some(GridFightDropType::GridFightDropType_DPKEKEFBJLI),
-            "GridFightDropType_JGHBFLGKBCC" => ::std::option::Option::Some(GridFightDropType::GridFightDropType_JGHBFLGKBCC),
-            "GridFightDropType_DOINFBHBMOB" => ::std::option::Option::Some(GridFightDropType::GridFightDropType_DOINFBHBMOB),
+            "HIOLCNPOPON_PCPDHELPKEM" => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_PCPDHELPKEM),
+            "HIOLCNPOPON_HHNBGNFBDHO" => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_HHNBGNFBDHO),
+            "HIOLCNPOPON_HOLOJHGGIOG" => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_HOLOJHGGIOG),
+            "HIOLCNPOPON_NOKNNMPMGGN" => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_NOKNNMPMGGN),
+            "HIOLCNPOPON_NOFPIDPIKLJ" => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_NOFPIDPIKLJ),
+            "HIOLCNPOPON_BIKHOEGFEFD" => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_BIKHOEGFEFD),
+            "HIOLCNPOPON_MKPPCDPCHIE" => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_MKPPCDPCHIE),
+            "HIOLCNPOPON_BHJOKLLJLPL" => ::std::option::Option::Some(GridFightDropType::HIOLCNPOPON_BHJOKLLJLPL),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [GridFightDropType] = &[
-        GridFightDropType::GridFightDropType_MNFEPONEDDJ,
-        GridFightDropType::GridFightDropType_item_value,
-        GridFightDropType::GridFightDropType_exp,
-        GridFightDropType::GridFightDropType_EONEKNGLGJD,
-        GridFightDropType::GridFightDropType_role_goods_info,
-        GridFightDropType::GridFightDropType_DPKEKEFBJLI,
-        GridFightDropType::GridFightDropType_JGHBFLGKBCC,
-        GridFightDropType::GridFightDropType_DOINFBHBMOB,
+        GridFightDropType::HIOLCNPOPON_PCPDHELPKEM,
+        GridFightDropType::HIOLCNPOPON_HHNBGNFBDHO,
+        GridFightDropType::HIOLCNPOPON_HOLOJHGGIOG,
+        GridFightDropType::HIOLCNPOPON_NOKNNMPMGGN,
+        GridFightDropType::HIOLCNPOPON_NOFPIDPIKLJ,
+        GridFightDropType::HIOLCNPOPON_BIKHOEGFEFD,
+        GridFightDropType::HIOLCNPOPON_MKPPCDPCHIE,
+        GridFightDropType::HIOLCNPOPON_BHJOKLLJLPL,
     ];
 }
 
@@ -106,7 +106,7 @@ impl ::protobuf::EnumFull for GridFightDropType {
 
 impl ::std::default::Default for GridFightDropType {
     fn default() -> Self {
-        GridFightDropType::GridFightDropType_MNFEPONEDDJ
+        GridFightDropType::HIOLCNPOPON_PCPDHELPKEM
     }
 }
 
@@ -117,13 +117,13 @@ impl GridFightDropType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x17GridFightDropType.proto*\xa6\x02\n\x11GridFightDropType\x12!\n\x1d\
-    GridFightDropType_MNFEPONEDDJ\x10\0\x12\x20\n\x1cGridFightDropType_item_\
-    value\x10\x01\x12\x19\n\x15GridFightDropType_exp\x10\x02\x12!\n\x1dGridF\
-    ightDropType_EONEKNGLGJD\x10\x03\x12%\n!GridFightDropType_role_goods_inf\
-    o\x10\x04\x12!\n\x1dGridFightDropType_DPKEKEFBJLI\x10\x05\x12!\n\x1dGrid\
-    FightDropType_JGHBFLGKBCC\x10\x06\x12!\n\x1dGridFightDropType_DOINFBHBMO\
-    B\x10\x07b\x06proto3\
+    \n\x17GridFightDropType.proto*\xfb\x01\n\x11GridFightDropType\x12\x1b\n\
+    \x17HIOLCNPOPON_PCPDHELPKEM\x10\0\x12\x1b\n\x17HIOLCNPOPON_HHNBGNFBDHO\
+    \x10\x01\x12\x1b\n\x17HIOLCNPOPON_HOLOJHGGIOG\x10\x02\x12\x1b\n\x17HIOLC\
+    NPOPON_NOKNNMPMGGN\x10\x03\x12\x1b\n\x17HIOLCNPOPON_NOFPIDPIKLJ\x10\x04\
+    \x12\x1b\n\x17HIOLCNPOPON_BIKHOEGFEFD\x10\x05\x12\x1b\n\x17HIOLCNPOPON_M\
+    KPPCDPCHIE\x10\x06\x12\x1b\n\x17HIOLCNPOPON_BHJOKLLJLPL\x10\x07b\x06prot\
+    o3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

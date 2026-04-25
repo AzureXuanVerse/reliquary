@@ -28,14 +28,14 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct PlayerReturnTakePointRewardScRsp {
     // message fields
-    // @@protoc_insertion_point(field:PlayerReturnTakePointRewardScRsp.BGIKPAHDKLP)
-    pub BGIKPAHDKLP: ::protobuf::MessageField<super::ItemList::ItemList>,
-    // @@protoc_insertion_point(field:PlayerReturnTakePointRewardScRsp.DPPHGHFBDHE)
-    pub DPPHGHFBDHE: u32,
     // @@protoc_insertion_point(field:PlayerReturnTakePointRewardScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:PlayerReturnTakePointRewardScRsp.DMJBGKPHAMM)
-    pub DMJBGKPHAMM: u32,
+    // @@protoc_insertion_point(field:PlayerReturnTakePointRewardScRsp.HDABMKCNJJK)
+    pub HDABMKCNJJK: u32,
+    // @@protoc_insertion_point(field:PlayerReturnTakePointRewardScRsp.BGPKPKHCGKE)
+    pub BGPKPKHCGKE: ::protobuf::MessageField<super::ItemList::ItemList>,
+    // @@protoc_insertion_point(field:PlayerReturnTakePointRewardScRsp.EDIGJGGPPON)
+    pub EDIGJGGPPON: u32,
     // special fields
     // @@protoc_insertion_point(special_field:PlayerReturnTakePointRewardScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -55,25 +55,25 @@ impl PlayerReturnTakePointRewardScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(4);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemList::ItemList>(
-            "BGIKPAHDKLP",
-            |m: &PlayerReturnTakePointRewardScRsp| { &m.BGIKPAHDKLP },
-            |m: &mut PlayerReturnTakePointRewardScRsp| { &mut m.BGIKPAHDKLP },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "DPPHGHFBDHE",
-            |m: &PlayerReturnTakePointRewardScRsp| { &m.DPPHGHFBDHE },
-            |m: &mut PlayerReturnTakePointRewardScRsp| { &mut m.DPPHGHFBDHE },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &PlayerReturnTakePointRewardScRsp| { &m.retcode },
             |m: &mut PlayerReturnTakePointRewardScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "DMJBGKPHAMM",
-            |m: &PlayerReturnTakePointRewardScRsp| { &m.DMJBGKPHAMM },
-            |m: &mut PlayerReturnTakePointRewardScRsp| { &mut m.DMJBGKPHAMM },
+            "HDABMKCNJJK",
+            |m: &PlayerReturnTakePointRewardScRsp| { &m.HDABMKCNJJK },
+            |m: &mut PlayerReturnTakePointRewardScRsp| { &mut m.HDABMKCNJJK },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemList::ItemList>(
+            "BGPKPKHCGKE",
+            |m: &PlayerReturnTakePointRewardScRsp| { &m.BGPKPKHCGKE },
+            |m: &mut PlayerReturnTakePointRewardScRsp| { &mut m.BGPKPKHCGKE },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "EDIGJGGPPON",
+            |m: &PlayerReturnTakePointRewardScRsp| { &m.EDIGJGGPPON },
+            |m: &mut PlayerReturnTakePointRewardScRsp| { &mut m.EDIGJGGPPON },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<PlayerReturnTakePointRewardScRsp>(
             "PlayerReturnTakePointRewardScRsp",
@@ -93,17 +93,17 @@ impl ::protobuf::Message for PlayerReturnTakePointRewardScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                122 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.BGIKPAHDKLP)?;
-                },
-                96 => {
-                    self.DPPHGHFBDHE = is.read_uint32()?;
-                },
-                80 => {
+                32 => {
                     self.retcode = is.read_uint32()?;
                 },
                 72 => {
-                    self.DMJBGKPHAMM = is.read_uint32()?;
+                    self.HDABMKCNJJK = is.read_uint32()?;
+                },
+                10 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.BGPKPKHCGKE)?;
+                },
+                24 => {
+                    self.EDIGJGGPPON = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -117,18 +117,18 @@ impl ::protobuf::Message for PlayerReturnTakePointRewardScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.BGIKPAHDKLP.as_ref() {
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(4, self.retcode);
+        }
+        if self.HDABMKCNJJK != 0 {
+            my_size += ::protobuf::rt::uint32_size(9, self.HDABMKCNJJK);
+        }
+        if let Some(v) = self.BGPKPKHCGKE.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.DPPHGHFBDHE != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.DPPHGHFBDHE);
-        }
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.retcode);
-        }
-        if self.DMJBGKPHAMM != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.DMJBGKPHAMM);
+        if self.EDIGJGGPPON != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.EDIGJGGPPON);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -136,17 +136,17 @@ impl ::protobuf::Message for PlayerReturnTakePointRewardScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.BGIKPAHDKLP.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
-        }
-        if self.DPPHGHFBDHE != 0 {
-            os.write_uint32(12, self.DPPHGHFBDHE)?;
-        }
         if self.retcode != 0 {
-            os.write_uint32(10, self.retcode)?;
+            os.write_uint32(4, self.retcode)?;
         }
-        if self.DMJBGKPHAMM != 0 {
-            os.write_uint32(9, self.DMJBGKPHAMM)?;
+        if self.HDABMKCNJJK != 0 {
+            os.write_uint32(9, self.HDABMKCNJJK)?;
+        }
+        if let Some(v) = self.BGPKPKHCGKE.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
+        }
+        if self.EDIGJGGPPON != 0 {
+            os.write_uint32(3, self.EDIGJGGPPON)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -165,19 +165,19 @@ impl ::protobuf::Message for PlayerReturnTakePointRewardScRsp {
     }
 
     fn clear(&mut self) {
-        self.BGIKPAHDKLP.clear();
-        self.DPPHGHFBDHE = 0;
         self.retcode = 0;
-        self.DMJBGKPHAMM = 0;
+        self.HDABMKCNJJK = 0;
+        self.BGPKPKHCGKE.clear();
+        self.EDIGJGGPPON = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static PlayerReturnTakePointRewardScRsp {
         static instance: PlayerReturnTakePointRewardScRsp = PlayerReturnTakePointRewardScRsp {
-            BGIKPAHDKLP: ::protobuf::MessageField::none(),
-            DPPHGHFBDHE: 0,
             retcode: 0,
-            DMJBGKPHAMM: 0,
+            HDABMKCNJJK: 0,
+            BGPKPKHCGKE: ::protobuf::MessageField::none(),
+            EDIGJGGPPON: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -203,10 +203,10 @@ impl ::protobuf::reflect::ProtobufValue for PlayerReturnTakePointRewardScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n&PlayerReturnTakePointRewardScRsp.proto\x1a\x0eItemList.proto\"\xad\
-    \x01\n\x20PlayerReturnTakePointRewardScRsp\x12+\n\x0bBGIKPAHDKLP\x18\x0f\
-    \x20\x01(\x0b2\t.ItemListR\x0bBGIKPAHDKLP\x12\x20\n\x0bDPPHGHFBDHE\x18\
-    \x0c\x20\x01(\rR\x0bDPPHGHFBDHE\x12\x18\n\x07retcode\x18\n\x20\x01(\rR\
-    \x07retcode\x12\x20\n\x0bDMJBGKPHAMM\x18\t\x20\x01(\rR\x0bDMJBGKPHAMMb\
+    \x01\n\x20PlayerReturnTakePointRewardScRsp\x12\x18\n\x07retcode\x18\x04\
+    \x20\x01(\rR\x07retcode\x12\x20\n\x0bHDABMKCNJJK\x18\t\x20\x01(\rR\x0bHD\
+    ABMKCNJJK\x12+\n\x0bBGPKPKHCGKE\x18\x01\x20\x01(\x0b2\t.ItemListR\x0bBGP\
+    KPKHCGKE\x12\x20\n\x0bEDIGJGGPPON\x18\x03\x20\x01(\rR\x0bEDIGJGGPPONb\
     \x06proto3\
 ";
 

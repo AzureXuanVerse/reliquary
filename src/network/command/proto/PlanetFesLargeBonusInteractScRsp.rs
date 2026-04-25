@@ -28,14 +28,14 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct PlanetFesLargeBonusInteractScRsp {
     // message fields
-    // @@protoc_insertion_point(field:PlanetFesLargeBonusInteractScRsp.PIOBAHDCHME)
-    pub PIOBAHDCHME: u32,
-    // @@protoc_insertion_point(field:PlanetFesLargeBonusInteractScRsp.KFIIOBLEAFF)
-    pub KFIIOBLEAFF: ::protobuf::MessageField<super::MGAPENEKGLK::MGAPENEKGLK>,
+    // @@protoc_insertion_point(field:PlanetFesLargeBonusInteractScRsp.HGIAGJMHDOB)
+    pub HGIAGJMHDOB: u32,
+    // @@protoc_insertion_point(field:PlanetFesLargeBonusInteractScRsp.DIHECIIKELE)
+    pub DIHECIIKELE: ::protobuf::MessageField<super::JIPACDEJKJC::JIPACDEJKJC>,
     // @@protoc_insertion_point(field:PlanetFesLargeBonusInteractScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:PlanetFesLargeBonusInteractScRsp.FNOOPJIOFDL)
-    pub FNOOPJIOFDL: ::protobuf::MessageField<super::EKIKIIKJGHH::EKIKIIKJGHH>,
+    // @@protoc_insertion_point(field:PlanetFesLargeBonusInteractScRsp.LAMFMELCEMD)
+    pub LAMFMELCEMD: ::protobuf::MessageField<super::EFEGKDHEMFN::EFEGKDHEMFN>,
     // special fields
     // @@protoc_insertion_point(special_field:PlanetFesLargeBonusInteractScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -56,24 +56,24 @@ impl PlanetFesLargeBonusInteractScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(4);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "PIOBAHDCHME",
-            |m: &PlanetFesLargeBonusInteractScRsp| { &m.PIOBAHDCHME },
-            |m: &mut PlanetFesLargeBonusInteractScRsp| { &mut m.PIOBAHDCHME },
+            "HGIAGJMHDOB",
+            |m: &PlanetFesLargeBonusInteractScRsp| { &m.HGIAGJMHDOB },
+            |m: &mut PlanetFesLargeBonusInteractScRsp| { &mut m.HGIAGJMHDOB },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::MGAPENEKGLK::MGAPENEKGLK>(
-            "KFIIOBLEAFF",
-            |m: &PlanetFesLargeBonusInteractScRsp| { &m.KFIIOBLEAFF },
-            |m: &mut PlanetFesLargeBonusInteractScRsp| { &mut m.KFIIOBLEAFF },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::JIPACDEJKJC::JIPACDEJKJC>(
+            "DIHECIIKELE",
+            |m: &PlanetFesLargeBonusInteractScRsp| { &m.DIHECIIKELE },
+            |m: &mut PlanetFesLargeBonusInteractScRsp| { &mut m.DIHECIIKELE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &PlanetFesLargeBonusInteractScRsp| { &m.retcode },
             |m: &mut PlanetFesLargeBonusInteractScRsp| { &mut m.retcode },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::EKIKIIKJGHH::EKIKIIKJGHH>(
-            "FNOOPJIOFDL",
-            |m: &PlanetFesLargeBonusInteractScRsp| { &m.FNOOPJIOFDL },
-            |m: &mut PlanetFesLargeBonusInteractScRsp| { &mut m.FNOOPJIOFDL },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::EFEGKDHEMFN::EFEGKDHEMFN>(
+            "LAMFMELCEMD",
+            |m: &PlanetFesLargeBonusInteractScRsp| { &m.LAMFMELCEMD },
+            |m: &mut PlanetFesLargeBonusInteractScRsp| { &mut m.LAMFMELCEMD },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<PlanetFesLargeBonusInteractScRsp>(
             "PlanetFesLargeBonusInteractScRsp",
@@ -93,17 +93,17 @@ impl ::protobuf::Message for PlanetFesLargeBonusInteractScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                56 => {
-                    self.PIOBAHDCHME = is.read_uint32()?;
+                120 => {
+                    self.HGIAGJMHDOB = is.read_uint32()?;
                 },
-                66 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.KFIIOBLEAFF)?;
+                50 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.DIHECIIKELE)?;
                 },
-                16 => {
+                80 => {
                     self.retcode = is.read_uint32()?;
                 },
-                42 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.FNOOPJIOFDL)?;
+                58 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.LAMFMELCEMD)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -117,17 +117,17 @@ impl ::protobuf::Message for PlanetFesLargeBonusInteractScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.PIOBAHDCHME != 0 {
-            my_size += ::protobuf::rt::uint32_size(7, self.PIOBAHDCHME);
+        if self.HGIAGJMHDOB != 0 {
+            my_size += ::protobuf::rt::uint32_size(15, self.HGIAGJMHDOB);
         }
-        if let Some(v) = self.KFIIOBLEAFF.as_ref() {
+        if let Some(v) = self.DIHECIIKELE.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(10, self.retcode);
         }
-        if let Some(v) = self.FNOOPJIOFDL.as_ref() {
+        if let Some(v) = self.LAMFMELCEMD.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -137,17 +137,17 @@ impl ::protobuf::Message for PlanetFesLargeBonusInteractScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.PIOBAHDCHME != 0 {
-            os.write_uint32(7, self.PIOBAHDCHME)?;
+        if self.HGIAGJMHDOB != 0 {
+            os.write_uint32(15, self.HGIAGJMHDOB)?;
         }
-        if let Some(v) = self.KFIIOBLEAFF.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+        if let Some(v) = self.DIHECIIKELE.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(2, self.retcode)?;
+            os.write_uint32(10, self.retcode)?;
         }
-        if let Some(v) = self.FNOOPJIOFDL.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
+        if let Some(v) = self.LAMFMELCEMD.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -166,19 +166,19 @@ impl ::protobuf::Message for PlanetFesLargeBonusInteractScRsp {
     }
 
     fn clear(&mut self) {
-        self.PIOBAHDCHME = 0;
-        self.KFIIOBLEAFF.clear();
+        self.HGIAGJMHDOB = 0;
+        self.DIHECIIKELE.clear();
         self.retcode = 0;
-        self.FNOOPJIOFDL.clear();
+        self.LAMFMELCEMD.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static PlanetFesLargeBonusInteractScRsp {
         static instance: PlanetFesLargeBonusInteractScRsp = PlanetFesLargeBonusInteractScRsp {
-            PIOBAHDCHME: 0,
-            KFIIOBLEAFF: ::protobuf::MessageField::none(),
+            HGIAGJMHDOB: 0,
+            DIHECIIKELE: ::protobuf::MessageField::none(),
             retcode: 0,
-            FNOOPJIOFDL: ::protobuf::MessageField::none(),
+            LAMFMELCEMD: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -203,12 +203,12 @@ impl ::protobuf::reflect::ProtobufValue for PlanetFesLargeBonusInteractScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n&PlanetFesLargeBonusInteractScRsp.proto\x1a\x11EKIKIIKJGHH.proto\x1a\
-    \x11MGAPENEKGLK.proto\"\xbe\x01\n\x20PlanetFesLargeBonusInteractScRsp\
-    \x12\x20\n\x0bPIOBAHDCHME\x18\x07\x20\x01(\rR\x0bPIOBAHDCHME\x12.\n\x0bK\
-    FIIOBLEAFF\x18\x08\x20\x01(\x0b2\x0c.MGAPENEKGLKR\x0bKFIIOBLEAFF\x12\x18\
-    \n\x07retcode\x18\x02\x20\x01(\rR\x07retcode\x12.\n\x0bFNOOPJIOFDL\x18\
-    \x05\x20\x01(\x0b2\x0c.EKIKIIKJGHHR\x0bFNOOPJIOFDLb\x06proto3\
+    \n&PlanetFesLargeBonusInteractScRsp.proto\x1a\x11EFEGKDHEMFN.proto\x1a\
+    \x11JIPACDEJKJC.proto\"\xbe\x01\n\x20PlanetFesLargeBonusInteractScRsp\
+    \x12\x20\n\x0bHGIAGJMHDOB\x18\x0f\x20\x01(\rR\x0bHGIAGJMHDOB\x12.\n\x0bD\
+    IHECIIKELE\x18\x06\x20\x01(\x0b2\x0c.JIPACDEJKJCR\x0bDIHECIIKELE\x12\x18\
+    \n\x07retcode\x18\n\x20\x01(\rR\x07retcode\x12.\n\x0bLAMFMELCEMD\x18\x07\
+    \x20\x01(\x0b2\x0c.EFEGKDHEMFNR\x0bLAMFMELCEMDb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -226,8 +226,8 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
-            deps.push(super::EKIKIIKJGHH::file_descriptor().clone());
-            deps.push(super::MGAPENEKGLK::file_descriptor().clone());
+            deps.push(super::EFEGKDHEMFN::file_descriptor().clone());
+            deps.push(super::JIPACDEJKJC::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(PlanetFesLargeBonusInteractScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

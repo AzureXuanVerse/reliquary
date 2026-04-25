@@ -28,20 +28,20 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct UpdateGroupPropertyScRsp {
     // message fields
-    // @@protoc_insertion_point(field:UpdateGroupPropertyScRsp.EAGKBEMCFAB)
-    pub EAGKBEMCFAB: i32,
-    // @@protoc_insertion_point(field:UpdateGroupPropertyScRsp.JDJOCEHPOKF)
-    pub JDJOCEHPOKF: i32,
+    // @@protoc_insertion_point(field:UpdateGroupPropertyScRsp.ELKOCIJNABK)
+    pub ELKOCIJNABK: i32,
+    // @@protoc_insertion_point(field:UpdateGroupPropertyScRsp.ELNCJFFJFIH)
+    pub ELNCJFFJFIH: ::std::string::String,
+    // @@protoc_insertion_point(field:UpdateGroupPropertyScRsp.retcode)
+    pub retcode: u32,
+    // @@protoc_insertion_point(field:UpdateGroupPropertyScRsp.group_id)
+    pub group_id: u32,
     // @@protoc_insertion_point(field:UpdateGroupPropertyScRsp.floor_id)
     pub floor_id: u32,
     // @@protoc_insertion_point(field:UpdateGroupPropertyScRsp.dimension_id)
     pub dimension_id: u32,
-    // @@protoc_insertion_point(field:UpdateGroupPropertyScRsp.retcode)
-    pub retcode: u32,
-    // @@protoc_insertion_point(field:UpdateGroupPropertyScRsp.NOCBONMOOGC)
-    pub NOCBONMOOGC: ::std::string::String,
-    // @@protoc_insertion_point(field:UpdateGroupPropertyScRsp.group_id)
-    pub group_id: u32,
+    // @@protoc_insertion_point(field:UpdateGroupPropertyScRsp.FNAODNGJAMM)
+    pub FNAODNGJAMM: i32,
     // special fields
     // @@protoc_insertion_point(special_field:UpdateGroupPropertyScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -62,14 +62,24 @@ impl UpdateGroupPropertyScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(7);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "EAGKBEMCFAB",
-            |m: &UpdateGroupPropertyScRsp| { &m.EAGKBEMCFAB },
-            |m: &mut UpdateGroupPropertyScRsp| { &mut m.EAGKBEMCFAB },
+            "ELKOCIJNABK",
+            |m: &UpdateGroupPropertyScRsp| { &m.ELKOCIJNABK },
+            |m: &mut UpdateGroupPropertyScRsp| { &mut m.ELKOCIJNABK },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "JDJOCEHPOKF",
-            |m: &UpdateGroupPropertyScRsp| { &m.JDJOCEHPOKF },
-            |m: &mut UpdateGroupPropertyScRsp| { &mut m.JDJOCEHPOKF },
+            "ELNCJFFJFIH",
+            |m: &UpdateGroupPropertyScRsp| { &m.ELNCJFFJFIH },
+            |m: &mut UpdateGroupPropertyScRsp| { &mut m.ELNCJFFJFIH },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "retcode",
+            |m: &UpdateGroupPropertyScRsp| { &m.retcode },
+            |m: &mut UpdateGroupPropertyScRsp| { &mut m.retcode },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "group_id",
+            |m: &UpdateGroupPropertyScRsp| { &m.group_id },
+            |m: &mut UpdateGroupPropertyScRsp| { &mut m.group_id },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "floor_id",
@@ -82,19 +92,9 @@ impl UpdateGroupPropertyScRsp {
             |m: &mut UpdateGroupPropertyScRsp| { &mut m.dimension_id },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "retcode",
-            |m: &UpdateGroupPropertyScRsp| { &m.retcode },
-            |m: &mut UpdateGroupPropertyScRsp| { &mut m.retcode },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "NOCBONMOOGC",
-            |m: &UpdateGroupPropertyScRsp| { &m.NOCBONMOOGC },
-            |m: &mut UpdateGroupPropertyScRsp| { &mut m.NOCBONMOOGC },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "group_id",
-            |m: &UpdateGroupPropertyScRsp| { &m.group_id },
-            |m: &mut UpdateGroupPropertyScRsp| { &mut m.group_id },
+            "FNAODNGJAMM",
+            |m: &UpdateGroupPropertyScRsp| { &m.FNAODNGJAMM },
+            |m: &mut UpdateGroupPropertyScRsp| { &mut m.FNAODNGJAMM },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<UpdateGroupPropertyScRsp>(
             "UpdateGroupPropertyScRsp",
@@ -114,26 +114,26 @@ impl ::protobuf::Message for UpdateGroupPropertyScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                32 => {
-                    self.EAGKBEMCFAB = is.read_int32()?;
+                40 => {
+                    self.ELKOCIJNABK = is.read_int32()?;
+                },
+                82 => {
+                    self.ELNCJFFJFIH = is.read_string()?;
+                },
+                64 => {
+                    self.retcode = is.read_uint32()?;
                 },
                 16 => {
-                    self.JDJOCEHPOKF = is.read_int32()?;
+                    self.group_id = is.read_uint32()?;
                 },
                 48 => {
                     self.floor_id = is.read_uint32()?;
                 },
-                8 => {
+                24 => {
                     self.dimension_id = is.read_uint32()?;
                 },
-                112 => {
-                    self.retcode = is.read_uint32()?;
-                },
-                26 => {
-                    self.NOCBONMOOGC = is.read_string()?;
-                },
                 96 => {
-                    self.group_id = is.read_uint32()?;
+                    self.FNAODNGJAMM = is.read_int32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -147,26 +147,26 @@ impl ::protobuf::Message for UpdateGroupPropertyScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.EAGKBEMCFAB != 0 {
-            my_size += ::protobuf::rt::int32_size(4, self.EAGKBEMCFAB);
+        if self.ELKOCIJNABK != 0 {
+            my_size += ::protobuf::rt::int32_size(5, self.ELKOCIJNABK);
         }
-        if self.JDJOCEHPOKF != 0 {
-            my_size += ::protobuf::rt::int32_size(2, self.JDJOCEHPOKF);
+        if !self.ELNCJFFJFIH.is_empty() {
+            my_size += ::protobuf::rt::string_size(10, &self.ELNCJFFJFIH);
+        }
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(8, self.retcode);
+        }
+        if self.group_id != 0 {
+            my_size += ::protobuf::rt::uint32_size(2, self.group_id);
         }
         if self.floor_id != 0 {
             my_size += ::protobuf::rt::uint32_size(6, self.floor_id);
         }
         if self.dimension_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.dimension_id);
+            my_size += ::protobuf::rt::uint32_size(3, self.dimension_id);
         }
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.retcode);
-        }
-        if !self.NOCBONMOOGC.is_empty() {
-            my_size += ::protobuf::rt::string_size(3, &self.NOCBONMOOGC);
-        }
-        if self.group_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.group_id);
+        if self.FNAODNGJAMM != 0 {
+            my_size += ::protobuf::rt::int32_size(12, self.FNAODNGJAMM);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -174,26 +174,26 @@ impl ::protobuf::Message for UpdateGroupPropertyScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.EAGKBEMCFAB != 0 {
-            os.write_int32(4, self.EAGKBEMCFAB)?;
+        if self.ELKOCIJNABK != 0 {
+            os.write_int32(5, self.ELKOCIJNABK)?;
         }
-        if self.JDJOCEHPOKF != 0 {
-            os.write_int32(2, self.JDJOCEHPOKF)?;
+        if !self.ELNCJFFJFIH.is_empty() {
+            os.write_string(10, &self.ELNCJFFJFIH)?;
+        }
+        if self.retcode != 0 {
+            os.write_uint32(8, self.retcode)?;
+        }
+        if self.group_id != 0 {
+            os.write_uint32(2, self.group_id)?;
         }
         if self.floor_id != 0 {
             os.write_uint32(6, self.floor_id)?;
         }
         if self.dimension_id != 0 {
-            os.write_uint32(1, self.dimension_id)?;
+            os.write_uint32(3, self.dimension_id)?;
         }
-        if self.retcode != 0 {
-            os.write_uint32(14, self.retcode)?;
-        }
-        if !self.NOCBONMOOGC.is_empty() {
-            os.write_string(3, &self.NOCBONMOOGC)?;
-        }
-        if self.group_id != 0 {
-            os.write_uint32(12, self.group_id)?;
+        if self.FNAODNGJAMM != 0 {
+            os.write_int32(12, self.FNAODNGJAMM)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -212,25 +212,25 @@ impl ::protobuf::Message for UpdateGroupPropertyScRsp {
     }
 
     fn clear(&mut self) {
-        self.EAGKBEMCFAB = 0;
-        self.JDJOCEHPOKF = 0;
+        self.ELKOCIJNABK = 0;
+        self.ELNCJFFJFIH.clear();
+        self.retcode = 0;
+        self.group_id = 0;
         self.floor_id = 0;
         self.dimension_id = 0;
-        self.retcode = 0;
-        self.NOCBONMOOGC.clear();
-        self.group_id = 0;
+        self.FNAODNGJAMM = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static UpdateGroupPropertyScRsp {
         static instance: UpdateGroupPropertyScRsp = UpdateGroupPropertyScRsp {
-            EAGKBEMCFAB: 0,
-            JDJOCEHPOKF: 0,
+            ELKOCIJNABK: 0,
+            ELNCJFFJFIH: ::std::string::String::new(),
+            retcode: 0,
+            group_id: 0,
             floor_id: 0,
             dimension_id: 0,
-            retcode: 0,
-            NOCBONMOOGC: ::std::string::String::new(),
-            group_id: 0,
+            FNAODNGJAMM: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -256,12 +256,12 @@ impl ::protobuf::reflect::ProtobufValue for UpdateGroupPropertyScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1eUpdateGroupPropertyScRsp.proto\"\xf3\x01\n\x18UpdateGroupPropertyS\
-    cRsp\x12\x20\n\x0bEAGKBEMCFAB\x18\x04\x20\x01(\x05R\x0bEAGKBEMCFAB\x12\
-    \x20\n\x0bJDJOCEHPOKF\x18\x02\x20\x01(\x05R\x0bJDJOCEHPOKF\x12\x19\n\x08\
-    floor_id\x18\x06\x20\x01(\rR\x07floorId\x12!\n\x0cdimension_id\x18\x01\
-    \x20\x01(\rR\x0bdimensionId\x12\x18\n\x07retcode\x18\x0e\x20\x01(\rR\x07\
-    retcode\x12\x20\n\x0bNOCBONMOOGC\x18\x03\x20\x01(\tR\x0bNOCBONMOOGC\x12\
-    \x19\n\x08group_id\x18\x0c\x20\x01(\rR\x07groupIdb\x06proto3\
+    cRsp\x12\x20\n\x0bELKOCIJNABK\x18\x05\x20\x01(\x05R\x0bELKOCIJNABK\x12\
+    \x20\n\x0bELNCJFFJFIH\x18\n\x20\x01(\tR\x0bELNCJFFJFIH\x12\x18\n\x07retc\
+    ode\x18\x08\x20\x01(\rR\x07retcode\x12\x19\n\x08group_id\x18\x02\x20\x01\
+    (\rR\x07groupId\x12\x19\n\x08floor_id\x18\x06\x20\x01(\rR\x07floorId\x12\
+    !\n\x0cdimension_id\x18\x03\x20\x01(\rR\x0bdimensionId\x12\x20\n\x0bFNAO\
+    DNGJAMM\x18\x0c\x20\x01(\x05R\x0bFNAODNGJAMMb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

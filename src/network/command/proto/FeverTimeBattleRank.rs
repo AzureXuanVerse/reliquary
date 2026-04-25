@@ -27,16 +27,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:FeverTimeBattleRank)
 pub enum FeverTimeBattleRank {
-    // @@protoc_insertion_point(enum_value:FeverTimeBattleRank.FeverTimeBattleRank_HDDNCGLDBFM)
-    FeverTimeBattleRank_HDDNCGLDBFM = 0,
-    // @@protoc_insertion_point(enum_value:FeverTimeBattleRank.FeverTimeBattleRank_KALFHGBBEIL)
-    FeverTimeBattleRank_KALFHGBBEIL = 1,
-    // @@protoc_insertion_point(enum_value:FeverTimeBattleRank.FeverTimeBattleRank_NNCFGOECMAG)
-    FeverTimeBattleRank_NNCFGOECMAG = 2,
-    // @@protoc_insertion_point(enum_value:FeverTimeBattleRank.FeverTimeBattleRank_KPBPCHMKLGN)
-    FeverTimeBattleRank_KPBPCHMKLGN = 3,
-    // @@protoc_insertion_point(enum_value:FeverTimeBattleRank.FeverTimeBattleRank_OOOKGFKLCHN)
-    FeverTimeBattleRank_OOOKGFKLCHN = 4,
+    // @@protoc_insertion_point(enum_value:FeverTimeBattleRank.GKNLGIBCLCN_IJLJFPKIEOP)
+    GKNLGIBCLCN_IJLJFPKIEOP = 0,
+    // @@protoc_insertion_point(enum_value:FeverTimeBattleRank.GKNLGIBCLCN_ABMBOMJPMND)
+    GKNLGIBCLCN_ABMBOMJPMND = 1,
+    // @@protoc_insertion_point(enum_value:FeverTimeBattleRank.GKNLGIBCLCN_EFLJDDBCIFD)
+    GKNLGIBCLCN_EFLJDDBCIFD = 2,
+    // @@protoc_insertion_point(enum_value:FeverTimeBattleRank.GKNLGIBCLCN_CKODLDEPEPG)
+    GKNLGIBCLCN_CKODLDEPEPG = 3,
+    // @@protoc_insertion_point(enum_value:FeverTimeBattleRank.GKNLGIBCLCN_DCPNAILIKFM)
+    GKNLGIBCLCN_DCPNAILIKFM = 4,
 }
 
 impl ::protobuf::Enum for FeverTimeBattleRank {
@@ -48,32 +48,32 @@ impl ::protobuf::Enum for FeverTimeBattleRank {
 
     fn from_i32(value: i32) -> ::std::option::Option<FeverTimeBattleRank> {
         match value {
-            0 => ::std::option::Option::Some(FeverTimeBattleRank::FeverTimeBattleRank_HDDNCGLDBFM),
-            1 => ::std::option::Option::Some(FeverTimeBattleRank::FeverTimeBattleRank_KALFHGBBEIL),
-            2 => ::std::option::Option::Some(FeverTimeBattleRank::FeverTimeBattleRank_NNCFGOECMAG),
-            3 => ::std::option::Option::Some(FeverTimeBattleRank::FeverTimeBattleRank_KPBPCHMKLGN),
-            4 => ::std::option::Option::Some(FeverTimeBattleRank::FeverTimeBattleRank_OOOKGFKLCHN),
+            0 => ::std::option::Option::Some(FeverTimeBattleRank::GKNLGIBCLCN_IJLJFPKIEOP),
+            1 => ::std::option::Option::Some(FeverTimeBattleRank::GKNLGIBCLCN_ABMBOMJPMND),
+            2 => ::std::option::Option::Some(FeverTimeBattleRank::GKNLGIBCLCN_EFLJDDBCIFD),
+            3 => ::std::option::Option::Some(FeverTimeBattleRank::GKNLGIBCLCN_CKODLDEPEPG),
+            4 => ::std::option::Option::Some(FeverTimeBattleRank::GKNLGIBCLCN_DCPNAILIKFM),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<FeverTimeBattleRank> {
         match str {
-            "FeverTimeBattleRank_HDDNCGLDBFM" => ::std::option::Option::Some(FeverTimeBattleRank::FeverTimeBattleRank_HDDNCGLDBFM),
-            "FeverTimeBattleRank_KALFHGBBEIL" => ::std::option::Option::Some(FeverTimeBattleRank::FeverTimeBattleRank_KALFHGBBEIL),
-            "FeverTimeBattleRank_NNCFGOECMAG" => ::std::option::Option::Some(FeverTimeBattleRank::FeverTimeBattleRank_NNCFGOECMAG),
-            "FeverTimeBattleRank_KPBPCHMKLGN" => ::std::option::Option::Some(FeverTimeBattleRank::FeverTimeBattleRank_KPBPCHMKLGN),
-            "FeverTimeBattleRank_OOOKGFKLCHN" => ::std::option::Option::Some(FeverTimeBattleRank::FeverTimeBattleRank_OOOKGFKLCHN),
+            "GKNLGIBCLCN_IJLJFPKIEOP" => ::std::option::Option::Some(FeverTimeBattleRank::GKNLGIBCLCN_IJLJFPKIEOP),
+            "GKNLGIBCLCN_ABMBOMJPMND" => ::std::option::Option::Some(FeverTimeBattleRank::GKNLGIBCLCN_ABMBOMJPMND),
+            "GKNLGIBCLCN_EFLJDDBCIFD" => ::std::option::Option::Some(FeverTimeBattleRank::GKNLGIBCLCN_EFLJDDBCIFD),
+            "GKNLGIBCLCN_CKODLDEPEPG" => ::std::option::Option::Some(FeverTimeBattleRank::GKNLGIBCLCN_CKODLDEPEPG),
+            "GKNLGIBCLCN_DCPNAILIKFM" => ::std::option::Option::Some(FeverTimeBattleRank::GKNLGIBCLCN_DCPNAILIKFM),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [FeverTimeBattleRank] = &[
-        FeverTimeBattleRank::FeverTimeBattleRank_HDDNCGLDBFM,
-        FeverTimeBattleRank::FeverTimeBattleRank_KALFHGBBEIL,
-        FeverTimeBattleRank::FeverTimeBattleRank_NNCFGOECMAG,
-        FeverTimeBattleRank::FeverTimeBattleRank_KPBPCHMKLGN,
-        FeverTimeBattleRank::FeverTimeBattleRank_OOOKGFKLCHN,
+        FeverTimeBattleRank::GKNLGIBCLCN_IJLJFPKIEOP,
+        FeverTimeBattleRank::GKNLGIBCLCN_ABMBOMJPMND,
+        FeverTimeBattleRank::GKNLGIBCLCN_EFLJDDBCIFD,
+        FeverTimeBattleRank::GKNLGIBCLCN_CKODLDEPEPG,
+        FeverTimeBattleRank::GKNLGIBCLCN_DCPNAILIKFM,
     ];
 }
 
@@ -91,7 +91,7 @@ impl ::protobuf::EnumFull for FeverTimeBattleRank {
 
 impl ::std::default::Default for FeverTimeBattleRank {
     fn default() -> Self {
-        FeverTimeBattleRank::FeverTimeBattleRank_HDDNCGLDBFM
+        FeverTimeBattleRank::GKNLGIBCLCN_IJLJFPKIEOP
     }
 }
 
@@ -102,11 +102,11 @@ impl FeverTimeBattleRank {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x19FeverTimeBattleRank.proto*\xce\x01\n\x13FeverTimeBattleRank\x12#\n\
-    \x1fFeverTimeBattleRank_HDDNCGLDBFM\x10\0\x12#\n\x1fFeverTimeBattleRank_\
-    KALFHGBBEIL\x10\x01\x12#\n\x1fFeverTimeBattleRank_NNCFGOECMAG\x10\x02\
-    \x12#\n\x1fFeverTimeBattleRank_KPBPCHMKLGN\x10\x03\x12#\n\x1fFeverTimeBa\
-    ttleRank_OOOKGFKLCHN\x10\x04b\x06proto3\
+    \n\x19FeverTimeBattleRank.proto*\xa6\x01\n\x13FeverTimeBattleRank\x12\
+    \x1b\n\x17GKNLGIBCLCN_IJLJFPKIEOP\x10\0\x12\x1b\n\x17GKNLGIBCLCN_ABMBOMJ\
+    PMND\x10\x01\x12\x1b\n\x17GKNLGIBCLCN_EFLJDDBCIFD\x10\x02\x12\x1b\n\x17G\
+    KNLGIBCLCN_CKODLDEPEPG\x10\x03\x12\x1b\n\x17GKNLGIBCLCN_DCPNAILIKFM\x10\
+    \x04b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

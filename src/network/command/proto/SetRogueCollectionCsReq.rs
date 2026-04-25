@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct SetRogueCollectionCsReq {
     // message fields
-    // @@protoc_insertion_point(field:SetRogueCollectionCsReq.PDLMOGCFBHF)
-    pub PDLMOGCFBHF: ::std::vec::Vec<u32>,
-    // @@protoc_insertion_point(field:SetRogueCollectionCsReq.EKIHMGBCMJI)
-    pub EKIHMGBCMJI: ::std::vec::Vec<u32>,
-    // @@protoc_insertion_point(field:SetRogueCollectionCsReq.EOENLEFMFBH)
-    pub EOENLEFMFBH: ::std::vec::Vec<::protobuf::EnumOrUnknown<super::FPEDOFIGOIN::FPEDOFIGOIN>>,
+    // @@protoc_insertion_point(field:SetRogueCollectionCsReq.BCIIJGGJKHB)
+    pub BCIIJGGJKHB: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:SetRogueCollectionCsReq.HJNAAMBAJME)
+    pub HJNAAMBAJME: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:SetRogueCollectionCsReq.PFJFFEFEBAN)
+    pub PFJFFEFEBAN: ::std::vec::Vec<::protobuf::EnumOrUnknown<super::AGLNLHOBDKI::AGLNLHOBDKI>>,
     // special fields
     // @@protoc_insertion_point(special_field:SetRogueCollectionCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -54,19 +54,19 @@ impl SetRogueCollectionCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "PDLMOGCFBHF",
-            |m: &SetRogueCollectionCsReq| { &m.PDLMOGCFBHF },
-            |m: &mut SetRogueCollectionCsReq| { &mut m.PDLMOGCFBHF },
+            "BCIIJGGJKHB",
+            |m: &SetRogueCollectionCsReq| { &m.BCIIJGGJKHB },
+            |m: &mut SetRogueCollectionCsReq| { &mut m.BCIIJGGJKHB },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "EKIHMGBCMJI",
-            |m: &SetRogueCollectionCsReq| { &m.EKIHMGBCMJI },
-            |m: &mut SetRogueCollectionCsReq| { &mut m.EKIHMGBCMJI },
+            "HJNAAMBAJME",
+            |m: &SetRogueCollectionCsReq| { &m.HJNAAMBAJME },
+            |m: &mut SetRogueCollectionCsReq| { &mut m.HJNAAMBAJME },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "EOENLEFMFBH",
-            |m: &SetRogueCollectionCsReq| { &m.EOENLEFMFBH },
-            |m: &mut SetRogueCollectionCsReq| { &mut m.EOENLEFMFBH },
+            "PFJFFEFEBAN",
+            |m: &SetRogueCollectionCsReq| { &m.PFJFFEFEBAN },
+            |m: &mut SetRogueCollectionCsReq| { &mut m.PFJFFEFEBAN },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<SetRogueCollectionCsReq>(
             "SetRogueCollectionCsReq",
@@ -86,23 +86,23 @@ impl ::protobuf::Message for SetRogueCollectionCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                82 => {
-                    is.read_repeated_packed_uint32_into(&mut self.PDLMOGCFBHF)?;
+                90 => {
+                    is.read_repeated_packed_uint32_into(&mut self.BCIIJGGJKHB)?;
                 },
-                80 => {
-                    self.PDLMOGCFBHF.push(is.read_uint32()?);
+                88 => {
+                    self.BCIIJGGJKHB.push(is.read_uint32()?);
                 },
-                114 => {
-                    is.read_repeated_packed_uint32_into(&mut self.EKIHMGBCMJI)?;
+                10 => {
+                    is.read_repeated_packed_uint32_into(&mut self.HJNAAMBAJME)?;
                 },
-                112 => {
-                    self.EKIHMGBCMJI.push(is.read_uint32()?);
+                8 => {
+                    self.HJNAAMBAJME.push(is.read_uint32()?);
                 },
-                56 => {
-                    self.EOENLEFMFBH.push(is.read_enum_or_unknown()?);
+                40 => {
+                    self.PFJFFEFEBAN.push(is.read_enum_or_unknown()?);
                 },
-                58 => {
-                    ::protobuf::rt::read_repeated_packed_enum_or_unknown_into(is, &mut self.EOENLEFMFBH)?
+                42 => {
+                    ::protobuf::rt::read_repeated_packed_enum_or_unknown_into(is, &mut self.PFJFFEFEBAN)?
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -116,18 +116,18 @@ impl ::protobuf::Message for SetRogueCollectionCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        my_size += ::protobuf::rt::vec_packed_uint32_size(10, &self.PDLMOGCFBHF);
-        my_size += ::protobuf::rt::vec_packed_uint32_size(14, &self.EKIHMGBCMJI);
-        my_size += ::protobuf::rt::vec_packed_enum_or_unknown_size(7, &self.EOENLEFMFBH);
+        my_size += ::protobuf::rt::vec_packed_uint32_size(11, &self.BCIIJGGJKHB);
+        my_size += ::protobuf::rt::vec_packed_uint32_size(1, &self.HJNAAMBAJME);
+        my_size += ::protobuf::rt::vec_packed_enum_or_unknown_size(5, &self.PFJFFEFEBAN);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        os.write_repeated_packed_uint32(10, &self.PDLMOGCFBHF)?;
-        os.write_repeated_packed_uint32(14, &self.EKIHMGBCMJI)?;
-        os.write_repeated_packed_enum_or_unknown(7, &self.EOENLEFMFBH)?;
+        os.write_repeated_packed_uint32(11, &self.BCIIJGGJKHB)?;
+        os.write_repeated_packed_uint32(1, &self.HJNAAMBAJME)?;
+        os.write_repeated_packed_enum_or_unknown(5, &self.PFJFFEFEBAN)?;
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -145,17 +145,17 @@ impl ::protobuf::Message for SetRogueCollectionCsReq {
     }
 
     fn clear(&mut self) {
-        self.PDLMOGCFBHF.clear();
-        self.EKIHMGBCMJI.clear();
-        self.EOENLEFMFBH.clear();
+        self.BCIIJGGJKHB.clear();
+        self.HJNAAMBAJME.clear();
+        self.PFJFFEFEBAN.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static SetRogueCollectionCsReq {
         static instance: SetRogueCollectionCsReq = SetRogueCollectionCsReq {
-            PDLMOGCFBHF: ::std::vec::Vec::new(),
-            EKIHMGBCMJI: ::std::vec::Vec::new(),
-            EOENLEFMFBH: ::std::vec::Vec::new(),
+            BCIIJGGJKHB: ::std::vec::Vec::new(),
+            HJNAAMBAJME: ::std::vec::Vec::new(),
+            PFJFFEFEBAN: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -180,11 +180,11 @@ impl ::protobuf::reflect::ProtobufValue for SetRogueCollectionCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1dSetRogueCollectionCsReq.proto\x1a\x11FPEDOFIGOIN.proto\"\x8d\x01\n\
-    \x17SetRogueCollectionCsReq\x12\x20\n\x0bPDLMOGCFBHF\x18\n\x20\x03(\rR\
-    \x0bPDLMOGCFBHF\x12\x20\n\x0bEKIHMGBCMJI\x18\x0e\x20\x03(\rR\x0bEKIHMGBC\
-    MJI\x12.\n\x0bEOENLEFMFBH\x18\x07\x20\x03(\x0e2\x0c.FPEDOFIGOINR\x0bEOEN\
-    LEFMFBHb\x06proto3\
+    \n\x1dSetRogueCollectionCsReq.proto\x1a\x11AGLNLHOBDKI.proto\"\x8d\x01\n\
+    \x17SetRogueCollectionCsReq\x12\x20\n\x0bBCIIJGGJKHB\x18\x0b\x20\x03(\rR\
+    \x0bBCIIJGGJKHB\x12\x20\n\x0bHJNAAMBAJME\x18\x01\x20\x03(\rR\x0bHJNAAMBA\
+    JME\x12.\n\x0bPFJFFEFEBAN\x18\x05\x20\x03(\x0e2\x0c.AGLNLHOBDKIR\x0bPFJF\
+    FEFEBANb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -202,7 +202,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::FPEDOFIGOIN::file_descriptor().clone());
+            deps.push(super::AGLNLHOBDKI::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(SetRogueCollectionCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

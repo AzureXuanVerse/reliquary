@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightHandBookRoleInfo {
     // message fields
-    // @@protoc_insertion_point(field:GridFightHandBookRoleInfo.CGMJMFHGGLF)
-    pub CGMJMFHGGLF: ::std::vec::Vec<u32>,
     // @@protoc_insertion_point(field:GridFightHandBookRoleInfo.grid_fight_avatar_list)
     pub grid_fight_avatar_list: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:GridFightHandBookRoleInfo.LCGHMJFAMEE)
+    pub LCGHMJFAMEE: ::std::vec::Vec<u32>,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightHandBookRoleInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl GridFightHandBookRoleInfo {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "CGMJMFHGGLF",
-            |m: &GridFightHandBookRoleInfo| { &m.CGMJMFHGGLF },
-            |m: &mut GridFightHandBookRoleInfo| { &mut m.CGMJMFHGGLF },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "grid_fight_avatar_list",
             |m: &GridFightHandBookRoleInfo| { &m.grid_fight_avatar_list },
             |m: &mut GridFightHandBookRoleInfo| { &mut m.grid_fight_avatar_list },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "LCGHMJFAMEE",
+            |m: &GridFightHandBookRoleInfo| { &m.LCGHMJFAMEE },
+            |m: &mut GridFightHandBookRoleInfo| { &mut m.LCGHMJFAMEE },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightHandBookRoleInfo>(
             "GridFightHandBookRoleInfo",
@@ -79,17 +79,17 @@ impl ::protobuf::Message for GridFightHandBookRoleInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                82 => {
-                    is.read_repeated_packed_uint32_into(&mut self.CGMJMFHGGLF)?;
-                },
-                80 => {
-                    self.CGMJMFHGGLF.push(is.read_uint32()?);
-                },
                 90 => {
                     is.read_repeated_packed_uint32_into(&mut self.grid_fight_avatar_list)?;
                 },
                 88 => {
                     self.grid_fight_avatar_list.push(is.read_uint32()?);
+                },
+                106 => {
+                    is.read_repeated_packed_uint32_into(&mut self.LCGHMJFAMEE)?;
+                },
+                104 => {
+                    self.LCGHMJFAMEE.push(is.read_uint32()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -103,16 +103,16 @@ impl ::protobuf::Message for GridFightHandBookRoleInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        my_size += ::protobuf::rt::vec_packed_uint32_size(10, &self.CGMJMFHGGLF);
         my_size += ::protobuf::rt::vec_packed_uint32_size(11, &self.grid_fight_avatar_list);
+        my_size += ::protobuf::rt::vec_packed_uint32_size(13, &self.LCGHMJFAMEE);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        os.write_repeated_packed_uint32(10, &self.CGMJMFHGGLF)?;
         os.write_repeated_packed_uint32(11, &self.grid_fight_avatar_list)?;
+        os.write_repeated_packed_uint32(13, &self.LCGHMJFAMEE)?;
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -130,15 +130,15 @@ impl ::protobuf::Message for GridFightHandBookRoleInfo {
     }
 
     fn clear(&mut self) {
-        self.CGMJMFHGGLF.clear();
         self.grid_fight_avatar_list.clear();
+        self.LCGHMJFAMEE.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightHandBookRoleInfo {
         static instance: GridFightHandBookRoleInfo = GridFightHandBookRoleInfo {
-            CGMJMFHGGLF: ::std::vec::Vec::new(),
             grid_fight_avatar_list: ::std::vec::Vec::new(),
+            LCGHMJFAMEE: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -164,8 +164,8 @@ impl ::protobuf::reflect::ProtobufValue for GridFightHandBookRoleInfo {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1fGridFightHandBookRoleInfo.proto\"r\n\x19GridFightHandBookRoleInfo\
-    \x12\x20\n\x0bCGMJMFHGGLF\x18\n\x20\x03(\rR\x0bCGMJMFHGGLF\x123\n\x16gri\
-    d_fight_avatar_list\x18\x0b\x20\x03(\rR\x13gridFightAvatarListb\x06proto\
+    \x123\n\x16grid_fight_avatar_list\x18\x0b\x20\x03(\rR\x13gridFightAvatar\
+    List\x12\x20\n\x0bLCGHMJFAMEE\x18\r\x20\x03(\rR\x0bLCGHMJFAMEEb\x06proto\
     3\
 ";
 

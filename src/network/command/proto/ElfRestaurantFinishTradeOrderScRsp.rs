@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ElfRestaurantFinishTradeOrderScRsp {
     // message fields
-    // @@protoc_insertion_point(field:ElfRestaurantFinishTradeOrderScRsp.LHLMNFEAKIB)
-    pub LHLMNFEAKIB: ::protobuf::MessageField<super::ItemList::ItemList>,
-    // @@protoc_insertion_point(field:ElfRestaurantFinishTradeOrderScRsp.MOJPLILBIFC)
-    pub MOJPLILBIFC: ::protobuf::MessageField<super::ItemCostData::ItemCostData>,
-    // @@protoc_insertion_point(field:ElfRestaurantFinishTradeOrderScRsp.IAJKNHOFNOB)
-    pub IAJKNHOFNOB: u32,
+    // @@protoc_insertion_point(field:ElfRestaurantFinishTradeOrderScRsp.KBEFKONPKGJ)
+    pub KBEFKONPKGJ: ::protobuf::MessageField<super::ItemCostData::ItemCostData>,
+    // @@protoc_insertion_point(field:ElfRestaurantFinishTradeOrderScRsp.IIMKIFDKJHO)
+    pub IIMKIFDKJHO: u32,
+    // @@protoc_insertion_point(field:ElfRestaurantFinishTradeOrderScRsp.PPMAFCBNAJF)
+    pub PPMAFCBNAJF: ::protobuf::MessageField<super::ItemList::ItemList>,
     // @@protoc_insertion_point(field:ElfRestaurantFinishTradeOrderScRsp.retcode)
     pub retcode: u32,
     // special fields
@@ -55,20 +55,20 @@ impl ElfRestaurantFinishTradeOrderScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(4);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemList::ItemList>(
-            "LHLMNFEAKIB",
-            |m: &ElfRestaurantFinishTradeOrderScRsp| { &m.LHLMNFEAKIB },
-            |m: &mut ElfRestaurantFinishTradeOrderScRsp| { &mut m.LHLMNFEAKIB },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemCostData::ItemCostData>(
-            "MOJPLILBIFC",
-            |m: &ElfRestaurantFinishTradeOrderScRsp| { &m.MOJPLILBIFC },
-            |m: &mut ElfRestaurantFinishTradeOrderScRsp| { &mut m.MOJPLILBIFC },
+            "KBEFKONPKGJ",
+            |m: &ElfRestaurantFinishTradeOrderScRsp| { &m.KBEFKONPKGJ },
+            |m: &mut ElfRestaurantFinishTradeOrderScRsp| { &mut m.KBEFKONPKGJ },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "IAJKNHOFNOB",
-            |m: &ElfRestaurantFinishTradeOrderScRsp| { &m.IAJKNHOFNOB },
-            |m: &mut ElfRestaurantFinishTradeOrderScRsp| { &mut m.IAJKNHOFNOB },
+            "IIMKIFDKJHO",
+            |m: &ElfRestaurantFinishTradeOrderScRsp| { &m.IIMKIFDKJHO },
+            |m: &mut ElfRestaurantFinishTradeOrderScRsp| { &mut m.IIMKIFDKJHO },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemList::ItemList>(
+            "PPMAFCBNAJF",
+            |m: &ElfRestaurantFinishTradeOrderScRsp| { &m.PPMAFCBNAJF },
+            |m: &mut ElfRestaurantFinishTradeOrderScRsp| { &mut m.PPMAFCBNAJF },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
@@ -93,16 +93,16 @@ impl ::protobuf::Message for ElfRestaurantFinishTradeOrderScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                34 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.LHLMNFEAKIB)?;
+                122 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.KBEFKONPKGJ)?;
                 },
-                114 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.MOJPLILBIFC)?;
+                16 => {
+                    self.IIMKIFDKJHO = is.read_uint32()?;
                 },
-                80 => {
-                    self.IAJKNHOFNOB = is.read_uint32()?;
+                42 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.PPMAFCBNAJF)?;
                 },
-                64 => {
+                72 => {
                     self.retcode = is.read_uint32()?;
                 },
                 tag => {
@@ -117,19 +117,19 @@ impl ::protobuf::Message for ElfRestaurantFinishTradeOrderScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.LHLMNFEAKIB.as_ref() {
+        if let Some(v) = self.KBEFKONPKGJ.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if let Some(v) = self.MOJPLILBIFC.as_ref() {
+        if self.IIMKIFDKJHO != 0 {
+            my_size += ::protobuf::rt::uint32_size(2, self.IIMKIFDKJHO);
+        }
+        if let Some(v) = self.PPMAFCBNAJF.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if self.IAJKNHOFNOB != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.IAJKNHOFNOB);
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(9, self.retcode);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -137,17 +137,17 @@ impl ::protobuf::Message for ElfRestaurantFinishTradeOrderScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.LHLMNFEAKIB.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
+        if let Some(v) = self.KBEFKONPKGJ.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
         }
-        if let Some(v) = self.MOJPLILBIFC.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
+        if self.IIMKIFDKJHO != 0 {
+            os.write_uint32(2, self.IIMKIFDKJHO)?;
         }
-        if self.IAJKNHOFNOB != 0 {
-            os.write_uint32(10, self.IAJKNHOFNOB)?;
+        if let Some(v) = self.PPMAFCBNAJF.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(8, self.retcode)?;
+            os.write_uint32(9, self.retcode)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -166,18 +166,18 @@ impl ::protobuf::Message for ElfRestaurantFinishTradeOrderScRsp {
     }
 
     fn clear(&mut self) {
-        self.LHLMNFEAKIB.clear();
-        self.MOJPLILBIFC.clear();
-        self.IAJKNHOFNOB = 0;
+        self.KBEFKONPKGJ.clear();
+        self.IIMKIFDKJHO = 0;
+        self.PPMAFCBNAJF.clear();
         self.retcode = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ElfRestaurantFinishTradeOrderScRsp {
         static instance: ElfRestaurantFinishTradeOrderScRsp = ElfRestaurantFinishTradeOrderScRsp {
-            LHLMNFEAKIB: ::protobuf::MessageField::none(),
-            MOJPLILBIFC: ::protobuf::MessageField::none(),
-            IAJKNHOFNOB: 0,
+            KBEFKONPKGJ: ::protobuf::MessageField::none(),
+            IIMKIFDKJHO: 0,
+            PPMAFCBNAJF: ::protobuf::MessageField::none(),
             retcode: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -205,10 +205,10 @@ impl ::protobuf::reflect::ProtobufValue for ElfRestaurantFinishTradeOrderScRsp {
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n(ElfRestaurantFinishTradeOrderScRsp.proto\x1a\x12ItemCostData.proto\
     \x1a\x0eItemList.proto\"\xbe\x01\n\"ElfRestaurantFinishTradeOrderScRsp\
-    \x12+\n\x0bLHLMNFEAKIB\x18\x04\x20\x01(\x0b2\t.ItemListR\x0bLHLMNFEAKIB\
-    \x12/\n\x0bMOJPLILBIFC\x18\x0e\x20\x01(\x0b2\r.ItemCostDataR\x0bMOJPLILB\
-    IFC\x12\x20\n\x0bIAJKNHOFNOB\x18\n\x20\x01(\rR\x0bIAJKNHOFNOB\x12\x18\n\
-    \x07retcode\x18\x08\x20\x01(\rR\x07retcodeb\x06proto3\
+    \x12/\n\x0bKBEFKONPKGJ\x18\x0f\x20\x01(\x0b2\r.ItemCostDataR\x0bKBEFKONP\
+    KGJ\x12\x20\n\x0bIIMKIFDKJHO\x18\x02\x20\x01(\rR\x0bIIMKIFDKJHO\x12+\n\
+    \x0bPPMAFCBNAJF\x18\x05\x20\x01(\x0b2\t.ItemListR\x0bPPMAFCBNAJF\x12\x18\
+    \n\x07retcode\x18\t\x20\x01(\rR\x07retcodeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

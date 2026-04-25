@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct MazeKillDirectCsReq {
     // message fields
-    // @@protoc_insertion_point(field:MazeKillDirectCsReq.EEFIHDHEBKJ)
-    pub EEFIHDHEBKJ: u32,
+    // @@protoc_insertion_point(field:MazeKillDirectCsReq.GJKGPDHNKHE)
+    pub GJKGPDHNKHE: u32,
     // @@protoc_insertion_point(field:MazeKillDirectCsReq.entity_list)
     pub entity_list: ::std::vec::Vec<u32>,
-    // @@protoc_insertion_point(field:MazeKillDirectCsReq.JKMAEIELMGM)
-    pub JKMAEIELMGM: ::protobuf::EnumOrUnknown<super::JIPGMFDBADH::JIPGMFDBADH>,
+    // @@protoc_insertion_point(field:MazeKillDirectCsReq.ALFHNEHOBJA)
+    pub ALFHNEHOBJA: ::protobuf::EnumOrUnknown<super::EBKOLHJIOFN::EBKOLHJIOFN>,
     // special fields
     // @@protoc_insertion_point(special_field:MazeKillDirectCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -54,9 +54,9 @@ impl MazeKillDirectCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "EEFIHDHEBKJ",
-            |m: &MazeKillDirectCsReq| { &m.EEFIHDHEBKJ },
-            |m: &mut MazeKillDirectCsReq| { &mut m.EEFIHDHEBKJ },
+            "GJKGPDHNKHE",
+            |m: &MazeKillDirectCsReq| { &m.GJKGPDHNKHE },
+            |m: &mut MazeKillDirectCsReq| { &mut m.GJKGPDHNKHE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "entity_list",
@@ -64,9 +64,9 @@ impl MazeKillDirectCsReq {
             |m: &mut MazeKillDirectCsReq| { &mut m.entity_list },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "JKMAEIELMGM",
-            |m: &MazeKillDirectCsReq| { &m.JKMAEIELMGM },
-            |m: &mut MazeKillDirectCsReq| { &mut m.JKMAEIELMGM },
+            "ALFHNEHOBJA",
+            |m: &MazeKillDirectCsReq| { &m.ALFHNEHOBJA },
+            |m: &mut MazeKillDirectCsReq| { &mut m.ALFHNEHOBJA },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<MazeKillDirectCsReq>(
             "MazeKillDirectCsReq",
@@ -86,17 +86,17 @@ impl ::protobuf::Message for MazeKillDirectCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                96 => {
-                    self.EEFIHDHEBKJ = is.read_uint32()?;
+                64 => {
+                    self.GJKGPDHNKHE = is.read_uint32()?;
                 },
-                58 => {
+                34 => {
                     is.read_repeated_packed_uint32_into(&mut self.entity_list)?;
                 },
-                56 => {
+                32 => {
                     self.entity_list.push(is.read_uint32()?);
                 },
-                48 => {
-                    self.JKMAEIELMGM = is.read_enum_or_unknown()?;
+                72 => {
+                    self.ALFHNEHOBJA = is.read_enum_or_unknown()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -110,12 +110,12 @@ impl ::protobuf::Message for MazeKillDirectCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.EEFIHDHEBKJ != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.EEFIHDHEBKJ);
+        if self.GJKGPDHNKHE != 0 {
+            my_size += ::protobuf::rt::uint32_size(8, self.GJKGPDHNKHE);
         }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(7, &self.entity_list);
-        if self.JKMAEIELMGM != ::protobuf::EnumOrUnknown::new(super::JIPGMFDBADH::JIPGMFDBADH::JIPGMFDBADH_NMIBFHJPEIL) {
-            my_size += ::protobuf::rt::int32_size(6, self.JKMAEIELMGM.value());
+        my_size += ::protobuf::rt::vec_packed_uint32_size(4, &self.entity_list);
+        if self.ALFHNEHOBJA != ::protobuf::EnumOrUnknown::new(super::EBKOLHJIOFN::EBKOLHJIOFN::EBKOLHJIOFN_BFLAAJPJIEA) {
+            my_size += ::protobuf::rt::int32_size(9, self.ALFHNEHOBJA.value());
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -123,12 +123,12 @@ impl ::protobuf::Message for MazeKillDirectCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.EEFIHDHEBKJ != 0 {
-            os.write_uint32(12, self.EEFIHDHEBKJ)?;
+        if self.GJKGPDHNKHE != 0 {
+            os.write_uint32(8, self.GJKGPDHNKHE)?;
         }
-        os.write_repeated_packed_uint32(7, &self.entity_list)?;
-        if self.JKMAEIELMGM != ::protobuf::EnumOrUnknown::new(super::JIPGMFDBADH::JIPGMFDBADH::JIPGMFDBADH_NMIBFHJPEIL) {
-            os.write_enum(6, ::protobuf::EnumOrUnknown::value(&self.JKMAEIELMGM))?;
+        os.write_repeated_packed_uint32(4, &self.entity_list)?;
+        if self.ALFHNEHOBJA != ::protobuf::EnumOrUnknown::new(super::EBKOLHJIOFN::EBKOLHJIOFN::EBKOLHJIOFN_BFLAAJPJIEA) {
+            os.write_enum(9, ::protobuf::EnumOrUnknown::value(&self.ALFHNEHOBJA))?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -147,17 +147,17 @@ impl ::protobuf::Message for MazeKillDirectCsReq {
     }
 
     fn clear(&mut self) {
-        self.EEFIHDHEBKJ = 0;
+        self.GJKGPDHNKHE = 0;
         self.entity_list.clear();
-        self.JKMAEIELMGM = ::protobuf::EnumOrUnknown::new(super::JIPGMFDBADH::JIPGMFDBADH::JIPGMFDBADH_NMIBFHJPEIL);
+        self.ALFHNEHOBJA = ::protobuf::EnumOrUnknown::new(super::EBKOLHJIOFN::EBKOLHJIOFN::EBKOLHJIOFN_BFLAAJPJIEA);
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static MazeKillDirectCsReq {
         static instance: MazeKillDirectCsReq = MazeKillDirectCsReq {
-            EEFIHDHEBKJ: 0,
+            GJKGPDHNKHE: 0,
             entity_list: ::std::vec::Vec::new(),
-            JKMAEIELMGM: ::protobuf::EnumOrUnknown::from_i32(0),
+            ALFHNEHOBJA: ::protobuf::EnumOrUnknown::from_i32(0),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -182,11 +182,11 @@ impl ::protobuf::reflect::ProtobufValue for MazeKillDirectCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x19MazeKillDirectCsReq.proto\x1a\x11JIPGMFDBADH.proto\"\x88\x01\n\x13\
-    MazeKillDirectCsReq\x12\x20\n\x0bEEFIHDHEBKJ\x18\x0c\x20\x01(\rR\x0bEEFI\
-    HDHEBKJ\x12\x1f\n\x0bentity_list\x18\x07\x20\x03(\rR\nentityList\x12.\n\
-    \x0bJKMAEIELMGM\x18\x06\x20\x01(\x0e2\x0c.JIPGMFDBADHR\x0bJKMAEIELMGMb\
-    \x06proto3\
+    \n\x19MazeKillDirectCsReq.proto\x1a\x11EBKOLHJIOFN.proto\"\x88\x01\n\x13\
+    MazeKillDirectCsReq\x12\x20\n\x0bGJKGPDHNKHE\x18\x08\x20\x01(\rR\x0bGJKG\
+    PDHNKHE\x12\x1f\n\x0bentity_list\x18\x04\x20\x03(\rR\nentityList\x12.\n\
+    \x0bALFHNEHOBJA\x18\t\x20\x01(\x0e2\x0c.EBKOLHJIOFNR\x0bALFHNEHOBJAb\x06\
+    proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -204,7 +204,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::JIPGMFDBADH::file_descriptor().clone());
+            deps.push(super::EBKOLHJIOFN::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(MazeKillDirectCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

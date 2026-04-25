@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct MusicRhythmStartLevelScRsp {
     // message fields
-    // @@protoc_insertion_point(field:MusicRhythmStartLevelScRsp.level_id)
-    pub level_id: u32,
+    // @@protoc_insertion_point(field:MusicRhythmStartLevelScRsp.MDILDJMPNGH)
+    pub MDILDJMPNGH: ::std::string::String,
     // @@protoc_insertion_point(field:MusicRhythmStartLevelScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:MusicRhythmStartLevelScRsp.LNKEPHDAOBB)
-    pub LNKEPHDAOBB: ::std::string::String,
+    // @@protoc_insertion_point(field:MusicRhythmStartLevelScRsp.level_id)
+    pub level_id: u32,
     // special fields
     // @@protoc_insertion_point(special_field:MusicRhythmStartLevelScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -54,9 +54,9 @@ impl MusicRhythmStartLevelScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "level_id",
-            |m: &MusicRhythmStartLevelScRsp| { &m.level_id },
-            |m: &mut MusicRhythmStartLevelScRsp| { &mut m.level_id },
+            "MDILDJMPNGH",
+            |m: &MusicRhythmStartLevelScRsp| { &m.MDILDJMPNGH },
+            |m: &mut MusicRhythmStartLevelScRsp| { &mut m.MDILDJMPNGH },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
@@ -64,9 +64,9 @@ impl MusicRhythmStartLevelScRsp {
             |m: &mut MusicRhythmStartLevelScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "LNKEPHDAOBB",
-            |m: &MusicRhythmStartLevelScRsp| { &m.LNKEPHDAOBB },
-            |m: &mut MusicRhythmStartLevelScRsp| { &mut m.LNKEPHDAOBB },
+            "level_id",
+            |m: &MusicRhythmStartLevelScRsp| { &m.level_id },
+            |m: &mut MusicRhythmStartLevelScRsp| { &mut m.level_id },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<MusicRhythmStartLevelScRsp>(
             "MusicRhythmStartLevelScRsp",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for MusicRhythmStartLevelScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                64 => {
-                    self.level_id = is.read_uint32()?;
+                66 => {
+                    self.MDILDJMPNGH = is.read_string()?;
                 },
-                88 => {
+                48 => {
                     self.retcode = is.read_uint32()?;
                 },
-                50 => {
-                    self.LNKEPHDAOBB = is.read_string()?;
+                16 => {
+                    self.level_id = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -107,14 +107,14 @@ impl ::protobuf::Message for MusicRhythmStartLevelScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.level_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.level_id);
+        if !self.MDILDJMPNGH.is_empty() {
+            my_size += ::protobuf::rt::string_size(8, &self.MDILDJMPNGH);
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(6, self.retcode);
         }
-        if !self.LNKEPHDAOBB.is_empty() {
-            my_size += ::protobuf::rt::string_size(6, &self.LNKEPHDAOBB);
+        if self.level_id != 0 {
+            my_size += ::protobuf::rt::uint32_size(2, self.level_id);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -122,14 +122,14 @@ impl ::protobuf::Message for MusicRhythmStartLevelScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.level_id != 0 {
-            os.write_uint32(8, self.level_id)?;
+        if !self.MDILDJMPNGH.is_empty() {
+            os.write_string(8, &self.MDILDJMPNGH)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(11, self.retcode)?;
+            os.write_uint32(6, self.retcode)?;
         }
-        if !self.LNKEPHDAOBB.is_empty() {
-            os.write_string(6, &self.LNKEPHDAOBB)?;
+        if self.level_id != 0 {
+            os.write_uint32(2, self.level_id)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -148,17 +148,17 @@ impl ::protobuf::Message for MusicRhythmStartLevelScRsp {
     }
 
     fn clear(&mut self) {
-        self.level_id = 0;
+        self.MDILDJMPNGH.clear();
         self.retcode = 0;
-        self.LNKEPHDAOBB.clear();
+        self.level_id = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static MusicRhythmStartLevelScRsp {
         static instance: MusicRhythmStartLevelScRsp = MusicRhythmStartLevelScRsp {
-            level_id: 0,
+            MDILDJMPNGH: ::std::string::String::new(),
             retcode: 0,
-            LNKEPHDAOBB: ::std::string::String::new(),
+            level_id: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -184,9 +184,9 @@ impl ::protobuf::reflect::ProtobufValue for MusicRhythmStartLevelScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x20MusicRhythmStartLevelScRsp.proto\"s\n\x1aMusicRhythmStartLevelScRs\
-    p\x12\x19\n\x08level_id\x18\x08\x20\x01(\rR\x07levelId\x12\x18\n\x07retc\
-    ode\x18\x0b\x20\x01(\rR\x07retcode\x12\x20\n\x0bLNKEPHDAOBB\x18\x06\x20\
-    \x01(\tR\x0bLNKEPHDAOBBb\x06proto3\
+    p\x12\x20\n\x0bMDILDJMPNGH\x18\x08\x20\x01(\tR\x0bMDILDJMPNGH\x12\x18\n\
+    \x07retcode\x18\x06\x20\x01(\rR\x07retcode\x12\x19\n\x08level_id\x18\x02\
+    \x20\x01(\rR\x07levelIdb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

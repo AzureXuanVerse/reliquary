@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct AetherDivideTainerInfoScNotify {
     // message fields
-    // @@protoc_insertion_point(field:AetherDivideTainerInfoScNotify.BJDGMMPABFI)
-    pub BJDGMMPABFI: u32,
+    // @@protoc_insertion_point(field:AetherDivideTainerInfoScNotify.CFCFCEBNAEF)
+    pub CFCFCEBNAEF: u32,
     // special fields
     // @@protoc_insertion_point(special_field:AetherDivideTainerInfoScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl AetherDivideTainerInfoScNotify {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BJDGMMPABFI",
-            |m: &AetherDivideTainerInfoScNotify| { &m.BJDGMMPABFI },
-            |m: &mut AetherDivideTainerInfoScNotify| { &mut m.BJDGMMPABFI },
+            "CFCFCEBNAEF",
+            |m: &AetherDivideTainerInfoScNotify| { &m.CFCFCEBNAEF },
+            |m: &mut AetherDivideTainerInfoScNotify| { &mut m.CFCFCEBNAEF },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<AetherDivideTainerInfoScNotify>(
             "AetherDivideTainerInfoScNotify",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for AetherDivideTainerInfoScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                64 => {
-                    self.BJDGMMPABFI = is.read_uint32()?;
+                96 => {
+                    self.CFCFCEBNAEF = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,8 +87,8 @@ impl ::protobuf::Message for AetherDivideTainerInfoScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.BJDGMMPABFI != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.BJDGMMPABFI);
+        if self.CFCFCEBNAEF != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.CFCFCEBNAEF);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -96,8 +96,8 @@ impl ::protobuf::Message for AetherDivideTainerInfoScNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.BJDGMMPABFI != 0 {
-            os.write_uint32(8, self.BJDGMMPABFI)?;
+        if self.CFCFCEBNAEF != 0 {
+            os.write_uint32(12, self.CFCFCEBNAEF)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -116,13 +116,13 @@ impl ::protobuf::Message for AetherDivideTainerInfoScNotify {
     }
 
     fn clear(&mut self) {
-        self.BJDGMMPABFI = 0;
+        self.CFCFCEBNAEF = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static AetherDivideTainerInfoScNotify {
         static instance: AetherDivideTainerInfoScNotify = AetherDivideTainerInfoScNotify {
-            BJDGMMPABFI: 0,
+            CFCFCEBNAEF: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -148,7 +148,7 @@ impl ::protobuf::reflect::ProtobufValue for AetherDivideTainerInfoScNotify {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n$AetherDivideTainerInfoScNotify.proto\"B\n\x1eAetherDivideTainerInfoSc\
-    Notify\x12\x20\n\x0bBJDGMMPABFI\x18\x08\x20\x01(\rR\x0bBJDGMMPABFIb\x06p\
+    Notify\x12\x20\n\x0bCFCFCEBNAEF\x18\x0c\x20\x01(\rR\x0bCFCFCEBNAEFb\x06p\
     roto3\
 ";
 

@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ChenLingUseHandCardCsReq {
     // message fields
-    // @@protoc_insertion_point(field:ChenLingUseHandCardCsReq.CPLFONLPEMM)
-    pub CPLFONLPEMM: u32,
-    // @@protoc_insertion_point(field:ChenLingUseHandCardCsReq.JEONKLKOCIM)
-    pub JEONKLKOCIM: ::protobuf::MessageField<super::KNNPOMIFGLJ::KNNPOMIFGLJ>,
+    // @@protoc_insertion_point(field:ChenLingUseHandCardCsReq.GDFPBHMMFEA)
+    pub GDFPBHMMFEA: u32,
+    // @@protoc_insertion_point(field:ChenLingUseHandCardCsReq.JDPHGEJLPPH)
+    pub JDPHGEJLPPH: ::protobuf::MessageField<super::FDOEMKPGHFL::FDOEMKPGHFL>,
     // special fields
     // @@protoc_insertion_point(special_field:ChenLingUseHandCardCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl ChenLingUseHandCardCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "CPLFONLPEMM",
-            |m: &ChenLingUseHandCardCsReq| { &m.CPLFONLPEMM },
-            |m: &mut ChenLingUseHandCardCsReq| { &mut m.CPLFONLPEMM },
+            "GDFPBHMMFEA",
+            |m: &ChenLingUseHandCardCsReq| { &m.GDFPBHMMFEA },
+            |m: &mut ChenLingUseHandCardCsReq| { &mut m.GDFPBHMMFEA },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::KNNPOMIFGLJ::KNNPOMIFGLJ>(
-            "JEONKLKOCIM",
-            |m: &ChenLingUseHandCardCsReq| { &m.JEONKLKOCIM },
-            |m: &mut ChenLingUseHandCardCsReq| { &mut m.JEONKLKOCIM },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::FDOEMKPGHFL::FDOEMKPGHFL>(
+            "JDPHGEJLPPH",
+            |m: &ChenLingUseHandCardCsReq| { &m.JDPHGEJLPPH },
+            |m: &mut ChenLingUseHandCardCsReq| { &mut m.JDPHGEJLPPH },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ChenLingUseHandCardCsReq>(
             "ChenLingUseHandCardCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for ChenLingUseHandCardCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                8 => {
-                    self.CPLFONLPEMM = is.read_uint32()?;
+                120 => {
+                    self.GDFPBHMMFEA = is.read_uint32()?;
                 },
-                58 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.JEONKLKOCIM)?;
+                18 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.JDPHGEJLPPH)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,10 +97,10 @@ impl ::protobuf::Message for ChenLingUseHandCardCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.CPLFONLPEMM != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.CPLFONLPEMM);
+        if self.GDFPBHMMFEA != 0 {
+            my_size += ::protobuf::rt::uint32_size(15, self.GDFPBHMMFEA);
         }
-        if let Some(v) = self.JEONKLKOCIM.as_ref() {
+        if let Some(v) = self.JDPHGEJLPPH.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -110,11 +110,11 @@ impl ::protobuf::Message for ChenLingUseHandCardCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.CPLFONLPEMM != 0 {
-            os.write_uint32(1, self.CPLFONLPEMM)?;
+        if self.GDFPBHMMFEA != 0 {
+            os.write_uint32(15, self.GDFPBHMMFEA)?;
         }
-        if let Some(v) = self.JEONKLKOCIM.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
+        if let Some(v) = self.JDPHGEJLPPH.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -133,15 +133,15 @@ impl ::protobuf::Message for ChenLingUseHandCardCsReq {
     }
 
     fn clear(&mut self) {
-        self.CPLFONLPEMM = 0;
-        self.JEONKLKOCIM.clear();
+        self.GDFPBHMMFEA = 0;
+        self.JDPHGEJLPPH.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ChenLingUseHandCardCsReq {
         static instance: ChenLingUseHandCardCsReq = ChenLingUseHandCardCsReq {
-            CPLFONLPEMM: 0,
-            JEONKLKOCIM: ::protobuf::MessageField::none(),
+            GDFPBHMMFEA: 0,
+            JDPHGEJLPPH: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,10 +166,10 @@ impl ::protobuf::reflect::ProtobufValue for ChenLingUseHandCardCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1eChenLingUseHandCardCsReq.proto\x1a\x11KNNPOMIFGLJ.proto\"l\n\x18Ch\
-    enLingUseHandCardCsReq\x12\x20\n\x0bCPLFONLPEMM\x18\x01\x20\x01(\rR\x0bC\
-    PLFONLPEMM\x12.\n\x0bJEONKLKOCIM\x18\x07\x20\x01(\x0b2\x0c.KNNPOMIFGLJR\
-    \x0bJEONKLKOCIMb\x06proto3\
+    \n\x1eChenLingUseHandCardCsReq.proto\x1a\x11FDOEMKPGHFL.proto\"l\n\x18Ch\
+    enLingUseHandCardCsReq\x12\x20\n\x0bGDFPBHMMFEA\x18\x0f\x20\x01(\rR\x0bG\
+    DFPBHMMFEA\x12.\n\x0bJDPHGEJLPPH\x18\x02\x20\x01(\x0b2\x0c.FDOEMKPGHFLR\
+    \x0bJDPHGEJLPPHb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -187,7 +187,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::KNNPOMIFGLJ::file_descriptor().clone());
+            deps.push(super::FDOEMKPGHFL::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(ChenLingUseHandCardCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

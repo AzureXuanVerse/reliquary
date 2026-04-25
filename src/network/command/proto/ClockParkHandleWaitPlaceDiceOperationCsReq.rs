@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ClockParkHandleWaitPlaceDiceOperationCsReq {
     // message fields
+    // @@protoc_insertion_point(field:ClockParkHandleWaitPlaceDiceOperationCsReq.NNFAMOJAHCH)
+    pub NNFAMOJAHCH: u32,
     // @@protoc_insertion_point(field:ClockParkHandleWaitPlaceDiceOperationCsReq.script_id)
     pub script_id: u32,
-    // @@protoc_insertion_point(field:ClockParkHandleWaitPlaceDiceOperationCsReq.MNLGFJMFFCF)
-    pub MNLGFJMFFCF: u32,
     // message oneof groups
-    pub DOPBLDOIEAN: ::std::option::Option<clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN>,
+    pub ENMNAMOIEEP: ::std::option::Option<clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP>,
     // special fields
     // @@protoc_insertion_point(special_field:ClockParkHandleWaitPlaceDiceOperationCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,443 +50,443 @@ impl ClockParkHandleWaitPlaceDiceOperationCsReq {
         ::std::default::Default::default()
     }
 
-    // .GHLKINAJHGJ FDPEOCFMMDJ = 9;
+    // .INLBCJHIPCI IKOMEFMEKMC = 3;
 
-    pub fn FDPEOCFMMDJ(&self) -> &super::GHLKINAJHGJ::GHLKINAJHGJ {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::FDPEOCFMMDJ(ref v)) => v,
-            _ => <super::GHLKINAJHGJ::GHLKINAJHGJ as ::protobuf::Message>::default_instance(),
+    pub fn IKOMEFMEKMC(&self) -> &super::INLBCJHIPCI::INLBCJHIPCI {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::IKOMEFMEKMC(ref v)) => v,
+            _ => <super::INLBCJHIPCI::INLBCJHIPCI as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_FDPEOCFMMDJ(&mut self) {
-        self.DOPBLDOIEAN = ::std::option::Option::None;
+    pub fn clear_IKOMEFMEKMC(&mut self) {
+        self.ENMNAMOIEEP = ::std::option::Option::None;
     }
 
-    pub fn has_FDPEOCFMMDJ(&self) -> bool {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::FDPEOCFMMDJ(..)) => true,
+    pub fn has_IKOMEFMEKMC(&self) -> bool {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::IKOMEFMEKMC(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_FDPEOCFMMDJ(&mut self, v: super::GHLKINAJHGJ::GHLKINAJHGJ) {
-        self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::FDPEOCFMMDJ(v))
+    pub fn set_IKOMEFMEKMC(&mut self, v: super::INLBCJHIPCI::INLBCJHIPCI) {
+        self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::IKOMEFMEKMC(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_FDPEOCFMMDJ(&mut self) -> &mut super::GHLKINAJHGJ::GHLKINAJHGJ {
-        if let ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::FDPEOCFMMDJ(_)) = self.DOPBLDOIEAN {
+    pub fn mut_IKOMEFMEKMC(&mut self) -> &mut super::INLBCJHIPCI::INLBCJHIPCI {
+        if let ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::IKOMEFMEKMC(_)) = self.ENMNAMOIEEP {
         } else {
-            self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::FDPEOCFMMDJ(super::GHLKINAJHGJ::GHLKINAJHGJ::new()));
+            self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::IKOMEFMEKMC(super::INLBCJHIPCI::INLBCJHIPCI::new()));
         }
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::FDPEOCFMMDJ(ref mut v)) => v,
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::IKOMEFMEKMC(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_FDPEOCFMMDJ(&mut self) -> super::GHLKINAJHGJ::GHLKINAJHGJ {
-        if self.has_FDPEOCFMMDJ() {
-            match self.DOPBLDOIEAN.take() {
-                ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::FDPEOCFMMDJ(v)) => v,
+    pub fn take_IKOMEFMEKMC(&mut self) -> super::INLBCJHIPCI::INLBCJHIPCI {
+        if self.has_IKOMEFMEKMC() {
+            match self.ENMNAMOIEEP.take() {
+                ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::IKOMEFMEKMC(v)) => v,
                 _ => panic!(),
             }
         } else {
-            super::GHLKINAJHGJ::GHLKINAJHGJ::new()
+            super::INLBCJHIPCI::INLBCJHIPCI::new()
         }
     }
 
-    // .GNABBNJLLOK JNAOFGCLBPP = 15;
+    // .MBLOIHLJGML GNMMEFKMHHD = 4;
 
-    pub fn JNAOFGCLBPP(&self) -> &super::GNABBNJLLOK::GNABBNJLLOK {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::JNAOFGCLBPP(ref v)) => v,
-            _ => <super::GNABBNJLLOK::GNABBNJLLOK as ::protobuf::Message>::default_instance(),
+    pub fn GNMMEFKMHHD(&self) -> &super::MBLOIHLJGML::MBLOIHLJGML {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::GNMMEFKMHHD(ref v)) => v,
+            _ => <super::MBLOIHLJGML::MBLOIHLJGML as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_JNAOFGCLBPP(&mut self) {
-        self.DOPBLDOIEAN = ::std::option::Option::None;
+    pub fn clear_GNMMEFKMHHD(&mut self) {
+        self.ENMNAMOIEEP = ::std::option::Option::None;
     }
 
-    pub fn has_JNAOFGCLBPP(&self) -> bool {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::JNAOFGCLBPP(..)) => true,
+    pub fn has_GNMMEFKMHHD(&self) -> bool {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::GNMMEFKMHHD(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_JNAOFGCLBPP(&mut self, v: super::GNABBNJLLOK::GNABBNJLLOK) {
-        self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::JNAOFGCLBPP(v))
+    pub fn set_GNMMEFKMHHD(&mut self, v: super::MBLOIHLJGML::MBLOIHLJGML) {
+        self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::GNMMEFKMHHD(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_JNAOFGCLBPP(&mut self) -> &mut super::GNABBNJLLOK::GNABBNJLLOK {
-        if let ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::JNAOFGCLBPP(_)) = self.DOPBLDOIEAN {
+    pub fn mut_GNMMEFKMHHD(&mut self) -> &mut super::MBLOIHLJGML::MBLOIHLJGML {
+        if let ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::GNMMEFKMHHD(_)) = self.ENMNAMOIEEP {
         } else {
-            self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::JNAOFGCLBPP(super::GNABBNJLLOK::GNABBNJLLOK::new()));
+            self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::GNMMEFKMHHD(super::MBLOIHLJGML::MBLOIHLJGML::new()));
         }
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::JNAOFGCLBPP(ref mut v)) => v,
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::GNMMEFKMHHD(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_JNAOFGCLBPP(&mut self) -> super::GNABBNJLLOK::GNABBNJLLOK {
-        if self.has_JNAOFGCLBPP() {
-            match self.DOPBLDOIEAN.take() {
-                ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::JNAOFGCLBPP(v)) => v,
+    pub fn take_GNMMEFKMHHD(&mut self) -> super::MBLOIHLJGML::MBLOIHLJGML {
+        if self.has_GNMMEFKMHHD() {
+            match self.ENMNAMOIEEP.take() {
+                ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::GNMMEFKMHHD(v)) => v,
                 _ => panic!(),
             }
         } else {
-            super::GNABBNJLLOK::GNABBNJLLOK::new()
+            super::MBLOIHLJGML::MBLOIHLJGML::new()
         }
     }
 
-    // .OKCFFJGEABE PCDKMADHKFN = 3;
+    // .EPJMBDHODLE KILGAJCFIME = 2;
 
-    pub fn PCDKMADHKFN(&self) -> &super::OKCFFJGEABE::OKCFFJGEABE {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PCDKMADHKFN(ref v)) => v,
-            _ => <super::OKCFFJGEABE::OKCFFJGEABE as ::protobuf::Message>::default_instance(),
+    pub fn KILGAJCFIME(&self) -> &super::EPJMBDHODLE::EPJMBDHODLE {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::KILGAJCFIME(ref v)) => v,
+            _ => <super::EPJMBDHODLE::EPJMBDHODLE as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_PCDKMADHKFN(&mut self) {
-        self.DOPBLDOIEAN = ::std::option::Option::None;
+    pub fn clear_KILGAJCFIME(&mut self) {
+        self.ENMNAMOIEEP = ::std::option::Option::None;
     }
 
-    pub fn has_PCDKMADHKFN(&self) -> bool {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PCDKMADHKFN(..)) => true,
+    pub fn has_KILGAJCFIME(&self) -> bool {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::KILGAJCFIME(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_PCDKMADHKFN(&mut self, v: super::OKCFFJGEABE::OKCFFJGEABE) {
-        self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PCDKMADHKFN(v))
+    pub fn set_KILGAJCFIME(&mut self, v: super::EPJMBDHODLE::EPJMBDHODLE) {
+        self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::KILGAJCFIME(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_PCDKMADHKFN(&mut self) -> &mut super::OKCFFJGEABE::OKCFFJGEABE {
-        if let ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PCDKMADHKFN(_)) = self.DOPBLDOIEAN {
+    pub fn mut_KILGAJCFIME(&mut self) -> &mut super::EPJMBDHODLE::EPJMBDHODLE {
+        if let ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::KILGAJCFIME(_)) = self.ENMNAMOIEEP {
         } else {
-            self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PCDKMADHKFN(super::OKCFFJGEABE::OKCFFJGEABE::new()));
+            self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::KILGAJCFIME(super::EPJMBDHODLE::EPJMBDHODLE::new()));
         }
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PCDKMADHKFN(ref mut v)) => v,
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::KILGAJCFIME(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_PCDKMADHKFN(&mut self) -> super::OKCFFJGEABE::OKCFFJGEABE {
-        if self.has_PCDKMADHKFN() {
-            match self.DOPBLDOIEAN.take() {
-                ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PCDKMADHKFN(v)) => v,
+    pub fn take_KILGAJCFIME(&mut self) -> super::EPJMBDHODLE::EPJMBDHODLE {
+        if self.has_KILGAJCFIME() {
+            match self.ENMNAMOIEEP.take() {
+                ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::KILGAJCFIME(v)) => v,
                 _ => panic!(),
             }
         } else {
-            super::OKCFFJGEABE::OKCFFJGEABE::new()
+            super::EPJMBDHODLE::EPJMBDHODLE::new()
         }
     }
 
-    // .AMKHNNJBJHK DLEDKGFEMKB = 8;
+    // .HADCALJHOFI HBPAIJHIGOL = 6;
 
-    pub fn DLEDKGFEMKB(&self) -> &super::AMKHNNJBJHK::AMKHNNJBJHK {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::DLEDKGFEMKB(ref v)) => v,
-            _ => <super::AMKHNNJBJHK::AMKHNNJBJHK as ::protobuf::Message>::default_instance(),
+    pub fn HBPAIJHIGOL(&self) -> &super::HADCALJHOFI::HADCALJHOFI {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HBPAIJHIGOL(ref v)) => v,
+            _ => <super::HADCALJHOFI::HADCALJHOFI as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_DLEDKGFEMKB(&mut self) {
-        self.DOPBLDOIEAN = ::std::option::Option::None;
+    pub fn clear_HBPAIJHIGOL(&mut self) {
+        self.ENMNAMOIEEP = ::std::option::Option::None;
     }
 
-    pub fn has_DLEDKGFEMKB(&self) -> bool {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::DLEDKGFEMKB(..)) => true,
+    pub fn has_HBPAIJHIGOL(&self) -> bool {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HBPAIJHIGOL(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_DLEDKGFEMKB(&mut self, v: super::AMKHNNJBJHK::AMKHNNJBJHK) {
-        self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::DLEDKGFEMKB(v))
+    pub fn set_HBPAIJHIGOL(&mut self, v: super::HADCALJHOFI::HADCALJHOFI) {
+        self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HBPAIJHIGOL(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_DLEDKGFEMKB(&mut self) -> &mut super::AMKHNNJBJHK::AMKHNNJBJHK {
-        if let ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::DLEDKGFEMKB(_)) = self.DOPBLDOIEAN {
+    pub fn mut_HBPAIJHIGOL(&mut self) -> &mut super::HADCALJHOFI::HADCALJHOFI {
+        if let ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HBPAIJHIGOL(_)) = self.ENMNAMOIEEP {
         } else {
-            self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::DLEDKGFEMKB(super::AMKHNNJBJHK::AMKHNNJBJHK::new()));
+            self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HBPAIJHIGOL(super::HADCALJHOFI::HADCALJHOFI::new()));
         }
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::DLEDKGFEMKB(ref mut v)) => v,
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HBPAIJHIGOL(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_DLEDKGFEMKB(&mut self) -> super::AMKHNNJBJHK::AMKHNNJBJHK {
-        if self.has_DLEDKGFEMKB() {
-            match self.DOPBLDOIEAN.take() {
-                ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::DLEDKGFEMKB(v)) => v,
+    pub fn take_HBPAIJHIGOL(&mut self) -> super::HADCALJHOFI::HADCALJHOFI {
+        if self.has_HBPAIJHIGOL() {
+            match self.ENMNAMOIEEP.take() {
+                ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HBPAIJHIGOL(v)) => v,
                 _ => panic!(),
             }
         } else {
-            super::AMKHNNJBJHK::AMKHNNJBJHK::new()
+            super::HADCALJHOFI::HADCALJHOFI::new()
         }
     }
 
-    // .GFKCHHBKDEE LHAMJIIJCGG = 4;
+    // .BBOCLMGMNEB DGANABKPHAI = 8;
 
-    pub fn LHAMJIIJCGG(&self) -> &super::GFKCHHBKDEE::GFKCHHBKDEE {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::LHAMJIIJCGG(ref v)) => v,
-            _ => <super::GFKCHHBKDEE::GFKCHHBKDEE as ::protobuf::Message>::default_instance(),
+    pub fn DGANABKPHAI(&self) -> &super::BBOCLMGMNEB::BBOCLMGMNEB {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::DGANABKPHAI(ref v)) => v,
+            _ => <super::BBOCLMGMNEB::BBOCLMGMNEB as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_LHAMJIIJCGG(&mut self) {
-        self.DOPBLDOIEAN = ::std::option::Option::None;
+    pub fn clear_DGANABKPHAI(&mut self) {
+        self.ENMNAMOIEEP = ::std::option::Option::None;
     }
 
-    pub fn has_LHAMJIIJCGG(&self) -> bool {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::LHAMJIIJCGG(..)) => true,
+    pub fn has_DGANABKPHAI(&self) -> bool {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::DGANABKPHAI(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_LHAMJIIJCGG(&mut self, v: super::GFKCHHBKDEE::GFKCHHBKDEE) {
-        self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::LHAMJIIJCGG(v))
+    pub fn set_DGANABKPHAI(&mut self, v: super::BBOCLMGMNEB::BBOCLMGMNEB) {
+        self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::DGANABKPHAI(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_LHAMJIIJCGG(&mut self) -> &mut super::GFKCHHBKDEE::GFKCHHBKDEE {
-        if let ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::LHAMJIIJCGG(_)) = self.DOPBLDOIEAN {
+    pub fn mut_DGANABKPHAI(&mut self) -> &mut super::BBOCLMGMNEB::BBOCLMGMNEB {
+        if let ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::DGANABKPHAI(_)) = self.ENMNAMOIEEP {
         } else {
-            self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::LHAMJIIJCGG(super::GFKCHHBKDEE::GFKCHHBKDEE::new()));
+            self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::DGANABKPHAI(super::BBOCLMGMNEB::BBOCLMGMNEB::new()));
         }
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::LHAMJIIJCGG(ref mut v)) => v,
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::DGANABKPHAI(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_LHAMJIIJCGG(&mut self) -> super::GFKCHHBKDEE::GFKCHHBKDEE {
-        if self.has_LHAMJIIJCGG() {
-            match self.DOPBLDOIEAN.take() {
-                ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::LHAMJIIJCGG(v)) => v,
+    pub fn take_DGANABKPHAI(&mut self) -> super::BBOCLMGMNEB::BBOCLMGMNEB {
+        if self.has_DGANABKPHAI() {
+            match self.ENMNAMOIEEP.take() {
+                ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::DGANABKPHAI(v)) => v,
                 _ => panic!(),
             }
         } else {
-            super::GFKCHHBKDEE::GFKCHHBKDEE::new()
+            super::BBOCLMGMNEB::BBOCLMGMNEB::new()
         }
     }
 
-    // .MGBLCELKAKF ALKIHCMPCLM = 11;
+    // .POPPEFJIAJC HJAPLMGAMCO = 14;
 
-    pub fn ALKIHCMPCLM(&self) -> &super::MGBLCELKAKF::MGBLCELKAKF {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::ALKIHCMPCLM(ref v)) => v,
-            _ => <super::MGBLCELKAKF::MGBLCELKAKF as ::protobuf::Message>::default_instance(),
+    pub fn HJAPLMGAMCO(&self) -> &super::POPPEFJIAJC::POPPEFJIAJC {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HJAPLMGAMCO(ref v)) => v,
+            _ => <super::POPPEFJIAJC::POPPEFJIAJC as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_ALKIHCMPCLM(&mut self) {
-        self.DOPBLDOIEAN = ::std::option::Option::None;
+    pub fn clear_HJAPLMGAMCO(&mut self) {
+        self.ENMNAMOIEEP = ::std::option::Option::None;
     }
 
-    pub fn has_ALKIHCMPCLM(&self) -> bool {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::ALKIHCMPCLM(..)) => true,
+    pub fn has_HJAPLMGAMCO(&self) -> bool {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HJAPLMGAMCO(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_ALKIHCMPCLM(&mut self, v: super::MGBLCELKAKF::MGBLCELKAKF) {
-        self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::ALKIHCMPCLM(v))
+    pub fn set_HJAPLMGAMCO(&mut self, v: super::POPPEFJIAJC::POPPEFJIAJC) {
+        self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HJAPLMGAMCO(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_ALKIHCMPCLM(&mut self) -> &mut super::MGBLCELKAKF::MGBLCELKAKF {
-        if let ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::ALKIHCMPCLM(_)) = self.DOPBLDOIEAN {
+    pub fn mut_HJAPLMGAMCO(&mut self) -> &mut super::POPPEFJIAJC::POPPEFJIAJC {
+        if let ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HJAPLMGAMCO(_)) = self.ENMNAMOIEEP {
         } else {
-            self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::ALKIHCMPCLM(super::MGBLCELKAKF::MGBLCELKAKF::new()));
+            self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HJAPLMGAMCO(super::POPPEFJIAJC::POPPEFJIAJC::new()));
         }
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::ALKIHCMPCLM(ref mut v)) => v,
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HJAPLMGAMCO(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_ALKIHCMPCLM(&mut self) -> super::MGBLCELKAKF::MGBLCELKAKF {
-        if self.has_ALKIHCMPCLM() {
-            match self.DOPBLDOIEAN.take() {
-                ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::ALKIHCMPCLM(v)) => v,
+    pub fn take_HJAPLMGAMCO(&mut self) -> super::POPPEFJIAJC::POPPEFJIAJC {
+        if self.has_HJAPLMGAMCO() {
+            match self.ENMNAMOIEEP.take() {
+                ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HJAPLMGAMCO(v)) => v,
                 _ => panic!(),
             }
         } else {
-            super::MGBLCELKAKF::MGBLCELKAKF::new()
+            super::POPPEFJIAJC::POPPEFJIAJC::new()
         }
     }
 
-    // .DDIPMPGJBDM PJMAEELGEED = 2;
+    // .HAPBNLELOBI BLEFCAFOIBG = 10;
 
-    pub fn PJMAEELGEED(&self) -> &super::DDIPMPGJBDM::DDIPMPGJBDM {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PJMAEELGEED(ref v)) => v,
-            _ => <super::DDIPMPGJBDM::DDIPMPGJBDM as ::protobuf::Message>::default_instance(),
+    pub fn BLEFCAFOIBG(&self) -> &super::HAPBNLELOBI::HAPBNLELOBI {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::BLEFCAFOIBG(ref v)) => v,
+            _ => <super::HAPBNLELOBI::HAPBNLELOBI as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_PJMAEELGEED(&mut self) {
-        self.DOPBLDOIEAN = ::std::option::Option::None;
+    pub fn clear_BLEFCAFOIBG(&mut self) {
+        self.ENMNAMOIEEP = ::std::option::Option::None;
     }
 
-    pub fn has_PJMAEELGEED(&self) -> bool {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PJMAEELGEED(..)) => true,
+    pub fn has_BLEFCAFOIBG(&self) -> bool {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::BLEFCAFOIBG(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_PJMAEELGEED(&mut self, v: super::DDIPMPGJBDM::DDIPMPGJBDM) {
-        self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PJMAEELGEED(v))
+    pub fn set_BLEFCAFOIBG(&mut self, v: super::HAPBNLELOBI::HAPBNLELOBI) {
+        self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::BLEFCAFOIBG(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_PJMAEELGEED(&mut self) -> &mut super::DDIPMPGJBDM::DDIPMPGJBDM {
-        if let ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PJMAEELGEED(_)) = self.DOPBLDOIEAN {
+    pub fn mut_BLEFCAFOIBG(&mut self) -> &mut super::HAPBNLELOBI::HAPBNLELOBI {
+        if let ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::BLEFCAFOIBG(_)) = self.ENMNAMOIEEP {
         } else {
-            self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PJMAEELGEED(super::DDIPMPGJBDM::DDIPMPGJBDM::new()));
+            self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::BLEFCAFOIBG(super::HAPBNLELOBI::HAPBNLELOBI::new()));
         }
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PJMAEELGEED(ref mut v)) => v,
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::BLEFCAFOIBG(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_PJMAEELGEED(&mut self) -> super::DDIPMPGJBDM::DDIPMPGJBDM {
-        if self.has_PJMAEELGEED() {
-            match self.DOPBLDOIEAN.take() {
-                ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PJMAEELGEED(v)) => v,
+    pub fn take_BLEFCAFOIBG(&mut self) -> super::HAPBNLELOBI::HAPBNLELOBI {
+        if self.has_BLEFCAFOIBG() {
+            match self.ENMNAMOIEEP.take() {
+                ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::BLEFCAFOIBG(v)) => v,
                 _ => panic!(),
             }
         } else {
-            super::DDIPMPGJBDM::DDIPMPGJBDM::new()
+            super::HAPBNLELOBI::HAPBNLELOBI::new()
         }
     }
 
-    // uint32 OMOGCPPLDDJ = 1;
+    // uint32 FAHDMHFECMK = 7;
 
-    pub fn OMOGCPPLDDJ(&self) -> u32 {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::OMOGCPPLDDJ(v)) => v,
+    pub fn FAHDMHFECMK(&self) -> u32 {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::FAHDMHFECMK(v)) => v,
             _ => 0,
         }
     }
 
-    pub fn clear_OMOGCPPLDDJ(&mut self) {
-        self.DOPBLDOIEAN = ::std::option::Option::None;
+    pub fn clear_FAHDMHFECMK(&mut self) {
+        self.ENMNAMOIEEP = ::std::option::Option::None;
     }
 
-    pub fn has_OMOGCPPLDDJ(&self) -> bool {
-        match self.DOPBLDOIEAN {
-            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::OMOGCPPLDDJ(..)) => true,
+    pub fn has_FAHDMHFECMK(&self) -> bool {
+        match self.ENMNAMOIEEP {
+            ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::FAHDMHFECMK(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_OMOGCPPLDDJ(&mut self, v: u32) {
-        self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::OMOGCPPLDDJ(v))
+    pub fn set_FAHDMHFECMK(&mut self, v: u32) {
+        self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::FAHDMHFECMK(v))
     }
 
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(10);
         let mut oneofs = ::std::vec::Vec::with_capacity(1);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "NNFAMOJAHCH",
+            |m: &ClockParkHandleWaitPlaceDiceOperationCsReq| { &m.NNFAMOJAHCH },
+            |m: &mut ClockParkHandleWaitPlaceDiceOperationCsReq| { &mut m.NNFAMOJAHCH },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "script_id",
             |m: &ClockParkHandleWaitPlaceDiceOperationCsReq| { &m.script_id },
             |m: &mut ClockParkHandleWaitPlaceDiceOperationCsReq| { &mut m.script_id },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MNLGFJMFFCF",
-            |m: &ClockParkHandleWaitPlaceDiceOperationCsReq| { &m.MNLGFJMFFCF },
-            |m: &mut ClockParkHandleWaitPlaceDiceOperationCsReq| { &mut m.MNLGFJMFFCF },
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::INLBCJHIPCI::INLBCJHIPCI>(
+            "IKOMEFMEKMC",
+            ClockParkHandleWaitPlaceDiceOperationCsReq::has_IKOMEFMEKMC,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::IKOMEFMEKMC,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::mut_IKOMEFMEKMC,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::set_IKOMEFMEKMC,
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::GHLKINAJHGJ::GHLKINAJHGJ>(
-            "FDPEOCFMMDJ",
-            ClockParkHandleWaitPlaceDiceOperationCsReq::has_FDPEOCFMMDJ,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::FDPEOCFMMDJ,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::mut_FDPEOCFMMDJ,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::set_FDPEOCFMMDJ,
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::MBLOIHLJGML::MBLOIHLJGML>(
+            "GNMMEFKMHHD",
+            ClockParkHandleWaitPlaceDiceOperationCsReq::has_GNMMEFKMHHD,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::GNMMEFKMHHD,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::mut_GNMMEFKMHHD,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::set_GNMMEFKMHHD,
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::GNABBNJLLOK::GNABBNJLLOK>(
-            "JNAOFGCLBPP",
-            ClockParkHandleWaitPlaceDiceOperationCsReq::has_JNAOFGCLBPP,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::JNAOFGCLBPP,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::mut_JNAOFGCLBPP,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::set_JNAOFGCLBPP,
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::EPJMBDHODLE::EPJMBDHODLE>(
+            "KILGAJCFIME",
+            ClockParkHandleWaitPlaceDiceOperationCsReq::has_KILGAJCFIME,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::KILGAJCFIME,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::mut_KILGAJCFIME,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::set_KILGAJCFIME,
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::OKCFFJGEABE::OKCFFJGEABE>(
-            "PCDKMADHKFN",
-            ClockParkHandleWaitPlaceDiceOperationCsReq::has_PCDKMADHKFN,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::PCDKMADHKFN,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::mut_PCDKMADHKFN,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::set_PCDKMADHKFN,
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::HADCALJHOFI::HADCALJHOFI>(
+            "HBPAIJHIGOL",
+            ClockParkHandleWaitPlaceDiceOperationCsReq::has_HBPAIJHIGOL,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::HBPAIJHIGOL,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::mut_HBPAIJHIGOL,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::set_HBPAIJHIGOL,
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::AMKHNNJBJHK::AMKHNNJBJHK>(
-            "DLEDKGFEMKB",
-            ClockParkHandleWaitPlaceDiceOperationCsReq::has_DLEDKGFEMKB,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::DLEDKGFEMKB,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::mut_DLEDKGFEMKB,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::set_DLEDKGFEMKB,
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::BBOCLMGMNEB::BBOCLMGMNEB>(
+            "DGANABKPHAI",
+            ClockParkHandleWaitPlaceDiceOperationCsReq::has_DGANABKPHAI,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::DGANABKPHAI,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::mut_DGANABKPHAI,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::set_DGANABKPHAI,
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::GFKCHHBKDEE::GFKCHHBKDEE>(
-            "LHAMJIIJCGG",
-            ClockParkHandleWaitPlaceDiceOperationCsReq::has_LHAMJIIJCGG,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::LHAMJIIJCGG,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::mut_LHAMJIIJCGG,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::set_LHAMJIIJCGG,
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::POPPEFJIAJC::POPPEFJIAJC>(
+            "HJAPLMGAMCO",
+            ClockParkHandleWaitPlaceDiceOperationCsReq::has_HJAPLMGAMCO,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::HJAPLMGAMCO,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::mut_HJAPLMGAMCO,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::set_HJAPLMGAMCO,
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::MGBLCELKAKF::MGBLCELKAKF>(
-            "ALKIHCMPCLM",
-            ClockParkHandleWaitPlaceDiceOperationCsReq::has_ALKIHCMPCLM,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::ALKIHCMPCLM,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::mut_ALKIHCMPCLM,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::set_ALKIHCMPCLM,
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::DDIPMPGJBDM::DDIPMPGJBDM>(
-            "PJMAEELGEED",
-            ClockParkHandleWaitPlaceDiceOperationCsReq::has_PJMAEELGEED,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::PJMAEELGEED,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::mut_PJMAEELGEED,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::set_PJMAEELGEED,
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::HAPBNLELOBI::HAPBNLELOBI>(
+            "BLEFCAFOIBG",
+            ClockParkHandleWaitPlaceDiceOperationCsReq::has_BLEFCAFOIBG,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::BLEFCAFOIBG,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::mut_BLEFCAFOIBG,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::set_BLEFCAFOIBG,
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_copy_has_get_set_simpler_accessors::<_, _>(
-            "OMOGCPPLDDJ",
-            ClockParkHandleWaitPlaceDiceOperationCsReq::has_OMOGCPPLDDJ,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::OMOGCPPLDDJ,
-            ClockParkHandleWaitPlaceDiceOperationCsReq::set_OMOGCPPLDDJ,
+            "FAHDMHFECMK",
+            ClockParkHandleWaitPlaceDiceOperationCsReq::has_FAHDMHFECMK,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::FAHDMHFECMK,
+            ClockParkHandleWaitPlaceDiceOperationCsReq::set_FAHDMHFECMK,
         ));
-        oneofs.push(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::generated_oneof_descriptor_data());
+        oneofs.push(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::generated_oneof_descriptor_data());
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ClockParkHandleWaitPlaceDiceOperationCsReq>(
             "ClockParkHandleWaitPlaceDiceOperationCsReq",
             fields,
@@ -505,35 +505,35 @@ impl ::protobuf::Message for ClockParkHandleWaitPlaceDiceOperationCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                112 => {
-                    self.script_id = is.read_uint32()?;
-                },
-                104 => {
-                    self.MNLGFJMFFCF = is.read_uint32()?;
-                },
-                74 => {
-                    self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::FDPEOCFMMDJ(is.read_message()?));
-                },
-                122 => {
-                    self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::JNAOFGCLBPP(is.read_message()?));
-                },
-                26 => {
-                    self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PCDKMADHKFN(is.read_message()?));
-                },
-                66 => {
-                    self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::DLEDKGFEMKB(is.read_message()?));
-                },
-                34 => {
-                    self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::LHAMJIIJCGG(is.read_message()?));
-                },
-                90 => {
-                    self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::ALKIHCMPCLM(is.read_message()?));
-                },
-                18 => {
-                    self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PJMAEELGEED(is.read_message()?));
+                40 => {
+                    self.NNFAMOJAHCH = is.read_uint32()?;
                 },
                 8 => {
-                    self.DOPBLDOIEAN = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::OMOGCPPLDDJ(is.read_uint32()?));
+                    self.script_id = is.read_uint32()?;
+                },
+                26 => {
+                    self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::IKOMEFMEKMC(is.read_message()?));
+                },
+                34 => {
+                    self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::GNMMEFKMHHD(is.read_message()?));
+                },
+                18 => {
+                    self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::KILGAJCFIME(is.read_message()?));
+                },
+                50 => {
+                    self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HBPAIJHIGOL(is.read_message()?));
+                },
+                66 => {
+                    self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::DGANABKPHAI(is.read_message()?));
+                },
+                114 => {
+                    self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HJAPLMGAMCO(is.read_message()?));
+                },
+                82 => {
+                    self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::BLEFCAFOIBG(is.read_message()?));
+                },
+                56 => {
+                    self.ENMNAMOIEEP = ::std::option::Option::Some(clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::FAHDMHFECMK(is.read_uint32()?));
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -547,44 +547,44 @@ impl ::protobuf::Message for ClockParkHandleWaitPlaceDiceOperationCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
+        if self.NNFAMOJAHCH != 0 {
+            my_size += ::protobuf::rt::uint32_size(5, self.NNFAMOJAHCH);
+        }
         if self.script_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.script_id);
+            my_size += ::protobuf::rt::uint32_size(1, self.script_id);
         }
-        if self.MNLGFJMFFCF != 0 {
-            my_size += ::protobuf::rt::uint32_size(13, self.MNLGFJMFFCF);
-        }
-        if let ::std::option::Option::Some(ref v) = self.DOPBLDOIEAN {
+        if let ::std::option::Option::Some(ref v) = self.ENMNAMOIEEP {
             match v {
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::FDPEOCFMMDJ(ref v) => {
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::IKOMEFMEKMC(ref v) => {
                     let len = v.compute_size();
                     my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::JNAOFGCLBPP(ref v) => {
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::GNMMEFKMHHD(ref v) => {
                     let len = v.compute_size();
                     my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PCDKMADHKFN(ref v) => {
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::KILGAJCFIME(ref v) => {
                     let len = v.compute_size();
                     my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::DLEDKGFEMKB(ref v) => {
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HBPAIJHIGOL(ref v) => {
                     let len = v.compute_size();
                     my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::LHAMJIIJCGG(ref v) => {
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::DGANABKPHAI(ref v) => {
                     let len = v.compute_size();
                     my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::ALKIHCMPCLM(ref v) => {
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HJAPLMGAMCO(ref v) => {
                     let len = v.compute_size();
                     my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PJMAEELGEED(ref v) => {
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::BLEFCAFOIBG(ref v) => {
                     let len = v.compute_size();
                     my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::OMOGCPPLDDJ(v) => {
-                    my_size += ::protobuf::rt::uint32_size(1, v);
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::FAHDMHFECMK(v) => {
+                    my_size += ::protobuf::rt::uint32_size(7, v);
                 },
             };
         }
@@ -594,37 +594,37 @@ impl ::protobuf::Message for ClockParkHandleWaitPlaceDiceOperationCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
+        if self.NNFAMOJAHCH != 0 {
+            os.write_uint32(5, self.NNFAMOJAHCH)?;
+        }
         if self.script_id != 0 {
-            os.write_uint32(14, self.script_id)?;
+            os.write_uint32(1, self.script_id)?;
         }
-        if self.MNLGFJMFFCF != 0 {
-            os.write_uint32(13, self.MNLGFJMFFCF)?;
-        }
-        if let ::std::option::Option::Some(ref v) = self.DOPBLDOIEAN {
+        if let ::std::option::Option::Some(ref v) = self.ENMNAMOIEEP {
             match v {
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::FDPEOCFMMDJ(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
-                },
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::JNAOFGCLBPP(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
-                },
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PCDKMADHKFN(ref v) => {
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::IKOMEFMEKMC(ref v) => {
                     ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
                 },
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::DLEDKGFEMKB(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
-                },
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::LHAMJIIJCGG(ref v) => {
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::GNMMEFKMHHD(ref v) => {
                     ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
                 },
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::ALKIHCMPCLM(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
-                },
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::PJMAEELGEED(ref v) => {
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::KILGAJCFIME(ref v) => {
                     ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
                 },
-                &clock_park_handle_wait_place_dice_operation_cs_req::DOPBLDOIEAN::OMOGCPPLDDJ(v) => {
-                    os.write_uint32(1, v)?;
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HBPAIJHIGOL(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
+                },
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::DGANABKPHAI(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+                },
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::HJAPLMGAMCO(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
+                },
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::BLEFCAFOIBG(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
+                },
+                &clock_park_handle_wait_place_dice_operation_cs_req::ENMNAMOIEEP::FAHDMHFECMK(v) => {
+                    os.write_uint32(7, v)?;
                 },
             };
         }
@@ -645,24 +645,24 @@ impl ::protobuf::Message for ClockParkHandleWaitPlaceDiceOperationCsReq {
     }
 
     fn clear(&mut self) {
+        self.NNFAMOJAHCH = 0;
         self.script_id = 0;
-        self.MNLGFJMFFCF = 0;
-        self.DOPBLDOIEAN = ::std::option::Option::None;
-        self.DOPBLDOIEAN = ::std::option::Option::None;
-        self.DOPBLDOIEAN = ::std::option::Option::None;
-        self.DOPBLDOIEAN = ::std::option::Option::None;
-        self.DOPBLDOIEAN = ::std::option::Option::None;
-        self.DOPBLDOIEAN = ::std::option::Option::None;
-        self.DOPBLDOIEAN = ::std::option::Option::None;
-        self.DOPBLDOIEAN = ::std::option::Option::None;
+        self.ENMNAMOIEEP = ::std::option::Option::None;
+        self.ENMNAMOIEEP = ::std::option::Option::None;
+        self.ENMNAMOIEEP = ::std::option::Option::None;
+        self.ENMNAMOIEEP = ::std::option::Option::None;
+        self.ENMNAMOIEEP = ::std::option::Option::None;
+        self.ENMNAMOIEEP = ::std::option::Option::None;
+        self.ENMNAMOIEEP = ::std::option::Option::None;
+        self.ENMNAMOIEEP = ::std::option::Option::None;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ClockParkHandleWaitPlaceDiceOperationCsReq {
         static instance: ClockParkHandleWaitPlaceDiceOperationCsReq = ClockParkHandleWaitPlaceDiceOperationCsReq {
+            NNFAMOJAHCH: 0,
             script_id: 0,
-            MNLGFJMFFCF: 0,
-            DOPBLDOIEAN: ::std::option::Option::None,
+            ENMNAMOIEEP: ::std::option::Option::None,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -691,59 +691,59 @@ pub mod clock_park_handle_wait_place_dice_operation_cs_req {
 
     #[derive(Clone,PartialEq,Debug)]
     #[non_exhaustive]
-    // @@protoc_insertion_point(oneof:ClockParkHandleWaitPlaceDiceOperationCsReq.DOPBLDOIEAN)
-    pub enum DOPBLDOIEAN {
-        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.FDPEOCFMMDJ)
-        FDPEOCFMMDJ(super::super::GHLKINAJHGJ::GHLKINAJHGJ),
-        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.JNAOFGCLBPP)
-        JNAOFGCLBPP(super::super::GNABBNJLLOK::GNABBNJLLOK),
-        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.PCDKMADHKFN)
-        PCDKMADHKFN(super::super::OKCFFJGEABE::OKCFFJGEABE),
-        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.DLEDKGFEMKB)
-        DLEDKGFEMKB(super::super::AMKHNNJBJHK::AMKHNNJBJHK),
-        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.LHAMJIIJCGG)
-        LHAMJIIJCGG(super::super::GFKCHHBKDEE::GFKCHHBKDEE),
-        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.ALKIHCMPCLM)
-        ALKIHCMPCLM(super::super::MGBLCELKAKF::MGBLCELKAKF),
-        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.PJMAEELGEED)
-        PJMAEELGEED(super::super::DDIPMPGJBDM::DDIPMPGJBDM),
-        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.OMOGCPPLDDJ)
-        OMOGCPPLDDJ(u32),
+    // @@protoc_insertion_point(oneof:ClockParkHandleWaitPlaceDiceOperationCsReq.ENMNAMOIEEP)
+    pub enum ENMNAMOIEEP {
+        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.IKOMEFMEKMC)
+        IKOMEFMEKMC(super::super::INLBCJHIPCI::INLBCJHIPCI),
+        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.GNMMEFKMHHD)
+        GNMMEFKMHHD(super::super::MBLOIHLJGML::MBLOIHLJGML),
+        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.KILGAJCFIME)
+        KILGAJCFIME(super::super::EPJMBDHODLE::EPJMBDHODLE),
+        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.HBPAIJHIGOL)
+        HBPAIJHIGOL(super::super::HADCALJHOFI::HADCALJHOFI),
+        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.DGANABKPHAI)
+        DGANABKPHAI(super::super::BBOCLMGMNEB::BBOCLMGMNEB),
+        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.HJAPLMGAMCO)
+        HJAPLMGAMCO(super::super::POPPEFJIAJC::POPPEFJIAJC),
+        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.BLEFCAFOIBG)
+        BLEFCAFOIBG(super::super::HAPBNLELOBI::HAPBNLELOBI),
+        // @@protoc_insertion_point(oneof_field:ClockParkHandleWaitPlaceDiceOperationCsReq.FAHDMHFECMK)
+        FAHDMHFECMK(u32),
     }
 
-    impl ::protobuf::Oneof for DOPBLDOIEAN {
+    impl ::protobuf::Oneof for ENMNAMOIEEP {
     }
 
-    impl ::protobuf::OneofFull for DOPBLDOIEAN {
+    impl ::protobuf::OneofFull for ENMNAMOIEEP {
         fn descriptor() -> ::protobuf::reflect::OneofDescriptor {
             static descriptor: ::protobuf::rt::Lazy<::protobuf::reflect::OneofDescriptor> = ::protobuf::rt::Lazy::new();
-            descriptor.get(|| <super::ClockParkHandleWaitPlaceDiceOperationCsReq as ::protobuf::MessageFull>::descriptor().oneof_by_name("DOPBLDOIEAN").unwrap()).clone()
+            descriptor.get(|| <super::ClockParkHandleWaitPlaceDiceOperationCsReq as ::protobuf::MessageFull>::descriptor().oneof_by_name("ENMNAMOIEEP").unwrap()).clone()
         }
     }
 
-    impl DOPBLDOIEAN {
+    impl ENMNAMOIEEP {
         pub(in super) fn generated_oneof_descriptor_data() -> ::protobuf::reflect::GeneratedOneofDescriptorData {
-            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<DOPBLDOIEAN>("DOPBLDOIEAN")
+            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<ENMNAMOIEEP>("ENMNAMOIEEP")
         }
     }
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n0ClockParkHandleWaitPlaceDiceOperationCsReq.proto\x1a\x11AMKHNNJBJHK.p\
-    roto\x1a\x11DDIPMPGJBDM.proto\x1a\x11GFKCHHBKDEE.proto\x1a\x11GHLKINAJHG\
-    J.proto\x1a\x11GNABBNJLLOK.proto\x1a\x11MGBLCELKAKF.proto\x1a\x11OKCFFJG\
-    EABE.proto\"\xfc\x03\n*ClockParkHandleWaitPlaceDiceOperationCsReq\x12\
-    \x1b\n\tscript_id\x18\x0e\x20\x01(\rR\x08scriptId\x12\x20\n\x0bMNLGFJMFF\
-    CF\x18\r\x20\x01(\rR\x0bMNLGFJMFFCF\x120\n\x0bFDPEOCFMMDJ\x18\t\x20\x01(\
-    \x0b2\x0c.GHLKINAJHGJH\0R\x0bFDPEOCFMMDJ\x120\n\x0bJNAOFGCLBPP\x18\x0f\
-    \x20\x01(\x0b2\x0c.GNABBNJLLOKH\0R\x0bJNAOFGCLBPP\x120\n\x0bPCDKMADHKFN\
-    \x18\x03\x20\x01(\x0b2\x0c.OKCFFJGEABEH\0R\x0bPCDKMADHKFN\x120\n\x0bDLED\
-    KGFEMKB\x18\x08\x20\x01(\x0b2\x0c.AMKHNNJBJHKH\0R\x0bDLEDKGFEMKB\x120\n\
-    \x0bLHAMJIIJCGG\x18\x04\x20\x01(\x0b2\x0c.GFKCHHBKDEEH\0R\x0bLHAMJIIJCGG\
-    \x120\n\x0bALKIHCMPCLM\x18\x0b\x20\x01(\x0b2\x0c.MGBLCELKAKFH\0R\x0bALKI\
-    HCMPCLM\x120\n\x0bPJMAEELGEED\x18\x02\x20\x01(\x0b2\x0c.DDIPMPGJBDMH\0R\
-    \x0bPJMAEELGEED\x12\"\n\x0bOMOGCPPLDDJ\x18\x01\x20\x01(\rH\0R\x0bOMOGCPP\
-    LDDJB\r\n\x0bDOPBLDOIEANb\x06proto3\
+    \n0ClockParkHandleWaitPlaceDiceOperationCsReq.proto\x1a\x11BBOCLMGMNEB.p\
+    roto\x1a\x11EPJMBDHODLE.proto\x1a\x11HADCALJHOFI.proto\x1a\x11HAPBNLELOB\
+    I.proto\x1a\x11INLBCJHIPCI.proto\x1a\x11MBLOIHLJGML.proto\x1a\x11POPPEFJ\
+    IAJC.proto\"\xfc\x03\n*ClockParkHandleWaitPlaceDiceOperationCsReq\x12\
+    \x20\n\x0bNNFAMOJAHCH\x18\x05\x20\x01(\rR\x0bNNFAMOJAHCH\x12\x1b\n\tscri\
+    pt_id\x18\x01\x20\x01(\rR\x08scriptId\x120\n\x0bIKOMEFMEKMC\x18\x03\x20\
+    \x01(\x0b2\x0c.INLBCJHIPCIH\0R\x0bIKOMEFMEKMC\x120\n\x0bGNMMEFKMHHD\x18\
+    \x04\x20\x01(\x0b2\x0c.MBLOIHLJGMLH\0R\x0bGNMMEFKMHHD\x120\n\x0bKILGAJCF\
+    IME\x18\x02\x20\x01(\x0b2\x0c.EPJMBDHODLEH\0R\x0bKILGAJCFIME\x120\n\x0bH\
+    BPAIJHIGOL\x18\x06\x20\x01(\x0b2\x0c.HADCALJHOFIH\0R\x0bHBPAIJHIGOL\x120\
+    \n\x0bDGANABKPHAI\x18\x08\x20\x01(\x0b2\x0c.BBOCLMGMNEBH\0R\x0bDGANABKPH\
+    AI\x120\n\x0bHJAPLMGAMCO\x18\x0e\x20\x01(\x0b2\x0c.POPPEFJIAJCH\0R\x0bHJ\
+    APLMGAMCO\x120\n\x0bBLEFCAFOIBG\x18\n\x20\x01(\x0b2\x0c.HAPBNLELOBIH\0R\
+    \x0bBLEFCAFOIBG\x12\"\n\x0bFAHDMHFECMK\x18\x07\x20\x01(\rH\0R\x0bFAHDMHF\
+    ECMKB\r\n\x0bENMNAMOIEEPb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -761,13 +761,13 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(7);
-            deps.push(super::AMKHNNJBJHK::file_descriptor().clone());
-            deps.push(super::DDIPMPGJBDM::file_descriptor().clone());
-            deps.push(super::GFKCHHBKDEE::file_descriptor().clone());
-            deps.push(super::GHLKINAJHGJ::file_descriptor().clone());
-            deps.push(super::GNABBNJLLOK::file_descriptor().clone());
-            deps.push(super::MGBLCELKAKF::file_descriptor().clone());
-            deps.push(super::OKCFFJGEABE::file_descriptor().clone());
+            deps.push(super::BBOCLMGMNEB::file_descriptor().clone());
+            deps.push(super::EPJMBDHODLE::file_descriptor().clone());
+            deps.push(super::HADCALJHOFI::file_descriptor().clone());
+            deps.push(super::HAPBNLELOBI::file_descriptor().clone());
+            deps.push(super::INLBCJHIPCI::file_descriptor().clone());
+            deps.push(super::MBLOIHLJGML::file_descriptor().clone());
+            deps.push(super::POPPEFJIAJC::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(ClockParkHandleWaitPlaceDiceOperationCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

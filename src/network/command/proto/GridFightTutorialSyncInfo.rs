@@ -28,7 +28,7 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightTutorialSyncInfo {
     // message oneof groups
-    pub DEBKBABACIC: ::std::option::Option<grid_fight_tutorial_sync_info::DEBKBABACIC>,
+    pub KCOCCGEOECO: ::std::option::Option<grid_fight_tutorial_sync_info::KCOCCGEOECO>,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightTutorialSyncInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -45,64 +45,64 @@ impl GridFightTutorialSyncInfo {
         ::std::default::Default::default()
     }
 
-    // uint32 finish_grid_fight_tutorial_id = 15;
+    // uint32 finish_grid_fight_tutorial_id = 11;
 
     pub fn finish_grid_fight_tutorial_id(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::FinishGridFightTutorialId(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::FinishGridFightTutorialId(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_finish_grid_fight_tutorial_id(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_finish_grid_fight_tutorial_id(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::FinishGridFightTutorialId(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::FinishGridFightTutorialId(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_finish_grid_fight_tutorial_id(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::FinishGridFightTutorialId(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::FinishGridFightTutorialId(v))
     }
 
-    // .GridFightCurrentTask current_task = 3;
+    // .GridFightCurrentTask current_task = 9;
 
     pub fn current_task(&self) -> &super::GridFightCurrentTask::GridFightCurrentTask {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::CurrentTask(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::CurrentTask(ref v)) => v,
             _ => <super::GridFightCurrentTask::GridFightCurrentTask as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_current_task(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_current_task(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::CurrentTask(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::CurrentTask(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_current_task(&mut self, v: super::GridFightCurrentTask::GridFightCurrentTask) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::CurrentTask(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::CurrentTask(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_current_task(&mut self) -> &mut super::GridFightCurrentTask::GridFightCurrentTask {
-        if let ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::CurrentTask(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::CurrentTask(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::CurrentTask(super::GridFightCurrentTask::GridFightCurrentTask::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::CurrentTask(super::GridFightCurrentTask::GridFightCurrentTask::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::CurrentTask(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::CurrentTask(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -110,8 +110,8 @@ impl GridFightTutorialSyncInfo {
     // Take field
     pub fn take_current_task(&mut self) -> super::GridFightCurrentTask::GridFightCurrentTask {
         if self.has_current_task() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::CurrentTask(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::CurrentTask(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -119,29 +119,29 @@ impl GridFightTutorialSyncInfo {
         }
     }
 
-    // uint32 start_grid_fight_tutorial_id = 7;
+    // uint32 start_grid_fight_tutorial_id = 10;
 
     pub fn start_grid_fight_tutorial_id(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::StartGridFightTutorialId(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::StartGridFightTutorialId(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_start_grid_fight_tutorial_id(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_start_grid_fight_tutorial_id(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::StartGridFightTutorialId(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::StartGridFightTutorialId(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_start_grid_fight_tutorial_id(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::StartGridFightTutorialId(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::StartGridFightTutorialId(v))
     }
 
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
@@ -166,7 +166,7 @@ impl GridFightTutorialSyncInfo {
             GridFightTutorialSyncInfo::start_grid_fight_tutorial_id,
             GridFightTutorialSyncInfo::set_start_grid_fight_tutorial_id,
         ));
-        oneofs.push(grid_fight_tutorial_sync_info::DEBKBABACIC::generated_oneof_descriptor_data());
+        oneofs.push(grid_fight_tutorial_sync_info::KCOCCGEOECO::generated_oneof_descriptor_data());
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightTutorialSyncInfo>(
             "GridFightTutorialSyncInfo",
             fields,
@@ -185,14 +185,14 @@ impl ::protobuf::Message for GridFightTutorialSyncInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                120 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::FinishGridFightTutorialId(is.read_uint32()?));
+                88 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::FinishGridFightTutorialId(is.read_uint32()?));
                 },
-                26 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::CurrentTask(is.read_message()?));
+                74 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::CurrentTask(is.read_message()?));
                 },
-                56 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_tutorial_sync_info::DEBKBABACIC::StartGridFightTutorialId(is.read_uint32()?));
+                80 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_tutorial_sync_info::KCOCCGEOECO::StartGridFightTutorialId(is.read_uint32()?));
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -206,17 +206,17 @@ impl ::protobuf::Message for GridFightTutorialSyncInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let ::std::option::Option::Some(ref v) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(ref v) = self.KCOCCGEOECO {
             match v {
-                &grid_fight_tutorial_sync_info::DEBKBABACIC::FinishGridFightTutorialId(v) => {
-                    my_size += ::protobuf::rt::uint32_size(15, v);
+                &grid_fight_tutorial_sync_info::KCOCCGEOECO::FinishGridFightTutorialId(v) => {
+                    my_size += ::protobuf::rt::uint32_size(11, v);
                 },
-                &grid_fight_tutorial_sync_info::DEBKBABACIC::CurrentTask(ref v) => {
+                &grid_fight_tutorial_sync_info::KCOCCGEOECO::CurrentTask(ref v) => {
                     let len = v.compute_size();
                     my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_tutorial_sync_info::DEBKBABACIC::StartGridFightTutorialId(v) => {
-                    my_size += ::protobuf::rt::uint32_size(7, v);
+                &grid_fight_tutorial_sync_info::KCOCCGEOECO::StartGridFightTutorialId(v) => {
+                    my_size += ::protobuf::rt::uint32_size(10, v);
                 },
             };
         }
@@ -226,16 +226,16 @@ impl ::protobuf::Message for GridFightTutorialSyncInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let ::std::option::Option::Some(ref v) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(ref v) = self.KCOCCGEOECO {
             match v {
-                &grid_fight_tutorial_sync_info::DEBKBABACIC::FinishGridFightTutorialId(v) => {
-                    os.write_uint32(15, v)?;
+                &grid_fight_tutorial_sync_info::KCOCCGEOECO::FinishGridFightTutorialId(v) => {
+                    os.write_uint32(11, v)?;
                 },
-                &grid_fight_tutorial_sync_info::DEBKBABACIC::CurrentTask(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
+                &grid_fight_tutorial_sync_info::KCOCCGEOECO::CurrentTask(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
                 },
-                &grid_fight_tutorial_sync_info::DEBKBABACIC::StartGridFightTutorialId(v) => {
-                    os.write_uint32(7, v)?;
+                &grid_fight_tutorial_sync_info::KCOCCGEOECO::StartGridFightTutorialId(v) => {
+                    os.write_uint32(10, v)?;
                 },
             };
         }
@@ -256,15 +256,15 @@ impl ::protobuf::Message for GridFightTutorialSyncInfo {
     }
 
     fn clear(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightTutorialSyncInfo {
         static instance: GridFightTutorialSyncInfo = GridFightTutorialSyncInfo {
-            DEBKBABACIC: ::std::option::Option::None,
+            KCOCCGEOECO: ::std::option::Option::None,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -293,8 +293,8 @@ pub mod grid_fight_tutorial_sync_info {
 
     #[derive(Clone,PartialEq,Debug)]
     #[non_exhaustive]
-    // @@protoc_insertion_point(oneof:GridFightTutorialSyncInfo.DEBKBABACIC)
-    pub enum DEBKBABACIC {
+    // @@protoc_insertion_point(oneof:GridFightTutorialSyncInfo.KCOCCGEOECO)
+    pub enum KCOCCGEOECO {
         // @@protoc_insertion_point(oneof_field:GridFightTutorialSyncInfo.finish_grid_fight_tutorial_id)
         FinishGridFightTutorialId(u32),
         // @@protoc_insertion_point(oneof_field:GridFightTutorialSyncInfo.current_task)
@@ -303,19 +303,19 @@ pub mod grid_fight_tutorial_sync_info {
         StartGridFightTutorialId(u32),
     }
 
-    impl ::protobuf::Oneof for DEBKBABACIC {
+    impl ::protobuf::Oneof for KCOCCGEOECO {
     }
 
-    impl ::protobuf::OneofFull for DEBKBABACIC {
+    impl ::protobuf::OneofFull for KCOCCGEOECO {
         fn descriptor() -> ::protobuf::reflect::OneofDescriptor {
             static descriptor: ::protobuf::rt::Lazy<::protobuf::reflect::OneofDescriptor> = ::protobuf::rt::Lazy::new();
-            descriptor.get(|| <super::GridFightTutorialSyncInfo as ::protobuf::MessageFull>::descriptor().oneof_by_name("DEBKBABACIC").unwrap()).clone()
+            descriptor.get(|| <super::GridFightTutorialSyncInfo as ::protobuf::MessageFull>::descriptor().oneof_by_name("KCOCCGEOECO").unwrap()).clone()
         }
     }
 
-    impl DEBKBABACIC {
+    impl KCOCCGEOECO {
         pub(in super) fn generated_oneof_descriptor_data() -> ::protobuf::reflect::GeneratedOneofDescriptorData {
-            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<DEBKBABACIC>("DEBKBABACIC")
+            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<KCOCCGEOECO>("KCOCCGEOECO")
         }
     }
 }
@@ -323,10 +323,10 @@ pub mod grid_fight_tutorial_sync_info {
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1fGridFightTutorialSyncInfo.proto\x1a\x1aGridFightCurrentTask.proto\
     \"\xec\x01\n\x19GridFightTutorialSyncInfo\x12B\n\x1dfinish_grid_fight_tu\
-    torial_id\x18\x0f\x20\x01(\rH\0R\x19finishGridFightTutorialId\x12:\n\x0c\
-    current_task\x18\x03\x20\x01(\x0b2\x15.GridFightCurrentTaskH\0R\x0bcurre\
-    ntTask\x12@\n\x1cstart_grid_fight_tutorial_id\x18\x07\x20\x01(\rH\0R\x18\
-    startGridFightTutorialIdB\r\n\x0bDEBKBABACICb\x06proto3\
+    torial_id\x18\x0b\x20\x01(\rH\0R\x19finishGridFightTutorialId\x12:\n\x0c\
+    current_task\x18\t\x20\x01(\x0b2\x15.GridFightCurrentTaskH\0R\x0bcurrent\
+    Task\x12@\n\x1cstart_grid_fight_tutorial_id\x18\n\x20\x01(\rH\0R\x18star\
+    tGridFightTutorialIdB\r\n\x0bKCOCCGEOECOb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

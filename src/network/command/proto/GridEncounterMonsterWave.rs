@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridEncounterMonsterWave {
     // message fields
-    // @@protoc_insertion_point(field:GridEncounterMonsterWave.HDKILACNGBC)
-    pub HDKILACNGBC: u32,
-    // @@protoc_insertion_point(field:GridEncounterMonsterWave.DBPBGFNAEPD)
-    pub DBPBGFNAEPD: ::std::vec::Vec<super::OOHDGIGDBKH::OOHDGIGDBKH>,
+    // @@protoc_insertion_point(field:GridEncounterMonsterWave.IGMMPDDCJIN)
+    pub IGMMPDDCJIN: u32,
+    // @@protoc_insertion_point(field:GridEncounterMonsterWave.PPOEDDFFEKK)
+    pub PPOEDDFFEKK: ::std::vec::Vec<super::PJLBDMPEKFP::PJLBDMPEKFP>,
     // special fields
     // @@protoc_insertion_point(special_field:GridEncounterMonsterWave.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl GridEncounterMonsterWave {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "HDKILACNGBC",
-            |m: &GridEncounterMonsterWave| { &m.HDKILACNGBC },
-            |m: &mut GridEncounterMonsterWave| { &mut m.HDKILACNGBC },
+            "IGMMPDDCJIN",
+            |m: &GridEncounterMonsterWave| { &m.IGMMPDDCJIN },
+            |m: &mut GridEncounterMonsterWave| { &mut m.IGMMPDDCJIN },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "DBPBGFNAEPD",
-            |m: &GridEncounterMonsterWave| { &m.DBPBGFNAEPD },
-            |m: &mut GridEncounterMonsterWave| { &mut m.DBPBGFNAEPD },
+            "PPOEDDFFEKK",
+            |m: &GridEncounterMonsterWave| { &m.PPOEDDFFEKK },
+            |m: &mut GridEncounterMonsterWave| { &mut m.PPOEDDFFEKK },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridEncounterMonsterWave>(
             "GridEncounterMonsterWave",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for GridEncounterMonsterWave {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                112 => {
-                    self.HDKILACNGBC = is.read_uint32()?;
+                8 => {
+                    self.IGMMPDDCJIN = is.read_uint32()?;
                 },
-                66 => {
-                    self.DBPBGFNAEPD.push(is.read_message()?);
+                34 => {
+                    self.PPOEDDFFEKK.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,10 +97,10 @@ impl ::protobuf::Message for GridEncounterMonsterWave {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.HDKILACNGBC != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.HDKILACNGBC);
+        if self.IGMMPDDCJIN != 0 {
+            my_size += ::protobuf::rt::uint32_size(1, self.IGMMPDDCJIN);
         }
-        for value in &self.DBPBGFNAEPD {
+        for value in &self.PPOEDDFFEKK {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
@@ -110,11 +110,11 @@ impl ::protobuf::Message for GridEncounterMonsterWave {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.HDKILACNGBC != 0 {
-            os.write_uint32(14, self.HDKILACNGBC)?;
+        if self.IGMMPDDCJIN != 0 {
+            os.write_uint32(1, self.IGMMPDDCJIN)?;
         }
-        for v in &self.DBPBGFNAEPD {
-            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+        for v in &self.PPOEDDFFEKK {
+            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
         };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -133,15 +133,15 @@ impl ::protobuf::Message for GridEncounterMonsterWave {
     }
 
     fn clear(&mut self) {
-        self.HDKILACNGBC = 0;
-        self.DBPBGFNAEPD.clear();
+        self.IGMMPDDCJIN = 0;
+        self.PPOEDDFFEKK.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridEncounterMonsterWave {
         static instance: GridEncounterMonsterWave = GridEncounterMonsterWave {
-            HDKILACNGBC: 0,
-            DBPBGFNAEPD: ::std::vec::Vec::new(),
+            IGMMPDDCJIN: 0,
+            PPOEDDFFEKK: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,10 +166,10 @@ impl ::protobuf::reflect::ProtobufValue for GridEncounterMonsterWave {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1eGridEncounterMonsterWave.proto\x1a\x11OOHDGIGDBKH.proto\"l\n\x18Gr\
-    idEncounterMonsterWave\x12\x20\n\x0bHDKILACNGBC\x18\x0e\x20\x01(\rR\x0bH\
-    DKILACNGBC\x12.\n\x0bDBPBGFNAEPD\x18\x08\x20\x03(\x0b2\x0c.OOHDGIGDBKHR\
-    \x0bDBPBGFNAEPDb\x06proto3\
+    \n\x1eGridEncounterMonsterWave.proto\x1a\x11PJLBDMPEKFP.proto\"l\n\x18Gr\
+    idEncounterMonsterWave\x12\x20\n\x0bIGMMPDDCJIN\x18\x01\x20\x01(\rR\x0bI\
+    GMMPDDCJIN\x12.\n\x0bPPOEDDFFEKK\x18\x04\x20\x03(\x0b2\x0c.PJLBDMPEKFPR\
+    \x0bPPOEDDFFEKKb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -187,7 +187,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::OOHDGIGDBKH::file_descriptor().clone());
+            deps.push(super::PJLBDMPEKFP::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GridEncounterMonsterWave::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

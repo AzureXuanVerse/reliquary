@@ -30,8 +30,8 @@ pub struct GetEvolveBuildReRandomStageScRsp {
     // message fields
     // @@protoc_insertion_point(field:GetEvolveBuildReRandomStageScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:GetEvolveBuildReRandomStageScRsp.GPFCIJJAPMD)
-    pub GPFCIJJAPMD: ::protobuf::MessageField<super::KCAKBNLPMDK::KCAKBNLPMDK>,
+    // @@protoc_insertion_point(field:GetEvolveBuildReRandomStageScRsp.CEHBMIIGMFC)
+    pub CEHBMIIGMFC: ::protobuf::MessageField<super::OKIBFKOOEKJ::OKIBFKOOEKJ>,
     // special fields
     // @@protoc_insertion_point(special_field:GetEvolveBuildReRandomStageScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -56,10 +56,10 @@ impl GetEvolveBuildReRandomStageScRsp {
             |m: &GetEvolveBuildReRandomStageScRsp| { &m.retcode },
             |m: &mut GetEvolveBuildReRandomStageScRsp| { &mut m.retcode },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::KCAKBNLPMDK::KCAKBNLPMDK>(
-            "GPFCIJJAPMD",
-            |m: &GetEvolveBuildReRandomStageScRsp| { &m.GPFCIJJAPMD },
-            |m: &mut GetEvolveBuildReRandomStageScRsp| { &mut m.GPFCIJJAPMD },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::OKIBFKOOEKJ::OKIBFKOOEKJ>(
+            "CEHBMIIGMFC",
+            |m: &GetEvolveBuildReRandomStageScRsp| { &m.CEHBMIIGMFC },
+            |m: &mut GetEvolveBuildReRandomStageScRsp| { &mut m.CEHBMIIGMFC },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetEvolveBuildReRandomStageScRsp>(
             "GetEvolveBuildReRandomStageScRsp",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for GetEvolveBuildReRandomStageScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                8 => {
+                40 => {
                     self.retcode = is.read_uint32()?;
                 },
-                50 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.GPFCIJJAPMD)?;
+                90 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.CEHBMIIGMFC)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -98,9 +98,9 @@ impl ::protobuf::Message for GetEvolveBuildReRandomStageScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(5, self.retcode);
         }
-        if let Some(v) = self.GPFCIJJAPMD.as_ref() {
+        if let Some(v) = self.CEHBMIIGMFC.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -111,10 +111,10 @@ impl ::protobuf::Message for GetEvolveBuildReRandomStageScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.retcode != 0 {
-            os.write_uint32(1, self.retcode)?;
+            os.write_uint32(5, self.retcode)?;
         }
-        if let Some(v) = self.GPFCIJJAPMD.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
+        if let Some(v) = self.CEHBMIIGMFC.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -134,14 +134,14 @@ impl ::protobuf::Message for GetEvolveBuildReRandomStageScRsp {
 
     fn clear(&mut self) {
         self.retcode = 0;
-        self.GPFCIJJAPMD.clear();
+        self.CEHBMIIGMFC.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetEvolveBuildReRandomStageScRsp {
         static instance: GetEvolveBuildReRandomStageScRsp = GetEvolveBuildReRandomStageScRsp {
             retcode: 0,
-            GPFCIJJAPMD: ::protobuf::MessageField::none(),
+            CEHBMIIGMFC: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,10 +166,10 @@ impl ::protobuf::reflect::ProtobufValue for GetEvolveBuildReRandomStageScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n&GetEvolveBuildReRandomStageScRsp.proto\x1a\x11KCAKBNLPMDK.proto\"l\n\
-    \x20GetEvolveBuildReRandomStageScRsp\x12\x18\n\x07retcode\x18\x01\x20\
-    \x01(\rR\x07retcode\x12.\n\x0bGPFCIJJAPMD\x18\x06\x20\x01(\x0b2\x0c.KCAK\
-    BNLPMDKR\x0bGPFCIJJAPMDb\x06proto3\
+    \n&GetEvolveBuildReRandomStageScRsp.proto\x1a\x11OKIBFKOOEKJ.proto\"l\n\
+    \x20GetEvolveBuildReRandomStageScRsp\x12\x18\n\x07retcode\x18\x05\x20\
+    \x01(\rR\x07retcode\x12.\n\x0bCEHBMIIGMFC\x18\x0b\x20\x01(\x0b2\x0c.OKIB\
+    FKOOEKJR\x0bCEHBMIIGMFCb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -187,7 +187,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::KCAKBNLPMDK::file_descriptor().clone());
+            deps.push(super::OKIBFKOOEKJ::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GetEvolveBuildReRandomStageScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

@@ -28,18 +28,18 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightGameTeamInfo {
     // message fields
-    // @@protoc_insertion_point(field:GridFightGameTeamInfo.EOEMMAHAHIG)
-    pub EOEMMAHAHIG: ::std::vec::Vec<super::NEAOHJMAPJN::NEAOHJMAPJN>,
+    // @@protoc_insertion_point(field:GridFightGameTeamInfo.CDLAIJCKJJN)
+    pub CDLAIJCKJJN: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:GridFightGameTeamInfo.MMAJCLACOBN)
+    pub MMAJCLACOBN: ::std::vec::Vec<super::CKCKIDHMMEG::CKCKIDHMMEG>,
     // @@protoc_insertion_point(field:GridFightGameTeamInfo.grid_game_npc_list)
     pub grid_game_npc_list: ::std::vec::Vec<super::GridGameNpcInfo::GridGameNpcInfo>,
     // @@protoc_insertion_point(field:GridFightGameTeamInfo.grid_game_role_list)
     pub grid_game_role_list: ::std::vec::Vec<super::GridGameRoleInfo::GridGameRoleInfo>,
-    // @@protoc_insertion_point(field:GridFightGameTeamInfo.EFFFOODPHJF)
-    pub EFFFOODPHJF: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:GridFightGameTeamInfo.HOFIENMALOP)
+    pub HOFIENMALOP: ::std::vec::Vec<u32>,
     // @@protoc_insertion_point(field:GridFightGameTeamInfo.grid_game_forge_item_list)
     pub grid_game_forge_item_list: ::std::vec::Vec<super::GridGameForgeItemInfo::GridGameForgeItemInfo>,
-    // @@protoc_insertion_point(field:GridFightGameTeamInfo.MKFHANHHECB)
-    pub MKFHANHHECB: ::std::vec::Vec<u32>,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightGameTeamInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -60,9 +60,14 @@ impl GridFightGameTeamInfo {
         let mut fields = ::std::vec::Vec::with_capacity(6);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "EOEMMAHAHIG",
-            |m: &GridFightGameTeamInfo| { &m.EOEMMAHAHIG },
-            |m: &mut GridFightGameTeamInfo| { &mut m.EOEMMAHAHIG },
+            "CDLAIJCKJJN",
+            |m: &GridFightGameTeamInfo| { &m.CDLAIJCKJJN },
+            |m: &mut GridFightGameTeamInfo| { &mut m.CDLAIJCKJJN },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "MMAJCLACOBN",
+            |m: &GridFightGameTeamInfo| { &m.MMAJCLACOBN },
+            |m: &mut GridFightGameTeamInfo| { &mut m.MMAJCLACOBN },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "grid_game_npc_list",
@@ -75,19 +80,14 @@ impl GridFightGameTeamInfo {
             |m: &mut GridFightGameTeamInfo| { &mut m.grid_game_role_list },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "EFFFOODPHJF",
-            |m: &GridFightGameTeamInfo| { &m.EFFFOODPHJF },
-            |m: &mut GridFightGameTeamInfo| { &mut m.EFFFOODPHJF },
+            "HOFIENMALOP",
+            |m: &GridFightGameTeamInfo| { &m.HOFIENMALOP },
+            |m: &mut GridFightGameTeamInfo| { &mut m.HOFIENMALOP },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "grid_game_forge_item_list",
             |m: &GridFightGameTeamInfo| { &m.grid_game_forge_item_list },
             |m: &mut GridFightGameTeamInfo| { &mut m.grid_game_forge_item_list },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "MKFHANHHECB",
-            |m: &GridFightGameTeamInfo| { &m.MKFHANHHECB },
-            |m: &mut GridFightGameTeamInfo| { &mut m.MKFHANHHECB },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightGameTeamInfo>(
             "GridFightGameTeamInfo",
@@ -107,29 +107,29 @@ impl ::protobuf::Message for GridFightGameTeamInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                106 => {
-                    self.EOEMMAHAHIG.push(is.read_message()?);
+                42 => {
+                    is.read_repeated_packed_uint32_into(&mut self.CDLAIJCKJJN)?;
                 },
-                18 => {
+                40 => {
+                    self.CDLAIJCKJJN.push(is.read_uint32()?);
+                },
+                106 => {
+                    self.MMAJCLACOBN.push(is.read_message()?);
+                },
+                82 => {
                     self.grid_game_npc_list.push(is.read_message()?);
                 },
-                58 => {
+                114 => {
                     self.grid_game_role_list.push(is.read_message()?);
                 },
+                122 => {
+                    is.read_repeated_packed_uint32_into(&mut self.HOFIENMALOP)?;
+                },
+                120 => {
+                    self.HOFIENMALOP.push(is.read_uint32()?);
+                },
                 66 => {
-                    is.read_repeated_packed_uint32_into(&mut self.EFFFOODPHJF)?;
-                },
-                64 => {
-                    self.EFFFOODPHJF.push(is.read_uint32()?);
-                },
-                34 => {
                     self.grid_game_forge_item_list.push(is.read_message()?);
-                },
-                50 => {
-                    is.read_repeated_packed_uint32_into(&mut self.MKFHANHHECB)?;
-                },
-                48 => {
-                    self.MKFHANHHECB.push(is.read_uint32()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -143,7 +143,8 @@ impl ::protobuf::Message for GridFightGameTeamInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        for value in &self.EOEMMAHAHIG {
+        my_size += ::protobuf::rt::vec_packed_uint32_size(5, &self.CDLAIJCKJJN);
+        for value in &self.MMAJCLACOBN {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
@@ -155,32 +156,31 @@ impl ::protobuf::Message for GridFightGameTeamInfo {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        my_size += ::protobuf::rt::vec_packed_uint32_size(8, &self.EFFFOODPHJF);
+        my_size += ::protobuf::rt::vec_packed_uint32_size(15, &self.HOFIENMALOP);
         for value in &self.grid_game_forge_item_list {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        my_size += ::protobuf::rt::vec_packed_uint32_size(6, &self.MKFHANHHECB);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.EOEMMAHAHIG {
+        os.write_repeated_packed_uint32(5, &self.CDLAIJCKJJN)?;
+        for v in &self.MMAJCLACOBN {
             ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
         };
         for v in &self.grid_game_npc_list {
-            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
         };
         for v in &self.grid_game_role_list {
-            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
         };
-        os.write_repeated_packed_uint32(8, &self.EFFFOODPHJF)?;
+        os.write_repeated_packed_uint32(15, &self.HOFIENMALOP)?;
         for v in &self.grid_game_forge_item_list {
-            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
         };
-        os.write_repeated_packed_uint32(6, &self.MKFHANHHECB)?;
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -198,23 +198,23 @@ impl ::protobuf::Message for GridFightGameTeamInfo {
     }
 
     fn clear(&mut self) {
-        self.EOEMMAHAHIG.clear();
+        self.CDLAIJCKJJN.clear();
+        self.MMAJCLACOBN.clear();
         self.grid_game_npc_list.clear();
         self.grid_game_role_list.clear();
-        self.EFFFOODPHJF.clear();
+        self.HOFIENMALOP.clear();
         self.grid_game_forge_item_list.clear();
-        self.MKFHANHHECB.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightGameTeamInfo {
         static instance: GridFightGameTeamInfo = GridFightGameTeamInfo {
-            EOEMMAHAHIG: ::std::vec::Vec::new(),
+            CDLAIJCKJJN: ::std::vec::Vec::new(),
+            MMAJCLACOBN: ::std::vec::Vec::new(),
             grid_game_npc_list: ::std::vec::Vec::new(),
             grid_game_role_list: ::std::vec::Vec::new(),
-            EFFFOODPHJF: ::std::vec::Vec::new(),
+            HOFIENMALOP: ::std::vec::Vec::new(),
             grid_game_forge_item_list: ::std::vec::Vec::new(),
-            MKFHANHHECB: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -239,16 +239,16 @@ impl ::protobuf::reflect::ProtobufValue for GridFightGameTeamInfo {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1bGridFightGameTeamInfo.proto\x1a\x1bGridGameForgeItemInfo.proto\x1a\
-    \x15GridGameNpcInfo.proto\x1a\x16GridGameRoleInfo.proto\x1a\x11NEAOHJMAP\
-    JN.proto\"\xde\x02\n\x15GridFightGameTeamInfo\x12.\n\x0bEOEMMAHAHIG\x18\
-    \r\x20\x03(\x0b2\x0c.NEAOHJMAPJNR\x0bEOEMMAHAHIG\x12=\n\x12grid_game_npc\
-    _list\x18\x02\x20\x03(\x0b2\x10.GridGameNpcInfoR\x0fgridGameNpcList\x12@\
-    \n\x13grid_game_role_list\x18\x07\x20\x03(\x0b2\x11.GridGameRoleInfoR\
-    \x10gridGameRoleList\x12\x20\n\x0bEFFFOODPHJF\x18\x08\x20\x03(\rR\x0bEFF\
-    FOODPHJF\x12P\n\x19grid_game_forge_item_list\x18\x04\x20\x03(\x0b2\x16.G\
-    ridGameForgeItemInfoR\x15gridGameForgeItemList\x12\x20\n\x0bMKFHANHHECB\
-    \x18\x06\x20\x03(\rR\x0bMKFHANHHECBb\x06proto3\
+    \n\x1bGridFightGameTeamInfo.proto\x1a\x11CKCKIDHMMEG.proto\x1a\x1bGridGa\
+    meForgeItemInfo.proto\x1a\x15GridGameNpcInfo.proto\x1a\x16GridGameRoleIn\
+    fo.proto\"\xde\x02\n\x15GridFightGameTeamInfo\x12\x20\n\x0bCDLAIJCKJJN\
+    \x18\x05\x20\x03(\rR\x0bCDLAIJCKJJN\x12.\n\x0bMMAJCLACOBN\x18\r\x20\x03(\
+    \x0b2\x0c.CKCKIDHMMEGR\x0bMMAJCLACOBN\x12=\n\x12grid_game_npc_list\x18\n\
+    \x20\x03(\x0b2\x10.GridGameNpcInfoR\x0fgridGameNpcList\x12@\n\x13grid_ga\
+    me_role_list\x18\x0e\x20\x03(\x0b2\x11.GridGameRoleInfoR\x10gridGameRole\
+    List\x12\x20\n\x0bHOFIENMALOP\x18\x0f\x20\x03(\rR\x0bHOFIENMALOP\x12P\n\
+    \x19grid_game_forge_item_list\x18\x08\x20\x03(\x0b2\x16.GridGameForgeIte\
+    mInfoR\x15gridGameForgeItemListb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -266,10 +266,10 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(4);
+            deps.push(super::CKCKIDHMMEG::file_descriptor().clone());
             deps.push(super::GridGameForgeItemInfo::file_descriptor().clone());
             deps.push(super::GridGameNpcInfo::file_descriptor().clone());
             deps.push(super::GridGameRoleInfo::file_descriptor().clone());
-            deps.push(super::NEAOHJMAPJN::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GridFightGameTeamInfo::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

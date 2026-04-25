@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct TakeHipplenEndingRewardScRsp {
     // message fields
+    // @@protoc_insertion_point(field:TakeHipplenEndingRewardScRsp.DKPCDLDDONG)
+    pub DKPCDLDDONG: u32,
     // @@protoc_insertion_point(field:TakeHipplenEndingRewardScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:TakeHipplenEndingRewardScRsp.NODEHMDDKCA)
-    pub NODEHMDDKCA: u32,
     // @@protoc_insertion_point(field:TakeHipplenEndingRewardScRsp.reward_list)
     pub reward_list: ::protobuf::MessageField<super::ItemList::ItemList>,
     // special fields
@@ -54,14 +54,14 @@ impl TakeHipplenEndingRewardScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "DKPCDLDDONG",
+            |m: &TakeHipplenEndingRewardScRsp| { &m.DKPCDLDDONG },
+            |m: &mut TakeHipplenEndingRewardScRsp| { &mut m.DKPCDLDDONG },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &TakeHipplenEndingRewardScRsp| { &m.retcode },
             |m: &mut TakeHipplenEndingRewardScRsp| { &mut m.retcode },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "NODEHMDDKCA",
-            |m: &TakeHipplenEndingRewardScRsp| { &m.NODEHMDDKCA },
-            |m: &mut TakeHipplenEndingRewardScRsp| { &mut m.NODEHMDDKCA },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemList::ItemList>(
             "reward_list",
@@ -86,13 +86,13 @@ impl ::protobuf::Message for TakeHipplenEndingRewardScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                64 => {
+                104 => {
+                    self.DKPCDLDDONG = is.read_uint32()?;
+                },
+                112 => {
                     self.retcode = is.read_uint32()?;
                 },
-                120 => {
-                    self.NODEHMDDKCA = is.read_uint32()?;
-                },
-                58 => {
+                18 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.reward_list)?;
                 },
                 tag => {
@@ -107,11 +107,11 @@ impl ::protobuf::Message for TakeHipplenEndingRewardScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.retcode);
+        if self.DKPCDLDDONG != 0 {
+            my_size += ::protobuf::rt::uint32_size(13, self.DKPCDLDDONG);
         }
-        if self.NODEHMDDKCA != 0 {
-            my_size += ::protobuf::rt::uint32_size(15, self.NODEHMDDKCA);
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(14, self.retcode);
         }
         if let Some(v) = self.reward_list.as_ref() {
             let len = v.compute_size();
@@ -123,14 +123,14 @@ impl ::protobuf::Message for TakeHipplenEndingRewardScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.retcode != 0 {
-            os.write_uint32(8, self.retcode)?;
+        if self.DKPCDLDDONG != 0 {
+            os.write_uint32(13, self.DKPCDLDDONG)?;
         }
-        if self.NODEHMDDKCA != 0 {
-            os.write_uint32(15, self.NODEHMDDKCA)?;
+        if self.retcode != 0 {
+            os.write_uint32(14, self.retcode)?;
         }
         if let Some(v) = self.reward_list.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -149,16 +149,16 @@ impl ::protobuf::Message for TakeHipplenEndingRewardScRsp {
     }
 
     fn clear(&mut self) {
+        self.DKPCDLDDONG = 0;
         self.retcode = 0;
-        self.NODEHMDDKCA = 0;
         self.reward_list.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static TakeHipplenEndingRewardScRsp {
         static instance: TakeHipplenEndingRewardScRsp = TakeHipplenEndingRewardScRsp {
+            DKPCDLDDONG: 0,
             retcode: 0,
-            NODEHMDDKCA: 0,
             reward_list: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -185,9 +185,9 @@ impl ::protobuf::reflect::ProtobufValue for TakeHipplenEndingRewardScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\"TakeHipplenEndingRewardScRsp.proto\x1a\x0eItemList.proto\"\x86\x01\n\
-    \x1cTakeHipplenEndingRewardScRsp\x12\x18\n\x07retcode\x18\x08\x20\x01(\r\
-    R\x07retcode\x12\x20\n\x0bNODEHMDDKCA\x18\x0f\x20\x01(\rR\x0bNODEHMDDKCA\
-    \x12*\n\x0breward_list\x18\x07\x20\x01(\x0b2\t.ItemListR\nrewardListb\
+    \x1cTakeHipplenEndingRewardScRsp\x12\x20\n\x0bDKPCDLDDONG\x18\r\x20\x01(\
+    \rR\x0bDKPCDLDDONG\x12\x18\n\x07retcode\x18\x0e\x20\x01(\rR\x07retcode\
+    \x12*\n\x0breward_list\x18\x02\x20\x01(\x0b2\t.ItemListR\nrewardListb\
     \x06proto3\
 ";
 

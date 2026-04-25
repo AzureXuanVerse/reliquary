@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct RogueTournReviveAvatarScRsp {
     // message fields
+    // @@protoc_insertion_point(field:RogueTournReviveAvatarScRsp.EBMKBDJMAAF)
+    pub EBMKBDJMAAF: ::protobuf::MessageField<super::ItemCostData::ItemCostData>,
     // @@protoc_insertion_point(field:RogueTournReviveAvatarScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:RogueTournReviveAvatarScRsp.IIJBOBNLOAD)
-    pub IIJBOBNLOAD: ::protobuf::MessageField<super::ItemCostData::ItemCostData>,
     // special fields
     // @@protoc_insertion_point(special_field:RogueTournReviveAvatarScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -51,15 +51,15 @@ impl RogueTournReviveAvatarScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemCostData::ItemCostData>(
+            "EBMKBDJMAAF",
+            |m: &RogueTournReviveAvatarScRsp| { &m.EBMKBDJMAAF },
+            |m: &mut RogueTournReviveAvatarScRsp| { &mut m.EBMKBDJMAAF },
+        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &RogueTournReviveAvatarScRsp| { &m.retcode },
             |m: &mut RogueTournReviveAvatarScRsp| { &mut m.retcode },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemCostData::ItemCostData>(
-            "IIJBOBNLOAD",
-            |m: &RogueTournReviveAvatarScRsp| { &m.IIJBOBNLOAD },
-            |m: &mut RogueTournReviveAvatarScRsp| { &mut m.IIJBOBNLOAD },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<RogueTournReviveAvatarScRsp>(
             "RogueTournReviveAvatarScRsp",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for RogueTournReviveAvatarScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                40 => {
-                    self.retcode = is.read_uint32()?;
+                42 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.EBMKBDJMAAF)?;
                 },
-                82 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.IIJBOBNLOAD)?;
+                8 => {
+                    self.retcode = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,12 +97,12 @@ impl ::protobuf::Message for RogueTournReviveAvatarScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(5, self.retcode);
-        }
-        if let Some(v) = self.IIJBOBNLOAD.as_ref() {
+        if let Some(v) = self.EBMKBDJMAAF.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(1, self.retcode);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,11 +110,11 @@ impl ::protobuf::Message for RogueTournReviveAvatarScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.retcode != 0 {
-            os.write_uint32(5, self.retcode)?;
+        if let Some(v) = self.EBMKBDJMAAF.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
         }
-        if let Some(v) = self.IIJBOBNLOAD.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
+        if self.retcode != 0 {
+            os.write_uint32(1, self.retcode)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -133,15 +133,15 @@ impl ::protobuf::Message for RogueTournReviveAvatarScRsp {
     }
 
     fn clear(&mut self) {
+        self.EBMKBDJMAAF.clear();
         self.retcode = 0;
-        self.IIJBOBNLOAD.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static RogueTournReviveAvatarScRsp {
         static instance: RogueTournReviveAvatarScRsp = RogueTournReviveAvatarScRsp {
+            EBMKBDJMAAF: ::protobuf::MessageField::none(),
             retcode: 0,
-            IIJBOBNLOAD: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -167,9 +167,9 @@ impl ::protobuf::reflect::ProtobufValue for RogueTournReviveAvatarScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n!RogueTournReviveAvatarScRsp.proto\x1a\x12ItemCostData.proto\"h\n\x1bR\
-    ogueTournReviveAvatarScRsp\x12\x18\n\x07retcode\x18\x05\x20\x01(\rR\x07r\
-    etcode\x12/\n\x0bIIJBOBNLOAD\x18\n\x20\x01(\x0b2\r.ItemCostDataR\x0bIIJB\
-    OBNLOADb\x06proto3\
+    ogueTournReviveAvatarScRsp\x12/\n\x0bEBMKBDJMAAF\x18\x05\x20\x01(\x0b2\r\
+    .ItemCostDataR\x0bEBMKBDJMAAF\x12\x18\n\x07retcode\x18\x01\x20\x01(\rR\
+    \x07retcodeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

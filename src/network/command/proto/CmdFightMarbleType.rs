@@ -27,8 +27,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdFightMarbleType)
 pub enum CmdFightMarbleType {
-    // @@protoc_insertion_point(enum_value:CmdFightMarbleType.CmdFightMarbleType_MNFEPONEDDJ)
-    CmdFightMarbleType_MNFEPONEDDJ = 0,
+    // @@protoc_insertion_point(enum_value:CmdFightMarbleType.DGMIHMFNOMB_PCPDHELPKEM)
+    DGMIHMFNOMB_PCPDHELPKEM = 0,
 }
 
 impl ::protobuf::Enum for CmdFightMarbleType {
@@ -40,20 +40,20 @@ impl ::protobuf::Enum for CmdFightMarbleType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdFightMarbleType> {
         match value {
-            0 => ::std::option::Option::Some(CmdFightMarbleType::CmdFightMarbleType_MNFEPONEDDJ),
+            0 => ::std::option::Option::Some(CmdFightMarbleType::DGMIHMFNOMB_PCPDHELPKEM),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdFightMarbleType> {
         match str {
-            "CmdFightMarbleType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdFightMarbleType::CmdFightMarbleType_MNFEPONEDDJ),
+            "DGMIHMFNOMB_PCPDHELPKEM" => ::std::option::Option::Some(CmdFightMarbleType::DGMIHMFNOMB_PCPDHELPKEM),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdFightMarbleType] = &[
-        CmdFightMarbleType::CmdFightMarbleType_MNFEPONEDDJ,
+        CmdFightMarbleType::DGMIHMFNOMB_PCPDHELPKEM,
     ];
 }
 
@@ -71,7 +71,7 @@ impl ::protobuf::EnumFull for CmdFightMarbleType {
 
 impl ::std::default::Default for CmdFightMarbleType {
     fn default() -> Self {
-        CmdFightMarbleType::CmdFightMarbleType_MNFEPONEDDJ
+        CmdFightMarbleType::DGMIHMFNOMB_PCPDHELPKEM
     }
 }
 
@@ -82,8 +82,8 @@ impl CmdFightMarbleType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x18CmdFightMarbleType.proto*8\n\x12CmdFightMarbleType\x12\"\n\x1eCmdF\
-    ightMarbleType_MNFEPONEDDJ\x10\0b\x06proto3\
+    \n\x18CmdFightMarbleType.proto*1\n\x12CmdFightMarbleType\x12\x1b\n\x17DG\
+    MIHMFNOMB_PCPDHELPKEM\x10\0b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

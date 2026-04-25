@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ChenLingUnlockGridCsReq {
     // message fields
-    // @@protoc_insertion_point(field:ChenLingUnlockGridCsReq.LBHGHOKAHBP)
-    pub LBHGHOKAHBP: ::protobuf::MessageField<super::KNNPOMIFGLJ::KNNPOMIFGLJ>,
+    // @@protoc_insertion_point(field:ChenLingUnlockGridCsReq.EFOFLGIDKKK)
+    pub EFOFLGIDKKK: ::protobuf::MessageField<super::FDOEMKPGHFL::FDOEMKPGHFL>,
     // special fields
     // @@protoc_insertion_point(special_field:ChenLingUnlockGridCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -49,10 +49,10 @@ impl ChenLingUnlockGridCsReq {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::KNNPOMIFGLJ::KNNPOMIFGLJ>(
-            "LBHGHOKAHBP",
-            |m: &ChenLingUnlockGridCsReq| { &m.LBHGHOKAHBP },
-            |m: &mut ChenLingUnlockGridCsReq| { &mut m.LBHGHOKAHBP },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::FDOEMKPGHFL::FDOEMKPGHFL>(
+            "EFOFLGIDKKK",
+            |m: &ChenLingUnlockGridCsReq| { &m.EFOFLGIDKKK },
+            |m: &mut ChenLingUnlockGridCsReq| { &mut m.EFOFLGIDKKK },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ChenLingUnlockGridCsReq>(
             "ChenLingUnlockGridCsReq",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for ChenLingUnlockGridCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                50 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.LBHGHOKAHBP)?;
+                122 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.EFOFLGIDKKK)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,7 +87,7 @@ impl ::protobuf::Message for ChenLingUnlockGridCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.LBHGHOKAHBP.as_ref() {
+        if let Some(v) = self.EFOFLGIDKKK.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -97,8 +97,8 @@ impl ::protobuf::Message for ChenLingUnlockGridCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.LBHGHOKAHBP.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
+        if let Some(v) = self.EFOFLGIDKKK.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -117,13 +117,13 @@ impl ::protobuf::Message for ChenLingUnlockGridCsReq {
     }
 
     fn clear(&mut self) {
-        self.LBHGHOKAHBP.clear();
+        self.EFOFLGIDKKK.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ChenLingUnlockGridCsReq {
         static instance: ChenLingUnlockGridCsReq = ChenLingUnlockGridCsReq {
-            LBHGHOKAHBP: ::protobuf::MessageField::none(),
+            EFOFLGIDKKK: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -148,9 +148,9 @@ impl ::protobuf::reflect::ProtobufValue for ChenLingUnlockGridCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1dChenLingUnlockGridCsReq.proto\x1a\x11KNNPOMIFGLJ.proto\"I\n\x17Che\
-    nLingUnlockGridCsReq\x12.\n\x0bLBHGHOKAHBP\x18\x06\x20\x01(\x0b2\x0c.KNN\
-    POMIFGLJR\x0bLBHGHOKAHBPb\x06proto3\
+    \n\x1dChenLingUnlockGridCsReq.proto\x1a\x11FDOEMKPGHFL.proto\"I\n\x17Che\
+    nLingUnlockGridCsReq\x12.\n\x0bEFOFLGIDKKK\x18\x0f\x20\x01(\x0b2\x0c.FDO\
+    EMKPGHFLR\x0bEFOFLGIDKKKb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -168,7 +168,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::KNNPOMIFGLJ::file_descriptor().clone());
+            deps.push(super::FDOEMKPGHFL::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(ChenLingUnlockGridCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

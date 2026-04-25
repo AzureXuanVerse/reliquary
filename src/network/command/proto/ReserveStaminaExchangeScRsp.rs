@@ -79,7 +79,7 @@ impl ::protobuf::Message for ReserveStaminaExchangeScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                64 => {
+                24 => {
                     self.num = is.read_uint32()?;
                 },
                 48 => {
@@ -98,7 +98,7 @@ impl ::protobuf::Message for ReserveStaminaExchangeScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.num != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.num);
+            my_size += ::protobuf::rt::uint32_size(3, self.num);
         }
         if self.retcode != 0 {
             my_size += ::protobuf::rt::uint32_size(6, self.retcode);
@@ -110,7 +110,7 @@ impl ::protobuf::Message for ReserveStaminaExchangeScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.num != 0 {
-            os.write_uint32(8, self.num)?;
+            os.write_uint32(3, self.num)?;
         }
         if self.retcode != 0 {
             os.write_uint32(6, self.retcode)?;
@@ -166,7 +166,7 @@ impl ::protobuf::reflect::ProtobufValue for ReserveStaminaExchangeScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n!ReserveStaminaExchangeScRsp.proto\"I\n\x1bReserveStaminaExchangeScRsp\
-    \x12\x10\n\x03num\x18\x08\x20\x01(\rR\x03num\x12\x18\n\x07retcode\x18\
+    \x12\x10\n\x03num\x18\x03\x20\x01(\rR\x03num\x12\x18\n\x07retcode\x18\
     \x06\x20\x01(\rR\x07retcodeb\x06proto3\
 ";
 

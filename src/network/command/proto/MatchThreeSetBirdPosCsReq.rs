@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct MatchThreeSetBirdPosCsReq {
     // message fields
+    // @@protoc_insertion_point(field:MatchThreeSetBirdPosCsReq.NLOCDHMLGJH)
+    pub NLOCDHMLGJH: u32,
     // @@protoc_insertion_point(field:MatchThreeSetBirdPosCsReq.pos)
     pub pos: u32,
-    // @@protoc_insertion_point(field:MatchThreeSetBirdPosCsReq.ADOGOONNMOI)
-    pub ADOGOONNMOI: u32,
     // special fields
     // @@protoc_insertion_point(special_field:MatchThreeSetBirdPosCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl MatchThreeSetBirdPosCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "NLOCDHMLGJH",
+            |m: &MatchThreeSetBirdPosCsReq| { &m.NLOCDHMLGJH },
+            |m: &mut MatchThreeSetBirdPosCsReq| { &mut m.NLOCDHMLGJH },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "pos",
             |m: &MatchThreeSetBirdPosCsReq| { &m.pos },
             |m: &mut MatchThreeSetBirdPosCsReq| { &mut m.pos },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "ADOGOONNMOI",
-            |m: &MatchThreeSetBirdPosCsReq| { &m.ADOGOONNMOI },
-            |m: &mut MatchThreeSetBirdPosCsReq| { &mut m.ADOGOONNMOI },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<MatchThreeSetBirdPosCsReq>(
             "MatchThreeSetBirdPosCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for MatchThreeSetBirdPosCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                96 => {
-                    self.pos = is.read_uint32()?;
+                72 => {
+                    self.NLOCDHMLGJH = is.read_uint32()?;
                 },
-                16 => {
-                    self.ADOGOONNMOI = is.read_uint32()?;
+                56 => {
+                    self.pos = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for MatchThreeSetBirdPosCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.pos != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.pos);
+        if self.NLOCDHMLGJH != 0 {
+            my_size += ::protobuf::rt::uint32_size(9, self.NLOCDHMLGJH);
         }
-        if self.ADOGOONNMOI != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.ADOGOONNMOI);
+        if self.pos != 0 {
+            my_size += ::protobuf::rt::uint32_size(7, self.pos);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for MatchThreeSetBirdPosCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.pos != 0 {
-            os.write_uint32(12, self.pos)?;
+        if self.NLOCDHMLGJH != 0 {
+            os.write_uint32(9, self.NLOCDHMLGJH)?;
         }
-        if self.ADOGOONNMOI != 0 {
-            os.write_uint32(2, self.ADOGOONNMOI)?;
+        if self.pos != 0 {
+            os.write_uint32(7, self.pos)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,15 +132,15 @@ impl ::protobuf::Message for MatchThreeSetBirdPosCsReq {
     }
 
     fn clear(&mut self) {
+        self.NLOCDHMLGJH = 0;
         self.pos = 0;
-        self.ADOGOONNMOI = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static MatchThreeSetBirdPosCsReq {
         static instance: MatchThreeSetBirdPosCsReq = MatchThreeSetBirdPosCsReq {
+            NLOCDHMLGJH: 0,
             pos: 0,
-            ADOGOONNMOI: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for MatchThreeSetBirdPosCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1fMatchThreeSetBirdPosCsReq.proto\"O\n\x19MatchThreeSetBirdPosCsReq\
-    \x12\x10\n\x03pos\x18\x0c\x20\x01(\rR\x03pos\x12\x20\n\x0bADOGOONNMOI\
-    \x18\x02\x20\x01(\rR\x0bADOGOONNMOIb\x06proto3\
+    \x12\x20\n\x0bNLOCDHMLGJH\x18\t\x20\x01(\rR\x0bNLOCDHMLGJH\x12\x10\n\x03\
+    pos\x18\x07\x20\x01(\rR\x03posb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

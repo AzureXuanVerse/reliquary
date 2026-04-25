@@ -30,12 +30,12 @@ pub struct GridFightEquipCraftCsReq {
     // message fields
     // @@protoc_insertion_point(field:GridFightEquipCraftCsReq.craft_materials)
     pub craft_materials: ::std::vec::Vec<u32>,
-    // @@protoc_insertion_point(field:GridFightEquipCraftCsReq.BALIKHGCHDM)
-    pub BALIKHGCHDM: u32,
-    // @@protoc_insertion_point(field:GridFightEquipCraftCsReq.BPINLCKKJNB)
-    pub BPINLCKKJNB: u32,
+    // @@protoc_insertion_point(field:GridFightEquipCraftCsReq.EGLOACDPNLD)
+    pub EGLOACDPNLD: u32,
     // @@protoc_insertion_point(field:GridFightEquipCraftCsReq.source)
     pub source: ::protobuf::EnumOrUnknown<super::GridFightEquipCraftSource::GridFightEquipCraftSource>,
+    // @@protoc_insertion_point(field:GridFightEquipCraftCsReq.BGEKACPOAOP)
+    pub BGEKACPOAOP: u32,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightEquipCraftCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -61,19 +61,19 @@ impl GridFightEquipCraftCsReq {
             |m: &mut GridFightEquipCraftCsReq| { &mut m.craft_materials },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BALIKHGCHDM",
-            |m: &GridFightEquipCraftCsReq| { &m.BALIKHGCHDM },
-            |m: &mut GridFightEquipCraftCsReq| { &mut m.BALIKHGCHDM },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BPINLCKKJNB",
-            |m: &GridFightEquipCraftCsReq| { &m.BPINLCKKJNB },
-            |m: &mut GridFightEquipCraftCsReq| { &mut m.BPINLCKKJNB },
+            "EGLOACDPNLD",
+            |m: &GridFightEquipCraftCsReq| { &m.EGLOACDPNLD },
+            |m: &mut GridFightEquipCraftCsReq| { &mut m.EGLOACDPNLD },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "source",
             |m: &GridFightEquipCraftCsReq| { &m.source },
             |m: &mut GridFightEquipCraftCsReq| { &mut m.source },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "BGEKACPOAOP",
+            |m: &GridFightEquipCraftCsReq| { &m.BGEKACPOAOP },
+            |m: &mut GridFightEquipCraftCsReq| { &mut m.BGEKACPOAOP },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightEquipCraftCsReq>(
             "GridFightEquipCraftCsReq",
@@ -93,20 +93,20 @@ impl ::protobuf::Message for GridFightEquipCraftCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                18 => {
+                34 => {
                     is.read_repeated_packed_uint32_into(&mut self.craft_materials)?;
                 },
-                16 => {
+                32 => {
                     self.craft_materials.push(is.read_uint32()?);
                 },
-                32 => {
-                    self.BALIKHGCHDM = is.read_uint32()?;
+                96 => {
+                    self.EGLOACDPNLD = is.read_uint32()?;
                 },
-                40 => {
-                    self.BPINLCKKJNB = is.read_uint32()?;
-                },
-                104 => {
+                64 => {
                     self.source = is.read_enum_or_unknown()?;
+                },
+                56 => {
+                    self.BGEKACPOAOP = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -120,15 +120,15 @@ impl ::protobuf::Message for GridFightEquipCraftCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        my_size += ::protobuf::rt::vec_packed_uint32_size(2, &self.craft_materials);
-        if self.BALIKHGCHDM != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.BALIKHGCHDM);
+        my_size += ::protobuf::rt::vec_packed_uint32_size(4, &self.craft_materials);
+        if self.EGLOACDPNLD != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.EGLOACDPNLD);
         }
-        if self.BPINLCKKJNB != 0 {
-            my_size += ::protobuf::rt::uint32_size(5, self.BPINLCKKJNB);
+        if self.source != ::protobuf::EnumOrUnknown::new(super::GridFightEquipCraftSource::GridFightEquipCraftSource::BNMLEPCNCIH_AIALPDEJIJK) {
+            my_size += ::protobuf::rt::int32_size(8, self.source.value());
         }
-        if self.source != ::protobuf::EnumOrUnknown::new(super::GridFightEquipCraftSource::GridFightEquipCraftSource::GridFightEquipCraftSource_HDAHDHHILKH) {
-            my_size += ::protobuf::rt::int32_size(13, self.source.value());
+        if self.BGEKACPOAOP != 0 {
+            my_size += ::protobuf::rt::uint32_size(7, self.BGEKACPOAOP);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -136,15 +136,15 @@ impl ::protobuf::Message for GridFightEquipCraftCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        os.write_repeated_packed_uint32(2, &self.craft_materials)?;
-        if self.BALIKHGCHDM != 0 {
-            os.write_uint32(4, self.BALIKHGCHDM)?;
+        os.write_repeated_packed_uint32(4, &self.craft_materials)?;
+        if self.EGLOACDPNLD != 0 {
+            os.write_uint32(12, self.EGLOACDPNLD)?;
         }
-        if self.BPINLCKKJNB != 0 {
-            os.write_uint32(5, self.BPINLCKKJNB)?;
+        if self.source != ::protobuf::EnumOrUnknown::new(super::GridFightEquipCraftSource::GridFightEquipCraftSource::BNMLEPCNCIH_AIALPDEJIJK) {
+            os.write_enum(8, ::protobuf::EnumOrUnknown::value(&self.source))?;
         }
-        if self.source != ::protobuf::EnumOrUnknown::new(super::GridFightEquipCraftSource::GridFightEquipCraftSource::GridFightEquipCraftSource_HDAHDHHILKH) {
-            os.write_enum(13, ::protobuf::EnumOrUnknown::value(&self.source))?;
+        if self.BGEKACPOAOP != 0 {
+            os.write_uint32(7, self.BGEKACPOAOP)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -164,18 +164,18 @@ impl ::protobuf::Message for GridFightEquipCraftCsReq {
 
     fn clear(&mut self) {
         self.craft_materials.clear();
-        self.BALIKHGCHDM = 0;
-        self.BPINLCKKJNB = 0;
-        self.source = ::protobuf::EnumOrUnknown::new(super::GridFightEquipCraftSource::GridFightEquipCraftSource::GridFightEquipCraftSource_HDAHDHHILKH);
+        self.EGLOACDPNLD = 0;
+        self.source = ::protobuf::EnumOrUnknown::new(super::GridFightEquipCraftSource::GridFightEquipCraftSource::BNMLEPCNCIH_AIALPDEJIJK);
+        self.BGEKACPOAOP = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightEquipCraftCsReq {
         static instance: GridFightEquipCraftCsReq = GridFightEquipCraftCsReq {
             craft_materials: ::std::vec::Vec::new(),
-            BALIKHGCHDM: 0,
-            BPINLCKKJNB: 0,
+            EGLOACDPNLD: 0,
             source: ::protobuf::EnumOrUnknown::from_i32(0),
+            BGEKACPOAOP: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -202,10 +202,10 @@ impl ::protobuf::reflect::ProtobufValue for GridFightEquipCraftCsReq {
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1eGridFightEquipCraftCsReq.proto\x1a\x1fGridFightEquipCraftSource.pr\
     oto\"\xbb\x01\n\x18GridFightEquipCraftCsReq\x12'\n\x0fcraft_materials\
-    \x18\x02\x20\x03(\rR\x0ecraftMaterials\x12\x20\n\x0bBALIKHGCHDM\x18\x04\
-    \x20\x01(\rR\x0bBALIKHGCHDM\x12\x20\n\x0bBPINLCKKJNB\x18\x05\x20\x01(\rR\
-    \x0bBPINLCKKJNB\x122\n\x06source\x18\r\x20\x01(\x0e2\x1a.GridFightEquipC\
-    raftSourceR\x06sourceb\x06proto3\
+    \x18\x04\x20\x03(\rR\x0ecraftMaterials\x12\x20\n\x0bEGLOACDPNLD\x18\x0c\
+    \x20\x01(\rR\x0bEGLOACDPNLD\x122\n\x06source\x18\x08\x20\x01(\x0e2\x1a.G\
+    ridFightEquipCraftSourceR\x06source\x12\x20\n\x0bBGEKACPOAOP\x18\x07\x20\
+    \x01(\rR\x0bBGEKACPOAOPb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -30,8 +30,8 @@ pub struct GetShareDataScRsp {
     // message fields
     // @@protoc_insertion_point(field:GetShareDataScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:GetShareDataScRsp.NPIAMGGIDNP)
-    pub NPIAMGGIDNP: ::std::vec::Vec<super::JPMHKMPHAKM::JPMHKMPHAKM>,
+    // @@protoc_insertion_point(field:GetShareDataScRsp.HBDKOFIEJLK)
+    pub HBDKOFIEJLK: ::std::vec::Vec<super::LHMHFNBOAGC::LHMHFNBOAGC>,
     // special fields
     // @@protoc_insertion_point(special_field:GetShareDataScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,9 +57,9 @@ impl GetShareDataScRsp {
             |m: &mut GetShareDataScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "NPIAMGGIDNP",
-            |m: &GetShareDataScRsp| { &m.NPIAMGGIDNP },
-            |m: &mut GetShareDataScRsp| { &mut m.NPIAMGGIDNP },
+            "HBDKOFIEJLK",
+            |m: &GetShareDataScRsp| { &m.HBDKOFIEJLK },
+            |m: &mut GetShareDataScRsp| { &mut m.HBDKOFIEJLK },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetShareDataScRsp>(
             "GetShareDataScRsp",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for GetShareDataScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                64 => {
+                56 => {
                     self.retcode = is.read_uint32()?;
                 },
-                18 => {
-                    self.NPIAMGGIDNP.push(is.read_message()?);
+                98 => {
+                    self.HBDKOFIEJLK.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -98,9 +98,9 @@ impl ::protobuf::Message for GetShareDataScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(7, self.retcode);
         }
-        for value in &self.NPIAMGGIDNP {
+        for value in &self.HBDKOFIEJLK {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
@@ -111,10 +111,10 @@ impl ::protobuf::Message for GetShareDataScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.retcode != 0 {
-            os.write_uint32(8, self.retcode)?;
+            os.write_uint32(7, self.retcode)?;
         }
-        for v in &self.NPIAMGGIDNP {
-            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
+        for v in &self.HBDKOFIEJLK {
+            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
         };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -134,14 +134,14 @@ impl ::protobuf::Message for GetShareDataScRsp {
 
     fn clear(&mut self) {
         self.retcode = 0;
-        self.NPIAMGGIDNP.clear();
+        self.HBDKOFIEJLK.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetShareDataScRsp {
         static instance: GetShareDataScRsp = GetShareDataScRsp {
             retcode: 0,
-            NPIAMGGIDNP: ::std::vec::Vec::new(),
+            HBDKOFIEJLK: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,9 +166,9 @@ impl ::protobuf::reflect::ProtobufValue for GetShareDataScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x17GetShareDataScRsp.proto\x1a\x11JPMHKMPHAKM.proto\"]\n\x11GetShareD\
-    ataScRsp\x12\x18\n\x07retcode\x18\x08\x20\x01(\rR\x07retcode\x12.\n\x0bN\
-    PIAMGGIDNP\x18\x02\x20\x03(\x0b2\x0c.JPMHKMPHAKMR\x0bNPIAMGGIDNPb\x06pro\
+    \n\x17GetShareDataScRsp.proto\x1a\x11LHMHFNBOAGC.proto\"]\n\x11GetShareD\
+    ataScRsp\x12\x18\n\x07retcode\x18\x07\x20\x01(\rR\x07retcode\x12.\n\x0bH\
+    BDKOFIEJLK\x18\x0c\x20\x03(\x0b2\x0c.LHMHFNBOAGCR\x0bHBDKOFIEJLKb\x06pro\
     to3\
 ";
 
@@ -187,7 +187,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::JPMHKMPHAKM::file_descriptor().clone());
+            deps.push(super::LHMHFNBOAGC::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GetShareDataScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

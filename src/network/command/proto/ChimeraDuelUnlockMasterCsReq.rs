@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ChimeraDuelUnlockMasterCsReq {
     // message fields
-    // @@protoc_insertion_point(field:ChimeraDuelUnlockMasterCsReq.GIOEMCMCHLG)
-    pub GIOEMCMCHLG: u32,
+    // @@protoc_insertion_point(field:ChimeraDuelUnlockMasterCsReq.OFFIDMEJBGI)
+    pub OFFIDMEJBGI: u32,
     // special fields
     // @@protoc_insertion_point(special_field:ChimeraDuelUnlockMasterCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl ChimeraDuelUnlockMasterCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "GIOEMCMCHLG",
-            |m: &ChimeraDuelUnlockMasterCsReq| { &m.GIOEMCMCHLG },
-            |m: &mut ChimeraDuelUnlockMasterCsReq| { &mut m.GIOEMCMCHLG },
+            "OFFIDMEJBGI",
+            |m: &ChimeraDuelUnlockMasterCsReq| { &m.OFFIDMEJBGI },
+            |m: &mut ChimeraDuelUnlockMasterCsReq| { &mut m.OFFIDMEJBGI },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ChimeraDuelUnlockMasterCsReq>(
             "ChimeraDuelUnlockMasterCsReq",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for ChimeraDuelUnlockMasterCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                104 => {
-                    self.GIOEMCMCHLG = is.read_uint32()?;
+                88 => {
+                    self.OFFIDMEJBGI = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,8 +87,8 @@ impl ::protobuf::Message for ChimeraDuelUnlockMasterCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.GIOEMCMCHLG != 0 {
-            my_size += ::protobuf::rt::uint32_size(13, self.GIOEMCMCHLG);
+        if self.OFFIDMEJBGI != 0 {
+            my_size += ::protobuf::rt::uint32_size(11, self.OFFIDMEJBGI);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -96,8 +96,8 @@ impl ::protobuf::Message for ChimeraDuelUnlockMasterCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.GIOEMCMCHLG != 0 {
-            os.write_uint32(13, self.GIOEMCMCHLG)?;
+        if self.OFFIDMEJBGI != 0 {
+            os.write_uint32(11, self.OFFIDMEJBGI)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -116,13 +116,13 @@ impl ::protobuf::Message for ChimeraDuelUnlockMasterCsReq {
     }
 
     fn clear(&mut self) {
-        self.GIOEMCMCHLG = 0;
+        self.OFFIDMEJBGI = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ChimeraDuelUnlockMasterCsReq {
         static instance: ChimeraDuelUnlockMasterCsReq = ChimeraDuelUnlockMasterCsReq {
-            GIOEMCMCHLG: 0,
+            OFFIDMEJBGI: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -148,7 +148,8 @@ impl ::protobuf::reflect::ProtobufValue for ChimeraDuelUnlockMasterCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\"ChimeraDuelUnlockMasterCsReq.proto\"@\n\x1cChimeraDuelUnlockMasterCs\
-    Req\x12\x20\n\x0bGIOEMCMCHLG\x18\r\x20\x01(\rR\x0bGIOEMCMCHLGb\x06proto3\
+    Req\x12\x20\n\x0bOFFIDMEJBGI\x18\x0b\x20\x01(\rR\x0bOFFIDMEJBGIb\x06prot\
+    o3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

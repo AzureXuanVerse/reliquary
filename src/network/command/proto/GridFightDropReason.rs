@@ -27,12 +27,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:GridFightDropReason)
 pub enum GridFightDropReason {
-    // @@protoc_insertion_point(enum_value:GridFightDropReason.GridFightDropReason_AEHHAMGBNNO)
-    GridFightDropReason_AEHHAMGBNNO = 0,
-    // @@protoc_insertion_point(enum_value:GridFightDropReason.GridFightDropReason_PHHNOEJLHAC)
-    GridFightDropReason_PHHNOEJLHAC = 1,
-    // @@protoc_insertion_point(enum_value:GridFightDropReason.GridFightDropReason_GDCEEMFGBEO)
-    GridFightDropReason_GDCEEMFGBEO = 2,
+    // @@protoc_insertion_point(enum_value:GridFightDropReason.IMPMLADJIND_GDKBKCFJDMG)
+    IMPMLADJIND_GDKBKCFJDMG = 0,
+    // @@protoc_insertion_point(enum_value:GridFightDropReason.IMPMLADJIND_CLACJBHJCIE)
+    IMPMLADJIND_CLACJBHJCIE = 1,
+    // @@protoc_insertion_point(enum_value:GridFightDropReason.IMPMLADJIND_KMDIBEMFIBJ)
+    IMPMLADJIND_KMDIBEMFIBJ = 2,
 }
 
 impl ::protobuf::Enum for GridFightDropReason {
@@ -44,26 +44,26 @@ impl ::protobuf::Enum for GridFightDropReason {
 
     fn from_i32(value: i32) -> ::std::option::Option<GridFightDropReason> {
         match value {
-            0 => ::std::option::Option::Some(GridFightDropReason::GridFightDropReason_AEHHAMGBNNO),
-            1 => ::std::option::Option::Some(GridFightDropReason::GridFightDropReason_PHHNOEJLHAC),
-            2 => ::std::option::Option::Some(GridFightDropReason::GridFightDropReason_GDCEEMFGBEO),
+            0 => ::std::option::Option::Some(GridFightDropReason::IMPMLADJIND_GDKBKCFJDMG),
+            1 => ::std::option::Option::Some(GridFightDropReason::IMPMLADJIND_CLACJBHJCIE),
+            2 => ::std::option::Option::Some(GridFightDropReason::IMPMLADJIND_KMDIBEMFIBJ),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<GridFightDropReason> {
         match str {
-            "GridFightDropReason_AEHHAMGBNNO" => ::std::option::Option::Some(GridFightDropReason::GridFightDropReason_AEHHAMGBNNO),
-            "GridFightDropReason_PHHNOEJLHAC" => ::std::option::Option::Some(GridFightDropReason::GridFightDropReason_PHHNOEJLHAC),
-            "GridFightDropReason_GDCEEMFGBEO" => ::std::option::Option::Some(GridFightDropReason::GridFightDropReason_GDCEEMFGBEO),
+            "IMPMLADJIND_GDKBKCFJDMG" => ::std::option::Option::Some(GridFightDropReason::IMPMLADJIND_GDKBKCFJDMG),
+            "IMPMLADJIND_CLACJBHJCIE" => ::std::option::Option::Some(GridFightDropReason::IMPMLADJIND_CLACJBHJCIE),
+            "IMPMLADJIND_KMDIBEMFIBJ" => ::std::option::Option::Some(GridFightDropReason::IMPMLADJIND_KMDIBEMFIBJ),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [GridFightDropReason] = &[
-        GridFightDropReason::GridFightDropReason_AEHHAMGBNNO,
-        GridFightDropReason::GridFightDropReason_PHHNOEJLHAC,
-        GridFightDropReason::GridFightDropReason_GDCEEMFGBEO,
+        GridFightDropReason::IMPMLADJIND_GDKBKCFJDMG,
+        GridFightDropReason::IMPMLADJIND_CLACJBHJCIE,
+        GridFightDropReason::IMPMLADJIND_KMDIBEMFIBJ,
     ];
 }
 
@@ -81,7 +81,7 @@ impl ::protobuf::EnumFull for GridFightDropReason {
 
 impl ::std::default::Default for GridFightDropReason {
     fn default() -> Self {
-        GridFightDropReason::GridFightDropReason_AEHHAMGBNNO
+        GridFightDropReason::IMPMLADJIND_GDKBKCFJDMG
     }
 }
 
@@ -92,10 +92,9 @@ impl GridFightDropReason {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x19GridFightDropReason.proto*\x84\x01\n\x13GridFightDropReason\x12#\n\
-    \x1fGridFightDropReason_AEHHAMGBNNO\x10\0\x12#\n\x1fGridFightDropReason_\
-    PHHNOEJLHAC\x10\x01\x12#\n\x1fGridFightDropReason_GDCEEMFGBEO\x10\x02b\
-    \x06proto3\
+    \n\x19GridFightDropReason.proto*l\n\x13GridFightDropReason\x12\x1b\n\x17\
+    IMPMLADJIND_GDKBKCFJDMG\x10\0\x12\x1b\n\x17IMPMLADJIND_CLACJBHJCIE\x10\
+    \x01\x12\x1b\n\x17IMPMLADJIND_KMDIBEMFIBJ\x10\x02b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -30,10 +30,10 @@ pub struct SetRogueCollectionScRsp {
     // message fields
     // @@protoc_insertion_point(field:SetRogueCollectionScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:SetRogueCollectionScRsp.JPELGHPBODK)
-    pub JPELGHPBODK: ::std::vec::Vec<super::JKNNJFNLAOG::JKNNJFNLAOG>,
-    // @@protoc_insertion_point(field:SetRogueCollectionScRsp.JDMLLENCONH)
-    pub JDMLLENCONH: ::std::vec::Vec<super::BFJIDOMNALK::BFJIDOMNALK>,
+    // @@protoc_insertion_point(field:SetRogueCollectionScRsp.LNINOMPEBOB)
+    pub LNINOMPEBOB: ::std::vec::Vec<super::EPLGMCCNALG::EPLGMCCNALG>,
+    // @@protoc_insertion_point(field:SetRogueCollectionScRsp.IBNNOAJMAKE)
+    pub IBNNOAJMAKE: ::std::vec::Vec<super::MMPOOBGAEKE::MMPOOBGAEKE>,
     // special fields
     // @@protoc_insertion_point(special_field:SetRogueCollectionScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -59,14 +59,14 @@ impl SetRogueCollectionScRsp {
             |m: &mut SetRogueCollectionScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "JPELGHPBODK",
-            |m: &SetRogueCollectionScRsp| { &m.JPELGHPBODK },
-            |m: &mut SetRogueCollectionScRsp| { &mut m.JPELGHPBODK },
+            "LNINOMPEBOB",
+            |m: &SetRogueCollectionScRsp| { &m.LNINOMPEBOB },
+            |m: &mut SetRogueCollectionScRsp| { &mut m.LNINOMPEBOB },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "JDMLLENCONH",
-            |m: &SetRogueCollectionScRsp| { &m.JDMLLENCONH },
-            |m: &mut SetRogueCollectionScRsp| { &mut m.JDMLLENCONH },
+            "IBNNOAJMAKE",
+            |m: &SetRogueCollectionScRsp| { &m.IBNNOAJMAKE },
+            |m: &mut SetRogueCollectionScRsp| { &mut m.IBNNOAJMAKE },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<SetRogueCollectionScRsp>(
             "SetRogueCollectionScRsp",
@@ -89,11 +89,11 @@ impl ::protobuf::Message for SetRogueCollectionScRsp {
                 120 => {
                     self.retcode = is.read_uint32()?;
                 },
-                82 => {
-                    self.JPELGHPBODK.push(is.read_message()?);
+                66 => {
+                    self.LNINOMPEBOB.push(is.read_message()?);
                 },
-                58 => {
-                    self.JDMLLENCONH.push(is.read_message()?);
+                10 => {
+                    self.IBNNOAJMAKE.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -110,11 +110,11 @@ impl ::protobuf::Message for SetRogueCollectionScRsp {
         if self.retcode != 0 {
             my_size += ::protobuf::rt::uint32_size(15, self.retcode);
         }
-        for value in &self.JPELGHPBODK {
+        for value in &self.LNINOMPEBOB {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        for value in &self.JDMLLENCONH {
+        for value in &self.IBNNOAJMAKE {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
@@ -127,11 +127,11 @@ impl ::protobuf::Message for SetRogueCollectionScRsp {
         if self.retcode != 0 {
             os.write_uint32(15, self.retcode)?;
         }
-        for v in &self.JPELGHPBODK {
-            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
+        for v in &self.LNINOMPEBOB {
+            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
         };
-        for v in &self.JDMLLENCONH {
-            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
+        for v in &self.IBNNOAJMAKE {
+            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
         };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -151,16 +151,16 @@ impl ::protobuf::Message for SetRogueCollectionScRsp {
 
     fn clear(&mut self) {
         self.retcode = 0;
-        self.JPELGHPBODK.clear();
-        self.JDMLLENCONH.clear();
+        self.LNINOMPEBOB.clear();
+        self.IBNNOAJMAKE.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static SetRogueCollectionScRsp {
         static instance: SetRogueCollectionScRsp = SetRogueCollectionScRsp {
             retcode: 0,
-            JPELGHPBODK: ::std::vec::Vec::new(),
-            JDMLLENCONH: ::std::vec::Vec::new(),
+            LNINOMPEBOB: ::std::vec::Vec::new(),
+            IBNNOAJMAKE: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -185,11 +185,11 @@ impl ::protobuf::reflect::ProtobufValue for SetRogueCollectionScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1dSetRogueCollectionScRsp.proto\x1a\x11BFJIDOMNALK.proto\x1a\x11JKNN\
-    JFNLAOG.proto\"\x93\x01\n\x17SetRogueCollectionScRsp\x12\x18\n\x07retcod\
-    e\x18\x0f\x20\x01(\rR\x07retcode\x12.\n\x0bJPELGHPBODK\x18\n\x20\x03(\
-    \x0b2\x0c.JKNNJFNLAOGR\x0bJPELGHPBODK\x12.\n\x0bJDMLLENCONH\x18\x07\x20\
-    \x03(\x0b2\x0c.BFJIDOMNALKR\x0bJDMLLENCONHb\x06proto3\
+    \n\x1dSetRogueCollectionScRsp.proto\x1a\x11EPLGMCCNALG.proto\x1a\x11MMPO\
+    OBGAEKE.proto\"\x93\x01\n\x17SetRogueCollectionScRsp\x12\x18\n\x07retcod\
+    e\x18\x0f\x20\x01(\rR\x07retcode\x12.\n\x0bLNINOMPEBOB\x18\x08\x20\x03(\
+    \x0b2\x0c.EPLGMCCNALGR\x0bLNINOMPEBOB\x12.\n\x0bIBNNOAJMAKE\x18\x01\x20\
+    \x03(\x0b2\x0c.MMPOOBGAEKER\x0bIBNNOAJMAKEb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -207,8 +207,8 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
-            deps.push(super::BFJIDOMNALK::file_descriptor().clone());
-            deps.push(super::JKNNJFNLAOG::file_descriptor().clone());
+            deps.push(super::EPLGMCCNALG::file_descriptor().clone());
+            deps.push(super::MMPOOBGAEKE::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(SetRogueCollectionScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

@@ -27,36 +27,36 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdTalkEventType)
 pub enum CmdTalkEventType {
-    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTalkEventType_IEPGHAGDNBB)
-    CmdTalkEventType_IEPGHAGDNBB = 0,
-    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTalkEventType_CKMGFMODBGP)
-    CmdTalkEventType_CKMGFMODBGP = 2169,
-    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTalkEventType_MCCNPCJGEIH)
-    CmdTalkEventType_MCCNPCJGEIH = 2119,
-    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTalkEventType_NBPKKAJPOJG)
-    CmdTalkEventType_NBPKKAJPOJG = 2135,
-    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTalkEventType_BHKGHMLBMAG)
-    CmdTalkEventType_BHKGHMLBMAG = 2146,
-    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTalkEventType_ALFHBHLHIKI)
-    CmdTalkEventType_ALFHBHLHIKI = 2162,
-    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTalkEventType_IOHNLLCBCIP)
-    CmdTalkEventType_IOHNLLCBCIP = 2181,
-    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTalkEventType_HHGLNLHGMJG)
-    CmdTalkEventType_HHGLNLHGMJG = 2200,
-    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTalkEventType_BFBKAOKBFDD)
-    CmdTalkEventType_BFBKAOKBFDD = 2183,
-    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTalkEventType_OJLPDPEDKLP)
-    CmdTalkEventType_OJLPDPEDKLP = 2157,
-    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTalkEventType_OJAAHADOGCB)
-    CmdTalkEventType_OJAAHADOGCB = 2140,
-    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTalkEventType_FPMCGOCGCGL)
-    CmdTalkEventType_FPMCGOCGCGL = 2124,
-    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTalkEventType_CJGJOLMKIDD)
-    CmdTalkEventType_CJGJOLMKIDD = 2184,
-    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTalkEventType_KEDOMHCEJGK)
-    CmdTalkEventType_KEDOMHCEJGK = 2113,
-    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTalkEventType_EABBFFHPKJJ)
-    CmdTalkEventType_EABBFFHPKJJ = 2104,
+    // @@protoc_insertion_point(enum_value:CmdTalkEventType.KPDFEMPKMAD_CCINLAACDAL)
+    KPDFEMPKMAD_CCINLAACDAL = 0,
+    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdFinishFirstTalkByPerformanceNpcCsReq)
+    CmdFinishFirstTalkByPerformanceNpcCsReq = 2174,
+    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdFinishFirstTalkNpcScRsp)
+    CmdFinishFirstTalkNpcScRsp = 2198,
+    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdKBEEJOEHONO)
+    CmdKBEEJOEHONO = 2163,
+    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdGetTalkEventRewardCsReq)
+    CmdGetTalkEventRewardCsReq = 2194,
+    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdGetFirstTalkNpcCsReq)
+    CmdGetFirstTalkNpcCsReq = 2114,
+    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdCHKNIKPEPAM)
+    CmdCHKNIKPEPAM = 2126,
+    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdFinishFirstTalkNpcCsReq)
+    CmdFinishFirstTalkNpcCsReq = 2109,
+    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdFinishFirstTalkByPerformanceNpcScRsp)
+    CmdFinishFirstTalkByPerformanceNpcScRsp = 2137,
+    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdGetNpcTakenRewardScRsp)
+    CmdGetNpcTakenRewardScRsp = 2110,
+    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdTakeTalkRewardScRsp)
+    CmdTakeTalkRewardScRsp = 2195,
+    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdGetReceivedTalkEventsCsReq)
+    CmdGetReceivedTalkEventsCsReq = 2191,
+    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdGetFirstTalkByPerformanceNpcCsReq)
+    CmdGetFirstTalkByPerformanceNpcCsReq = 2139,
+    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdGetFirstTalkNpcScRsp)
+    CmdGetFirstTalkNpcScRsp = 2118,
+    // @@protoc_insertion_point(enum_value:CmdTalkEventType.CmdGetFirstTalkByPerformanceNpcScRsp)
+    CmdGetFirstTalkByPerformanceNpcScRsp = 2101,
 }
 
 impl ::protobuf::Enum for CmdTalkEventType {
@@ -68,62 +68,62 @@ impl ::protobuf::Enum for CmdTalkEventType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdTalkEventType> {
         match value {
-            0 => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_IEPGHAGDNBB),
-            2169 => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_CKMGFMODBGP),
-            2119 => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_MCCNPCJGEIH),
-            2135 => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_NBPKKAJPOJG),
-            2146 => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_BHKGHMLBMAG),
-            2162 => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_ALFHBHLHIKI),
-            2181 => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_IOHNLLCBCIP),
-            2200 => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_HHGLNLHGMJG),
-            2183 => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_BFBKAOKBFDD),
-            2157 => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_OJLPDPEDKLP),
-            2140 => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_OJAAHADOGCB),
-            2124 => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_FPMCGOCGCGL),
-            2184 => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_CJGJOLMKIDD),
-            2113 => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_KEDOMHCEJGK),
-            2104 => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_EABBFFHPKJJ),
+            0 => ::std::option::Option::Some(CmdTalkEventType::KPDFEMPKMAD_CCINLAACDAL),
+            2174 => ::std::option::Option::Some(CmdTalkEventType::CmdFinishFirstTalkByPerformanceNpcCsReq),
+            2198 => ::std::option::Option::Some(CmdTalkEventType::CmdFinishFirstTalkNpcScRsp),
+            2163 => ::std::option::Option::Some(CmdTalkEventType::CmdKBEEJOEHONO),
+            2194 => ::std::option::Option::Some(CmdTalkEventType::CmdGetTalkEventRewardCsReq),
+            2114 => ::std::option::Option::Some(CmdTalkEventType::CmdGetFirstTalkNpcCsReq),
+            2126 => ::std::option::Option::Some(CmdTalkEventType::CmdCHKNIKPEPAM),
+            2109 => ::std::option::Option::Some(CmdTalkEventType::CmdFinishFirstTalkNpcCsReq),
+            2137 => ::std::option::Option::Some(CmdTalkEventType::CmdFinishFirstTalkByPerformanceNpcScRsp),
+            2110 => ::std::option::Option::Some(CmdTalkEventType::CmdGetNpcTakenRewardScRsp),
+            2195 => ::std::option::Option::Some(CmdTalkEventType::CmdTakeTalkRewardScRsp),
+            2191 => ::std::option::Option::Some(CmdTalkEventType::CmdGetReceivedTalkEventsCsReq),
+            2139 => ::std::option::Option::Some(CmdTalkEventType::CmdGetFirstTalkByPerformanceNpcCsReq),
+            2118 => ::std::option::Option::Some(CmdTalkEventType::CmdGetFirstTalkNpcScRsp),
+            2101 => ::std::option::Option::Some(CmdTalkEventType::CmdGetFirstTalkByPerformanceNpcScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdTalkEventType> {
         match str {
-            "CmdTalkEventType_IEPGHAGDNBB" => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_IEPGHAGDNBB),
-            "CmdTalkEventType_CKMGFMODBGP" => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_CKMGFMODBGP),
-            "CmdTalkEventType_MCCNPCJGEIH" => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_MCCNPCJGEIH),
-            "CmdTalkEventType_NBPKKAJPOJG" => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_NBPKKAJPOJG),
-            "CmdTalkEventType_BHKGHMLBMAG" => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_BHKGHMLBMAG),
-            "CmdTalkEventType_ALFHBHLHIKI" => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_ALFHBHLHIKI),
-            "CmdTalkEventType_IOHNLLCBCIP" => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_IOHNLLCBCIP),
-            "CmdTalkEventType_HHGLNLHGMJG" => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_HHGLNLHGMJG),
-            "CmdTalkEventType_BFBKAOKBFDD" => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_BFBKAOKBFDD),
-            "CmdTalkEventType_OJLPDPEDKLP" => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_OJLPDPEDKLP),
-            "CmdTalkEventType_OJAAHADOGCB" => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_OJAAHADOGCB),
-            "CmdTalkEventType_FPMCGOCGCGL" => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_FPMCGOCGCGL),
-            "CmdTalkEventType_CJGJOLMKIDD" => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_CJGJOLMKIDD),
-            "CmdTalkEventType_KEDOMHCEJGK" => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_KEDOMHCEJGK),
-            "CmdTalkEventType_EABBFFHPKJJ" => ::std::option::Option::Some(CmdTalkEventType::CmdTalkEventType_EABBFFHPKJJ),
+            "KPDFEMPKMAD_CCINLAACDAL" => ::std::option::Option::Some(CmdTalkEventType::KPDFEMPKMAD_CCINLAACDAL),
+            "CmdFinishFirstTalkByPerformanceNpcCsReq" => ::std::option::Option::Some(CmdTalkEventType::CmdFinishFirstTalkByPerformanceNpcCsReq),
+            "CmdFinishFirstTalkNpcScRsp" => ::std::option::Option::Some(CmdTalkEventType::CmdFinishFirstTalkNpcScRsp),
+            "CmdKBEEJOEHONO" => ::std::option::Option::Some(CmdTalkEventType::CmdKBEEJOEHONO),
+            "CmdGetTalkEventRewardCsReq" => ::std::option::Option::Some(CmdTalkEventType::CmdGetTalkEventRewardCsReq),
+            "CmdGetFirstTalkNpcCsReq" => ::std::option::Option::Some(CmdTalkEventType::CmdGetFirstTalkNpcCsReq),
+            "CmdCHKNIKPEPAM" => ::std::option::Option::Some(CmdTalkEventType::CmdCHKNIKPEPAM),
+            "CmdFinishFirstTalkNpcCsReq" => ::std::option::Option::Some(CmdTalkEventType::CmdFinishFirstTalkNpcCsReq),
+            "CmdFinishFirstTalkByPerformanceNpcScRsp" => ::std::option::Option::Some(CmdTalkEventType::CmdFinishFirstTalkByPerformanceNpcScRsp),
+            "CmdGetNpcTakenRewardScRsp" => ::std::option::Option::Some(CmdTalkEventType::CmdGetNpcTakenRewardScRsp),
+            "CmdTakeTalkRewardScRsp" => ::std::option::Option::Some(CmdTalkEventType::CmdTakeTalkRewardScRsp),
+            "CmdGetReceivedTalkEventsCsReq" => ::std::option::Option::Some(CmdTalkEventType::CmdGetReceivedTalkEventsCsReq),
+            "CmdGetFirstTalkByPerformanceNpcCsReq" => ::std::option::Option::Some(CmdTalkEventType::CmdGetFirstTalkByPerformanceNpcCsReq),
+            "CmdGetFirstTalkNpcScRsp" => ::std::option::Option::Some(CmdTalkEventType::CmdGetFirstTalkNpcScRsp),
+            "CmdGetFirstTalkByPerformanceNpcScRsp" => ::std::option::Option::Some(CmdTalkEventType::CmdGetFirstTalkByPerformanceNpcScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdTalkEventType] = &[
-        CmdTalkEventType::CmdTalkEventType_IEPGHAGDNBB,
-        CmdTalkEventType::CmdTalkEventType_CKMGFMODBGP,
-        CmdTalkEventType::CmdTalkEventType_MCCNPCJGEIH,
-        CmdTalkEventType::CmdTalkEventType_NBPKKAJPOJG,
-        CmdTalkEventType::CmdTalkEventType_BHKGHMLBMAG,
-        CmdTalkEventType::CmdTalkEventType_ALFHBHLHIKI,
-        CmdTalkEventType::CmdTalkEventType_IOHNLLCBCIP,
-        CmdTalkEventType::CmdTalkEventType_HHGLNLHGMJG,
-        CmdTalkEventType::CmdTalkEventType_BFBKAOKBFDD,
-        CmdTalkEventType::CmdTalkEventType_OJLPDPEDKLP,
-        CmdTalkEventType::CmdTalkEventType_OJAAHADOGCB,
-        CmdTalkEventType::CmdTalkEventType_FPMCGOCGCGL,
-        CmdTalkEventType::CmdTalkEventType_CJGJOLMKIDD,
-        CmdTalkEventType::CmdTalkEventType_KEDOMHCEJGK,
-        CmdTalkEventType::CmdTalkEventType_EABBFFHPKJJ,
+        CmdTalkEventType::KPDFEMPKMAD_CCINLAACDAL,
+        CmdTalkEventType::CmdFinishFirstTalkByPerformanceNpcCsReq,
+        CmdTalkEventType::CmdFinishFirstTalkNpcScRsp,
+        CmdTalkEventType::CmdKBEEJOEHONO,
+        CmdTalkEventType::CmdGetTalkEventRewardCsReq,
+        CmdTalkEventType::CmdGetFirstTalkNpcCsReq,
+        CmdTalkEventType::CmdCHKNIKPEPAM,
+        CmdTalkEventType::CmdFinishFirstTalkNpcCsReq,
+        CmdTalkEventType::CmdFinishFirstTalkByPerformanceNpcScRsp,
+        CmdTalkEventType::CmdGetNpcTakenRewardScRsp,
+        CmdTalkEventType::CmdTakeTalkRewardScRsp,
+        CmdTalkEventType::CmdGetReceivedTalkEventsCsReq,
+        CmdTalkEventType::CmdGetFirstTalkByPerformanceNpcCsReq,
+        CmdTalkEventType::CmdGetFirstTalkNpcScRsp,
+        CmdTalkEventType::CmdGetFirstTalkByPerformanceNpcScRsp,
     ];
 }
 
@@ -135,21 +135,21 @@ impl ::protobuf::EnumFull for CmdTalkEventType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdTalkEventType::CmdTalkEventType_IEPGHAGDNBB => 0,
-            CmdTalkEventType::CmdTalkEventType_CKMGFMODBGP => 1,
-            CmdTalkEventType::CmdTalkEventType_MCCNPCJGEIH => 2,
-            CmdTalkEventType::CmdTalkEventType_NBPKKAJPOJG => 3,
-            CmdTalkEventType::CmdTalkEventType_BHKGHMLBMAG => 4,
-            CmdTalkEventType::CmdTalkEventType_ALFHBHLHIKI => 5,
-            CmdTalkEventType::CmdTalkEventType_IOHNLLCBCIP => 6,
-            CmdTalkEventType::CmdTalkEventType_HHGLNLHGMJG => 7,
-            CmdTalkEventType::CmdTalkEventType_BFBKAOKBFDD => 8,
-            CmdTalkEventType::CmdTalkEventType_OJLPDPEDKLP => 9,
-            CmdTalkEventType::CmdTalkEventType_OJAAHADOGCB => 10,
-            CmdTalkEventType::CmdTalkEventType_FPMCGOCGCGL => 11,
-            CmdTalkEventType::CmdTalkEventType_CJGJOLMKIDD => 12,
-            CmdTalkEventType::CmdTalkEventType_KEDOMHCEJGK => 13,
-            CmdTalkEventType::CmdTalkEventType_EABBFFHPKJJ => 14,
+            CmdTalkEventType::KPDFEMPKMAD_CCINLAACDAL => 0,
+            CmdTalkEventType::CmdFinishFirstTalkByPerformanceNpcCsReq => 1,
+            CmdTalkEventType::CmdFinishFirstTalkNpcScRsp => 2,
+            CmdTalkEventType::CmdKBEEJOEHONO => 3,
+            CmdTalkEventType::CmdGetTalkEventRewardCsReq => 4,
+            CmdTalkEventType::CmdGetFirstTalkNpcCsReq => 5,
+            CmdTalkEventType::CmdCHKNIKPEPAM => 6,
+            CmdTalkEventType::CmdFinishFirstTalkNpcCsReq => 7,
+            CmdTalkEventType::CmdFinishFirstTalkByPerformanceNpcScRsp => 8,
+            CmdTalkEventType::CmdGetNpcTakenRewardScRsp => 9,
+            CmdTalkEventType::CmdTakeTalkRewardScRsp => 10,
+            CmdTalkEventType::CmdGetReceivedTalkEventsCsReq => 11,
+            CmdTalkEventType::CmdGetFirstTalkByPerformanceNpcCsReq => 12,
+            CmdTalkEventType::CmdGetFirstTalkNpcScRsp => 13,
+            CmdTalkEventType::CmdGetFirstTalkByPerformanceNpcScRsp => 14,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -157,7 +157,7 @@ impl ::protobuf::EnumFull for CmdTalkEventType {
 
 impl ::std::default::Default for CmdTalkEventType {
     fn default() -> Self {
-        CmdTalkEventType::CmdTalkEventType_IEPGHAGDNBB
+        CmdTalkEventType::KPDFEMPKMAD_CCINLAACDAL
     }
 }
 
@@ -168,18 +168,18 @@ impl CmdTalkEventType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x16CmdTalkEventType.proto*\x9e\x04\n\x10CmdTalkEventType\x12\x20\n\
-    \x1cCmdTalkEventType_IEPGHAGDNBB\x10\0\x12!\n\x1cCmdTalkEventType_CKMGFM\
-    ODBGP\x10\xf9\x10\x12!\n\x1cCmdTalkEventType_MCCNPCJGEIH\x10\xc7\x10\x12\
-    !\n\x1cCmdTalkEventType_NBPKKAJPOJG\x10\xd7\x10\x12!\n\x1cCmdTalkEventTy\
-    pe_BHKGHMLBMAG\x10\xe2\x10\x12!\n\x1cCmdTalkEventType_ALFHBHLHIKI\x10\
-    \xf2\x10\x12!\n\x1cCmdTalkEventType_IOHNLLCBCIP\x10\x85\x11\x12!\n\x1cCm\
-    dTalkEventType_HHGLNLHGMJG\x10\x98\x11\x12!\n\x1cCmdTalkEventType_BFBKAO\
-    KBFDD\x10\x87\x11\x12!\n\x1cCmdTalkEventType_OJLPDPEDKLP\x10\xed\x10\x12\
-    !\n\x1cCmdTalkEventType_OJAAHADOGCB\x10\xdc\x10\x12!\n\x1cCmdTalkEventTy\
-    pe_FPMCGOCGCGL\x10\xcc\x10\x12!\n\x1cCmdTalkEventType_CJGJOLMKIDD\x10\
-    \x88\x11\x12!\n\x1cCmdTalkEventType_KEDOMHCEJGK\x10\xc1\x10\x12!\n\x1cCm\
-    dTalkEventType_EABBFFHPKJJ\x10\xb8\x10b\x06proto3\
+    \n\x16CmdTalkEventType.proto*\x8b\x04\n\x10CmdTalkEventType\x12\x1b\n\
+    \x17KPDFEMPKMAD_CCINLAACDAL\x10\0\x12,\n'CmdFinishFirstTalkByPerformance\
+    NpcCsReq\x10\xfe\x10\x12\x1f\n\x1aCmdFinishFirstTalkNpcScRsp\x10\x96\x11\
+    \x12\x13\n\x0eCmdKBEEJOEHONO\x10\xf3\x10\x12\x1f\n\x1aCmdGetTalkEventRew\
+    ardCsReq\x10\x92\x11\x12\x1c\n\x17CmdGetFirstTalkNpcCsReq\x10\xc2\x10\
+    \x12\x13\n\x0eCmdCHKNIKPEPAM\x10\xce\x10\x12\x1f\n\x1aCmdFinishFirstTalk\
+    NpcCsReq\x10\xbd\x10\x12,\n'CmdFinishFirstTalkByPerformanceNpcScRsp\x10\
+    \xd9\x10\x12\x1e\n\x19CmdGetNpcTakenRewardScRsp\x10\xbe\x10\x12\x1b\n\
+    \x16CmdTakeTalkRewardScRsp\x10\x93\x11\x12\"\n\x1dCmdGetReceivedTalkEven\
+    tsCsReq\x10\x8f\x11\x12)\n$CmdGetFirstTalkByPerformanceNpcCsReq\x10\xdb\
+    \x10\x12\x1c\n\x17CmdGetFirstTalkNpcScRsp\x10\xc6\x10\x12)\n$CmdGetFirst\
+    TalkByPerformanceNpcScRsp\x10\xb5\x10b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

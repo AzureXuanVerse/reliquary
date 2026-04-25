@@ -27,12 +27,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdPlotType)
 pub enum CmdPlotType {
-    // @@protoc_insertion_point(enum_value:CmdPlotType.CmdPlotType_MNFEPONEDDJ)
-    CmdPlotType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdPlotType.CmdPlotType_HNEDHIPKOEC)
-    CmdPlotType_HNEDHIPKOEC = 1181,
-    // @@protoc_insertion_point(enum_value:CmdPlotType.CmdPlotType_IJAGJNJIIBC)
-    CmdPlotType_IJAGJNJIIBC = 1183,
+    // @@protoc_insertion_point(enum_value:CmdPlotType.KFFDKGMKPKL_PCPDHELPKEM)
+    KFFDKGMKPKL_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdPlotType.CmdFinishPlotCsReq)
+    CmdFinishPlotCsReq = 1191,
+    // @@protoc_insertion_point(enum_value:CmdPlotType.CmdFEFJJFEMMFE)
+    CmdFEFJJFEMMFE = 1110,
 }
 
 impl ::protobuf::Enum for CmdPlotType {
@@ -44,26 +44,26 @@ impl ::protobuf::Enum for CmdPlotType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdPlotType> {
         match value {
-            0 => ::std::option::Option::Some(CmdPlotType::CmdPlotType_MNFEPONEDDJ),
-            1181 => ::std::option::Option::Some(CmdPlotType::CmdPlotType_HNEDHIPKOEC),
-            1183 => ::std::option::Option::Some(CmdPlotType::CmdPlotType_IJAGJNJIIBC),
+            0 => ::std::option::Option::Some(CmdPlotType::KFFDKGMKPKL_PCPDHELPKEM),
+            1191 => ::std::option::Option::Some(CmdPlotType::CmdFinishPlotCsReq),
+            1110 => ::std::option::Option::Some(CmdPlotType::CmdFEFJJFEMMFE),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdPlotType> {
         match str {
-            "CmdPlotType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdPlotType::CmdPlotType_MNFEPONEDDJ),
-            "CmdPlotType_HNEDHIPKOEC" => ::std::option::Option::Some(CmdPlotType::CmdPlotType_HNEDHIPKOEC),
-            "CmdPlotType_IJAGJNJIIBC" => ::std::option::Option::Some(CmdPlotType::CmdPlotType_IJAGJNJIIBC),
+            "KFFDKGMKPKL_PCPDHELPKEM" => ::std::option::Option::Some(CmdPlotType::KFFDKGMKPKL_PCPDHELPKEM),
+            "CmdFinishPlotCsReq" => ::std::option::Option::Some(CmdPlotType::CmdFinishPlotCsReq),
+            "CmdFEFJJFEMMFE" => ::std::option::Option::Some(CmdPlotType::CmdFEFJJFEMMFE),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdPlotType] = &[
-        CmdPlotType::CmdPlotType_MNFEPONEDDJ,
-        CmdPlotType::CmdPlotType_HNEDHIPKOEC,
-        CmdPlotType::CmdPlotType_IJAGJNJIIBC,
+        CmdPlotType::KFFDKGMKPKL_PCPDHELPKEM,
+        CmdPlotType::CmdFinishPlotCsReq,
+        CmdPlotType::CmdFEFJJFEMMFE,
     ];
 }
 
@@ -75,9 +75,9 @@ impl ::protobuf::EnumFull for CmdPlotType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdPlotType::CmdPlotType_MNFEPONEDDJ => 0,
-            CmdPlotType::CmdPlotType_HNEDHIPKOEC => 1,
-            CmdPlotType::CmdPlotType_IJAGJNJIIBC => 2,
+            CmdPlotType::KFFDKGMKPKL_PCPDHELPKEM => 0,
+            CmdPlotType::CmdFinishPlotCsReq => 1,
+            CmdPlotType::CmdFEFJJFEMMFE => 2,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -85,7 +85,7 @@ impl ::protobuf::EnumFull for CmdPlotType {
 
 impl ::std::default::Default for CmdPlotType {
     fn default() -> Self {
-        CmdPlotType::CmdPlotType_MNFEPONEDDJ
+        CmdPlotType::KFFDKGMKPKL_PCPDHELPKEM
     }
 }
 
@@ -96,9 +96,9 @@ impl CmdPlotType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x11CmdPlotType.proto*f\n\x0bCmdPlotType\x12\x1b\n\x17CmdPlotType_MNFE\
-    PONEDDJ\x10\0\x12\x1c\n\x17CmdPlotType_HNEDHIPKOEC\x10\x9d\t\x12\x1c\n\
-    \x17CmdPlotType_IJAGJNJIIBC\x10\x9f\tb\x06proto3\
+    \n\x11CmdPlotType.proto*X\n\x0bCmdPlotType\x12\x1b\n\x17KFFDKGMKPKL_PCPD\
+    HELPKEM\x10\0\x12\x17\n\x12CmdFinishPlotCsReq\x10\xa7\t\x12\x13\n\x0eCmd\
+    FEFJJFEMMFE\x10\xd6\x08b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

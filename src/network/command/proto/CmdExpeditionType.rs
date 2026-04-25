@@ -27,22 +27,22 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdExpeditionType)
 pub enum CmdExpeditionType {
-    // @@protoc_insertion_point(enum_value:CmdExpeditionType.CmdExpeditionType_MNFEPONEDDJ)
-    CmdExpeditionType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdExpeditionType.CmdExpeditionType_DAGEFCANEDI)
-    CmdExpeditionType_DAGEFCANEDI = 2529,
-    // @@protoc_insertion_point(enum_value:CmdExpeditionType.CmdExpeditionType_GCLAAPNKIKB)
-    CmdExpeditionType_GCLAAPNKIKB = 2523,
-    // @@protoc_insertion_point(enum_value:CmdExpeditionType.CmdExpeditionType_GLMIHJKAPBA)
-    CmdExpeditionType_GLMIHJKAPBA = 2504,
-    // @@protoc_insertion_point(enum_value:CmdExpeditionType.CmdExpeditionType_DKDBBLJMAEJ)
-    CmdExpeditionType_DKDBBLJMAEJ = 2530,
-    // @@protoc_insertion_point(enum_value:CmdExpeditionType.CmdExpeditionType_DHCNIOEINMD)
-    CmdExpeditionType_DHCNIOEINMD = 2508,
-    // @@protoc_insertion_point(enum_value:CmdExpeditionType.CmdExpeditionType_BAMJCHGKKEP)
-    CmdExpeditionType_BAMJCHGKKEP = 2540,
-    // @@protoc_insertion_point(enum_value:CmdExpeditionType.CmdExpeditionType_PDAHLHEGICJ)
-    CmdExpeditionType_PDAHLHEGICJ = 2503,
+    // @@protoc_insertion_point(enum_value:CmdExpeditionType.FJKMDGNDILO_PCPDHELPKEM)
+    FJKMDGNDILO_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdExpeditionType.CmdAcceptMultipleExpeditionCsReq)
+    CmdAcceptMultipleExpeditionCsReq = 2503,
+    // @@protoc_insertion_point(enum_value:CmdExpeditionType.CmdAcceptMultipleExpeditionScRsp)
+    CmdAcceptMultipleExpeditionScRsp = 2550,
+    // @@protoc_insertion_point(enum_value:CmdExpeditionType.CmdTakeMultipleExpeditionRewardCsReq)
+    CmdTakeMultipleExpeditionRewardCsReq = 2516,
+    // @@protoc_insertion_point(enum_value:CmdExpeditionType.CmdGetExpeditionDataCsReq)
+    CmdGetExpeditionDataCsReq = 2513,
+    // @@protoc_insertion_point(enum_value:CmdExpeditionType.CmdTakeMultipleExpeditionRewardScRsp)
+    CmdTakeMultipleExpeditionRewardScRsp = 2531,
+    // @@protoc_insertion_point(enum_value:CmdExpeditionType.CmdGAJMDNEKPOP)
+    CmdGAJMDNEKPOP = 2547,
+    // @@protoc_insertion_point(enum_value:CmdExpeditionType.CmdGetExpeditionDataScRsp)
+    CmdGetExpeditionDataScRsp = 2507,
 }
 
 impl ::protobuf::Enum for CmdExpeditionType {
@@ -54,41 +54,41 @@ impl ::protobuf::Enum for CmdExpeditionType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdExpeditionType> {
         match value {
-            0 => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_MNFEPONEDDJ),
-            2529 => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_DAGEFCANEDI),
-            2523 => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_GCLAAPNKIKB),
-            2504 => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_GLMIHJKAPBA),
-            2530 => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_DKDBBLJMAEJ),
-            2508 => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_DHCNIOEINMD),
-            2540 => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_BAMJCHGKKEP),
-            2503 => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_PDAHLHEGICJ),
+            0 => ::std::option::Option::Some(CmdExpeditionType::FJKMDGNDILO_PCPDHELPKEM),
+            2503 => ::std::option::Option::Some(CmdExpeditionType::CmdAcceptMultipleExpeditionCsReq),
+            2550 => ::std::option::Option::Some(CmdExpeditionType::CmdAcceptMultipleExpeditionScRsp),
+            2516 => ::std::option::Option::Some(CmdExpeditionType::CmdTakeMultipleExpeditionRewardCsReq),
+            2513 => ::std::option::Option::Some(CmdExpeditionType::CmdGetExpeditionDataCsReq),
+            2531 => ::std::option::Option::Some(CmdExpeditionType::CmdTakeMultipleExpeditionRewardScRsp),
+            2547 => ::std::option::Option::Some(CmdExpeditionType::CmdGAJMDNEKPOP),
+            2507 => ::std::option::Option::Some(CmdExpeditionType::CmdGetExpeditionDataScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdExpeditionType> {
         match str {
-            "CmdExpeditionType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_MNFEPONEDDJ),
-            "CmdExpeditionType_DAGEFCANEDI" => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_DAGEFCANEDI),
-            "CmdExpeditionType_GCLAAPNKIKB" => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_GCLAAPNKIKB),
-            "CmdExpeditionType_GLMIHJKAPBA" => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_GLMIHJKAPBA),
-            "CmdExpeditionType_DKDBBLJMAEJ" => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_DKDBBLJMAEJ),
-            "CmdExpeditionType_DHCNIOEINMD" => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_DHCNIOEINMD),
-            "CmdExpeditionType_BAMJCHGKKEP" => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_BAMJCHGKKEP),
-            "CmdExpeditionType_PDAHLHEGICJ" => ::std::option::Option::Some(CmdExpeditionType::CmdExpeditionType_PDAHLHEGICJ),
+            "FJKMDGNDILO_PCPDHELPKEM" => ::std::option::Option::Some(CmdExpeditionType::FJKMDGNDILO_PCPDHELPKEM),
+            "CmdAcceptMultipleExpeditionCsReq" => ::std::option::Option::Some(CmdExpeditionType::CmdAcceptMultipleExpeditionCsReq),
+            "CmdAcceptMultipleExpeditionScRsp" => ::std::option::Option::Some(CmdExpeditionType::CmdAcceptMultipleExpeditionScRsp),
+            "CmdTakeMultipleExpeditionRewardCsReq" => ::std::option::Option::Some(CmdExpeditionType::CmdTakeMultipleExpeditionRewardCsReq),
+            "CmdGetExpeditionDataCsReq" => ::std::option::Option::Some(CmdExpeditionType::CmdGetExpeditionDataCsReq),
+            "CmdTakeMultipleExpeditionRewardScRsp" => ::std::option::Option::Some(CmdExpeditionType::CmdTakeMultipleExpeditionRewardScRsp),
+            "CmdGAJMDNEKPOP" => ::std::option::Option::Some(CmdExpeditionType::CmdGAJMDNEKPOP),
+            "CmdGetExpeditionDataScRsp" => ::std::option::Option::Some(CmdExpeditionType::CmdGetExpeditionDataScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdExpeditionType] = &[
-        CmdExpeditionType::CmdExpeditionType_MNFEPONEDDJ,
-        CmdExpeditionType::CmdExpeditionType_DAGEFCANEDI,
-        CmdExpeditionType::CmdExpeditionType_GCLAAPNKIKB,
-        CmdExpeditionType::CmdExpeditionType_GLMIHJKAPBA,
-        CmdExpeditionType::CmdExpeditionType_DKDBBLJMAEJ,
-        CmdExpeditionType::CmdExpeditionType_DHCNIOEINMD,
-        CmdExpeditionType::CmdExpeditionType_BAMJCHGKKEP,
-        CmdExpeditionType::CmdExpeditionType_PDAHLHEGICJ,
+        CmdExpeditionType::FJKMDGNDILO_PCPDHELPKEM,
+        CmdExpeditionType::CmdAcceptMultipleExpeditionCsReq,
+        CmdExpeditionType::CmdAcceptMultipleExpeditionScRsp,
+        CmdExpeditionType::CmdTakeMultipleExpeditionRewardCsReq,
+        CmdExpeditionType::CmdGetExpeditionDataCsReq,
+        CmdExpeditionType::CmdTakeMultipleExpeditionRewardScRsp,
+        CmdExpeditionType::CmdGAJMDNEKPOP,
+        CmdExpeditionType::CmdGetExpeditionDataScRsp,
     ];
 }
 
@@ -100,14 +100,14 @@ impl ::protobuf::EnumFull for CmdExpeditionType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdExpeditionType::CmdExpeditionType_MNFEPONEDDJ => 0,
-            CmdExpeditionType::CmdExpeditionType_DAGEFCANEDI => 1,
-            CmdExpeditionType::CmdExpeditionType_GCLAAPNKIKB => 2,
-            CmdExpeditionType::CmdExpeditionType_GLMIHJKAPBA => 3,
-            CmdExpeditionType::CmdExpeditionType_DKDBBLJMAEJ => 4,
-            CmdExpeditionType::CmdExpeditionType_DHCNIOEINMD => 5,
-            CmdExpeditionType::CmdExpeditionType_BAMJCHGKKEP => 6,
-            CmdExpeditionType::CmdExpeditionType_PDAHLHEGICJ => 7,
+            CmdExpeditionType::FJKMDGNDILO_PCPDHELPKEM => 0,
+            CmdExpeditionType::CmdAcceptMultipleExpeditionCsReq => 1,
+            CmdExpeditionType::CmdAcceptMultipleExpeditionScRsp => 2,
+            CmdExpeditionType::CmdTakeMultipleExpeditionRewardCsReq => 3,
+            CmdExpeditionType::CmdGetExpeditionDataCsReq => 4,
+            CmdExpeditionType::CmdTakeMultipleExpeditionRewardScRsp => 5,
+            CmdExpeditionType::CmdGAJMDNEKPOP => 6,
+            CmdExpeditionType::CmdGetExpeditionDataScRsp => 7,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -115,7 +115,7 @@ impl ::protobuf::EnumFull for CmdExpeditionType {
 
 impl ::std::default::Default for CmdExpeditionType {
     fn default() -> Self {
-        CmdExpeditionType::CmdExpeditionType_MNFEPONEDDJ
+        CmdExpeditionType::FJKMDGNDILO_PCPDHELPKEM
     }
 }
 
@@ -126,13 +126,13 @@ impl CmdExpeditionType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x17CmdExpeditionType.proto*\xb2\x02\n\x11CmdExpeditionType\x12!\n\x1d\
-    CmdExpeditionType_MNFEPONEDDJ\x10\0\x12\"\n\x1dCmdExpeditionType_DAGEFCA\
-    NEDI\x10\xe1\x13\x12\"\n\x1dCmdExpeditionType_GCLAAPNKIKB\x10\xdb\x13\
-    \x12\"\n\x1dCmdExpeditionType_GLMIHJKAPBA\x10\xc8\x13\x12\"\n\x1dCmdExpe\
-    ditionType_DKDBBLJMAEJ\x10\xe2\x13\x12\"\n\x1dCmdExpeditionType_DHCNIOEI\
-    NMD\x10\xcc\x13\x12\"\n\x1dCmdExpeditionType_BAMJCHGKKEP\x10\xec\x13\x12\
-    \"\n\x1dCmdExpeditionType_PDAHLHEGICJ\x10\xc7\x13b\x06proto3\
+    \n\x17CmdExpeditionType.proto*\xa9\x02\n\x11CmdExpeditionType\x12\x1b\n\
+    \x17FJKMDGNDILO_PCPDHELPKEM\x10\0\x12%\n\x20CmdAcceptMultipleExpeditionC\
+    sReq\x10\xc7\x13\x12%\n\x20CmdAcceptMultipleExpeditionScRsp\x10\xf6\x13\
+    \x12)\n$CmdTakeMultipleExpeditionRewardCsReq\x10\xd4\x13\x12\x1e\n\x19Cm\
+    dGetExpeditionDataCsReq\x10\xd1\x13\x12)\n$CmdTakeMultipleExpeditionRewa\
+    rdScRsp\x10\xe3\x13\x12\x13\n\x0eCmdGAJMDNEKPOP\x10\xf3\x13\x12\x1e\n\
+    \x19CmdGetExpeditionDataScRsp\x10\xcb\x13b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

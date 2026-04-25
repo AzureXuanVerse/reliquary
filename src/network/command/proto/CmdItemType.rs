@@ -27,128 +27,128 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdItemType)
 pub enum CmdItemType {
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_MNFEPONEDDJ)
-    CmdItemType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_LCANJJKKBFE)
-    CmdItemType_LCANJJKKBFE = 527,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_PKOHPLFNMHF)
-    CmdItemType_PKOHPLFNMHF = 507,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_PBEGNMEPFEC)
-    CmdItemType_PBEGNMEPFEC = 501,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_NBKHKMJDBGD)
-    CmdItemType_NBKHKMJDBGD = 583,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_FCODCKJHNPC)
-    CmdItemType_FCODCKJHNPC = 535,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_IMGFFHCIKIJ)
-    CmdItemType_IMGFFHCIKIJ = 505,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_INFEFPDPMNE)
-    CmdItemType_INFEFPDPMNE = 528,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_DHKDAJLIIID)
-    CmdItemType_DHKDAJLIIID = 546,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_CGBPAMDHIBE)
-    CmdItemType_CGBPAMDHIBE = 588,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_ACNDFKFHGHM)
-    CmdItemType_ACNDFKFHGHM = 556,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_IEBNLEFKDFM)
-    CmdItemType_IEBNLEFKDFM = 537,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_MJGJCFHAAGP)
-    CmdItemType_MJGJCFHAAGP = 551,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_PEHHPIPAPAB)
-    CmdItemType_PEHHPIPAPAB = 524,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_IOLPPKDHNEB)
-    CmdItemType_IOLPPKDHNEB = 512,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_PKDENFHNEIE)
-    CmdItemType_PKDENFHNEIE = 515,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_OPHLAOJKCON)
-    CmdItemType_OPHLAOJKCON = 513,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_GJKLFJMPCGO)
-    CmdItemType_GJKLFJMPCGO = 536,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_AGPAGKALNFF)
-    CmdItemType_AGPAGKALNFF = 548,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_DPGLDIIHIKM)
-    CmdItemType_DPGLDIIHIKM = 531,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_KKPAOLELKEM)
-    CmdItemType_KKPAOLELKEM = 519,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_JCALBJOBLID)
-    CmdItemType_JCALBJOBLID = 550,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_EBDGMAKHMMA)
-    CmdItemType_EBDGMAKHMMA = 565,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_CJGLOKACIPA)
-    CmdItemType_CJGLOKACIPA = 564,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_HPALNLEOGKM)
-    CmdItemType_HPALNLEOGKM = 579,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_IJPECLELHNH)
-    CmdItemType_IJPECLELHNH = 509,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_KIEKNKMFOGB)
-    CmdItemType_KIEKNKMFOGB = 558,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_CEKMPHEIKAD)
-    CmdItemType_CEKMPHEIKAD = 523,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_AHIJIOPODEH)
-    CmdItemType_AHIJIOPODEH = 517,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_APNICLHCHBD)
-    CmdItemType_APNICLHCHBD = 568,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_EJOLFGMFCNE)
-    CmdItemType_EJOLFGMFCNE = 547,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_GPBFLPLPCDB)
-    CmdItemType_GPBFLPLPCDB = 518,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_NHEOGLHBBFO)
-    CmdItemType_NHEOGLHBBFO = 598,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_COADODMANLP)
-    CmdItemType_COADODMANLP = 503,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_DGMGJBNEOMM)
-    CmdItemType_DGMGJBNEOMM = 590,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_FIKODOMEADP)
-    CmdItemType_FIKODOMEADP = 506,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_CNJJJJCGDCP)
-    CmdItemType_CNJJJJCGDCP = 591,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_AKAGNLIJKBC)
-    CmdItemType_AKAGNLIJKBC = 554,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_JFBNHBNMOPF)
-    CmdItemType_JFBNHBNMOPF = 514,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_HEJAGMPAMFG)
-    CmdItemType_HEJAGMPAMFG = 584,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_ALHHLKPIHLI)
-    CmdItemType_ALHHLKPIHLI = 508,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_CIANMDKFMIH)
-    CmdItemType_CIANMDKFMIH = 569,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_MKOEMKIMMDI)
-    CmdItemType_MKOEMKIMMDI = 600,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_FNGBOIOMPGH)
-    CmdItemType_FNGBOIOMPGH = 594,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_DMNBPFNPNKB)
-    CmdItemType_DMNBPFNPNKB = 504,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_KAGJLCNJLJP)
-    CmdItemType_KAGJLCNJLJP = 502,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_DFNGBMDEOFG)
-    CmdItemType_DFNGBMDEOFG = 596,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_HMNFGAODABN)
-    CmdItemType_HMNFGAODABN = 525,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_EBNBFGKPGCN)
-    CmdItemType_EBNBFGKPGCN = 559,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_FGDOLFMCICI)
-    CmdItemType_FGDOLFMCICI = 516,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_ODKNGKJBOPK)
-    CmdItemType_ODKNGKJBOPK = 543,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_MCPLOIOPBHF)
-    CmdItemType_MCPLOIOPBHF = 581,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_OPCAGOPDJIC)
-    CmdItemType_OPCAGOPDJIC = 586,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_CDDDIKMEEEB)
-    CmdItemType_CDDDIKMEEEB = 562,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_CBPPBJBAIBA)
-    CmdItemType_CBPPBJBAIBA = 540,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_LLPMMPGCBCB)
-    CmdItemType_LLPMMPGCBCB = 545,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_CJIMNDBLJAK)
-    CmdItemType_CJIMNDBLJAK = 534,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_DBKBLBIJPBD)
-    CmdItemType_DBKBLBIJPBD = 557,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_JDCHJGHOPKK)
-    CmdItemType_JDCHJGHOPKK = 522,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_INEDEADCOEL)
-    CmdItemType_INEDEADCOEL = 577,
-    // @@protoc_insertion_point(enum_value:CmdItemType.CmdItemType_KJMGPEOLMNJ)
-    CmdItemType_KJMGPEOLMNJ = 578,
+    // @@protoc_insertion_point(enum_value:CmdItemType.FPPPIALGGKL_PCPDHELPKEM)
+    FPPPIALGGKL_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdSetTurnFoodSwitchCsReq)
+    CmdSetTurnFoodSwitchCsReq = 520,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdSpecialComposeItemCsReq)
+    CmdSpecialComposeItemCsReq = 574,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdKFDGNFBAOGN)
+    CmdKFDGNFBAOGN = 529,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdCmdLockEquipmentCsReq)
+    CmdCmdLockEquipmentCsReq = 514,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdMarkRelicFilterPlanScRsp)
+    CmdMarkRelicFilterPlanScRsp = 577,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdExpUpRelicScRsp)
+    CmdExpUpRelicScRsp = 538,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdRelicReforgeCsReq)
+    CmdRelicReforgeCsReq = 506,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdDestroyItemScRsp)
+    CmdDestroyItemScRsp = 553,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdGetBagCsReq)
+    CmdGetBagCsReq = 591,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdGetBagScRsp)
+    CmdGetBagScRsp = 510,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdExpUpEquipmentCsReq)
+    CmdExpUpEquipmentCsReq = 539,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdMarkItemScRsp)
+    CmdMarkItemScRsp = 525,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdComposeLimitNumUpdateScNotify)
+    CmdComposeLimitNumUpdateScNotify = 565,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdILJJBGNEMHH)
+    CmdILJJBGNEMHH = 590,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdGetRelicFilterPlanCsReq)
+    CmdGetRelicFilterPlanCsReq = 536,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdHKJGDIKJIGI)
+    CmdHKJGDIKJIGI = 588,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdRankUpEquipmentCsReq)
+    CmdRankUpEquipmentCsReq = 563,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdMarkItemCsReq)
+    CmdMarkItemCsReq = 551,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdGetRecycleTimeCsReq)
+    CmdGetRecycleTimeCsReq = 557,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdADCEACIMKLG)
+    CmdADCEACIMKLG = 593,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdUseItemCsReq)
+    CmdUseItemCsReq = 509,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdGetMarkItemListScRsp)
+    CmdGetMarkItemListScRsp = 517,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdExpUpEquipmentScRsp)
+    CmdExpUpEquipmentScRsp = 501,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdAddRelicFilterPlanScRsp)
+    CmdAddRelicFilterPlanScRsp = 524,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdAddEquipmentScRsp)
+    CmdAddEquipmentScRsp = 596,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdBatchRankUpEquipmentCsReq)
+    CmdBatchRankUpEquipmentCsReq = 569,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdSellItemScRsp)
+    CmdSellItemScRsp = 561,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdComposeLimitNumCompleteScNotify)
+    CmdComposeLimitNumCompleteScNotify = 528,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdComposeSelectedRelicCsReq)
+    CmdComposeSelectedRelicCsReq = 600,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdRechargeSuccNotify)
+    CmdRechargeSuccNotify = 507,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdModifyRelicFilterPlanCsReq)
+    CmdModifyRelicFilterPlanCsReq = 578,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdAddRelicFilterPlanCsReq)
+    CmdAddRelicFilterPlanCsReq = 592,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdOPDNMLKMNBB)
+    CmdOPDNMLKMNBB = 526,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdACONIFJJKCG)
+    CmdACONIFJJKCG = 516,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdCmdSellItemCsReq)
+    CmdCmdSellItemCsReq = 533,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdDeleteRelicFilterPlanCsReq)
+    CmdDeleteRelicFilterPlanCsReq = 559,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdCmdLockRelicCsReq)
+    CmdCmdLockRelicCsReq = 572,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdGHCIOGMHOPP)
+    CmdGHCIOGMHOPP = 541,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdGetRelicFilterPlanScRsp)
+    CmdGetRelicFilterPlanScRsp = 503,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdComposeItemScRsp)
+    CmdComposeItemScRsp = 537,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdDMJNAGEKONA)
+    CmdDMJNAGEKONA = 595,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdDestroyItemCsReq)
+    CmdDestroyItemCsReq = 573,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdDiscardRelicScRsp)
+    CmdDiscardRelicScRsp = 566,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdExpUpRelicCsReq)
+    CmdExpUpRelicCsReq = 504,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdGetRecyleTimeScRsp)
+    CmdGetRecyleTimeScRsp = 521,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdRelicReforgeConfirmCsReq)
+    CmdRelicReforgeConfirmCsReq = 552,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdModifyRelicFilterPlanScRsp)
+    CmdModifyRelicFilterPlanScRsp = 542,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdCancelMarkItemNotify)
+    CmdCancelMarkItemNotify = 554,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdUseItemScRsp)
+    CmdUseItemScRsp = 598,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdNLDDLGDEBMO)
+    CmdNLDDLGDEBMO = 518,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdPromoteEquipmentCsReq)
+    CmdPromoteEquipmentCsReq = 594,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdComposeSelectedRelicScRsp)
+    CmdComposeSelectedRelicScRsp = 589,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdEBDDJOBGDHD)
+    CmdEBDDJOBGDHD = 532,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdExchangeHcoinCsReq)
+    CmdExchangeHcoinCsReq = 558,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdMarkRelicFilterPlanCsReq)
+    CmdMarkRelicFilterPlanCsReq = 512,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdExchangeHcoinScRsp)
+    CmdExchangeHcoinScRsp = 544,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdGeneralVirtualItemDataNotify)
+    CmdGeneralVirtualItemDataNotify = 502,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdSyncTurnFoodNotify)
+    CmdSyncTurnFoodNotify = 579,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdDiscardRelicCsReq)
+    CmdDiscardRelicCsReq = 549,
+    // @@protoc_insertion_point(enum_value:CmdItemType.CmdGetMarkItemListCsReq)
+    CmdGetMarkItemListCsReq = 508,
 }
 
 impl ::protobuf::Enum for CmdItemType {
@@ -160,200 +160,200 @@ impl ::protobuf::Enum for CmdItemType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdItemType> {
         match value {
-            0 => ::std::option::Option::Some(CmdItemType::CmdItemType_MNFEPONEDDJ),
-            527 => ::std::option::Option::Some(CmdItemType::CmdItemType_LCANJJKKBFE),
-            507 => ::std::option::Option::Some(CmdItemType::CmdItemType_PKOHPLFNMHF),
-            501 => ::std::option::Option::Some(CmdItemType::CmdItemType_PBEGNMEPFEC),
-            583 => ::std::option::Option::Some(CmdItemType::CmdItemType_NBKHKMJDBGD),
-            535 => ::std::option::Option::Some(CmdItemType::CmdItemType_FCODCKJHNPC),
-            505 => ::std::option::Option::Some(CmdItemType::CmdItemType_IMGFFHCIKIJ),
-            528 => ::std::option::Option::Some(CmdItemType::CmdItemType_INFEFPDPMNE),
-            546 => ::std::option::Option::Some(CmdItemType::CmdItemType_DHKDAJLIIID),
-            588 => ::std::option::Option::Some(CmdItemType::CmdItemType_CGBPAMDHIBE),
-            556 => ::std::option::Option::Some(CmdItemType::CmdItemType_ACNDFKFHGHM),
-            537 => ::std::option::Option::Some(CmdItemType::CmdItemType_IEBNLEFKDFM),
-            551 => ::std::option::Option::Some(CmdItemType::CmdItemType_MJGJCFHAAGP),
-            524 => ::std::option::Option::Some(CmdItemType::CmdItemType_PEHHPIPAPAB),
-            512 => ::std::option::Option::Some(CmdItemType::CmdItemType_IOLPPKDHNEB),
-            515 => ::std::option::Option::Some(CmdItemType::CmdItemType_PKDENFHNEIE),
-            513 => ::std::option::Option::Some(CmdItemType::CmdItemType_OPHLAOJKCON),
-            536 => ::std::option::Option::Some(CmdItemType::CmdItemType_GJKLFJMPCGO),
-            548 => ::std::option::Option::Some(CmdItemType::CmdItemType_AGPAGKALNFF),
-            531 => ::std::option::Option::Some(CmdItemType::CmdItemType_DPGLDIIHIKM),
-            519 => ::std::option::Option::Some(CmdItemType::CmdItemType_KKPAOLELKEM),
-            550 => ::std::option::Option::Some(CmdItemType::CmdItemType_JCALBJOBLID),
-            565 => ::std::option::Option::Some(CmdItemType::CmdItemType_EBDGMAKHMMA),
-            564 => ::std::option::Option::Some(CmdItemType::CmdItemType_CJGLOKACIPA),
-            579 => ::std::option::Option::Some(CmdItemType::CmdItemType_HPALNLEOGKM),
-            509 => ::std::option::Option::Some(CmdItemType::CmdItemType_IJPECLELHNH),
-            558 => ::std::option::Option::Some(CmdItemType::CmdItemType_KIEKNKMFOGB),
-            523 => ::std::option::Option::Some(CmdItemType::CmdItemType_CEKMPHEIKAD),
-            517 => ::std::option::Option::Some(CmdItemType::CmdItemType_AHIJIOPODEH),
-            568 => ::std::option::Option::Some(CmdItemType::CmdItemType_APNICLHCHBD),
-            547 => ::std::option::Option::Some(CmdItemType::CmdItemType_EJOLFGMFCNE),
-            518 => ::std::option::Option::Some(CmdItemType::CmdItemType_GPBFLPLPCDB),
-            598 => ::std::option::Option::Some(CmdItemType::CmdItemType_NHEOGLHBBFO),
-            503 => ::std::option::Option::Some(CmdItemType::CmdItemType_COADODMANLP),
-            590 => ::std::option::Option::Some(CmdItemType::CmdItemType_DGMGJBNEOMM),
-            506 => ::std::option::Option::Some(CmdItemType::CmdItemType_FIKODOMEADP),
-            591 => ::std::option::Option::Some(CmdItemType::CmdItemType_CNJJJJCGDCP),
-            554 => ::std::option::Option::Some(CmdItemType::CmdItemType_AKAGNLIJKBC),
-            514 => ::std::option::Option::Some(CmdItemType::CmdItemType_JFBNHBNMOPF),
-            584 => ::std::option::Option::Some(CmdItemType::CmdItemType_HEJAGMPAMFG),
-            508 => ::std::option::Option::Some(CmdItemType::CmdItemType_ALHHLKPIHLI),
-            569 => ::std::option::Option::Some(CmdItemType::CmdItemType_CIANMDKFMIH),
-            600 => ::std::option::Option::Some(CmdItemType::CmdItemType_MKOEMKIMMDI),
-            594 => ::std::option::Option::Some(CmdItemType::CmdItemType_FNGBOIOMPGH),
-            504 => ::std::option::Option::Some(CmdItemType::CmdItemType_DMNBPFNPNKB),
-            502 => ::std::option::Option::Some(CmdItemType::CmdItemType_KAGJLCNJLJP),
-            596 => ::std::option::Option::Some(CmdItemType::CmdItemType_DFNGBMDEOFG),
-            525 => ::std::option::Option::Some(CmdItemType::CmdItemType_HMNFGAODABN),
-            559 => ::std::option::Option::Some(CmdItemType::CmdItemType_EBNBFGKPGCN),
-            516 => ::std::option::Option::Some(CmdItemType::CmdItemType_FGDOLFMCICI),
-            543 => ::std::option::Option::Some(CmdItemType::CmdItemType_ODKNGKJBOPK),
-            581 => ::std::option::Option::Some(CmdItemType::CmdItemType_MCPLOIOPBHF),
-            586 => ::std::option::Option::Some(CmdItemType::CmdItemType_OPCAGOPDJIC),
-            562 => ::std::option::Option::Some(CmdItemType::CmdItemType_CDDDIKMEEEB),
-            540 => ::std::option::Option::Some(CmdItemType::CmdItemType_CBPPBJBAIBA),
-            545 => ::std::option::Option::Some(CmdItemType::CmdItemType_LLPMMPGCBCB),
-            534 => ::std::option::Option::Some(CmdItemType::CmdItemType_CJIMNDBLJAK),
-            557 => ::std::option::Option::Some(CmdItemType::CmdItemType_DBKBLBIJPBD),
-            522 => ::std::option::Option::Some(CmdItemType::CmdItemType_JDCHJGHOPKK),
-            577 => ::std::option::Option::Some(CmdItemType::CmdItemType_INEDEADCOEL),
-            578 => ::std::option::Option::Some(CmdItemType::CmdItemType_KJMGPEOLMNJ),
+            0 => ::std::option::Option::Some(CmdItemType::FPPPIALGGKL_PCPDHELPKEM),
+            520 => ::std::option::Option::Some(CmdItemType::CmdSetTurnFoodSwitchCsReq),
+            574 => ::std::option::Option::Some(CmdItemType::CmdSpecialComposeItemCsReq),
+            529 => ::std::option::Option::Some(CmdItemType::CmdKFDGNFBAOGN),
+            514 => ::std::option::Option::Some(CmdItemType::CmdCmdLockEquipmentCsReq),
+            577 => ::std::option::Option::Some(CmdItemType::CmdMarkRelicFilterPlanScRsp),
+            538 => ::std::option::Option::Some(CmdItemType::CmdExpUpRelicScRsp),
+            506 => ::std::option::Option::Some(CmdItemType::CmdRelicReforgeCsReq),
+            553 => ::std::option::Option::Some(CmdItemType::CmdDestroyItemScRsp),
+            591 => ::std::option::Option::Some(CmdItemType::CmdGetBagCsReq),
+            510 => ::std::option::Option::Some(CmdItemType::CmdGetBagScRsp),
+            539 => ::std::option::Option::Some(CmdItemType::CmdExpUpEquipmentCsReq),
+            525 => ::std::option::Option::Some(CmdItemType::CmdMarkItemScRsp),
+            565 => ::std::option::Option::Some(CmdItemType::CmdComposeLimitNumUpdateScNotify),
+            590 => ::std::option::Option::Some(CmdItemType::CmdILJJBGNEMHH),
+            536 => ::std::option::Option::Some(CmdItemType::CmdGetRelicFilterPlanCsReq),
+            588 => ::std::option::Option::Some(CmdItemType::CmdHKJGDIKJIGI),
+            563 => ::std::option::Option::Some(CmdItemType::CmdRankUpEquipmentCsReq),
+            551 => ::std::option::Option::Some(CmdItemType::CmdMarkItemCsReq),
+            557 => ::std::option::Option::Some(CmdItemType::CmdGetRecycleTimeCsReq),
+            593 => ::std::option::Option::Some(CmdItemType::CmdADCEACIMKLG),
+            509 => ::std::option::Option::Some(CmdItemType::CmdUseItemCsReq),
+            517 => ::std::option::Option::Some(CmdItemType::CmdGetMarkItemListScRsp),
+            501 => ::std::option::Option::Some(CmdItemType::CmdExpUpEquipmentScRsp),
+            524 => ::std::option::Option::Some(CmdItemType::CmdAddRelicFilterPlanScRsp),
+            596 => ::std::option::Option::Some(CmdItemType::CmdAddEquipmentScRsp),
+            569 => ::std::option::Option::Some(CmdItemType::CmdBatchRankUpEquipmentCsReq),
+            561 => ::std::option::Option::Some(CmdItemType::CmdSellItemScRsp),
+            528 => ::std::option::Option::Some(CmdItemType::CmdComposeLimitNumCompleteScNotify),
+            600 => ::std::option::Option::Some(CmdItemType::CmdComposeSelectedRelicCsReq),
+            507 => ::std::option::Option::Some(CmdItemType::CmdRechargeSuccNotify),
+            578 => ::std::option::Option::Some(CmdItemType::CmdModifyRelicFilterPlanCsReq),
+            592 => ::std::option::Option::Some(CmdItemType::CmdAddRelicFilterPlanCsReq),
+            526 => ::std::option::Option::Some(CmdItemType::CmdOPDNMLKMNBB),
+            516 => ::std::option::Option::Some(CmdItemType::CmdACONIFJJKCG),
+            533 => ::std::option::Option::Some(CmdItemType::CmdCmdSellItemCsReq),
+            559 => ::std::option::Option::Some(CmdItemType::CmdDeleteRelicFilterPlanCsReq),
+            572 => ::std::option::Option::Some(CmdItemType::CmdCmdLockRelicCsReq),
+            541 => ::std::option::Option::Some(CmdItemType::CmdGHCIOGMHOPP),
+            503 => ::std::option::Option::Some(CmdItemType::CmdGetRelicFilterPlanScRsp),
+            537 => ::std::option::Option::Some(CmdItemType::CmdComposeItemScRsp),
+            595 => ::std::option::Option::Some(CmdItemType::CmdDMJNAGEKONA),
+            573 => ::std::option::Option::Some(CmdItemType::CmdDestroyItemCsReq),
+            566 => ::std::option::Option::Some(CmdItemType::CmdDiscardRelicScRsp),
+            504 => ::std::option::Option::Some(CmdItemType::CmdExpUpRelicCsReq),
+            521 => ::std::option::Option::Some(CmdItemType::CmdGetRecyleTimeScRsp),
+            552 => ::std::option::Option::Some(CmdItemType::CmdRelicReforgeConfirmCsReq),
+            542 => ::std::option::Option::Some(CmdItemType::CmdModifyRelicFilterPlanScRsp),
+            554 => ::std::option::Option::Some(CmdItemType::CmdCancelMarkItemNotify),
+            598 => ::std::option::Option::Some(CmdItemType::CmdUseItemScRsp),
+            518 => ::std::option::Option::Some(CmdItemType::CmdNLDDLGDEBMO),
+            594 => ::std::option::Option::Some(CmdItemType::CmdPromoteEquipmentCsReq),
+            589 => ::std::option::Option::Some(CmdItemType::CmdComposeSelectedRelicScRsp),
+            532 => ::std::option::Option::Some(CmdItemType::CmdEBDDJOBGDHD),
+            558 => ::std::option::Option::Some(CmdItemType::CmdExchangeHcoinCsReq),
+            512 => ::std::option::Option::Some(CmdItemType::CmdMarkRelicFilterPlanCsReq),
+            544 => ::std::option::Option::Some(CmdItemType::CmdExchangeHcoinScRsp),
+            502 => ::std::option::Option::Some(CmdItemType::CmdGeneralVirtualItemDataNotify),
+            579 => ::std::option::Option::Some(CmdItemType::CmdSyncTurnFoodNotify),
+            549 => ::std::option::Option::Some(CmdItemType::CmdDiscardRelicCsReq),
+            508 => ::std::option::Option::Some(CmdItemType::CmdGetMarkItemListCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdItemType> {
         match str {
-            "CmdItemType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdItemType::CmdItemType_MNFEPONEDDJ),
-            "CmdItemType_LCANJJKKBFE" => ::std::option::Option::Some(CmdItemType::CmdItemType_LCANJJKKBFE),
-            "CmdItemType_PKOHPLFNMHF" => ::std::option::Option::Some(CmdItemType::CmdItemType_PKOHPLFNMHF),
-            "CmdItemType_PBEGNMEPFEC" => ::std::option::Option::Some(CmdItemType::CmdItemType_PBEGNMEPFEC),
-            "CmdItemType_NBKHKMJDBGD" => ::std::option::Option::Some(CmdItemType::CmdItemType_NBKHKMJDBGD),
-            "CmdItemType_FCODCKJHNPC" => ::std::option::Option::Some(CmdItemType::CmdItemType_FCODCKJHNPC),
-            "CmdItemType_IMGFFHCIKIJ" => ::std::option::Option::Some(CmdItemType::CmdItemType_IMGFFHCIKIJ),
-            "CmdItemType_INFEFPDPMNE" => ::std::option::Option::Some(CmdItemType::CmdItemType_INFEFPDPMNE),
-            "CmdItemType_DHKDAJLIIID" => ::std::option::Option::Some(CmdItemType::CmdItemType_DHKDAJLIIID),
-            "CmdItemType_CGBPAMDHIBE" => ::std::option::Option::Some(CmdItemType::CmdItemType_CGBPAMDHIBE),
-            "CmdItemType_ACNDFKFHGHM" => ::std::option::Option::Some(CmdItemType::CmdItemType_ACNDFKFHGHM),
-            "CmdItemType_IEBNLEFKDFM" => ::std::option::Option::Some(CmdItemType::CmdItemType_IEBNLEFKDFM),
-            "CmdItemType_MJGJCFHAAGP" => ::std::option::Option::Some(CmdItemType::CmdItemType_MJGJCFHAAGP),
-            "CmdItemType_PEHHPIPAPAB" => ::std::option::Option::Some(CmdItemType::CmdItemType_PEHHPIPAPAB),
-            "CmdItemType_IOLPPKDHNEB" => ::std::option::Option::Some(CmdItemType::CmdItemType_IOLPPKDHNEB),
-            "CmdItemType_PKDENFHNEIE" => ::std::option::Option::Some(CmdItemType::CmdItemType_PKDENFHNEIE),
-            "CmdItemType_OPHLAOJKCON" => ::std::option::Option::Some(CmdItemType::CmdItemType_OPHLAOJKCON),
-            "CmdItemType_GJKLFJMPCGO" => ::std::option::Option::Some(CmdItemType::CmdItemType_GJKLFJMPCGO),
-            "CmdItemType_AGPAGKALNFF" => ::std::option::Option::Some(CmdItemType::CmdItemType_AGPAGKALNFF),
-            "CmdItemType_DPGLDIIHIKM" => ::std::option::Option::Some(CmdItemType::CmdItemType_DPGLDIIHIKM),
-            "CmdItemType_KKPAOLELKEM" => ::std::option::Option::Some(CmdItemType::CmdItemType_KKPAOLELKEM),
-            "CmdItemType_JCALBJOBLID" => ::std::option::Option::Some(CmdItemType::CmdItemType_JCALBJOBLID),
-            "CmdItemType_EBDGMAKHMMA" => ::std::option::Option::Some(CmdItemType::CmdItemType_EBDGMAKHMMA),
-            "CmdItemType_CJGLOKACIPA" => ::std::option::Option::Some(CmdItemType::CmdItemType_CJGLOKACIPA),
-            "CmdItemType_HPALNLEOGKM" => ::std::option::Option::Some(CmdItemType::CmdItemType_HPALNLEOGKM),
-            "CmdItemType_IJPECLELHNH" => ::std::option::Option::Some(CmdItemType::CmdItemType_IJPECLELHNH),
-            "CmdItemType_KIEKNKMFOGB" => ::std::option::Option::Some(CmdItemType::CmdItemType_KIEKNKMFOGB),
-            "CmdItemType_CEKMPHEIKAD" => ::std::option::Option::Some(CmdItemType::CmdItemType_CEKMPHEIKAD),
-            "CmdItemType_AHIJIOPODEH" => ::std::option::Option::Some(CmdItemType::CmdItemType_AHIJIOPODEH),
-            "CmdItemType_APNICLHCHBD" => ::std::option::Option::Some(CmdItemType::CmdItemType_APNICLHCHBD),
-            "CmdItemType_EJOLFGMFCNE" => ::std::option::Option::Some(CmdItemType::CmdItemType_EJOLFGMFCNE),
-            "CmdItemType_GPBFLPLPCDB" => ::std::option::Option::Some(CmdItemType::CmdItemType_GPBFLPLPCDB),
-            "CmdItemType_NHEOGLHBBFO" => ::std::option::Option::Some(CmdItemType::CmdItemType_NHEOGLHBBFO),
-            "CmdItemType_COADODMANLP" => ::std::option::Option::Some(CmdItemType::CmdItemType_COADODMANLP),
-            "CmdItemType_DGMGJBNEOMM" => ::std::option::Option::Some(CmdItemType::CmdItemType_DGMGJBNEOMM),
-            "CmdItemType_FIKODOMEADP" => ::std::option::Option::Some(CmdItemType::CmdItemType_FIKODOMEADP),
-            "CmdItemType_CNJJJJCGDCP" => ::std::option::Option::Some(CmdItemType::CmdItemType_CNJJJJCGDCP),
-            "CmdItemType_AKAGNLIJKBC" => ::std::option::Option::Some(CmdItemType::CmdItemType_AKAGNLIJKBC),
-            "CmdItemType_JFBNHBNMOPF" => ::std::option::Option::Some(CmdItemType::CmdItemType_JFBNHBNMOPF),
-            "CmdItemType_HEJAGMPAMFG" => ::std::option::Option::Some(CmdItemType::CmdItemType_HEJAGMPAMFG),
-            "CmdItemType_ALHHLKPIHLI" => ::std::option::Option::Some(CmdItemType::CmdItemType_ALHHLKPIHLI),
-            "CmdItemType_CIANMDKFMIH" => ::std::option::Option::Some(CmdItemType::CmdItemType_CIANMDKFMIH),
-            "CmdItemType_MKOEMKIMMDI" => ::std::option::Option::Some(CmdItemType::CmdItemType_MKOEMKIMMDI),
-            "CmdItemType_FNGBOIOMPGH" => ::std::option::Option::Some(CmdItemType::CmdItemType_FNGBOIOMPGH),
-            "CmdItemType_DMNBPFNPNKB" => ::std::option::Option::Some(CmdItemType::CmdItemType_DMNBPFNPNKB),
-            "CmdItemType_KAGJLCNJLJP" => ::std::option::Option::Some(CmdItemType::CmdItemType_KAGJLCNJLJP),
-            "CmdItemType_DFNGBMDEOFG" => ::std::option::Option::Some(CmdItemType::CmdItemType_DFNGBMDEOFG),
-            "CmdItemType_HMNFGAODABN" => ::std::option::Option::Some(CmdItemType::CmdItemType_HMNFGAODABN),
-            "CmdItemType_EBNBFGKPGCN" => ::std::option::Option::Some(CmdItemType::CmdItemType_EBNBFGKPGCN),
-            "CmdItemType_FGDOLFMCICI" => ::std::option::Option::Some(CmdItemType::CmdItemType_FGDOLFMCICI),
-            "CmdItemType_ODKNGKJBOPK" => ::std::option::Option::Some(CmdItemType::CmdItemType_ODKNGKJBOPK),
-            "CmdItemType_MCPLOIOPBHF" => ::std::option::Option::Some(CmdItemType::CmdItemType_MCPLOIOPBHF),
-            "CmdItemType_OPCAGOPDJIC" => ::std::option::Option::Some(CmdItemType::CmdItemType_OPCAGOPDJIC),
-            "CmdItemType_CDDDIKMEEEB" => ::std::option::Option::Some(CmdItemType::CmdItemType_CDDDIKMEEEB),
-            "CmdItemType_CBPPBJBAIBA" => ::std::option::Option::Some(CmdItemType::CmdItemType_CBPPBJBAIBA),
-            "CmdItemType_LLPMMPGCBCB" => ::std::option::Option::Some(CmdItemType::CmdItemType_LLPMMPGCBCB),
-            "CmdItemType_CJIMNDBLJAK" => ::std::option::Option::Some(CmdItemType::CmdItemType_CJIMNDBLJAK),
-            "CmdItemType_DBKBLBIJPBD" => ::std::option::Option::Some(CmdItemType::CmdItemType_DBKBLBIJPBD),
-            "CmdItemType_JDCHJGHOPKK" => ::std::option::Option::Some(CmdItemType::CmdItemType_JDCHJGHOPKK),
-            "CmdItemType_INEDEADCOEL" => ::std::option::Option::Some(CmdItemType::CmdItemType_INEDEADCOEL),
-            "CmdItemType_KJMGPEOLMNJ" => ::std::option::Option::Some(CmdItemType::CmdItemType_KJMGPEOLMNJ),
+            "FPPPIALGGKL_PCPDHELPKEM" => ::std::option::Option::Some(CmdItemType::FPPPIALGGKL_PCPDHELPKEM),
+            "CmdSetTurnFoodSwitchCsReq" => ::std::option::Option::Some(CmdItemType::CmdSetTurnFoodSwitchCsReq),
+            "CmdSpecialComposeItemCsReq" => ::std::option::Option::Some(CmdItemType::CmdSpecialComposeItemCsReq),
+            "CmdKFDGNFBAOGN" => ::std::option::Option::Some(CmdItemType::CmdKFDGNFBAOGN),
+            "CmdCmdLockEquipmentCsReq" => ::std::option::Option::Some(CmdItemType::CmdCmdLockEquipmentCsReq),
+            "CmdMarkRelicFilterPlanScRsp" => ::std::option::Option::Some(CmdItemType::CmdMarkRelicFilterPlanScRsp),
+            "CmdExpUpRelicScRsp" => ::std::option::Option::Some(CmdItemType::CmdExpUpRelicScRsp),
+            "CmdRelicReforgeCsReq" => ::std::option::Option::Some(CmdItemType::CmdRelicReforgeCsReq),
+            "CmdDestroyItemScRsp" => ::std::option::Option::Some(CmdItemType::CmdDestroyItemScRsp),
+            "CmdGetBagCsReq" => ::std::option::Option::Some(CmdItemType::CmdGetBagCsReq),
+            "CmdGetBagScRsp" => ::std::option::Option::Some(CmdItemType::CmdGetBagScRsp),
+            "CmdExpUpEquipmentCsReq" => ::std::option::Option::Some(CmdItemType::CmdExpUpEquipmentCsReq),
+            "CmdMarkItemScRsp" => ::std::option::Option::Some(CmdItemType::CmdMarkItemScRsp),
+            "CmdComposeLimitNumUpdateScNotify" => ::std::option::Option::Some(CmdItemType::CmdComposeLimitNumUpdateScNotify),
+            "CmdILJJBGNEMHH" => ::std::option::Option::Some(CmdItemType::CmdILJJBGNEMHH),
+            "CmdGetRelicFilterPlanCsReq" => ::std::option::Option::Some(CmdItemType::CmdGetRelicFilterPlanCsReq),
+            "CmdHKJGDIKJIGI" => ::std::option::Option::Some(CmdItemType::CmdHKJGDIKJIGI),
+            "CmdRankUpEquipmentCsReq" => ::std::option::Option::Some(CmdItemType::CmdRankUpEquipmentCsReq),
+            "CmdMarkItemCsReq" => ::std::option::Option::Some(CmdItemType::CmdMarkItemCsReq),
+            "CmdGetRecycleTimeCsReq" => ::std::option::Option::Some(CmdItemType::CmdGetRecycleTimeCsReq),
+            "CmdADCEACIMKLG" => ::std::option::Option::Some(CmdItemType::CmdADCEACIMKLG),
+            "CmdUseItemCsReq" => ::std::option::Option::Some(CmdItemType::CmdUseItemCsReq),
+            "CmdGetMarkItemListScRsp" => ::std::option::Option::Some(CmdItemType::CmdGetMarkItemListScRsp),
+            "CmdExpUpEquipmentScRsp" => ::std::option::Option::Some(CmdItemType::CmdExpUpEquipmentScRsp),
+            "CmdAddRelicFilterPlanScRsp" => ::std::option::Option::Some(CmdItemType::CmdAddRelicFilterPlanScRsp),
+            "CmdAddEquipmentScRsp" => ::std::option::Option::Some(CmdItemType::CmdAddEquipmentScRsp),
+            "CmdBatchRankUpEquipmentCsReq" => ::std::option::Option::Some(CmdItemType::CmdBatchRankUpEquipmentCsReq),
+            "CmdSellItemScRsp" => ::std::option::Option::Some(CmdItemType::CmdSellItemScRsp),
+            "CmdComposeLimitNumCompleteScNotify" => ::std::option::Option::Some(CmdItemType::CmdComposeLimitNumCompleteScNotify),
+            "CmdComposeSelectedRelicCsReq" => ::std::option::Option::Some(CmdItemType::CmdComposeSelectedRelicCsReq),
+            "CmdRechargeSuccNotify" => ::std::option::Option::Some(CmdItemType::CmdRechargeSuccNotify),
+            "CmdModifyRelicFilterPlanCsReq" => ::std::option::Option::Some(CmdItemType::CmdModifyRelicFilterPlanCsReq),
+            "CmdAddRelicFilterPlanCsReq" => ::std::option::Option::Some(CmdItemType::CmdAddRelicFilterPlanCsReq),
+            "CmdOPDNMLKMNBB" => ::std::option::Option::Some(CmdItemType::CmdOPDNMLKMNBB),
+            "CmdACONIFJJKCG" => ::std::option::Option::Some(CmdItemType::CmdACONIFJJKCG),
+            "CmdCmdSellItemCsReq" => ::std::option::Option::Some(CmdItemType::CmdCmdSellItemCsReq),
+            "CmdDeleteRelicFilterPlanCsReq" => ::std::option::Option::Some(CmdItemType::CmdDeleteRelicFilterPlanCsReq),
+            "CmdCmdLockRelicCsReq" => ::std::option::Option::Some(CmdItemType::CmdCmdLockRelicCsReq),
+            "CmdGHCIOGMHOPP" => ::std::option::Option::Some(CmdItemType::CmdGHCIOGMHOPP),
+            "CmdGetRelicFilterPlanScRsp" => ::std::option::Option::Some(CmdItemType::CmdGetRelicFilterPlanScRsp),
+            "CmdComposeItemScRsp" => ::std::option::Option::Some(CmdItemType::CmdComposeItemScRsp),
+            "CmdDMJNAGEKONA" => ::std::option::Option::Some(CmdItemType::CmdDMJNAGEKONA),
+            "CmdDestroyItemCsReq" => ::std::option::Option::Some(CmdItemType::CmdDestroyItemCsReq),
+            "CmdDiscardRelicScRsp" => ::std::option::Option::Some(CmdItemType::CmdDiscardRelicScRsp),
+            "CmdExpUpRelicCsReq" => ::std::option::Option::Some(CmdItemType::CmdExpUpRelicCsReq),
+            "CmdGetRecyleTimeScRsp" => ::std::option::Option::Some(CmdItemType::CmdGetRecyleTimeScRsp),
+            "CmdRelicReforgeConfirmCsReq" => ::std::option::Option::Some(CmdItemType::CmdRelicReforgeConfirmCsReq),
+            "CmdModifyRelicFilterPlanScRsp" => ::std::option::Option::Some(CmdItemType::CmdModifyRelicFilterPlanScRsp),
+            "CmdCancelMarkItemNotify" => ::std::option::Option::Some(CmdItemType::CmdCancelMarkItemNotify),
+            "CmdUseItemScRsp" => ::std::option::Option::Some(CmdItemType::CmdUseItemScRsp),
+            "CmdNLDDLGDEBMO" => ::std::option::Option::Some(CmdItemType::CmdNLDDLGDEBMO),
+            "CmdPromoteEquipmentCsReq" => ::std::option::Option::Some(CmdItemType::CmdPromoteEquipmentCsReq),
+            "CmdComposeSelectedRelicScRsp" => ::std::option::Option::Some(CmdItemType::CmdComposeSelectedRelicScRsp),
+            "CmdEBDDJOBGDHD" => ::std::option::Option::Some(CmdItemType::CmdEBDDJOBGDHD),
+            "CmdExchangeHcoinCsReq" => ::std::option::Option::Some(CmdItemType::CmdExchangeHcoinCsReq),
+            "CmdMarkRelicFilterPlanCsReq" => ::std::option::Option::Some(CmdItemType::CmdMarkRelicFilterPlanCsReq),
+            "CmdExchangeHcoinScRsp" => ::std::option::Option::Some(CmdItemType::CmdExchangeHcoinScRsp),
+            "CmdGeneralVirtualItemDataNotify" => ::std::option::Option::Some(CmdItemType::CmdGeneralVirtualItemDataNotify),
+            "CmdSyncTurnFoodNotify" => ::std::option::Option::Some(CmdItemType::CmdSyncTurnFoodNotify),
+            "CmdDiscardRelicCsReq" => ::std::option::Option::Some(CmdItemType::CmdDiscardRelicCsReq),
+            "CmdGetMarkItemListCsReq" => ::std::option::Option::Some(CmdItemType::CmdGetMarkItemListCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdItemType] = &[
-        CmdItemType::CmdItemType_MNFEPONEDDJ,
-        CmdItemType::CmdItemType_LCANJJKKBFE,
-        CmdItemType::CmdItemType_PKOHPLFNMHF,
-        CmdItemType::CmdItemType_PBEGNMEPFEC,
-        CmdItemType::CmdItemType_NBKHKMJDBGD,
-        CmdItemType::CmdItemType_FCODCKJHNPC,
-        CmdItemType::CmdItemType_IMGFFHCIKIJ,
-        CmdItemType::CmdItemType_INFEFPDPMNE,
-        CmdItemType::CmdItemType_DHKDAJLIIID,
-        CmdItemType::CmdItemType_CGBPAMDHIBE,
-        CmdItemType::CmdItemType_ACNDFKFHGHM,
-        CmdItemType::CmdItemType_IEBNLEFKDFM,
-        CmdItemType::CmdItemType_MJGJCFHAAGP,
-        CmdItemType::CmdItemType_PEHHPIPAPAB,
-        CmdItemType::CmdItemType_IOLPPKDHNEB,
-        CmdItemType::CmdItemType_PKDENFHNEIE,
-        CmdItemType::CmdItemType_OPHLAOJKCON,
-        CmdItemType::CmdItemType_GJKLFJMPCGO,
-        CmdItemType::CmdItemType_AGPAGKALNFF,
-        CmdItemType::CmdItemType_DPGLDIIHIKM,
-        CmdItemType::CmdItemType_KKPAOLELKEM,
-        CmdItemType::CmdItemType_JCALBJOBLID,
-        CmdItemType::CmdItemType_EBDGMAKHMMA,
-        CmdItemType::CmdItemType_CJGLOKACIPA,
-        CmdItemType::CmdItemType_HPALNLEOGKM,
-        CmdItemType::CmdItemType_IJPECLELHNH,
-        CmdItemType::CmdItemType_KIEKNKMFOGB,
-        CmdItemType::CmdItemType_CEKMPHEIKAD,
-        CmdItemType::CmdItemType_AHIJIOPODEH,
-        CmdItemType::CmdItemType_APNICLHCHBD,
-        CmdItemType::CmdItemType_EJOLFGMFCNE,
-        CmdItemType::CmdItemType_GPBFLPLPCDB,
-        CmdItemType::CmdItemType_NHEOGLHBBFO,
-        CmdItemType::CmdItemType_COADODMANLP,
-        CmdItemType::CmdItemType_DGMGJBNEOMM,
-        CmdItemType::CmdItemType_FIKODOMEADP,
-        CmdItemType::CmdItemType_CNJJJJCGDCP,
-        CmdItemType::CmdItemType_AKAGNLIJKBC,
-        CmdItemType::CmdItemType_JFBNHBNMOPF,
-        CmdItemType::CmdItemType_HEJAGMPAMFG,
-        CmdItemType::CmdItemType_ALHHLKPIHLI,
-        CmdItemType::CmdItemType_CIANMDKFMIH,
-        CmdItemType::CmdItemType_MKOEMKIMMDI,
-        CmdItemType::CmdItemType_FNGBOIOMPGH,
-        CmdItemType::CmdItemType_DMNBPFNPNKB,
-        CmdItemType::CmdItemType_KAGJLCNJLJP,
-        CmdItemType::CmdItemType_DFNGBMDEOFG,
-        CmdItemType::CmdItemType_HMNFGAODABN,
-        CmdItemType::CmdItemType_EBNBFGKPGCN,
-        CmdItemType::CmdItemType_FGDOLFMCICI,
-        CmdItemType::CmdItemType_ODKNGKJBOPK,
-        CmdItemType::CmdItemType_MCPLOIOPBHF,
-        CmdItemType::CmdItemType_OPCAGOPDJIC,
-        CmdItemType::CmdItemType_CDDDIKMEEEB,
-        CmdItemType::CmdItemType_CBPPBJBAIBA,
-        CmdItemType::CmdItemType_LLPMMPGCBCB,
-        CmdItemType::CmdItemType_CJIMNDBLJAK,
-        CmdItemType::CmdItemType_DBKBLBIJPBD,
-        CmdItemType::CmdItemType_JDCHJGHOPKK,
-        CmdItemType::CmdItemType_INEDEADCOEL,
-        CmdItemType::CmdItemType_KJMGPEOLMNJ,
+        CmdItemType::FPPPIALGGKL_PCPDHELPKEM,
+        CmdItemType::CmdSetTurnFoodSwitchCsReq,
+        CmdItemType::CmdSpecialComposeItemCsReq,
+        CmdItemType::CmdKFDGNFBAOGN,
+        CmdItemType::CmdCmdLockEquipmentCsReq,
+        CmdItemType::CmdMarkRelicFilterPlanScRsp,
+        CmdItemType::CmdExpUpRelicScRsp,
+        CmdItemType::CmdRelicReforgeCsReq,
+        CmdItemType::CmdDestroyItemScRsp,
+        CmdItemType::CmdGetBagCsReq,
+        CmdItemType::CmdGetBagScRsp,
+        CmdItemType::CmdExpUpEquipmentCsReq,
+        CmdItemType::CmdMarkItemScRsp,
+        CmdItemType::CmdComposeLimitNumUpdateScNotify,
+        CmdItemType::CmdILJJBGNEMHH,
+        CmdItemType::CmdGetRelicFilterPlanCsReq,
+        CmdItemType::CmdHKJGDIKJIGI,
+        CmdItemType::CmdRankUpEquipmentCsReq,
+        CmdItemType::CmdMarkItemCsReq,
+        CmdItemType::CmdGetRecycleTimeCsReq,
+        CmdItemType::CmdADCEACIMKLG,
+        CmdItemType::CmdUseItemCsReq,
+        CmdItemType::CmdGetMarkItemListScRsp,
+        CmdItemType::CmdExpUpEquipmentScRsp,
+        CmdItemType::CmdAddRelicFilterPlanScRsp,
+        CmdItemType::CmdAddEquipmentScRsp,
+        CmdItemType::CmdBatchRankUpEquipmentCsReq,
+        CmdItemType::CmdSellItemScRsp,
+        CmdItemType::CmdComposeLimitNumCompleteScNotify,
+        CmdItemType::CmdComposeSelectedRelicCsReq,
+        CmdItemType::CmdRechargeSuccNotify,
+        CmdItemType::CmdModifyRelicFilterPlanCsReq,
+        CmdItemType::CmdAddRelicFilterPlanCsReq,
+        CmdItemType::CmdOPDNMLKMNBB,
+        CmdItemType::CmdACONIFJJKCG,
+        CmdItemType::CmdCmdSellItemCsReq,
+        CmdItemType::CmdDeleteRelicFilterPlanCsReq,
+        CmdItemType::CmdCmdLockRelicCsReq,
+        CmdItemType::CmdGHCIOGMHOPP,
+        CmdItemType::CmdGetRelicFilterPlanScRsp,
+        CmdItemType::CmdComposeItemScRsp,
+        CmdItemType::CmdDMJNAGEKONA,
+        CmdItemType::CmdDestroyItemCsReq,
+        CmdItemType::CmdDiscardRelicScRsp,
+        CmdItemType::CmdExpUpRelicCsReq,
+        CmdItemType::CmdGetRecyleTimeScRsp,
+        CmdItemType::CmdRelicReforgeConfirmCsReq,
+        CmdItemType::CmdModifyRelicFilterPlanScRsp,
+        CmdItemType::CmdCancelMarkItemNotify,
+        CmdItemType::CmdUseItemScRsp,
+        CmdItemType::CmdNLDDLGDEBMO,
+        CmdItemType::CmdPromoteEquipmentCsReq,
+        CmdItemType::CmdComposeSelectedRelicScRsp,
+        CmdItemType::CmdEBDDJOBGDHD,
+        CmdItemType::CmdExchangeHcoinCsReq,
+        CmdItemType::CmdMarkRelicFilterPlanCsReq,
+        CmdItemType::CmdExchangeHcoinScRsp,
+        CmdItemType::CmdGeneralVirtualItemDataNotify,
+        CmdItemType::CmdSyncTurnFoodNotify,
+        CmdItemType::CmdDiscardRelicCsReq,
+        CmdItemType::CmdGetMarkItemListCsReq,
     ];
 }
 
@@ -365,67 +365,67 @@ impl ::protobuf::EnumFull for CmdItemType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdItemType::CmdItemType_MNFEPONEDDJ => 0,
-            CmdItemType::CmdItemType_LCANJJKKBFE => 1,
-            CmdItemType::CmdItemType_PKOHPLFNMHF => 2,
-            CmdItemType::CmdItemType_PBEGNMEPFEC => 3,
-            CmdItemType::CmdItemType_NBKHKMJDBGD => 4,
-            CmdItemType::CmdItemType_FCODCKJHNPC => 5,
-            CmdItemType::CmdItemType_IMGFFHCIKIJ => 6,
-            CmdItemType::CmdItemType_INFEFPDPMNE => 7,
-            CmdItemType::CmdItemType_DHKDAJLIIID => 8,
-            CmdItemType::CmdItemType_CGBPAMDHIBE => 9,
-            CmdItemType::CmdItemType_ACNDFKFHGHM => 10,
-            CmdItemType::CmdItemType_IEBNLEFKDFM => 11,
-            CmdItemType::CmdItemType_MJGJCFHAAGP => 12,
-            CmdItemType::CmdItemType_PEHHPIPAPAB => 13,
-            CmdItemType::CmdItemType_IOLPPKDHNEB => 14,
-            CmdItemType::CmdItemType_PKDENFHNEIE => 15,
-            CmdItemType::CmdItemType_OPHLAOJKCON => 16,
-            CmdItemType::CmdItemType_GJKLFJMPCGO => 17,
-            CmdItemType::CmdItemType_AGPAGKALNFF => 18,
-            CmdItemType::CmdItemType_DPGLDIIHIKM => 19,
-            CmdItemType::CmdItemType_KKPAOLELKEM => 20,
-            CmdItemType::CmdItemType_JCALBJOBLID => 21,
-            CmdItemType::CmdItemType_EBDGMAKHMMA => 22,
-            CmdItemType::CmdItemType_CJGLOKACIPA => 23,
-            CmdItemType::CmdItemType_HPALNLEOGKM => 24,
-            CmdItemType::CmdItemType_IJPECLELHNH => 25,
-            CmdItemType::CmdItemType_KIEKNKMFOGB => 26,
-            CmdItemType::CmdItemType_CEKMPHEIKAD => 27,
-            CmdItemType::CmdItemType_AHIJIOPODEH => 28,
-            CmdItemType::CmdItemType_APNICLHCHBD => 29,
-            CmdItemType::CmdItemType_EJOLFGMFCNE => 30,
-            CmdItemType::CmdItemType_GPBFLPLPCDB => 31,
-            CmdItemType::CmdItemType_NHEOGLHBBFO => 32,
-            CmdItemType::CmdItemType_COADODMANLP => 33,
-            CmdItemType::CmdItemType_DGMGJBNEOMM => 34,
-            CmdItemType::CmdItemType_FIKODOMEADP => 35,
-            CmdItemType::CmdItemType_CNJJJJCGDCP => 36,
-            CmdItemType::CmdItemType_AKAGNLIJKBC => 37,
-            CmdItemType::CmdItemType_JFBNHBNMOPF => 38,
-            CmdItemType::CmdItemType_HEJAGMPAMFG => 39,
-            CmdItemType::CmdItemType_ALHHLKPIHLI => 40,
-            CmdItemType::CmdItemType_CIANMDKFMIH => 41,
-            CmdItemType::CmdItemType_MKOEMKIMMDI => 42,
-            CmdItemType::CmdItemType_FNGBOIOMPGH => 43,
-            CmdItemType::CmdItemType_DMNBPFNPNKB => 44,
-            CmdItemType::CmdItemType_KAGJLCNJLJP => 45,
-            CmdItemType::CmdItemType_DFNGBMDEOFG => 46,
-            CmdItemType::CmdItemType_HMNFGAODABN => 47,
-            CmdItemType::CmdItemType_EBNBFGKPGCN => 48,
-            CmdItemType::CmdItemType_FGDOLFMCICI => 49,
-            CmdItemType::CmdItemType_ODKNGKJBOPK => 50,
-            CmdItemType::CmdItemType_MCPLOIOPBHF => 51,
-            CmdItemType::CmdItemType_OPCAGOPDJIC => 52,
-            CmdItemType::CmdItemType_CDDDIKMEEEB => 53,
-            CmdItemType::CmdItemType_CBPPBJBAIBA => 54,
-            CmdItemType::CmdItemType_LLPMMPGCBCB => 55,
-            CmdItemType::CmdItemType_CJIMNDBLJAK => 56,
-            CmdItemType::CmdItemType_DBKBLBIJPBD => 57,
-            CmdItemType::CmdItemType_JDCHJGHOPKK => 58,
-            CmdItemType::CmdItemType_INEDEADCOEL => 59,
-            CmdItemType::CmdItemType_KJMGPEOLMNJ => 60,
+            CmdItemType::FPPPIALGGKL_PCPDHELPKEM => 0,
+            CmdItemType::CmdSetTurnFoodSwitchCsReq => 1,
+            CmdItemType::CmdSpecialComposeItemCsReq => 2,
+            CmdItemType::CmdKFDGNFBAOGN => 3,
+            CmdItemType::CmdCmdLockEquipmentCsReq => 4,
+            CmdItemType::CmdMarkRelicFilterPlanScRsp => 5,
+            CmdItemType::CmdExpUpRelicScRsp => 6,
+            CmdItemType::CmdRelicReforgeCsReq => 7,
+            CmdItemType::CmdDestroyItemScRsp => 8,
+            CmdItemType::CmdGetBagCsReq => 9,
+            CmdItemType::CmdGetBagScRsp => 10,
+            CmdItemType::CmdExpUpEquipmentCsReq => 11,
+            CmdItemType::CmdMarkItemScRsp => 12,
+            CmdItemType::CmdComposeLimitNumUpdateScNotify => 13,
+            CmdItemType::CmdILJJBGNEMHH => 14,
+            CmdItemType::CmdGetRelicFilterPlanCsReq => 15,
+            CmdItemType::CmdHKJGDIKJIGI => 16,
+            CmdItemType::CmdRankUpEquipmentCsReq => 17,
+            CmdItemType::CmdMarkItemCsReq => 18,
+            CmdItemType::CmdGetRecycleTimeCsReq => 19,
+            CmdItemType::CmdADCEACIMKLG => 20,
+            CmdItemType::CmdUseItemCsReq => 21,
+            CmdItemType::CmdGetMarkItemListScRsp => 22,
+            CmdItemType::CmdExpUpEquipmentScRsp => 23,
+            CmdItemType::CmdAddRelicFilterPlanScRsp => 24,
+            CmdItemType::CmdAddEquipmentScRsp => 25,
+            CmdItemType::CmdBatchRankUpEquipmentCsReq => 26,
+            CmdItemType::CmdSellItemScRsp => 27,
+            CmdItemType::CmdComposeLimitNumCompleteScNotify => 28,
+            CmdItemType::CmdComposeSelectedRelicCsReq => 29,
+            CmdItemType::CmdRechargeSuccNotify => 30,
+            CmdItemType::CmdModifyRelicFilterPlanCsReq => 31,
+            CmdItemType::CmdAddRelicFilterPlanCsReq => 32,
+            CmdItemType::CmdOPDNMLKMNBB => 33,
+            CmdItemType::CmdACONIFJJKCG => 34,
+            CmdItemType::CmdCmdSellItemCsReq => 35,
+            CmdItemType::CmdDeleteRelicFilterPlanCsReq => 36,
+            CmdItemType::CmdCmdLockRelicCsReq => 37,
+            CmdItemType::CmdGHCIOGMHOPP => 38,
+            CmdItemType::CmdGetRelicFilterPlanScRsp => 39,
+            CmdItemType::CmdComposeItemScRsp => 40,
+            CmdItemType::CmdDMJNAGEKONA => 41,
+            CmdItemType::CmdDestroyItemCsReq => 42,
+            CmdItemType::CmdDiscardRelicScRsp => 43,
+            CmdItemType::CmdExpUpRelicCsReq => 44,
+            CmdItemType::CmdGetRecyleTimeScRsp => 45,
+            CmdItemType::CmdRelicReforgeConfirmCsReq => 46,
+            CmdItemType::CmdModifyRelicFilterPlanScRsp => 47,
+            CmdItemType::CmdCancelMarkItemNotify => 48,
+            CmdItemType::CmdUseItemScRsp => 49,
+            CmdItemType::CmdNLDDLGDEBMO => 50,
+            CmdItemType::CmdPromoteEquipmentCsReq => 51,
+            CmdItemType::CmdComposeSelectedRelicScRsp => 52,
+            CmdItemType::CmdEBDDJOBGDHD => 53,
+            CmdItemType::CmdExchangeHcoinCsReq => 54,
+            CmdItemType::CmdMarkRelicFilterPlanCsReq => 55,
+            CmdItemType::CmdExchangeHcoinScRsp => 56,
+            CmdItemType::CmdGeneralVirtualItemDataNotify => 57,
+            CmdItemType::CmdSyncTurnFoodNotify => 58,
+            CmdItemType::CmdDiscardRelicCsReq => 59,
+            CmdItemType::CmdGetMarkItemListCsReq => 60,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -433,7 +433,7 @@ impl ::protobuf::EnumFull for CmdItemType {
 
 impl ::std::default::Default for CmdItemType {
     fn default() -> Self {
-        CmdItemType::CmdItemType_MNFEPONEDDJ
+        CmdItemType::FPPPIALGGKL_PCPDHELPKEM
     }
 }
 
@@ -444,49 +444,47 @@ impl CmdItemType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x11CmdItemType.proto*\xb2\x0e\n\x0bCmdItemType\x12\x1b\n\x17CmdItemTy\
-    pe_MNFEPONEDDJ\x10\0\x12\x1c\n\x17CmdItemType_LCANJJKKBFE\x10\x8f\x04\
-    \x12\x1c\n\x17CmdItemType_PKOHPLFNMHF\x10\xfb\x03\x12\x1c\n\x17CmdItemTy\
-    pe_PBEGNMEPFEC\x10\xf5\x03\x12\x1c\n\x17CmdItemType_NBKHKMJDBGD\x10\xc7\
-    \x04\x12\x1c\n\x17CmdItemType_FCODCKJHNPC\x10\x97\x04\x12\x1c\n\x17CmdIt\
-    emType_IMGFFHCIKIJ\x10\xf9\x03\x12\x1c\n\x17CmdItemType_INFEFPDPMNE\x10\
-    \x90\x04\x12\x1c\n\x17CmdItemType_DHKDAJLIIID\x10\xa2\x04\x12\x1c\n\x17C\
-    mdItemType_CGBPAMDHIBE\x10\xcc\x04\x12\x1c\n\x17CmdItemType_ACNDFKFHGHM\
-    \x10\xac\x04\x12\x1c\n\x17CmdItemType_IEBNLEFKDFM\x10\x99\x04\x12\x1c\n\
-    \x17CmdItemType_MJGJCFHAAGP\x10\xa7\x04\x12\x1c\n\x17CmdItemType_PEHHPIP\
-    APAB\x10\x8c\x04\x12\x1c\n\x17CmdItemType_IOLPPKDHNEB\x10\x80\x04\x12\
-    \x1c\n\x17CmdItemType_PKDENFHNEIE\x10\x83\x04\x12\x1c\n\x17CmdItemType_O\
-    PHLAOJKCON\x10\x81\x04\x12\x1c\n\x17CmdItemType_GJKLFJMPCGO\x10\x98\x04\
-    \x12\x1c\n\x17CmdItemType_AGPAGKALNFF\x10\xa4\x04\x12\x1c\n\x17CmdItemTy\
-    pe_DPGLDIIHIKM\x10\x93\x04\x12\x1c\n\x17CmdItemType_KKPAOLELKEM\x10\x87\
-    \x04\x12\x1c\n\x17CmdItemType_JCALBJOBLID\x10\xa6\x04\x12\x1c\n\x17CmdIt\
-    emType_EBDGMAKHMMA\x10\xb5\x04\x12\x1c\n\x17CmdItemType_CJGLOKACIPA\x10\
-    \xb4\x04\x12\x1c\n\x17CmdItemType_HPALNLEOGKM\x10\xc3\x04\x12\x1c\n\x17C\
-    mdItemType_IJPECLELHNH\x10\xfd\x03\x12\x1c\n\x17CmdItemType_KIEKNKMFOGB\
-    \x10\xae\x04\x12\x1c\n\x17CmdItemType_CEKMPHEIKAD\x10\x8b\x04\x12\x1c\n\
-    \x17CmdItemType_AHIJIOPODEH\x10\x85\x04\x12\x1c\n\x17CmdItemType_APNICLH\
-    CHBD\x10\xb8\x04\x12\x1c\n\x17CmdItemType_EJOLFGMFCNE\x10\xa3\x04\x12\
-    \x1c\n\x17CmdItemType_GPBFLPLPCDB\x10\x86\x04\x12\x1c\n\x17CmdItemType_N\
-    HEOGLHBBFO\x10\xd6\x04\x12\x1c\n\x17CmdItemType_COADODMANLP\x10\xf7\x03\
-    \x12\x1c\n\x17CmdItemType_DGMGJBNEOMM\x10\xce\x04\x12\x1c\n\x17CmdItemTy\
-    pe_FIKODOMEADP\x10\xfa\x03\x12\x1c\n\x17CmdItemType_CNJJJJCGDCP\x10\xcf\
-    \x04\x12\x1c\n\x17CmdItemType_AKAGNLIJKBC\x10\xaa\x04\x12\x1c\n\x17CmdIt\
-    emType_JFBNHBNMOPF\x10\x82\x04\x12\x1c\n\x17CmdItemType_HEJAGMPAMFG\x10\
-    \xc8\x04\x12\x1c\n\x17CmdItemType_ALHHLKPIHLI\x10\xfc\x03\x12\x1c\n\x17C\
-    mdItemType_CIANMDKFMIH\x10\xb9\x04\x12\x1c\n\x17CmdItemType_MKOEMKIMMDI\
-    \x10\xd8\x04\x12\x1c\n\x17CmdItemType_FNGBOIOMPGH\x10\xd2\x04\x12\x1c\n\
-    \x17CmdItemType_DMNBPFNPNKB\x10\xf8\x03\x12\x1c\n\x17CmdItemType_KAGJLCN\
-    JLJP\x10\xf6\x03\x12\x1c\n\x17CmdItemType_DFNGBMDEOFG\x10\xd4\x04\x12\
-    \x1c\n\x17CmdItemType_HMNFGAODABN\x10\x8d\x04\x12\x1c\n\x17CmdItemType_E\
-    BNBFGKPGCN\x10\xaf\x04\x12\x1c\n\x17CmdItemType_FGDOLFMCICI\x10\x84\x04\
-    \x12\x1c\n\x17CmdItemType_ODKNGKJBOPK\x10\x9f\x04\x12\x1c\n\x17CmdItemTy\
-    pe_MCPLOIOPBHF\x10\xc5\x04\x12\x1c\n\x17CmdItemType_OPCAGOPDJIC\x10\xca\
-    \x04\x12\x1c\n\x17CmdItemType_CDDDIKMEEEB\x10\xb2\x04\x12\x1c\n\x17CmdIt\
-    emType_CBPPBJBAIBA\x10\x9c\x04\x12\x1c\n\x17CmdItemType_LLPMMPGCBCB\x10\
-    \xa1\x04\x12\x1c\n\x17CmdItemType_CJIMNDBLJAK\x10\x96\x04\x12\x1c\n\x17C\
-    mdItemType_DBKBLBIJPBD\x10\xad\x04\x12\x1c\n\x17CmdItemType_JDCHJGHOPKK\
-    \x10\x8a\x04\x12\x1c\n\x17CmdItemType_INEDEADCOEL\x10\xc1\x04\x12\x1c\n\
-    \x17CmdItemType_KJMGPEOLMNJ\x10\xc2\x04b\x06proto3\
+    \n\x11CmdItemType.proto*\xc7\r\n\x0bCmdItemType\x12\x1b\n\x17FPPPIALGGKL\
+    _PCPDHELPKEM\x10\0\x12\x1e\n\x19CmdSetTurnFoodSwitchCsReq\x10\x88\x04\
+    \x12\x1f\n\x1aCmdSpecialComposeItemCsReq\x10\xbe\x04\x12\x13\n\x0eCmdKFD\
+    GNFBAOGN\x10\x91\x04\x12\x1d\n\x18CmdCmdLockEquipmentCsReq\x10\x82\x04\
+    \x12\x20\n\x1bCmdMarkRelicFilterPlanScRsp\x10\xc1\x04\x12\x17\n\x12CmdEx\
+    pUpRelicScRsp\x10\x9a\x04\x12\x19\n\x14CmdRelicReforgeCsReq\x10\xfa\x03\
+    \x12\x18\n\x13CmdDestroyItemScRsp\x10\xa9\x04\x12\x13\n\x0eCmdGetBagCsRe\
+    q\x10\xcf\x04\x12\x13\n\x0eCmdGetBagScRsp\x10\xfe\x03\x12\x1b\n\x16CmdEx\
+    pUpEquipmentCsReq\x10\x9b\x04\x12\x15\n\x10CmdMarkItemScRsp\x10\x8d\x04\
+    \x12%\n\x20CmdComposeLimitNumUpdateScNotify\x10\xb5\x04\x12\x13\n\x0eCmd\
+    ILJJBGNEMHH\x10\xce\x04\x12\x1f\n\x1aCmdGetRelicFilterPlanCsReq\x10\x98\
+    \x04\x12\x13\n\x0eCmdHKJGDIKJIGI\x10\xcc\x04\x12\x1c\n\x17CmdRankUpEquip\
+    mentCsReq\x10\xb3\x04\x12\x15\n\x10CmdMarkItemCsReq\x10\xa7\x04\x12\x1b\
+    \n\x16CmdGetRecycleTimeCsReq\x10\xad\x04\x12\x13\n\x0eCmdADCEACIMKLG\x10\
+    \xd1\x04\x12\x14\n\x0fCmdUseItemCsReq\x10\xfd\x03\x12\x1c\n\x17CmdGetMar\
+    kItemListScRsp\x10\x85\x04\x12\x1b\n\x16CmdExpUpEquipmentScRsp\x10\xf5\
+    \x03\x12\x1f\n\x1aCmdAddRelicFilterPlanScRsp\x10\x8c\x04\x12\x19\n\x14Cm\
+    dAddEquipmentScRsp\x10\xd4\x04\x12!\n\x1cCmdBatchRankUpEquipmentCsReq\
+    \x10\xb9\x04\x12\x15\n\x10CmdSellItemScRsp\x10\xb1\x04\x12'\n\"CmdCompos\
+    eLimitNumCompleteScNotify\x10\x90\x04\x12!\n\x1cCmdComposeSelectedRelicC\
+    sReq\x10\xd8\x04\x12\x1a\n\x15CmdRechargeSuccNotify\x10\xfb\x03\x12\"\n\
+    \x1dCmdModifyRelicFilterPlanCsReq\x10\xc2\x04\x12\x1f\n\x1aCmdAddRelicFi\
+    lterPlanCsReq\x10\xd0\x04\x12\x13\n\x0eCmdOPDNMLKMNBB\x10\x8e\x04\x12\
+    \x13\n\x0eCmdACONIFJJKCG\x10\x84\x04\x12\x18\n\x13CmdCmdSellItemCsReq\
+    \x10\x95\x04\x12\"\n\x1dCmdDeleteRelicFilterPlanCsReq\x10\xaf\x04\x12\
+    \x19\n\x14CmdCmdLockRelicCsReq\x10\xbc\x04\x12\x13\n\x0eCmdGHCIOGMHOPP\
+    \x10\x9d\x04\x12\x1f\n\x1aCmdGetRelicFilterPlanScRsp\x10\xf7\x03\x12\x18\
+    \n\x13CmdComposeItemScRsp\x10\x99\x04\x12\x13\n\x0eCmdDMJNAGEKONA\x10\
+    \xd3\x04\x12\x18\n\x13CmdDestroyItemCsReq\x10\xbd\x04\x12\x19\n\x14CmdDi\
+    scardRelicScRsp\x10\xb6\x04\x12\x17\n\x12CmdExpUpRelicCsReq\x10\xf8\x03\
+    \x12\x1a\n\x15CmdGetRecyleTimeScRsp\x10\x89\x04\x12\x20\n\x1bCmdRelicRef\
+    orgeConfirmCsReq\x10\xa8\x04\x12\"\n\x1dCmdModifyRelicFilterPlanScRsp\
+    \x10\x9e\x04\x12\x1c\n\x17CmdCancelMarkItemNotify\x10\xaa\x04\x12\x14\n\
+    \x0fCmdUseItemScRsp\x10\xd6\x04\x12\x13\n\x0eCmdNLDDLGDEBMO\x10\x86\x04\
+    \x12\x1d\n\x18CmdPromoteEquipmentCsReq\x10\xd2\x04\x12!\n\x1cCmdComposeS\
+    electedRelicScRsp\x10\xcd\x04\x12\x13\n\x0eCmdEBDDJOBGDHD\x10\x94\x04\
+    \x12\x1a\n\x15CmdExchangeHcoinCsReq\x10\xae\x04\x12\x20\n\x1bCmdMarkReli\
+    cFilterPlanCsReq\x10\x80\x04\x12\x1a\n\x15CmdExchangeHcoinScRsp\x10\xa0\
+    \x04\x12$\n\x1fCmdGeneralVirtualItemDataNotify\x10\xf6\x03\x12\x1a\n\x15\
+    CmdSyncTurnFoodNotify\x10\xc3\x04\x12\x19\n\x14CmdDiscardRelicCsReq\x10\
+    \xa5\x04\x12\x1c\n\x17CmdGetMarkItemListCsReq\x10\xfc\x03b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

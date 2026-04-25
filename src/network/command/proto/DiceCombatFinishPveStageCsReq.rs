@@ -32,10 +32,10 @@ pub struct DiceCombatFinishPveStageCsReq {
     pub is_win: bool,
     // @@protoc_insertion_point(field:DiceCombatFinishPveStageCsReq.damage)
     pub damage: u32,
-    // @@protoc_insertion_point(field:DiceCombatFinishPveStageCsReq.DBJPAFCFKNK)
-    pub DBJPAFCFKNK: u32,
-    // @@protoc_insertion_point(field:DiceCombatFinishPveStageCsReq.DNEBLIHEMEC)
-    pub DNEBLIHEMEC: bool,
+    // @@protoc_insertion_point(field:DiceCombatFinishPveStageCsReq.MMLKFJIAKKH)
+    pub MMLKFJIAKKH: u32,
+    // @@protoc_insertion_point(field:DiceCombatFinishPveStageCsReq.BIODAJLLINO)
+    pub BIODAJLLINO: bool,
     // special fields
     // @@protoc_insertion_point(special_field:DiceCombatFinishPveStageCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -66,14 +66,14 @@ impl DiceCombatFinishPveStageCsReq {
             |m: &mut DiceCombatFinishPveStageCsReq| { &mut m.damage },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "DBJPAFCFKNK",
-            |m: &DiceCombatFinishPveStageCsReq| { &m.DBJPAFCFKNK },
-            |m: &mut DiceCombatFinishPveStageCsReq| { &mut m.DBJPAFCFKNK },
+            "MMLKFJIAKKH",
+            |m: &DiceCombatFinishPveStageCsReq| { &m.MMLKFJIAKKH },
+            |m: &mut DiceCombatFinishPveStageCsReq| { &mut m.MMLKFJIAKKH },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "DNEBLIHEMEC",
-            |m: &DiceCombatFinishPveStageCsReq| { &m.DNEBLIHEMEC },
-            |m: &mut DiceCombatFinishPveStageCsReq| { &mut m.DNEBLIHEMEC },
+            "BIODAJLLINO",
+            |m: &DiceCombatFinishPveStageCsReq| { &m.BIODAJLLINO },
+            |m: &mut DiceCombatFinishPveStageCsReq| { &mut m.BIODAJLLINO },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<DiceCombatFinishPveStageCsReq>(
             "DiceCombatFinishPveStageCsReq",
@@ -93,17 +93,17 @@ impl ::protobuf::Message for DiceCombatFinishPveStageCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                112 => {
+                40 => {
                     self.is_win = is.read_bool()?;
                 },
-                24 => {
+                56 => {
                     self.damage = is.read_uint32()?;
                 },
                 16 => {
-                    self.DBJPAFCFKNK = is.read_uint32()?;
+                    self.MMLKFJIAKKH = is.read_uint32()?;
                 },
-                8 => {
-                    self.DNEBLIHEMEC = is.read_bool()?;
+                80 => {
+                    self.BIODAJLLINO = is.read_bool()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -121,12 +121,12 @@ impl ::protobuf::Message for DiceCombatFinishPveStageCsReq {
             my_size += 1 + 1;
         }
         if self.damage != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.damage);
+            my_size += ::protobuf::rt::uint32_size(7, self.damage);
         }
-        if self.DBJPAFCFKNK != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.DBJPAFCFKNK);
+        if self.MMLKFJIAKKH != 0 {
+            my_size += ::protobuf::rt::uint32_size(2, self.MMLKFJIAKKH);
         }
-        if self.DNEBLIHEMEC != false {
+        if self.BIODAJLLINO != false {
             my_size += 1 + 1;
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
@@ -136,16 +136,16 @@ impl ::protobuf::Message for DiceCombatFinishPveStageCsReq {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.is_win != false {
-            os.write_bool(14, self.is_win)?;
+            os.write_bool(5, self.is_win)?;
         }
         if self.damage != 0 {
-            os.write_uint32(3, self.damage)?;
+            os.write_uint32(7, self.damage)?;
         }
-        if self.DBJPAFCFKNK != 0 {
-            os.write_uint32(2, self.DBJPAFCFKNK)?;
+        if self.MMLKFJIAKKH != 0 {
+            os.write_uint32(2, self.MMLKFJIAKKH)?;
         }
-        if self.DNEBLIHEMEC != false {
-            os.write_bool(1, self.DNEBLIHEMEC)?;
+        if self.BIODAJLLINO != false {
+            os.write_bool(10, self.BIODAJLLINO)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -166,8 +166,8 @@ impl ::protobuf::Message for DiceCombatFinishPveStageCsReq {
     fn clear(&mut self) {
         self.is_win = false;
         self.damage = 0;
-        self.DBJPAFCFKNK = 0;
-        self.DNEBLIHEMEC = false;
+        self.MMLKFJIAKKH = 0;
+        self.BIODAJLLINO = false;
         self.special_fields.clear();
     }
 
@@ -175,8 +175,8 @@ impl ::protobuf::Message for DiceCombatFinishPveStageCsReq {
         static instance: DiceCombatFinishPveStageCsReq = DiceCombatFinishPveStageCsReq {
             is_win: false,
             damage: 0,
-            DBJPAFCFKNK: 0,
-            DNEBLIHEMEC: false,
+            MMLKFJIAKKH: 0,
+            BIODAJLLINO: false,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -202,10 +202,10 @@ impl ::protobuf::reflect::ProtobufValue for DiceCombatFinishPveStageCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n#DiceCombatFinishPveStageCsReq.proto\"\x92\x01\n\x1dDiceCombatFinishPv\
-    eStageCsReq\x12\x15\n\x06is_win\x18\x0e\x20\x01(\x08R\x05isWin\x12\x16\n\
-    \x06damage\x18\x03\x20\x01(\rR\x06damage\x12\x20\n\x0bDBJPAFCFKNK\x18\
-    \x02\x20\x01(\rR\x0bDBJPAFCFKNK\x12\x20\n\x0bDNEBLIHEMEC\x18\x01\x20\x01\
-    (\x08R\x0bDNEBLIHEMECb\x06proto3\
+    eStageCsReq\x12\x15\n\x06is_win\x18\x05\x20\x01(\x08R\x05isWin\x12\x16\n\
+    \x06damage\x18\x07\x20\x01(\rR\x06damage\x12\x20\n\x0bMMLKFJIAKKH\x18\
+    \x02\x20\x01(\rR\x0bMMLKFJIAKKH\x12\x20\n\x0bBIODAJLLINO\x18\n\x20\x01(\
+    \x08R\x0bBIODAJLLINOb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

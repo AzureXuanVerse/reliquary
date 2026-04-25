@@ -28,16 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightHpModifyInfo {
     // message fields
-    // @@protoc_insertion_point(field:GridFightHpModifyInfo.MGNPDKPKILB)
-    pub MGNPDKPKILB: u32,
+    // @@protoc_insertion_point(field:GridFightHpModifyInfo.EHMKLNEKIOE)
+    pub EHMKLNEKIOE: i32,
     // @@protoc_insertion_point(field:GridFightHpModifyInfo.reason)
     pub reason: ::protobuf::EnumOrUnknown<super::GridFightUpdateGlobalHpReason::GridFightUpdateGlobalHpReason>,
-    // @@protoc_insertion_point(field:GridFightHpModifyInfo.FMKOPEDJCKP)
-    pub FMKOPEDJCKP: i32,
-    // @@protoc_insertion_point(field:GridFightHpModifyInfo.MPDONOANLDP)
-    pub MPDONOANLDP: u32,
-    // @@protoc_insertion_point(field:GridFightHpModifyInfo.ABDEFLGFJAO)
-    pub ABDEFLGFJAO: i32,
+    // @@protoc_insertion_point(field:GridFightHpModifyInfo.FGEDKOINMAG)
+    pub FGEDKOINMAG: i32,
+    // @@protoc_insertion_point(field:GridFightHpModifyInfo.HPOPDNGCALL)
+    pub HPOPDNGCALL: u32,
+    // @@protoc_insertion_point(field:GridFightHpModifyInfo.PDEKDHPNCEN)
+    pub PDEKDHPNCEN: u32,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightHpModifyInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -58,9 +58,9 @@ impl GridFightHpModifyInfo {
         let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MGNPDKPKILB",
-            |m: &GridFightHpModifyInfo| { &m.MGNPDKPKILB },
-            |m: &mut GridFightHpModifyInfo| { &mut m.MGNPDKPKILB },
+            "EHMKLNEKIOE",
+            |m: &GridFightHpModifyInfo| { &m.EHMKLNEKIOE },
+            |m: &mut GridFightHpModifyInfo| { &mut m.EHMKLNEKIOE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "reason",
@@ -68,19 +68,19 @@ impl GridFightHpModifyInfo {
             |m: &mut GridFightHpModifyInfo| { &mut m.reason },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "FMKOPEDJCKP",
-            |m: &GridFightHpModifyInfo| { &m.FMKOPEDJCKP },
-            |m: &mut GridFightHpModifyInfo| { &mut m.FMKOPEDJCKP },
+            "FGEDKOINMAG",
+            |m: &GridFightHpModifyInfo| { &m.FGEDKOINMAG },
+            |m: &mut GridFightHpModifyInfo| { &mut m.FGEDKOINMAG },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MPDONOANLDP",
-            |m: &GridFightHpModifyInfo| { &m.MPDONOANLDP },
-            |m: &mut GridFightHpModifyInfo| { &mut m.MPDONOANLDP },
+            "HPOPDNGCALL",
+            |m: &GridFightHpModifyInfo| { &m.HPOPDNGCALL },
+            |m: &mut GridFightHpModifyInfo| { &mut m.HPOPDNGCALL },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "ABDEFLGFJAO",
-            |m: &GridFightHpModifyInfo| { &m.ABDEFLGFJAO },
-            |m: &mut GridFightHpModifyInfo| { &mut m.ABDEFLGFJAO },
+            "PDEKDHPNCEN",
+            |m: &GridFightHpModifyInfo| { &m.PDEKDHPNCEN },
+            |m: &mut GridFightHpModifyInfo| { &mut m.PDEKDHPNCEN },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightHpModifyInfo>(
             "GridFightHpModifyInfo",
@@ -100,20 +100,20 @@ impl ::protobuf::Message for GridFightHpModifyInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                32 => {
-                    self.MGNPDKPKILB = is.read_uint32()?;
+                88 => {
+                    self.EHMKLNEKIOE = is.read_int32()?;
                 },
-                72 => {
+                8 => {
                     self.reason = is.read_enum_or_unknown()?;
                 },
-                80 => {
-                    self.FMKOPEDJCKP = is.read_int32()?;
+                64 => {
+                    self.FGEDKOINMAG = is.read_int32()?;
                 },
-                24 => {
-                    self.MPDONOANLDP = is.read_uint32()?;
+                72 => {
+                    self.HPOPDNGCALL = is.read_uint32()?;
                 },
-                112 => {
-                    self.ABDEFLGFJAO = is.read_int32()?;
+                48 => {
+                    self.PDEKDHPNCEN = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -127,20 +127,20 @@ impl ::protobuf::Message for GridFightHpModifyInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.MGNPDKPKILB != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.MGNPDKPKILB);
+        if self.EHMKLNEKIOE != 0 {
+            my_size += ::protobuf::rt::int32_size(11, self.EHMKLNEKIOE);
         }
-        if self.reason != ::protobuf::EnumOrUnknown::new(super::GridFightUpdateGlobalHpReason::GridFightUpdateGlobalHpReason::GridFightUpdateGlobalHpReason_FDGHPIEIIHB) {
-            my_size += ::protobuf::rt::int32_size(9, self.reason.value());
+        if self.reason != ::protobuf::EnumOrUnknown::new(super::GridFightUpdateGlobalHpReason::GridFightUpdateGlobalHpReason::BAKGGPNHNNE_AJBMADNDIGH) {
+            my_size += ::protobuf::rt::int32_size(1, self.reason.value());
         }
-        if self.FMKOPEDJCKP != 0 {
-            my_size += ::protobuf::rt::int32_size(10, self.FMKOPEDJCKP);
+        if self.FGEDKOINMAG != 0 {
+            my_size += ::protobuf::rt::int32_size(8, self.FGEDKOINMAG);
         }
-        if self.MPDONOANLDP != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.MPDONOANLDP);
+        if self.HPOPDNGCALL != 0 {
+            my_size += ::protobuf::rt::uint32_size(9, self.HPOPDNGCALL);
         }
-        if self.ABDEFLGFJAO != 0 {
-            my_size += ::protobuf::rt::int32_size(14, self.ABDEFLGFJAO);
+        if self.PDEKDHPNCEN != 0 {
+            my_size += ::protobuf::rt::uint32_size(6, self.PDEKDHPNCEN);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -148,20 +148,20 @@ impl ::protobuf::Message for GridFightHpModifyInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.MGNPDKPKILB != 0 {
-            os.write_uint32(4, self.MGNPDKPKILB)?;
+        if self.EHMKLNEKIOE != 0 {
+            os.write_int32(11, self.EHMKLNEKIOE)?;
         }
-        if self.reason != ::protobuf::EnumOrUnknown::new(super::GridFightUpdateGlobalHpReason::GridFightUpdateGlobalHpReason::GridFightUpdateGlobalHpReason_FDGHPIEIIHB) {
-            os.write_enum(9, ::protobuf::EnumOrUnknown::value(&self.reason))?;
+        if self.reason != ::protobuf::EnumOrUnknown::new(super::GridFightUpdateGlobalHpReason::GridFightUpdateGlobalHpReason::BAKGGPNHNNE_AJBMADNDIGH) {
+            os.write_enum(1, ::protobuf::EnumOrUnknown::value(&self.reason))?;
         }
-        if self.FMKOPEDJCKP != 0 {
-            os.write_int32(10, self.FMKOPEDJCKP)?;
+        if self.FGEDKOINMAG != 0 {
+            os.write_int32(8, self.FGEDKOINMAG)?;
         }
-        if self.MPDONOANLDP != 0 {
-            os.write_uint32(3, self.MPDONOANLDP)?;
+        if self.HPOPDNGCALL != 0 {
+            os.write_uint32(9, self.HPOPDNGCALL)?;
         }
-        if self.ABDEFLGFJAO != 0 {
-            os.write_int32(14, self.ABDEFLGFJAO)?;
+        if self.PDEKDHPNCEN != 0 {
+            os.write_uint32(6, self.PDEKDHPNCEN)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -180,21 +180,21 @@ impl ::protobuf::Message for GridFightHpModifyInfo {
     }
 
     fn clear(&mut self) {
-        self.MGNPDKPKILB = 0;
-        self.reason = ::protobuf::EnumOrUnknown::new(super::GridFightUpdateGlobalHpReason::GridFightUpdateGlobalHpReason::GridFightUpdateGlobalHpReason_FDGHPIEIIHB);
-        self.FMKOPEDJCKP = 0;
-        self.MPDONOANLDP = 0;
-        self.ABDEFLGFJAO = 0;
+        self.EHMKLNEKIOE = 0;
+        self.reason = ::protobuf::EnumOrUnknown::new(super::GridFightUpdateGlobalHpReason::GridFightUpdateGlobalHpReason::BAKGGPNHNNE_AJBMADNDIGH);
+        self.FGEDKOINMAG = 0;
+        self.HPOPDNGCALL = 0;
+        self.PDEKDHPNCEN = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightHpModifyInfo {
         static instance: GridFightHpModifyInfo = GridFightHpModifyInfo {
-            MGNPDKPKILB: 0,
+            EHMKLNEKIOE: 0,
             reason: ::protobuf::EnumOrUnknown::from_i32(0),
-            FMKOPEDJCKP: 0,
-            MPDONOANLDP: 0,
-            ABDEFLGFJAO: 0,
+            FGEDKOINMAG: 0,
+            HPOPDNGCALL: 0,
+            PDEKDHPNCEN: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -220,12 +220,12 @@ impl ::protobuf::reflect::ProtobufValue for GridFightHpModifyInfo {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1bGridFightHpModifyInfo.proto\x1a#GridFightUpdateGlobalHpReason.prot\
-    o\"\xd7\x01\n\x15GridFightHpModifyInfo\x12\x20\n\x0bMGNPDKPKILB\x18\x04\
-    \x20\x01(\rR\x0bMGNPDKPKILB\x126\n\x06reason\x18\t\x20\x01(\x0e2\x1e.Gri\
-    dFightUpdateGlobalHpReasonR\x06reason\x12\x20\n\x0bFMKOPEDJCKP\x18\n\x20\
-    \x01(\x05R\x0bFMKOPEDJCKP\x12\x20\n\x0bMPDONOANLDP\x18\x03\x20\x01(\rR\
-    \x0bMPDONOANLDP\x12\x20\n\x0bABDEFLGFJAO\x18\x0e\x20\x01(\x05R\x0bABDEFL\
-    GFJAOb\x06proto3\
+    o\"\xd7\x01\n\x15GridFightHpModifyInfo\x12\x20\n\x0bEHMKLNEKIOE\x18\x0b\
+    \x20\x01(\x05R\x0bEHMKLNEKIOE\x126\n\x06reason\x18\x01\x20\x01(\x0e2\x1e\
+    .GridFightUpdateGlobalHpReasonR\x06reason\x12\x20\n\x0bFGEDKOINMAG\x18\
+    \x08\x20\x01(\x05R\x0bFGEDKOINMAG\x12\x20\n\x0bHPOPDNGCALL\x18\t\x20\x01\
+    (\rR\x0bHPOPDNGCALL\x12\x20\n\x0bPDEKDHPNCEN\x18\x06\x20\x01(\rR\x0bPDEK\
+    DHPNCENb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct LobbyInteractScNotify {
     // message fields
-    // @@protoc_insertion_point(field:LobbyInteractScNotify.BEFHOINPGCH)
-    pub BEFHOINPGCH: u32,
-    // @@protoc_insertion_point(field:LobbyInteractScNotify.PIOBAHDCHME)
-    pub PIOBAHDCHME: ::protobuf::EnumOrUnknown<super::LobbyInteractType::LobbyInteractType>,
+    // @@protoc_insertion_point(field:LobbyInteractScNotify.HGIAGJMHDOB)
+    pub HGIAGJMHDOB: ::protobuf::EnumOrUnknown<super::LobbyInteractType::LobbyInteractType>,
+    // @@protoc_insertion_point(field:LobbyInteractScNotify.AONGOEAFKOC)
+    pub AONGOEAFKOC: u32,
     // special fields
     // @@protoc_insertion_point(special_field:LobbyInteractScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl LobbyInteractScNotify {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BEFHOINPGCH",
-            |m: &LobbyInteractScNotify| { &m.BEFHOINPGCH },
-            |m: &mut LobbyInteractScNotify| { &mut m.BEFHOINPGCH },
+            "HGIAGJMHDOB",
+            |m: &LobbyInteractScNotify| { &m.HGIAGJMHDOB },
+            |m: &mut LobbyInteractScNotify| { &mut m.HGIAGJMHDOB },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "PIOBAHDCHME",
-            |m: &LobbyInteractScNotify| { &m.PIOBAHDCHME },
-            |m: &mut LobbyInteractScNotify| { &mut m.PIOBAHDCHME },
+            "AONGOEAFKOC",
+            |m: &LobbyInteractScNotify| { &m.AONGOEAFKOC },
+            |m: &mut LobbyInteractScNotify| { &mut m.AONGOEAFKOC },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<LobbyInteractScNotify>(
             "LobbyInteractScNotify",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for LobbyInteractScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                72 => {
-                    self.BEFHOINPGCH = is.read_uint32()?;
+                32 => {
+                    self.HGIAGJMHDOB = is.read_enum_or_unknown()?;
                 },
-                112 => {
-                    self.PIOBAHDCHME = is.read_enum_or_unknown()?;
+                40 => {
+                    self.AONGOEAFKOC = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for LobbyInteractScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.BEFHOINPGCH != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.BEFHOINPGCH);
+        if self.HGIAGJMHDOB != ::protobuf::EnumOrUnknown::new(super::LobbyInteractType::LobbyInteractType::JBPDGDGAEKL_PCPDHELPKEM) {
+            my_size += ::protobuf::rt::int32_size(4, self.HGIAGJMHDOB.value());
         }
-        if self.PIOBAHDCHME != ::protobuf::EnumOrUnknown::new(super::LobbyInteractType::LobbyInteractType::LobbyInteractType_MNFEPONEDDJ) {
-            my_size += ::protobuf::rt::int32_size(14, self.PIOBAHDCHME.value());
+        if self.AONGOEAFKOC != 0 {
+            my_size += ::protobuf::rt::uint32_size(5, self.AONGOEAFKOC);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for LobbyInteractScNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.BEFHOINPGCH != 0 {
-            os.write_uint32(9, self.BEFHOINPGCH)?;
+        if self.HGIAGJMHDOB != ::protobuf::EnumOrUnknown::new(super::LobbyInteractType::LobbyInteractType::JBPDGDGAEKL_PCPDHELPKEM) {
+            os.write_enum(4, ::protobuf::EnumOrUnknown::value(&self.HGIAGJMHDOB))?;
         }
-        if self.PIOBAHDCHME != ::protobuf::EnumOrUnknown::new(super::LobbyInteractType::LobbyInteractType::LobbyInteractType_MNFEPONEDDJ) {
-            os.write_enum(14, ::protobuf::EnumOrUnknown::value(&self.PIOBAHDCHME))?;
+        if self.AONGOEAFKOC != 0 {
+            os.write_uint32(5, self.AONGOEAFKOC)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,15 +132,15 @@ impl ::protobuf::Message for LobbyInteractScNotify {
     }
 
     fn clear(&mut self) {
-        self.BEFHOINPGCH = 0;
-        self.PIOBAHDCHME = ::protobuf::EnumOrUnknown::new(super::LobbyInteractType::LobbyInteractType::LobbyInteractType_MNFEPONEDDJ);
+        self.HGIAGJMHDOB = ::protobuf::EnumOrUnknown::new(super::LobbyInteractType::LobbyInteractType::JBPDGDGAEKL_PCPDHELPKEM);
+        self.AONGOEAFKOC = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static LobbyInteractScNotify {
         static instance: LobbyInteractScNotify = LobbyInteractScNotify {
-            BEFHOINPGCH: 0,
-            PIOBAHDCHME: ::protobuf::EnumOrUnknown::from_i32(0),
+            HGIAGJMHDOB: ::protobuf::EnumOrUnknown::from_i32(0),
+            AONGOEAFKOC: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,9 +166,9 @@ impl ::protobuf::reflect::ProtobufValue for LobbyInteractScNotify {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1bLobbyInteractScNotify.proto\x1a\x17LobbyInteractType.proto\"o\n\
-    \x15LobbyInteractScNotify\x12\x20\n\x0bBEFHOINPGCH\x18\t\x20\x01(\rR\x0b\
-    BEFHOINPGCH\x124\n\x0bPIOBAHDCHME\x18\x0e\x20\x01(\x0e2\x12.LobbyInterac\
-    tTypeR\x0bPIOBAHDCHMEb\x06proto3\
+    \x15LobbyInteractScNotify\x124\n\x0bHGIAGJMHDOB\x18\x04\x20\x01(\x0e2\
+    \x12.LobbyInteractTypeR\x0bHGIAGJMHDOB\x12\x20\n\x0bAONGOEAFKOC\x18\x05\
+    \x20\x01(\rR\x0bAONGOEAFKOCb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

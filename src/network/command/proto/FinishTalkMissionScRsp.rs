@@ -93,16 +93,16 @@ impl ::protobuf::Message for FinishTalkMissionScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                64 => {
+                16 => {
                     self.sub_mission_id = is.read_uint32()?;
                 },
-                80 => {
+                32 => {
                     self.retcode = is.read_uint32()?;
                 },
-                122 => {
+                74 => {
                     self.talk_str = is.read_string()?;
                 },
-                98 => {
+                82 => {
                     self.custom_value_list.push(is.read_message()?);
                 },
                 tag => {
@@ -118,13 +118,13 @@ impl ::protobuf::Message for FinishTalkMissionScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.sub_mission_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.sub_mission_id);
+            my_size += ::protobuf::rt::uint32_size(2, self.sub_mission_id);
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(4, self.retcode);
         }
         if !self.talk_str.is_empty() {
-            my_size += ::protobuf::rt::string_size(15, &self.talk_str);
+            my_size += ::protobuf::rt::string_size(9, &self.talk_str);
         }
         for value in &self.custom_value_list {
             let len = value.compute_size();
@@ -137,16 +137,16 @@ impl ::protobuf::Message for FinishTalkMissionScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.sub_mission_id != 0 {
-            os.write_uint32(8, self.sub_mission_id)?;
+            os.write_uint32(2, self.sub_mission_id)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(10, self.retcode)?;
+            os.write_uint32(4, self.retcode)?;
         }
         if !self.talk_str.is_empty() {
-            os.write_string(15, &self.talk_str)?;
+            os.write_string(9, &self.talk_str)?;
         }
         for v in &self.custom_value_list {
-            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
         };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -203,11 +203,11 @@ impl ::protobuf::reflect::ProtobufValue for FinishTalkMissionScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1cFinishTalkMissionScRsp.proto\x1a\x18MissionCustomValue.proto\"\xb4\
-    \x01\n\x16FinishTalkMissionScRsp\x12$\n\x0esub_mission_id\x18\x08\x20\
-    \x01(\rR\x0csubMissionId\x12\x18\n\x07retcode\x18\n\x20\x01(\rR\x07retco\
-    de\x12\x19\n\x08talk_str\x18\x0f\x20\x01(\tR\x07talkStr\x12?\n\x11custom\
-    _value_list\x18\x0c\x20\x03(\x0b2\x13.MissionCustomValueR\x0fcustomValue\
-    Listb\x06proto3\
+    \x01\n\x16FinishTalkMissionScRsp\x12$\n\x0esub_mission_id\x18\x02\x20\
+    \x01(\rR\x0csubMissionId\x12\x18\n\x07retcode\x18\x04\x20\x01(\rR\x07ret\
+    code\x12\x19\n\x08talk_str\x18\t\x20\x01(\tR\x07talkStr\x12?\n\x11custom\
+    _value_list\x18\n\x20\x03(\x0b2\x13.MissionCustomValueR\x0fcustomValueLi\
+    stb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

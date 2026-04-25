@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct RogueTournTakeExpRewardCsReq {
     // message fields
-    // @@protoc_insertion_point(field:RogueTournTakeExpRewardCsReq.MOEONFIGPJP)
-    pub MOEONFIGPJP: u32,
-    // @@protoc_insertion_point(field:RogueTournTakeExpRewardCsReq.CLMMOEIMGCO)
-    pub CLMMOEIMGCO: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:RogueTournTakeExpRewardCsReq.FPFIHHBNBAN)
+    pub FPFIHHBNBAN: u32,
+    // @@protoc_insertion_point(field:RogueTournTakeExpRewardCsReq.PBBHJEFLBCB)
+    pub PBBHJEFLBCB: ::std::vec::Vec<u32>,
     // special fields
     // @@protoc_insertion_point(special_field:RogueTournTakeExpRewardCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl RogueTournTakeExpRewardCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MOEONFIGPJP",
-            |m: &RogueTournTakeExpRewardCsReq| { &m.MOEONFIGPJP },
-            |m: &mut RogueTournTakeExpRewardCsReq| { &mut m.MOEONFIGPJP },
+            "FPFIHHBNBAN",
+            |m: &RogueTournTakeExpRewardCsReq| { &m.FPFIHHBNBAN },
+            |m: &mut RogueTournTakeExpRewardCsReq| { &mut m.FPFIHHBNBAN },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "CLMMOEIMGCO",
-            |m: &RogueTournTakeExpRewardCsReq| { &m.CLMMOEIMGCO },
-            |m: &mut RogueTournTakeExpRewardCsReq| { &mut m.CLMMOEIMGCO },
+            "PBBHJEFLBCB",
+            |m: &RogueTournTakeExpRewardCsReq| { &m.PBBHJEFLBCB },
+            |m: &mut RogueTournTakeExpRewardCsReq| { &mut m.PBBHJEFLBCB },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<RogueTournTakeExpRewardCsReq>(
             "RogueTournTakeExpRewardCsReq",
@@ -79,14 +79,14 @@ impl ::protobuf::Message for RogueTournTakeExpRewardCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                64 => {
-                    self.MOEONFIGPJP = is.read_uint32()?;
+                24 => {
+                    self.FPFIHHBNBAN = is.read_uint32()?;
                 },
-                90 => {
-                    is.read_repeated_packed_uint32_into(&mut self.CLMMOEIMGCO)?;
+                114 => {
+                    is.read_repeated_packed_uint32_into(&mut self.PBBHJEFLBCB)?;
                 },
-                88 => {
-                    self.CLMMOEIMGCO.push(is.read_uint32()?);
+                112 => {
+                    self.PBBHJEFLBCB.push(is.read_uint32()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -100,20 +100,20 @@ impl ::protobuf::Message for RogueTournTakeExpRewardCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.MOEONFIGPJP != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.MOEONFIGPJP);
+        if self.FPFIHHBNBAN != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.FPFIHHBNBAN);
         }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(11, &self.CLMMOEIMGCO);
+        my_size += ::protobuf::rt::vec_packed_uint32_size(14, &self.PBBHJEFLBCB);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.MOEONFIGPJP != 0 {
-            os.write_uint32(8, self.MOEONFIGPJP)?;
+        if self.FPFIHHBNBAN != 0 {
+            os.write_uint32(3, self.FPFIHHBNBAN)?;
         }
-        os.write_repeated_packed_uint32(11, &self.CLMMOEIMGCO)?;
+        os.write_repeated_packed_uint32(14, &self.PBBHJEFLBCB)?;
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -131,15 +131,15 @@ impl ::protobuf::Message for RogueTournTakeExpRewardCsReq {
     }
 
     fn clear(&mut self) {
-        self.MOEONFIGPJP = 0;
-        self.CLMMOEIMGCO.clear();
+        self.FPFIHHBNBAN = 0;
+        self.PBBHJEFLBCB.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static RogueTournTakeExpRewardCsReq {
         static instance: RogueTournTakeExpRewardCsReq = RogueTournTakeExpRewardCsReq {
-            MOEONFIGPJP: 0,
-            CLMMOEIMGCO: ::std::vec::Vec::new(),
+            FPFIHHBNBAN: 0,
+            PBBHJEFLBCB: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -165,8 +165,8 @@ impl ::protobuf::reflect::ProtobufValue for RogueTournTakeExpRewardCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\"RogueTournTakeExpRewardCsReq.proto\"b\n\x1cRogueTournTakeExpRewardCs\
-    Req\x12\x20\n\x0bMOEONFIGPJP\x18\x08\x20\x01(\rR\x0bMOEONFIGPJP\x12\x20\
-    \n\x0bCLMMOEIMGCO\x18\x0b\x20\x03(\rR\x0bCLMMOEIMGCOb\x06proto3\
+    Req\x12\x20\n\x0bFPFIHHBNBAN\x18\x03\x20\x01(\rR\x0bFPFIHHBNBAN\x12\x20\
+    \n\x0bPBBHJEFLBCB\x18\x0e\x20\x03(\rR\x0bPBBHJEFLBCBb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

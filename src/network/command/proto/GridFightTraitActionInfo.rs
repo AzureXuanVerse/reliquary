@@ -28,10 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightTraitActionInfo {
     // message fields
-    // @@protoc_insertion_point(field:GridFightTraitActionInfo.trait_id)
-    pub trait_id: u32,
     // @@protoc_insertion_point(field:GridFightTraitActionInfo.effect_id)
     pub effect_id: u32,
+    // @@protoc_insertion_point(field:GridFightTraitActionInfo.grid_fight_trait_member_unique_id_list)
+    pub grid_fight_trait_member_unique_id_list: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:GridFightTraitActionInfo.trait_id)
+    pub trait_id: u32,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightTraitActionInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -49,17 +51,22 @@ impl GridFightTraitActionInfo {
     }
 
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
-        let mut fields = ::std::vec::Vec::with_capacity(2);
+        let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "trait_id",
-            |m: &GridFightTraitActionInfo| { &m.trait_id },
-            |m: &mut GridFightTraitActionInfo| { &mut m.trait_id },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "effect_id",
             |m: &GridFightTraitActionInfo| { &m.effect_id },
             |m: &mut GridFightTraitActionInfo| { &mut m.effect_id },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "grid_fight_trait_member_unique_id_list",
+            |m: &GridFightTraitActionInfo| { &m.grid_fight_trait_member_unique_id_list },
+            |m: &mut GridFightTraitActionInfo| { &mut m.grid_fight_trait_member_unique_id_list },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "trait_id",
+            |m: &GridFightTraitActionInfo| { &m.trait_id },
+            |m: &mut GridFightTraitActionInfo| { &mut m.trait_id },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightTraitActionInfo>(
             "GridFightTraitActionInfo",
@@ -79,11 +86,17 @@ impl ::protobuf::Message for GridFightTraitActionInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                96 => {
-                    self.trait_id = is.read_uint32()?;
-                },
-                56 => {
+                120 => {
                     self.effect_id = is.read_uint32()?;
+                },
+                98 => {
+                    is.read_repeated_packed_uint32_into(&mut self.grid_fight_trait_member_unique_id_list)?;
+                },
+                96 => {
+                    self.grid_fight_trait_member_unique_id_list.push(is.read_uint32()?);
+                },
+                112 => {
+                    self.trait_id = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +110,12 @@ impl ::protobuf::Message for GridFightTraitActionInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.trait_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.trait_id);
-        }
         if self.effect_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(7, self.effect_id);
+            my_size += ::protobuf::rt::uint32_size(15, self.effect_id);
+        }
+        my_size += ::protobuf::rt::vec_packed_uint32_size(12, &self.grid_fight_trait_member_unique_id_list);
+        if self.trait_id != 0 {
+            my_size += ::protobuf::rt::uint32_size(14, self.trait_id);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +123,12 @@ impl ::protobuf::Message for GridFightTraitActionInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.trait_id != 0 {
-            os.write_uint32(12, self.trait_id)?;
-        }
         if self.effect_id != 0 {
-            os.write_uint32(7, self.effect_id)?;
+            os.write_uint32(15, self.effect_id)?;
+        }
+        os.write_repeated_packed_uint32(12, &self.grid_fight_trait_member_unique_id_list)?;
+        if self.trait_id != 0 {
+            os.write_uint32(14, self.trait_id)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,15 +147,17 @@ impl ::protobuf::Message for GridFightTraitActionInfo {
     }
 
     fn clear(&mut self) {
-        self.trait_id = 0;
         self.effect_id = 0;
+        self.grid_fight_trait_member_unique_id_list.clear();
+        self.trait_id = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightTraitActionInfo {
         static instance: GridFightTraitActionInfo = GridFightTraitActionInfo {
-            trait_id: 0,
             effect_id: 0,
+            grid_fight_trait_member_unique_id_list: ::std::vec::Vec::new(),
+            trait_id: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -165,9 +182,11 @@ impl ::protobuf::reflect::ProtobufValue for GridFightTraitActionInfo {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1eGridFightTraitActionInfo.proto\"R\n\x18GridFightTraitActionInfo\
-    \x12\x19\n\x08trait_id\x18\x0c\x20\x01(\rR\x07traitId\x12\x1b\n\teffect_\
-    id\x18\x07\x20\x01(\rR\x08effectIdb\x06proto3\
+    \n\x1eGridFightTraitActionInfo.proto\"\xa4\x01\n\x18GridFightTraitAction\
+    Info\x12\x1b\n\teffect_id\x18\x0f\x20\x01(\rR\x08effectId\x12P\n&grid_fi\
+    ght_trait_member_unique_id_list\x18\x0c\x20\x03(\rR\x20gridFightTraitMem\
+    berUniqueIdList\x12\x19\n\x08trait_id\x18\x0e\x20\x01(\rR\x07traitIdb\
+    \x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

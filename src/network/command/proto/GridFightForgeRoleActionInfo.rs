@@ -82,7 +82,7 @@ impl ::protobuf::Message for GridFightForgeRoleActionInfo {
                 10 => {
                     self.forge_goods_list.push(is.read_message()?);
                 },
-                80 => {
+                72 => {
                     self.forge_item_id = is.read_uint32()?;
                 },
                 tag => {
@@ -102,7 +102,7 @@ impl ::protobuf::Message for GridFightForgeRoleActionInfo {
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
         if self.forge_item_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.forge_item_id);
+            my_size += ::protobuf::rt::uint32_size(9, self.forge_item_id);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -114,7 +114,7 @@ impl ::protobuf::Message for GridFightForgeRoleActionInfo {
             ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
         };
         if self.forge_item_id != 0 {
-            os.write_uint32(10, self.forge_item_id)?;
+            os.write_uint32(9, self.forge_item_id)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -169,7 +169,7 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \n\"GridFightForgeRoleActionInfo.proto\x1a\x1cGridFightForgeRoleInfo.pro\
     to\"\x85\x01\n\x1cGridFightForgeRoleActionInfo\x12A\n\x10forge_goods_lis\
     t\x18\x01\x20\x03(\x0b2\x17.GridFightForgeRoleInfoR\x0eforgeGoodsList\
-    \x12\"\n\rforge_item_id\x18\n\x20\x01(\rR\x0bforgeItemIdb\x06proto3\
+    \x12\"\n\rforge_item_id\x18\t\x20\x01(\rR\x0bforgeItemIdb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

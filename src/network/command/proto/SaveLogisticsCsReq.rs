@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct SaveLogisticsCsReq {
     // message fields
-    // @@protoc_insertion_point(field:SaveLogisticsCsReq.KCHEAIFJOAM)
-    pub KCHEAIFJOAM: ::std::vec::Vec<super::DDICPDHEALB::DDICPDHEALB>,
+    // @@protoc_insertion_point(field:SaveLogisticsCsReq.KDKBNMEJLFP)
+    pub KDKBNMEJLFP: ::std::vec::Vec<super::CCBKGJGNDCL::CCBKGJGNDCL>,
     // special fields
     // @@protoc_insertion_point(special_field:SaveLogisticsCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl SaveLogisticsCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "KCHEAIFJOAM",
-            |m: &SaveLogisticsCsReq| { &m.KCHEAIFJOAM },
-            |m: &mut SaveLogisticsCsReq| { &mut m.KCHEAIFJOAM },
+            "KDKBNMEJLFP",
+            |m: &SaveLogisticsCsReq| { &m.KDKBNMEJLFP },
+            |m: &mut SaveLogisticsCsReq| { &mut m.KDKBNMEJLFP },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<SaveLogisticsCsReq>(
             "SaveLogisticsCsReq",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for SaveLogisticsCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                122 => {
-                    self.KCHEAIFJOAM.push(is.read_message()?);
+                18 => {
+                    self.KDKBNMEJLFP.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,7 +87,7 @@ impl ::protobuf::Message for SaveLogisticsCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        for value in &self.KCHEAIFJOAM {
+        for value in &self.KDKBNMEJLFP {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
@@ -97,8 +97,8 @@ impl ::protobuf::Message for SaveLogisticsCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.KCHEAIFJOAM {
-            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
+        for v in &self.KDKBNMEJLFP {
+            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
         };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -117,13 +117,13 @@ impl ::protobuf::Message for SaveLogisticsCsReq {
     }
 
     fn clear(&mut self) {
-        self.KCHEAIFJOAM.clear();
+        self.KDKBNMEJLFP.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static SaveLogisticsCsReq {
         static instance: SaveLogisticsCsReq = SaveLogisticsCsReq {
-            KCHEAIFJOAM: ::std::vec::Vec::new(),
+            KDKBNMEJLFP: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -148,9 +148,9 @@ impl ::protobuf::reflect::ProtobufValue for SaveLogisticsCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x18SaveLogisticsCsReq.proto\x1a\x11DDICPDHEALB.proto\"D\n\x12SaveLogi\
-    sticsCsReq\x12.\n\x0bKCHEAIFJOAM\x18\x0f\x20\x03(\x0b2\x0c.DDICPDHEALBR\
-    \x0bKCHEAIFJOAMb\x06proto3\
+    \n\x18SaveLogisticsCsReq.proto\x1a\x11CCBKGJGNDCL.proto\"D\n\x12SaveLogi\
+    sticsCsReq\x12.\n\x0bKDKBNMEJLFP\x18\x02\x20\x03(\x0b2\x0c.CCBKGJGNDCLR\
+    \x0bKDKBNMEJLFPb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -168,7 +168,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::DDICPDHEALB::file_descriptor().clone());
+            deps.push(super::CCBKGJGNDCL::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(SaveLogisticsCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct FiveDimJumpEnergyChangeScNotify {
     // message fields
-    // @@protoc_insertion_point(field:FiveDimJumpEnergyChangeScNotify.PCKMBBPGNJK)
-    pub PCKMBBPGNJK: u32,
+    // @@protoc_insertion_point(field:FiveDimJumpEnergyChangeScNotify.JJOOHOADJMA)
+    pub JJOOHOADJMA: u32,
     // special fields
     // @@protoc_insertion_point(special_field:FiveDimJumpEnergyChangeScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl FiveDimJumpEnergyChangeScNotify {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "PCKMBBPGNJK",
-            |m: &FiveDimJumpEnergyChangeScNotify| { &m.PCKMBBPGNJK },
-            |m: &mut FiveDimJumpEnergyChangeScNotify| { &mut m.PCKMBBPGNJK },
+            "JJOOHOADJMA",
+            |m: &FiveDimJumpEnergyChangeScNotify| { &m.JJOOHOADJMA },
+            |m: &mut FiveDimJumpEnergyChangeScNotify| { &mut m.JJOOHOADJMA },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<FiveDimJumpEnergyChangeScNotify>(
             "FiveDimJumpEnergyChangeScNotify",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for FiveDimJumpEnergyChangeScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                48 => {
-                    self.PCKMBBPGNJK = is.read_uint32()?;
+                88 => {
+                    self.JJOOHOADJMA = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,8 +87,8 @@ impl ::protobuf::Message for FiveDimJumpEnergyChangeScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.PCKMBBPGNJK != 0 {
-            my_size += ::protobuf::rt::uint32_size(6, self.PCKMBBPGNJK);
+        if self.JJOOHOADJMA != 0 {
+            my_size += ::protobuf::rt::uint32_size(11, self.JJOOHOADJMA);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -96,8 +96,8 @@ impl ::protobuf::Message for FiveDimJumpEnergyChangeScNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.PCKMBBPGNJK != 0 {
-            os.write_uint32(6, self.PCKMBBPGNJK)?;
+        if self.JJOOHOADJMA != 0 {
+            os.write_uint32(11, self.JJOOHOADJMA)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -116,13 +116,13 @@ impl ::protobuf::Message for FiveDimJumpEnergyChangeScNotify {
     }
 
     fn clear(&mut self) {
-        self.PCKMBBPGNJK = 0;
+        self.JJOOHOADJMA = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static FiveDimJumpEnergyChangeScNotify {
         static instance: FiveDimJumpEnergyChangeScNotify = FiveDimJumpEnergyChangeScNotify {
-            PCKMBBPGNJK: 0,
+            JJOOHOADJMA: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -148,7 +148,7 @@ impl ::protobuf::reflect::ProtobufValue for FiveDimJumpEnergyChangeScNotify {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n%FiveDimJumpEnergyChangeScNotify.proto\"C\n\x1fFiveDimJumpEnergyChange\
-    ScNotify\x12\x20\n\x0bPCKMBBPGNJK\x18\x06\x20\x01(\rR\x0bPCKMBBPGNJKb\
+    ScNotify\x12\x20\n\x0bJJOOHOADJMA\x18\x0b\x20\x01(\rR\x0bJJOOHOADJMAb\
     \x06proto3\
 ";
 

@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightLockInfo {
     // message fields
-    // @@protoc_insertion_point(field:GridFightLockInfo.lock_type)
-    pub lock_type: ::protobuf::EnumOrUnknown<super::GridFightLockType::GridFightLockType>,
     // @@protoc_insertion_point(field:GridFightLockInfo.lock_reason)
     pub lock_reason: ::protobuf::EnumOrUnknown<super::GridFightLockReason::GridFightLockReason>,
+    // @@protoc_insertion_point(field:GridFightLockInfo.lock_type)
+    pub lock_type: ::protobuf::EnumOrUnknown<super::GridFightLockType::GridFightLockType>,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightLockInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl GridFightLockInfo {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "lock_type",
-            |m: &GridFightLockInfo| { &m.lock_type },
-            |m: &mut GridFightLockInfo| { &mut m.lock_type },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "lock_reason",
             |m: &GridFightLockInfo| { &m.lock_reason },
             |m: &mut GridFightLockInfo| { &mut m.lock_reason },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "lock_type",
+            |m: &GridFightLockInfo| { &m.lock_type },
+            |m: &mut GridFightLockInfo| { &mut m.lock_type },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightLockInfo>(
             "GridFightLockInfo",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for GridFightLockInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                88 => {
-                    self.lock_type = is.read_enum_or_unknown()?;
-                },
-                32 => {
+                56 => {
                     self.lock_reason = is.read_enum_or_unknown()?;
+                },
+                80 => {
+                    self.lock_type = is.read_enum_or_unknown()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for GridFightLockInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.lock_type != ::protobuf::EnumOrUnknown::new(super::GridFightLockType::GridFightLockType::GridFightLockType_LCKDDLJAOHM) {
-            my_size += ::protobuf::rt::int32_size(11, self.lock_type.value());
+        if self.lock_reason != ::protobuf::EnumOrUnknown::new(super::GridFightLockReason::GridFightLockReason::DFOFFFCEFFO_DIONKBMFFDN) {
+            my_size += ::protobuf::rt::int32_size(7, self.lock_reason.value());
         }
-        if self.lock_reason != ::protobuf::EnumOrUnknown::new(super::GridFightLockReason::GridFightLockReason::GridFightLockReason_EFDBPHKPJKH) {
-            my_size += ::protobuf::rt::int32_size(4, self.lock_reason.value());
+        if self.lock_type != ::protobuf::EnumOrUnknown::new(super::GridFightLockType::GridFightLockType::PJBMHHNLCLB_LNLOOHDEAEO) {
+            my_size += ::protobuf::rt::int32_size(10, self.lock_type.value());
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for GridFightLockInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.lock_type != ::protobuf::EnumOrUnknown::new(super::GridFightLockType::GridFightLockType::GridFightLockType_LCKDDLJAOHM) {
-            os.write_enum(11, ::protobuf::EnumOrUnknown::value(&self.lock_type))?;
+        if self.lock_reason != ::protobuf::EnumOrUnknown::new(super::GridFightLockReason::GridFightLockReason::DFOFFFCEFFO_DIONKBMFFDN) {
+            os.write_enum(7, ::protobuf::EnumOrUnknown::value(&self.lock_reason))?;
         }
-        if self.lock_reason != ::protobuf::EnumOrUnknown::new(super::GridFightLockReason::GridFightLockReason::GridFightLockReason_EFDBPHKPJKH) {
-            os.write_enum(4, ::protobuf::EnumOrUnknown::value(&self.lock_reason))?;
+        if self.lock_type != ::protobuf::EnumOrUnknown::new(super::GridFightLockType::GridFightLockType::PJBMHHNLCLB_LNLOOHDEAEO) {
+            os.write_enum(10, ::protobuf::EnumOrUnknown::value(&self.lock_type))?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,15 +132,15 @@ impl ::protobuf::Message for GridFightLockInfo {
     }
 
     fn clear(&mut self) {
-        self.lock_type = ::protobuf::EnumOrUnknown::new(super::GridFightLockType::GridFightLockType::GridFightLockType_LCKDDLJAOHM);
-        self.lock_reason = ::protobuf::EnumOrUnknown::new(super::GridFightLockReason::GridFightLockReason::GridFightLockReason_EFDBPHKPJKH);
+        self.lock_reason = ::protobuf::EnumOrUnknown::new(super::GridFightLockReason::GridFightLockReason::DFOFFFCEFFO_DIONKBMFFDN);
+        self.lock_type = ::protobuf::EnumOrUnknown::new(super::GridFightLockType::GridFightLockType::PJBMHHNLCLB_LNLOOHDEAEO);
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightLockInfo {
         static instance: GridFightLockInfo = GridFightLockInfo {
-            lock_type: ::protobuf::EnumOrUnknown::from_i32(0),
             lock_reason: ::protobuf::EnumOrUnknown::from_i32(0),
+            lock_type: ::protobuf::EnumOrUnknown::from_i32(0),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,10 +166,9 @@ impl ::protobuf::reflect::ProtobufValue for GridFightLockInfo {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x17GridFightLockInfo.proto\x1a\x19GridFightLockReason.proto\x1a\x17Gr\
-    idFightLockType.proto\"{\n\x11GridFightLockInfo\x12/\n\tlock_type\x18\
-    \x0b\x20\x01(\x0e2\x12.GridFightLockTypeR\x08lockType\x125\n\x0block_rea\
-    son\x18\x04\x20\x01(\x0e2\x14.GridFightLockReasonR\nlockReasonb\x06proto\
-    3\
+    idFightLockType.proto\"{\n\x11GridFightLockInfo\x125\n\x0block_reason\
+    \x18\x07\x20\x01(\x0e2\x14.GridFightLockReasonR\nlockReason\x12/\n\tlock\
+    _type\x18\n\x20\x01(\x0e2\x12.GridFightLockTypeR\x08lockTypeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

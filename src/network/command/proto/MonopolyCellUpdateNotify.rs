@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct MonopolyCellUpdateNotify {
     // message fields
-    // @@protoc_insertion_point(field:MonopolyCellUpdateNotify.GDBMLNDFMKE)
-    pub GDBMLNDFMKE: ::protobuf::MessageField<super::NEMIGPNMNKH::NEMIGPNMNKH>,
+    // @@protoc_insertion_point(field:MonopolyCellUpdateNotify.LJHDOFBFNJH)
+    pub LJHDOFBFNJH: ::protobuf::MessageField<super::AAHBECICOEN::AAHBECICOEN>,
     // special fields
     // @@protoc_insertion_point(special_field:MonopolyCellUpdateNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -49,10 +49,10 @@ impl MonopolyCellUpdateNotify {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::NEMIGPNMNKH::NEMIGPNMNKH>(
-            "GDBMLNDFMKE",
-            |m: &MonopolyCellUpdateNotify| { &m.GDBMLNDFMKE },
-            |m: &mut MonopolyCellUpdateNotify| { &mut m.GDBMLNDFMKE },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::AAHBECICOEN::AAHBECICOEN>(
+            "LJHDOFBFNJH",
+            |m: &MonopolyCellUpdateNotify| { &m.LJHDOFBFNJH },
+            |m: &mut MonopolyCellUpdateNotify| { &mut m.LJHDOFBFNJH },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<MonopolyCellUpdateNotify>(
             "MonopolyCellUpdateNotify",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for MonopolyCellUpdateNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                122 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.GDBMLNDFMKE)?;
+                66 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.LJHDOFBFNJH)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,7 +87,7 @@ impl ::protobuf::Message for MonopolyCellUpdateNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.GDBMLNDFMKE.as_ref() {
+        if let Some(v) = self.LJHDOFBFNJH.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -97,8 +97,8 @@ impl ::protobuf::Message for MonopolyCellUpdateNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.GDBMLNDFMKE.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
+        if let Some(v) = self.LJHDOFBFNJH.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -117,13 +117,13 @@ impl ::protobuf::Message for MonopolyCellUpdateNotify {
     }
 
     fn clear(&mut self) {
-        self.GDBMLNDFMKE.clear();
+        self.LJHDOFBFNJH.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static MonopolyCellUpdateNotify {
         static instance: MonopolyCellUpdateNotify = MonopolyCellUpdateNotify {
-            GDBMLNDFMKE: ::protobuf::MessageField::none(),
+            LJHDOFBFNJH: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -148,9 +148,9 @@ impl ::protobuf::reflect::ProtobufValue for MonopolyCellUpdateNotify {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1eMonopolyCellUpdateNotify.proto\x1a\x11NEMIGPNMNKH.proto\"J\n\x18Mo\
-    nopolyCellUpdateNotify\x12.\n\x0bGDBMLNDFMKE\x18\x0f\x20\x01(\x0b2\x0c.N\
-    EMIGPNMNKHR\x0bGDBMLNDFMKEb\x06proto3\
+    \n\x1eMonopolyCellUpdateNotify.proto\x1a\x11AAHBECICOEN.proto\"J\n\x18Mo\
+    nopolyCellUpdateNotify\x12.\n\x0bLJHDOFBFNJH\x18\x08\x20\x01(\x0b2\x0c.A\
+    AHBECICOENR\x0bLJHDOFBFNJHb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -168,7 +168,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::NEMIGPNMNKH::file_descriptor().clone());
+            deps.push(super::AAHBECICOEN::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(MonopolyCellUpdateNotify::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

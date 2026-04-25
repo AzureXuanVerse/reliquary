@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct AlleyShipmentEventEffectsScNotify {
     // message fields
-    // @@protoc_insertion_point(field:AlleyShipmentEventEffectsScNotify.IDPGHGPAGHM)
-    pub IDPGHGPAGHM: ::protobuf::MessageField<super::DMOGCDLOBGK::DMOGCDLOBGK>,
+    // @@protoc_insertion_point(field:AlleyShipmentEventEffectsScNotify.KDPAGMKNNEH)
+    pub KDPAGMKNNEH: ::protobuf::MessageField<super::MKPDCILELAA::MKPDCILELAA>,
     // special fields
     // @@protoc_insertion_point(special_field:AlleyShipmentEventEffectsScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -49,10 +49,10 @@ impl AlleyShipmentEventEffectsScNotify {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::DMOGCDLOBGK::DMOGCDLOBGK>(
-            "IDPGHGPAGHM",
-            |m: &AlleyShipmentEventEffectsScNotify| { &m.IDPGHGPAGHM },
-            |m: &mut AlleyShipmentEventEffectsScNotify| { &mut m.IDPGHGPAGHM },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::MKPDCILELAA::MKPDCILELAA>(
+            "KDPAGMKNNEH",
+            |m: &AlleyShipmentEventEffectsScNotify| { &m.KDPAGMKNNEH },
+            |m: &mut AlleyShipmentEventEffectsScNotify| { &mut m.KDPAGMKNNEH },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<AlleyShipmentEventEffectsScNotify>(
             "AlleyShipmentEventEffectsScNotify",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for AlleyShipmentEventEffectsScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                122 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.IDPGHGPAGHM)?;
+                10 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.KDPAGMKNNEH)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,7 +87,7 @@ impl ::protobuf::Message for AlleyShipmentEventEffectsScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.IDPGHGPAGHM.as_ref() {
+        if let Some(v) = self.KDPAGMKNNEH.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -97,8 +97,8 @@ impl ::protobuf::Message for AlleyShipmentEventEffectsScNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.IDPGHGPAGHM.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
+        if let Some(v) = self.KDPAGMKNNEH.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -117,13 +117,13 @@ impl ::protobuf::Message for AlleyShipmentEventEffectsScNotify {
     }
 
     fn clear(&mut self) {
-        self.IDPGHGPAGHM.clear();
+        self.KDPAGMKNNEH.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static AlleyShipmentEventEffectsScNotify {
         static instance: AlleyShipmentEventEffectsScNotify = AlleyShipmentEventEffectsScNotify {
-            IDPGHGPAGHM: ::protobuf::MessageField::none(),
+            KDPAGMKNNEH: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -148,9 +148,9 @@ impl ::protobuf::reflect::ProtobufValue for AlleyShipmentEventEffectsScNotify {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n'AlleyShipmentEventEffectsScNotify.proto\x1a\x11DMOGCDLOBGK.proto\"S\n\
-    !AlleyShipmentEventEffectsScNotify\x12.\n\x0bIDPGHGPAGHM\x18\x0f\x20\x01\
-    (\x0b2\x0c.DMOGCDLOBGKR\x0bIDPGHGPAGHMb\x06proto3\
+    \n'AlleyShipmentEventEffectsScNotify.proto\x1a\x11MKPDCILELAA.proto\"S\n\
+    !AlleyShipmentEventEffectsScNotify\x12.\n\x0bKDPAGMKNNEH\x18\x01\x20\x01\
+    (\x0b2\x0c.MKPDCILELAAR\x0bKDPAGMKNNEHb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -168,7 +168,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::DMOGCDLOBGK::file_descriptor().clone());
+            deps.push(super::MKPDCILELAA::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(AlleyShipmentEventEffectsScNotify::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

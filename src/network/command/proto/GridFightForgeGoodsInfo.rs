@@ -28,7 +28,7 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightForgeGoodsInfo {
     // message oneof groups
-    pub LCMMNACGBNM: ::std::option::Option<grid_fight_forge_goods_info::LCMMNACGBNM>,
+    pub CKMEAIDKOIA: ::std::option::Option<grid_fight_forge_goods_info::CKMEAIDKOIA>,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightForgeGoodsInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -45,39 +45,39 @@ impl GridFightForgeGoodsInfo {
         ::std::default::Default::default()
     }
 
-    // .GridFightForgeEquipmentInfo equipment_goods_info = 15;
+    // .GridFightForgeEquipmentInfo equipment_goods_info = 9;
 
     pub fn equipment_goods_info(&self) -> &super::GridFightForgeEquipmentInfo::GridFightForgeEquipmentInfo {
-        match self.LCMMNACGBNM {
-            ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::EquipmentGoodsInfo(ref v)) => v,
+        match self.CKMEAIDKOIA {
+            ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::EquipmentGoodsInfo(ref v)) => v,
             _ => <super::GridFightForgeEquipmentInfo::GridFightForgeEquipmentInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_equipment_goods_info(&mut self) {
-        self.LCMMNACGBNM = ::std::option::Option::None;
+        self.CKMEAIDKOIA = ::std::option::Option::None;
     }
 
     pub fn has_equipment_goods_info(&self) -> bool {
-        match self.LCMMNACGBNM {
-            ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::EquipmentGoodsInfo(..)) => true,
+        match self.CKMEAIDKOIA {
+            ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::EquipmentGoodsInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_equipment_goods_info(&mut self, v: super::GridFightForgeEquipmentInfo::GridFightForgeEquipmentInfo) {
-        self.LCMMNACGBNM = ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::EquipmentGoodsInfo(v))
+        self.CKMEAIDKOIA = ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::EquipmentGoodsInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_equipment_goods_info(&mut self) -> &mut super::GridFightForgeEquipmentInfo::GridFightForgeEquipmentInfo {
-        if let ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::EquipmentGoodsInfo(_)) = self.LCMMNACGBNM {
+        if let ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::EquipmentGoodsInfo(_)) = self.CKMEAIDKOIA {
         } else {
-            self.LCMMNACGBNM = ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::EquipmentGoodsInfo(super::GridFightForgeEquipmentInfo::GridFightForgeEquipmentInfo::new()));
+            self.CKMEAIDKOIA = ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::EquipmentGoodsInfo(super::GridFightForgeEquipmentInfo::GridFightForgeEquipmentInfo::new()));
         }
-        match self.LCMMNACGBNM {
-            ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::EquipmentGoodsInfo(ref mut v)) => v,
+        match self.CKMEAIDKOIA {
+            ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::EquipmentGoodsInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -85,8 +85,8 @@ impl GridFightForgeGoodsInfo {
     // Take field
     pub fn take_equipment_goods_info(&mut self) -> super::GridFightForgeEquipmentInfo::GridFightForgeEquipmentInfo {
         if self.has_equipment_goods_info() {
-            match self.LCMMNACGBNM.take() {
-                ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::EquipmentGoodsInfo(v)) => v,
+            match self.CKMEAIDKOIA.take() {
+                ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::EquipmentGoodsInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -94,39 +94,39 @@ impl GridFightForgeGoodsInfo {
         }
     }
 
-    // .GridFightForgeRoleInfo role_goods_info = 2;
+    // .GridFightForgeRoleInfo role_goods_info = 3;
 
     pub fn role_goods_info(&self) -> &super::GridFightForgeRoleInfo::GridFightForgeRoleInfo {
-        match self.LCMMNACGBNM {
-            ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::RoleGoodsInfo(ref v)) => v,
+        match self.CKMEAIDKOIA {
+            ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::RoleGoodsInfo(ref v)) => v,
             _ => <super::GridFightForgeRoleInfo::GridFightForgeRoleInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_role_goods_info(&mut self) {
-        self.LCMMNACGBNM = ::std::option::Option::None;
+        self.CKMEAIDKOIA = ::std::option::Option::None;
     }
 
     pub fn has_role_goods_info(&self) -> bool {
-        match self.LCMMNACGBNM {
-            ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::RoleGoodsInfo(..)) => true,
+        match self.CKMEAIDKOIA {
+            ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::RoleGoodsInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_role_goods_info(&mut self, v: super::GridFightForgeRoleInfo::GridFightForgeRoleInfo) {
-        self.LCMMNACGBNM = ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::RoleGoodsInfo(v))
+        self.CKMEAIDKOIA = ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::RoleGoodsInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_role_goods_info(&mut self) -> &mut super::GridFightForgeRoleInfo::GridFightForgeRoleInfo {
-        if let ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::RoleGoodsInfo(_)) = self.LCMMNACGBNM {
+        if let ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::RoleGoodsInfo(_)) = self.CKMEAIDKOIA {
         } else {
-            self.LCMMNACGBNM = ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::RoleGoodsInfo(super::GridFightForgeRoleInfo::GridFightForgeRoleInfo::new()));
+            self.CKMEAIDKOIA = ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::RoleGoodsInfo(super::GridFightForgeRoleInfo::GridFightForgeRoleInfo::new()));
         }
-        match self.LCMMNACGBNM {
-            ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::RoleGoodsInfo(ref mut v)) => v,
+        match self.CKMEAIDKOIA {
+            ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::RoleGoodsInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -134,8 +134,8 @@ impl GridFightForgeGoodsInfo {
     // Take field
     pub fn take_role_goods_info(&mut self) -> super::GridFightForgeRoleInfo::GridFightForgeRoleInfo {
         if self.has_role_goods_info() {
-            match self.LCMMNACGBNM.take() {
-                ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::RoleGoodsInfo(v)) => v,
+            match self.CKMEAIDKOIA.take() {
+                ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::RoleGoodsInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -160,7 +160,7 @@ impl GridFightForgeGoodsInfo {
             GridFightForgeGoodsInfo::mut_role_goods_info,
             GridFightForgeGoodsInfo::set_role_goods_info,
         ));
-        oneofs.push(grid_fight_forge_goods_info::LCMMNACGBNM::generated_oneof_descriptor_data());
+        oneofs.push(grid_fight_forge_goods_info::CKMEAIDKOIA::generated_oneof_descriptor_data());
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightForgeGoodsInfo>(
             "GridFightForgeGoodsInfo",
             fields,
@@ -179,11 +179,11 @@ impl ::protobuf::Message for GridFightForgeGoodsInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                122 => {
-                    self.LCMMNACGBNM = ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::EquipmentGoodsInfo(is.read_message()?));
+                74 => {
+                    self.CKMEAIDKOIA = ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::EquipmentGoodsInfo(is.read_message()?));
                 },
-                18 => {
-                    self.LCMMNACGBNM = ::std::option::Option::Some(grid_fight_forge_goods_info::LCMMNACGBNM::RoleGoodsInfo(is.read_message()?));
+                26 => {
+                    self.CKMEAIDKOIA = ::std::option::Option::Some(grid_fight_forge_goods_info::CKMEAIDKOIA::RoleGoodsInfo(is.read_message()?));
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -197,13 +197,13 @@ impl ::protobuf::Message for GridFightForgeGoodsInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let ::std::option::Option::Some(ref v) = self.LCMMNACGBNM {
+        if let ::std::option::Option::Some(ref v) = self.CKMEAIDKOIA {
             match v {
-                &grid_fight_forge_goods_info::LCMMNACGBNM::EquipmentGoodsInfo(ref v) => {
+                &grid_fight_forge_goods_info::CKMEAIDKOIA::EquipmentGoodsInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_forge_goods_info::LCMMNACGBNM::RoleGoodsInfo(ref v) => {
+                &grid_fight_forge_goods_info::CKMEAIDKOIA::RoleGoodsInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
@@ -215,13 +215,13 @@ impl ::protobuf::Message for GridFightForgeGoodsInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let ::std::option::Option::Some(ref v) = self.LCMMNACGBNM {
+        if let ::std::option::Option::Some(ref v) = self.CKMEAIDKOIA {
             match v {
-                &grid_fight_forge_goods_info::LCMMNACGBNM::EquipmentGoodsInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
+                &grid_fight_forge_goods_info::CKMEAIDKOIA::EquipmentGoodsInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
                 },
-                &grid_fight_forge_goods_info::LCMMNACGBNM::RoleGoodsInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
+                &grid_fight_forge_goods_info::CKMEAIDKOIA::RoleGoodsInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
                 },
             };
         }
@@ -242,14 +242,14 @@ impl ::protobuf::Message for GridFightForgeGoodsInfo {
     }
 
     fn clear(&mut self) {
-        self.LCMMNACGBNM = ::std::option::Option::None;
-        self.LCMMNACGBNM = ::std::option::Option::None;
+        self.CKMEAIDKOIA = ::std::option::Option::None;
+        self.CKMEAIDKOIA = ::std::option::Option::None;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightForgeGoodsInfo {
         static instance: GridFightForgeGoodsInfo = GridFightForgeGoodsInfo {
-            LCMMNACGBNM: ::std::option::Option::None,
+            CKMEAIDKOIA: ::std::option::Option::None,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -278,27 +278,27 @@ pub mod grid_fight_forge_goods_info {
 
     #[derive(Clone,PartialEq,Debug)]
     #[non_exhaustive]
-    // @@protoc_insertion_point(oneof:GridFightForgeGoodsInfo.LCMMNACGBNM)
-    pub enum LCMMNACGBNM {
+    // @@protoc_insertion_point(oneof:GridFightForgeGoodsInfo.CKMEAIDKOIA)
+    pub enum CKMEAIDKOIA {
         // @@protoc_insertion_point(oneof_field:GridFightForgeGoodsInfo.equipment_goods_info)
         EquipmentGoodsInfo(super::super::GridFightForgeEquipmentInfo::GridFightForgeEquipmentInfo),
         // @@protoc_insertion_point(oneof_field:GridFightForgeGoodsInfo.role_goods_info)
         RoleGoodsInfo(super::super::GridFightForgeRoleInfo::GridFightForgeRoleInfo),
     }
 
-    impl ::protobuf::Oneof for LCMMNACGBNM {
+    impl ::protobuf::Oneof for CKMEAIDKOIA {
     }
 
-    impl ::protobuf::OneofFull for LCMMNACGBNM {
+    impl ::protobuf::OneofFull for CKMEAIDKOIA {
         fn descriptor() -> ::protobuf::reflect::OneofDescriptor {
             static descriptor: ::protobuf::rt::Lazy<::protobuf::reflect::OneofDescriptor> = ::protobuf::rt::Lazy::new();
-            descriptor.get(|| <super::GridFightForgeGoodsInfo as ::protobuf::MessageFull>::descriptor().oneof_by_name("LCMMNACGBNM").unwrap()).clone()
+            descriptor.get(|| <super::GridFightForgeGoodsInfo as ::protobuf::MessageFull>::descriptor().oneof_by_name("CKMEAIDKOIA").unwrap()).clone()
         }
     }
 
-    impl LCMMNACGBNM {
+    impl CKMEAIDKOIA {
         pub(in super) fn generated_oneof_descriptor_data() -> ::protobuf::reflect::GeneratedOneofDescriptorData {
-            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<LCMMNACGBNM>("LCMMNACGBNM")
+            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<CKMEAIDKOIA>("CKMEAIDKOIA")
         }
     }
 }
@@ -306,10 +306,10 @@ pub mod grid_fight_forge_goods_info {
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1dGridFightForgeGoodsInfo.proto\x1a!GridFightForgeEquipmentInfo.prot\
     o\x1a\x1cGridFightForgeRoleInfo.proto\"\xbd\x01\n\x17GridFightForgeGoods\
-    Info\x12P\n\x14equipment_goods_info\x18\x0f\x20\x01(\x0b2\x1c.GridFightF\
-    orgeEquipmentInfoH\0R\x12equipmentGoodsInfo\x12A\n\x0frole_goods_info\
-    \x18\x02\x20\x01(\x0b2\x17.GridFightForgeRoleInfoH\0R\rroleGoodsInfoB\r\
-    \n\x0bLCMMNACGBNMb\x06proto3\
+    Info\x12P\n\x14equipment_goods_info\x18\t\x20\x01(\x0b2\x1c.GridFightFor\
+    geEquipmentInfoH\0R\x12equipmentGoodsInfo\x12A\n\x0frole_goods_info\x18\
+    \x03\x20\x01(\x0b2\x17.GridFightForgeRoleInfoH\0R\rroleGoodsInfoB\r\n\
+    \x0bCKMEAIDKOIAb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

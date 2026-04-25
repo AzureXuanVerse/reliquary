@@ -30,8 +30,8 @@ pub struct EvolveBuildShopAbilityDownCsReq {
     // message fields
     // @@protoc_insertion_point(field:EvolveBuildShopAbilityDownCsReq.level)
     pub level: u32,
-    // @@protoc_insertion_point(field:EvolveBuildShopAbilityDownCsReq.LHMDFNFKBPC)
-    pub LHMDFNFKBPC: u32,
+    // @@protoc_insertion_point(field:EvolveBuildShopAbilityDownCsReq.NJPCMDNHOFL)
+    pub NJPCMDNHOFL: u32,
     // special fields
     // @@protoc_insertion_point(special_field:EvolveBuildShopAbilityDownCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,9 +57,9 @@ impl EvolveBuildShopAbilityDownCsReq {
             |m: &mut EvolveBuildShopAbilityDownCsReq| { &mut m.level },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "LHMDFNFKBPC",
-            |m: &EvolveBuildShopAbilityDownCsReq| { &m.LHMDFNFKBPC },
-            |m: &mut EvolveBuildShopAbilityDownCsReq| { &mut m.LHMDFNFKBPC },
+            "NJPCMDNHOFL",
+            |m: &EvolveBuildShopAbilityDownCsReq| { &m.NJPCMDNHOFL },
+            |m: &mut EvolveBuildShopAbilityDownCsReq| { &mut m.NJPCMDNHOFL },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<EvolveBuildShopAbilityDownCsReq>(
             "EvolveBuildShopAbilityDownCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for EvolveBuildShopAbilityDownCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                24 => {
+                96 => {
                     self.level = is.read_uint32()?;
                 },
-                88 => {
-                    self.LHMDFNFKBPC = is.read_uint32()?;
+                40 => {
+                    self.NJPCMDNHOFL = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -98,10 +98,10 @@ impl ::protobuf::Message for EvolveBuildShopAbilityDownCsReq {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.level != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.level);
+            my_size += ::protobuf::rt::uint32_size(12, self.level);
         }
-        if self.LHMDFNFKBPC != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.LHMDFNFKBPC);
+        if self.NJPCMDNHOFL != 0 {
+            my_size += ::protobuf::rt::uint32_size(5, self.NJPCMDNHOFL);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,10 +110,10 @@ impl ::protobuf::Message for EvolveBuildShopAbilityDownCsReq {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.level != 0 {
-            os.write_uint32(3, self.level)?;
+            os.write_uint32(12, self.level)?;
         }
-        if self.LHMDFNFKBPC != 0 {
-            os.write_uint32(11, self.LHMDFNFKBPC)?;
+        if self.NJPCMDNHOFL != 0 {
+            os.write_uint32(5, self.NJPCMDNHOFL)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -133,14 +133,14 @@ impl ::protobuf::Message for EvolveBuildShopAbilityDownCsReq {
 
     fn clear(&mut self) {
         self.level = 0;
-        self.LHMDFNFKBPC = 0;
+        self.NJPCMDNHOFL = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static EvolveBuildShopAbilityDownCsReq {
         static instance: EvolveBuildShopAbilityDownCsReq = EvolveBuildShopAbilityDownCsReq {
             level: 0,
-            LHMDFNFKBPC: 0,
+            NJPCMDNHOFL: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for EvolveBuildShopAbilityDownCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n%EvolveBuildShopAbilityDownCsReq.proto\"Y\n\x1fEvolveBuildShopAbilityD\
-    ownCsReq\x12\x14\n\x05level\x18\x03\x20\x01(\rR\x05level\x12\x20\n\x0bLH\
-    MDFNFKBPC\x18\x0b\x20\x01(\rR\x0bLHMDFNFKBPCb\x06proto3\
+    ownCsReq\x12\x14\n\x05level\x18\x0c\x20\x01(\rR\x05level\x12\x20\n\x0bNJ\
+    PCMDNHOFL\x18\x05\x20\x01(\rR\x0bNJPCMDNHOFLb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

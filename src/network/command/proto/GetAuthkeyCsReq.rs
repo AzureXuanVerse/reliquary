@@ -86,13 +86,13 @@ impl ::protobuf::Message for GetAuthkeyCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                16 => {
+                24 => {
                     self.authkey_ver = is.read_uint32()?;
                 },
-                66 => {
+                122 => {
                     self.auth_appid = is.read_string()?;
                 },
-                80 => {
+                56 => {
                     self.sign_type = is.read_uint32()?;
                 },
                 tag => {
@@ -108,13 +108,13 @@ impl ::protobuf::Message for GetAuthkeyCsReq {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.authkey_ver != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.authkey_ver);
+            my_size += ::protobuf::rt::uint32_size(3, self.authkey_ver);
         }
         if !self.auth_appid.is_empty() {
-            my_size += ::protobuf::rt::string_size(8, &self.auth_appid);
+            my_size += ::protobuf::rt::string_size(15, &self.auth_appid);
         }
         if self.sign_type != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.sign_type);
+            my_size += ::protobuf::rt::uint32_size(7, self.sign_type);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -123,13 +123,13 @@ impl ::protobuf::Message for GetAuthkeyCsReq {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.authkey_ver != 0 {
-            os.write_uint32(2, self.authkey_ver)?;
+            os.write_uint32(3, self.authkey_ver)?;
         }
         if !self.auth_appid.is_empty() {
-            os.write_string(8, &self.auth_appid)?;
+            os.write_string(15, &self.auth_appid)?;
         }
         if self.sign_type != 0 {
-            os.write_uint32(10, self.sign_type)?;
+            os.write_uint32(7, self.sign_type)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -184,9 +184,9 @@ impl ::protobuf::reflect::ProtobufValue for GetAuthkeyCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x15GetAuthkeyCsReq.proto\"n\n\x0fGetAuthkeyCsReq\x12\x1f\n\x0bauthkey\
-    _ver\x18\x02\x20\x01(\rR\nauthkeyVer\x12\x1d\n\nauth_appid\x18\x08\x20\
-    \x01(\tR\tauthAppid\x12\x1b\n\tsign_type\x18\n\x20\x01(\rR\x08signTypeb\
-    \x06proto3\
+    _ver\x18\x03\x20\x01(\rR\nauthkeyVer\x12\x1d\n\nauth_appid\x18\x0f\x20\
+    \x01(\tR\tauthAppid\x12\x1b\n\tsign_type\x18\x07\x20\x01(\rR\x08signType\
+    b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

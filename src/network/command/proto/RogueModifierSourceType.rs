@@ -27,28 +27,28 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:RogueModifierSourceType)
 pub enum RogueModifierSourceType {
-    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.RogueModifierSourceType_IDALNPNDMJJ)
-    RogueModifierSourceType_IDALNPNDMJJ = 0,
-    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.RogueModifierSourceType_GNLKLLCJLIN)
-    RogueModifierSourceType_GNLKLLCJLIN = 1,
-    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.RogueModifierSourceType_CDBDEGALDNP)
-    RogueModifierSourceType_CDBDEGALDNP = 2,
-    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.RogueModifierSourceType_ELEMLJAKFJO)
-    RogueModifierSourceType_ELEMLJAKFJO = 3,
-    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.RogueModifierSourceType_CNKFIIJFGFK)
-    RogueModifierSourceType_CNKFIIJFGFK = 4,
-    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.RogueModifierSourceType_CMDAKNCBGJH)
-    RogueModifierSourceType_CMDAKNCBGJH = 5,
-    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.RogueModifierSourceType_AMJIHAFFMNO)
-    RogueModifierSourceType_AMJIHAFFMNO = 6,
-    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.RogueModifierSourceType_FHMFDEANAEM)
-    RogueModifierSourceType_FHMFDEANAEM = 7,
-    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.RogueModifierSourceType_DCBMNGGJJMP)
-    RogueModifierSourceType_DCBMNGGJJMP = 8,
-    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.RogueModifierSourceType_HDCCINECCMF)
-    RogueModifierSourceType_HDCCINECCMF = 9,
-    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.RogueModifierSourceType_CCIHEJNHOKO)
-    RogueModifierSourceType_CCIHEJNHOKO = 10,
+    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.KIELLBKOALO_CHODNMOHLPN)
+    KIELLBKOALO_CHODNMOHLPN = 0,
+    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.KIELLBKOALO_IILJFJHMBIO)
+    KIELLBKOALO_IILJFJHMBIO = 1,
+    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.KIELLBKOALO_BFHCGECLCGO)
+    KIELLBKOALO_BFHCGECLCGO = 2,
+    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.KIELLBKOALO_HCOAGAPJKAI)
+    KIELLBKOALO_HCOAGAPJKAI = 3,
+    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.KIELLBKOALO_EEOKGNBDFAE)
+    KIELLBKOALO_EEOKGNBDFAE = 4,
+    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.KIELLBKOALO_JOAJHJCBIDE)
+    KIELLBKOALO_JOAJHJCBIDE = 5,
+    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.KIELLBKOALO_HPCJKPADOPI)
+    KIELLBKOALO_HPCJKPADOPI = 6,
+    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.KIELLBKOALO_JDKCKFIBKOA)
+    KIELLBKOALO_JDKCKFIBKOA = 7,
+    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.KIELLBKOALO_INKLKPCHLHI)
+    KIELLBKOALO_INKLKPCHLHI = 8,
+    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.KIELLBKOALO_HIKLCLPJMDK)
+    KIELLBKOALO_HIKLCLPJMDK = 9,
+    // @@protoc_insertion_point(enum_value:RogueModifierSourceType.KIELLBKOALO_BCNMDMHELNC)
+    KIELLBKOALO_BCNMDMHELNC = 10,
 }
 
 impl ::protobuf::Enum for RogueModifierSourceType {
@@ -60,50 +60,50 @@ impl ::protobuf::Enum for RogueModifierSourceType {
 
     fn from_i32(value: i32) -> ::std::option::Option<RogueModifierSourceType> {
         match value {
-            0 => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_IDALNPNDMJJ),
-            1 => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_GNLKLLCJLIN),
-            2 => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_CDBDEGALDNP),
-            3 => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_ELEMLJAKFJO),
-            4 => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_CNKFIIJFGFK),
-            5 => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_CMDAKNCBGJH),
-            6 => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_AMJIHAFFMNO),
-            7 => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_FHMFDEANAEM),
-            8 => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_DCBMNGGJJMP),
-            9 => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_HDCCINECCMF),
-            10 => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_CCIHEJNHOKO),
+            0 => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_CHODNMOHLPN),
+            1 => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_IILJFJHMBIO),
+            2 => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_BFHCGECLCGO),
+            3 => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_HCOAGAPJKAI),
+            4 => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_EEOKGNBDFAE),
+            5 => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_JOAJHJCBIDE),
+            6 => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_HPCJKPADOPI),
+            7 => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_JDKCKFIBKOA),
+            8 => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_INKLKPCHLHI),
+            9 => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_HIKLCLPJMDK),
+            10 => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_BCNMDMHELNC),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<RogueModifierSourceType> {
         match str {
-            "RogueModifierSourceType_IDALNPNDMJJ" => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_IDALNPNDMJJ),
-            "RogueModifierSourceType_GNLKLLCJLIN" => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_GNLKLLCJLIN),
-            "RogueModifierSourceType_CDBDEGALDNP" => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_CDBDEGALDNP),
-            "RogueModifierSourceType_ELEMLJAKFJO" => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_ELEMLJAKFJO),
-            "RogueModifierSourceType_CNKFIIJFGFK" => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_CNKFIIJFGFK),
-            "RogueModifierSourceType_CMDAKNCBGJH" => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_CMDAKNCBGJH),
-            "RogueModifierSourceType_AMJIHAFFMNO" => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_AMJIHAFFMNO),
-            "RogueModifierSourceType_FHMFDEANAEM" => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_FHMFDEANAEM),
-            "RogueModifierSourceType_DCBMNGGJJMP" => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_DCBMNGGJJMP),
-            "RogueModifierSourceType_HDCCINECCMF" => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_HDCCINECCMF),
-            "RogueModifierSourceType_CCIHEJNHOKO" => ::std::option::Option::Some(RogueModifierSourceType::RogueModifierSourceType_CCIHEJNHOKO),
+            "KIELLBKOALO_CHODNMOHLPN" => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_CHODNMOHLPN),
+            "KIELLBKOALO_IILJFJHMBIO" => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_IILJFJHMBIO),
+            "KIELLBKOALO_BFHCGECLCGO" => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_BFHCGECLCGO),
+            "KIELLBKOALO_HCOAGAPJKAI" => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_HCOAGAPJKAI),
+            "KIELLBKOALO_EEOKGNBDFAE" => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_EEOKGNBDFAE),
+            "KIELLBKOALO_JOAJHJCBIDE" => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_JOAJHJCBIDE),
+            "KIELLBKOALO_HPCJKPADOPI" => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_HPCJKPADOPI),
+            "KIELLBKOALO_JDKCKFIBKOA" => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_JDKCKFIBKOA),
+            "KIELLBKOALO_INKLKPCHLHI" => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_INKLKPCHLHI),
+            "KIELLBKOALO_HIKLCLPJMDK" => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_HIKLCLPJMDK),
+            "KIELLBKOALO_BCNMDMHELNC" => ::std::option::Option::Some(RogueModifierSourceType::KIELLBKOALO_BCNMDMHELNC),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [RogueModifierSourceType] = &[
-        RogueModifierSourceType::RogueModifierSourceType_IDALNPNDMJJ,
-        RogueModifierSourceType::RogueModifierSourceType_GNLKLLCJLIN,
-        RogueModifierSourceType::RogueModifierSourceType_CDBDEGALDNP,
-        RogueModifierSourceType::RogueModifierSourceType_ELEMLJAKFJO,
-        RogueModifierSourceType::RogueModifierSourceType_CNKFIIJFGFK,
-        RogueModifierSourceType::RogueModifierSourceType_CMDAKNCBGJH,
-        RogueModifierSourceType::RogueModifierSourceType_AMJIHAFFMNO,
-        RogueModifierSourceType::RogueModifierSourceType_FHMFDEANAEM,
-        RogueModifierSourceType::RogueModifierSourceType_DCBMNGGJJMP,
-        RogueModifierSourceType::RogueModifierSourceType_HDCCINECCMF,
-        RogueModifierSourceType::RogueModifierSourceType_CCIHEJNHOKO,
+        RogueModifierSourceType::KIELLBKOALO_CHODNMOHLPN,
+        RogueModifierSourceType::KIELLBKOALO_IILJFJHMBIO,
+        RogueModifierSourceType::KIELLBKOALO_BFHCGECLCGO,
+        RogueModifierSourceType::KIELLBKOALO_HCOAGAPJKAI,
+        RogueModifierSourceType::KIELLBKOALO_EEOKGNBDFAE,
+        RogueModifierSourceType::KIELLBKOALO_JOAJHJCBIDE,
+        RogueModifierSourceType::KIELLBKOALO_HPCJKPADOPI,
+        RogueModifierSourceType::KIELLBKOALO_JDKCKFIBKOA,
+        RogueModifierSourceType::KIELLBKOALO_INKLKPCHLHI,
+        RogueModifierSourceType::KIELLBKOALO_HIKLCLPJMDK,
+        RogueModifierSourceType::KIELLBKOALO_BCNMDMHELNC,
     ];
 }
 
@@ -121,7 +121,7 @@ impl ::protobuf::EnumFull for RogueModifierSourceType {
 
 impl ::std::default::Default for RogueModifierSourceType {
     fn default() -> Self {
-        RogueModifierSourceType::RogueModifierSourceType_IDALNPNDMJJ
+        RogueModifierSourceType::KIELLBKOALO_CHODNMOHLPN
     }
 }
 
@@ -132,15 +132,14 @@ impl RogueModifierSourceType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1dRogueModifierSourceType.proto*\xdc\x03\n\x17RogueModifierSourceTyp\
-    e\x12'\n#RogueModifierSourceType_IDALNPNDMJJ\x10\0\x12'\n#RogueModifierS\
-    ourceType_GNLKLLCJLIN\x10\x01\x12'\n#RogueModifierSourceType_CDBDEGALDNP\
-    \x10\x02\x12'\n#RogueModifierSourceType_ELEMLJAKFJO\x10\x03\x12'\n#Rogue\
-    ModifierSourceType_CNKFIIJFGFK\x10\x04\x12'\n#RogueModifierSourceType_CM\
-    DAKNCBGJH\x10\x05\x12'\n#RogueModifierSourceType_AMJIHAFFMNO\x10\x06\x12\
-    '\n#RogueModifierSourceType_FHMFDEANAEM\x10\x07\x12'\n#RogueModifierSour\
-    ceType_DCBMNGGJJMP\x10\x08\x12'\n#RogueModifierSourceType_HDCCINECCMF\
-    \x10\t\x12'\n#RogueModifierSourceType_CCIHEJNHOKO\x10\nb\x06proto3\
+    \n\x1dRogueModifierSourceType.proto*\xd8\x02\n\x17RogueModifierSourceTyp\
+    e\x12\x1b\n\x17KIELLBKOALO_CHODNMOHLPN\x10\0\x12\x1b\n\x17KIELLBKOALO_II\
+    LJFJHMBIO\x10\x01\x12\x1b\n\x17KIELLBKOALO_BFHCGECLCGO\x10\x02\x12\x1b\n\
+    \x17KIELLBKOALO_HCOAGAPJKAI\x10\x03\x12\x1b\n\x17KIELLBKOALO_EEOKGNBDFAE\
+    \x10\x04\x12\x1b\n\x17KIELLBKOALO_JOAJHJCBIDE\x10\x05\x12\x1b\n\x17KIELL\
+    BKOALO_HPCJKPADOPI\x10\x06\x12\x1b\n\x17KIELLBKOALO_JDKCKFIBKOA\x10\x07\
+    \x12\x1b\n\x17KIELLBKOALO_INKLKPCHLHI\x10\x08\x12\x1b\n\x17KIELLBKOALO_H\
+    IKLCLPJMDK\x10\t\x12\x1b\n\x17KIELLBKOALO_BCNMDMHELNC\x10\nb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

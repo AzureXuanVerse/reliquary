@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GetFriendRankingInfoRsp {
     // message fields
-    // @@protoc_insertion_point(field:GetFriendRankingInfoRsp.GKAIDNHIFPF)
-    pub GKAIDNHIFPF: ::std::vec::Vec<super::KFEFPFDAMMH::KFEFPFDAMMH>,
     // @@protoc_insertion_point(field:GetFriendRankingInfoRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:GetFriendRankingInfoRsp.MLKKBBFLAHG)
-    pub MLKKBBFLAHG: ::protobuf::EnumOrUnknown<super::FightGameMode::FightGameMode>,
+    // @@protoc_insertion_point(field:GetFriendRankingInfoRsp.PLOBMBFPNFK)
+    pub PLOBMBFPNFK: ::protobuf::EnumOrUnknown<super::FightGameMode::FightGameMode>,
+    // @@protoc_insertion_point(field:GetFriendRankingInfoRsp.CPBGLNGOCBA)
+    pub CPBGLNGOCBA: ::std::vec::Vec<super::EFBIHJHMICB::EFBIHJHMICB>,
     // special fields
     // @@protoc_insertion_point(special_field:GetFriendRankingInfoRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -53,20 +53,20 @@ impl GetFriendRankingInfoRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "GKAIDNHIFPF",
-            |m: &GetFriendRankingInfoRsp| { &m.GKAIDNHIFPF },
-            |m: &mut GetFriendRankingInfoRsp| { &mut m.GKAIDNHIFPF },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &GetFriendRankingInfoRsp| { &m.retcode },
             |m: &mut GetFriendRankingInfoRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MLKKBBFLAHG",
-            |m: &GetFriendRankingInfoRsp| { &m.MLKKBBFLAHG },
-            |m: &mut GetFriendRankingInfoRsp| { &mut m.MLKKBBFLAHG },
+            "PLOBMBFPNFK",
+            |m: &GetFriendRankingInfoRsp| { &m.PLOBMBFPNFK },
+            |m: &mut GetFriendRankingInfoRsp| { &mut m.PLOBMBFPNFK },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "CPBGLNGOCBA",
+            |m: &GetFriendRankingInfoRsp| { &m.CPBGLNGOCBA },
+            |m: &mut GetFriendRankingInfoRsp| { &mut m.CPBGLNGOCBA },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetFriendRankingInfoRsp>(
             "GetFriendRankingInfoRsp",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for GetFriendRankingInfoRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                10 => {
-                    self.GKAIDNHIFPF.push(is.read_message()?);
-                },
-                72 => {
+                104 => {
                     self.retcode = is.read_uint32()?;
                 },
-                16 => {
-                    self.MLKKBBFLAHG = is.read_enum_or_unknown()?;
+                112 => {
+                    self.PLOBMBFPNFK = is.read_enum_or_unknown()?;
+                },
+                122 => {
+                    self.CPBGLNGOCBA.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -107,31 +107,31 @@ impl ::protobuf::Message for GetFriendRankingInfoRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        for value in &self.GKAIDNHIFPF {
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(13, self.retcode);
+        }
+        if self.PLOBMBFPNFK != ::protobuf::EnumOrUnknown::new(super::FightGameMode::FightGameMode::EJIMIOGAOKL_PCPDHELPKEM) {
+            my_size += ::protobuf::rt::int32_size(14, self.PLOBMBFPNFK.value());
+        }
+        for value in &self.CPBGLNGOCBA {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.retcode);
-        }
-        if self.MLKKBBFLAHG != ::protobuf::EnumOrUnknown::new(super::FightGameMode::FightGameMode::FightGameMode_MNFEPONEDDJ) {
-            my_size += ::protobuf::rt::int32_size(2, self.MLKKBBFLAHG.value());
-        }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.GKAIDNHIFPF {
-            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
-        };
         if self.retcode != 0 {
-            os.write_uint32(9, self.retcode)?;
+            os.write_uint32(13, self.retcode)?;
         }
-        if self.MLKKBBFLAHG != ::protobuf::EnumOrUnknown::new(super::FightGameMode::FightGameMode::FightGameMode_MNFEPONEDDJ) {
-            os.write_enum(2, ::protobuf::EnumOrUnknown::value(&self.MLKKBBFLAHG))?;
+        if self.PLOBMBFPNFK != ::protobuf::EnumOrUnknown::new(super::FightGameMode::FightGameMode::EJIMIOGAOKL_PCPDHELPKEM) {
+            os.write_enum(14, ::protobuf::EnumOrUnknown::value(&self.PLOBMBFPNFK))?;
         }
+        for v in &self.CPBGLNGOCBA {
+            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
+        };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -149,17 +149,17 @@ impl ::protobuf::Message for GetFriendRankingInfoRsp {
     }
 
     fn clear(&mut self) {
-        self.GKAIDNHIFPF.clear();
         self.retcode = 0;
-        self.MLKKBBFLAHG = ::protobuf::EnumOrUnknown::new(super::FightGameMode::FightGameMode::FightGameMode_MNFEPONEDDJ);
+        self.PLOBMBFPNFK = ::protobuf::EnumOrUnknown::new(super::FightGameMode::FightGameMode::EJIMIOGAOKL_PCPDHELPKEM);
+        self.CPBGLNGOCBA.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetFriendRankingInfoRsp {
         static instance: GetFriendRankingInfoRsp = GetFriendRankingInfoRsp {
-            GKAIDNHIFPF: ::std::vec::Vec::new(),
             retcode: 0,
-            MLKKBBFLAHG: ::protobuf::EnumOrUnknown::from_i32(0),
+            PLOBMBFPNFK: ::protobuf::EnumOrUnknown::from_i32(0),
+            CPBGLNGOCBA: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -184,11 +184,11 @@ impl ::protobuf::reflect::ProtobufValue for GetFriendRankingInfoRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1dGetFriendRankingInfoRsp.proto\x1a\x13FightGameMode.proto\x1a\x11KF\
-    EFPFDAMMH.proto\"\x95\x01\n\x17GetFriendRankingInfoRsp\x12.\n\x0bGKAIDNH\
-    IFPF\x18\x01\x20\x03(\x0b2\x0c.KFEFPFDAMMHR\x0bGKAIDNHIFPF\x12\x18\n\x07\
-    retcode\x18\t\x20\x01(\rR\x07retcode\x120\n\x0bMLKKBBFLAHG\x18\x02\x20\
-    \x01(\x0e2\x0e.FightGameModeR\x0bMLKKBBFLAHGb\x06proto3\
+    \n\x1dGetFriendRankingInfoRsp.proto\x1a\x11EFBIHJHMICB.proto\x1a\x13Figh\
+    tGameMode.proto\"\x95\x01\n\x17GetFriendRankingInfoRsp\x12\x18\n\x07retc\
+    ode\x18\r\x20\x01(\rR\x07retcode\x120\n\x0bPLOBMBFPNFK\x18\x0e\x20\x01(\
+    \x0e2\x0e.FightGameModeR\x0bPLOBMBFPNFK\x12.\n\x0bCPBGLNGOCBA\x18\x0f\
+    \x20\x03(\x0b2\x0c.EFBIHJHMICBR\x0bCPBGLNGOCBAb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -206,8 +206,8 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
+            deps.push(super::EFBIHJHMICB::file_descriptor().clone());
             deps.push(super::FightGameMode::file_descriptor().clone());
-            deps.push(super::KFEFPFDAMMH::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GetFriendRankingInfoRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

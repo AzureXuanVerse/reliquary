@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct MonopolyGetRaffleTicketCsReq {
     // message fields
-    // @@protoc_insertion_point(field:MonopolyGetRaffleTicketCsReq.LCJKKMHOIMJ)
-    pub LCJKKMHOIMJ: u32,
+    // @@protoc_insertion_point(field:MonopolyGetRaffleTicketCsReq.MBMICCJEBJB)
+    pub MBMICCJEBJB: u32,
     // special fields
     // @@protoc_insertion_point(special_field:MonopolyGetRaffleTicketCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl MonopolyGetRaffleTicketCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "LCJKKMHOIMJ",
-            |m: &MonopolyGetRaffleTicketCsReq| { &m.LCJKKMHOIMJ },
-            |m: &mut MonopolyGetRaffleTicketCsReq| { &mut m.LCJKKMHOIMJ },
+            "MBMICCJEBJB",
+            |m: &MonopolyGetRaffleTicketCsReq| { &m.MBMICCJEBJB },
+            |m: &mut MonopolyGetRaffleTicketCsReq| { &mut m.MBMICCJEBJB },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<MonopolyGetRaffleTicketCsReq>(
             "MonopolyGetRaffleTicketCsReq",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for MonopolyGetRaffleTicketCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                16 => {
-                    self.LCJKKMHOIMJ = is.read_uint32()?;
+                32 => {
+                    self.MBMICCJEBJB = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,8 +87,8 @@ impl ::protobuf::Message for MonopolyGetRaffleTicketCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.LCJKKMHOIMJ != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.LCJKKMHOIMJ);
+        if self.MBMICCJEBJB != 0 {
+            my_size += ::protobuf::rt::uint32_size(4, self.MBMICCJEBJB);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -96,8 +96,8 @@ impl ::protobuf::Message for MonopolyGetRaffleTicketCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.LCJKKMHOIMJ != 0 {
-            os.write_uint32(2, self.LCJKKMHOIMJ)?;
+        if self.MBMICCJEBJB != 0 {
+            os.write_uint32(4, self.MBMICCJEBJB)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -116,13 +116,13 @@ impl ::protobuf::Message for MonopolyGetRaffleTicketCsReq {
     }
 
     fn clear(&mut self) {
-        self.LCJKKMHOIMJ = 0;
+        self.MBMICCJEBJB = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static MonopolyGetRaffleTicketCsReq {
         static instance: MonopolyGetRaffleTicketCsReq = MonopolyGetRaffleTicketCsReq {
-            LCJKKMHOIMJ: 0,
+            MBMICCJEBJB: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -148,7 +148,7 @@ impl ::protobuf::reflect::ProtobufValue for MonopolyGetRaffleTicketCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\"MonopolyGetRaffleTicketCsReq.proto\"@\n\x1cMonopolyGetRaffleTicketCs\
-    Req\x12\x20\n\x0bLCJKKMHOIMJ\x18\x02\x20\x01(\rR\x0bLCJKKMHOIMJb\x06prot\
+    Req\x12\x20\n\x0bMBMICCJEBJB\x18\x04\x20\x01(\rR\x0bMBMICCJEBJBb\x06prot\
     o3\
 ";
 

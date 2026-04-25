@@ -30,8 +30,8 @@ pub struct UseTreasureDungeonItemScRsp {
     // message fields
     // @@protoc_insertion_point(field:UseTreasureDungeonItemScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:UseTreasureDungeonItemScRsp.JECHFKNMBAI)
-    pub JECHFKNMBAI: ::protobuf::MessageField<super::BEAAIPNAJOL::BEAAIPNAJOL>,
+    // @@protoc_insertion_point(field:UseTreasureDungeonItemScRsp.IKHJLMAKNCD)
+    pub IKHJLMAKNCD: ::protobuf::MessageField<super::KPBGMOCCMLA::KPBGMOCCMLA>,
     // special fields
     // @@protoc_insertion_point(special_field:UseTreasureDungeonItemScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -56,10 +56,10 @@ impl UseTreasureDungeonItemScRsp {
             |m: &UseTreasureDungeonItemScRsp| { &m.retcode },
             |m: &mut UseTreasureDungeonItemScRsp| { &mut m.retcode },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::BEAAIPNAJOL::BEAAIPNAJOL>(
-            "JECHFKNMBAI",
-            |m: &UseTreasureDungeonItemScRsp| { &m.JECHFKNMBAI },
-            |m: &mut UseTreasureDungeonItemScRsp| { &mut m.JECHFKNMBAI },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::KPBGMOCCMLA::KPBGMOCCMLA>(
+            "IKHJLMAKNCD",
+            |m: &UseTreasureDungeonItemScRsp| { &m.IKHJLMAKNCD },
+            |m: &mut UseTreasureDungeonItemScRsp| { &mut m.IKHJLMAKNCD },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<UseTreasureDungeonItemScRsp>(
             "UseTreasureDungeonItemScRsp",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for UseTreasureDungeonItemScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                40 => {
+                48 => {
                     self.retcode = is.read_uint32()?;
                 },
-                82 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.JECHFKNMBAI)?;
+                34 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.IKHJLMAKNCD)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -98,9 +98,9 @@ impl ::protobuf::Message for UseTreasureDungeonItemScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(5, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(6, self.retcode);
         }
-        if let Some(v) = self.JECHFKNMBAI.as_ref() {
+        if let Some(v) = self.IKHJLMAKNCD.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -111,10 +111,10 @@ impl ::protobuf::Message for UseTreasureDungeonItemScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.retcode != 0 {
-            os.write_uint32(5, self.retcode)?;
+            os.write_uint32(6, self.retcode)?;
         }
-        if let Some(v) = self.JECHFKNMBAI.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
+        if let Some(v) = self.IKHJLMAKNCD.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -134,14 +134,14 @@ impl ::protobuf::Message for UseTreasureDungeonItemScRsp {
 
     fn clear(&mut self) {
         self.retcode = 0;
-        self.JECHFKNMBAI.clear();
+        self.IKHJLMAKNCD.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static UseTreasureDungeonItemScRsp {
         static instance: UseTreasureDungeonItemScRsp = UseTreasureDungeonItemScRsp {
             retcode: 0,
-            JECHFKNMBAI: ::protobuf::MessageField::none(),
+            IKHJLMAKNCD: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,10 +166,10 @@ impl ::protobuf::reflect::ProtobufValue for UseTreasureDungeonItemScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n!UseTreasureDungeonItemScRsp.proto\x1a\x11BEAAIPNAJOL.proto\"g\n\x1bUs\
-    eTreasureDungeonItemScRsp\x12\x18\n\x07retcode\x18\x05\x20\x01(\rR\x07re\
-    tcode\x12.\n\x0bJECHFKNMBAI\x18\n\x20\x01(\x0b2\x0c.BEAAIPNAJOLR\x0bJECH\
-    FKNMBAIb\x06proto3\
+    \n!UseTreasureDungeonItemScRsp.proto\x1a\x11KPBGMOCCMLA.proto\"g\n\x1bUs\
+    eTreasureDungeonItemScRsp\x12\x18\n\x07retcode\x18\x06\x20\x01(\rR\x07re\
+    tcode\x12.\n\x0bIKHJLMAKNCD\x18\x04\x20\x01(\x0b2\x0c.KPBGMOCCMLAR\x0bIK\
+    HJLMAKNCDb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -187,7 +187,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::BEAAIPNAJOL::file_descriptor().clone());
+            deps.push(super::KPBGMOCCMLA::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(UseTreasureDungeonItemScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

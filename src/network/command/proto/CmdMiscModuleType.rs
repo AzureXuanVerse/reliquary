@@ -27,84 +27,98 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdMiscModuleType)
 pub enum CmdMiscModuleType {
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_MNFEPONEDDJ)
-    CmdMiscModuleType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_MFHPBCILGMH)
-    CmdMiscModuleType_MFHPBCILGMH = 4104,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_NOIGIJDPLIB)
-    CmdMiscModuleType_NOIGIJDPLIB = 4169,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_PCPKJKELNJC)
-    CmdMiscModuleType_PCPKJKELNJC = 4131,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_DNBACDGHHCM)
-    CmdMiscModuleType_DNBACDGHHCM = 4184,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_FDADCGAHKPB)
-    CmdMiscModuleType_FDADCGAHKPB = 4148,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_ABPLDGFAJGL)
-    CmdMiscModuleType_ABPLDGFAJGL = 4190,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_HMBFMJFPKMH)
-    CmdMiscModuleType_HMBFMJFPKMH = 4106,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_MABACACMCJK)
-    CmdMiscModuleType_MABACACMCJK = 4119,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_ADCIJGPPIPF)
-    CmdMiscModuleType_ADCIJGPPIPF = 4145,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_BJFMNPKEAOJ)
-    CmdMiscModuleType_BJFMNPKEAOJ = 4108,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_EMIEMGLKGAC)
-    CmdMiscModuleType_EMIEMGLKGAC = 4103,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_OBKGAAGENNA)
-    CmdMiscModuleType_OBKGAAGENNA = 4168,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_FMDJMMPJOHM)
-    CmdMiscModuleType_FMDJMMPJOHM = 4137,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_BPFHMHJHFDF)
-    CmdMiscModuleType_BPFHMHJHFDF = 4181,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_MMMBEDPHOED)
-    CmdMiscModuleType_MMMBEDPHOED = 4124,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_LLBKHPEELMK)
-    CmdMiscModuleType_LLBKHPEELMK = 4183,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_LDAIIHPNMNF)
-    CmdMiscModuleType_LDAIIHPNMNF = 4196,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_CIPIJMOGNPO)
-    CmdMiscModuleType_CIPIJMOGNPO = 4147,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_PGLNCFBLGKA)
-    CmdMiscModuleType_PGLNCFBLGKA = 4112,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_BELIACOJLHN)
-    CmdMiscModuleType_BELIACOJLHN = 4113,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_KOIMELPFDAB)
-    CmdMiscModuleType_KOIMELPFDAB = 4101,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_KKBAFPOEMDB)
-    CmdMiscModuleType_KKBAFPOEMDB = 4118,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_PCGKCMMKEIF)
-    CmdMiscModuleType_PCGKCMMKEIF = 4102,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_PBMJDEIMLLI)
-    CmdMiscModuleType_PBMJDEIMLLI = 4135,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_MNONINGMKKO)
-    CmdMiscModuleType_MNONINGMKKO = 4164,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_KEKLOPNKMHK)
-    CmdMiscModuleType_KEKLOPNKMHK = 4156,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_NALMAGGJMKC)
-    CmdMiscModuleType_NALMAGGJMKC = 4109,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_HOCDOJGCKNC)
-    CmdMiscModuleType_HOCDOJGCKNC = 4122,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_NKGMPFIDNJA)
-    CmdMiscModuleType_NKGMPFIDNJA = 4117,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_NKNJOIGMIHG)
-    CmdMiscModuleType_NKNJOIGMIHG = 4134,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_CKKMIEKCGMA)
-    CmdMiscModuleType_CKKMIEKCGMA = 4191,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_LHJIJEEAFCB)
-    CmdMiscModuleType_LHJIJEEAFCB = 4143,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_EMFBMBGLFEP)
-    CmdMiscModuleType_EMFBMBGLFEP = 4157,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_BJNEEDHCLNB)
-    CmdMiscModuleType_BJNEEDHCLNB = 4146,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_JOALDMLCOMD)
-    CmdMiscModuleType_JOALDMLCOMD = 4140,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_IACHHJANJNF)
-    CmdMiscModuleType_IACHHJANJNF = 4127,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_JGAOPNPBBHG)
-    CmdMiscModuleType_JGAOPNPBBHG = 4123,
-    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMiscModuleType_HLGEKHBNKKD)
-    CmdMiscModuleType_HLGEKHBNKKD = 4105,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.HFFBJODHMDL_PCPDHELPKEM)
+    HFFBJODHMDL_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdBMPOHNCLHMF)
+    CmdBMPOHNCLHMF = 4132,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdCBIJJNDGPIN)
+    CmdCBIJJNDGPIN = 4174,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdSubmitOrigamiItemCsReq)
+    CmdSubmitOrigamiItemCsReq = 4104,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdDirectDeliveryScNotify)
+    CmdDirectDeliveryScNotify = 4151,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdDifficultyAdjustmentUpdateDataCsReq)
+    CmdDifficultyAdjustmentUpdateDataCsReq = 4173,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdSwitchMascotUpdateScNotify)
+    CmdSwitchMascotUpdateScNotify = 4193,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.HFFBJODHMDL_HEEEPIAAEFD)
+    HFFBJODHMDL_HEEEPIAAEFD = 4139,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdCancelDirectDeliveryNoticeScRsp)
+    CmdCancelDirectDeliveryNoticeScRsp = 4154,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdCancelDirectDeliveryNoticeCsReq)
+    CmdCancelDirectDeliveryNoticeCsReq = 4125,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdGetMovieRacingDataCsReq)
+    CmdGetMovieRacingDataCsReq = 4107,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdLBMPPLKEBFO)
+    CmdLBMPPLKEBFO = 4105,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdGetSwitchMascotDataScRsp)
+    CmdGetSwitchMascotDataScRsp = 4120,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdGetOrigamiPropInfoCsReq)
+    CmdGetOrigamiPropInfoCsReq = 4172,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdGetWolfBroShootingDataCsReq)
+    CmdGetWolfBroShootingDataCsReq = 4189,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdGetUnreleasedBlockInfoCsReq)
+    CmdGetUnreleasedBlockInfoCsReq = 4102,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdDifficultyAdjustmentUpdateDataScRsp)
+    CmdDifficultyAdjustmentUpdateDataScRsp = 4153,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdDifficultyAdjustmentGetDataCsReq)
+    CmdDifficultyAdjustmentGetDataCsReq = 4128,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdDPFENNBOBND)
+    CmdDPFENNBOBND = 4130,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdGetUnreleasedBlockInfoScRsp)
+    CmdGetUnreleasedBlockInfoScRsp = 4149,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdLMCEPIDHEBL)
+    CmdLMCEPIDHEBL = 4101,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdUpdateWolfBroShootingDataCsReq)
+    CmdUpdateWolfBroShootingDataCsReq = 4157,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdGetShareDataCsReq)
+    CmdGetShareDataCsReq = 4194,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdCycleScoreRewardGetDataCsReq)
+    CmdCycleScoreRewardGetDataCsReq = 4166,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdGetGunPlayDataScRsp)
+    CmdGetGunPlayDataScRsp = 4196,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdKNDCLJNMAOC)
+    CmdKNDCLJNMAOC = 4114,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdCancelSyncExpiredItemCsReq)
+    CmdCancelSyncExpiredItemCsReq = 4163,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdCycleScoreRewardTakeRewardCsReq)
+    CmdCycleScoreRewardTakeRewardCsReq = 4111,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdHFODKMFDMAE)
+    CmdHFODKMFDMAE = 4137,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdUpdateMovieRacingDataScRsp)
+    CmdUpdateMovieRacingDataScRsp = 4200,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdNFDLLEPHLHN)
+    CmdNFDLLEPHLHN = 4138,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdShareScRsp)
+    CmdShareScRsp = 4110,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdDOHJCPAMAFL)
+    CmdDOHJCPAMAFL = 4136,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdGetMovieRacingDataScRsp)
+    CmdGetMovieRacingDataScRsp = 4158,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdGetSwitchMascotDataCsReq)
+    CmdGetSwitchMascotDataCsReq = 4179,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdGetShareDataScRsp)
+    CmdGetShareDataScRsp = 4195,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMazeKillDirectScRsp)
+    CmdMazeKillDirectScRsp = 4117,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdUpdateMovieRacingDataCsReq)
+    CmdUpdateMovieRacingDataCsReq = 4144,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdALDEIBDDMON)
+    CmdALDEIBDDMON = 4103,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdEMJMLBDLMLC)
+    CmdEMJMLBDLMLC = 4118,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdUpdateGunPlayDataScRsp)
+    CmdUpdateGunPlayDataScRsp = 4121,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdLMHFPEPLIKH)
+    CmdLMHFPEPLIKH = 4126,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdCycleScoreRewardDestroyExceedRewardCsReq)
+    CmdCycleScoreRewardDestroyExceedRewardCsReq = 4171,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdDifficultyAdjustmentGetDataScRsp)
+    CmdDifficultyAdjustmentGetDataScRsp = 4165,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdMazeKillDirectCsReq)
+    CmdMazeKillDirectCsReq = 4108,
+    // @@protoc_insertion_point(enum_value:CmdMiscModuleType.CmdShareCsReq)
+    CmdShareCsReq = 4191,
 }
 
 impl ::protobuf::Enum for CmdMiscModuleType {
@@ -116,134 +130,155 @@ impl ::protobuf::Enum for CmdMiscModuleType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdMiscModuleType> {
         match value {
-            0 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_MNFEPONEDDJ),
-            4104 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_MFHPBCILGMH),
-            4169 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_NOIGIJDPLIB),
-            4131 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_PCPKJKELNJC),
-            4184 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_DNBACDGHHCM),
-            4148 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_FDADCGAHKPB),
-            4190 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_ABPLDGFAJGL),
-            4106 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_HMBFMJFPKMH),
-            4119 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_MABACACMCJK),
-            4145 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_ADCIJGPPIPF),
-            4108 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_BJFMNPKEAOJ),
-            4103 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_EMIEMGLKGAC),
-            4168 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_OBKGAAGENNA),
-            4137 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_FMDJMMPJOHM),
-            4181 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_BPFHMHJHFDF),
-            4124 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_MMMBEDPHOED),
-            4183 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_LLBKHPEELMK),
-            4196 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_LDAIIHPNMNF),
-            4147 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_CIPIJMOGNPO),
-            4112 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_PGLNCFBLGKA),
-            4113 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_BELIACOJLHN),
-            4101 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_KOIMELPFDAB),
-            4118 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_KKBAFPOEMDB),
-            4102 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_PCGKCMMKEIF),
-            4135 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_PBMJDEIMLLI),
-            4164 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_MNONINGMKKO),
-            4156 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_KEKLOPNKMHK),
-            4109 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_NALMAGGJMKC),
-            4122 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_HOCDOJGCKNC),
-            4117 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_NKGMPFIDNJA),
-            4134 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_NKNJOIGMIHG),
-            4191 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_CKKMIEKCGMA),
-            4143 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_LHJIJEEAFCB),
-            4157 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_EMFBMBGLFEP),
-            4146 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_BJNEEDHCLNB),
-            4140 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_JOALDMLCOMD),
-            4127 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_IACHHJANJNF),
-            4123 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_JGAOPNPBBHG),
-            4105 => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_HLGEKHBNKKD),
+            0 => ::std::option::Option::Some(CmdMiscModuleType::HFFBJODHMDL_PCPDHELPKEM),
+            4132 => ::std::option::Option::Some(CmdMiscModuleType::CmdBMPOHNCLHMF),
+            4174 => ::std::option::Option::Some(CmdMiscModuleType::CmdCBIJJNDGPIN),
+            4104 => ::std::option::Option::Some(CmdMiscModuleType::CmdSubmitOrigamiItemCsReq),
+            4151 => ::std::option::Option::Some(CmdMiscModuleType::CmdDirectDeliveryScNotify),
+            4173 => ::std::option::Option::Some(CmdMiscModuleType::CmdDifficultyAdjustmentUpdateDataCsReq),
+            4193 => ::std::option::Option::Some(CmdMiscModuleType::CmdSwitchMascotUpdateScNotify),
+            4139 => ::std::option::Option::Some(CmdMiscModuleType::HFFBJODHMDL_HEEEPIAAEFD),
+            4154 => ::std::option::Option::Some(CmdMiscModuleType::CmdCancelDirectDeliveryNoticeScRsp),
+            4125 => ::std::option::Option::Some(CmdMiscModuleType::CmdCancelDirectDeliveryNoticeCsReq),
+            4107 => ::std::option::Option::Some(CmdMiscModuleType::CmdGetMovieRacingDataCsReq),
+            4105 => ::std::option::Option::Some(CmdMiscModuleType::CmdLBMPPLKEBFO),
+            4120 => ::std::option::Option::Some(CmdMiscModuleType::CmdGetSwitchMascotDataScRsp),
+            4172 => ::std::option::Option::Some(CmdMiscModuleType::CmdGetOrigamiPropInfoCsReq),
+            4189 => ::std::option::Option::Some(CmdMiscModuleType::CmdGetWolfBroShootingDataCsReq),
+            4102 => ::std::option::Option::Some(CmdMiscModuleType::CmdGetUnreleasedBlockInfoCsReq),
+            4153 => ::std::option::Option::Some(CmdMiscModuleType::CmdDifficultyAdjustmentUpdateDataScRsp),
+            4128 => ::std::option::Option::Some(CmdMiscModuleType::CmdDifficultyAdjustmentGetDataCsReq),
+            4130 => ::std::option::Option::Some(CmdMiscModuleType::CmdDPFENNBOBND),
+            4149 => ::std::option::Option::Some(CmdMiscModuleType::CmdGetUnreleasedBlockInfoScRsp),
+            4101 => ::std::option::Option::Some(CmdMiscModuleType::CmdLMCEPIDHEBL),
+            4157 => ::std::option::Option::Some(CmdMiscModuleType::CmdUpdateWolfBroShootingDataCsReq),
+            4194 => ::std::option::Option::Some(CmdMiscModuleType::CmdGetShareDataCsReq),
+            4166 => ::std::option::Option::Some(CmdMiscModuleType::CmdCycleScoreRewardGetDataCsReq),
+            4196 => ::std::option::Option::Some(CmdMiscModuleType::CmdGetGunPlayDataScRsp),
+            4114 => ::std::option::Option::Some(CmdMiscModuleType::CmdKNDCLJNMAOC),
+            4163 => ::std::option::Option::Some(CmdMiscModuleType::CmdCancelSyncExpiredItemCsReq),
+            4111 => ::std::option::Option::Some(CmdMiscModuleType::CmdCycleScoreRewardTakeRewardCsReq),
+            4137 => ::std::option::Option::Some(CmdMiscModuleType::CmdHFODKMFDMAE),
+            4200 => ::std::option::Option::Some(CmdMiscModuleType::CmdUpdateMovieRacingDataScRsp),
+            4138 => ::std::option::Option::Some(CmdMiscModuleType::CmdNFDLLEPHLHN),
+            4110 => ::std::option::Option::Some(CmdMiscModuleType::CmdShareScRsp),
+            4136 => ::std::option::Option::Some(CmdMiscModuleType::CmdDOHJCPAMAFL),
+            4158 => ::std::option::Option::Some(CmdMiscModuleType::CmdGetMovieRacingDataScRsp),
+            4179 => ::std::option::Option::Some(CmdMiscModuleType::CmdGetSwitchMascotDataCsReq),
+            4195 => ::std::option::Option::Some(CmdMiscModuleType::CmdGetShareDataScRsp),
+            4117 => ::std::option::Option::Some(CmdMiscModuleType::CmdMazeKillDirectScRsp),
+            4144 => ::std::option::Option::Some(CmdMiscModuleType::CmdUpdateMovieRacingDataCsReq),
+            4103 => ::std::option::Option::Some(CmdMiscModuleType::CmdALDEIBDDMON),
+            4118 => ::std::option::Option::Some(CmdMiscModuleType::CmdEMJMLBDLMLC),
+            4121 => ::std::option::Option::Some(CmdMiscModuleType::CmdUpdateGunPlayDataScRsp),
+            4126 => ::std::option::Option::Some(CmdMiscModuleType::CmdLMHFPEPLIKH),
+            4171 => ::std::option::Option::Some(CmdMiscModuleType::CmdCycleScoreRewardDestroyExceedRewardCsReq),
+            4165 => ::std::option::Option::Some(CmdMiscModuleType::CmdDifficultyAdjustmentGetDataScRsp),
+            4108 => ::std::option::Option::Some(CmdMiscModuleType::CmdMazeKillDirectCsReq),
+            4191 => ::std::option::Option::Some(CmdMiscModuleType::CmdShareCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdMiscModuleType> {
         match str {
-            "CmdMiscModuleType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_MNFEPONEDDJ),
-            "CmdMiscModuleType_MFHPBCILGMH" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_MFHPBCILGMH),
-            "CmdMiscModuleType_NOIGIJDPLIB" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_NOIGIJDPLIB),
-            "CmdMiscModuleType_PCPKJKELNJC" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_PCPKJKELNJC),
-            "CmdMiscModuleType_DNBACDGHHCM" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_DNBACDGHHCM),
-            "CmdMiscModuleType_FDADCGAHKPB" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_FDADCGAHKPB),
-            "CmdMiscModuleType_ABPLDGFAJGL" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_ABPLDGFAJGL),
-            "CmdMiscModuleType_HMBFMJFPKMH" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_HMBFMJFPKMH),
-            "CmdMiscModuleType_MABACACMCJK" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_MABACACMCJK),
-            "CmdMiscModuleType_ADCIJGPPIPF" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_ADCIJGPPIPF),
-            "CmdMiscModuleType_BJFMNPKEAOJ" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_BJFMNPKEAOJ),
-            "CmdMiscModuleType_EMIEMGLKGAC" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_EMIEMGLKGAC),
-            "CmdMiscModuleType_OBKGAAGENNA" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_OBKGAAGENNA),
-            "CmdMiscModuleType_FMDJMMPJOHM" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_FMDJMMPJOHM),
-            "CmdMiscModuleType_BPFHMHJHFDF" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_BPFHMHJHFDF),
-            "CmdMiscModuleType_MMMBEDPHOED" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_MMMBEDPHOED),
-            "CmdMiscModuleType_LLBKHPEELMK" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_LLBKHPEELMK),
-            "CmdMiscModuleType_LDAIIHPNMNF" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_LDAIIHPNMNF),
-            "CmdMiscModuleType_CIPIJMOGNPO" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_CIPIJMOGNPO),
-            "CmdMiscModuleType_PGLNCFBLGKA" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_PGLNCFBLGKA),
-            "CmdMiscModuleType_BELIACOJLHN" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_BELIACOJLHN),
-            "CmdMiscModuleType_KOIMELPFDAB" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_KOIMELPFDAB),
-            "CmdMiscModuleType_KKBAFPOEMDB" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_KKBAFPOEMDB),
-            "CmdMiscModuleType_PCGKCMMKEIF" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_PCGKCMMKEIF),
-            "CmdMiscModuleType_PBMJDEIMLLI" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_PBMJDEIMLLI),
-            "CmdMiscModuleType_MNONINGMKKO" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_MNONINGMKKO),
-            "CmdMiscModuleType_KEKLOPNKMHK" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_KEKLOPNKMHK),
-            "CmdMiscModuleType_NALMAGGJMKC" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_NALMAGGJMKC),
-            "CmdMiscModuleType_HOCDOJGCKNC" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_HOCDOJGCKNC),
-            "CmdMiscModuleType_NKGMPFIDNJA" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_NKGMPFIDNJA),
-            "CmdMiscModuleType_NKNJOIGMIHG" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_NKNJOIGMIHG),
-            "CmdMiscModuleType_CKKMIEKCGMA" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_CKKMIEKCGMA),
-            "CmdMiscModuleType_LHJIJEEAFCB" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_LHJIJEEAFCB),
-            "CmdMiscModuleType_EMFBMBGLFEP" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_EMFBMBGLFEP),
-            "CmdMiscModuleType_BJNEEDHCLNB" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_BJNEEDHCLNB),
-            "CmdMiscModuleType_JOALDMLCOMD" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_JOALDMLCOMD),
-            "CmdMiscModuleType_IACHHJANJNF" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_IACHHJANJNF),
-            "CmdMiscModuleType_JGAOPNPBBHG" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_JGAOPNPBBHG),
-            "CmdMiscModuleType_HLGEKHBNKKD" => ::std::option::Option::Some(CmdMiscModuleType::CmdMiscModuleType_HLGEKHBNKKD),
+            "HFFBJODHMDL_PCPDHELPKEM" => ::std::option::Option::Some(CmdMiscModuleType::HFFBJODHMDL_PCPDHELPKEM),
+            "CmdBMPOHNCLHMF" => ::std::option::Option::Some(CmdMiscModuleType::CmdBMPOHNCLHMF),
+            "CmdCBIJJNDGPIN" => ::std::option::Option::Some(CmdMiscModuleType::CmdCBIJJNDGPIN),
+            "CmdSubmitOrigamiItemCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdSubmitOrigamiItemCsReq),
+            "CmdDirectDeliveryScNotify" => ::std::option::Option::Some(CmdMiscModuleType::CmdDirectDeliveryScNotify),
+            "CmdDifficultyAdjustmentUpdateDataCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdDifficultyAdjustmentUpdateDataCsReq),
+            "CmdSwitchMascotUpdateScNotify" => ::std::option::Option::Some(CmdMiscModuleType::CmdSwitchMascotUpdateScNotify),
+            "HFFBJODHMDL_HEEEPIAAEFD" => ::std::option::Option::Some(CmdMiscModuleType::HFFBJODHMDL_HEEEPIAAEFD),
+            "CmdCancelDirectDeliveryNoticeScRsp" => ::std::option::Option::Some(CmdMiscModuleType::CmdCancelDirectDeliveryNoticeScRsp),
+            "CmdCancelDirectDeliveryNoticeCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdCancelDirectDeliveryNoticeCsReq),
+            "CmdGetMovieRacingDataCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdGetMovieRacingDataCsReq),
+            "CmdLBMPPLKEBFO" => ::std::option::Option::Some(CmdMiscModuleType::CmdLBMPPLKEBFO),
+            "CmdGetSwitchMascotDataScRsp" => ::std::option::Option::Some(CmdMiscModuleType::CmdGetSwitchMascotDataScRsp),
+            "CmdGetOrigamiPropInfoCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdGetOrigamiPropInfoCsReq),
+            "CmdGetWolfBroShootingDataCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdGetWolfBroShootingDataCsReq),
+            "CmdGetUnreleasedBlockInfoCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdGetUnreleasedBlockInfoCsReq),
+            "CmdDifficultyAdjustmentUpdateDataScRsp" => ::std::option::Option::Some(CmdMiscModuleType::CmdDifficultyAdjustmentUpdateDataScRsp),
+            "CmdDifficultyAdjustmentGetDataCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdDifficultyAdjustmentGetDataCsReq),
+            "CmdDPFENNBOBND" => ::std::option::Option::Some(CmdMiscModuleType::CmdDPFENNBOBND),
+            "CmdGetUnreleasedBlockInfoScRsp" => ::std::option::Option::Some(CmdMiscModuleType::CmdGetUnreleasedBlockInfoScRsp),
+            "CmdLMCEPIDHEBL" => ::std::option::Option::Some(CmdMiscModuleType::CmdLMCEPIDHEBL),
+            "CmdUpdateWolfBroShootingDataCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdUpdateWolfBroShootingDataCsReq),
+            "CmdGetShareDataCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdGetShareDataCsReq),
+            "CmdCycleScoreRewardGetDataCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdCycleScoreRewardGetDataCsReq),
+            "CmdGetGunPlayDataScRsp" => ::std::option::Option::Some(CmdMiscModuleType::CmdGetGunPlayDataScRsp),
+            "CmdKNDCLJNMAOC" => ::std::option::Option::Some(CmdMiscModuleType::CmdKNDCLJNMAOC),
+            "CmdCancelSyncExpiredItemCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdCancelSyncExpiredItemCsReq),
+            "CmdCycleScoreRewardTakeRewardCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdCycleScoreRewardTakeRewardCsReq),
+            "CmdHFODKMFDMAE" => ::std::option::Option::Some(CmdMiscModuleType::CmdHFODKMFDMAE),
+            "CmdUpdateMovieRacingDataScRsp" => ::std::option::Option::Some(CmdMiscModuleType::CmdUpdateMovieRacingDataScRsp),
+            "CmdNFDLLEPHLHN" => ::std::option::Option::Some(CmdMiscModuleType::CmdNFDLLEPHLHN),
+            "CmdShareScRsp" => ::std::option::Option::Some(CmdMiscModuleType::CmdShareScRsp),
+            "CmdDOHJCPAMAFL" => ::std::option::Option::Some(CmdMiscModuleType::CmdDOHJCPAMAFL),
+            "CmdGetMovieRacingDataScRsp" => ::std::option::Option::Some(CmdMiscModuleType::CmdGetMovieRacingDataScRsp),
+            "CmdGetSwitchMascotDataCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdGetSwitchMascotDataCsReq),
+            "CmdGetShareDataScRsp" => ::std::option::Option::Some(CmdMiscModuleType::CmdGetShareDataScRsp),
+            "CmdMazeKillDirectScRsp" => ::std::option::Option::Some(CmdMiscModuleType::CmdMazeKillDirectScRsp),
+            "CmdUpdateMovieRacingDataCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdUpdateMovieRacingDataCsReq),
+            "CmdALDEIBDDMON" => ::std::option::Option::Some(CmdMiscModuleType::CmdALDEIBDDMON),
+            "CmdEMJMLBDLMLC" => ::std::option::Option::Some(CmdMiscModuleType::CmdEMJMLBDLMLC),
+            "CmdUpdateGunPlayDataScRsp" => ::std::option::Option::Some(CmdMiscModuleType::CmdUpdateGunPlayDataScRsp),
+            "CmdLMHFPEPLIKH" => ::std::option::Option::Some(CmdMiscModuleType::CmdLMHFPEPLIKH),
+            "CmdCycleScoreRewardDestroyExceedRewardCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdCycleScoreRewardDestroyExceedRewardCsReq),
+            "CmdDifficultyAdjustmentGetDataScRsp" => ::std::option::Option::Some(CmdMiscModuleType::CmdDifficultyAdjustmentGetDataScRsp),
+            "CmdMazeKillDirectCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdMazeKillDirectCsReq),
+            "CmdShareCsReq" => ::std::option::Option::Some(CmdMiscModuleType::CmdShareCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdMiscModuleType] = &[
-        CmdMiscModuleType::CmdMiscModuleType_MNFEPONEDDJ,
-        CmdMiscModuleType::CmdMiscModuleType_MFHPBCILGMH,
-        CmdMiscModuleType::CmdMiscModuleType_NOIGIJDPLIB,
-        CmdMiscModuleType::CmdMiscModuleType_PCPKJKELNJC,
-        CmdMiscModuleType::CmdMiscModuleType_DNBACDGHHCM,
-        CmdMiscModuleType::CmdMiscModuleType_FDADCGAHKPB,
-        CmdMiscModuleType::CmdMiscModuleType_ABPLDGFAJGL,
-        CmdMiscModuleType::CmdMiscModuleType_HMBFMJFPKMH,
-        CmdMiscModuleType::CmdMiscModuleType_MABACACMCJK,
-        CmdMiscModuleType::CmdMiscModuleType_ADCIJGPPIPF,
-        CmdMiscModuleType::CmdMiscModuleType_BJFMNPKEAOJ,
-        CmdMiscModuleType::CmdMiscModuleType_EMIEMGLKGAC,
-        CmdMiscModuleType::CmdMiscModuleType_OBKGAAGENNA,
-        CmdMiscModuleType::CmdMiscModuleType_FMDJMMPJOHM,
-        CmdMiscModuleType::CmdMiscModuleType_BPFHMHJHFDF,
-        CmdMiscModuleType::CmdMiscModuleType_MMMBEDPHOED,
-        CmdMiscModuleType::CmdMiscModuleType_LLBKHPEELMK,
-        CmdMiscModuleType::CmdMiscModuleType_LDAIIHPNMNF,
-        CmdMiscModuleType::CmdMiscModuleType_CIPIJMOGNPO,
-        CmdMiscModuleType::CmdMiscModuleType_PGLNCFBLGKA,
-        CmdMiscModuleType::CmdMiscModuleType_BELIACOJLHN,
-        CmdMiscModuleType::CmdMiscModuleType_KOIMELPFDAB,
-        CmdMiscModuleType::CmdMiscModuleType_KKBAFPOEMDB,
-        CmdMiscModuleType::CmdMiscModuleType_PCGKCMMKEIF,
-        CmdMiscModuleType::CmdMiscModuleType_PBMJDEIMLLI,
-        CmdMiscModuleType::CmdMiscModuleType_MNONINGMKKO,
-        CmdMiscModuleType::CmdMiscModuleType_KEKLOPNKMHK,
-        CmdMiscModuleType::CmdMiscModuleType_NALMAGGJMKC,
-        CmdMiscModuleType::CmdMiscModuleType_HOCDOJGCKNC,
-        CmdMiscModuleType::CmdMiscModuleType_NKGMPFIDNJA,
-        CmdMiscModuleType::CmdMiscModuleType_NKNJOIGMIHG,
-        CmdMiscModuleType::CmdMiscModuleType_CKKMIEKCGMA,
-        CmdMiscModuleType::CmdMiscModuleType_LHJIJEEAFCB,
-        CmdMiscModuleType::CmdMiscModuleType_EMFBMBGLFEP,
-        CmdMiscModuleType::CmdMiscModuleType_BJNEEDHCLNB,
-        CmdMiscModuleType::CmdMiscModuleType_JOALDMLCOMD,
-        CmdMiscModuleType::CmdMiscModuleType_IACHHJANJNF,
-        CmdMiscModuleType::CmdMiscModuleType_JGAOPNPBBHG,
-        CmdMiscModuleType::CmdMiscModuleType_HLGEKHBNKKD,
+        CmdMiscModuleType::HFFBJODHMDL_PCPDHELPKEM,
+        CmdMiscModuleType::CmdBMPOHNCLHMF,
+        CmdMiscModuleType::CmdCBIJJNDGPIN,
+        CmdMiscModuleType::CmdSubmitOrigamiItemCsReq,
+        CmdMiscModuleType::CmdDirectDeliveryScNotify,
+        CmdMiscModuleType::CmdDifficultyAdjustmentUpdateDataCsReq,
+        CmdMiscModuleType::CmdSwitchMascotUpdateScNotify,
+        CmdMiscModuleType::HFFBJODHMDL_HEEEPIAAEFD,
+        CmdMiscModuleType::CmdCancelDirectDeliveryNoticeScRsp,
+        CmdMiscModuleType::CmdCancelDirectDeliveryNoticeCsReq,
+        CmdMiscModuleType::CmdGetMovieRacingDataCsReq,
+        CmdMiscModuleType::CmdLBMPPLKEBFO,
+        CmdMiscModuleType::CmdGetSwitchMascotDataScRsp,
+        CmdMiscModuleType::CmdGetOrigamiPropInfoCsReq,
+        CmdMiscModuleType::CmdGetWolfBroShootingDataCsReq,
+        CmdMiscModuleType::CmdGetUnreleasedBlockInfoCsReq,
+        CmdMiscModuleType::CmdDifficultyAdjustmentUpdateDataScRsp,
+        CmdMiscModuleType::CmdDifficultyAdjustmentGetDataCsReq,
+        CmdMiscModuleType::CmdDPFENNBOBND,
+        CmdMiscModuleType::CmdGetUnreleasedBlockInfoScRsp,
+        CmdMiscModuleType::CmdLMCEPIDHEBL,
+        CmdMiscModuleType::CmdUpdateWolfBroShootingDataCsReq,
+        CmdMiscModuleType::CmdGetShareDataCsReq,
+        CmdMiscModuleType::CmdCycleScoreRewardGetDataCsReq,
+        CmdMiscModuleType::CmdGetGunPlayDataScRsp,
+        CmdMiscModuleType::CmdKNDCLJNMAOC,
+        CmdMiscModuleType::CmdCancelSyncExpiredItemCsReq,
+        CmdMiscModuleType::CmdCycleScoreRewardTakeRewardCsReq,
+        CmdMiscModuleType::CmdHFODKMFDMAE,
+        CmdMiscModuleType::CmdUpdateMovieRacingDataScRsp,
+        CmdMiscModuleType::CmdNFDLLEPHLHN,
+        CmdMiscModuleType::CmdShareScRsp,
+        CmdMiscModuleType::CmdDOHJCPAMAFL,
+        CmdMiscModuleType::CmdGetMovieRacingDataScRsp,
+        CmdMiscModuleType::CmdGetSwitchMascotDataCsReq,
+        CmdMiscModuleType::CmdGetShareDataScRsp,
+        CmdMiscModuleType::CmdMazeKillDirectScRsp,
+        CmdMiscModuleType::CmdUpdateMovieRacingDataCsReq,
+        CmdMiscModuleType::CmdALDEIBDDMON,
+        CmdMiscModuleType::CmdEMJMLBDLMLC,
+        CmdMiscModuleType::CmdUpdateGunPlayDataScRsp,
+        CmdMiscModuleType::CmdLMHFPEPLIKH,
+        CmdMiscModuleType::CmdCycleScoreRewardDestroyExceedRewardCsReq,
+        CmdMiscModuleType::CmdDifficultyAdjustmentGetDataScRsp,
+        CmdMiscModuleType::CmdMazeKillDirectCsReq,
+        CmdMiscModuleType::CmdShareCsReq,
     ];
 }
 
@@ -255,45 +290,52 @@ impl ::protobuf::EnumFull for CmdMiscModuleType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdMiscModuleType::CmdMiscModuleType_MNFEPONEDDJ => 0,
-            CmdMiscModuleType::CmdMiscModuleType_MFHPBCILGMH => 1,
-            CmdMiscModuleType::CmdMiscModuleType_NOIGIJDPLIB => 2,
-            CmdMiscModuleType::CmdMiscModuleType_PCPKJKELNJC => 3,
-            CmdMiscModuleType::CmdMiscModuleType_DNBACDGHHCM => 4,
-            CmdMiscModuleType::CmdMiscModuleType_FDADCGAHKPB => 5,
-            CmdMiscModuleType::CmdMiscModuleType_ABPLDGFAJGL => 6,
-            CmdMiscModuleType::CmdMiscModuleType_HMBFMJFPKMH => 7,
-            CmdMiscModuleType::CmdMiscModuleType_MABACACMCJK => 8,
-            CmdMiscModuleType::CmdMiscModuleType_ADCIJGPPIPF => 9,
-            CmdMiscModuleType::CmdMiscModuleType_BJFMNPKEAOJ => 10,
-            CmdMiscModuleType::CmdMiscModuleType_EMIEMGLKGAC => 11,
-            CmdMiscModuleType::CmdMiscModuleType_OBKGAAGENNA => 12,
-            CmdMiscModuleType::CmdMiscModuleType_FMDJMMPJOHM => 13,
-            CmdMiscModuleType::CmdMiscModuleType_BPFHMHJHFDF => 14,
-            CmdMiscModuleType::CmdMiscModuleType_MMMBEDPHOED => 15,
-            CmdMiscModuleType::CmdMiscModuleType_LLBKHPEELMK => 16,
-            CmdMiscModuleType::CmdMiscModuleType_LDAIIHPNMNF => 17,
-            CmdMiscModuleType::CmdMiscModuleType_CIPIJMOGNPO => 18,
-            CmdMiscModuleType::CmdMiscModuleType_PGLNCFBLGKA => 19,
-            CmdMiscModuleType::CmdMiscModuleType_BELIACOJLHN => 20,
-            CmdMiscModuleType::CmdMiscModuleType_KOIMELPFDAB => 21,
-            CmdMiscModuleType::CmdMiscModuleType_KKBAFPOEMDB => 22,
-            CmdMiscModuleType::CmdMiscModuleType_PCGKCMMKEIF => 23,
-            CmdMiscModuleType::CmdMiscModuleType_PBMJDEIMLLI => 24,
-            CmdMiscModuleType::CmdMiscModuleType_MNONINGMKKO => 25,
-            CmdMiscModuleType::CmdMiscModuleType_KEKLOPNKMHK => 26,
-            CmdMiscModuleType::CmdMiscModuleType_NALMAGGJMKC => 27,
-            CmdMiscModuleType::CmdMiscModuleType_HOCDOJGCKNC => 28,
-            CmdMiscModuleType::CmdMiscModuleType_NKGMPFIDNJA => 29,
-            CmdMiscModuleType::CmdMiscModuleType_NKNJOIGMIHG => 30,
-            CmdMiscModuleType::CmdMiscModuleType_CKKMIEKCGMA => 31,
-            CmdMiscModuleType::CmdMiscModuleType_LHJIJEEAFCB => 32,
-            CmdMiscModuleType::CmdMiscModuleType_EMFBMBGLFEP => 33,
-            CmdMiscModuleType::CmdMiscModuleType_BJNEEDHCLNB => 34,
-            CmdMiscModuleType::CmdMiscModuleType_JOALDMLCOMD => 35,
-            CmdMiscModuleType::CmdMiscModuleType_IACHHJANJNF => 36,
-            CmdMiscModuleType::CmdMiscModuleType_JGAOPNPBBHG => 37,
-            CmdMiscModuleType::CmdMiscModuleType_HLGEKHBNKKD => 38,
+            CmdMiscModuleType::HFFBJODHMDL_PCPDHELPKEM => 0,
+            CmdMiscModuleType::CmdBMPOHNCLHMF => 1,
+            CmdMiscModuleType::CmdCBIJJNDGPIN => 2,
+            CmdMiscModuleType::CmdSubmitOrigamiItemCsReq => 3,
+            CmdMiscModuleType::CmdDirectDeliveryScNotify => 4,
+            CmdMiscModuleType::CmdDifficultyAdjustmentUpdateDataCsReq => 5,
+            CmdMiscModuleType::CmdSwitchMascotUpdateScNotify => 6,
+            CmdMiscModuleType::HFFBJODHMDL_HEEEPIAAEFD => 7,
+            CmdMiscModuleType::CmdCancelDirectDeliveryNoticeScRsp => 8,
+            CmdMiscModuleType::CmdCancelDirectDeliveryNoticeCsReq => 9,
+            CmdMiscModuleType::CmdGetMovieRacingDataCsReq => 10,
+            CmdMiscModuleType::CmdLBMPPLKEBFO => 11,
+            CmdMiscModuleType::CmdGetSwitchMascotDataScRsp => 12,
+            CmdMiscModuleType::CmdGetOrigamiPropInfoCsReq => 13,
+            CmdMiscModuleType::CmdGetWolfBroShootingDataCsReq => 14,
+            CmdMiscModuleType::CmdGetUnreleasedBlockInfoCsReq => 15,
+            CmdMiscModuleType::CmdDifficultyAdjustmentUpdateDataScRsp => 16,
+            CmdMiscModuleType::CmdDifficultyAdjustmentGetDataCsReq => 17,
+            CmdMiscModuleType::CmdDPFENNBOBND => 18,
+            CmdMiscModuleType::CmdGetUnreleasedBlockInfoScRsp => 19,
+            CmdMiscModuleType::CmdLMCEPIDHEBL => 20,
+            CmdMiscModuleType::CmdUpdateWolfBroShootingDataCsReq => 21,
+            CmdMiscModuleType::CmdGetShareDataCsReq => 22,
+            CmdMiscModuleType::CmdCycleScoreRewardGetDataCsReq => 23,
+            CmdMiscModuleType::CmdGetGunPlayDataScRsp => 24,
+            CmdMiscModuleType::CmdKNDCLJNMAOC => 25,
+            CmdMiscModuleType::CmdCancelSyncExpiredItemCsReq => 26,
+            CmdMiscModuleType::CmdCycleScoreRewardTakeRewardCsReq => 27,
+            CmdMiscModuleType::CmdHFODKMFDMAE => 28,
+            CmdMiscModuleType::CmdUpdateMovieRacingDataScRsp => 29,
+            CmdMiscModuleType::CmdNFDLLEPHLHN => 30,
+            CmdMiscModuleType::CmdShareScRsp => 31,
+            CmdMiscModuleType::CmdDOHJCPAMAFL => 32,
+            CmdMiscModuleType::CmdGetMovieRacingDataScRsp => 33,
+            CmdMiscModuleType::CmdGetSwitchMascotDataCsReq => 34,
+            CmdMiscModuleType::CmdGetShareDataScRsp => 35,
+            CmdMiscModuleType::CmdMazeKillDirectScRsp => 36,
+            CmdMiscModuleType::CmdUpdateMovieRacingDataCsReq => 37,
+            CmdMiscModuleType::CmdALDEIBDDMON => 38,
+            CmdMiscModuleType::CmdEMJMLBDLMLC => 39,
+            CmdMiscModuleType::CmdUpdateGunPlayDataScRsp => 40,
+            CmdMiscModuleType::CmdLMHFPEPLIKH => 41,
+            CmdMiscModuleType::CmdCycleScoreRewardDestroyExceedRewardCsReq => 42,
+            CmdMiscModuleType::CmdDifficultyAdjustmentGetDataScRsp => 43,
+            CmdMiscModuleType::CmdMazeKillDirectCsReq => 44,
+            CmdMiscModuleType::CmdShareCsReq => 45,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -301,7 +343,7 @@ impl ::protobuf::EnumFull for CmdMiscModuleType {
 
 impl ::std::default::Default for CmdMiscModuleType {
     fn default() -> Self {
-        CmdMiscModuleType::CmdMiscModuleType_MNFEPONEDDJ
+        CmdMiscModuleType::HFFBJODHMDL_PCPDHELPKEM
     }
 }
 
@@ -312,37 +354,39 @@ impl CmdMiscModuleType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x17CmdMiscModuleType.proto*\x8e\x0b\n\x11CmdMiscModuleType\x12!\n\x1d\
-    CmdMiscModuleType_MNFEPONEDDJ\x10\0\x12\"\n\x1dCmdMiscModuleType_MFHPBCI\
-    LGMH\x10\x88\x20\x12\"\n\x1dCmdMiscModuleType_NOIGIJDPLIB\x10\xc9\x20\
-    \x12\"\n\x1dCmdMiscModuleType_PCPKJKELNJC\x10\xa3\x20\x12\"\n\x1dCmdMisc\
-    ModuleType_DNBACDGHHCM\x10\xd8\x20\x12\"\n\x1dCmdMiscModuleType_FDADCGAH\
-    KPB\x10\xb4\x20\x12\"\n\x1dCmdMiscModuleType_ABPLDGFAJGL\x10\xde\x20\x12\
-    \"\n\x1dCmdMiscModuleType_HMBFMJFPKMH\x10\x8a\x20\x12\"\n\x1dCmdMiscModu\
-    leType_MABACACMCJK\x10\x97\x20\x12\"\n\x1dCmdMiscModuleType_ADCIJGPPIPF\
-    \x10\xb1\x20\x12\"\n\x1dCmdMiscModuleType_BJFMNPKEAOJ\x10\x8c\x20\x12\"\
-    \n\x1dCmdMiscModuleType_EMIEMGLKGAC\x10\x87\x20\x12\"\n\x1dCmdMiscModule\
-    Type_OBKGAAGENNA\x10\xc8\x20\x12\"\n\x1dCmdMiscModuleType_FMDJMMPJOHM\
-    \x10\xa9\x20\x12\"\n\x1dCmdMiscModuleType_BPFHMHJHFDF\x10\xd5\x20\x12\"\
-    \n\x1dCmdMiscModuleType_MMMBEDPHOED\x10\x9c\x20\x12\"\n\x1dCmdMiscModule\
-    Type_LLBKHPEELMK\x10\xd7\x20\x12\"\n\x1dCmdMiscModuleType_LDAIIHPNMNF\
-    \x10\xe4\x20\x12\"\n\x1dCmdMiscModuleType_CIPIJMOGNPO\x10\xb3\x20\x12\"\
-    \n\x1dCmdMiscModuleType_PGLNCFBLGKA\x10\x90\x20\x12\"\n\x1dCmdMiscModule\
-    Type_BELIACOJLHN\x10\x91\x20\x12\"\n\x1dCmdMiscModuleType_KOIMELPFDAB\
-    \x10\x85\x20\x12\"\n\x1dCmdMiscModuleType_KKBAFPOEMDB\x10\x96\x20\x12\"\
-    \n\x1dCmdMiscModuleType_PCGKCMMKEIF\x10\x86\x20\x12\"\n\x1dCmdMiscModule\
-    Type_PBMJDEIMLLI\x10\xa7\x20\x12\"\n\x1dCmdMiscModuleType_MNONINGMKKO\
-    \x10\xc4\x20\x12\"\n\x1dCmdMiscModuleType_KEKLOPNKMHK\x10\xbc\x20\x12\"\
-    \n\x1dCmdMiscModuleType_NALMAGGJMKC\x10\x8d\x20\x12\"\n\x1dCmdMiscModule\
-    Type_HOCDOJGCKNC\x10\x9a\x20\x12\"\n\x1dCmdMiscModuleType_NKGMPFIDNJA\
-    \x10\x95\x20\x12\"\n\x1dCmdMiscModuleType_NKNJOIGMIHG\x10\xa6\x20\x12\"\
-    \n\x1dCmdMiscModuleType_CKKMIEKCGMA\x10\xdf\x20\x12\"\n\x1dCmdMiscModule\
-    Type_LHJIJEEAFCB\x10\xaf\x20\x12\"\n\x1dCmdMiscModuleType_EMFBMBGLFEP\
-    \x10\xbd\x20\x12\"\n\x1dCmdMiscModuleType_BJNEEDHCLNB\x10\xb2\x20\x12\"\
-    \n\x1dCmdMiscModuleType_JOALDMLCOMD\x10\xac\x20\x12\"\n\x1dCmdMiscModule\
-    Type_IACHHJANJNF\x10\x9f\x20\x12\"\n\x1dCmdMiscModuleType_JGAOPNPBBHG\
-    \x10\x9b\x20\x12\"\n\x1dCmdMiscModuleType_HLGEKHBNKKD\x10\x89\x20b\x06pr\
-    oto3\
+    \n\x17CmdMiscModuleType.proto*\xae\x0b\n\x11CmdMiscModuleType\x12\x1b\n\
+    \x17HFFBJODHMDL_PCPDHELPKEM\x10\0\x12\x13\n\x0eCmdBMPOHNCLHMF\x10\xa4\
+    \x20\x12\x13\n\x0eCmdCBIJJNDGPIN\x10\xce\x20\x12\x1e\n\x19CmdSubmitOriga\
+    miItemCsReq\x10\x88\x20\x12\x1e\n\x19CmdDirectDeliveryScNotify\x10\xb7\
+    \x20\x12+\n&CmdDifficultyAdjustmentUpdateDataCsReq\x10\xcd\x20\x12\"\n\
+    \x1dCmdSwitchMascotUpdateScNotify\x10\xe1\x20\x12\x1c\n\x17HFFBJODHMDL_H\
+    EEEPIAAEFD\x10\xab\x20\x12'\n\"CmdCancelDirectDeliveryNoticeScRsp\x10\
+    \xba\x20\x12'\n\"CmdCancelDirectDeliveryNoticeCsReq\x10\x9d\x20\x12\x1f\
+    \n\x1aCmdGetMovieRacingDataCsReq\x10\x8b\x20\x12\x13\n\x0eCmdLBMPPLKEBFO\
+    \x10\x89\x20\x12\x20\n\x1bCmdGetSwitchMascotDataScRsp\x10\x98\x20\x12\
+    \x1f\n\x1aCmdGetOrigamiPropInfoCsReq\x10\xcc\x20\x12#\n\x1eCmdGetWolfBro\
+    ShootingDataCsReq\x10\xdd\x20\x12#\n\x1eCmdGetUnreleasedBlockInfoCsReq\
+    \x10\x86\x20\x12+\n&CmdDifficultyAdjustmentUpdateDataScRsp\x10\xb9\x20\
+    \x12(\n#CmdDifficultyAdjustmentGetDataCsReq\x10\xa0\x20\x12\x13\n\x0eCmd\
+    DPFENNBOBND\x10\xa2\x20\x12#\n\x1eCmdGetUnreleasedBlockInfoScRsp\x10\xb5\
+    \x20\x12\x13\n\x0eCmdLMCEPIDHEBL\x10\x85\x20\x12&\n!CmdUpdateWolfBroShoo\
+    tingDataCsReq\x10\xbd\x20\x12\x19\n\x14CmdGetShareDataCsReq\x10\xe2\x20\
+    \x12$\n\x1fCmdCycleScoreRewardGetDataCsReq\x10\xc6\x20\x12\x1b\n\x16CmdG\
+    etGunPlayDataScRsp\x10\xe4\x20\x12\x13\n\x0eCmdKNDCLJNMAOC\x10\x92\x20\
+    \x12\"\n\x1dCmdCancelSyncExpiredItemCsReq\x10\xc3\x20\x12'\n\"CmdCycleSc\
+    oreRewardTakeRewardCsReq\x10\x8f\x20\x12\x13\n\x0eCmdHFODKMFDMAE\x10\xa9\
+    \x20\x12\"\n\x1dCmdUpdateMovieRacingDataScRsp\x10\xe8\x20\x12\x13\n\x0eC\
+    mdNFDLLEPHLHN\x10\xaa\x20\x12\x12\n\rCmdShareScRsp\x10\x8e\x20\x12\x13\n\
+    \x0eCmdDOHJCPAMAFL\x10\xa8\x20\x12\x1f\n\x1aCmdGetMovieRacingDataScRsp\
+    \x10\xbe\x20\x12\x20\n\x1bCmdGetSwitchMascotDataCsReq\x10\xd3\x20\x12\
+    \x19\n\x14CmdGetShareDataScRsp\x10\xe3\x20\x12\x1b\n\x16CmdMazeKillDirec\
+    tScRsp\x10\x95\x20\x12\"\n\x1dCmdUpdateMovieRacingDataCsReq\x10\xb0\x20\
+    \x12\x13\n\x0eCmdALDEIBDDMON\x10\x87\x20\x12\x13\n\x0eCmdEMJMLBDLMLC\x10\
+    \x96\x20\x12\x1e\n\x19CmdUpdateGunPlayDataScRsp\x10\x99\x20\x12\x13\n\
+    \x0eCmdLMHFPEPLIKH\x10\x9e\x20\x120\n+CmdCycleScoreRewardDestroyExceedRe\
+    wardCsReq\x10\xcb\x20\x12(\n#CmdDifficultyAdjustmentGetDataScRsp\x10\xc5\
+    \x20\x12\x1b\n\x16CmdMazeKillDirectCsReq\x10\x8c\x20\x12\x12\n\rCmdShare\
+    CsReq\x10\xdf\x20b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

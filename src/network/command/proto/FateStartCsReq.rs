@@ -29,7 +29,7 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 pub struct FateStartCsReq {
     // message fields
     // @@protoc_insertion_point(field:FateStartCsReq.avatar_list)
-    pub avatar_list: ::std::vec::Vec<super::FeverTimeAvatar::FeverTimeAvatar>,
+    pub avatar_list: ::std::vec::Vec<super::HAJAOGGPCJC::HAJAOGGPCJC>,
     // @@protoc_insertion_point(field:FateStartCsReq.area_id)
     pub area_id: u32,
     // @@protoc_insertion_point(field:FateStartCsReq.difficulty_level)
@@ -86,13 +86,13 @@ impl ::protobuf::Message for FateStartCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                58 => {
+                10 => {
                     self.avatar_list.push(is.read_message()?);
                 },
-                88 => {
+                72 => {
                     self.area_id = is.read_uint32()?;
                 },
-                8 => {
+                120 => {
                     self.difficulty_level = is.read_uint32()?;
                 },
                 tag => {
@@ -112,10 +112,10 @@ impl ::protobuf::Message for FateStartCsReq {
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
         if self.area_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.area_id);
+            my_size += ::protobuf::rt::uint32_size(9, self.area_id);
         }
         if self.difficulty_level != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.difficulty_level);
+            my_size += ::protobuf::rt::uint32_size(15, self.difficulty_level);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -124,13 +124,13 @@ impl ::protobuf::Message for FateStartCsReq {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         for v in &self.avatar_list {
-            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
         };
         if self.area_id != 0 {
-            os.write_uint32(11, self.area_id)?;
+            os.write_uint32(9, self.area_id)?;
         }
         if self.difficulty_level != 0 {
-            os.write_uint32(1, self.difficulty_level)?;
+            os.write_uint32(15, self.difficulty_level)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -184,11 +184,10 @@ impl ::protobuf::reflect::ProtobufValue for FateStartCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x14FateStartCsReq.proto\x1a\x15FeverTimeAvatar.proto\"\x87\x01\n\x0eF\
-    ateStartCsReq\x121\n\x0bavatar_list\x18\x07\x20\x03(\x0b2\x10.FeverTimeA\
-    vatarR\navatarList\x12\x17\n\x07area_id\x18\x0b\x20\x01(\rR\x06areaId\
-    \x12)\n\x10difficulty_level\x18\x01\x20\x01(\rR\x0fdifficultyLevelb\x06p\
-    roto3\
+    \n\x14FateStartCsReq.proto\x1a\x11HAJAOGGPCJC.proto\"\x83\x01\n\x0eFateS\
+    tartCsReq\x12-\n\x0bavatar_list\x18\x01\x20\x03(\x0b2\x0c.HAJAOGGPCJCR\n\
+    avatarList\x12\x17\n\x07area_id\x18\t\x20\x01(\rR\x06areaId\x12)\n\x10di\
+    fficulty_level\x18\x0f\x20\x01(\rR\x0fdifficultyLevelb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -206,7 +205,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::FeverTimeAvatar::file_descriptor().clone());
+            deps.push(super::HAJAOGGPCJC::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(FateStartCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

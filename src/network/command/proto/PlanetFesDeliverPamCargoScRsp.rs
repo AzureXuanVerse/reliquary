@@ -30,10 +30,10 @@ pub struct PlanetFesDeliverPamCargoScRsp {
     // message fields
     // @@protoc_insertion_point(field:PlanetFesDeliverPamCargoScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:PlanetFesDeliverPamCargoScRsp.KFIIOBLEAFF)
-    pub KFIIOBLEAFF: ::protobuf::MessageField<super::MGAPENEKGLK::MGAPENEKGLK>,
-    // @@protoc_insertion_point(field:PlanetFesDeliverPamCargoScRsp.HILHCPJJAKK)
-    pub HILHCPJJAKK: ::protobuf::MessageField<super::IIKELBGGBLL::IIKELBGGBLL>,
+    // @@protoc_insertion_point(field:PlanetFesDeliverPamCargoScRsp.IOLKDNAMDCO)
+    pub IOLKDNAMDCO: ::protobuf::MessageField<super::HLLCDBLCIPK::HLLCDBLCIPK>,
+    // @@protoc_insertion_point(field:PlanetFesDeliverPamCargoScRsp.DIHECIIKELE)
+    pub DIHECIIKELE: ::protobuf::MessageField<super::JIPACDEJKJC::JIPACDEJKJC>,
     // @@protoc_insertion_point(field:PlanetFesDeliverPamCargoScRsp.avatar_id)
     pub avatar_id: u32,
     // special fields
@@ -60,15 +60,15 @@ impl PlanetFesDeliverPamCargoScRsp {
             |m: &PlanetFesDeliverPamCargoScRsp| { &m.retcode },
             |m: &mut PlanetFesDeliverPamCargoScRsp| { &mut m.retcode },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::MGAPENEKGLK::MGAPENEKGLK>(
-            "KFIIOBLEAFF",
-            |m: &PlanetFesDeliverPamCargoScRsp| { &m.KFIIOBLEAFF },
-            |m: &mut PlanetFesDeliverPamCargoScRsp| { &mut m.KFIIOBLEAFF },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::HLLCDBLCIPK::HLLCDBLCIPK>(
+            "IOLKDNAMDCO",
+            |m: &PlanetFesDeliverPamCargoScRsp| { &m.IOLKDNAMDCO },
+            |m: &mut PlanetFesDeliverPamCargoScRsp| { &mut m.IOLKDNAMDCO },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::IIKELBGGBLL::IIKELBGGBLL>(
-            "HILHCPJJAKK",
-            |m: &PlanetFesDeliverPamCargoScRsp| { &m.HILHCPJJAKK },
-            |m: &mut PlanetFesDeliverPamCargoScRsp| { &mut m.HILHCPJJAKK },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::JIPACDEJKJC::JIPACDEJKJC>(
+            "DIHECIIKELE",
+            |m: &PlanetFesDeliverPamCargoScRsp| { &m.DIHECIIKELE },
+            |m: &mut PlanetFesDeliverPamCargoScRsp| { &mut m.DIHECIIKELE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "avatar_id",
@@ -93,16 +93,16 @@ impl ::protobuf::Message for PlanetFesDeliverPamCargoScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                40 => {
+                8 => {
                     self.retcode = is.read_uint32()?;
                 },
-                10 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.KFIIOBLEAFF)?;
+                66 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.IOLKDNAMDCO)?;
                 },
-                74 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.HILHCPJJAKK)?;
+                82 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.DIHECIIKELE)?;
                 },
-                16 => {
+                112 => {
                     self.avatar_id = is.read_uint32()?;
                 },
                 tag => {
@@ -118,18 +118,18 @@ impl ::protobuf::Message for PlanetFesDeliverPamCargoScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(5, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(1, self.retcode);
         }
-        if let Some(v) = self.KFIIOBLEAFF.as_ref() {
+        if let Some(v) = self.IOLKDNAMDCO.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if let Some(v) = self.HILHCPJJAKK.as_ref() {
+        if let Some(v) = self.DIHECIIKELE.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
         if self.avatar_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.avatar_id);
+            my_size += ::protobuf::rt::uint32_size(14, self.avatar_id);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -138,16 +138,16 @@ impl ::protobuf::Message for PlanetFesDeliverPamCargoScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.retcode != 0 {
-            os.write_uint32(5, self.retcode)?;
+            os.write_uint32(1, self.retcode)?;
         }
-        if let Some(v) = self.KFIIOBLEAFF.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
+        if let Some(v) = self.IOLKDNAMDCO.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
         }
-        if let Some(v) = self.HILHCPJJAKK.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
+        if let Some(v) = self.DIHECIIKELE.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
         }
         if self.avatar_id != 0 {
-            os.write_uint32(2, self.avatar_id)?;
+            os.write_uint32(14, self.avatar_id)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -167,8 +167,8 @@ impl ::protobuf::Message for PlanetFesDeliverPamCargoScRsp {
 
     fn clear(&mut self) {
         self.retcode = 0;
-        self.KFIIOBLEAFF.clear();
-        self.HILHCPJJAKK.clear();
+        self.IOLKDNAMDCO.clear();
+        self.DIHECIIKELE.clear();
         self.avatar_id = 0;
         self.special_fields.clear();
     }
@@ -176,8 +176,8 @@ impl ::protobuf::Message for PlanetFesDeliverPamCargoScRsp {
     fn default_instance() -> &'static PlanetFesDeliverPamCargoScRsp {
         static instance: PlanetFesDeliverPamCargoScRsp = PlanetFesDeliverPamCargoScRsp {
             retcode: 0,
-            KFIIOBLEAFF: ::protobuf::MessageField::none(),
-            HILHCPJJAKK: ::protobuf::MessageField::none(),
+            IOLKDNAMDCO: ::protobuf::MessageField::none(),
+            DIHECIIKELE: ::protobuf::MessageField::none(),
             avatar_id: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -203,12 +203,12 @@ impl ::protobuf::reflect::ProtobufValue for PlanetFesDeliverPamCargoScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n#PlanetFesDeliverPamCargoScRsp.proto\x1a\x11IIKELBGGBLL.proto\x1a\x11M\
-    GAPENEKGLK.proto\"\xb6\x01\n\x1dPlanetFesDeliverPamCargoScRsp\x12\x18\n\
-    \x07retcode\x18\x05\x20\x01(\rR\x07retcode\x12.\n\x0bKFIIOBLEAFF\x18\x01\
-    \x20\x01(\x0b2\x0c.MGAPENEKGLKR\x0bKFIIOBLEAFF\x12.\n\x0bHILHCPJJAKK\x18\
-    \t\x20\x01(\x0b2\x0c.IIKELBGGBLLR\x0bHILHCPJJAKK\x12\x1b\n\tavatar_id\
-    \x18\x02\x20\x01(\rR\x08avatarIdb\x06proto3\
+    \n#PlanetFesDeliverPamCargoScRsp.proto\x1a\x11HLLCDBLCIPK.proto\x1a\x11J\
+    IPACDEJKJC.proto\"\xb6\x01\n\x1dPlanetFesDeliverPamCargoScRsp\x12\x18\n\
+    \x07retcode\x18\x01\x20\x01(\rR\x07retcode\x12.\n\x0bIOLKDNAMDCO\x18\x08\
+    \x20\x01(\x0b2\x0c.HLLCDBLCIPKR\x0bIOLKDNAMDCO\x12.\n\x0bDIHECIIKELE\x18\
+    \n\x20\x01(\x0b2\x0c.JIPACDEJKJCR\x0bDIHECIIKELE\x12\x1b\n\tavatar_id\
+    \x18\x0e\x20\x01(\rR\x08avatarIdb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -226,8 +226,8 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
-            deps.push(super::IIKELBGGBLL::file_descriptor().clone());
-            deps.push(super::MGAPENEKGLK::file_descriptor().clone());
+            deps.push(super::HLLCDBLCIPK::file_descriptor().clone());
+            deps.push(super::JIPACDEJKJC::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(PlanetFesDeliverPamCargoScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

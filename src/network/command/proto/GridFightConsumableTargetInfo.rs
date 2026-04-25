@@ -28,7 +28,7 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightConsumableTargetInfo {
     // message oneof groups
-    pub HGOPEEDOFAI: ::std::option::Option<grid_fight_consumable_target_info::HGOPEEDOFAI>,
+    pub HDACCIEIJFO: ::std::option::Option<grid_fight_consumable_target_info::HDACCIEIJFO>,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightConsumableTargetInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -45,39 +45,39 @@ impl GridFightConsumableTargetInfo {
         ::std::default::Default::default()
     }
 
-    // .GridFightRemoveTypeTargetInfo remove_type_target_info = 1703;
+    // .GridFightRemoveTypeTargetInfo remove_type_target_info = 1308;
 
     pub fn remove_type_target_info(&self) -> &super::GridFightRemoveTypeTargetInfo::GridFightRemoveTypeTargetInfo {
-        match self.HGOPEEDOFAI {
-            ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RemoveTypeTargetInfo(ref v)) => v,
+        match self.HDACCIEIJFO {
+            ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RemoveTypeTargetInfo(ref v)) => v,
             _ => <super::GridFightRemoveTypeTargetInfo::GridFightRemoveTypeTargetInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_remove_type_target_info(&mut self) {
-        self.HGOPEEDOFAI = ::std::option::Option::None;
+        self.HDACCIEIJFO = ::std::option::Option::None;
     }
 
     pub fn has_remove_type_target_info(&self) -> bool {
-        match self.HGOPEEDOFAI {
-            ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RemoveTypeTargetInfo(..)) => true,
+        match self.HDACCIEIJFO {
+            ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RemoveTypeTargetInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_remove_type_target_info(&mut self, v: super::GridFightRemoveTypeTargetInfo::GridFightRemoveTypeTargetInfo) {
-        self.HGOPEEDOFAI = ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RemoveTypeTargetInfo(v))
+        self.HDACCIEIJFO = ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RemoveTypeTargetInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_remove_type_target_info(&mut self) -> &mut super::GridFightRemoveTypeTargetInfo::GridFightRemoveTypeTargetInfo {
-        if let ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RemoveTypeTargetInfo(_)) = self.HGOPEEDOFAI {
+        if let ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RemoveTypeTargetInfo(_)) = self.HDACCIEIJFO {
         } else {
-            self.HGOPEEDOFAI = ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RemoveTypeTargetInfo(super::GridFightRemoveTypeTargetInfo::GridFightRemoveTypeTargetInfo::new()));
+            self.HDACCIEIJFO = ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RemoveTypeTargetInfo(super::GridFightRemoveTypeTargetInfo::GridFightRemoveTypeTargetInfo::new()));
         }
-        match self.HGOPEEDOFAI {
-            ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RemoveTypeTargetInfo(ref mut v)) => v,
+        match self.HDACCIEIJFO {
+            ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RemoveTypeTargetInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -85,8 +85,8 @@ impl GridFightConsumableTargetInfo {
     // Take field
     pub fn take_remove_type_target_info(&mut self) -> super::GridFightRemoveTypeTargetInfo::GridFightRemoveTypeTargetInfo {
         if self.has_remove_type_target_info() {
-            match self.HGOPEEDOFAI.take() {
-                ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RemoveTypeTargetInfo(v)) => v,
+            match self.HDACCIEIJFO.take() {
+                ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RemoveTypeTargetInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -94,39 +94,39 @@ impl GridFightConsumableTargetInfo {
         }
     }
 
-    // .GridFightRollTypeTargetInfo roll_type_target_info = 1553;
+    // .GridFightRollTypeTargetInfo roll_type_target_info = 1501;
 
     pub fn roll_type_target_info(&self) -> &super::GridFightRollTypeTargetInfo::GridFightRollTypeTargetInfo {
-        match self.HGOPEEDOFAI {
-            ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RollTypeTargetInfo(ref v)) => v,
+        match self.HDACCIEIJFO {
+            ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RollTypeTargetInfo(ref v)) => v,
             _ => <super::GridFightRollTypeTargetInfo::GridFightRollTypeTargetInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_roll_type_target_info(&mut self) {
-        self.HGOPEEDOFAI = ::std::option::Option::None;
+        self.HDACCIEIJFO = ::std::option::Option::None;
     }
 
     pub fn has_roll_type_target_info(&self) -> bool {
-        match self.HGOPEEDOFAI {
-            ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RollTypeTargetInfo(..)) => true,
+        match self.HDACCIEIJFO {
+            ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RollTypeTargetInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_roll_type_target_info(&mut self, v: super::GridFightRollTypeTargetInfo::GridFightRollTypeTargetInfo) {
-        self.HGOPEEDOFAI = ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RollTypeTargetInfo(v))
+        self.HDACCIEIJFO = ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RollTypeTargetInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_roll_type_target_info(&mut self) -> &mut super::GridFightRollTypeTargetInfo::GridFightRollTypeTargetInfo {
-        if let ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RollTypeTargetInfo(_)) = self.HGOPEEDOFAI {
+        if let ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RollTypeTargetInfo(_)) = self.HDACCIEIJFO {
         } else {
-            self.HGOPEEDOFAI = ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RollTypeTargetInfo(super::GridFightRollTypeTargetInfo::GridFightRollTypeTargetInfo::new()));
+            self.HDACCIEIJFO = ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RollTypeTargetInfo(super::GridFightRollTypeTargetInfo::GridFightRollTypeTargetInfo::new()));
         }
-        match self.HGOPEEDOFAI {
-            ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RollTypeTargetInfo(ref mut v)) => v,
+        match self.HDACCIEIJFO {
+            ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RollTypeTargetInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -134,8 +134,8 @@ impl GridFightConsumableTargetInfo {
     // Take field
     pub fn take_roll_type_target_info(&mut self) -> super::GridFightRollTypeTargetInfo::GridFightRollTypeTargetInfo {
         if self.has_roll_type_target_info() {
-            match self.HGOPEEDOFAI.take() {
-                ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RollTypeTargetInfo(v)) => v,
+            match self.HDACCIEIJFO.take() {
+                ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RollTypeTargetInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -143,39 +143,39 @@ impl GridFightConsumableTargetInfo {
         }
     }
 
-    // .GridFightUpgradeTypeTargetInfo upgrade_type_target_info = 650;
+    // .GridFightUpgradeTypeTargetInfo upgrade_type_target_info = 186;
 
     pub fn upgrade_type_target_info(&self) -> &super::GridFightUpgradeTypeTargetInfo::GridFightUpgradeTypeTargetInfo {
-        match self.HGOPEEDOFAI {
-            ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::UpgradeTypeTargetInfo(ref v)) => v,
+        match self.HDACCIEIJFO {
+            ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::UpgradeTypeTargetInfo(ref v)) => v,
             _ => <super::GridFightUpgradeTypeTargetInfo::GridFightUpgradeTypeTargetInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_upgrade_type_target_info(&mut self) {
-        self.HGOPEEDOFAI = ::std::option::Option::None;
+        self.HDACCIEIJFO = ::std::option::Option::None;
     }
 
     pub fn has_upgrade_type_target_info(&self) -> bool {
-        match self.HGOPEEDOFAI {
-            ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::UpgradeTypeTargetInfo(..)) => true,
+        match self.HDACCIEIJFO {
+            ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::UpgradeTypeTargetInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_upgrade_type_target_info(&mut self, v: super::GridFightUpgradeTypeTargetInfo::GridFightUpgradeTypeTargetInfo) {
-        self.HGOPEEDOFAI = ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::UpgradeTypeTargetInfo(v))
+        self.HDACCIEIJFO = ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::UpgradeTypeTargetInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_upgrade_type_target_info(&mut self) -> &mut super::GridFightUpgradeTypeTargetInfo::GridFightUpgradeTypeTargetInfo {
-        if let ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::UpgradeTypeTargetInfo(_)) = self.HGOPEEDOFAI {
+        if let ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::UpgradeTypeTargetInfo(_)) = self.HDACCIEIJFO {
         } else {
-            self.HGOPEEDOFAI = ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::UpgradeTypeTargetInfo(super::GridFightUpgradeTypeTargetInfo::GridFightUpgradeTypeTargetInfo::new()));
+            self.HDACCIEIJFO = ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::UpgradeTypeTargetInfo(super::GridFightUpgradeTypeTargetInfo::GridFightUpgradeTypeTargetInfo::new()));
         }
-        match self.HGOPEEDOFAI {
-            ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::UpgradeTypeTargetInfo(ref mut v)) => v,
+        match self.HDACCIEIJFO {
+            ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::UpgradeTypeTargetInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -183,8 +183,8 @@ impl GridFightConsumableTargetInfo {
     // Take field
     pub fn take_upgrade_type_target_info(&mut self) -> super::GridFightUpgradeTypeTargetInfo::GridFightUpgradeTypeTargetInfo {
         if self.has_upgrade_type_target_info() {
-            match self.HGOPEEDOFAI.take() {
-                ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::UpgradeTypeTargetInfo(v)) => v,
+            match self.HDACCIEIJFO.take() {
+                ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::UpgradeTypeTargetInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -192,39 +192,39 @@ impl GridFightConsumableTargetInfo {
         }
     }
 
-    // .GridFightCopyTypeTargetInfo copy_type_target_info = 1803;
+    // .GridFightCopyTypeTargetInfo copy_type_target_info = 391;
 
     pub fn copy_type_target_info(&self) -> &super::GridFightCopyTypeTargetInfo::GridFightCopyTypeTargetInfo {
-        match self.HGOPEEDOFAI {
-            ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::CopyTypeTargetInfo(ref v)) => v,
+        match self.HDACCIEIJFO {
+            ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::CopyTypeTargetInfo(ref v)) => v,
             _ => <super::GridFightCopyTypeTargetInfo::GridFightCopyTypeTargetInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_copy_type_target_info(&mut self) {
-        self.HGOPEEDOFAI = ::std::option::Option::None;
+        self.HDACCIEIJFO = ::std::option::Option::None;
     }
 
     pub fn has_copy_type_target_info(&self) -> bool {
-        match self.HGOPEEDOFAI {
-            ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::CopyTypeTargetInfo(..)) => true,
+        match self.HDACCIEIJFO {
+            ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::CopyTypeTargetInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_copy_type_target_info(&mut self, v: super::GridFightCopyTypeTargetInfo::GridFightCopyTypeTargetInfo) {
-        self.HGOPEEDOFAI = ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::CopyTypeTargetInfo(v))
+        self.HDACCIEIJFO = ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::CopyTypeTargetInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_copy_type_target_info(&mut self) -> &mut super::GridFightCopyTypeTargetInfo::GridFightCopyTypeTargetInfo {
-        if let ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::CopyTypeTargetInfo(_)) = self.HGOPEEDOFAI {
+        if let ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::CopyTypeTargetInfo(_)) = self.HDACCIEIJFO {
         } else {
-            self.HGOPEEDOFAI = ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::CopyTypeTargetInfo(super::GridFightCopyTypeTargetInfo::GridFightCopyTypeTargetInfo::new()));
+            self.HDACCIEIJFO = ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::CopyTypeTargetInfo(super::GridFightCopyTypeTargetInfo::GridFightCopyTypeTargetInfo::new()));
         }
-        match self.HGOPEEDOFAI {
-            ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::CopyTypeTargetInfo(ref mut v)) => v,
+        match self.HDACCIEIJFO {
+            ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::CopyTypeTargetInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -232,8 +232,8 @@ impl GridFightConsumableTargetInfo {
     // Take field
     pub fn take_copy_type_target_info(&mut self) -> super::GridFightCopyTypeTargetInfo::GridFightCopyTypeTargetInfo {
         if self.has_copy_type_target_info() {
-            match self.HGOPEEDOFAI.take() {
-                ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::CopyTypeTargetInfo(v)) => v,
+            match self.HDACCIEIJFO.take() {
+                ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::CopyTypeTargetInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -241,39 +241,39 @@ impl GridFightConsumableTargetInfo {
         }
     }
 
-    // .GridFightGainRecommendEquipTypeTargetInfo gain_recommend_equip_type_target_info = 1529;
+    // .GridFightGainRecommendEquipTypeTargetInfo gain_recommend_equip_type_target_info = 654;
 
     pub fn gain_recommend_equip_type_target_info(&self) -> &super::GridFightGainRecommendEquipTypeTargetInfo::GridFightGainRecommendEquipTypeTargetInfo {
-        match self.HGOPEEDOFAI {
-            ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::GainRecommendEquipTypeTargetInfo(ref v)) => v,
+        match self.HDACCIEIJFO {
+            ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::GainRecommendEquipTypeTargetInfo(ref v)) => v,
             _ => <super::GridFightGainRecommendEquipTypeTargetInfo::GridFightGainRecommendEquipTypeTargetInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_gain_recommend_equip_type_target_info(&mut self) {
-        self.HGOPEEDOFAI = ::std::option::Option::None;
+        self.HDACCIEIJFO = ::std::option::Option::None;
     }
 
     pub fn has_gain_recommend_equip_type_target_info(&self) -> bool {
-        match self.HGOPEEDOFAI {
-            ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::GainRecommendEquipTypeTargetInfo(..)) => true,
+        match self.HDACCIEIJFO {
+            ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::GainRecommendEquipTypeTargetInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_gain_recommend_equip_type_target_info(&mut self, v: super::GridFightGainRecommendEquipTypeTargetInfo::GridFightGainRecommendEquipTypeTargetInfo) {
-        self.HGOPEEDOFAI = ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::GainRecommendEquipTypeTargetInfo(v))
+        self.HDACCIEIJFO = ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::GainRecommendEquipTypeTargetInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_gain_recommend_equip_type_target_info(&mut self) -> &mut super::GridFightGainRecommendEquipTypeTargetInfo::GridFightGainRecommendEquipTypeTargetInfo {
-        if let ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::GainRecommendEquipTypeTargetInfo(_)) = self.HGOPEEDOFAI {
+        if let ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::GainRecommendEquipTypeTargetInfo(_)) = self.HDACCIEIJFO {
         } else {
-            self.HGOPEEDOFAI = ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::GainRecommendEquipTypeTargetInfo(super::GridFightGainRecommendEquipTypeTargetInfo::GridFightGainRecommendEquipTypeTargetInfo::new()));
+            self.HDACCIEIJFO = ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::GainRecommendEquipTypeTargetInfo(super::GridFightGainRecommendEquipTypeTargetInfo::GridFightGainRecommendEquipTypeTargetInfo::new()));
         }
-        match self.HGOPEEDOFAI {
-            ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::GainRecommendEquipTypeTargetInfo(ref mut v)) => v,
+        match self.HDACCIEIJFO {
+            ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::GainRecommendEquipTypeTargetInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -281,8 +281,8 @@ impl GridFightConsumableTargetInfo {
     // Take field
     pub fn take_gain_recommend_equip_type_target_info(&mut self) -> super::GridFightGainRecommendEquipTypeTargetInfo::GridFightGainRecommendEquipTypeTargetInfo {
         if self.has_gain_recommend_equip_type_target_info() {
-            match self.HGOPEEDOFAI.take() {
-                ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::GainRecommendEquipTypeTargetInfo(v)) => v,
+            match self.HDACCIEIJFO.take() {
+                ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::GainRecommendEquipTypeTargetInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -328,7 +328,7 @@ impl GridFightConsumableTargetInfo {
             GridFightConsumableTargetInfo::mut_gain_recommend_equip_type_target_info,
             GridFightConsumableTargetInfo::set_gain_recommend_equip_type_target_info,
         ));
-        oneofs.push(grid_fight_consumable_target_info::HGOPEEDOFAI::generated_oneof_descriptor_data());
+        oneofs.push(grid_fight_consumable_target_info::HDACCIEIJFO::generated_oneof_descriptor_data());
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightConsumableTargetInfo>(
             "GridFightConsumableTargetInfo",
             fields,
@@ -347,20 +347,20 @@ impl ::protobuf::Message for GridFightConsumableTargetInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                13626 => {
-                    self.HGOPEEDOFAI = ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RemoveTypeTargetInfo(is.read_message()?));
+                10466 => {
+                    self.HDACCIEIJFO = ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RemoveTypeTargetInfo(is.read_message()?));
                 },
-                12426 => {
-                    self.HGOPEEDOFAI = ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::RollTypeTargetInfo(is.read_message()?));
+                12010 => {
+                    self.HDACCIEIJFO = ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::RollTypeTargetInfo(is.read_message()?));
                 },
-                5202 => {
-                    self.HGOPEEDOFAI = ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::UpgradeTypeTargetInfo(is.read_message()?));
+                1490 => {
+                    self.HDACCIEIJFO = ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::UpgradeTypeTargetInfo(is.read_message()?));
                 },
-                14426 => {
-                    self.HGOPEEDOFAI = ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::CopyTypeTargetInfo(is.read_message()?));
+                3130 => {
+                    self.HDACCIEIJFO = ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::CopyTypeTargetInfo(is.read_message()?));
                 },
-                12234 => {
-                    self.HGOPEEDOFAI = ::std::option::Option::Some(grid_fight_consumable_target_info::HGOPEEDOFAI::GainRecommendEquipTypeTargetInfo(is.read_message()?));
+                5234 => {
+                    self.HDACCIEIJFO = ::std::option::Option::Some(grid_fight_consumable_target_info::HDACCIEIJFO::GainRecommendEquipTypeTargetInfo(is.read_message()?));
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -374,25 +374,25 @@ impl ::protobuf::Message for GridFightConsumableTargetInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let ::std::option::Option::Some(ref v) = self.HGOPEEDOFAI {
+        if let ::std::option::Option::Some(ref v) = self.HDACCIEIJFO {
             match v {
-                &grid_fight_consumable_target_info::HGOPEEDOFAI::RemoveTypeTargetInfo(ref v) => {
+                &grid_fight_consumable_target_info::HDACCIEIJFO::RemoveTypeTargetInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_consumable_target_info::HGOPEEDOFAI::RollTypeTargetInfo(ref v) => {
+                &grid_fight_consumable_target_info::HDACCIEIJFO::RollTypeTargetInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_consumable_target_info::HGOPEEDOFAI::UpgradeTypeTargetInfo(ref v) => {
+                &grid_fight_consumable_target_info::HDACCIEIJFO::UpgradeTypeTargetInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_consumable_target_info::HGOPEEDOFAI::CopyTypeTargetInfo(ref v) => {
+                &grid_fight_consumable_target_info::HDACCIEIJFO::CopyTypeTargetInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_consumable_target_info::HGOPEEDOFAI::GainRecommendEquipTypeTargetInfo(ref v) => {
+                &grid_fight_consumable_target_info::HDACCIEIJFO::GainRecommendEquipTypeTargetInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
@@ -404,22 +404,22 @@ impl ::protobuf::Message for GridFightConsumableTargetInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let ::std::option::Option::Some(ref v) = self.HGOPEEDOFAI {
+        if let ::std::option::Option::Some(ref v) = self.HDACCIEIJFO {
             match v {
-                &grid_fight_consumable_target_info::HGOPEEDOFAI::RemoveTypeTargetInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1703, v, os)?;
+                &grid_fight_consumable_target_info::HDACCIEIJFO::RemoveTypeTargetInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1308, v, os)?;
                 },
-                &grid_fight_consumable_target_info::HGOPEEDOFAI::RollTypeTargetInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1553, v, os)?;
+                &grid_fight_consumable_target_info::HDACCIEIJFO::RollTypeTargetInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1501, v, os)?;
                 },
-                &grid_fight_consumable_target_info::HGOPEEDOFAI::UpgradeTypeTargetInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(650, v, os)?;
+                &grid_fight_consumable_target_info::HDACCIEIJFO::UpgradeTypeTargetInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(186, v, os)?;
                 },
-                &grid_fight_consumable_target_info::HGOPEEDOFAI::CopyTypeTargetInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1803, v, os)?;
+                &grid_fight_consumable_target_info::HDACCIEIJFO::CopyTypeTargetInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(391, v, os)?;
                 },
-                &grid_fight_consumable_target_info::HGOPEEDOFAI::GainRecommendEquipTypeTargetInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1529, v, os)?;
+                &grid_fight_consumable_target_info::HDACCIEIJFO::GainRecommendEquipTypeTargetInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(654, v, os)?;
                 },
             };
         }
@@ -440,17 +440,17 @@ impl ::protobuf::Message for GridFightConsumableTargetInfo {
     }
 
     fn clear(&mut self) {
-        self.HGOPEEDOFAI = ::std::option::Option::None;
-        self.HGOPEEDOFAI = ::std::option::Option::None;
-        self.HGOPEEDOFAI = ::std::option::Option::None;
-        self.HGOPEEDOFAI = ::std::option::Option::None;
-        self.HGOPEEDOFAI = ::std::option::Option::None;
+        self.HDACCIEIJFO = ::std::option::Option::None;
+        self.HDACCIEIJFO = ::std::option::Option::None;
+        self.HDACCIEIJFO = ::std::option::Option::None;
+        self.HDACCIEIJFO = ::std::option::Option::None;
+        self.HDACCIEIJFO = ::std::option::Option::None;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightConsumableTargetInfo {
         static instance: GridFightConsumableTargetInfo = GridFightConsumableTargetInfo {
-            HGOPEEDOFAI: ::std::option::Option::None,
+            HDACCIEIJFO: ::std::option::Option::None,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -479,8 +479,8 @@ pub mod grid_fight_consumable_target_info {
 
     #[derive(Clone,PartialEq,Debug)]
     #[non_exhaustive]
-    // @@protoc_insertion_point(oneof:GridFightConsumableTargetInfo.HGOPEEDOFAI)
-    pub enum HGOPEEDOFAI {
+    // @@protoc_insertion_point(oneof:GridFightConsumableTargetInfo.HDACCIEIJFO)
+    pub enum HDACCIEIJFO {
         // @@protoc_insertion_point(oneof_field:GridFightConsumableTargetInfo.remove_type_target_info)
         RemoveTypeTargetInfo(super::super::GridFightRemoveTypeTargetInfo::GridFightRemoveTypeTargetInfo),
         // @@protoc_insertion_point(oneof_field:GridFightConsumableTargetInfo.roll_type_target_info)
@@ -493,19 +493,19 @@ pub mod grid_fight_consumable_target_info {
         GainRecommendEquipTypeTargetInfo(super::super::GridFightGainRecommendEquipTypeTargetInfo::GridFightGainRecommendEquipTypeTargetInfo),
     }
 
-    impl ::protobuf::Oneof for HGOPEEDOFAI {
+    impl ::protobuf::Oneof for HDACCIEIJFO {
     }
 
-    impl ::protobuf::OneofFull for HGOPEEDOFAI {
+    impl ::protobuf::OneofFull for HDACCIEIJFO {
         fn descriptor() -> ::protobuf::reflect::OneofDescriptor {
             static descriptor: ::protobuf::rt::Lazy<::protobuf::reflect::OneofDescriptor> = ::protobuf::rt::Lazy::new();
-            descriptor.get(|| <super::GridFightConsumableTargetInfo as ::protobuf::MessageFull>::descriptor().oneof_by_name("HGOPEEDOFAI").unwrap()).clone()
+            descriptor.get(|| <super::GridFightConsumableTargetInfo as ::protobuf::MessageFull>::descriptor().oneof_by_name("HDACCIEIJFO").unwrap()).clone()
         }
     }
 
-    impl HGOPEEDOFAI {
+    impl HDACCIEIJFO {
         pub(in super) fn generated_oneof_descriptor_data() -> ::protobuf::reflect::GeneratedOneofDescriptorData {
-            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<HGOPEEDOFAI>("HGOPEEDOFAI")
+            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<HDACCIEIJFO>("HDACCIEIJFO")
         }
     }
 }
@@ -515,16 +515,16 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     roto\x1a/GridFightGainRecommendEquipTypeTargetInfo.proto\x1a#GridFightRe\
     moveTypeTargetInfo.proto\x1a!GridFightRollTypeTargetInfo.proto\x1a$GridF\
     ightUpgradeTypeTargetInfo.proto\"\x8d\x04\n\x1dGridFightConsumableTarget\
-    Info\x12X\n\x17remove_type_target_info\x18\xa7\r\x20\x01(\x0b2\x1e.GridF\
+    Info\x12X\n\x17remove_type_target_info\x18\x9c\n\x20\x01(\x0b2\x1e.GridF\
     ightRemoveTypeTargetInfoH\0R\x14removeTypeTargetInfo\x12R\n\x15roll_type\
-    _target_info\x18\x91\x0c\x20\x01(\x0b2\x1c.GridFightRollTypeTargetInfoH\
-    \0R\x12rollTypeTargetInfo\x12[\n\x18upgrade_type_target_info\x18\x8a\x05\
+    _target_info\x18\xdd\x0b\x20\x01(\x0b2\x1c.GridFightRollTypeTargetInfoH\
+    \0R\x12rollTypeTargetInfo\x12[\n\x18upgrade_type_target_info\x18\xba\x01\
     \x20\x01(\x0b2\x1f.GridFightUpgradeTypeTargetInfoH\0R\x15upgradeTypeTarg\
-    etInfo\x12R\n\x15copy_type_target_info\x18\x8b\x0e\x20\x01(\x0b2\x1c.Gri\
+    etInfo\x12R\n\x15copy_type_target_info\x18\x87\x03\x20\x01(\x0b2\x1c.Gri\
     dFightCopyTypeTargetInfoH\0R\x12copyTypeTargetInfo\x12~\n%gain_recommend\
-    _equip_type_target_info\x18\xf9\x0b\x20\x01(\x0b2*.GridFightGainRecommen\
-    dEquipTypeTargetInfoH\0R\x20gainRecommendEquipTypeTargetInfoB\r\n\x0bHGO\
-    PEEDOFAIb\x06proto3\
+    _equip_type_target_info\x18\x8e\x05\x20\x01(\x0b2*.GridFightGainRecommen\
+    dEquipTypeTargetInfoH\0R\x20gainRecommendEquipTypeTargetInfoB\r\n\x0bHDA\
+    CCIEIJFOb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

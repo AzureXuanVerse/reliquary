@@ -28,16 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct LobbyMarchInfo {
     // message fields
-    // @@protoc_insertion_point(field:LobbyMarchInfo.ADOGOONNMOI)
-    pub ADOGOONNMOI: u32,
-    // @@protoc_insertion_point(field:LobbyMarchInfo.NLHFOJKCLDO)
-    pub NLHFOJKCLDO: bool,
-    // @@protoc_insertion_point(field:LobbyMarchInfo.KMMCAPFLMEH)
-    pub KMMCAPFLMEH: u32,
-    // @@protoc_insertion_point(field:LobbyMarchInfo.FMKHENLOLHI)
-    pub FMKHENLOLHI: u32,
-    // @@protoc_insertion_point(field:LobbyMarchInfo.DPPJJFKADEF)
-    pub DPPJJFKADEF: ::protobuf::MessageField<super::GLGBPHHGDND::GLGBPHHGDND>,
+    // @@protoc_insertion_point(field:LobbyMarchInfo.NLOCDHMLGJH)
+    pub NLOCDHMLGJH: u32,
+    // @@protoc_insertion_point(field:LobbyMarchInfo.GIKABEMCFAO)
+    pub GIKABEMCFAO: bool,
+    // @@protoc_insertion_point(field:LobbyMarchInfo.GJIKBFAHEAK)
+    pub GJIKBFAHEAK: u32,
+    // @@protoc_insertion_point(field:LobbyMarchInfo.FBJPJKBDCLB)
+    pub FBJPJKBDCLB: u32,
+    // @@protoc_insertion_point(field:LobbyMarchInfo.ONJKBENNMFC)
+    pub ONJKBENNMFC: ::protobuf::MessageField<super::GFNMAKHPAOE::GFNMAKHPAOE>,
     // special fields
     // @@protoc_insertion_point(special_field:LobbyMarchInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -58,29 +58,29 @@ impl LobbyMarchInfo {
         let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "ADOGOONNMOI",
-            |m: &LobbyMarchInfo| { &m.ADOGOONNMOI },
-            |m: &mut LobbyMarchInfo| { &mut m.ADOGOONNMOI },
+            "NLOCDHMLGJH",
+            |m: &LobbyMarchInfo| { &m.NLOCDHMLGJH },
+            |m: &mut LobbyMarchInfo| { &mut m.NLOCDHMLGJH },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "NLHFOJKCLDO",
-            |m: &LobbyMarchInfo| { &m.NLHFOJKCLDO },
-            |m: &mut LobbyMarchInfo| { &mut m.NLHFOJKCLDO },
+            "GIKABEMCFAO",
+            |m: &LobbyMarchInfo| { &m.GIKABEMCFAO },
+            |m: &mut LobbyMarchInfo| { &mut m.GIKABEMCFAO },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "KMMCAPFLMEH",
-            |m: &LobbyMarchInfo| { &m.KMMCAPFLMEH },
-            |m: &mut LobbyMarchInfo| { &mut m.KMMCAPFLMEH },
+            "GJIKBFAHEAK",
+            |m: &LobbyMarchInfo| { &m.GJIKBFAHEAK },
+            |m: &mut LobbyMarchInfo| { &mut m.GJIKBFAHEAK },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "FMKHENLOLHI",
-            |m: &LobbyMarchInfo| { &m.FMKHENLOLHI },
-            |m: &mut LobbyMarchInfo| { &mut m.FMKHENLOLHI },
+            "FBJPJKBDCLB",
+            |m: &LobbyMarchInfo| { &m.FBJPJKBDCLB },
+            |m: &mut LobbyMarchInfo| { &mut m.FBJPJKBDCLB },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GLGBPHHGDND::GLGBPHHGDND>(
-            "DPPJJFKADEF",
-            |m: &LobbyMarchInfo| { &m.DPPJJFKADEF },
-            |m: &mut LobbyMarchInfo| { &mut m.DPPJJFKADEF },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GFNMAKHPAOE::GFNMAKHPAOE>(
+            "ONJKBENNMFC",
+            |m: &LobbyMarchInfo| { &m.ONJKBENNMFC },
+            |m: &mut LobbyMarchInfo| { &mut m.ONJKBENNMFC },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<LobbyMarchInfo>(
             "LobbyMarchInfo",
@@ -101,19 +101,19 @@ impl ::protobuf::Message for LobbyMarchInfo {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
                 8 => {
-                    self.ADOGOONNMOI = is.read_uint32()?;
+                    self.NLOCDHMLGJH = is.read_uint32()?;
                 },
                 16 => {
-                    self.NLHFOJKCLDO = is.read_bool()?;
+                    self.GIKABEMCFAO = is.read_bool()?;
                 },
                 24 => {
-                    self.KMMCAPFLMEH = is.read_uint32()?;
+                    self.GJIKBFAHEAK = is.read_uint32()?;
                 },
                 32 => {
-                    self.FMKHENLOLHI = is.read_uint32()?;
+                    self.FBJPJKBDCLB = is.read_uint32()?;
                 },
                 42 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.DPPJJFKADEF)?;
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.ONJKBENNMFC)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -127,19 +127,19 @@ impl ::protobuf::Message for LobbyMarchInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.ADOGOONNMOI != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.ADOGOONNMOI);
+        if self.NLOCDHMLGJH != 0 {
+            my_size += ::protobuf::rt::uint32_size(1, self.NLOCDHMLGJH);
         }
-        if self.NLHFOJKCLDO != false {
+        if self.GIKABEMCFAO != false {
             my_size += 1 + 1;
         }
-        if self.KMMCAPFLMEH != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.KMMCAPFLMEH);
+        if self.GJIKBFAHEAK != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.GJIKBFAHEAK);
         }
-        if self.FMKHENLOLHI != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.FMKHENLOLHI);
+        if self.FBJPJKBDCLB != 0 {
+            my_size += ::protobuf::rt::uint32_size(4, self.FBJPJKBDCLB);
         }
-        if let Some(v) = self.DPPJJFKADEF.as_ref() {
+        if let Some(v) = self.ONJKBENNMFC.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -149,19 +149,19 @@ impl ::protobuf::Message for LobbyMarchInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.ADOGOONNMOI != 0 {
-            os.write_uint32(1, self.ADOGOONNMOI)?;
+        if self.NLOCDHMLGJH != 0 {
+            os.write_uint32(1, self.NLOCDHMLGJH)?;
         }
-        if self.NLHFOJKCLDO != false {
-            os.write_bool(2, self.NLHFOJKCLDO)?;
+        if self.GIKABEMCFAO != false {
+            os.write_bool(2, self.GIKABEMCFAO)?;
         }
-        if self.KMMCAPFLMEH != 0 {
-            os.write_uint32(3, self.KMMCAPFLMEH)?;
+        if self.GJIKBFAHEAK != 0 {
+            os.write_uint32(3, self.GJIKBFAHEAK)?;
         }
-        if self.FMKHENLOLHI != 0 {
-            os.write_uint32(4, self.FMKHENLOLHI)?;
+        if self.FBJPJKBDCLB != 0 {
+            os.write_uint32(4, self.FBJPJKBDCLB)?;
         }
-        if let Some(v) = self.DPPJJFKADEF.as_ref() {
+        if let Some(v) = self.ONJKBENNMFC.as_ref() {
             ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
@@ -181,21 +181,21 @@ impl ::protobuf::Message for LobbyMarchInfo {
     }
 
     fn clear(&mut self) {
-        self.ADOGOONNMOI = 0;
-        self.NLHFOJKCLDO = false;
-        self.KMMCAPFLMEH = 0;
-        self.FMKHENLOLHI = 0;
-        self.DPPJJFKADEF.clear();
+        self.NLOCDHMLGJH = 0;
+        self.GIKABEMCFAO = false;
+        self.GJIKBFAHEAK = 0;
+        self.FBJPJKBDCLB = 0;
+        self.ONJKBENNMFC.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static LobbyMarchInfo {
         static instance: LobbyMarchInfo = LobbyMarchInfo {
-            ADOGOONNMOI: 0,
-            NLHFOJKCLDO: false,
-            KMMCAPFLMEH: 0,
-            FMKHENLOLHI: 0,
-            DPPJJFKADEF: ::protobuf::MessageField::none(),
+            NLOCDHMLGJH: 0,
+            GIKABEMCFAO: false,
+            GJIKBFAHEAK: 0,
+            FBJPJKBDCLB: 0,
+            ONJKBENNMFC: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -220,12 +220,12 @@ impl ::protobuf::reflect::ProtobufValue for LobbyMarchInfo {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x14LobbyMarchInfo.proto\x1a\x11GLGBPHHGDND.proto\"\xc8\x01\n\x0eLobby\
-    MarchInfo\x12\x20\n\x0bADOGOONNMOI\x18\x01\x20\x01(\rR\x0bADOGOONNMOI\
-    \x12\x20\n\x0bNLHFOJKCLDO\x18\x02\x20\x01(\x08R\x0bNLHFOJKCLDO\x12\x20\n\
-    \x0bKMMCAPFLMEH\x18\x03\x20\x01(\rR\x0bKMMCAPFLMEH\x12\x20\n\x0bFMKHENLO\
-    LHI\x18\x04\x20\x01(\rR\x0bFMKHENLOLHI\x12.\n\x0bDPPJJFKADEF\x18\x05\x20\
-    \x01(\x0b2\x0c.GLGBPHHGDNDR\x0bDPPJJFKADEFb\x06proto3\
+    \n\x14LobbyMarchInfo.proto\x1a\x11GFNMAKHPAOE.proto\"\xc8\x01\n\x0eLobby\
+    MarchInfo\x12\x20\n\x0bNLOCDHMLGJH\x18\x01\x20\x01(\rR\x0bNLOCDHMLGJH\
+    \x12\x20\n\x0bGIKABEMCFAO\x18\x02\x20\x01(\x08R\x0bGIKABEMCFAO\x12\x20\n\
+    \x0bGJIKBFAHEAK\x18\x03\x20\x01(\rR\x0bGJIKBFAHEAK\x12\x20\n\x0bFBJPJKBD\
+    CLB\x18\x04\x20\x01(\rR\x0bFBJPJKBDCLB\x12.\n\x0bONJKBENNMFC\x18\x05\x20\
+    \x01(\x0b2\x0c.GFNMAKHPAOER\x0bONJKBENNMFCb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -243,7 +243,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::GLGBPHHGDND::file_descriptor().clone());
+            deps.push(super::GFNMAKHPAOE::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(LobbyMarchInfo::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

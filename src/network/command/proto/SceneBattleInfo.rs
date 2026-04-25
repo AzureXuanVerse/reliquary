@@ -28,42 +28,42 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct SceneBattleInfo {
     // message fields
-    // @@protoc_insertion_point(field:SceneBattleInfo.battle_event)
-    pub battle_event: ::std::vec::Vec<super::BattleEventBattleInfo::BattleEventBattleInfo>,
+    // @@protoc_insertion_point(field:SceneBattleInfo.IAJDCJIAHFP)
+    pub IAJDCJIAHFP: ::protobuf::MessageField<super::CAKGOGMEJOF::CAKGOGMEJOF>,
+    // @@protoc_insertion_point(field:SceneBattleInfo.logic_random_seed)
+    pub logic_random_seed: u32,
     // @@protoc_insertion_point(field:SceneBattleInfo.stage_id)
     pub stage_id: u32,
-    // @@protoc_insertion_point(field:SceneBattleInfo.IGAEJDGJFAP)
-    pub IGAEJDGJFAP: ::protobuf::MessageField<super::BattleGridFightSpecialBattleInfo::BattleGridFightSpecialBattleInfo>,
-    // @@protoc_insertion_point(field:SceneBattleInfo.battle_rogue_magic_info)
-    pub battle_rogue_magic_info: ::protobuf::MessageField<super::BattleRogueMagicInfo::BattleRogueMagicInfo>,
-    // @@protoc_insertion_point(field:SceneBattleInfo.rounds_limit)
-    pub rounds_limit: u32,
-    // @@protoc_insertion_point(field:SceneBattleInfo.buff_list)
-    pub buff_list: ::std::vec::Vec<super::BattleBuff::BattleBuff>,
-    // @@protoc_insertion_point(field:SceneBattleInfo.DLILJCCEBLN)
-    pub DLILJCCEBLN: bool,
+    // @@protoc_insertion_point(field:SceneBattleInfo.monster_wave_list)
+    pub monster_wave_list: ::std::vec::Vec<super::SceneMonsterWave::SceneMonsterWave>,
+    // @@protoc_insertion_point(field:SceneBattleInfo.battle_event)
+    pub battle_event: ::std::vec::Vec<super::BattleEventBattleInfo::BattleEventBattleInfo>,
     // @@protoc_insertion_point(field:SceneBattleInfo.monster_wave_length)
     pub monster_wave_length: u32,
-    // @@protoc_insertion_point(field:SceneBattleInfo.EOCIAHOJAKN)
-    pub EOCIAHOJAKN: ::protobuf::MessageField<super::JOBHBFDMEBC::JOBHBFDMEBC>,
+    // @@protoc_insertion_point(field:SceneBattleInfo.rounds_limit)
+    pub rounds_limit: u32,
+    // @@protoc_insertion_point(field:SceneBattleInfo.OBOFOCPCBPK)
+    pub OBOFOCPCBPK: ::protobuf::MessageField<super::MLDEDCCOHBF::MLDEDCCOHBF>,
+    // @@protoc_insertion_point(field:SceneBattleInfo.buff_list)
+    pub buff_list: ::std::vec::Vec<super::BattleBuff::BattleBuff>,
+    // @@protoc_insertion_point(field:SceneBattleInfo.FMCJPPILPLL)
+    pub FMCJPPILPLL: ::protobuf::MessageField<super::BattleGridFightSpecialBattleInfo::BattleGridFightSpecialBattleInfo>,
+    // @@protoc_insertion_point(field:SceneBattleInfo.AFCMOOFGBPK)
+    pub AFCMOOFGBPK: ::protobuf::MessageField<super::OGEOMDJIAGI::OGEOMDJIAGI>,
+    // @@protoc_insertion_point(field:SceneBattleInfo.EODHMOBOENG)
+    pub EODHMOBOENG: bool,
+    // @@protoc_insertion_point(field:SceneBattleInfo.world_level)
+    pub world_level: u32,
     // @@protoc_insertion_point(field:SceneBattleInfo.battle_target_info)
     pub battle_target_info: ::std::collections::HashMap<u32, super::BattleTargetList::BattleTargetList>,
-    // @@protoc_insertion_point(field:SceneBattleInfo.GDGPDLIJMIN)
-    pub GDGPDLIJMIN: ::protobuf::MessageField<super::GNCELENEBBH::GNCELENEBBH>,
+    // @@protoc_insertion_point(field:SceneBattleInfo.battle_rogue_magic_info)
+    pub battle_rogue_magic_info: ::protobuf::MessageField<super::BattleRogueMagicInfo::BattleRogueMagicInfo>,
     // @@protoc_insertion_point(field:SceneBattleInfo.battle_id)
     pub battle_id: u32,
     // @@protoc_insertion_point(field:SceneBattleInfo.battle_avatar_list)
     pub battle_avatar_list: ::std::vec::Vec<super::BattleAvatar::BattleAvatar>,
-    // @@protoc_insertion_point(field:SceneBattleInfo.logic_random_seed)
-    pub logic_random_seed: u32,
-    // @@protoc_insertion_point(field:SceneBattleInfo.monster_wave_list)
-    pub monster_wave_list: ::std::vec::Vec<super::SceneMonsterWave::SceneMonsterWave>,
-    // @@protoc_insertion_point(field:SceneBattleInfo.CODANMDMKFA)
-    pub CODANMDMKFA: ::protobuf::MessageField<super::KPGIDMEFEPC::KPGIDMEFEPC>,
-    // @@protoc_insertion_point(field:SceneBattleInfo.EPKAJPDMKDE)
-    pub EPKAJPDMKDE: ::protobuf::MessageField<super::KNIAOHMCODK::KNIAOHMCODK>,
-    // @@protoc_insertion_point(field:SceneBattleInfo.world_level)
-    pub world_level: u32,
+    // @@protoc_insertion_point(field:SceneBattleInfo.GDAGHIJADOD)
+    pub GDAGHIJADOD: ::protobuf::MessageField<super::KCGPMNNKIKN::KCGPMNNKIKN>,
     // special fields
     // @@protoc_insertion_point(special_field:SceneBattleInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -83,60 +83,80 @@ impl SceneBattleInfo {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(18);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "battle_event",
-            |m: &SceneBattleInfo| { &m.battle_event },
-            |m: &mut SceneBattleInfo| { &mut m.battle_event },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::CAKGOGMEJOF::CAKGOGMEJOF>(
+            "IAJDCJIAHFP",
+            |m: &SceneBattleInfo| { &m.IAJDCJIAHFP },
+            |m: &mut SceneBattleInfo| { &mut m.IAJDCJIAHFP },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "logic_random_seed",
+            |m: &SceneBattleInfo| { &m.logic_random_seed },
+            |m: &mut SceneBattleInfo| { &mut m.logic_random_seed },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "stage_id",
             |m: &SceneBattleInfo| { &m.stage_id },
             |m: &mut SceneBattleInfo| { &mut m.stage_id },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::BattleGridFightSpecialBattleInfo::BattleGridFightSpecialBattleInfo>(
-            "IGAEJDGJFAP",
-            |m: &SceneBattleInfo| { &m.IGAEJDGJFAP },
-            |m: &mut SceneBattleInfo| { &mut m.IGAEJDGJFAP },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::BattleRogueMagicInfo::BattleRogueMagicInfo>(
-            "battle_rogue_magic_info",
-            |m: &SceneBattleInfo| { &m.battle_rogue_magic_info },
-            |m: &mut SceneBattleInfo| { &mut m.battle_rogue_magic_info },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "rounds_limit",
-            |m: &SceneBattleInfo| { &m.rounds_limit },
-            |m: &mut SceneBattleInfo| { &mut m.rounds_limit },
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "monster_wave_list",
+            |m: &SceneBattleInfo| { &m.monster_wave_list },
+            |m: &mut SceneBattleInfo| { &mut m.monster_wave_list },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "buff_list",
-            |m: &SceneBattleInfo| { &m.buff_list },
-            |m: &mut SceneBattleInfo| { &mut m.buff_list },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "DLILJCCEBLN",
-            |m: &SceneBattleInfo| { &m.DLILJCCEBLN },
-            |m: &mut SceneBattleInfo| { &mut m.DLILJCCEBLN },
+            "battle_event",
+            |m: &SceneBattleInfo| { &m.battle_event },
+            |m: &mut SceneBattleInfo| { &mut m.battle_event },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "monster_wave_length",
             |m: &SceneBattleInfo| { &m.monster_wave_length },
             |m: &mut SceneBattleInfo| { &mut m.monster_wave_length },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::JOBHBFDMEBC::JOBHBFDMEBC>(
-            "EOCIAHOJAKN",
-            |m: &SceneBattleInfo| { &m.EOCIAHOJAKN },
-            |m: &mut SceneBattleInfo| { &mut m.EOCIAHOJAKN },
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "rounds_limit",
+            |m: &SceneBattleInfo| { &m.rounds_limit },
+            |m: &mut SceneBattleInfo| { &mut m.rounds_limit },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::MLDEDCCOHBF::MLDEDCCOHBF>(
+            "OBOFOCPCBPK",
+            |m: &SceneBattleInfo| { &m.OBOFOCPCBPK },
+            |m: &mut SceneBattleInfo| { &mut m.OBOFOCPCBPK },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "buff_list",
+            |m: &SceneBattleInfo| { &m.buff_list },
+            |m: &mut SceneBattleInfo| { &mut m.buff_list },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::BattleGridFightSpecialBattleInfo::BattleGridFightSpecialBattleInfo>(
+            "FMCJPPILPLL",
+            |m: &SceneBattleInfo| { &m.FMCJPPILPLL },
+            |m: &mut SceneBattleInfo| { &mut m.FMCJPPILPLL },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::OGEOMDJIAGI::OGEOMDJIAGI>(
+            "AFCMOOFGBPK",
+            |m: &SceneBattleInfo| { &m.AFCMOOFGBPK },
+            |m: &mut SceneBattleInfo| { &mut m.AFCMOOFGBPK },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "EODHMOBOENG",
+            |m: &SceneBattleInfo| { &m.EODHMOBOENG },
+            |m: &mut SceneBattleInfo| { &mut m.EODHMOBOENG },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "world_level",
+            |m: &SceneBattleInfo| { &m.world_level },
+            |m: &mut SceneBattleInfo| { &mut m.world_level },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_map_simpler_accessor_new::<_, _>(
             "battle_target_info",
             |m: &SceneBattleInfo| { &m.battle_target_info },
             |m: &mut SceneBattleInfo| { &mut m.battle_target_info },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GNCELENEBBH::GNCELENEBBH>(
-            "GDGPDLIJMIN",
-            |m: &SceneBattleInfo| { &m.GDGPDLIJMIN },
-            |m: &mut SceneBattleInfo| { &mut m.GDGPDLIJMIN },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::BattleRogueMagicInfo::BattleRogueMagicInfo>(
+            "battle_rogue_magic_info",
+            |m: &SceneBattleInfo| { &m.battle_rogue_magic_info },
+            |m: &mut SceneBattleInfo| { &mut m.battle_rogue_magic_info },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "battle_id",
@@ -148,30 +168,10 @@ impl SceneBattleInfo {
             |m: &SceneBattleInfo| { &m.battle_avatar_list },
             |m: &mut SceneBattleInfo| { &mut m.battle_avatar_list },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "logic_random_seed",
-            |m: &SceneBattleInfo| { &m.logic_random_seed },
-            |m: &mut SceneBattleInfo| { &mut m.logic_random_seed },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "monster_wave_list",
-            |m: &SceneBattleInfo| { &m.monster_wave_list },
-            |m: &mut SceneBattleInfo| { &mut m.monster_wave_list },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::KPGIDMEFEPC::KPGIDMEFEPC>(
-            "CODANMDMKFA",
-            |m: &SceneBattleInfo| { &m.CODANMDMKFA },
-            |m: &mut SceneBattleInfo| { &mut m.CODANMDMKFA },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::KNIAOHMCODK::KNIAOHMCODK>(
-            "EPKAJPDMKDE",
-            |m: &SceneBattleInfo| { &m.EPKAJPDMKDE },
-            |m: &mut SceneBattleInfo| { &mut m.EPKAJPDMKDE },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "world_level",
-            |m: &SceneBattleInfo| { &m.world_level },
-            |m: &mut SceneBattleInfo| { &mut m.world_level },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::KCGPMNNKIKN::KCGPMNNKIKN>(
+            "GDAGHIJADOD",
+            |m: &SceneBattleInfo| { &m.GDAGHIJADOD },
+            |m: &mut SceneBattleInfo| { &mut m.GDAGHIJADOD },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<SceneBattleInfo>(
             "SceneBattleInfo",
@@ -191,34 +191,46 @@ impl ::protobuf::Message for SceneBattleInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                5442 => {
+                4066 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.IAJDCJIAHFP)?;
+                },
+                64 => {
+                    self.logic_random_seed = is.read_uint32()?;
+                },
+                16 => {
+                    self.stage_id = is.read_uint32()?;
+                },
+                34 => {
+                    self.monster_wave_list.push(is.read_message()?);
+                },
+                1874 => {
                     self.battle_event.push(is.read_message()?);
                 },
                 120 => {
-                    self.stage_id = is.read_uint32()?;
-                },
-                194 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.IGAEJDGJFAP)?;
-                },
-                15618 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.battle_rogue_magic_info)?;
-                },
-                24 => {
-                    self.rounds_limit = is.read_uint32()?;
-                },
-                90 => {
-                    self.buff_list.push(is.read_message()?);
-                },
-                64 => {
-                    self.DLILJCCEBLN = is.read_bool()?;
-                },
-                32 => {
                     self.monster_wave_length = is.read_uint32()?;
                 },
-                954 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.EOCIAHOJAKN)?;
+                112 => {
+                    self.rounds_limit = is.read_uint32()?;
                 },
-                1242 => {
+                11066 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.OBOFOCPCBPK)?;
+                },
+                106 => {
+                    self.buff_list.push(is.read_message()?);
+                },
+                13234 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.FMCJPPILPLL)?;
+                },
+                14650 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.AFCMOOFGBPK)?;
+                },
+                24 => {
+                    self.EODHMOBOENG = is.read_bool()?;
+                },
+                48 => {
+                    self.world_level = is.read_uint32()?;
+                },
+                6090 => {
                     let len = is.read_raw_varint32()?;
                     let old_limit = is.push_limit(len as u64)?;
                     let mut key = ::std::default::Default::default();
@@ -233,29 +245,17 @@ impl ::protobuf::Message for SceneBattleInfo {
                     is.pop_limit(old_limit);
                     self.battle_target_info.insert(key, value);
                 },
-                9762 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.GDGPDLIJMIN)?;
+                4466 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.battle_rogue_magic_info)?;
                 },
-                80 => {
+                8 => {
                     self.battle_id = is.read_uint32()?;
                 },
-                98 => {
+                74 => {
                     self.battle_avatar_list.push(is.read_message()?);
                 },
-                112 => {
-                    self.logic_random_seed = is.read_uint32()?;
-                },
-                18 => {
-                    self.monster_wave_list.push(is.read_message()?);
-                },
-                5186 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.CODANMDMKFA)?;
-                },
-                1090 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.EPKAJPDMKDE)?;
-                },
-                72 => {
-                    self.world_level = is.read_uint32()?;
+                6706 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.GDAGHIJADOD)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -269,37 +269,51 @@ impl ::protobuf::Message for SceneBattleInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
+        if let Some(v) = self.IAJDCJIAHFP.as_ref() {
+            let len = v.compute_size();
+            my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if self.logic_random_seed != 0 {
+            my_size += ::protobuf::rt::uint32_size(8, self.logic_random_seed);
+        }
+        if self.stage_id != 0 {
+            my_size += ::protobuf::rt::uint32_size(2, self.stage_id);
+        }
+        for value in &self.monster_wave_list {
+            let len = value.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        };
         for value in &self.battle_event {
             let len = value.compute_size();
             my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.stage_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(15, self.stage_id);
-        }
-        if let Some(v) = self.IGAEJDGJFAP.as_ref() {
-            let len = v.compute_size();
-            my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.battle_rogue_magic_info.as_ref() {
-            let len = v.compute_size();
-            my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        if self.monster_wave_length != 0 {
+            my_size += ::protobuf::rt::uint32_size(15, self.monster_wave_length);
         }
         if self.rounds_limit != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.rounds_limit);
+            my_size += ::protobuf::rt::uint32_size(14, self.rounds_limit);
+        }
+        if let Some(v) = self.OBOFOCPCBPK.as_ref() {
+            let len = v.compute_size();
+            my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
         for value in &self.buff_list {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.DLILJCCEBLN != false {
-            my_size += 1 + 1;
-        }
-        if self.monster_wave_length != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.monster_wave_length);
-        }
-        if let Some(v) = self.EOCIAHOJAKN.as_ref() {
+        if let Some(v) = self.FMCJPPILPLL.as_ref() {
             let len = v.compute_size();
             my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if let Some(v) = self.AFCMOOFGBPK.as_ref() {
+            let len = v.compute_size();
+            my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if self.EODHMOBOENG != false {
+            my_size += 1 + 1;
+        }
+        if self.world_level != 0 {
+            my_size += ::protobuf::rt::uint32_size(6, self.world_level);
         }
         for (k, v) in &self.battle_target_info {
             let mut entry_size = 0;
@@ -308,34 +322,20 @@ impl ::protobuf::Message for SceneBattleInfo {
             entry_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
             my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(entry_size) + entry_size
         };
-        if let Some(v) = self.GDGPDLIJMIN.as_ref() {
+        if let Some(v) = self.battle_rogue_magic_info.as_ref() {
             let len = v.compute_size();
             my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
         if self.battle_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.battle_id);
+            my_size += ::protobuf::rt::uint32_size(1, self.battle_id);
         }
         for value in &self.battle_avatar_list {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.logic_random_seed != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.logic_random_seed);
-        }
-        for value in &self.monster_wave_list {
-            let len = value.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        };
-        if let Some(v) = self.CODANMDMKFA.as_ref() {
+        if let Some(v) = self.GDAGHIJADOD.as_ref() {
             let len = v.compute_size();
             my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.EPKAJPDMKDE.as_ref() {
-            let len = v.compute_size();
-            my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if self.world_level != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.world_level);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -343,66 +343,66 @@ impl ::protobuf::Message for SceneBattleInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.battle_event {
-            ::protobuf::rt::write_message_field_with_cached_size(680, v, os)?;
-        };
+        if let Some(v) = self.IAJDCJIAHFP.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(508, v, os)?;
+        }
+        if self.logic_random_seed != 0 {
+            os.write_uint32(8, self.logic_random_seed)?;
+        }
         if self.stage_id != 0 {
-            os.write_uint32(15, self.stage_id)?;
+            os.write_uint32(2, self.stage_id)?;
         }
-        if let Some(v) = self.IGAEJDGJFAP.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(24, v, os)?;
-        }
-        if let Some(v) = self.battle_rogue_magic_info.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(1952, v, os)?;
+        for v in &self.monster_wave_list {
+            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
+        };
+        for v in &self.battle_event {
+            ::protobuf::rt::write_message_field_with_cached_size(234, v, os)?;
+        };
+        if self.monster_wave_length != 0 {
+            os.write_uint32(15, self.monster_wave_length)?;
         }
         if self.rounds_limit != 0 {
-            os.write_uint32(3, self.rounds_limit)?;
+            os.write_uint32(14, self.rounds_limit)?;
+        }
+        if let Some(v) = self.OBOFOCPCBPK.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(1383, v, os)?;
         }
         for v in &self.buff_list {
-            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
         };
-        if self.DLILJCCEBLN != false {
-            os.write_bool(8, self.DLILJCCEBLN)?;
+        if let Some(v) = self.FMCJPPILPLL.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(1654, v, os)?;
         }
-        if self.monster_wave_length != 0 {
-            os.write_uint32(4, self.monster_wave_length)?;
+        if let Some(v) = self.AFCMOOFGBPK.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(1831, v, os)?;
         }
-        if let Some(v) = self.EOCIAHOJAKN.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(119, v, os)?;
+        if self.EODHMOBOENG != false {
+            os.write_bool(3, self.EODHMOBOENG)?;
+        }
+        if self.world_level != 0 {
+            os.write_uint32(6, self.world_level)?;
         }
         for (k, v) in &self.battle_target_info {
             let mut entry_size = 0;
             entry_size += ::protobuf::rt::uint32_size(1, *k);
             let len = v.cached_size() as u64;
             entry_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-            os.write_raw_varint32(1242)?; // Tag.
+            os.write_raw_varint32(6090)?; // Tag.
             os.write_raw_varint32(entry_size as u32)?;
             os.write_uint32(1, *k)?;
             ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
         };
-        if let Some(v) = self.GDGPDLIJMIN.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(1220, v, os)?;
+        if let Some(v) = self.battle_rogue_magic_info.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(558, v, os)?;
         }
         if self.battle_id != 0 {
-            os.write_uint32(10, self.battle_id)?;
+            os.write_uint32(1, self.battle_id)?;
         }
         for v in &self.battle_avatar_list {
-            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
         };
-        if self.logic_random_seed != 0 {
-            os.write_uint32(14, self.logic_random_seed)?;
-        }
-        for v in &self.monster_wave_list {
-            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
-        };
-        if let Some(v) = self.CODANMDMKFA.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(648, v, os)?;
-        }
-        if let Some(v) = self.EPKAJPDMKDE.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(136, v, os)?;
-        }
-        if self.world_level != 0 {
-            os.write_uint32(9, self.world_level)?;
+        if let Some(v) = self.GDAGHIJADOD.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(838, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -421,24 +421,24 @@ impl ::protobuf::Message for SceneBattleInfo {
     }
 
     fn clear(&mut self) {
-        self.battle_event.clear();
+        self.IAJDCJIAHFP.clear();
+        self.logic_random_seed = 0;
         self.stage_id = 0;
-        self.IGAEJDGJFAP.clear();
-        self.battle_rogue_magic_info.clear();
-        self.rounds_limit = 0;
-        self.buff_list.clear();
-        self.DLILJCCEBLN = false;
+        self.monster_wave_list.clear();
+        self.battle_event.clear();
         self.monster_wave_length = 0;
-        self.EOCIAHOJAKN.clear();
+        self.rounds_limit = 0;
+        self.OBOFOCPCBPK.clear();
+        self.buff_list.clear();
+        self.FMCJPPILPLL.clear();
+        self.AFCMOOFGBPK.clear();
+        self.EODHMOBOENG = false;
+        self.world_level = 0;
         self.battle_target_info.clear();
-        self.GDGPDLIJMIN.clear();
+        self.battle_rogue_magic_info.clear();
         self.battle_id = 0;
         self.battle_avatar_list.clear();
-        self.logic_random_seed = 0;
-        self.monster_wave_list.clear();
-        self.CODANMDMKFA.clear();
-        self.EPKAJPDMKDE.clear();
-        self.world_level = 0;
+        self.GDAGHIJADOD.clear();
         self.special_fields.clear();
     }
 
@@ -469,30 +469,31 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x15SceneBattleInfo.proto\x1a\x12BattleAvatar.proto\x1a\x10BattleBuff.\
     proto\x1a\x1bBattleEventBattleInfo.proto\x1a&BattleGridFightSpecialBattl\
     eInfo.proto\x1a\x1aBattleRogueMagicInfo.proto\x1a\x16BattleTargetList.pr\
-    oto\x1a\x11GNCELENEBBH.proto\x1a\x11JOBHBFDMEBC.proto\x1a\x11KNIAOHMCODK\
-    .proto\x1a\x11KPGIDMEFEPC.proto\x1a\x16SceneMonsterWave.proto\"\xf3\x07\
-    \n\x0fSceneBattleInfo\x12:\n\x0cbattle_event\x18\xa8\x05\x20\x03(\x0b2\
-    \x16.BattleEventBattleInfoR\x0bbattleEvent\x12\x19\n\x08stage_id\x18\x0f\
-    \x20\x01(\rR\x07stageId\x12C\n\x0bIGAEJDGJFAP\x18\x18\x20\x01(\x0b2!.Bat\
-    tleGridFightSpecialBattleInfoR\x0bIGAEJDGJFAP\x12M\n\x17battle_rogue_mag\
-    ic_info\x18\xa0\x0f\x20\x01(\x0b2\x15.BattleRogueMagicInfoR\x14battleRog\
-    ueMagicInfo\x12!\n\x0crounds_limit\x18\x03\x20\x01(\rR\x0broundsLimit\
-    \x12(\n\tbuff_list\x18\x0b\x20\x03(\x0b2\x0b.BattleBuffR\x08buffList\x12\
-    \x20\n\x0bDLILJCCEBLN\x18\x08\x20\x01(\x08R\x0bDLILJCCEBLN\x12.\n\x13mon\
-    ster_wave_length\x18\x04\x20\x01(\rR\x11monsterWaveLength\x12.\n\x0bEOCI\
-    AHOJAKN\x18w\x20\x01(\x0b2\x0c.JOBHBFDMEBCR\x0bEOCIAHOJAKN\x12U\n\x12bat\
-    tle_target_info\x18\x9b\x01\x20\x03(\x0b2&.SceneBattleInfo.BattleTargetI\
-    nfoEntryR\x10battleTargetInfo\x12/\n\x0bGDGPDLIJMIN\x18\xc4\t\x20\x01(\
-    \x0b2\x0c.GNCELENEBBHR\x0bGDGPDLIJMIN\x12\x1b\n\tbattle_id\x18\n\x20\x01\
-    (\rR\x08battleId\x12;\n\x12battle_avatar_list\x18\x0c\x20\x03(\x0b2\r.Ba\
-    ttleAvatarR\x10battleAvatarList\x12*\n\x11logic_random_seed\x18\x0e\x20\
-    \x01(\rR\x0flogicRandomSeed\x12=\n\x11monster_wave_list\x18\x02\x20\x03(\
-    \x0b2\x11.SceneMonsterWaveR\x0fmonsterWaveList\x12/\n\x0bCODANMDMKFA\x18\
-    \x88\x05\x20\x01(\x0b2\x0c.KPGIDMEFEPCR\x0bCODANMDMKFA\x12/\n\x0bEPKAJPD\
-    MKDE\x18\x88\x01\x20\x01(\x0b2\x0c.KNIAOHMCODKR\x0bEPKAJPDMKDE\x12\x1f\n\
-    \x0bworld_level\x18\t\x20\x01(\rR\nworldLevel\x1aV\n\x15BattleTargetInfo\
-    Entry\x12\x10\n\x03key\x18\x01\x20\x01(\rR\x03key\x12'\n\x05value\x18\
-    \x02\x20\x01(\x0b2\x11.BattleTargetListR\x05value:\x028\x01b\x06proto3\
+    oto\x1a\x11CAKGOGMEJOF.proto\x1a\x11KCGPMNNKIKN.proto\x1a\x11MLDEDCCOHBF\
+    .proto\x1a\x11OGEOMDJIAGI.proto\x1a\x16SceneMonsterWave.proto\"\xf5\x07\
+    \n\x0fSceneBattleInfo\x12/\n\x0bIAJDCJIAHFP\x18\xfc\x03\x20\x01(\x0b2\
+    \x0c.CAKGOGMEJOFR\x0bIAJDCJIAHFP\x12*\n\x11logic_random_seed\x18\x08\x20\
+    \x01(\rR\x0flogicRandomSeed\x12\x19\n\x08stage_id\x18\x02\x20\x01(\rR\
+    \x07stageId\x12=\n\x11monster_wave_list\x18\x04\x20\x03(\x0b2\x11.SceneM\
+    onsterWaveR\x0fmonsterWaveList\x12:\n\x0cbattle_event\x18\xea\x01\x20\
+    \x03(\x0b2\x16.BattleEventBattleInfoR\x0bbattleEvent\x12.\n\x13monster_w\
+    ave_length\x18\x0f\x20\x01(\rR\x11monsterWaveLength\x12!\n\x0crounds_lim\
+    it\x18\x0e\x20\x01(\rR\x0broundsLimit\x12/\n\x0bOBOFOCPCBPK\x18\xe7\n\
+    \x20\x01(\x0b2\x0c.MLDEDCCOHBFR\x0bOBOFOCPCBPK\x12(\n\tbuff_list\x18\r\
+    \x20\x03(\x0b2\x0b.BattleBuffR\x08buffList\x12D\n\x0bFMCJPPILPLL\x18\xf6\
+    \x0c\x20\x01(\x0b2!.BattleGridFightSpecialBattleInfoR\x0bFMCJPPILPLL\x12\
+    /\n\x0bAFCMOOFGBPK\x18\xa7\x0e\x20\x01(\x0b2\x0c.OGEOMDJIAGIR\x0bAFCMOOF\
+    GBPK\x12\x20\n\x0bEODHMOBOENG\x18\x03\x20\x01(\x08R\x0bEODHMOBOENG\x12\
+    \x1f\n\x0bworld_level\x18\x06\x20\x01(\rR\nworldLevel\x12U\n\x12battle_t\
+    arget_info\x18\xf9\x05\x20\x03(\x0b2&.SceneBattleInfo.BattleTargetInfoEn\
+    tryR\x10battleTargetInfo\x12M\n\x17battle_rogue_magic_info\x18\xae\x04\
+    \x20\x01(\x0b2\x15.BattleRogueMagicInfoR\x14battleRogueMagicInfo\x12\x1b\
+    \n\tbattle_id\x18\x01\x20\x01(\rR\x08battleId\x12;\n\x12battle_avatar_li\
+    st\x18\t\x20\x03(\x0b2\r.BattleAvatarR\x10battleAvatarList\x12/\n\x0bGDA\
+    GHIJADOD\x18\xc6\x06\x20\x01(\x0b2\x0c.KCGPMNNKIKNR\x0bGDAGHIJADOD\x1aV\
+    \n\x15BattleTargetInfoEntry\x12\x10\n\x03key\x18\x01\x20\x01(\rR\x03key\
+    \x12'\n\x05value\x18\x02\x20\x01(\x0b2\x11.BattleTargetListR\x05value:\
+    \x028\x01b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -516,10 +517,10 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
             deps.push(super::BattleGridFightSpecialBattleInfo::file_descriptor().clone());
             deps.push(super::BattleRogueMagicInfo::file_descriptor().clone());
             deps.push(super::BattleTargetList::file_descriptor().clone());
-            deps.push(super::GNCELENEBBH::file_descriptor().clone());
-            deps.push(super::JOBHBFDMEBC::file_descriptor().clone());
-            deps.push(super::KNIAOHMCODK::file_descriptor().clone());
-            deps.push(super::KPGIDMEFEPC::file_descriptor().clone());
+            deps.push(super::CAKGOGMEJOF::file_descriptor().clone());
+            deps.push(super::KCGPMNNKIKN::file_descriptor().clone());
+            deps.push(super::MLDEDCCOHBF::file_descriptor().clone());
+            deps.push(super::OGEOMDJIAGI::file_descriptor().clone());
             deps.push(super::SceneMonsterWave::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(SceneBattleInfo::generated_message_descriptor_data());

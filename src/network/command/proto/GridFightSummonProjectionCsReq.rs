@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightSummonProjectionCsReq {
     // message fields
-    // @@protoc_insertion_point(field:GridFightSummonProjectionCsReq.CGJCFKKBPAE)
-    pub CGJCFKKBPAE: u32,
+    // @@protoc_insertion_point(field:GridFightSummonProjectionCsReq.JCMFPHMFAON)
+    pub JCMFPHMFAON: u32,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightSummonProjectionCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl GridFightSummonProjectionCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "CGJCFKKBPAE",
-            |m: &GridFightSummonProjectionCsReq| { &m.CGJCFKKBPAE },
-            |m: &mut GridFightSummonProjectionCsReq| { &mut m.CGJCFKKBPAE },
+            "JCMFPHMFAON",
+            |m: &GridFightSummonProjectionCsReq| { &m.JCMFPHMFAON },
+            |m: &mut GridFightSummonProjectionCsReq| { &mut m.JCMFPHMFAON },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightSummonProjectionCsReq>(
             "GridFightSummonProjectionCsReq",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for GridFightSummonProjectionCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                112 => {
-                    self.CGJCFKKBPAE = is.read_uint32()?;
+                40 => {
+                    self.JCMFPHMFAON = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,8 +87,8 @@ impl ::protobuf::Message for GridFightSummonProjectionCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.CGJCFKKBPAE != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.CGJCFKKBPAE);
+        if self.JCMFPHMFAON != 0 {
+            my_size += ::protobuf::rt::uint32_size(5, self.JCMFPHMFAON);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -96,8 +96,8 @@ impl ::protobuf::Message for GridFightSummonProjectionCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.CGJCFKKBPAE != 0 {
-            os.write_uint32(14, self.CGJCFKKBPAE)?;
+        if self.JCMFPHMFAON != 0 {
+            os.write_uint32(5, self.JCMFPHMFAON)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -116,13 +116,13 @@ impl ::protobuf::Message for GridFightSummonProjectionCsReq {
     }
 
     fn clear(&mut self) {
-        self.CGJCFKKBPAE = 0;
+        self.JCMFPHMFAON = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightSummonProjectionCsReq {
         static instance: GridFightSummonProjectionCsReq = GridFightSummonProjectionCsReq {
-            CGJCFKKBPAE: 0,
+            JCMFPHMFAON: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -148,7 +148,7 @@ impl ::protobuf::reflect::ProtobufValue for GridFightSummonProjectionCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n$GridFightSummonProjectionCsReq.proto\"B\n\x1eGridFightSummonProjectio\
-    nCsReq\x12\x20\n\x0bCGJCFKKBPAE\x18\x0e\x20\x01(\rR\x0bCGJCFKKBPAEb\x06p\
+    nCsReq\x12\x20\n\x0bJCMFPHMFAON\x18\x05\x20\x01(\rR\x0bJCMFPHMFAONb\x06p\
     roto3\
 ";
 

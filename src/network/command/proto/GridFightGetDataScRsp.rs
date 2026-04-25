@@ -30,10 +30,10 @@ pub struct GridFightGetDataScRsp {
     // message fields
     // @@protoc_insertion_point(field:GridFightGetDataScRsp.fight_current_info)
     pub fight_current_info: ::protobuf::MessageField<super::GridFightCurrentInfo::GridFightCurrentInfo>,
-    // @@protoc_insertion_point(field:GridFightGetDataScRsp.retcode)
-    pub retcode: u32,
     // @@protoc_insertion_point(field:GridFightGetDataScRsp.rogue_get_info)
     pub rogue_get_info: ::protobuf::MessageField<super::GridFightSystemInfo::GridFightSystemInfo>,
+    // @@protoc_insertion_point(field:GridFightGetDataScRsp.retcode)
+    pub retcode: u32,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightGetDataScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -58,15 +58,15 @@ impl GridFightGetDataScRsp {
             |m: &GridFightGetDataScRsp| { &m.fight_current_info },
             |m: &mut GridFightGetDataScRsp| { &mut m.fight_current_info },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "retcode",
-            |m: &GridFightGetDataScRsp| { &m.retcode },
-            |m: &mut GridFightGetDataScRsp| { &mut m.retcode },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GridFightSystemInfo::GridFightSystemInfo>(
             "rogue_get_info",
             |m: &GridFightGetDataScRsp| { &m.rogue_get_info },
             |m: &mut GridFightGetDataScRsp| { &mut m.rogue_get_info },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "retcode",
+            |m: &GridFightGetDataScRsp| { &m.retcode },
+            |m: &mut GridFightGetDataScRsp| { &mut m.retcode },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightGetDataScRsp>(
             "GridFightGetDataScRsp",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for GridFightGetDataScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                74 => {
+                106 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.fight_current_info)?;
-                },
-                120 => {
-                    self.retcode = is.read_uint32()?;
                 },
                 34 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.rogue_get_info)?;
+                },
+                16 => {
+                    self.retcode = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -111,12 +111,12 @@ impl ::protobuf::Message for GridFightGetDataScRsp {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(15, self.retcode);
-        }
         if let Some(v) = self.rogue_get_info.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(2, self.retcode);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -125,13 +125,13 @@ impl ::protobuf::Message for GridFightGetDataScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if let Some(v) = self.fight_current_info.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
-        }
-        if self.retcode != 0 {
-            os.write_uint32(15, self.retcode)?;
+            ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
         }
         if let Some(v) = self.rogue_get_info.as_ref() {
             ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
+        }
+        if self.retcode != 0 {
+            os.write_uint32(2, self.retcode)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -151,16 +151,16 @@ impl ::protobuf::Message for GridFightGetDataScRsp {
 
     fn clear(&mut self) {
         self.fight_current_info.clear();
-        self.retcode = 0;
         self.rogue_get_info.clear();
+        self.retcode = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightGetDataScRsp {
         static instance: GridFightGetDataScRsp = GridFightGetDataScRsp {
             fight_current_info: ::protobuf::MessageField::none(),
-            retcode: 0,
             rogue_get_info: ::protobuf::MessageField::none(),
+            retcode: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -187,10 +187,10 @@ impl ::protobuf::reflect::ProtobufValue for GridFightGetDataScRsp {
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1bGridFightGetDataScRsp.proto\x1a\x1aGridFightCurrentInfo.proto\x1a\
     \x19GridFightSystemInfo.proto\"\xb2\x01\n\x15GridFightGetDataScRsp\x12C\
-    \n\x12fight_current_info\x18\t\x20\x01(\x0b2\x15.GridFightCurrentInfoR\
-    \x10fightCurrentInfo\x12\x18\n\x07retcode\x18\x0f\x20\x01(\rR\x07retcode\
-    \x12:\n\x0erogue_get_info\x18\x04\x20\x01(\x0b2\x14.GridFightSystemInfoR\
-    \x0crogueGetInfob\x06proto3\
+    \n\x12fight_current_info\x18\r\x20\x01(\x0b2\x15.GridFightCurrentInfoR\
+    \x10fightCurrentInfo\x12:\n\x0erogue_get_info\x18\x04\x20\x01(\x0b2\x14.\
+    GridFightSystemInfoR\x0crogueGetInfo\x12\x18\n\x07retcode\x18\x02\x20\
+    \x01(\rR\x07retcodeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -28,14 +28,14 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct TrainPartyBuildDiyCsReq {
     // message fields
-    // @@protoc_insertion_point(field:TrainPartyBuildDiyCsReq.BIIPDKBLBFO)
-    pub BIIPDKBLBFO: bool,
+    // @@protoc_insertion_point(field:TrainPartyBuildDiyCsReq.dice_slot_id)
+    pub dice_slot_id: u32,
     // @@protoc_insertion_point(field:TrainPartyBuildDiyCsReq.area_id)
     pub area_id: u32,
     // @@protoc_insertion_point(field:TrainPartyBuildDiyCsReq.diy_dynamic_id)
     pub diy_dynamic_id: u32,
-    // @@protoc_insertion_point(field:TrainPartyBuildDiyCsReq.dice_slot_id)
-    pub dice_slot_id: u32,
+    // @@protoc_insertion_point(field:TrainPartyBuildDiyCsReq.AFGNLDIMBGB)
+    pub AFGNLDIMBGB: bool,
     // special fields
     // @@protoc_insertion_point(special_field:TrainPartyBuildDiyCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -56,9 +56,9 @@ impl TrainPartyBuildDiyCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(4);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BIIPDKBLBFO",
-            |m: &TrainPartyBuildDiyCsReq| { &m.BIIPDKBLBFO },
-            |m: &mut TrainPartyBuildDiyCsReq| { &mut m.BIIPDKBLBFO },
+            "dice_slot_id",
+            |m: &TrainPartyBuildDiyCsReq| { &m.dice_slot_id },
+            |m: &mut TrainPartyBuildDiyCsReq| { &mut m.dice_slot_id },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "area_id",
@@ -71,9 +71,9 @@ impl TrainPartyBuildDiyCsReq {
             |m: &mut TrainPartyBuildDiyCsReq| { &mut m.diy_dynamic_id },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "dice_slot_id",
-            |m: &TrainPartyBuildDiyCsReq| { &m.dice_slot_id },
-            |m: &mut TrainPartyBuildDiyCsReq| { &mut m.dice_slot_id },
+            "AFGNLDIMBGB",
+            |m: &TrainPartyBuildDiyCsReq| { &m.AFGNLDIMBGB },
+            |m: &mut TrainPartyBuildDiyCsReq| { &mut m.AFGNLDIMBGB },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<TrainPartyBuildDiyCsReq>(
             "TrainPartyBuildDiyCsReq",
@@ -93,17 +93,17 @@ impl ::protobuf::Message for TrainPartyBuildDiyCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                40 => {
-                    self.BIIPDKBLBFO = is.read_bool()?;
-                },
                 16 => {
+                    self.dice_slot_id = is.read_uint32()?;
+                },
+                80 => {
                     self.area_id = is.read_uint32()?;
                 },
-                96 => {
+                88 => {
                     self.diy_dynamic_id = is.read_uint32()?;
                 },
-                32 => {
-                    self.dice_slot_id = is.read_uint32()?;
+                96 => {
+                    self.AFGNLDIMBGB = is.read_bool()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -117,17 +117,17 @@ impl ::protobuf::Message for TrainPartyBuildDiyCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.BIIPDKBLBFO != false {
-            my_size += 1 + 1;
+        if self.dice_slot_id != 0 {
+            my_size += ::protobuf::rt::uint32_size(2, self.dice_slot_id);
         }
         if self.area_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.area_id);
+            my_size += ::protobuf::rt::uint32_size(10, self.area_id);
         }
         if self.diy_dynamic_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.diy_dynamic_id);
+            my_size += ::protobuf::rt::uint32_size(11, self.diy_dynamic_id);
         }
-        if self.dice_slot_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.dice_slot_id);
+        if self.AFGNLDIMBGB != false {
+            my_size += 1 + 1;
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -135,17 +135,17 @@ impl ::protobuf::Message for TrainPartyBuildDiyCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.BIIPDKBLBFO != false {
-            os.write_bool(5, self.BIIPDKBLBFO)?;
+        if self.dice_slot_id != 0 {
+            os.write_uint32(2, self.dice_slot_id)?;
         }
         if self.area_id != 0 {
-            os.write_uint32(2, self.area_id)?;
+            os.write_uint32(10, self.area_id)?;
         }
         if self.diy_dynamic_id != 0 {
-            os.write_uint32(12, self.diy_dynamic_id)?;
+            os.write_uint32(11, self.diy_dynamic_id)?;
         }
-        if self.dice_slot_id != 0 {
-            os.write_uint32(4, self.dice_slot_id)?;
+        if self.AFGNLDIMBGB != false {
+            os.write_bool(12, self.AFGNLDIMBGB)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -164,19 +164,19 @@ impl ::protobuf::Message for TrainPartyBuildDiyCsReq {
     }
 
     fn clear(&mut self) {
-        self.BIIPDKBLBFO = false;
+        self.dice_slot_id = 0;
         self.area_id = 0;
         self.diy_dynamic_id = 0;
-        self.dice_slot_id = 0;
+        self.AFGNLDIMBGB = false;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static TrainPartyBuildDiyCsReq {
         static instance: TrainPartyBuildDiyCsReq = TrainPartyBuildDiyCsReq {
-            BIIPDKBLBFO: false,
+            dice_slot_id: 0,
             area_id: 0,
             diy_dynamic_id: 0,
-            dice_slot_id: 0,
+            AFGNLDIMBGB: false,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -202,10 +202,10 @@ impl ::protobuf::reflect::ProtobufValue for TrainPartyBuildDiyCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1dTrainPartyBuildDiyCsReq.proto\"\x9c\x01\n\x17TrainPartyBuildDiyCsR\
-    eq\x12\x20\n\x0bBIIPDKBLBFO\x18\x05\x20\x01(\x08R\x0bBIIPDKBLBFO\x12\x17\
-    \n\x07area_id\x18\x02\x20\x01(\rR\x06areaId\x12$\n\x0ediy_dynamic_id\x18\
-    \x0c\x20\x01(\rR\x0cdiyDynamicId\x12\x20\n\x0cdice_slot_id\x18\x04\x20\
-    \x01(\rR\ndiceSlotIdb\x06proto3\
+    eq\x12\x20\n\x0cdice_slot_id\x18\x02\x20\x01(\rR\ndiceSlotId\x12\x17\n\
+    \x07area_id\x18\n\x20\x01(\rR\x06areaId\x12$\n\x0ediy_dynamic_id\x18\x0b\
+    \x20\x01(\rR\x0cdiyDynamicId\x12\x20\n\x0bAFGNLDIMBGB\x18\x0c\x20\x01(\
+    \x08R\x0bAFGNLDIMBGBb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

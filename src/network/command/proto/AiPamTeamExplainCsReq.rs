@@ -28,16 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct AiPamTeamExplainCsReq {
     // message fields
-    // @@protoc_insertion_point(field:AiPamTeamExplainCsReq.HCJPMKJFDEB)
-    pub HCJPMKJFDEB: ::std::string::String,
     // @@protoc_insertion_point(field:AiPamTeamExplainCsReq.message_datas)
     pub message_datas: ::protobuf::MessageField<super::MessageChatData::MessageChatData>,
-    // @@protoc_insertion_point(field:AiPamTeamExplainCsReq.BGCALDMPLLL)
-    pub BGCALDMPLLL: bool,
-    // @@protoc_insertion_point(field:AiPamTeamExplainCsReq.CLLGHJCKMLA)
-    pub CLLGHJCKMLA: bool,
-    // @@protoc_insertion_point(field:AiPamTeamExplainCsReq.MGGGINNHDNH)
-    pub MGGGINNHDNH: bool,
+    // @@protoc_insertion_point(field:AiPamTeamExplainCsReq.ELBDJNLMEFN)
+    pub ELBDJNLMEFN: bool,
+    // @@protoc_insertion_point(field:AiPamTeamExplainCsReq.BHFBIGFEDHL)
+    pub BHFBIGFEDHL: bool,
+    // @@protoc_insertion_point(field:AiPamTeamExplainCsReq.NMLIMJJHOPK)
+    pub NMLIMJJHOPK: ::std::string::String,
+    // @@protoc_insertion_point(field:AiPamTeamExplainCsReq.LLLCJNJHEPE)
+    pub LLLCJNJHEPE: bool,
     // special fields
     // @@protoc_insertion_point(special_field:AiPamTeamExplainCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,30 +57,30 @@ impl AiPamTeamExplainCsReq {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "HCJPMKJFDEB",
-            |m: &AiPamTeamExplainCsReq| { &m.HCJPMKJFDEB },
-            |m: &mut AiPamTeamExplainCsReq| { &mut m.HCJPMKJFDEB },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::MessageChatData::MessageChatData>(
             "message_datas",
             |m: &AiPamTeamExplainCsReq| { &m.message_datas },
             |m: &mut AiPamTeamExplainCsReq| { &mut m.message_datas },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BGCALDMPLLL",
-            |m: &AiPamTeamExplainCsReq| { &m.BGCALDMPLLL },
-            |m: &mut AiPamTeamExplainCsReq| { &mut m.BGCALDMPLLL },
+            "ELBDJNLMEFN",
+            |m: &AiPamTeamExplainCsReq| { &m.ELBDJNLMEFN },
+            |m: &mut AiPamTeamExplainCsReq| { &mut m.ELBDJNLMEFN },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "CLLGHJCKMLA",
-            |m: &AiPamTeamExplainCsReq| { &m.CLLGHJCKMLA },
-            |m: &mut AiPamTeamExplainCsReq| { &mut m.CLLGHJCKMLA },
+            "BHFBIGFEDHL",
+            |m: &AiPamTeamExplainCsReq| { &m.BHFBIGFEDHL },
+            |m: &mut AiPamTeamExplainCsReq| { &mut m.BHFBIGFEDHL },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MGGGINNHDNH",
-            |m: &AiPamTeamExplainCsReq| { &m.MGGGINNHDNH },
-            |m: &mut AiPamTeamExplainCsReq| { &mut m.MGGGINNHDNH },
+            "NMLIMJJHOPK",
+            |m: &AiPamTeamExplainCsReq| { &m.NMLIMJJHOPK },
+            |m: &mut AiPamTeamExplainCsReq| { &mut m.NMLIMJJHOPK },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "LLLCJNJHEPE",
+            |m: &AiPamTeamExplainCsReq| { &m.LLLCJNJHEPE },
+            |m: &mut AiPamTeamExplainCsReq| { &mut m.LLLCJNJHEPE },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<AiPamTeamExplainCsReq>(
             "AiPamTeamExplainCsReq",
@@ -100,20 +100,20 @@ impl ::protobuf::Message for AiPamTeamExplainCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                90 => {
-                    self.HCJPMKJFDEB = is.read_string()?;
-                },
-                106 => {
+                42 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.message_datas)?;
                 },
-                8 => {
-                    self.BGCALDMPLLL = is.read_bool()?;
+                72 => {
+                    self.ELBDJNLMEFN = is.read_bool()?;
                 },
-                80 => {
-                    self.CLLGHJCKMLA = is.read_bool()?;
+                32 => {
+                    self.BHFBIGFEDHL = is.read_bool()?;
                 },
-                40 => {
-                    self.MGGGINNHDNH = is.read_bool()?;
+                90 => {
+                    self.NMLIMJJHOPK = is.read_string()?;
+                },
+                104 => {
+                    self.LLLCJNJHEPE = is.read_bool()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -127,20 +127,20 @@ impl ::protobuf::Message for AiPamTeamExplainCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if !self.HCJPMKJFDEB.is_empty() {
-            my_size += ::protobuf::rt::string_size(11, &self.HCJPMKJFDEB);
-        }
         if let Some(v) = self.message_datas.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.BGCALDMPLLL != false {
+        if self.ELBDJNLMEFN != false {
             my_size += 1 + 1;
         }
-        if self.CLLGHJCKMLA != false {
+        if self.BHFBIGFEDHL != false {
             my_size += 1 + 1;
         }
-        if self.MGGGINNHDNH != false {
+        if !self.NMLIMJJHOPK.is_empty() {
+            my_size += ::protobuf::rt::string_size(11, &self.NMLIMJJHOPK);
+        }
+        if self.LLLCJNJHEPE != false {
             my_size += 1 + 1;
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
@@ -149,20 +149,20 @@ impl ::protobuf::Message for AiPamTeamExplainCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if !self.HCJPMKJFDEB.is_empty() {
-            os.write_string(11, &self.HCJPMKJFDEB)?;
-        }
         if let Some(v) = self.message_datas.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
         }
-        if self.BGCALDMPLLL != false {
-            os.write_bool(1, self.BGCALDMPLLL)?;
+        if self.ELBDJNLMEFN != false {
+            os.write_bool(9, self.ELBDJNLMEFN)?;
         }
-        if self.CLLGHJCKMLA != false {
-            os.write_bool(10, self.CLLGHJCKMLA)?;
+        if self.BHFBIGFEDHL != false {
+            os.write_bool(4, self.BHFBIGFEDHL)?;
         }
-        if self.MGGGINNHDNH != false {
-            os.write_bool(5, self.MGGGINNHDNH)?;
+        if !self.NMLIMJJHOPK.is_empty() {
+            os.write_string(11, &self.NMLIMJJHOPK)?;
+        }
+        if self.LLLCJNJHEPE != false {
+            os.write_bool(13, self.LLLCJNJHEPE)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -181,21 +181,21 @@ impl ::protobuf::Message for AiPamTeamExplainCsReq {
     }
 
     fn clear(&mut self) {
-        self.HCJPMKJFDEB.clear();
         self.message_datas.clear();
-        self.BGCALDMPLLL = false;
-        self.CLLGHJCKMLA = false;
-        self.MGGGINNHDNH = false;
+        self.ELBDJNLMEFN = false;
+        self.BHFBIGFEDHL = false;
+        self.NMLIMJJHOPK.clear();
+        self.LLLCJNJHEPE = false;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static AiPamTeamExplainCsReq {
         static instance: AiPamTeamExplainCsReq = AiPamTeamExplainCsReq {
-            HCJPMKJFDEB: ::std::string::String::new(),
             message_datas: ::protobuf::MessageField::none(),
-            BGCALDMPLLL: false,
-            CLLGHJCKMLA: false,
-            MGGGINNHDNH: false,
+            ELBDJNLMEFN: false,
+            BHFBIGFEDHL: false,
+            NMLIMJJHOPK: ::std::string::String::new(),
+            LLLCJNJHEPE: false,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -221,12 +221,12 @@ impl ::protobuf::reflect::ProtobufValue for AiPamTeamExplainCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1bAiPamTeamExplainCsReq.proto\x1a\x15MessageChatData.proto\"\xd6\x01\
-    \n\x15AiPamTeamExplainCsReq\x12\x20\n\x0bHCJPMKJFDEB\x18\x0b\x20\x01(\tR\
-    \x0bHCJPMKJFDEB\x125\n\rmessage_datas\x18\r\x20\x01(\x0b2\x10.MessageCha\
-    tDataR\x0cmessageDatas\x12\x20\n\x0bBGCALDMPLLL\x18\x01\x20\x01(\x08R\
-    \x0bBGCALDMPLLL\x12\x20\n\x0bCLLGHJCKMLA\x18\n\x20\x01(\x08R\x0bCLLGHJCK\
-    MLA\x12\x20\n\x0bMGGGINNHDNH\x18\x05\x20\x01(\x08R\x0bMGGGINNHDNHb\x06pr\
-    oto3\
+    \n\x15AiPamTeamExplainCsReq\x125\n\rmessage_datas\x18\x05\x20\x01(\x0b2\
+    \x10.MessageChatDataR\x0cmessageDatas\x12\x20\n\x0bELBDJNLMEFN\x18\t\x20\
+    \x01(\x08R\x0bELBDJNLMEFN\x12\x20\n\x0bBHFBIGFEDHL\x18\x04\x20\x01(\x08R\
+    \x0bBHFBIGFEDHL\x12\x20\n\x0bNMLIMJJHOPK\x18\x0b\x20\x01(\tR\x0bNMLIMJJH\
+    OPK\x12\x20\n\x0bLLLCJNJHEPE\x18\r\x20\x01(\x08R\x0bLLLCJNJHEPEb\x06prot\
+    o3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

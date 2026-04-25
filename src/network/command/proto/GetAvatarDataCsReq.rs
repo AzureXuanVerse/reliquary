@@ -79,13 +79,13 @@ impl ::protobuf::Message for GetAvatarDataCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                122 => {
+                18 => {
                     is.read_repeated_packed_uint32_into(&mut self.base_avatar_id_list)?;
                 },
-                120 => {
+                16 => {
                     self.base_avatar_id_list.push(is.read_uint32()?);
                 },
-                40 => {
+                24 => {
                     self.is_get_all = is.read_bool()?;
                 },
                 tag => {
@@ -100,7 +100,7 @@ impl ::protobuf::Message for GetAvatarDataCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        my_size += ::protobuf::rt::vec_packed_uint32_size(15, &self.base_avatar_id_list);
+        my_size += ::protobuf::rt::vec_packed_uint32_size(2, &self.base_avatar_id_list);
         if self.is_get_all != false {
             my_size += 1 + 1;
         }
@@ -110,9 +110,9 @@ impl ::protobuf::Message for GetAvatarDataCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        os.write_repeated_packed_uint32(15, &self.base_avatar_id_list)?;
+        os.write_repeated_packed_uint32(2, &self.base_avatar_id_list)?;
         if self.is_get_all != false {
-            os.write_bool(5, self.is_get_all)?;
+            os.write_bool(3, self.is_get_all)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -165,8 +165,8 @@ impl ::protobuf::reflect::ProtobufValue for GetAvatarDataCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x18GetAvatarDataCsReq.proto\"a\n\x12GetAvatarDataCsReq\x12-\n\x13base\
-    _avatar_id_list\x18\x0f\x20\x03(\rR\x10baseAvatarIdList\x12\x1c\n\nis_ge\
-    t_all\x18\x05\x20\x01(\x08R\x08isGetAllb\x06proto3\
+    _avatar_id_list\x18\x02\x20\x03(\rR\x10baseAvatarIdList\x12\x1c\n\nis_ge\
+    t_all\x18\x03\x20\x01(\x08R\x08isGetAllb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

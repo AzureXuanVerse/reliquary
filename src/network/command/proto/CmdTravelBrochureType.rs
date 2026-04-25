@@ -27,48 +27,48 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdTravelBrochureType)
 pub enum CmdTravelBrochureType {
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_ECGOHIKEOPF)
-    CmdTravelBrochureType_ECGOHIKEOPF = 0,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_NLGGIPCKLFI)
-    CmdTravelBrochureType_NLGGIPCKLFI = 6488,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_JPJIOFPBEHB)
-    CmdTravelBrochureType_JPJIOFPBEHB = 6481,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_JEEICJOOHCJ)
-    CmdTravelBrochureType_JEEICJOOHCJ = 6469,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_OMBCOFKJBPJ)
-    CmdTravelBrochureType_OMBCOFKJBPJ = 6435,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_ALACOMJNDPM)
-    CmdTravelBrochureType_ALACOMJNDPM = 6456,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_PMLOHDDMJGJ)
-    CmdTravelBrochureType_PMLOHDDMJGJ = 6457,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_IEMCHLBODJM)
-    CmdTravelBrochureType_IEMCHLBODJM = 6448,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_AHLIODCBHNA)
-    CmdTravelBrochureType_AHLIODCBHNA = 6483,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_OAMBBKMMEIM)
-    CmdTravelBrochureType_OAMBBKMMEIM = 6446,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_EEJBKFOFJFC)
-    CmdTravelBrochureType_EEJBKFOFJFC = 6424,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_GODKAOKHGMO)
-    CmdTravelBrochureType_GODKAOKHGMO = 6409,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_ILBICOEPEBA)
-    CmdTravelBrochureType_ILBICOEPEBA = 6423,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_DJOPFBABKCI)
-    CmdTravelBrochureType_DJOPFBABKCI = 6486,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_NKDHDLFOIDM)
-    CmdTravelBrochureType_NKDHDLFOIDM = 6440,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_AHCJPLEEMNO)
-    CmdTravelBrochureType_AHCJPLEEMNO = 6484,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_JKMBIFFHCNC)
-    CmdTravelBrochureType_JKMBIFFHCNC = 6462,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_HIFIPHCIKJP)
-    CmdTravelBrochureType_HIFIPHCIKJP = 6403,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_OMJMDKKIFKL)
-    CmdTravelBrochureType_OMJMDKKIFKL = 6434,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_HGODJEPGBCL)
-    CmdTravelBrochureType_HGODJEPGBCL = 6500,
-    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureType_LEIJAEGDOLK)
-    CmdTravelBrochureType_LEIJAEGDOLK = 6413,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.KHHBBCAJHHN_KBCMIMMJFDO)
+    KHHBBCAJHHN_KBCMIMMJFDO = 0,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureGetDataScRsp)
+    CmdTravelBrochureGetDataScRsp = 6410,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureApplyPasterListScRsp)
+    CmdTravelBrochureApplyPasterListScRsp = 6458,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureGetDataCsReq)
+    CmdTravelBrochureGetDataCsReq = 6491,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdKEJIIOGIHJE)
+    CmdKEJIIOGIHJE = 6432,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdIHGIOEHHFAO)
+    CmdIHGIOEHHFAO = 6438,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochurePageResetCsReq)
+    CmdTravelBrochurePageResetCsReq = 6433,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureSelectMessageCsReq)
+    CmdTravelBrochureSelectMessageCsReq = 6414,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdDPPJIOPGKJI)
+    CmdDPPJIOPGKJI = 6401,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdCKKAHFIDJLM)
+    CmdCKKAHFIDJLM = 6498,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureSelectMessageScRsp)
+    CmdTravelBrochureSelectMessageScRsp = 6418,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureUpdatePasterPosCsReq)
+    CmdTravelBrochureUpdatePasterPosCsReq = 6439,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.KHHBBCAJHHN_FDKELLDPDMB)
+    KHHBBCAJHHN_FDKELLDPDMB = 6409,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureApplyPasterListCsReq)
+    CmdTravelBrochureApplyPasterListCsReq = 6407,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochurePageResetScRsp)
+    CmdTravelBrochurePageResetScRsp = 6461,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdKGJCEOFKEHA)
+    CmdKGJCEOFKEHA = 6426,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureSetCustomValueCsReq)
+    CmdTravelBrochureSetCustomValueCsReq = 6404,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureRemovePasterCsReq)
+    CmdTravelBrochureRemovePasterCsReq = 6463,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdAPHOLANKEPN)
+    CmdAPHOLANKEPN = 6474,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochureSetPageDescStatusCsReq)
+    CmdTravelBrochureSetPageDescStatusCsReq = 6472,
+    // @@protoc_insertion_point(enum_value:CmdTravelBrochureType.CmdTravelBrochurePageUnlockScNotify)
+    CmdTravelBrochurePageUnlockScNotify = 6494,
 }
 
 impl ::protobuf::Enum for CmdTravelBrochureType {
@@ -80,80 +80,80 @@ impl ::protobuf::Enum for CmdTravelBrochureType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdTravelBrochureType> {
         match value {
-            0 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_ECGOHIKEOPF),
-            6488 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_NLGGIPCKLFI),
-            6481 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_JPJIOFPBEHB),
-            6469 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_JEEICJOOHCJ),
-            6435 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_OMBCOFKJBPJ),
-            6456 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_ALACOMJNDPM),
-            6457 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_PMLOHDDMJGJ),
-            6448 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_IEMCHLBODJM),
-            6483 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_AHLIODCBHNA),
-            6446 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_OAMBBKMMEIM),
-            6424 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_EEJBKFOFJFC),
-            6409 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_GODKAOKHGMO),
-            6423 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_ILBICOEPEBA),
-            6486 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_DJOPFBABKCI),
-            6440 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_NKDHDLFOIDM),
-            6484 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_AHCJPLEEMNO),
-            6462 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_JKMBIFFHCNC),
-            6403 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_HIFIPHCIKJP),
-            6434 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_OMJMDKKIFKL),
-            6500 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_HGODJEPGBCL),
-            6413 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_LEIJAEGDOLK),
+            0 => ::std::option::Option::Some(CmdTravelBrochureType::KHHBBCAJHHN_KBCMIMMJFDO),
+            6410 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureGetDataScRsp),
+            6458 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureApplyPasterListScRsp),
+            6491 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureGetDataCsReq),
+            6432 => ::std::option::Option::Some(CmdTravelBrochureType::CmdKEJIIOGIHJE),
+            6438 => ::std::option::Option::Some(CmdTravelBrochureType::CmdIHGIOEHHFAO),
+            6433 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochurePageResetCsReq),
+            6414 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureSelectMessageCsReq),
+            6401 => ::std::option::Option::Some(CmdTravelBrochureType::CmdDPPJIOPGKJI),
+            6498 => ::std::option::Option::Some(CmdTravelBrochureType::CmdCKKAHFIDJLM),
+            6418 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureSelectMessageScRsp),
+            6439 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureUpdatePasterPosCsReq),
+            6409 => ::std::option::Option::Some(CmdTravelBrochureType::KHHBBCAJHHN_FDKELLDPDMB),
+            6407 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureApplyPasterListCsReq),
+            6461 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochurePageResetScRsp),
+            6426 => ::std::option::Option::Some(CmdTravelBrochureType::CmdKGJCEOFKEHA),
+            6404 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureSetCustomValueCsReq),
+            6463 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureRemovePasterCsReq),
+            6474 => ::std::option::Option::Some(CmdTravelBrochureType::CmdAPHOLANKEPN),
+            6472 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureSetPageDescStatusCsReq),
+            6494 => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochurePageUnlockScNotify),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdTravelBrochureType> {
         match str {
-            "CmdTravelBrochureType_ECGOHIKEOPF" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_ECGOHIKEOPF),
-            "CmdTravelBrochureType_NLGGIPCKLFI" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_NLGGIPCKLFI),
-            "CmdTravelBrochureType_JPJIOFPBEHB" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_JPJIOFPBEHB),
-            "CmdTravelBrochureType_JEEICJOOHCJ" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_JEEICJOOHCJ),
-            "CmdTravelBrochureType_OMBCOFKJBPJ" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_OMBCOFKJBPJ),
-            "CmdTravelBrochureType_ALACOMJNDPM" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_ALACOMJNDPM),
-            "CmdTravelBrochureType_PMLOHDDMJGJ" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_PMLOHDDMJGJ),
-            "CmdTravelBrochureType_IEMCHLBODJM" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_IEMCHLBODJM),
-            "CmdTravelBrochureType_AHLIODCBHNA" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_AHLIODCBHNA),
-            "CmdTravelBrochureType_OAMBBKMMEIM" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_OAMBBKMMEIM),
-            "CmdTravelBrochureType_EEJBKFOFJFC" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_EEJBKFOFJFC),
-            "CmdTravelBrochureType_GODKAOKHGMO" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_GODKAOKHGMO),
-            "CmdTravelBrochureType_ILBICOEPEBA" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_ILBICOEPEBA),
-            "CmdTravelBrochureType_DJOPFBABKCI" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_DJOPFBABKCI),
-            "CmdTravelBrochureType_NKDHDLFOIDM" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_NKDHDLFOIDM),
-            "CmdTravelBrochureType_AHCJPLEEMNO" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_AHCJPLEEMNO),
-            "CmdTravelBrochureType_JKMBIFFHCNC" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_JKMBIFFHCNC),
-            "CmdTravelBrochureType_HIFIPHCIKJP" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_HIFIPHCIKJP),
-            "CmdTravelBrochureType_OMJMDKKIFKL" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_OMJMDKKIFKL),
-            "CmdTravelBrochureType_HGODJEPGBCL" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_HGODJEPGBCL),
-            "CmdTravelBrochureType_LEIJAEGDOLK" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureType_LEIJAEGDOLK),
+            "KHHBBCAJHHN_KBCMIMMJFDO" => ::std::option::Option::Some(CmdTravelBrochureType::KHHBBCAJHHN_KBCMIMMJFDO),
+            "CmdTravelBrochureGetDataScRsp" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureGetDataScRsp),
+            "CmdTravelBrochureApplyPasterListScRsp" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureApplyPasterListScRsp),
+            "CmdTravelBrochureGetDataCsReq" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureGetDataCsReq),
+            "CmdKEJIIOGIHJE" => ::std::option::Option::Some(CmdTravelBrochureType::CmdKEJIIOGIHJE),
+            "CmdIHGIOEHHFAO" => ::std::option::Option::Some(CmdTravelBrochureType::CmdIHGIOEHHFAO),
+            "CmdTravelBrochurePageResetCsReq" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochurePageResetCsReq),
+            "CmdTravelBrochureSelectMessageCsReq" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureSelectMessageCsReq),
+            "CmdDPPJIOPGKJI" => ::std::option::Option::Some(CmdTravelBrochureType::CmdDPPJIOPGKJI),
+            "CmdCKKAHFIDJLM" => ::std::option::Option::Some(CmdTravelBrochureType::CmdCKKAHFIDJLM),
+            "CmdTravelBrochureSelectMessageScRsp" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureSelectMessageScRsp),
+            "CmdTravelBrochureUpdatePasterPosCsReq" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureUpdatePasterPosCsReq),
+            "KHHBBCAJHHN_FDKELLDPDMB" => ::std::option::Option::Some(CmdTravelBrochureType::KHHBBCAJHHN_FDKELLDPDMB),
+            "CmdTravelBrochureApplyPasterListCsReq" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureApplyPasterListCsReq),
+            "CmdTravelBrochurePageResetScRsp" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochurePageResetScRsp),
+            "CmdKGJCEOFKEHA" => ::std::option::Option::Some(CmdTravelBrochureType::CmdKGJCEOFKEHA),
+            "CmdTravelBrochureSetCustomValueCsReq" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureSetCustomValueCsReq),
+            "CmdTravelBrochureRemovePasterCsReq" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureRemovePasterCsReq),
+            "CmdAPHOLANKEPN" => ::std::option::Option::Some(CmdTravelBrochureType::CmdAPHOLANKEPN),
+            "CmdTravelBrochureSetPageDescStatusCsReq" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochureSetPageDescStatusCsReq),
+            "CmdTravelBrochurePageUnlockScNotify" => ::std::option::Option::Some(CmdTravelBrochureType::CmdTravelBrochurePageUnlockScNotify),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdTravelBrochureType] = &[
-        CmdTravelBrochureType::CmdTravelBrochureType_ECGOHIKEOPF,
-        CmdTravelBrochureType::CmdTravelBrochureType_NLGGIPCKLFI,
-        CmdTravelBrochureType::CmdTravelBrochureType_JPJIOFPBEHB,
-        CmdTravelBrochureType::CmdTravelBrochureType_JEEICJOOHCJ,
-        CmdTravelBrochureType::CmdTravelBrochureType_OMBCOFKJBPJ,
-        CmdTravelBrochureType::CmdTravelBrochureType_ALACOMJNDPM,
-        CmdTravelBrochureType::CmdTravelBrochureType_PMLOHDDMJGJ,
-        CmdTravelBrochureType::CmdTravelBrochureType_IEMCHLBODJM,
-        CmdTravelBrochureType::CmdTravelBrochureType_AHLIODCBHNA,
-        CmdTravelBrochureType::CmdTravelBrochureType_OAMBBKMMEIM,
-        CmdTravelBrochureType::CmdTravelBrochureType_EEJBKFOFJFC,
-        CmdTravelBrochureType::CmdTravelBrochureType_GODKAOKHGMO,
-        CmdTravelBrochureType::CmdTravelBrochureType_ILBICOEPEBA,
-        CmdTravelBrochureType::CmdTravelBrochureType_DJOPFBABKCI,
-        CmdTravelBrochureType::CmdTravelBrochureType_NKDHDLFOIDM,
-        CmdTravelBrochureType::CmdTravelBrochureType_AHCJPLEEMNO,
-        CmdTravelBrochureType::CmdTravelBrochureType_JKMBIFFHCNC,
-        CmdTravelBrochureType::CmdTravelBrochureType_HIFIPHCIKJP,
-        CmdTravelBrochureType::CmdTravelBrochureType_OMJMDKKIFKL,
-        CmdTravelBrochureType::CmdTravelBrochureType_HGODJEPGBCL,
-        CmdTravelBrochureType::CmdTravelBrochureType_LEIJAEGDOLK,
+        CmdTravelBrochureType::KHHBBCAJHHN_KBCMIMMJFDO,
+        CmdTravelBrochureType::CmdTravelBrochureGetDataScRsp,
+        CmdTravelBrochureType::CmdTravelBrochureApplyPasterListScRsp,
+        CmdTravelBrochureType::CmdTravelBrochureGetDataCsReq,
+        CmdTravelBrochureType::CmdKEJIIOGIHJE,
+        CmdTravelBrochureType::CmdIHGIOEHHFAO,
+        CmdTravelBrochureType::CmdTravelBrochurePageResetCsReq,
+        CmdTravelBrochureType::CmdTravelBrochureSelectMessageCsReq,
+        CmdTravelBrochureType::CmdDPPJIOPGKJI,
+        CmdTravelBrochureType::CmdCKKAHFIDJLM,
+        CmdTravelBrochureType::CmdTravelBrochureSelectMessageScRsp,
+        CmdTravelBrochureType::CmdTravelBrochureUpdatePasterPosCsReq,
+        CmdTravelBrochureType::KHHBBCAJHHN_FDKELLDPDMB,
+        CmdTravelBrochureType::CmdTravelBrochureApplyPasterListCsReq,
+        CmdTravelBrochureType::CmdTravelBrochurePageResetScRsp,
+        CmdTravelBrochureType::CmdKGJCEOFKEHA,
+        CmdTravelBrochureType::CmdTravelBrochureSetCustomValueCsReq,
+        CmdTravelBrochureType::CmdTravelBrochureRemovePasterCsReq,
+        CmdTravelBrochureType::CmdAPHOLANKEPN,
+        CmdTravelBrochureType::CmdTravelBrochureSetPageDescStatusCsReq,
+        CmdTravelBrochureType::CmdTravelBrochurePageUnlockScNotify,
     ];
 }
 
@@ -165,27 +165,27 @@ impl ::protobuf::EnumFull for CmdTravelBrochureType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdTravelBrochureType::CmdTravelBrochureType_ECGOHIKEOPF => 0,
-            CmdTravelBrochureType::CmdTravelBrochureType_NLGGIPCKLFI => 1,
-            CmdTravelBrochureType::CmdTravelBrochureType_JPJIOFPBEHB => 2,
-            CmdTravelBrochureType::CmdTravelBrochureType_JEEICJOOHCJ => 3,
-            CmdTravelBrochureType::CmdTravelBrochureType_OMBCOFKJBPJ => 4,
-            CmdTravelBrochureType::CmdTravelBrochureType_ALACOMJNDPM => 5,
-            CmdTravelBrochureType::CmdTravelBrochureType_PMLOHDDMJGJ => 6,
-            CmdTravelBrochureType::CmdTravelBrochureType_IEMCHLBODJM => 7,
-            CmdTravelBrochureType::CmdTravelBrochureType_AHLIODCBHNA => 8,
-            CmdTravelBrochureType::CmdTravelBrochureType_OAMBBKMMEIM => 9,
-            CmdTravelBrochureType::CmdTravelBrochureType_EEJBKFOFJFC => 10,
-            CmdTravelBrochureType::CmdTravelBrochureType_GODKAOKHGMO => 11,
-            CmdTravelBrochureType::CmdTravelBrochureType_ILBICOEPEBA => 12,
-            CmdTravelBrochureType::CmdTravelBrochureType_DJOPFBABKCI => 13,
-            CmdTravelBrochureType::CmdTravelBrochureType_NKDHDLFOIDM => 14,
-            CmdTravelBrochureType::CmdTravelBrochureType_AHCJPLEEMNO => 15,
-            CmdTravelBrochureType::CmdTravelBrochureType_JKMBIFFHCNC => 16,
-            CmdTravelBrochureType::CmdTravelBrochureType_HIFIPHCIKJP => 17,
-            CmdTravelBrochureType::CmdTravelBrochureType_OMJMDKKIFKL => 18,
-            CmdTravelBrochureType::CmdTravelBrochureType_HGODJEPGBCL => 19,
-            CmdTravelBrochureType::CmdTravelBrochureType_LEIJAEGDOLK => 20,
+            CmdTravelBrochureType::KHHBBCAJHHN_KBCMIMMJFDO => 0,
+            CmdTravelBrochureType::CmdTravelBrochureGetDataScRsp => 1,
+            CmdTravelBrochureType::CmdTravelBrochureApplyPasterListScRsp => 2,
+            CmdTravelBrochureType::CmdTravelBrochureGetDataCsReq => 3,
+            CmdTravelBrochureType::CmdKEJIIOGIHJE => 4,
+            CmdTravelBrochureType::CmdIHGIOEHHFAO => 5,
+            CmdTravelBrochureType::CmdTravelBrochurePageResetCsReq => 6,
+            CmdTravelBrochureType::CmdTravelBrochureSelectMessageCsReq => 7,
+            CmdTravelBrochureType::CmdDPPJIOPGKJI => 8,
+            CmdTravelBrochureType::CmdCKKAHFIDJLM => 9,
+            CmdTravelBrochureType::CmdTravelBrochureSelectMessageScRsp => 10,
+            CmdTravelBrochureType::CmdTravelBrochureUpdatePasterPosCsReq => 11,
+            CmdTravelBrochureType::KHHBBCAJHHN_FDKELLDPDMB => 12,
+            CmdTravelBrochureType::CmdTravelBrochureApplyPasterListCsReq => 13,
+            CmdTravelBrochureType::CmdTravelBrochurePageResetScRsp => 14,
+            CmdTravelBrochureType::CmdKGJCEOFKEHA => 15,
+            CmdTravelBrochureType::CmdTravelBrochureSetCustomValueCsReq => 16,
+            CmdTravelBrochureType::CmdTravelBrochureRemovePasterCsReq => 17,
+            CmdTravelBrochureType::CmdAPHOLANKEPN => 18,
+            CmdTravelBrochureType::CmdTravelBrochureSetPageDescStatusCsReq => 19,
+            CmdTravelBrochureType::CmdTravelBrochurePageUnlockScNotify => 20,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -193,7 +193,7 @@ impl ::protobuf::EnumFull for CmdTravelBrochureType {
 
 impl ::std::default::Default for CmdTravelBrochureType {
     fn default() -> Self {
-        CmdTravelBrochureType::CmdTravelBrochureType_ECGOHIKEOPF
+        CmdTravelBrochureType::KHHBBCAJHHN_KBCMIMMJFDO
     }
 }
 
@@ -204,22 +204,22 @@ impl CmdTravelBrochureType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1bCmdTravelBrochureType.proto*\xde\x06\n\x15CmdTravelBrochureType\
-    \x12%\n!CmdTravelBrochureType_ECGOHIKEOPF\x10\0\x12&\n!CmdTravelBrochure\
-    Type_NLGGIPCKLFI\x10\xd82\x12&\n!CmdTravelBrochureType_JPJIOFPBEHB\x10\
-    \xd12\x12&\n!CmdTravelBrochureType_JEEICJOOHCJ\x10\xc52\x12&\n!CmdTravel\
-    BrochureType_OMBCOFKJBPJ\x10\xa32\x12&\n!CmdTravelBrochureType_ALACOMJND\
-    PM\x10\xb82\x12&\n!CmdTravelBrochureType_PMLOHDDMJGJ\x10\xb92\x12&\n!Cmd\
-    TravelBrochureType_IEMCHLBODJM\x10\xb02\x12&\n!CmdTravelBrochureType_AHL\
-    IODCBHNA\x10\xd32\x12&\n!CmdTravelBrochureType_OAMBBKMMEIM\x10\xae2\x12&\
-    \n!CmdTravelBrochureType_EEJBKFOFJFC\x10\x982\x12&\n!CmdTravelBrochureTy\
-    pe_GODKAOKHGMO\x10\x892\x12&\n!CmdTravelBrochureType_ILBICOEPEBA\x10\x97\
-    2\x12&\n!CmdTravelBrochureType_DJOPFBABKCI\x10\xd62\x12&\n!CmdTravelBroc\
-    hureType_NKDHDLFOIDM\x10\xa82\x12&\n!CmdTravelBrochureType_AHCJPLEEMNO\
-    \x10\xd42\x12&\n!CmdTravelBrochureType_JKMBIFFHCNC\x10\xbe2\x12&\n!CmdTr\
-    avelBrochureType_HIFIPHCIKJP\x10\x832\x12&\n!CmdTravelBrochureType_OMJMD\
-    KKIFKL\x10\xa22\x12&\n!CmdTravelBrochureType_HGODJEPGBCL\x10\xe42\x12&\n\
-    !CmdTravelBrochureType_LEIJAEGDOLK\x10\x8d2b\x06proto3\
+    \n\x1bCmdTravelBrochureType.proto*\xe8\x05\n\x15CmdTravelBrochureType\
+    \x12\x1b\n\x17KHHBBCAJHHN_KBCMIMMJFDO\x10\0\x12\"\n\x1dCmdTravelBrochure\
+    GetDataScRsp\x10\x8a2\x12*\n%CmdTravelBrochureApplyPasterListScRsp\x10\
+    \xba2\x12\"\n\x1dCmdTravelBrochureGetDataCsReq\x10\xdb2\x12\x13\n\x0eCmd\
+    KEJIIOGIHJE\x10\xa02\x12\x13\n\x0eCmdIHGIOEHHFAO\x10\xa62\x12$\n\x1fCmdT\
+    ravelBrochurePageResetCsReq\x10\xa12\x12(\n#CmdTravelBrochureSelectMessa\
+    geCsReq\x10\x8e2\x12\x13\n\x0eCmdDPPJIOPGKJI\x10\x812\x12\x13\n\x0eCmdCK\
+    KAHFIDJLM\x10\xe22\x12(\n#CmdTravelBrochureSelectMessageScRsp\x10\x922\
+    \x12*\n%CmdTravelBrochureUpdatePasterPosCsReq\x10\xa72\x12\x1c\n\x17KHHB\
+    BCAJHHN_FDKELLDPDMB\x10\x892\x12*\n%CmdTravelBrochureApplyPasterListCsRe\
+    q\x10\x872\x12$\n\x1fCmdTravelBrochurePageResetScRsp\x10\xbd2\x12\x13\n\
+    \x0eCmdKGJCEOFKEHA\x10\x9a2\x12)\n$CmdTravelBrochureSetCustomValueCsReq\
+    \x10\x842\x12'\n\"CmdTravelBrochureRemovePasterCsReq\x10\xbf2\x12\x13\n\
+    \x0eCmdAPHOLANKEPN\x10\xca2\x12,\n'CmdTravelBrochureSetPageDescStatusCsR\
+    eq\x10\xc82\x12(\n#CmdTravelBrochurePageUnlockScNotify\x10\xde2b\x06prot\
+    o3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct LobbySyncInfoScNotify {
     // message fields
-    // @@protoc_insertion_point(field:LobbySyncInfoScNotify.type)
-    pub type_: ::protobuf::EnumOrUnknown<super::LobbyModifyType::LobbyModifyType>,
-    // @@protoc_insertion_point(field:LobbySyncInfoScNotify.PMCKGJIIHNL)
-    pub PMCKGJIIHNL: ::std::vec::Vec<super::GCKNBLAJJGP::GCKNBLAJJGP>,
     // @@protoc_insertion_point(field:LobbySyncInfoScNotify.uid)
     pub uid: u32,
+    // @@protoc_insertion_point(field:LobbySyncInfoScNotify.BIEBFHECEPM)
+    pub BIEBFHECEPM: ::std::vec::Vec<super::ADHNJADIJAC::ADHNJADIJAC>,
+    // @@protoc_insertion_point(field:LobbySyncInfoScNotify.type)
+    pub type_: ::protobuf::EnumOrUnknown<super::LobbyModifyType::LobbyModifyType>,
     // special fields
     // @@protoc_insertion_point(special_field:LobbySyncInfoScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -54,19 +54,19 @@ impl LobbySyncInfoScNotify {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "type",
-            |m: &LobbySyncInfoScNotify| { &m.type_ },
-            |m: &mut LobbySyncInfoScNotify| { &mut m.type_ },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "PMCKGJIIHNL",
-            |m: &LobbySyncInfoScNotify| { &m.PMCKGJIIHNL },
-            |m: &mut LobbySyncInfoScNotify| { &mut m.PMCKGJIIHNL },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "uid",
             |m: &LobbySyncInfoScNotify| { &m.uid },
             |m: &mut LobbySyncInfoScNotify| { &mut m.uid },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "BIEBFHECEPM",
+            |m: &LobbySyncInfoScNotify| { &m.BIEBFHECEPM },
+            |m: &mut LobbySyncInfoScNotify| { &mut m.BIEBFHECEPM },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "type",
+            |m: &LobbySyncInfoScNotify| { &m.type_ },
+            |m: &mut LobbySyncInfoScNotify| { &mut m.type_ },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<LobbySyncInfoScNotify>(
             "LobbySyncInfoScNotify",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for LobbySyncInfoScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                80 => {
-                    self.type_ = is.read_enum_or_unknown()?;
-                },
-                90 => {
-                    self.PMCKGJIIHNL.push(is.read_message()?);
-                },
-                40 => {
+                72 => {
                     self.uid = is.read_uint32()?;
+                },
+                106 => {
+                    self.BIEBFHECEPM.push(is.read_message()?);
+                },
+                64 => {
+                    self.type_ = is.read_enum_or_unknown()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -107,15 +107,15 @@ impl ::protobuf::Message for LobbySyncInfoScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.type_ != ::protobuf::EnumOrUnknown::new(super::LobbyModifyType::LobbyModifyType::LobbyModifyType_MNFEPONEDDJ) {
-            my_size += ::protobuf::rt::int32_size(10, self.type_.value());
+        if self.uid != 0 {
+            my_size += ::protobuf::rt::uint32_size(9, self.uid);
         }
-        for value in &self.PMCKGJIIHNL {
+        for value in &self.BIEBFHECEPM {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.uid != 0 {
-            my_size += ::protobuf::rt::uint32_size(5, self.uid);
+        if self.type_ != ::protobuf::EnumOrUnknown::new(super::LobbyModifyType::LobbyModifyType::BMDNBHHICLD_PCPDHELPKEM) {
+            my_size += ::protobuf::rt::int32_size(8, self.type_.value());
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -123,14 +123,14 @@ impl ::protobuf::Message for LobbySyncInfoScNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.type_ != ::protobuf::EnumOrUnknown::new(super::LobbyModifyType::LobbyModifyType::LobbyModifyType_MNFEPONEDDJ) {
-            os.write_enum(10, ::protobuf::EnumOrUnknown::value(&self.type_))?;
-        }
-        for v in &self.PMCKGJIIHNL {
-            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
-        };
         if self.uid != 0 {
-            os.write_uint32(5, self.uid)?;
+            os.write_uint32(9, self.uid)?;
+        }
+        for v in &self.BIEBFHECEPM {
+            ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
+        };
+        if self.type_ != ::protobuf::EnumOrUnknown::new(super::LobbyModifyType::LobbyModifyType::BMDNBHHICLD_PCPDHELPKEM) {
+            os.write_enum(8, ::protobuf::EnumOrUnknown::value(&self.type_))?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -149,17 +149,17 @@ impl ::protobuf::Message for LobbySyncInfoScNotify {
     }
 
     fn clear(&mut self) {
-        self.type_ = ::protobuf::EnumOrUnknown::new(super::LobbyModifyType::LobbyModifyType::LobbyModifyType_MNFEPONEDDJ);
-        self.PMCKGJIIHNL.clear();
         self.uid = 0;
+        self.BIEBFHECEPM.clear();
+        self.type_ = ::protobuf::EnumOrUnknown::new(super::LobbyModifyType::LobbyModifyType::BMDNBHHICLD_PCPDHELPKEM);
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static LobbySyncInfoScNotify {
         static instance: LobbySyncInfoScNotify = LobbySyncInfoScNotify {
-            type_: ::protobuf::EnumOrUnknown::from_i32(0),
-            PMCKGJIIHNL: ::std::vec::Vec::new(),
             uid: 0,
+            BIEBFHECEPM: ::std::vec::Vec::new(),
+            type_: ::protobuf::EnumOrUnknown::from_i32(0),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -184,11 +184,11 @@ impl ::protobuf::reflect::ProtobufValue for LobbySyncInfoScNotify {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1bLobbySyncInfoScNotify.proto\x1a\x11GCKNBLAJJGP.proto\x1a\x15LobbyM\
-    odifyType.proto\"\x7f\n\x15LobbySyncInfoScNotify\x12$\n\x04type\x18\n\
-    \x20\x01(\x0e2\x10.LobbyModifyTypeR\x04type\x12.\n\x0bPMCKGJIIHNL\x18\
-    \x0b\x20\x03(\x0b2\x0c.GCKNBLAJJGPR\x0bPMCKGJIIHNL\x12\x10\n\x03uid\x18\
-    \x05\x20\x01(\rR\x03uidb\x06proto3\
+    \n\x1bLobbySyncInfoScNotify.proto\x1a\x11ADHNJADIJAC.proto\x1a\x15LobbyM\
+    odifyType.proto\"\x7f\n\x15LobbySyncInfoScNotify\x12\x10\n\x03uid\x18\t\
+    \x20\x01(\rR\x03uid\x12.\n\x0bBIEBFHECEPM\x18\r\x20\x03(\x0b2\x0c.ADHNJA\
+    DIJACR\x0bBIEBFHECEPM\x12$\n\x04type\x18\x08\x20\x01(\x0e2\x10.LobbyModi\
+    fyTypeR\x04typeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -206,7 +206,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
-            deps.push(super::GCKNBLAJJGP::file_descriptor().clone());
+            deps.push(super::ADHNJADIJAC::file_descriptor().clone());
             deps.push(super::LobbyModifyType::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(LobbySyncInfoScNotify::generated_message_descriptor_data());

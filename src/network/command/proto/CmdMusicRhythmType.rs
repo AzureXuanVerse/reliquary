@@ -27,32 +27,32 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdMusicRhythmType)
 pub enum CmdMusicRhythmType {
-    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmType_MNFEPONEDDJ)
-    CmdMusicRhythmType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmType_DOLCHLKAJGC)
-    CmdMusicRhythmType_DOLCHLKAJGC = 7590,
-    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmType_DBOANBIBPBN)
-    CmdMusicRhythmType_DBOANBIBPBN = 7585,
-    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmType_BGPGDNLMMOM)
-    CmdMusicRhythmType_BGPGDNLMMOM = 7582,
-    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmType_OHBEICDOAEJ)
-    CmdMusicRhythmType_OHBEICDOAEJ = 7580,
-    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmType_OABAHGMGOIJ)
-    CmdMusicRhythmType_OABAHGMGOIJ = 7581,
-    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmType_NCNCCINLLLP)
-    CmdMusicRhythmType_NCNCCINLLLP = 7576,
-    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmType_JJFPFEOKBFL)
-    CmdMusicRhythmType_JJFPFEOKBFL = 7579,
-    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmType_DGKKLKNHKAA)
-    CmdMusicRhythmType_DGKKLKNHKAA = 7591,
-    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmType_IKMAMIHBECO)
-    CmdMusicRhythmType_IKMAMIHBECO = 7573,
-    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmType_KMBPGHFMNPJ)
-    CmdMusicRhythmType_KMBPGHFMNPJ = 7571,
-    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmType_AENFKMHNFCK)
-    CmdMusicRhythmType_AENFKMHNFCK = 7595,
-    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmType_HCOLMBAAOFJ)
-    CmdMusicRhythmType_HCOLMBAAOFJ = 7574,
+    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.NEMEAFLEOHK_PCPDHELPKEM)
+    NEMEAFLEOHK_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmDataScRsp)
+    CmdMusicRhythmDataScRsp = 7588,
+    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmStartLevelScRsp)
+    CmdMusicRhythmStartLevelScRsp = 7589,
+    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmFinishLevelScRsp)
+    CmdMusicRhythmFinishLevelScRsp = 7571,
+    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmUnlockSongSfxScNotify)
+    CmdMusicRhythmUnlockSongSfxScNotify = 7595,
+    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmFinishLevelCsReq)
+    CmdMusicRhythmFinishLevelCsReq = 7573,
+    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmStartLevelCsReq)
+    CmdMusicRhythmStartLevelCsReq = 7574,
+    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmUnlockTrackScNotify)
+    CmdMusicRhythmUnlockTrackScNotify = 7578,
+    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmSaveSongConfigDataCsReq)
+    CmdMusicRhythmSaveSongConfigDataCsReq = 7594,
+    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmSaveSongConfigDataScRsp)
+    CmdMusicRhythmSaveSongConfigDataScRsp = 7600,
+    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdMusicRhythmDataCsReq)
+    CmdMusicRhythmDataCsReq = 7572,
+    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdHDCOOFAHMHJ)
+    CmdHDCOOFAHMHJ = 7597,
+    // @@protoc_insertion_point(enum_value:CmdMusicRhythmType.CmdDMEJHILMKAH)
+    CmdDMEJHILMKAH = 7585,
 }
 
 impl ::protobuf::Enum for CmdMusicRhythmType {
@@ -64,56 +64,56 @@ impl ::protobuf::Enum for CmdMusicRhythmType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdMusicRhythmType> {
         match value {
-            0 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_MNFEPONEDDJ),
-            7590 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_DOLCHLKAJGC),
-            7585 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_DBOANBIBPBN),
-            7582 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_BGPGDNLMMOM),
-            7580 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_OHBEICDOAEJ),
-            7581 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_OABAHGMGOIJ),
-            7576 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_NCNCCINLLLP),
-            7579 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_JJFPFEOKBFL),
-            7591 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_DGKKLKNHKAA),
-            7573 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_IKMAMIHBECO),
-            7571 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_KMBPGHFMNPJ),
-            7595 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_AENFKMHNFCK),
-            7574 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_HCOLMBAAOFJ),
+            0 => ::std::option::Option::Some(CmdMusicRhythmType::NEMEAFLEOHK_PCPDHELPKEM),
+            7588 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmDataScRsp),
+            7589 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmStartLevelScRsp),
+            7571 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmFinishLevelScRsp),
+            7595 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmUnlockSongSfxScNotify),
+            7573 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmFinishLevelCsReq),
+            7574 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmStartLevelCsReq),
+            7578 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmUnlockTrackScNotify),
+            7594 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmSaveSongConfigDataCsReq),
+            7600 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmSaveSongConfigDataScRsp),
+            7572 => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmDataCsReq),
+            7597 => ::std::option::Option::Some(CmdMusicRhythmType::CmdHDCOOFAHMHJ),
+            7585 => ::std::option::Option::Some(CmdMusicRhythmType::CmdDMEJHILMKAH),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdMusicRhythmType> {
         match str {
-            "CmdMusicRhythmType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_MNFEPONEDDJ),
-            "CmdMusicRhythmType_DOLCHLKAJGC" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_DOLCHLKAJGC),
-            "CmdMusicRhythmType_DBOANBIBPBN" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_DBOANBIBPBN),
-            "CmdMusicRhythmType_BGPGDNLMMOM" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_BGPGDNLMMOM),
-            "CmdMusicRhythmType_OHBEICDOAEJ" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_OHBEICDOAEJ),
-            "CmdMusicRhythmType_OABAHGMGOIJ" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_OABAHGMGOIJ),
-            "CmdMusicRhythmType_NCNCCINLLLP" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_NCNCCINLLLP),
-            "CmdMusicRhythmType_JJFPFEOKBFL" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_JJFPFEOKBFL),
-            "CmdMusicRhythmType_DGKKLKNHKAA" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_DGKKLKNHKAA),
-            "CmdMusicRhythmType_IKMAMIHBECO" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_IKMAMIHBECO),
-            "CmdMusicRhythmType_KMBPGHFMNPJ" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_KMBPGHFMNPJ),
-            "CmdMusicRhythmType_AENFKMHNFCK" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_AENFKMHNFCK),
-            "CmdMusicRhythmType_HCOLMBAAOFJ" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmType_HCOLMBAAOFJ),
+            "NEMEAFLEOHK_PCPDHELPKEM" => ::std::option::Option::Some(CmdMusicRhythmType::NEMEAFLEOHK_PCPDHELPKEM),
+            "CmdMusicRhythmDataScRsp" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmDataScRsp),
+            "CmdMusicRhythmStartLevelScRsp" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmStartLevelScRsp),
+            "CmdMusicRhythmFinishLevelScRsp" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmFinishLevelScRsp),
+            "CmdMusicRhythmUnlockSongSfxScNotify" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmUnlockSongSfxScNotify),
+            "CmdMusicRhythmFinishLevelCsReq" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmFinishLevelCsReq),
+            "CmdMusicRhythmStartLevelCsReq" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmStartLevelCsReq),
+            "CmdMusicRhythmUnlockTrackScNotify" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmUnlockTrackScNotify),
+            "CmdMusicRhythmSaveSongConfigDataCsReq" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmSaveSongConfigDataCsReq),
+            "CmdMusicRhythmSaveSongConfigDataScRsp" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmSaveSongConfigDataScRsp),
+            "CmdMusicRhythmDataCsReq" => ::std::option::Option::Some(CmdMusicRhythmType::CmdMusicRhythmDataCsReq),
+            "CmdHDCOOFAHMHJ" => ::std::option::Option::Some(CmdMusicRhythmType::CmdHDCOOFAHMHJ),
+            "CmdDMEJHILMKAH" => ::std::option::Option::Some(CmdMusicRhythmType::CmdDMEJHILMKAH),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdMusicRhythmType] = &[
-        CmdMusicRhythmType::CmdMusicRhythmType_MNFEPONEDDJ,
-        CmdMusicRhythmType::CmdMusicRhythmType_DOLCHLKAJGC,
-        CmdMusicRhythmType::CmdMusicRhythmType_DBOANBIBPBN,
-        CmdMusicRhythmType::CmdMusicRhythmType_BGPGDNLMMOM,
-        CmdMusicRhythmType::CmdMusicRhythmType_OHBEICDOAEJ,
-        CmdMusicRhythmType::CmdMusicRhythmType_OABAHGMGOIJ,
-        CmdMusicRhythmType::CmdMusicRhythmType_NCNCCINLLLP,
-        CmdMusicRhythmType::CmdMusicRhythmType_JJFPFEOKBFL,
-        CmdMusicRhythmType::CmdMusicRhythmType_DGKKLKNHKAA,
-        CmdMusicRhythmType::CmdMusicRhythmType_IKMAMIHBECO,
-        CmdMusicRhythmType::CmdMusicRhythmType_KMBPGHFMNPJ,
-        CmdMusicRhythmType::CmdMusicRhythmType_AENFKMHNFCK,
-        CmdMusicRhythmType::CmdMusicRhythmType_HCOLMBAAOFJ,
+        CmdMusicRhythmType::NEMEAFLEOHK_PCPDHELPKEM,
+        CmdMusicRhythmType::CmdMusicRhythmDataScRsp,
+        CmdMusicRhythmType::CmdMusicRhythmStartLevelScRsp,
+        CmdMusicRhythmType::CmdMusicRhythmFinishLevelScRsp,
+        CmdMusicRhythmType::CmdMusicRhythmUnlockSongSfxScNotify,
+        CmdMusicRhythmType::CmdMusicRhythmFinishLevelCsReq,
+        CmdMusicRhythmType::CmdMusicRhythmStartLevelCsReq,
+        CmdMusicRhythmType::CmdMusicRhythmUnlockTrackScNotify,
+        CmdMusicRhythmType::CmdMusicRhythmSaveSongConfigDataCsReq,
+        CmdMusicRhythmType::CmdMusicRhythmSaveSongConfigDataScRsp,
+        CmdMusicRhythmType::CmdMusicRhythmDataCsReq,
+        CmdMusicRhythmType::CmdHDCOOFAHMHJ,
+        CmdMusicRhythmType::CmdDMEJHILMKAH,
     ];
 }
 
@@ -125,19 +125,19 @@ impl ::protobuf::EnumFull for CmdMusicRhythmType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdMusicRhythmType::CmdMusicRhythmType_MNFEPONEDDJ => 0,
-            CmdMusicRhythmType::CmdMusicRhythmType_DOLCHLKAJGC => 1,
-            CmdMusicRhythmType::CmdMusicRhythmType_DBOANBIBPBN => 2,
-            CmdMusicRhythmType::CmdMusicRhythmType_BGPGDNLMMOM => 3,
-            CmdMusicRhythmType::CmdMusicRhythmType_OHBEICDOAEJ => 4,
-            CmdMusicRhythmType::CmdMusicRhythmType_OABAHGMGOIJ => 5,
-            CmdMusicRhythmType::CmdMusicRhythmType_NCNCCINLLLP => 6,
-            CmdMusicRhythmType::CmdMusicRhythmType_JJFPFEOKBFL => 7,
-            CmdMusicRhythmType::CmdMusicRhythmType_DGKKLKNHKAA => 8,
-            CmdMusicRhythmType::CmdMusicRhythmType_IKMAMIHBECO => 9,
-            CmdMusicRhythmType::CmdMusicRhythmType_KMBPGHFMNPJ => 10,
-            CmdMusicRhythmType::CmdMusicRhythmType_AENFKMHNFCK => 11,
-            CmdMusicRhythmType::CmdMusicRhythmType_HCOLMBAAOFJ => 12,
+            CmdMusicRhythmType::NEMEAFLEOHK_PCPDHELPKEM => 0,
+            CmdMusicRhythmType::CmdMusicRhythmDataScRsp => 1,
+            CmdMusicRhythmType::CmdMusicRhythmStartLevelScRsp => 2,
+            CmdMusicRhythmType::CmdMusicRhythmFinishLevelScRsp => 3,
+            CmdMusicRhythmType::CmdMusicRhythmUnlockSongSfxScNotify => 4,
+            CmdMusicRhythmType::CmdMusicRhythmFinishLevelCsReq => 5,
+            CmdMusicRhythmType::CmdMusicRhythmStartLevelCsReq => 6,
+            CmdMusicRhythmType::CmdMusicRhythmUnlockTrackScNotify => 7,
+            CmdMusicRhythmType::CmdMusicRhythmSaveSongConfigDataCsReq => 8,
+            CmdMusicRhythmType::CmdMusicRhythmSaveSongConfigDataScRsp => 9,
+            CmdMusicRhythmType::CmdMusicRhythmDataCsReq => 10,
+            CmdMusicRhythmType::CmdHDCOOFAHMHJ => 11,
+            CmdMusicRhythmType::CmdDMEJHILMKAH => 12,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -145,7 +145,7 @@ impl ::protobuf::EnumFull for CmdMusicRhythmType {
 
 impl ::std::default::Default for CmdMusicRhythmType {
     fn default() -> Self {
-        CmdMusicRhythmType::CmdMusicRhythmType_MNFEPONEDDJ
+        CmdMusicRhythmType::NEMEAFLEOHK_PCPDHELPKEM
     }
 }
 
@@ -156,17 +156,16 @@ impl CmdMusicRhythmType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x18CmdMusicRhythmType.proto*\xf4\x03\n\x12CmdMusicRhythmType\x12\"\n\
-    \x1eCmdMusicRhythmType_MNFEPONEDDJ\x10\0\x12#\n\x1eCmdMusicRhythmType_DO\
-    LCHLKAJGC\x10\xa6;\x12#\n\x1eCmdMusicRhythmType_DBOANBIBPBN\x10\xa1;\x12\
-    #\n\x1eCmdMusicRhythmType_BGPGDNLMMOM\x10\x9e;\x12#\n\x1eCmdMusicRhythmT\
-    ype_OHBEICDOAEJ\x10\x9c;\x12#\n\x1eCmdMusicRhythmType_OABAHGMGOIJ\x10\
-    \x9d;\x12#\n\x1eCmdMusicRhythmType_NCNCCINLLLP\x10\x98;\x12#\n\x1eCmdMus\
-    icRhythmType_JJFPFEOKBFL\x10\x9b;\x12#\n\x1eCmdMusicRhythmType_DGKKLKNHK\
-    AA\x10\xa7;\x12#\n\x1eCmdMusicRhythmType_IKMAMIHBECO\x10\x95;\x12#\n\x1e\
-    CmdMusicRhythmType_KMBPGHFMNPJ\x10\x93;\x12#\n\x1eCmdMusicRhythmType_AEN\
-    FKMHNFCK\x10\xab;\x12#\n\x1eCmdMusicRhythmType_HCOLMBAAOFJ\x10\x96;b\x06\
-    proto3\
+    \n\x18CmdMusicRhythmType.proto*\xd3\x03\n\x12CmdMusicRhythmType\x12\x1b\
+    \n\x17NEMEAFLEOHK_PCPDHELPKEM\x10\0\x12\x1c\n\x17CmdMusicRhythmDataScRsp\
+    \x10\xa4;\x12\"\n\x1dCmdMusicRhythmStartLevelScRsp\x10\xa5;\x12#\n\x1eCm\
+    dMusicRhythmFinishLevelScRsp\x10\x93;\x12(\n#CmdMusicRhythmUnlockSongSfx\
+    ScNotify\x10\xab;\x12#\n\x1eCmdMusicRhythmFinishLevelCsReq\x10\x95;\x12\
+    \"\n\x1dCmdMusicRhythmStartLevelCsReq\x10\x96;\x12&\n!CmdMusicRhythmUnlo\
+    ckTrackScNotify\x10\x9a;\x12*\n%CmdMusicRhythmSaveSongConfigDataCsReq\
+    \x10\xaa;\x12*\n%CmdMusicRhythmSaveSongConfigDataScRsp\x10\xb0;\x12\x1c\
+    \n\x17CmdMusicRhythmDataCsReq\x10\x94;\x12\x13\n\x0eCmdHDCOOFAHMHJ\x10\
+    \xad;\x12\x13\n\x0eCmdDMEJHILMKAH\x10\xa1;b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

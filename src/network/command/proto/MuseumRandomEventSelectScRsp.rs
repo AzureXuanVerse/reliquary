@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct MuseumRandomEventSelectScRsp {
     // message fields
-    // @@protoc_insertion_point(field:MuseumRandomEventSelectScRsp.ANIDOOEANFK)
-    pub ANIDOOEANFK: u32,
     // @@protoc_insertion_point(field:MuseumRandomEventSelectScRsp.retcode)
     pub retcode: u32,
+    // @@protoc_insertion_point(field:MuseumRandomEventSelectScRsp.ILHABFJKEGD)
+    pub ILHABFJKEGD: u32,
     // @@protoc_insertion_point(field:MuseumRandomEventSelectScRsp.event_id)
     pub event_id: u32,
     // special fields
@@ -54,14 +54,14 @@ impl MuseumRandomEventSelectScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "ANIDOOEANFK",
-            |m: &MuseumRandomEventSelectScRsp| { &m.ANIDOOEANFK },
-            |m: &mut MuseumRandomEventSelectScRsp| { &mut m.ANIDOOEANFK },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &MuseumRandomEventSelectScRsp| { &m.retcode },
             |m: &mut MuseumRandomEventSelectScRsp| { &mut m.retcode },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "ILHABFJKEGD",
+            |m: &MuseumRandomEventSelectScRsp| { &m.ILHABFJKEGD },
+            |m: &mut MuseumRandomEventSelectScRsp| { &mut m.ILHABFJKEGD },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "event_id",
@@ -86,13 +86,13 @@ impl ::protobuf::Message for MuseumRandomEventSelectScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                16 => {
-                    self.ANIDOOEANFK = is.read_uint32()?;
-                },
-                104 => {
+                80 => {
                     self.retcode = is.read_uint32()?;
                 },
-                32 => {
+                96 => {
+                    self.ILHABFJKEGD = is.read_uint32()?;
+                },
+                16 => {
                     self.event_id = is.read_uint32()?;
                 },
                 tag => {
@@ -107,14 +107,14 @@ impl ::protobuf::Message for MuseumRandomEventSelectScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.ANIDOOEANFK != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.ANIDOOEANFK);
-        }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(13, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(10, self.retcode);
+        }
+        if self.ILHABFJKEGD != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.ILHABFJKEGD);
         }
         if self.event_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.event_id);
+            my_size += ::protobuf::rt::uint32_size(2, self.event_id);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -122,14 +122,14 @@ impl ::protobuf::Message for MuseumRandomEventSelectScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.ANIDOOEANFK != 0 {
-            os.write_uint32(2, self.ANIDOOEANFK)?;
-        }
         if self.retcode != 0 {
-            os.write_uint32(13, self.retcode)?;
+            os.write_uint32(10, self.retcode)?;
+        }
+        if self.ILHABFJKEGD != 0 {
+            os.write_uint32(12, self.ILHABFJKEGD)?;
         }
         if self.event_id != 0 {
-            os.write_uint32(4, self.event_id)?;
+            os.write_uint32(2, self.event_id)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -148,16 +148,16 @@ impl ::protobuf::Message for MuseumRandomEventSelectScRsp {
     }
 
     fn clear(&mut self) {
-        self.ANIDOOEANFK = 0;
         self.retcode = 0;
+        self.ILHABFJKEGD = 0;
         self.event_id = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static MuseumRandomEventSelectScRsp {
         static instance: MuseumRandomEventSelectScRsp = MuseumRandomEventSelectScRsp {
-            ANIDOOEANFK: 0,
             retcode: 0,
+            ILHABFJKEGD: 0,
             event_id: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -184,8 +184,8 @@ impl ::protobuf::reflect::ProtobufValue for MuseumRandomEventSelectScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\"MuseumRandomEventSelectScRsp.proto\"u\n\x1cMuseumRandomEventSelectSc\
-    Rsp\x12\x20\n\x0bANIDOOEANFK\x18\x02\x20\x01(\rR\x0bANIDOOEANFK\x12\x18\
-    \n\x07retcode\x18\r\x20\x01(\rR\x07retcode\x12\x19\n\x08event_id\x18\x04\
+    Rsp\x12\x18\n\x07retcode\x18\n\x20\x01(\rR\x07retcode\x12\x20\n\x0bILHAB\
+    FJKEGD\x18\x0c\x20\x01(\rR\x0bILHABFJKEGD\x12\x19\n\x08event_id\x18\x02\
     \x20\x01(\rR\x07eventIdb\x06proto3\
 ";
 

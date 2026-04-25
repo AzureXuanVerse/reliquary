@@ -27,10 +27,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:ChessRogueDiceType)
 pub enum ChessRogueDiceType {
-    // @@protoc_insertion_point(enum_value:ChessRogueDiceType.ChessRogueDiceType_ELJDJEHIKJA)
-    ChessRogueDiceType_ELJDJEHIKJA = 0,
-    // @@protoc_insertion_point(enum_value:ChessRogueDiceType.ChessRogueDiceType_CEIHCBNLPBO)
-    ChessRogueDiceType_CEIHCBNLPBO = 1,
+    // @@protoc_insertion_point(enum_value:ChessRogueDiceType.HBCOKDIJMBK_ICJLGHLOKFG)
+    HBCOKDIJMBK_ICJLGHLOKFG = 0,
+    // @@protoc_insertion_point(enum_value:ChessRogueDiceType.HBCOKDIJMBK_OHGGCKLLLEP)
+    HBCOKDIJMBK_OHGGCKLLLEP = 1,
 }
 
 impl ::protobuf::Enum for ChessRogueDiceType {
@@ -42,23 +42,23 @@ impl ::protobuf::Enum for ChessRogueDiceType {
 
     fn from_i32(value: i32) -> ::std::option::Option<ChessRogueDiceType> {
         match value {
-            0 => ::std::option::Option::Some(ChessRogueDiceType::ChessRogueDiceType_ELJDJEHIKJA),
-            1 => ::std::option::Option::Some(ChessRogueDiceType::ChessRogueDiceType_CEIHCBNLPBO),
+            0 => ::std::option::Option::Some(ChessRogueDiceType::HBCOKDIJMBK_ICJLGHLOKFG),
+            1 => ::std::option::Option::Some(ChessRogueDiceType::HBCOKDIJMBK_OHGGCKLLLEP),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<ChessRogueDiceType> {
         match str {
-            "ChessRogueDiceType_ELJDJEHIKJA" => ::std::option::Option::Some(ChessRogueDiceType::ChessRogueDiceType_ELJDJEHIKJA),
-            "ChessRogueDiceType_CEIHCBNLPBO" => ::std::option::Option::Some(ChessRogueDiceType::ChessRogueDiceType_CEIHCBNLPBO),
+            "HBCOKDIJMBK_ICJLGHLOKFG" => ::std::option::Option::Some(ChessRogueDiceType::HBCOKDIJMBK_ICJLGHLOKFG),
+            "HBCOKDIJMBK_OHGGCKLLLEP" => ::std::option::Option::Some(ChessRogueDiceType::HBCOKDIJMBK_OHGGCKLLLEP),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [ChessRogueDiceType] = &[
-        ChessRogueDiceType::ChessRogueDiceType_ELJDJEHIKJA,
-        ChessRogueDiceType::ChessRogueDiceType_CEIHCBNLPBO,
+        ChessRogueDiceType::HBCOKDIJMBK_ICJLGHLOKFG,
+        ChessRogueDiceType::HBCOKDIJMBK_OHGGCKLLLEP,
     ];
 }
 
@@ -76,7 +76,7 @@ impl ::protobuf::EnumFull for ChessRogueDiceType {
 
 impl ::std::default::Default for ChessRogueDiceType {
     fn default() -> Self {
-        ChessRogueDiceType::ChessRogueDiceType_ELJDJEHIKJA
+        ChessRogueDiceType::HBCOKDIJMBK_ICJLGHLOKFG
     }
 }
 
@@ -87,9 +87,9 @@ impl ChessRogueDiceType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x18ChessRogueDiceType.proto*\\\n\x12ChessRogueDiceType\x12\"\n\x1eChe\
-    ssRogueDiceType_ELJDJEHIKJA\x10\0\x12\"\n\x1eChessRogueDiceType_CEIHCBNL\
-    PBO\x10\x01b\x06proto3\
+    \n\x18ChessRogueDiceType.proto*N\n\x12ChessRogueDiceType\x12\x1b\n\x17HB\
+    COKDIJMBK_ICJLGHLOKFG\x10\0\x12\x1b\n\x17HBCOKDIJMBK_OHGGCKLLLEP\x10\x01\
+    b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

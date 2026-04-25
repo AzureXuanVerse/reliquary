@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct SetHipplenOutfitCsReq {
     // message fields
-    // @@protoc_insertion_point(field:SetHipplenOutfitCsReq.ICDJKLPFEGL)
-    pub ICDJKLPFEGL: u32,
+    // @@protoc_insertion_point(field:SetHipplenOutfitCsReq.FKEGMMKNHON)
+    pub FKEGMMKNHON: u32,
     // special fields
     // @@protoc_insertion_point(special_field:SetHipplenOutfitCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl SetHipplenOutfitCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "ICDJKLPFEGL",
-            |m: &SetHipplenOutfitCsReq| { &m.ICDJKLPFEGL },
-            |m: &mut SetHipplenOutfitCsReq| { &mut m.ICDJKLPFEGL },
+            "FKEGMMKNHON",
+            |m: &SetHipplenOutfitCsReq| { &m.FKEGMMKNHON },
+            |m: &mut SetHipplenOutfitCsReq| { &mut m.FKEGMMKNHON },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<SetHipplenOutfitCsReq>(
             "SetHipplenOutfitCsReq",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for SetHipplenOutfitCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                16 => {
-                    self.ICDJKLPFEGL = is.read_uint32()?;
+                112 => {
+                    self.FKEGMMKNHON = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,8 +87,8 @@ impl ::protobuf::Message for SetHipplenOutfitCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.ICDJKLPFEGL != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.ICDJKLPFEGL);
+        if self.FKEGMMKNHON != 0 {
+            my_size += ::protobuf::rt::uint32_size(14, self.FKEGMMKNHON);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -96,8 +96,8 @@ impl ::protobuf::Message for SetHipplenOutfitCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.ICDJKLPFEGL != 0 {
-            os.write_uint32(2, self.ICDJKLPFEGL)?;
+        if self.FKEGMMKNHON != 0 {
+            os.write_uint32(14, self.FKEGMMKNHON)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -116,13 +116,13 @@ impl ::protobuf::Message for SetHipplenOutfitCsReq {
     }
 
     fn clear(&mut self) {
-        self.ICDJKLPFEGL = 0;
+        self.FKEGMMKNHON = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static SetHipplenOutfitCsReq {
         static instance: SetHipplenOutfitCsReq = SetHipplenOutfitCsReq {
-            ICDJKLPFEGL: 0,
+            FKEGMMKNHON: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -148,7 +148,7 @@ impl ::protobuf::reflect::ProtobufValue for SetHipplenOutfitCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1bSetHipplenOutfitCsReq.proto\"9\n\x15SetHipplenOutfitCsReq\x12\x20\
-    \n\x0bICDJKLPFEGL\x18\x02\x20\x01(\rR\x0bICDJKLPFEGLb\x06proto3\
+    \n\x0bFKEGMMKNHON\x18\x0e\x20\x01(\rR\x0bFKEGMMKNHONb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

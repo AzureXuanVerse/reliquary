@@ -27,86 +27,86 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdChenLingBattleType)
 pub enum CmdChenLingBattleType {
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_MNFEPONEDDJ)
-    CmdChenLingBattleType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_KDPPKPNOEOK)
-    CmdChenLingBattleType_KDPPKPNOEOK = 9610,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_EONBOGGDEEF)
-    CmdChenLingBattleType_EONBOGGDEEF = 9591,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_HPKHCMJLMNB)
-    CmdChenLingBattleType_HPKHCMJLMNB = 9604,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_HHNHBNPGFAK)
-    CmdChenLingBattleType_HHNHBNPGFAK = 9587,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_BANPBDDLFHB)
-    CmdChenLingBattleType_BANPBDDLFHB = 9576,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_HCOFDHMFAKL)
-    CmdChenLingBattleType_HCOFDHMFAKL = 9584,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_KHIBCCKGIEA)
-    CmdChenLingBattleType_KHIBCCKGIEA = 9573,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_OEDNEFKJNJL)
-    CmdChenLingBattleType_OEDNEFKJNJL = 9605,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_BJOFDPKHLLG)
-    CmdChenLingBattleType_BJOFDPKHLLG = 9589,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_EIFLJGHFPDD)
-    CmdChenLingBattleType_EIFLJGHFPDD = 9616,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_MNMKNCABMHM)
-    CmdChenLingBattleType_MNMKNCABMHM = 9593,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_HEMNILAENPK)
-    CmdChenLingBattleType_HEMNILAENPK = 9619,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_MELMBFPMJOC)
-    CmdChenLingBattleType_MELMBFPMJOC = 9612,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_CPCOBKGMIHO)
-    CmdChenLingBattleType_CPCOBKGMIHO = 9592,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_IKNBFNIFNKG)
-    CmdChenLingBattleType_IKNBFNIFNKG = 9572,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_JFAKFFGNCBG)
-    CmdChenLingBattleType_JFAKFFGNCBG = 9602,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_LFLNGNCEKCK)
-    CmdChenLingBattleType_LFLNGNCEKCK = 9609,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_JAFBDELACKH)
-    CmdChenLingBattleType_JAFBDELACKH = 9590,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_IPNMPCHJAFE)
-    CmdChenLingBattleType_IPNMPCHJAFE = 9618,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_IEHNANMEMOE)
-    CmdChenLingBattleType_IEHNANMEMOE = 9579,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_IODOLMOEBAF)
-    CmdChenLingBattleType_IODOLMOEBAF = 9578,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_IELJINDHOJM)
-    CmdChenLingBattleType_IELJINDHOJM = 9583,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_LFCHOGCMNLI)
-    CmdChenLingBattleType_LFCHOGCMNLI = 9598,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_ECBDBCCMCEH)
-    CmdChenLingBattleType_ECBDBCCMCEH = 9581,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_GFDHNAKMPGE)
-    CmdChenLingBattleType_GFDHNAKMPGE = 9601,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_LEBCKBNMMMB)
-    CmdChenLingBattleType_LEBCKBNMMMB = 9582,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_GKEKEMEAFAH)
-    CmdChenLingBattleType_GKEKEMEAFAH = 9608,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_GGCJJPEFCAG)
-    CmdChenLingBattleType_GGCJJPEFCAG = 9571,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_PIPNFJDPPAL)
-    CmdChenLingBattleType_PIPNFJDPPAL = 9575,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_PHDCMLFKIDL)
-    CmdChenLingBattleType_PHDCMLFKIDL = 9596,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_BPJFENGPHDC)
-    CmdChenLingBattleType_BPJFENGPHDC = 9586,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_INJCCCNDADK)
-    CmdChenLingBattleType_INJCCCNDADK = 9588,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_NFMMCPABALK)
-    CmdChenLingBattleType_NFMMCPABALK = 9574,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_FFMFOBLKIDB)
-    CmdChenLingBattleType_FFMFOBLKIDB = 9594,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_APEHPMLHAOF)
-    CmdChenLingBattleType_APEHPMLHAOF = 9614,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_DNHNJOIJJGL)
-    CmdChenLingBattleType_DNHNJOIJJGL = 9611,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_DANNBINOKBJ)
-    CmdChenLingBattleType_DANNBINOKBJ = 9599,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_DKCPMGDDKNA)
-    CmdChenLingBattleType_DKCPMGDDKNA = 9600,
-    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBattleType_CIMNFIAPKFL)
-    CmdChenLingBattleType_CIMNFIAPKFL = 9577,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.BELNIDIDIKO_PCPDHELPKEM)
+    BELNIDIDIKO_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingMoveEntityCsReq)
+    CmdChenLingMoveEntityCsReq = 9616,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingRefreshCardCsReq)
+    CmdChenLingRefreshCardCsReq = 9620,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingUnlockGridCsReq)
+    CmdChenLingUnlockGridCsReq = 9575,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingFinishPrepareCsReq)
+    CmdChenLingFinishPrepareCsReq = 9588,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdNNKLGPJAFPJ)
+    CmdNNKLGPJAFPJ = 9591,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingFinishBattleCsReq)
+    CmdChenLingFinishBattleCsReq = 9606,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingSellHandCardCsReq)
+    CmdChenLingSellHandCardCsReq = 9572,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingFinishShopCsReq)
+    CmdChenLingFinishShopCsReq = 9613,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdHAKHGHAFNEE)
+    CmdHAKHGHAFNEE = 9614,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdKLJENCAEDBH)
+    CmdKLJENCAEDBH = 9610,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingUseHandCardCsReq)
+    CmdChenLingUseHandCardCsReq = 9617,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingQuitStageScRsp)
+    CmdChenLingQuitStageScRsp = 9608,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingBuyShopItemCsReq)
+    CmdChenLingBuyShopItemCsReq = 9579,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdAIIKILMNIFI)
+    CmdAIIKILMNIFI = 9589,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdALGMCFBHJBI)
+    CmdALGMCFBHJBI = 9603,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdAADHELLOBCC)
+    CmdAADHELLOBCC = 9609,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdMFNOEOEDFDF)
+    CmdMFNOEOEDFDF = 9596,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingSyncChangeScNotify)
+    CmdChenLingSyncChangeScNotify = 9599,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingSelectCardCsReq)
+    CmdChenLingSelectCardCsReq = 9576,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdLAJEEAENKDI)
+    CmdLAJEEAENKDI = 9585,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdKFJFCKPMDNH)
+    CmdKFJFCKPMDNH = 9598,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingGetDataCsReq)
+    CmdChenLingGetDataCsReq = 9583,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingSelectPolicyCsReq)
+    CmdChenLingSelectPolicyCsReq = 9578,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingStartStageScRsp)
+    CmdChenLingStartStageScRsp = 9597,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdGIPKOGLGHLB)
+    CmdGIPKOGLGHLB = 9574,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingRefreshShopReq)
+    CmdChenLingRefreshShopReq = 9619,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingStartStageCsReq)
+    CmdChenLingStartStageCsReq = 9600,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdCCEHGDPFGIN)
+    CmdCCEHGDPFGIN = 9586,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdOLJCELNELOH)
+    CmdOLJCELNELOH = 9615,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdFNNNKIJPMII)
+    CmdFNNNKIJPMII = 9571,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdMNLKLFCDPCG)
+    CmdMNLKLFCDPCG = 9587,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingRefreshPolicyCsReq)
+    CmdChenLingRefreshPolicyCsReq = 9601,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdPHGCFPNCDBE)
+    CmdPHGCFPNCDBE = 9592,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingHandlePendingActionsCsReq)
+    CmdChenLingHandlePendingActionsCsReq = 9590,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdCBDEPHGEPJJ)
+    CmdCBDEPHGEPJJ = 9573,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingActivatedPrivilegeCsReq)
+    CmdChenLingActivatedPrivilegeCsReq = 9607,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingQuitStageCsReq)
+    CmdChenLingQuitStageCsReq = 9605,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingActivatedPrivilegeScRsp)
+    CmdChenLingActivatedPrivilegeScRsp = 9618,
+    // @@protoc_insertion_point(enum_value:CmdChenLingBattleType.CmdChenLingGetDataScRsp)
+    CmdChenLingGetDataScRsp = 9577,
 }
 
 impl ::protobuf::Enum for CmdChenLingBattleType {
@@ -118,137 +118,137 @@ impl ::protobuf::Enum for CmdChenLingBattleType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdChenLingBattleType> {
         match value {
-            0 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_MNFEPONEDDJ),
-            9610 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_KDPPKPNOEOK),
-            9591 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_EONBOGGDEEF),
-            9604 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_HPKHCMJLMNB),
-            9587 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_HHNHBNPGFAK),
-            9576 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_BANPBDDLFHB),
-            9584 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_HCOFDHMFAKL),
-            9573 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_KHIBCCKGIEA),
-            9605 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_OEDNEFKJNJL),
-            9589 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_BJOFDPKHLLG),
-            9616 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_EIFLJGHFPDD),
-            9593 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_MNMKNCABMHM),
-            9619 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_HEMNILAENPK),
-            9612 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_MELMBFPMJOC),
-            9592 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_CPCOBKGMIHO),
-            9572 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_IKNBFNIFNKG),
-            9602 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_JFAKFFGNCBG),
-            9609 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_LFLNGNCEKCK),
-            9590 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_JAFBDELACKH),
-            9618 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_IPNMPCHJAFE),
-            9579 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_IEHNANMEMOE),
-            9578 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_IODOLMOEBAF),
-            9583 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_IELJINDHOJM),
-            9598 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_LFCHOGCMNLI),
-            9581 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_ECBDBCCMCEH),
-            9601 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_GFDHNAKMPGE),
-            9582 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_LEBCKBNMMMB),
-            9608 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_GKEKEMEAFAH),
-            9571 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_GGCJJPEFCAG),
-            9575 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_PIPNFJDPPAL),
-            9596 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_PHDCMLFKIDL),
-            9586 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_BPJFENGPHDC),
-            9588 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_INJCCCNDADK),
-            9574 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_NFMMCPABALK),
-            9594 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_FFMFOBLKIDB),
-            9614 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_APEHPMLHAOF),
-            9611 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_DNHNJOIJJGL),
-            9599 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_DANNBINOKBJ),
-            9600 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_DKCPMGDDKNA),
-            9577 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_CIMNFIAPKFL),
+            0 => ::std::option::Option::Some(CmdChenLingBattleType::BELNIDIDIKO_PCPDHELPKEM),
+            9616 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingMoveEntityCsReq),
+            9620 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingRefreshCardCsReq),
+            9575 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingUnlockGridCsReq),
+            9588 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingFinishPrepareCsReq),
+            9591 => ::std::option::Option::Some(CmdChenLingBattleType::CmdNNKLGPJAFPJ),
+            9606 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingFinishBattleCsReq),
+            9572 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingSellHandCardCsReq),
+            9613 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingFinishShopCsReq),
+            9614 => ::std::option::Option::Some(CmdChenLingBattleType::CmdHAKHGHAFNEE),
+            9610 => ::std::option::Option::Some(CmdChenLingBattleType::CmdKLJENCAEDBH),
+            9617 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingUseHandCardCsReq),
+            9608 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingQuitStageScRsp),
+            9579 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBuyShopItemCsReq),
+            9589 => ::std::option::Option::Some(CmdChenLingBattleType::CmdAIIKILMNIFI),
+            9603 => ::std::option::Option::Some(CmdChenLingBattleType::CmdALGMCFBHJBI),
+            9609 => ::std::option::Option::Some(CmdChenLingBattleType::CmdAADHELLOBCC),
+            9596 => ::std::option::Option::Some(CmdChenLingBattleType::CmdMFNOEOEDFDF),
+            9599 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingSyncChangeScNotify),
+            9576 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingSelectCardCsReq),
+            9585 => ::std::option::Option::Some(CmdChenLingBattleType::CmdLAJEEAENKDI),
+            9598 => ::std::option::Option::Some(CmdChenLingBattleType::CmdKFJFCKPMDNH),
+            9583 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingGetDataCsReq),
+            9578 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingSelectPolicyCsReq),
+            9597 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingStartStageScRsp),
+            9574 => ::std::option::Option::Some(CmdChenLingBattleType::CmdGIPKOGLGHLB),
+            9619 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingRefreshShopReq),
+            9600 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingStartStageCsReq),
+            9586 => ::std::option::Option::Some(CmdChenLingBattleType::CmdCCEHGDPFGIN),
+            9615 => ::std::option::Option::Some(CmdChenLingBattleType::CmdOLJCELNELOH),
+            9571 => ::std::option::Option::Some(CmdChenLingBattleType::CmdFNNNKIJPMII),
+            9587 => ::std::option::Option::Some(CmdChenLingBattleType::CmdMNLKLFCDPCG),
+            9601 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingRefreshPolicyCsReq),
+            9592 => ::std::option::Option::Some(CmdChenLingBattleType::CmdPHGCFPNCDBE),
+            9590 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingHandlePendingActionsCsReq),
+            9573 => ::std::option::Option::Some(CmdChenLingBattleType::CmdCBDEPHGEPJJ),
+            9607 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingActivatedPrivilegeCsReq),
+            9605 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingQuitStageCsReq),
+            9618 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingActivatedPrivilegeScRsp),
+            9577 => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingGetDataScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdChenLingBattleType> {
         match str {
-            "CmdChenLingBattleType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_MNFEPONEDDJ),
-            "CmdChenLingBattleType_KDPPKPNOEOK" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_KDPPKPNOEOK),
-            "CmdChenLingBattleType_EONBOGGDEEF" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_EONBOGGDEEF),
-            "CmdChenLingBattleType_HPKHCMJLMNB" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_HPKHCMJLMNB),
-            "CmdChenLingBattleType_HHNHBNPGFAK" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_HHNHBNPGFAK),
-            "CmdChenLingBattleType_BANPBDDLFHB" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_BANPBDDLFHB),
-            "CmdChenLingBattleType_HCOFDHMFAKL" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_HCOFDHMFAKL),
-            "CmdChenLingBattleType_KHIBCCKGIEA" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_KHIBCCKGIEA),
-            "CmdChenLingBattleType_OEDNEFKJNJL" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_OEDNEFKJNJL),
-            "CmdChenLingBattleType_BJOFDPKHLLG" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_BJOFDPKHLLG),
-            "CmdChenLingBattleType_EIFLJGHFPDD" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_EIFLJGHFPDD),
-            "CmdChenLingBattleType_MNMKNCABMHM" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_MNMKNCABMHM),
-            "CmdChenLingBattleType_HEMNILAENPK" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_HEMNILAENPK),
-            "CmdChenLingBattleType_MELMBFPMJOC" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_MELMBFPMJOC),
-            "CmdChenLingBattleType_CPCOBKGMIHO" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_CPCOBKGMIHO),
-            "CmdChenLingBattleType_IKNBFNIFNKG" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_IKNBFNIFNKG),
-            "CmdChenLingBattleType_JFAKFFGNCBG" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_JFAKFFGNCBG),
-            "CmdChenLingBattleType_LFLNGNCEKCK" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_LFLNGNCEKCK),
-            "CmdChenLingBattleType_JAFBDELACKH" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_JAFBDELACKH),
-            "CmdChenLingBattleType_IPNMPCHJAFE" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_IPNMPCHJAFE),
-            "CmdChenLingBattleType_IEHNANMEMOE" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_IEHNANMEMOE),
-            "CmdChenLingBattleType_IODOLMOEBAF" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_IODOLMOEBAF),
-            "CmdChenLingBattleType_IELJINDHOJM" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_IELJINDHOJM),
-            "CmdChenLingBattleType_LFCHOGCMNLI" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_LFCHOGCMNLI),
-            "CmdChenLingBattleType_ECBDBCCMCEH" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_ECBDBCCMCEH),
-            "CmdChenLingBattleType_GFDHNAKMPGE" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_GFDHNAKMPGE),
-            "CmdChenLingBattleType_LEBCKBNMMMB" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_LEBCKBNMMMB),
-            "CmdChenLingBattleType_GKEKEMEAFAH" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_GKEKEMEAFAH),
-            "CmdChenLingBattleType_GGCJJPEFCAG" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_GGCJJPEFCAG),
-            "CmdChenLingBattleType_PIPNFJDPPAL" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_PIPNFJDPPAL),
-            "CmdChenLingBattleType_PHDCMLFKIDL" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_PHDCMLFKIDL),
-            "CmdChenLingBattleType_BPJFENGPHDC" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_BPJFENGPHDC),
-            "CmdChenLingBattleType_INJCCCNDADK" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_INJCCCNDADK),
-            "CmdChenLingBattleType_NFMMCPABALK" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_NFMMCPABALK),
-            "CmdChenLingBattleType_FFMFOBLKIDB" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_FFMFOBLKIDB),
-            "CmdChenLingBattleType_APEHPMLHAOF" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_APEHPMLHAOF),
-            "CmdChenLingBattleType_DNHNJOIJJGL" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_DNHNJOIJJGL),
-            "CmdChenLingBattleType_DANNBINOKBJ" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_DANNBINOKBJ),
-            "CmdChenLingBattleType_DKCPMGDDKNA" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_DKCPMGDDKNA),
-            "CmdChenLingBattleType_CIMNFIAPKFL" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBattleType_CIMNFIAPKFL),
+            "BELNIDIDIKO_PCPDHELPKEM" => ::std::option::Option::Some(CmdChenLingBattleType::BELNIDIDIKO_PCPDHELPKEM),
+            "CmdChenLingMoveEntityCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingMoveEntityCsReq),
+            "CmdChenLingRefreshCardCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingRefreshCardCsReq),
+            "CmdChenLingUnlockGridCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingUnlockGridCsReq),
+            "CmdChenLingFinishPrepareCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingFinishPrepareCsReq),
+            "CmdNNKLGPJAFPJ" => ::std::option::Option::Some(CmdChenLingBattleType::CmdNNKLGPJAFPJ),
+            "CmdChenLingFinishBattleCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingFinishBattleCsReq),
+            "CmdChenLingSellHandCardCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingSellHandCardCsReq),
+            "CmdChenLingFinishShopCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingFinishShopCsReq),
+            "CmdHAKHGHAFNEE" => ::std::option::Option::Some(CmdChenLingBattleType::CmdHAKHGHAFNEE),
+            "CmdKLJENCAEDBH" => ::std::option::Option::Some(CmdChenLingBattleType::CmdKLJENCAEDBH),
+            "CmdChenLingUseHandCardCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingUseHandCardCsReq),
+            "CmdChenLingQuitStageScRsp" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingQuitStageScRsp),
+            "CmdChenLingBuyShopItemCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingBuyShopItemCsReq),
+            "CmdAIIKILMNIFI" => ::std::option::Option::Some(CmdChenLingBattleType::CmdAIIKILMNIFI),
+            "CmdALGMCFBHJBI" => ::std::option::Option::Some(CmdChenLingBattleType::CmdALGMCFBHJBI),
+            "CmdAADHELLOBCC" => ::std::option::Option::Some(CmdChenLingBattleType::CmdAADHELLOBCC),
+            "CmdMFNOEOEDFDF" => ::std::option::Option::Some(CmdChenLingBattleType::CmdMFNOEOEDFDF),
+            "CmdChenLingSyncChangeScNotify" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingSyncChangeScNotify),
+            "CmdChenLingSelectCardCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingSelectCardCsReq),
+            "CmdLAJEEAENKDI" => ::std::option::Option::Some(CmdChenLingBattleType::CmdLAJEEAENKDI),
+            "CmdKFJFCKPMDNH" => ::std::option::Option::Some(CmdChenLingBattleType::CmdKFJFCKPMDNH),
+            "CmdChenLingGetDataCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingGetDataCsReq),
+            "CmdChenLingSelectPolicyCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingSelectPolicyCsReq),
+            "CmdChenLingStartStageScRsp" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingStartStageScRsp),
+            "CmdGIPKOGLGHLB" => ::std::option::Option::Some(CmdChenLingBattleType::CmdGIPKOGLGHLB),
+            "CmdChenLingRefreshShopReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingRefreshShopReq),
+            "CmdChenLingStartStageCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingStartStageCsReq),
+            "CmdCCEHGDPFGIN" => ::std::option::Option::Some(CmdChenLingBattleType::CmdCCEHGDPFGIN),
+            "CmdOLJCELNELOH" => ::std::option::Option::Some(CmdChenLingBattleType::CmdOLJCELNELOH),
+            "CmdFNNNKIJPMII" => ::std::option::Option::Some(CmdChenLingBattleType::CmdFNNNKIJPMII),
+            "CmdMNLKLFCDPCG" => ::std::option::Option::Some(CmdChenLingBattleType::CmdMNLKLFCDPCG),
+            "CmdChenLingRefreshPolicyCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingRefreshPolicyCsReq),
+            "CmdPHGCFPNCDBE" => ::std::option::Option::Some(CmdChenLingBattleType::CmdPHGCFPNCDBE),
+            "CmdChenLingHandlePendingActionsCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingHandlePendingActionsCsReq),
+            "CmdCBDEPHGEPJJ" => ::std::option::Option::Some(CmdChenLingBattleType::CmdCBDEPHGEPJJ),
+            "CmdChenLingActivatedPrivilegeCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingActivatedPrivilegeCsReq),
+            "CmdChenLingQuitStageCsReq" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingQuitStageCsReq),
+            "CmdChenLingActivatedPrivilegeScRsp" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingActivatedPrivilegeScRsp),
+            "CmdChenLingGetDataScRsp" => ::std::option::Option::Some(CmdChenLingBattleType::CmdChenLingGetDataScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdChenLingBattleType] = &[
-        CmdChenLingBattleType::CmdChenLingBattleType_MNFEPONEDDJ,
-        CmdChenLingBattleType::CmdChenLingBattleType_KDPPKPNOEOK,
-        CmdChenLingBattleType::CmdChenLingBattleType_EONBOGGDEEF,
-        CmdChenLingBattleType::CmdChenLingBattleType_HPKHCMJLMNB,
-        CmdChenLingBattleType::CmdChenLingBattleType_HHNHBNPGFAK,
-        CmdChenLingBattleType::CmdChenLingBattleType_BANPBDDLFHB,
-        CmdChenLingBattleType::CmdChenLingBattleType_HCOFDHMFAKL,
-        CmdChenLingBattleType::CmdChenLingBattleType_KHIBCCKGIEA,
-        CmdChenLingBattleType::CmdChenLingBattleType_OEDNEFKJNJL,
-        CmdChenLingBattleType::CmdChenLingBattleType_BJOFDPKHLLG,
-        CmdChenLingBattleType::CmdChenLingBattleType_EIFLJGHFPDD,
-        CmdChenLingBattleType::CmdChenLingBattleType_MNMKNCABMHM,
-        CmdChenLingBattleType::CmdChenLingBattleType_HEMNILAENPK,
-        CmdChenLingBattleType::CmdChenLingBattleType_MELMBFPMJOC,
-        CmdChenLingBattleType::CmdChenLingBattleType_CPCOBKGMIHO,
-        CmdChenLingBattleType::CmdChenLingBattleType_IKNBFNIFNKG,
-        CmdChenLingBattleType::CmdChenLingBattleType_JFAKFFGNCBG,
-        CmdChenLingBattleType::CmdChenLingBattleType_LFLNGNCEKCK,
-        CmdChenLingBattleType::CmdChenLingBattleType_JAFBDELACKH,
-        CmdChenLingBattleType::CmdChenLingBattleType_IPNMPCHJAFE,
-        CmdChenLingBattleType::CmdChenLingBattleType_IEHNANMEMOE,
-        CmdChenLingBattleType::CmdChenLingBattleType_IODOLMOEBAF,
-        CmdChenLingBattleType::CmdChenLingBattleType_IELJINDHOJM,
-        CmdChenLingBattleType::CmdChenLingBattleType_LFCHOGCMNLI,
-        CmdChenLingBattleType::CmdChenLingBattleType_ECBDBCCMCEH,
-        CmdChenLingBattleType::CmdChenLingBattleType_GFDHNAKMPGE,
-        CmdChenLingBattleType::CmdChenLingBattleType_LEBCKBNMMMB,
-        CmdChenLingBattleType::CmdChenLingBattleType_GKEKEMEAFAH,
-        CmdChenLingBattleType::CmdChenLingBattleType_GGCJJPEFCAG,
-        CmdChenLingBattleType::CmdChenLingBattleType_PIPNFJDPPAL,
-        CmdChenLingBattleType::CmdChenLingBattleType_PHDCMLFKIDL,
-        CmdChenLingBattleType::CmdChenLingBattleType_BPJFENGPHDC,
-        CmdChenLingBattleType::CmdChenLingBattleType_INJCCCNDADK,
-        CmdChenLingBattleType::CmdChenLingBattleType_NFMMCPABALK,
-        CmdChenLingBattleType::CmdChenLingBattleType_FFMFOBLKIDB,
-        CmdChenLingBattleType::CmdChenLingBattleType_APEHPMLHAOF,
-        CmdChenLingBattleType::CmdChenLingBattleType_DNHNJOIJJGL,
-        CmdChenLingBattleType::CmdChenLingBattleType_DANNBINOKBJ,
-        CmdChenLingBattleType::CmdChenLingBattleType_DKCPMGDDKNA,
-        CmdChenLingBattleType::CmdChenLingBattleType_CIMNFIAPKFL,
+        CmdChenLingBattleType::BELNIDIDIKO_PCPDHELPKEM,
+        CmdChenLingBattleType::CmdChenLingMoveEntityCsReq,
+        CmdChenLingBattleType::CmdChenLingRefreshCardCsReq,
+        CmdChenLingBattleType::CmdChenLingUnlockGridCsReq,
+        CmdChenLingBattleType::CmdChenLingFinishPrepareCsReq,
+        CmdChenLingBattleType::CmdNNKLGPJAFPJ,
+        CmdChenLingBattleType::CmdChenLingFinishBattleCsReq,
+        CmdChenLingBattleType::CmdChenLingSellHandCardCsReq,
+        CmdChenLingBattleType::CmdChenLingFinishShopCsReq,
+        CmdChenLingBattleType::CmdHAKHGHAFNEE,
+        CmdChenLingBattleType::CmdKLJENCAEDBH,
+        CmdChenLingBattleType::CmdChenLingUseHandCardCsReq,
+        CmdChenLingBattleType::CmdChenLingQuitStageScRsp,
+        CmdChenLingBattleType::CmdChenLingBuyShopItemCsReq,
+        CmdChenLingBattleType::CmdAIIKILMNIFI,
+        CmdChenLingBattleType::CmdALGMCFBHJBI,
+        CmdChenLingBattleType::CmdAADHELLOBCC,
+        CmdChenLingBattleType::CmdMFNOEOEDFDF,
+        CmdChenLingBattleType::CmdChenLingSyncChangeScNotify,
+        CmdChenLingBattleType::CmdChenLingSelectCardCsReq,
+        CmdChenLingBattleType::CmdLAJEEAENKDI,
+        CmdChenLingBattleType::CmdKFJFCKPMDNH,
+        CmdChenLingBattleType::CmdChenLingGetDataCsReq,
+        CmdChenLingBattleType::CmdChenLingSelectPolicyCsReq,
+        CmdChenLingBattleType::CmdChenLingStartStageScRsp,
+        CmdChenLingBattleType::CmdGIPKOGLGHLB,
+        CmdChenLingBattleType::CmdChenLingRefreshShopReq,
+        CmdChenLingBattleType::CmdChenLingStartStageCsReq,
+        CmdChenLingBattleType::CmdCCEHGDPFGIN,
+        CmdChenLingBattleType::CmdOLJCELNELOH,
+        CmdChenLingBattleType::CmdFNNNKIJPMII,
+        CmdChenLingBattleType::CmdMNLKLFCDPCG,
+        CmdChenLingBattleType::CmdChenLingRefreshPolicyCsReq,
+        CmdChenLingBattleType::CmdPHGCFPNCDBE,
+        CmdChenLingBattleType::CmdChenLingHandlePendingActionsCsReq,
+        CmdChenLingBattleType::CmdCBDEPHGEPJJ,
+        CmdChenLingBattleType::CmdChenLingActivatedPrivilegeCsReq,
+        CmdChenLingBattleType::CmdChenLingQuitStageCsReq,
+        CmdChenLingBattleType::CmdChenLingActivatedPrivilegeScRsp,
+        CmdChenLingBattleType::CmdChenLingGetDataScRsp,
     ];
 }
 
@@ -260,46 +260,46 @@ impl ::protobuf::EnumFull for CmdChenLingBattleType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdChenLingBattleType::CmdChenLingBattleType_MNFEPONEDDJ => 0,
-            CmdChenLingBattleType::CmdChenLingBattleType_KDPPKPNOEOK => 1,
-            CmdChenLingBattleType::CmdChenLingBattleType_EONBOGGDEEF => 2,
-            CmdChenLingBattleType::CmdChenLingBattleType_HPKHCMJLMNB => 3,
-            CmdChenLingBattleType::CmdChenLingBattleType_HHNHBNPGFAK => 4,
-            CmdChenLingBattleType::CmdChenLingBattleType_BANPBDDLFHB => 5,
-            CmdChenLingBattleType::CmdChenLingBattleType_HCOFDHMFAKL => 6,
-            CmdChenLingBattleType::CmdChenLingBattleType_KHIBCCKGIEA => 7,
-            CmdChenLingBattleType::CmdChenLingBattleType_OEDNEFKJNJL => 8,
-            CmdChenLingBattleType::CmdChenLingBattleType_BJOFDPKHLLG => 9,
-            CmdChenLingBattleType::CmdChenLingBattleType_EIFLJGHFPDD => 10,
-            CmdChenLingBattleType::CmdChenLingBattleType_MNMKNCABMHM => 11,
-            CmdChenLingBattleType::CmdChenLingBattleType_HEMNILAENPK => 12,
-            CmdChenLingBattleType::CmdChenLingBattleType_MELMBFPMJOC => 13,
-            CmdChenLingBattleType::CmdChenLingBattleType_CPCOBKGMIHO => 14,
-            CmdChenLingBattleType::CmdChenLingBattleType_IKNBFNIFNKG => 15,
-            CmdChenLingBattleType::CmdChenLingBattleType_JFAKFFGNCBG => 16,
-            CmdChenLingBattleType::CmdChenLingBattleType_LFLNGNCEKCK => 17,
-            CmdChenLingBattleType::CmdChenLingBattleType_JAFBDELACKH => 18,
-            CmdChenLingBattleType::CmdChenLingBattleType_IPNMPCHJAFE => 19,
-            CmdChenLingBattleType::CmdChenLingBattleType_IEHNANMEMOE => 20,
-            CmdChenLingBattleType::CmdChenLingBattleType_IODOLMOEBAF => 21,
-            CmdChenLingBattleType::CmdChenLingBattleType_IELJINDHOJM => 22,
-            CmdChenLingBattleType::CmdChenLingBattleType_LFCHOGCMNLI => 23,
-            CmdChenLingBattleType::CmdChenLingBattleType_ECBDBCCMCEH => 24,
-            CmdChenLingBattleType::CmdChenLingBattleType_GFDHNAKMPGE => 25,
-            CmdChenLingBattleType::CmdChenLingBattleType_LEBCKBNMMMB => 26,
-            CmdChenLingBattleType::CmdChenLingBattleType_GKEKEMEAFAH => 27,
-            CmdChenLingBattleType::CmdChenLingBattleType_GGCJJPEFCAG => 28,
-            CmdChenLingBattleType::CmdChenLingBattleType_PIPNFJDPPAL => 29,
-            CmdChenLingBattleType::CmdChenLingBattleType_PHDCMLFKIDL => 30,
-            CmdChenLingBattleType::CmdChenLingBattleType_BPJFENGPHDC => 31,
-            CmdChenLingBattleType::CmdChenLingBattleType_INJCCCNDADK => 32,
-            CmdChenLingBattleType::CmdChenLingBattleType_NFMMCPABALK => 33,
-            CmdChenLingBattleType::CmdChenLingBattleType_FFMFOBLKIDB => 34,
-            CmdChenLingBattleType::CmdChenLingBattleType_APEHPMLHAOF => 35,
-            CmdChenLingBattleType::CmdChenLingBattleType_DNHNJOIJJGL => 36,
-            CmdChenLingBattleType::CmdChenLingBattleType_DANNBINOKBJ => 37,
-            CmdChenLingBattleType::CmdChenLingBattleType_DKCPMGDDKNA => 38,
-            CmdChenLingBattleType::CmdChenLingBattleType_CIMNFIAPKFL => 39,
+            CmdChenLingBattleType::BELNIDIDIKO_PCPDHELPKEM => 0,
+            CmdChenLingBattleType::CmdChenLingMoveEntityCsReq => 1,
+            CmdChenLingBattleType::CmdChenLingRefreshCardCsReq => 2,
+            CmdChenLingBattleType::CmdChenLingUnlockGridCsReq => 3,
+            CmdChenLingBattleType::CmdChenLingFinishPrepareCsReq => 4,
+            CmdChenLingBattleType::CmdNNKLGPJAFPJ => 5,
+            CmdChenLingBattleType::CmdChenLingFinishBattleCsReq => 6,
+            CmdChenLingBattleType::CmdChenLingSellHandCardCsReq => 7,
+            CmdChenLingBattleType::CmdChenLingFinishShopCsReq => 8,
+            CmdChenLingBattleType::CmdHAKHGHAFNEE => 9,
+            CmdChenLingBattleType::CmdKLJENCAEDBH => 10,
+            CmdChenLingBattleType::CmdChenLingUseHandCardCsReq => 11,
+            CmdChenLingBattleType::CmdChenLingQuitStageScRsp => 12,
+            CmdChenLingBattleType::CmdChenLingBuyShopItemCsReq => 13,
+            CmdChenLingBattleType::CmdAIIKILMNIFI => 14,
+            CmdChenLingBattleType::CmdALGMCFBHJBI => 15,
+            CmdChenLingBattleType::CmdAADHELLOBCC => 16,
+            CmdChenLingBattleType::CmdMFNOEOEDFDF => 17,
+            CmdChenLingBattleType::CmdChenLingSyncChangeScNotify => 18,
+            CmdChenLingBattleType::CmdChenLingSelectCardCsReq => 19,
+            CmdChenLingBattleType::CmdLAJEEAENKDI => 20,
+            CmdChenLingBattleType::CmdKFJFCKPMDNH => 21,
+            CmdChenLingBattleType::CmdChenLingGetDataCsReq => 22,
+            CmdChenLingBattleType::CmdChenLingSelectPolicyCsReq => 23,
+            CmdChenLingBattleType::CmdChenLingStartStageScRsp => 24,
+            CmdChenLingBattleType::CmdGIPKOGLGHLB => 25,
+            CmdChenLingBattleType::CmdChenLingRefreshShopReq => 26,
+            CmdChenLingBattleType::CmdChenLingStartStageCsReq => 27,
+            CmdChenLingBattleType::CmdCCEHGDPFGIN => 28,
+            CmdChenLingBattleType::CmdOLJCELNELOH => 29,
+            CmdChenLingBattleType::CmdFNNNKIJPMII => 30,
+            CmdChenLingBattleType::CmdMNLKLFCDPCG => 31,
+            CmdChenLingBattleType::CmdChenLingRefreshPolicyCsReq => 32,
+            CmdChenLingBattleType::CmdPHGCFPNCDBE => 33,
+            CmdChenLingBattleType::CmdChenLingHandlePendingActionsCsReq => 34,
+            CmdChenLingBattleType::CmdCBDEPHGEPJJ => 35,
+            CmdChenLingBattleType::CmdChenLingActivatedPrivilegeCsReq => 36,
+            CmdChenLingBattleType::CmdChenLingQuitStageCsReq => 37,
+            CmdChenLingBattleType::CmdChenLingActivatedPrivilegeScRsp => 38,
+            CmdChenLingBattleType::CmdChenLingGetDataScRsp => 39,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -307,7 +307,7 @@ impl ::protobuf::EnumFull for CmdChenLingBattleType {
 
 impl ::std::default::Default for CmdChenLingBattleType {
     fn default() -> Self {
-        CmdChenLingBattleType::CmdChenLingBattleType_MNFEPONEDDJ
+        CmdChenLingBattleType::BELNIDIDIKO_PCPDHELPKEM
     }
 }
 
@@ -318,36 +318,32 @@ impl CmdChenLingBattleType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1bCmdChenLingBattleType.proto*\xd6\x0c\n\x15CmdChenLingBattleType\
-    \x12%\n!CmdChenLingBattleType_MNFEPONEDDJ\x10\0\x12&\n!CmdChenLingBattle\
-    Type_KDPPKPNOEOK\x10\x8aK\x12&\n!CmdChenLingBattleType_EONBOGGDEEF\x10\
-    \xf7J\x12&\n!CmdChenLingBattleType_HPKHCMJLMNB\x10\x84K\x12&\n!CmdChenLi\
-    ngBattleType_HHNHBNPGFAK\x10\xf3J\x12&\n!CmdChenLingBattleType_BANPBDDLF\
-    HB\x10\xe8J\x12&\n!CmdChenLingBattleType_HCOFDHMFAKL\x10\xf0J\x12&\n!Cmd\
-    ChenLingBattleType_KHIBCCKGIEA\x10\xe5J\x12&\n!CmdChenLingBattleType_OED\
-    NEFKJNJL\x10\x85K\x12&\n!CmdChenLingBattleType_BJOFDPKHLLG\x10\xf5J\x12&\
-    \n!CmdChenLingBattleType_EIFLJGHFPDD\x10\x90K\x12&\n!CmdChenLingBattleTy\
-    pe_MNMKNCABMHM\x10\xf9J\x12&\n!CmdChenLingBattleType_HEMNILAENPK\x10\x93\
-    K\x12&\n!CmdChenLingBattleType_MELMBFPMJOC\x10\x8cK\x12&\n!CmdChenLingBa\
-    ttleType_CPCOBKGMIHO\x10\xf8J\x12&\n!CmdChenLingBattleType_IKNBFNIFNKG\
-    \x10\xe4J\x12&\n!CmdChenLingBattleType_JFAKFFGNCBG\x10\x82K\x12&\n!CmdCh\
-    enLingBattleType_LFLNGNCEKCK\x10\x89K\x12&\n!CmdChenLingBattleType_JAFBD\
-    ELACKH\x10\xf6J\x12&\n!CmdChenLingBattleType_IPNMPCHJAFE\x10\x92K\x12&\n\
-    !CmdChenLingBattleType_IEHNANMEMOE\x10\xebJ\x12&\n!CmdChenLingBattleType\
-    _IODOLMOEBAF\x10\xeaJ\x12&\n!CmdChenLingBattleType_IELJINDHOJM\x10\xefJ\
-    \x12&\n!CmdChenLingBattleType_LFCHOGCMNLI\x10\xfeJ\x12&\n!CmdChenLingBat\
-    tleType_ECBDBCCMCEH\x10\xedJ\x12&\n!CmdChenLingBattleType_GFDHNAKMPGE\
-    \x10\x81K\x12&\n!CmdChenLingBattleType_LEBCKBNMMMB\x10\xeeJ\x12&\n!CmdCh\
-    enLingBattleType_GKEKEMEAFAH\x10\x88K\x12&\n!CmdChenLingBattleType_GGCJJ\
-    PEFCAG\x10\xe3J\x12&\n!CmdChenLingBattleType_PIPNFJDPPAL\x10\xe7J\x12&\n\
-    !CmdChenLingBattleType_PHDCMLFKIDL\x10\xfcJ\x12&\n!CmdChenLingBattleType\
-    _BPJFENGPHDC\x10\xf2J\x12&\n!CmdChenLingBattleType_INJCCCNDADK\x10\xf4J\
-    \x12&\n!CmdChenLingBattleType_NFMMCPABALK\x10\xe6J\x12&\n!CmdChenLingBat\
-    tleType_FFMFOBLKIDB\x10\xfaJ\x12&\n!CmdChenLingBattleType_APEHPMLHAOF\
-    \x10\x8eK\x12&\n!CmdChenLingBattleType_DNHNJOIJJGL\x10\x8bK\x12&\n!CmdCh\
-    enLingBattleType_DANNBINOKBJ\x10\xffJ\x12&\n!CmdChenLingBattleType_DKCPM\
-    GDDKNA\x10\x80K\x12&\n!CmdChenLingBattleType_CIMNFIAPKFL\x10\xe9Jb\x06pr\
-    oto3\
+    \n\x1bCmdChenLingBattleType.proto*\x9e\t\n\x15CmdChenLingBattleType\x12\
+    \x1b\n\x17BELNIDIDIKO_PCPDHELPKEM\x10\0\x12\x1f\n\x1aCmdChenLingMoveEnti\
+    tyCsReq\x10\x90K\x12\x20\n\x1bCmdChenLingRefreshCardCsReq\x10\x94K\x12\
+    \x1f\n\x1aCmdChenLingUnlockGridCsReq\x10\xe7J\x12\"\n\x1dCmdChenLingFini\
+    shPrepareCsReq\x10\xf4J\x12\x13\n\x0eCmdNNKLGPJAFPJ\x10\xf7J\x12!\n\x1cC\
+    mdChenLingFinishBattleCsReq\x10\x86K\x12!\n\x1cCmdChenLingSellHandCardCs\
+    Req\x10\xe4J\x12\x1f\n\x1aCmdChenLingFinishShopCsReq\x10\x8dK\x12\x13\n\
+    \x0eCmdHAKHGHAFNEE\x10\x8eK\x12\x13\n\x0eCmdKLJENCAEDBH\x10\x8aK\x12\x20\
+    \n\x1bCmdChenLingUseHandCardCsReq\x10\x91K\x12\x1e\n\x19CmdChenLingQuitS\
+    tageScRsp\x10\x88K\x12\x20\n\x1bCmdChenLingBuyShopItemCsReq\x10\xebJ\x12\
+    \x13\n\x0eCmdAIIKILMNIFI\x10\xf5J\x12\x13\n\x0eCmdALGMCFBHJBI\x10\x83K\
+    \x12\x13\n\x0eCmdAADHELLOBCC\x10\x89K\x12\x13\n\x0eCmdMFNOEOEDFDF\x10\
+    \xfcJ\x12\"\n\x1dCmdChenLingSyncChangeScNotify\x10\xffJ\x12\x1f\n\x1aCmd\
+    ChenLingSelectCardCsReq\x10\xe8J\x12\x13\n\x0eCmdLAJEEAENKDI\x10\xf1J\
+    \x12\x13\n\x0eCmdKFJFCKPMDNH\x10\xfeJ\x12\x1c\n\x17CmdChenLingGetDataCsR\
+    eq\x10\xefJ\x12!\n\x1cCmdChenLingSelectPolicyCsReq\x10\xeaJ\x12\x1f\n\
+    \x1aCmdChenLingStartStageScRsp\x10\xfdJ\x12\x13\n\x0eCmdGIPKOGLGHLB\x10\
+    \xe6J\x12\x1e\n\x19CmdChenLingRefreshShopReq\x10\x93K\x12\x1f\n\x1aCmdCh\
+    enLingStartStageCsReq\x10\x80K\x12\x13\n\x0eCmdCCEHGDPFGIN\x10\xf2J\x12\
+    \x13\n\x0eCmdOLJCELNELOH\x10\x8fK\x12\x13\n\x0eCmdFNNNKIJPMII\x10\xe3J\
+    \x12\x13\n\x0eCmdMNLKLFCDPCG\x10\xf3J\x12\"\n\x1dCmdChenLingRefreshPolic\
+    yCsReq\x10\x81K\x12\x13\n\x0eCmdPHGCFPNCDBE\x10\xf8J\x12)\n$CmdChenLingH\
+    andlePendingActionsCsReq\x10\xf6J\x12\x13\n\x0eCmdCBDEPHGEPJJ\x10\xe5J\
+    \x12'\n\"CmdChenLingActivatedPrivilegeCsReq\x10\x87K\x12\x1e\n\x19CmdChe\
+    nLingQuitStageCsReq\x10\x85K\x12'\n\"CmdChenLingActivatedPrivilegeScRsp\
+    \x10\x92K\x12\x1c\n\x17CmdChenLingGetDataScRsp\x10\xe9Jb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

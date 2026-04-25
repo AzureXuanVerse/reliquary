@@ -27,164 +27,164 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdChessRogueType)
 pub enum CmdChessRogueType {
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_MNFEPONEDDJ)
-    CmdChessRogueType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_APBLBPFDEGH)
-    CmdChessRogueType_APBLBPFDEGH = 5547,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_HCJDDLCDJOE)
-    CmdChessRogueType_HCJDDLCDJOE = 5538,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_OLFMCBCINFH)
-    CmdChessRogueType_OLFMCBCINFH = 5553,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_BDDEBHAJMMF)
-    CmdChessRogueType_BDDEBHAJMMF = 5584,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_ICAJINGOAON)
-    CmdChessRogueType_ICAJINGOAON = 5594,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_KNICDHMNDOB)
-    CmdChessRogueType_KNICDHMNDOB = 5449,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_MKEHCFHPFDD)
-    CmdChessRogueType_MKEHCFHPFDD = 5572,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_COIAEEBPFNN)
-    CmdChessRogueType_COIAEEBPFNN = 5492,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_NEMEENHMODE)
-    CmdChessRogueType_NEMEENHMODE = 5402,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_CEBAPDNOGKP)
-    CmdChessRogueType_CEBAPDNOGKP = 5532,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_AJPDHKIADCE)
-    CmdChessRogueType_AJPDHKIADCE = 5574,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_HCJJPLAFBIH)
-    CmdChessRogueType_HCJJPLAFBIH = 5507,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_JNEPALNMMHL)
-    CmdChessRogueType_JNEPALNMMHL = 5582,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_JBPBJDJONOA)
-    CmdChessRogueType_JBPBJDJONOA = 5407,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_HLIDPKOEHDD)
-    CmdChessRogueType_HLIDPKOEHDD = 5481,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_NIFCKCCHNEC)
-    CmdChessRogueType_NIFCKCCHNEC = 5510,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_ICAEGODDABJ)
-    CmdChessRogueType_ICAEGODDABJ = 5536,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_FKIEDOMAJNC)
-    CmdChessRogueType_FKIEDOMAJNC = 5560,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_CAHMDIGNFBJ)
-    CmdChessRogueType_CAHMDIGNFBJ = 5556,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_BOLNFLCBOAI)
-    CmdChessRogueType_BOLNFLCBOAI = 5471,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_HDJFFLFLEBE)
-    CmdChessRogueType_HDJFFLFLEBE = 5591,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_NEAKEDLNBBH)
-    CmdChessRogueType_NEAKEDLNBBH = 5501,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_CPCPJMHMAGM)
-    CmdChessRogueType_CPCPJMHMAGM = 5420,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_FIAJGDJPNKK)
-    CmdChessRogueType_FIAJGDJPNKK = 5600,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_OGAPEDJICJP)
-    CmdChessRogueType_OGAPEDJICJP = 5595,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_NOMJOEAAEJP)
-    CmdChessRogueType_NOMJOEAAEJP = 5575,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_LNNLECJHHDC)
-    CmdChessRogueType_LNNLECJHHDC = 5558,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_OFEFBLENFKH)
-    CmdChessRogueType_OFEFBLENFKH = 5433,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_ADFGONHLCAO)
-    CmdChessRogueType_ADFGONHLCAO = 5569,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_ODMBEHBJDEE)
-    CmdChessRogueType_ODMBEHBJDEE = 5559,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_CAFIDCDFCKL)
-    CmdChessRogueType_CAFIDCDFCKL = 5469,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_CKDIGHHELCM)
-    CmdChessRogueType_CKDIGHHELCM = 5425,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_JLBMLMJCLJP)
-    CmdChessRogueType_JLBMLMJCLJP = 5487,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_BFECDDOJHGD)
-    CmdChessRogueType_BFECDDOJHGD = 5477,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_LGADOJGNCFP)
-    CmdChessRogueType_LGADOJGNCFP = 5529,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_KBEDDJOIKKE)
-    CmdChessRogueType_KBEDDJOIKKE = 5539,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_PFKLFOHMNJP)
-    CmdChessRogueType_PFKLFOHMNJP = 5446,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_FAMMFKMFHFI)
-    CmdChessRogueType_FAMMFKMFHFI = 5434,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_NDOLCDLAOMJ)
-    CmdChessRogueType_NDOLCDLAOMJ = 5514,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_PKENEMLKIAI)
-    CmdChessRogueType_PKENEMLKIAI = 5511,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_MMKGACAILDA)
-    CmdChessRogueType_MMKGACAILDA = 5543,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_AOFLBDDDFDB)
-    CmdChessRogueType_AOFLBDDDFDB = 5541,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_EDIFFAEDKDA)
-    CmdChessRogueType_EDIFFAEDKDA = 5401,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_MEKKLFCLJMN)
-    CmdChessRogueType_MEKKLFCLJMN = 5583,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_AHNGOJLIOIO)
-    CmdChessRogueType_AHNGOJLIOIO = 5528,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_MFOLIJMHJAN)
-    CmdChessRogueType_MFOLIJMHJAN = 5472,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_FINCCAGGFBG)
-    CmdChessRogueType_FINCCAGGFBG = 5488,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_AMNGDPGIEPL)
-    CmdChessRogueType_AMNGDPGIEPL = 5438,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_GGJBPLKPMGK)
-    CmdChessRogueType_GGJBPLKPMGK = 5451,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_HANHOKHKICG)
-    CmdChessRogueType_HANHOKHKICG = 5430,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_MGCCLPAKCKF)
-    CmdChessRogueType_MGCCLPAKCKF = 5439,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_NJMPOIEHAMM)
-    CmdChessRogueType_NJMPOIEHAMM = 5412,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_OKHJMHAHHJJ)
-    CmdChessRogueType_OKHJMHAHHJJ = 5500,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_HKHBJABHFAK)
-    CmdChessRogueType_HKHBJABHFAK = 5497,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_OLBMNECCNLC)
-    CmdChessRogueType_OLBMNECCNLC = 5533,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_LCLMLAHEMOO)
-    CmdChessRogueType_LCLMLAHEMOO = 5441,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_ONKGHEFAMKH)
-    CmdChessRogueType_ONKGHEFAMKH = 5432,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_DKJOMHIIONE)
-    CmdChessRogueType_DKJOMHIIONE = 5403,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_NCJMPABANCJ)
-    CmdChessRogueType_NCJMPABANCJ = 5535,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_BODODCJBHFE)
-    CmdChessRogueType_BODODCJBHFE = 5496,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_NAHHFPDHPBA)
-    CmdChessRogueType_NAHHFPDHPBA = 5454,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_DOCOKNGABFL)
-    CmdChessRogueType_DOCOKNGABFL = 5517,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_HPJIFGCMLEO)
-    CmdChessRogueType_HPJIFGCMLEO = 5413,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_CKJEADGMBNH)
-    CmdChessRogueType_CKJEADGMBNH = 5521,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_OJCEACONKHP)
-    CmdChessRogueType_OJCEACONKHP = 5485,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_MFDINMIBDFB)
-    CmdChessRogueType_MFDINMIBDFB = 5415,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_KFEPOGMCKEM)
-    CmdChessRogueType_KFEPOGMCKEM = 5427,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_PKEJHPGCHCO)
-    CmdChessRogueType_PKEJHPGCHCO = 5587,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_JKHEOCPFCFB)
-    CmdChessRogueType_JKHEOCPFCFB = 5588,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_LAMMDKEAFCH)
-    CmdChessRogueType_LAMMDKEAFCH = 5524,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_HGBBFKLIPHA)
-    CmdChessRogueType_HGBBFKLIPHA = 5404,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_OLAOFFODGAH)
-    CmdChessRogueType_OLAOFFODGAH = 5493,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_OGKDEDMDBJO)
-    CmdChessRogueType_OGKDEDMDBJO = 5494,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_BKGFOLBPGAL)
-    CmdChessRogueType_BKGFOLBPGAL = 5593,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_OMFIJOMANBF)
-    CmdChessRogueType_OMFIJOMANBF = 5424,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_JBIODJCJLIC)
-    CmdChessRogueType_JBIODJCJLIC = 5509,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_AGNEIMEPKCN)
-    CmdChessRogueType_AGNEIMEPKCN = 5480,
-    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueType_KAHHIKGODDP)
-    CmdChessRogueType_KAHHIKGODDP = 5468,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.HOBAEPKFFPD_PCPDHELPKEM)
+    HOBAEPKFFPD_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueUpdateReviveInfoScNotify)
+    CmdChessRogueUpdateReviveInfoScNotify = 5532,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueQueryScRsp)
+    CmdChessRogueQueryScRsp = 5589,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdMNPAAKGHBEJ)
+    CmdMNPAAKGHBEJ = 5517,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueEnterNextLayerScRsp)
+    CmdChessRogueEnterNextLayerScRsp = 5449,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdReviveRogueAvatarCsReq)
+    CmdReviveRogueAvatarCsReq = 5420,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdSelectChessRogueSubStoryCsReq)
+    CmdSelectChessRogueSubStoryCsReq = 5410,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueLayerSettlement)
+    CmdChessRogueLayerSettlement = 5475,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueLeaveScRsp)
+    CmdChessRogueLeaveScRsp = 5435,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueUpdateMoneyInfoScNotify)
+    CmdChessRogueUpdateMoneyInfoScNotify = 5594,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdBNIBHAOJKBI)
+    CmdBNIBHAOJKBI = 5507,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueChangeAeonDimensionNotify)
+    CmdChessRogueChangeAeonDimensionNotify = 5434,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueRollDiceScRsp)
+    CmdChessRogueRollDiceScRsp = 5473,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdGetChessRogueStoryAeonTalkInfoScRsp)
+    CmdGetChessRogueStoryAeonTalkInfoScRsp = 5405,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdFinishChessRogueSubStoryScRsp)
+    CmdFinishChessRogueSubStoryScRsp = 5515,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueNousEditDiceScRsp)
+    CmdChessRogueNousEditDiceScRsp = 5417,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueQuitCsReq)
+    CmdChessRogueQuitCsReq = 5488,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueEnterCellCsReq)
+    CmdChessRogueEnterCellCsReq = 5415,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueSelectCellScRsp)
+    CmdChessRogueSelectCellScRsp = 5436,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueEnterCellScRsp)
+    CmdChessRogueEnterCellScRsp = 5558,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdEnhanceRogueBuffCsReq)
+    CmdEnhanceRogueBuffCsReq = 5439,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueUpdateUnlockLevelScNotify)
+    CmdChessRogueUpdateUnlockLevelScNotify = 5503,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueConfirmRollScRsp)
+    CmdChessRogueConfirmRollScRsp = 5458,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdSelectChessRogueSubStoryScRsp)
+    CmdSelectChessRogueSubStoryScRsp = 5481,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdPickRogueAvatarScRsp)
+    CmdPickRogueAvatarScRsp = 5572,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueQueryCsReq)
+    CmdChessRogueQueryCsReq = 5540,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueEnterCsReq)
+    CmdChessRogueEnterCsReq = 5514,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdGetChessRogueNousStoryInfoCsReq)
+    CmdGetChessRogueNousStoryInfoCsReq = 5541,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueNousDiceUpdateNotify)
+    CmdChessRogueNousDiceUpdateNotify = 5441,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueUpdateLevelBaseInfoScNotify)
+    CmdChessRogueUpdateLevelBaseInfoScNotify = 5452,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdGetChessRogueStoryInfoScRsp)
+    CmdGetChessRogueStoryInfoScRsp = 5440,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueNousEnableRogueTalentCsReq)
+    CmdChessRogueNousEnableRogueTalentCsReq = 5535,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueStartCsReq)
+    CmdChessRogueStartCsReq = 5516,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueNousDiceSurfaceUnlockNotify)
+    CmdChessRogueNousDiceSurfaceUnlockNotify = 5518,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueReRollDiceScRsp)
+    CmdChessRogueReRollDiceScRsp = 5407,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueGiveUpCsReq)
+    CmdChessRogueGiveUpCsReq = 5429,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueCheatRollCsReq)
+    CmdChessRogueCheatRollCsReq = 5464,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueQuitScRsp)
+    CmdChessRogueQuitScRsp = 5498,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdLCDOCKJGFCE)
+    CmdLCDOCKJGFCE = 5525,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueGiveUpScRsp)
+    CmdChessRogueGiveUpScRsp = 5554,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdSyncChessRogueNousMainStoryScNotify)
+    CmdSyncChessRogueNousMainStoryScNotify = 5557,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueRollDiceCsReq)
+    CmdChessRogueRollDiceCsReq = 5587,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdReviveRogueAvatarScRsp)
+    CmdReviveRogueAvatarScRsp = 5592,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueUpdateAllowedSelectCellScNotify)
+    CmdChessRogueUpdateAllowedSelectCellScNotify = 5401,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueUpdateDicePassiveAccumulateValueScNotify)
+    CmdChessRogueUpdateDicePassiveAccumulateValueScNotify = 5414,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueConfirmRollCsReq)
+    CmdChessRogueConfirmRollCsReq = 5511,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdEnhanceRogueBuffScRsp)
+    CmdEnhanceRogueBuffScRsp = 5508,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdEnterChessRogueAeonRoomScRsp)
+    CmdEnterChessRogueAeonRoomScRsp = 5571,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueUpdateAeonModifierValueScNotify)
+    CmdChessRogueUpdateAeonModifierValueScNotify = 5586,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueNousGetRogueTalentInfoScRsp)
+    CmdChessRogueNousGetRogueTalentInfoScRsp = 5422,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdPickRogueAvatarCsReq)
+    CmdPickRogueAvatarCsReq = 5402,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueNousEnableRogueTalentScRsp)
+    CmdChessRogueNousEnableRogueTalentScRsp = 5482,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueCellUpdateNotify)
+    CmdChessRogueCellUpdateNotify = 5509,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueUpdateActionPointScNotify)
+    CmdChessRogueUpdateActionPointScNotify = 5567,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueCheatRollScRsp)
+    CmdChessRogueCheatRollScRsp = 5522,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdSyncChessRogueMainStoryFinishScNotify)
+    CmdSyncChessRogueMainStoryFinishScNotify = 5411,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueReRollDiceCsReq)
+    CmdChessRogueReRollDiceCsReq = 5575,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdFinishChessRogueSubStoryCsReq)
+    CmdFinishChessRogueSubStoryCsReq = 5502,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueSkipTeachingLevelScRsp)
+    CmdChessRogueSkipTeachingLevelScRsp = 5580,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdGetChessRogueStoryInfoCsReq)
+    CmdGetChessRogueStoryInfoCsReq = 5523,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdEnterChessRogueAeonRoomCsReq)
+    CmdEnterChessRogueAeonRoomCsReq = 5545,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdGetRogueBuffEnhanceInfoScRsp)
+    CmdGetRogueBuffEnhanceInfoScRsp = 5546,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueUpdateDiceInfoScNotify)
+    CmdChessRogueUpdateDiceInfoScNotify = 5477,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueQuestFinishNotify)
+    CmdChessRogueQuestFinishNotify = 5598,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueEnterNextLayerCsReq)
+    CmdChessRogueEnterNextLayerCsReq = 5501,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdSyncChessRogueNousSubStoryScNotify)
+    CmdSyncChessRogueNousSubStoryScNotify = 5524,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueSkipTeachingLevelCsReq)
+    CmdChessRogueSkipTeachingLevelCsReq = 5416,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdGetRogueBuffEnhanceInfoCsReq)
+    CmdGetRogueBuffEnhanceInfoCsReq = 5442,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueNousGetRogueTalentInfoCsReq)
+    CmdChessRogueNousGetRogueTalentInfoCsReq = 5463,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueLeaveCsReq)
+    CmdChessRogueLeaveCsReq = 5454,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueStartScRsp)
+    CmdChessRogueStartScRsp = 5506,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdSyncChessRogueNousValueScNotify)
+    CmdSyncChessRogueNousValueScNotify = 5451,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdGetChessRogueStoryAeonTalkInfoCsReq)
+    CmdGetChessRogueStoryAeonTalkInfoCsReq = 5487,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdGetChessRogueNousStoryInfoScRsp)
+    CmdGetChessRogueNousStoryInfoScRsp = 5412,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.HOBAEPKFFPD_PGPDNLLBMJB)
+    HOBAEPKFFPD_PGPDNLLBMJB = 5562,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueSelectCellCsReq)
+    CmdChessRogueSelectCellCsReq = 5533,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.HOBAEPKFFPD_JJPPJBIKNBM)
+    HOBAEPKFFPD_JJPPJBIKNBM = 5455,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdChessRogueEnterScRsp)
+    CmdChessRogueEnterScRsp = 5459,
+    // @@protoc_insertion_point(enum_value:CmdChessRogueType.CmdResetRogueDiceSurfaceCsReq)
+    CmdResetRogueDiceSurfaceCsReq = 5565,
 }
 
 impl ::protobuf::Enum for CmdChessRogueType {
@@ -196,254 +196,254 @@ impl ::protobuf::Enum for CmdChessRogueType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdChessRogueType> {
         match value {
-            0 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_MNFEPONEDDJ),
-            5547 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_APBLBPFDEGH),
-            5538 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HCJDDLCDJOE),
-            5553 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OLFMCBCINFH),
-            5584 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_BDDEBHAJMMF),
-            5594 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_ICAJINGOAON),
-            5449 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_KNICDHMNDOB),
-            5572 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_MKEHCFHPFDD),
-            5492 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_COIAEEBPFNN),
-            5402 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NEMEENHMODE),
-            5532 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_CEBAPDNOGKP),
-            5574 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_AJPDHKIADCE),
-            5507 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HCJJPLAFBIH),
-            5582 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_JNEPALNMMHL),
-            5407 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_JBPBJDJONOA),
-            5481 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HLIDPKOEHDD),
-            5510 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NIFCKCCHNEC),
-            5536 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_ICAEGODDABJ),
-            5560 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_FKIEDOMAJNC),
-            5556 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_CAHMDIGNFBJ),
-            5471 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_BOLNFLCBOAI),
-            5591 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HDJFFLFLEBE),
-            5501 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NEAKEDLNBBH),
-            5420 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_CPCPJMHMAGM),
-            5600 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_FIAJGDJPNKK),
-            5595 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OGAPEDJICJP),
-            5575 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NOMJOEAAEJP),
-            5558 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_LNNLECJHHDC),
-            5433 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OFEFBLENFKH),
-            5569 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_ADFGONHLCAO),
-            5559 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_ODMBEHBJDEE),
-            5469 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_CAFIDCDFCKL),
-            5425 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_CKDIGHHELCM),
-            5487 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_JLBMLMJCLJP),
-            5477 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_BFECDDOJHGD),
-            5529 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_LGADOJGNCFP),
-            5539 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_KBEDDJOIKKE),
-            5446 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_PFKLFOHMNJP),
-            5434 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_FAMMFKMFHFI),
-            5514 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NDOLCDLAOMJ),
-            5511 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_PKENEMLKIAI),
-            5543 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_MMKGACAILDA),
-            5541 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_AOFLBDDDFDB),
-            5401 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_EDIFFAEDKDA),
-            5583 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_MEKKLFCLJMN),
-            5528 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_AHNGOJLIOIO),
-            5472 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_MFOLIJMHJAN),
-            5488 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_FINCCAGGFBG),
-            5438 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_AMNGDPGIEPL),
-            5451 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_GGJBPLKPMGK),
-            5430 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HANHOKHKICG),
-            5439 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_MGCCLPAKCKF),
-            5412 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NJMPOIEHAMM),
-            5500 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OKHJMHAHHJJ),
-            5497 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HKHBJABHFAK),
-            5533 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OLBMNECCNLC),
-            5441 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_LCLMLAHEMOO),
-            5432 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_ONKGHEFAMKH),
-            5403 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_DKJOMHIIONE),
-            5535 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NCJMPABANCJ),
-            5496 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_BODODCJBHFE),
-            5454 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NAHHFPDHPBA),
-            5517 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_DOCOKNGABFL),
-            5413 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HPJIFGCMLEO),
-            5521 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_CKJEADGMBNH),
-            5485 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OJCEACONKHP),
-            5415 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_MFDINMIBDFB),
-            5427 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_KFEPOGMCKEM),
-            5587 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_PKEJHPGCHCO),
-            5588 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_JKHEOCPFCFB),
-            5524 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_LAMMDKEAFCH),
-            5404 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HGBBFKLIPHA),
-            5493 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OLAOFFODGAH),
-            5494 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OGKDEDMDBJO),
-            5593 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_BKGFOLBPGAL),
-            5424 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OMFIJOMANBF),
-            5509 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_JBIODJCJLIC),
-            5480 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_AGNEIMEPKCN),
-            5468 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_KAHHIKGODDP),
+            0 => ::std::option::Option::Some(CmdChessRogueType::HOBAEPKFFPD_PCPDHELPKEM),
+            5532 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateReviveInfoScNotify),
+            5589 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueQueryScRsp),
+            5517 => ::std::option::Option::Some(CmdChessRogueType::CmdMNPAAKGHBEJ),
+            5449 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueEnterNextLayerScRsp),
+            5420 => ::std::option::Option::Some(CmdChessRogueType::CmdReviveRogueAvatarCsReq),
+            5410 => ::std::option::Option::Some(CmdChessRogueType::CmdSelectChessRogueSubStoryCsReq),
+            5475 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueLayerSettlement),
+            5435 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueLeaveScRsp),
+            5594 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateMoneyInfoScNotify),
+            5507 => ::std::option::Option::Some(CmdChessRogueType::CmdBNIBHAOJKBI),
+            5434 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueChangeAeonDimensionNotify),
+            5473 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueRollDiceScRsp),
+            5405 => ::std::option::Option::Some(CmdChessRogueType::CmdGetChessRogueStoryAeonTalkInfoScRsp),
+            5515 => ::std::option::Option::Some(CmdChessRogueType::CmdFinishChessRogueSubStoryScRsp),
+            5417 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueNousEditDiceScRsp),
+            5488 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueQuitCsReq),
+            5415 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueEnterCellCsReq),
+            5436 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueSelectCellScRsp),
+            5558 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueEnterCellScRsp),
+            5439 => ::std::option::Option::Some(CmdChessRogueType::CmdEnhanceRogueBuffCsReq),
+            5503 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateUnlockLevelScNotify),
+            5458 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueConfirmRollScRsp),
+            5481 => ::std::option::Option::Some(CmdChessRogueType::CmdSelectChessRogueSubStoryScRsp),
+            5572 => ::std::option::Option::Some(CmdChessRogueType::CmdPickRogueAvatarScRsp),
+            5540 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueQueryCsReq),
+            5514 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueEnterCsReq),
+            5541 => ::std::option::Option::Some(CmdChessRogueType::CmdGetChessRogueNousStoryInfoCsReq),
+            5441 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueNousDiceUpdateNotify),
+            5452 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateLevelBaseInfoScNotify),
+            5440 => ::std::option::Option::Some(CmdChessRogueType::CmdGetChessRogueStoryInfoScRsp),
+            5535 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueNousEnableRogueTalentCsReq),
+            5516 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueStartCsReq),
+            5518 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueNousDiceSurfaceUnlockNotify),
+            5407 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueReRollDiceScRsp),
+            5429 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueGiveUpCsReq),
+            5464 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueCheatRollCsReq),
+            5498 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueQuitScRsp),
+            5525 => ::std::option::Option::Some(CmdChessRogueType::CmdLCDOCKJGFCE),
+            5554 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueGiveUpScRsp),
+            5557 => ::std::option::Option::Some(CmdChessRogueType::CmdSyncChessRogueNousMainStoryScNotify),
+            5587 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueRollDiceCsReq),
+            5592 => ::std::option::Option::Some(CmdChessRogueType::CmdReviveRogueAvatarScRsp),
+            5401 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateAllowedSelectCellScNotify),
+            5414 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateDicePassiveAccumulateValueScNotify),
+            5511 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueConfirmRollCsReq),
+            5508 => ::std::option::Option::Some(CmdChessRogueType::CmdEnhanceRogueBuffScRsp),
+            5571 => ::std::option::Option::Some(CmdChessRogueType::CmdEnterChessRogueAeonRoomScRsp),
+            5586 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateAeonModifierValueScNotify),
+            5422 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueNousGetRogueTalentInfoScRsp),
+            5402 => ::std::option::Option::Some(CmdChessRogueType::CmdPickRogueAvatarCsReq),
+            5482 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueNousEnableRogueTalentScRsp),
+            5509 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueCellUpdateNotify),
+            5567 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateActionPointScNotify),
+            5522 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueCheatRollScRsp),
+            5411 => ::std::option::Option::Some(CmdChessRogueType::CmdSyncChessRogueMainStoryFinishScNotify),
+            5575 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueReRollDiceCsReq),
+            5502 => ::std::option::Option::Some(CmdChessRogueType::CmdFinishChessRogueSubStoryCsReq),
+            5580 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueSkipTeachingLevelScRsp),
+            5523 => ::std::option::Option::Some(CmdChessRogueType::CmdGetChessRogueStoryInfoCsReq),
+            5545 => ::std::option::Option::Some(CmdChessRogueType::CmdEnterChessRogueAeonRoomCsReq),
+            5546 => ::std::option::Option::Some(CmdChessRogueType::CmdGetRogueBuffEnhanceInfoScRsp),
+            5477 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateDiceInfoScNotify),
+            5598 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueQuestFinishNotify),
+            5501 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueEnterNextLayerCsReq),
+            5524 => ::std::option::Option::Some(CmdChessRogueType::CmdSyncChessRogueNousSubStoryScNotify),
+            5416 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueSkipTeachingLevelCsReq),
+            5442 => ::std::option::Option::Some(CmdChessRogueType::CmdGetRogueBuffEnhanceInfoCsReq),
+            5463 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueNousGetRogueTalentInfoCsReq),
+            5454 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueLeaveCsReq),
+            5506 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueStartScRsp),
+            5451 => ::std::option::Option::Some(CmdChessRogueType::CmdSyncChessRogueNousValueScNotify),
+            5487 => ::std::option::Option::Some(CmdChessRogueType::CmdGetChessRogueStoryAeonTalkInfoCsReq),
+            5412 => ::std::option::Option::Some(CmdChessRogueType::CmdGetChessRogueNousStoryInfoScRsp),
+            5562 => ::std::option::Option::Some(CmdChessRogueType::HOBAEPKFFPD_PGPDNLLBMJB),
+            5533 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueSelectCellCsReq),
+            5455 => ::std::option::Option::Some(CmdChessRogueType::HOBAEPKFFPD_JJPPJBIKNBM),
+            5459 => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueEnterScRsp),
+            5565 => ::std::option::Option::Some(CmdChessRogueType::CmdResetRogueDiceSurfaceCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdChessRogueType> {
         match str {
-            "CmdChessRogueType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_MNFEPONEDDJ),
-            "CmdChessRogueType_APBLBPFDEGH" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_APBLBPFDEGH),
-            "CmdChessRogueType_HCJDDLCDJOE" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HCJDDLCDJOE),
-            "CmdChessRogueType_OLFMCBCINFH" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OLFMCBCINFH),
-            "CmdChessRogueType_BDDEBHAJMMF" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_BDDEBHAJMMF),
-            "CmdChessRogueType_ICAJINGOAON" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_ICAJINGOAON),
-            "CmdChessRogueType_KNICDHMNDOB" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_KNICDHMNDOB),
-            "CmdChessRogueType_MKEHCFHPFDD" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_MKEHCFHPFDD),
-            "CmdChessRogueType_COIAEEBPFNN" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_COIAEEBPFNN),
-            "CmdChessRogueType_NEMEENHMODE" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NEMEENHMODE),
-            "CmdChessRogueType_CEBAPDNOGKP" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_CEBAPDNOGKP),
-            "CmdChessRogueType_AJPDHKIADCE" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_AJPDHKIADCE),
-            "CmdChessRogueType_HCJJPLAFBIH" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HCJJPLAFBIH),
-            "CmdChessRogueType_JNEPALNMMHL" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_JNEPALNMMHL),
-            "CmdChessRogueType_JBPBJDJONOA" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_JBPBJDJONOA),
-            "CmdChessRogueType_HLIDPKOEHDD" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HLIDPKOEHDD),
-            "CmdChessRogueType_NIFCKCCHNEC" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NIFCKCCHNEC),
-            "CmdChessRogueType_ICAEGODDABJ" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_ICAEGODDABJ),
-            "CmdChessRogueType_FKIEDOMAJNC" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_FKIEDOMAJNC),
-            "CmdChessRogueType_CAHMDIGNFBJ" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_CAHMDIGNFBJ),
-            "CmdChessRogueType_BOLNFLCBOAI" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_BOLNFLCBOAI),
-            "CmdChessRogueType_HDJFFLFLEBE" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HDJFFLFLEBE),
-            "CmdChessRogueType_NEAKEDLNBBH" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NEAKEDLNBBH),
-            "CmdChessRogueType_CPCPJMHMAGM" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_CPCPJMHMAGM),
-            "CmdChessRogueType_FIAJGDJPNKK" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_FIAJGDJPNKK),
-            "CmdChessRogueType_OGAPEDJICJP" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OGAPEDJICJP),
-            "CmdChessRogueType_NOMJOEAAEJP" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NOMJOEAAEJP),
-            "CmdChessRogueType_LNNLECJHHDC" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_LNNLECJHHDC),
-            "CmdChessRogueType_OFEFBLENFKH" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OFEFBLENFKH),
-            "CmdChessRogueType_ADFGONHLCAO" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_ADFGONHLCAO),
-            "CmdChessRogueType_ODMBEHBJDEE" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_ODMBEHBJDEE),
-            "CmdChessRogueType_CAFIDCDFCKL" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_CAFIDCDFCKL),
-            "CmdChessRogueType_CKDIGHHELCM" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_CKDIGHHELCM),
-            "CmdChessRogueType_JLBMLMJCLJP" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_JLBMLMJCLJP),
-            "CmdChessRogueType_BFECDDOJHGD" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_BFECDDOJHGD),
-            "CmdChessRogueType_LGADOJGNCFP" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_LGADOJGNCFP),
-            "CmdChessRogueType_KBEDDJOIKKE" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_KBEDDJOIKKE),
-            "CmdChessRogueType_PFKLFOHMNJP" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_PFKLFOHMNJP),
-            "CmdChessRogueType_FAMMFKMFHFI" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_FAMMFKMFHFI),
-            "CmdChessRogueType_NDOLCDLAOMJ" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NDOLCDLAOMJ),
-            "CmdChessRogueType_PKENEMLKIAI" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_PKENEMLKIAI),
-            "CmdChessRogueType_MMKGACAILDA" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_MMKGACAILDA),
-            "CmdChessRogueType_AOFLBDDDFDB" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_AOFLBDDDFDB),
-            "CmdChessRogueType_EDIFFAEDKDA" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_EDIFFAEDKDA),
-            "CmdChessRogueType_MEKKLFCLJMN" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_MEKKLFCLJMN),
-            "CmdChessRogueType_AHNGOJLIOIO" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_AHNGOJLIOIO),
-            "CmdChessRogueType_MFOLIJMHJAN" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_MFOLIJMHJAN),
-            "CmdChessRogueType_FINCCAGGFBG" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_FINCCAGGFBG),
-            "CmdChessRogueType_AMNGDPGIEPL" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_AMNGDPGIEPL),
-            "CmdChessRogueType_GGJBPLKPMGK" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_GGJBPLKPMGK),
-            "CmdChessRogueType_HANHOKHKICG" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HANHOKHKICG),
-            "CmdChessRogueType_MGCCLPAKCKF" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_MGCCLPAKCKF),
-            "CmdChessRogueType_NJMPOIEHAMM" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NJMPOIEHAMM),
-            "CmdChessRogueType_OKHJMHAHHJJ" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OKHJMHAHHJJ),
-            "CmdChessRogueType_HKHBJABHFAK" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HKHBJABHFAK),
-            "CmdChessRogueType_OLBMNECCNLC" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OLBMNECCNLC),
-            "CmdChessRogueType_LCLMLAHEMOO" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_LCLMLAHEMOO),
-            "CmdChessRogueType_ONKGHEFAMKH" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_ONKGHEFAMKH),
-            "CmdChessRogueType_DKJOMHIIONE" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_DKJOMHIIONE),
-            "CmdChessRogueType_NCJMPABANCJ" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NCJMPABANCJ),
-            "CmdChessRogueType_BODODCJBHFE" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_BODODCJBHFE),
-            "CmdChessRogueType_NAHHFPDHPBA" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_NAHHFPDHPBA),
-            "CmdChessRogueType_DOCOKNGABFL" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_DOCOKNGABFL),
-            "CmdChessRogueType_HPJIFGCMLEO" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HPJIFGCMLEO),
-            "CmdChessRogueType_CKJEADGMBNH" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_CKJEADGMBNH),
-            "CmdChessRogueType_OJCEACONKHP" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OJCEACONKHP),
-            "CmdChessRogueType_MFDINMIBDFB" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_MFDINMIBDFB),
-            "CmdChessRogueType_KFEPOGMCKEM" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_KFEPOGMCKEM),
-            "CmdChessRogueType_PKEJHPGCHCO" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_PKEJHPGCHCO),
-            "CmdChessRogueType_JKHEOCPFCFB" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_JKHEOCPFCFB),
-            "CmdChessRogueType_LAMMDKEAFCH" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_LAMMDKEAFCH),
-            "CmdChessRogueType_HGBBFKLIPHA" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_HGBBFKLIPHA),
-            "CmdChessRogueType_OLAOFFODGAH" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OLAOFFODGAH),
-            "CmdChessRogueType_OGKDEDMDBJO" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OGKDEDMDBJO),
-            "CmdChessRogueType_BKGFOLBPGAL" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_BKGFOLBPGAL),
-            "CmdChessRogueType_OMFIJOMANBF" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_OMFIJOMANBF),
-            "CmdChessRogueType_JBIODJCJLIC" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_JBIODJCJLIC),
-            "CmdChessRogueType_AGNEIMEPKCN" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_AGNEIMEPKCN),
-            "CmdChessRogueType_KAHHIKGODDP" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueType_KAHHIKGODDP),
+            "HOBAEPKFFPD_PCPDHELPKEM" => ::std::option::Option::Some(CmdChessRogueType::HOBAEPKFFPD_PCPDHELPKEM),
+            "CmdChessRogueUpdateReviveInfoScNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateReviveInfoScNotify),
+            "CmdChessRogueQueryScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueQueryScRsp),
+            "CmdMNPAAKGHBEJ" => ::std::option::Option::Some(CmdChessRogueType::CmdMNPAAKGHBEJ),
+            "CmdChessRogueEnterNextLayerScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueEnterNextLayerScRsp),
+            "CmdReviveRogueAvatarCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdReviveRogueAvatarCsReq),
+            "CmdSelectChessRogueSubStoryCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdSelectChessRogueSubStoryCsReq),
+            "CmdChessRogueLayerSettlement" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueLayerSettlement),
+            "CmdChessRogueLeaveScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueLeaveScRsp),
+            "CmdChessRogueUpdateMoneyInfoScNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateMoneyInfoScNotify),
+            "CmdBNIBHAOJKBI" => ::std::option::Option::Some(CmdChessRogueType::CmdBNIBHAOJKBI),
+            "CmdChessRogueChangeAeonDimensionNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueChangeAeonDimensionNotify),
+            "CmdChessRogueRollDiceScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueRollDiceScRsp),
+            "CmdGetChessRogueStoryAeonTalkInfoScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdGetChessRogueStoryAeonTalkInfoScRsp),
+            "CmdFinishChessRogueSubStoryScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdFinishChessRogueSubStoryScRsp),
+            "CmdChessRogueNousEditDiceScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueNousEditDiceScRsp),
+            "CmdChessRogueQuitCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueQuitCsReq),
+            "CmdChessRogueEnterCellCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueEnterCellCsReq),
+            "CmdChessRogueSelectCellScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueSelectCellScRsp),
+            "CmdChessRogueEnterCellScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueEnterCellScRsp),
+            "CmdEnhanceRogueBuffCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdEnhanceRogueBuffCsReq),
+            "CmdChessRogueUpdateUnlockLevelScNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateUnlockLevelScNotify),
+            "CmdChessRogueConfirmRollScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueConfirmRollScRsp),
+            "CmdSelectChessRogueSubStoryScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdSelectChessRogueSubStoryScRsp),
+            "CmdPickRogueAvatarScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdPickRogueAvatarScRsp),
+            "CmdChessRogueQueryCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueQueryCsReq),
+            "CmdChessRogueEnterCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueEnterCsReq),
+            "CmdGetChessRogueNousStoryInfoCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdGetChessRogueNousStoryInfoCsReq),
+            "CmdChessRogueNousDiceUpdateNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueNousDiceUpdateNotify),
+            "CmdChessRogueUpdateLevelBaseInfoScNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateLevelBaseInfoScNotify),
+            "CmdGetChessRogueStoryInfoScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdGetChessRogueStoryInfoScRsp),
+            "CmdChessRogueNousEnableRogueTalentCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueNousEnableRogueTalentCsReq),
+            "CmdChessRogueStartCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueStartCsReq),
+            "CmdChessRogueNousDiceSurfaceUnlockNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueNousDiceSurfaceUnlockNotify),
+            "CmdChessRogueReRollDiceScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueReRollDiceScRsp),
+            "CmdChessRogueGiveUpCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueGiveUpCsReq),
+            "CmdChessRogueCheatRollCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueCheatRollCsReq),
+            "CmdChessRogueQuitScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueQuitScRsp),
+            "CmdLCDOCKJGFCE" => ::std::option::Option::Some(CmdChessRogueType::CmdLCDOCKJGFCE),
+            "CmdChessRogueGiveUpScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueGiveUpScRsp),
+            "CmdSyncChessRogueNousMainStoryScNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdSyncChessRogueNousMainStoryScNotify),
+            "CmdChessRogueRollDiceCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueRollDiceCsReq),
+            "CmdReviveRogueAvatarScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdReviveRogueAvatarScRsp),
+            "CmdChessRogueUpdateAllowedSelectCellScNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateAllowedSelectCellScNotify),
+            "CmdChessRogueUpdateDicePassiveAccumulateValueScNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateDicePassiveAccumulateValueScNotify),
+            "CmdChessRogueConfirmRollCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueConfirmRollCsReq),
+            "CmdEnhanceRogueBuffScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdEnhanceRogueBuffScRsp),
+            "CmdEnterChessRogueAeonRoomScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdEnterChessRogueAeonRoomScRsp),
+            "CmdChessRogueUpdateAeonModifierValueScNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateAeonModifierValueScNotify),
+            "CmdChessRogueNousGetRogueTalentInfoScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueNousGetRogueTalentInfoScRsp),
+            "CmdPickRogueAvatarCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdPickRogueAvatarCsReq),
+            "CmdChessRogueNousEnableRogueTalentScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueNousEnableRogueTalentScRsp),
+            "CmdChessRogueCellUpdateNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueCellUpdateNotify),
+            "CmdChessRogueUpdateActionPointScNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateActionPointScNotify),
+            "CmdChessRogueCheatRollScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueCheatRollScRsp),
+            "CmdSyncChessRogueMainStoryFinishScNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdSyncChessRogueMainStoryFinishScNotify),
+            "CmdChessRogueReRollDiceCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueReRollDiceCsReq),
+            "CmdFinishChessRogueSubStoryCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdFinishChessRogueSubStoryCsReq),
+            "CmdChessRogueSkipTeachingLevelScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueSkipTeachingLevelScRsp),
+            "CmdGetChessRogueStoryInfoCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdGetChessRogueStoryInfoCsReq),
+            "CmdEnterChessRogueAeonRoomCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdEnterChessRogueAeonRoomCsReq),
+            "CmdGetRogueBuffEnhanceInfoScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdGetRogueBuffEnhanceInfoScRsp),
+            "CmdChessRogueUpdateDiceInfoScNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueUpdateDiceInfoScNotify),
+            "CmdChessRogueQuestFinishNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueQuestFinishNotify),
+            "CmdChessRogueEnterNextLayerCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueEnterNextLayerCsReq),
+            "CmdSyncChessRogueNousSubStoryScNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdSyncChessRogueNousSubStoryScNotify),
+            "CmdChessRogueSkipTeachingLevelCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueSkipTeachingLevelCsReq),
+            "CmdGetRogueBuffEnhanceInfoCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdGetRogueBuffEnhanceInfoCsReq),
+            "CmdChessRogueNousGetRogueTalentInfoCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueNousGetRogueTalentInfoCsReq),
+            "CmdChessRogueLeaveCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueLeaveCsReq),
+            "CmdChessRogueStartScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueStartScRsp),
+            "CmdSyncChessRogueNousValueScNotify" => ::std::option::Option::Some(CmdChessRogueType::CmdSyncChessRogueNousValueScNotify),
+            "CmdGetChessRogueStoryAeonTalkInfoCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdGetChessRogueStoryAeonTalkInfoCsReq),
+            "CmdGetChessRogueNousStoryInfoScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdGetChessRogueNousStoryInfoScRsp),
+            "HOBAEPKFFPD_PGPDNLLBMJB" => ::std::option::Option::Some(CmdChessRogueType::HOBAEPKFFPD_PGPDNLLBMJB),
+            "CmdChessRogueSelectCellCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueSelectCellCsReq),
+            "HOBAEPKFFPD_JJPPJBIKNBM" => ::std::option::Option::Some(CmdChessRogueType::HOBAEPKFFPD_JJPPJBIKNBM),
+            "CmdChessRogueEnterScRsp" => ::std::option::Option::Some(CmdChessRogueType::CmdChessRogueEnterScRsp),
+            "CmdResetRogueDiceSurfaceCsReq" => ::std::option::Option::Some(CmdChessRogueType::CmdResetRogueDiceSurfaceCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdChessRogueType] = &[
-        CmdChessRogueType::CmdChessRogueType_MNFEPONEDDJ,
-        CmdChessRogueType::CmdChessRogueType_APBLBPFDEGH,
-        CmdChessRogueType::CmdChessRogueType_HCJDDLCDJOE,
-        CmdChessRogueType::CmdChessRogueType_OLFMCBCINFH,
-        CmdChessRogueType::CmdChessRogueType_BDDEBHAJMMF,
-        CmdChessRogueType::CmdChessRogueType_ICAJINGOAON,
-        CmdChessRogueType::CmdChessRogueType_KNICDHMNDOB,
-        CmdChessRogueType::CmdChessRogueType_MKEHCFHPFDD,
-        CmdChessRogueType::CmdChessRogueType_COIAEEBPFNN,
-        CmdChessRogueType::CmdChessRogueType_NEMEENHMODE,
-        CmdChessRogueType::CmdChessRogueType_CEBAPDNOGKP,
-        CmdChessRogueType::CmdChessRogueType_AJPDHKIADCE,
-        CmdChessRogueType::CmdChessRogueType_HCJJPLAFBIH,
-        CmdChessRogueType::CmdChessRogueType_JNEPALNMMHL,
-        CmdChessRogueType::CmdChessRogueType_JBPBJDJONOA,
-        CmdChessRogueType::CmdChessRogueType_HLIDPKOEHDD,
-        CmdChessRogueType::CmdChessRogueType_NIFCKCCHNEC,
-        CmdChessRogueType::CmdChessRogueType_ICAEGODDABJ,
-        CmdChessRogueType::CmdChessRogueType_FKIEDOMAJNC,
-        CmdChessRogueType::CmdChessRogueType_CAHMDIGNFBJ,
-        CmdChessRogueType::CmdChessRogueType_BOLNFLCBOAI,
-        CmdChessRogueType::CmdChessRogueType_HDJFFLFLEBE,
-        CmdChessRogueType::CmdChessRogueType_NEAKEDLNBBH,
-        CmdChessRogueType::CmdChessRogueType_CPCPJMHMAGM,
-        CmdChessRogueType::CmdChessRogueType_FIAJGDJPNKK,
-        CmdChessRogueType::CmdChessRogueType_OGAPEDJICJP,
-        CmdChessRogueType::CmdChessRogueType_NOMJOEAAEJP,
-        CmdChessRogueType::CmdChessRogueType_LNNLECJHHDC,
-        CmdChessRogueType::CmdChessRogueType_OFEFBLENFKH,
-        CmdChessRogueType::CmdChessRogueType_ADFGONHLCAO,
-        CmdChessRogueType::CmdChessRogueType_ODMBEHBJDEE,
-        CmdChessRogueType::CmdChessRogueType_CAFIDCDFCKL,
-        CmdChessRogueType::CmdChessRogueType_CKDIGHHELCM,
-        CmdChessRogueType::CmdChessRogueType_JLBMLMJCLJP,
-        CmdChessRogueType::CmdChessRogueType_BFECDDOJHGD,
-        CmdChessRogueType::CmdChessRogueType_LGADOJGNCFP,
-        CmdChessRogueType::CmdChessRogueType_KBEDDJOIKKE,
-        CmdChessRogueType::CmdChessRogueType_PFKLFOHMNJP,
-        CmdChessRogueType::CmdChessRogueType_FAMMFKMFHFI,
-        CmdChessRogueType::CmdChessRogueType_NDOLCDLAOMJ,
-        CmdChessRogueType::CmdChessRogueType_PKENEMLKIAI,
-        CmdChessRogueType::CmdChessRogueType_MMKGACAILDA,
-        CmdChessRogueType::CmdChessRogueType_AOFLBDDDFDB,
-        CmdChessRogueType::CmdChessRogueType_EDIFFAEDKDA,
-        CmdChessRogueType::CmdChessRogueType_MEKKLFCLJMN,
-        CmdChessRogueType::CmdChessRogueType_AHNGOJLIOIO,
-        CmdChessRogueType::CmdChessRogueType_MFOLIJMHJAN,
-        CmdChessRogueType::CmdChessRogueType_FINCCAGGFBG,
-        CmdChessRogueType::CmdChessRogueType_AMNGDPGIEPL,
-        CmdChessRogueType::CmdChessRogueType_GGJBPLKPMGK,
-        CmdChessRogueType::CmdChessRogueType_HANHOKHKICG,
-        CmdChessRogueType::CmdChessRogueType_MGCCLPAKCKF,
-        CmdChessRogueType::CmdChessRogueType_NJMPOIEHAMM,
-        CmdChessRogueType::CmdChessRogueType_OKHJMHAHHJJ,
-        CmdChessRogueType::CmdChessRogueType_HKHBJABHFAK,
-        CmdChessRogueType::CmdChessRogueType_OLBMNECCNLC,
-        CmdChessRogueType::CmdChessRogueType_LCLMLAHEMOO,
-        CmdChessRogueType::CmdChessRogueType_ONKGHEFAMKH,
-        CmdChessRogueType::CmdChessRogueType_DKJOMHIIONE,
-        CmdChessRogueType::CmdChessRogueType_NCJMPABANCJ,
-        CmdChessRogueType::CmdChessRogueType_BODODCJBHFE,
-        CmdChessRogueType::CmdChessRogueType_NAHHFPDHPBA,
-        CmdChessRogueType::CmdChessRogueType_DOCOKNGABFL,
-        CmdChessRogueType::CmdChessRogueType_HPJIFGCMLEO,
-        CmdChessRogueType::CmdChessRogueType_CKJEADGMBNH,
-        CmdChessRogueType::CmdChessRogueType_OJCEACONKHP,
-        CmdChessRogueType::CmdChessRogueType_MFDINMIBDFB,
-        CmdChessRogueType::CmdChessRogueType_KFEPOGMCKEM,
-        CmdChessRogueType::CmdChessRogueType_PKEJHPGCHCO,
-        CmdChessRogueType::CmdChessRogueType_JKHEOCPFCFB,
-        CmdChessRogueType::CmdChessRogueType_LAMMDKEAFCH,
-        CmdChessRogueType::CmdChessRogueType_HGBBFKLIPHA,
-        CmdChessRogueType::CmdChessRogueType_OLAOFFODGAH,
-        CmdChessRogueType::CmdChessRogueType_OGKDEDMDBJO,
-        CmdChessRogueType::CmdChessRogueType_BKGFOLBPGAL,
-        CmdChessRogueType::CmdChessRogueType_OMFIJOMANBF,
-        CmdChessRogueType::CmdChessRogueType_JBIODJCJLIC,
-        CmdChessRogueType::CmdChessRogueType_AGNEIMEPKCN,
-        CmdChessRogueType::CmdChessRogueType_KAHHIKGODDP,
+        CmdChessRogueType::HOBAEPKFFPD_PCPDHELPKEM,
+        CmdChessRogueType::CmdChessRogueUpdateReviveInfoScNotify,
+        CmdChessRogueType::CmdChessRogueQueryScRsp,
+        CmdChessRogueType::CmdMNPAAKGHBEJ,
+        CmdChessRogueType::CmdChessRogueEnterNextLayerScRsp,
+        CmdChessRogueType::CmdReviveRogueAvatarCsReq,
+        CmdChessRogueType::CmdSelectChessRogueSubStoryCsReq,
+        CmdChessRogueType::CmdChessRogueLayerSettlement,
+        CmdChessRogueType::CmdChessRogueLeaveScRsp,
+        CmdChessRogueType::CmdChessRogueUpdateMoneyInfoScNotify,
+        CmdChessRogueType::CmdBNIBHAOJKBI,
+        CmdChessRogueType::CmdChessRogueChangeAeonDimensionNotify,
+        CmdChessRogueType::CmdChessRogueRollDiceScRsp,
+        CmdChessRogueType::CmdGetChessRogueStoryAeonTalkInfoScRsp,
+        CmdChessRogueType::CmdFinishChessRogueSubStoryScRsp,
+        CmdChessRogueType::CmdChessRogueNousEditDiceScRsp,
+        CmdChessRogueType::CmdChessRogueQuitCsReq,
+        CmdChessRogueType::CmdChessRogueEnterCellCsReq,
+        CmdChessRogueType::CmdChessRogueSelectCellScRsp,
+        CmdChessRogueType::CmdChessRogueEnterCellScRsp,
+        CmdChessRogueType::CmdEnhanceRogueBuffCsReq,
+        CmdChessRogueType::CmdChessRogueUpdateUnlockLevelScNotify,
+        CmdChessRogueType::CmdChessRogueConfirmRollScRsp,
+        CmdChessRogueType::CmdSelectChessRogueSubStoryScRsp,
+        CmdChessRogueType::CmdPickRogueAvatarScRsp,
+        CmdChessRogueType::CmdChessRogueQueryCsReq,
+        CmdChessRogueType::CmdChessRogueEnterCsReq,
+        CmdChessRogueType::CmdGetChessRogueNousStoryInfoCsReq,
+        CmdChessRogueType::CmdChessRogueNousDiceUpdateNotify,
+        CmdChessRogueType::CmdChessRogueUpdateLevelBaseInfoScNotify,
+        CmdChessRogueType::CmdGetChessRogueStoryInfoScRsp,
+        CmdChessRogueType::CmdChessRogueNousEnableRogueTalentCsReq,
+        CmdChessRogueType::CmdChessRogueStartCsReq,
+        CmdChessRogueType::CmdChessRogueNousDiceSurfaceUnlockNotify,
+        CmdChessRogueType::CmdChessRogueReRollDiceScRsp,
+        CmdChessRogueType::CmdChessRogueGiveUpCsReq,
+        CmdChessRogueType::CmdChessRogueCheatRollCsReq,
+        CmdChessRogueType::CmdChessRogueQuitScRsp,
+        CmdChessRogueType::CmdLCDOCKJGFCE,
+        CmdChessRogueType::CmdChessRogueGiveUpScRsp,
+        CmdChessRogueType::CmdSyncChessRogueNousMainStoryScNotify,
+        CmdChessRogueType::CmdChessRogueRollDiceCsReq,
+        CmdChessRogueType::CmdReviveRogueAvatarScRsp,
+        CmdChessRogueType::CmdChessRogueUpdateAllowedSelectCellScNotify,
+        CmdChessRogueType::CmdChessRogueUpdateDicePassiveAccumulateValueScNotify,
+        CmdChessRogueType::CmdChessRogueConfirmRollCsReq,
+        CmdChessRogueType::CmdEnhanceRogueBuffScRsp,
+        CmdChessRogueType::CmdEnterChessRogueAeonRoomScRsp,
+        CmdChessRogueType::CmdChessRogueUpdateAeonModifierValueScNotify,
+        CmdChessRogueType::CmdChessRogueNousGetRogueTalentInfoScRsp,
+        CmdChessRogueType::CmdPickRogueAvatarCsReq,
+        CmdChessRogueType::CmdChessRogueNousEnableRogueTalentScRsp,
+        CmdChessRogueType::CmdChessRogueCellUpdateNotify,
+        CmdChessRogueType::CmdChessRogueUpdateActionPointScNotify,
+        CmdChessRogueType::CmdChessRogueCheatRollScRsp,
+        CmdChessRogueType::CmdSyncChessRogueMainStoryFinishScNotify,
+        CmdChessRogueType::CmdChessRogueReRollDiceCsReq,
+        CmdChessRogueType::CmdFinishChessRogueSubStoryCsReq,
+        CmdChessRogueType::CmdChessRogueSkipTeachingLevelScRsp,
+        CmdChessRogueType::CmdGetChessRogueStoryInfoCsReq,
+        CmdChessRogueType::CmdEnterChessRogueAeonRoomCsReq,
+        CmdChessRogueType::CmdGetRogueBuffEnhanceInfoScRsp,
+        CmdChessRogueType::CmdChessRogueUpdateDiceInfoScNotify,
+        CmdChessRogueType::CmdChessRogueQuestFinishNotify,
+        CmdChessRogueType::CmdChessRogueEnterNextLayerCsReq,
+        CmdChessRogueType::CmdSyncChessRogueNousSubStoryScNotify,
+        CmdChessRogueType::CmdChessRogueSkipTeachingLevelCsReq,
+        CmdChessRogueType::CmdGetRogueBuffEnhanceInfoCsReq,
+        CmdChessRogueType::CmdChessRogueNousGetRogueTalentInfoCsReq,
+        CmdChessRogueType::CmdChessRogueLeaveCsReq,
+        CmdChessRogueType::CmdChessRogueStartScRsp,
+        CmdChessRogueType::CmdSyncChessRogueNousValueScNotify,
+        CmdChessRogueType::CmdGetChessRogueStoryAeonTalkInfoCsReq,
+        CmdChessRogueType::CmdGetChessRogueNousStoryInfoScRsp,
+        CmdChessRogueType::HOBAEPKFFPD_PGPDNLLBMJB,
+        CmdChessRogueType::CmdChessRogueSelectCellCsReq,
+        CmdChessRogueType::HOBAEPKFFPD_JJPPJBIKNBM,
+        CmdChessRogueType::CmdChessRogueEnterScRsp,
+        CmdChessRogueType::CmdResetRogueDiceSurfaceCsReq,
     ];
 }
 
@@ -455,85 +455,85 @@ impl ::protobuf::EnumFull for CmdChessRogueType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdChessRogueType::CmdChessRogueType_MNFEPONEDDJ => 0,
-            CmdChessRogueType::CmdChessRogueType_APBLBPFDEGH => 1,
-            CmdChessRogueType::CmdChessRogueType_HCJDDLCDJOE => 2,
-            CmdChessRogueType::CmdChessRogueType_OLFMCBCINFH => 3,
-            CmdChessRogueType::CmdChessRogueType_BDDEBHAJMMF => 4,
-            CmdChessRogueType::CmdChessRogueType_ICAJINGOAON => 5,
-            CmdChessRogueType::CmdChessRogueType_KNICDHMNDOB => 6,
-            CmdChessRogueType::CmdChessRogueType_MKEHCFHPFDD => 7,
-            CmdChessRogueType::CmdChessRogueType_COIAEEBPFNN => 8,
-            CmdChessRogueType::CmdChessRogueType_NEMEENHMODE => 9,
-            CmdChessRogueType::CmdChessRogueType_CEBAPDNOGKP => 10,
-            CmdChessRogueType::CmdChessRogueType_AJPDHKIADCE => 11,
-            CmdChessRogueType::CmdChessRogueType_HCJJPLAFBIH => 12,
-            CmdChessRogueType::CmdChessRogueType_JNEPALNMMHL => 13,
-            CmdChessRogueType::CmdChessRogueType_JBPBJDJONOA => 14,
-            CmdChessRogueType::CmdChessRogueType_HLIDPKOEHDD => 15,
-            CmdChessRogueType::CmdChessRogueType_NIFCKCCHNEC => 16,
-            CmdChessRogueType::CmdChessRogueType_ICAEGODDABJ => 17,
-            CmdChessRogueType::CmdChessRogueType_FKIEDOMAJNC => 18,
-            CmdChessRogueType::CmdChessRogueType_CAHMDIGNFBJ => 19,
-            CmdChessRogueType::CmdChessRogueType_BOLNFLCBOAI => 20,
-            CmdChessRogueType::CmdChessRogueType_HDJFFLFLEBE => 21,
-            CmdChessRogueType::CmdChessRogueType_NEAKEDLNBBH => 22,
-            CmdChessRogueType::CmdChessRogueType_CPCPJMHMAGM => 23,
-            CmdChessRogueType::CmdChessRogueType_FIAJGDJPNKK => 24,
-            CmdChessRogueType::CmdChessRogueType_OGAPEDJICJP => 25,
-            CmdChessRogueType::CmdChessRogueType_NOMJOEAAEJP => 26,
-            CmdChessRogueType::CmdChessRogueType_LNNLECJHHDC => 27,
-            CmdChessRogueType::CmdChessRogueType_OFEFBLENFKH => 28,
-            CmdChessRogueType::CmdChessRogueType_ADFGONHLCAO => 29,
-            CmdChessRogueType::CmdChessRogueType_ODMBEHBJDEE => 30,
-            CmdChessRogueType::CmdChessRogueType_CAFIDCDFCKL => 31,
-            CmdChessRogueType::CmdChessRogueType_CKDIGHHELCM => 32,
-            CmdChessRogueType::CmdChessRogueType_JLBMLMJCLJP => 33,
-            CmdChessRogueType::CmdChessRogueType_BFECDDOJHGD => 34,
-            CmdChessRogueType::CmdChessRogueType_LGADOJGNCFP => 35,
-            CmdChessRogueType::CmdChessRogueType_KBEDDJOIKKE => 36,
-            CmdChessRogueType::CmdChessRogueType_PFKLFOHMNJP => 37,
-            CmdChessRogueType::CmdChessRogueType_FAMMFKMFHFI => 38,
-            CmdChessRogueType::CmdChessRogueType_NDOLCDLAOMJ => 39,
-            CmdChessRogueType::CmdChessRogueType_PKENEMLKIAI => 40,
-            CmdChessRogueType::CmdChessRogueType_MMKGACAILDA => 41,
-            CmdChessRogueType::CmdChessRogueType_AOFLBDDDFDB => 42,
-            CmdChessRogueType::CmdChessRogueType_EDIFFAEDKDA => 43,
-            CmdChessRogueType::CmdChessRogueType_MEKKLFCLJMN => 44,
-            CmdChessRogueType::CmdChessRogueType_AHNGOJLIOIO => 45,
-            CmdChessRogueType::CmdChessRogueType_MFOLIJMHJAN => 46,
-            CmdChessRogueType::CmdChessRogueType_FINCCAGGFBG => 47,
-            CmdChessRogueType::CmdChessRogueType_AMNGDPGIEPL => 48,
-            CmdChessRogueType::CmdChessRogueType_GGJBPLKPMGK => 49,
-            CmdChessRogueType::CmdChessRogueType_HANHOKHKICG => 50,
-            CmdChessRogueType::CmdChessRogueType_MGCCLPAKCKF => 51,
-            CmdChessRogueType::CmdChessRogueType_NJMPOIEHAMM => 52,
-            CmdChessRogueType::CmdChessRogueType_OKHJMHAHHJJ => 53,
-            CmdChessRogueType::CmdChessRogueType_HKHBJABHFAK => 54,
-            CmdChessRogueType::CmdChessRogueType_OLBMNECCNLC => 55,
-            CmdChessRogueType::CmdChessRogueType_LCLMLAHEMOO => 56,
-            CmdChessRogueType::CmdChessRogueType_ONKGHEFAMKH => 57,
-            CmdChessRogueType::CmdChessRogueType_DKJOMHIIONE => 58,
-            CmdChessRogueType::CmdChessRogueType_NCJMPABANCJ => 59,
-            CmdChessRogueType::CmdChessRogueType_BODODCJBHFE => 60,
-            CmdChessRogueType::CmdChessRogueType_NAHHFPDHPBA => 61,
-            CmdChessRogueType::CmdChessRogueType_DOCOKNGABFL => 62,
-            CmdChessRogueType::CmdChessRogueType_HPJIFGCMLEO => 63,
-            CmdChessRogueType::CmdChessRogueType_CKJEADGMBNH => 64,
-            CmdChessRogueType::CmdChessRogueType_OJCEACONKHP => 65,
-            CmdChessRogueType::CmdChessRogueType_MFDINMIBDFB => 66,
-            CmdChessRogueType::CmdChessRogueType_KFEPOGMCKEM => 67,
-            CmdChessRogueType::CmdChessRogueType_PKEJHPGCHCO => 68,
-            CmdChessRogueType::CmdChessRogueType_JKHEOCPFCFB => 69,
-            CmdChessRogueType::CmdChessRogueType_LAMMDKEAFCH => 70,
-            CmdChessRogueType::CmdChessRogueType_HGBBFKLIPHA => 71,
-            CmdChessRogueType::CmdChessRogueType_OLAOFFODGAH => 72,
-            CmdChessRogueType::CmdChessRogueType_OGKDEDMDBJO => 73,
-            CmdChessRogueType::CmdChessRogueType_BKGFOLBPGAL => 74,
-            CmdChessRogueType::CmdChessRogueType_OMFIJOMANBF => 75,
-            CmdChessRogueType::CmdChessRogueType_JBIODJCJLIC => 76,
-            CmdChessRogueType::CmdChessRogueType_AGNEIMEPKCN => 77,
-            CmdChessRogueType::CmdChessRogueType_KAHHIKGODDP => 78,
+            CmdChessRogueType::HOBAEPKFFPD_PCPDHELPKEM => 0,
+            CmdChessRogueType::CmdChessRogueUpdateReviveInfoScNotify => 1,
+            CmdChessRogueType::CmdChessRogueQueryScRsp => 2,
+            CmdChessRogueType::CmdMNPAAKGHBEJ => 3,
+            CmdChessRogueType::CmdChessRogueEnterNextLayerScRsp => 4,
+            CmdChessRogueType::CmdReviveRogueAvatarCsReq => 5,
+            CmdChessRogueType::CmdSelectChessRogueSubStoryCsReq => 6,
+            CmdChessRogueType::CmdChessRogueLayerSettlement => 7,
+            CmdChessRogueType::CmdChessRogueLeaveScRsp => 8,
+            CmdChessRogueType::CmdChessRogueUpdateMoneyInfoScNotify => 9,
+            CmdChessRogueType::CmdBNIBHAOJKBI => 10,
+            CmdChessRogueType::CmdChessRogueChangeAeonDimensionNotify => 11,
+            CmdChessRogueType::CmdChessRogueRollDiceScRsp => 12,
+            CmdChessRogueType::CmdGetChessRogueStoryAeonTalkInfoScRsp => 13,
+            CmdChessRogueType::CmdFinishChessRogueSubStoryScRsp => 14,
+            CmdChessRogueType::CmdChessRogueNousEditDiceScRsp => 15,
+            CmdChessRogueType::CmdChessRogueQuitCsReq => 16,
+            CmdChessRogueType::CmdChessRogueEnterCellCsReq => 17,
+            CmdChessRogueType::CmdChessRogueSelectCellScRsp => 18,
+            CmdChessRogueType::CmdChessRogueEnterCellScRsp => 19,
+            CmdChessRogueType::CmdEnhanceRogueBuffCsReq => 20,
+            CmdChessRogueType::CmdChessRogueUpdateUnlockLevelScNotify => 21,
+            CmdChessRogueType::CmdChessRogueConfirmRollScRsp => 22,
+            CmdChessRogueType::CmdSelectChessRogueSubStoryScRsp => 23,
+            CmdChessRogueType::CmdPickRogueAvatarScRsp => 24,
+            CmdChessRogueType::CmdChessRogueQueryCsReq => 25,
+            CmdChessRogueType::CmdChessRogueEnterCsReq => 26,
+            CmdChessRogueType::CmdGetChessRogueNousStoryInfoCsReq => 27,
+            CmdChessRogueType::CmdChessRogueNousDiceUpdateNotify => 28,
+            CmdChessRogueType::CmdChessRogueUpdateLevelBaseInfoScNotify => 29,
+            CmdChessRogueType::CmdGetChessRogueStoryInfoScRsp => 30,
+            CmdChessRogueType::CmdChessRogueNousEnableRogueTalentCsReq => 31,
+            CmdChessRogueType::CmdChessRogueStartCsReq => 32,
+            CmdChessRogueType::CmdChessRogueNousDiceSurfaceUnlockNotify => 33,
+            CmdChessRogueType::CmdChessRogueReRollDiceScRsp => 34,
+            CmdChessRogueType::CmdChessRogueGiveUpCsReq => 35,
+            CmdChessRogueType::CmdChessRogueCheatRollCsReq => 36,
+            CmdChessRogueType::CmdChessRogueQuitScRsp => 37,
+            CmdChessRogueType::CmdLCDOCKJGFCE => 38,
+            CmdChessRogueType::CmdChessRogueGiveUpScRsp => 39,
+            CmdChessRogueType::CmdSyncChessRogueNousMainStoryScNotify => 40,
+            CmdChessRogueType::CmdChessRogueRollDiceCsReq => 41,
+            CmdChessRogueType::CmdReviveRogueAvatarScRsp => 42,
+            CmdChessRogueType::CmdChessRogueUpdateAllowedSelectCellScNotify => 43,
+            CmdChessRogueType::CmdChessRogueUpdateDicePassiveAccumulateValueScNotify => 44,
+            CmdChessRogueType::CmdChessRogueConfirmRollCsReq => 45,
+            CmdChessRogueType::CmdEnhanceRogueBuffScRsp => 46,
+            CmdChessRogueType::CmdEnterChessRogueAeonRoomScRsp => 47,
+            CmdChessRogueType::CmdChessRogueUpdateAeonModifierValueScNotify => 48,
+            CmdChessRogueType::CmdChessRogueNousGetRogueTalentInfoScRsp => 49,
+            CmdChessRogueType::CmdPickRogueAvatarCsReq => 50,
+            CmdChessRogueType::CmdChessRogueNousEnableRogueTalentScRsp => 51,
+            CmdChessRogueType::CmdChessRogueCellUpdateNotify => 52,
+            CmdChessRogueType::CmdChessRogueUpdateActionPointScNotify => 53,
+            CmdChessRogueType::CmdChessRogueCheatRollScRsp => 54,
+            CmdChessRogueType::CmdSyncChessRogueMainStoryFinishScNotify => 55,
+            CmdChessRogueType::CmdChessRogueReRollDiceCsReq => 56,
+            CmdChessRogueType::CmdFinishChessRogueSubStoryCsReq => 57,
+            CmdChessRogueType::CmdChessRogueSkipTeachingLevelScRsp => 58,
+            CmdChessRogueType::CmdGetChessRogueStoryInfoCsReq => 59,
+            CmdChessRogueType::CmdEnterChessRogueAeonRoomCsReq => 60,
+            CmdChessRogueType::CmdGetRogueBuffEnhanceInfoScRsp => 61,
+            CmdChessRogueType::CmdChessRogueUpdateDiceInfoScNotify => 62,
+            CmdChessRogueType::CmdChessRogueQuestFinishNotify => 63,
+            CmdChessRogueType::CmdChessRogueEnterNextLayerCsReq => 64,
+            CmdChessRogueType::CmdSyncChessRogueNousSubStoryScNotify => 65,
+            CmdChessRogueType::CmdChessRogueSkipTeachingLevelCsReq => 66,
+            CmdChessRogueType::CmdGetRogueBuffEnhanceInfoCsReq => 67,
+            CmdChessRogueType::CmdChessRogueNousGetRogueTalentInfoCsReq => 68,
+            CmdChessRogueType::CmdChessRogueLeaveCsReq => 69,
+            CmdChessRogueType::CmdChessRogueStartScRsp => 70,
+            CmdChessRogueType::CmdSyncChessRogueNousValueScNotify => 71,
+            CmdChessRogueType::CmdGetChessRogueStoryAeonTalkInfoCsReq => 72,
+            CmdChessRogueType::CmdGetChessRogueNousStoryInfoScRsp => 73,
+            CmdChessRogueType::HOBAEPKFFPD_PGPDNLLBMJB => 74,
+            CmdChessRogueType::CmdChessRogueSelectCellCsReq => 75,
+            CmdChessRogueType::HOBAEPKFFPD_JJPPJBIKNBM => 76,
+            CmdChessRogueType::CmdChessRogueEnterScRsp => 77,
+            CmdChessRogueType::CmdResetRogueDiceSurfaceCsReq => 78,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -541,7 +541,7 @@ impl ::protobuf::EnumFull for CmdChessRogueType {
 
 impl ::std::default::Default for CmdChessRogueType {
     fn default() -> Self {
-        CmdChessRogueType::CmdChessRogueType_MNFEPONEDDJ
+        CmdChessRogueType::HOBAEPKFFPD_PCPDHELPKEM
     }
 }
 
@@ -552,63 +552,63 @@ impl CmdChessRogueType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x17CmdChessRogueType.proto*\xae\x16\n\x11CmdChessRogueType\x12!\n\x1d\
-    CmdChessRogueType_MNFEPONEDDJ\x10\0\x12\"\n\x1dCmdChessRogueType_APBLBPF\
-    DEGH\x10\xab+\x12\"\n\x1dCmdChessRogueType_HCJDDLCDJOE\x10\xa2+\x12\"\n\
-    \x1dCmdChessRogueType_OLFMCBCINFH\x10\xb1+\x12\"\n\x1dCmdChessRogueType_\
-    BDDEBHAJMMF\x10\xd0+\x12\"\n\x1dCmdChessRogueType_ICAJINGOAON\x10\xda+\
-    \x12\"\n\x1dCmdChessRogueType_KNICDHMNDOB\x10\xc9*\x12\"\n\x1dCmdChessRo\
-    gueType_MKEHCFHPFDD\x10\xc4+\x12\"\n\x1dCmdChessRogueType_COIAEEBPFNN\
-    \x10\xf4*\x12\"\n\x1dCmdChessRogueType_NEMEENHMODE\x10\x9a*\x12\"\n\x1dC\
-    mdChessRogueType_CEBAPDNOGKP\x10\x9c+\x12\"\n\x1dCmdChessRogueType_AJPDH\
-    KIADCE\x10\xc6+\x12\"\n\x1dCmdChessRogueType_HCJJPLAFBIH\x10\x83+\x12\"\
-    \n\x1dCmdChessRogueType_JNEPALNMMHL\x10\xce+\x12\"\n\x1dCmdChessRogueTyp\
-    e_JBPBJDJONOA\x10\x9f*\x12\"\n\x1dCmdChessRogueType_HLIDPKOEHDD\x10\xe9*\
-    \x12\"\n\x1dCmdChessRogueType_NIFCKCCHNEC\x10\x86+\x12\"\n\x1dCmdChessRo\
-    gueType_ICAEGODDABJ\x10\xa0+\x12\"\n\x1dCmdChessRogueType_FKIEDOMAJNC\
-    \x10\xb8+\x12\"\n\x1dCmdChessRogueType_CAHMDIGNFBJ\x10\xb4+\x12\"\n\x1dC\
-    mdChessRogueType_BOLNFLCBOAI\x10\xdf*\x12\"\n\x1dCmdChessRogueType_HDJFF\
-    LFLEBE\x10\xd7+\x12\"\n\x1dCmdChessRogueType_NEAKEDLNBBH\x10\xfd*\x12\"\
-    \n\x1dCmdChessRogueType_CPCPJMHMAGM\x10\xac*\x12\"\n\x1dCmdChessRogueTyp\
-    e_FIAJGDJPNKK\x10\xe0+\x12\"\n\x1dCmdChessRogueType_OGAPEDJICJP\x10\xdb+\
-    \x12\"\n\x1dCmdChessRogueType_NOMJOEAAEJP\x10\xc7+\x12\"\n\x1dCmdChessRo\
-    gueType_LNNLECJHHDC\x10\xb6+\x12\"\n\x1dCmdChessRogueType_OFEFBLENFKH\
-    \x10\xb9*\x12\"\n\x1dCmdChessRogueType_ADFGONHLCAO\x10\xc1+\x12\"\n\x1dC\
-    mdChessRogueType_ODMBEHBJDEE\x10\xb7+\x12\"\n\x1dCmdChessRogueType_CAFID\
-    CDFCKL\x10\xdd*\x12\"\n\x1dCmdChessRogueType_CKDIGHHELCM\x10\xb1*\x12\"\
-    \n\x1dCmdChessRogueType_JLBMLMJCLJP\x10\xef*\x12\"\n\x1dCmdChessRogueTyp\
-    e_BFECDDOJHGD\x10\xe5*\x12\"\n\x1dCmdChessRogueType_LGADOJGNCFP\x10\x99+\
-    \x12\"\n\x1dCmdChessRogueType_KBEDDJOIKKE\x10\xa3+\x12\"\n\x1dCmdChessRo\
-    gueType_PFKLFOHMNJP\x10\xc6*\x12\"\n\x1dCmdChessRogueType_FAMMFKMFHFI\
-    \x10\xba*\x12\"\n\x1dCmdChessRogueType_NDOLCDLAOMJ\x10\x8a+\x12\"\n\x1dC\
-    mdChessRogueType_PKENEMLKIAI\x10\x87+\x12\"\n\x1dCmdChessRogueType_MMKGA\
-    CAILDA\x10\xa7+\x12\"\n\x1dCmdChessRogueType_AOFLBDDDFDB\x10\xa5+\x12\"\
-    \n\x1dCmdChessRogueType_EDIFFAEDKDA\x10\x99*\x12\"\n\x1dCmdChessRogueTyp\
-    e_MEKKLFCLJMN\x10\xcf+\x12\"\n\x1dCmdChessRogueType_AHNGOJLIOIO\x10\x98+\
-    \x12\"\n\x1dCmdChessRogueType_MFOLIJMHJAN\x10\xe0*\x12\"\n\x1dCmdChessRo\
-    gueType_FINCCAGGFBG\x10\xf0*\x12\"\n\x1dCmdChessRogueType_AMNGDPGIEPL\
-    \x10\xbe*\x12\"\n\x1dCmdChessRogueType_GGJBPLKPMGK\x10\xcb*\x12\"\n\x1dC\
-    mdChessRogueType_HANHOKHKICG\x10\xb6*\x12\"\n\x1dCmdChessRogueType_MGCCL\
-    PAKCKF\x10\xbf*\x12\"\n\x1dCmdChessRogueType_NJMPOIEHAMM\x10\xa4*\x12\"\
-    \n\x1dCmdChessRogueType_OKHJMHAHHJJ\x10\xfc*\x12\"\n\x1dCmdChessRogueTyp\
-    e_HKHBJABHFAK\x10\xf9*\x12\"\n\x1dCmdChessRogueType_OLBMNECCNLC\x10\x9d+\
-    \x12\"\n\x1dCmdChessRogueType_LCLMLAHEMOO\x10\xc1*\x12\"\n\x1dCmdChessRo\
-    gueType_ONKGHEFAMKH\x10\xb8*\x12\"\n\x1dCmdChessRogueType_DKJOMHIIONE\
-    \x10\x9b*\x12\"\n\x1dCmdChessRogueType_NCJMPABANCJ\x10\x9f+\x12\"\n\x1dC\
-    mdChessRogueType_BODODCJBHFE\x10\xf8*\x12\"\n\x1dCmdChessRogueType_NAHHF\
-    PDHPBA\x10\xce*\x12\"\n\x1dCmdChessRogueType_DOCOKNGABFL\x10\x8d+\x12\"\
-    \n\x1dCmdChessRogueType_HPJIFGCMLEO\x10\xa5*\x12\"\n\x1dCmdChessRogueTyp\
-    e_CKJEADGMBNH\x10\x91+\x12\"\n\x1dCmdChessRogueType_OJCEACONKHP\x10\xed*\
-    \x12\"\n\x1dCmdChessRogueType_MFDINMIBDFB\x10\xa7*\x12\"\n\x1dCmdChessRo\
-    gueType_KFEPOGMCKEM\x10\xb3*\x12\"\n\x1dCmdChessRogueType_PKEJHPGCHCO\
-    \x10\xd3+\x12\"\n\x1dCmdChessRogueType_JKHEOCPFCFB\x10\xd4+\x12\"\n\x1dC\
-    mdChessRogueType_LAMMDKEAFCH\x10\x94+\x12\"\n\x1dCmdChessRogueType_HGBBF\
-    KLIPHA\x10\x9c*\x12\"\n\x1dCmdChessRogueType_OLAOFFODGAH\x10\xf5*\x12\"\
-    \n\x1dCmdChessRogueType_OGKDEDMDBJO\x10\xf6*\x12\"\n\x1dCmdChessRogueTyp\
-    e_BKGFOLBPGAL\x10\xd9+\x12\"\n\x1dCmdChessRogueType_OMFIJOMANBF\x10\xb0*\
-    \x12\"\n\x1dCmdChessRogueType_JBIODJCJLIC\x10\x85+\x12\"\n\x1dCmdChessRo\
-    gueType_AGNEIMEPKCN\x10\xe8*\x12\"\n\x1dCmdChessRogueType_KAHHIKGODDP\
-    \x10\xdc*b\x06proto3\
+    \n\x17CmdChessRogueType.proto*\x87\x17\n\x11CmdChessRogueType\x12\x1b\n\
+    \x17HOBAEPKFFPD_PCPDHELPKEM\x10\0\x12*\n%CmdChessRogueUpdateReviveInfoSc\
+    Notify\x10\x9c+\x12\x1c\n\x17CmdChessRogueQueryScRsp\x10\xd5+\x12\x13\n\
+    \x0eCmdMNPAAKGHBEJ\x10\x8d+\x12%\n\x20CmdChessRogueEnterNextLayerScRsp\
+    \x10\xc9*\x12\x1e\n\x19CmdReviveRogueAvatarCsReq\x10\xac*\x12%\n\x20CmdS\
+    electChessRogueSubStoryCsReq\x10\xa2*\x12!\n\x1cCmdChessRogueLayerSettle\
+    ment\x10\xe3*\x12\x1c\n\x17CmdChessRogueLeaveScRsp\x10\xbb*\x12)\n$CmdCh\
+    essRogueUpdateMoneyInfoScNotify\x10\xda+\x12\x13\n\x0eCmdBNIBHAOJKBI\x10\
+    \x83+\x12+\n&CmdChessRogueChangeAeonDimensionNotify\x10\xba*\x12\x1f\n\
+    \x1aCmdChessRogueRollDiceScRsp\x10\xe1*\x12+\n&CmdGetChessRogueStoryAeon\
+    TalkInfoScRsp\x10\x9d*\x12%\n\x20CmdFinishChessRogueSubStoryScRsp\x10\
+    \x8b+\x12#\n\x1eCmdChessRogueNousEditDiceScRsp\x10\xa9*\x12\x1b\n\x16Cmd\
+    ChessRogueQuitCsReq\x10\xf0*\x12\x20\n\x1bCmdChessRogueEnterCellCsReq\
+    \x10\xa7*\x12!\n\x1cCmdChessRogueSelectCellScRsp\x10\xbc*\x12\x20\n\x1bC\
+    mdChessRogueEnterCellScRsp\x10\xb6+\x12\x1d\n\x18CmdEnhanceRogueBuffCsRe\
+    q\x10\xbf*\x12+\n&CmdChessRogueUpdateUnlockLevelScNotify\x10\xff*\x12\"\
+    \n\x1dCmdChessRogueConfirmRollScRsp\x10\xd2*\x12%\n\x20CmdSelectChessRog\
+    ueSubStoryScRsp\x10\xe9*\x12\x1c\n\x17CmdPickRogueAvatarScRsp\x10\xc4+\
+    \x12\x1c\n\x17CmdChessRogueQueryCsReq\x10\xa4+\x12\x1c\n\x17CmdChessRogu\
+    eEnterCsReq\x10\x8a+\x12'\n\"CmdGetChessRogueNousStoryInfoCsReq\x10\xa5+\
+    \x12&\n!CmdChessRogueNousDiceUpdateNotify\x10\xc1*\x12-\n(CmdChessRogueU\
+    pdateLevelBaseInfoScNotify\x10\xcc*\x12#\n\x1eCmdGetChessRogueStoryInfoS\
+    cRsp\x10\xc0*\x12,\n'CmdChessRogueNousEnableRogueTalentCsReq\x10\x9f+\
+    \x12\x1c\n\x17CmdChessRogueStartCsReq\x10\x8c+\x12-\n(CmdChessRogueNousD\
+    iceSurfaceUnlockNotify\x10\x8e+\x12!\n\x1cCmdChessRogueReRollDiceScRsp\
+    \x10\x9f*\x12\x1d\n\x18CmdChessRogueGiveUpCsReq\x10\xb5*\x12\x20\n\x1bCm\
+    dChessRogueCheatRollCsReq\x10\xd8*\x12\x1b\n\x16CmdChessRogueQuitScRsp\
+    \x10\xfa*\x12\x13\n\x0eCmdLCDOCKJGFCE\x10\x95+\x12\x1d\n\x18CmdChessRogu\
+    eGiveUpScRsp\x10\xb2+\x12+\n&CmdSyncChessRogueNousMainStoryScNotify\x10\
+    \xb5+\x12\x1f\n\x1aCmdChessRogueRollDiceCsReq\x10\xd3+\x12\x1e\n\x19CmdR\
+    eviveRogueAvatarScRsp\x10\xd8+\x121\n,CmdChessRogueUpdateAllowedSelectCe\
+    llScNotify\x10\x99*\x12:\n5CmdChessRogueUpdateDicePassiveAccumulateValue\
+    ScNotify\x10\xa6*\x12\"\n\x1dCmdChessRogueConfirmRollCsReq\x10\x87+\x12\
+    \x1d\n\x18CmdEnhanceRogueBuffScRsp\x10\x84+\x12$\n\x1fCmdEnterChessRogue\
+    AeonRoomScRsp\x10\xc3+\x121\n,CmdChessRogueUpdateAeonModifierValueScNoti\
+    fy\x10\xd2+\x12-\n(CmdChessRogueNousGetRogueTalentInfoScRsp\x10\xae*\x12\
+    \x1c\n\x17CmdPickRogueAvatarCsReq\x10\x9a*\x12,\n'CmdChessRogueNousEnabl\
+    eRogueTalentScRsp\x10\xea*\x12\"\n\x1dCmdChessRogueCellUpdateNotify\x10\
+    \x85+\x12+\n&CmdChessRogueUpdateActionPointScNotify\x10\xbf+\x12\x20\n\
+    \x1bCmdChessRogueCheatRollScRsp\x10\x92+\x12-\n(CmdSyncChessRogueMainSto\
+    ryFinishScNotify\x10\xa3*\x12!\n\x1cCmdChessRogueReRollDiceCsReq\x10\xc7\
+    +\x12%\n\x20CmdFinishChessRogueSubStoryCsReq\x10\xfe*\x12(\n#CmdChessRog\
+    ueSkipTeachingLevelScRsp\x10\xcc+\x12#\n\x1eCmdGetChessRogueStoryInfoCsR\
+    eq\x10\x93+\x12$\n\x1fCmdEnterChessRogueAeonRoomCsReq\x10\xa9+\x12$\n\
+    \x1fCmdGetRogueBuffEnhanceInfoScRsp\x10\xaa+\x12(\n#CmdChessRogueUpdateD\
+    iceInfoScNotify\x10\xe5*\x12#\n\x1eCmdChessRogueQuestFinishNotify\x10\
+    \xde+\x12%\n\x20CmdChessRogueEnterNextLayerCsReq\x10\xfd*\x12*\n%CmdSync\
+    ChessRogueNousSubStoryScNotify\x10\x94+\x12(\n#CmdChessRogueSkipTeaching\
+    LevelCsReq\x10\xa8*\x12$\n\x1fCmdGetRogueBuffEnhanceInfoCsReq\x10\xc2*\
+    \x12-\n(CmdChessRogueNousGetRogueTalentInfoCsReq\x10\xd7*\x12\x1c\n\x17C\
+    mdChessRogueLeaveCsReq\x10\xce*\x12\x1c\n\x17CmdChessRogueStartScRsp\x10\
+    \x82+\x12'\n\"CmdSyncChessRogueNousValueScNotify\x10\xcb*\x12+\n&CmdGetC\
+    hessRogueStoryAeonTalkInfoCsReq\x10\xef*\x12'\n\"CmdGetChessRogueNousSto\
+    ryInfoScRsp\x10\xa4*\x12\x1c\n\x17HOBAEPKFFPD_PGPDNLLBMJB\x10\xba+\x12!\
+    \n\x1cCmdChessRogueSelectCellCsReq\x10\x9d+\x12\x1c\n\x17HOBAEPKFFPD_JJP\
+    PJBIKNBM\x10\xcf*\x12\x1c\n\x17CmdChessRogueEnterScRsp\x10\xd3*\x12\"\n\
+    \x1dCmdResetRogueDiceSurfaceCsReq\x10\xbd+b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

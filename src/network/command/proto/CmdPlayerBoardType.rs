@@ -27,38 +27,38 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdPlayerBoardType)
 pub enum CmdPlayerBoardType {
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_MNFEPONEDDJ)
-    CmdPlayerBoardType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_ECOMHCJIEPC)
-    CmdPlayerBoardType_ECOMHCJIEPC = 2857,
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_GEAMJFJCHLM)
-    CmdPlayerBoardType_GEAMJFJCHLM = 2824,
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_DAKFPPDMHGA)
-    CmdPlayerBoardType_DAKFPPDMHGA = 2862,
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_BEKAEJODCMK)
-    CmdPlayerBoardType_BEKAEJODCMK = 2819,
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_CBGOPKHMIOJ)
-    CmdPlayerBoardType_CBGOPKHMIOJ = 2883,
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_LHEDGNMLNAI)
-    CmdPlayerBoardType_LHEDGNMLNAI = 2823,
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_AGGCHFIOGLK)
-    CmdPlayerBoardType_AGGCHFIOGLK = 2804,
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_PLGEODIKAGO)
-    CmdPlayerBoardType_PLGEODIKAGO = 2884,
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_BMBOFGLAGBA)
-    CmdPlayerBoardType_BMBOFGLAGBA = 2846,
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_CMHCKAMFDHP)
-    CmdPlayerBoardType_CMHCKAMFDHP = 2869,
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_BNLACFLMANL)
-    CmdPlayerBoardType_BNLACFLMANL = 2900,
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_FDCBKOFKKAO)
-    CmdPlayerBoardType_FDCBKOFKKAO = 2835,
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_DEGOJCCJNMP)
-    CmdPlayerBoardType_DEGOJCCJNMP = 2813,
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_IODBJICHAIE)
-    CmdPlayerBoardType_IODBJICHAIE = 2840,
-    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdPlayerBoardType_KMLIIBAEAPA)
-    CmdPlayerBoardType_KMLIIBAEAPA = 2881,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.DBCNIANFMLC_PCPDHELPKEM)
+    DBCNIANFMLC_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdSetAssistAvatarCsReq)
+    CmdSetAssistAvatarCsReq = 2801,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdSetDisplayAvatarCsReq)
+    CmdSetDisplayAvatarCsReq = 2814,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdSetPersonalCardCSReq)
+    CmdSetPersonalCardCSReq = 2837,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdSetIsDisplayAvatarInfoReq)
+    CmdSetIsDisplayAvatarInfoReq = 2809,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdSetSignatureScRsp)
+    CmdSetSignatureScRsp = 2839,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.DBCNIANFMLC_POLCOOOBBPP)
+    DBCNIANFMLC_POLCOOOBBPP = 2863,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdSetHeadIconCsReq)
+    CmdSetHeadIconCsReq = 2894,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdGetPlayerBoardDataScRsp)
+    CmdGetPlayerBoardDataScRsp = 2810,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdSetDisplayAvatarScRsp)
+    CmdSetDisplayAvatarScRsp = 2818,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdSetHeadIconScRsp)
+    CmdSetHeadIconScRsp = 2895,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdSetIsDisplayAvatarInfoScRsp)
+    CmdSetIsDisplayAvatarInfoScRsp = 2898,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdGetPlayerBoardDataCsReq)
+    CmdGetPlayerBoardDataCsReq = 2891,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdSetSignatureCsReq)
+    CmdSetSignatureCsReq = 2826,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdSetAssistAvatarScRsp)
+    CmdSetAssistAvatarScRsp = 2874,
+    // @@protoc_insertion_point(enum_value:CmdPlayerBoardType.CmdSetPersonalCardScRsp)
+    CmdSetPersonalCardScRsp = 2804,
 }
 
 impl ::protobuf::Enum for CmdPlayerBoardType {
@@ -70,65 +70,65 @@ impl ::protobuf::Enum for CmdPlayerBoardType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdPlayerBoardType> {
         match value {
-            0 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_MNFEPONEDDJ),
-            2857 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_ECOMHCJIEPC),
-            2824 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_GEAMJFJCHLM),
-            2862 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_DAKFPPDMHGA),
-            2819 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_BEKAEJODCMK),
-            2883 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_CBGOPKHMIOJ),
-            2823 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_LHEDGNMLNAI),
-            2804 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_AGGCHFIOGLK),
-            2884 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_PLGEODIKAGO),
-            2846 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_BMBOFGLAGBA),
-            2869 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_CMHCKAMFDHP),
-            2900 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_BNLACFLMANL),
-            2835 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_FDCBKOFKKAO),
-            2813 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_DEGOJCCJNMP),
-            2840 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_IODBJICHAIE),
-            2881 => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_KMLIIBAEAPA),
+            0 => ::std::option::Option::Some(CmdPlayerBoardType::DBCNIANFMLC_PCPDHELPKEM),
+            2801 => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetAssistAvatarCsReq),
+            2814 => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetDisplayAvatarCsReq),
+            2837 => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetPersonalCardCSReq),
+            2809 => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetIsDisplayAvatarInfoReq),
+            2839 => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetSignatureScRsp),
+            2863 => ::std::option::Option::Some(CmdPlayerBoardType::DBCNIANFMLC_POLCOOOBBPP),
+            2894 => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetHeadIconCsReq),
+            2810 => ::std::option::Option::Some(CmdPlayerBoardType::CmdGetPlayerBoardDataScRsp),
+            2818 => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetDisplayAvatarScRsp),
+            2895 => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetHeadIconScRsp),
+            2898 => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetIsDisplayAvatarInfoScRsp),
+            2891 => ::std::option::Option::Some(CmdPlayerBoardType::CmdGetPlayerBoardDataCsReq),
+            2826 => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetSignatureCsReq),
+            2874 => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetAssistAvatarScRsp),
+            2804 => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetPersonalCardScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdPlayerBoardType> {
         match str {
-            "CmdPlayerBoardType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_MNFEPONEDDJ),
-            "CmdPlayerBoardType_ECOMHCJIEPC" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_ECOMHCJIEPC),
-            "CmdPlayerBoardType_GEAMJFJCHLM" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_GEAMJFJCHLM),
-            "CmdPlayerBoardType_DAKFPPDMHGA" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_DAKFPPDMHGA),
-            "CmdPlayerBoardType_BEKAEJODCMK" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_BEKAEJODCMK),
-            "CmdPlayerBoardType_CBGOPKHMIOJ" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_CBGOPKHMIOJ),
-            "CmdPlayerBoardType_LHEDGNMLNAI" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_LHEDGNMLNAI),
-            "CmdPlayerBoardType_AGGCHFIOGLK" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_AGGCHFIOGLK),
-            "CmdPlayerBoardType_PLGEODIKAGO" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_PLGEODIKAGO),
-            "CmdPlayerBoardType_BMBOFGLAGBA" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_BMBOFGLAGBA),
-            "CmdPlayerBoardType_CMHCKAMFDHP" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_CMHCKAMFDHP),
-            "CmdPlayerBoardType_BNLACFLMANL" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_BNLACFLMANL),
-            "CmdPlayerBoardType_FDCBKOFKKAO" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_FDCBKOFKKAO),
-            "CmdPlayerBoardType_DEGOJCCJNMP" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_DEGOJCCJNMP),
-            "CmdPlayerBoardType_IODBJICHAIE" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_IODBJICHAIE),
-            "CmdPlayerBoardType_KMLIIBAEAPA" => ::std::option::Option::Some(CmdPlayerBoardType::CmdPlayerBoardType_KMLIIBAEAPA),
+            "DBCNIANFMLC_PCPDHELPKEM" => ::std::option::Option::Some(CmdPlayerBoardType::DBCNIANFMLC_PCPDHELPKEM),
+            "CmdSetAssistAvatarCsReq" => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetAssistAvatarCsReq),
+            "CmdSetDisplayAvatarCsReq" => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetDisplayAvatarCsReq),
+            "CmdSetPersonalCardCSReq" => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetPersonalCardCSReq),
+            "CmdSetIsDisplayAvatarInfoReq" => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetIsDisplayAvatarInfoReq),
+            "CmdSetSignatureScRsp" => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetSignatureScRsp),
+            "DBCNIANFMLC_POLCOOOBBPP" => ::std::option::Option::Some(CmdPlayerBoardType::DBCNIANFMLC_POLCOOOBBPP),
+            "CmdSetHeadIconCsReq" => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetHeadIconCsReq),
+            "CmdGetPlayerBoardDataScRsp" => ::std::option::Option::Some(CmdPlayerBoardType::CmdGetPlayerBoardDataScRsp),
+            "CmdSetDisplayAvatarScRsp" => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetDisplayAvatarScRsp),
+            "CmdSetHeadIconScRsp" => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetHeadIconScRsp),
+            "CmdSetIsDisplayAvatarInfoScRsp" => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetIsDisplayAvatarInfoScRsp),
+            "CmdGetPlayerBoardDataCsReq" => ::std::option::Option::Some(CmdPlayerBoardType::CmdGetPlayerBoardDataCsReq),
+            "CmdSetSignatureCsReq" => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetSignatureCsReq),
+            "CmdSetAssistAvatarScRsp" => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetAssistAvatarScRsp),
+            "CmdSetPersonalCardScRsp" => ::std::option::Option::Some(CmdPlayerBoardType::CmdSetPersonalCardScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdPlayerBoardType] = &[
-        CmdPlayerBoardType::CmdPlayerBoardType_MNFEPONEDDJ,
-        CmdPlayerBoardType::CmdPlayerBoardType_ECOMHCJIEPC,
-        CmdPlayerBoardType::CmdPlayerBoardType_GEAMJFJCHLM,
-        CmdPlayerBoardType::CmdPlayerBoardType_DAKFPPDMHGA,
-        CmdPlayerBoardType::CmdPlayerBoardType_BEKAEJODCMK,
-        CmdPlayerBoardType::CmdPlayerBoardType_CBGOPKHMIOJ,
-        CmdPlayerBoardType::CmdPlayerBoardType_LHEDGNMLNAI,
-        CmdPlayerBoardType::CmdPlayerBoardType_AGGCHFIOGLK,
-        CmdPlayerBoardType::CmdPlayerBoardType_PLGEODIKAGO,
-        CmdPlayerBoardType::CmdPlayerBoardType_BMBOFGLAGBA,
-        CmdPlayerBoardType::CmdPlayerBoardType_CMHCKAMFDHP,
-        CmdPlayerBoardType::CmdPlayerBoardType_BNLACFLMANL,
-        CmdPlayerBoardType::CmdPlayerBoardType_FDCBKOFKKAO,
-        CmdPlayerBoardType::CmdPlayerBoardType_DEGOJCCJNMP,
-        CmdPlayerBoardType::CmdPlayerBoardType_IODBJICHAIE,
-        CmdPlayerBoardType::CmdPlayerBoardType_KMLIIBAEAPA,
+        CmdPlayerBoardType::DBCNIANFMLC_PCPDHELPKEM,
+        CmdPlayerBoardType::CmdSetAssistAvatarCsReq,
+        CmdPlayerBoardType::CmdSetDisplayAvatarCsReq,
+        CmdPlayerBoardType::CmdSetPersonalCardCSReq,
+        CmdPlayerBoardType::CmdSetIsDisplayAvatarInfoReq,
+        CmdPlayerBoardType::CmdSetSignatureScRsp,
+        CmdPlayerBoardType::DBCNIANFMLC_POLCOOOBBPP,
+        CmdPlayerBoardType::CmdSetHeadIconCsReq,
+        CmdPlayerBoardType::CmdGetPlayerBoardDataScRsp,
+        CmdPlayerBoardType::CmdSetDisplayAvatarScRsp,
+        CmdPlayerBoardType::CmdSetHeadIconScRsp,
+        CmdPlayerBoardType::CmdSetIsDisplayAvatarInfoScRsp,
+        CmdPlayerBoardType::CmdGetPlayerBoardDataCsReq,
+        CmdPlayerBoardType::CmdSetSignatureCsReq,
+        CmdPlayerBoardType::CmdSetAssistAvatarScRsp,
+        CmdPlayerBoardType::CmdSetPersonalCardScRsp,
     ];
 }
 
@@ -140,22 +140,22 @@ impl ::protobuf::EnumFull for CmdPlayerBoardType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdPlayerBoardType::CmdPlayerBoardType_MNFEPONEDDJ => 0,
-            CmdPlayerBoardType::CmdPlayerBoardType_ECOMHCJIEPC => 1,
-            CmdPlayerBoardType::CmdPlayerBoardType_GEAMJFJCHLM => 2,
-            CmdPlayerBoardType::CmdPlayerBoardType_DAKFPPDMHGA => 3,
-            CmdPlayerBoardType::CmdPlayerBoardType_BEKAEJODCMK => 4,
-            CmdPlayerBoardType::CmdPlayerBoardType_CBGOPKHMIOJ => 5,
-            CmdPlayerBoardType::CmdPlayerBoardType_LHEDGNMLNAI => 6,
-            CmdPlayerBoardType::CmdPlayerBoardType_AGGCHFIOGLK => 7,
-            CmdPlayerBoardType::CmdPlayerBoardType_PLGEODIKAGO => 8,
-            CmdPlayerBoardType::CmdPlayerBoardType_BMBOFGLAGBA => 9,
-            CmdPlayerBoardType::CmdPlayerBoardType_CMHCKAMFDHP => 10,
-            CmdPlayerBoardType::CmdPlayerBoardType_BNLACFLMANL => 11,
-            CmdPlayerBoardType::CmdPlayerBoardType_FDCBKOFKKAO => 12,
-            CmdPlayerBoardType::CmdPlayerBoardType_DEGOJCCJNMP => 13,
-            CmdPlayerBoardType::CmdPlayerBoardType_IODBJICHAIE => 14,
-            CmdPlayerBoardType::CmdPlayerBoardType_KMLIIBAEAPA => 15,
+            CmdPlayerBoardType::DBCNIANFMLC_PCPDHELPKEM => 0,
+            CmdPlayerBoardType::CmdSetAssistAvatarCsReq => 1,
+            CmdPlayerBoardType::CmdSetDisplayAvatarCsReq => 2,
+            CmdPlayerBoardType::CmdSetPersonalCardCSReq => 3,
+            CmdPlayerBoardType::CmdSetIsDisplayAvatarInfoReq => 4,
+            CmdPlayerBoardType::CmdSetSignatureScRsp => 5,
+            CmdPlayerBoardType::DBCNIANFMLC_POLCOOOBBPP => 6,
+            CmdPlayerBoardType::CmdSetHeadIconCsReq => 7,
+            CmdPlayerBoardType::CmdGetPlayerBoardDataScRsp => 8,
+            CmdPlayerBoardType::CmdSetDisplayAvatarScRsp => 9,
+            CmdPlayerBoardType::CmdSetHeadIconScRsp => 10,
+            CmdPlayerBoardType::CmdSetIsDisplayAvatarInfoScRsp => 11,
+            CmdPlayerBoardType::CmdGetPlayerBoardDataCsReq => 12,
+            CmdPlayerBoardType::CmdSetSignatureCsReq => 13,
+            CmdPlayerBoardType::CmdSetAssistAvatarScRsp => 14,
+            CmdPlayerBoardType::CmdSetPersonalCardScRsp => 15,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -163,7 +163,7 @@ impl ::protobuf::EnumFull for CmdPlayerBoardType {
 
 impl ::std::default::Default for CmdPlayerBoardType {
     fn default() -> Self {
-        CmdPlayerBoardType::CmdPlayerBoardType_MNFEPONEDDJ
+        CmdPlayerBoardType::DBCNIANFMLC_PCPDHELPKEM
     }
 }
 
@@ -174,19 +174,18 @@ impl CmdPlayerBoardType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x18CmdPlayerBoardType.proto*\xe3\x04\n\x12CmdPlayerBoardType\x12\"\n\
-    \x1eCmdPlayerBoardType_MNFEPONEDDJ\x10\0\x12#\n\x1eCmdPlayerBoardType_EC\
-    OMHCJIEPC\x10\xa9\x16\x12#\n\x1eCmdPlayerBoardType_GEAMJFJCHLM\x10\x88\
-    \x16\x12#\n\x1eCmdPlayerBoardType_DAKFPPDMHGA\x10\xae\x16\x12#\n\x1eCmdP\
-    layerBoardType_BEKAEJODCMK\x10\x83\x16\x12#\n\x1eCmdPlayerBoardType_CBGO\
-    PKHMIOJ\x10\xc3\x16\x12#\n\x1eCmdPlayerBoardType_LHEDGNMLNAI\x10\x87\x16\
-    \x12#\n\x1eCmdPlayerBoardType_AGGCHFIOGLK\x10\xf4\x15\x12#\n\x1eCmdPlaye\
-    rBoardType_PLGEODIKAGO\x10\xc4\x16\x12#\n\x1eCmdPlayerBoardType_BMBOFGLA\
-    GBA\x10\x9e\x16\x12#\n\x1eCmdPlayerBoardType_CMHCKAMFDHP\x10\xb5\x16\x12\
-    #\n\x1eCmdPlayerBoardType_BNLACFLMANL\x10\xd4\x16\x12#\n\x1eCmdPlayerBoa\
-    rdType_FDCBKOFKKAO\x10\x93\x16\x12#\n\x1eCmdPlayerBoardType_DEGOJCCJNMP\
-    \x10\xfd\x15\x12#\n\x1eCmdPlayerBoardType_IODBJICHAIE\x10\x98\x16\x12#\n\
-    \x1eCmdPlayerBoardType_KMLIIBAEAPA\x10\xc1\x16b\x06proto3\
+    \n\x18CmdPlayerBoardType.proto*\xf9\x03\n\x12CmdPlayerBoardType\x12\x1b\
+    \n\x17DBCNIANFMLC_PCPDHELPKEM\x10\0\x12\x1c\n\x17CmdSetAssistAvatarCsReq\
+    \x10\xf1\x15\x12\x1d\n\x18CmdSetDisplayAvatarCsReq\x10\xfe\x15\x12\x1c\n\
+    \x17CmdSetPersonalCardCSReq\x10\x95\x16\x12!\n\x1cCmdSetIsDisplayAvatarI\
+    nfoReq\x10\xf9\x15\x12\x19\n\x14CmdSetSignatureScRsp\x10\x97\x16\x12\x1c\
+    \n\x17DBCNIANFMLC_POLCOOOBBPP\x10\xaf\x16\x12\x18\n\x13CmdSetHeadIconCsR\
+    eq\x10\xce\x16\x12\x1f\n\x1aCmdGetPlayerBoardDataScRsp\x10\xfa\x15\x12\
+    \x1d\n\x18CmdSetDisplayAvatarScRsp\x10\x82\x16\x12\x18\n\x13CmdSetHeadIc\
+    onScRsp\x10\xcf\x16\x12#\n\x1eCmdSetIsDisplayAvatarInfoScRsp\x10\xd2\x16\
+    \x12\x1f\n\x1aCmdGetPlayerBoardDataCsReq\x10\xcb\x16\x12\x19\n\x14CmdSet\
+    SignatureCsReq\x10\x8a\x16\x12\x1c\n\x17CmdSetAssistAvatarScRsp\x10\xba\
+    \x16\x12\x1c\n\x17CmdSetPersonalCardScRsp\x10\xf4\x15b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

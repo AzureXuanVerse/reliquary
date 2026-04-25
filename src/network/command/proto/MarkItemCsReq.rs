@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct MarkItemCsReq {
     // message fields
-    // @@protoc_insertion_point(field:MarkItemCsReq.FLJAGKCIKIJ)
-    pub FLJAGKCIKIJ: bool,
+    // @@protoc_insertion_point(field:MarkItemCsReq.EKLCFBIPGGO)
+    pub EKLCFBIPGGO: bool,
     // @@protoc_insertion_point(field:MarkItemCsReq.item_id)
     pub item_id: u32,
     // special fields
@@ -52,9 +52,9 @@ impl MarkItemCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "FLJAGKCIKIJ",
-            |m: &MarkItemCsReq| { &m.FLJAGKCIKIJ },
-            |m: &mut MarkItemCsReq| { &mut m.FLJAGKCIKIJ },
+            "EKLCFBIPGGO",
+            |m: &MarkItemCsReq| { &m.EKLCFBIPGGO },
+            |m: &mut MarkItemCsReq| { &mut m.EKLCFBIPGGO },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "item_id",
@@ -79,10 +79,10 @@ impl ::protobuf::Message for MarkItemCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                112 => {
-                    self.FLJAGKCIKIJ = is.read_bool()?;
+                72 => {
+                    self.EKLCFBIPGGO = is.read_bool()?;
                 },
-                120 => {
+                104 => {
                     self.item_id = is.read_uint32()?;
                 },
                 tag => {
@@ -97,11 +97,11 @@ impl ::protobuf::Message for MarkItemCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.FLJAGKCIKIJ != false {
+        if self.EKLCFBIPGGO != false {
             my_size += 1 + 1;
         }
         if self.item_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(15, self.item_id);
+            my_size += ::protobuf::rt::uint32_size(13, self.item_id);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for MarkItemCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.FLJAGKCIKIJ != false {
-            os.write_bool(14, self.FLJAGKCIKIJ)?;
+        if self.EKLCFBIPGGO != false {
+            os.write_bool(9, self.EKLCFBIPGGO)?;
         }
         if self.item_id != 0 {
-            os.write_uint32(15, self.item_id)?;
+            os.write_uint32(13, self.item_id)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,14 +132,14 @@ impl ::protobuf::Message for MarkItemCsReq {
     }
 
     fn clear(&mut self) {
-        self.FLJAGKCIKIJ = false;
+        self.EKLCFBIPGGO = false;
         self.item_id = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static MarkItemCsReq {
         static instance: MarkItemCsReq = MarkItemCsReq {
-            FLJAGKCIKIJ: false,
+            EKLCFBIPGGO: false,
             item_id: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -165,9 +165,9 @@ impl ::protobuf::reflect::ProtobufValue for MarkItemCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x13MarkItemCsReq.proto\"J\n\rMarkItemCsReq\x12\x20\n\x0bFLJAGKCIKIJ\
-    \x18\x0e\x20\x01(\x08R\x0bFLJAGKCIKIJ\x12\x17\n\x07item_id\x18\x0f\x20\
-    \x01(\rR\x06itemIdb\x06proto3\
+    \n\x13MarkItemCsReq.proto\"J\n\rMarkItemCsReq\x12\x20\n\x0bEKLCFBIPGGO\
+    \x18\t\x20\x01(\x08R\x0bEKLCFBIPGGO\x12\x17\n\x07item_id\x18\r\x20\x01(\
+    \rR\x06itemIdb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

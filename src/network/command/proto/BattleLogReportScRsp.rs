@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct BattleLogReportScRsp {
     // message fields
-    // @@protoc_insertion_point(field:BattleLogReportScRsp.is_battle_log_report)
-    pub is_battle_log_report: bool,
+    // @@protoc_insertion_point(field:BattleLogReportScRsp.MIPMBGGKCFM)
+    pub MIPMBGGKCFM: bool,
     // @@protoc_insertion_point(field:BattleLogReportScRsp.retcode)
     pub retcode: u32,
     // special fields
@@ -52,9 +52,9 @@ impl BattleLogReportScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "is_battle_log_report",
-            |m: &BattleLogReportScRsp| { &m.is_battle_log_report },
-            |m: &mut BattleLogReportScRsp| { &mut m.is_battle_log_report },
+            "MIPMBGGKCFM",
+            |m: &BattleLogReportScRsp| { &m.MIPMBGGKCFM },
+            |m: &mut BattleLogReportScRsp| { &mut m.MIPMBGGKCFM },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
@@ -79,10 +79,10 @@ impl ::protobuf::Message for BattleLogReportScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                24 => {
-                    self.is_battle_log_report = is.read_bool()?;
+                8 => {
+                    self.MIPMBGGKCFM = is.read_bool()?;
                 },
-                96 => {
+                120 => {
                     self.retcode = is.read_uint32()?;
                 },
                 tag => {
@@ -97,11 +97,11 @@ impl ::protobuf::Message for BattleLogReportScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.is_battle_log_report != false {
+        if self.MIPMBGGKCFM != false {
             my_size += 1 + 1;
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(15, self.retcode);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for BattleLogReportScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.is_battle_log_report != false {
-            os.write_bool(3, self.is_battle_log_report)?;
+        if self.MIPMBGGKCFM != false {
+            os.write_bool(1, self.MIPMBGGKCFM)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(12, self.retcode)?;
+            os.write_uint32(15, self.retcode)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,14 +132,14 @@ impl ::protobuf::Message for BattleLogReportScRsp {
     }
 
     fn clear(&mut self) {
-        self.is_battle_log_report = false;
+        self.MIPMBGGKCFM = false;
         self.retcode = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static BattleLogReportScRsp {
         static instance: BattleLogReportScRsp = BattleLogReportScRsp {
-            is_battle_log_report: false,
+            MIPMBGGKCFM: false,
             retcode: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -165,9 +165,9 @@ impl ::protobuf::reflect::ProtobufValue for BattleLogReportScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1aBattleLogReportScRsp.proto\"a\n\x14BattleLogReportScRsp\x12/\n\x14\
-    is_battle_log_report\x18\x03\x20\x01(\x08R\x11isBattleLogReport\x12\x18\
-    \n\x07retcode\x18\x0c\x20\x01(\rR\x07retcodeb\x06proto3\
+    \n\x1aBattleLogReportScRsp.proto\"R\n\x14BattleLogReportScRsp\x12\x20\n\
+    \x0bMIPMBGGKCFM\x18\x01\x20\x01(\x08R\x0bMIPMBGGKCFM\x12\x18\n\x07retcod\
+    e\x18\x0f\x20\x01(\rR\x07retcodeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

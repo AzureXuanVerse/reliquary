@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ClockParkQuitScriptCsReq {
     // message fields
-    // @@protoc_insertion_point(field:ClockParkQuitScriptCsReq.JBKGNNJNPEG)
-    pub JBKGNNJNPEG: bool,
     // @@protoc_insertion_point(field:ClockParkQuitScriptCsReq.script_id)
     pub script_id: u32,
+    // @@protoc_insertion_point(field:ClockParkQuitScriptCsReq.NMAKFODLJHP)
+    pub NMAKFODLJHP: bool,
     // special fields
     // @@protoc_insertion_point(special_field:ClockParkQuitScriptCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl ClockParkQuitScriptCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "JBKGNNJNPEG",
-            |m: &ClockParkQuitScriptCsReq| { &m.JBKGNNJNPEG },
-            |m: &mut ClockParkQuitScriptCsReq| { &mut m.JBKGNNJNPEG },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "script_id",
             |m: &ClockParkQuitScriptCsReq| { &m.script_id },
             |m: &mut ClockParkQuitScriptCsReq| { &mut m.script_id },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "NMAKFODLJHP",
+            |m: &ClockParkQuitScriptCsReq| { &m.NMAKFODLJHP },
+            |m: &mut ClockParkQuitScriptCsReq| { &mut m.NMAKFODLJHP },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ClockParkQuitScriptCsReq>(
             "ClockParkQuitScriptCsReq",
@@ -80,10 +80,10 @@ impl ::protobuf::Message for ClockParkQuitScriptCsReq {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
                 48 => {
-                    self.JBKGNNJNPEG = is.read_bool()?;
-                },
-                56 => {
                     self.script_id = is.read_uint32()?;
+                },
+                72 => {
+                    self.NMAKFODLJHP = is.read_bool()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for ClockParkQuitScriptCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.JBKGNNJNPEG != false {
-            my_size += 1 + 1;
-        }
         if self.script_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(7, self.script_id);
+            my_size += ::protobuf::rt::uint32_size(6, self.script_id);
+        }
+        if self.NMAKFODLJHP != false {
+            my_size += 1 + 1;
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for ClockParkQuitScriptCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.JBKGNNJNPEG != false {
-            os.write_bool(6, self.JBKGNNJNPEG)?;
-        }
         if self.script_id != 0 {
-            os.write_uint32(7, self.script_id)?;
+            os.write_uint32(6, self.script_id)?;
+        }
+        if self.NMAKFODLJHP != false {
+            os.write_bool(9, self.NMAKFODLJHP)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,15 +132,15 @@ impl ::protobuf::Message for ClockParkQuitScriptCsReq {
     }
 
     fn clear(&mut self) {
-        self.JBKGNNJNPEG = false;
         self.script_id = 0;
+        self.NMAKFODLJHP = false;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ClockParkQuitScriptCsReq {
         static instance: ClockParkQuitScriptCsReq = ClockParkQuitScriptCsReq {
-            JBKGNNJNPEG: false,
             script_id: 0,
+            NMAKFODLJHP: false,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for ClockParkQuitScriptCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1eClockParkQuitScriptCsReq.proto\"Y\n\x18ClockParkQuitScriptCsReq\
-    \x12\x20\n\x0bJBKGNNJNPEG\x18\x06\x20\x01(\x08R\x0bJBKGNNJNPEG\x12\x1b\n\
-    \tscript_id\x18\x07\x20\x01(\rR\x08scriptIdb\x06proto3\
+    \x12\x1b\n\tscript_id\x18\x06\x20\x01(\rR\x08scriptId\x12\x20\n\x0bNMAKF\
+    ODLJHP\x18\t\x20\x01(\x08R\x0bNMAKFODLJHPb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

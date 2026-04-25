@@ -27,14 +27,14 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:BpTierType)
 pub enum BpTierType {
-    // @@protoc_insertion_point(enum_value:BpTierType.BP_TIER_TYPE_NONE)
-    BP_TIER_TYPE_NONE = 0,
-    // @@protoc_insertion_point(enum_value:BpTierType.BP_TIER_TYPE_FREE)
-    BP_TIER_TYPE_FREE = 1,
-    // @@protoc_insertion_point(enum_value:BpTierType.BP_TIER_TYPE_PREMIUM_1)
-    BP_TIER_TYPE_PREMIUM_1 = 2,
-    // @@protoc_insertion_point(enum_value:BpTierType.BP_TIER_TYPE_PREMIUM_2)
-    BP_TIER_TYPE_PREMIUM_2 = 3,
+    // @@protoc_insertion_point(enum_value:BpTierType.ANMMOPCHJDI_PCPDHELPKEM)
+    ANMMOPCHJDI_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:BpTierType.ANMMOPCHJDI_LBLBCLIFGNE)
+    ANMMOPCHJDI_LBLBCLIFGNE = 1,
+    // @@protoc_insertion_point(enum_value:BpTierType.ANMMOPCHJDI_GILFHNIDKFF)
+    ANMMOPCHJDI_GILFHNIDKFF = 2,
+    // @@protoc_insertion_point(enum_value:BpTierType.ANMMOPCHJDI_DGNEFFILOMJ)
+    ANMMOPCHJDI_DGNEFFILOMJ = 3,
 }
 
 impl ::protobuf::Enum for BpTierType {
@@ -46,29 +46,29 @@ impl ::protobuf::Enum for BpTierType {
 
     fn from_i32(value: i32) -> ::std::option::Option<BpTierType> {
         match value {
-            0 => ::std::option::Option::Some(BpTierType::BP_TIER_TYPE_NONE),
-            1 => ::std::option::Option::Some(BpTierType::BP_TIER_TYPE_FREE),
-            2 => ::std::option::Option::Some(BpTierType::BP_TIER_TYPE_PREMIUM_1),
-            3 => ::std::option::Option::Some(BpTierType::BP_TIER_TYPE_PREMIUM_2),
+            0 => ::std::option::Option::Some(BpTierType::ANMMOPCHJDI_PCPDHELPKEM),
+            1 => ::std::option::Option::Some(BpTierType::ANMMOPCHJDI_LBLBCLIFGNE),
+            2 => ::std::option::Option::Some(BpTierType::ANMMOPCHJDI_GILFHNIDKFF),
+            3 => ::std::option::Option::Some(BpTierType::ANMMOPCHJDI_DGNEFFILOMJ),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<BpTierType> {
         match str {
-            "BP_TIER_TYPE_NONE" => ::std::option::Option::Some(BpTierType::BP_TIER_TYPE_NONE),
-            "BP_TIER_TYPE_FREE" => ::std::option::Option::Some(BpTierType::BP_TIER_TYPE_FREE),
-            "BP_TIER_TYPE_PREMIUM_1" => ::std::option::Option::Some(BpTierType::BP_TIER_TYPE_PREMIUM_1),
-            "BP_TIER_TYPE_PREMIUM_2" => ::std::option::Option::Some(BpTierType::BP_TIER_TYPE_PREMIUM_2),
+            "ANMMOPCHJDI_PCPDHELPKEM" => ::std::option::Option::Some(BpTierType::ANMMOPCHJDI_PCPDHELPKEM),
+            "ANMMOPCHJDI_LBLBCLIFGNE" => ::std::option::Option::Some(BpTierType::ANMMOPCHJDI_LBLBCLIFGNE),
+            "ANMMOPCHJDI_GILFHNIDKFF" => ::std::option::Option::Some(BpTierType::ANMMOPCHJDI_GILFHNIDKFF),
+            "ANMMOPCHJDI_DGNEFFILOMJ" => ::std::option::Option::Some(BpTierType::ANMMOPCHJDI_DGNEFFILOMJ),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [BpTierType] = &[
-        BpTierType::BP_TIER_TYPE_NONE,
-        BpTierType::BP_TIER_TYPE_FREE,
-        BpTierType::BP_TIER_TYPE_PREMIUM_1,
-        BpTierType::BP_TIER_TYPE_PREMIUM_2,
+        BpTierType::ANMMOPCHJDI_PCPDHELPKEM,
+        BpTierType::ANMMOPCHJDI_LBLBCLIFGNE,
+        BpTierType::ANMMOPCHJDI_GILFHNIDKFF,
+        BpTierType::ANMMOPCHJDI_DGNEFFILOMJ,
     ];
 }
 
@@ -86,7 +86,7 @@ impl ::protobuf::EnumFull for BpTierType {
 
 impl ::std::default::Default for BpTierType {
     fn default() -> Self {
-        BpTierType::BP_TIER_TYPE_NONE
+        BpTierType::ANMMOPCHJDI_PCPDHELPKEM
     }
 }
 
@@ -97,9 +97,10 @@ impl BpTierType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x10BpTierType.proto*r\n\nBpTierType\x12\x15\n\x11BP_TIER_TYPE_NONE\
-    \x10\0\x12\x15\n\x11BP_TIER_TYPE_FREE\x10\x01\x12\x1a\n\x16BP_TIER_TYPE_\
-    PREMIUM_1\x10\x02\x12\x1a\n\x16BP_TIER_TYPE_PREMIUM_2\x10\x03b\x06proto3\
+    \n\x10BpTierType.proto*\x80\x01\n\nBpTierType\x12\x1b\n\x17ANMMOPCHJDI_P\
+    CPDHELPKEM\x10\0\x12\x1b\n\x17ANMMOPCHJDI_LBLBCLIFGNE\x10\x01\x12\x1b\n\
+    \x17ANMMOPCHJDI_GILFHNIDKFF\x10\x02\x12\x1b\n\x17ANMMOPCHJDI_DGNEFFILOMJ\
+    \x10\x03b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

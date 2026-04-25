@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct Mission {
     // message fields
-    // @@protoc_insertion_point(field:Mission.status)
-    pub status: ::protobuf::EnumOrUnknown<super::MissionStatus::MissionStatus>,
     // @@protoc_insertion_point(field:Mission.progress)
     pub progress: u32,
+    // @@protoc_insertion_point(field:Mission.status)
+    pub status: ::protobuf::EnumOrUnknown<super::MissionStatus::MissionStatus>,
     // @@protoc_insertion_point(field:Mission.id)
     pub id: u32,
     // special fields
@@ -54,14 +54,14 @@ impl Mission {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "status",
-            |m: &Mission| { &m.status },
-            |m: &mut Mission| { &mut m.status },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "progress",
             |m: &Mission| { &m.progress },
             |m: &mut Mission| { &mut m.progress },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "status",
+            |m: &Mission| { &m.status },
+            |m: &mut Mission| { &mut m.status },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "id",
@@ -86,11 +86,11 @@ impl ::protobuf::Message for Mission {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                88 => {
-                    self.status = is.read_enum_or_unknown()?;
-                },
-                72 => {
+                112 => {
                     self.progress = is.read_uint32()?;
+                },
+                96 => {
+                    self.status = is.read_enum_or_unknown()?;
                 },
                 40 => {
                     self.id = is.read_uint32()?;
@@ -107,11 +107,11 @@ impl ::protobuf::Message for Mission {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.status != ::protobuf::EnumOrUnknown::new(super::MissionStatus::MissionStatus::MISSION_NONE) {
-            my_size += ::protobuf::rt::int32_size(11, self.status.value());
-        }
         if self.progress != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.progress);
+            my_size += ::protobuf::rt::uint32_size(14, self.progress);
+        }
+        if self.status != ::protobuf::EnumOrUnknown::new(super::MissionStatus::MissionStatus::MISSION_NONE) {
+            my_size += ::protobuf::rt::int32_size(12, self.status.value());
         }
         if self.id != 0 {
             my_size += ::protobuf::rt::uint32_size(5, self.id);
@@ -122,11 +122,11 @@ impl ::protobuf::Message for Mission {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.status != ::protobuf::EnumOrUnknown::new(super::MissionStatus::MissionStatus::MISSION_NONE) {
-            os.write_enum(11, ::protobuf::EnumOrUnknown::value(&self.status))?;
-        }
         if self.progress != 0 {
-            os.write_uint32(9, self.progress)?;
+            os.write_uint32(14, self.progress)?;
+        }
+        if self.status != ::protobuf::EnumOrUnknown::new(super::MissionStatus::MissionStatus::MISSION_NONE) {
+            os.write_enum(12, ::protobuf::EnumOrUnknown::value(&self.status))?;
         }
         if self.id != 0 {
             os.write_uint32(5, self.id)?;
@@ -148,16 +148,16 @@ impl ::protobuf::Message for Mission {
     }
 
     fn clear(&mut self) {
-        self.status = ::protobuf::EnumOrUnknown::new(super::MissionStatus::MissionStatus::MISSION_NONE);
         self.progress = 0;
+        self.status = ::protobuf::EnumOrUnknown::new(super::MissionStatus::MissionStatus::MISSION_NONE);
         self.id = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static Mission {
         static instance: Mission = Mission {
-            status: ::protobuf::EnumOrUnknown::from_i32(0),
             progress: 0,
+            status: ::protobuf::EnumOrUnknown::from_i32(0),
             id: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -183,10 +183,10 @@ impl ::protobuf::reflect::ProtobufValue for Mission {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\rMission.proto\x1a\x13MissionStatus.proto\"]\n\x07Mission\x12&\n\x06s\
-    tatus\x18\x0b\x20\x01(\x0e2\x0e.MissionStatusR\x06status\x12\x1a\n\x08pr\
-    ogress\x18\t\x20\x01(\rR\x08progress\x12\x0e\n\x02id\x18\x05\x20\x01(\rR\
-    \x02idb\x06proto3\
+    \n\rMission.proto\x1a\x13MissionStatus.proto\"]\n\x07Mission\x12\x1a\n\
+    \x08progress\x18\x0e\x20\x01(\rR\x08progress\x12&\n\x06status\x18\x0c\
+    \x20\x01(\x0e2\x0e.MissionStatusR\x06status\x12\x0e\n\x02id\x18\x05\x20\
+    \x01(\rR\x02idb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

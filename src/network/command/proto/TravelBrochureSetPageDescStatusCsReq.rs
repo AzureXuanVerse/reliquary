@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct TravelBrochureSetPageDescStatusCsReq {
     // message fields
-    // @@protoc_insertion_point(field:TravelBrochureSetPageDescStatusCsReq.AKGJJEFCGKB)
-    pub AKGJJEFCGKB: u32,
-    // @@protoc_insertion_point(field:TravelBrochureSetPageDescStatusCsReq.LJLNMKMHFLE)
-    pub LJLNMKMHFLE: ::protobuf::EnumOrUnknown<super::EJPMKKAGKMK::EJPMKKAGKMK>,
+    // @@protoc_insertion_point(field:TravelBrochureSetPageDescStatusCsReq.GODADABGOJD)
+    pub GODADABGOJD: ::protobuf::EnumOrUnknown<super::HADIBEMFDML::HADIBEMFDML>,
+    // @@protoc_insertion_point(field:TravelBrochureSetPageDescStatusCsReq.HBCJPCMJPHE)
+    pub HBCJPCMJPHE: u32,
     // special fields
     // @@protoc_insertion_point(special_field:TravelBrochureSetPageDescStatusCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl TravelBrochureSetPageDescStatusCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "AKGJJEFCGKB",
-            |m: &TravelBrochureSetPageDescStatusCsReq| { &m.AKGJJEFCGKB },
-            |m: &mut TravelBrochureSetPageDescStatusCsReq| { &mut m.AKGJJEFCGKB },
+            "GODADABGOJD",
+            |m: &TravelBrochureSetPageDescStatusCsReq| { &m.GODADABGOJD },
+            |m: &mut TravelBrochureSetPageDescStatusCsReq| { &mut m.GODADABGOJD },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "LJLNMKMHFLE",
-            |m: &TravelBrochureSetPageDescStatusCsReq| { &m.LJLNMKMHFLE },
-            |m: &mut TravelBrochureSetPageDescStatusCsReq| { &mut m.LJLNMKMHFLE },
+            "HBCJPCMJPHE",
+            |m: &TravelBrochureSetPageDescStatusCsReq| { &m.HBCJPCMJPHE },
+            |m: &mut TravelBrochureSetPageDescStatusCsReq| { &mut m.HBCJPCMJPHE },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<TravelBrochureSetPageDescStatusCsReq>(
             "TravelBrochureSetPageDescStatusCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for TravelBrochureSetPageDescStatusCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                88 => {
-                    self.AKGJJEFCGKB = is.read_uint32()?;
+                40 => {
+                    self.GODADABGOJD = is.read_enum_or_unknown()?;
                 },
-                104 => {
-                    self.LJLNMKMHFLE = is.read_enum_or_unknown()?;
+                72 => {
+                    self.HBCJPCMJPHE = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for TravelBrochureSetPageDescStatusCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.AKGJJEFCGKB != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.AKGJJEFCGKB);
+        if self.GODADABGOJD != ::protobuf::EnumOrUnknown::new(super::HADIBEMFDML::HADIBEMFDML::HADIBEMFDML_IMKMPBMAMDG) {
+            my_size += ::protobuf::rt::int32_size(5, self.GODADABGOJD.value());
         }
-        if self.LJLNMKMHFLE != ::protobuf::EnumOrUnknown::new(super::EJPMKKAGKMK::EJPMKKAGKMK::EJPMKKAGKMK_MBCGBENNELF) {
-            my_size += ::protobuf::rt::int32_size(13, self.LJLNMKMHFLE.value());
+        if self.HBCJPCMJPHE != 0 {
+            my_size += ::protobuf::rt::uint32_size(9, self.HBCJPCMJPHE);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for TravelBrochureSetPageDescStatusCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.AKGJJEFCGKB != 0 {
-            os.write_uint32(11, self.AKGJJEFCGKB)?;
+        if self.GODADABGOJD != ::protobuf::EnumOrUnknown::new(super::HADIBEMFDML::HADIBEMFDML::HADIBEMFDML_IMKMPBMAMDG) {
+            os.write_enum(5, ::protobuf::EnumOrUnknown::value(&self.GODADABGOJD))?;
         }
-        if self.LJLNMKMHFLE != ::protobuf::EnumOrUnknown::new(super::EJPMKKAGKMK::EJPMKKAGKMK::EJPMKKAGKMK_MBCGBENNELF) {
-            os.write_enum(13, ::protobuf::EnumOrUnknown::value(&self.LJLNMKMHFLE))?;
+        if self.HBCJPCMJPHE != 0 {
+            os.write_uint32(9, self.HBCJPCMJPHE)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,15 +132,15 @@ impl ::protobuf::Message for TravelBrochureSetPageDescStatusCsReq {
     }
 
     fn clear(&mut self) {
-        self.AKGJJEFCGKB = 0;
-        self.LJLNMKMHFLE = ::protobuf::EnumOrUnknown::new(super::EJPMKKAGKMK::EJPMKKAGKMK::EJPMKKAGKMK_MBCGBENNELF);
+        self.GODADABGOJD = ::protobuf::EnumOrUnknown::new(super::HADIBEMFDML::HADIBEMFDML::HADIBEMFDML_IMKMPBMAMDG);
+        self.HBCJPCMJPHE = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static TravelBrochureSetPageDescStatusCsReq {
         static instance: TravelBrochureSetPageDescStatusCsReq = TravelBrochureSetPageDescStatusCsReq {
-            AKGJJEFCGKB: 0,
-            LJLNMKMHFLE: ::protobuf::EnumOrUnknown::from_i32(0),
+            GODADABGOJD: ::protobuf::EnumOrUnknown::from_i32(0),
+            HBCJPCMJPHE: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -165,10 +165,10 @@ impl ::protobuf::reflect::ProtobufValue for TravelBrochureSetPageDescStatusCsReq
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n*TravelBrochureSetPageDescStatusCsReq.proto\x1a\x11EJPMKKAGKMK.proto\"\
-    x\n$TravelBrochureSetPageDescStatusCsReq\x12\x20\n\x0bAKGJJEFCGKB\x18\
-    \x0b\x20\x01(\rR\x0bAKGJJEFCGKB\x12.\n\x0bLJLNMKMHFLE\x18\r\x20\x01(\x0e\
-    2\x0c.EJPMKKAGKMKR\x0bLJLNMKMHFLEb\x06proto3\
+    \n*TravelBrochureSetPageDescStatusCsReq.proto\x1a\x11HADIBEMFDML.proto\"\
+    x\n$TravelBrochureSetPageDescStatusCsReq\x12.\n\x0bGODADABGOJD\x18\x05\
+    \x20\x01(\x0e2\x0c.HADIBEMFDMLR\x0bGODADABGOJD\x12\x20\n\x0bHBCJPCMJPHE\
+    \x18\t\x20\x01(\rR\x0bHBCJPCMJPHEb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -186,7 +186,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::EJPMKKAGKMK::file_descriptor().clone());
+            deps.push(super::HADIBEMFDML::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(TravelBrochureSetPageDescStatusCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

@@ -30,8 +30,8 @@ pub struct ChessRogueQuestFinishNotify {
     // message fields
     // @@protoc_insertion_point(field:ChessRogueQuestFinishNotify.quest_id)
     pub quest_id: u32,
-    // @@protoc_insertion_point(field:ChessRogueQuestFinishNotify.HIKIKAJKACD)
-    pub HIKIKAJKACD: u32,
+    // @@protoc_insertion_point(field:ChessRogueQuestFinishNotify.OGPIDLPHHGG)
+    pub OGPIDLPHHGG: u32,
     // special fields
     // @@protoc_insertion_point(special_field:ChessRogueQuestFinishNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,9 +57,9 @@ impl ChessRogueQuestFinishNotify {
             |m: &mut ChessRogueQuestFinishNotify| { &mut m.quest_id },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "HIKIKAJKACD",
-            |m: &ChessRogueQuestFinishNotify| { &m.HIKIKAJKACD },
-            |m: &mut ChessRogueQuestFinishNotify| { &mut m.HIKIKAJKACD },
+            "OGPIDLPHHGG",
+            |m: &ChessRogueQuestFinishNotify| { &m.OGPIDLPHHGG },
+            |m: &mut ChessRogueQuestFinishNotify| { &mut m.OGPIDLPHHGG },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ChessRogueQuestFinishNotify>(
             "ChessRogueQuestFinishNotify",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for ChessRogueQuestFinishNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                48 => {
+                56 => {
                     self.quest_id = is.read_uint32()?;
                 },
-                112 => {
-                    self.HIKIKAJKACD = is.read_uint32()?;
+                72 => {
+                    self.OGPIDLPHHGG = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -98,10 +98,10 @@ impl ::protobuf::Message for ChessRogueQuestFinishNotify {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.quest_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(6, self.quest_id);
+            my_size += ::protobuf::rt::uint32_size(7, self.quest_id);
         }
-        if self.HIKIKAJKACD != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.HIKIKAJKACD);
+        if self.OGPIDLPHHGG != 0 {
+            my_size += ::protobuf::rt::uint32_size(9, self.OGPIDLPHHGG);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,10 +110,10 @@ impl ::protobuf::Message for ChessRogueQuestFinishNotify {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.quest_id != 0 {
-            os.write_uint32(6, self.quest_id)?;
+            os.write_uint32(7, self.quest_id)?;
         }
-        if self.HIKIKAJKACD != 0 {
-            os.write_uint32(14, self.HIKIKAJKACD)?;
+        if self.OGPIDLPHHGG != 0 {
+            os.write_uint32(9, self.OGPIDLPHHGG)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -133,14 +133,14 @@ impl ::protobuf::Message for ChessRogueQuestFinishNotify {
 
     fn clear(&mut self) {
         self.quest_id = 0;
-        self.HIKIKAJKACD = 0;
+        self.OGPIDLPHHGG = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ChessRogueQuestFinishNotify {
         static instance: ChessRogueQuestFinishNotify = ChessRogueQuestFinishNotify {
             quest_id: 0,
-            HIKIKAJKACD: 0,
+            OGPIDLPHHGG: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for ChessRogueQuestFinishNotify {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n!ChessRogueQuestFinishNotify.proto\"Z\n\x1bChessRogueQuestFinishNotify\
-    \x12\x19\n\x08quest_id\x18\x06\x20\x01(\rR\x07questId\x12\x20\n\x0bHIKIK\
-    AJKACD\x18\x0e\x20\x01(\rR\x0bHIKIKAJKACDb\x06proto3\
+    \x12\x19\n\x08quest_id\x18\x07\x20\x01(\rR\x07questId\x12\x20\n\x0bOGPID\
+    LPHHGG\x18\t\x20\x01(\rR\x0bOGPIDLPHHGGb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -27,178 +27,178 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdSceneType)
 pub enum CmdSceneType {
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_MNFEPONEDDJ)
-    CmdSceneType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_MEKLKBMEAGL)
-    CmdSceneType_MEKLKBMEAGL = 1487,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_BMFMGHAFOEM)
-    CmdSceneType_BMFMGHAFOEM = 1401,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_HEBLEIPHNDP)
-    CmdSceneType_HEBLEIPHNDP = 1453,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_CBBNEMIHEEA)
-    CmdSceneType_CBBNEMIHEEA = 1462,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_KMDNCLJPAPG)
-    CmdSceneType_KMDNCLJPAPG = 1420,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_FEFPFOBFGKH)
-    CmdSceneType_FEFPFOBFGKH = 1482,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_FFLKDBKKAKF)
-    CmdSceneType_FFLKDBKKAKF = 1488,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_ICFLPKPIBNB)
-    CmdSceneType_ICFLPKPIBNB = 1457,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_LCCBONCOCGB)
-    CmdSceneType_LCCBONCOCGB = 1418,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_KPDJHPPKIKI)
-    CmdSceneType_KPDJHPPKIKI = 1441,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_OPNNICLENKG)
-    CmdSceneType_OPNNICLENKG = 1446,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_BNFIBPAIHCO)
-    CmdSceneType_BNFIBPAIHCO = 1444,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_EELNJLDOIJA)
-    CmdSceneType_EELNJLDOIJA = 1436,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_ILOCHOPDAEJ)
-    CmdSceneType_ILOCHOPDAEJ = 1442,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_CCCELIJLPDE)
-    CmdSceneType_CCCELIJLPDE = 1433,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_EHMJAFENLCD)
-    CmdSceneType_EHMJAFENLCD = 1480,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_GODKKAHICIH)
-    CmdSceneType_GODKKAHICIH = 1473,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_IACCBPFBPAM)
-    CmdSceneType_IACCBPFBPAM = 1489,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_MKJFLKJNDJE)
-    CmdSceneType_MKJFLKJNDJE = 1426,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_BKHKHFJIHBM)
-    CmdSceneType_BKHKHFJIHBM = 1455,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_NKKEPJBNKOH)
-    CmdSceneType_NKKEPJBNKOH = 1403,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_KOFGCDIOCFM)
-    CmdSceneType_KOFGCDIOCFM = 1472,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_EMHEAENAJCH)
-    CmdSceneType_EMHEAENAJCH = 1496,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_PNEAIPLNDFO)
-    CmdSceneType_PNEAIPLNDFO = 1412,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_OAIJDPMDJJH)
-    CmdSceneType_OAIJDPMDJJH = 1411,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_FHJNMOPOEMO)
-    CmdSceneType_FHJNMOPOEMO = 1499,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_BAJNKNIAHDA)
-    CmdSceneType_BAJNKNIAHDA = 1419,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_KBBLGDDCCMG)
-    CmdSceneType_KBBLGDDCCMG = 1474,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_PELHJKKMHIO)
-    CmdSceneType_PELHJKKMHIO = 1432,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_LAHONMFIKOH)
-    CmdSceneType_LAHONMFIKOH = 1495,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_MHEDAMOKCND)
-    CmdSceneType_MHEDAMOKCND = 1438,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_FOLPPLJHKLO)
-    CmdSceneType_FOLPPLJHKLO = 1431,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_FOKIGKBPOOJ)
-    CmdSceneType_FOKIGKBPOOJ = 1404,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_EGGKAKDHGEN)
-    CmdSceneType_EGGKAKDHGEN = 1409,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_DKJHOPDFEBB)
-    CmdSceneType_DKJHOPDFEBB = 1468,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_EPBOGFAMKMG)
-    CmdSceneType_EPBOGFAMKMG = 1475,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_EHGDIBJKMIJ)
-    CmdSceneType_EHGDIBJKMIJ = 1406,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_AGINIHKMEGF)
-    CmdSceneType_AGINIHKMEGF = 1422,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_DJDJHHJDDII)
-    CmdSceneType_DJDJHHJDDII = 1449,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_EMIGBEJFKIA)
-    CmdSceneType_EMIGBEJFKIA = 1405,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_IKFKCCPBNJF)
-    CmdSceneType_IKFKCCPBNJF = 1450,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_OKCDMHBJJNI)
-    CmdSceneType_OKCDMHBJJNI = 1417,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_EKLPBEEKGPH)
-    CmdSceneType_EKLPBEEKGPH = 1491,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_EEJECFLLIAI)
-    CmdSceneType_EEJECFLLIAI = 1481,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_AADKLGFNDOM)
-    CmdSceneType_AADKLGFNDOM = 1463,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_PFGDHMBHIEI)
-    CmdSceneType_PFGDHMBHIEI = 1423,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_GEGDNOHJPGD)
-    CmdSceneType_GEGDNOHJPGD = 1494,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_HEGCEFCCCGK)
-    CmdSceneType_HEGCEFCCCGK = 1435,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_ANGADBGDPED)
-    CmdSceneType_ANGADBGDPED = 1477,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_LDIAMHNJFKF)
-    CmdSceneType_LDIAMHNJFKF = 1467,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_EFCOKMHIEBC)
-    CmdSceneType_EFCOKMHIEBC = 1451,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_DGJNPKNPKIP)
-    CmdSceneType_DGJNPKNPKIP = 1483,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_MMOHBHKGGAG)
-    CmdSceneType_MMOHBHKGGAG = 1439,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_MFPOEJAPIHG)
-    CmdSceneType_MFPOEJAPIHG = 1402,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_JMALDGMMIEC)
-    CmdSceneType_JMALDGMMIEC = 1497,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_OHPEJMCNBMO)
-    CmdSceneType_OHPEJMCNBMO = 1452,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_NPJGKOPGOEE)
-    CmdSceneType_NPJGKOPGOEE = 1471,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_CIGBMGOHHHD)
-    CmdSceneType_CIGBMGOHHHD = 1413,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_NFMAKMFGMDJ)
-    CmdSceneType_NFMAKMFGMDJ = 1440,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_ALDGCCDOPKE)
-    CmdSceneType_ALDGCCDOPKE = 1434,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_GKJIONLCHEF)
-    CmdSceneType_GKJIONLCHEF = 1456,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_PACHIOJHGEC)
-    CmdSceneType_PACHIOJHGEC = 1486,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_LDGHGKDAIPA)
-    CmdSceneType_LDGHGKDAIPA = 1490,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_OOHJKGOLMLL)
-    CmdSceneType_OOHJKGOLMLL = 1464,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_MNJHLBHDBBO)
-    CmdSceneType_MNJHLBHDBBO = 1443,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_CAONDGOPIIC)
-    CmdSceneType_CAONDGOPIIC = 1500,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_HPAPKJGHNAK)
-    CmdSceneType_HPAPKJGHNAK = 1425,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_FHEPGOGOBEI)
-    CmdSceneType_FHEPGOGOBEI = 1429,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_LGMFJIJKACO)
-    CmdSceneType_LGMFJIJKACO = 1437,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_FMEMKHBHGHJ)
-    CmdSceneType_FMEMKHBHGHJ = 1465,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_OFGBBOJLNGK)
-    CmdSceneType_OFGBBOJLNGK = 1484,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_CFEEGHCNIME)
-    CmdSceneType_CFEEGHCNIME = 1466,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_KLKPILMNPBK)
-    CmdSceneType_KLKPILMNPBK = 1485,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_BMMKPHEKENK)
-    CmdSceneType_BMMKPHEKENK = 1445,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_LNGGKIBNCFB)
-    CmdSceneType_LNGGKIBNCFB = 1493,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_MIPBFIPGIKF)
-    CmdSceneType_MIPBFIPGIKF = 1408,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_IMJHIEPFJGL)
-    CmdSceneType_IMJHIEPFJGL = 1458,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_HIGIACBCIPN)
-    CmdSceneType_HIGIACBCIPN = 1461,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_JCGBIJDCJHB)
-    CmdSceneType_JCGBIJDCJHB = 1460,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_GLJMPAGJKNG)
-    CmdSceneType_GLJMPAGJKNG = 1492,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_LMMGNIJCHFM)
-    CmdSceneType_LMMGNIJCHFM = 1470,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_BFFKLIAEDMM)
-    CmdSceneType_BFFKLIAEDMM = 1469,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_NEKALNEAGAH)
-    CmdSceneType_NEKALNEAGAH = 1424,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_JDOLFBOBBIO)
-    CmdSceneType_JDOLFBOBBIO = 1421,
-    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneType_FNBNFFEOLMM)
-    CmdSceneType_FNBNFFEOLMM = 1410,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.KILMJLKOKEJ_PCPDHELPKEM)
+    KILMJLKOKEJ_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdOGHELLAAFJG)
+    CmdOGHELLAAFJG = 1420,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdGetCurSceneInfoCsReq)
+    CmdGetCurSceneInfoCsReq = 1409,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdRefreshTriggerByClientScRsp)
+    CmdRefreshTriggerByClientScRsp = 1445,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdEnterSectionCsReq)
+    CmdEnterSectionCsReq = 1457,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdGetEnteredSceneScRsp)
+    CmdGetEnteredSceneScRsp = 1446,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdEnterSectionScRsp)
+    CmdEnterSectionScRsp = 1421,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdCBOFFLPHIBP)
+    CmdCBOFFLPHIBP = 1443,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdGetSceneMapInfoScRsp)
+    CmdGetSceneMapInfoScRsp = 1499,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneEntityMoveCsReq)
+    CmdSceneEntityMoveCsReq = 1402,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneEntityMoveScNotify)
+    CmdSceneEntityMoveScNotify = 1439,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneCastSkillMpUpdateScNotify)
+    CmdSceneCastSkillMpUpdateScNotify = 1438,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdRefreshTriggerByClientScNotify)
+    CmdRefreshTriggerByClientScNotify = 1487,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdCounterDownCsReq)
+    CmdCounterDownCsReq = 1486,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdActiveFarmElementScRsp)
+    CmdActiveFarmElementScRsp = 1430,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdUpdateGroupPropertyCsReq)
+    CmdUpdateGroupPropertyCsReq = 1422,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdCounterRecoverCsReq)
+    CmdCounterRecoverCsReq = 1440,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdGetUnlockTeleportScRsp)
+    CmdGetUnlockTeleportScRsp = 1483,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdGLLCFALFCOC)
+    CmdGLLCFALFCOC = 1464,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.KILMJLKOKEJ_CDPBIFPHEGE)
+    KILMJLKOKEJ_CDPBIFPHEGE = 1407,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneReviveAfterRebattleCsReq)
+    CmdSceneReviveAfterRebattleCsReq = 1489,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneEnterStageCsReq)
+    CmdSceneEnterStageCsReq = 1444,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdFBJDFGMMMFP)
+    CmdFBJDFGMMMFP = 1485,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdUpdateFloorSavedValueNotify)
+    CmdUpdateFloorSavedValueNotify = 1415,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdBDONBHBPJMC)
+    CmdBDONBHBPJMC = 1493,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdPGJMLAAKDJF)
+    CmdPGJMLAAKDJF = 1458,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneCastSkillCostMpCsReq)
+    CmdSceneCastSkillCostMpCsReq = 1437,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdStartCocoonStageCsReq)
+    CmdStartCocoonStageCsReq = 1425,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdScenePlaneEventScNotify)
+    CmdScenePlaneEventScNotify = 1482,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdRefreshTriggerEntityListReq)
+    CmdRefreshTriggerEntityListReq = 1456,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSetTrainWorldIdCsReq)
+    CmdSetTrainWorldIdCsReq = 1419,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdActiveFarmElementCsReq)
+    CmdActiveFarmElementCsReq = 1411,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneEnterStageScRsp)
+    CmdSceneEnterStageScRsp = 1500,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdOFGKNGPDFIK)
+    CmdOFGKNGPDFIK = 1448,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdTrainWorldIdChangeScNotify)
+    CmdTrainWorldIdChangeScNotify = 1450,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSavePointsInfoNotify)
+    CmdSavePointsInfoNotify = 1451,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneEntityTeleportCsReq)
+    CmdSceneEntityTeleportCsReq = 1469,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSetTrainWorldIdScRsp)
+    CmdSetTrainWorldIdScRsp = 1447,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdEnterSceneScRsp)
+    CmdEnterSceneScRsp = 1470,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdReEnterLastElementStageScRsp)
+    CmdReEnterLastElementStageScRsp = 1490,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneEntityMoveScRsp)
+    CmdSceneEntityMoveScRsp = 1410,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdUnlockTeleportNotify)
+    CmdUnlockTeleportNotify = 1484,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdGroupStateChangeCsReq)
+    CmdGroupStateChangeCsReq = 1497,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdNBPAGJBLKJF)
+    CmdNBPAGJBLKJF = 1412,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSetGroupCustomSaveDataScRsp)
+    CmdSetGroupCustomSaveDataScRsp = 1416,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdOpenChestScNotify)
+    CmdOpenChestScNotify = 1435,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdGetUnlockTeleportCsReq)
+    CmdGetUnlockTeleportCsReq = 1431,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdLMHHFLKCPPF)
+    CmdLMHHFLKCPPF = 1417,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.KILMJLKOKEJ_NFDHFMOOJAO)
+    KILMJLKOKEJ_NFDHFMOOJAO = 1473,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdKCJNIPMKCGB)
+    CmdKCJNIPMKCGB = 1467,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.KILMJLKOKEJ_GCKOCILCEAC)
+    KILMJLKOKEJ_GCKOCILCEAC = 1479,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneCheckpoingRefreshScRsp)
+    CmdSceneCheckpoingRefreshScRsp = 1433,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdGPACKPJJGBJ)
+    CmdGPACKPJJGBJ = 1480,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdDeactivateFarmElementCsReq)
+    CmdDeactivateFarmElementCsReq = 1466,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdGEJEOCBFPMA)
+    CmdGEJEOCBFPMA = 1401,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdCHAPDGDDKBK)
+    CmdCHAPDGDDKBK = 1453,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneCheckpointRefreshMonsterReq)
+    CmdSceneCheckpointRefreshMonsterReq = 1432,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdNGPOFGPEDCJ)
+    CmdNGPOFGPEDCJ = 1496,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdInteractPropScRsp)
+    CmdInteractPropScRsp = 1495,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdHIABMONNNAJ)
+    CmdHIABMONNNAJ = 1405,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneCastSkillCsReq)
+    CmdSceneCastSkillCsReq = 1414,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdEnteredSceneChangeScNotify)
+    CmdEnteredSceneChangeScNotify = 1434,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdHHGCIGBNMEP)
+    CmdHHGCIGBNMEP = 1475,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneCastSkillCostMpScRsp)
+    CmdSceneCastSkillCostMpScRsp = 1404,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdPFABFKONAIM)
+    CmdPFABFKONAIM = 1423,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdGetCurSceneInfoScRsp)
+    CmdGetCurSceneInfoScRsp = 1498,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdEnterSceneByServerScNotify)
+    CmdEnterSceneByServerScNotify = 1468,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.KILMJLKOKEJ_LNGDMFIPACJ)
+    KILMJLKOKEJ_LNGDMFIPACJ = 1477,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdGetSceneMapInfoCsReq)
+    CmdGetSceneMapInfoCsReq = 1460,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneCastSkillScRsp)
+    CmdSceneCastSkillScRsp = 1418,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdEnterSceneCsReq)
+    CmdEnterSceneCsReq = 1462,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneEntityTeleportScRsp)
+    CmdSceneEntityTeleportScRsp = 1441,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdNENJKDEDPJJ)
+    CmdNENJKDEDPJJ = 1426,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdMBMACCLHEBK)
+    CmdMBMACCLHEBK = 1428,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSyncEntityBuffChangeList)
+    CmdSyncEntityBuffChangeList = 1474,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdReEnterLastElementStageCsReq)
+    CmdReEnterLastElementStageCsReq = 1452,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdDeleteSummonUnitCsReq)
+    CmdDeleteSummonUnitCsReq = 1427,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdChangeTimeRewindInfoReq)
+    CmdChangeTimeRewindInfoReq = 1463,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdInteractPropCsReq)
+    CmdInteractPropCsReq = 1494,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdSceneGroupRefreshScNotify)
+    CmdSceneGroupRefreshScNotify = 1455,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdJBGANBAEDPM)
+    CmdJBGANBAEDPM = 1413,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdKJAMPKBPAOL)
+    CmdKJAMPKBPAOL = 1461,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.KILMJLKOKEJ_CKPHBALHALL)
+    KILMJLKOKEJ_CKPHBALHALL = 1491,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdNAFCLDABGLC)
+    CmdNAFCLDABGLC = 1408,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdGetEnteredSceneCsReq)
+    CmdGetEnteredSceneCsReq = 1476,
+    // @@protoc_insertion_point(enum_value:CmdSceneType.CmdStartCocoonStageScRsp)
+    CmdStartCocoonStageScRsp = 1454,
 }
 
 impl ::protobuf::Enum for CmdSceneType {
@@ -210,275 +210,275 @@ impl ::protobuf::Enum for CmdSceneType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdSceneType> {
         match value {
-            0 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MNFEPONEDDJ),
-            1487 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MEKLKBMEAGL),
-            1401 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_BMFMGHAFOEM),
-            1453 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_HEBLEIPHNDP),
-            1462 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_CBBNEMIHEEA),
-            1420 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_KMDNCLJPAPG),
-            1482 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FEFPFOBFGKH),
-            1488 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FFLKDBKKAKF),
-            1457 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_ICFLPKPIBNB),
-            1418 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_LCCBONCOCGB),
-            1441 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_KPDJHPPKIKI),
-            1446 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_OPNNICLENKG),
-            1444 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_BNFIBPAIHCO),
-            1436 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EELNJLDOIJA),
-            1442 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_ILOCHOPDAEJ),
-            1433 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_CCCELIJLPDE),
-            1480 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EHMJAFENLCD),
-            1473 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_GODKKAHICIH),
-            1489 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_IACCBPFBPAM),
-            1426 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MKJFLKJNDJE),
-            1455 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_BKHKHFJIHBM),
-            1403 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_NKKEPJBNKOH),
-            1472 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_KOFGCDIOCFM),
-            1496 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EMHEAENAJCH),
-            1412 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_PNEAIPLNDFO),
-            1411 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_OAIJDPMDJJH),
-            1499 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FHJNMOPOEMO),
-            1419 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_BAJNKNIAHDA),
-            1474 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_KBBLGDDCCMG),
-            1432 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_PELHJKKMHIO),
-            1495 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_LAHONMFIKOH),
-            1438 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MHEDAMOKCND),
-            1431 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FOLPPLJHKLO),
-            1404 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FOKIGKBPOOJ),
-            1409 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EGGKAKDHGEN),
-            1468 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_DKJHOPDFEBB),
-            1475 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EPBOGFAMKMG),
-            1406 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EHGDIBJKMIJ),
-            1422 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_AGINIHKMEGF),
-            1449 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_DJDJHHJDDII),
-            1405 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EMIGBEJFKIA),
-            1450 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_IKFKCCPBNJF),
-            1417 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_OKCDMHBJJNI),
-            1491 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EKLPBEEKGPH),
-            1481 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EEJECFLLIAI),
-            1463 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_AADKLGFNDOM),
-            1423 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_PFGDHMBHIEI),
-            1494 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_GEGDNOHJPGD),
-            1435 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_HEGCEFCCCGK),
-            1477 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_ANGADBGDPED),
-            1467 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_LDIAMHNJFKF),
-            1451 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EFCOKMHIEBC),
-            1483 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_DGJNPKNPKIP),
-            1439 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MMOHBHKGGAG),
-            1402 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MFPOEJAPIHG),
-            1497 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_JMALDGMMIEC),
-            1452 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_OHPEJMCNBMO),
-            1471 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_NPJGKOPGOEE),
-            1413 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_CIGBMGOHHHD),
-            1440 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_NFMAKMFGMDJ),
-            1434 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_ALDGCCDOPKE),
-            1456 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_GKJIONLCHEF),
-            1486 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_PACHIOJHGEC),
-            1490 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_LDGHGKDAIPA),
-            1464 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_OOHJKGOLMLL),
-            1443 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MNJHLBHDBBO),
-            1500 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_CAONDGOPIIC),
-            1425 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_HPAPKJGHNAK),
-            1429 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FHEPGOGOBEI),
-            1437 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_LGMFJIJKACO),
-            1465 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FMEMKHBHGHJ),
-            1484 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_OFGBBOJLNGK),
-            1466 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_CFEEGHCNIME),
-            1485 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_KLKPILMNPBK),
-            1445 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_BMMKPHEKENK),
-            1493 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_LNGGKIBNCFB),
-            1408 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MIPBFIPGIKF),
-            1458 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_IMJHIEPFJGL),
-            1461 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_HIGIACBCIPN),
-            1460 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_JCGBIJDCJHB),
-            1492 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_GLJMPAGJKNG),
-            1470 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_LMMGNIJCHFM),
-            1469 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_BFFKLIAEDMM),
-            1424 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_NEKALNEAGAH),
-            1421 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_JDOLFBOBBIO),
-            1410 => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FNBNFFEOLMM),
+            0 => ::std::option::Option::Some(CmdSceneType::KILMJLKOKEJ_PCPDHELPKEM),
+            1420 => ::std::option::Option::Some(CmdSceneType::CmdOGHELLAAFJG),
+            1409 => ::std::option::Option::Some(CmdSceneType::CmdGetCurSceneInfoCsReq),
+            1445 => ::std::option::Option::Some(CmdSceneType::CmdRefreshTriggerByClientScRsp),
+            1457 => ::std::option::Option::Some(CmdSceneType::CmdEnterSectionCsReq),
+            1446 => ::std::option::Option::Some(CmdSceneType::CmdGetEnteredSceneScRsp),
+            1421 => ::std::option::Option::Some(CmdSceneType::CmdEnterSectionScRsp),
+            1443 => ::std::option::Option::Some(CmdSceneType::CmdCBOFFLPHIBP),
+            1499 => ::std::option::Option::Some(CmdSceneType::CmdGetSceneMapInfoScRsp),
+            1402 => ::std::option::Option::Some(CmdSceneType::CmdSceneEntityMoveCsReq),
+            1439 => ::std::option::Option::Some(CmdSceneType::CmdSceneEntityMoveScNotify),
+            1438 => ::std::option::Option::Some(CmdSceneType::CmdSceneCastSkillMpUpdateScNotify),
+            1487 => ::std::option::Option::Some(CmdSceneType::CmdRefreshTriggerByClientScNotify),
+            1486 => ::std::option::Option::Some(CmdSceneType::CmdCounterDownCsReq),
+            1430 => ::std::option::Option::Some(CmdSceneType::CmdActiveFarmElementScRsp),
+            1422 => ::std::option::Option::Some(CmdSceneType::CmdUpdateGroupPropertyCsReq),
+            1440 => ::std::option::Option::Some(CmdSceneType::CmdCounterRecoverCsReq),
+            1483 => ::std::option::Option::Some(CmdSceneType::CmdGetUnlockTeleportScRsp),
+            1464 => ::std::option::Option::Some(CmdSceneType::CmdGLLCFALFCOC),
+            1407 => ::std::option::Option::Some(CmdSceneType::KILMJLKOKEJ_CDPBIFPHEGE),
+            1489 => ::std::option::Option::Some(CmdSceneType::CmdSceneReviveAfterRebattleCsReq),
+            1444 => ::std::option::Option::Some(CmdSceneType::CmdSceneEnterStageCsReq),
+            1485 => ::std::option::Option::Some(CmdSceneType::CmdFBJDFGMMMFP),
+            1415 => ::std::option::Option::Some(CmdSceneType::CmdUpdateFloorSavedValueNotify),
+            1493 => ::std::option::Option::Some(CmdSceneType::CmdBDONBHBPJMC),
+            1458 => ::std::option::Option::Some(CmdSceneType::CmdPGJMLAAKDJF),
+            1437 => ::std::option::Option::Some(CmdSceneType::CmdSceneCastSkillCostMpCsReq),
+            1425 => ::std::option::Option::Some(CmdSceneType::CmdStartCocoonStageCsReq),
+            1482 => ::std::option::Option::Some(CmdSceneType::CmdScenePlaneEventScNotify),
+            1456 => ::std::option::Option::Some(CmdSceneType::CmdRefreshTriggerEntityListReq),
+            1419 => ::std::option::Option::Some(CmdSceneType::CmdSetTrainWorldIdCsReq),
+            1411 => ::std::option::Option::Some(CmdSceneType::CmdActiveFarmElementCsReq),
+            1500 => ::std::option::Option::Some(CmdSceneType::CmdSceneEnterStageScRsp),
+            1448 => ::std::option::Option::Some(CmdSceneType::CmdOFGKNGPDFIK),
+            1450 => ::std::option::Option::Some(CmdSceneType::CmdTrainWorldIdChangeScNotify),
+            1451 => ::std::option::Option::Some(CmdSceneType::CmdSavePointsInfoNotify),
+            1469 => ::std::option::Option::Some(CmdSceneType::CmdSceneEntityTeleportCsReq),
+            1447 => ::std::option::Option::Some(CmdSceneType::CmdSetTrainWorldIdScRsp),
+            1470 => ::std::option::Option::Some(CmdSceneType::CmdEnterSceneScRsp),
+            1490 => ::std::option::Option::Some(CmdSceneType::CmdReEnterLastElementStageScRsp),
+            1410 => ::std::option::Option::Some(CmdSceneType::CmdSceneEntityMoveScRsp),
+            1484 => ::std::option::Option::Some(CmdSceneType::CmdUnlockTeleportNotify),
+            1497 => ::std::option::Option::Some(CmdSceneType::CmdGroupStateChangeCsReq),
+            1412 => ::std::option::Option::Some(CmdSceneType::CmdNBPAGJBLKJF),
+            1416 => ::std::option::Option::Some(CmdSceneType::CmdSetGroupCustomSaveDataScRsp),
+            1435 => ::std::option::Option::Some(CmdSceneType::CmdOpenChestScNotify),
+            1431 => ::std::option::Option::Some(CmdSceneType::CmdGetUnlockTeleportCsReq),
+            1417 => ::std::option::Option::Some(CmdSceneType::CmdLMHHFLKCPPF),
+            1473 => ::std::option::Option::Some(CmdSceneType::KILMJLKOKEJ_NFDHFMOOJAO),
+            1467 => ::std::option::Option::Some(CmdSceneType::CmdKCJNIPMKCGB),
+            1479 => ::std::option::Option::Some(CmdSceneType::KILMJLKOKEJ_GCKOCILCEAC),
+            1433 => ::std::option::Option::Some(CmdSceneType::CmdSceneCheckpoingRefreshScRsp),
+            1480 => ::std::option::Option::Some(CmdSceneType::CmdGPACKPJJGBJ),
+            1466 => ::std::option::Option::Some(CmdSceneType::CmdDeactivateFarmElementCsReq),
+            1401 => ::std::option::Option::Some(CmdSceneType::CmdGEJEOCBFPMA),
+            1453 => ::std::option::Option::Some(CmdSceneType::CmdCHAPDGDDKBK),
+            1432 => ::std::option::Option::Some(CmdSceneType::CmdSceneCheckpointRefreshMonsterReq),
+            1496 => ::std::option::Option::Some(CmdSceneType::CmdNGPOFGPEDCJ),
+            1495 => ::std::option::Option::Some(CmdSceneType::CmdInteractPropScRsp),
+            1405 => ::std::option::Option::Some(CmdSceneType::CmdHIABMONNNAJ),
+            1414 => ::std::option::Option::Some(CmdSceneType::CmdSceneCastSkillCsReq),
+            1434 => ::std::option::Option::Some(CmdSceneType::CmdEnteredSceneChangeScNotify),
+            1475 => ::std::option::Option::Some(CmdSceneType::CmdHHGCIGBNMEP),
+            1404 => ::std::option::Option::Some(CmdSceneType::CmdSceneCastSkillCostMpScRsp),
+            1423 => ::std::option::Option::Some(CmdSceneType::CmdPFABFKONAIM),
+            1498 => ::std::option::Option::Some(CmdSceneType::CmdGetCurSceneInfoScRsp),
+            1468 => ::std::option::Option::Some(CmdSceneType::CmdEnterSceneByServerScNotify),
+            1477 => ::std::option::Option::Some(CmdSceneType::KILMJLKOKEJ_LNGDMFIPACJ),
+            1460 => ::std::option::Option::Some(CmdSceneType::CmdGetSceneMapInfoCsReq),
+            1418 => ::std::option::Option::Some(CmdSceneType::CmdSceneCastSkillScRsp),
+            1462 => ::std::option::Option::Some(CmdSceneType::CmdEnterSceneCsReq),
+            1441 => ::std::option::Option::Some(CmdSceneType::CmdSceneEntityTeleportScRsp),
+            1426 => ::std::option::Option::Some(CmdSceneType::CmdNENJKDEDPJJ),
+            1428 => ::std::option::Option::Some(CmdSceneType::CmdMBMACCLHEBK),
+            1474 => ::std::option::Option::Some(CmdSceneType::CmdSyncEntityBuffChangeList),
+            1452 => ::std::option::Option::Some(CmdSceneType::CmdReEnterLastElementStageCsReq),
+            1427 => ::std::option::Option::Some(CmdSceneType::CmdDeleteSummonUnitCsReq),
+            1463 => ::std::option::Option::Some(CmdSceneType::CmdChangeTimeRewindInfoReq),
+            1494 => ::std::option::Option::Some(CmdSceneType::CmdInteractPropCsReq),
+            1455 => ::std::option::Option::Some(CmdSceneType::CmdSceneGroupRefreshScNotify),
+            1413 => ::std::option::Option::Some(CmdSceneType::CmdJBGANBAEDPM),
+            1461 => ::std::option::Option::Some(CmdSceneType::CmdKJAMPKBPAOL),
+            1491 => ::std::option::Option::Some(CmdSceneType::KILMJLKOKEJ_CKPHBALHALL),
+            1408 => ::std::option::Option::Some(CmdSceneType::CmdNAFCLDABGLC),
+            1476 => ::std::option::Option::Some(CmdSceneType::CmdGetEnteredSceneCsReq),
+            1454 => ::std::option::Option::Some(CmdSceneType::CmdStartCocoonStageScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdSceneType> {
         match str {
-            "CmdSceneType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MNFEPONEDDJ),
-            "CmdSceneType_MEKLKBMEAGL" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MEKLKBMEAGL),
-            "CmdSceneType_BMFMGHAFOEM" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_BMFMGHAFOEM),
-            "CmdSceneType_HEBLEIPHNDP" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_HEBLEIPHNDP),
-            "CmdSceneType_CBBNEMIHEEA" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_CBBNEMIHEEA),
-            "CmdSceneType_KMDNCLJPAPG" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_KMDNCLJPAPG),
-            "CmdSceneType_FEFPFOBFGKH" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FEFPFOBFGKH),
-            "CmdSceneType_FFLKDBKKAKF" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FFLKDBKKAKF),
-            "CmdSceneType_ICFLPKPIBNB" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_ICFLPKPIBNB),
-            "CmdSceneType_LCCBONCOCGB" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_LCCBONCOCGB),
-            "CmdSceneType_KPDJHPPKIKI" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_KPDJHPPKIKI),
-            "CmdSceneType_OPNNICLENKG" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_OPNNICLENKG),
-            "CmdSceneType_BNFIBPAIHCO" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_BNFIBPAIHCO),
-            "CmdSceneType_EELNJLDOIJA" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EELNJLDOIJA),
-            "CmdSceneType_ILOCHOPDAEJ" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_ILOCHOPDAEJ),
-            "CmdSceneType_CCCELIJLPDE" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_CCCELIJLPDE),
-            "CmdSceneType_EHMJAFENLCD" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EHMJAFENLCD),
-            "CmdSceneType_GODKKAHICIH" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_GODKKAHICIH),
-            "CmdSceneType_IACCBPFBPAM" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_IACCBPFBPAM),
-            "CmdSceneType_MKJFLKJNDJE" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MKJFLKJNDJE),
-            "CmdSceneType_BKHKHFJIHBM" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_BKHKHFJIHBM),
-            "CmdSceneType_NKKEPJBNKOH" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_NKKEPJBNKOH),
-            "CmdSceneType_KOFGCDIOCFM" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_KOFGCDIOCFM),
-            "CmdSceneType_EMHEAENAJCH" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EMHEAENAJCH),
-            "CmdSceneType_PNEAIPLNDFO" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_PNEAIPLNDFO),
-            "CmdSceneType_OAIJDPMDJJH" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_OAIJDPMDJJH),
-            "CmdSceneType_FHJNMOPOEMO" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FHJNMOPOEMO),
-            "CmdSceneType_BAJNKNIAHDA" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_BAJNKNIAHDA),
-            "CmdSceneType_KBBLGDDCCMG" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_KBBLGDDCCMG),
-            "CmdSceneType_PELHJKKMHIO" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_PELHJKKMHIO),
-            "CmdSceneType_LAHONMFIKOH" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_LAHONMFIKOH),
-            "CmdSceneType_MHEDAMOKCND" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MHEDAMOKCND),
-            "CmdSceneType_FOLPPLJHKLO" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FOLPPLJHKLO),
-            "CmdSceneType_FOKIGKBPOOJ" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FOKIGKBPOOJ),
-            "CmdSceneType_EGGKAKDHGEN" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EGGKAKDHGEN),
-            "CmdSceneType_DKJHOPDFEBB" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_DKJHOPDFEBB),
-            "CmdSceneType_EPBOGFAMKMG" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EPBOGFAMKMG),
-            "CmdSceneType_EHGDIBJKMIJ" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EHGDIBJKMIJ),
-            "CmdSceneType_AGINIHKMEGF" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_AGINIHKMEGF),
-            "CmdSceneType_DJDJHHJDDII" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_DJDJHHJDDII),
-            "CmdSceneType_EMIGBEJFKIA" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EMIGBEJFKIA),
-            "CmdSceneType_IKFKCCPBNJF" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_IKFKCCPBNJF),
-            "CmdSceneType_OKCDMHBJJNI" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_OKCDMHBJJNI),
-            "CmdSceneType_EKLPBEEKGPH" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EKLPBEEKGPH),
-            "CmdSceneType_EEJECFLLIAI" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EEJECFLLIAI),
-            "CmdSceneType_AADKLGFNDOM" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_AADKLGFNDOM),
-            "CmdSceneType_PFGDHMBHIEI" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_PFGDHMBHIEI),
-            "CmdSceneType_GEGDNOHJPGD" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_GEGDNOHJPGD),
-            "CmdSceneType_HEGCEFCCCGK" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_HEGCEFCCCGK),
-            "CmdSceneType_ANGADBGDPED" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_ANGADBGDPED),
-            "CmdSceneType_LDIAMHNJFKF" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_LDIAMHNJFKF),
-            "CmdSceneType_EFCOKMHIEBC" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_EFCOKMHIEBC),
-            "CmdSceneType_DGJNPKNPKIP" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_DGJNPKNPKIP),
-            "CmdSceneType_MMOHBHKGGAG" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MMOHBHKGGAG),
-            "CmdSceneType_MFPOEJAPIHG" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MFPOEJAPIHG),
-            "CmdSceneType_JMALDGMMIEC" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_JMALDGMMIEC),
-            "CmdSceneType_OHPEJMCNBMO" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_OHPEJMCNBMO),
-            "CmdSceneType_NPJGKOPGOEE" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_NPJGKOPGOEE),
-            "CmdSceneType_CIGBMGOHHHD" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_CIGBMGOHHHD),
-            "CmdSceneType_NFMAKMFGMDJ" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_NFMAKMFGMDJ),
-            "CmdSceneType_ALDGCCDOPKE" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_ALDGCCDOPKE),
-            "CmdSceneType_GKJIONLCHEF" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_GKJIONLCHEF),
-            "CmdSceneType_PACHIOJHGEC" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_PACHIOJHGEC),
-            "CmdSceneType_LDGHGKDAIPA" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_LDGHGKDAIPA),
-            "CmdSceneType_OOHJKGOLMLL" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_OOHJKGOLMLL),
-            "CmdSceneType_MNJHLBHDBBO" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MNJHLBHDBBO),
-            "CmdSceneType_CAONDGOPIIC" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_CAONDGOPIIC),
-            "CmdSceneType_HPAPKJGHNAK" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_HPAPKJGHNAK),
-            "CmdSceneType_FHEPGOGOBEI" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FHEPGOGOBEI),
-            "CmdSceneType_LGMFJIJKACO" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_LGMFJIJKACO),
-            "CmdSceneType_FMEMKHBHGHJ" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FMEMKHBHGHJ),
-            "CmdSceneType_OFGBBOJLNGK" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_OFGBBOJLNGK),
-            "CmdSceneType_CFEEGHCNIME" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_CFEEGHCNIME),
-            "CmdSceneType_KLKPILMNPBK" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_KLKPILMNPBK),
-            "CmdSceneType_BMMKPHEKENK" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_BMMKPHEKENK),
-            "CmdSceneType_LNGGKIBNCFB" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_LNGGKIBNCFB),
-            "CmdSceneType_MIPBFIPGIKF" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_MIPBFIPGIKF),
-            "CmdSceneType_IMJHIEPFJGL" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_IMJHIEPFJGL),
-            "CmdSceneType_HIGIACBCIPN" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_HIGIACBCIPN),
-            "CmdSceneType_JCGBIJDCJHB" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_JCGBIJDCJHB),
-            "CmdSceneType_GLJMPAGJKNG" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_GLJMPAGJKNG),
-            "CmdSceneType_LMMGNIJCHFM" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_LMMGNIJCHFM),
-            "CmdSceneType_BFFKLIAEDMM" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_BFFKLIAEDMM),
-            "CmdSceneType_NEKALNEAGAH" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_NEKALNEAGAH),
-            "CmdSceneType_JDOLFBOBBIO" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_JDOLFBOBBIO),
-            "CmdSceneType_FNBNFFEOLMM" => ::std::option::Option::Some(CmdSceneType::CmdSceneType_FNBNFFEOLMM),
+            "KILMJLKOKEJ_PCPDHELPKEM" => ::std::option::Option::Some(CmdSceneType::KILMJLKOKEJ_PCPDHELPKEM),
+            "CmdOGHELLAAFJG" => ::std::option::Option::Some(CmdSceneType::CmdOGHELLAAFJG),
+            "CmdGetCurSceneInfoCsReq" => ::std::option::Option::Some(CmdSceneType::CmdGetCurSceneInfoCsReq),
+            "CmdRefreshTriggerByClientScRsp" => ::std::option::Option::Some(CmdSceneType::CmdRefreshTriggerByClientScRsp),
+            "CmdEnterSectionCsReq" => ::std::option::Option::Some(CmdSceneType::CmdEnterSectionCsReq),
+            "CmdGetEnteredSceneScRsp" => ::std::option::Option::Some(CmdSceneType::CmdGetEnteredSceneScRsp),
+            "CmdEnterSectionScRsp" => ::std::option::Option::Some(CmdSceneType::CmdEnterSectionScRsp),
+            "CmdCBOFFLPHIBP" => ::std::option::Option::Some(CmdSceneType::CmdCBOFFLPHIBP),
+            "CmdGetSceneMapInfoScRsp" => ::std::option::Option::Some(CmdSceneType::CmdGetSceneMapInfoScRsp),
+            "CmdSceneEntityMoveCsReq" => ::std::option::Option::Some(CmdSceneType::CmdSceneEntityMoveCsReq),
+            "CmdSceneEntityMoveScNotify" => ::std::option::Option::Some(CmdSceneType::CmdSceneEntityMoveScNotify),
+            "CmdSceneCastSkillMpUpdateScNotify" => ::std::option::Option::Some(CmdSceneType::CmdSceneCastSkillMpUpdateScNotify),
+            "CmdRefreshTriggerByClientScNotify" => ::std::option::Option::Some(CmdSceneType::CmdRefreshTriggerByClientScNotify),
+            "CmdCounterDownCsReq" => ::std::option::Option::Some(CmdSceneType::CmdCounterDownCsReq),
+            "CmdActiveFarmElementScRsp" => ::std::option::Option::Some(CmdSceneType::CmdActiveFarmElementScRsp),
+            "CmdUpdateGroupPropertyCsReq" => ::std::option::Option::Some(CmdSceneType::CmdUpdateGroupPropertyCsReq),
+            "CmdCounterRecoverCsReq" => ::std::option::Option::Some(CmdSceneType::CmdCounterRecoverCsReq),
+            "CmdGetUnlockTeleportScRsp" => ::std::option::Option::Some(CmdSceneType::CmdGetUnlockTeleportScRsp),
+            "CmdGLLCFALFCOC" => ::std::option::Option::Some(CmdSceneType::CmdGLLCFALFCOC),
+            "KILMJLKOKEJ_CDPBIFPHEGE" => ::std::option::Option::Some(CmdSceneType::KILMJLKOKEJ_CDPBIFPHEGE),
+            "CmdSceneReviveAfterRebattleCsReq" => ::std::option::Option::Some(CmdSceneType::CmdSceneReviveAfterRebattleCsReq),
+            "CmdSceneEnterStageCsReq" => ::std::option::Option::Some(CmdSceneType::CmdSceneEnterStageCsReq),
+            "CmdFBJDFGMMMFP" => ::std::option::Option::Some(CmdSceneType::CmdFBJDFGMMMFP),
+            "CmdUpdateFloorSavedValueNotify" => ::std::option::Option::Some(CmdSceneType::CmdUpdateFloorSavedValueNotify),
+            "CmdBDONBHBPJMC" => ::std::option::Option::Some(CmdSceneType::CmdBDONBHBPJMC),
+            "CmdPGJMLAAKDJF" => ::std::option::Option::Some(CmdSceneType::CmdPGJMLAAKDJF),
+            "CmdSceneCastSkillCostMpCsReq" => ::std::option::Option::Some(CmdSceneType::CmdSceneCastSkillCostMpCsReq),
+            "CmdStartCocoonStageCsReq" => ::std::option::Option::Some(CmdSceneType::CmdStartCocoonStageCsReq),
+            "CmdScenePlaneEventScNotify" => ::std::option::Option::Some(CmdSceneType::CmdScenePlaneEventScNotify),
+            "CmdRefreshTriggerEntityListReq" => ::std::option::Option::Some(CmdSceneType::CmdRefreshTriggerEntityListReq),
+            "CmdSetTrainWorldIdCsReq" => ::std::option::Option::Some(CmdSceneType::CmdSetTrainWorldIdCsReq),
+            "CmdActiveFarmElementCsReq" => ::std::option::Option::Some(CmdSceneType::CmdActiveFarmElementCsReq),
+            "CmdSceneEnterStageScRsp" => ::std::option::Option::Some(CmdSceneType::CmdSceneEnterStageScRsp),
+            "CmdOFGKNGPDFIK" => ::std::option::Option::Some(CmdSceneType::CmdOFGKNGPDFIK),
+            "CmdTrainWorldIdChangeScNotify" => ::std::option::Option::Some(CmdSceneType::CmdTrainWorldIdChangeScNotify),
+            "CmdSavePointsInfoNotify" => ::std::option::Option::Some(CmdSceneType::CmdSavePointsInfoNotify),
+            "CmdSceneEntityTeleportCsReq" => ::std::option::Option::Some(CmdSceneType::CmdSceneEntityTeleportCsReq),
+            "CmdSetTrainWorldIdScRsp" => ::std::option::Option::Some(CmdSceneType::CmdSetTrainWorldIdScRsp),
+            "CmdEnterSceneScRsp" => ::std::option::Option::Some(CmdSceneType::CmdEnterSceneScRsp),
+            "CmdReEnterLastElementStageScRsp" => ::std::option::Option::Some(CmdSceneType::CmdReEnterLastElementStageScRsp),
+            "CmdSceneEntityMoveScRsp" => ::std::option::Option::Some(CmdSceneType::CmdSceneEntityMoveScRsp),
+            "CmdUnlockTeleportNotify" => ::std::option::Option::Some(CmdSceneType::CmdUnlockTeleportNotify),
+            "CmdGroupStateChangeCsReq" => ::std::option::Option::Some(CmdSceneType::CmdGroupStateChangeCsReq),
+            "CmdNBPAGJBLKJF" => ::std::option::Option::Some(CmdSceneType::CmdNBPAGJBLKJF),
+            "CmdSetGroupCustomSaveDataScRsp" => ::std::option::Option::Some(CmdSceneType::CmdSetGroupCustomSaveDataScRsp),
+            "CmdOpenChestScNotify" => ::std::option::Option::Some(CmdSceneType::CmdOpenChestScNotify),
+            "CmdGetUnlockTeleportCsReq" => ::std::option::Option::Some(CmdSceneType::CmdGetUnlockTeleportCsReq),
+            "CmdLMHHFLKCPPF" => ::std::option::Option::Some(CmdSceneType::CmdLMHHFLKCPPF),
+            "KILMJLKOKEJ_NFDHFMOOJAO" => ::std::option::Option::Some(CmdSceneType::KILMJLKOKEJ_NFDHFMOOJAO),
+            "CmdKCJNIPMKCGB" => ::std::option::Option::Some(CmdSceneType::CmdKCJNIPMKCGB),
+            "KILMJLKOKEJ_GCKOCILCEAC" => ::std::option::Option::Some(CmdSceneType::KILMJLKOKEJ_GCKOCILCEAC),
+            "CmdSceneCheckpoingRefreshScRsp" => ::std::option::Option::Some(CmdSceneType::CmdSceneCheckpoingRefreshScRsp),
+            "CmdGPACKPJJGBJ" => ::std::option::Option::Some(CmdSceneType::CmdGPACKPJJGBJ),
+            "CmdDeactivateFarmElementCsReq" => ::std::option::Option::Some(CmdSceneType::CmdDeactivateFarmElementCsReq),
+            "CmdGEJEOCBFPMA" => ::std::option::Option::Some(CmdSceneType::CmdGEJEOCBFPMA),
+            "CmdCHAPDGDDKBK" => ::std::option::Option::Some(CmdSceneType::CmdCHAPDGDDKBK),
+            "CmdSceneCheckpointRefreshMonsterReq" => ::std::option::Option::Some(CmdSceneType::CmdSceneCheckpointRefreshMonsterReq),
+            "CmdNGPOFGPEDCJ" => ::std::option::Option::Some(CmdSceneType::CmdNGPOFGPEDCJ),
+            "CmdInteractPropScRsp" => ::std::option::Option::Some(CmdSceneType::CmdInteractPropScRsp),
+            "CmdHIABMONNNAJ" => ::std::option::Option::Some(CmdSceneType::CmdHIABMONNNAJ),
+            "CmdSceneCastSkillCsReq" => ::std::option::Option::Some(CmdSceneType::CmdSceneCastSkillCsReq),
+            "CmdEnteredSceneChangeScNotify" => ::std::option::Option::Some(CmdSceneType::CmdEnteredSceneChangeScNotify),
+            "CmdHHGCIGBNMEP" => ::std::option::Option::Some(CmdSceneType::CmdHHGCIGBNMEP),
+            "CmdSceneCastSkillCostMpScRsp" => ::std::option::Option::Some(CmdSceneType::CmdSceneCastSkillCostMpScRsp),
+            "CmdPFABFKONAIM" => ::std::option::Option::Some(CmdSceneType::CmdPFABFKONAIM),
+            "CmdGetCurSceneInfoScRsp" => ::std::option::Option::Some(CmdSceneType::CmdGetCurSceneInfoScRsp),
+            "CmdEnterSceneByServerScNotify" => ::std::option::Option::Some(CmdSceneType::CmdEnterSceneByServerScNotify),
+            "KILMJLKOKEJ_LNGDMFIPACJ" => ::std::option::Option::Some(CmdSceneType::KILMJLKOKEJ_LNGDMFIPACJ),
+            "CmdGetSceneMapInfoCsReq" => ::std::option::Option::Some(CmdSceneType::CmdGetSceneMapInfoCsReq),
+            "CmdSceneCastSkillScRsp" => ::std::option::Option::Some(CmdSceneType::CmdSceneCastSkillScRsp),
+            "CmdEnterSceneCsReq" => ::std::option::Option::Some(CmdSceneType::CmdEnterSceneCsReq),
+            "CmdSceneEntityTeleportScRsp" => ::std::option::Option::Some(CmdSceneType::CmdSceneEntityTeleportScRsp),
+            "CmdNENJKDEDPJJ" => ::std::option::Option::Some(CmdSceneType::CmdNENJKDEDPJJ),
+            "CmdMBMACCLHEBK" => ::std::option::Option::Some(CmdSceneType::CmdMBMACCLHEBK),
+            "CmdSyncEntityBuffChangeList" => ::std::option::Option::Some(CmdSceneType::CmdSyncEntityBuffChangeList),
+            "CmdReEnterLastElementStageCsReq" => ::std::option::Option::Some(CmdSceneType::CmdReEnterLastElementStageCsReq),
+            "CmdDeleteSummonUnitCsReq" => ::std::option::Option::Some(CmdSceneType::CmdDeleteSummonUnitCsReq),
+            "CmdChangeTimeRewindInfoReq" => ::std::option::Option::Some(CmdSceneType::CmdChangeTimeRewindInfoReq),
+            "CmdInteractPropCsReq" => ::std::option::Option::Some(CmdSceneType::CmdInteractPropCsReq),
+            "CmdSceneGroupRefreshScNotify" => ::std::option::Option::Some(CmdSceneType::CmdSceneGroupRefreshScNotify),
+            "CmdJBGANBAEDPM" => ::std::option::Option::Some(CmdSceneType::CmdJBGANBAEDPM),
+            "CmdKJAMPKBPAOL" => ::std::option::Option::Some(CmdSceneType::CmdKJAMPKBPAOL),
+            "KILMJLKOKEJ_CKPHBALHALL" => ::std::option::Option::Some(CmdSceneType::KILMJLKOKEJ_CKPHBALHALL),
+            "CmdNAFCLDABGLC" => ::std::option::Option::Some(CmdSceneType::CmdNAFCLDABGLC),
+            "CmdGetEnteredSceneCsReq" => ::std::option::Option::Some(CmdSceneType::CmdGetEnteredSceneCsReq),
+            "CmdStartCocoonStageScRsp" => ::std::option::Option::Some(CmdSceneType::CmdStartCocoonStageScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdSceneType] = &[
-        CmdSceneType::CmdSceneType_MNFEPONEDDJ,
-        CmdSceneType::CmdSceneType_MEKLKBMEAGL,
-        CmdSceneType::CmdSceneType_BMFMGHAFOEM,
-        CmdSceneType::CmdSceneType_HEBLEIPHNDP,
-        CmdSceneType::CmdSceneType_CBBNEMIHEEA,
-        CmdSceneType::CmdSceneType_KMDNCLJPAPG,
-        CmdSceneType::CmdSceneType_FEFPFOBFGKH,
-        CmdSceneType::CmdSceneType_FFLKDBKKAKF,
-        CmdSceneType::CmdSceneType_ICFLPKPIBNB,
-        CmdSceneType::CmdSceneType_LCCBONCOCGB,
-        CmdSceneType::CmdSceneType_KPDJHPPKIKI,
-        CmdSceneType::CmdSceneType_OPNNICLENKG,
-        CmdSceneType::CmdSceneType_BNFIBPAIHCO,
-        CmdSceneType::CmdSceneType_EELNJLDOIJA,
-        CmdSceneType::CmdSceneType_ILOCHOPDAEJ,
-        CmdSceneType::CmdSceneType_CCCELIJLPDE,
-        CmdSceneType::CmdSceneType_EHMJAFENLCD,
-        CmdSceneType::CmdSceneType_GODKKAHICIH,
-        CmdSceneType::CmdSceneType_IACCBPFBPAM,
-        CmdSceneType::CmdSceneType_MKJFLKJNDJE,
-        CmdSceneType::CmdSceneType_BKHKHFJIHBM,
-        CmdSceneType::CmdSceneType_NKKEPJBNKOH,
-        CmdSceneType::CmdSceneType_KOFGCDIOCFM,
-        CmdSceneType::CmdSceneType_EMHEAENAJCH,
-        CmdSceneType::CmdSceneType_PNEAIPLNDFO,
-        CmdSceneType::CmdSceneType_OAIJDPMDJJH,
-        CmdSceneType::CmdSceneType_FHJNMOPOEMO,
-        CmdSceneType::CmdSceneType_BAJNKNIAHDA,
-        CmdSceneType::CmdSceneType_KBBLGDDCCMG,
-        CmdSceneType::CmdSceneType_PELHJKKMHIO,
-        CmdSceneType::CmdSceneType_LAHONMFIKOH,
-        CmdSceneType::CmdSceneType_MHEDAMOKCND,
-        CmdSceneType::CmdSceneType_FOLPPLJHKLO,
-        CmdSceneType::CmdSceneType_FOKIGKBPOOJ,
-        CmdSceneType::CmdSceneType_EGGKAKDHGEN,
-        CmdSceneType::CmdSceneType_DKJHOPDFEBB,
-        CmdSceneType::CmdSceneType_EPBOGFAMKMG,
-        CmdSceneType::CmdSceneType_EHGDIBJKMIJ,
-        CmdSceneType::CmdSceneType_AGINIHKMEGF,
-        CmdSceneType::CmdSceneType_DJDJHHJDDII,
-        CmdSceneType::CmdSceneType_EMIGBEJFKIA,
-        CmdSceneType::CmdSceneType_IKFKCCPBNJF,
-        CmdSceneType::CmdSceneType_OKCDMHBJJNI,
-        CmdSceneType::CmdSceneType_EKLPBEEKGPH,
-        CmdSceneType::CmdSceneType_EEJECFLLIAI,
-        CmdSceneType::CmdSceneType_AADKLGFNDOM,
-        CmdSceneType::CmdSceneType_PFGDHMBHIEI,
-        CmdSceneType::CmdSceneType_GEGDNOHJPGD,
-        CmdSceneType::CmdSceneType_HEGCEFCCCGK,
-        CmdSceneType::CmdSceneType_ANGADBGDPED,
-        CmdSceneType::CmdSceneType_LDIAMHNJFKF,
-        CmdSceneType::CmdSceneType_EFCOKMHIEBC,
-        CmdSceneType::CmdSceneType_DGJNPKNPKIP,
-        CmdSceneType::CmdSceneType_MMOHBHKGGAG,
-        CmdSceneType::CmdSceneType_MFPOEJAPIHG,
-        CmdSceneType::CmdSceneType_JMALDGMMIEC,
-        CmdSceneType::CmdSceneType_OHPEJMCNBMO,
-        CmdSceneType::CmdSceneType_NPJGKOPGOEE,
-        CmdSceneType::CmdSceneType_CIGBMGOHHHD,
-        CmdSceneType::CmdSceneType_NFMAKMFGMDJ,
-        CmdSceneType::CmdSceneType_ALDGCCDOPKE,
-        CmdSceneType::CmdSceneType_GKJIONLCHEF,
-        CmdSceneType::CmdSceneType_PACHIOJHGEC,
-        CmdSceneType::CmdSceneType_LDGHGKDAIPA,
-        CmdSceneType::CmdSceneType_OOHJKGOLMLL,
-        CmdSceneType::CmdSceneType_MNJHLBHDBBO,
-        CmdSceneType::CmdSceneType_CAONDGOPIIC,
-        CmdSceneType::CmdSceneType_HPAPKJGHNAK,
-        CmdSceneType::CmdSceneType_FHEPGOGOBEI,
-        CmdSceneType::CmdSceneType_LGMFJIJKACO,
-        CmdSceneType::CmdSceneType_FMEMKHBHGHJ,
-        CmdSceneType::CmdSceneType_OFGBBOJLNGK,
-        CmdSceneType::CmdSceneType_CFEEGHCNIME,
-        CmdSceneType::CmdSceneType_KLKPILMNPBK,
-        CmdSceneType::CmdSceneType_BMMKPHEKENK,
-        CmdSceneType::CmdSceneType_LNGGKIBNCFB,
-        CmdSceneType::CmdSceneType_MIPBFIPGIKF,
-        CmdSceneType::CmdSceneType_IMJHIEPFJGL,
-        CmdSceneType::CmdSceneType_HIGIACBCIPN,
-        CmdSceneType::CmdSceneType_JCGBIJDCJHB,
-        CmdSceneType::CmdSceneType_GLJMPAGJKNG,
-        CmdSceneType::CmdSceneType_LMMGNIJCHFM,
-        CmdSceneType::CmdSceneType_BFFKLIAEDMM,
-        CmdSceneType::CmdSceneType_NEKALNEAGAH,
-        CmdSceneType::CmdSceneType_JDOLFBOBBIO,
-        CmdSceneType::CmdSceneType_FNBNFFEOLMM,
+        CmdSceneType::KILMJLKOKEJ_PCPDHELPKEM,
+        CmdSceneType::CmdOGHELLAAFJG,
+        CmdSceneType::CmdGetCurSceneInfoCsReq,
+        CmdSceneType::CmdRefreshTriggerByClientScRsp,
+        CmdSceneType::CmdEnterSectionCsReq,
+        CmdSceneType::CmdGetEnteredSceneScRsp,
+        CmdSceneType::CmdEnterSectionScRsp,
+        CmdSceneType::CmdCBOFFLPHIBP,
+        CmdSceneType::CmdGetSceneMapInfoScRsp,
+        CmdSceneType::CmdSceneEntityMoveCsReq,
+        CmdSceneType::CmdSceneEntityMoveScNotify,
+        CmdSceneType::CmdSceneCastSkillMpUpdateScNotify,
+        CmdSceneType::CmdRefreshTriggerByClientScNotify,
+        CmdSceneType::CmdCounterDownCsReq,
+        CmdSceneType::CmdActiveFarmElementScRsp,
+        CmdSceneType::CmdUpdateGroupPropertyCsReq,
+        CmdSceneType::CmdCounterRecoverCsReq,
+        CmdSceneType::CmdGetUnlockTeleportScRsp,
+        CmdSceneType::CmdGLLCFALFCOC,
+        CmdSceneType::KILMJLKOKEJ_CDPBIFPHEGE,
+        CmdSceneType::CmdSceneReviveAfterRebattleCsReq,
+        CmdSceneType::CmdSceneEnterStageCsReq,
+        CmdSceneType::CmdFBJDFGMMMFP,
+        CmdSceneType::CmdUpdateFloorSavedValueNotify,
+        CmdSceneType::CmdBDONBHBPJMC,
+        CmdSceneType::CmdPGJMLAAKDJF,
+        CmdSceneType::CmdSceneCastSkillCostMpCsReq,
+        CmdSceneType::CmdStartCocoonStageCsReq,
+        CmdSceneType::CmdScenePlaneEventScNotify,
+        CmdSceneType::CmdRefreshTriggerEntityListReq,
+        CmdSceneType::CmdSetTrainWorldIdCsReq,
+        CmdSceneType::CmdActiveFarmElementCsReq,
+        CmdSceneType::CmdSceneEnterStageScRsp,
+        CmdSceneType::CmdOFGKNGPDFIK,
+        CmdSceneType::CmdTrainWorldIdChangeScNotify,
+        CmdSceneType::CmdSavePointsInfoNotify,
+        CmdSceneType::CmdSceneEntityTeleportCsReq,
+        CmdSceneType::CmdSetTrainWorldIdScRsp,
+        CmdSceneType::CmdEnterSceneScRsp,
+        CmdSceneType::CmdReEnterLastElementStageScRsp,
+        CmdSceneType::CmdSceneEntityMoveScRsp,
+        CmdSceneType::CmdUnlockTeleportNotify,
+        CmdSceneType::CmdGroupStateChangeCsReq,
+        CmdSceneType::CmdNBPAGJBLKJF,
+        CmdSceneType::CmdSetGroupCustomSaveDataScRsp,
+        CmdSceneType::CmdOpenChestScNotify,
+        CmdSceneType::CmdGetUnlockTeleportCsReq,
+        CmdSceneType::CmdLMHHFLKCPPF,
+        CmdSceneType::KILMJLKOKEJ_NFDHFMOOJAO,
+        CmdSceneType::CmdKCJNIPMKCGB,
+        CmdSceneType::KILMJLKOKEJ_GCKOCILCEAC,
+        CmdSceneType::CmdSceneCheckpoingRefreshScRsp,
+        CmdSceneType::CmdGPACKPJJGBJ,
+        CmdSceneType::CmdDeactivateFarmElementCsReq,
+        CmdSceneType::CmdGEJEOCBFPMA,
+        CmdSceneType::CmdCHAPDGDDKBK,
+        CmdSceneType::CmdSceneCheckpointRefreshMonsterReq,
+        CmdSceneType::CmdNGPOFGPEDCJ,
+        CmdSceneType::CmdInteractPropScRsp,
+        CmdSceneType::CmdHIABMONNNAJ,
+        CmdSceneType::CmdSceneCastSkillCsReq,
+        CmdSceneType::CmdEnteredSceneChangeScNotify,
+        CmdSceneType::CmdHHGCIGBNMEP,
+        CmdSceneType::CmdSceneCastSkillCostMpScRsp,
+        CmdSceneType::CmdPFABFKONAIM,
+        CmdSceneType::CmdGetCurSceneInfoScRsp,
+        CmdSceneType::CmdEnterSceneByServerScNotify,
+        CmdSceneType::KILMJLKOKEJ_LNGDMFIPACJ,
+        CmdSceneType::CmdGetSceneMapInfoCsReq,
+        CmdSceneType::CmdSceneCastSkillScRsp,
+        CmdSceneType::CmdEnterSceneCsReq,
+        CmdSceneType::CmdSceneEntityTeleportScRsp,
+        CmdSceneType::CmdNENJKDEDPJJ,
+        CmdSceneType::CmdMBMACCLHEBK,
+        CmdSceneType::CmdSyncEntityBuffChangeList,
+        CmdSceneType::CmdReEnterLastElementStageCsReq,
+        CmdSceneType::CmdDeleteSummonUnitCsReq,
+        CmdSceneType::CmdChangeTimeRewindInfoReq,
+        CmdSceneType::CmdInteractPropCsReq,
+        CmdSceneType::CmdSceneGroupRefreshScNotify,
+        CmdSceneType::CmdJBGANBAEDPM,
+        CmdSceneType::CmdKJAMPKBPAOL,
+        CmdSceneType::KILMJLKOKEJ_CKPHBALHALL,
+        CmdSceneType::CmdNAFCLDABGLC,
+        CmdSceneType::CmdGetEnteredSceneCsReq,
+        CmdSceneType::CmdStartCocoonStageScRsp,
     ];
 }
 
@@ -490,92 +490,92 @@ impl ::protobuf::EnumFull for CmdSceneType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdSceneType::CmdSceneType_MNFEPONEDDJ => 0,
-            CmdSceneType::CmdSceneType_MEKLKBMEAGL => 1,
-            CmdSceneType::CmdSceneType_BMFMGHAFOEM => 2,
-            CmdSceneType::CmdSceneType_HEBLEIPHNDP => 3,
-            CmdSceneType::CmdSceneType_CBBNEMIHEEA => 4,
-            CmdSceneType::CmdSceneType_KMDNCLJPAPG => 5,
-            CmdSceneType::CmdSceneType_FEFPFOBFGKH => 6,
-            CmdSceneType::CmdSceneType_FFLKDBKKAKF => 7,
-            CmdSceneType::CmdSceneType_ICFLPKPIBNB => 8,
-            CmdSceneType::CmdSceneType_LCCBONCOCGB => 9,
-            CmdSceneType::CmdSceneType_KPDJHPPKIKI => 10,
-            CmdSceneType::CmdSceneType_OPNNICLENKG => 11,
-            CmdSceneType::CmdSceneType_BNFIBPAIHCO => 12,
-            CmdSceneType::CmdSceneType_EELNJLDOIJA => 13,
-            CmdSceneType::CmdSceneType_ILOCHOPDAEJ => 14,
-            CmdSceneType::CmdSceneType_CCCELIJLPDE => 15,
-            CmdSceneType::CmdSceneType_EHMJAFENLCD => 16,
-            CmdSceneType::CmdSceneType_GODKKAHICIH => 17,
-            CmdSceneType::CmdSceneType_IACCBPFBPAM => 18,
-            CmdSceneType::CmdSceneType_MKJFLKJNDJE => 19,
-            CmdSceneType::CmdSceneType_BKHKHFJIHBM => 20,
-            CmdSceneType::CmdSceneType_NKKEPJBNKOH => 21,
-            CmdSceneType::CmdSceneType_KOFGCDIOCFM => 22,
-            CmdSceneType::CmdSceneType_EMHEAENAJCH => 23,
-            CmdSceneType::CmdSceneType_PNEAIPLNDFO => 24,
-            CmdSceneType::CmdSceneType_OAIJDPMDJJH => 25,
-            CmdSceneType::CmdSceneType_FHJNMOPOEMO => 26,
-            CmdSceneType::CmdSceneType_BAJNKNIAHDA => 27,
-            CmdSceneType::CmdSceneType_KBBLGDDCCMG => 28,
-            CmdSceneType::CmdSceneType_PELHJKKMHIO => 29,
-            CmdSceneType::CmdSceneType_LAHONMFIKOH => 30,
-            CmdSceneType::CmdSceneType_MHEDAMOKCND => 31,
-            CmdSceneType::CmdSceneType_FOLPPLJHKLO => 32,
-            CmdSceneType::CmdSceneType_FOKIGKBPOOJ => 33,
-            CmdSceneType::CmdSceneType_EGGKAKDHGEN => 34,
-            CmdSceneType::CmdSceneType_DKJHOPDFEBB => 35,
-            CmdSceneType::CmdSceneType_EPBOGFAMKMG => 36,
-            CmdSceneType::CmdSceneType_EHGDIBJKMIJ => 37,
-            CmdSceneType::CmdSceneType_AGINIHKMEGF => 38,
-            CmdSceneType::CmdSceneType_DJDJHHJDDII => 39,
-            CmdSceneType::CmdSceneType_EMIGBEJFKIA => 40,
-            CmdSceneType::CmdSceneType_IKFKCCPBNJF => 41,
-            CmdSceneType::CmdSceneType_OKCDMHBJJNI => 42,
-            CmdSceneType::CmdSceneType_EKLPBEEKGPH => 43,
-            CmdSceneType::CmdSceneType_EEJECFLLIAI => 44,
-            CmdSceneType::CmdSceneType_AADKLGFNDOM => 45,
-            CmdSceneType::CmdSceneType_PFGDHMBHIEI => 46,
-            CmdSceneType::CmdSceneType_GEGDNOHJPGD => 47,
-            CmdSceneType::CmdSceneType_HEGCEFCCCGK => 48,
-            CmdSceneType::CmdSceneType_ANGADBGDPED => 49,
-            CmdSceneType::CmdSceneType_LDIAMHNJFKF => 50,
-            CmdSceneType::CmdSceneType_EFCOKMHIEBC => 51,
-            CmdSceneType::CmdSceneType_DGJNPKNPKIP => 52,
-            CmdSceneType::CmdSceneType_MMOHBHKGGAG => 53,
-            CmdSceneType::CmdSceneType_MFPOEJAPIHG => 54,
-            CmdSceneType::CmdSceneType_JMALDGMMIEC => 55,
-            CmdSceneType::CmdSceneType_OHPEJMCNBMO => 56,
-            CmdSceneType::CmdSceneType_NPJGKOPGOEE => 57,
-            CmdSceneType::CmdSceneType_CIGBMGOHHHD => 58,
-            CmdSceneType::CmdSceneType_NFMAKMFGMDJ => 59,
-            CmdSceneType::CmdSceneType_ALDGCCDOPKE => 60,
-            CmdSceneType::CmdSceneType_GKJIONLCHEF => 61,
-            CmdSceneType::CmdSceneType_PACHIOJHGEC => 62,
-            CmdSceneType::CmdSceneType_LDGHGKDAIPA => 63,
-            CmdSceneType::CmdSceneType_OOHJKGOLMLL => 64,
-            CmdSceneType::CmdSceneType_MNJHLBHDBBO => 65,
-            CmdSceneType::CmdSceneType_CAONDGOPIIC => 66,
-            CmdSceneType::CmdSceneType_HPAPKJGHNAK => 67,
-            CmdSceneType::CmdSceneType_FHEPGOGOBEI => 68,
-            CmdSceneType::CmdSceneType_LGMFJIJKACO => 69,
-            CmdSceneType::CmdSceneType_FMEMKHBHGHJ => 70,
-            CmdSceneType::CmdSceneType_OFGBBOJLNGK => 71,
-            CmdSceneType::CmdSceneType_CFEEGHCNIME => 72,
-            CmdSceneType::CmdSceneType_KLKPILMNPBK => 73,
-            CmdSceneType::CmdSceneType_BMMKPHEKENK => 74,
-            CmdSceneType::CmdSceneType_LNGGKIBNCFB => 75,
-            CmdSceneType::CmdSceneType_MIPBFIPGIKF => 76,
-            CmdSceneType::CmdSceneType_IMJHIEPFJGL => 77,
-            CmdSceneType::CmdSceneType_HIGIACBCIPN => 78,
-            CmdSceneType::CmdSceneType_JCGBIJDCJHB => 79,
-            CmdSceneType::CmdSceneType_GLJMPAGJKNG => 80,
-            CmdSceneType::CmdSceneType_LMMGNIJCHFM => 81,
-            CmdSceneType::CmdSceneType_BFFKLIAEDMM => 82,
-            CmdSceneType::CmdSceneType_NEKALNEAGAH => 83,
-            CmdSceneType::CmdSceneType_JDOLFBOBBIO => 84,
-            CmdSceneType::CmdSceneType_FNBNFFEOLMM => 85,
+            CmdSceneType::KILMJLKOKEJ_PCPDHELPKEM => 0,
+            CmdSceneType::CmdOGHELLAAFJG => 1,
+            CmdSceneType::CmdGetCurSceneInfoCsReq => 2,
+            CmdSceneType::CmdRefreshTriggerByClientScRsp => 3,
+            CmdSceneType::CmdEnterSectionCsReq => 4,
+            CmdSceneType::CmdGetEnteredSceneScRsp => 5,
+            CmdSceneType::CmdEnterSectionScRsp => 6,
+            CmdSceneType::CmdCBOFFLPHIBP => 7,
+            CmdSceneType::CmdGetSceneMapInfoScRsp => 8,
+            CmdSceneType::CmdSceneEntityMoveCsReq => 9,
+            CmdSceneType::CmdSceneEntityMoveScNotify => 10,
+            CmdSceneType::CmdSceneCastSkillMpUpdateScNotify => 11,
+            CmdSceneType::CmdRefreshTriggerByClientScNotify => 12,
+            CmdSceneType::CmdCounterDownCsReq => 13,
+            CmdSceneType::CmdActiveFarmElementScRsp => 14,
+            CmdSceneType::CmdUpdateGroupPropertyCsReq => 15,
+            CmdSceneType::CmdCounterRecoverCsReq => 16,
+            CmdSceneType::CmdGetUnlockTeleportScRsp => 17,
+            CmdSceneType::CmdGLLCFALFCOC => 18,
+            CmdSceneType::KILMJLKOKEJ_CDPBIFPHEGE => 19,
+            CmdSceneType::CmdSceneReviveAfterRebattleCsReq => 20,
+            CmdSceneType::CmdSceneEnterStageCsReq => 21,
+            CmdSceneType::CmdFBJDFGMMMFP => 22,
+            CmdSceneType::CmdUpdateFloorSavedValueNotify => 23,
+            CmdSceneType::CmdBDONBHBPJMC => 24,
+            CmdSceneType::CmdPGJMLAAKDJF => 25,
+            CmdSceneType::CmdSceneCastSkillCostMpCsReq => 26,
+            CmdSceneType::CmdStartCocoonStageCsReq => 27,
+            CmdSceneType::CmdScenePlaneEventScNotify => 28,
+            CmdSceneType::CmdRefreshTriggerEntityListReq => 29,
+            CmdSceneType::CmdSetTrainWorldIdCsReq => 30,
+            CmdSceneType::CmdActiveFarmElementCsReq => 31,
+            CmdSceneType::CmdSceneEnterStageScRsp => 32,
+            CmdSceneType::CmdOFGKNGPDFIK => 33,
+            CmdSceneType::CmdTrainWorldIdChangeScNotify => 34,
+            CmdSceneType::CmdSavePointsInfoNotify => 35,
+            CmdSceneType::CmdSceneEntityTeleportCsReq => 36,
+            CmdSceneType::CmdSetTrainWorldIdScRsp => 37,
+            CmdSceneType::CmdEnterSceneScRsp => 38,
+            CmdSceneType::CmdReEnterLastElementStageScRsp => 39,
+            CmdSceneType::CmdSceneEntityMoveScRsp => 40,
+            CmdSceneType::CmdUnlockTeleportNotify => 41,
+            CmdSceneType::CmdGroupStateChangeCsReq => 42,
+            CmdSceneType::CmdNBPAGJBLKJF => 43,
+            CmdSceneType::CmdSetGroupCustomSaveDataScRsp => 44,
+            CmdSceneType::CmdOpenChestScNotify => 45,
+            CmdSceneType::CmdGetUnlockTeleportCsReq => 46,
+            CmdSceneType::CmdLMHHFLKCPPF => 47,
+            CmdSceneType::KILMJLKOKEJ_NFDHFMOOJAO => 48,
+            CmdSceneType::CmdKCJNIPMKCGB => 49,
+            CmdSceneType::KILMJLKOKEJ_GCKOCILCEAC => 50,
+            CmdSceneType::CmdSceneCheckpoingRefreshScRsp => 51,
+            CmdSceneType::CmdGPACKPJJGBJ => 52,
+            CmdSceneType::CmdDeactivateFarmElementCsReq => 53,
+            CmdSceneType::CmdGEJEOCBFPMA => 54,
+            CmdSceneType::CmdCHAPDGDDKBK => 55,
+            CmdSceneType::CmdSceneCheckpointRefreshMonsterReq => 56,
+            CmdSceneType::CmdNGPOFGPEDCJ => 57,
+            CmdSceneType::CmdInteractPropScRsp => 58,
+            CmdSceneType::CmdHIABMONNNAJ => 59,
+            CmdSceneType::CmdSceneCastSkillCsReq => 60,
+            CmdSceneType::CmdEnteredSceneChangeScNotify => 61,
+            CmdSceneType::CmdHHGCIGBNMEP => 62,
+            CmdSceneType::CmdSceneCastSkillCostMpScRsp => 63,
+            CmdSceneType::CmdPFABFKONAIM => 64,
+            CmdSceneType::CmdGetCurSceneInfoScRsp => 65,
+            CmdSceneType::CmdEnterSceneByServerScNotify => 66,
+            CmdSceneType::KILMJLKOKEJ_LNGDMFIPACJ => 67,
+            CmdSceneType::CmdGetSceneMapInfoCsReq => 68,
+            CmdSceneType::CmdSceneCastSkillScRsp => 69,
+            CmdSceneType::CmdEnterSceneCsReq => 70,
+            CmdSceneType::CmdSceneEntityTeleportScRsp => 71,
+            CmdSceneType::CmdNENJKDEDPJJ => 72,
+            CmdSceneType::CmdMBMACCLHEBK => 73,
+            CmdSceneType::CmdSyncEntityBuffChangeList => 74,
+            CmdSceneType::CmdReEnterLastElementStageCsReq => 75,
+            CmdSceneType::CmdDeleteSummonUnitCsReq => 76,
+            CmdSceneType::CmdChangeTimeRewindInfoReq => 77,
+            CmdSceneType::CmdInteractPropCsReq => 78,
+            CmdSceneType::CmdSceneGroupRefreshScNotify => 79,
+            CmdSceneType::CmdJBGANBAEDPM => 80,
+            CmdSceneType::CmdKJAMPKBPAOL => 81,
+            CmdSceneType::KILMJLKOKEJ_CKPHBALHALL => 82,
+            CmdSceneType::CmdNAFCLDABGLC => 83,
+            CmdSceneType::CmdGetEnteredSceneCsReq => 84,
+            CmdSceneType::CmdStartCocoonStageScRsp => 85,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -583,7 +583,7 @@ impl ::protobuf::EnumFull for CmdSceneType {
 
 impl ::std::default::Default for CmdSceneType {
     fn default() -> Self {
-        CmdSceneType::CmdSceneType_MNFEPONEDDJ
+        CmdSceneType::KILMJLKOKEJ_PCPDHELPKEM
     }
 }
 
@@ -594,67 +594,65 @@ impl CmdSceneType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x12CmdSceneType.proto*\xf7\x14\n\x0cCmdSceneType\x12\x1c\n\x18CmdScen\
-    eType_MNFEPONEDDJ\x10\0\x12\x1d\n\x18CmdSceneType_MEKLKBMEAGL\x10\xcf\
-    \x0b\x12\x1d\n\x18CmdSceneType_BMFMGHAFOEM\x10\xf9\n\x12\x1d\n\x18CmdSce\
-    neType_HEBLEIPHNDP\x10\xad\x0b\x12\x1d\n\x18CmdSceneType_CBBNEMIHEEA\x10\
-    \xb6\x0b\x12\x1d\n\x18CmdSceneType_KMDNCLJPAPG\x10\x8c\x0b\x12\x1d\n\x18\
-    CmdSceneType_FEFPFOBFGKH\x10\xca\x0b\x12\x1d\n\x18CmdSceneType_FFLKDBKKA\
-    KF\x10\xd0\x0b\x12\x1d\n\x18CmdSceneType_ICFLPKPIBNB\x10\xb1\x0b\x12\x1d\
-    \n\x18CmdSceneType_LCCBONCOCGB\x10\x8a\x0b\x12\x1d\n\x18CmdSceneType_KPD\
-    JHPPKIKI\x10\xa1\x0b\x12\x1d\n\x18CmdSceneType_OPNNICLENKG\x10\xa6\x0b\
-    \x12\x1d\n\x18CmdSceneType_BNFIBPAIHCO\x10\xa4\x0b\x12\x1d\n\x18CmdScene\
-    Type_EELNJLDOIJA\x10\x9c\x0b\x12\x1d\n\x18CmdSceneType_ILOCHOPDAEJ\x10\
-    \xa2\x0b\x12\x1d\n\x18CmdSceneType_CCCELIJLPDE\x10\x99\x0b\x12\x1d\n\x18\
-    CmdSceneType_EHMJAFENLCD\x10\xc8\x0b\x12\x1d\n\x18CmdSceneType_GODKKAHIC\
-    IH\x10\xc1\x0b\x12\x1d\n\x18CmdSceneType_IACCBPFBPAM\x10\xd1\x0b\x12\x1d\
-    \n\x18CmdSceneType_MKJFLKJNDJE\x10\x92\x0b\x12\x1d\n\x18CmdSceneType_BKH\
-    KHFJIHBM\x10\xaf\x0b\x12\x1d\n\x18CmdSceneType_NKKEPJBNKOH\x10\xfb\n\x12\
-    \x1d\n\x18CmdSceneType_KOFGCDIOCFM\x10\xc0\x0b\x12\x1d\n\x18CmdSceneType\
-    _EMHEAENAJCH\x10\xd8\x0b\x12\x1d\n\x18CmdSceneType_PNEAIPLNDFO\x10\x84\
-    \x0b\x12\x1d\n\x18CmdSceneType_OAIJDPMDJJH\x10\x83\x0b\x12\x1d\n\x18CmdS\
-    ceneType_FHJNMOPOEMO\x10\xdb\x0b\x12\x1d\n\x18CmdSceneType_BAJNKNIAHDA\
-    \x10\x8b\x0b\x12\x1d\n\x18CmdSceneType_KBBLGDDCCMG\x10\xc2\x0b\x12\x1d\n\
-    \x18CmdSceneType_PELHJKKMHIO\x10\x98\x0b\x12\x1d\n\x18CmdSceneType_LAHON\
-    MFIKOH\x10\xd7\x0b\x12\x1d\n\x18CmdSceneType_MHEDAMOKCND\x10\x9e\x0b\x12\
-    \x1d\n\x18CmdSceneType_FOLPPLJHKLO\x10\x97\x0b\x12\x1d\n\x18CmdSceneType\
-    _FOKIGKBPOOJ\x10\xfc\n\x12\x1d\n\x18CmdSceneType_EGGKAKDHGEN\x10\x81\x0b\
-    \x12\x1d\n\x18CmdSceneType_DKJHOPDFEBB\x10\xbc\x0b\x12\x1d\n\x18CmdScene\
-    Type_EPBOGFAMKMG\x10\xc3\x0b\x12\x1d\n\x18CmdSceneType_EHGDIBJKMIJ\x10\
-    \xfe\n\x12\x1d\n\x18CmdSceneType_AGINIHKMEGF\x10\x8e\x0b\x12\x1d\n\x18Cm\
-    dSceneType_DJDJHHJDDII\x10\xa9\x0b\x12\x1d\n\x18CmdSceneType_EMIGBEJFKIA\
-    \x10\xfd\n\x12\x1d\n\x18CmdSceneType_IKFKCCPBNJF\x10\xaa\x0b\x12\x1d\n\
-    \x18CmdSceneType_OKCDMHBJJNI\x10\x89\x0b\x12\x1d\n\x18CmdSceneType_EKLPB\
-    EEKGPH\x10\xd3\x0b\x12\x1d\n\x18CmdSceneType_EEJECFLLIAI\x10\xc9\x0b\x12\
-    \x1d\n\x18CmdSceneType_AADKLGFNDOM\x10\xb7\x0b\x12\x1d\n\x18CmdSceneType\
-    _PFGDHMBHIEI\x10\x8f\x0b\x12\x1d\n\x18CmdSceneType_GEGDNOHJPGD\x10\xd6\
-    \x0b\x12\x1d\n\x18CmdSceneType_HEGCEFCCCGK\x10\x9b\x0b\x12\x1d\n\x18CmdS\
-    ceneType_ANGADBGDPED\x10\xc5\x0b\x12\x1d\n\x18CmdSceneType_LDIAMHNJFKF\
-    \x10\xbb\x0b\x12\x1d\n\x18CmdSceneType_EFCOKMHIEBC\x10\xab\x0b\x12\x1d\n\
-    \x18CmdSceneType_DGJNPKNPKIP\x10\xcb\x0b\x12\x1d\n\x18CmdSceneType_MMOHB\
-    HKGGAG\x10\x9f\x0b\x12\x1d\n\x18CmdSceneType_MFPOEJAPIHG\x10\xfa\n\x12\
-    \x1d\n\x18CmdSceneType_JMALDGMMIEC\x10\xd9\x0b\x12\x1d\n\x18CmdSceneType\
-    _OHPEJMCNBMO\x10\xac\x0b\x12\x1d\n\x18CmdSceneType_NPJGKOPGOEE\x10\xbf\
-    \x0b\x12\x1d\n\x18CmdSceneType_CIGBMGOHHHD\x10\x85\x0b\x12\x1d\n\x18CmdS\
-    ceneType_NFMAKMFGMDJ\x10\xa0\x0b\x12\x1d\n\x18CmdSceneType_ALDGCCDOPKE\
-    \x10\x9a\x0b\x12\x1d\n\x18CmdSceneType_GKJIONLCHEF\x10\xb0\x0b\x12\x1d\n\
-    \x18CmdSceneType_PACHIOJHGEC\x10\xce\x0b\x12\x1d\n\x18CmdSceneType_LDGHG\
-    KDAIPA\x10\xd2\x0b\x12\x1d\n\x18CmdSceneType_OOHJKGOLMLL\x10\xb8\x0b\x12\
-    \x1d\n\x18CmdSceneType_MNJHLBHDBBO\x10\xa3\x0b\x12\x1d\n\x18CmdSceneType\
-    _CAONDGOPIIC\x10\xdc\x0b\x12\x1d\n\x18CmdSceneType_HPAPKJGHNAK\x10\x91\
-    \x0b\x12\x1d\n\x18CmdSceneType_FHEPGOGOBEI\x10\x95\x0b\x12\x1d\n\x18CmdS\
-    ceneType_LGMFJIJKACO\x10\x9d\x0b\x12\x1d\n\x18CmdSceneType_FMEMKHBHGHJ\
-    \x10\xb9\x0b\x12\x1d\n\x18CmdSceneType_OFGBBOJLNGK\x10\xcc\x0b\x12\x1d\n\
-    \x18CmdSceneType_CFEEGHCNIME\x10\xba\x0b\x12\x1d\n\x18CmdSceneType_KLKPI\
-    LMNPBK\x10\xcd\x0b\x12\x1d\n\x18CmdSceneType_BMMKPHEKENK\x10\xa5\x0b\x12\
-    \x1d\n\x18CmdSceneType_LNGGKIBNCFB\x10\xd5\x0b\x12\x1d\n\x18CmdSceneType\
-    _MIPBFIPGIKF\x10\x80\x0b\x12\x1d\n\x18CmdSceneType_IMJHIEPFJGL\x10\xb2\
-    \x0b\x12\x1d\n\x18CmdSceneType_HIGIACBCIPN\x10\xb5\x0b\x12\x1d\n\x18CmdS\
-    ceneType_JCGBIJDCJHB\x10\xb4\x0b\x12\x1d\n\x18CmdSceneType_GLJMPAGJKNG\
-    \x10\xd4\x0b\x12\x1d\n\x18CmdSceneType_LMMGNIJCHFM\x10\xbe\x0b\x12\x1d\n\
-    \x18CmdSceneType_BFFKLIAEDMM\x10\xbd\x0b\x12\x1d\n\x18CmdSceneType_NEKAL\
-    NEAGAH\x10\x90\x0b\x12\x1d\n\x18CmdSceneType_JDOLFBOBBIO\x10\x8d\x0b\x12\
-    \x1d\n\x18CmdSceneType_FNBNFFEOLMM\x10\x82\x0bb\x06proto3\
+    \n\x12CmdSceneType.proto*\xe3\x13\n\x0cCmdSceneType\x12\x1b\n\x17KILMJLK\
+    OKEJ_PCPDHELPKEM\x10\0\x12\x13\n\x0eCmdOGHELLAAFJG\x10\x8c\x0b\x12\x1c\n\
+    \x17CmdGetCurSceneInfoCsReq\x10\x81\x0b\x12#\n\x1eCmdRefreshTriggerByCli\
+    entScRsp\x10\xa5\x0b\x12\x19\n\x14CmdEnterSectionCsReq\x10\xb1\x0b\x12\
+    \x1c\n\x17CmdGetEnteredSceneScRsp\x10\xa6\x0b\x12\x19\n\x14CmdEnterSecti\
+    onScRsp\x10\x8d\x0b\x12\x13\n\x0eCmdCBOFFLPHIBP\x10\xa3\x0b\x12\x1c\n\
+    \x17CmdGetSceneMapInfoScRsp\x10\xdb\x0b\x12\x1c\n\x17CmdSceneEntityMoveC\
+    sReq\x10\xfa\n\x12\x1f\n\x1aCmdSceneEntityMoveScNotify\x10\x9f\x0b\x12&\
+    \n!CmdSceneCastSkillMpUpdateScNotify\x10\x9e\x0b\x12&\n!CmdRefreshTrigge\
+    rByClientScNotify\x10\xcf\x0b\x12\x18\n\x13CmdCounterDownCsReq\x10\xce\
+    \x0b\x12\x1e\n\x19CmdActiveFarmElementScRsp\x10\x96\x0b\x12\x20\n\x1bCmd\
+    UpdateGroupPropertyCsReq\x10\x8e\x0b\x12\x1b\n\x16CmdCounterRecoverCsReq\
+    \x10\xa0\x0b\x12\x1e\n\x19CmdGetUnlockTeleportScRsp\x10\xcb\x0b\x12\x13\
+    \n\x0eCmdGLLCFALFCOC\x10\xb8\x0b\x12\x1c\n\x17KILMJLKOKEJ_CDPBIFPHEGE\
+    \x10\xff\n\x12%\n\x20CmdSceneReviveAfterRebattleCsReq\x10\xd1\x0b\x12\
+    \x1c\n\x17CmdSceneEnterStageCsReq\x10\xa4\x0b\x12\x13\n\x0eCmdFBJDFGMMMF\
+    P\x10\xcd\x0b\x12#\n\x1eCmdUpdateFloorSavedValueNotify\x10\x87\x0b\x12\
+    \x13\n\x0eCmdBDONBHBPJMC\x10\xd5\x0b\x12\x13\n\x0eCmdPGJMLAAKDJF\x10\xb2\
+    \x0b\x12!\n\x1cCmdSceneCastSkillCostMpCsReq\x10\x9d\x0b\x12\x1d\n\x18Cmd\
+    StartCocoonStageCsReq\x10\x91\x0b\x12\x1f\n\x1aCmdScenePlaneEventScNotif\
+    y\x10\xca\x0b\x12#\n\x1eCmdRefreshTriggerEntityListReq\x10\xb0\x0b\x12\
+    \x1c\n\x17CmdSetTrainWorldIdCsReq\x10\x8b\x0b\x12\x1e\n\x19CmdActiveFarm\
+    ElementCsReq\x10\x83\x0b\x12\x1c\n\x17CmdSceneEnterStageScRsp\x10\xdc\
+    \x0b\x12\x13\n\x0eCmdOFGKNGPDFIK\x10\xa8\x0b\x12\"\n\x1dCmdTrainWorldIdC\
+    hangeScNotify\x10\xaa\x0b\x12\x1c\n\x17CmdSavePointsInfoNotify\x10\xab\
+    \x0b\x12\x20\n\x1bCmdSceneEntityTeleportCsReq\x10\xbd\x0b\x12\x1c\n\x17C\
+    mdSetTrainWorldIdScRsp\x10\xa7\x0b\x12\x17\n\x12CmdEnterSceneScRsp\x10\
+    \xbe\x0b\x12$\n\x1fCmdReEnterLastElementStageScRsp\x10\xd2\x0b\x12\x1c\n\
+    \x17CmdSceneEntityMoveScRsp\x10\x82\x0b\x12\x1c\n\x17CmdUnlockTeleportNo\
+    tify\x10\xcc\x0b\x12\x1d\n\x18CmdGroupStateChangeCsReq\x10\xd9\x0b\x12\
+    \x13\n\x0eCmdNBPAGJBLKJF\x10\x84\x0b\x12#\n\x1eCmdSetGroupCustomSaveData\
+    ScRsp\x10\x88\x0b\x12\x19\n\x14CmdOpenChestScNotify\x10\x9b\x0b\x12\x1e\
+    \n\x19CmdGetUnlockTeleportCsReq\x10\x97\x0b\x12\x13\n\x0eCmdLMHHFLKCPPF\
+    \x10\x89\x0b\x12\x1c\n\x17KILMJLKOKEJ_NFDHFMOOJAO\x10\xc1\x0b\x12\x13\n\
+    \x0eCmdKCJNIPMKCGB\x10\xbb\x0b\x12\x1c\n\x17KILMJLKOKEJ_GCKOCILCEAC\x10\
+    \xc7\x0b\x12#\n\x1eCmdSceneCheckpoingRefreshScRsp\x10\x99\x0b\x12\x13\n\
+    \x0eCmdGPACKPJJGBJ\x10\xc8\x0b\x12\"\n\x1dCmdDeactivateFarmElementCsReq\
+    \x10\xba\x0b\x12\x13\n\x0eCmdGEJEOCBFPMA\x10\xf9\n\x12\x13\n\x0eCmdCHAPD\
+    GDDKBK\x10\xad\x0b\x12(\n#CmdSceneCheckpointRefreshMonsterReq\x10\x98\
+    \x0b\x12\x13\n\x0eCmdNGPOFGPEDCJ\x10\xd8\x0b\x12\x19\n\x14CmdInteractPro\
+    pScRsp\x10\xd7\x0b\x12\x13\n\x0eCmdHIABMONNNAJ\x10\xfd\n\x12\x1b\n\x16Cm\
+    dSceneCastSkillCsReq\x10\x86\x0b\x12\"\n\x1dCmdEnteredSceneChangeScNotif\
+    y\x10\x9a\x0b\x12\x13\n\x0eCmdHHGCIGBNMEP\x10\xc3\x0b\x12!\n\x1cCmdScene\
+    CastSkillCostMpScRsp\x10\xfc\n\x12\x13\n\x0eCmdPFABFKONAIM\x10\x8f\x0b\
+    \x12\x1c\n\x17CmdGetCurSceneInfoScRsp\x10\xda\x0b\x12\"\n\x1dCmdEnterSce\
+    neByServerScNotify\x10\xbc\x0b\x12\x1c\n\x17KILMJLKOKEJ_LNGDMFIPACJ\x10\
+    \xc5\x0b\x12\x1c\n\x17CmdGetSceneMapInfoCsReq\x10\xb4\x0b\x12\x1b\n\x16C\
+    mdSceneCastSkillScRsp\x10\x8a\x0b\x12\x17\n\x12CmdEnterSceneCsReq\x10\
+    \xb6\x0b\x12\x20\n\x1bCmdSceneEntityTeleportScRsp\x10\xa1\x0b\x12\x13\n\
+    \x0eCmdNENJKDEDPJJ\x10\x92\x0b\x12\x13\n\x0eCmdMBMACCLHEBK\x10\x94\x0b\
+    \x12\x20\n\x1bCmdSyncEntityBuffChangeList\x10\xc2\x0b\x12$\n\x1fCmdReEnt\
+    erLastElementStageCsReq\x10\xac\x0b\x12\x1d\n\x18CmdDeleteSummonUnitCsRe\
+    q\x10\x93\x0b\x12\x1f\n\x1aCmdChangeTimeRewindInfoReq\x10\xb7\x0b\x12\
+    \x19\n\x14CmdInteractPropCsReq\x10\xd6\x0b\x12!\n\x1cCmdSceneGroupRefres\
+    hScNotify\x10\xaf\x0b\x12\x13\n\x0eCmdJBGANBAEDPM\x10\x85\x0b\x12\x13\n\
+    \x0eCmdKJAMPKBPAOL\x10\xb5\x0b\x12\x1c\n\x17KILMJLKOKEJ_CKPHBALHALL\x10\
+    \xd3\x0b\x12\x13\n\x0eCmdNAFCLDABGLC\x10\x80\x0b\x12\x1c\n\x17CmdGetEnte\
+    redSceneCsReq\x10\xc4\x0b\x12\x1d\n\x18CmdStartCocoonStageScRsp\x10\xae\
+    \x0bb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

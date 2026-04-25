@@ -30,10 +30,10 @@ pub struct UnlockSkillTreeCsReq {
     // message fields
     // @@protoc_insertion_point(field:UnlockSkillTreeCsReq.point_id)
     pub point_id: u32,
-    // @@protoc_insertion_point(field:UnlockSkillTreeCsReq.level)
-    pub level: u32,
     // @@protoc_insertion_point(field:UnlockSkillTreeCsReq.item_list)
     pub item_list: ::std::vec::Vec<super::ItemCost::ItemCost>,
+    // @@protoc_insertion_point(field:UnlockSkillTreeCsReq.level)
+    pub level: u32,
     // special fields
     // @@protoc_insertion_point(special_field:UnlockSkillTreeCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -58,15 +58,15 @@ impl UnlockSkillTreeCsReq {
             |m: &UnlockSkillTreeCsReq| { &m.point_id },
             |m: &mut UnlockSkillTreeCsReq| { &mut m.point_id },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "level",
-            |m: &UnlockSkillTreeCsReq| { &m.level },
-            |m: &mut UnlockSkillTreeCsReq| { &mut m.level },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "item_list",
             |m: &UnlockSkillTreeCsReq| { &m.item_list },
             |m: &mut UnlockSkillTreeCsReq| { &mut m.item_list },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "level",
+            |m: &UnlockSkillTreeCsReq| { &m.level },
+            |m: &mut UnlockSkillTreeCsReq| { &mut m.level },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<UnlockSkillTreeCsReq>(
             "UnlockSkillTreeCsReq",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for UnlockSkillTreeCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                8 => {
+                16 => {
                     self.point_id = is.read_uint32()?;
                 },
-                16 => {
-                    self.level = is.read_uint32()?;
-                },
-                42 => {
+                58 => {
                     self.item_list.push(is.read_message()?);
+                },
+                96 => {
+                    self.level = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -108,15 +108,15 @@ impl ::protobuf::Message for UnlockSkillTreeCsReq {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.point_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.point_id);
-        }
-        if self.level != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.level);
+            my_size += ::protobuf::rt::uint32_size(2, self.point_id);
         }
         for value in &self.item_list {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
+        if self.level != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.level);
+        }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
@@ -124,14 +124,14 @@ impl ::protobuf::Message for UnlockSkillTreeCsReq {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.point_id != 0 {
-            os.write_uint32(1, self.point_id)?;
-        }
-        if self.level != 0 {
-            os.write_uint32(2, self.level)?;
+            os.write_uint32(2, self.point_id)?;
         }
         for v in &self.item_list {
-            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
         };
+        if self.level != 0 {
+            os.write_uint32(12, self.level)?;
+        }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -150,16 +150,16 @@ impl ::protobuf::Message for UnlockSkillTreeCsReq {
 
     fn clear(&mut self) {
         self.point_id = 0;
-        self.level = 0;
         self.item_list.clear();
+        self.level = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static UnlockSkillTreeCsReq {
         static instance: UnlockSkillTreeCsReq = UnlockSkillTreeCsReq {
             point_id: 0,
-            level: 0,
             item_list: ::std::vec::Vec::new(),
+            level: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -185,9 +185,9 @@ impl ::protobuf::reflect::ProtobufValue for UnlockSkillTreeCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1aUnlockSkillTreeCsReq.proto\x1a\x0eItemCost.proto\"o\n\x14UnlockSki\
-    llTreeCsReq\x12\x19\n\x08point_id\x18\x01\x20\x01(\rR\x07pointId\x12\x14\
-    \n\x05level\x18\x02\x20\x01(\rR\x05level\x12&\n\titem_list\x18\x05\x20\
-    \x03(\x0b2\t.ItemCostR\x08itemListb\x06proto3\
+    llTreeCsReq\x12\x19\n\x08point_id\x18\x02\x20\x01(\rR\x07pointId\x12&\n\
+    \titem_list\x18\x07\x20\x03(\x0b2\t.ItemCostR\x08itemList\x12\x14\n\x05l\
+    evel\x18\x0c\x20\x01(\rR\x05levelb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

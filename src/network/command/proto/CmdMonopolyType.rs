@@ -27,174 +27,174 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdMonopolyType)
 pub enum CmdMonopolyType {
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_MNFEPONEDDJ)
-    CmdMonopolyType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_HGAHAEPDCKA)
-    CmdMonopolyType_HGAHAEPDCKA = 7090,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_EBCJEMLJCJB)
-    CmdMonopolyType_EBCJEMLJCJB = 7034,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_LPKBLEKOKMC)
-    CmdMonopolyType_LPKBLEKOKMC = 7094,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_KNNNEDIEDOL)
-    CmdMonopolyType_KNNNEDIEDOL = 7060,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_NJIBGEPOECF)
-    CmdMonopolyType_NJIBGEPOECF = 7029,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_KHMHBIMKKBO)
-    CmdMonopolyType_KHMHBIMKKBO = 7092,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_APBKCPPHICK)
-    CmdMonopolyType_APBKCPPHICK = 7097,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_KCNFNCDAGIM)
-    CmdMonopolyType_KCNFNCDAGIM = 7048,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_FMEPLFEGDEO)
-    CmdMonopolyType_FMEPLFEGDEO = 7028,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_EJJFGGAOIJH)
-    CmdMonopolyType_EJJFGGAOIJH = 7073,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_GDBLCIAKOLH)
-    CmdMonopolyType_GDBLCIAKOLH = 7024,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_HPPNAINEMGH)
-    CmdMonopolyType_HPPNAINEMGH = 7080,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_PLOFKJECOJP)
-    CmdMonopolyType_PLOFKJECOJP = 7004,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_DCDCNFCJCDB)
-    CmdMonopolyType_DCDCNFCJCDB = 7047,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_PDAEEDNODGD)
-    CmdMonopolyType_PDAEEDNODGD = 7091,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_AJIKMOKGIJN)
-    CmdMonopolyType_AJIKMOKGIJN = 7050,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_NLNHLJGMGML)
-    CmdMonopolyType_NLNHLJGMGML = 7018,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_IMGEPIGFNAN)
-    CmdMonopolyType_IMGEPIGFNAN = 7087,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_AAJJHIKCOOA)
-    CmdMonopolyType_AAJJHIKCOOA = 7020,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_KFFCPMMEALK)
-    CmdMonopolyType_KFFCPMMEALK = 7023,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_EMIIEMFHINK)
-    CmdMonopolyType_EMIIEMFHINK = 7003,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_EIACLFIHDLE)
-    CmdMonopolyType_EIACLFIHDLE = 7098,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_INICIHHOIIL)
-    CmdMonopolyType_INICIHHOIIL = 7096,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_PCIDFEKEDMP)
-    CmdMonopolyType_PCIDFEKEDMP = 7077,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_LAICGAIFLJK)
-    CmdMonopolyType_LAICGAIFLJK = 7019,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_KAALIJIIGDO)
-    CmdMonopolyType_KAALIJIIGDO = 7009,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_BMAJHBNPDME)
-    CmdMonopolyType_BMAJHBNPDME = 7058,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_PEJEGKMPFJF)
-    CmdMonopolyType_PEJEGKMPFJF = 7068,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_LGOGOAFNCOA)
-    CmdMonopolyType_LGOGOAFNCOA = 7010,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_IMDOBPCMDKP)
-    CmdMonopolyType_IMDOBPCMDKP = 7033,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_ONOALFMHCOL)
-    CmdMonopolyType_ONOALFMHCOL = 7012,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_KBFPDLCCPNL)
-    CmdMonopolyType_KBFPDLCCPNL = 7008,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_KPNHJHOGLEO)
-    CmdMonopolyType_KPNHJHOGLEO = 7082,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_ALENLOKEDAH)
-    CmdMonopolyType_ALENLOKEDAH = 7062,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_NNCMPJOIDDJ)
-    CmdMonopolyType_NNCMPJOIDDJ = 7052,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_JOOGPJIHAGA)
-    CmdMonopolyType_JOOGPJIHAGA = 7046,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_BIKMCCLFGOH)
-    CmdMonopolyType_BIKMCCLFGOH = 7002,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_IBPLNKDPFCD)
-    CmdMonopolyType_IBPLNKDPFCD = 7088,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_BJFNACEAEDM)
-    CmdMonopolyType_BJFNACEAEDM = 7040,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_CHPANGBLAIP)
-    CmdMonopolyType_CHPANGBLAIP = 7016,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_DGOKDPBMPFG)
-    CmdMonopolyType_DGOKDPBMPFG = 7006,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_GGMBKFIHGHD)
-    CmdMonopolyType_GGMBKFIHGHD = 7037,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_HDEBBHPJIMI)
-    CmdMonopolyType_HDEBBHPJIMI = 7007,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_DPHJHOEDBGM)
-    CmdMonopolyType_DPHJHOEDBGM = 7038,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_HEGDKOKIBNI)
-    CmdMonopolyType_HEGDKOKIBNI = 7078,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_PHAOCAHBEKI)
-    CmdMonopolyType_PHAOCAHBEKI = 7075,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_ECEPMJBKFLG)
-    CmdMonopolyType_ECEPMJBKFLG = 7100,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_NHGOGKBEFAF)
-    CmdMonopolyType_NHGOGKBEFAF = 7042,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_DFMOLKPPIDG)
-    CmdMonopolyType_DFMOLKPPIDG = 7041,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_EOPLBNFJCLE)
-    CmdMonopolyType_EOPLBNFJCLE = 7011,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_HGPOJJIEPMJ)
-    CmdMonopolyType_HGPOJJIEPMJ = 7001,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_AOCNAOCKHFI)
-    CmdMonopolyType_AOCNAOCKHFI = 7066,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_HDKCCALEGBB)
-    CmdMonopolyType_HDKCCALEGBB = 7081,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_OPACGKOMJHD)
-    CmdMonopolyType_OPACGKOMJHD = 7063,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_FBLHEJFOIOP)
-    CmdMonopolyType_FBLHEJFOIOP = 7027,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_BHMGHDAOFMO)
-    CmdMonopolyType_BHMGHDAOFMO = 7095,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_BKIOMGEFJGP)
-    CmdMonopolyType_BKIOMGEFJGP = 7013,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_ABLMBOGOHBO)
-    CmdMonopolyType_ABLMBOGOHBO = 7064,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_FGCLDHBEFEL)
-    CmdMonopolyType_FGCLDHBEFEL = 7083,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_KCFBFACLEME)
-    CmdMonopolyType_KCFBFACLEME = 7051,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_CBDPJIJIOCF)
-    CmdMonopolyType_CBDPJIJIOCF = 7084,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_MAMBBGEBPMC)
-    CmdMonopolyType_MAMBBGEBPMC = 7022,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_EBNMOBGAGEL)
-    CmdMonopolyType_EBNMOBGAGEL = 7070,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_PDDPIOPDLHH)
-    CmdMonopolyType_PDDPIOPDLHH = 7056,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_HPLGCDOIAAI)
-    CmdMonopolyType_HPLGCDOIAAI = 7059,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_ACHMOFGEPHJ)
-    CmdMonopolyType_ACHMOFGEPHJ = 7043,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_KBHGPEMJMEN)
-    CmdMonopolyType_KBHGPEMJMEN = 7005,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_MCMLFMLGOEJ)
-    CmdMonopolyType_MCMLFMLGOEJ = 7065,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_IDKJNMGFEEK)
-    CmdMonopolyType_IDKJNMGFEEK = 7069,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_MCKCKDPAOIH)
-    CmdMonopolyType_MCKCKDPAOIH = 7014,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_GHHKJNOJOBO)
-    CmdMonopolyType_GHHKJNOJOBO = 7086,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_OAMAEFAOHEL)
-    CmdMonopolyType_OAMAEFAOHEL = 7032,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_GPDCGCKALNE)
-    CmdMonopolyType_GPDCGCKALNE = 7039,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_FBJCMJMNION)
-    CmdMonopolyType_FBJCMJMNION = 7025,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_OPCAIFFNKKG)
-    CmdMonopolyType_OPCAIFFNKKG = 7045,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_KFKLAGMEPEC)
-    CmdMonopolyType_KFKLAGMEPEC = 7017,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_LLAFDDMMDFB)
-    CmdMonopolyType_LLAFDDMMDFB = 7054,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_EIEDLAEFHFK)
-    CmdMonopolyType_EIEDLAEFHFK = 7067,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_BPKNKKCOEBH)
-    CmdMonopolyType_BPKNKKCOEBH = 7031,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_GLFMHHIELOH)
-    CmdMonopolyType_GLFMHHIELOH = 7036,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_FEHKPGJBMCN)
-    CmdMonopolyType_FEHKPGJBMCN = 7061,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_DLDIFIJMPEI)
-    CmdMonopolyType_DLDIFIJMPEI = 7026,
-    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyType_IBBHBLLPJDP)
-    CmdMonopolyType_IBBHBLLPJDP = 7021,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.BONOHJLBJHH_PCPDHELPKEM)
+    BONOHJLBJHH_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGameBingoFlipCardCsReq)
+    CmdMonopolyGameBingoFlipCardCsReq = 7051,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdHJOHLMHFHIE)
+    CmdHJOHLMHFHIE = 7073,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyContentUpdateScNotify)
+    CmdMonopolyContentUpdateScNotify = 7028,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyRollRandomCsReq)
+    CmdMonopolyRollRandomCsReq = 7004,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyLikeScRsp)
+    CmdMonopolyLikeScRsp = 7059,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyEventLoadUpdateScNotify)
+    CmdMonopolyEventLoadUpdateScNotify = 7085,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdGetSocialEventServerCacheScRsp)
+    CmdGetSocialEventServerCacheScRsp = 7090,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyRollRandomScRsp)
+    CmdMonopolyRollRandomScRsp = 7038,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyBuyGoodsScRsp)
+    CmdMonopolyBuyGoodsScRsp = 7058,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyClickCellScRsp)
+    CmdMonopolyClickCellScRsp = 7076,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGetRafflePoolInfoCsReq)
+    CmdMonopolyGetRafflePoolInfoCsReq = 7035,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGetRaffleTicketCsReq)
+    CmdMonopolyGetRaffleTicketCsReq = 7070,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyEventSelectFriendCsReq)
+    CmdMonopolyEventSelectFriendCsReq = 7016,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGetRegionProgressScRsp)
+    CmdMonopolyGetRegionProgressScRsp = 7083,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyBuyGoodsCsReq)
+    CmdMonopolyBuyGoodsCsReq = 7007,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdGetMonopolyDailyReportScRsp)
+    CmdGetMonopolyDailyReportScRsp = 7075,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGuessDrawScNotify)
+    CmdMonopolyGuessDrawScNotify = 7005,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGiveUpCurContentScRsp)
+    CmdMonopolyGiveUpCurContentScRsp = 7096,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGameRaiseRatioCsReq)
+    CmdMonopolyGameRaiseRatioCsReq = 7065,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyCheatDiceScRsp)
+    CmdMonopolyCheatDiceScRsp = 7021,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyCheatDiceCsReq)
+    CmdMonopolyCheatDiceCsReq = 7057,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyQuizDurationChangeScNotify)
+    CmdMonopolyQuizDurationChangeScNotify = 7011,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyLikeScNotify)
+    CmdMonopolyLikeScNotify = 7029,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyConditionUpdateScNotify)
+    CmdMonopolyConditionUpdateScNotify = 7056,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyConfirmRandomCsReq)
+    CmdMonopolyConfirmRandomCsReq = 7033,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGuessChooseCsReq)
+    CmdMonopolyGuessChooseCsReq = 7093,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyCellUpdateNotify)
+    CmdMonopolyCellUpdateNotify = 7095,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyReRollRandomCsReq)
+    CmdMonopolyReRollRandomCsReq = 7072,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdGetSocialEventServerCacheCsReq)
+    CmdGetSocialEventServerCacheCsReq = 7052,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyScrachRaffleTicketCsReq)
+    CmdMonopolyScrachRaffleTicketCsReq = 7099,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGameBingoFlipCardScRsp)
+    CmdMonopolyGameBingoFlipCardScRsp = 7025,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyDailySettleScNotify)
+    CmdMonopolyDailySettleScNotify = 7092,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdGetMonopolyFriendRankingListScRsp)
+    CmdGetMonopolyFriendRankingListScRsp = 7078,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdDailyFirstEnterMonopolyActivityScRsp)
+    CmdDailyFirstEnterMonopolyActivityScRsp = 7037,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdGetMonopolyInfoScRsp)
+    CmdGetMonopolyInfoScRsp = 7010,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGameCreateScNotify)
+    CmdMonopolyGameCreateScNotify = 7020,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyTakeRaffleTicketRewardCsReq)
+    CmdMonopolyTakeRaffleTicketRewardCsReq = 7082,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGetDailyInitItemScRsp)
+    CmdMonopolyGetDailyInitItemScRsp = 7034,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGuessBuyInformationCsReq)
+    CmdMonopolyGuessBuyInformationCsReq = 7049,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdDailyFirstEnterMonopolyActivityCsReq)
+    CmdDailyFirstEnterMonopolyActivityCsReq = 7074,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdGetMonopolyFriendRankingListCsReq)
+    CmdGetMonopolyFriendRankingListCsReq = 7024,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyTakeRaffleTicketRewardScRsp)
+    CmdMonopolyTakeRaffleTicketRewardScRsp = 7060,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyMoveScRsp)
+    CmdMonopolyMoveScRsp = 7063,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyRollDiceCsReq)
+    CmdMonopolyRollDiceCsReq = 7018,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyAcceptQuizScRsp)
+    CmdMonopolyAcceptQuizScRsp = 7079,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolySelectOptionScRsp)
+    CmdMonopolySelectOptionScRsp = 7039,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGetRaffleTicketScRsp)
+    CmdMonopolyGetRaffleTicketScRsp = 7068,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolySelectOptionCsReq)
+    CmdMonopolySelectOptionCsReq = 7026,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyRollDiceScRsp)
+    CmdMonopolyRollDiceScRsp = 7009,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdGetMbtiReportScRsp)
+    CmdGetMbtiReportScRsp = 7077,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdFFBKMFFHFPB)
+    CmdFFBKMFFHFPB = 7041,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdOKMKBBIOJGN)
+    CmdOKMKBBIOJGN = 7087,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyActionResultScNotify)
+    CmdMonopolyActionResultScNotify = 7094,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGameSettleScNotify)
+    CmdMonopolyGameSettleScNotify = 7053,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGameGachaScRsp)
+    CmdMonopolyGameGachaScRsp = 7017,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGetDailyInitItemCsReq)
+    CmdMonopolyGetDailyInitItemCsReq = 7046,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdGetMonopolyMbtiReportRewardCsReq)
+    CmdGetMonopolyMbtiReportRewardCsReq = 7040,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGiveUpCurContentCsReq)
+    CmdMonopolyGiveUpCurContentCsReq = 7089,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyMoveCsReq)
+    CmdMonopolyMoveCsReq = 7098,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyEventSelectFriendScRsp)
+    CmdMonopolyEventSelectFriendScRsp = 7006,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyScrachRaffleTicketScRsp)
+    CmdMonopolyScrachRaffleTicketScRsp = 7013,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyClickCellCsReq)
+    CmdMonopolyClickCellCsReq = 7048,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGameGachaCsReq)
+    CmdMonopolyGameGachaCsReq = 7008,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyReRollRandomScRsp)
+    CmdMonopolyReRollRandomScRsp = 7032,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyLikeCsReq)
+    CmdMonopolyLikeCsReq = 7042,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyAcceptQuizCsReq)
+    CmdMonopolyAcceptQuizCsReq = 7054,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyTakePhaseRewardCsReq)
+    CmdMonopolyTakePhaseRewardCsReq = 7086,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGetRegionProgressCsReq)
+    CmdMonopolyGetRegionProgressCsReq = 7031,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdDeleteSocialEventServerCacheCsReq)
+    CmdDeleteSocialEventServerCacheCsReq = 7069,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdGetMonopolyInfoCsReq)
+    CmdGetMonopolyInfoCsReq = 7091,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdGetMonopolyDailyReportCsReq)
+    CmdGetMonopolyDailyReportCsReq = 7097,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdGetMonopolyMbtiReportRewardScRsp)
+    CmdGetMonopolyMbtiReportRewardScRsp = 7043,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyTakePhaseRewardScRsp)
+    CmdMonopolyTakePhaseRewardScRsp = 7080,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdNAFCECEFDML)
+    CmdNAFCECEFDML = 7066,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyConfirmRandomScRsp)
+    CmdMonopolyConfirmRandomScRsp = 7061,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGuessChooseScRsp)
+    CmdMonopolyGuessChooseScRsp = 7002,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdIMJMGHCHFAA)
+    CmdIMJMGHCHFAA = 7100,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolySocialEventEffectScNotify)
+    CmdMonopolySocialEventEffectScNotify = 7088,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolySttUpdateScNotify)
+    CmdMonopolySttUpdateScNotify = 7055,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdGetMbtiReportCsReq)
+    CmdGetMbtiReportCsReq = 7012,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyClickMbtiReportCsReq)
+    CmdMonopolyClickMbtiReportCsReq = 7045,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyGetRafflePoolInfoScRsp)
+    CmdMonopolyGetRafflePoolInfoScRsp = 7015,
+    // @@protoc_insertion_point(enum_value:CmdMonopolyType.CmdMonopolyUpgradeAssetCsReq)
+    CmdMonopolyUpgradeAssetCsReq = 7044,
 }
 
 impl ::protobuf::Enum for CmdMonopolyType {
@@ -206,269 +206,269 @@ impl ::protobuf::Enum for CmdMonopolyType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdMonopolyType> {
         match value {
-            0 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_MNFEPONEDDJ),
-            7090 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_HGAHAEPDCKA),
-            7034 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_EBCJEMLJCJB),
-            7094 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_LPKBLEKOKMC),
-            7060 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KNNNEDIEDOL),
-            7029 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_NJIBGEPOECF),
-            7092 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KHMHBIMKKBO),
-            7097 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_APBKCPPHICK),
-            7048 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KCNFNCDAGIM),
-            7028 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_FMEPLFEGDEO),
-            7073 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_EJJFGGAOIJH),
-            7024 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_GDBLCIAKOLH),
-            7080 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_HPPNAINEMGH),
-            7004 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_PLOFKJECOJP),
-            7047 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_DCDCNFCJCDB),
-            7091 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_PDAEEDNODGD),
-            7050 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_AJIKMOKGIJN),
-            7018 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_NLNHLJGMGML),
-            7087 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_IMGEPIGFNAN),
-            7020 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_AAJJHIKCOOA),
-            7023 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KFFCPMMEALK),
-            7003 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_EMIIEMFHINK),
-            7098 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_EIACLFIHDLE),
-            7096 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_INICIHHOIIL),
-            7077 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_PCIDFEKEDMP),
-            7019 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_LAICGAIFLJK),
-            7009 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KAALIJIIGDO),
-            7058 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_BMAJHBNPDME),
-            7068 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_PEJEGKMPFJF),
-            7010 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_LGOGOAFNCOA),
-            7033 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_IMDOBPCMDKP),
-            7012 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_ONOALFMHCOL),
-            7008 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KBFPDLCCPNL),
-            7082 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KPNHJHOGLEO),
-            7062 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_ALENLOKEDAH),
-            7052 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_NNCMPJOIDDJ),
-            7046 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_JOOGPJIHAGA),
-            7002 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_BIKMCCLFGOH),
-            7088 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_IBPLNKDPFCD),
-            7040 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_BJFNACEAEDM),
-            7016 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_CHPANGBLAIP),
-            7006 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_DGOKDPBMPFG),
-            7037 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_GGMBKFIHGHD),
-            7007 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_HDEBBHPJIMI),
-            7038 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_DPHJHOEDBGM),
-            7078 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_HEGDKOKIBNI),
-            7075 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_PHAOCAHBEKI),
-            7100 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_ECEPMJBKFLG),
-            7042 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_NHGOGKBEFAF),
-            7041 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_DFMOLKPPIDG),
-            7011 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_EOPLBNFJCLE),
-            7001 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_HGPOJJIEPMJ),
-            7066 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_AOCNAOCKHFI),
-            7081 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_HDKCCALEGBB),
-            7063 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_OPACGKOMJHD),
-            7027 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_FBLHEJFOIOP),
-            7095 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_BHMGHDAOFMO),
-            7013 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_BKIOMGEFJGP),
-            7064 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_ABLMBOGOHBO),
-            7083 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_FGCLDHBEFEL),
-            7051 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KCFBFACLEME),
-            7084 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_CBDPJIJIOCF),
-            7022 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_MAMBBGEBPMC),
-            7070 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_EBNMOBGAGEL),
-            7056 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_PDDPIOPDLHH),
-            7059 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_HPLGCDOIAAI),
-            7043 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_ACHMOFGEPHJ),
-            7005 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KBHGPEMJMEN),
-            7065 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_MCMLFMLGOEJ),
-            7069 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_IDKJNMGFEEK),
-            7014 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_MCKCKDPAOIH),
-            7086 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_GHHKJNOJOBO),
-            7032 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_OAMAEFAOHEL),
-            7039 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_GPDCGCKALNE),
-            7025 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_FBJCMJMNION),
-            7045 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_OPCAIFFNKKG),
-            7017 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KFKLAGMEPEC),
-            7054 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_LLAFDDMMDFB),
-            7067 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_EIEDLAEFHFK),
-            7031 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_BPKNKKCOEBH),
-            7036 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_GLFMHHIELOH),
-            7061 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_FEHKPGJBMCN),
-            7026 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_DLDIFIJMPEI),
-            7021 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_IBBHBLLPJDP),
+            0 => ::std::option::Option::Some(CmdMonopolyType::BONOHJLBJHH_PCPDHELPKEM),
+            7051 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGameBingoFlipCardCsReq),
+            7073 => ::std::option::Option::Some(CmdMonopolyType::CmdHJOHLMHFHIE),
+            7028 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyContentUpdateScNotify),
+            7004 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyRollRandomCsReq),
+            7059 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyLikeScRsp),
+            7085 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyEventLoadUpdateScNotify),
+            7090 => ::std::option::Option::Some(CmdMonopolyType::CmdGetSocialEventServerCacheScRsp),
+            7038 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyRollRandomScRsp),
+            7058 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyBuyGoodsScRsp),
+            7076 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyClickCellScRsp),
+            7035 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetRafflePoolInfoCsReq),
+            7070 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetRaffleTicketCsReq),
+            7016 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyEventSelectFriendCsReq),
+            7083 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetRegionProgressScRsp),
+            7007 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyBuyGoodsCsReq),
+            7075 => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyDailyReportScRsp),
+            7005 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGuessDrawScNotify),
+            7096 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGiveUpCurContentScRsp),
+            7065 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGameRaiseRatioCsReq),
+            7021 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyCheatDiceScRsp),
+            7057 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyCheatDiceCsReq),
+            7011 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyQuizDurationChangeScNotify),
+            7029 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyLikeScNotify),
+            7056 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyConditionUpdateScNotify),
+            7033 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyConfirmRandomCsReq),
+            7093 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGuessChooseCsReq),
+            7095 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyCellUpdateNotify),
+            7072 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyReRollRandomCsReq),
+            7052 => ::std::option::Option::Some(CmdMonopolyType::CmdGetSocialEventServerCacheCsReq),
+            7099 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyScrachRaffleTicketCsReq),
+            7025 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGameBingoFlipCardScRsp),
+            7092 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyDailySettleScNotify),
+            7078 => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyFriendRankingListScRsp),
+            7037 => ::std::option::Option::Some(CmdMonopolyType::CmdDailyFirstEnterMonopolyActivityScRsp),
+            7010 => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyInfoScRsp),
+            7020 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGameCreateScNotify),
+            7082 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyTakeRaffleTicketRewardCsReq),
+            7034 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetDailyInitItemScRsp),
+            7049 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGuessBuyInformationCsReq),
+            7074 => ::std::option::Option::Some(CmdMonopolyType::CmdDailyFirstEnterMonopolyActivityCsReq),
+            7024 => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyFriendRankingListCsReq),
+            7060 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyTakeRaffleTicketRewardScRsp),
+            7063 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyMoveScRsp),
+            7018 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyRollDiceCsReq),
+            7079 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyAcceptQuizScRsp),
+            7039 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolySelectOptionScRsp),
+            7068 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetRaffleTicketScRsp),
+            7026 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolySelectOptionCsReq),
+            7009 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyRollDiceScRsp),
+            7077 => ::std::option::Option::Some(CmdMonopolyType::CmdGetMbtiReportScRsp),
+            7041 => ::std::option::Option::Some(CmdMonopolyType::CmdFFBKMFFHFPB),
+            7087 => ::std::option::Option::Some(CmdMonopolyType::CmdOKMKBBIOJGN),
+            7094 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyActionResultScNotify),
+            7053 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGameSettleScNotify),
+            7017 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGameGachaScRsp),
+            7046 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetDailyInitItemCsReq),
+            7040 => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyMbtiReportRewardCsReq),
+            7089 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGiveUpCurContentCsReq),
+            7098 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyMoveCsReq),
+            7006 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyEventSelectFriendScRsp),
+            7013 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyScrachRaffleTicketScRsp),
+            7048 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyClickCellCsReq),
+            7008 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGameGachaCsReq),
+            7032 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyReRollRandomScRsp),
+            7042 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyLikeCsReq),
+            7054 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyAcceptQuizCsReq),
+            7086 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyTakePhaseRewardCsReq),
+            7031 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetRegionProgressCsReq),
+            7069 => ::std::option::Option::Some(CmdMonopolyType::CmdDeleteSocialEventServerCacheCsReq),
+            7091 => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyInfoCsReq),
+            7097 => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyDailyReportCsReq),
+            7043 => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyMbtiReportRewardScRsp),
+            7080 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyTakePhaseRewardScRsp),
+            7066 => ::std::option::Option::Some(CmdMonopolyType::CmdNAFCECEFDML),
+            7061 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyConfirmRandomScRsp),
+            7002 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGuessChooseScRsp),
+            7100 => ::std::option::Option::Some(CmdMonopolyType::CmdIMJMGHCHFAA),
+            7088 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolySocialEventEffectScNotify),
+            7055 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolySttUpdateScNotify),
+            7012 => ::std::option::Option::Some(CmdMonopolyType::CmdGetMbtiReportCsReq),
+            7045 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyClickMbtiReportCsReq),
+            7015 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetRafflePoolInfoScRsp),
+            7044 => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyUpgradeAssetCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdMonopolyType> {
         match str {
-            "CmdMonopolyType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_MNFEPONEDDJ),
-            "CmdMonopolyType_HGAHAEPDCKA" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_HGAHAEPDCKA),
-            "CmdMonopolyType_EBCJEMLJCJB" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_EBCJEMLJCJB),
-            "CmdMonopolyType_LPKBLEKOKMC" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_LPKBLEKOKMC),
-            "CmdMonopolyType_KNNNEDIEDOL" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KNNNEDIEDOL),
-            "CmdMonopolyType_NJIBGEPOECF" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_NJIBGEPOECF),
-            "CmdMonopolyType_KHMHBIMKKBO" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KHMHBIMKKBO),
-            "CmdMonopolyType_APBKCPPHICK" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_APBKCPPHICK),
-            "CmdMonopolyType_KCNFNCDAGIM" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KCNFNCDAGIM),
-            "CmdMonopolyType_FMEPLFEGDEO" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_FMEPLFEGDEO),
-            "CmdMonopolyType_EJJFGGAOIJH" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_EJJFGGAOIJH),
-            "CmdMonopolyType_GDBLCIAKOLH" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_GDBLCIAKOLH),
-            "CmdMonopolyType_HPPNAINEMGH" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_HPPNAINEMGH),
-            "CmdMonopolyType_PLOFKJECOJP" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_PLOFKJECOJP),
-            "CmdMonopolyType_DCDCNFCJCDB" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_DCDCNFCJCDB),
-            "CmdMonopolyType_PDAEEDNODGD" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_PDAEEDNODGD),
-            "CmdMonopolyType_AJIKMOKGIJN" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_AJIKMOKGIJN),
-            "CmdMonopolyType_NLNHLJGMGML" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_NLNHLJGMGML),
-            "CmdMonopolyType_IMGEPIGFNAN" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_IMGEPIGFNAN),
-            "CmdMonopolyType_AAJJHIKCOOA" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_AAJJHIKCOOA),
-            "CmdMonopolyType_KFFCPMMEALK" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KFFCPMMEALK),
-            "CmdMonopolyType_EMIIEMFHINK" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_EMIIEMFHINK),
-            "CmdMonopolyType_EIACLFIHDLE" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_EIACLFIHDLE),
-            "CmdMonopolyType_INICIHHOIIL" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_INICIHHOIIL),
-            "CmdMonopolyType_PCIDFEKEDMP" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_PCIDFEKEDMP),
-            "CmdMonopolyType_LAICGAIFLJK" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_LAICGAIFLJK),
-            "CmdMonopolyType_KAALIJIIGDO" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KAALIJIIGDO),
-            "CmdMonopolyType_BMAJHBNPDME" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_BMAJHBNPDME),
-            "CmdMonopolyType_PEJEGKMPFJF" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_PEJEGKMPFJF),
-            "CmdMonopolyType_LGOGOAFNCOA" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_LGOGOAFNCOA),
-            "CmdMonopolyType_IMDOBPCMDKP" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_IMDOBPCMDKP),
-            "CmdMonopolyType_ONOALFMHCOL" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_ONOALFMHCOL),
-            "CmdMonopolyType_KBFPDLCCPNL" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KBFPDLCCPNL),
-            "CmdMonopolyType_KPNHJHOGLEO" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KPNHJHOGLEO),
-            "CmdMonopolyType_ALENLOKEDAH" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_ALENLOKEDAH),
-            "CmdMonopolyType_NNCMPJOIDDJ" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_NNCMPJOIDDJ),
-            "CmdMonopolyType_JOOGPJIHAGA" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_JOOGPJIHAGA),
-            "CmdMonopolyType_BIKMCCLFGOH" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_BIKMCCLFGOH),
-            "CmdMonopolyType_IBPLNKDPFCD" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_IBPLNKDPFCD),
-            "CmdMonopolyType_BJFNACEAEDM" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_BJFNACEAEDM),
-            "CmdMonopolyType_CHPANGBLAIP" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_CHPANGBLAIP),
-            "CmdMonopolyType_DGOKDPBMPFG" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_DGOKDPBMPFG),
-            "CmdMonopolyType_GGMBKFIHGHD" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_GGMBKFIHGHD),
-            "CmdMonopolyType_HDEBBHPJIMI" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_HDEBBHPJIMI),
-            "CmdMonopolyType_DPHJHOEDBGM" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_DPHJHOEDBGM),
-            "CmdMonopolyType_HEGDKOKIBNI" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_HEGDKOKIBNI),
-            "CmdMonopolyType_PHAOCAHBEKI" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_PHAOCAHBEKI),
-            "CmdMonopolyType_ECEPMJBKFLG" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_ECEPMJBKFLG),
-            "CmdMonopolyType_NHGOGKBEFAF" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_NHGOGKBEFAF),
-            "CmdMonopolyType_DFMOLKPPIDG" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_DFMOLKPPIDG),
-            "CmdMonopolyType_EOPLBNFJCLE" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_EOPLBNFJCLE),
-            "CmdMonopolyType_HGPOJJIEPMJ" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_HGPOJJIEPMJ),
-            "CmdMonopolyType_AOCNAOCKHFI" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_AOCNAOCKHFI),
-            "CmdMonopolyType_HDKCCALEGBB" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_HDKCCALEGBB),
-            "CmdMonopolyType_OPACGKOMJHD" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_OPACGKOMJHD),
-            "CmdMonopolyType_FBLHEJFOIOP" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_FBLHEJFOIOP),
-            "CmdMonopolyType_BHMGHDAOFMO" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_BHMGHDAOFMO),
-            "CmdMonopolyType_BKIOMGEFJGP" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_BKIOMGEFJGP),
-            "CmdMonopolyType_ABLMBOGOHBO" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_ABLMBOGOHBO),
-            "CmdMonopolyType_FGCLDHBEFEL" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_FGCLDHBEFEL),
-            "CmdMonopolyType_KCFBFACLEME" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KCFBFACLEME),
-            "CmdMonopolyType_CBDPJIJIOCF" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_CBDPJIJIOCF),
-            "CmdMonopolyType_MAMBBGEBPMC" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_MAMBBGEBPMC),
-            "CmdMonopolyType_EBNMOBGAGEL" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_EBNMOBGAGEL),
-            "CmdMonopolyType_PDDPIOPDLHH" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_PDDPIOPDLHH),
-            "CmdMonopolyType_HPLGCDOIAAI" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_HPLGCDOIAAI),
-            "CmdMonopolyType_ACHMOFGEPHJ" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_ACHMOFGEPHJ),
-            "CmdMonopolyType_KBHGPEMJMEN" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KBHGPEMJMEN),
-            "CmdMonopolyType_MCMLFMLGOEJ" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_MCMLFMLGOEJ),
-            "CmdMonopolyType_IDKJNMGFEEK" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_IDKJNMGFEEK),
-            "CmdMonopolyType_MCKCKDPAOIH" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_MCKCKDPAOIH),
-            "CmdMonopolyType_GHHKJNOJOBO" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_GHHKJNOJOBO),
-            "CmdMonopolyType_OAMAEFAOHEL" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_OAMAEFAOHEL),
-            "CmdMonopolyType_GPDCGCKALNE" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_GPDCGCKALNE),
-            "CmdMonopolyType_FBJCMJMNION" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_FBJCMJMNION),
-            "CmdMonopolyType_OPCAIFFNKKG" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_OPCAIFFNKKG),
-            "CmdMonopolyType_KFKLAGMEPEC" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_KFKLAGMEPEC),
-            "CmdMonopolyType_LLAFDDMMDFB" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_LLAFDDMMDFB),
-            "CmdMonopolyType_EIEDLAEFHFK" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_EIEDLAEFHFK),
-            "CmdMonopolyType_BPKNKKCOEBH" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_BPKNKKCOEBH),
-            "CmdMonopolyType_GLFMHHIELOH" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_GLFMHHIELOH),
-            "CmdMonopolyType_FEHKPGJBMCN" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_FEHKPGJBMCN),
-            "CmdMonopolyType_DLDIFIJMPEI" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_DLDIFIJMPEI),
-            "CmdMonopolyType_IBBHBLLPJDP" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyType_IBBHBLLPJDP),
+            "BONOHJLBJHH_PCPDHELPKEM" => ::std::option::Option::Some(CmdMonopolyType::BONOHJLBJHH_PCPDHELPKEM),
+            "CmdMonopolyGameBingoFlipCardCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGameBingoFlipCardCsReq),
+            "CmdHJOHLMHFHIE" => ::std::option::Option::Some(CmdMonopolyType::CmdHJOHLMHFHIE),
+            "CmdMonopolyContentUpdateScNotify" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyContentUpdateScNotify),
+            "CmdMonopolyRollRandomCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyRollRandomCsReq),
+            "CmdMonopolyLikeScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyLikeScRsp),
+            "CmdMonopolyEventLoadUpdateScNotify" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyEventLoadUpdateScNotify),
+            "CmdGetSocialEventServerCacheScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdGetSocialEventServerCacheScRsp),
+            "CmdMonopolyRollRandomScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyRollRandomScRsp),
+            "CmdMonopolyBuyGoodsScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyBuyGoodsScRsp),
+            "CmdMonopolyClickCellScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyClickCellScRsp),
+            "CmdMonopolyGetRafflePoolInfoCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetRafflePoolInfoCsReq),
+            "CmdMonopolyGetRaffleTicketCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetRaffleTicketCsReq),
+            "CmdMonopolyEventSelectFriendCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyEventSelectFriendCsReq),
+            "CmdMonopolyGetRegionProgressScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetRegionProgressScRsp),
+            "CmdMonopolyBuyGoodsCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyBuyGoodsCsReq),
+            "CmdGetMonopolyDailyReportScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyDailyReportScRsp),
+            "CmdMonopolyGuessDrawScNotify" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGuessDrawScNotify),
+            "CmdMonopolyGiveUpCurContentScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGiveUpCurContentScRsp),
+            "CmdMonopolyGameRaiseRatioCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGameRaiseRatioCsReq),
+            "CmdMonopolyCheatDiceScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyCheatDiceScRsp),
+            "CmdMonopolyCheatDiceCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyCheatDiceCsReq),
+            "CmdMonopolyQuizDurationChangeScNotify" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyQuizDurationChangeScNotify),
+            "CmdMonopolyLikeScNotify" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyLikeScNotify),
+            "CmdMonopolyConditionUpdateScNotify" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyConditionUpdateScNotify),
+            "CmdMonopolyConfirmRandomCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyConfirmRandomCsReq),
+            "CmdMonopolyGuessChooseCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGuessChooseCsReq),
+            "CmdMonopolyCellUpdateNotify" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyCellUpdateNotify),
+            "CmdMonopolyReRollRandomCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyReRollRandomCsReq),
+            "CmdGetSocialEventServerCacheCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdGetSocialEventServerCacheCsReq),
+            "CmdMonopolyScrachRaffleTicketCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyScrachRaffleTicketCsReq),
+            "CmdMonopolyGameBingoFlipCardScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGameBingoFlipCardScRsp),
+            "CmdMonopolyDailySettleScNotify" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyDailySettleScNotify),
+            "CmdGetMonopolyFriendRankingListScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyFriendRankingListScRsp),
+            "CmdDailyFirstEnterMonopolyActivityScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdDailyFirstEnterMonopolyActivityScRsp),
+            "CmdGetMonopolyInfoScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyInfoScRsp),
+            "CmdMonopolyGameCreateScNotify" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGameCreateScNotify),
+            "CmdMonopolyTakeRaffleTicketRewardCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyTakeRaffleTicketRewardCsReq),
+            "CmdMonopolyGetDailyInitItemScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetDailyInitItemScRsp),
+            "CmdMonopolyGuessBuyInformationCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGuessBuyInformationCsReq),
+            "CmdDailyFirstEnterMonopolyActivityCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdDailyFirstEnterMonopolyActivityCsReq),
+            "CmdGetMonopolyFriendRankingListCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyFriendRankingListCsReq),
+            "CmdMonopolyTakeRaffleTicketRewardScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyTakeRaffleTicketRewardScRsp),
+            "CmdMonopolyMoveScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyMoveScRsp),
+            "CmdMonopolyRollDiceCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyRollDiceCsReq),
+            "CmdMonopolyAcceptQuizScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyAcceptQuizScRsp),
+            "CmdMonopolySelectOptionScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolySelectOptionScRsp),
+            "CmdMonopolyGetRaffleTicketScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetRaffleTicketScRsp),
+            "CmdMonopolySelectOptionCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolySelectOptionCsReq),
+            "CmdMonopolyRollDiceScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyRollDiceScRsp),
+            "CmdGetMbtiReportScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdGetMbtiReportScRsp),
+            "CmdFFBKMFFHFPB" => ::std::option::Option::Some(CmdMonopolyType::CmdFFBKMFFHFPB),
+            "CmdOKMKBBIOJGN" => ::std::option::Option::Some(CmdMonopolyType::CmdOKMKBBIOJGN),
+            "CmdMonopolyActionResultScNotify" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyActionResultScNotify),
+            "CmdMonopolyGameSettleScNotify" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGameSettleScNotify),
+            "CmdMonopolyGameGachaScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGameGachaScRsp),
+            "CmdMonopolyGetDailyInitItemCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetDailyInitItemCsReq),
+            "CmdGetMonopolyMbtiReportRewardCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyMbtiReportRewardCsReq),
+            "CmdMonopolyGiveUpCurContentCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGiveUpCurContentCsReq),
+            "CmdMonopolyMoveCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyMoveCsReq),
+            "CmdMonopolyEventSelectFriendScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyEventSelectFriendScRsp),
+            "CmdMonopolyScrachRaffleTicketScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyScrachRaffleTicketScRsp),
+            "CmdMonopolyClickCellCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyClickCellCsReq),
+            "CmdMonopolyGameGachaCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGameGachaCsReq),
+            "CmdMonopolyReRollRandomScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyReRollRandomScRsp),
+            "CmdMonopolyLikeCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyLikeCsReq),
+            "CmdMonopolyAcceptQuizCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyAcceptQuizCsReq),
+            "CmdMonopolyTakePhaseRewardCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyTakePhaseRewardCsReq),
+            "CmdMonopolyGetRegionProgressCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetRegionProgressCsReq),
+            "CmdDeleteSocialEventServerCacheCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdDeleteSocialEventServerCacheCsReq),
+            "CmdGetMonopolyInfoCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyInfoCsReq),
+            "CmdGetMonopolyDailyReportCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyDailyReportCsReq),
+            "CmdGetMonopolyMbtiReportRewardScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdGetMonopolyMbtiReportRewardScRsp),
+            "CmdMonopolyTakePhaseRewardScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyTakePhaseRewardScRsp),
+            "CmdNAFCECEFDML" => ::std::option::Option::Some(CmdMonopolyType::CmdNAFCECEFDML),
+            "CmdMonopolyConfirmRandomScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyConfirmRandomScRsp),
+            "CmdMonopolyGuessChooseScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGuessChooseScRsp),
+            "CmdIMJMGHCHFAA" => ::std::option::Option::Some(CmdMonopolyType::CmdIMJMGHCHFAA),
+            "CmdMonopolySocialEventEffectScNotify" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolySocialEventEffectScNotify),
+            "CmdMonopolySttUpdateScNotify" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolySttUpdateScNotify),
+            "CmdGetMbtiReportCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdGetMbtiReportCsReq),
+            "CmdMonopolyClickMbtiReportCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyClickMbtiReportCsReq),
+            "CmdMonopolyGetRafflePoolInfoScRsp" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyGetRafflePoolInfoScRsp),
+            "CmdMonopolyUpgradeAssetCsReq" => ::std::option::Option::Some(CmdMonopolyType::CmdMonopolyUpgradeAssetCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdMonopolyType] = &[
-        CmdMonopolyType::CmdMonopolyType_MNFEPONEDDJ,
-        CmdMonopolyType::CmdMonopolyType_HGAHAEPDCKA,
-        CmdMonopolyType::CmdMonopolyType_EBCJEMLJCJB,
-        CmdMonopolyType::CmdMonopolyType_LPKBLEKOKMC,
-        CmdMonopolyType::CmdMonopolyType_KNNNEDIEDOL,
-        CmdMonopolyType::CmdMonopolyType_NJIBGEPOECF,
-        CmdMonopolyType::CmdMonopolyType_KHMHBIMKKBO,
-        CmdMonopolyType::CmdMonopolyType_APBKCPPHICK,
-        CmdMonopolyType::CmdMonopolyType_KCNFNCDAGIM,
-        CmdMonopolyType::CmdMonopolyType_FMEPLFEGDEO,
-        CmdMonopolyType::CmdMonopolyType_EJJFGGAOIJH,
-        CmdMonopolyType::CmdMonopolyType_GDBLCIAKOLH,
-        CmdMonopolyType::CmdMonopolyType_HPPNAINEMGH,
-        CmdMonopolyType::CmdMonopolyType_PLOFKJECOJP,
-        CmdMonopolyType::CmdMonopolyType_DCDCNFCJCDB,
-        CmdMonopolyType::CmdMonopolyType_PDAEEDNODGD,
-        CmdMonopolyType::CmdMonopolyType_AJIKMOKGIJN,
-        CmdMonopolyType::CmdMonopolyType_NLNHLJGMGML,
-        CmdMonopolyType::CmdMonopolyType_IMGEPIGFNAN,
-        CmdMonopolyType::CmdMonopolyType_AAJJHIKCOOA,
-        CmdMonopolyType::CmdMonopolyType_KFFCPMMEALK,
-        CmdMonopolyType::CmdMonopolyType_EMIIEMFHINK,
-        CmdMonopolyType::CmdMonopolyType_EIACLFIHDLE,
-        CmdMonopolyType::CmdMonopolyType_INICIHHOIIL,
-        CmdMonopolyType::CmdMonopolyType_PCIDFEKEDMP,
-        CmdMonopolyType::CmdMonopolyType_LAICGAIFLJK,
-        CmdMonopolyType::CmdMonopolyType_KAALIJIIGDO,
-        CmdMonopolyType::CmdMonopolyType_BMAJHBNPDME,
-        CmdMonopolyType::CmdMonopolyType_PEJEGKMPFJF,
-        CmdMonopolyType::CmdMonopolyType_LGOGOAFNCOA,
-        CmdMonopolyType::CmdMonopolyType_IMDOBPCMDKP,
-        CmdMonopolyType::CmdMonopolyType_ONOALFMHCOL,
-        CmdMonopolyType::CmdMonopolyType_KBFPDLCCPNL,
-        CmdMonopolyType::CmdMonopolyType_KPNHJHOGLEO,
-        CmdMonopolyType::CmdMonopolyType_ALENLOKEDAH,
-        CmdMonopolyType::CmdMonopolyType_NNCMPJOIDDJ,
-        CmdMonopolyType::CmdMonopolyType_JOOGPJIHAGA,
-        CmdMonopolyType::CmdMonopolyType_BIKMCCLFGOH,
-        CmdMonopolyType::CmdMonopolyType_IBPLNKDPFCD,
-        CmdMonopolyType::CmdMonopolyType_BJFNACEAEDM,
-        CmdMonopolyType::CmdMonopolyType_CHPANGBLAIP,
-        CmdMonopolyType::CmdMonopolyType_DGOKDPBMPFG,
-        CmdMonopolyType::CmdMonopolyType_GGMBKFIHGHD,
-        CmdMonopolyType::CmdMonopolyType_HDEBBHPJIMI,
-        CmdMonopolyType::CmdMonopolyType_DPHJHOEDBGM,
-        CmdMonopolyType::CmdMonopolyType_HEGDKOKIBNI,
-        CmdMonopolyType::CmdMonopolyType_PHAOCAHBEKI,
-        CmdMonopolyType::CmdMonopolyType_ECEPMJBKFLG,
-        CmdMonopolyType::CmdMonopolyType_NHGOGKBEFAF,
-        CmdMonopolyType::CmdMonopolyType_DFMOLKPPIDG,
-        CmdMonopolyType::CmdMonopolyType_EOPLBNFJCLE,
-        CmdMonopolyType::CmdMonopolyType_HGPOJJIEPMJ,
-        CmdMonopolyType::CmdMonopolyType_AOCNAOCKHFI,
-        CmdMonopolyType::CmdMonopolyType_HDKCCALEGBB,
-        CmdMonopolyType::CmdMonopolyType_OPACGKOMJHD,
-        CmdMonopolyType::CmdMonopolyType_FBLHEJFOIOP,
-        CmdMonopolyType::CmdMonopolyType_BHMGHDAOFMO,
-        CmdMonopolyType::CmdMonopolyType_BKIOMGEFJGP,
-        CmdMonopolyType::CmdMonopolyType_ABLMBOGOHBO,
-        CmdMonopolyType::CmdMonopolyType_FGCLDHBEFEL,
-        CmdMonopolyType::CmdMonopolyType_KCFBFACLEME,
-        CmdMonopolyType::CmdMonopolyType_CBDPJIJIOCF,
-        CmdMonopolyType::CmdMonopolyType_MAMBBGEBPMC,
-        CmdMonopolyType::CmdMonopolyType_EBNMOBGAGEL,
-        CmdMonopolyType::CmdMonopolyType_PDDPIOPDLHH,
-        CmdMonopolyType::CmdMonopolyType_HPLGCDOIAAI,
-        CmdMonopolyType::CmdMonopolyType_ACHMOFGEPHJ,
-        CmdMonopolyType::CmdMonopolyType_KBHGPEMJMEN,
-        CmdMonopolyType::CmdMonopolyType_MCMLFMLGOEJ,
-        CmdMonopolyType::CmdMonopolyType_IDKJNMGFEEK,
-        CmdMonopolyType::CmdMonopolyType_MCKCKDPAOIH,
-        CmdMonopolyType::CmdMonopolyType_GHHKJNOJOBO,
-        CmdMonopolyType::CmdMonopolyType_OAMAEFAOHEL,
-        CmdMonopolyType::CmdMonopolyType_GPDCGCKALNE,
-        CmdMonopolyType::CmdMonopolyType_FBJCMJMNION,
-        CmdMonopolyType::CmdMonopolyType_OPCAIFFNKKG,
-        CmdMonopolyType::CmdMonopolyType_KFKLAGMEPEC,
-        CmdMonopolyType::CmdMonopolyType_LLAFDDMMDFB,
-        CmdMonopolyType::CmdMonopolyType_EIEDLAEFHFK,
-        CmdMonopolyType::CmdMonopolyType_BPKNKKCOEBH,
-        CmdMonopolyType::CmdMonopolyType_GLFMHHIELOH,
-        CmdMonopolyType::CmdMonopolyType_FEHKPGJBMCN,
-        CmdMonopolyType::CmdMonopolyType_DLDIFIJMPEI,
-        CmdMonopolyType::CmdMonopolyType_IBBHBLLPJDP,
+        CmdMonopolyType::BONOHJLBJHH_PCPDHELPKEM,
+        CmdMonopolyType::CmdMonopolyGameBingoFlipCardCsReq,
+        CmdMonopolyType::CmdHJOHLMHFHIE,
+        CmdMonopolyType::CmdMonopolyContentUpdateScNotify,
+        CmdMonopolyType::CmdMonopolyRollRandomCsReq,
+        CmdMonopolyType::CmdMonopolyLikeScRsp,
+        CmdMonopolyType::CmdMonopolyEventLoadUpdateScNotify,
+        CmdMonopolyType::CmdGetSocialEventServerCacheScRsp,
+        CmdMonopolyType::CmdMonopolyRollRandomScRsp,
+        CmdMonopolyType::CmdMonopolyBuyGoodsScRsp,
+        CmdMonopolyType::CmdMonopolyClickCellScRsp,
+        CmdMonopolyType::CmdMonopolyGetRafflePoolInfoCsReq,
+        CmdMonopolyType::CmdMonopolyGetRaffleTicketCsReq,
+        CmdMonopolyType::CmdMonopolyEventSelectFriendCsReq,
+        CmdMonopolyType::CmdMonopolyGetRegionProgressScRsp,
+        CmdMonopolyType::CmdMonopolyBuyGoodsCsReq,
+        CmdMonopolyType::CmdGetMonopolyDailyReportScRsp,
+        CmdMonopolyType::CmdMonopolyGuessDrawScNotify,
+        CmdMonopolyType::CmdMonopolyGiveUpCurContentScRsp,
+        CmdMonopolyType::CmdMonopolyGameRaiseRatioCsReq,
+        CmdMonopolyType::CmdMonopolyCheatDiceScRsp,
+        CmdMonopolyType::CmdMonopolyCheatDiceCsReq,
+        CmdMonopolyType::CmdMonopolyQuizDurationChangeScNotify,
+        CmdMonopolyType::CmdMonopolyLikeScNotify,
+        CmdMonopolyType::CmdMonopolyConditionUpdateScNotify,
+        CmdMonopolyType::CmdMonopolyConfirmRandomCsReq,
+        CmdMonopolyType::CmdMonopolyGuessChooseCsReq,
+        CmdMonopolyType::CmdMonopolyCellUpdateNotify,
+        CmdMonopolyType::CmdMonopolyReRollRandomCsReq,
+        CmdMonopolyType::CmdGetSocialEventServerCacheCsReq,
+        CmdMonopolyType::CmdMonopolyScrachRaffleTicketCsReq,
+        CmdMonopolyType::CmdMonopolyGameBingoFlipCardScRsp,
+        CmdMonopolyType::CmdMonopolyDailySettleScNotify,
+        CmdMonopolyType::CmdGetMonopolyFriendRankingListScRsp,
+        CmdMonopolyType::CmdDailyFirstEnterMonopolyActivityScRsp,
+        CmdMonopolyType::CmdGetMonopolyInfoScRsp,
+        CmdMonopolyType::CmdMonopolyGameCreateScNotify,
+        CmdMonopolyType::CmdMonopolyTakeRaffleTicketRewardCsReq,
+        CmdMonopolyType::CmdMonopolyGetDailyInitItemScRsp,
+        CmdMonopolyType::CmdMonopolyGuessBuyInformationCsReq,
+        CmdMonopolyType::CmdDailyFirstEnterMonopolyActivityCsReq,
+        CmdMonopolyType::CmdGetMonopolyFriendRankingListCsReq,
+        CmdMonopolyType::CmdMonopolyTakeRaffleTicketRewardScRsp,
+        CmdMonopolyType::CmdMonopolyMoveScRsp,
+        CmdMonopolyType::CmdMonopolyRollDiceCsReq,
+        CmdMonopolyType::CmdMonopolyAcceptQuizScRsp,
+        CmdMonopolyType::CmdMonopolySelectOptionScRsp,
+        CmdMonopolyType::CmdMonopolyGetRaffleTicketScRsp,
+        CmdMonopolyType::CmdMonopolySelectOptionCsReq,
+        CmdMonopolyType::CmdMonopolyRollDiceScRsp,
+        CmdMonopolyType::CmdGetMbtiReportScRsp,
+        CmdMonopolyType::CmdFFBKMFFHFPB,
+        CmdMonopolyType::CmdOKMKBBIOJGN,
+        CmdMonopolyType::CmdMonopolyActionResultScNotify,
+        CmdMonopolyType::CmdMonopolyGameSettleScNotify,
+        CmdMonopolyType::CmdMonopolyGameGachaScRsp,
+        CmdMonopolyType::CmdMonopolyGetDailyInitItemCsReq,
+        CmdMonopolyType::CmdGetMonopolyMbtiReportRewardCsReq,
+        CmdMonopolyType::CmdMonopolyGiveUpCurContentCsReq,
+        CmdMonopolyType::CmdMonopolyMoveCsReq,
+        CmdMonopolyType::CmdMonopolyEventSelectFriendScRsp,
+        CmdMonopolyType::CmdMonopolyScrachRaffleTicketScRsp,
+        CmdMonopolyType::CmdMonopolyClickCellCsReq,
+        CmdMonopolyType::CmdMonopolyGameGachaCsReq,
+        CmdMonopolyType::CmdMonopolyReRollRandomScRsp,
+        CmdMonopolyType::CmdMonopolyLikeCsReq,
+        CmdMonopolyType::CmdMonopolyAcceptQuizCsReq,
+        CmdMonopolyType::CmdMonopolyTakePhaseRewardCsReq,
+        CmdMonopolyType::CmdMonopolyGetRegionProgressCsReq,
+        CmdMonopolyType::CmdDeleteSocialEventServerCacheCsReq,
+        CmdMonopolyType::CmdGetMonopolyInfoCsReq,
+        CmdMonopolyType::CmdGetMonopolyDailyReportCsReq,
+        CmdMonopolyType::CmdGetMonopolyMbtiReportRewardScRsp,
+        CmdMonopolyType::CmdMonopolyTakePhaseRewardScRsp,
+        CmdMonopolyType::CmdNAFCECEFDML,
+        CmdMonopolyType::CmdMonopolyConfirmRandomScRsp,
+        CmdMonopolyType::CmdMonopolyGuessChooseScRsp,
+        CmdMonopolyType::CmdIMJMGHCHFAA,
+        CmdMonopolyType::CmdMonopolySocialEventEffectScNotify,
+        CmdMonopolyType::CmdMonopolySttUpdateScNotify,
+        CmdMonopolyType::CmdGetMbtiReportCsReq,
+        CmdMonopolyType::CmdMonopolyClickMbtiReportCsReq,
+        CmdMonopolyType::CmdMonopolyGetRafflePoolInfoScRsp,
+        CmdMonopolyType::CmdMonopolyUpgradeAssetCsReq,
     ];
 }
 
@@ -480,90 +480,90 @@ impl ::protobuf::EnumFull for CmdMonopolyType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdMonopolyType::CmdMonopolyType_MNFEPONEDDJ => 0,
-            CmdMonopolyType::CmdMonopolyType_HGAHAEPDCKA => 1,
-            CmdMonopolyType::CmdMonopolyType_EBCJEMLJCJB => 2,
-            CmdMonopolyType::CmdMonopolyType_LPKBLEKOKMC => 3,
-            CmdMonopolyType::CmdMonopolyType_KNNNEDIEDOL => 4,
-            CmdMonopolyType::CmdMonopolyType_NJIBGEPOECF => 5,
-            CmdMonopolyType::CmdMonopolyType_KHMHBIMKKBO => 6,
-            CmdMonopolyType::CmdMonopolyType_APBKCPPHICK => 7,
-            CmdMonopolyType::CmdMonopolyType_KCNFNCDAGIM => 8,
-            CmdMonopolyType::CmdMonopolyType_FMEPLFEGDEO => 9,
-            CmdMonopolyType::CmdMonopolyType_EJJFGGAOIJH => 10,
-            CmdMonopolyType::CmdMonopolyType_GDBLCIAKOLH => 11,
-            CmdMonopolyType::CmdMonopolyType_HPPNAINEMGH => 12,
-            CmdMonopolyType::CmdMonopolyType_PLOFKJECOJP => 13,
-            CmdMonopolyType::CmdMonopolyType_DCDCNFCJCDB => 14,
-            CmdMonopolyType::CmdMonopolyType_PDAEEDNODGD => 15,
-            CmdMonopolyType::CmdMonopolyType_AJIKMOKGIJN => 16,
-            CmdMonopolyType::CmdMonopolyType_NLNHLJGMGML => 17,
-            CmdMonopolyType::CmdMonopolyType_IMGEPIGFNAN => 18,
-            CmdMonopolyType::CmdMonopolyType_AAJJHIKCOOA => 19,
-            CmdMonopolyType::CmdMonopolyType_KFFCPMMEALK => 20,
-            CmdMonopolyType::CmdMonopolyType_EMIIEMFHINK => 21,
-            CmdMonopolyType::CmdMonopolyType_EIACLFIHDLE => 22,
-            CmdMonopolyType::CmdMonopolyType_INICIHHOIIL => 23,
-            CmdMonopolyType::CmdMonopolyType_PCIDFEKEDMP => 24,
-            CmdMonopolyType::CmdMonopolyType_LAICGAIFLJK => 25,
-            CmdMonopolyType::CmdMonopolyType_KAALIJIIGDO => 26,
-            CmdMonopolyType::CmdMonopolyType_BMAJHBNPDME => 27,
-            CmdMonopolyType::CmdMonopolyType_PEJEGKMPFJF => 28,
-            CmdMonopolyType::CmdMonopolyType_LGOGOAFNCOA => 29,
-            CmdMonopolyType::CmdMonopolyType_IMDOBPCMDKP => 30,
-            CmdMonopolyType::CmdMonopolyType_ONOALFMHCOL => 31,
-            CmdMonopolyType::CmdMonopolyType_KBFPDLCCPNL => 32,
-            CmdMonopolyType::CmdMonopolyType_KPNHJHOGLEO => 33,
-            CmdMonopolyType::CmdMonopolyType_ALENLOKEDAH => 34,
-            CmdMonopolyType::CmdMonopolyType_NNCMPJOIDDJ => 35,
-            CmdMonopolyType::CmdMonopolyType_JOOGPJIHAGA => 36,
-            CmdMonopolyType::CmdMonopolyType_BIKMCCLFGOH => 37,
-            CmdMonopolyType::CmdMonopolyType_IBPLNKDPFCD => 38,
-            CmdMonopolyType::CmdMonopolyType_BJFNACEAEDM => 39,
-            CmdMonopolyType::CmdMonopolyType_CHPANGBLAIP => 40,
-            CmdMonopolyType::CmdMonopolyType_DGOKDPBMPFG => 41,
-            CmdMonopolyType::CmdMonopolyType_GGMBKFIHGHD => 42,
-            CmdMonopolyType::CmdMonopolyType_HDEBBHPJIMI => 43,
-            CmdMonopolyType::CmdMonopolyType_DPHJHOEDBGM => 44,
-            CmdMonopolyType::CmdMonopolyType_HEGDKOKIBNI => 45,
-            CmdMonopolyType::CmdMonopolyType_PHAOCAHBEKI => 46,
-            CmdMonopolyType::CmdMonopolyType_ECEPMJBKFLG => 47,
-            CmdMonopolyType::CmdMonopolyType_NHGOGKBEFAF => 48,
-            CmdMonopolyType::CmdMonopolyType_DFMOLKPPIDG => 49,
-            CmdMonopolyType::CmdMonopolyType_EOPLBNFJCLE => 50,
-            CmdMonopolyType::CmdMonopolyType_HGPOJJIEPMJ => 51,
-            CmdMonopolyType::CmdMonopolyType_AOCNAOCKHFI => 52,
-            CmdMonopolyType::CmdMonopolyType_HDKCCALEGBB => 53,
-            CmdMonopolyType::CmdMonopolyType_OPACGKOMJHD => 54,
-            CmdMonopolyType::CmdMonopolyType_FBLHEJFOIOP => 55,
-            CmdMonopolyType::CmdMonopolyType_BHMGHDAOFMO => 56,
-            CmdMonopolyType::CmdMonopolyType_BKIOMGEFJGP => 57,
-            CmdMonopolyType::CmdMonopolyType_ABLMBOGOHBO => 58,
-            CmdMonopolyType::CmdMonopolyType_FGCLDHBEFEL => 59,
-            CmdMonopolyType::CmdMonopolyType_KCFBFACLEME => 60,
-            CmdMonopolyType::CmdMonopolyType_CBDPJIJIOCF => 61,
-            CmdMonopolyType::CmdMonopolyType_MAMBBGEBPMC => 62,
-            CmdMonopolyType::CmdMonopolyType_EBNMOBGAGEL => 63,
-            CmdMonopolyType::CmdMonopolyType_PDDPIOPDLHH => 64,
-            CmdMonopolyType::CmdMonopolyType_HPLGCDOIAAI => 65,
-            CmdMonopolyType::CmdMonopolyType_ACHMOFGEPHJ => 66,
-            CmdMonopolyType::CmdMonopolyType_KBHGPEMJMEN => 67,
-            CmdMonopolyType::CmdMonopolyType_MCMLFMLGOEJ => 68,
-            CmdMonopolyType::CmdMonopolyType_IDKJNMGFEEK => 69,
-            CmdMonopolyType::CmdMonopolyType_MCKCKDPAOIH => 70,
-            CmdMonopolyType::CmdMonopolyType_GHHKJNOJOBO => 71,
-            CmdMonopolyType::CmdMonopolyType_OAMAEFAOHEL => 72,
-            CmdMonopolyType::CmdMonopolyType_GPDCGCKALNE => 73,
-            CmdMonopolyType::CmdMonopolyType_FBJCMJMNION => 74,
-            CmdMonopolyType::CmdMonopolyType_OPCAIFFNKKG => 75,
-            CmdMonopolyType::CmdMonopolyType_KFKLAGMEPEC => 76,
-            CmdMonopolyType::CmdMonopolyType_LLAFDDMMDFB => 77,
-            CmdMonopolyType::CmdMonopolyType_EIEDLAEFHFK => 78,
-            CmdMonopolyType::CmdMonopolyType_BPKNKKCOEBH => 79,
-            CmdMonopolyType::CmdMonopolyType_GLFMHHIELOH => 80,
-            CmdMonopolyType::CmdMonopolyType_FEHKPGJBMCN => 81,
-            CmdMonopolyType::CmdMonopolyType_DLDIFIJMPEI => 82,
-            CmdMonopolyType::CmdMonopolyType_IBBHBLLPJDP => 83,
+            CmdMonopolyType::BONOHJLBJHH_PCPDHELPKEM => 0,
+            CmdMonopolyType::CmdMonopolyGameBingoFlipCardCsReq => 1,
+            CmdMonopolyType::CmdHJOHLMHFHIE => 2,
+            CmdMonopolyType::CmdMonopolyContentUpdateScNotify => 3,
+            CmdMonopolyType::CmdMonopolyRollRandomCsReq => 4,
+            CmdMonopolyType::CmdMonopolyLikeScRsp => 5,
+            CmdMonopolyType::CmdMonopolyEventLoadUpdateScNotify => 6,
+            CmdMonopolyType::CmdGetSocialEventServerCacheScRsp => 7,
+            CmdMonopolyType::CmdMonopolyRollRandomScRsp => 8,
+            CmdMonopolyType::CmdMonopolyBuyGoodsScRsp => 9,
+            CmdMonopolyType::CmdMonopolyClickCellScRsp => 10,
+            CmdMonopolyType::CmdMonopolyGetRafflePoolInfoCsReq => 11,
+            CmdMonopolyType::CmdMonopolyGetRaffleTicketCsReq => 12,
+            CmdMonopolyType::CmdMonopolyEventSelectFriendCsReq => 13,
+            CmdMonopolyType::CmdMonopolyGetRegionProgressScRsp => 14,
+            CmdMonopolyType::CmdMonopolyBuyGoodsCsReq => 15,
+            CmdMonopolyType::CmdGetMonopolyDailyReportScRsp => 16,
+            CmdMonopolyType::CmdMonopolyGuessDrawScNotify => 17,
+            CmdMonopolyType::CmdMonopolyGiveUpCurContentScRsp => 18,
+            CmdMonopolyType::CmdMonopolyGameRaiseRatioCsReq => 19,
+            CmdMonopolyType::CmdMonopolyCheatDiceScRsp => 20,
+            CmdMonopolyType::CmdMonopolyCheatDiceCsReq => 21,
+            CmdMonopolyType::CmdMonopolyQuizDurationChangeScNotify => 22,
+            CmdMonopolyType::CmdMonopolyLikeScNotify => 23,
+            CmdMonopolyType::CmdMonopolyConditionUpdateScNotify => 24,
+            CmdMonopolyType::CmdMonopolyConfirmRandomCsReq => 25,
+            CmdMonopolyType::CmdMonopolyGuessChooseCsReq => 26,
+            CmdMonopolyType::CmdMonopolyCellUpdateNotify => 27,
+            CmdMonopolyType::CmdMonopolyReRollRandomCsReq => 28,
+            CmdMonopolyType::CmdGetSocialEventServerCacheCsReq => 29,
+            CmdMonopolyType::CmdMonopolyScrachRaffleTicketCsReq => 30,
+            CmdMonopolyType::CmdMonopolyGameBingoFlipCardScRsp => 31,
+            CmdMonopolyType::CmdMonopolyDailySettleScNotify => 32,
+            CmdMonopolyType::CmdGetMonopolyFriendRankingListScRsp => 33,
+            CmdMonopolyType::CmdDailyFirstEnterMonopolyActivityScRsp => 34,
+            CmdMonopolyType::CmdGetMonopolyInfoScRsp => 35,
+            CmdMonopolyType::CmdMonopolyGameCreateScNotify => 36,
+            CmdMonopolyType::CmdMonopolyTakeRaffleTicketRewardCsReq => 37,
+            CmdMonopolyType::CmdMonopolyGetDailyInitItemScRsp => 38,
+            CmdMonopolyType::CmdMonopolyGuessBuyInformationCsReq => 39,
+            CmdMonopolyType::CmdDailyFirstEnterMonopolyActivityCsReq => 40,
+            CmdMonopolyType::CmdGetMonopolyFriendRankingListCsReq => 41,
+            CmdMonopolyType::CmdMonopolyTakeRaffleTicketRewardScRsp => 42,
+            CmdMonopolyType::CmdMonopolyMoveScRsp => 43,
+            CmdMonopolyType::CmdMonopolyRollDiceCsReq => 44,
+            CmdMonopolyType::CmdMonopolyAcceptQuizScRsp => 45,
+            CmdMonopolyType::CmdMonopolySelectOptionScRsp => 46,
+            CmdMonopolyType::CmdMonopolyGetRaffleTicketScRsp => 47,
+            CmdMonopolyType::CmdMonopolySelectOptionCsReq => 48,
+            CmdMonopolyType::CmdMonopolyRollDiceScRsp => 49,
+            CmdMonopolyType::CmdGetMbtiReportScRsp => 50,
+            CmdMonopolyType::CmdFFBKMFFHFPB => 51,
+            CmdMonopolyType::CmdOKMKBBIOJGN => 52,
+            CmdMonopolyType::CmdMonopolyActionResultScNotify => 53,
+            CmdMonopolyType::CmdMonopolyGameSettleScNotify => 54,
+            CmdMonopolyType::CmdMonopolyGameGachaScRsp => 55,
+            CmdMonopolyType::CmdMonopolyGetDailyInitItemCsReq => 56,
+            CmdMonopolyType::CmdGetMonopolyMbtiReportRewardCsReq => 57,
+            CmdMonopolyType::CmdMonopolyGiveUpCurContentCsReq => 58,
+            CmdMonopolyType::CmdMonopolyMoveCsReq => 59,
+            CmdMonopolyType::CmdMonopolyEventSelectFriendScRsp => 60,
+            CmdMonopolyType::CmdMonopolyScrachRaffleTicketScRsp => 61,
+            CmdMonopolyType::CmdMonopolyClickCellCsReq => 62,
+            CmdMonopolyType::CmdMonopolyGameGachaCsReq => 63,
+            CmdMonopolyType::CmdMonopolyReRollRandomScRsp => 64,
+            CmdMonopolyType::CmdMonopolyLikeCsReq => 65,
+            CmdMonopolyType::CmdMonopolyAcceptQuizCsReq => 66,
+            CmdMonopolyType::CmdMonopolyTakePhaseRewardCsReq => 67,
+            CmdMonopolyType::CmdMonopolyGetRegionProgressCsReq => 68,
+            CmdMonopolyType::CmdDeleteSocialEventServerCacheCsReq => 69,
+            CmdMonopolyType::CmdGetMonopolyInfoCsReq => 70,
+            CmdMonopolyType::CmdGetMonopolyDailyReportCsReq => 71,
+            CmdMonopolyType::CmdGetMonopolyMbtiReportRewardScRsp => 72,
+            CmdMonopolyType::CmdMonopolyTakePhaseRewardScRsp => 73,
+            CmdMonopolyType::CmdNAFCECEFDML => 74,
+            CmdMonopolyType::CmdMonopolyConfirmRandomScRsp => 75,
+            CmdMonopolyType::CmdMonopolyGuessChooseScRsp => 76,
+            CmdMonopolyType::CmdIMJMGHCHFAA => 77,
+            CmdMonopolyType::CmdMonopolySocialEventEffectScNotify => 78,
+            CmdMonopolyType::CmdMonopolySttUpdateScNotify => 79,
+            CmdMonopolyType::CmdGetMbtiReportCsReq => 80,
+            CmdMonopolyType::CmdMonopolyClickMbtiReportCsReq => 81,
+            CmdMonopolyType::CmdMonopolyGetRafflePoolInfoScRsp => 82,
+            CmdMonopolyType::CmdMonopolyUpgradeAssetCsReq => 83,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -571,7 +571,7 @@ impl ::protobuf::EnumFull for CmdMonopolyType {
 
 impl ::std::default::Default for CmdMonopolyType {
     fn default() -> Self {
-        CmdMonopolyType::CmdMonopolyType_MNFEPONEDDJ
+        CmdMonopolyType::BONOHJLBJHH_PCPDHELPKEM
     }
 }
 
@@ -582,66 +582,65 @@ impl CmdMonopolyType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x15CmdMonopolyType.proto*\xb8\x16\n\x0fCmdMonopolyType\x12\x1f\n\x1bC\
-    mdMonopolyType_MNFEPONEDDJ\x10\0\x12\x20\n\x1bCmdMonopolyType_HGAHAEPDCK\
-    A\x10\xb27\x12\x20\n\x1bCmdMonopolyType_EBCJEMLJCJB\x10\xfa6\x12\x20\n\
-    \x1bCmdMonopolyType_LPKBLEKOKMC\x10\xb67\x12\x20\n\x1bCmdMonopolyType_KN\
-    NNEDIEDOL\x10\x947\x12\x20\n\x1bCmdMonopolyType_NJIBGEPOECF\x10\xf56\x12\
-    \x20\n\x1bCmdMonopolyType_KHMHBIMKKBO\x10\xb47\x12\x20\n\x1bCmdMonopolyT\
-    ype_APBKCPPHICK\x10\xb97\x12\x20\n\x1bCmdMonopolyType_KCNFNCDAGIM\x10\
-    \x887\x12\x20\n\x1bCmdMonopolyType_FMEPLFEGDEO\x10\xf46\x12\x20\n\x1bCmd\
-    MonopolyType_EJJFGGAOIJH\x10\xa17\x12\x20\n\x1bCmdMonopolyType_GDBLCIAKO\
-    LH\x10\xf06\x12\x20\n\x1bCmdMonopolyType_HPPNAINEMGH\x10\xa87\x12\x20\n\
-    \x1bCmdMonopolyType_PLOFKJECOJP\x10\xdc6\x12\x20\n\x1bCmdMonopolyType_DC\
-    DCNFCJCDB\x10\x877\x12\x20\n\x1bCmdMonopolyType_PDAEEDNODGD\x10\xb37\x12\
-    \x20\n\x1bCmdMonopolyType_AJIKMOKGIJN\x10\x8a7\x12\x20\n\x1bCmdMonopolyT\
-    ype_NLNHLJGMGML\x10\xea6\x12\x20\n\x1bCmdMonopolyType_IMGEPIGFNAN\x10\
-    \xaf7\x12\x20\n\x1bCmdMonopolyType_AAJJHIKCOOA\x10\xec6\x12\x20\n\x1bCmd\
-    MonopolyType_KFFCPMMEALK\x10\xef6\x12\x20\n\x1bCmdMonopolyType_EMIIEMFHI\
-    NK\x10\xdb6\x12\x20\n\x1bCmdMonopolyType_EIACLFIHDLE\x10\xba7\x12\x20\n\
-    \x1bCmdMonopolyType_INICIHHOIIL\x10\xb87\x12\x20\n\x1bCmdMonopolyType_PC\
-    IDFEKEDMP\x10\xa57\x12\x20\n\x1bCmdMonopolyType_LAICGAIFLJK\x10\xeb6\x12\
-    \x20\n\x1bCmdMonopolyType_KAALIJIIGDO\x10\xe16\x12\x20\n\x1bCmdMonopolyT\
-    ype_BMAJHBNPDME\x10\x927\x12\x20\n\x1bCmdMonopolyType_PEJEGKMPFJF\x10\
-    \x9c7\x12\x20\n\x1bCmdMonopolyType_LGOGOAFNCOA\x10\xe26\x12\x20\n\x1bCmd\
-    MonopolyType_IMDOBPCMDKP\x10\xf96\x12\x20\n\x1bCmdMonopolyType_ONOALFMHC\
-    OL\x10\xe46\x12\x20\n\x1bCmdMonopolyType_KBFPDLCCPNL\x10\xe06\x12\x20\n\
-    \x1bCmdMonopolyType_KPNHJHOGLEO\x10\xaa7\x12\x20\n\x1bCmdMonopolyType_AL\
-    ENLOKEDAH\x10\x967\x12\x20\n\x1bCmdMonopolyType_NNCMPJOIDDJ\x10\x8c7\x12\
-    \x20\n\x1bCmdMonopolyType_JOOGPJIHAGA\x10\x867\x12\x20\n\x1bCmdMonopolyT\
-    ype_BIKMCCLFGOH\x10\xda6\x12\x20\n\x1bCmdMonopolyType_IBPLNKDPFCD\x10\
-    \xb07\x12\x20\n\x1bCmdMonopolyType_BJFNACEAEDM\x10\x807\x12\x20\n\x1bCmd\
-    MonopolyType_CHPANGBLAIP\x10\xe86\x12\x20\n\x1bCmdMonopolyType_DGOKDPBMP\
-    FG\x10\xde6\x12\x20\n\x1bCmdMonopolyType_GGMBKFIHGHD\x10\xfd6\x12\x20\n\
-    \x1bCmdMonopolyType_HDEBBHPJIMI\x10\xdf6\x12\x20\n\x1bCmdMonopolyType_DP\
-    HJHOEDBGM\x10\xfe6\x12\x20\n\x1bCmdMonopolyType_HEGDKOKIBNI\x10\xa67\x12\
-    \x20\n\x1bCmdMonopolyType_PHAOCAHBEKI\x10\xa37\x12\x20\n\x1bCmdMonopolyT\
-    ype_ECEPMJBKFLG\x10\xbc7\x12\x20\n\x1bCmdMonopolyType_NHGOGKBEFAF\x10\
-    \x827\x12\x20\n\x1bCmdMonopolyType_DFMOLKPPIDG\x10\x817\x12\x20\n\x1bCmd\
-    MonopolyType_EOPLBNFJCLE\x10\xe36\x12\x20\n\x1bCmdMonopolyType_HGPOJJIEP\
-    MJ\x10\xd96\x12\x20\n\x1bCmdMonopolyType_AOCNAOCKHFI\x10\x9a7\x12\x20\n\
-    \x1bCmdMonopolyType_HDKCCALEGBB\x10\xa97\x12\x20\n\x1bCmdMonopolyType_OP\
-    ACGKOMJHD\x10\x977\x12\x20\n\x1bCmdMonopolyType_FBLHEJFOIOP\x10\xf36\x12\
-    \x20\n\x1bCmdMonopolyType_BHMGHDAOFMO\x10\xb77\x12\x20\n\x1bCmdMonopolyT\
-    ype_BKIOMGEFJGP\x10\xe56\x12\x20\n\x1bCmdMonopolyType_ABLMBOGOHBO\x10\
-    \x987\x12\x20\n\x1bCmdMonopolyType_FGCLDHBEFEL\x10\xab7\x12\x20\n\x1bCmd\
-    MonopolyType_KCFBFACLEME\x10\x8b7\x12\x20\n\x1bCmdMonopolyType_CBDPJIJIO\
-    CF\x10\xac7\x12\x20\n\x1bCmdMonopolyType_MAMBBGEBPMC\x10\xee6\x12\x20\n\
-    \x1bCmdMonopolyType_EBNMOBGAGEL\x10\x9e7\x12\x20\n\x1bCmdMonopolyType_PD\
-    DPIOPDLHH\x10\x907\x12\x20\n\x1bCmdMonopolyType_HPLGCDOIAAI\x10\x937\x12\
-    \x20\n\x1bCmdMonopolyType_ACHMOFGEPHJ\x10\x837\x12\x20\n\x1bCmdMonopolyT\
-    ype_KBHGPEMJMEN\x10\xdd6\x12\x20\n\x1bCmdMonopolyType_MCMLFMLGOEJ\x10\
-    \x997\x12\x20\n\x1bCmdMonopolyType_IDKJNMGFEEK\x10\x9d7\x12\x20\n\x1bCmd\
-    MonopolyType_MCKCKDPAOIH\x10\xe66\x12\x20\n\x1bCmdMonopolyType_GHHKJNOJO\
-    BO\x10\xae7\x12\x20\n\x1bCmdMonopolyType_OAMAEFAOHEL\x10\xf86\x12\x20\n\
-    \x1bCmdMonopolyType_GPDCGCKALNE\x10\xff6\x12\x20\n\x1bCmdMonopolyType_FB\
-    JCMJMNION\x10\xf16\x12\x20\n\x1bCmdMonopolyType_OPCAIFFNKKG\x10\x857\x12\
-    \x20\n\x1bCmdMonopolyType_KFKLAGMEPEC\x10\xe96\x12\x20\n\x1bCmdMonopolyT\
-    ype_LLAFDDMMDFB\x10\x8e7\x12\x20\n\x1bCmdMonopolyType_EIEDLAEFHFK\x10\
-    \x9b7\x12\x20\n\x1bCmdMonopolyType_BPKNKKCOEBH\x10\xf76\x12\x20\n\x1bCmd\
-    MonopolyType_GLFMHHIELOH\x10\xfc6\x12\x20\n\x1bCmdMonopolyType_FEHKPGJBM\
-    CN\x10\x957\x12\x20\n\x1bCmdMonopolyType_DLDIFIJMPEI\x10\xf26\x12\x20\n\
-    \x1bCmdMonopolyType_IBBHBLLPJDP\x10\xed6b\x06proto3\
+    \n\x15CmdMonopolyType.proto*\xbb\x17\n\x0fCmdMonopolyType\x12\x1b\n\x17B\
+    ONOHJLBJHH_PCPDHELPKEM\x10\0\x12&\n!CmdMonopolyGameBingoFlipCardCsReq\
+    \x10\x8b7\x12\x13\n\x0eCmdHJOHLMHFHIE\x10\xa17\x12%\n\x20CmdMonopolyCont\
+    entUpdateScNotify\x10\xf46\x12\x1f\n\x1aCmdMonopolyRollRandomCsReq\x10\
+    \xdc6\x12\x19\n\x14CmdMonopolyLikeScRsp\x10\x937\x12'\n\"CmdMonopolyEven\
+    tLoadUpdateScNotify\x10\xad7\x12&\n!CmdGetSocialEventServerCacheScRsp\
+    \x10\xb27\x12\x1f\n\x1aCmdMonopolyRollRandomScRsp\x10\xfe6\x12\x1d\n\x18\
+    CmdMonopolyBuyGoodsScRsp\x10\x927\x12\x1e\n\x19CmdMonopolyClickCellScRsp\
+    \x10\xa47\x12&\n!CmdMonopolyGetRafflePoolInfoCsReq\x10\xfb6\x12$\n\x1fCm\
+    dMonopolyGetRaffleTicketCsReq\x10\x9e7\x12&\n!CmdMonopolyEventSelectFrie\
+    ndCsReq\x10\xe86\x12&\n!CmdMonopolyGetRegionProgressScRsp\x10\xab7\x12\
+    \x1d\n\x18CmdMonopolyBuyGoodsCsReq\x10\xdf6\x12#\n\x1eCmdGetMonopolyDail\
+    yReportScRsp\x10\xa37\x12!\n\x1cCmdMonopolyGuessDrawScNotify\x10\xdd6\
+    \x12%\n\x20CmdMonopolyGiveUpCurContentScRsp\x10\xb87\x12#\n\x1eCmdMonopo\
+    lyGameRaiseRatioCsReq\x10\x997\x12\x1e\n\x19CmdMonopolyCheatDiceScRsp\
+    \x10\xed6\x12\x1e\n\x19CmdMonopolyCheatDiceCsReq\x10\x917\x12*\n%CmdMono\
+    polyQuizDurationChangeScNotify\x10\xe36\x12\x1c\n\x17CmdMonopolyLikeScNo\
+    tify\x10\xf56\x12'\n\"CmdMonopolyConditionUpdateScNotify\x10\x907\x12\"\
+    \n\x1dCmdMonopolyConfirmRandomCsReq\x10\xf96\x12\x20\n\x1bCmdMonopolyGue\
+    ssChooseCsReq\x10\xb57\x12\x20\n\x1bCmdMonopolyCellUpdateNotify\x10\xb77\
+    \x12!\n\x1cCmdMonopolyReRollRandomCsReq\x10\xa07\x12&\n!CmdGetSocialEven\
+    tServerCacheCsReq\x10\x8c7\x12'\n\"CmdMonopolyScrachRaffleTicketCsReq\
+    \x10\xbb7\x12&\n!CmdMonopolyGameBingoFlipCardScRsp\x10\xf16\x12#\n\x1eCm\
+    dMonopolyDailySettleScNotify\x10\xb47\x12)\n$CmdGetMonopolyFriendRanking\
+    ListScRsp\x10\xa67\x12,\n'CmdDailyFirstEnterMonopolyActivityScRsp\x10\
+    \xfd6\x12\x1c\n\x17CmdGetMonopolyInfoScRsp\x10\xe26\x12\"\n\x1dCmdMonopo\
+    lyGameCreateScNotify\x10\xec6\x12+\n&CmdMonopolyTakeRaffleTicketRewardCs\
+    Req\x10\xaa7\x12%\n\x20CmdMonopolyGetDailyInitItemScRsp\x10\xfa6\x12(\n#\
+    CmdMonopolyGuessBuyInformationCsReq\x10\x897\x12,\n'CmdDailyFirstEnterMo\
+    nopolyActivityCsReq\x10\xa27\x12)\n$CmdGetMonopolyFriendRankingListCsReq\
+    \x10\xf06\x12+\n&CmdMonopolyTakeRaffleTicketRewardScRsp\x10\x947\x12\x19\
+    \n\x14CmdMonopolyMoveScRsp\x10\x977\x12\x1d\n\x18CmdMonopolyRollDiceCsRe\
+    q\x10\xea6\x12\x1f\n\x1aCmdMonopolyAcceptQuizScRsp\x10\xa77\x12!\n\x1cCm\
+    dMonopolySelectOptionScRsp\x10\xff6\x12$\n\x1fCmdMonopolyGetRaffleTicket\
+    ScRsp\x10\x9c7\x12!\n\x1cCmdMonopolySelectOptionCsReq\x10\xf26\x12\x1d\n\
+    \x18CmdMonopolyRollDiceScRsp\x10\xe16\x12\x1a\n\x15CmdGetMbtiReportScRsp\
+    \x10\xa57\x12\x13\n\x0eCmdFFBKMFFHFPB\x10\x817\x12\x13\n\x0eCmdOKMKBBIOJ\
+    GN\x10\xaf7\x12$\n\x1fCmdMonopolyActionResultScNotify\x10\xb67\x12\"\n\
+    \x1dCmdMonopolyGameSettleScNotify\x10\x8d7\x12\x1e\n\x19CmdMonopolyGameG\
+    achaScRsp\x10\xe96\x12%\n\x20CmdMonopolyGetDailyInitItemCsReq\x10\x867\
+    \x12(\n#CmdGetMonopolyMbtiReportRewardCsReq\x10\x807\x12%\n\x20CmdMonopo\
+    lyGiveUpCurContentCsReq\x10\xb17\x12\x19\n\x14CmdMonopolyMoveCsReq\x10\
+    \xba7\x12&\n!CmdMonopolyEventSelectFriendScRsp\x10\xde6\x12'\n\"CmdMonop\
+    olyScrachRaffleTicketScRsp\x10\xe56\x12\x1e\n\x19CmdMonopolyClickCellCsR\
+    eq\x10\x887\x12\x1e\n\x19CmdMonopolyGameGachaCsReq\x10\xe06\x12!\n\x1cCm\
+    dMonopolyReRollRandomScRsp\x10\xf86\x12\x19\n\x14CmdMonopolyLikeCsReq\
+    \x10\x827\x12\x1f\n\x1aCmdMonopolyAcceptQuizCsReq\x10\x8e7\x12$\n\x1fCmd\
+    MonopolyTakePhaseRewardCsReq\x10\xae7\x12&\n!CmdMonopolyGetRegionProgres\
+    sCsReq\x10\xf76\x12)\n$CmdDeleteSocialEventServerCacheCsReq\x10\x9d7\x12\
+    \x1c\n\x17CmdGetMonopolyInfoCsReq\x10\xb37\x12#\n\x1eCmdGetMonopolyDaily\
+    ReportCsReq\x10\xb97\x12(\n#CmdGetMonopolyMbtiReportRewardScRsp\x10\x837\
+    \x12$\n\x1fCmdMonopolyTakePhaseRewardScRsp\x10\xa87\x12\x13\n\x0eCmdNAFC\
+    ECEFDML\x10\x9a7\x12\"\n\x1dCmdMonopolyConfirmRandomScRsp\x10\x957\x12\
+    \x20\n\x1bCmdMonopolyGuessChooseScRsp\x10\xda6\x12\x13\n\x0eCmdIMJMGHCHF\
+    AA\x10\xbc7\x12)\n$CmdMonopolySocialEventEffectScNotify\x10\xb07\x12!\n\
+    \x1cCmdMonopolySttUpdateScNotify\x10\x8f7\x12\x1a\n\x15CmdGetMbtiReportC\
+    sReq\x10\xe46\x12$\n\x1fCmdMonopolyClickMbtiReportCsReq\x10\x857\x12&\n!\
+    CmdMonopolyGetRafflePoolInfoScRsp\x10\xe76\x12!\n\x1cCmdMonopolyUpgradeA\
+    ssetCsReq\x10\x847b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

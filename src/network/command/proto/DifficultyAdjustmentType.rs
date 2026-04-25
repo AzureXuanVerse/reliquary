@@ -27,10 +27,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:DifficultyAdjustmentType)
 pub enum DifficultyAdjustmentType {
-    // @@protoc_insertion_point(enum_value:DifficultyAdjustmentType.DifficultyAdjustmentType_KKBBAGLBHJI)
-    DifficultyAdjustmentType_KKBBAGLBHJI = 0,
-    // @@protoc_insertion_point(enum_value:DifficultyAdjustmentType.DifficultyAdjustmentType_CPMPACKBOMB)
-    DifficultyAdjustmentType_CPMPACKBOMB = 1,
+    // @@protoc_insertion_point(enum_value:DifficultyAdjustmentType.NJAAEOFICML_CGKEIAIPAEK)
+    NJAAEOFICML_CGKEIAIPAEK = 0,
+    // @@protoc_insertion_point(enum_value:DifficultyAdjustmentType.NJAAEOFICML_APHCACPJMOF)
+    NJAAEOFICML_APHCACPJMOF = 1,
 }
 
 impl ::protobuf::Enum for DifficultyAdjustmentType {
@@ -42,23 +42,23 @@ impl ::protobuf::Enum for DifficultyAdjustmentType {
 
     fn from_i32(value: i32) -> ::std::option::Option<DifficultyAdjustmentType> {
         match value {
-            0 => ::std::option::Option::Some(DifficultyAdjustmentType::DifficultyAdjustmentType_KKBBAGLBHJI),
-            1 => ::std::option::Option::Some(DifficultyAdjustmentType::DifficultyAdjustmentType_CPMPACKBOMB),
+            0 => ::std::option::Option::Some(DifficultyAdjustmentType::NJAAEOFICML_CGKEIAIPAEK),
+            1 => ::std::option::Option::Some(DifficultyAdjustmentType::NJAAEOFICML_APHCACPJMOF),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<DifficultyAdjustmentType> {
         match str {
-            "DifficultyAdjustmentType_KKBBAGLBHJI" => ::std::option::Option::Some(DifficultyAdjustmentType::DifficultyAdjustmentType_KKBBAGLBHJI),
-            "DifficultyAdjustmentType_CPMPACKBOMB" => ::std::option::Option::Some(DifficultyAdjustmentType::DifficultyAdjustmentType_CPMPACKBOMB),
+            "NJAAEOFICML_CGKEIAIPAEK" => ::std::option::Option::Some(DifficultyAdjustmentType::NJAAEOFICML_CGKEIAIPAEK),
+            "NJAAEOFICML_APHCACPJMOF" => ::std::option::Option::Some(DifficultyAdjustmentType::NJAAEOFICML_APHCACPJMOF),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [DifficultyAdjustmentType] = &[
-        DifficultyAdjustmentType::DifficultyAdjustmentType_KKBBAGLBHJI,
-        DifficultyAdjustmentType::DifficultyAdjustmentType_CPMPACKBOMB,
+        DifficultyAdjustmentType::NJAAEOFICML_CGKEIAIPAEK,
+        DifficultyAdjustmentType::NJAAEOFICML_APHCACPJMOF,
     ];
 }
 
@@ -76,7 +76,7 @@ impl ::protobuf::EnumFull for DifficultyAdjustmentType {
 
 impl ::std::default::Default for DifficultyAdjustmentType {
     fn default() -> Self {
-        DifficultyAdjustmentType::DifficultyAdjustmentType_KKBBAGLBHJI
+        DifficultyAdjustmentType::NJAAEOFICML_CGKEIAIPAEK
     }
 }
 
@@ -87,9 +87,9 @@ impl DifficultyAdjustmentType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1eDifficultyAdjustmentType.proto*n\n\x18DifficultyAdjustmentType\x12\
-    (\n$DifficultyAdjustmentType_KKBBAGLBHJI\x10\0\x12(\n$DifficultyAdjustme\
-    ntType_CPMPACKBOMB\x10\x01b\x06proto3\
+    \n\x1eDifficultyAdjustmentType.proto*T\n\x18DifficultyAdjustmentType\x12\
+    \x1b\n\x17NJAAEOFICML_CGKEIAIPAEK\x10\0\x12\x1b\n\x17NJAAEOFICML_APHCACP\
+    JMOF\x10\x01b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

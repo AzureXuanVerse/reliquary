@@ -28,16 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ChallengeBossRelicInfo {
     // message fields
-    // @@protoc_insertion_point(field:ChallengeBossRelicInfo.tid)
-    pub tid: u32,
-    // @@protoc_insertion_point(field:ChallengeBossRelicInfo.main_affix_id)
-    pub main_affix_id: u32,
-    // @@protoc_insertion_point(field:ChallengeBossRelicInfo.sub_affix_list)
-    pub sub_affix_list: ::std::vec::Vec<super::RelicAffix::RelicAffix>,
-    // @@protoc_insertion_point(field:ChallengeBossRelicInfo.unique_id)
-    pub unique_id: u32,
     // @@protoc_insertion_point(field:ChallengeBossRelicInfo.level)
     pub level: u32,
+    // @@protoc_insertion_point(field:ChallengeBossRelicInfo.unique_id)
+    pub unique_id: u32,
+    // @@protoc_insertion_point(field:ChallengeBossRelicInfo.sub_affix_list)
+    pub sub_affix_list: ::std::vec::Vec<super::RelicAffix::RelicAffix>,
+    // @@protoc_insertion_point(field:ChallengeBossRelicInfo.main_affix_id)
+    pub main_affix_id: u32,
+    // @@protoc_insertion_point(field:ChallengeBossRelicInfo.tid)
+    pub tid: u32,
     // special fields
     // @@protoc_insertion_point(special_field:ChallengeBossRelicInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -58,14 +58,14 @@ impl ChallengeBossRelicInfo {
         let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "tid",
-            |m: &ChallengeBossRelicInfo| { &m.tid },
-            |m: &mut ChallengeBossRelicInfo| { &mut m.tid },
+            "level",
+            |m: &ChallengeBossRelicInfo| { &m.level },
+            |m: &mut ChallengeBossRelicInfo| { &mut m.level },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "main_affix_id",
-            |m: &ChallengeBossRelicInfo| { &m.main_affix_id },
-            |m: &mut ChallengeBossRelicInfo| { &mut m.main_affix_id },
+            "unique_id",
+            |m: &ChallengeBossRelicInfo| { &m.unique_id },
+            |m: &mut ChallengeBossRelicInfo| { &mut m.unique_id },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "sub_affix_list",
@@ -73,14 +73,14 @@ impl ChallengeBossRelicInfo {
             |m: &mut ChallengeBossRelicInfo| { &mut m.sub_affix_list },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "unique_id",
-            |m: &ChallengeBossRelicInfo| { &m.unique_id },
-            |m: &mut ChallengeBossRelicInfo| { &mut m.unique_id },
+            "main_affix_id",
+            |m: &ChallengeBossRelicInfo| { &m.main_affix_id },
+            |m: &mut ChallengeBossRelicInfo| { &mut m.main_affix_id },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "level",
-            |m: &ChallengeBossRelicInfo| { &m.level },
-            |m: &mut ChallengeBossRelicInfo| { &mut m.level },
+            "tid",
+            |m: &ChallengeBossRelicInfo| { &m.tid },
+            |m: &mut ChallengeBossRelicInfo| { &mut m.tid },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ChallengeBossRelicInfo>(
             "ChallengeBossRelicInfo",
@@ -100,20 +100,20 @@ impl ::protobuf::Message for ChallengeBossRelicInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                56 => {
-                    self.tid = is.read_uint32()?;
-                },
-                32 => {
-                    self.main_affix_id = is.read_uint32()?;
-                },
-                50 => {
-                    self.sub_affix_list.push(is.read_message()?);
+                104 => {
+                    self.level = is.read_uint32()?;
                 },
                 24 => {
                     self.unique_id = is.read_uint32()?;
                 },
-                40 => {
-                    self.level = is.read_uint32()?;
+                18 => {
+                    self.sub_affix_list.push(is.read_message()?);
+                },
+                32 => {
+                    self.main_affix_id = is.read_uint32()?;
+                },
+                96 => {
+                    self.tid = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -127,21 +127,21 @@ impl ::protobuf::Message for ChallengeBossRelicInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.tid != 0 {
-            my_size += ::protobuf::rt::uint32_size(7, self.tid);
+        if self.level != 0 {
+            my_size += ::protobuf::rt::uint32_size(13, self.level);
         }
-        if self.main_affix_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.main_affix_id);
+        if self.unique_id != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.unique_id);
         }
         for value in &self.sub_affix_list {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.unique_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.unique_id);
+        if self.main_affix_id != 0 {
+            my_size += ::protobuf::rt::uint32_size(4, self.main_affix_id);
         }
-        if self.level != 0 {
-            my_size += ::protobuf::rt::uint32_size(5, self.level);
+        if self.tid != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.tid);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -149,20 +149,20 @@ impl ::protobuf::Message for ChallengeBossRelicInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.tid != 0 {
-            os.write_uint32(7, self.tid)?;
+        if self.level != 0 {
+            os.write_uint32(13, self.level)?;
         }
-        if self.main_affix_id != 0 {
-            os.write_uint32(4, self.main_affix_id)?;
-        }
-        for v in &self.sub_affix_list {
-            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
-        };
         if self.unique_id != 0 {
             os.write_uint32(3, self.unique_id)?;
         }
-        if self.level != 0 {
-            os.write_uint32(5, self.level)?;
+        for v in &self.sub_affix_list {
+            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
+        };
+        if self.main_affix_id != 0 {
+            os.write_uint32(4, self.main_affix_id)?;
+        }
+        if self.tid != 0 {
+            os.write_uint32(12, self.tid)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -181,21 +181,21 @@ impl ::protobuf::Message for ChallengeBossRelicInfo {
     }
 
     fn clear(&mut self) {
-        self.tid = 0;
-        self.main_affix_id = 0;
-        self.sub_affix_list.clear();
-        self.unique_id = 0;
         self.level = 0;
+        self.unique_id = 0;
+        self.sub_affix_list.clear();
+        self.main_affix_id = 0;
+        self.tid = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ChallengeBossRelicInfo {
         static instance: ChallengeBossRelicInfo = ChallengeBossRelicInfo {
-            tid: 0,
-            main_affix_id: 0,
-            sub_affix_list: ::std::vec::Vec::new(),
-            unique_id: 0,
             level: 0,
+            unique_id: 0,
+            sub_affix_list: ::std::vec::Vec::new(),
+            main_affix_id: 0,
+            tid: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -221,11 +221,11 @@ impl ::protobuf::reflect::ProtobufValue for ChallengeBossRelicInfo {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1cChallengeBossRelicInfo.proto\x1a\x10RelicAffix.proto\"\xb4\x01\n\
-    \x16ChallengeBossRelicInfo\x12\x10\n\x03tid\x18\x07\x20\x01(\rR\x03tid\
-    \x12\"\n\rmain_affix_id\x18\x04\x20\x01(\rR\x0bmainAffixId\x121\n\x0esub\
-    _affix_list\x18\x06\x20\x03(\x0b2\x0b.RelicAffixR\x0csubAffixList\x12\
-    \x1b\n\tunique_id\x18\x03\x20\x01(\rR\x08uniqueId\x12\x14\n\x05level\x18\
-    \x05\x20\x01(\rR\x05levelb\x06proto3\
+    \x16ChallengeBossRelicInfo\x12\x14\n\x05level\x18\r\x20\x01(\rR\x05level\
+    \x12\x1b\n\tunique_id\x18\x03\x20\x01(\rR\x08uniqueId\x121\n\x0esub_affi\
+    x_list\x18\x02\x20\x03(\x0b2\x0b.RelicAffixR\x0csubAffixList\x12\"\n\rma\
+    in_affix_id\x18\x04\x20\x01(\rR\x0bmainAffixId\x12\x10\n\x03tid\x18\x0c\
+    \x20\x01(\rR\x03tidb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

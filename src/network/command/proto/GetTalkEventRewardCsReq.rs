@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GetTalkEventRewardCsReq {
     // message fields
-    // @@protoc_insertion_point(field:GetTalkEventRewardCsReq.CPHFEELDMAI)
-    pub CPHFEELDMAI: ::protobuf::MessageField<super::Vector::Vector>,
-    // @@protoc_insertion_point(field:GetTalkEventRewardCsReq.JLFBIMAHIMC)
-    pub JLFBIMAHIMC: u32,
+    // @@protoc_insertion_point(field:GetTalkEventRewardCsReq.JHOAMILHAIC)
+    pub JHOAMILHAIC: u32,
+    // @@protoc_insertion_point(field:GetTalkEventRewardCsReq.ILKEFLDBMLF)
+    pub ILKEFLDBMLF: ::protobuf::MessageField<super::Vector::Vector>,
     // special fields
     // @@protoc_insertion_point(special_field:GetTalkEventRewardCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -51,15 +51,15 @@ impl GetTalkEventRewardCsReq {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::Vector::Vector>(
-            "CPHFEELDMAI",
-            |m: &GetTalkEventRewardCsReq| { &m.CPHFEELDMAI },
-            |m: &mut GetTalkEventRewardCsReq| { &mut m.CPHFEELDMAI },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "JLFBIMAHIMC",
-            |m: &GetTalkEventRewardCsReq| { &m.JLFBIMAHIMC },
-            |m: &mut GetTalkEventRewardCsReq| { &mut m.JLFBIMAHIMC },
+            "JHOAMILHAIC",
+            |m: &GetTalkEventRewardCsReq| { &m.JHOAMILHAIC },
+            |m: &mut GetTalkEventRewardCsReq| { &mut m.JHOAMILHAIC },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::Vector::Vector>(
+            "ILKEFLDBMLF",
+            |m: &GetTalkEventRewardCsReq| { &m.ILKEFLDBMLF },
+            |m: &mut GetTalkEventRewardCsReq| { &mut m.ILKEFLDBMLF },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetTalkEventRewardCsReq>(
             "GetTalkEventRewardCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for GetTalkEventRewardCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                18 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.CPHFEELDMAI)?;
+                8 => {
+                    self.JHOAMILHAIC = is.read_uint32()?;
                 },
-                104 => {
-                    self.JLFBIMAHIMC = is.read_uint32()?;
+                74 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.ILKEFLDBMLF)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,12 +97,12 @@ impl ::protobuf::Message for GetTalkEventRewardCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.CPHFEELDMAI.as_ref() {
+        if self.JHOAMILHAIC != 0 {
+            my_size += ::protobuf::rt::uint32_size(1, self.JHOAMILHAIC);
+        }
+        if let Some(v) = self.ILKEFLDBMLF.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if self.JLFBIMAHIMC != 0 {
-            my_size += ::protobuf::rt::uint32_size(13, self.JLFBIMAHIMC);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,11 +110,11 @@ impl ::protobuf::Message for GetTalkEventRewardCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.CPHFEELDMAI.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
+        if self.JHOAMILHAIC != 0 {
+            os.write_uint32(1, self.JHOAMILHAIC)?;
         }
-        if self.JLFBIMAHIMC != 0 {
-            os.write_uint32(13, self.JLFBIMAHIMC)?;
+        if let Some(v) = self.ILKEFLDBMLF.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -133,15 +133,15 @@ impl ::protobuf::Message for GetTalkEventRewardCsReq {
     }
 
     fn clear(&mut self) {
-        self.CPHFEELDMAI.clear();
-        self.JLFBIMAHIMC = 0;
+        self.JHOAMILHAIC = 0;
+        self.ILKEFLDBMLF.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetTalkEventRewardCsReq {
         static instance: GetTalkEventRewardCsReq = GetTalkEventRewardCsReq {
-            CPHFEELDMAI: ::protobuf::MessageField::none(),
-            JLFBIMAHIMC: 0,
+            JHOAMILHAIC: 0,
+            ILKEFLDBMLF: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -167,9 +167,9 @@ impl ::protobuf::reflect::ProtobufValue for GetTalkEventRewardCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1dGetTalkEventRewardCsReq.proto\x1a\x0cVector.proto\"f\n\x17GetTalkE\
-    ventRewardCsReq\x12)\n\x0bCPHFEELDMAI\x18\x02\x20\x01(\x0b2\x07.VectorR\
-    \x0bCPHFEELDMAI\x12\x20\n\x0bJLFBIMAHIMC\x18\r\x20\x01(\rR\x0bJLFBIMAHIM\
-    Cb\x06proto3\
+    ventRewardCsReq\x12\x20\n\x0bJHOAMILHAIC\x18\x01\x20\x01(\rR\x0bJHOAMILH\
+    AIC\x12)\n\x0bILKEFLDBMLF\x18\t\x20\x01(\x0b2\x07.VectorR\x0bILKEFLDBMLF\
+    b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

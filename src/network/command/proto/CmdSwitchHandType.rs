@@ -27,36 +27,36 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdSwitchHandType)
 pub enum CmdSwitchHandType {
-    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandType_MNFEPONEDDJ)
-    CmdSwitchHandType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandType_DHJJKPCCNPE)
-    CmdSwitchHandType_DHJJKPCCNPE = 8102,
-    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandType_CPDMGOCJNKN)
-    CmdSwitchHandType_CPDMGOCJNKN = 8111,
-    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandType_GDHLDPOBCIE)
-    CmdSwitchHandType_GDHLDPOBCIE = 8101,
-    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandType_CBPPOPEOIBB)
-    CmdSwitchHandType_CBPPOPEOIBB = 8112,
-    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandType_GFAMGECMACN)
-    CmdSwitchHandType_GFAMGECMACN = 8109,
-    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandType_JCJGJGEKKIL)
-    CmdSwitchHandType_JCJGJGEKKIL = 8107,
-    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandType_KLKKKFLCEGL)
-    CmdSwitchHandType_KLKKKFLCEGL = 8104,
-    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandType_GBNBAOKHAHN)
-    CmdSwitchHandType_GBNBAOKHAHN = 8110,
-    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandType_GDAJNABLFKB)
-    CmdSwitchHandType_GDAJNABLFKB = 8119,
-    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandType_BEPONCHNOPB)
-    CmdSwitchHandType_BEPONCHNOPB = 8105,
-    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandType_FKLPLILLFPC)
-    CmdSwitchHandType_FKLPLILLFPC = 8117,
-    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandType_NBLLIBFGGIK)
-    CmdSwitchHandType_NBLLIBFGGIK = 8116,
-    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandType_ECINCDDHPOB)
-    CmdSwitchHandType_ECINCDDHPOB = 8106,
-    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandType_ABOOANCOFNH)
-    CmdSwitchHandType_ABOOANCOFNH = 8115,
+    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.INMKGNMPOED_PCPDHELPKEM)
+    INMKGNMPOED_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdGetSwitchHandResetHandPosScRsp)
+    CmdGetSwitchHandResetHandPosScRsp = 8118,
+    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandResetGameCsReq)
+    CmdSwitchHandResetGameCsReq = 8104,
+    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandStartScRsp)
+    CmdSwitchHandStartScRsp = 8110,
+    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdINDKHMAOAKM)
+    CmdINDKHMAOAKM = 8119,
+    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandUpdateCsReq)
+    CmdSwitchHandUpdateCsReq = 8114,
+    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandResetTransformCsReq)
+    CmdSwitchHandResetTransformCsReq = 8111,
+    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandStartCsReq)
+    CmdSwitchHandStartCsReq = 8102,
+    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandCoinUpdateCsReq)
+    CmdSwitchHandCoinUpdateCsReq = 8107,
+    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandFinishCsReq)
+    CmdSwitchHandFinishCsReq = 8115,
+    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandFinishScRsp)
+    CmdSwitchHandFinishScRsp = 8108,
+    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdGetSwitchHandDataScRsp)
+    CmdGetSwitchHandDataScRsp = 8120,
+    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdSwitchHandDataCsReq)
+    CmdSwitchHandDataCsReq = 8101,
+    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdGetSwitchHandResetGameScRsp)
+    CmdGetSwitchHandResetGameScRsp = 8103,
+    // @@protoc_insertion_point(enum_value:CmdSwitchHandType.CmdGetSwitchHandUpdateScRsp)
+    CmdGetSwitchHandUpdateScRsp = 8117,
 }
 
 impl ::protobuf::Enum for CmdSwitchHandType {
@@ -68,62 +68,62 @@ impl ::protobuf::Enum for CmdSwitchHandType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdSwitchHandType> {
         match value {
-            0 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_MNFEPONEDDJ),
-            8102 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_DHJJKPCCNPE),
-            8111 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_CPDMGOCJNKN),
-            8101 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_GDHLDPOBCIE),
-            8112 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_CBPPOPEOIBB),
-            8109 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_GFAMGECMACN),
-            8107 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_JCJGJGEKKIL),
-            8104 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_KLKKKFLCEGL),
-            8110 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_GBNBAOKHAHN),
-            8119 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_GDAJNABLFKB),
-            8105 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_BEPONCHNOPB),
-            8117 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_FKLPLILLFPC),
-            8116 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_NBLLIBFGGIK),
-            8106 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_ECINCDDHPOB),
-            8115 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_ABOOANCOFNH),
+            0 => ::std::option::Option::Some(CmdSwitchHandType::INMKGNMPOED_PCPDHELPKEM),
+            8118 => ::std::option::Option::Some(CmdSwitchHandType::CmdGetSwitchHandResetHandPosScRsp),
+            8104 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandResetGameCsReq),
+            8110 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandStartScRsp),
+            8119 => ::std::option::Option::Some(CmdSwitchHandType::CmdINDKHMAOAKM),
+            8114 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandUpdateCsReq),
+            8111 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandResetTransformCsReq),
+            8102 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandStartCsReq),
+            8107 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandCoinUpdateCsReq),
+            8115 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandFinishCsReq),
+            8108 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandFinishScRsp),
+            8120 => ::std::option::Option::Some(CmdSwitchHandType::CmdGetSwitchHandDataScRsp),
+            8101 => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandDataCsReq),
+            8103 => ::std::option::Option::Some(CmdSwitchHandType::CmdGetSwitchHandResetGameScRsp),
+            8117 => ::std::option::Option::Some(CmdSwitchHandType::CmdGetSwitchHandUpdateScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdSwitchHandType> {
         match str {
-            "CmdSwitchHandType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_MNFEPONEDDJ),
-            "CmdSwitchHandType_DHJJKPCCNPE" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_DHJJKPCCNPE),
-            "CmdSwitchHandType_CPDMGOCJNKN" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_CPDMGOCJNKN),
-            "CmdSwitchHandType_GDHLDPOBCIE" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_GDHLDPOBCIE),
-            "CmdSwitchHandType_CBPPOPEOIBB" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_CBPPOPEOIBB),
-            "CmdSwitchHandType_GFAMGECMACN" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_GFAMGECMACN),
-            "CmdSwitchHandType_JCJGJGEKKIL" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_JCJGJGEKKIL),
-            "CmdSwitchHandType_KLKKKFLCEGL" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_KLKKKFLCEGL),
-            "CmdSwitchHandType_GBNBAOKHAHN" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_GBNBAOKHAHN),
-            "CmdSwitchHandType_GDAJNABLFKB" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_GDAJNABLFKB),
-            "CmdSwitchHandType_BEPONCHNOPB" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_BEPONCHNOPB),
-            "CmdSwitchHandType_FKLPLILLFPC" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_FKLPLILLFPC),
-            "CmdSwitchHandType_NBLLIBFGGIK" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_NBLLIBFGGIK),
-            "CmdSwitchHandType_ECINCDDHPOB" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_ECINCDDHPOB),
-            "CmdSwitchHandType_ABOOANCOFNH" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandType_ABOOANCOFNH),
+            "INMKGNMPOED_PCPDHELPKEM" => ::std::option::Option::Some(CmdSwitchHandType::INMKGNMPOED_PCPDHELPKEM),
+            "CmdGetSwitchHandResetHandPosScRsp" => ::std::option::Option::Some(CmdSwitchHandType::CmdGetSwitchHandResetHandPosScRsp),
+            "CmdSwitchHandResetGameCsReq" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandResetGameCsReq),
+            "CmdSwitchHandStartScRsp" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandStartScRsp),
+            "CmdINDKHMAOAKM" => ::std::option::Option::Some(CmdSwitchHandType::CmdINDKHMAOAKM),
+            "CmdSwitchHandUpdateCsReq" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandUpdateCsReq),
+            "CmdSwitchHandResetTransformCsReq" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandResetTransformCsReq),
+            "CmdSwitchHandStartCsReq" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandStartCsReq),
+            "CmdSwitchHandCoinUpdateCsReq" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandCoinUpdateCsReq),
+            "CmdSwitchHandFinishCsReq" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandFinishCsReq),
+            "CmdSwitchHandFinishScRsp" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandFinishScRsp),
+            "CmdGetSwitchHandDataScRsp" => ::std::option::Option::Some(CmdSwitchHandType::CmdGetSwitchHandDataScRsp),
+            "CmdSwitchHandDataCsReq" => ::std::option::Option::Some(CmdSwitchHandType::CmdSwitchHandDataCsReq),
+            "CmdGetSwitchHandResetGameScRsp" => ::std::option::Option::Some(CmdSwitchHandType::CmdGetSwitchHandResetGameScRsp),
+            "CmdGetSwitchHandUpdateScRsp" => ::std::option::Option::Some(CmdSwitchHandType::CmdGetSwitchHandUpdateScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdSwitchHandType] = &[
-        CmdSwitchHandType::CmdSwitchHandType_MNFEPONEDDJ,
-        CmdSwitchHandType::CmdSwitchHandType_DHJJKPCCNPE,
-        CmdSwitchHandType::CmdSwitchHandType_CPDMGOCJNKN,
-        CmdSwitchHandType::CmdSwitchHandType_GDHLDPOBCIE,
-        CmdSwitchHandType::CmdSwitchHandType_CBPPOPEOIBB,
-        CmdSwitchHandType::CmdSwitchHandType_GFAMGECMACN,
-        CmdSwitchHandType::CmdSwitchHandType_JCJGJGEKKIL,
-        CmdSwitchHandType::CmdSwitchHandType_KLKKKFLCEGL,
-        CmdSwitchHandType::CmdSwitchHandType_GBNBAOKHAHN,
-        CmdSwitchHandType::CmdSwitchHandType_GDAJNABLFKB,
-        CmdSwitchHandType::CmdSwitchHandType_BEPONCHNOPB,
-        CmdSwitchHandType::CmdSwitchHandType_FKLPLILLFPC,
-        CmdSwitchHandType::CmdSwitchHandType_NBLLIBFGGIK,
-        CmdSwitchHandType::CmdSwitchHandType_ECINCDDHPOB,
-        CmdSwitchHandType::CmdSwitchHandType_ABOOANCOFNH,
+        CmdSwitchHandType::INMKGNMPOED_PCPDHELPKEM,
+        CmdSwitchHandType::CmdGetSwitchHandResetHandPosScRsp,
+        CmdSwitchHandType::CmdSwitchHandResetGameCsReq,
+        CmdSwitchHandType::CmdSwitchHandStartScRsp,
+        CmdSwitchHandType::CmdINDKHMAOAKM,
+        CmdSwitchHandType::CmdSwitchHandUpdateCsReq,
+        CmdSwitchHandType::CmdSwitchHandResetTransformCsReq,
+        CmdSwitchHandType::CmdSwitchHandStartCsReq,
+        CmdSwitchHandType::CmdSwitchHandCoinUpdateCsReq,
+        CmdSwitchHandType::CmdSwitchHandFinishCsReq,
+        CmdSwitchHandType::CmdSwitchHandFinishScRsp,
+        CmdSwitchHandType::CmdGetSwitchHandDataScRsp,
+        CmdSwitchHandType::CmdSwitchHandDataCsReq,
+        CmdSwitchHandType::CmdGetSwitchHandResetGameScRsp,
+        CmdSwitchHandType::CmdGetSwitchHandUpdateScRsp,
     ];
 }
 
@@ -135,21 +135,21 @@ impl ::protobuf::EnumFull for CmdSwitchHandType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdSwitchHandType::CmdSwitchHandType_MNFEPONEDDJ => 0,
-            CmdSwitchHandType::CmdSwitchHandType_DHJJKPCCNPE => 1,
-            CmdSwitchHandType::CmdSwitchHandType_CPDMGOCJNKN => 2,
-            CmdSwitchHandType::CmdSwitchHandType_GDHLDPOBCIE => 3,
-            CmdSwitchHandType::CmdSwitchHandType_CBPPOPEOIBB => 4,
-            CmdSwitchHandType::CmdSwitchHandType_GFAMGECMACN => 5,
-            CmdSwitchHandType::CmdSwitchHandType_JCJGJGEKKIL => 6,
-            CmdSwitchHandType::CmdSwitchHandType_KLKKKFLCEGL => 7,
-            CmdSwitchHandType::CmdSwitchHandType_GBNBAOKHAHN => 8,
-            CmdSwitchHandType::CmdSwitchHandType_GDAJNABLFKB => 9,
-            CmdSwitchHandType::CmdSwitchHandType_BEPONCHNOPB => 10,
-            CmdSwitchHandType::CmdSwitchHandType_FKLPLILLFPC => 11,
-            CmdSwitchHandType::CmdSwitchHandType_NBLLIBFGGIK => 12,
-            CmdSwitchHandType::CmdSwitchHandType_ECINCDDHPOB => 13,
-            CmdSwitchHandType::CmdSwitchHandType_ABOOANCOFNH => 14,
+            CmdSwitchHandType::INMKGNMPOED_PCPDHELPKEM => 0,
+            CmdSwitchHandType::CmdGetSwitchHandResetHandPosScRsp => 1,
+            CmdSwitchHandType::CmdSwitchHandResetGameCsReq => 2,
+            CmdSwitchHandType::CmdSwitchHandStartScRsp => 3,
+            CmdSwitchHandType::CmdINDKHMAOAKM => 4,
+            CmdSwitchHandType::CmdSwitchHandUpdateCsReq => 5,
+            CmdSwitchHandType::CmdSwitchHandResetTransformCsReq => 6,
+            CmdSwitchHandType::CmdSwitchHandStartCsReq => 7,
+            CmdSwitchHandType::CmdSwitchHandCoinUpdateCsReq => 8,
+            CmdSwitchHandType::CmdSwitchHandFinishCsReq => 9,
+            CmdSwitchHandType::CmdSwitchHandFinishScRsp => 10,
+            CmdSwitchHandType::CmdGetSwitchHandDataScRsp => 11,
+            CmdSwitchHandType::CmdSwitchHandDataCsReq => 12,
+            CmdSwitchHandType::CmdGetSwitchHandResetGameScRsp => 13,
+            CmdSwitchHandType::CmdGetSwitchHandUpdateScRsp => 14,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -157,7 +157,7 @@ impl ::protobuf::EnumFull for CmdSwitchHandType {
 
 impl ::std::default::Default for CmdSwitchHandType {
     fn default() -> Self {
-        CmdSwitchHandType::CmdSwitchHandType_MNFEPONEDDJ
+        CmdSwitchHandType::INMKGNMPOED_PCPDHELPKEM
     }
 }
 
@@ -168,18 +168,17 @@ impl CmdSwitchHandType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x17CmdSwitchHandType.proto*\xae\x04\n\x11CmdSwitchHandType\x12!\n\x1d\
-    CmdSwitchHandType_MNFEPONEDDJ\x10\0\x12\"\n\x1dCmdSwitchHandType_DHJJKPC\
-    CNPE\x10\xa6?\x12\"\n\x1dCmdSwitchHandType_CPDMGOCJNKN\x10\xaf?\x12\"\n\
-    \x1dCmdSwitchHandType_GDHLDPOBCIE\x10\xa5?\x12\"\n\x1dCmdSwitchHandType_\
-    CBPPOPEOIBB\x10\xb0?\x12\"\n\x1dCmdSwitchHandType_GFAMGECMACN\x10\xad?\
-    \x12\"\n\x1dCmdSwitchHandType_JCJGJGEKKIL\x10\xab?\x12\"\n\x1dCmdSwitchH\
-    andType_KLKKKFLCEGL\x10\xa8?\x12\"\n\x1dCmdSwitchHandType_GBNBAOKHAHN\
-    \x10\xae?\x12\"\n\x1dCmdSwitchHandType_GDAJNABLFKB\x10\xb7?\x12\"\n\x1dC\
-    mdSwitchHandType_BEPONCHNOPB\x10\xa9?\x12\"\n\x1dCmdSwitchHandType_FKLPL\
-    ILLFPC\x10\xb5?\x12\"\n\x1dCmdSwitchHandType_NBLLIBFGGIK\x10\xb4?\x12\"\
-    \n\x1dCmdSwitchHandType_ECINCDDHPOB\x10\xaa?\x12\"\n\x1dCmdSwitchHandTyp\
-    e_ABOOANCOFNH\x10\xb3?b\x06proto3\
+    \n\x17CmdSwitchHandType.proto*\xf6\x03\n\x11CmdSwitchHandType\x12\x1b\n\
+    \x17INMKGNMPOED_PCPDHELPKEM\x10\0\x12&\n!CmdGetSwitchHandResetHandPosScR\
+    sp\x10\xb6?\x12\x20\n\x1bCmdSwitchHandResetGameCsReq\x10\xa8?\x12\x1c\n\
+    \x17CmdSwitchHandStartScRsp\x10\xae?\x12\x13\n\x0eCmdINDKHMAOAKM\x10\xb7\
+    ?\x12\x1d\n\x18CmdSwitchHandUpdateCsReq\x10\xb2?\x12%\n\x20CmdSwitchHand\
+    ResetTransformCsReq\x10\xaf?\x12\x1c\n\x17CmdSwitchHandStartCsReq\x10\
+    \xa6?\x12!\n\x1cCmdSwitchHandCoinUpdateCsReq\x10\xab?\x12\x1d\n\x18CmdSw\
+    itchHandFinishCsReq\x10\xb3?\x12\x1d\n\x18CmdSwitchHandFinishScRsp\x10\
+    \xac?\x12\x1e\n\x19CmdGetSwitchHandDataScRsp\x10\xb8?\x12\x1b\n\x16CmdSw\
+    itchHandDataCsReq\x10\xa5?\x12#\n\x1eCmdGetSwitchHandResetGameScRsp\x10\
+    \xa7?\x12\x20\n\x1bCmdGetSwitchHandUpdateScRsp\x10\xb5?b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

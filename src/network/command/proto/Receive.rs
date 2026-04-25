@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct Receive {
     // message fields
+    // @@protoc_insertion_point(field:Receive.friend_list)
+    pub friend_list: ::std::vec::Vec<super::MALGHKMBKOK::MALGHKMBKOK>,
     // @@protoc_insertion_point(field:Receive.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:Receive.friend_list)
-    pub friend_list: ::std::vec::Vec<super::NOAHAHINEKG::NOAHAHINEKG>,
     // special fields
     // @@protoc_insertion_point(special_field:Receive.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -51,15 +51,15 @@ impl Receive {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "retcode",
-            |m: &Receive| { &m.retcode },
-            |m: &mut Receive| { &mut m.retcode },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "friend_list",
             |m: &Receive| { &m.friend_list },
             |m: &mut Receive| { &mut m.friend_list },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "retcode",
+            |m: &Receive| { &m.retcode },
+            |m: &mut Receive| { &mut m.retcode },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<Receive>(
             "Receive",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for Receive {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                72 => {
-                    self.retcode = is.read_uint32()?;
-                },
-                50 => {
+                114 => {
                     self.friend_list.push(is.read_message()?);
+                },
+                24 => {
+                    self.retcode = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,25 +97,25 @@ impl ::protobuf::Message for Receive {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.retcode);
-        }
         for value in &self.friend_list {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.retcode);
+        }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.retcode != 0 {
-            os.write_uint32(9, self.retcode)?;
-        }
         for v in &self.friend_list {
-            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
         };
+        if self.retcode != 0 {
+            os.write_uint32(3, self.retcode)?;
+        }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -133,15 +133,15 @@ impl ::protobuf::Message for Receive {
     }
 
     fn clear(&mut self) {
-        self.retcode = 0;
         self.friend_list.clear();
+        self.retcode = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static Receive {
         static instance: Receive = Receive {
-            retcode: 0,
             friend_list: ::std::vec::Vec::new(),
+            retcode: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,9 +166,9 @@ impl ::protobuf::reflect::ProtobufValue for Receive {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\rReceive.proto\x1a\x11NOAHAHINEKG.proto\"R\n\x07Receive\x12\x18\n\x07\
-    retcode\x18\t\x20\x01(\rR\x07retcode\x12-\n\x0bfriend_list\x18\x06\x20\
-    \x03(\x0b2\x0c.NOAHAHINEKGR\nfriendListb\x06proto3\
+    \n\rReceive.proto\x1a\x11MALGHKMBKOK.proto\"R\n\x07Receive\x12-\n\x0bfri\
+    end_list\x18\x0e\x20\x03(\x0b2\x0c.MALGHKMBKOKR\nfriendList\x12\x18\n\
+    \x07retcode\x18\x03\x20\x01(\rR\x07retcodeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -186,7 +186,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::NOAHAHINEKG::file_descriptor().clone());
+            deps.push(super::MALGHKMBKOK::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(Receive::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

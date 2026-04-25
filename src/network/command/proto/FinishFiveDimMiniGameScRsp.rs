@@ -30,26 +30,26 @@ pub struct FinishFiveDimMiniGameScRsp {
     // message fields
     // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.score_id)
     pub score_id: u32,
-    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.BLPKJNHOCAB)
-    pub BLPKJNHOCAB: u32,
-    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.BAEFIABDAAK)
-    pub BAEFIABDAAK: bool,
-    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.LCMCLAFPBDP)
-    pub LCMCLAFPBDP: ::protobuf::MessageField<super::ItemList::ItemList>,
-    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.retcode)
-    pub retcode: u32,
-    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.CIIHDOEMCFH)
-    pub CIIHDOEMCFH: u32,
-    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.FLFODGLOOHC)
-    pub FLFODGLOOHC: ::protobuf::MessageField<super::ItemList::ItemList>,
-    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.EFNNJJADGKC)
-    pub EFNNJJADGKC: u32,
-    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.CEBCDBLPPMF)
-    pub CEBCDBLPPMF: f32,
+    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.KEABPBONOKM)
+    pub KEABPBONOKM: u32,
+    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.MENAAPNNKGE)
+    pub MENAAPNNKGE: ::protobuf::MessageField<super::ItemList::ItemList>,
+    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.CHPAMPNMCOE)
+    pub CHPAMPNMCOE: bool,
+    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.PBDBJOHCJFO)
+    pub PBDBJOHCJFO: f32,
+    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.GCPNCEDAMAB)
+    pub GCPNCEDAMAB: u32,
     // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.gold)
     pub gold: u32,
-    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.PMINALOEBBC)
-    pub PMINALOEBBC: u32,
+    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.ENMFKJIOEOC)
+    pub ENMFKJIOEOC: ::protobuf::MessageField<super::ItemList::ItemList>,
+    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.NCODIMPANCC)
+    pub NCODIMPANCC: u32,
+    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.OJIAAGJBJAF)
+    pub OJIAAGJBJAF: u32,
+    // @@protoc_insertion_point(field:FinishFiveDimMiniGameScRsp.retcode)
+    pub retcode: u32,
     // special fields
     // @@protoc_insertion_point(special_field:FinishFiveDimMiniGameScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -75,54 +75,54 @@ impl FinishFiveDimMiniGameScRsp {
             |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.score_id },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BLPKJNHOCAB",
-            |m: &FinishFiveDimMiniGameScRsp| { &m.BLPKJNHOCAB },
-            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.BLPKJNHOCAB },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BAEFIABDAAK",
-            |m: &FinishFiveDimMiniGameScRsp| { &m.BAEFIABDAAK },
-            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.BAEFIABDAAK },
+            "KEABPBONOKM",
+            |m: &FinishFiveDimMiniGameScRsp| { &m.KEABPBONOKM },
+            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.KEABPBONOKM },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemList::ItemList>(
-            "LCMCLAFPBDP",
-            |m: &FinishFiveDimMiniGameScRsp| { &m.LCMCLAFPBDP },
-            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.LCMCLAFPBDP },
+            "MENAAPNNKGE",
+            |m: &FinishFiveDimMiniGameScRsp| { &m.MENAAPNNKGE },
+            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.MENAAPNNKGE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "retcode",
-            |m: &FinishFiveDimMiniGameScRsp| { &m.retcode },
-            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.retcode },
+            "CHPAMPNMCOE",
+            |m: &FinishFiveDimMiniGameScRsp| { &m.CHPAMPNMCOE },
+            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.CHPAMPNMCOE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "CIIHDOEMCFH",
-            |m: &FinishFiveDimMiniGameScRsp| { &m.CIIHDOEMCFH },
-            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.CIIHDOEMCFH },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemList::ItemList>(
-            "FLFODGLOOHC",
-            |m: &FinishFiveDimMiniGameScRsp| { &m.FLFODGLOOHC },
-            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.FLFODGLOOHC },
+            "PBDBJOHCJFO",
+            |m: &FinishFiveDimMiniGameScRsp| { &m.PBDBJOHCJFO },
+            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.PBDBJOHCJFO },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "EFNNJJADGKC",
-            |m: &FinishFiveDimMiniGameScRsp| { &m.EFNNJJADGKC },
-            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.EFNNJJADGKC },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "CEBCDBLPPMF",
-            |m: &FinishFiveDimMiniGameScRsp| { &m.CEBCDBLPPMF },
-            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.CEBCDBLPPMF },
+            "GCPNCEDAMAB",
+            |m: &FinishFiveDimMiniGameScRsp| { &m.GCPNCEDAMAB },
+            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.GCPNCEDAMAB },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "gold",
             |m: &FinishFiveDimMiniGameScRsp| { &m.gold },
             |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.gold },
         ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemList::ItemList>(
+            "ENMFKJIOEOC",
+            |m: &FinishFiveDimMiniGameScRsp| { &m.ENMFKJIOEOC },
+            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.ENMFKJIOEOC },
+        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "PMINALOEBBC",
-            |m: &FinishFiveDimMiniGameScRsp| { &m.PMINALOEBBC },
-            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.PMINALOEBBC },
+            "NCODIMPANCC",
+            |m: &FinishFiveDimMiniGameScRsp| { &m.NCODIMPANCC },
+            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.NCODIMPANCC },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "OJIAAGJBJAF",
+            |m: &FinishFiveDimMiniGameScRsp| { &m.OJIAAGJBJAF },
+            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.OJIAAGJBJAF },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "retcode",
+            |m: &FinishFiveDimMiniGameScRsp| { &m.retcode },
+            |m: &mut FinishFiveDimMiniGameScRsp| { &mut m.retcode },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<FinishFiveDimMiniGameScRsp>(
             "FinishFiveDimMiniGameScRsp",
@@ -145,35 +145,35 @@ impl ::protobuf::Message for FinishFiveDimMiniGameScRsp {
                 40 => {
                     self.score_id = is.read_uint32()?;
                 },
-                8 => {
-                    self.BLPKJNHOCAB = is.read_uint32()?;
-                },
-                72 => {
-                    self.BAEFIABDAAK = is.read_bool()?;
-                },
-                58 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.LCMCLAFPBDP)?;
-                },
-                112 => {
-                    self.retcode = is.read_uint32()?;
-                },
-                88 => {
-                    self.CIIHDOEMCFH = is.read_uint32()?;
+                64 => {
+                    self.KEABPBONOKM = is.read_uint32()?;
                 },
                 18 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.FLFODGLOOHC)?;
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.MENAAPNNKGE)?;
                 },
-                120 => {
-                    self.EFNNJJADGKC = is.read_uint32()?;
+                88 => {
+                    self.CHPAMPNMCOE = is.read_bool()?;
                 },
-                37 => {
-                    self.CEBCDBLPPMF = is.read_float()?;
+                109 => {
+                    self.PBDBJOHCJFO = is.read_float()?;
                 },
-                96 => {
+                80 => {
+                    self.GCPNCEDAMAB = is.read_uint32()?;
+                },
+                56 => {
                     self.gold = is.read_uint32()?;
                 },
-                64 => {
-                    self.PMINALOEBBC = is.read_uint32()?;
+                50 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.ENMFKJIOEOC)?;
+                },
+                24 => {
+                    self.NCODIMPANCC = is.read_uint32()?;
+                },
+                120 => {
+                    self.OJIAAGJBJAF = is.read_uint32()?;
+                },
+                96 => {
+                    self.retcode = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -190,37 +190,37 @@ impl ::protobuf::Message for FinishFiveDimMiniGameScRsp {
         if self.score_id != 0 {
             my_size += ::protobuf::rt::uint32_size(5, self.score_id);
         }
-        if self.BLPKJNHOCAB != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.BLPKJNHOCAB);
+        if self.KEABPBONOKM != 0 {
+            my_size += ::protobuf::rt::uint32_size(8, self.KEABPBONOKM);
         }
-        if self.BAEFIABDAAK != false {
+        if let Some(v) = self.MENAAPNNKGE.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if self.CHPAMPNMCOE != false {
             my_size += 1 + 1;
         }
-        if let Some(v) = self.LCMCLAFPBDP.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.retcode);
-        }
-        if self.CIIHDOEMCFH != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.CIIHDOEMCFH);
-        }
-        if let Some(v) = self.FLFODGLOOHC.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if self.EFNNJJADGKC != 0 {
-            my_size += ::protobuf::rt::uint32_size(15, self.EFNNJJADGKC);
-        }
-        if self.CEBCDBLPPMF != 0. {
+        if self.PBDBJOHCJFO != 0. {
             my_size += 1 + 4;
         }
-        if self.gold != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.gold);
+        if self.GCPNCEDAMAB != 0 {
+            my_size += ::protobuf::rt::uint32_size(10, self.GCPNCEDAMAB);
         }
-        if self.PMINALOEBBC != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.PMINALOEBBC);
+        if self.gold != 0 {
+            my_size += ::protobuf::rt::uint32_size(7, self.gold);
+        }
+        if let Some(v) = self.ENMFKJIOEOC.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if self.NCODIMPANCC != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.NCODIMPANCC);
+        }
+        if self.OJIAAGJBJAF != 0 {
+            my_size += ::protobuf::rt::uint32_size(15, self.OJIAAGJBJAF);
+        }
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.retcode);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -231,35 +231,35 @@ impl ::protobuf::Message for FinishFiveDimMiniGameScRsp {
         if self.score_id != 0 {
             os.write_uint32(5, self.score_id)?;
         }
-        if self.BLPKJNHOCAB != 0 {
-            os.write_uint32(1, self.BLPKJNHOCAB)?;
+        if self.KEABPBONOKM != 0 {
+            os.write_uint32(8, self.KEABPBONOKM)?;
         }
-        if self.BAEFIABDAAK != false {
-            os.write_bool(9, self.BAEFIABDAAK)?;
-        }
-        if let Some(v) = self.LCMCLAFPBDP.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
-        }
-        if self.retcode != 0 {
-            os.write_uint32(14, self.retcode)?;
-        }
-        if self.CIIHDOEMCFH != 0 {
-            os.write_uint32(11, self.CIIHDOEMCFH)?;
-        }
-        if let Some(v) = self.FLFODGLOOHC.as_ref() {
+        if let Some(v) = self.MENAAPNNKGE.as_ref() {
             ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
         }
-        if self.EFNNJJADGKC != 0 {
-            os.write_uint32(15, self.EFNNJJADGKC)?;
+        if self.CHPAMPNMCOE != false {
+            os.write_bool(11, self.CHPAMPNMCOE)?;
         }
-        if self.CEBCDBLPPMF != 0. {
-            os.write_float(4, self.CEBCDBLPPMF)?;
+        if self.PBDBJOHCJFO != 0. {
+            os.write_float(13, self.PBDBJOHCJFO)?;
+        }
+        if self.GCPNCEDAMAB != 0 {
+            os.write_uint32(10, self.GCPNCEDAMAB)?;
         }
         if self.gold != 0 {
-            os.write_uint32(12, self.gold)?;
+            os.write_uint32(7, self.gold)?;
         }
-        if self.PMINALOEBBC != 0 {
-            os.write_uint32(8, self.PMINALOEBBC)?;
+        if let Some(v) = self.ENMFKJIOEOC.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
+        }
+        if self.NCODIMPANCC != 0 {
+            os.write_uint32(3, self.NCODIMPANCC)?;
+        }
+        if self.OJIAAGJBJAF != 0 {
+            os.write_uint32(15, self.OJIAAGJBJAF)?;
+        }
+        if self.retcode != 0 {
+            os.write_uint32(12, self.retcode)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -279,32 +279,32 @@ impl ::protobuf::Message for FinishFiveDimMiniGameScRsp {
 
     fn clear(&mut self) {
         self.score_id = 0;
-        self.BLPKJNHOCAB = 0;
-        self.BAEFIABDAAK = false;
-        self.LCMCLAFPBDP.clear();
-        self.retcode = 0;
-        self.CIIHDOEMCFH = 0;
-        self.FLFODGLOOHC.clear();
-        self.EFNNJJADGKC = 0;
-        self.CEBCDBLPPMF = 0.;
+        self.KEABPBONOKM = 0;
+        self.MENAAPNNKGE.clear();
+        self.CHPAMPNMCOE = false;
+        self.PBDBJOHCJFO = 0.;
+        self.GCPNCEDAMAB = 0;
         self.gold = 0;
-        self.PMINALOEBBC = 0;
+        self.ENMFKJIOEOC.clear();
+        self.NCODIMPANCC = 0;
+        self.OJIAAGJBJAF = 0;
+        self.retcode = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static FinishFiveDimMiniGameScRsp {
         static instance: FinishFiveDimMiniGameScRsp = FinishFiveDimMiniGameScRsp {
             score_id: 0,
-            BLPKJNHOCAB: 0,
-            BAEFIABDAAK: false,
-            LCMCLAFPBDP: ::protobuf::MessageField::none(),
-            retcode: 0,
-            CIIHDOEMCFH: 0,
-            FLFODGLOOHC: ::protobuf::MessageField::none(),
-            EFNNJJADGKC: 0,
-            CEBCDBLPPMF: 0.,
+            KEABPBONOKM: 0,
+            MENAAPNNKGE: ::protobuf::MessageField::none(),
+            CHPAMPNMCOE: false,
+            PBDBJOHCJFO: 0.,
+            GCPNCEDAMAB: 0,
             gold: 0,
-            PMINALOEBBC: 0,
+            ENMFKJIOEOC: ::protobuf::MessageField::none(),
+            NCODIMPANCC: 0,
+            OJIAAGJBJAF: 0,
+            retcode: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -331,15 +331,15 @@ impl ::protobuf::reflect::ProtobufValue for FinishFiveDimMiniGameScRsp {
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x20FinishFiveDimMiniGameScRsp.proto\x1a\x0eItemList.proto\"\x8b\x03\n\
     \x1aFinishFiveDimMiniGameScRsp\x12\x19\n\x08score_id\x18\x05\x20\x01(\rR\
-    \x07scoreId\x12\x20\n\x0bBLPKJNHOCAB\x18\x01\x20\x01(\rR\x0bBLPKJNHOCAB\
-    \x12\x20\n\x0bBAEFIABDAAK\x18\t\x20\x01(\x08R\x0bBAEFIABDAAK\x12+\n\x0bL\
-    CMCLAFPBDP\x18\x07\x20\x01(\x0b2\t.ItemListR\x0bLCMCLAFPBDP\x12\x18\n\
-    \x07retcode\x18\x0e\x20\x01(\rR\x07retcode\x12\x20\n\x0bCIIHDOEMCFH\x18\
-    \x0b\x20\x01(\rR\x0bCIIHDOEMCFH\x12+\n\x0bFLFODGLOOHC\x18\x02\x20\x01(\
-    \x0b2\t.ItemListR\x0bFLFODGLOOHC\x12\x20\n\x0bEFNNJJADGKC\x18\x0f\x20\
-    \x01(\rR\x0bEFNNJJADGKC\x12\x20\n\x0bCEBCDBLPPMF\x18\x04\x20\x01(\x02R\
-    \x0bCEBCDBLPPMF\x12\x12\n\x04gold\x18\x0c\x20\x01(\rR\x04gold\x12\x20\n\
-    \x0bPMINALOEBBC\x18\x08\x20\x01(\rR\x0bPMINALOEBBCb\x06proto3\
+    \x07scoreId\x12\x20\n\x0bKEABPBONOKM\x18\x08\x20\x01(\rR\x0bKEABPBONOKM\
+    \x12+\n\x0bMENAAPNNKGE\x18\x02\x20\x01(\x0b2\t.ItemListR\x0bMENAAPNNKGE\
+    \x12\x20\n\x0bCHPAMPNMCOE\x18\x0b\x20\x01(\x08R\x0bCHPAMPNMCOE\x12\x20\n\
+    \x0bPBDBJOHCJFO\x18\r\x20\x01(\x02R\x0bPBDBJOHCJFO\x12\x20\n\x0bGCPNCEDA\
+    MAB\x18\n\x20\x01(\rR\x0bGCPNCEDAMAB\x12\x12\n\x04gold\x18\x07\x20\x01(\
+    \rR\x04gold\x12+\n\x0bENMFKJIOEOC\x18\x06\x20\x01(\x0b2\t.ItemListR\x0bE\
+    NMFKJIOEOC\x12\x20\n\x0bNCODIMPANCC\x18\x03\x20\x01(\rR\x0bNCODIMPANCC\
+    \x12\x20\n\x0bOJIAAGJBJAF\x18\x0f\x20\x01(\rR\x0bOJIAAGJBJAF\x12\x18\n\
+    \x07retcode\x18\x0c\x20\x01(\rR\x07retcodeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

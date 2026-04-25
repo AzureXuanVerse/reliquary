@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ReportPlayerCsReq {
     // message fields
-    // @@protoc_insertion_point(field:ReportPlayerCsReq.EKGPICNNGOD)
-    pub EKGPICNNGOD: u32,
-    // @@protoc_insertion_point(field:ReportPlayerCsReq.MBBNLMEJEND)
-    pub MBBNLMEJEND: ::std::string::String,
+    // @@protoc_insertion_point(field:ReportPlayerCsReq.MPCOLHBJPBP)
+    pub MPCOLHBJPBP: ::std::string::String,
     // @@protoc_insertion_point(field:ReportPlayerCsReq.uid)
     pub uid: u32,
+    // @@protoc_insertion_point(field:ReportPlayerCsReq.HELHPDMDLBO)
+    pub HELHPDMDLBO: u32,
     // special fields
     // @@protoc_insertion_point(special_field:ReportPlayerCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -54,19 +54,19 @@ impl ReportPlayerCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "EKGPICNNGOD",
-            |m: &ReportPlayerCsReq| { &m.EKGPICNNGOD },
-            |m: &mut ReportPlayerCsReq| { &mut m.EKGPICNNGOD },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MBBNLMEJEND",
-            |m: &ReportPlayerCsReq| { &m.MBBNLMEJEND },
-            |m: &mut ReportPlayerCsReq| { &mut m.MBBNLMEJEND },
+            "MPCOLHBJPBP",
+            |m: &ReportPlayerCsReq| { &m.MPCOLHBJPBP },
+            |m: &mut ReportPlayerCsReq| { &mut m.MPCOLHBJPBP },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "uid",
             |m: &ReportPlayerCsReq| { &m.uid },
             |m: &mut ReportPlayerCsReq| { &mut m.uid },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "HELHPDMDLBO",
+            |m: &ReportPlayerCsReq| { &m.HELHPDMDLBO },
+            |m: &mut ReportPlayerCsReq| { &mut m.HELHPDMDLBO },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ReportPlayerCsReq>(
             "ReportPlayerCsReq",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for ReportPlayerCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                104 => {
-                    self.EKGPICNNGOD = is.read_uint32()?;
+                90 => {
+                    self.MPCOLHBJPBP = is.read_string()?;
                 },
-                34 => {
-                    self.MBBNLMEJEND = is.read_string()?;
-                },
-                16 => {
+                120 => {
                     self.uid = is.read_uint32()?;
+                },
+                64 => {
+                    self.HELHPDMDLBO = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -107,14 +107,14 @@ impl ::protobuf::Message for ReportPlayerCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.EKGPICNNGOD != 0 {
-            my_size += ::protobuf::rt::uint32_size(13, self.EKGPICNNGOD);
-        }
-        if !self.MBBNLMEJEND.is_empty() {
-            my_size += ::protobuf::rt::string_size(4, &self.MBBNLMEJEND);
+        if !self.MPCOLHBJPBP.is_empty() {
+            my_size += ::protobuf::rt::string_size(11, &self.MPCOLHBJPBP);
         }
         if self.uid != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.uid);
+            my_size += ::protobuf::rt::uint32_size(15, self.uid);
+        }
+        if self.HELHPDMDLBO != 0 {
+            my_size += ::protobuf::rt::uint32_size(8, self.HELHPDMDLBO);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -122,14 +122,14 @@ impl ::protobuf::Message for ReportPlayerCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.EKGPICNNGOD != 0 {
-            os.write_uint32(13, self.EKGPICNNGOD)?;
-        }
-        if !self.MBBNLMEJEND.is_empty() {
-            os.write_string(4, &self.MBBNLMEJEND)?;
+        if !self.MPCOLHBJPBP.is_empty() {
+            os.write_string(11, &self.MPCOLHBJPBP)?;
         }
         if self.uid != 0 {
-            os.write_uint32(2, self.uid)?;
+            os.write_uint32(15, self.uid)?;
+        }
+        if self.HELHPDMDLBO != 0 {
+            os.write_uint32(8, self.HELHPDMDLBO)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -148,17 +148,17 @@ impl ::protobuf::Message for ReportPlayerCsReq {
     }
 
     fn clear(&mut self) {
-        self.EKGPICNNGOD = 0;
-        self.MBBNLMEJEND.clear();
+        self.MPCOLHBJPBP.clear();
         self.uid = 0;
+        self.HELHPDMDLBO = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ReportPlayerCsReq {
         static instance: ReportPlayerCsReq = ReportPlayerCsReq {
-            EKGPICNNGOD: 0,
-            MBBNLMEJEND: ::std::string::String::new(),
+            MPCOLHBJPBP: ::std::string::String::new(),
             uid: 0,
+            HELHPDMDLBO: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -183,10 +183,10 @@ impl ::protobuf::reflect::ProtobufValue for ReportPlayerCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x17ReportPlayerCsReq.proto\"i\n\x11ReportPlayerCsReq\x12\x20\n\x0bEKG\
-    PICNNGOD\x18\r\x20\x01(\rR\x0bEKGPICNNGOD\x12\x20\n\x0bMBBNLMEJEND\x18\
-    \x04\x20\x01(\tR\x0bMBBNLMEJEND\x12\x10\n\x03uid\x18\x02\x20\x01(\rR\x03\
-    uidb\x06proto3\
+    \n\x17ReportPlayerCsReq.proto\"i\n\x11ReportPlayerCsReq\x12\x20\n\x0bMPC\
+    OLHBJPBP\x18\x0b\x20\x01(\tR\x0bMPCOLHBJPBP\x12\x10\n\x03uid\x18\x0f\x20\
+    \x01(\rR\x03uid\x12\x20\n\x0bHELHPDMDLBO\x18\x08\x20\x01(\rR\x0bHELHPDMD\
+    LBOb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -86,13 +86,13 @@ impl ::protobuf::Message for RevcMsgScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                8 => {
+                40 => {
                     self.chat_type = is.read_enum_or_unknown()?;
                 },
-                56 => {
+                72 => {
                     self.source_uid = is.read_uint32()?;
                 },
-                82 => {
+                122 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.recv_message_data)?;
                 },
                 tag => {
@@ -108,10 +108,10 @@ impl ::protobuf::Message for RevcMsgScNotify {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.chat_type != ::protobuf::EnumOrUnknown::new(super::ChatType::ChatType::CHAT_TYPE_NONE) {
-            my_size += ::protobuf::rt::int32_size(1, self.chat_type.value());
+            my_size += ::protobuf::rt::int32_size(5, self.chat_type.value());
         }
         if self.source_uid != 0 {
-            my_size += ::protobuf::rt::uint32_size(7, self.source_uid);
+            my_size += ::protobuf::rt::uint32_size(9, self.source_uid);
         }
         if let Some(v) = self.recv_message_data.as_ref() {
             let len = v.compute_size();
@@ -124,13 +124,13 @@ impl ::protobuf::Message for RevcMsgScNotify {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.chat_type != ::protobuf::EnumOrUnknown::new(super::ChatType::ChatType::CHAT_TYPE_NONE) {
-            os.write_enum(1, ::protobuf::EnumOrUnknown::value(&self.chat_type))?;
+            os.write_enum(5, ::protobuf::EnumOrUnknown::value(&self.chat_type))?;
         }
         if self.source_uid != 0 {
-            os.write_uint32(7, self.source_uid)?;
+            os.write_uint32(9, self.source_uid)?;
         }
         if let Some(v) = self.recv_message_data.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -185,10 +185,10 @@ impl ::protobuf::reflect::ProtobufValue for RevcMsgScNotify {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x15RevcMsgScNotify.proto\x1a\x15ChatMessageData.proto\x1a\x0eChatType\
-    .proto\"\x96\x01\n\x0fRevcMsgScNotify\x12&\n\tchat_type\x18\x01\x20\x01(\
-    \x0e2\t.ChatTypeR\x08chatType\x12\x1d\n\nsource_uid\x18\x07\x20\x01(\rR\
-    \tsourceUid\x12<\n\x11recv_message_data\x18\n\x20\x01(\x0b2\x10.ChatMess\
-    ageDataR\x0frecvMessageDatab\x06proto3\
+    .proto\"\x96\x01\n\x0fRevcMsgScNotify\x12&\n\tchat_type\x18\x05\x20\x01(\
+    \x0e2\t.ChatTypeR\x08chatType\x12\x1d\n\nsource_uid\x18\t\x20\x01(\rR\ts\
+    ourceUid\x12<\n\x11recv_message_data\x18\x0f\x20\x01(\x0b2\x10.ChatMessa\
+    geDataR\x0frecvMessageDatab\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

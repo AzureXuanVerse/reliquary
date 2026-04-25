@@ -28,14 +28,14 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ConfirmRelicBoxScRsp {
     // message fields
-    // @@protoc_insertion_point(field:ConfirmRelicBoxScRsp.DLCGBPOPPIH)
-    pub DLCGBPOPPIH: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:ConfirmRelicBoxScRsp.KAIMHOJAAKP)
+    pub KAIMHOJAAKP: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:ConfirmRelicBoxScRsp.NLGFAAFIIIE)
+    pub NLGFAAFIIIE: bool,
+    // @@protoc_insertion_point(field:ConfirmRelicBoxScRsp.EKAOCHPHOAA)
+    pub EKAOCHPHOAA: u32,
     // @@protoc_insertion_point(field:ConfirmRelicBoxScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:ConfirmRelicBoxScRsp.FFEHHMPFGAB)
-    pub FFEHHMPFGAB: bool,
-    // @@protoc_insertion_point(field:ConfirmRelicBoxScRsp.FFEOOMEOKKI)
-    pub FFEOOMEOKKI: u32,
     // special fields
     // @@protoc_insertion_point(special_field:ConfirmRelicBoxScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -56,24 +56,24 @@ impl ConfirmRelicBoxScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(4);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "DLCGBPOPPIH",
-            |m: &ConfirmRelicBoxScRsp| { &m.DLCGBPOPPIH },
-            |m: &mut ConfirmRelicBoxScRsp| { &mut m.DLCGBPOPPIH },
+            "KAIMHOJAAKP",
+            |m: &ConfirmRelicBoxScRsp| { &m.KAIMHOJAAKP },
+            |m: &mut ConfirmRelicBoxScRsp| { &mut m.KAIMHOJAAKP },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "NLGFAAFIIIE",
+            |m: &ConfirmRelicBoxScRsp| { &m.NLGFAAFIIIE },
+            |m: &mut ConfirmRelicBoxScRsp| { &mut m.NLGFAAFIIIE },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "EKAOCHPHOAA",
+            |m: &ConfirmRelicBoxScRsp| { &m.EKAOCHPHOAA },
+            |m: &mut ConfirmRelicBoxScRsp| { &mut m.EKAOCHPHOAA },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &ConfirmRelicBoxScRsp| { &m.retcode },
             |m: &mut ConfirmRelicBoxScRsp| { &mut m.retcode },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "FFEHHMPFGAB",
-            |m: &ConfirmRelicBoxScRsp| { &m.FFEHHMPFGAB },
-            |m: &mut ConfirmRelicBoxScRsp| { &mut m.FFEHHMPFGAB },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "FFEOOMEOKKI",
-            |m: &ConfirmRelicBoxScRsp| { &m.FFEOOMEOKKI },
-            |m: &mut ConfirmRelicBoxScRsp| { &mut m.FFEOOMEOKKI },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ConfirmRelicBoxScRsp>(
             "ConfirmRelicBoxScRsp",
@@ -93,20 +93,20 @@ impl ::protobuf::Message for ConfirmRelicBoxScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                42 => {
-                    is.read_repeated_packed_uint32_into(&mut self.DLCGBPOPPIH)?;
-                },
-                40 => {
-                    self.DLCGBPOPPIH.push(is.read_uint32()?);
+                26 => {
+                    is.read_repeated_packed_uint32_into(&mut self.KAIMHOJAAKP)?;
                 },
                 24 => {
+                    self.KAIMHOJAAKP.push(is.read_uint32()?);
+                },
+                8 => {
+                    self.NLGFAAFIIIE = is.read_bool()?;
+                },
+                104 => {
+                    self.EKAOCHPHOAA = is.read_uint32()?;
+                },
+                80 => {
                     self.retcode = is.read_uint32()?;
-                },
-                56 => {
-                    self.FFEHHMPFGAB = is.read_bool()?;
-                },
-                64 => {
-                    self.FFEOOMEOKKI = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -120,15 +120,15 @@ impl ::protobuf::Message for ConfirmRelicBoxScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        my_size += ::protobuf::rt::vec_packed_uint32_size(5, &self.DLCGBPOPPIH);
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.retcode);
-        }
-        if self.FFEHHMPFGAB != false {
+        my_size += ::protobuf::rt::vec_packed_uint32_size(3, &self.KAIMHOJAAKP);
+        if self.NLGFAAFIIIE != false {
             my_size += 1 + 1;
         }
-        if self.FFEOOMEOKKI != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.FFEOOMEOKKI);
+        if self.EKAOCHPHOAA != 0 {
+            my_size += ::protobuf::rt::uint32_size(13, self.EKAOCHPHOAA);
+        }
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(10, self.retcode);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -136,15 +136,15 @@ impl ::protobuf::Message for ConfirmRelicBoxScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        os.write_repeated_packed_uint32(5, &self.DLCGBPOPPIH)?;
+        os.write_repeated_packed_uint32(3, &self.KAIMHOJAAKP)?;
+        if self.NLGFAAFIIIE != false {
+            os.write_bool(1, self.NLGFAAFIIIE)?;
+        }
+        if self.EKAOCHPHOAA != 0 {
+            os.write_uint32(13, self.EKAOCHPHOAA)?;
+        }
         if self.retcode != 0 {
-            os.write_uint32(3, self.retcode)?;
-        }
-        if self.FFEHHMPFGAB != false {
-            os.write_bool(7, self.FFEHHMPFGAB)?;
-        }
-        if self.FFEOOMEOKKI != 0 {
-            os.write_uint32(8, self.FFEOOMEOKKI)?;
+            os.write_uint32(10, self.retcode)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -163,19 +163,19 @@ impl ::protobuf::Message for ConfirmRelicBoxScRsp {
     }
 
     fn clear(&mut self) {
-        self.DLCGBPOPPIH.clear();
+        self.KAIMHOJAAKP.clear();
+        self.NLGFAAFIIIE = false;
+        self.EKAOCHPHOAA = 0;
         self.retcode = 0;
-        self.FFEHHMPFGAB = false;
-        self.FFEOOMEOKKI = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ConfirmRelicBoxScRsp {
         static instance: ConfirmRelicBoxScRsp = ConfirmRelicBoxScRsp {
-            DLCGBPOPPIH: ::std::vec::Vec::new(),
+            KAIMHOJAAKP: ::std::vec::Vec::new(),
+            NLGFAAFIIIE: false,
+            EKAOCHPHOAA: 0,
             retcode: 0,
-            FFEHHMPFGAB: false,
-            FFEOOMEOKKI: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -201,10 +201,10 @@ impl ::protobuf::reflect::ProtobufValue for ConfirmRelicBoxScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1aConfirmRelicBoxScRsp.proto\"\x96\x01\n\x14ConfirmRelicBoxScRsp\x12\
-    \x20\n\x0bDLCGBPOPPIH\x18\x05\x20\x03(\rR\x0bDLCGBPOPPIH\x12\x18\n\x07re\
-    tcode\x18\x03\x20\x01(\rR\x07retcode\x12\x20\n\x0bFFEHHMPFGAB\x18\x07\
-    \x20\x01(\x08R\x0bFFEHHMPFGAB\x12\x20\n\x0bFFEOOMEOKKI\x18\x08\x20\x01(\
-    \rR\x0bFFEOOMEOKKIb\x06proto3\
+    \x20\n\x0bKAIMHOJAAKP\x18\x03\x20\x03(\rR\x0bKAIMHOJAAKP\x12\x20\n\x0bNL\
+    GFAAFIIIE\x18\x01\x20\x01(\x08R\x0bNLGFAAFIIIE\x12\x20\n\x0bEKAOCHPHOAA\
+    \x18\r\x20\x01(\rR\x0bEKAOCHPHOAA\x12\x18\n\x07retcode\x18\n\x20\x01(\rR\
+    \x07retcodeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

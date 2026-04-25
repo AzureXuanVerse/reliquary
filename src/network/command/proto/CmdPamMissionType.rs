@@ -27,14 +27,14 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdPamMissionType)
 pub enum CmdPamMissionType {
-    // @@protoc_insertion_point(enum_value:CmdPamMissionType.CmdPamMissionType_MNFEPONEDDJ)
-    CmdPamMissionType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdPamMissionType.CmdPamMissionType_EMDEDBIJIGA)
-    CmdPamMissionType_EMDEDBIJIGA = 4081,
-    // @@protoc_insertion_point(enum_value:CmdPamMissionType.CmdPamMissionType_IABMEGMPAFF)
-    CmdPamMissionType_IABMEGMPAFF = 4083,
-    // @@protoc_insertion_point(enum_value:CmdPamMissionType.CmdPamMissionType_JIBHMMMOFDN)
-    CmdPamMissionType_JIBHMMMOFDN = 4024,
+    // @@protoc_insertion_point(enum_value:CmdPamMissionType.PBMDIDPANOI_PCPDHELPKEM)
+    PBMDIDPANOI_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdPamMissionType.CmdOLLNKPHMEPH)
+    CmdOLLNKPHMEPH = 4010,
+    // @@protoc_insertion_point(enum_value:CmdPamMissionType.CmdSyncAcceptedPamMissionNotify)
+    CmdSyncAcceptedPamMissionNotify = 4094,
+    // @@protoc_insertion_point(enum_value:CmdPamMissionType.CmdAcceptedPamMissionExpireCsReq)
+    CmdAcceptedPamMissionExpireCsReq = 4091,
 }
 
 impl ::protobuf::Enum for CmdPamMissionType {
@@ -46,29 +46,29 @@ impl ::protobuf::Enum for CmdPamMissionType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdPamMissionType> {
         match value {
-            0 => ::std::option::Option::Some(CmdPamMissionType::CmdPamMissionType_MNFEPONEDDJ),
-            4081 => ::std::option::Option::Some(CmdPamMissionType::CmdPamMissionType_EMDEDBIJIGA),
-            4083 => ::std::option::Option::Some(CmdPamMissionType::CmdPamMissionType_IABMEGMPAFF),
-            4024 => ::std::option::Option::Some(CmdPamMissionType::CmdPamMissionType_JIBHMMMOFDN),
+            0 => ::std::option::Option::Some(CmdPamMissionType::PBMDIDPANOI_PCPDHELPKEM),
+            4010 => ::std::option::Option::Some(CmdPamMissionType::CmdOLLNKPHMEPH),
+            4094 => ::std::option::Option::Some(CmdPamMissionType::CmdSyncAcceptedPamMissionNotify),
+            4091 => ::std::option::Option::Some(CmdPamMissionType::CmdAcceptedPamMissionExpireCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdPamMissionType> {
         match str {
-            "CmdPamMissionType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdPamMissionType::CmdPamMissionType_MNFEPONEDDJ),
-            "CmdPamMissionType_EMDEDBIJIGA" => ::std::option::Option::Some(CmdPamMissionType::CmdPamMissionType_EMDEDBIJIGA),
-            "CmdPamMissionType_IABMEGMPAFF" => ::std::option::Option::Some(CmdPamMissionType::CmdPamMissionType_IABMEGMPAFF),
-            "CmdPamMissionType_JIBHMMMOFDN" => ::std::option::Option::Some(CmdPamMissionType::CmdPamMissionType_JIBHMMMOFDN),
+            "PBMDIDPANOI_PCPDHELPKEM" => ::std::option::Option::Some(CmdPamMissionType::PBMDIDPANOI_PCPDHELPKEM),
+            "CmdOLLNKPHMEPH" => ::std::option::Option::Some(CmdPamMissionType::CmdOLLNKPHMEPH),
+            "CmdSyncAcceptedPamMissionNotify" => ::std::option::Option::Some(CmdPamMissionType::CmdSyncAcceptedPamMissionNotify),
+            "CmdAcceptedPamMissionExpireCsReq" => ::std::option::Option::Some(CmdPamMissionType::CmdAcceptedPamMissionExpireCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdPamMissionType] = &[
-        CmdPamMissionType::CmdPamMissionType_MNFEPONEDDJ,
-        CmdPamMissionType::CmdPamMissionType_EMDEDBIJIGA,
-        CmdPamMissionType::CmdPamMissionType_IABMEGMPAFF,
-        CmdPamMissionType::CmdPamMissionType_JIBHMMMOFDN,
+        CmdPamMissionType::PBMDIDPANOI_PCPDHELPKEM,
+        CmdPamMissionType::CmdOLLNKPHMEPH,
+        CmdPamMissionType::CmdSyncAcceptedPamMissionNotify,
+        CmdPamMissionType::CmdAcceptedPamMissionExpireCsReq,
     ];
 }
 
@@ -80,10 +80,10 @@ impl ::protobuf::EnumFull for CmdPamMissionType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdPamMissionType::CmdPamMissionType_MNFEPONEDDJ => 0,
-            CmdPamMissionType::CmdPamMissionType_EMDEDBIJIGA => 1,
-            CmdPamMissionType::CmdPamMissionType_IABMEGMPAFF => 2,
-            CmdPamMissionType::CmdPamMissionType_JIBHMMMOFDN => 3,
+            CmdPamMissionType::PBMDIDPANOI_PCPDHELPKEM => 0,
+            CmdPamMissionType::CmdOLLNKPHMEPH => 1,
+            CmdPamMissionType::CmdSyncAcceptedPamMissionNotify => 2,
+            CmdPamMissionType::CmdAcceptedPamMissionExpireCsReq => 3,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -91,7 +91,7 @@ impl ::protobuf::EnumFull for CmdPamMissionType {
 
 impl ::std::default::Default for CmdPamMissionType {
     fn default() -> Self {
-        CmdPamMissionType::CmdPamMissionType_MNFEPONEDDJ
+        CmdPamMissionType::PBMDIDPANOI_PCPDHELPKEM
     }
 }
 
@@ -102,10 +102,10 @@ impl CmdPamMissionType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x17CmdPamMissionType.proto*\xa2\x01\n\x11CmdPamMissionType\x12!\n\x1d\
-    CmdPamMissionType_MNFEPONEDDJ\x10\0\x12\"\n\x1dCmdPamMissionType_EMDEDBI\
-    JIGA\x10\xf1\x1f\x12\"\n\x1dCmdPamMissionType_IABMEGMPAFF\x10\xf3\x1f\
-    \x12\"\n\x1dCmdPamMissionType_JIBHMMMOFDN\x10\xb8\x1fb\x06proto3\
+    \n\x17CmdPamMissionType.proto*\x92\x01\n\x11CmdPamMissionType\x12\x1b\n\
+    \x17PBMDIDPANOI_PCPDHELPKEM\x10\0\x12\x13\n\x0eCmdOLLNKPHMEPH\x10\xaa\
+    \x1f\x12$\n\x1fCmdSyncAcceptedPamMissionNotify\x10\xfe\x1f\x12%\n\x20Cmd\
+    AcceptedPamMissionExpireCsReq\x10\xfb\x1fb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

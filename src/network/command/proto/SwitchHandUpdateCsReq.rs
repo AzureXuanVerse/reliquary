@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct SwitchHandUpdateCsReq {
     // message fields
-    // @@protoc_insertion_point(field:SwitchHandUpdateCsReq.FJEKJOFCGBJ)
-    pub FJEKJOFCGBJ: ::protobuf::MessageField<super::GOPPKKEGPPG::GOPPKKEGPPG>,
-    // @@protoc_insertion_point(field:SwitchHandUpdateCsReq.DEOGNFPDHHN)
-    pub DEOGNFPDHHN: ::protobuf::MessageField<super::MFJODIAILFL::MFJODIAILFL>,
+    // @@protoc_insertion_point(field:SwitchHandUpdateCsReq.HKAEEMABJLA)
+    pub HKAEEMABJLA: ::protobuf::MessageField<super::GODHDEIPDJL::GODHDEIPDJL>,
+    // @@protoc_insertion_point(field:SwitchHandUpdateCsReq.CNPILGNBDNB)
+    pub CNPILGNBDNB: ::protobuf::MessageField<super::HKLKGJCJJEB::HKLKGJCJJEB>,
     // special fields
     // @@protoc_insertion_point(special_field:SwitchHandUpdateCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -51,15 +51,15 @@ impl SwitchHandUpdateCsReq {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GOPPKKEGPPG::GOPPKKEGPPG>(
-            "FJEKJOFCGBJ",
-            |m: &SwitchHandUpdateCsReq| { &m.FJEKJOFCGBJ },
-            |m: &mut SwitchHandUpdateCsReq| { &mut m.FJEKJOFCGBJ },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GODHDEIPDJL::GODHDEIPDJL>(
+            "HKAEEMABJLA",
+            |m: &SwitchHandUpdateCsReq| { &m.HKAEEMABJLA },
+            |m: &mut SwitchHandUpdateCsReq| { &mut m.HKAEEMABJLA },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::MFJODIAILFL::MFJODIAILFL>(
-            "DEOGNFPDHHN",
-            |m: &SwitchHandUpdateCsReq| { &m.DEOGNFPDHHN },
-            |m: &mut SwitchHandUpdateCsReq| { &mut m.DEOGNFPDHHN },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::HKLKGJCJJEB::HKLKGJCJJEB>(
+            "CNPILGNBDNB",
+            |m: &SwitchHandUpdateCsReq| { &m.CNPILGNBDNB },
+            |m: &mut SwitchHandUpdateCsReq| { &mut m.CNPILGNBDNB },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<SwitchHandUpdateCsReq>(
             "SwitchHandUpdateCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for SwitchHandUpdateCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                34 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.FJEKJOFCGBJ)?;
+                42 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.HKAEEMABJLA)?;
                 },
-                122 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.DEOGNFPDHHN)?;
+                66 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.CNPILGNBDNB)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for SwitchHandUpdateCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.FJEKJOFCGBJ.as_ref() {
+        if let Some(v) = self.HKAEEMABJLA.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if let Some(v) = self.DEOGNFPDHHN.as_ref() {
+        if let Some(v) = self.CNPILGNBDNB.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -111,11 +111,11 @@ impl ::protobuf::Message for SwitchHandUpdateCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.FJEKJOFCGBJ.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
+        if let Some(v) = self.HKAEEMABJLA.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
         }
-        if let Some(v) = self.DEOGNFPDHHN.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
+        if let Some(v) = self.CNPILGNBDNB.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -134,15 +134,15 @@ impl ::protobuf::Message for SwitchHandUpdateCsReq {
     }
 
     fn clear(&mut self) {
-        self.FJEKJOFCGBJ.clear();
-        self.DEOGNFPDHHN.clear();
+        self.HKAEEMABJLA.clear();
+        self.CNPILGNBDNB.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static SwitchHandUpdateCsReq {
         static instance: SwitchHandUpdateCsReq = SwitchHandUpdateCsReq {
-            FJEKJOFCGBJ: ::protobuf::MessageField::none(),
-            DEOGNFPDHHN: ::protobuf::MessageField::none(),
+            HKAEEMABJLA: ::protobuf::MessageField::none(),
+            CNPILGNBDNB: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -167,10 +167,10 @@ impl ::protobuf::reflect::ProtobufValue for SwitchHandUpdateCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1bSwitchHandUpdateCsReq.proto\x1a\x11GOPPKKEGPPG.proto\x1a\x11MFJODI\
-    AILFL.proto\"w\n\x15SwitchHandUpdateCsReq\x12.\n\x0bFJEKJOFCGBJ\x18\x04\
-    \x20\x01(\x0b2\x0c.GOPPKKEGPPGR\x0bFJEKJOFCGBJ\x12.\n\x0bDEOGNFPDHHN\x18\
-    \x0f\x20\x01(\x0b2\x0c.MFJODIAILFLR\x0bDEOGNFPDHHNb\x06proto3\
+    \n\x1bSwitchHandUpdateCsReq.proto\x1a\x11GODHDEIPDJL.proto\x1a\x11HKLKGJ\
+    CJJEB.proto\"w\n\x15SwitchHandUpdateCsReq\x12.\n\x0bHKAEEMABJLA\x18\x05\
+    \x20\x01(\x0b2\x0c.GODHDEIPDJLR\x0bHKAEEMABJLA\x12.\n\x0bCNPILGNBDNB\x18\
+    \x08\x20\x01(\x0b2\x0c.HKLKGJCJJEBR\x0bCNPILGNBDNBb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -188,8 +188,8 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
-            deps.push(super::GOPPKKEGPPG::file_descriptor().clone());
-            deps.push(super::MFJODIAILFL::file_descriptor().clone());
+            deps.push(super::GODHDEIPDJL::file_descriptor().clone());
+            deps.push(super::HKLKGJCJJEB::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(SwitchHandUpdateCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

@@ -27,18 +27,18 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdActiveType)
 pub enum CmdActiveType {
-    // @@protoc_insertion_point(enum_value:CmdActiveType.CmdActiveType_MNFEPONEDDJ)
-    CmdActiveType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdActiveType.CmdActiveType_GCPNADKNANJ)
-    CmdActiveType_GCPNADKNANJ = 9555,
-    // @@protoc_insertion_point(enum_value:CmdActiveType.CmdActiveType_GDKJLGCNNHG)
-    CmdActiveType_GDKJLGCNNHG = 9556,
-    // @@protoc_insertion_point(enum_value:CmdActiveType.CmdActiveType_POOPIJJCLIF)
-    CmdActiveType_POOPIJJCLIF = 9565,
-    // @@protoc_insertion_point(enum_value:CmdActiveType.CmdActiveType_INDGCPFBCDK)
-    CmdActiveType_INDGCPFBCDK = 9569,
-    // @@protoc_insertion_point(enum_value:CmdActiveType.CmdActiveType_DIGJEKGOAFP)
-    CmdActiveType_DIGJEKGOAFP = 9551,
+    // @@protoc_insertion_point(enum_value:CmdActiveType.DOILPDPENLJ_PCPDHELPKEM)
+    DOILPDPENLJ_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdActiveType.CmdGetActiveActivityDataScRsp)
+    CmdGetActiveActivityDataScRsp = 9570,
+    // @@protoc_insertion_point(enum_value:CmdActiveType.CmdActiveActivityDataChangeScNotify)
+    CmdActiveActivityDataChangeScNotify = 9565,
+    // @@protoc_insertion_point(enum_value:CmdActiveType.CmdTakeActiveActivityRewardCsReq)
+    CmdTakeActiveActivityRewardCsReq = 9552,
+    // @@protoc_insertion_point(enum_value:CmdActiveType.CmdGetActivityActiveDataCsReq)
+    CmdGetActivityActiveDataCsReq = 9551,
+    // @@protoc_insertion_point(enum_value:CmdActiveType.CmdTakeActiveActivityRewardScRsp)
+    CmdTakeActiveActivityRewardScRsp = 9560,
 }
 
 impl ::protobuf::Enum for CmdActiveType {
@@ -50,35 +50,35 @@ impl ::protobuf::Enum for CmdActiveType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdActiveType> {
         match value {
-            0 => ::std::option::Option::Some(CmdActiveType::CmdActiveType_MNFEPONEDDJ),
-            9555 => ::std::option::Option::Some(CmdActiveType::CmdActiveType_GCPNADKNANJ),
-            9556 => ::std::option::Option::Some(CmdActiveType::CmdActiveType_GDKJLGCNNHG),
-            9565 => ::std::option::Option::Some(CmdActiveType::CmdActiveType_POOPIJJCLIF),
-            9569 => ::std::option::Option::Some(CmdActiveType::CmdActiveType_INDGCPFBCDK),
-            9551 => ::std::option::Option::Some(CmdActiveType::CmdActiveType_DIGJEKGOAFP),
+            0 => ::std::option::Option::Some(CmdActiveType::DOILPDPENLJ_PCPDHELPKEM),
+            9570 => ::std::option::Option::Some(CmdActiveType::CmdGetActiveActivityDataScRsp),
+            9565 => ::std::option::Option::Some(CmdActiveType::CmdActiveActivityDataChangeScNotify),
+            9552 => ::std::option::Option::Some(CmdActiveType::CmdTakeActiveActivityRewardCsReq),
+            9551 => ::std::option::Option::Some(CmdActiveType::CmdGetActivityActiveDataCsReq),
+            9560 => ::std::option::Option::Some(CmdActiveType::CmdTakeActiveActivityRewardScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdActiveType> {
         match str {
-            "CmdActiveType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdActiveType::CmdActiveType_MNFEPONEDDJ),
-            "CmdActiveType_GCPNADKNANJ" => ::std::option::Option::Some(CmdActiveType::CmdActiveType_GCPNADKNANJ),
-            "CmdActiveType_GDKJLGCNNHG" => ::std::option::Option::Some(CmdActiveType::CmdActiveType_GDKJLGCNNHG),
-            "CmdActiveType_POOPIJJCLIF" => ::std::option::Option::Some(CmdActiveType::CmdActiveType_POOPIJJCLIF),
-            "CmdActiveType_INDGCPFBCDK" => ::std::option::Option::Some(CmdActiveType::CmdActiveType_INDGCPFBCDK),
-            "CmdActiveType_DIGJEKGOAFP" => ::std::option::Option::Some(CmdActiveType::CmdActiveType_DIGJEKGOAFP),
+            "DOILPDPENLJ_PCPDHELPKEM" => ::std::option::Option::Some(CmdActiveType::DOILPDPENLJ_PCPDHELPKEM),
+            "CmdGetActiveActivityDataScRsp" => ::std::option::Option::Some(CmdActiveType::CmdGetActiveActivityDataScRsp),
+            "CmdActiveActivityDataChangeScNotify" => ::std::option::Option::Some(CmdActiveType::CmdActiveActivityDataChangeScNotify),
+            "CmdTakeActiveActivityRewardCsReq" => ::std::option::Option::Some(CmdActiveType::CmdTakeActiveActivityRewardCsReq),
+            "CmdGetActivityActiveDataCsReq" => ::std::option::Option::Some(CmdActiveType::CmdGetActivityActiveDataCsReq),
+            "CmdTakeActiveActivityRewardScRsp" => ::std::option::Option::Some(CmdActiveType::CmdTakeActiveActivityRewardScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdActiveType] = &[
-        CmdActiveType::CmdActiveType_MNFEPONEDDJ,
-        CmdActiveType::CmdActiveType_GCPNADKNANJ,
-        CmdActiveType::CmdActiveType_GDKJLGCNNHG,
-        CmdActiveType::CmdActiveType_POOPIJJCLIF,
-        CmdActiveType::CmdActiveType_INDGCPFBCDK,
-        CmdActiveType::CmdActiveType_DIGJEKGOAFP,
+        CmdActiveType::DOILPDPENLJ_PCPDHELPKEM,
+        CmdActiveType::CmdGetActiveActivityDataScRsp,
+        CmdActiveType::CmdActiveActivityDataChangeScNotify,
+        CmdActiveType::CmdTakeActiveActivityRewardCsReq,
+        CmdActiveType::CmdGetActivityActiveDataCsReq,
+        CmdActiveType::CmdTakeActiveActivityRewardScRsp,
     ];
 }
 
@@ -90,12 +90,12 @@ impl ::protobuf::EnumFull for CmdActiveType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdActiveType::CmdActiveType_MNFEPONEDDJ => 0,
-            CmdActiveType::CmdActiveType_GCPNADKNANJ => 1,
-            CmdActiveType::CmdActiveType_GDKJLGCNNHG => 2,
-            CmdActiveType::CmdActiveType_POOPIJJCLIF => 3,
-            CmdActiveType::CmdActiveType_INDGCPFBCDK => 4,
-            CmdActiveType::CmdActiveType_DIGJEKGOAFP => 5,
+            CmdActiveType::DOILPDPENLJ_PCPDHELPKEM => 0,
+            CmdActiveType::CmdGetActiveActivityDataScRsp => 1,
+            CmdActiveType::CmdActiveActivityDataChangeScNotify => 2,
+            CmdActiveType::CmdTakeActiveActivityRewardCsReq => 3,
+            CmdActiveType::CmdGetActivityActiveDataCsReq => 4,
+            CmdActiveType::CmdTakeActiveActivityRewardScRsp => 5,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -103,7 +103,7 @@ impl ::protobuf::EnumFull for CmdActiveType {
 
 impl ::std::default::Default for CmdActiveType {
     fn default() -> Self {
-        CmdActiveType::CmdActiveType_MNFEPONEDDJ
+        CmdActiveType::DOILPDPENLJ_PCPDHELPKEM
     }
 }
 
@@ -114,11 +114,12 @@ impl CmdActiveType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x13CmdActiveType.proto*\xce\x01\n\rCmdActiveType\x12\x1d\n\x19CmdActi\
-    veType_MNFEPONEDDJ\x10\0\x12\x1e\n\x19CmdActiveType_GCPNADKNANJ\x10\xd3J\
-    \x12\x1e\n\x19CmdActiveType_GDKJLGCNNHG\x10\xd4J\x12\x1e\n\x19CmdActiveT\
-    ype_POOPIJJCLIF\x10\xddJ\x12\x1e\n\x19CmdActiveType_INDGCPFBCDK\x10\xe1J\
-    \x12\x1e\n\x19CmdActiveType_DIGJEKGOAFP\x10\xcfJb\x06proto3\
+    \n\x13CmdActiveType.proto*\xec\x01\n\rCmdActiveType\x12\x1b\n\x17DOILPDP\
+    ENLJ_PCPDHELPKEM\x10\0\x12\"\n\x1dCmdGetActiveActivityDataScRsp\x10\xe2J\
+    \x12(\n#CmdActiveActivityDataChangeScNotify\x10\xddJ\x12%\n\x20CmdTakeAc\
+    tiveActivityRewardCsReq\x10\xd0J\x12\"\n\x1dCmdGetActivityActiveDataCsRe\
+    q\x10\xcfJ\x12%\n\x20CmdTakeActiveActivityRewardScRsp\x10\xd8Jb\x06proto\
+    3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

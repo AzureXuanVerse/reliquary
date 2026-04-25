@@ -28,7 +28,7 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightSyncData {
     // message oneof groups
-    pub DEBKBABACIC: ::std::option::Option<grid_fight_sync_data::DEBKBABACIC>,
+    pub KCOCCGEOECO: ::std::option::Option<grid_fight_sync_data::KCOCCGEOECO>,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightSyncData.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -45,39 +45,39 @@ impl GridFightSyncData {
         ::std::default::Default::default()
     }
 
-    // .GridGameRoleInfo add_role_info = 879;
+    // .GridGameRoleInfo add_role_info = 210;
 
     pub fn add_role_info(&self) -> &super::GridGameRoleInfo::GridGameRoleInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddRoleInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddRoleInfo(ref v)) => v,
             _ => <super::GridGameRoleInfo::GridGameRoleInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_add_role_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_add_role_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddRoleInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddRoleInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_add_role_info(&mut self, v: super::GridGameRoleInfo::GridGameRoleInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddRoleInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddRoleInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_add_role_info(&mut self) -> &mut super::GridGameRoleInfo::GridGameRoleInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddRoleInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddRoleInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddRoleInfo(super::GridGameRoleInfo::GridGameRoleInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddRoleInfo(super::GridGameRoleInfo::GridGameRoleInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddRoleInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddRoleInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -85,8 +85,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_add_role_info(&mut self) -> super::GridGameRoleInfo::GridGameRoleInfo {
         if self.has_add_role_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddRoleInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddRoleInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -94,39 +94,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridGameRoleInfo update_role_info = 1390;
+    // .GridGameRoleInfo update_role_info = 393;
 
     pub fn update_role_info(&self) -> &super::GridGameRoleInfo::GridGameRoleInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateRoleInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateRoleInfo(ref v)) => v,
             _ => <super::GridGameRoleInfo::GridGameRoleInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_update_role_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_update_role_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateRoleInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateRoleInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_update_role_info(&mut self, v: super::GridGameRoleInfo::GridGameRoleInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateRoleInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateRoleInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_update_role_info(&mut self) -> &mut super::GridGameRoleInfo::GridGameRoleInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateRoleInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateRoleInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateRoleInfo(super::GridGameRoleInfo::GridGameRoleInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateRoleInfo(super::GridGameRoleInfo::GridGameRoleInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateRoleInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateRoleInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -134,8 +134,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_update_role_info(&mut self) -> super::GridGameRoleInfo::GridGameRoleInfo {
         if self.has_update_role_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateRoleInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateRoleInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -143,64 +143,64 @@ impl GridFightSyncData {
         }
     }
 
-    // uint32 remove_role_unique_id = 502;
+    // uint32 remove_role_unique_id = 1704;
 
     pub fn remove_role_unique_id(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveRoleUniqueId(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveRoleUniqueId(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_remove_role_unique_id(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_remove_role_unique_id(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveRoleUniqueId(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveRoleUniqueId(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_remove_role_unique_id(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveRoleUniqueId(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveRoleUniqueId(v))
     }
 
-    // .GridFightGameItemSyncInfo add_game_item_info = 190;
+    // .GridFightGameItemSyncInfo add_game_item_info = 1513;
 
     pub fn add_game_item_info(&self) -> &super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddGameItemInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddGameItemInfo(ref v)) => v,
             _ => <super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_add_game_item_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_add_game_item_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddGameItemInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddGameItemInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_add_game_item_info(&mut self, v: super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddGameItemInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddGameItemInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_add_game_item_info(&mut self) -> &mut super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddGameItemInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddGameItemInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddGameItemInfo(super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddGameItemInfo(super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddGameItemInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddGameItemInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -208,8 +208,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_add_game_item_info(&mut self) -> super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo {
         if self.has_add_game_item_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddGameItemInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddGameItemInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -217,39 +217,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridFightGameItemSyncInfo update_game_item_info = 1980;
+    // .GridFightGameItemSyncInfo update_game_item_info = 284;
 
     pub fn update_game_item_info(&self) -> &super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateGameItemInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateGameItemInfo(ref v)) => v,
             _ => <super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_update_game_item_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_update_game_item_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateGameItemInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateGameItemInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_update_game_item_info(&mut self, v: super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateGameItemInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateGameItemInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_update_game_item_info(&mut self) -> &mut super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateGameItemInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateGameItemInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateGameItemInfo(super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateGameItemInfo(super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateGameItemInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateGameItemInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -257,8 +257,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_update_game_item_info(&mut self) -> super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo {
         if self.has_update_game_item_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateGameItemInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateGameItemInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -266,39 +266,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridFightGameItemSyncInfo remove_game_item_info = 1563;
+    // .GridFightGameItemSyncInfo remove_game_item_info = 1129;
 
     pub fn remove_game_item_info(&self) -> &super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveGameItemInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveGameItemInfo(ref v)) => v,
             _ => <super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_remove_game_item_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_remove_game_item_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveGameItemInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveGameItemInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_remove_game_item_info(&mut self, v: super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveGameItemInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveGameItemInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_remove_game_item_info(&mut self) -> &mut super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveGameItemInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveGameItemInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveGameItemInfo(super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveGameItemInfo(super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveGameItemInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveGameItemInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -306,8 +306,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_remove_game_item_info(&mut self) -> super::GridFightGameItemSyncInfo::GridFightGameItemSyncInfo {
         if self.has_remove_game_item_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveGameItemInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveGameItemInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -315,64 +315,64 @@ impl GridFightSyncData {
         }
     }
 
-    // uint32 item_value = 1211;
+    // uint32 item_value = 1943;
 
     pub fn item_value(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ItemValue(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::ItemValue(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_item_value(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_item_value(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ItemValue(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::ItemValue(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_item_value(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ItemValue(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::ItemValue(v))
     }
 
-    // .GridFightPlayerLevelSyncInfo player_level = 442;
+    // .GridFightPlayerLevelSyncInfo player_level = 995;
 
     pub fn player_level(&self) -> &super::GridFightPlayerLevelSyncInfo::GridFightPlayerLevelSyncInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PlayerLevel(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PlayerLevel(ref v)) => v,
             _ => <super::GridFightPlayerLevelSyncInfo::GridFightPlayerLevelSyncInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_player_level(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_player_level(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PlayerLevel(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PlayerLevel(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_player_level(&mut self, v: super::GridFightPlayerLevelSyncInfo::GridFightPlayerLevelSyncInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PlayerLevel(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PlayerLevel(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_player_level(&mut self) -> &mut super::GridFightPlayerLevelSyncInfo::GridFightPlayerLevelSyncInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PlayerLevel(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PlayerLevel(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PlayerLevel(super::GridFightPlayerLevelSyncInfo::GridFightPlayerLevelSyncInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PlayerLevel(super::GridFightPlayerLevelSyncInfo::GridFightPlayerLevelSyncInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PlayerLevel(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PlayerLevel(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -380,8 +380,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_player_level(&mut self) -> super::GridFightPlayerLevelSyncInfo::GridFightPlayerLevelSyncInfo {
         if self.has_player_level() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PlayerLevel(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PlayerLevel(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -389,39 +389,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridFightLineupHpSyncInfo grid_fight_lineup_hp = 897;
+    // .GridFightLineupHpSyncInfo grid_fight_lineup_hp = 1138;
 
     pub fn grid_fight_lineup_hp(&self) -> &super::GridFightLineupHpSyncInfo::GridFightLineupHpSyncInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightLineupHp(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightLineupHp(ref v)) => v,
             _ => <super::GridFightLineupHpSyncInfo::GridFightLineupHpSyncInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_grid_fight_lineup_hp(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_grid_fight_lineup_hp(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightLineupHp(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightLineupHp(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_grid_fight_lineup_hp(&mut self, v: super::GridFightLineupHpSyncInfo::GridFightLineupHpSyncInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightLineupHp(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightLineupHp(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_grid_fight_lineup_hp(&mut self) -> &mut super::GridFightLineupHpSyncInfo::GridFightLineupHpSyncInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightLineupHp(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightLineupHp(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightLineupHp(super::GridFightLineupHpSyncInfo::GridFightLineupHpSyncInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightLineupHp(super::GridFightLineupHpSyncInfo::GridFightLineupHpSyncInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightLineupHp(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightLineupHp(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -429,8 +429,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_grid_fight_lineup_hp(&mut self) -> super::GridFightLineupHpSyncInfo::GridFightLineupHpSyncInfo {
         if self.has_grid_fight_lineup_hp() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightLineupHp(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightLineupHp(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -438,64 +438,64 @@ impl GridFightSyncData {
         }
     }
 
-    // uint32 max_battle_role_num = 1368;
+    // uint32 max_battle_role_num = 72;
 
     pub fn max_battle_role_num(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::MaxBattleRoleNum(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::MaxBattleRoleNum(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_max_battle_role_num(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_max_battle_role_num(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::MaxBattleRoleNum(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::MaxBattleRoleNum(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_max_battle_role_num(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::MaxBattleRoleNum(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::MaxBattleRoleNum(v))
     }
 
-    // .GridFightShopSyncInfo shop_sync_info = 138;
+    // .GridFightShopSyncInfo shop_sync_info = 2039;
 
     pub fn shop_sync_info(&self) -> &super::GridFightShopSyncInfo::GridFightShopSyncInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ShopSyncInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::ShopSyncInfo(ref v)) => v,
             _ => <super::GridFightShopSyncInfo::GridFightShopSyncInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_shop_sync_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_shop_sync_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ShopSyncInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::ShopSyncInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_shop_sync_info(&mut self, v: super::GridFightShopSyncInfo::GridFightShopSyncInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ShopSyncInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::ShopSyncInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_shop_sync_info(&mut self) -> &mut super::GridFightShopSyncInfo::GridFightShopSyncInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ShopSyncInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::ShopSyncInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ShopSyncInfo(super::GridFightShopSyncInfo::GridFightShopSyncInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::ShopSyncInfo(super::GridFightShopSyncInfo::GridFightShopSyncInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ShopSyncInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::ShopSyncInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -503,8 +503,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_shop_sync_info(&mut self) -> super::GridFightShopSyncInfo::GridFightShopSyncInfo {
         if self.has_shop_sync_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ShopSyncInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::ShopSyncInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -512,39 +512,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridFightPendingAction pending_action = 1339;
+    // .GridFightPendingAction pending_action = 786;
 
     pub fn pending_action(&self) -> &super::GridFightPendingAction::GridFightPendingAction {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PendingAction(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PendingAction(ref v)) => v,
             _ => <super::GridFightPendingAction::GridFightPendingAction as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_pending_action(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_pending_action(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PendingAction(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PendingAction(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_pending_action(&mut self, v: super::GridFightPendingAction::GridFightPendingAction) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PendingAction(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PendingAction(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_pending_action(&mut self) -> &mut super::GridFightPendingAction::GridFightPendingAction {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PendingAction(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PendingAction(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PendingAction(super::GridFightPendingAction::GridFightPendingAction::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PendingAction(super::GridFightPendingAction::GridFightPendingAction::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PendingAction(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PendingAction(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -552,8 +552,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_pending_action(&mut self) -> super::GridFightPendingAction::GridFightPendingAction {
         if self.has_pending_action() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PendingAction(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PendingAction(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -561,39 +561,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridFightPortalServerDataUpdate portal_server_data_update = 546;
+    // .GridFightPortalServerDataUpdate portal_server_data_update = 271;
 
     pub fn portal_server_data_update(&self) -> &super::GridFightPortalServerDataUpdate::GridFightPortalServerDataUpdate {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PortalServerDataUpdate(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PortalServerDataUpdate(ref v)) => v,
             _ => <super::GridFightPortalServerDataUpdate::GridFightPortalServerDataUpdate as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_portal_server_data_update(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_portal_server_data_update(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PortalServerDataUpdate(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PortalServerDataUpdate(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_portal_server_data_update(&mut self, v: super::GridFightPortalServerDataUpdate::GridFightPortalServerDataUpdate) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PortalServerDataUpdate(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PortalServerDataUpdate(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_portal_server_data_update(&mut self) -> &mut super::GridFightPortalServerDataUpdate::GridFightPortalServerDataUpdate {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PortalServerDataUpdate(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PortalServerDataUpdate(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PortalServerDataUpdate(super::GridFightPortalServerDataUpdate::GridFightPortalServerDataUpdate::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PortalServerDataUpdate(super::GridFightPortalServerDataUpdate::GridFightPortalServerDataUpdate::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PortalServerDataUpdate(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PortalServerDataUpdate(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -601,8 +601,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_portal_server_data_update(&mut self) -> super::GridFightPortalServerDataUpdate::GridFightPortalServerDataUpdate {
         if self.has_portal_server_data_update() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PortalServerDataUpdate(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PortalServerDataUpdate(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -610,39 +610,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridFightLevelSyncInfo level_sync_info = 1046;
+    // .GridFightLevelSyncInfo level_sync_info = 838;
 
     pub fn level_sync_info(&self) -> &super::GridFightLevelSyncInfo::GridFightLevelSyncInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::LevelSyncInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::LevelSyncInfo(ref v)) => v,
             _ => <super::GridFightLevelSyncInfo::GridFightLevelSyncInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_level_sync_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_level_sync_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::LevelSyncInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::LevelSyncInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_level_sync_info(&mut self, v: super::GridFightLevelSyncInfo::GridFightLevelSyncInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::LevelSyncInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::LevelSyncInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_level_sync_info(&mut self) -> &mut super::GridFightLevelSyncInfo::GridFightLevelSyncInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::LevelSyncInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::LevelSyncInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::LevelSyncInfo(super::GridFightLevelSyncInfo::GridFightLevelSyncInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::LevelSyncInfo(super::GridFightLevelSyncInfo::GridFightLevelSyncInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::LevelSyncInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::LevelSyncInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -650,8 +650,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_level_sync_info(&mut self) -> super::GridFightLevelSyncInfo::GridFightLevelSyncInfo {
         if self.has_level_sync_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::LevelSyncInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::LevelSyncInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -659,39 +659,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridFightOrbSyncInfo orb_sync_info = 622;
+    // .GridFightOrbSyncInfo orb_sync_info = 1895;
 
     pub fn orb_sync_info(&self) -> &super::GridFightOrbSyncInfo::GridFightOrbSyncInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::OrbSyncInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::OrbSyncInfo(ref v)) => v,
             _ => <super::GridFightOrbSyncInfo::GridFightOrbSyncInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_orb_sync_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_orb_sync_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::OrbSyncInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::OrbSyncInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_orb_sync_info(&mut self, v: super::GridFightOrbSyncInfo::GridFightOrbSyncInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::OrbSyncInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::OrbSyncInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_orb_sync_info(&mut self) -> &mut super::GridFightOrbSyncInfo::GridFightOrbSyncInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::OrbSyncInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::OrbSyncInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::OrbSyncInfo(super::GridFightOrbSyncInfo::GridFightOrbSyncInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::OrbSyncInfo(super::GridFightOrbSyncInfo::GridFightOrbSyncInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::OrbSyncInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::OrbSyncInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -699,8 +699,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_orb_sync_info(&mut self) -> super::GridFightOrbSyncInfo::GridFightOrbSyncInfo {
         if self.has_orb_sync_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::OrbSyncInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::OrbSyncInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -708,39 +708,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridFightSectionRecordInfo section_record_sync_info = 548;
+    // .GridFightSectionRecordInfo section_record_sync_info = 1155;
 
     pub fn section_record_sync_info(&self) -> &super::GridFightSectionRecordInfo::GridFightSectionRecordInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SectionRecordSyncInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SectionRecordSyncInfo(ref v)) => v,
             _ => <super::GridFightSectionRecordInfo::GridFightSectionRecordInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_section_record_sync_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_section_record_sync_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SectionRecordSyncInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SectionRecordSyncInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_section_record_sync_info(&mut self, v: super::GridFightSectionRecordInfo::GridFightSectionRecordInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SectionRecordSyncInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SectionRecordSyncInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_section_record_sync_info(&mut self) -> &mut super::GridFightSectionRecordInfo::GridFightSectionRecordInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SectionRecordSyncInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SectionRecordSyncInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SectionRecordSyncInfo(super::GridFightSectionRecordInfo::GridFightSectionRecordInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SectionRecordSyncInfo(super::GridFightSectionRecordInfo::GridFightSectionRecordInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SectionRecordSyncInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SectionRecordSyncInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -748,8 +748,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_section_record_sync_info(&mut self) -> super::GridFightSectionRecordInfo::GridFightSectionRecordInfo {
         if self.has_section_record_sync_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SectionRecordSyncInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SectionRecordSyncInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -757,39 +757,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridFightGameAugmentUpdate grid_game_augment_update = 1516;
+    // .GridFightGameAugmentUpdate grid_game_augment_update = 1994;
 
     pub fn grid_game_augment_update(&self) -> &super::GridFightGameAugmentUpdate::GridFightGameAugmentUpdate {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridGameAugmentUpdate(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridGameAugmentUpdate(ref v)) => v,
             _ => <super::GridFightGameAugmentUpdate::GridFightGameAugmentUpdate as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_grid_game_augment_update(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_grid_game_augment_update(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridGameAugmentUpdate(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridGameAugmentUpdate(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_grid_game_augment_update(&mut self, v: super::GridFightGameAugmentUpdate::GridFightGameAugmentUpdate) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridGameAugmentUpdate(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridGameAugmentUpdate(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_grid_game_augment_update(&mut self) -> &mut super::GridFightGameAugmentUpdate::GridFightGameAugmentUpdate {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridGameAugmentUpdate(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridGameAugmentUpdate(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridGameAugmentUpdate(super::GridFightGameAugmentUpdate::GridFightGameAugmentUpdate::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridGameAugmentUpdate(super::GridFightGameAugmentUpdate::GridFightGameAugmentUpdate::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridGameAugmentUpdate(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridGameAugmentUpdate(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -797,8 +797,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_grid_game_augment_update(&mut self) -> super::GridFightGameAugmentUpdate::GridFightGameAugmentUpdate {
         if self.has_grid_game_augment_update() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridGameAugmentUpdate(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridGameAugmentUpdate(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -806,139 +806,139 @@ impl GridFightSyncData {
         }
     }
 
-    // uint32 remove_augment_unique_id = 1202;
+    // uint32 remove_augment_unique_id = 523;
 
     pub fn remove_augment_unique_id(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveAugmentUniqueId(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveAugmentUniqueId(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_remove_augment_unique_id(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_remove_augment_unique_id(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveAugmentUniqueId(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveAugmentUniqueId(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_remove_augment_unique_id(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveAugmentUniqueId(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveAugmentUniqueId(v))
     }
 
-    // uint32 finish_pending_action_pos = 321;
+    // uint32 finish_pending_action_pos = 573;
 
     pub fn finish_pending_action_pos(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::FinishPendingActionPos(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::FinishPendingActionPos(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_finish_pending_action_pos(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_finish_pending_action_pos(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::FinishPendingActionPos(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::FinishPendingActionPos(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_finish_pending_action_pos(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::FinishPendingActionPos(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::FinishPendingActionPos(v))
     }
 
-    // uint32 grid_fight_max_interest_gold = 1332;
+    // uint32 grid_fight_max_interest_gold = 855;
 
     pub fn grid_fight_max_interest_gold(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightMaxInterestGold(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightMaxInterestGold(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_grid_fight_max_interest_gold(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_grid_fight_max_interest_gold(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightMaxInterestGold(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightMaxInterestGold(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_grid_fight_max_interest_gold(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightMaxInterestGold(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightMaxInterestGold(v))
     }
 
-    // uint32 grid_fight_buy_exp_cost = 1139;
+    // uint32 grid_fight_buy_exp_cost = 1241;
 
     pub fn grid_fight_buy_exp_cost(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightBuyExpCost(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightBuyExpCost(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_grid_fight_buy_exp_cost(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_grid_fight_buy_exp_cost(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightBuyExpCost(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightBuyExpCost(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_grid_fight_buy_exp_cost(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightBuyExpCost(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightBuyExpCost(v))
     }
 
-    // .GridFightTraitSyncInfo trait_sync_info = 1935;
+    // .GridFightTraitSyncInfo trait_sync_info = 258;
 
     pub fn trait_sync_info(&self) -> &super::GridFightTraitSyncInfo::GridFightTraitSyncInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitSyncInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitSyncInfo(ref v)) => v,
             _ => <super::GridFightTraitSyncInfo::GridFightTraitSyncInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_trait_sync_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_trait_sync_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitSyncInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitSyncInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_trait_sync_info(&mut self, v: super::GridFightTraitSyncInfo::GridFightTraitSyncInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitSyncInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitSyncInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_trait_sync_info(&mut self) -> &mut super::GridFightTraitSyncInfo::GridFightTraitSyncInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitSyncInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitSyncInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitSyncInfo(super::GridFightTraitSyncInfo::GridFightTraitSyncInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitSyncInfo(super::GridFightTraitSyncInfo::GridFightTraitSyncInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitSyncInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitSyncInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -946,8 +946,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_trait_sync_info(&mut self) -> super::GridFightTraitSyncInfo::GridFightTraitSyncInfo {
         if self.has_trait_sync_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitSyncInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitSyncInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -955,64 +955,64 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridFightLockType lock_type = 1025;
+    // .GridFightLockType lock_type = 1112;
 
     pub fn lock_type(&self) -> super::GridFightLockType::GridFightLockType {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::LockType(v)) => ::protobuf::EnumOrUnknown::enum_value_or_default(&v),
-            _ => super::GridFightLockType::GridFightLockType::GridFightLockType_LCKDDLJAOHM,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::LockType(v)) => ::protobuf::EnumOrUnknown::enum_value_or_default(&v),
+            _ => super::GridFightLockType::GridFightLockType::PJBMHHNLCLB_LNLOOHDEAEO,
         }
     }
 
     pub fn clear_lock_type(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_lock_type(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::LockType(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::LockType(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_lock_type(&mut self, v: super::GridFightLockType::GridFightLockType) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::LockType(::protobuf::EnumOrUnknown::new(v)))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::LockType(::protobuf::EnumOrUnknown::new(v)))
     }
 
-    // .GridFightTraitTrackSyncInfo trait_track_sync_info = 988;
+    // .GridFightTraitTrackSyncInfo trait_track_sync_info = 1345;
 
     pub fn trait_track_sync_info(&self) -> &super::GridFightTraitTrackSyncInfo::GridFightTraitTrackSyncInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitTrackSyncInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitTrackSyncInfo(ref v)) => v,
             _ => <super::GridFightTraitTrackSyncInfo::GridFightTraitTrackSyncInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_trait_track_sync_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_trait_track_sync_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitTrackSyncInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitTrackSyncInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_trait_track_sync_info(&mut self, v: super::GridFightTraitTrackSyncInfo::GridFightTraitTrackSyncInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitTrackSyncInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitTrackSyncInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_trait_track_sync_info(&mut self) -> &mut super::GridFightTraitTrackSyncInfo::GridFightTraitTrackSyncInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitTrackSyncInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitTrackSyncInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitTrackSyncInfo(super::GridFightTraitTrackSyncInfo::GridFightTraitTrackSyncInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitTrackSyncInfo(super::GridFightTraitTrackSyncInfo::GridFightTraitTrackSyncInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitTrackSyncInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitTrackSyncInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -1020,8 +1020,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_trait_track_sync_info(&mut self) -> super::GridFightTraitTrackSyncInfo::GridFightTraitTrackSyncInfo {
         if self.has_trait_track_sync_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitTrackSyncInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitTrackSyncInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -1029,114 +1029,114 @@ impl GridFightSyncData {
         }
     }
 
-    // uint32 grid_fight_combo_win_num = 150;
+    // uint32 grid_fight_combo_win_num = 461;
 
     pub fn grid_fight_combo_win_num(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightComboWinNum(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightComboWinNum(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_grid_fight_combo_win_num(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_grid_fight_combo_win_num(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightComboWinNum(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightComboWinNum(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_grid_fight_combo_win_num(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightComboWinNum(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightComboWinNum(v))
     }
 
-    // uint32 grid_fight_max_avatar_count = 394;
+    // uint32 grid_fight_max_avatar_count = 548;
 
     pub fn grid_fight_max_avatar_count(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightMaxAvatarCount(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightMaxAvatarCount(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_grid_fight_max_avatar_count(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_grid_fight_max_avatar_count(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightMaxAvatarCount(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightMaxAvatarCount(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_grid_fight_max_avatar_count(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightMaxAvatarCount(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightMaxAvatarCount(v))
     }
 
-    // uint32 grid_fight_off_field_max_count = 996;
+    // uint32 grid_fight_off_field_max_count = 1062;
 
     pub fn grid_fight_off_field_max_count(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightOffFieldMaxCount(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightOffFieldMaxCount(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_grid_fight_off_field_max_count(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_grid_fight_off_field_max_count(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightOffFieldMaxCount(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightOffFieldMaxCount(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_grid_fight_off_field_max_count(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightOffFieldMaxCount(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightOffFieldMaxCount(v))
     }
 
-    // .GridFightDamageSttInfo grid_fight_damage_stt_info = 586;
+    // .GridFightDamageSttInfo grid_fight_damage_stt_info = 437;
 
     pub fn grid_fight_damage_stt_info(&self) -> &super::GridFightDamageSttInfo::GridFightDamageSttInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightDamageSttInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightDamageSttInfo(ref v)) => v,
             _ => <super::GridFightDamageSttInfo::GridFightDamageSttInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_grid_fight_damage_stt_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_grid_fight_damage_stt_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightDamageSttInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightDamageSttInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_grid_fight_damage_stt_info(&mut self, v: super::GridFightDamageSttInfo::GridFightDamageSttInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightDamageSttInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightDamageSttInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_grid_fight_damage_stt_info(&mut self) -> &mut super::GridFightDamageSttInfo::GridFightDamageSttInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightDamageSttInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightDamageSttInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightDamageSttInfo(super::GridFightDamageSttInfo::GridFightDamageSttInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightDamageSttInfo(super::GridFightDamageSttInfo::GridFightDamageSttInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightDamageSttInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightDamageSttInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -1144,8 +1144,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_grid_fight_damage_stt_info(&mut self) -> super::GridFightDamageSttInfo::GridFightDamageSttInfo {
         if self.has_grid_fight_damage_stt_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightDamageSttInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightDamageSttInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -1153,39 +1153,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridFightEliteBranchSyncInfo elite_branch_sync_info = 925;
+    // .GridFightEliteBranchSyncInfo elite_branch_sync_info = 1738;
 
     pub fn elite_branch_sync_info(&self) -> &super::GridFightEliteBranchSyncInfo::GridFightEliteBranchSyncInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EliteBranchSyncInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EliteBranchSyncInfo(ref v)) => v,
             _ => <super::GridFightEliteBranchSyncInfo::GridFightEliteBranchSyncInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_elite_branch_sync_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_elite_branch_sync_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EliteBranchSyncInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EliteBranchSyncInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_elite_branch_sync_info(&mut self, v: super::GridFightEliteBranchSyncInfo::GridFightEliteBranchSyncInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EliteBranchSyncInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EliteBranchSyncInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_elite_branch_sync_info(&mut self) -> &mut super::GridFightEliteBranchSyncInfo::GridFightEliteBranchSyncInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EliteBranchSyncInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EliteBranchSyncInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EliteBranchSyncInfo(super::GridFightEliteBranchSyncInfo::GridFightEliteBranchSyncInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EliteBranchSyncInfo(super::GridFightEliteBranchSyncInfo::GridFightEliteBranchSyncInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EliteBranchSyncInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EliteBranchSyncInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -1193,8 +1193,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_elite_branch_sync_info(&mut self) -> super::GridFightEliteBranchSyncInfo::GridFightEliteBranchSyncInfo {
         if self.has_elite_branch_sync_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EliteBranchSyncInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EliteBranchSyncInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -1202,39 +1202,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridGameNpcInfo add_npc_info = 1599;
+    // .GridGameNpcInfo add_npc_info = 230;
 
     pub fn add_npc_info(&self) -> &super::GridGameNpcInfo::GridGameNpcInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddNpcInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddNpcInfo(ref v)) => v,
             _ => <super::GridGameNpcInfo::GridGameNpcInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_add_npc_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_add_npc_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddNpcInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddNpcInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_add_npc_info(&mut self, v: super::GridGameNpcInfo::GridGameNpcInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddNpcInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddNpcInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_add_npc_info(&mut self) -> &mut super::GridGameNpcInfo::GridGameNpcInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddNpcInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddNpcInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddNpcInfo(super::GridGameNpcInfo::GridGameNpcInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddNpcInfo(super::GridGameNpcInfo::GridGameNpcInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddNpcInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddNpcInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -1242,8 +1242,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_add_npc_info(&mut self) -> super::GridGameNpcInfo::GridGameNpcInfo {
         if self.has_add_npc_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddNpcInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddNpcInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -1251,39 +1251,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridGameNpcInfo update_npc_info = 1425;
+    // .GridGameNpcInfo update_npc_info = 1517;
 
     pub fn update_npc_info(&self) -> &super::GridGameNpcInfo::GridGameNpcInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateNpcInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateNpcInfo(ref v)) => v,
             _ => <super::GridGameNpcInfo::GridGameNpcInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_update_npc_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_update_npc_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateNpcInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateNpcInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_update_npc_info(&mut self, v: super::GridGameNpcInfo::GridGameNpcInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateNpcInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateNpcInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_update_npc_info(&mut self) -> &mut super::GridGameNpcInfo::GridGameNpcInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateNpcInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateNpcInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateNpcInfo(super::GridGameNpcInfo::GridGameNpcInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateNpcInfo(super::GridGameNpcInfo::GridGameNpcInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateNpcInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateNpcInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -1291,8 +1291,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_update_npc_info(&mut self) -> super::GridGameNpcInfo::GridGameNpcInfo {
         if self.has_update_npc_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateNpcInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateNpcInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -1300,64 +1300,64 @@ impl GridFightSyncData {
         }
     }
 
-    // uint32 remove_npc_unique_id = 151;
+    // uint32 remove_npc_unique_id = 2040;
 
     pub fn remove_npc_unique_id(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveNpcUniqueId(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveNpcUniqueId(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_remove_npc_unique_id(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_remove_npc_unique_id(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveNpcUniqueId(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveNpcUniqueId(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_remove_npc_unique_id(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveNpcUniqueId(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveNpcUniqueId(v))
     }
 
-    // .GridGameForgeItemInfo add_forge_info = 1777;
+    // .GridGameForgeItemInfo add_forge_info = 386;
 
     pub fn add_forge_info(&self) -> &super::GridGameForgeItemInfo::GridGameForgeItemInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddForgeInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddForgeInfo(ref v)) => v,
             _ => <super::GridGameForgeItemInfo::GridGameForgeItemInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_add_forge_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_add_forge_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddForgeInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddForgeInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_add_forge_info(&mut self, v: super::GridGameForgeItemInfo::GridGameForgeItemInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddForgeInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddForgeInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_add_forge_info(&mut self) -> &mut super::GridGameForgeItemInfo::GridGameForgeItemInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddForgeInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddForgeInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddForgeInfo(super::GridGameForgeItemInfo::GridGameForgeItemInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddForgeInfo(super::GridGameForgeItemInfo::GridGameForgeItemInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddForgeInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddForgeInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -1365,8 +1365,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_add_forge_info(&mut self) -> super::GridGameForgeItemInfo::GridGameForgeItemInfo {
         if self.has_add_forge_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddForgeInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddForgeInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -1374,39 +1374,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridGameForgeItemInfo update_forge_info = 47;
+    // .GridGameForgeItemInfo update_forge_info = 909;
 
     pub fn update_forge_info(&self) -> &super::GridGameForgeItemInfo::GridGameForgeItemInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateForgeInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateForgeInfo(ref v)) => v,
             _ => <super::GridGameForgeItemInfo::GridGameForgeItemInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_update_forge_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_update_forge_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateForgeInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateForgeInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_update_forge_info(&mut self, v: super::GridGameForgeItemInfo::GridGameForgeItemInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateForgeInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateForgeInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_update_forge_info(&mut self) -> &mut super::GridGameForgeItemInfo::GridGameForgeItemInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateForgeInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateForgeInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateForgeInfo(super::GridGameForgeItemInfo::GridGameForgeItemInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateForgeInfo(super::GridGameForgeItemInfo::GridGameForgeItemInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateForgeInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateForgeInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -1414,8 +1414,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_update_forge_info(&mut self) -> super::GridGameForgeItemInfo::GridGameForgeItemInfo {
         if self.has_update_forge_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateForgeInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateForgeInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -1423,64 +1423,64 @@ impl GridFightSyncData {
         }
     }
 
-    // uint32 remove_forge_unique_id = 1877;
+    // uint32 remove_forge_unique_id = 1564;
 
     pub fn remove_forge_unique_id(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveForgeUniqueId(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveForgeUniqueId(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_remove_forge_unique_id(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_remove_forge_unique_id(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveForgeUniqueId(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveForgeUniqueId(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_remove_forge_unique_id(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveForgeUniqueId(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveForgeUniqueId(v))
     }
 
-    // .GridFightGameAugmentAdd augment_sync_info = 597;
+    // .GridFightGameAugmentAdd augment_sync_info = 558;
 
     pub fn augment_sync_info(&self) -> &super::GridFightGameAugmentAdd::GridFightGameAugmentAdd {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AugmentSyncInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AugmentSyncInfo(ref v)) => v,
             _ => <super::GridFightGameAugmentAdd::GridFightGameAugmentAdd as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_augment_sync_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_augment_sync_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AugmentSyncInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AugmentSyncInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_augment_sync_info(&mut self, v: super::GridFightGameAugmentAdd::GridFightGameAugmentAdd) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AugmentSyncInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AugmentSyncInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_augment_sync_info(&mut self) -> &mut super::GridFightGameAugmentAdd::GridFightGameAugmentAdd {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AugmentSyncInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AugmentSyncInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AugmentSyncInfo(super::GridFightGameAugmentAdd::GridFightGameAugmentAdd::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AugmentSyncInfo(super::GridFightGameAugmentAdd::GridFightGameAugmentAdd::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AugmentSyncInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AugmentSyncInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -1488,8 +1488,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_augment_sync_info(&mut self) -> super::GridFightGameAugmentAdd::GridFightGameAugmentAdd {
         if self.has_augment_sync_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AugmentSyncInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AugmentSyncInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -1497,39 +1497,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .RoleTrackEquipmentSyncInfo equipment_track_sync_info = 1031;
+    // .RoleTrackEquipmentSyncInfo equipment_track_sync_info = 57;
 
     pub fn equipment_track_sync_info(&self) -> &super::RoleTrackEquipmentSyncInfo::RoleTrackEquipmentSyncInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EquipmentTrackSyncInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EquipmentTrackSyncInfo(ref v)) => v,
             _ => <super::RoleTrackEquipmentSyncInfo::RoleTrackEquipmentSyncInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_equipment_track_sync_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_equipment_track_sync_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EquipmentTrackSyncInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EquipmentTrackSyncInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_equipment_track_sync_info(&mut self, v: super::RoleTrackEquipmentSyncInfo::RoleTrackEquipmentSyncInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EquipmentTrackSyncInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EquipmentTrackSyncInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_equipment_track_sync_info(&mut self) -> &mut super::RoleTrackEquipmentSyncInfo::RoleTrackEquipmentSyncInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EquipmentTrackSyncInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EquipmentTrackSyncInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EquipmentTrackSyncInfo(super::RoleTrackEquipmentSyncInfo::RoleTrackEquipmentSyncInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EquipmentTrackSyncInfo(super::RoleTrackEquipmentSyncInfo::RoleTrackEquipmentSyncInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EquipmentTrackSyncInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EquipmentTrackSyncInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -1537,8 +1537,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_equipment_track_sync_info(&mut self) -> super::RoleTrackEquipmentSyncInfo::RoleTrackEquipmentSyncInfo {
         if self.has_equipment_track_sync_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EquipmentTrackSyncInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EquipmentTrackSyncInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -1546,39 +1546,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridFightGameItemInfo grid_fight_sync_game_item_info = 1036;
+    // .GridFightGameItemInfo grid_fight_sync_game_item_info = 1182;
 
     pub fn grid_fight_sync_game_item_info(&self) -> &super::GridFightGameItemInfo::GridFightGameItemInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightSyncGameItemInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightSyncGameItemInfo(ref v)) => v,
             _ => <super::GridFightGameItemInfo::GridFightGameItemInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_grid_fight_sync_game_item_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_grid_fight_sync_game_item_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightSyncGameItemInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightSyncGameItemInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_grid_fight_sync_game_item_info(&mut self, v: super::GridFightGameItemInfo::GridFightGameItemInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightSyncGameItemInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightSyncGameItemInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_grid_fight_sync_game_item_info(&mut self) -> &mut super::GridFightGameItemInfo::GridFightGameItemInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightSyncGameItemInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightSyncGameItemInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightSyncGameItemInfo(super::GridFightGameItemInfo::GridFightGameItemInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightSyncGameItemInfo(super::GridFightGameItemInfo::GridFightGameItemInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightSyncGameItemInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightSyncGameItemInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -1586,8 +1586,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_grid_fight_sync_game_item_info(&mut self) -> super::GridFightGameItemInfo::GridFightGameItemInfo {
         if self.has_grid_fight_sync_game_item_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightSyncGameItemInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightSyncGameItemInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -1595,89 +1595,89 @@ impl GridFightSyncData {
         }
     }
 
-    // uint32 remove_orb_unique_id = 521;
+    // uint32 remove_orb_unique_id = 53;
 
     pub fn remove_orb_unique_id(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveOrbUniqueId(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveOrbUniqueId(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_remove_orb_unique_id(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_remove_orb_unique_id(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveOrbUniqueId(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveOrbUniqueId(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_remove_orb_unique_id(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveOrbUniqueId(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveOrbUniqueId(v))
     }
 
-    // uint32 FLMPADHOKHJ = 330;
+    // uint32 FHHHEBLMOBL = 1660;
 
-    pub fn FLMPADHOKHJ(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::FLMPADHOKHJ(v)) => v,
+    pub fn FHHHEBLMOBL(&self) -> u32 {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::FHHHEBLMOBL(v)) => v,
             _ => 0,
         }
     }
 
-    pub fn clear_FLMPADHOKHJ(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+    pub fn clear_FHHHEBLMOBL(&mut self) {
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
-    pub fn has_FLMPADHOKHJ(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::FLMPADHOKHJ(..)) => true,
+    pub fn has_FHHHEBLMOBL(&self) -> bool {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::FHHHEBLMOBL(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_FLMPADHOKHJ(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::FLMPADHOKHJ(v))
+    pub fn set_FHHHEBLMOBL(&mut self, v: u32) {
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::FHHHEBLMOBL(v))
     }
 
-    // .GridFightTutorialSyncInfo grid_fight_tutorial_sync = 1716;
+    // .GridFightTutorialSyncInfo grid_fight_tutorial_sync = 1022;
 
     pub fn grid_fight_tutorial_sync(&self) -> &super::GridFightTutorialSyncInfo::GridFightTutorialSyncInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightTutorialSync(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightTutorialSync(ref v)) => v,
             _ => <super::GridFightTutorialSyncInfo::GridFightTutorialSyncInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_grid_fight_tutorial_sync(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_grid_fight_tutorial_sync(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightTutorialSync(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightTutorialSync(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_grid_fight_tutorial_sync(&mut self, v: super::GridFightTutorialSyncInfo::GridFightTutorialSyncInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightTutorialSync(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightTutorialSync(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_grid_fight_tutorial_sync(&mut self) -> &mut super::GridFightTutorialSyncInfo::GridFightTutorialSyncInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightTutorialSync(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightTutorialSync(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightTutorialSync(super::GridFightTutorialSyncInfo::GridFightTutorialSyncInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightTutorialSync(super::GridFightTutorialSyncInfo::GridFightTutorialSyncInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightTutorialSync(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightTutorialSync(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -1685,8 +1685,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_grid_fight_tutorial_sync(&mut self) -> super::GridFightTutorialSyncInfo::GridFightTutorialSyncInfo {
         if self.has_grid_fight_tutorial_sync() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightTutorialSync(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightTutorialSync(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -1694,39 +1694,39 @@ impl GridFightSyncData {
         }
     }
 
-    // .GridFightLockInfo sync_lock_info = 1675;
+    // .GridFightLockInfo sync_lock_info = 468;
 
     pub fn sync_lock_info(&self) -> &super::GridFightLockInfo::GridFightLockInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SyncLockInfo(ref v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SyncLockInfo(ref v)) => v,
             _ => <super::GridFightLockInfo::GridFightLockInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_sync_lock_info(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_sync_lock_info(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SyncLockInfo(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SyncLockInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_sync_lock_info(&mut self, v: super::GridFightLockInfo::GridFightLockInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SyncLockInfo(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SyncLockInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_sync_lock_info(&mut self) -> &mut super::GridFightLockInfo::GridFightLockInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SyncLockInfo(_)) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SyncLockInfo(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SyncLockInfo(super::GridFightLockInfo::GridFightLockInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SyncLockInfo(super::GridFightLockInfo::GridFightLockInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SyncLockInfo(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SyncLockInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -1734,8 +1734,8 @@ impl GridFightSyncData {
     // Take field
     pub fn take_sync_lock_info(&mut self) -> super::GridFightLockInfo::GridFightLockInfo {
         if self.has_sync_lock_info() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SyncLockInfo(v)) => v,
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SyncLockInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -1743,196 +1743,196 @@ impl GridFightSyncData {
         }
     }
 
-    // uint32 remove_trait_effect_id = 906;
+    // uint32 remove_trait_effect_id = 1608;
 
     pub fn remove_trait_effect_id(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveTraitEffectId(v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveTraitEffectId(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_remove_trait_effect_id(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
     pub fn has_remove_trait_effect_id(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveTraitEffectId(..)) => true,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveTraitEffectId(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_remove_trait_effect_id(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveTraitEffectId(v))
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveTraitEffectId(v))
     }
 
-    // .NEAOHJMAPJN DJIKOKDDJEI = 2043;
+    // .CKCKIDHMMEG BAODHPCOJLH = 1444;
 
-    pub fn DJIKOKDDJEI(&self) -> &super::NEAOHJMAPJN::NEAOHJMAPJN {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::DJIKOKDDJEI(ref v)) => v,
-            _ => <super::NEAOHJMAPJN::NEAOHJMAPJN as ::protobuf::Message>::default_instance(),
+    pub fn BAODHPCOJLH(&self) -> &super::CKCKIDHMMEG::CKCKIDHMMEG {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::BAODHPCOJLH(ref v)) => v,
+            _ => <super::CKCKIDHMMEG::CKCKIDHMMEG as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_DJIKOKDDJEI(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+    pub fn clear_BAODHPCOJLH(&mut self) {
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
-    pub fn has_DJIKOKDDJEI(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::DJIKOKDDJEI(..)) => true,
+    pub fn has_BAODHPCOJLH(&self) -> bool {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::BAODHPCOJLH(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_DJIKOKDDJEI(&mut self, v: super::NEAOHJMAPJN::NEAOHJMAPJN) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::DJIKOKDDJEI(v))
+    pub fn set_BAODHPCOJLH(&mut self, v: super::CKCKIDHMMEG::CKCKIDHMMEG) {
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::BAODHPCOJLH(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_DJIKOKDDJEI(&mut self) -> &mut super::NEAOHJMAPJN::NEAOHJMAPJN {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::DJIKOKDDJEI(_)) = self.DEBKBABACIC {
+    pub fn mut_BAODHPCOJLH(&mut self) -> &mut super::CKCKIDHMMEG::CKCKIDHMMEG {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::BAODHPCOJLH(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::DJIKOKDDJEI(super::NEAOHJMAPJN::NEAOHJMAPJN::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::BAODHPCOJLH(super::CKCKIDHMMEG::CKCKIDHMMEG::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::DJIKOKDDJEI(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::BAODHPCOJLH(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_DJIKOKDDJEI(&mut self) -> super::NEAOHJMAPJN::NEAOHJMAPJN {
-        if self.has_DJIKOKDDJEI() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::DJIKOKDDJEI(v)) => v,
+    pub fn take_BAODHPCOJLH(&mut self) -> super::CKCKIDHMMEG::CKCKIDHMMEG {
+        if self.has_BAODHPCOJLH() {
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::BAODHPCOJLH(v)) => v,
                 _ => panic!(),
             }
         } else {
-            super::NEAOHJMAPJN::NEAOHJMAPJN::new()
+            super::CKCKIDHMMEG::CKCKIDHMMEG::new()
         }
     }
 
-    // .NEAOHJMAPJN AICDHILPCOC = 273;
+    // .CKCKIDHMMEG JIFKOHLNHAK = 1016;
 
-    pub fn AICDHILPCOC(&self) -> &super::NEAOHJMAPJN::NEAOHJMAPJN {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AICDHILPCOC(ref v)) => v,
-            _ => <super::NEAOHJMAPJN::NEAOHJMAPJN as ::protobuf::Message>::default_instance(),
+    pub fn JIFKOHLNHAK(&self) -> &super::CKCKIDHMMEG::CKCKIDHMMEG {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::JIFKOHLNHAK(ref v)) => v,
+            _ => <super::CKCKIDHMMEG::CKCKIDHMMEG as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_AICDHILPCOC(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+    pub fn clear_JIFKOHLNHAK(&mut self) {
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
-    pub fn has_AICDHILPCOC(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AICDHILPCOC(..)) => true,
+    pub fn has_JIFKOHLNHAK(&self) -> bool {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::JIFKOHLNHAK(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_AICDHILPCOC(&mut self, v: super::NEAOHJMAPJN::NEAOHJMAPJN) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AICDHILPCOC(v))
+    pub fn set_JIFKOHLNHAK(&mut self, v: super::CKCKIDHMMEG::CKCKIDHMMEG) {
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::JIFKOHLNHAK(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_AICDHILPCOC(&mut self) -> &mut super::NEAOHJMAPJN::NEAOHJMAPJN {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AICDHILPCOC(_)) = self.DEBKBABACIC {
+    pub fn mut_JIFKOHLNHAK(&mut self) -> &mut super::CKCKIDHMMEG::CKCKIDHMMEG {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::JIFKOHLNHAK(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AICDHILPCOC(super::NEAOHJMAPJN::NEAOHJMAPJN::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::JIFKOHLNHAK(super::CKCKIDHMMEG::CKCKIDHMMEG::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AICDHILPCOC(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::JIFKOHLNHAK(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_AICDHILPCOC(&mut self) -> super::NEAOHJMAPJN::NEAOHJMAPJN {
-        if self.has_AICDHILPCOC() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AICDHILPCOC(v)) => v,
+    pub fn take_JIFKOHLNHAK(&mut self) -> super::CKCKIDHMMEG::CKCKIDHMMEG {
+        if self.has_JIFKOHLNHAK() {
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::JIFKOHLNHAK(v)) => v,
                 _ => panic!(),
             }
         } else {
-            super::NEAOHJMAPJN::NEAOHJMAPJN::new()
+            super::CKCKIDHMMEG::CKCKIDHMMEG::new()
         }
     }
 
-    // uint32 PNKFPEMHFIF = 1835;
+    // uint32 GDPBJDHGFLB = 516;
 
-    pub fn PNKFPEMHFIF(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PNKFPEMHFIF(v)) => v,
+    pub fn GDPBJDHGFLB(&self) -> u32 {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GDPBJDHGFLB(v)) => v,
             _ => 0,
         }
     }
 
-    pub fn clear_PNKFPEMHFIF(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+    pub fn clear_GDPBJDHGFLB(&mut self) {
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
-    pub fn has_PNKFPEMHFIF(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PNKFPEMHFIF(..)) => true,
+    pub fn has_GDPBJDHGFLB(&self) -> bool {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GDPBJDHGFLB(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_PNKFPEMHFIF(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PNKFPEMHFIF(v))
+    pub fn set_GDPBJDHGFLB(&mut self, v: u32) {
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GDPBJDHGFLB(v))
     }
 
-    // .GridGameOrbInfo MCOKOIFPMCM = 177;
+    // .GridGameOrbInfo POIPGNHONMA = 798;
 
-    pub fn MCOKOIFPMCM(&self) -> &super::GridGameOrbInfo::GridGameOrbInfo {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::MCOKOIFPMCM(ref v)) => v,
+    pub fn POIPGNHONMA(&self) -> &super::GridGameOrbInfo::GridGameOrbInfo {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::POIPGNHONMA(ref v)) => v,
             _ => <super::GridGameOrbInfo::GridGameOrbInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_MCOKOIFPMCM(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+    pub fn clear_POIPGNHONMA(&mut self) {
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
-    pub fn has_MCOKOIFPMCM(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::MCOKOIFPMCM(..)) => true,
+    pub fn has_POIPGNHONMA(&self) -> bool {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::POIPGNHONMA(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_MCOKOIFPMCM(&mut self, v: super::GridGameOrbInfo::GridGameOrbInfo) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::MCOKOIFPMCM(v))
+    pub fn set_POIPGNHONMA(&mut self, v: super::GridGameOrbInfo::GridGameOrbInfo) {
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::POIPGNHONMA(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_MCOKOIFPMCM(&mut self) -> &mut super::GridGameOrbInfo::GridGameOrbInfo {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::MCOKOIFPMCM(_)) = self.DEBKBABACIC {
+    pub fn mut_POIPGNHONMA(&mut self) -> &mut super::GridGameOrbInfo::GridGameOrbInfo {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::POIPGNHONMA(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::MCOKOIFPMCM(super::GridGameOrbInfo::GridGameOrbInfo::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::POIPGNHONMA(super::GridGameOrbInfo::GridGameOrbInfo::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::MCOKOIFPMCM(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::POIPGNHONMA(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_MCOKOIFPMCM(&mut self) -> super::GridGameOrbInfo::GridGameOrbInfo {
-        if self.has_MCOKOIFPMCM() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::MCOKOIFPMCM(v)) => v,
+    pub fn take_POIPGNHONMA(&mut self) -> super::GridGameOrbInfo::GridGameOrbInfo {
+        if self.has_POIPGNHONMA() {
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::POIPGNHONMA(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -1940,132 +1940,304 @@ impl GridFightSyncData {
         }
     }
 
-    // uint32 ODKNCCEKEKL = 1065;
+    // uint32 AJIMOAMGCII = 423;
 
-    pub fn ODKNCCEKEKL(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ODKNCCEKEKL(v)) => v,
+    pub fn AJIMOAMGCII(&self) -> u32 {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AJIMOAMGCII(v)) => v,
             _ => 0,
         }
     }
 
-    pub fn clear_ODKNCCEKEKL(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+    pub fn clear_AJIMOAMGCII(&mut self) {
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
-    pub fn has_ODKNCCEKEKL(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ODKNCCEKEKL(..)) => true,
+    pub fn has_AJIMOAMGCII(&self) -> bool {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AJIMOAMGCII(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_ODKNCCEKEKL(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ODKNCCEKEKL(v))
+    pub fn set_AJIMOAMGCII(&mut self, v: u32) {
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AJIMOAMGCII(v))
     }
 
-    // uint32 IHKCFOMJGLL = 198;
+    // uint32 HLFBBANMJDJ = 257;
 
-    pub fn IHKCFOMJGLL(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::IHKCFOMJGLL(v)) => v,
+    pub fn HLFBBANMJDJ(&self) -> u32 {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::HLFBBANMJDJ(v)) => v,
             _ => 0,
         }
     }
 
-    pub fn clear_IHKCFOMJGLL(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+    pub fn clear_HLFBBANMJDJ(&mut self) {
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
-    pub fn has_IHKCFOMJGLL(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::IHKCFOMJGLL(..)) => true,
+    pub fn has_HLFBBANMJDJ(&self) -> bool {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::HLFBBANMJDJ(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_IHKCFOMJGLL(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::IHKCFOMJGLL(v))
+    pub fn set_HLFBBANMJDJ(&mut self, v: u32) {
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::HLFBBANMJDJ(v))
     }
 
-    // uint32 JGJDAOMKFKA = 1700;
+    // uint32 KACHJHDMNLM = 996;
 
-    pub fn JGJDAOMKFKA(&self) -> u32 {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::JGJDAOMKFKA(v)) => v,
+    pub fn KACHJHDMNLM(&self) -> u32 {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::KACHJHDMNLM(v)) => v,
             _ => 0,
         }
     }
 
-    pub fn clear_JGJDAOMKFKA(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+    pub fn clear_KACHJHDMNLM(&mut self) {
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
-    pub fn has_JGJDAOMKFKA(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::JGJDAOMKFKA(..)) => true,
+    pub fn has_KACHJHDMNLM(&self) -> bool {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::KACHJHDMNLM(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_JGJDAOMKFKA(&mut self, v: u32) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::JGJDAOMKFKA(v))
+    pub fn set_KACHJHDMNLM(&mut self, v: u32) {
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::KACHJHDMNLM(v))
     }
 
-    // .BCDMHKEJNGH EBIGFBEFFDH = 1037;
+    // .CMCJNKPKBEM CFNPGNMPNDN = 140;
 
-    pub fn EBIGFBEFFDH(&self) -> &super::BCDMHKEJNGH::BCDMHKEJNGH {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EBIGFBEFFDH(ref v)) => v,
-            _ => <super::BCDMHKEJNGH::BCDMHKEJNGH as ::protobuf::Message>::default_instance(),
+    pub fn CFNPGNMPNDN(&self) -> &super::CMCJNKPKBEM::CMCJNKPKBEM {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::CFNPGNMPNDN(ref v)) => v,
+            _ => <super::CMCJNKPKBEM::CMCJNKPKBEM as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_EBIGFBEFFDH(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
+    pub fn clear_CFNPGNMPNDN(&mut self) {
+        self.KCOCCGEOECO = ::std::option::Option::None;
     }
 
-    pub fn has_EBIGFBEFFDH(&self) -> bool {
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EBIGFBEFFDH(..)) => true,
+    pub fn has_CFNPGNMPNDN(&self) -> bool {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::CFNPGNMPNDN(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_EBIGFBEFFDH(&mut self, v: super::BCDMHKEJNGH::BCDMHKEJNGH) {
-        self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EBIGFBEFFDH(v))
+    pub fn set_CFNPGNMPNDN(&mut self, v: super::CMCJNKPKBEM::CMCJNKPKBEM) {
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::CFNPGNMPNDN(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_EBIGFBEFFDH(&mut self) -> &mut super::BCDMHKEJNGH::BCDMHKEJNGH {
-        if let ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EBIGFBEFFDH(_)) = self.DEBKBABACIC {
+    pub fn mut_CFNPGNMPNDN(&mut self) -> &mut super::CMCJNKPKBEM::CMCJNKPKBEM {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::CFNPGNMPNDN(_)) = self.KCOCCGEOECO {
         } else {
-            self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EBIGFBEFFDH(super::BCDMHKEJNGH::BCDMHKEJNGH::new()));
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::CFNPGNMPNDN(super::CMCJNKPKBEM::CMCJNKPKBEM::new()));
         }
-        match self.DEBKBABACIC {
-            ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EBIGFBEFFDH(ref mut v)) => v,
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::CFNPGNMPNDN(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_EBIGFBEFFDH(&mut self) -> super::BCDMHKEJNGH::BCDMHKEJNGH {
-        if self.has_EBIGFBEFFDH() {
-            match self.DEBKBABACIC.take() {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EBIGFBEFFDH(v)) => v,
+    pub fn take_CFNPGNMPNDN(&mut self) -> super::CMCJNKPKBEM::CMCJNKPKBEM {
+        if self.has_CFNPGNMPNDN() {
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::CFNPGNMPNDN(v)) => v,
                 _ => panic!(),
             }
         } else {
-            super::BCDMHKEJNGH::BCDMHKEJNGH::new()
+            super::CMCJNKPKBEM::CMCJNKPKBEM::new()
+        }
+    }
+
+    // .CLOEPPBCKGF PGPKPMOIAIL = 1858;
+
+    pub fn PGPKPMOIAIL(&self) -> &super::CLOEPPBCKGF::CLOEPPBCKGF {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PGPKPMOIAIL(ref v)) => v,
+            _ => <super::CLOEPPBCKGF::CLOEPPBCKGF as ::protobuf::Message>::default_instance(),
+        }
+    }
+
+    pub fn clear_PGPKPMOIAIL(&mut self) {
+        self.KCOCCGEOECO = ::std::option::Option::None;
+    }
+
+    pub fn has_PGPKPMOIAIL(&self) -> bool {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PGPKPMOIAIL(..)) => true,
+            _ => false,
+        }
+    }
+
+    // Param is passed by value, moved
+    pub fn set_PGPKPMOIAIL(&mut self, v: super::CLOEPPBCKGF::CLOEPPBCKGF) {
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PGPKPMOIAIL(v))
+    }
+
+    // Mutable pointer to the field.
+    pub fn mut_PGPKPMOIAIL(&mut self) -> &mut super::CLOEPPBCKGF::CLOEPPBCKGF {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PGPKPMOIAIL(_)) = self.KCOCCGEOECO {
+        } else {
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PGPKPMOIAIL(super::CLOEPPBCKGF::CLOEPPBCKGF::new()));
+        }
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PGPKPMOIAIL(ref mut v)) => v,
+            _ => panic!(),
+        }
+    }
+
+    // Take field
+    pub fn take_PGPKPMOIAIL(&mut self) -> super::CLOEPPBCKGF::CLOEPPBCKGF {
+        if self.has_PGPKPMOIAIL() {
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PGPKPMOIAIL(v)) => v,
+                _ => panic!(),
+            }
+        } else {
+            super::CLOEPPBCKGF::CLOEPPBCKGF::new()
+        }
+    }
+
+    // uint32 CJEMKCOCECG = 19;
+
+    pub fn CJEMKCOCECG(&self) -> u32 {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::CJEMKCOCECG(v)) => v,
+            _ => 0,
+        }
+    }
+
+    pub fn clear_CJEMKCOCECG(&mut self) {
+        self.KCOCCGEOECO = ::std::option::Option::None;
+    }
+
+    pub fn has_CJEMKCOCECG(&self) -> bool {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::CJEMKCOCECG(..)) => true,
+            _ => false,
+        }
+    }
+
+    // Param is passed by value, moved
+    pub fn set_CJEMKCOCECG(&mut self, v: u32) {
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::CJEMKCOCECG(v))
+    }
+
+    // .DIBJGAKOCLO IBCEPCFFMOL = 1813;
+
+    pub fn IBCEPCFFMOL(&self) -> &super::DIBJGAKOCLO::DIBJGAKOCLO {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::IBCEPCFFMOL(ref v)) => v,
+            _ => <super::DIBJGAKOCLO::DIBJGAKOCLO as ::protobuf::Message>::default_instance(),
+        }
+    }
+
+    pub fn clear_IBCEPCFFMOL(&mut self) {
+        self.KCOCCGEOECO = ::std::option::Option::None;
+    }
+
+    pub fn has_IBCEPCFFMOL(&self) -> bool {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::IBCEPCFFMOL(..)) => true,
+            _ => false,
+        }
+    }
+
+    // Param is passed by value, moved
+    pub fn set_IBCEPCFFMOL(&mut self, v: super::DIBJGAKOCLO::DIBJGAKOCLO) {
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::IBCEPCFFMOL(v))
+    }
+
+    // Mutable pointer to the field.
+    pub fn mut_IBCEPCFFMOL(&mut self) -> &mut super::DIBJGAKOCLO::DIBJGAKOCLO {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::IBCEPCFFMOL(_)) = self.KCOCCGEOECO {
+        } else {
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::IBCEPCFFMOL(super::DIBJGAKOCLO::DIBJGAKOCLO::new()));
+        }
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::IBCEPCFFMOL(ref mut v)) => v,
+            _ => panic!(),
+        }
+    }
+
+    // Take field
+    pub fn take_IBCEPCFFMOL(&mut self) -> super::DIBJGAKOCLO::DIBJGAKOCLO {
+        if self.has_IBCEPCFFMOL() {
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::IBCEPCFFMOL(v)) => v,
+                _ => panic!(),
+            }
+        } else {
+            super::DIBJGAKOCLO::DIBJGAKOCLO::new()
+        }
+    }
+
+    // .JPBCKCDEGOM GMJLJDJDIGM = 1628;
+
+    pub fn GMJLJDJDIGM(&self) -> &super::JPBCKCDEGOM::JPBCKCDEGOM {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GMJLJDJDIGM(ref v)) => v,
+            _ => <super::JPBCKCDEGOM::JPBCKCDEGOM as ::protobuf::Message>::default_instance(),
+        }
+    }
+
+    pub fn clear_GMJLJDJDIGM(&mut self) {
+        self.KCOCCGEOECO = ::std::option::Option::None;
+    }
+
+    pub fn has_GMJLJDJDIGM(&self) -> bool {
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GMJLJDJDIGM(..)) => true,
+            _ => false,
+        }
+    }
+
+    // Param is passed by value, moved
+    pub fn set_GMJLJDJDIGM(&mut self, v: super::JPBCKCDEGOM::JPBCKCDEGOM) {
+        self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GMJLJDJDIGM(v))
+    }
+
+    // Mutable pointer to the field.
+    pub fn mut_GMJLJDJDIGM(&mut self) -> &mut super::JPBCKCDEGOM::JPBCKCDEGOM {
+        if let ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GMJLJDJDIGM(_)) = self.KCOCCGEOECO {
+        } else {
+            self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GMJLJDJDIGM(super::JPBCKCDEGOM::JPBCKCDEGOM::new()));
+        }
+        match self.KCOCCGEOECO {
+            ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GMJLJDJDIGM(ref mut v)) => v,
+            _ => panic!(),
+        }
+    }
+
+    // Take field
+    pub fn take_GMJLJDJDIGM(&mut self) -> super::JPBCKCDEGOM::JPBCKCDEGOM {
+        if self.has_GMJLJDJDIGM() {
+            match self.KCOCCGEOECO.take() {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GMJLJDJDIGM(v)) => v,
+                _ => panic!(),
+            }
+        } else {
+            super::JPBCKCDEGOM::JPBCKCDEGOM::new()
         }
     }
 
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
-        let mut fields = ::std::vec::Vec::with_capacity(51);
+        let mut fields = ::std::vec::Vec::with_capacity(55);
         let mut oneofs = ::std::vec::Vec::with_capacity(1);
         fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::GridGameRoleInfo::GridGameRoleInfo>(
             "add_role_info",
@@ -2216,14 +2388,14 @@ impl GridFightSyncData {
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_enum_accessors::<_, _>(
             "lock_type",
-            |message: &GridFightSyncData| match &message.DEBKBABACIC {
-                ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::LockType(e)) => ::std::option::Option::Some(*e),
+            |message: &GridFightSyncData| match &message.KCOCCGEOECO {
+                ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::LockType(e)) => ::std::option::Option::Some(*e),
                 _ => ::std::option::Option::None,
             },
             |message: &mut GridFightSyncData, e: ::protobuf::EnumOrUnknown<super::GridFightLockType::GridFightLockType>| {
-                message.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::LockType(e));
+                message.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::LockType(e));
             },
-            super::GridFightLockType::GridFightLockType::GridFightLockType_LCKDDLJAOHM,
+            super::GridFightLockType::GridFightLockType::PJBMHHNLCLB_LNLOOHDEAEO,
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::GridFightTraitTrackSyncInfo::GridFightTraitTrackSyncInfo>(
             "trait_track_sync_info",
@@ -2332,10 +2504,10 @@ impl GridFightSyncData {
             GridFightSyncData::set_remove_orb_unique_id,
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_copy_has_get_set_simpler_accessors::<_, _>(
-            "FLMPADHOKHJ",
-            GridFightSyncData::has_FLMPADHOKHJ,
-            GridFightSyncData::FLMPADHOKHJ,
-            GridFightSyncData::set_FLMPADHOKHJ,
+            "FHHHEBLMOBL",
+            GridFightSyncData::has_FHHHEBLMOBL,
+            GridFightSyncData::FHHHEBLMOBL,
+            GridFightSyncData::set_FHHHEBLMOBL,
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::GridFightTutorialSyncInfo::GridFightTutorialSyncInfo>(
             "grid_fight_tutorial_sync",
@@ -2357,59 +2529,86 @@ impl GridFightSyncData {
             GridFightSyncData::remove_trait_effect_id,
             GridFightSyncData::set_remove_trait_effect_id,
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::NEAOHJMAPJN::NEAOHJMAPJN>(
-            "DJIKOKDDJEI",
-            GridFightSyncData::has_DJIKOKDDJEI,
-            GridFightSyncData::DJIKOKDDJEI,
-            GridFightSyncData::mut_DJIKOKDDJEI,
-            GridFightSyncData::set_DJIKOKDDJEI,
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::CKCKIDHMMEG::CKCKIDHMMEG>(
+            "BAODHPCOJLH",
+            GridFightSyncData::has_BAODHPCOJLH,
+            GridFightSyncData::BAODHPCOJLH,
+            GridFightSyncData::mut_BAODHPCOJLH,
+            GridFightSyncData::set_BAODHPCOJLH,
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::NEAOHJMAPJN::NEAOHJMAPJN>(
-            "AICDHILPCOC",
-            GridFightSyncData::has_AICDHILPCOC,
-            GridFightSyncData::AICDHILPCOC,
-            GridFightSyncData::mut_AICDHILPCOC,
-            GridFightSyncData::set_AICDHILPCOC,
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::CKCKIDHMMEG::CKCKIDHMMEG>(
+            "JIFKOHLNHAK",
+            GridFightSyncData::has_JIFKOHLNHAK,
+            GridFightSyncData::JIFKOHLNHAK,
+            GridFightSyncData::mut_JIFKOHLNHAK,
+            GridFightSyncData::set_JIFKOHLNHAK,
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_copy_has_get_set_simpler_accessors::<_, _>(
-            "PNKFPEMHFIF",
-            GridFightSyncData::has_PNKFPEMHFIF,
-            GridFightSyncData::PNKFPEMHFIF,
-            GridFightSyncData::set_PNKFPEMHFIF,
+            "GDPBJDHGFLB",
+            GridFightSyncData::has_GDPBJDHGFLB,
+            GridFightSyncData::GDPBJDHGFLB,
+            GridFightSyncData::set_GDPBJDHGFLB,
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::GridGameOrbInfo::GridGameOrbInfo>(
-            "MCOKOIFPMCM",
-            GridFightSyncData::has_MCOKOIFPMCM,
-            GridFightSyncData::MCOKOIFPMCM,
-            GridFightSyncData::mut_MCOKOIFPMCM,
-            GridFightSyncData::set_MCOKOIFPMCM,
+            "POIPGNHONMA",
+            GridFightSyncData::has_POIPGNHONMA,
+            GridFightSyncData::POIPGNHONMA,
+            GridFightSyncData::mut_POIPGNHONMA,
+            GridFightSyncData::set_POIPGNHONMA,
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_copy_has_get_set_simpler_accessors::<_, _>(
-            "ODKNCCEKEKL",
-            GridFightSyncData::has_ODKNCCEKEKL,
-            GridFightSyncData::ODKNCCEKEKL,
-            GridFightSyncData::set_ODKNCCEKEKL,
+            "AJIMOAMGCII",
+            GridFightSyncData::has_AJIMOAMGCII,
+            GridFightSyncData::AJIMOAMGCII,
+            GridFightSyncData::set_AJIMOAMGCII,
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_copy_has_get_set_simpler_accessors::<_, _>(
-            "IHKCFOMJGLL",
-            GridFightSyncData::has_IHKCFOMJGLL,
-            GridFightSyncData::IHKCFOMJGLL,
-            GridFightSyncData::set_IHKCFOMJGLL,
+            "HLFBBANMJDJ",
+            GridFightSyncData::has_HLFBBANMJDJ,
+            GridFightSyncData::HLFBBANMJDJ,
+            GridFightSyncData::set_HLFBBANMJDJ,
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_copy_has_get_set_simpler_accessors::<_, _>(
-            "JGJDAOMKFKA",
-            GridFightSyncData::has_JGJDAOMKFKA,
-            GridFightSyncData::JGJDAOMKFKA,
-            GridFightSyncData::set_JGJDAOMKFKA,
+            "KACHJHDMNLM",
+            GridFightSyncData::has_KACHJHDMNLM,
+            GridFightSyncData::KACHJHDMNLM,
+            GridFightSyncData::set_KACHJHDMNLM,
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::BCDMHKEJNGH::BCDMHKEJNGH>(
-            "EBIGFBEFFDH",
-            GridFightSyncData::has_EBIGFBEFFDH,
-            GridFightSyncData::EBIGFBEFFDH,
-            GridFightSyncData::mut_EBIGFBEFFDH,
-            GridFightSyncData::set_EBIGFBEFFDH,
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::CMCJNKPKBEM::CMCJNKPKBEM>(
+            "CFNPGNMPNDN",
+            GridFightSyncData::has_CFNPGNMPNDN,
+            GridFightSyncData::CFNPGNMPNDN,
+            GridFightSyncData::mut_CFNPGNMPNDN,
+            GridFightSyncData::set_CFNPGNMPNDN,
         ));
-        oneofs.push(grid_fight_sync_data::DEBKBABACIC::generated_oneof_descriptor_data());
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::CLOEPPBCKGF::CLOEPPBCKGF>(
+            "PGPKPMOIAIL",
+            GridFightSyncData::has_PGPKPMOIAIL,
+            GridFightSyncData::PGPKPMOIAIL,
+            GridFightSyncData::mut_PGPKPMOIAIL,
+            GridFightSyncData::set_PGPKPMOIAIL,
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_copy_has_get_set_simpler_accessors::<_, _>(
+            "CJEMKCOCECG",
+            GridFightSyncData::has_CJEMKCOCECG,
+            GridFightSyncData::CJEMKCOCECG,
+            GridFightSyncData::set_CJEMKCOCECG,
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::DIBJGAKOCLO::DIBJGAKOCLO>(
+            "IBCEPCFFMOL",
+            GridFightSyncData::has_IBCEPCFFMOL,
+            GridFightSyncData::IBCEPCFFMOL,
+            GridFightSyncData::mut_IBCEPCFFMOL,
+            GridFightSyncData::set_IBCEPCFFMOL,
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::JPBCKCDEGOM::JPBCKCDEGOM>(
+            "GMJLJDJDIGM",
+            GridFightSyncData::has_GMJLJDJDIGM,
+            GridFightSyncData::GMJLJDJDIGM,
+            GridFightSyncData::mut_GMJLJDJDIGM,
+            GridFightSyncData::set_GMJLJDJDIGM,
+        ));
+        oneofs.push(grid_fight_sync_data::KCOCCGEOECO::generated_oneof_descriptor_data());
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightSyncData>(
             "GridFightSyncData",
             fields,
@@ -2428,158 +2627,170 @@ impl ::protobuf::Message for GridFightSyncData {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                7034 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddRoleInfo(is.read_message()?));
+                1682 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddRoleInfo(is.read_message()?));
                 },
-                11122 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateRoleInfo(is.read_message()?));
+                3146 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateRoleInfo(is.read_message()?));
                 },
-                4016 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveRoleUniqueId(is.read_uint32()?));
+                13632 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveRoleUniqueId(is.read_uint32()?));
                 },
-                1522 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddGameItemInfo(is.read_message()?));
+                12106 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddGameItemInfo(is.read_message()?));
                 },
-                15842 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateGameItemInfo(is.read_message()?));
+                2274 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateGameItemInfo(is.read_message()?));
                 },
-                12506 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveGameItemInfo(is.read_message()?));
+                9034 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveGameItemInfo(is.read_message()?));
                 },
-                9688 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ItemValue(is.read_uint32()?));
+                15544 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::ItemValue(is.read_uint32()?));
                 },
-                3538 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PlayerLevel(is.read_message()?));
+                7962 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PlayerLevel(is.read_message()?));
                 },
-                7178 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightLineupHp(is.read_message()?));
+                9106 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightLineupHp(is.read_message()?));
                 },
-                10944 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::MaxBattleRoleNum(is.read_uint32()?));
+                576 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::MaxBattleRoleNum(is.read_uint32()?));
                 },
-                1106 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ShopSyncInfo(is.read_message()?));
+                16314 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::ShopSyncInfo(is.read_message()?));
                 },
-                10714 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PendingAction(is.read_message()?));
+                6290 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PendingAction(is.read_message()?));
                 },
-                4370 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PortalServerDataUpdate(is.read_message()?));
+                2170 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PortalServerDataUpdate(is.read_message()?));
                 },
-                8370 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::LevelSyncInfo(is.read_message()?));
+                6706 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::LevelSyncInfo(is.read_message()?));
                 },
-                4978 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::OrbSyncInfo(is.read_message()?));
+                15162 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::OrbSyncInfo(is.read_message()?));
                 },
-                4386 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SectionRecordSyncInfo(is.read_message()?));
+                9242 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SectionRecordSyncInfo(is.read_message()?));
                 },
-                12130 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridGameAugmentUpdate(is.read_message()?));
+                15954 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridGameAugmentUpdate(is.read_message()?));
                 },
-                9616 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveAugmentUniqueId(is.read_uint32()?));
+                4184 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveAugmentUniqueId(is.read_uint32()?));
                 },
-                2568 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::FinishPendingActionPos(is.read_uint32()?));
+                4584 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::FinishPendingActionPos(is.read_uint32()?));
                 },
-                10656 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightMaxInterestGold(is.read_uint32()?));
+                6840 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightMaxInterestGold(is.read_uint32()?));
                 },
-                9112 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightBuyExpCost(is.read_uint32()?));
+                9928 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightBuyExpCost(is.read_uint32()?));
                 },
-                15482 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitSyncInfo(is.read_message()?));
+                2066 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitSyncInfo(is.read_message()?));
                 },
-                8200 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::LockType(is.read_enum_or_unknown()?));
+                8896 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::LockType(is.read_enum_or_unknown()?));
                 },
-                7906 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::TraitTrackSyncInfo(is.read_message()?));
+                10762 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::TraitTrackSyncInfo(is.read_message()?));
                 },
-                1200 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightComboWinNum(is.read_uint32()?));
+                3688 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightComboWinNum(is.read_uint32()?));
                 },
-                3152 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightMaxAvatarCount(is.read_uint32()?));
+                4384 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightMaxAvatarCount(is.read_uint32()?));
+                },
+                8496 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightOffFieldMaxCount(is.read_uint32()?));
+                },
+                3498 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightDamageSttInfo(is.read_message()?));
+                },
+                13906 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EliteBranchSyncInfo(is.read_message()?));
+                },
+                1842 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddNpcInfo(is.read_message()?));
+                },
+                12138 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateNpcInfo(is.read_message()?));
+                },
+                16320 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveNpcUniqueId(is.read_uint32()?));
+                },
+                3090 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AddForgeInfo(is.read_message()?));
+                },
+                7274 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::UpdateForgeInfo(is.read_message()?));
+                },
+                12512 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveForgeUniqueId(is.read_uint32()?));
+                },
+                4466 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AugmentSyncInfo(is.read_message()?));
+                },
+                458 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::EquipmentTrackSyncInfo(is.read_message()?));
+                },
+                9458 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightSyncGameItemInfo(is.read_message()?));
+                },
+                424 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveOrbUniqueId(is.read_uint32()?));
+                },
+                13280 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::FHHHEBLMOBL(is.read_uint32()?));
+                },
+                8178 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GridFightTutorialSync(is.read_message()?));
+                },
+                3746 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::SyncLockInfo(is.read_message()?));
+                },
+                12864 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::RemoveTraitEffectId(is.read_uint32()?));
+                },
+                11554 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::BAODHPCOJLH(is.read_message()?));
+                },
+                8130 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::JIFKOHLNHAK(is.read_message()?));
+                },
+                4128 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GDPBJDHGFLB(is.read_uint32()?));
+                },
+                6386 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::POIPGNHONMA(is.read_message()?));
+                },
+                3384 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::AJIMOAMGCII(is.read_uint32()?));
+                },
+                2056 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::HLFBBANMJDJ(is.read_uint32()?));
                 },
                 7968 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightOffFieldMaxCount(is.read_uint32()?));
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::KACHJHDMNLM(is.read_uint32()?));
                 },
-                4690 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightDamageSttInfo(is.read_message()?));
+                1122 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::CFNPGNMPNDN(is.read_message()?));
                 },
-                7402 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EliteBranchSyncInfo(is.read_message()?));
+                14866 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::PGPKPMOIAIL(is.read_message()?));
                 },
-                12794 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddNpcInfo(is.read_message()?));
+                152 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::CJEMKCOCECG(is.read_uint32()?));
                 },
-                11402 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateNpcInfo(is.read_message()?));
+                14506 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::IBCEPCFFMOL(is.read_message()?));
                 },
-                1208 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveNpcUniqueId(is.read_uint32()?));
-                },
-                14218 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AddForgeInfo(is.read_message()?));
-                },
-                378 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::UpdateForgeInfo(is.read_message()?));
-                },
-                15016 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveForgeUniqueId(is.read_uint32()?));
-                },
-                4778 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AugmentSyncInfo(is.read_message()?));
-                },
-                8250 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EquipmentTrackSyncInfo(is.read_message()?));
-                },
-                8290 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightSyncGameItemInfo(is.read_message()?));
-                },
-                4168 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveOrbUniqueId(is.read_uint32()?));
-                },
-                2640 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::FLMPADHOKHJ(is.read_uint32()?));
-                },
-                13730 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::GridFightTutorialSync(is.read_message()?));
-                },
-                13402 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::SyncLockInfo(is.read_message()?));
-                },
-                7248 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::RemoveTraitEffectId(is.read_uint32()?));
-                },
-                16346 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::DJIKOKDDJEI(is.read_message()?));
-                },
-                2186 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::AICDHILPCOC(is.read_message()?));
-                },
-                14680 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::PNKFPEMHFIF(is.read_uint32()?));
-                },
-                1418 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::MCOKOIFPMCM(is.read_message()?));
-                },
-                8520 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::ODKNCCEKEKL(is.read_uint32()?));
-                },
-                1584 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::IHKCFOMJGLL(is.read_uint32()?));
-                },
-                13600 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::JGJDAOMKFKA(is.read_uint32()?));
-                },
-                8298 => {
-                    self.DEBKBABACIC = ::std::option::Option::Some(grid_fight_sync_data::DEBKBABACIC::EBIGFBEFFDH(is.read_message()?));
+                13026 => {
+                    self.KCOCCGEOECO = ::std::option::Option::Some(grid_fight_sync_data::KCOCCGEOECO::GMJLJDJDIGM(is.read_message()?));
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -2593,189 +2804,204 @@ impl ::protobuf::Message for GridFightSyncData {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let ::std::option::Option::Some(ref v) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(ref v) = self.KCOCCGEOECO {
             match v {
-                &grid_fight_sync_data::DEBKBABACIC::AddRoleInfo(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::AddRoleInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::UpdateRoleInfo(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::UpdateRoleInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::RemoveRoleUniqueId(v) => {
-                    my_size += ::protobuf::rt::uint32_size(502, v);
+                &grid_fight_sync_data::KCOCCGEOECO::RemoveRoleUniqueId(v) => {
+                    my_size += ::protobuf::rt::uint32_size(1704, v);
                 },
-                &grid_fight_sync_data::DEBKBABACIC::AddGameItemInfo(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::AddGameItemInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::UpdateGameItemInfo(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::UpdateGameItemInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::RemoveGameItemInfo(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::RemoveGameItemInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::ItemValue(v) => {
-                    my_size += ::protobuf::rt::uint32_size(1211, v);
+                &grid_fight_sync_data::KCOCCGEOECO::ItemValue(v) => {
+                    my_size += ::protobuf::rt::uint32_size(1943, v);
                 },
-                &grid_fight_sync_data::DEBKBABACIC::PlayerLevel(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::PlayerLevel(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightLineupHp(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightLineupHp(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::MaxBattleRoleNum(v) => {
-                    my_size += ::protobuf::rt::uint32_size(1368, v);
+                &grid_fight_sync_data::KCOCCGEOECO::MaxBattleRoleNum(v) => {
+                    my_size += ::protobuf::rt::uint32_size(72, v);
                 },
-                &grid_fight_sync_data::DEBKBABACIC::ShopSyncInfo(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::ShopSyncInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::PendingAction(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::PendingAction(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::PortalServerDataUpdate(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::PortalServerDataUpdate(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::LevelSyncInfo(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::LevelSyncInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::OrbSyncInfo(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::OrbSyncInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::SectionRecordSyncInfo(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::SectionRecordSyncInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridGameAugmentUpdate(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::GridGameAugmentUpdate(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::RemoveAugmentUniqueId(v) => {
-                    my_size += ::protobuf::rt::uint32_size(1202, v);
+                &grid_fight_sync_data::KCOCCGEOECO::RemoveAugmentUniqueId(v) => {
+                    my_size += ::protobuf::rt::uint32_size(523, v);
                 },
-                &grid_fight_sync_data::DEBKBABACIC::FinishPendingActionPos(v) => {
-                    my_size += ::protobuf::rt::uint32_size(321, v);
+                &grid_fight_sync_data::KCOCCGEOECO::FinishPendingActionPos(v) => {
+                    my_size += ::protobuf::rt::uint32_size(573, v);
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightMaxInterestGold(v) => {
-                    my_size += ::protobuf::rt::uint32_size(1332, v);
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightMaxInterestGold(v) => {
+                    my_size += ::protobuf::rt::uint32_size(855, v);
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightBuyExpCost(v) => {
-                    my_size += ::protobuf::rt::uint32_size(1139, v);
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightBuyExpCost(v) => {
+                    my_size += ::protobuf::rt::uint32_size(1241, v);
                 },
-                &grid_fight_sync_data::DEBKBABACIC::TraitSyncInfo(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::TraitSyncInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::LockType(v) => {
-                    my_size += ::protobuf::rt::int32_size(1025, v.value());
+                &grid_fight_sync_data::KCOCCGEOECO::LockType(v) => {
+                    my_size += ::protobuf::rt::int32_size(1112, v.value());
                 },
-                &grid_fight_sync_data::DEBKBABACIC::TraitTrackSyncInfo(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::TraitTrackSyncInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightComboWinNum(v) => {
-                    my_size += ::protobuf::rt::uint32_size(150, v);
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightComboWinNum(v) => {
+                    my_size += ::protobuf::rt::uint32_size(461, v);
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightMaxAvatarCount(v) => {
-                    my_size += ::protobuf::rt::uint32_size(394, v);
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightMaxAvatarCount(v) => {
+                    my_size += ::protobuf::rt::uint32_size(548, v);
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightOffFieldMaxCount(v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightOffFieldMaxCount(v) => {
+                    my_size += ::protobuf::rt::uint32_size(1062, v);
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightDamageSttInfo(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::EliteBranchSyncInfo(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::AddNpcInfo(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::UpdateNpcInfo(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::RemoveNpcUniqueId(v) => {
+                    my_size += ::protobuf::rt::uint32_size(2040, v);
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::AddForgeInfo(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::UpdateForgeInfo(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::RemoveForgeUniqueId(v) => {
+                    my_size += ::protobuf::rt::uint32_size(1564, v);
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::AugmentSyncInfo(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::EquipmentTrackSyncInfo(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightSyncGameItemInfo(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::RemoveOrbUniqueId(v) => {
+                    my_size += ::protobuf::rt::uint32_size(53, v);
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::FHHHEBLMOBL(v) => {
+                    my_size += ::protobuf::rt::uint32_size(1660, v);
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightTutorialSync(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::SyncLockInfo(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::RemoveTraitEffectId(v) => {
+                    my_size += ::protobuf::rt::uint32_size(1608, v);
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::BAODHPCOJLH(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::JIFKOHLNHAK(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::GDPBJDHGFLB(v) => {
+                    my_size += ::protobuf::rt::uint32_size(516, v);
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::POIPGNHONMA(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::AJIMOAMGCII(v) => {
+                    my_size += ::protobuf::rt::uint32_size(423, v);
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::HLFBBANMJDJ(v) => {
+                    my_size += ::protobuf::rt::uint32_size(257, v);
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::KACHJHDMNLM(v) => {
                     my_size += ::protobuf::rt::uint32_size(996, v);
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightDamageSttInfo(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::CFNPGNMPNDN(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::EliteBranchSyncInfo(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::PGPKPMOIAIL(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::AddNpcInfo(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::CJEMKCOCECG(v) => {
+                    my_size += ::protobuf::rt::uint32_size(19, v);
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::IBCEPCFFMOL(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::UpdateNpcInfo(ref v) => {
-                    let len = v.compute_size();
-                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::RemoveNpcUniqueId(v) => {
-                    my_size += ::protobuf::rt::uint32_size(151, v);
-                },
-                &grid_fight_sync_data::DEBKBABACIC::AddForgeInfo(ref v) => {
-                    let len = v.compute_size();
-                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::UpdateForgeInfo(ref v) => {
-                    let len = v.compute_size();
-                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::RemoveForgeUniqueId(v) => {
-                    my_size += ::protobuf::rt::uint32_size(1877, v);
-                },
-                &grid_fight_sync_data::DEBKBABACIC::AugmentSyncInfo(ref v) => {
-                    let len = v.compute_size();
-                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::EquipmentTrackSyncInfo(ref v) => {
-                    let len = v.compute_size();
-                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightSyncGameItemInfo(ref v) => {
-                    let len = v.compute_size();
-                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::RemoveOrbUniqueId(v) => {
-                    my_size += ::protobuf::rt::uint32_size(521, v);
-                },
-                &grid_fight_sync_data::DEBKBABACIC::FLMPADHOKHJ(v) => {
-                    my_size += ::protobuf::rt::uint32_size(330, v);
-                },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightTutorialSync(ref v) => {
-                    let len = v.compute_size();
-                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::SyncLockInfo(ref v) => {
-                    let len = v.compute_size();
-                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::RemoveTraitEffectId(v) => {
-                    my_size += ::protobuf::rt::uint32_size(906, v);
-                },
-                &grid_fight_sync_data::DEBKBABACIC::DJIKOKDDJEI(ref v) => {
-                    let len = v.compute_size();
-                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::AICDHILPCOC(ref v) => {
-                    let len = v.compute_size();
-                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::PNKFPEMHFIF(v) => {
-                    my_size += ::protobuf::rt::uint32_size(1835, v);
-                },
-                &grid_fight_sync_data::DEBKBABACIC::MCOKOIFPMCM(ref v) => {
-                    let len = v.compute_size();
-                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::ODKNCCEKEKL(v) => {
-                    my_size += ::protobuf::rt::uint32_size(1065, v);
-                },
-                &grid_fight_sync_data::DEBKBABACIC::IHKCFOMJGLL(v) => {
-                    my_size += ::protobuf::rt::uint32_size(198, v);
-                },
-                &grid_fight_sync_data::DEBKBABACIC::JGJDAOMKFKA(v) => {
-                    my_size += ::protobuf::rt::uint32_size(1700, v);
-                },
-                &grid_fight_sync_data::DEBKBABACIC::EBIGFBEFFDH(ref v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::GMJLJDJDIGM(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
@@ -2787,160 +3013,172 @@ impl ::protobuf::Message for GridFightSyncData {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let ::std::option::Option::Some(ref v) = self.DEBKBABACIC {
+        if let ::std::option::Option::Some(ref v) = self.KCOCCGEOECO {
             match v {
-                &grid_fight_sync_data::DEBKBABACIC::AddRoleInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(879, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::AddRoleInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(210, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::UpdateRoleInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1390, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::UpdateRoleInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(393, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::RemoveRoleUniqueId(v) => {
-                    os.write_uint32(502, v)?;
+                &grid_fight_sync_data::KCOCCGEOECO::RemoveRoleUniqueId(v) => {
+                    os.write_uint32(1704, v)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::AddGameItemInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(190, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::AddGameItemInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1513, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::UpdateGameItemInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1980, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::UpdateGameItemInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(284, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::RemoveGameItemInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1563, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::RemoveGameItemInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1129, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::ItemValue(v) => {
-                    os.write_uint32(1211, v)?;
+                &grid_fight_sync_data::KCOCCGEOECO::ItemValue(v) => {
+                    os.write_uint32(1943, v)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::PlayerLevel(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(442, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::PlayerLevel(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(995, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightLineupHp(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(897, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightLineupHp(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1138, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::MaxBattleRoleNum(v) => {
-                    os.write_uint32(1368, v)?;
+                &grid_fight_sync_data::KCOCCGEOECO::MaxBattleRoleNum(v) => {
+                    os.write_uint32(72, v)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::ShopSyncInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(138, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::ShopSyncInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(2039, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::PendingAction(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1339, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::PendingAction(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(786, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::PortalServerDataUpdate(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(546, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::PortalServerDataUpdate(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(271, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::LevelSyncInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1046, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::LevelSyncInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(838, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::OrbSyncInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(622, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::OrbSyncInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1895, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::SectionRecordSyncInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(548, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::SectionRecordSyncInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1155, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridGameAugmentUpdate(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1516, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::GridGameAugmentUpdate(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1994, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::RemoveAugmentUniqueId(v) => {
-                    os.write_uint32(1202, v)?;
+                &grid_fight_sync_data::KCOCCGEOECO::RemoveAugmentUniqueId(v) => {
+                    os.write_uint32(523, v)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::FinishPendingActionPos(v) => {
-                    os.write_uint32(321, v)?;
+                &grid_fight_sync_data::KCOCCGEOECO::FinishPendingActionPos(v) => {
+                    os.write_uint32(573, v)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightMaxInterestGold(v) => {
-                    os.write_uint32(1332, v)?;
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightMaxInterestGold(v) => {
+                    os.write_uint32(855, v)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightBuyExpCost(v) => {
-                    os.write_uint32(1139, v)?;
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightBuyExpCost(v) => {
+                    os.write_uint32(1241, v)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::TraitSyncInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1935, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::TraitSyncInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(258, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::LockType(v) => {
-                    os.write_enum(1025, ::protobuf::EnumOrUnknown::value(&v))?;
+                &grid_fight_sync_data::KCOCCGEOECO::LockType(v) => {
+                    os.write_enum(1112, ::protobuf::EnumOrUnknown::value(&v))?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::TraitTrackSyncInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(988, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::TraitTrackSyncInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1345, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightComboWinNum(v) => {
-                    os.write_uint32(150, v)?;
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightComboWinNum(v) => {
+                    os.write_uint32(461, v)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightMaxAvatarCount(v) => {
-                    os.write_uint32(394, v)?;
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightMaxAvatarCount(v) => {
+                    os.write_uint32(548, v)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightOffFieldMaxCount(v) => {
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightOffFieldMaxCount(v) => {
+                    os.write_uint32(1062, v)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightDamageSttInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(437, v, os)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::EliteBranchSyncInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1738, v, os)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::AddNpcInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(230, v, os)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::UpdateNpcInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1517, v, os)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::RemoveNpcUniqueId(v) => {
+                    os.write_uint32(2040, v)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::AddForgeInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(386, v, os)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::UpdateForgeInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(909, v, os)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::RemoveForgeUniqueId(v) => {
+                    os.write_uint32(1564, v)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::AugmentSyncInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(558, v, os)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::EquipmentTrackSyncInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(57, v, os)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightSyncGameItemInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1182, v, os)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::RemoveOrbUniqueId(v) => {
+                    os.write_uint32(53, v)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::FHHHEBLMOBL(v) => {
+                    os.write_uint32(1660, v)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::GridFightTutorialSync(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1022, v, os)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::SyncLockInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(468, v, os)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::RemoveTraitEffectId(v) => {
+                    os.write_uint32(1608, v)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::BAODHPCOJLH(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1444, v, os)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::JIFKOHLNHAK(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1016, v, os)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::GDPBJDHGFLB(v) => {
+                    os.write_uint32(516, v)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::POIPGNHONMA(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(798, v, os)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::AJIMOAMGCII(v) => {
+                    os.write_uint32(423, v)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::HLFBBANMJDJ(v) => {
+                    os.write_uint32(257, v)?;
+                },
+                &grid_fight_sync_data::KCOCCGEOECO::KACHJHDMNLM(v) => {
                     os.write_uint32(996, v)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightDamageSttInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(586, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::CFNPGNMPNDN(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(140, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::EliteBranchSyncInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(925, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::PGPKPMOIAIL(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1858, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::AddNpcInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1599, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::CJEMKCOCECG(v) => {
+                    os.write_uint32(19, v)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::UpdateNpcInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1425, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::IBCEPCFFMOL(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1813, v, os)?;
                 },
-                &grid_fight_sync_data::DEBKBABACIC::RemoveNpcUniqueId(v) => {
-                    os.write_uint32(151, v)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::AddForgeInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1777, v, os)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::UpdateForgeInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(47, v, os)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::RemoveForgeUniqueId(v) => {
-                    os.write_uint32(1877, v)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::AugmentSyncInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(597, v, os)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::EquipmentTrackSyncInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1031, v, os)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightSyncGameItemInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1036, v, os)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::RemoveOrbUniqueId(v) => {
-                    os.write_uint32(521, v)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::FLMPADHOKHJ(v) => {
-                    os.write_uint32(330, v)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::GridFightTutorialSync(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1716, v, os)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::SyncLockInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1675, v, os)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::RemoveTraitEffectId(v) => {
-                    os.write_uint32(906, v)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::DJIKOKDDJEI(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(2043, v, os)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::AICDHILPCOC(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(273, v, os)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::PNKFPEMHFIF(v) => {
-                    os.write_uint32(1835, v)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::MCOKOIFPMCM(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(177, v, os)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::ODKNCCEKEKL(v) => {
-                    os.write_uint32(1065, v)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::IHKCFOMJGLL(v) => {
-                    os.write_uint32(198, v)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::JGJDAOMKFKA(v) => {
-                    os.write_uint32(1700, v)?;
-                },
-                &grid_fight_sync_data::DEBKBABACIC::EBIGFBEFFDH(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1037, v, os)?;
+                &grid_fight_sync_data::KCOCCGEOECO::GMJLJDJDIGM(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1628, v, os)?;
                 },
             };
         }
@@ -2961,63 +3199,67 @@ impl ::protobuf::Message for GridFightSyncData {
     }
 
     fn clear(&mut self) {
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
-        self.DEBKBABACIC = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
+        self.KCOCCGEOECO = ::std::option::Option::None;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightSyncData {
         static instance: GridFightSyncData = GridFightSyncData {
-            DEBKBABACIC: ::std::option::Option::None,
+            KCOCCGEOECO: ::std::option::Option::None,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -3046,8 +3288,8 @@ pub mod grid_fight_sync_data {
 
     #[derive(Clone,PartialEq,Debug)]
     #[non_exhaustive]
-    // @@protoc_insertion_point(oneof:GridFightSyncData.DEBKBABACIC)
-    pub enum DEBKBABACIC {
+    // @@protoc_insertion_point(oneof:GridFightSyncData.KCOCCGEOECO)
+    pub enum KCOCCGEOECO {
         // @@protoc_insertion_point(oneof_field:GridFightSyncData.add_role_info)
         AddRoleInfo(super::super::GridGameRoleInfo::GridGameRoleInfo),
         // @@protoc_insertion_point(oneof_field:GridFightSyncData.update_role_info)
@@ -3126,131 +3368,145 @@ pub mod grid_fight_sync_data {
         GridFightSyncGameItemInfo(super::super::GridFightGameItemInfo::GridFightGameItemInfo),
         // @@protoc_insertion_point(oneof_field:GridFightSyncData.remove_orb_unique_id)
         RemoveOrbUniqueId(u32),
-        // @@protoc_insertion_point(oneof_field:GridFightSyncData.FLMPADHOKHJ)
-        FLMPADHOKHJ(u32),
+        // @@protoc_insertion_point(oneof_field:GridFightSyncData.FHHHEBLMOBL)
+        FHHHEBLMOBL(u32),
         // @@protoc_insertion_point(oneof_field:GridFightSyncData.grid_fight_tutorial_sync)
         GridFightTutorialSync(super::super::GridFightTutorialSyncInfo::GridFightTutorialSyncInfo),
         // @@protoc_insertion_point(oneof_field:GridFightSyncData.sync_lock_info)
         SyncLockInfo(super::super::GridFightLockInfo::GridFightLockInfo),
         // @@protoc_insertion_point(oneof_field:GridFightSyncData.remove_trait_effect_id)
         RemoveTraitEffectId(u32),
-        // @@protoc_insertion_point(oneof_field:GridFightSyncData.DJIKOKDDJEI)
-        DJIKOKDDJEI(super::super::NEAOHJMAPJN::NEAOHJMAPJN),
-        // @@protoc_insertion_point(oneof_field:GridFightSyncData.AICDHILPCOC)
-        AICDHILPCOC(super::super::NEAOHJMAPJN::NEAOHJMAPJN),
-        // @@protoc_insertion_point(oneof_field:GridFightSyncData.PNKFPEMHFIF)
-        PNKFPEMHFIF(u32),
-        // @@protoc_insertion_point(oneof_field:GridFightSyncData.MCOKOIFPMCM)
-        MCOKOIFPMCM(super::super::GridGameOrbInfo::GridGameOrbInfo),
-        // @@protoc_insertion_point(oneof_field:GridFightSyncData.ODKNCCEKEKL)
-        ODKNCCEKEKL(u32),
-        // @@protoc_insertion_point(oneof_field:GridFightSyncData.IHKCFOMJGLL)
-        IHKCFOMJGLL(u32),
-        // @@protoc_insertion_point(oneof_field:GridFightSyncData.JGJDAOMKFKA)
-        JGJDAOMKFKA(u32),
-        // @@protoc_insertion_point(oneof_field:GridFightSyncData.EBIGFBEFFDH)
-        EBIGFBEFFDH(super::super::BCDMHKEJNGH::BCDMHKEJNGH),
+        // @@protoc_insertion_point(oneof_field:GridFightSyncData.BAODHPCOJLH)
+        BAODHPCOJLH(super::super::CKCKIDHMMEG::CKCKIDHMMEG),
+        // @@protoc_insertion_point(oneof_field:GridFightSyncData.JIFKOHLNHAK)
+        JIFKOHLNHAK(super::super::CKCKIDHMMEG::CKCKIDHMMEG),
+        // @@protoc_insertion_point(oneof_field:GridFightSyncData.GDPBJDHGFLB)
+        GDPBJDHGFLB(u32),
+        // @@protoc_insertion_point(oneof_field:GridFightSyncData.POIPGNHONMA)
+        POIPGNHONMA(super::super::GridGameOrbInfo::GridGameOrbInfo),
+        // @@protoc_insertion_point(oneof_field:GridFightSyncData.AJIMOAMGCII)
+        AJIMOAMGCII(u32),
+        // @@protoc_insertion_point(oneof_field:GridFightSyncData.HLFBBANMJDJ)
+        HLFBBANMJDJ(u32),
+        // @@protoc_insertion_point(oneof_field:GridFightSyncData.KACHJHDMNLM)
+        KACHJHDMNLM(u32),
+        // @@protoc_insertion_point(oneof_field:GridFightSyncData.CFNPGNMPNDN)
+        CFNPGNMPNDN(super::super::CMCJNKPKBEM::CMCJNKPKBEM),
+        // @@protoc_insertion_point(oneof_field:GridFightSyncData.PGPKPMOIAIL)
+        PGPKPMOIAIL(super::super::CLOEPPBCKGF::CLOEPPBCKGF),
+        // @@protoc_insertion_point(oneof_field:GridFightSyncData.CJEMKCOCECG)
+        CJEMKCOCECG(u32),
+        // @@protoc_insertion_point(oneof_field:GridFightSyncData.IBCEPCFFMOL)
+        IBCEPCFFMOL(super::super::DIBJGAKOCLO::DIBJGAKOCLO),
+        // @@protoc_insertion_point(oneof_field:GridFightSyncData.GMJLJDJDIGM)
+        GMJLJDJDIGM(super::super::JPBCKCDEGOM::JPBCKCDEGOM),
     }
 
-    impl ::protobuf::Oneof for DEBKBABACIC {
+    impl ::protobuf::Oneof for KCOCCGEOECO {
     }
 
-    impl ::protobuf::OneofFull for DEBKBABACIC {
+    impl ::protobuf::OneofFull for KCOCCGEOECO {
         fn descriptor() -> ::protobuf::reflect::OneofDescriptor {
             static descriptor: ::protobuf::rt::Lazy<::protobuf::reflect::OneofDescriptor> = ::protobuf::rt::Lazy::new();
-            descriptor.get(|| <super::GridFightSyncData as ::protobuf::MessageFull>::descriptor().oneof_by_name("DEBKBABACIC").unwrap()).clone()
+            descriptor.get(|| <super::GridFightSyncData as ::protobuf::MessageFull>::descriptor().oneof_by_name("KCOCCGEOECO").unwrap()).clone()
         }
     }
 
-    impl DEBKBABACIC {
+    impl KCOCCGEOECO {
         pub(in super) fn generated_oneof_descriptor_data() -> ::protobuf::reflect::GeneratedOneofDescriptorData {
-            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<DEBKBABACIC>("DEBKBABACIC")
+            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<KCOCCGEOECO>("KCOCCGEOECO")
         }
     }
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x17GridFightSyncData.proto\x1a\x11BCDMHKEJNGH.proto\x1a\x1cGridFightD\
-    amageSttInfo.proto\x1a\"GridFightEliteBranchSyncInfo.proto\x1a\x1dGridFi\
-    ghtGameAugmentAdd.proto\x1a\x20GridFightGameAugmentUpdate.proto\x1a\x1bG\
-    ridFightGameItemInfo.proto\x1a\x1fGridFightGameItemSyncInfo.proto\x1a\
-    \x1cGridFightLevelSyncInfo.proto\x1a\x1fGridFightLineupHpSyncInfo.proto\
-    \x1a\x17GridFightLockInfo.proto\x1a\x17GridFightLockType.proto\x1a\x1aGr\
-    idFightOrbSyncInfo.proto\x1a\x1cGridFightPendingAction.proto\x1a\"GridFi\
-    ghtPlayerLevelSyncInfo.proto\x1a%GridFightPortalServerDataUpdate.proto\
-    \x1a\x20GridFightSectionRecordInfo.proto\x1a\x1bGridFightShopSyncInfo.pr\
-    oto\x1a\x1cGridFightTraitSyncInfo.proto\x1a!GridFightTraitTrackSyncInfo.\
-    proto\x1a\x1fGridFightTutorialSyncInfo.proto\x1a\x1bGridGameForgeItemInf\
-    o.proto\x1a\x15GridGameNpcInfo.proto\x1a\x15GridGameOrbInfo.proto\x1a\
-    \x16GridGameRoleInfo.proto\x1a\x11NEAOHJMAPJN.proto\x1a\x20RoleTrackEqui\
-    pmentSyncInfo.proto\"\xe9\x19\n\x11GridFightSyncData\x128\n\radd_role_in\
-    fo\x18\xef\x06\x20\x01(\x0b2\x11.GridGameRoleInfoH\0R\x0baddRoleInfo\x12\
-    >\n\x10update_role_info\x18\xee\n\x20\x01(\x0b2\x11.GridGameRoleInfoH\0R\
-    \x0eupdateRoleInfo\x124\n\x15remove_role_unique_id\x18\xf6\x03\x20\x01(\
-    \rH\0R\x12removeRoleUniqueId\x12J\n\x12add_game_item_info\x18\xbe\x01\
-    \x20\x01(\x0b2\x1a.GridFightGameItemSyncInfoH\0R\x0faddGameItemInfo\x12P\
-    \n\x15update_game_item_info\x18\xbc\x0f\x20\x01(\x0b2\x1a.GridFightGameI\
-    temSyncInfoH\0R\x12updateGameItemInfo\x12P\n\x15remove_game_item_info\
-    \x18\x9b\x0c\x20\x01(\x0b2\x1a.GridFightGameItemSyncInfoH\0R\x12removeGa\
-    meItemInfo\x12\x20\n\nitem_value\x18\xbb\t\x20\x01(\rH\0R\titemValue\x12\
-    C\n\x0cplayer_level\x18\xba\x03\x20\x01(\x0b2\x1d.GridFightPlayerLevelSy\
-    ncInfoH\0R\x0bplayerLevel\x12N\n\x14grid_fight_lineup_hp\x18\x81\x07\x20\
-    \x01(\x0b2\x1a.GridFightLineupHpSyncInfoH\0R\x11gridFightLineupHp\x120\n\
-    \x13max_battle_role_num\x18\xd8\n\x20\x01(\rH\0R\x10maxBattleRoleNum\x12\
-    ?\n\x0eshop_sync_info\x18\x8a\x01\x20\x01(\x0b2\x16.GridFightShopSyncInf\
-    oH\0R\x0cshopSyncInfo\x12A\n\x0epending_action\x18\xbb\n\x20\x01(\x0b2\
-    \x17.GridFightPendingActionH\0R\rpendingAction\x12^\n\x19portal_server_d\
-    ata_update\x18\xa2\x04\x20\x01(\x0b2\x20.GridFightPortalServerDataUpdate\
-    H\0R\x16portalServerDataUpdate\x12B\n\x0flevel_sync_info\x18\x96\x08\x20\
-    \x01(\x0b2\x17.GridFightLevelSyncInfoH\0R\rlevelSyncInfo\x12<\n\rorb_syn\
-    c_info\x18\xee\x04\x20\x01(\x0b2\x15.GridFightOrbSyncInfoH\0R\x0borbSync\
-    Info\x12W\n\x18section_record_sync_info\x18\xa4\x04\x20\x01(\x0b2\x1b.Gr\
-    idFightSectionRecordInfoH\0R\x15sectionRecordSyncInfo\x12W\n\x18grid_gam\
-    e_augment_update\x18\xec\x0b\x20\x01(\x0b2\x1b.GridFightGameAugmentUpdat\
-    eH\0R\x15gridGameAugmentUpdate\x12:\n\x18remove_augment_unique_id\x18\
-    \xb2\t\x20\x01(\rH\0R\x15removeAugmentUniqueId\x12<\n\x19finish_pending_\
-    action_pos\x18\xc1\x02\x20\x01(\rH\0R\x16finishPendingActionPos\x12A\n\
-    \x1cgrid_fight_max_interest_gold\x18\xb4\n\x20\x01(\rH\0R\x18gridFightMa\
-    xInterestGold\x127\n\x17grid_fight_buy_exp_cost\x18\xf3\x08\x20\x01(\rH\
-    \0R\x13gridFightBuyExpCost\x12B\n\x0ftrait_sync_info\x18\x8f\x0f\x20\x01\
-    (\x0b2\x17.GridFightTraitSyncInfoH\0R\rtraitSyncInfo\x122\n\tlock_type\
-    \x18\x81\x08\x20\x01(\x0e2\x12.GridFightLockTypeH\0R\x08lockType\x12R\n\
-    \x15trait_track_sync_info\x18\xdc\x07\x20\x01(\x0b2\x1c.GridFightTraitTr\
-    ackSyncInfoH\0R\x12traitTrackSyncInfo\x129\n\x18grid_fight_combo_win_num\
-    \x18\x96\x01\x20\x01(\rH\0R\x14gridFightComboWinNum\x12?\n\x1bgrid_fight\
-    _max_avatar_count\x18\x8a\x03\x20\x01(\rH\0R\x17gridFightMaxAvatarCount\
-    \x12D\n\x1egrid_fight_off_field_max_count\x18\xe4\x07\x20\x01(\rH\0R\x19\
-    gridFightOffFieldMaxCount\x12V\n\x1agrid_fight_damage_stt_info\x18\xca\
-    \x04\x20\x01(\x0b2\x17.GridFightDamageSttInfoH\0R\x16gridFightDamageSttI\
-    nfo\x12U\n\x16elite_branch_sync_info\x18\x9d\x07\x20\x01(\x0b2\x1d.GridF\
-    ightEliteBranchSyncInfoH\0R\x13eliteBranchSyncInfo\x125\n\x0cadd_npc_inf\
-    o\x18\xbf\x0c\x20\x01(\x0b2\x10.GridGameNpcInfoH\0R\naddNpcInfo\x12;\n\
-    \x0fupdate_npc_info\x18\x91\x0b\x20\x01(\x0b2\x10.GridGameNpcInfoH\0R\ru\
-    pdateNpcInfo\x122\n\x14remove_npc_unique_id\x18\x97\x01\x20\x01(\rH\0R\
-    \x11removeNpcUniqueId\x12?\n\x0eadd_forge_info\x18\xf1\r\x20\x01(\x0b2\
-    \x16.GridGameForgeItemInfoH\0R\x0caddForgeInfo\x12D\n\x11update_forge_in\
-    fo\x18/\x20\x01(\x0b2\x16.GridGameForgeItemInfoH\0R\x0fupdateForgeInfo\
-    \x126\n\x16remove_forge_unique_id\x18\xd5\x0e\x20\x01(\rH\0R\x13removeFo\
-    rgeUniqueId\x12G\n\x11augment_sync_info\x18\xd5\x04\x20\x01(\x0b2\x18.Gr\
-    idFightGameAugmentAddH\0R\x0faugmentSyncInfo\x12Y\n\x19equipment_track_s\
-    ync_info\x18\x87\x08\x20\x01(\x0b2\x1b.RoleTrackEquipmentSyncInfoH\0R\
+    \n\x17GridFightSyncData.proto\x1a\x11CKCKIDHMMEG.proto\x1a\x11CLOEPPBCKG\
+    F.proto\x1a\x11CMCJNKPKBEM.proto\x1a\x11DIBJGAKOCLO.proto\x1a\x1cGridFig\
+    htDamageSttInfo.proto\x1a\"GridFightEliteBranchSyncInfo.proto\x1a\x1dGri\
+    dFightGameAugmentAdd.proto\x1a\x20GridFightGameAugmentUpdate.proto\x1a\
+    \x1bGridFightGameItemInfo.proto\x1a\x1fGridFightGameItemSyncInfo.proto\
+    \x1a\x1cGridFightLevelSyncInfo.proto\x1a\x1fGridFightLineupHpSyncInfo.pr\
+    oto\x1a\x17GridFightLockInfo.proto\x1a\x17GridFightLockType.proto\x1a\
+    \x1aGridFightOrbSyncInfo.proto\x1a\x1cGridFightPendingAction.proto\x1a\"\
+    GridFightPlayerLevelSyncInfo.proto\x1a%GridFightPortalServerDataUpdate.p\
+    roto\x1a\x20GridFightSectionRecordInfo.proto\x1a\x1bGridFightShopSyncInf\
+    o.proto\x1a\x1cGridFightTraitSyncInfo.proto\x1a!GridFightTraitTrackSyncI\
+    nfo.proto\x1a\x1fGridFightTutorialSyncInfo.proto\x1a\x1bGridGameForgeIte\
+    mInfo.proto\x1a\x15GridGameNpcInfo.proto\x1a\x15GridGameOrbInfo.proto\
+    \x1a\x16GridGameRoleInfo.proto\x1a\x11JPBCKCDEGOM.proto\x1a\x20RoleTrack\
+    EquipmentSyncInfo.proto\"\xa4\x1b\n\x11GridFightSyncData\x128\n\radd_rol\
+    e_info\x18\xd2\x01\x20\x01(\x0b2\x11.GridGameRoleInfoH\0R\x0baddRoleInfo\
+    \x12>\n\x10update_role_info\x18\x89\x03\x20\x01(\x0b2\x11.GridGameRoleIn\
+    foH\0R\x0eupdateRoleInfo\x124\n\x15remove_role_unique_id\x18\xa8\r\x20\
+    \x01(\rH\0R\x12removeRoleUniqueId\x12J\n\x12add_game_item_info\x18\xe9\
+    \x0b\x20\x01(\x0b2\x1a.GridFightGameItemSyncInfoH\0R\x0faddGameItemInfo\
+    \x12P\n\x15update_game_item_info\x18\x9c\x02\x20\x01(\x0b2\x1a.GridFight\
+    GameItemSyncInfoH\0R\x12updateGameItemInfo\x12P\n\x15remove_game_item_in\
+    fo\x18\xe9\x08\x20\x01(\x0b2\x1a.GridFightGameItemSyncInfoH\0R\x12remove\
+    GameItemInfo\x12\x20\n\nitem_value\x18\x97\x0f\x20\x01(\rH\0R\titemValue\
+    \x12C\n\x0cplayer_level\x18\xe3\x07\x20\x01(\x0b2\x1d.GridFightPlayerLev\
+    elSyncInfoH\0R\x0bplayerLevel\x12N\n\x14grid_fight_lineup_hp\x18\xf2\x08\
+    \x20\x01(\x0b2\x1a.GridFightLineupHpSyncInfoH\0R\x11gridFightLineupHp\
+    \x12/\n\x13max_battle_role_num\x18H\x20\x01(\rH\0R\x10maxBattleRoleNum\
+    \x12?\n\x0eshop_sync_info\x18\xf7\x0f\x20\x01(\x0b2\x16.GridFightShopSyn\
+    cInfoH\0R\x0cshopSyncInfo\x12A\n\x0epending_action\x18\x92\x06\x20\x01(\
+    \x0b2\x17.GridFightPendingActionH\0R\rpendingAction\x12^\n\x19portal_ser\
+    ver_data_update\x18\x8f\x02\x20\x01(\x0b2\x20.GridFightPortalServerDataU\
+    pdateH\0R\x16portalServerDataUpdate\x12B\n\x0flevel_sync_info\x18\xc6\
+    \x06\x20\x01(\x0b2\x17.GridFightLevelSyncInfoH\0R\rlevelSyncInfo\x12<\n\
+    \rorb_sync_info\x18\xe7\x0e\x20\x01(\x0b2\x15.GridFightOrbSyncInfoH\0R\
+    \x0borbSyncInfo\x12W\n\x18section_record_sync_info\x18\x83\t\x20\x01(\
+    \x0b2\x1b.GridFightSectionRecordInfoH\0R\x15sectionRecordSyncInfo\x12W\n\
+    \x18grid_game_augment_update\x18\xca\x0f\x20\x01(\x0b2\x1b.GridFightGame\
+    AugmentUpdateH\0R\x15gridGameAugmentUpdate\x12:\n\x18remove_augment_uniq\
+    ue_id\x18\x8b\x04\x20\x01(\rH\0R\x15removeAugmentUniqueId\x12<\n\x19fini\
+    sh_pending_action_pos\x18\xbd\x04\x20\x01(\rH\0R\x16finishPendingActionP\
+    os\x12A\n\x1cgrid_fight_max_interest_gold\x18\xd7\x06\x20\x01(\rH\0R\x18\
+    gridFightMaxInterestGold\x127\n\x17grid_fight_buy_exp_cost\x18\xd9\t\x20\
+    \x01(\rH\0R\x13gridFightBuyExpCost\x12B\n\x0ftrait_sync_info\x18\x82\x02\
+    \x20\x01(\x0b2\x17.GridFightTraitSyncInfoH\0R\rtraitSyncInfo\x122\n\tloc\
+    k_type\x18\xd8\x08\x20\x01(\x0e2\x12.GridFightLockTypeH\0R\x08lockType\
+    \x12R\n\x15trait_track_sync_info\x18\xc1\n\x20\x01(\x0b2\x1c.GridFightTr\
+    aitTrackSyncInfoH\0R\x12traitTrackSyncInfo\x129\n\x18grid_fight_combo_wi\
+    n_num\x18\xcd\x03\x20\x01(\rH\0R\x14gridFightComboWinNum\x12?\n\x1bgrid_\
+    fight_max_avatar_count\x18\xa4\x04\x20\x01(\rH\0R\x17gridFightMaxAvatarC\
+    ount\x12D\n\x1egrid_fight_off_field_max_count\x18\xa6\x08\x20\x01(\rH\0R\
+    \x19gridFightOffFieldMaxCount\x12V\n\x1agrid_fight_damage_stt_info\x18\
+    \xb5\x03\x20\x01(\x0b2\x17.GridFightDamageSttInfoH\0R\x16gridFightDamage\
+    SttInfo\x12U\n\x16elite_branch_sync_info\x18\xca\r\x20\x01(\x0b2\x1d.Gri\
+    dFightEliteBranchSyncInfoH\0R\x13eliteBranchSyncInfo\x125\n\x0cadd_npc_i\
+    nfo\x18\xe6\x01\x20\x01(\x0b2\x10.GridGameNpcInfoH\0R\naddNpcInfo\x12;\n\
+    \x0fupdate_npc_info\x18\xed\x0b\x20\x01(\x0b2\x10.GridGameNpcInfoH\0R\ru\
+    pdateNpcInfo\x122\n\x14remove_npc_unique_id\x18\xf8\x0f\x20\x01(\rH\0R\
+    \x11removeNpcUniqueId\x12?\n\x0eadd_forge_info\x18\x82\x03\x20\x01(\x0b2\
+    \x16.GridGameForgeItemInfoH\0R\x0caddForgeInfo\x12E\n\x11update_forge_in\
+    fo\x18\x8d\x07\x20\x01(\x0b2\x16.GridGameForgeItemInfoH\0R\x0fupdateForg\
+    eInfo\x126\n\x16remove_forge_unique_id\x18\x9c\x0c\x20\x01(\rH\0R\x13rem\
+    oveForgeUniqueId\x12G\n\x11augment_sync_info\x18\xae\x04\x20\x01(\x0b2\
+    \x18.GridFightGameAugmentAddH\0R\x0faugmentSyncInfo\x12X\n\x19equipment_\
+    track_sync_info\x189\x20\x01(\x0b2\x1b.RoleTrackEquipmentSyncInfoH\0R\
     \x16equipmentTrackSyncInfo\x12\\\n\x1egrid_fight_sync_game_item_info\x18\
-    \x8c\x08\x20\x01(\x0b2\x16.GridFightGameItemInfoH\0R\x19gridFightSyncGam\
-    eItemInfo\x122\n\x14remove_orb_unique_id\x18\x89\x04\x20\x01(\rH\0R\x11r\
-    emoveOrbUniqueId\x12#\n\x0bFLMPADHOKHJ\x18\xca\x02\x20\x01(\rH\0R\x0bFLM\
-    PADHOKHJ\x12V\n\x18grid_fight_tutorial_sync\x18\xb4\r\x20\x01(\x0b2\x1a.\
-    GridFightTutorialSyncInfoH\0R\x15gridFightTutorialSync\x12;\n\x0esync_lo\
-    ck_info\x18\x8b\r\x20\x01(\x0b2\x12.GridFightLockInfoH\0R\x0csyncLockInf\
-    o\x126\n\x16remove_trait_effect_id\x18\x8a\x07\x20\x01(\rH\0R\x13removeT\
-    raitEffectId\x121\n\x0bDJIKOKDDJEI\x18\xfb\x0f\x20\x01(\x0b2\x0c.NEAOHJM\
-    APJNH\0R\x0bDJIKOKDDJEI\x121\n\x0bAICDHILPCOC\x18\x91\x02\x20\x01(\x0b2\
-    \x0c.NEAOHJMAPJNH\0R\x0bAICDHILPCOC\x12#\n\x0bPNKFPEMHFIF\x18\xab\x0e\
-    \x20\x01(\rH\0R\x0bPNKFPEMHFIF\x125\n\x0bMCOKOIFPMCM\x18\xb1\x01\x20\x01\
-    (\x0b2\x10.GridGameOrbInfoH\0R\x0bMCOKOIFPMCM\x12#\n\x0bODKNCCEKEKL\x18\
-    \xa9\x08\x20\x01(\rH\0R\x0bODKNCCEKEKL\x12#\n\x0bIHKCFOMJGLL\x18\xc6\x01\
-    \x20\x01(\rH\0R\x0bIHKCFOMJGLL\x12#\n\x0bJGJDAOMKFKA\x18\xa4\r\x20\x01(\
-    \rH\0R\x0bJGJDAOMKFKA\x121\n\x0bEBIGFBEFFDH\x18\x8d\x08\x20\x01(\x0b2\
-    \x0c.BCDMHKEJNGHH\0R\x0bEBIGFBEFFDHB\r\n\x0bDEBKBABACICb\x06proto3\
+    \x9e\t\x20\x01(\x0b2\x16.GridFightGameItemInfoH\0R\x19gridFightSyncGameI\
+    temInfo\x121\n\x14remove_orb_unique_id\x185\x20\x01(\rH\0R\x11removeOrbU\
+    niqueId\x12#\n\x0bFHHHEBLMOBL\x18\xfc\x0c\x20\x01(\rH\0R\x0bFHHHEBLMOBL\
+    \x12V\n\x18grid_fight_tutorial_sync\x18\xfe\x07\x20\x01(\x0b2\x1a.GridFi\
+    ghtTutorialSyncInfoH\0R\x15gridFightTutorialSync\x12;\n\x0esync_lock_inf\
+    o\x18\xd4\x03\x20\x01(\x0b2\x12.GridFightLockInfoH\0R\x0csyncLockInfo\
+    \x126\n\x16remove_trait_effect_id\x18\xc8\x0c\x20\x01(\rH\0R\x13removeTr\
+    aitEffectId\x121\n\x0bBAODHPCOJLH\x18\xa4\x0b\x20\x01(\x0b2\x0c.CKCKIDHM\
+    MEGH\0R\x0bBAODHPCOJLH\x121\n\x0bJIFKOHLNHAK\x18\xf8\x07\x20\x01(\x0b2\
+    \x0c.CKCKIDHMMEGH\0R\x0bJIFKOHLNHAK\x12#\n\x0bGDPBJDHGFLB\x18\x84\x04\
+    \x20\x01(\rH\0R\x0bGDPBJDHGFLB\x125\n\x0bPOIPGNHONMA\x18\x9e\x06\x20\x01\
+    (\x0b2\x10.GridGameOrbInfoH\0R\x0bPOIPGNHONMA\x12#\n\x0bAJIMOAMGCII\x18\
+    \xa7\x03\x20\x01(\rH\0R\x0bAJIMOAMGCII\x12#\n\x0bHLFBBANMJDJ\x18\x81\x02\
+    \x20\x01(\rH\0R\x0bHLFBBANMJDJ\x12#\n\x0bKACHJHDMNLM\x18\xe4\x07\x20\x01\
+    (\rH\0R\x0bKACHJHDMNLM\x121\n\x0bCFNPGNMPNDN\x18\x8c\x01\x20\x01(\x0b2\
+    \x0c.CMCJNKPKBEMH\0R\x0bCFNPGNMPNDN\x121\n\x0bPGPKPMOIAIL\x18\xc2\x0e\
+    \x20\x01(\x0b2\x0c.CLOEPPBCKGFH\0R\x0bPGPKPMOIAIL\x12\"\n\x0bCJEMKCOCECG\
+    \x18\x13\x20\x01(\rH\0R\x0bCJEMKCOCECG\x121\n\x0bIBCEPCFFMOL\x18\x95\x0e\
+    \x20\x01(\x0b2\x0c.DIBJGAKOCLOH\0R\x0bIBCEPCFFMOL\x121\n\x0bGMJLJDJDIGM\
+    \x18\xdc\x0c\x20\x01(\x0b2\x0c.JPBCKCDEGOMH\0R\x0bGMJLJDJDIGMB\r\n\x0bKC\
+    OCCGEOECOb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -3267,8 +3523,11 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     static file_descriptor: ::protobuf::rt::Lazy<::protobuf::reflect::FileDescriptor> = ::protobuf::rt::Lazy::new();
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
-            let mut deps = ::std::vec::Vec::with_capacity(26);
-            deps.push(super::BCDMHKEJNGH::file_descriptor().clone());
+            let mut deps = ::std::vec::Vec::with_capacity(29);
+            deps.push(super::CKCKIDHMMEG::file_descriptor().clone());
+            deps.push(super::CLOEPPBCKGF::file_descriptor().clone());
+            deps.push(super::CMCJNKPKBEM::file_descriptor().clone());
+            deps.push(super::DIBJGAKOCLO::file_descriptor().clone());
             deps.push(super::GridFightDamageSttInfo::file_descriptor().clone());
             deps.push(super::GridFightEliteBranchSyncInfo::file_descriptor().clone());
             deps.push(super::GridFightGameAugmentAdd::file_descriptor().clone());
@@ -3292,7 +3551,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
             deps.push(super::GridGameNpcInfo::file_descriptor().clone());
             deps.push(super::GridGameOrbInfo::file_descriptor().clone());
             deps.push(super::GridGameRoleInfo::file_descriptor().clone());
-            deps.push(super::NEAOHJMAPJN::file_descriptor().clone());
+            deps.push(super::JPBCKCDEGOM::file_descriptor().clone());
             deps.push(super::RoleTrackEquipmentSyncInfo::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GridFightSyncData::generated_message_descriptor_data());

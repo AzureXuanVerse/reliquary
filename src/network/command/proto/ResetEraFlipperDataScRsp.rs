@@ -29,11 +29,11 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 pub struct ResetEraFlipperDataScRsp {
     // message fields
     // @@protoc_insertion_point(field:ResetEraFlipperDataScRsp.data)
-    pub data: ::protobuf::MessageField<super::LNMMKIBKCMP::LNMMKIBKCMP>,
-    // @@protoc_insertion_point(field:ResetEraFlipperDataScRsp.DPEIOBLGNGM)
-    pub DPEIOBLGNGM: bool,
+    pub data: ::protobuf::MessageField<super::HBJKMIICLNA::HBJKMIICLNA>,
     // @@protoc_insertion_point(field:ResetEraFlipperDataScRsp.retcode)
     pub retcode: u32,
+    // @@protoc_insertion_point(field:ResetEraFlipperDataScRsp.OIPLJJIODIL)
+    pub OIPLJJIODIL: bool,
     // special fields
     // @@protoc_insertion_point(special_field:ResetEraFlipperDataScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -53,20 +53,20 @@ impl ResetEraFlipperDataScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::LNMMKIBKCMP::LNMMKIBKCMP>(
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::HBJKMIICLNA::HBJKMIICLNA>(
             "data",
             |m: &ResetEraFlipperDataScRsp| { &m.data },
             |m: &mut ResetEraFlipperDataScRsp| { &mut m.data },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "DPEIOBLGNGM",
-            |m: &ResetEraFlipperDataScRsp| { &m.DPEIOBLGNGM },
-            |m: &mut ResetEraFlipperDataScRsp| { &mut m.DPEIOBLGNGM },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &ResetEraFlipperDataScRsp| { &m.retcode },
             |m: &mut ResetEraFlipperDataScRsp| { &mut m.retcode },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "OIPLJJIODIL",
+            |m: &ResetEraFlipperDataScRsp| { &m.OIPLJJIODIL },
+            |m: &mut ResetEraFlipperDataScRsp| { &mut m.OIPLJJIODIL },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ResetEraFlipperDataScRsp>(
             "ResetEraFlipperDataScRsp",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for ResetEraFlipperDataScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                18 => {
+                34 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.data)?;
                 },
-                8 => {
-                    self.DPEIOBLGNGM = is.read_bool()?;
-                },
-                72 => {
+                80 => {
                     self.retcode = is.read_uint32()?;
+                },
+                104 => {
+                    self.OIPLJJIODIL = is.read_bool()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -111,11 +111,11 @@ impl ::protobuf::Message for ResetEraFlipperDataScRsp {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.DPEIOBLGNGM != false {
-            my_size += 1 + 1;
-        }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(10, self.retcode);
+        }
+        if self.OIPLJJIODIL != false {
+            my_size += 1 + 1;
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -124,13 +124,13 @@ impl ::protobuf::Message for ResetEraFlipperDataScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if let Some(v) = self.data.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
-        }
-        if self.DPEIOBLGNGM != false {
-            os.write_bool(1, self.DPEIOBLGNGM)?;
+            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(9, self.retcode)?;
+            os.write_uint32(10, self.retcode)?;
+        }
+        if self.OIPLJJIODIL != false {
+            os.write_bool(13, self.OIPLJJIODIL)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -150,16 +150,16 @@ impl ::protobuf::Message for ResetEraFlipperDataScRsp {
 
     fn clear(&mut self) {
         self.data.clear();
-        self.DPEIOBLGNGM = false;
         self.retcode = 0;
+        self.OIPLJJIODIL = false;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ResetEraFlipperDataScRsp {
         static instance: ResetEraFlipperDataScRsp = ResetEraFlipperDataScRsp {
             data: ::protobuf::MessageField::none(),
-            DPEIOBLGNGM: false,
             retcode: 0,
+            OIPLJJIODIL: false,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -184,10 +184,10 @@ impl ::protobuf::reflect::ProtobufValue for ResetEraFlipperDataScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1eResetEraFlipperDataScRsp.proto\x1a\x11LNMMKIBKCMP.proto\"x\n\x18Re\
-    setEraFlipperDataScRsp\x12\x20\n\x04data\x18\x02\x20\x01(\x0b2\x0c.LNMMK\
-    IBKCMPR\x04data\x12\x20\n\x0bDPEIOBLGNGM\x18\x01\x20\x01(\x08R\x0bDPEIOB\
-    LGNGM\x12\x18\n\x07retcode\x18\t\x20\x01(\rR\x07retcodeb\x06proto3\
+    \n\x1eResetEraFlipperDataScRsp.proto\x1a\x11HBJKMIICLNA.proto\"x\n\x18Re\
+    setEraFlipperDataScRsp\x12\x20\n\x04data\x18\x04\x20\x01(\x0b2\x0c.HBJKM\
+    IICLNAR\x04data\x12\x18\n\x07retcode\x18\n\x20\x01(\rR\x07retcode\x12\
+    \x20\n\x0bOIPLJJIODIL\x18\r\x20\x01(\x08R\x0bOIPLJJIODILb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -205,7 +205,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::LNMMKIBKCMP::file_descriptor().clone());
+            deps.push(super::HBJKMIICLNA::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(ResetEraFlipperDataScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

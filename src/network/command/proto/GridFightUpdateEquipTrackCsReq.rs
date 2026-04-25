@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightUpdateEquipTrackCsReq {
     // message fields
-    // @@protoc_insertion_point(field:GridFightUpdateEquipTrackCsReq.GNCLIDFOALL)
-    pub GNCLIDFOALL: ::std::vec::Vec<super::KFLKLCKKMDP::KFLKLCKKMDP>,
     // @@protoc_insertion_point(field:GridFightUpdateEquipTrackCsReq.source)
     pub source: ::protobuf::EnumOrUnknown<super::GridFightEquipTrackSource::GridFightEquipTrackSource>,
+    // @@protoc_insertion_point(field:GridFightUpdateEquipTrackCsReq.BEPEKLPAHMC)
+    pub BEPEKLPAHMC: ::std::vec::Vec<super::DFKGECLBCDK::DFKGECLBCDK>,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightUpdateEquipTrackCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -51,15 +51,15 @@ impl GridFightUpdateEquipTrackCsReq {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "GNCLIDFOALL",
-            |m: &GridFightUpdateEquipTrackCsReq| { &m.GNCLIDFOALL },
-            |m: &mut GridFightUpdateEquipTrackCsReq| { &mut m.GNCLIDFOALL },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "source",
             |m: &GridFightUpdateEquipTrackCsReq| { &m.source },
             |m: &mut GridFightUpdateEquipTrackCsReq| { &mut m.source },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "BEPEKLPAHMC",
+            |m: &GridFightUpdateEquipTrackCsReq| { &m.BEPEKLPAHMC },
+            |m: &mut GridFightUpdateEquipTrackCsReq| { &mut m.BEPEKLPAHMC },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightUpdateEquipTrackCsReq>(
             "GridFightUpdateEquipTrackCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for GridFightUpdateEquipTrackCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                42 => {
-                    self.GNCLIDFOALL.push(is.read_message()?);
-                },
-                24 => {
+                120 => {
                     self.source = is.read_enum_or_unknown()?;
+                },
+                26 => {
+                    self.BEPEKLPAHMC.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,25 +97,25 @@ impl ::protobuf::Message for GridFightUpdateEquipTrackCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        for value in &self.GNCLIDFOALL {
+        if self.source != ::protobuf::EnumOrUnknown::new(super::GridFightEquipTrackSource::GridFightEquipTrackSource::HNKKNDHLOGN_HLNMMMKHEEM) {
+            my_size += ::protobuf::rt::int32_size(15, self.source.value());
+        }
+        for value in &self.BEPEKLPAHMC {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.source != ::protobuf::EnumOrUnknown::new(super::GridFightEquipTrackSource::GridFightEquipTrackSource::GridFightEquipTrackSource_EGKKIFHLLHA) {
-            my_size += ::protobuf::rt::int32_size(3, self.source.value());
-        }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.GNCLIDFOALL {
-            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
-        };
-        if self.source != ::protobuf::EnumOrUnknown::new(super::GridFightEquipTrackSource::GridFightEquipTrackSource::GridFightEquipTrackSource_EGKKIFHLLHA) {
-            os.write_enum(3, ::protobuf::EnumOrUnknown::value(&self.source))?;
+        if self.source != ::protobuf::EnumOrUnknown::new(super::GridFightEquipTrackSource::GridFightEquipTrackSource::HNKKNDHLOGN_HLNMMMKHEEM) {
+            os.write_enum(15, ::protobuf::EnumOrUnknown::value(&self.source))?;
         }
+        for v in &self.BEPEKLPAHMC {
+            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
+        };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -133,15 +133,15 @@ impl ::protobuf::Message for GridFightUpdateEquipTrackCsReq {
     }
 
     fn clear(&mut self) {
-        self.GNCLIDFOALL.clear();
-        self.source = ::protobuf::EnumOrUnknown::new(super::GridFightEquipTrackSource::GridFightEquipTrackSource::GridFightEquipTrackSource_EGKKIFHLLHA);
+        self.source = ::protobuf::EnumOrUnknown::new(super::GridFightEquipTrackSource::GridFightEquipTrackSource::HNKKNDHLOGN_HLNMMMKHEEM);
+        self.BEPEKLPAHMC.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightUpdateEquipTrackCsReq {
         static instance: GridFightUpdateEquipTrackCsReq = GridFightUpdateEquipTrackCsReq {
-            GNCLIDFOALL: ::std::vec::Vec::new(),
             source: ::protobuf::EnumOrUnknown::from_i32(0),
+            BEPEKLPAHMC: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,11 +166,11 @@ impl ::protobuf::reflect::ProtobufValue for GridFightUpdateEquipTrackCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n$GridFightUpdateEquipTrackCsReq.proto\x1a\x1fGridFightEquipTrackSource\
-    .proto\x1a\x11KFLKLCKKMDP.proto\"\x84\x01\n\x1eGridFightUpdateEquipTrack\
-    CsReq\x12.\n\x0bGNCLIDFOALL\x18\x05\x20\x03(\x0b2\x0c.KFLKLCKKMDPR\x0bGN\
-    CLIDFOALL\x122\n\x06source\x18\x03\x20\x01(\x0e2\x1a.GridFightEquipTrack\
-    SourceR\x06sourceb\x06proto3\
+    \n$GridFightUpdateEquipTrackCsReq.proto\x1a\x11DFKGECLBCDK.proto\x1a\x1f\
+    GridFightEquipTrackSource.proto\"\x84\x01\n\x1eGridFightUpdateEquipTrack\
+    CsReq\x122\n\x06source\x18\x0f\x20\x01(\x0e2\x1a.GridFightEquipTrackSour\
+    ceR\x06source\x12.\n\x0bBEPEKLPAHMC\x18\x03\x20\x03(\x0b2\x0c.DFKGECLBCD\
+    KR\x0bBEPEKLPAHMCb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -188,8 +188,8 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
+            deps.push(super::DFKGECLBCDK::file_descriptor().clone());
             deps.push(super::GridFightEquipTrackSource::file_descriptor().clone());
-            deps.push(super::KFLKLCKKMDP::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GridFightUpdateEquipTrackCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

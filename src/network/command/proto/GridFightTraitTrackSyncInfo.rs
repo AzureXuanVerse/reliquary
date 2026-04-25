@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightTraitTrackSyncInfo {
     // message fields
-    // @@protoc_insertion_point(field:GridFightTraitTrackSyncInfo.track_trait_id_list)
-    pub track_trait_id_list: ::std::vec::Vec<u32>,
     // @@protoc_insertion_point(field:GridFightTraitTrackSyncInfo.is_sync)
     pub is_sync: bool,
+    // @@protoc_insertion_point(field:GridFightTraitTrackSyncInfo.track_trait_id_list)
+    pub track_trait_id_list: ::std::vec::Vec<u32>,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightTraitTrackSyncInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -51,15 +51,15 @@ impl GridFightTraitTrackSyncInfo {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "track_trait_id_list",
-            |m: &GridFightTraitTrackSyncInfo| { &m.track_trait_id_list },
-            |m: &mut GridFightTraitTrackSyncInfo| { &mut m.track_trait_id_list },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "is_sync",
             |m: &GridFightTraitTrackSyncInfo| { &m.is_sync },
             |m: &mut GridFightTraitTrackSyncInfo| { &mut m.is_sync },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "track_trait_id_list",
+            |m: &GridFightTraitTrackSyncInfo| { &m.track_trait_id_list },
+            |m: &mut GridFightTraitTrackSyncInfo| { &mut m.track_trait_id_list },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightTraitTrackSyncInfo>(
             "GridFightTraitTrackSyncInfo",
@@ -79,14 +79,14 @@ impl ::protobuf::Message for GridFightTraitTrackSyncInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                66 => {
-                    is.read_repeated_packed_uint32_into(&mut self.track_trait_id_list)?;
-                },
-                64 => {
-                    self.track_trait_id_list.push(is.read_uint32()?);
-                },
                 96 => {
                     self.is_sync = is.read_bool()?;
+                },
+                114 => {
+                    is.read_repeated_packed_uint32_into(&mut self.track_trait_id_list)?;
+                },
+                112 => {
+                    self.track_trait_id_list.push(is.read_uint32()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -100,20 +100,20 @@ impl ::protobuf::Message for GridFightTraitTrackSyncInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        my_size += ::protobuf::rt::vec_packed_uint32_size(8, &self.track_trait_id_list);
         if self.is_sync != false {
             my_size += 1 + 1;
         }
+        my_size += ::protobuf::rt::vec_packed_uint32_size(14, &self.track_trait_id_list);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        os.write_repeated_packed_uint32(8, &self.track_trait_id_list)?;
         if self.is_sync != false {
             os.write_bool(12, self.is_sync)?;
         }
+        os.write_repeated_packed_uint32(14, &self.track_trait_id_list)?;
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -131,15 +131,15 @@ impl ::protobuf::Message for GridFightTraitTrackSyncInfo {
     }
 
     fn clear(&mut self) {
-        self.track_trait_id_list.clear();
         self.is_sync = false;
+        self.track_trait_id_list.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightTraitTrackSyncInfo {
         static instance: GridFightTraitTrackSyncInfo = GridFightTraitTrackSyncInfo {
-            track_trait_id_list: ::std::vec::Vec::new(),
             is_sync: false,
+            track_trait_id_list: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -165,8 +165,8 @@ impl ::protobuf::reflect::ProtobufValue for GridFightTraitTrackSyncInfo {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n!GridFightTraitTrackSyncInfo.proto\"e\n\x1bGridFightTraitTrackSyncInfo\
-    \x12-\n\x13track_trait_id_list\x18\x08\x20\x03(\rR\x10trackTraitIdList\
-    \x12\x17\n\x07is_sync\x18\x0c\x20\x01(\x08R\x06isSyncb\x06proto3\
+    \x12\x17\n\x07is_sync\x18\x0c\x20\x01(\x08R\x06isSync\x12-\n\x13track_tr\
+    ait_id_list\x18\x0e\x20\x03(\rR\x10trackTraitIdListb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -28,18 +28,18 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct FinishChenLingGameBoyScRsp {
     // message fields
-    // @@protoc_insertion_point(field:FinishChenLingGameBoyScRsp.HEONEOIEJIO)
-    pub HEONEOIEJIO: u64,
-    // @@protoc_insertion_point(field:FinishChenLingGameBoyScRsp.reward)
-    pub reward: ::protobuf::MessageField<super::ItemList::ItemList>,
-    // @@protoc_insertion_point(field:FinishChenLingGameBoyScRsp.LJEGKLBPJCN)
-    pub LJEGKLBPJCN: u64,
-    // @@protoc_insertion_point(field:FinishChenLingGameBoyScRsp.HPGCEKLODLL)
-    pub HPGCEKLODLL: ::std::vec::Vec<u32>,
     // @@protoc_insertion_point(field:FinishChenLingGameBoyScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:FinishChenLingGameBoyScRsp.OBHPGBEPIHD)
-    pub OBHPGBEPIHD: u32,
+    // @@protoc_insertion_point(field:FinishChenLingGameBoyScRsp.HHKCADKCLJC)
+    pub HHKCADKCLJC: u64,
+    // @@protoc_insertion_point(field:FinishChenLingGameBoyScRsp.ICMKGFLBEJP)
+    pub ICMKGFLBEJP: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:FinishChenLingGameBoyScRsp.reward)
+    pub reward: ::protobuf::MessageField<super::ItemList::ItemList>,
+    // @@protoc_insertion_point(field:FinishChenLingGameBoyScRsp.GIAOIMOFALH)
+    pub GIAOIMOFALH: u64,
+    // @@protoc_insertion_point(field:FinishChenLingGameBoyScRsp.GPJHJOOIJJC)
+    pub GPJHJOOIJJC: u32,
     // special fields
     // @@protoc_insertion_point(special_field:FinishChenLingGameBoyScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -60,9 +60,19 @@ impl FinishChenLingGameBoyScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(6);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "HEONEOIEJIO",
-            |m: &FinishChenLingGameBoyScRsp| { &m.HEONEOIEJIO },
-            |m: &mut FinishChenLingGameBoyScRsp| { &mut m.HEONEOIEJIO },
+            "retcode",
+            |m: &FinishChenLingGameBoyScRsp| { &m.retcode },
+            |m: &mut FinishChenLingGameBoyScRsp| { &mut m.retcode },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "HHKCADKCLJC",
+            |m: &FinishChenLingGameBoyScRsp| { &m.HHKCADKCLJC },
+            |m: &mut FinishChenLingGameBoyScRsp| { &mut m.HHKCADKCLJC },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "ICMKGFLBEJP",
+            |m: &FinishChenLingGameBoyScRsp| { &m.ICMKGFLBEJP },
+            |m: &mut FinishChenLingGameBoyScRsp| { &mut m.ICMKGFLBEJP },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemList::ItemList>(
             "reward",
@@ -70,24 +80,14 @@ impl FinishChenLingGameBoyScRsp {
             |m: &mut FinishChenLingGameBoyScRsp| { &mut m.reward },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "LJEGKLBPJCN",
-            |m: &FinishChenLingGameBoyScRsp| { &m.LJEGKLBPJCN },
-            |m: &mut FinishChenLingGameBoyScRsp| { &mut m.LJEGKLBPJCN },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "HPGCEKLODLL",
-            |m: &FinishChenLingGameBoyScRsp| { &m.HPGCEKLODLL },
-            |m: &mut FinishChenLingGameBoyScRsp| { &mut m.HPGCEKLODLL },
+            "GIAOIMOFALH",
+            |m: &FinishChenLingGameBoyScRsp| { &m.GIAOIMOFALH },
+            |m: &mut FinishChenLingGameBoyScRsp| { &mut m.GIAOIMOFALH },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "retcode",
-            |m: &FinishChenLingGameBoyScRsp| { &m.retcode },
-            |m: &mut FinishChenLingGameBoyScRsp| { &mut m.retcode },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "OBHPGBEPIHD",
-            |m: &FinishChenLingGameBoyScRsp| { &m.OBHPGBEPIHD },
-            |m: &mut FinishChenLingGameBoyScRsp| { &mut m.OBHPGBEPIHD },
+            "GPJHJOOIJJC",
+            |m: &FinishChenLingGameBoyScRsp| { &m.GPJHJOOIJJC },
+            |m: &mut FinishChenLingGameBoyScRsp| { &mut m.GPJHJOOIJJC },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<FinishChenLingGameBoyScRsp>(
             "FinishChenLingGameBoyScRsp",
@@ -107,26 +107,26 @@ impl ::protobuf::Message for FinishChenLingGameBoyScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
+                104 => {
+                    self.retcode = is.read_uint32()?;
+                },
                 88 => {
-                    self.HEONEOIEJIO = is.read_uint64()?;
+                    self.HHKCADKCLJC = is.read_uint64()?;
+                },
+                18 => {
+                    is.read_repeated_packed_uint32_into(&mut self.ICMKGFLBEJP)?;
+                },
+                16 => {
+                    self.ICMKGFLBEJP.push(is.read_uint32()?);
                 },
                 98 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.reward)?;
                 },
-                16 => {
-                    self.LJEGKLBPJCN = is.read_uint64()?;
-                },
-                50 => {
-                    is.read_repeated_packed_uint32_into(&mut self.HPGCEKLODLL)?;
-                },
                 48 => {
-                    self.HPGCEKLODLL.push(is.read_uint32()?);
+                    self.GIAOIMOFALH = is.read_uint64()?;
                 },
-                24 => {
-                    self.retcode = is.read_uint32()?;
-                },
-                64 => {
-                    self.OBHPGBEPIHD = is.read_uint32()?;
+                32 => {
+                    self.GPJHJOOIJJC = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -140,22 +140,22 @@ impl ::protobuf::Message for FinishChenLingGameBoyScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.HEONEOIEJIO != 0 {
-            my_size += ::protobuf::rt::uint64_size(11, self.HEONEOIEJIO);
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(13, self.retcode);
         }
+        if self.HHKCADKCLJC != 0 {
+            my_size += ::protobuf::rt::uint64_size(11, self.HHKCADKCLJC);
+        }
+        my_size += ::protobuf::rt::vec_packed_uint32_size(2, &self.ICMKGFLBEJP);
         if let Some(v) = self.reward.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.LJEGKLBPJCN != 0 {
-            my_size += ::protobuf::rt::uint64_size(2, self.LJEGKLBPJCN);
+        if self.GIAOIMOFALH != 0 {
+            my_size += ::protobuf::rt::uint64_size(6, self.GIAOIMOFALH);
         }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(6, &self.HPGCEKLODLL);
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.retcode);
-        }
-        if self.OBHPGBEPIHD != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.OBHPGBEPIHD);
+        if self.GPJHJOOIJJC != 0 {
+            my_size += ::protobuf::rt::uint32_size(4, self.GPJHJOOIJJC);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -163,21 +163,21 @@ impl ::protobuf::Message for FinishChenLingGameBoyScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.HEONEOIEJIO != 0 {
-            os.write_uint64(11, self.HEONEOIEJIO)?;
+        if self.retcode != 0 {
+            os.write_uint32(13, self.retcode)?;
         }
+        if self.HHKCADKCLJC != 0 {
+            os.write_uint64(11, self.HHKCADKCLJC)?;
+        }
+        os.write_repeated_packed_uint32(2, &self.ICMKGFLBEJP)?;
         if let Some(v) = self.reward.as_ref() {
             ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
         }
-        if self.LJEGKLBPJCN != 0 {
-            os.write_uint64(2, self.LJEGKLBPJCN)?;
+        if self.GIAOIMOFALH != 0 {
+            os.write_uint64(6, self.GIAOIMOFALH)?;
         }
-        os.write_repeated_packed_uint32(6, &self.HPGCEKLODLL)?;
-        if self.retcode != 0 {
-            os.write_uint32(3, self.retcode)?;
-        }
-        if self.OBHPGBEPIHD != 0 {
-            os.write_uint32(8, self.OBHPGBEPIHD)?;
+        if self.GPJHJOOIJJC != 0 {
+            os.write_uint32(4, self.GPJHJOOIJJC)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -196,23 +196,23 @@ impl ::protobuf::Message for FinishChenLingGameBoyScRsp {
     }
 
     fn clear(&mut self) {
-        self.HEONEOIEJIO = 0;
-        self.reward.clear();
-        self.LJEGKLBPJCN = 0;
-        self.HPGCEKLODLL.clear();
         self.retcode = 0;
-        self.OBHPGBEPIHD = 0;
+        self.HHKCADKCLJC = 0;
+        self.ICMKGFLBEJP.clear();
+        self.reward.clear();
+        self.GIAOIMOFALH = 0;
+        self.GPJHJOOIJJC = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static FinishChenLingGameBoyScRsp {
         static instance: FinishChenLingGameBoyScRsp = FinishChenLingGameBoyScRsp {
-            HEONEOIEJIO: 0,
-            reward: ::protobuf::MessageField::none(),
-            LJEGKLBPJCN: 0,
-            HPGCEKLODLL: ::std::vec::Vec::new(),
             retcode: 0,
-            OBHPGBEPIHD: 0,
+            HHKCADKCLJC: 0,
+            ICMKGFLBEJP: ::std::vec::Vec::new(),
+            reward: ::protobuf::MessageField::none(),
+            GIAOIMOFALH: 0,
+            GPJHJOOIJJC: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -238,12 +238,12 @@ impl ::protobuf::reflect::ProtobufValue for FinishChenLingGameBoyScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x20FinishChenLingGameBoyScRsp.proto\x1a\x0eItemList.proto\"\xe1\x01\n\
-    \x1aFinishChenLingGameBoyScRsp\x12\x20\n\x0bHEONEOIEJIO\x18\x0b\x20\x01(\
-    \x04R\x0bHEONEOIEJIO\x12!\n\x06reward\x18\x0c\x20\x01(\x0b2\t.ItemListR\
-    \x06reward\x12\x20\n\x0bLJEGKLBPJCN\x18\x02\x20\x01(\x04R\x0bLJEGKLBPJCN\
-    \x12\x20\n\x0bHPGCEKLODLL\x18\x06\x20\x03(\rR\x0bHPGCEKLODLL\x12\x18\n\
-    \x07retcode\x18\x03\x20\x01(\rR\x07retcode\x12\x20\n\x0bOBHPGBEPIHD\x18\
-    \x08\x20\x01(\rR\x0bOBHPGBEPIHDb\x06proto3\
+    \x1aFinishChenLingGameBoyScRsp\x12\x18\n\x07retcode\x18\r\x20\x01(\rR\
+    \x07retcode\x12\x20\n\x0bHHKCADKCLJC\x18\x0b\x20\x01(\x04R\x0bHHKCADKCLJ\
+    C\x12\x20\n\x0bICMKGFLBEJP\x18\x02\x20\x03(\rR\x0bICMKGFLBEJP\x12!\n\x06\
+    reward\x18\x0c\x20\x01(\x0b2\t.ItemListR\x06reward\x12\x20\n\x0bGIAOIMOF\
+    ALH\x18\x06\x20\x01(\x04R\x0bGIAOIMOFALH\x12\x20\n\x0bGPJHJOOIJJC\x18\
+    \x04\x20\x01(\rR\x0bGPJHJOOIJJCb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

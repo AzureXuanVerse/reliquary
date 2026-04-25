@@ -27,40 +27,40 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdChatType)
 pub enum CmdChatType {
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_MNFEPONEDDJ)
-    CmdChatType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_PNIMKKIMPEO)
-    CmdChatType_PNIMKKIMPEO = 3969,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_OELGMAPMEPA)
-    CmdChatType_OELGMAPMEPA = 4000,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_ECGOGIPEBPI)
-    CmdChatType_ECGOGIPEBPI = 3904,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_JOEDALCNLKP)
-    CmdChatType_JOEDALCNLKP = 3962,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_LFPINHAMEGL)
-    CmdChatType_LFPINHAMEGL = 3956,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_DDKGEFFKOCJ)
-    CmdChatType_DDKGEFFKOCJ = 3981,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_KBJOEGLKLOL)
-    CmdChatType_KBJOEGLKLOL = 3935,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_LPFLFCBPOFA)
-    CmdChatType_LPFLFCBPOFA = 3919,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_NEMOGGGKFBC)
-    CmdChatType_NEMOGGGKFBC = 3983,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_EGJLKBDLBNK)
-    CmdChatType_EGJLKBDLBNK = 3923,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_BKDFPAHKAOL)
-    CmdChatType_BKDFPAHKAOL = 3957,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_IKKPKGMOAIO)
-    CmdChatType_IKKPKGMOAIO = 3940,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_EEMHELLKPBL)
-    CmdChatType_EEMHELLKPBL = 3913,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_FJAJJOONNMB)
-    CmdChatType_FJAJJOONNMB = 3984,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_IKOMANAPLIL)
-    CmdChatType_IKOMANAPLIL = 3924,
-    // @@protoc_insertion_point(enum_value:CmdChatType.CmdChatType_HNPCOLGKANE)
-    CmdChatType_HNPCOLGKANE = 3946,
+    // @@protoc_insertion_point(enum_value:CmdChatType.HDCAHBFBODO_PCPDHELPKEM)
+    HDCAHBFBODO_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdGetChatEmojiListScRsp)
+    CmdGetChatEmojiListScRsp = 3926,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdGetPrivateChatHistoryCsReq)
+    CmdGetPrivateChatHistoryCsReq = 3914,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdGetPrivateChatHistoryScRsp)
+    CmdGetPrivateChatHistoryScRsp = 3918,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdGetChatEmojiListCsReq)
+    CmdGetChatEmojiListCsReq = 3963,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdHABEIPJGPNJ)
+    CmdHABEIPJGPNJ = 3995,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdMarkChatEmojiScRsp)
+    CmdMarkChatEmojiScRsp = 3901,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdRevcMsgScNotify)
+    CmdRevcMsgScNotify = 3994,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdGetLoginChatInfoScRsp)
+    CmdGetLoginChatInfoScRsp = 3938,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdGetLoginChatInfoCsReq)
+    CmdGetLoginChatInfoCsReq = 3904,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdBatchMarkChatEmojiCsReq)
+    CmdBatchMarkChatEmojiCsReq = 3974,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdSendMsgScRsp)
+    CmdSendMsgScRsp = 3910,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdBatchMarkChatEmojiScRsp)
+    CmdBatchMarkChatEmojiScRsp = 3937,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdGetChatFriendHistoryCsReq)
+    CmdGetChatFriendHistoryCsReq = 3909,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdSendMsgCsReq)
+    CmdSendMsgCsReq = 3991,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdGetChatFriendHistoryScRsp)
+    CmdGetChatFriendHistoryScRsp = 3998,
+    // @@protoc_insertion_point(enum_value:CmdChatType.CmdMarkChatEmojiCsReq)
+    CmdMarkChatEmojiCsReq = 3939,
 }
 
 impl ::protobuf::Enum for CmdChatType {
@@ -72,68 +72,68 @@ impl ::protobuf::Enum for CmdChatType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdChatType> {
         match value {
-            0 => ::std::option::Option::Some(CmdChatType::CmdChatType_MNFEPONEDDJ),
-            3969 => ::std::option::Option::Some(CmdChatType::CmdChatType_PNIMKKIMPEO),
-            4000 => ::std::option::Option::Some(CmdChatType::CmdChatType_OELGMAPMEPA),
-            3904 => ::std::option::Option::Some(CmdChatType::CmdChatType_ECGOGIPEBPI),
-            3962 => ::std::option::Option::Some(CmdChatType::CmdChatType_JOEDALCNLKP),
-            3956 => ::std::option::Option::Some(CmdChatType::CmdChatType_LFPINHAMEGL),
-            3981 => ::std::option::Option::Some(CmdChatType::CmdChatType_DDKGEFFKOCJ),
-            3935 => ::std::option::Option::Some(CmdChatType::CmdChatType_KBJOEGLKLOL),
-            3919 => ::std::option::Option::Some(CmdChatType::CmdChatType_LPFLFCBPOFA),
-            3983 => ::std::option::Option::Some(CmdChatType::CmdChatType_NEMOGGGKFBC),
-            3923 => ::std::option::Option::Some(CmdChatType::CmdChatType_EGJLKBDLBNK),
-            3957 => ::std::option::Option::Some(CmdChatType::CmdChatType_BKDFPAHKAOL),
-            3940 => ::std::option::Option::Some(CmdChatType::CmdChatType_IKKPKGMOAIO),
-            3913 => ::std::option::Option::Some(CmdChatType::CmdChatType_EEMHELLKPBL),
-            3984 => ::std::option::Option::Some(CmdChatType::CmdChatType_FJAJJOONNMB),
-            3924 => ::std::option::Option::Some(CmdChatType::CmdChatType_IKOMANAPLIL),
-            3946 => ::std::option::Option::Some(CmdChatType::CmdChatType_HNPCOLGKANE),
+            0 => ::std::option::Option::Some(CmdChatType::HDCAHBFBODO_PCPDHELPKEM),
+            3926 => ::std::option::Option::Some(CmdChatType::CmdGetChatEmojiListScRsp),
+            3914 => ::std::option::Option::Some(CmdChatType::CmdGetPrivateChatHistoryCsReq),
+            3918 => ::std::option::Option::Some(CmdChatType::CmdGetPrivateChatHistoryScRsp),
+            3963 => ::std::option::Option::Some(CmdChatType::CmdGetChatEmojiListCsReq),
+            3995 => ::std::option::Option::Some(CmdChatType::CmdHABEIPJGPNJ),
+            3901 => ::std::option::Option::Some(CmdChatType::CmdMarkChatEmojiScRsp),
+            3994 => ::std::option::Option::Some(CmdChatType::CmdRevcMsgScNotify),
+            3938 => ::std::option::Option::Some(CmdChatType::CmdGetLoginChatInfoScRsp),
+            3904 => ::std::option::Option::Some(CmdChatType::CmdGetLoginChatInfoCsReq),
+            3974 => ::std::option::Option::Some(CmdChatType::CmdBatchMarkChatEmojiCsReq),
+            3910 => ::std::option::Option::Some(CmdChatType::CmdSendMsgScRsp),
+            3937 => ::std::option::Option::Some(CmdChatType::CmdBatchMarkChatEmojiScRsp),
+            3909 => ::std::option::Option::Some(CmdChatType::CmdGetChatFriendHistoryCsReq),
+            3991 => ::std::option::Option::Some(CmdChatType::CmdSendMsgCsReq),
+            3998 => ::std::option::Option::Some(CmdChatType::CmdGetChatFriendHistoryScRsp),
+            3939 => ::std::option::Option::Some(CmdChatType::CmdMarkChatEmojiCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdChatType> {
         match str {
-            "CmdChatType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdChatType::CmdChatType_MNFEPONEDDJ),
-            "CmdChatType_PNIMKKIMPEO" => ::std::option::Option::Some(CmdChatType::CmdChatType_PNIMKKIMPEO),
-            "CmdChatType_OELGMAPMEPA" => ::std::option::Option::Some(CmdChatType::CmdChatType_OELGMAPMEPA),
-            "CmdChatType_ECGOGIPEBPI" => ::std::option::Option::Some(CmdChatType::CmdChatType_ECGOGIPEBPI),
-            "CmdChatType_JOEDALCNLKP" => ::std::option::Option::Some(CmdChatType::CmdChatType_JOEDALCNLKP),
-            "CmdChatType_LFPINHAMEGL" => ::std::option::Option::Some(CmdChatType::CmdChatType_LFPINHAMEGL),
-            "CmdChatType_DDKGEFFKOCJ" => ::std::option::Option::Some(CmdChatType::CmdChatType_DDKGEFFKOCJ),
-            "CmdChatType_KBJOEGLKLOL" => ::std::option::Option::Some(CmdChatType::CmdChatType_KBJOEGLKLOL),
-            "CmdChatType_LPFLFCBPOFA" => ::std::option::Option::Some(CmdChatType::CmdChatType_LPFLFCBPOFA),
-            "CmdChatType_NEMOGGGKFBC" => ::std::option::Option::Some(CmdChatType::CmdChatType_NEMOGGGKFBC),
-            "CmdChatType_EGJLKBDLBNK" => ::std::option::Option::Some(CmdChatType::CmdChatType_EGJLKBDLBNK),
-            "CmdChatType_BKDFPAHKAOL" => ::std::option::Option::Some(CmdChatType::CmdChatType_BKDFPAHKAOL),
-            "CmdChatType_IKKPKGMOAIO" => ::std::option::Option::Some(CmdChatType::CmdChatType_IKKPKGMOAIO),
-            "CmdChatType_EEMHELLKPBL" => ::std::option::Option::Some(CmdChatType::CmdChatType_EEMHELLKPBL),
-            "CmdChatType_FJAJJOONNMB" => ::std::option::Option::Some(CmdChatType::CmdChatType_FJAJJOONNMB),
-            "CmdChatType_IKOMANAPLIL" => ::std::option::Option::Some(CmdChatType::CmdChatType_IKOMANAPLIL),
-            "CmdChatType_HNPCOLGKANE" => ::std::option::Option::Some(CmdChatType::CmdChatType_HNPCOLGKANE),
+            "HDCAHBFBODO_PCPDHELPKEM" => ::std::option::Option::Some(CmdChatType::HDCAHBFBODO_PCPDHELPKEM),
+            "CmdGetChatEmojiListScRsp" => ::std::option::Option::Some(CmdChatType::CmdGetChatEmojiListScRsp),
+            "CmdGetPrivateChatHistoryCsReq" => ::std::option::Option::Some(CmdChatType::CmdGetPrivateChatHistoryCsReq),
+            "CmdGetPrivateChatHistoryScRsp" => ::std::option::Option::Some(CmdChatType::CmdGetPrivateChatHistoryScRsp),
+            "CmdGetChatEmojiListCsReq" => ::std::option::Option::Some(CmdChatType::CmdGetChatEmojiListCsReq),
+            "CmdHABEIPJGPNJ" => ::std::option::Option::Some(CmdChatType::CmdHABEIPJGPNJ),
+            "CmdMarkChatEmojiScRsp" => ::std::option::Option::Some(CmdChatType::CmdMarkChatEmojiScRsp),
+            "CmdRevcMsgScNotify" => ::std::option::Option::Some(CmdChatType::CmdRevcMsgScNotify),
+            "CmdGetLoginChatInfoScRsp" => ::std::option::Option::Some(CmdChatType::CmdGetLoginChatInfoScRsp),
+            "CmdGetLoginChatInfoCsReq" => ::std::option::Option::Some(CmdChatType::CmdGetLoginChatInfoCsReq),
+            "CmdBatchMarkChatEmojiCsReq" => ::std::option::Option::Some(CmdChatType::CmdBatchMarkChatEmojiCsReq),
+            "CmdSendMsgScRsp" => ::std::option::Option::Some(CmdChatType::CmdSendMsgScRsp),
+            "CmdBatchMarkChatEmojiScRsp" => ::std::option::Option::Some(CmdChatType::CmdBatchMarkChatEmojiScRsp),
+            "CmdGetChatFriendHistoryCsReq" => ::std::option::Option::Some(CmdChatType::CmdGetChatFriendHistoryCsReq),
+            "CmdSendMsgCsReq" => ::std::option::Option::Some(CmdChatType::CmdSendMsgCsReq),
+            "CmdGetChatFriendHistoryScRsp" => ::std::option::Option::Some(CmdChatType::CmdGetChatFriendHistoryScRsp),
+            "CmdMarkChatEmojiCsReq" => ::std::option::Option::Some(CmdChatType::CmdMarkChatEmojiCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdChatType] = &[
-        CmdChatType::CmdChatType_MNFEPONEDDJ,
-        CmdChatType::CmdChatType_PNIMKKIMPEO,
-        CmdChatType::CmdChatType_OELGMAPMEPA,
-        CmdChatType::CmdChatType_ECGOGIPEBPI,
-        CmdChatType::CmdChatType_JOEDALCNLKP,
-        CmdChatType::CmdChatType_LFPINHAMEGL,
-        CmdChatType::CmdChatType_DDKGEFFKOCJ,
-        CmdChatType::CmdChatType_KBJOEGLKLOL,
-        CmdChatType::CmdChatType_LPFLFCBPOFA,
-        CmdChatType::CmdChatType_NEMOGGGKFBC,
-        CmdChatType::CmdChatType_EGJLKBDLBNK,
-        CmdChatType::CmdChatType_BKDFPAHKAOL,
-        CmdChatType::CmdChatType_IKKPKGMOAIO,
-        CmdChatType::CmdChatType_EEMHELLKPBL,
-        CmdChatType::CmdChatType_FJAJJOONNMB,
-        CmdChatType::CmdChatType_IKOMANAPLIL,
-        CmdChatType::CmdChatType_HNPCOLGKANE,
+        CmdChatType::HDCAHBFBODO_PCPDHELPKEM,
+        CmdChatType::CmdGetChatEmojiListScRsp,
+        CmdChatType::CmdGetPrivateChatHistoryCsReq,
+        CmdChatType::CmdGetPrivateChatHistoryScRsp,
+        CmdChatType::CmdGetChatEmojiListCsReq,
+        CmdChatType::CmdHABEIPJGPNJ,
+        CmdChatType::CmdMarkChatEmojiScRsp,
+        CmdChatType::CmdRevcMsgScNotify,
+        CmdChatType::CmdGetLoginChatInfoScRsp,
+        CmdChatType::CmdGetLoginChatInfoCsReq,
+        CmdChatType::CmdBatchMarkChatEmojiCsReq,
+        CmdChatType::CmdSendMsgScRsp,
+        CmdChatType::CmdBatchMarkChatEmojiScRsp,
+        CmdChatType::CmdGetChatFriendHistoryCsReq,
+        CmdChatType::CmdSendMsgCsReq,
+        CmdChatType::CmdGetChatFriendHistoryScRsp,
+        CmdChatType::CmdMarkChatEmojiCsReq,
     ];
 }
 
@@ -145,23 +145,23 @@ impl ::protobuf::EnumFull for CmdChatType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdChatType::CmdChatType_MNFEPONEDDJ => 0,
-            CmdChatType::CmdChatType_PNIMKKIMPEO => 1,
-            CmdChatType::CmdChatType_OELGMAPMEPA => 2,
-            CmdChatType::CmdChatType_ECGOGIPEBPI => 3,
-            CmdChatType::CmdChatType_JOEDALCNLKP => 4,
-            CmdChatType::CmdChatType_LFPINHAMEGL => 5,
-            CmdChatType::CmdChatType_DDKGEFFKOCJ => 6,
-            CmdChatType::CmdChatType_KBJOEGLKLOL => 7,
-            CmdChatType::CmdChatType_LPFLFCBPOFA => 8,
-            CmdChatType::CmdChatType_NEMOGGGKFBC => 9,
-            CmdChatType::CmdChatType_EGJLKBDLBNK => 10,
-            CmdChatType::CmdChatType_BKDFPAHKAOL => 11,
-            CmdChatType::CmdChatType_IKKPKGMOAIO => 12,
-            CmdChatType::CmdChatType_EEMHELLKPBL => 13,
-            CmdChatType::CmdChatType_FJAJJOONNMB => 14,
-            CmdChatType::CmdChatType_IKOMANAPLIL => 15,
-            CmdChatType::CmdChatType_HNPCOLGKANE => 16,
+            CmdChatType::HDCAHBFBODO_PCPDHELPKEM => 0,
+            CmdChatType::CmdGetChatEmojiListScRsp => 1,
+            CmdChatType::CmdGetPrivateChatHistoryCsReq => 2,
+            CmdChatType::CmdGetPrivateChatHistoryScRsp => 3,
+            CmdChatType::CmdGetChatEmojiListCsReq => 4,
+            CmdChatType::CmdHABEIPJGPNJ => 5,
+            CmdChatType::CmdMarkChatEmojiScRsp => 6,
+            CmdChatType::CmdRevcMsgScNotify => 7,
+            CmdChatType::CmdGetLoginChatInfoScRsp => 8,
+            CmdChatType::CmdGetLoginChatInfoCsReq => 9,
+            CmdChatType::CmdBatchMarkChatEmojiCsReq => 10,
+            CmdChatType::CmdSendMsgScRsp => 11,
+            CmdChatType::CmdBatchMarkChatEmojiScRsp => 12,
+            CmdChatType::CmdGetChatFriendHistoryCsReq => 13,
+            CmdChatType::CmdSendMsgCsReq => 14,
+            CmdChatType::CmdGetChatFriendHistoryScRsp => 15,
+            CmdChatType::CmdMarkChatEmojiCsReq => 16,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -169,7 +169,7 @@ impl ::protobuf::EnumFull for CmdChatType {
 
 impl ::std::default::Default for CmdChatType {
     fn default() -> Self {
-        CmdChatType::CmdChatType_MNFEPONEDDJ
+        CmdChatType::HDCAHBFBODO_PCPDHELPKEM
     }
 }
 
@@ -180,19 +180,19 @@ impl CmdChatType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x11CmdChatType.proto*\x8a\x04\n\x0bCmdChatType\x12\x1b\n\x17CmdChatTy\
-    pe_MNFEPONEDDJ\x10\0\x12\x1c\n\x17CmdChatType_PNIMKKIMPEO\x10\x81\x1f\
-    \x12\x1c\n\x17CmdChatType_OELGMAPMEPA\x10\xa0\x1f\x12\x1c\n\x17CmdChatTy\
-    pe_ECGOGIPEBPI\x10\xc0\x1e\x12\x1c\n\x17CmdChatType_JOEDALCNLKP\x10\xfa\
-    \x1e\x12\x1c\n\x17CmdChatType_LFPINHAMEGL\x10\xf4\x1e\x12\x1c\n\x17CmdCh\
-    atType_DDKGEFFKOCJ\x10\x8d\x1f\x12\x1c\n\x17CmdChatType_KBJOEGLKLOL\x10\
-    \xdf\x1e\x12\x1c\n\x17CmdChatType_LPFLFCBPOFA\x10\xcf\x1e\x12\x1c\n\x17C\
-    mdChatType_NEMOGGGKFBC\x10\x8f\x1f\x12\x1c\n\x17CmdChatType_EGJLKBDLBNK\
-    \x10\xd3\x1e\x12\x1c\n\x17CmdChatType_BKDFPAHKAOL\x10\xf5\x1e\x12\x1c\n\
-    \x17CmdChatType_IKKPKGMOAIO\x10\xe4\x1e\x12\x1c\n\x17CmdChatType_EEMHELL\
-    KPBL\x10\xc9\x1e\x12\x1c\n\x17CmdChatType_FJAJJOONNMB\x10\x90\x1f\x12\
-    \x1c\n\x17CmdChatType_IKOMANAPLIL\x10\xd4\x1e\x12\x1c\n\x17CmdChatType_H\
-    NPCOLGKANE\x10\xea\x1eb\x06proto3\
+    \n\x11CmdChatType.proto*\x88\x04\n\x0bCmdChatType\x12\x1b\n\x17HDCAHBFBO\
+    DO_PCPDHELPKEM\x10\0\x12\x1d\n\x18CmdGetChatEmojiListScRsp\x10\xd6\x1e\
+    \x12\"\n\x1dCmdGetPrivateChatHistoryCsReq\x10\xca\x1e\x12\"\n\x1dCmdGetP\
+    rivateChatHistoryScRsp\x10\xce\x1e\x12\x1d\n\x18CmdGetChatEmojiListCsReq\
+    \x10\xfb\x1e\x12\x13\n\x0eCmdHABEIPJGPNJ\x10\x9b\x1f\x12\x1a\n\x15CmdMar\
+    kChatEmojiScRsp\x10\xbd\x1e\x12\x17\n\x12CmdRevcMsgScNotify\x10\x9a\x1f\
+    \x12\x1d\n\x18CmdGetLoginChatInfoScRsp\x10\xe2\x1e\x12\x1d\n\x18CmdGetLo\
+    ginChatInfoCsReq\x10\xc0\x1e\x12\x1f\n\x1aCmdBatchMarkChatEmojiCsReq\x10\
+    \x86\x1f\x12\x14\n\x0fCmdSendMsgScRsp\x10\xc6\x1e\x12\x1f\n\x1aCmdBatchM\
+    arkChatEmojiScRsp\x10\xe1\x1e\x12!\n\x1cCmdGetChatFriendHistoryCsReq\x10\
+    \xc5\x1e\x12\x14\n\x0fCmdSendMsgCsReq\x10\x97\x1f\x12!\n\x1cCmdGetChatFr\
+    iendHistoryScRsp\x10\x9e\x1f\x12\x1a\n\x15CmdMarkChatEmojiCsReq\x10\xe3\
+    \x1eb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

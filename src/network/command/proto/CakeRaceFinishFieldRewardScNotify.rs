@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct CakeRaceFinishFieldRewardScNotify {
     // message fields
-    // @@protoc_insertion_point(field:CakeRaceFinishFieldRewardScNotify.IAIKDGMCLNE)
-    pub IAIKDGMCLNE: u32,
+    // @@protoc_insertion_point(field:CakeRaceFinishFieldRewardScNotify.JAFNCOMGABG)
+    pub JAFNCOMGABG: u32,
     // @@protoc_insertion_point(field:CakeRaceFinishFieldRewardScNotify.reward)
     pub reward: ::protobuf::MessageField<super::ItemList::ItemList>,
     // special fields
@@ -52,9 +52,9 @@ impl CakeRaceFinishFieldRewardScNotify {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "IAIKDGMCLNE",
-            |m: &CakeRaceFinishFieldRewardScNotify| { &m.IAIKDGMCLNE },
-            |m: &mut CakeRaceFinishFieldRewardScNotify| { &mut m.IAIKDGMCLNE },
+            "JAFNCOMGABG",
+            |m: &CakeRaceFinishFieldRewardScNotify| { &m.JAFNCOMGABG },
+            |m: &mut CakeRaceFinishFieldRewardScNotify| { &mut m.JAFNCOMGABG },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemList::ItemList>(
             "reward",
@@ -79,10 +79,10 @@ impl ::protobuf::Message for CakeRaceFinishFieldRewardScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                24 => {
-                    self.IAIKDGMCLNE = is.read_uint32()?;
+                112 => {
+                    self.JAFNCOMGABG = is.read_uint32()?;
                 },
-                66 => {
+                82 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.reward)?;
                 },
                 tag => {
@@ -97,8 +97,8 @@ impl ::protobuf::Message for CakeRaceFinishFieldRewardScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.IAIKDGMCLNE != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.IAIKDGMCLNE);
+        if self.JAFNCOMGABG != 0 {
+            my_size += ::protobuf::rt::uint32_size(14, self.JAFNCOMGABG);
         }
         if let Some(v) = self.reward.as_ref() {
             let len = v.compute_size();
@@ -110,11 +110,11 @@ impl ::protobuf::Message for CakeRaceFinishFieldRewardScNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.IAIKDGMCLNE != 0 {
-            os.write_uint32(3, self.IAIKDGMCLNE)?;
+        if self.JAFNCOMGABG != 0 {
+            os.write_uint32(14, self.JAFNCOMGABG)?;
         }
         if let Some(v) = self.reward.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -133,14 +133,14 @@ impl ::protobuf::Message for CakeRaceFinishFieldRewardScNotify {
     }
 
     fn clear(&mut self) {
-        self.IAIKDGMCLNE = 0;
+        self.JAFNCOMGABG = 0;
         self.reward.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static CakeRaceFinishFieldRewardScNotify {
         static instance: CakeRaceFinishFieldRewardScNotify = CakeRaceFinishFieldRewardScNotify {
-            IAIKDGMCLNE: 0,
+            JAFNCOMGABG: 0,
             reward: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -167,9 +167,9 @@ impl ::protobuf::reflect::ProtobufValue for CakeRaceFinishFieldRewardScNotify {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n'CakeRaceFinishFieldRewardScNotify.proto\x1a\x0eItemList.proto\"h\n!Ca\
-    keRaceFinishFieldRewardScNotify\x12\x20\n\x0bIAIKDGMCLNE\x18\x03\x20\x01\
-    (\rR\x0bIAIKDGMCLNE\x12!\n\x06reward\x18\x08\x20\x01(\x0b2\t.ItemListR\
-    \x06rewardb\x06proto3\
+    keRaceFinishFieldRewardScNotify\x12\x20\n\x0bJAFNCOMGABG\x18\x0e\x20\x01\
+    (\rR\x0bJAFNCOMGABG\x12!\n\x06reward\x18\n\x20\x01(\x0b2\t.ItemListR\x06\
+    rewardb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

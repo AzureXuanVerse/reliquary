@@ -28,14 +28,14 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct MatchThreeV2SetBirdPosScRsp {
     // message fields
-    // @@protoc_insertion_point(field:MatchThreeV2SetBirdPosScRsp.ADOGOONNMOI)
-    pub ADOGOONNMOI: u32,
-    // @@protoc_insertion_point(field:MatchThreeV2SetBirdPosScRsp.OPIACBNEEBJ)
-    pub OPIACBNEEBJ: u32,
-    // @@protoc_insertion_point(field:MatchThreeV2SetBirdPosScRsp.pos)
-    pub pos: u32,
     // @@protoc_insertion_point(field:MatchThreeV2SetBirdPosScRsp.retcode)
     pub retcode: u32,
+    // @@protoc_insertion_point(field:MatchThreeV2SetBirdPosScRsp.pos)
+    pub pos: u32,
+    // @@protoc_insertion_point(field:MatchThreeV2SetBirdPosScRsp.NLOCDHMLGJH)
+    pub NLOCDHMLGJH: u32,
+    // @@protoc_insertion_point(field:MatchThreeV2SetBirdPosScRsp.DLDHPGFDFHP)
+    pub DLDHPGFDFHP: u32,
     // special fields
     // @@protoc_insertion_point(special_field:MatchThreeV2SetBirdPosScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -56,14 +56,9 @@ impl MatchThreeV2SetBirdPosScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(4);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "ADOGOONNMOI",
-            |m: &MatchThreeV2SetBirdPosScRsp| { &m.ADOGOONNMOI },
-            |m: &mut MatchThreeV2SetBirdPosScRsp| { &mut m.ADOGOONNMOI },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "OPIACBNEEBJ",
-            |m: &MatchThreeV2SetBirdPosScRsp| { &m.OPIACBNEEBJ },
-            |m: &mut MatchThreeV2SetBirdPosScRsp| { &mut m.OPIACBNEEBJ },
+            "retcode",
+            |m: &MatchThreeV2SetBirdPosScRsp| { &m.retcode },
+            |m: &mut MatchThreeV2SetBirdPosScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "pos",
@@ -71,9 +66,14 @@ impl MatchThreeV2SetBirdPosScRsp {
             |m: &mut MatchThreeV2SetBirdPosScRsp| { &mut m.pos },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "retcode",
-            |m: &MatchThreeV2SetBirdPosScRsp| { &m.retcode },
-            |m: &mut MatchThreeV2SetBirdPosScRsp| { &mut m.retcode },
+            "NLOCDHMLGJH",
+            |m: &MatchThreeV2SetBirdPosScRsp| { &m.NLOCDHMLGJH },
+            |m: &mut MatchThreeV2SetBirdPosScRsp| { &mut m.NLOCDHMLGJH },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "DLDHPGFDFHP",
+            |m: &MatchThreeV2SetBirdPosScRsp| { &m.DLDHPGFDFHP },
+            |m: &mut MatchThreeV2SetBirdPosScRsp| { &mut m.DLDHPGFDFHP },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<MatchThreeV2SetBirdPosScRsp>(
             "MatchThreeV2SetBirdPosScRsp",
@@ -93,17 +93,17 @@ impl ::protobuf::Message for MatchThreeV2SetBirdPosScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                56 => {
-                    self.ADOGOONNMOI = is.read_uint32()?;
+                96 => {
+                    self.retcode = is.read_uint32()?;
                 },
-                64 => {
-                    self.OPIACBNEEBJ = is.read_uint32()?;
-                },
-                8 => {
+                104 => {
                     self.pos = is.read_uint32()?;
                 },
-                88 => {
-                    self.retcode = is.read_uint32()?;
+                8 => {
+                    self.NLOCDHMLGJH = is.read_uint32()?;
+                },
+                112 => {
+                    self.DLDHPGFDFHP = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -117,17 +117,17 @@ impl ::protobuf::Message for MatchThreeV2SetBirdPosScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.ADOGOONNMOI != 0 {
-            my_size += ::protobuf::rt::uint32_size(7, self.ADOGOONNMOI);
-        }
-        if self.OPIACBNEEBJ != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.OPIACBNEEBJ);
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.retcode);
         }
         if self.pos != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.pos);
+            my_size += ::protobuf::rt::uint32_size(13, self.pos);
         }
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.retcode);
+        if self.NLOCDHMLGJH != 0 {
+            my_size += ::protobuf::rt::uint32_size(1, self.NLOCDHMLGJH);
+        }
+        if self.DLDHPGFDFHP != 0 {
+            my_size += ::protobuf::rt::uint32_size(14, self.DLDHPGFDFHP);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -135,17 +135,17 @@ impl ::protobuf::Message for MatchThreeV2SetBirdPosScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.ADOGOONNMOI != 0 {
-            os.write_uint32(7, self.ADOGOONNMOI)?;
-        }
-        if self.OPIACBNEEBJ != 0 {
-            os.write_uint32(8, self.OPIACBNEEBJ)?;
+        if self.retcode != 0 {
+            os.write_uint32(12, self.retcode)?;
         }
         if self.pos != 0 {
-            os.write_uint32(1, self.pos)?;
+            os.write_uint32(13, self.pos)?;
         }
-        if self.retcode != 0 {
-            os.write_uint32(11, self.retcode)?;
+        if self.NLOCDHMLGJH != 0 {
+            os.write_uint32(1, self.NLOCDHMLGJH)?;
+        }
+        if self.DLDHPGFDFHP != 0 {
+            os.write_uint32(14, self.DLDHPGFDFHP)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -164,19 +164,19 @@ impl ::protobuf::Message for MatchThreeV2SetBirdPosScRsp {
     }
 
     fn clear(&mut self) {
-        self.ADOGOONNMOI = 0;
-        self.OPIACBNEEBJ = 0;
-        self.pos = 0;
         self.retcode = 0;
+        self.pos = 0;
+        self.NLOCDHMLGJH = 0;
+        self.DLDHPGFDFHP = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static MatchThreeV2SetBirdPosScRsp {
         static instance: MatchThreeV2SetBirdPosScRsp = MatchThreeV2SetBirdPosScRsp {
-            ADOGOONNMOI: 0,
-            OPIACBNEEBJ: 0,
-            pos: 0,
             retcode: 0,
+            pos: 0,
+            NLOCDHMLGJH: 0,
+            DLDHPGFDFHP: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -202,10 +202,10 @@ impl ::protobuf::reflect::ProtobufValue for MatchThreeV2SetBirdPosScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n!MatchThreeV2SetBirdPosScRsp.proto\"\x8d\x01\n\x1bMatchThreeV2SetBirdP\
-    osScRsp\x12\x20\n\x0bADOGOONNMOI\x18\x07\x20\x01(\rR\x0bADOGOONNMOI\x12\
-    \x20\n\x0bOPIACBNEEBJ\x18\x08\x20\x01(\rR\x0bOPIACBNEEBJ\x12\x10\n\x03po\
-    s\x18\x01\x20\x01(\rR\x03pos\x12\x18\n\x07retcode\x18\x0b\x20\x01(\rR\
-    \x07retcodeb\x06proto3\
+    osScRsp\x12\x18\n\x07retcode\x18\x0c\x20\x01(\rR\x07retcode\x12\x10\n\
+    \x03pos\x18\r\x20\x01(\rR\x03pos\x12\x20\n\x0bNLOCDHMLGJH\x18\x01\x20\
+    \x01(\rR\x0bNLOCDHMLGJH\x12\x20\n\x0bDLDHPGFDFHP\x18\x0e\x20\x01(\rR\x0b\
+    DLDHPGFDFHPb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -27,18 +27,18 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdStoryLineType)
 pub enum CmdStoryLineType {
-    // @@protoc_insertion_point(enum_value:CmdStoryLineType.CmdStoryLineType_MNFEPONEDDJ)
-    CmdStoryLineType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdStoryLineType.CmdStoryLineType_MLFLEDOHEAJ)
-    CmdStoryLineType_MLFLEDOHEAJ = 6283,
-    // @@protoc_insertion_point(enum_value:CmdStoryLineType.CmdStoryLineType_FCMCALLOACN)
-    CmdStoryLineType_FCMCALLOACN = 6281,
-    // @@protoc_insertion_point(enum_value:CmdStoryLineType.CmdStoryLineType_DDBFCNHIFDK)
-    CmdStoryLineType_DDBFCNHIFDK = 6262,
-    // @@protoc_insertion_point(enum_value:CmdStoryLineType.CmdStoryLineType_JKEFMBKLOLD)
-    CmdStoryLineType_JKEFMBKLOLD = 6213,
-    // @@protoc_insertion_point(enum_value:CmdStoryLineType.CmdStoryLineType_CCEFPKLMJHK)
-    CmdStoryLineType_CCEFPKLMJHK = 6224,
+    // @@protoc_insertion_point(enum_value:CmdStoryLineType.AHJHAMOKMKH_PCPDHELPKEM)
+    AHJHAMOKMKH_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdStoryLineType.CmdStoryLineTrialAvatarChangeScNotify)
+    CmdStoryLineTrialAvatarChangeScNotify = 6209,
+    // @@protoc_insertion_point(enum_value:CmdStoryLineType.CmdStoryLineInfoScNotify)
+    CmdStoryLineInfoScNotify = 6294,
+    // @@protoc_insertion_point(enum_value:CmdStoryLineType.CmdChangeStoryLineFinishScNotify)
+    CmdChangeStoryLineFinishScNotify = 6218,
+    // @@protoc_insertion_point(enum_value:CmdStoryLineType.CmdEDIHEAFLFAO)
+    CmdEDIHEAFLFAO = 6210,
+    // @@protoc_insertion_point(enum_value:CmdStoryLineType.CmdGetStoryLineInfoCsReq)
+    CmdGetStoryLineInfoCsReq = 6291,
 }
 
 impl ::protobuf::Enum for CmdStoryLineType {
@@ -50,35 +50,35 @@ impl ::protobuf::Enum for CmdStoryLineType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdStoryLineType> {
         match value {
-            0 => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineType_MNFEPONEDDJ),
-            6283 => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineType_MLFLEDOHEAJ),
-            6281 => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineType_FCMCALLOACN),
-            6262 => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineType_DDBFCNHIFDK),
-            6213 => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineType_JKEFMBKLOLD),
-            6224 => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineType_CCEFPKLMJHK),
+            0 => ::std::option::Option::Some(CmdStoryLineType::AHJHAMOKMKH_PCPDHELPKEM),
+            6209 => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineTrialAvatarChangeScNotify),
+            6294 => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineInfoScNotify),
+            6218 => ::std::option::Option::Some(CmdStoryLineType::CmdChangeStoryLineFinishScNotify),
+            6210 => ::std::option::Option::Some(CmdStoryLineType::CmdEDIHEAFLFAO),
+            6291 => ::std::option::Option::Some(CmdStoryLineType::CmdGetStoryLineInfoCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdStoryLineType> {
         match str {
-            "CmdStoryLineType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineType_MNFEPONEDDJ),
-            "CmdStoryLineType_MLFLEDOHEAJ" => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineType_MLFLEDOHEAJ),
-            "CmdStoryLineType_FCMCALLOACN" => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineType_FCMCALLOACN),
-            "CmdStoryLineType_DDBFCNHIFDK" => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineType_DDBFCNHIFDK),
-            "CmdStoryLineType_JKEFMBKLOLD" => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineType_JKEFMBKLOLD),
-            "CmdStoryLineType_CCEFPKLMJHK" => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineType_CCEFPKLMJHK),
+            "AHJHAMOKMKH_PCPDHELPKEM" => ::std::option::Option::Some(CmdStoryLineType::AHJHAMOKMKH_PCPDHELPKEM),
+            "CmdStoryLineTrialAvatarChangeScNotify" => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineTrialAvatarChangeScNotify),
+            "CmdStoryLineInfoScNotify" => ::std::option::Option::Some(CmdStoryLineType::CmdStoryLineInfoScNotify),
+            "CmdChangeStoryLineFinishScNotify" => ::std::option::Option::Some(CmdStoryLineType::CmdChangeStoryLineFinishScNotify),
+            "CmdEDIHEAFLFAO" => ::std::option::Option::Some(CmdStoryLineType::CmdEDIHEAFLFAO),
+            "CmdGetStoryLineInfoCsReq" => ::std::option::Option::Some(CmdStoryLineType::CmdGetStoryLineInfoCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdStoryLineType] = &[
-        CmdStoryLineType::CmdStoryLineType_MNFEPONEDDJ,
-        CmdStoryLineType::CmdStoryLineType_MLFLEDOHEAJ,
-        CmdStoryLineType::CmdStoryLineType_FCMCALLOACN,
-        CmdStoryLineType::CmdStoryLineType_DDBFCNHIFDK,
-        CmdStoryLineType::CmdStoryLineType_JKEFMBKLOLD,
-        CmdStoryLineType::CmdStoryLineType_CCEFPKLMJHK,
+        CmdStoryLineType::AHJHAMOKMKH_PCPDHELPKEM,
+        CmdStoryLineType::CmdStoryLineTrialAvatarChangeScNotify,
+        CmdStoryLineType::CmdStoryLineInfoScNotify,
+        CmdStoryLineType::CmdChangeStoryLineFinishScNotify,
+        CmdStoryLineType::CmdEDIHEAFLFAO,
+        CmdStoryLineType::CmdGetStoryLineInfoCsReq,
     ];
 }
 
@@ -90,12 +90,12 @@ impl ::protobuf::EnumFull for CmdStoryLineType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdStoryLineType::CmdStoryLineType_MNFEPONEDDJ => 0,
-            CmdStoryLineType::CmdStoryLineType_MLFLEDOHEAJ => 1,
-            CmdStoryLineType::CmdStoryLineType_FCMCALLOACN => 2,
-            CmdStoryLineType::CmdStoryLineType_DDBFCNHIFDK => 3,
-            CmdStoryLineType::CmdStoryLineType_JKEFMBKLOLD => 4,
-            CmdStoryLineType::CmdStoryLineType_CCEFPKLMJHK => 5,
+            CmdStoryLineType::AHJHAMOKMKH_PCPDHELPKEM => 0,
+            CmdStoryLineType::CmdStoryLineTrialAvatarChangeScNotify => 1,
+            CmdStoryLineType::CmdStoryLineInfoScNotify => 2,
+            CmdStoryLineType::CmdChangeStoryLineFinishScNotify => 3,
+            CmdStoryLineType::CmdEDIHEAFLFAO => 4,
+            CmdStoryLineType::CmdGetStoryLineInfoCsReq => 5,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -103,7 +103,7 @@ impl ::protobuf::EnumFull for CmdStoryLineType {
 
 impl ::std::default::Default for CmdStoryLineType {
     fn default() -> Self {
-        CmdStoryLineType::CmdStoryLineType_MNFEPONEDDJ
+        CmdStoryLineType::AHJHAMOKMKH_PCPDHELPKEM
     }
 }
 
@@ -114,12 +114,11 @@ impl CmdStoryLineType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x16CmdStoryLineType.proto*\xe3\x01\n\x10CmdStoryLineType\x12\x20\n\
-    \x1cCmdStoryLineType_MNFEPONEDDJ\x10\0\x12!\n\x1cCmdStoryLineType_MLFLED\
-    OHEAJ\x10\x8b1\x12!\n\x1cCmdStoryLineType_FCMCALLOACN\x10\x891\x12!\n\
-    \x1cCmdStoryLineType_DDBFCNHIFDK\x10\xf60\x12!\n\x1cCmdStoryLineType_JKE\
-    FMBKLOLD\x10\xc50\x12!\n\x1cCmdStoryLineType_CCEFPKLMJHK\x10\xd00b\x06pr\
-    oto3\
+    \n\x16CmdStoryLineType.proto*\xd5\x01\n\x10CmdStoryLineType\x12\x1b\n\
+    \x17AHJHAMOKMKH_PCPDHELPKEM\x10\0\x12*\n%CmdStoryLineTrialAvatarChangeSc\
+    Notify\x10\xc10\x12\x1d\n\x18CmdStoryLineInfoScNotify\x10\x961\x12%\n\
+    \x20CmdChangeStoryLineFinishScNotify\x10\xca0\x12\x13\n\x0eCmdEDIHEAFLFA\
+    O\x10\xc20\x12\x1d\n\x18CmdGetStoryLineInfoCsReq\x10\x931b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

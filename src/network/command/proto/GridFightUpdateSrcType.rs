@@ -27,74 +27,74 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:GridFightUpdateSrcType)
 pub enum GridFightUpdateSrcType {
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_MMMMFODMKAG)
-    GridFightUpdateSrcType_MMMMFODMKAG = 0,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_BMHLNCOAHCC)
-    GridFightUpdateSrcType_BMHLNCOAHCC = 1,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_CPJHBIOJEGD)
-    GridFightUpdateSrcType_CPJHBIOJEGD = 2,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_MLKBELMLAGG)
-    GridFightUpdateSrcType_MLKBELMLAGG = 3,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_AOIFKKPMNGB)
-    GridFightUpdateSrcType_AOIFKKPMNGB = 4,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_APGCGGBIDJL)
-    GridFightUpdateSrcType_APGCGGBIDJL = 5,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_FKNNHAJLMOH)
-    GridFightUpdateSrcType_FKNNHAJLMOH = 6,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_NAFPIGFNNFB)
-    GridFightUpdateSrcType_NAFPIGFNNFB = 7,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_LGCHJAPGGEF)
-    GridFightUpdateSrcType_LGCHJAPGGEF = 8,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_DHLOBHIIEHO)
-    GridFightUpdateSrcType_DHLOBHIIEHO = 9,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_CAMPMGJCPAH)
-    GridFightUpdateSrcType_CAMPMGJCPAH = 10,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_ELNMNEMNCCG)
-    GridFightUpdateSrcType_ELNMNEMNCCG = 11,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_GPINPJLOILL)
-    GridFightUpdateSrcType_GPINPJLOILL = 12,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_NGEDJLDLPBD)
-    GridFightUpdateSrcType_NGEDJLDLPBD = 13,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_FEGDGDAEPNG)
-    GridFightUpdateSrcType_FEGDGDAEPNG = 14,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_MJHKPHIHGEM)
-    GridFightUpdateSrcType_MJHKPHIHGEM = 15,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_BGBLHCKLFBF)
-    GridFightUpdateSrcType_BGBLHCKLFBF = 16,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_BECBBAGMCOI)
-    GridFightUpdateSrcType_BECBBAGMCOI = 17,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_FGAPEIHDICO)
-    GridFightUpdateSrcType_FGAPEIHDICO = 18,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_NJOCLNGJFBB)
-    GridFightUpdateSrcType_NJOCLNGJFBB = 19,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_OMNOOOFLAKN)
-    GridFightUpdateSrcType_OMNOOOFLAKN = 20,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_FIBKBIPCDNG)
-    GridFightUpdateSrcType_FIBKBIPCDNG = 21,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_JODFKHJHEDK)
-    GridFightUpdateSrcType_JODFKHJHEDK = 22,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_AKGCPAMPCBF)
-    GridFightUpdateSrcType_AKGCPAMPCBF = 23,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_EINKHAJDBIF)
-    GridFightUpdateSrcType_EINKHAJDBIF = 24,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_GKEOAIFPOBP)
-    GridFightUpdateSrcType_GKEOAIFPOBP = 25,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_GCILFLJEGGE)
-    GridFightUpdateSrcType_GCILFLJEGGE = 26,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_GOHIJOIANEE)
-    GridFightUpdateSrcType_GOHIJOIANEE = 27,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_MKOEAGKMEEH)
-    GridFightUpdateSrcType_MKOEAGKMEEH = 28,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_KFDGHODMNJG)
-    GridFightUpdateSrcType_KFDGHODMNJG = 29,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_AIMJIBFFAAP)
-    GridFightUpdateSrcType_AIMJIBFFAAP = 30,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_DLDHAKPGAID)
-    GridFightUpdateSrcType_DLDHAKPGAID = 31,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_KNJAEAFMCGM)
-    GridFightUpdateSrcType_KNJAEAFMCGM = 32,
-    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.GridFightUpdateSrcType_PPOFLILJHLL)
-    GridFightUpdateSrcType_PPOFLILJHLL = 33,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_HEFEPINLBDP)
+    LNPFEFKJDHP_HEFEPINLBDP = 0,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_OOPNBCIJHMP)
+    LNPFEFKJDHP_OOPNBCIJHMP = 1,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_BJDEAAHIBGE)
+    LNPFEFKJDHP_BJDEAAHIBGE = 2,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_HNDKHMEFAAL)
+    LNPFEFKJDHP_HNDKHMEFAAL = 3,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_KCEFFLKABGH)
+    LNPFEFKJDHP_KCEFFLKABGH = 4,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_PPDDODGLNLH)
+    LNPFEFKJDHP_PPDDODGLNLH = 5,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_MDEKNJIEAPJ)
+    LNPFEFKJDHP_MDEKNJIEAPJ = 6,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_EJKEJDNHIOE)
+    LNPFEFKJDHP_EJKEJDNHIOE = 7,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_DPEKJIIICGH)
+    LNPFEFKJDHP_DPEKJIIICGH = 8,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_GKNDLFBPADH)
+    LNPFEFKJDHP_GKNDLFBPADH = 9,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_LFNKHCBHMPD)
+    LNPFEFKJDHP_LFNKHCBHMPD = 10,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_KKPBAGFHPBB)
+    LNPFEFKJDHP_KKPBAGFHPBB = 11,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_MHNCGOEHMCH)
+    LNPFEFKJDHP_MHNCGOEHMCH = 12,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_DGOJIHIJLAF)
+    LNPFEFKJDHP_DGOJIHIJLAF = 13,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_HCAFEEDHILF)
+    LNPFEFKJDHP_HCAFEEDHILF = 14,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_PDJHDFKOCKK)
+    LNPFEFKJDHP_PDJHDFKOCKK = 15,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_HICGJMGBCPG)
+    LNPFEFKJDHP_HICGJMGBCPG = 16,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_FKFKLEFKBBM)
+    LNPFEFKJDHP_FKFKLEFKBBM = 17,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_JALHDINECFE)
+    LNPFEFKJDHP_JALHDINECFE = 18,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_KHOAIFIFGDJ)
+    LNPFEFKJDHP_KHOAIFIFGDJ = 19,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_JIDJJPJKLFH)
+    LNPFEFKJDHP_JIDJJPJKLFH = 20,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_NGJHPBMCCPC)
+    LNPFEFKJDHP_NGJHPBMCCPC = 21,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_EEAOKENAFKH)
+    LNPFEFKJDHP_EEAOKENAFKH = 22,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_GLEMBDJFLAF)
+    LNPFEFKJDHP_GLEMBDJFLAF = 23,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_PNEJELGGLEJ)
+    LNPFEFKJDHP_PNEJELGGLEJ = 24,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_PPBJJOFFNJK)
+    LNPFEFKJDHP_PPBJJOFFNJK = 25,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_NEFKFLKAMPO)
+    LNPFEFKJDHP_NEFKFLKAMPO = 26,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_DKGFLMNEINA)
+    LNPFEFKJDHP_DKGFLMNEINA = 27,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_IFANONDMOBE)
+    LNPFEFKJDHP_IFANONDMOBE = 28,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_PFIFEJDCMOJ)
+    LNPFEFKJDHP_PFIFEJDCMOJ = 29,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_ODJDFIHICLK)
+    LNPFEFKJDHP_ODJDFIHICLK = 30,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_NGHOFPNIGAC)
+    LNPFEFKJDHP_NGHOFPNIGAC = 31,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_AJDDCALIKLH)
+    LNPFEFKJDHP_AJDDCALIKLH = 32,
+    // @@protoc_insertion_point(enum_value:GridFightUpdateSrcType.LNPFEFKJDHP_PJFMPKCAHAA)
+    LNPFEFKJDHP_PJFMPKCAHAA = 33,
 }
 
 impl ::protobuf::Enum for GridFightUpdateSrcType {
@@ -106,119 +106,119 @@ impl ::protobuf::Enum for GridFightUpdateSrcType {
 
     fn from_i32(value: i32) -> ::std::option::Option<GridFightUpdateSrcType> {
         match value {
-            0 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_MMMMFODMKAG),
-            1 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_BMHLNCOAHCC),
-            2 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_CPJHBIOJEGD),
-            3 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_MLKBELMLAGG),
-            4 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_AOIFKKPMNGB),
-            5 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_APGCGGBIDJL),
-            6 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_FKNNHAJLMOH),
-            7 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_NAFPIGFNNFB),
-            8 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_LGCHJAPGGEF),
-            9 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_DHLOBHIIEHO),
-            10 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_CAMPMGJCPAH),
-            11 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_ELNMNEMNCCG),
-            12 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_GPINPJLOILL),
-            13 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_NGEDJLDLPBD),
-            14 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_FEGDGDAEPNG),
-            15 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_MJHKPHIHGEM),
-            16 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_BGBLHCKLFBF),
-            17 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_BECBBAGMCOI),
-            18 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_FGAPEIHDICO),
-            19 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_NJOCLNGJFBB),
-            20 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_OMNOOOFLAKN),
-            21 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_FIBKBIPCDNG),
-            22 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_JODFKHJHEDK),
-            23 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_AKGCPAMPCBF),
-            24 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_EINKHAJDBIF),
-            25 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_GKEOAIFPOBP),
-            26 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_GCILFLJEGGE),
-            27 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_GOHIJOIANEE),
-            28 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_MKOEAGKMEEH),
-            29 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_KFDGHODMNJG),
-            30 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_AIMJIBFFAAP),
-            31 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_DLDHAKPGAID),
-            32 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_KNJAEAFMCGM),
-            33 => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_PPOFLILJHLL),
+            0 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_HEFEPINLBDP),
+            1 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_OOPNBCIJHMP),
+            2 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_BJDEAAHIBGE),
+            3 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_HNDKHMEFAAL),
+            4 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_KCEFFLKABGH),
+            5 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_PPDDODGLNLH),
+            6 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_MDEKNJIEAPJ),
+            7 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_EJKEJDNHIOE),
+            8 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_DPEKJIIICGH),
+            9 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_GKNDLFBPADH),
+            10 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_LFNKHCBHMPD),
+            11 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_KKPBAGFHPBB),
+            12 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_MHNCGOEHMCH),
+            13 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_DGOJIHIJLAF),
+            14 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_HCAFEEDHILF),
+            15 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_PDJHDFKOCKK),
+            16 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_HICGJMGBCPG),
+            17 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_FKFKLEFKBBM),
+            18 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_JALHDINECFE),
+            19 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_KHOAIFIFGDJ),
+            20 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_JIDJJPJKLFH),
+            21 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_NGJHPBMCCPC),
+            22 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_EEAOKENAFKH),
+            23 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_GLEMBDJFLAF),
+            24 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_PNEJELGGLEJ),
+            25 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_PPBJJOFFNJK),
+            26 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_NEFKFLKAMPO),
+            27 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_DKGFLMNEINA),
+            28 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_IFANONDMOBE),
+            29 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_PFIFEJDCMOJ),
+            30 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_ODJDFIHICLK),
+            31 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_NGHOFPNIGAC),
+            32 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_AJDDCALIKLH),
+            33 => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_PJFMPKCAHAA),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<GridFightUpdateSrcType> {
         match str {
-            "GridFightUpdateSrcType_MMMMFODMKAG" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_MMMMFODMKAG),
-            "GridFightUpdateSrcType_BMHLNCOAHCC" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_BMHLNCOAHCC),
-            "GridFightUpdateSrcType_CPJHBIOJEGD" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_CPJHBIOJEGD),
-            "GridFightUpdateSrcType_MLKBELMLAGG" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_MLKBELMLAGG),
-            "GridFightUpdateSrcType_AOIFKKPMNGB" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_AOIFKKPMNGB),
-            "GridFightUpdateSrcType_APGCGGBIDJL" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_APGCGGBIDJL),
-            "GridFightUpdateSrcType_FKNNHAJLMOH" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_FKNNHAJLMOH),
-            "GridFightUpdateSrcType_NAFPIGFNNFB" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_NAFPIGFNNFB),
-            "GridFightUpdateSrcType_LGCHJAPGGEF" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_LGCHJAPGGEF),
-            "GridFightUpdateSrcType_DHLOBHIIEHO" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_DHLOBHIIEHO),
-            "GridFightUpdateSrcType_CAMPMGJCPAH" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_CAMPMGJCPAH),
-            "GridFightUpdateSrcType_ELNMNEMNCCG" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_ELNMNEMNCCG),
-            "GridFightUpdateSrcType_GPINPJLOILL" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_GPINPJLOILL),
-            "GridFightUpdateSrcType_NGEDJLDLPBD" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_NGEDJLDLPBD),
-            "GridFightUpdateSrcType_FEGDGDAEPNG" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_FEGDGDAEPNG),
-            "GridFightUpdateSrcType_MJHKPHIHGEM" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_MJHKPHIHGEM),
-            "GridFightUpdateSrcType_BGBLHCKLFBF" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_BGBLHCKLFBF),
-            "GridFightUpdateSrcType_BECBBAGMCOI" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_BECBBAGMCOI),
-            "GridFightUpdateSrcType_FGAPEIHDICO" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_FGAPEIHDICO),
-            "GridFightUpdateSrcType_NJOCLNGJFBB" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_NJOCLNGJFBB),
-            "GridFightUpdateSrcType_OMNOOOFLAKN" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_OMNOOOFLAKN),
-            "GridFightUpdateSrcType_FIBKBIPCDNG" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_FIBKBIPCDNG),
-            "GridFightUpdateSrcType_JODFKHJHEDK" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_JODFKHJHEDK),
-            "GridFightUpdateSrcType_AKGCPAMPCBF" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_AKGCPAMPCBF),
-            "GridFightUpdateSrcType_EINKHAJDBIF" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_EINKHAJDBIF),
-            "GridFightUpdateSrcType_GKEOAIFPOBP" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_GKEOAIFPOBP),
-            "GridFightUpdateSrcType_GCILFLJEGGE" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_GCILFLJEGGE),
-            "GridFightUpdateSrcType_GOHIJOIANEE" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_GOHIJOIANEE),
-            "GridFightUpdateSrcType_MKOEAGKMEEH" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_MKOEAGKMEEH),
-            "GridFightUpdateSrcType_KFDGHODMNJG" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_KFDGHODMNJG),
-            "GridFightUpdateSrcType_AIMJIBFFAAP" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_AIMJIBFFAAP),
-            "GridFightUpdateSrcType_DLDHAKPGAID" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_DLDHAKPGAID),
-            "GridFightUpdateSrcType_KNJAEAFMCGM" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_KNJAEAFMCGM),
-            "GridFightUpdateSrcType_PPOFLILJHLL" => ::std::option::Option::Some(GridFightUpdateSrcType::GridFightUpdateSrcType_PPOFLILJHLL),
+            "LNPFEFKJDHP_HEFEPINLBDP" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_HEFEPINLBDP),
+            "LNPFEFKJDHP_OOPNBCIJHMP" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_OOPNBCIJHMP),
+            "LNPFEFKJDHP_BJDEAAHIBGE" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_BJDEAAHIBGE),
+            "LNPFEFKJDHP_HNDKHMEFAAL" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_HNDKHMEFAAL),
+            "LNPFEFKJDHP_KCEFFLKABGH" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_KCEFFLKABGH),
+            "LNPFEFKJDHP_PPDDODGLNLH" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_PPDDODGLNLH),
+            "LNPFEFKJDHP_MDEKNJIEAPJ" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_MDEKNJIEAPJ),
+            "LNPFEFKJDHP_EJKEJDNHIOE" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_EJKEJDNHIOE),
+            "LNPFEFKJDHP_DPEKJIIICGH" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_DPEKJIIICGH),
+            "LNPFEFKJDHP_GKNDLFBPADH" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_GKNDLFBPADH),
+            "LNPFEFKJDHP_LFNKHCBHMPD" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_LFNKHCBHMPD),
+            "LNPFEFKJDHP_KKPBAGFHPBB" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_KKPBAGFHPBB),
+            "LNPFEFKJDHP_MHNCGOEHMCH" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_MHNCGOEHMCH),
+            "LNPFEFKJDHP_DGOJIHIJLAF" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_DGOJIHIJLAF),
+            "LNPFEFKJDHP_HCAFEEDHILF" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_HCAFEEDHILF),
+            "LNPFEFKJDHP_PDJHDFKOCKK" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_PDJHDFKOCKK),
+            "LNPFEFKJDHP_HICGJMGBCPG" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_HICGJMGBCPG),
+            "LNPFEFKJDHP_FKFKLEFKBBM" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_FKFKLEFKBBM),
+            "LNPFEFKJDHP_JALHDINECFE" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_JALHDINECFE),
+            "LNPFEFKJDHP_KHOAIFIFGDJ" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_KHOAIFIFGDJ),
+            "LNPFEFKJDHP_JIDJJPJKLFH" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_JIDJJPJKLFH),
+            "LNPFEFKJDHP_NGJHPBMCCPC" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_NGJHPBMCCPC),
+            "LNPFEFKJDHP_EEAOKENAFKH" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_EEAOKENAFKH),
+            "LNPFEFKJDHP_GLEMBDJFLAF" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_GLEMBDJFLAF),
+            "LNPFEFKJDHP_PNEJELGGLEJ" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_PNEJELGGLEJ),
+            "LNPFEFKJDHP_PPBJJOFFNJK" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_PPBJJOFFNJK),
+            "LNPFEFKJDHP_NEFKFLKAMPO" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_NEFKFLKAMPO),
+            "LNPFEFKJDHP_DKGFLMNEINA" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_DKGFLMNEINA),
+            "LNPFEFKJDHP_IFANONDMOBE" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_IFANONDMOBE),
+            "LNPFEFKJDHP_PFIFEJDCMOJ" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_PFIFEJDCMOJ),
+            "LNPFEFKJDHP_ODJDFIHICLK" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_ODJDFIHICLK),
+            "LNPFEFKJDHP_NGHOFPNIGAC" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_NGHOFPNIGAC),
+            "LNPFEFKJDHP_AJDDCALIKLH" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_AJDDCALIKLH),
+            "LNPFEFKJDHP_PJFMPKCAHAA" => ::std::option::Option::Some(GridFightUpdateSrcType::LNPFEFKJDHP_PJFMPKCAHAA),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [GridFightUpdateSrcType] = &[
-        GridFightUpdateSrcType::GridFightUpdateSrcType_MMMMFODMKAG,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_BMHLNCOAHCC,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_CPJHBIOJEGD,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_MLKBELMLAGG,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_AOIFKKPMNGB,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_APGCGGBIDJL,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_FKNNHAJLMOH,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_NAFPIGFNNFB,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_LGCHJAPGGEF,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_DHLOBHIIEHO,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_CAMPMGJCPAH,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_ELNMNEMNCCG,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_GPINPJLOILL,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_NGEDJLDLPBD,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_FEGDGDAEPNG,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_MJHKPHIHGEM,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_BGBLHCKLFBF,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_BECBBAGMCOI,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_FGAPEIHDICO,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_NJOCLNGJFBB,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_OMNOOOFLAKN,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_FIBKBIPCDNG,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_JODFKHJHEDK,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_AKGCPAMPCBF,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_EINKHAJDBIF,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_GKEOAIFPOBP,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_GCILFLJEGGE,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_GOHIJOIANEE,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_MKOEAGKMEEH,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_KFDGHODMNJG,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_AIMJIBFFAAP,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_DLDHAKPGAID,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_KNJAEAFMCGM,
-        GridFightUpdateSrcType::GridFightUpdateSrcType_PPOFLILJHLL,
+        GridFightUpdateSrcType::LNPFEFKJDHP_HEFEPINLBDP,
+        GridFightUpdateSrcType::LNPFEFKJDHP_OOPNBCIJHMP,
+        GridFightUpdateSrcType::LNPFEFKJDHP_BJDEAAHIBGE,
+        GridFightUpdateSrcType::LNPFEFKJDHP_HNDKHMEFAAL,
+        GridFightUpdateSrcType::LNPFEFKJDHP_KCEFFLKABGH,
+        GridFightUpdateSrcType::LNPFEFKJDHP_PPDDODGLNLH,
+        GridFightUpdateSrcType::LNPFEFKJDHP_MDEKNJIEAPJ,
+        GridFightUpdateSrcType::LNPFEFKJDHP_EJKEJDNHIOE,
+        GridFightUpdateSrcType::LNPFEFKJDHP_DPEKJIIICGH,
+        GridFightUpdateSrcType::LNPFEFKJDHP_GKNDLFBPADH,
+        GridFightUpdateSrcType::LNPFEFKJDHP_LFNKHCBHMPD,
+        GridFightUpdateSrcType::LNPFEFKJDHP_KKPBAGFHPBB,
+        GridFightUpdateSrcType::LNPFEFKJDHP_MHNCGOEHMCH,
+        GridFightUpdateSrcType::LNPFEFKJDHP_DGOJIHIJLAF,
+        GridFightUpdateSrcType::LNPFEFKJDHP_HCAFEEDHILF,
+        GridFightUpdateSrcType::LNPFEFKJDHP_PDJHDFKOCKK,
+        GridFightUpdateSrcType::LNPFEFKJDHP_HICGJMGBCPG,
+        GridFightUpdateSrcType::LNPFEFKJDHP_FKFKLEFKBBM,
+        GridFightUpdateSrcType::LNPFEFKJDHP_JALHDINECFE,
+        GridFightUpdateSrcType::LNPFEFKJDHP_KHOAIFIFGDJ,
+        GridFightUpdateSrcType::LNPFEFKJDHP_JIDJJPJKLFH,
+        GridFightUpdateSrcType::LNPFEFKJDHP_NGJHPBMCCPC,
+        GridFightUpdateSrcType::LNPFEFKJDHP_EEAOKENAFKH,
+        GridFightUpdateSrcType::LNPFEFKJDHP_GLEMBDJFLAF,
+        GridFightUpdateSrcType::LNPFEFKJDHP_PNEJELGGLEJ,
+        GridFightUpdateSrcType::LNPFEFKJDHP_PPBJJOFFNJK,
+        GridFightUpdateSrcType::LNPFEFKJDHP_NEFKFLKAMPO,
+        GridFightUpdateSrcType::LNPFEFKJDHP_DKGFLMNEINA,
+        GridFightUpdateSrcType::LNPFEFKJDHP_IFANONDMOBE,
+        GridFightUpdateSrcType::LNPFEFKJDHP_PFIFEJDCMOJ,
+        GridFightUpdateSrcType::LNPFEFKJDHP_ODJDFIHICLK,
+        GridFightUpdateSrcType::LNPFEFKJDHP_NGHOFPNIGAC,
+        GridFightUpdateSrcType::LNPFEFKJDHP_AJDDCALIKLH,
+        GridFightUpdateSrcType::LNPFEFKJDHP_PJFMPKCAHAA,
     ];
 }
 
@@ -236,7 +236,7 @@ impl ::protobuf::EnumFull for GridFightUpdateSrcType {
 
 impl ::std::default::Default for GridFightUpdateSrcType {
     fn default() -> Self {
-        GridFightUpdateSrcType::GridFightUpdateSrcType_MMMMFODMKAG
+        GridFightUpdateSrcType::LNPFEFKJDHP_HEFEPINLBDP
     }
 }
 
@@ -247,32 +247,29 @@ impl GridFightUpdateSrcType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1cGridFightUpdateSrcType.proto*\xe8\n\n\x16GridFightUpdateSrcType\
-    \x12&\n\"GridFightUpdateSrcType_MMMMFODMKAG\x10\0\x12&\n\"GridFightUpdat\
-    eSrcType_BMHLNCOAHCC\x10\x01\x12&\n\"GridFightUpdateSrcType_CPJHBIOJEGD\
-    \x10\x02\x12&\n\"GridFightUpdateSrcType_MLKBELMLAGG\x10\x03\x12&\n\"Grid\
-    FightUpdateSrcType_AOIFKKPMNGB\x10\x04\x12&\n\"GridFightUpdateSrcType_AP\
-    GCGGBIDJL\x10\x05\x12&\n\"GridFightUpdateSrcType_FKNNHAJLMOH\x10\x06\x12\
-    &\n\"GridFightUpdateSrcType_NAFPIGFNNFB\x10\x07\x12&\n\"GridFightUpdateS\
-    rcType_LGCHJAPGGEF\x10\x08\x12&\n\"GridFightUpdateSrcType_DHLOBHIIEHO\
-    \x10\t\x12&\n\"GridFightUpdateSrcType_CAMPMGJCPAH\x10\n\x12&\n\"GridFigh\
-    tUpdateSrcType_ELNMNEMNCCG\x10\x0b\x12&\n\"GridFightUpdateSrcType_GPINPJ\
-    LOILL\x10\x0c\x12&\n\"GridFightUpdateSrcType_NGEDJLDLPBD\x10\r\x12&\n\"G\
-    ridFightUpdateSrcType_FEGDGDAEPNG\x10\x0e\x12&\n\"GridFightUpdateSrcType\
-    _MJHKPHIHGEM\x10\x0f\x12&\n\"GridFightUpdateSrcType_BGBLHCKLFBF\x10\x10\
-    \x12&\n\"GridFightUpdateSrcType_BECBBAGMCOI\x10\x11\x12&\n\"GridFightUpd\
-    ateSrcType_FGAPEIHDICO\x10\x12\x12&\n\"GridFightUpdateSrcType_NJOCLNGJFB\
-    B\x10\x13\x12&\n\"GridFightUpdateSrcType_OMNOOOFLAKN\x10\x14\x12&\n\"Gri\
-    dFightUpdateSrcType_FIBKBIPCDNG\x10\x15\x12&\n\"GridFightUpdateSrcType_J\
-    ODFKHJHEDK\x10\x16\x12&\n\"GridFightUpdateSrcType_AKGCPAMPCBF\x10\x17\
-    \x12&\n\"GridFightUpdateSrcType_EINKHAJDBIF\x10\x18\x12&\n\"GridFightUpd\
-    ateSrcType_GKEOAIFPOBP\x10\x19\x12&\n\"GridFightUpdateSrcType_GCILFLJEGG\
-    E\x10\x1a\x12&\n\"GridFightUpdateSrcType_GOHIJOIANEE\x10\x1b\x12&\n\"Gri\
-    dFightUpdateSrcType_MKOEAGKMEEH\x10\x1c\x12&\n\"GridFightUpdateSrcType_K\
-    FDGHODMNJG\x10\x1d\x12&\n\"GridFightUpdateSrcType_AIMJIBFFAAP\x10\x1e\
-    \x12&\n\"GridFightUpdateSrcType_DLDHAKPGAID\x10\x1f\x12&\n\"GridFightUpd\
-    ateSrcType_KNJAEAFMCGM\x10\x20\x12&\n\"GridFightUpdateSrcType_PPOFLILJHL\
-    L\x10!b\x06proto3\
+    \n\x1cGridFightUpdateSrcType.proto*\xf2\x07\n\x16GridFightUpdateSrcType\
+    \x12\x1b\n\x17LNPFEFKJDHP_HEFEPINLBDP\x10\0\x12\x1b\n\x17LNPFEFKJDHP_OOP\
+    NBCIJHMP\x10\x01\x12\x1b\n\x17LNPFEFKJDHP_BJDEAAHIBGE\x10\x02\x12\x1b\n\
+    \x17LNPFEFKJDHP_HNDKHMEFAAL\x10\x03\x12\x1b\n\x17LNPFEFKJDHP_KCEFFLKABGH\
+    \x10\x04\x12\x1b\n\x17LNPFEFKJDHP_PPDDODGLNLH\x10\x05\x12\x1b\n\x17LNPFE\
+    FKJDHP_MDEKNJIEAPJ\x10\x06\x12\x1b\n\x17LNPFEFKJDHP_EJKEJDNHIOE\x10\x07\
+    \x12\x1b\n\x17LNPFEFKJDHP_DPEKJIIICGH\x10\x08\x12\x1b\n\x17LNPFEFKJDHP_G\
+    KNDLFBPADH\x10\t\x12\x1b\n\x17LNPFEFKJDHP_LFNKHCBHMPD\x10\n\x12\x1b\n\
+    \x17LNPFEFKJDHP_KKPBAGFHPBB\x10\x0b\x12\x1b\n\x17LNPFEFKJDHP_MHNCGOEHMCH\
+    \x10\x0c\x12\x1b\n\x17LNPFEFKJDHP_DGOJIHIJLAF\x10\r\x12\x1b\n\x17LNPFEFK\
+    JDHP_HCAFEEDHILF\x10\x0e\x12\x1b\n\x17LNPFEFKJDHP_PDJHDFKOCKK\x10\x0f\
+    \x12\x1b\n\x17LNPFEFKJDHP_HICGJMGBCPG\x10\x10\x12\x1b\n\x17LNPFEFKJDHP_F\
+    KFKLEFKBBM\x10\x11\x12\x1b\n\x17LNPFEFKJDHP_JALHDINECFE\x10\x12\x12\x1b\
+    \n\x17LNPFEFKJDHP_KHOAIFIFGDJ\x10\x13\x12\x1b\n\x17LNPFEFKJDHP_JIDJJPJKL\
+    FH\x10\x14\x12\x1b\n\x17LNPFEFKJDHP_NGJHPBMCCPC\x10\x15\x12\x1b\n\x17LNP\
+    FEFKJDHP_EEAOKENAFKH\x10\x16\x12\x1b\n\x17LNPFEFKJDHP_GLEMBDJFLAF\x10\
+    \x17\x12\x1b\n\x17LNPFEFKJDHP_PNEJELGGLEJ\x10\x18\x12\x1b\n\x17LNPFEFKJD\
+    HP_PPBJJOFFNJK\x10\x19\x12\x1b\n\x17LNPFEFKJDHP_NEFKFLKAMPO\x10\x1a\x12\
+    \x1b\n\x17LNPFEFKJDHP_DKGFLMNEINA\x10\x1b\x12\x1b\n\x17LNPFEFKJDHP_IFANO\
+    NDMOBE\x10\x1c\x12\x1b\n\x17LNPFEFKJDHP_PFIFEJDCMOJ\x10\x1d\x12\x1b\n\
+    \x17LNPFEFKJDHP_ODJDFIHICLK\x10\x1e\x12\x1b\n\x17LNPFEFKJDHP_NGHOFPNIGAC\
+    \x10\x1f\x12\x1b\n\x17LNPFEFKJDHP_AJDDCALIKLH\x10\x20\x12\x1b\n\x17LNPFE\
+    FKJDHP_PJFMPKCAHAA\x10!b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

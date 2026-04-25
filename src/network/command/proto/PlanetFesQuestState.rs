@@ -27,14 +27,14 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:PlanetFesQuestState)
 pub enum PlanetFesQuestState {
-    // @@protoc_insertion_point(enum_value:PlanetFesQuestState.PlanetFesQuestState_ANONFNLLCLP)
-    PlanetFesQuestState_ANONFNLLCLP = 0,
-    // @@protoc_insertion_point(enum_value:PlanetFesQuestState.PlanetFesQuestState_KLFHEEDPOBG)
-    PlanetFesQuestState_KLFHEEDPOBG = 1,
-    // @@protoc_insertion_point(enum_value:PlanetFesQuestState.PlanetFesQuestState_CJIOIOGDLIM)
-    PlanetFesQuestState_CJIOIOGDLIM = 2,
-    // @@protoc_insertion_point(enum_value:PlanetFesQuestState.PlanetFesQuestState_KDPIMKKKBLJ)
-    PlanetFesQuestState_KDPIMKKKBLJ = 3,
+    // @@protoc_insertion_point(enum_value:PlanetFesQuestState.GKBAMPAGNBE_ALDGOGPGNMO)
+    GKBAMPAGNBE_ALDGOGPGNMO = 0,
+    // @@protoc_insertion_point(enum_value:PlanetFesQuestState.GKBAMPAGNBE_BIJPCHOLDCP)
+    GKBAMPAGNBE_BIJPCHOLDCP = 1,
+    // @@protoc_insertion_point(enum_value:PlanetFesQuestState.GKBAMPAGNBE_GMHJJBKDNMN)
+    GKBAMPAGNBE_GMHJJBKDNMN = 2,
+    // @@protoc_insertion_point(enum_value:PlanetFesQuestState.GKBAMPAGNBE_EFIGICJNEIM)
+    GKBAMPAGNBE_EFIGICJNEIM = 3,
 }
 
 impl ::protobuf::Enum for PlanetFesQuestState {
@@ -46,29 +46,29 @@ impl ::protobuf::Enum for PlanetFesQuestState {
 
     fn from_i32(value: i32) -> ::std::option::Option<PlanetFesQuestState> {
         match value {
-            0 => ::std::option::Option::Some(PlanetFesQuestState::PlanetFesQuestState_ANONFNLLCLP),
-            1 => ::std::option::Option::Some(PlanetFesQuestState::PlanetFesQuestState_KLFHEEDPOBG),
-            2 => ::std::option::Option::Some(PlanetFesQuestState::PlanetFesQuestState_CJIOIOGDLIM),
-            3 => ::std::option::Option::Some(PlanetFesQuestState::PlanetFesQuestState_KDPIMKKKBLJ),
+            0 => ::std::option::Option::Some(PlanetFesQuestState::GKBAMPAGNBE_ALDGOGPGNMO),
+            1 => ::std::option::Option::Some(PlanetFesQuestState::GKBAMPAGNBE_BIJPCHOLDCP),
+            2 => ::std::option::Option::Some(PlanetFesQuestState::GKBAMPAGNBE_GMHJJBKDNMN),
+            3 => ::std::option::Option::Some(PlanetFesQuestState::GKBAMPAGNBE_EFIGICJNEIM),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<PlanetFesQuestState> {
         match str {
-            "PlanetFesQuestState_ANONFNLLCLP" => ::std::option::Option::Some(PlanetFesQuestState::PlanetFesQuestState_ANONFNLLCLP),
-            "PlanetFesQuestState_KLFHEEDPOBG" => ::std::option::Option::Some(PlanetFesQuestState::PlanetFesQuestState_KLFHEEDPOBG),
-            "PlanetFesQuestState_CJIOIOGDLIM" => ::std::option::Option::Some(PlanetFesQuestState::PlanetFesQuestState_CJIOIOGDLIM),
-            "PlanetFesQuestState_KDPIMKKKBLJ" => ::std::option::Option::Some(PlanetFesQuestState::PlanetFesQuestState_KDPIMKKKBLJ),
+            "GKBAMPAGNBE_ALDGOGPGNMO" => ::std::option::Option::Some(PlanetFesQuestState::GKBAMPAGNBE_ALDGOGPGNMO),
+            "GKBAMPAGNBE_BIJPCHOLDCP" => ::std::option::Option::Some(PlanetFesQuestState::GKBAMPAGNBE_BIJPCHOLDCP),
+            "GKBAMPAGNBE_GMHJJBKDNMN" => ::std::option::Option::Some(PlanetFesQuestState::GKBAMPAGNBE_GMHJJBKDNMN),
+            "GKBAMPAGNBE_EFIGICJNEIM" => ::std::option::Option::Some(PlanetFesQuestState::GKBAMPAGNBE_EFIGICJNEIM),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [PlanetFesQuestState] = &[
-        PlanetFesQuestState::PlanetFesQuestState_ANONFNLLCLP,
-        PlanetFesQuestState::PlanetFesQuestState_KLFHEEDPOBG,
-        PlanetFesQuestState::PlanetFesQuestState_CJIOIOGDLIM,
-        PlanetFesQuestState::PlanetFesQuestState_KDPIMKKKBLJ,
+        PlanetFesQuestState::GKBAMPAGNBE_ALDGOGPGNMO,
+        PlanetFesQuestState::GKBAMPAGNBE_BIJPCHOLDCP,
+        PlanetFesQuestState::GKBAMPAGNBE_GMHJJBKDNMN,
+        PlanetFesQuestState::GKBAMPAGNBE_EFIGICJNEIM,
     ];
 }
 
@@ -86,7 +86,7 @@ impl ::protobuf::EnumFull for PlanetFesQuestState {
 
 impl ::std::default::Default for PlanetFesQuestState {
     fn default() -> Self {
-        PlanetFesQuestState::PlanetFesQuestState_ANONFNLLCLP
+        PlanetFesQuestState::GKBAMPAGNBE_ALDGOGPGNMO
     }
 }
 
@@ -97,10 +97,10 @@ impl PlanetFesQuestState {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x19PlanetFesQuestState.proto*\xa9\x01\n\x13PlanetFesQuestState\x12#\n\
-    \x1fPlanetFesQuestState_ANONFNLLCLP\x10\0\x12#\n\x1fPlanetFesQuestState_\
-    KLFHEEDPOBG\x10\x01\x12#\n\x1fPlanetFesQuestState_CJIOIOGDLIM\x10\x02\
-    \x12#\n\x1fPlanetFesQuestState_KDPIMKKKBLJ\x10\x03b\x06proto3\
+    \n\x19PlanetFesQuestState.proto*\x89\x01\n\x13PlanetFesQuestState\x12\
+    \x1b\n\x17GKBAMPAGNBE_ALDGOGPGNMO\x10\0\x12\x1b\n\x17GKBAMPAGNBE_BIJPCHO\
+    LDCP\x10\x01\x12\x1b\n\x17GKBAMPAGNBE_GMHJJBKDNMN\x10\x02\x12\x1b\n\x17G\
+    KBAMPAGNBE_EFIGICJNEIM\x10\x03b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

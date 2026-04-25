@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GetStarFightDataScRsp {
     // message fields
-    // @@protoc_insertion_point(field:GetStarFightDataScRsp.MLAPLIJPCEC)
-    pub MLAPLIJPCEC: ::std::vec::Vec<super::LEAMIFKFCLD::LEAMIFKFCLD>,
     // @@protoc_insertion_point(field:GetStarFightDataScRsp.retcode)
     pub retcode: u32,
+    // @@protoc_insertion_point(field:GetStarFightDataScRsp.BBFKAGEBKAL)
+    pub BBFKAGEBKAL: ::std::vec::Vec<super::EAKBDLAEKHJ::EAKBDLAEKHJ>,
     // special fields
     // @@protoc_insertion_point(special_field:GetStarFightDataScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -51,15 +51,15 @@ impl GetStarFightDataScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "MLAPLIJPCEC",
-            |m: &GetStarFightDataScRsp| { &m.MLAPLIJPCEC },
-            |m: &mut GetStarFightDataScRsp| { &mut m.MLAPLIJPCEC },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &GetStarFightDataScRsp| { &m.retcode },
             |m: &mut GetStarFightDataScRsp| { &mut m.retcode },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "BBFKAGEBKAL",
+            |m: &GetStarFightDataScRsp| { &m.BBFKAGEBKAL },
+            |m: &mut GetStarFightDataScRsp| { &mut m.BBFKAGEBKAL },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetStarFightDataScRsp>(
             "GetStarFightDataScRsp",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for GetStarFightDataScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                42 => {
-                    self.MLAPLIJPCEC.push(is.read_message()?);
-                },
-                32 => {
+                40 => {
                     self.retcode = is.read_uint32()?;
+                },
+                98 => {
+                    self.BBFKAGEBKAL.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,25 +97,25 @@ impl ::protobuf::Message for GetStarFightDataScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        for value in &self.MLAPLIJPCEC {
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(5, self.retcode);
+        }
+        for value in &self.BBFKAGEBKAL {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.retcode);
-        }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.MLAPLIJPCEC {
-            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
-        };
         if self.retcode != 0 {
-            os.write_uint32(4, self.retcode)?;
+            os.write_uint32(5, self.retcode)?;
         }
+        for v in &self.BBFKAGEBKAL {
+            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
+        };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -133,15 +133,15 @@ impl ::protobuf::Message for GetStarFightDataScRsp {
     }
 
     fn clear(&mut self) {
-        self.MLAPLIJPCEC.clear();
         self.retcode = 0;
+        self.BBFKAGEBKAL.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetStarFightDataScRsp {
         static instance: GetStarFightDataScRsp = GetStarFightDataScRsp {
-            MLAPLIJPCEC: ::std::vec::Vec::new(),
             retcode: 0,
+            BBFKAGEBKAL: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,9 +166,9 @@ impl ::protobuf::reflect::ProtobufValue for GetStarFightDataScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1bGetStarFightDataScRsp.proto\x1a\x11LEAMIFKFCLD.proto\"a\n\x15GetSt\
-    arFightDataScRsp\x12.\n\x0bMLAPLIJPCEC\x18\x05\x20\x03(\x0b2\x0c.LEAMIFK\
-    FCLDR\x0bMLAPLIJPCEC\x12\x18\n\x07retcode\x18\x04\x20\x01(\rR\x07retcode\
+    \n\x1bGetStarFightDataScRsp.proto\x1a\x11EAKBDLAEKHJ.proto\"a\n\x15GetSt\
+    arFightDataScRsp\x12\x18\n\x07retcode\x18\x05\x20\x01(\rR\x07retcode\x12\
+    .\n\x0bBBFKAGEBKAL\x18\x0c\x20\x03(\x0b2\x0c.EAKBDLAEKHJR\x0bBBFKAGEBKAL\
     b\x06proto3\
 ";
 
@@ -187,7 +187,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::LEAMIFKFCLD::file_descriptor().clone());
+            deps.push(super::EAKBDLAEKHJ::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GetStarFightDataScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

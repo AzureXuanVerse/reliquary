@@ -27,26 +27,26 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdEraFlipperType)
 pub enum CmdEraFlipperType {
-    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdEraFlipperType_MNFEPONEDDJ)
-    CmdEraFlipperType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdEraFlipperType_ODLMGNFGLON)
-    CmdEraFlipperType_ODLMGNFGLON = 6565,
-    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdEraFlipperType_FDGOBFGJBLH)
-    CmdEraFlipperType_FDGOBFGJBLH = 6562,
-    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdEraFlipperType_EHHEEIJJJKP)
-    CmdEraFlipperType_EHHEEIJJJKP = 6571,
-    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdEraFlipperType_PBALEHCNEKC)
-    CmdEraFlipperType_PBALEHCNEKC = 6560,
-    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdEraFlipperType_FKHHKCDDMJI)
-    CmdEraFlipperType_FKHHKCDDMJI = 6556,
-    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdEraFlipperType_FANFICLKDCN)
-    CmdEraFlipperType_FANFICLKDCN = 6566,
-    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdEraFlipperType_DPIDGCJICBG)
-    CmdEraFlipperType_DPIDGCJICBG = 6567,
-    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdEraFlipperType_KIDDKBPCEHH)
-    CmdEraFlipperType_KIDDKBPCEHH = 6551,
-    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdEraFlipperType_IKJNAABFKFL)
-    CmdEraFlipperType_IKJNAABFKFL = 6553,
+    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.FINOGKEDFKG_PCPDHELPKEM)
+    FINOGKEDFKG_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdResetEraFlipperDataCsReq)
+    CmdResetEraFlipperDataCsReq = 6553,
+    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdChangeEraFlipperDataCsReq)
+    CmdChangeEraFlipperDataCsReq = 6552,
+    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdChangeEraFlipperDataScRsp)
+    CmdChangeEraFlipperDataScRsp = 6564,
+    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdPNKDIILAIPB)
+    CmdPNKDIILAIPB = 6554,
+    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdResetEraFlipperDataScRsp)
+    CmdResetEraFlipperDataScRsp = 6558,
+    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdGetEraFlipperDataCsReq)
+    CmdGetEraFlipperDataCsReq = 6551,
+    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdEnterEraFlipperRegionScRsp)
+    CmdEnterEraFlipperRegionScRsp = 6559,
+    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdEnterEraFlipperDataCsReq)
+    CmdEnterEraFlipperDataCsReq = 6560,
+    // @@protoc_insertion_point(enum_value:CmdEraFlipperType.CmdEraFlipperDataChangeScNotify)
+    CmdEraFlipperDataChangeScNotify = 6569,
 }
 
 impl ::protobuf::Enum for CmdEraFlipperType {
@@ -58,47 +58,47 @@ impl ::protobuf::Enum for CmdEraFlipperType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdEraFlipperType> {
         match value {
-            0 => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_MNFEPONEDDJ),
-            6565 => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_ODLMGNFGLON),
-            6562 => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_FDGOBFGJBLH),
-            6571 => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_EHHEEIJJJKP),
-            6560 => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_PBALEHCNEKC),
-            6556 => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_FKHHKCDDMJI),
-            6566 => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_FANFICLKDCN),
-            6567 => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_DPIDGCJICBG),
-            6551 => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_KIDDKBPCEHH),
-            6553 => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_IKJNAABFKFL),
+            0 => ::std::option::Option::Some(CmdEraFlipperType::FINOGKEDFKG_PCPDHELPKEM),
+            6553 => ::std::option::Option::Some(CmdEraFlipperType::CmdResetEraFlipperDataCsReq),
+            6552 => ::std::option::Option::Some(CmdEraFlipperType::CmdChangeEraFlipperDataCsReq),
+            6564 => ::std::option::Option::Some(CmdEraFlipperType::CmdChangeEraFlipperDataScRsp),
+            6554 => ::std::option::Option::Some(CmdEraFlipperType::CmdPNKDIILAIPB),
+            6558 => ::std::option::Option::Some(CmdEraFlipperType::CmdResetEraFlipperDataScRsp),
+            6551 => ::std::option::Option::Some(CmdEraFlipperType::CmdGetEraFlipperDataCsReq),
+            6559 => ::std::option::Option::Some(CmdEraFlipperType::CmdEnterEraFlipperRegionScRsp),
+            6560 => ::std::option::Option::Some(CmdEraFlipperType::CmdEnterEraFlipperDataCsReq),
+            6569 => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperDataChangeScNotify),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdEraFlipperType> {
         match str {
-            "CmdEraFlipperType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_MNFEPONEDDJ),
-            "CmdEraFlipperType_ODLMGNFGLON" => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_ODLMGNFGLON),
-            "CmdEraFlipperType_FDGOBFGJBLH" => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_FDGOBFGJBLH),
-            "CmdEraFlipperType_EHHEEIJJJKP" => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_EHHEEIJJJKP),
-            "CmdEraFlipperType_PBALEHCNEKC" => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_PBALEHCNEKC),
-            "CmdEraFlipperType_FKHHKCDDMJI" => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_FKHHKCDDMJI),
-            "CmdEraFlipperType_FANFICLKDCN" => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_FANFICLKDCN),
-            "CmdEraFlipperType_DPIDGCJICBG" => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_DPIDGCJICBG),
-            "CmdEraFlipperType_KIDDKBPCEHH" => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_KIDDKBPCEHH),
-            "CmdEraFlipperType_IKJNAABFKFL" => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperType_IKJNAABFKFL),
+            "FINOGKEDFKG_PCPDHELPKEM" => ::std::option::Option::Some(CmdEraFlipperType::FINOGKEDFKG_PCPDHELPKEM),
+            "CmdResetEraFlipperDataCsReq" => ::std::option::Option::Some(CmdEraFlipperType::CmdResetEraFlipperDataCsReq),
+            "CmdChangeEraFlipperDataCsReq" => ::std::option::Option::Some(CmdEraFlipperType::CmdChangeEraFlipperDataCsReq),
+            "CmdChangeEraFlipperDataScRsp" => ::std::option::Option::Some(CmdEraFlipperType::CmdChangeEraFlipperDataScRsp),
+            "CmdPNKDIILAIPB" => ::std::option::Option::Some(CmdEraFlipperType::CmdPNKDIILAIPB),
+            "CmdResetEraFlipperDataScRsp" => ::std::option::Option::Some(CmdEraFlipperType::CmdResetEraFlipperDataScRsp),
+            "CmdGetEraFlipperDataCsReq" => ::std::option::Option::Some(CmdEraFlipperType::CmdGetEraFlipperDataCsReq),
+            "CmdEnterEraFlipperRegionScRsp" => ::std::option::Option::Some(CmdEraFlipperType::CmdEnterEraFlipperRegionScRsp),
+            "CmdEnterEraFlipperDataCsReq" => ::std::option::Option::Some(CmdEraFlipperType::CmdEnterEraFlipperDataCsReq),
+            "CmdEraFlipperDataChangeScNotify" => ::std::option::Option::Some(CmdEraFlipperType::CmdEraFlipperDataChangeScNotify),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdEraFlipperType] = &[
-        CmdEraFlipperType::CmdEraFlipperType_MNFEPONEDDJ,
-        CmdEraFlipperType::CmdEraFlipperType_ODLMGNFGLON,
-        CmdEraFlipperType::CmdEraFlipperType_FDGOBFGJBLH,
-        CmdEraFlipperType::CmdEraFlipperType_EHHEEIJJJKP,
-        CmdEraFlipperType::CmdEraFlipperType_PBALEHCNEKC,
-        CmdEraFlipperType::CmdEraFlipperType_FKHHKCDDMJI,
-        CmdEraFlipperType::CmdEraFlipperType_FANFICLKDCN,
-        CmdEraFlipperType::CmdEraFlipperType_DPIDGCJICBG,
-        CmdEraFlipperType::CmdEraFlipperType_KIDDKBPCEHH,
-        CmdEraFlipperType::CmdEraFlipperType_IKJNAABFKFL,
+        CmdEraFlipperType::FINOGKEDFKG_PCPDHELPKEM,
+        CmdEraFlipperType::CmdResetEraFlipperDataCsReq,
+        CmdEraFlipperType::CmdChangeEraFlipperDataCsReq,
+        CmdEraFlipperType::CmdChangeEraFlipperDataScRsp,
+        CmdEraFlipperType::CmdPNKDIILAIPB,
+        CmdEraFlipperType::CmdResetEraFlipperDataScRsp,
+        CmdEraFlipperType::CmdGetEraFlipperDataCsReq,
+        CmdEraFlipperType::CmdEnterEraFlipperRegionScRsp,
+        CmdEraFlipperType::CmdEnterEraFlipperDataCsReq,
+        CmdEraFlipperType::CmdEraFlipperDataChangeScNotify,
     ];
 }
 
@@ -110,16 +110,16 @@ impl ::protobuf::EnumFull for CmdEraFlipperType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdEraFlipperType::CmdEraFlipperType_MNFEPONEDDJ => 0,
-            CmdEraFlipperType::CmdEraFlipperType_ODLMGNFGLON => 1,
-            CmdEraFlipperType::CmdEraFlipperType_FDGOBFGJBLH => 2,
-            CmdEraFlipperType::CmdEraFlipperType_EHHEEIJJJKP => 3,
-            CmdEraFlipperType::CmdEraFlipperType_PBALEHCNEKC => 4,
-            CmdEraFlipperType::CmdEraFlipperType_FKHHKCDDMJI => 5,
-            CmdEraFlipperType::CmdEraFlipperType_FANFICLKDCN => 6,
-            CmdEraFlipperType::CmdEraFlipperType_DPIDGCJICBG => 7,
-            CmdEraFlipperType::CmdEraFlipperType_KIDDKBPCEHH => 8,
-            CmdEraFlipperType::CmdEraFlipperType_IKJNAABFKFL => 9,
+            CmdEraFlipperType::FINOGKEDFKG_PCPDHELPKEM => 0,
+            CmdEraFlipperType::CmdResetEraFlipperDataCsReq => 1,
+            CmdEraFlipperType::CmdChangeEraFlipperDataCsReq => 2,
+            CmdEraFlipperType::CmdChangeEraFlipperDataScRsp => 3,
+            CmdEraFlipperType::CmdPNKDIILAIPB => 4,
+            CmdEraFlipperType::CmdResetEraFlipperDataScRsp => 5,
+            CmdEraFlipperType::CmdGetEraFlipperDataCsReq => 6,
+            CmdEraFlipperType::CmdEnterEraFlipperRegionScRsp => 7,
+            CmdEraFlipperType::CmdEnterEraFlipperDataCsReq => 8,
+            CmdEraFlipperType::CmdEraFlipperDataChangeScNotify => 9,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -127,7 +127,7 @@ impl ::protobuf::EnumFull for CmdEraFlipperType {
 
 impl ::std::default::Default for CmdEraFlipperType {
     fn default() -> Self {
-        CmdEraFlipperType::CmdEraFlipperType_MNFEPONEDDJ
+        CmdEraFlipperType::FINOGKEDFKG_PCPDHELPKEM
     }
 }
 
@@ -138,14 +138,14 @@ impl CmdEraFlipperType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x17CmdEraFlipperType.proto*\xfa\x02\n\x11CmdEraFlipperType\x12!\n\x1d\
-    CmdEraFlipperType_MNFEPONEDDJ\x10\0\x12\"\n\x1dCmdEraFlipperType_ODLMGNF\
-    GLON\x10\xa53\x12\"\n\x1dCmdEraFlipperType_FDGOBFGJBLH\x10\xa23\x12\"\n\
-    \x1dCmdEraFlipperType_EHHEEIJJJKP\x10\xab3\x12\"\n\x1dCmdEraFlipperType_\
-    PBALEHCNEKC\x10\xa03\x12\"\n\x1dCmdEraFlipperType_FKHHKCDDMJI\x10\x9c3\
-    \x12\"\n\x1dCmdEraFlipperType_FANFICLKDCN\x10\xa63\x12\"\n\x1dCmdEraFlip\
-    perType_DPIDGCJICBG\x10\xa73\x12\"\n\x1dCmdEraFlipperType_KIDDKBPCEHH\
-    \x10\x973\x12\"\n\x1dCmdEraFlipperType_IKJNAABFKFL\x10\x993b\x06proto3\
+    \n\x17CmdEraFlipperType.proto*\xdb\x02\n\x11CmdEraFlipperType\x12\x1b\n\
+    \x17FINOGKEDFKG_PCPDHELPKEM\x10\0\x12\x20\n\x1bCmdResetEraFlipperDataCsR\
+    eq\x10\x993\x12!\n\x1cCmdChangeEraFlipperDataCsReq\x10\x983\x12!\n\x1cCm\
+    dChangeEraFlipperDataScRsp\x10\xa43\x12\x13\n\x0eCmdPNKDIILAIPB\x10\x9a3\
+    \x12\x20\n\x1bCmdResetEraFlipperDataScRsp\x10\x9e3\x12\x1e\n\x19CmdGetEr\
+    aFlipperDataCsReq\x10\x973\x12\"\n\x1dCmdEnterEraFlipperRegionScRsp\x10\
+    \x9f3\x12\x20\n\x1bCmdEnterEraFlipperDataCsReq\x10\xa03\x12$\n\x1fCmdEra\
+    FlipperDataChangeScNotify\x10\xa93b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

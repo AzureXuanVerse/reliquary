@@ -72,7 +72,7 @@ impl ::protobuf::Message for GridFightRecommendEquipmentActionResult {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                24 => {
+                56 => {
                     self.select_equipment_id = is.read_uint32()?;
                 },
                 tag => {
@@ -88,7 +88,7 @@ impl ::protobuf::Message for GridFightRecommendEquipmentActionResult {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.select_equipment_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.select_equipment_id);
+            my_size += ::protobuf::rt::uint32_size(7, self.select_equipment_id);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -97,7 +97,7 @@ impl ::protobuf::Message for GridFightRecommendEquipmentActionResult {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.select_equipment_id != 0 {
-            os.write_uint32(3, self.select_equipment_id)?;
+            os.write_uint32(7, self.select_equipment_id)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -148,7 +148,7 @@ impl ::protobuf::reflect::ProtobufValue for GridFightRecommendEquipmentActionRes
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n-GridFightRecommendEquipmentActionResult.proto\"Y\n'GridFightRecommend\
-    EquipmentActionResult\x12.\n\x13select_equipment_id\x18\x03\x20\x01(\rR\
+    EquipmentActionResult\x12.\n\x13select_equipment_id\x18\x07\x20\x01(\rR\
     \x11selectEquipmentIdb\x06proto3\
 ";
 

@@ -27,30 +27,30 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdHeartdialType)
 pub enum CmdHeartdialType {
-    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdHeartdialType_MNFEPONEDDJ)
-    CmdHeartdialType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdHeartdialType_GBACAIDBIFF)
-    CmdHeartdialType_GBACAIDBIFF = 6369,
-    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdHeartdialType_LNNBHPEGLHP)
-    CmdHeartdialType_LNNBHPEGLHP = 6340,
-    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdHeartdialType_MNMINKMJODP)
-    CmdHeartdialType_MNMINKMJODP = 6304,
-    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdHeartdialType_FGEAFKOKFGE)
-    CmdHeartdialType_FGEAFKOKFGE = 6400,
-    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdHeartdialType_MJBJCKLMKKH)
-    CmdHeartdialType_MJBJCKLMKKH = 6335,
-    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdHeartdialType_JMPKIEDMHPD)
-    CmdHeartdialType_JMPKIEDMHPD = 6346,
-    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdHeartdialType_DCDHNBEGAJL)
-    CmdHeartdialType_DCDHNBEGAJL = 6313,
-    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdHeartdialType_JLCFENENAFK)
-    CmdHeartdialType_JLCFENENAFK = 6381,
-    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdHeartdialType_BGLONCCNKAF)
-    CmdHeartdialType_BGLONCCNKAF = 6383,
-    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdHeartdialType_LKMEBDKKIHG)
-    CmdHeartdialType_LKMEBDKKIHG = 6362,
-    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdHeartdialType_CCMMJDFAFJC)
-    CmdHeartdialType_CCMMJDFAFJC = 6324,
+    // @@protoc_insertion_point(enum_value:CmdHeartdialType.NIOFDIFADEK_PCPDHELPKEM)
+    NIOFDIFADEK_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdSubmitEmotionItemCsReq)
+    CmdSubmitEmotionItemCsReq = 6314,
+    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdHeartDialTraceScriptCsReq)
+    CmdHeartDialTraceScriptCsReq = 6326,
+    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdSubmitEmotionItemScRsp)
+    CmdSubmitEmotionItemScRsp = 6318,
+    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdHeartDialScriptChangeScNotify)
+    CmdHeartDialScriptChangeScNotify = 6363,
+    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdGetHeartDialInfoCsReq)
+    CmdGetHeartDialInfoCsReq = 6391,
+    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdHeartDialTraceScriptScRsp)
+    CmdHeartDialTraceScriptScRsp = 6339,
+    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdChangeScriptEmotionCsReq)
+    CmdChangeScriptEmotionCsReq = 6394,
+    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdFinishEmotionDialoguePerformanceScRsp)
+    CmdFinishEmotionDialoguePerformanceScRsp = 6398,
+    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdChangeScriptEmotionScRsp)
+    CmdChangeScriptEmotionScRsp = 6395,
+    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdFinishEmotionDialoguePerformanceCsReq)
+    CmdFinishEmotionDialoguePerformanceCsReq = 6309,
+    // @@protoc_insertion_point(enum_value:CmdHeartdialType.CmdGetHeartDialInfoScRsp)
+    CmdGetHeartDialInfoScRsp = 6310,
 }
 
 impl ::protobuf::Enum for CmdHeartdialType {
@@ -62,53 +62,53 @@ impl ::protobuf::Enum for CmdHeartdialType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdHeartdialType> {
         match value {
-            0 => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_MNFEPONEDDJ),
-            6369 => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_GBACAIDBIFF),
-            6340 => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_LNNBHPEGLHP),
-            6304 => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_MNMINKMJODP),
-            6400 => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_FGEAFKOKFGE),
-            6335 => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_MJBJCKLMKKH),
-            6346 => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_JMPKIEDMHPD),
-            6313 => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_DCDHNBEGAJL),
-            6381 => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_JLCFENENAFK),
-            6383 => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_BGLONCCNKAF),
-            6362 => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_LKMEBDKKIHG),
-            6324 => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_CCMMJDFAFJC),
+            0 => ::std::option::Option::Some(CmdHeartdialType::NIOFDIFADEK_PCPDHELPKEM),
+            6314 => ::std::option::Option::Some(CmdHeartdialType::CmdSubmitEmotionItemCsReq),
+            6326 => ::std::option::Option::Some(CmdHeartdialType::CmdHeartDialTraceScriptCsReq),
+            6318 => ::std::option::Option::Some(CmdHeartdialType::CmdSubmitEmotionItemScRsp),
+            6363 => ::std::option::Option::Some(CmdHeartdialType::CmdHeartDialScriptChangeScNotify),
+            6391 => ::std::option::Option::Some(CmdHeartdialType::CmdGetHeartDialInfoCsReq),
+            6339 => ::std::option::Option::Some(CmdHeartdialType::CmdHeartDialTraceScriptScRsp),
+            6394 => ::std::option::Option::Some(CmdHeartdialType::CmdChangeScriptEmotionCsReq),
+            6398 => ::std::option::Option::Some(CmdHeartdialType::CmdFinishEmotionDialoguePerformanceScRsp),
+            6395 => ::std::option::Option::Some(CmdHeartdialType::CmdChangeScriptEmotionScRsp),
+            6309 => ::std::option::Option::Some(CmdHeartdialType::CmdFinishEmotionDialoguePerformanceCsReq),
+            6310 => ::std::option::Option::Some(CmdHeartdialType::CmdGetHeartDialInfoScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdHeartdialType> {
         match str {
-            "CmdHeartdialType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_MNFEPONEDDJ),
-            "CmdHeartdialType_GBACAIDBIFF" => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_GBACAIDBIFF),
-            "CmdHeartdialType_LNNBHPEGLHP" => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_LNNBHPEGLHP),
-            "CmdHeartdialType_MNMINKMJODP" => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_MNMINKMJODP),
-            "CmdHeartdialType_FGEAFKOKFGE" => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_FGEAFKOKFGE),
-            "CmdHeartdialType_MJBJCKLMKKH" => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_MJBJCKLMKKH),
-            "CmdHeartdialType_JMPKIEDMHPD" => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_JMPKIEDMHPD),
-            "CmdHeartdialType_DCDHNBEGAJL" => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_DCDHNBEGAJL),
-            "CmdHeartdialType_JLCFENENAFK" => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_JLCFENENAFK),
-            "CmdHeartdialType_BGLONCCNKAF" => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_BGLONCCNKAF),
-            "CmdHeartdialType_LKMEBDKKIHG" => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_LKMEBDKKIHG),
-            "CmdHeartdialType_CCMMJDFAFJC" => ::std::option::Option::Some(CmdHeartdialType::CmdHeartdialType_CCMMJDFAFJC),
+            "NIOFDIFADEK_PCPDHELPKEM" => ::std::option::Option::Some(CmdHeartdialType::NIOFDIFADEK_PCPDHELPKEM),
+            "CmdSubmitEmotionItemCsReq" => ::std::option::Option::Some(CmdHeartdialType::CmdSubmitEmotionItemCsReq),
+            "CmdHeartDialTraceScriptCsReq" => ::std::option::Option::Some(CmdHeartdialType::CmdHeartDialTraceScriptCsReq),
+            "CmdSubmitEmotionItemScRsp" => ::std::option::Option::Some(CmdHeartdialType::CmdSubmitEmotionItemScRsp),
+            "CmdHeartDialScriptChangeScNotify" => ::std::option::Option::Some(CmdHeartdialType::CmdHeartDialScriptChangeScNotify),
+            "CmdGetHeartDialInfoCsReq" => ::std::option::Option::Some(CmdHeartdialType::CmdGetHeartDialInfoCsReq),
+            "CmdHeartDialTraceScriptScRsp" => ::std::option::Option::Some(CmdHeartdialType::CmdHeartDialTraceScriptScRsp),
+            "CmdChangeScriptEmotionCsReq" => ::std::option::Option::Some(CmdHeartdialType::CmdChangeScriptEmotionCsReq),
+            "CmdFinishEmotionDialoguePerformanceScRsp" => ::std::option::Option::Some(CmdHeartdialType::CmdFinishEmotionDialoguePerformanceScRsp),
+            "CmdChangeScriptEmotionScRsp" => ::std::option::Option::Some(CmdHeartdialType::CmdChangeScriptEmotionScRsp),
+            "CmdFinishEmotionDialoguePerformanceCsReq" => ::std::option::Option::Some(CmdHeartdialType::CmdFinishEmotionDialoguePerformanceCsReq),
+            "CmdGetHeartDialInfoScRsp" => ::std::option::Option::Some(CmdHeartdialType::CmdGetHeartDialInfoScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdHeartdialType] = &[
-        CmdHeartdialType::CmdHeartdialType_MNFEPONEDDJ,
-        CmdHeartdialType::CmdHeartdialType_GBACAIDBIFF,
-        CmdHeartdialType::CmdHeartdialType_LNNBHPEGLHP,
-        CmdHeartdialType::CmdHeartdialType_MNMINKMJODP,
-        CmdHeartdialType::CmdHeartdialType_FGEAFKOKFGE,
-        CmdHeartdialType::CmdHeartdialType_MJBJCKLMKKH,
-        CmdHeartdialType::CmdHeartdialType_JMPKIEDMHPD,
-        CmdHeartdialType::CmdHeartdialType_DCDHNBEGAJL,
-        CmdHeartdialType::CmdHeartdialType_JLCFENENAFK,
-        CmdHeartdialType::CmdHeartdialType_BGLONCCNKAF,
-        CmdHeartdialType::CmdHeartdialType_LKMEBDKKIHG,
-        CmdHeartdialType::CmdHeartdialType_CCMMJDFAFJC,
+        CmdHeartdialType::NIOFDIFADEK_PCPDHELPKEM,
+        CmdHeartdialType::CmdSubmitEmotionItemCsReq,
+        CmdHeartdialType::CmdHeartDialTraceScriptCsReq,
+        CmdHeartdialType::CmdSubmitEmotionItemScRsp,
+        CmdHeartdialType::CmdHeartDialScriptChangeScNotify,
+        CmdHeartdialType::CmdGetHeartDialInfoCsReq,
+        CmdHeartdialType::CmdHeartDialTraceScriptScRsp,
+        CmdHeartdialType::CmdChangeScriptEmotionCsReq,
+        CmdHeartdialType::CmdFinishEmotionDialoguePerformanceScRsp,
+        CmdHeartdialType::CmdChangeScriptEmotionScRsp,
+        CmdHeartdialType::CmdFinishEmotionDialoguePerformanceCsReq,
+        CmdHeartdialType::CmdGetHeartDialInfoScRsp,
     ];
 }
 
@@ -120,18 +120,18 @@ impl ::protobuf::EnumFull for CmdHeartdialType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdHeartdialType::CmdHeartdialType_MNFEPONEDDJ => 0,
-            CmdHeartdialType::CmdHeartdialType_GBACAIDBIFF => 1,
-            CmdHeartdialType::CmdHeartdialType_LNNBHPEGLHP => 2,
-            CmdHeartdialType::CmdHeartdialType_MNMINKMJODP => 3,
-            CmdHeartdialType::CmdHeartdialType_FGEAFKOKFGE => 4,
-            CmdHeartdialType::CmdHeartdialType_MJBJCKLMKKH => 5,
-            CmdHeartdialType::CmdHeartdialType_JMPKIEDMHPD => 6,
-            CmdHeartdialType::CmdHeartdialType_DCDHNBEGAJL => 7,
-            CmdHeartdialType::CmdHeartdialType_JLCFENENAFK => 8,
-            CmdHeartdialType::CmdHeartdialType_BGLONCCNKAF => 9,
-            CmdHeartdialType::CmdHeartdialType_LKMEBDKKIHG => 10,
-            CmdHeartdialType::CmdHeartdialType_CCMMJDFAFJC => 11,
+            CmdHeartdialType::NIOFDIFADEK_PCPDHELPKEM => 0,
+            CmdHeartdialType::CmdSubmitEmotionItemCsReq => 1,
+            CmdHeartdialType::CmdHeartDialTraceScriptCsReq => 2,
+            CmdHeartdialType::CmdSubmitEmotionItemScRsp => 3,
+            CmdHeartdialType::CmdHeartDialScriptChangeScNotify => 4,
+            CmdHeartdialType::CmdGetHeartDialInfoCsReq => 5,
+            CmdHeartdialType::CmdHeartDialTraceScriptScRsp => 6,
+            CmdHeartdialType::CmdChangeScriptEmotionCsReq => 7,
+            CmdHeartdialType::CmdFinishEmotionDialoguePerformanceScRsp => 8,
+            CmdHeartdialType::CmdChangeScriptEmotionScRsp => 9,
+            CmdHeartdialType::CmdFinishEmotionDialoguePerformanceCsReq => 10,
+            CmdHeartdialType::CmdGetHeartDialInfoScRsp => 11,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -139,7 +139,7 @@ impl ::protobuf::EnumFull for CmdHeartdialType {
 
 impl ::std::default::Default for CmdHeartdialType {
     fn default() -> Self {
-        CmdHeartdialType::CmdHeartdialType_MNFEPONEDDJ
+        CmdHeartdialType::NIOFDIFADEK_PCPDHELPKEM
     }
 }
 
@@ -150,16 +150,16 @@ impl CmdHeartdialType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x16CmdHeartdialType.proto*\xb5\x03\n\x10CmdHeartdialType\x12\x20\n\
-    \x1cCmdHeartdialType_MNFEPONEDDJ\x10\0\x12!\n\x1cCmdHeartdialType_GBACAI\
-    DBIFF\x10\xe11\x12!\n\x1cCmdHeartdialType_LNNBHPEGLHP\x10\xc41\x12!\n\
-    \x1cCmdHeartdialType_MNMINKMJODP\x10\xa01\x12!\n\x1cCmdHeartdialType_FGE\
-    AFKOKFGE\x10\x802\x12!\n\x1cCmdHeartdialType_MJBJCKLMKKH\x10\xbf1\x12!\n\
-    \x1cCmdHeartdialType_JMPKIEDMHPD\x10\xca1\x12!\n\x1cCmdHeartdialType_DCD\
-    HNBEGAJL\x10\xa91\x12!\n\x1cCmdHeartdialType_JLCFENENAFK\x10\xed1\x12!\n\
-    \x1cCmdHeartdialType_BGLONCCNKAF\x10\xef1\x12!\n\x1cCmdHeartdialType_LKM\
-    EBDKKIHG\x10\xda1\x12!\n\x1cCmdHeartdialType_CCMMJDFAFJC\x10\xb41b\x06pr\
-    oto3\
+    \n\x16CmdHeartdialType.proto*\xbc\x03\n\x10CmdHeartdialType\x12\x1b\n\
+    \x17NIOFDIFADEK_PCPDHELPKEM\x10\0\x12\x1e\n\x19CmdSubmitEmotionItemCsReq\
+    \x10\xaa1\x12!\n\x1cCmdHeartDialTraceScriptCsReq\x10\xb61\x12\x1e\n\x19C\
+    mdSubmitEmotionItemScRsp\x10\xae1\x12%\n\x20CmdHeartDialScriptChangeScNo\
+    tify\x10\xdb1\x12\x1d\n\x18CmdGetHeartDialInfoCsReq\x10\xf71\x12!\n\x1cC\
+    mdHeartDialTraceScriptScRsp\x10\xc31\x12\x20\n\x1bCmdChangeScriptEmotion\
+    CsReq\x10\xfa1\x12-\n(CmdFinishEmotionDialoguePerformanceScRsp\x10\xfe1\
+    \x12\x20\n\x1bCmdChangeScriptEmotionScRsp\x10\xfb1\x12-\n(CmdFinishEmoti\
+    onDialoguePerformanceCsReq\x10\xa51\x12\x1d\n\x18CmdGetHeartDialInfoScRs\
+    p\x10\xa61b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

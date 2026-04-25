@@ -30,10 +30,10 @@ pub struct FriendChallengeClearanceInfo {
     // message fields
     // @@protoc_insertion_point(field:FriendChallengeClearanceInfo.group_id)
     pub group_id: u32,
-    // @@protoc_insertion_point(field:FriendChallengeClearanceInfo.ENCMLHHIGHJ)
-    pub ENCMLHHIGHJ: u32,
+    // @@protoc_insertion_point(field:FriendChallengeClearanceInfo.HCHCOAPJLMG)
+    pub HCHCOAPJLMG: u32,
     // message oneof groups
-    pub HKMCNCFBMHI: ::std::option::Option<friend_challenge_clearance_info::HKMCNCFBMHI>,
+    pub HIACNHNLCGL: ::std::option::Option<friend_challenge_clearance_info::HIACNHNLCGL>,
     // special fields
     // @@protoc_insertion_point(special_field:FriendChallengeClearanceInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,39 +50,39 @@ impl FriendChallengeClearanceInfo {
         ::std::default::Default::default()
     }
 
-    // .ChallengeStatistics challenge_default = 1741;
+    // .ChallengeStatistics challenge_default = 1929;
 
     pub fn challenge_default(&self) -> &super::ChallengeStatistics::ChallengeStatistics {
-        match self.HKMCNCFBMHI {
-            ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeDefault(ref v)) => v,
+        match self.HIACNHNLCGL {
+            ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeDefault(ref v)) => v,
             _ => <super::ChallengeStatistics::ChallengeStatistics as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_challenge_default(&mut self) {
-        self.HKMCNCFBMHI = ::std::option::Option::None;
+        self.HIACNHNLCGL = ::std::option::Option::None;
     }
 
     pub fn has_challenge_default(&self) -> bool {
-        match self.HKMCNCFBMHI {
-            ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeDefault(..)) => true,
+        match self.HIACNHNLCGL {
+            ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeDefault(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_challenge_default(&mut self, v: super::ChallengeStatistics::ChallengeStatistics) {
-        self.HKMCNCFBMHI = ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeDefault(v))
+        self.HIACNHNLCGL = ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeDefault(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_challenge_default(&mut self) -> &mut super::ChallengeStatistics::ChallengeStatistics {
-        if let ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeDefault(_)) = self.HKMCNCFBMHI {
+        if let ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeDefault(_)) = self.HIACNHNLCGL {
         } else {
-            self.HKMCNCFBMHI = ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeDefault(super::ChallengeStatistics::ChallengeStatistics::new()));
+            self.HIACNHNLCGL = ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeDefault(super::ChallengeStatistics::ChallengeStatistics::new()));
         }
-        match self.HKMCNCFBMHI {
-            ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeDefault(ref mut v)) => v,
+        match self.HIACNHNLCGL {
+            ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeDefault(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -90,8 +90,8 @@ impl FriendChallengeClearanceInfo {
     // Take field
     pub fn take_challenge_default(&mut self) -> super::ChallengeStatistics::ChallengeStatistics {
         if self.has_challenge_default() {
-            match self.HKMCNCFBMHI.take() {
-                ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeDefault(v)) => v,
+            match self.HIACNHNLCGL.take() {
+                ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeDefault(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -99,39 +99,39 @@ impl FriendChallengeClearanceInfo {
         }
     }
 
-    // .ChallengeStoryStatistics challenge_story = 1899;
+    // .ChallengeStoryStatistics challenge_story = 1513;
 
     pub fn challenge_story(&self) -> &super::ChallengeStoryStatistics::ChallengeStoryStatistics {
-        match self.HKMCNCFBMHI {
-            ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeStory(ref v)) => v,
+        match self.HIACNHNLCGL {
+            ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeStory(ref v)) => v,
             _ => <super::ChallengeStoryStatistics::ChallengeStoryStatistics as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_challenge_story(&mut self) {
-        self.HKMCNCFBMHI = ::std::option::Option::None;
+        self.HIACNHNLCGL = ::std::option::Option::None;
     }
 
     pub fn has_challenge_story(&self) -> bool {
-        match self.HKMCNCFBMHI {
-            ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeStory(..)) => true,
+        match self.HIACNHNLCGL {
+            ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeStory(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_challenge_story(&mut self, v: super::ChallengeStoryStatistics::ChallengeStoryStatistics) {
-        self.HKMCNCFBMHI = ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeStory(v))
+        self.HIACNHNLCGL = ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeStory(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_challenge_story(&mut self) -> &mut super::ChallengeStoryStatistics::ChallengeStoryStatistics {
-        if let ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeStory(_)) = self.HKMCNCFBMHI {
+        if let ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeStory(_)) = self.HIACNHNLCGL {
         } else {
-            self.HKMCNCFBMHI = ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeStory(super::ChallengeStoryStatistics::ChallengeStoryStatistics::new()));
+            self.HIACNHNLCGL = ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeStory(super::ChallengeStoryStatistics::ChallengeStoryStatistics::new()));
         }
-        match self.HKMCNCFBMHI {
-            ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeStory(ref mut v)) => v,
+        match self.HIACNHNLCGL {
+            ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeStory(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -139,8 +139,8 @@ impl FriendChallengeClearanceInfo {
     // Take field
     pub fn take_challenge_story(&mut self) -> super::ChallengeStoryStatistics::ChallengeStoryStatistics {
         if self.has_challenge_story() {
-            match self.HKMCNCFBMHI.take() {
-                ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeStory(v)) => v,
+            match self.HIACNHNLCGL.take() {
+                ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeStory(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -148,39 +148,39 @@ impl FriendChallengeClearanceInfo {
         }
     }
 
-    // .ChallengeBossStatistics challenge_boss = 1585;
+    // .ChallengeBossStatistics challenge_boss = 1055;
 
     pub fn challenge_boss(&self) -> &super::ChallengeBossStatistics::ChallengeBossStatistics {
-        match self.HKMCNCFBMHI {
-            ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeBoss(ref v)) => v,
+        match self.HIACNHNLCGL {
+            ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeBoss(ref v)) => v,
             _ => <super::ChallengeBossStatistics::ChallengeBossStatistics as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_challenge_boss(&mut self) {
-        self.HKMCNCFBMHI = ::std::option::Option::None;
+        self.HIACNHNLCGL = ::std::option::Option::None;
     }
 
     pub fn has_challenge_boss(&self) -> bool {
-        match self.HKMCNCFBMHI {
-            ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeBoss(..)) => true,
+        match self.HIACNHNLCGL {
+            ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeBoss(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_challenge_boss(&mut self, v: super::ChallengeBossStatistics::ChallengeBossStatistics) {
-        self.HKMCNCFBMHI = ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeBoss(v))
+        self.HIACNHNLCGL = ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeBoss(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_challenge_boss(&mut self) -> &mut super::ChallengeBossStatistics::ChallengeBossStatistics {
-        if let ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeBoss(_)) = self.HKMCNCFBMHI {
+        if let ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeBoss(_)) = self.HIACNHNLCGL {
         } else {
-            self.HKMCNCFBMHI = ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeBoss(super::ChallengeBossStatistics::ChallengeBossStatistics::new()));
+            self.HIACNHNLCGL = ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeBoss(super::ChallengeBossStatistics::ChallengeBossStatistics::new()));
         }
-        match self.HKMCNCFBMHI {
-            ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeBoss(ref mut v)) => v,
+        match self.HIACNHNLCGL {
+            ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeBoss(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -188,8 +188,8 @@ impl FriendChallengeClearanceInfo {
     // Take field
     pub fn take_challenge_boss(&mut self) -> super::ChallengeBossStatistics::ChallengeBossStatistics {
         if self.has_challenge_boss() {
-            match self.HKMCNCFBMHI.take() {
-                ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeBoss(v)) => v,
+            match self.HIACNHNLCGL.take() {
+                ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeBoss(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -206,9 +206,9 @@ impl FriendChallengeClearanceInfo {
             |m: &mut FriendChallengeClearanceInfo| { &mut m.group_id },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "ENCMLHHIGHJ",
-            |m: &FriendChallengeClearanceInfo| { &m.ENCMLHHIGHJ },
-            |m: &mut FriendChallengeClearanceInfo| { &mut m.ENCMLHHIGHJ },
+            "HCHCOAPJLMG",
+            |m: &FriendChallengeClearanceInfo| { &m.HCHCOAPJLMG },
+            |m: &mut FriendChallengeClearanceInfo| { &mut m.HCHCOAPJLMG },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::ChallengeStatistics::ChallengeStatistics>(
             "challenge_default",
@@ -231,7 +231,7 @@ impl FriendChallengeClearanceInfo {
             FriendChallengeClearanceInfo::mut_challenge_boss,
             FriendChallengeClearanceInfo::set_challenge_boss,
         ));
-        oneofs.push(friend_challenge_clearance_info::HKMCNCFBMHI::generated_oneof_descriptor_data());
+        oneofs.push(friend_challenge_clearance_info::HIACNHNLCGL::generated_oneof_descriptor_data());
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<FriendChallengeClearanceInfo>(
             "FriendChallengeClearanceInfo",
             fields,
@@ -253,17 +253,17 @@ impl ::protobuf::Message for FriendChallengeClearanceInfo {
                 24 => {
                     self.group_id = is.read_uint32()?;
                 },
-                80 => {
-                    self.ENCMLHHIGHJ = is.read_uint32()?;
+                32 => {
+                    self.HCHCOAPJLMG = is.read_uint32()?;
                 },
-                13930 => {
-                    self.HKMCNCFBMHI = ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeDefault(is.read_message()?));
+                15434 => {
+                    self.HIACNHNLCGL = ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeDefault(is.read_message()?));
                 },
-                15194 => {
-                    self.HKMCNCFBMHI = ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeStory(is.read_message()?));
+                12106 => {
+                    self.HIACNHNLCGL = ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeStory(is.read_message()?));
                 },
-                12682 => {
-                    self.HKMCNCFBMHI = ::std::option::Option::Some(friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeBoss(is.read_message()?));
+                8442 => {
+                    self.HIACNHNLCGL = ::std::option::Option::Some(friend_challenge_clearance_info::HIACNHNLCGL::ChallengeBoss(is.read_message()?));
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -280,20 +280,20 @@ impl ::protobuf::Message for FriendChallengeClearanceInfo {
         if self.group_id != 0 {
             my_size += ::protobuf::rt::uint32_size(3, self.group_id);
         }
-        if self.ENCMLHHIGHJ != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.ENCMLHHIGHJ);
+        if self.HCHCOAPJLMG != 0 {
+            my_size += ::protobuf::rt::uint32_size(4, self.HCHCOAPJLMG);
         }
-        if let ::std::option::Option::Some(ref v) = self.HKMCNCFBMHI {
+        if let ::std::option::Option::Some(ref v) = self.HIACNHNLCGL {
             match v {
-                &friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeDefault(ref v) => {
+                &friend_challenge_clearance_info::HIACNHNLCGL::ChallengeDefault(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeStory(ref v) => {
+                &friend_challenge_clearance_info::HIACNHNLCGL::ChallengeStory(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeBoss(ref v) => {
+                &friend_challenge_clearance_info::HIACNHNLCGL::ChallengeBoss(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
@@ -308,19 +308,19 @@ impl ::protobuf::Message for FriendChallengeClearanceInfo {
         if self.group_id != 0 {
             os.write_uint32(3, self.group_id)?;
         }
-        if self.ENCMLHHIGHJ != 0 {
-            os.write_uint32(10, self.ENCMLHHIGHJ)?;
+        if self.HCHCOAPJLMG != 0 {
+            os.write_uint32(4, self.HCHCOAPJLMG)?;
         }
-        if let ::std::option::Option::Some(ref v) = self.HKMCNCFBMHI {
+        if let ::std::option::Option::Some(ref v) = self.HIACNHNLCGL {
             match v {
-                &friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeDefault(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1741, v, os)?;
+                &friend_challenge_clearance_info::HIACNHNLCGL::ChallengeDefault(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1929, v, os)?;
                 },
-                &friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeStory(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1899, v, os)?;
+                &friend_challenge_clearance_info::HIACNHNLCGL::ChallengeStory(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1513, v, os)?;
                 },
-                &friend_challenge_clearance_info::HKMCNCFBMHI::ChallengeBoss(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1585, v, os)?;
+                &friend_challenge_clearance_info::HIACNHNLCGL::ChallengeBoss(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1055, v, os)?;
                 },
             };
         }
@@ -342,18 +342,18 @@ impl ::protobuf::Message for FriendChallengeClearanceInfo {
 
     fn clear(&mut self) {
         self.group_id = 0;
-        self.ENCMLHHIGHJ = 0;
-        self.HKMCNCFBMHI = ::std::option::Option::None;
-        self.HKMCNCFBMHI = ::std::option::Option::None;
-        self.HKMCNCFBMHI = ::std::option::Option::None;
+        self.HCHCOAPJLMG = 0;
+        self.HIACNHNLCGL = ::std::option::Option::None;
+        self.HIACNHNLCGL = ::std::option::Option::None;
+        self.HIACNHNLCGL = ::std::option::Option::None;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static FriendChallengeClearanceInfo {
         static instance: FriendChallengeClearanceInfo = FriendChallengeClearanceInfo {
             group_id: 0,
-            ENCMLHHIGHJ: 0,
-            HKMCNCFBMHI: ::std::option::Option::None,
+            HCHCOAPJLMG: 0,
+            HIACNHNLCGL: ::std::option::Option::None,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -382,8 +382,8 @@ pub mod friend_challenge_clearance_info {
 
     #[derive(Clone,PartialEq,Debug)]
     #[non_exhaustive]
-    // @@protoc_insertion_point(oneof:FriendChallengeClearanceInfo.HKMCNCFBMHI)
-    pub enum HKMCNCFBMHI {
+    // @@protoc_insertion_point(oneof:FriendChallengeClearanceInfo.HIACNHNLCGL)
+    pub enum HIACNHNLCGL {
         // @@protoc_insertion_point(oneof_field:FriendChallengeClearanceInfo.challenge_default)
         ChallengeDefault(super::super::ChallengeStatistics::ChallengeStatistics),
         // @@protoc_insertion_point(oneof_field:FriendChallengeClearanceInfo.challenge_story)
@@ -392,19 +392,19 @@ pub mod friend_challenge_clearance_info {
         ChallengeBoss(super::super::ChallengeBossStatistics::ChallengeBossStatistics),
     }
 
-    impl ::protobuf::Oneof for HKMCNCFBMHI {
+    impl ::protobuf::Oneof for HIACNHNLCGL {
     }
 
-    impl ::protobuf::OneofFull for HKMCNCFBMHI {
+    impl ::protobuf::OneofFull for HIACNHNLCGL {
         fn descriptor() -> ::protobuf::reflect::OneofDescriptor {
             static descriptor: ::protobuf::rt::Lazy<::protobuf::reflect::OneofDescriptor> = ::protobuf::rt::Lazy::new();
-            descriptor.get(|| <super::FriendChallengeClearanceInfo as ::protobuf::MessageFull>::descriptor().oneof_by_name("HKMCNCFBMHI").unwrap()).clone()
+            descriptor.get(|| <super::FriendChallengeClearanceInfo as ::protobuf::MessageFull>::descriptor().oneof_by_name("HIACNHNLCGL").unwrap()).clone()
         }
     }
 
-    impl HKMCNCFBMHI {
+    impl HIACNHNLCGL {
         pub(in super) fn generated_oneof_descriptor_data() -> ::protobuf::reflect::GeneratedOneofDescriptorData {
-            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<HKMCNCFBMHI>("HKMCNCFBMHI")
+            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<HIACNHNLCGL>("HIACNHNLCGL")
         }
     }
 }
@@ -413,12 +413,12 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \n\"FriendChallengeClearanceInfo.proto\x1a\x1dChallengeBossStatistics.pr\
     oto\x1a\x19ChallengeStatistics.proto\x1a\x1eChallengeStoryStatistics.pro\
     to\"\xbb\x02\n\x1cFriendChallengeClearanceInfo\x12\x19\n\x08group_id\x18\
-    \x03\x20\x01(\rR\x07groupId\x12\x20\n\x0bENCMLHHIGHJ\x18\n\x20\x01(\rR\
-    \x0bENCMLHHIGHJ\x12D\n\x11challenge_default\x18\xcd\r\x20\x01(\x0b2\x14.\
-    ChallengeStatisticsH\0R\x10challengeDefault\x12E\n\x0fchallenge_story\
-    \x18\xeb\x0e\x20\x01(\x0b2\x19.ChallengeStoryStatisticsH\0R\x0echallenge\
-    Story\x12B\n\x0echallenge_boss\x18\xb1\x0c\x20\x01(\x0b2\x18.ChallengeBo\
-    ssStatisticsH\0R\rchallengeBossB\r\n\x0bHKMCNCFBMHIb\x06proto3\
+    \x03\x20\x01(\rR\x07groupId\x12\x20\n\x0bHCHCOAPJLMG\x18\x04\x20\x01(\rR\
+    \x0bHCHCOAPJLMG\x12D\n\x11challenge_default\x18\x89\x0f\x20\x01(\x0b2\
+    \x14.ChallengeStatisticsH\0R\x10challengeDefault\x12E\n\x0fchallenge_sto\
+    ry\x18\xe9\x0b\x20\x01(\x0b2\x19.ChallengeStoryStatisticsH\0R\x0echallen\
+    geStory\x12B\n\x0echallenge_boss\x18\x9f\x08\x20\x01(\x0b2\x18.Challenge\
+    BossStatisticsH\0R\rchallengeBossB\r\n\x0bHIACNHNLCGLb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

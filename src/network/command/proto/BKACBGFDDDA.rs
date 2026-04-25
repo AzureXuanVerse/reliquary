@@ -27,12 +27,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:BKACBGFDDDA)
 pub enum BKACBGFDDDA {
-    // @@protoc_insertion_point(enum_value:BKACBGFDDDA.BKACBGFDDDA_MNFEPONEDDJ)
-    BKACBGFDDDA_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:BKACBGFDDDA.BKACBGFDDDA_BEMCNAJOHHE)
-    BKACBGFDDDA_BEMCNAJOHHE = 1,
-    // @@protoc_insertion_point(enum_value:BKACBGFDDDA.BKACBGFDDDA_EIFLBEEPOFJ)
-    BKACBGFDDDA_EIFLBEEPOFJ = 2,
+    // @@protoc_insertion_point(enum_value:BKACBGFDDDA.BJLEJCIGLAO_PCPDHELPKEM)
+    BJLEJCIGLAO_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:BKACBGFDDDA.BJLEJCIGLAO_AGJBLPLJGPD)
+    BJLEJCIGLAO_AGJBLPLJGPD = 1,
+    // @@protoc_insertion_point(enum_value:BKACBGFDDDA.BJLEJCIGLAO_ACBOMNNALDK)
+    BJLEJCIGLAO_ACBOMNNALDK = 2,
 }
 
 impl ::protobuf::Enum for BKACBGFDDDA {
@@ -44,26 +44,26 @@ impl ::protobuf::Enum for BKACBGFDDDA {
 
     fn from_i32(value: i32) -> ::std::option::Option<BKACBGFDDDA> {
         match value {
-            0 => ::std::option::Option::Some(BKACBGFDDDA::BKACBGFDDDA_MNFEPONEDDJ),
-            1 => ::std::option::Option::Some(BKACBGFDDDA::BKACBGFDDDA_BEMCNAJOHHE),
-            2 => ::std::option::Option::Some(BKACBGFDDDA::BKACBGFDDDA_EIFLBEEPOFJ),
+            0 => ::std::option::Option::Some(BKACBGFDDDA::BJLEJCIGLAO_PCPDHELPKEM),
+            1 => ::std::option::Option::Some(BKACBGFDDDA::BJLEJCIGLAO_AGJBLPLJGPD),
+            2 => ::std::option::Option::Some(BKACBGFDDDA::BJLEJCIGLAO_ACBOMNNALDK),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<BKACBGFDDDA> {
         match str {
-            "BKACBGFDDDA_MNFEPONEDDJ" => ::std::option::Option::Some(BKACBGFDDDA::BKACBGFDDDA_MNFEPONEDDJ),
-            "BKACBGFDDDA_BEMCNAJOHHE" => ::std::option::Option::Some(BKACBGFDDDA::BKACBGFDDDA_BEMCNAJOHHE),
-            "BKACBGFDDDA_EIFLBEEPOFJ" => ::std::option::Option::Some(BKACBGFDDDA::BKACBGFDDDA_EIFLBEEPOFJ),
+            "BJLEJCIGLAO_PCPDHELPKEM" => ::std::option::Option::Some(BKACBGFDDDA::BJLEJCIGLAO_PCPDHELPKEM),
+            "BJLEJCIGLAO_AGJBLPLJGPD" => ::std::option::Option::Some(BKACBGFDDDA::BJLEJCIGLAO_AGJBLPLJGPD),
+            "BJLEJCIGLAO_ACBOMNNALDK" => ::std::option::Option::Some(BKACBGFDDDA::BJLEJCIGLAO_ACBOMNNALDK),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [BKACBGFDDDA] = &[
-        BKACBGFDDDA::BKACBGFDDDA_MNFEPONEDDJ,
-        BKACBGFDDDA::BKACBGFDDDA_BEMCNAJOHHE,
-        BKACBGFDDDA::BKACBGFDDDA_EIFLBEEPOFJ,
+        BKACBGFDDDA::BJLEJCIGLAO_PCPDHELPKEM,
+        BKACBGFDDDA::BJLEJCIGLAO_AGJBLPLJGPD,
+        BKACBGFDDDA::BJLEJCIGLAO_ACBOMNNALDK,
     ];
 }
 
@@ -81,7 +81,7 @@ impl ::protobuf::EnumFull for BKACBGFDDDA {
 
 impl ::std::default::Default for BKACBGFDDDA {
     fn default() -> Self {
-        BKACBGFDDDA::BKACBGFDDDA_MNFEPONEDDJ
+        BKACBGFDDDA::BJLEJCIGLAO_PCPDHELPKEM
     }
 }
 
@@ -92,9 +92,9 @@ impl BKACBGFDDDA {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x11BKACBGFDDDA.proto*d\n\x0bBKACBGFDDDA\x12\x1b\n\x17BKACBGFDDDA_MNFE\
-    PONEDDJ\x10\0\x12\x1b\n\x17BKACBGFDDDA_BEMCNAJOHHE\x10\x01\x12\x1b\n\x17\
-    BKACBGFDDDA_EIFLBEEPOFJ\x10\x02b\x06proto3\
+    \n\x11BKACBGFDDDA.proto*d\n\x0bBKACBGFDDDA\x12\x1b\n\x17BJLEJCIGLAO_PCPD\
+    HELPKEM\x10\0\x12\x1b\n\x17BJLEJCIGLAO_AGJBLPLJGPD\x10\x01\x12\x1b\n\x17\
+    BJLEJCIGLAO_ACBOMNNALDK\x10\x02b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

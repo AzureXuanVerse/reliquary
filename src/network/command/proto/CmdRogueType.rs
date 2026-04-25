@@ -27,114 +27,114 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdRogueType)
 pub enum CmdRogueType {
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_MNFEPONEDDJ)
-    CmdRogueType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_FJBFDHABKAP)
-    CmdRogueType_FJBFDHABKAP = 1825,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_PACOFNMMEGG)
-    CmdRogueType_PACOFNMMEGG = 1809,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_PNODICNMDFB)
-    CmdRogueType_PNODICNMDFB = 1888,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_PMDCMDOAMDF)
-    CmdRogueType_PMDCMDOAMDF = 1823,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_HMMBFJGJEPK)
-    CmdRogueType_HMMBFJGJEPK = 1839,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_POIMOLFOKHF)
-    CmdRogueType_POIMOLFOKHF = 1845,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_EJPCDMIHLPK)
-    CmdRogueType_EJPCDMIHLPK = 1808,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_POMBLNFPEIH)
-    CmdRogueType_POMBLNFPEIH = 1835,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_FDLMNINHMMB)
-    CmdRogueType_FDLMNINHMMB = 1882,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_IKKMJJBAOFI)
-    CmdRogueType_IKKMJJBAOFI = 1900,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_KEDEBDIGFPK)
-    CmdRogueType_KEDEBDIGFPK = 1826,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_LEHICEDKHMF)
-    CmdRogueType_LEHICEDKHMF = 1892,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_OHGKMDOLEHB)
-    CmdRogueType_OHGKMDOLEHB = 1847,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_DANLHFBCHJE)
-    CmdRogueType_DANLHFBCHJE = 1860,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_HNCIEJIGEPN)
-    CmdRogueType_HNCIEJIGEPN = 1841,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_EIFIBBHBPBO)
-    CmdRogueType_EIFIBBHBPBO = 1822,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_LNLJOAIMKMK)
-    CmdRogueType_LNLJOAIMKMK = 1866,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_HHCDHAJPPMD)
-    CmdRogueType_HHCDHAJPPMD = 1807,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_OAFFOBBOIOB)
-    CmdRogueType_OAFFOBBOIOB = 1833,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_GEDDAJGPCIF)
-    CmdRogueType_GEDDAJGPCIF = 1883,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_AKCAFOANKPM)
-    CmdRogueType_AKCAFOANKPM = 1864,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_JCCLLKIPMFF)
-    CmdRogueType_JCCLLKIPMFF = 1837,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_CJEJHEMMGMA)
-    CmdRogueType_CJEJHEMMGMA = 1851,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_IDMDNFHKEKE)
-    CmdRogueType_IDMDNFHKEKE = 1804,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_GGJJHFNAJCM)
-    CmdRogueType_GGJJHFNAJCM = 1893,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_NBAPKPBKFDA)
-    CmdRogueType_NBAPKPBKFDA = 1842,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_NFFOJGFGGOG)
-    CmdRogueType_NFFOJGFGGOG = 1887,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_MEEIAMEBLOF)
-    CmdRogueType_MEEIAMEBLOF = 1832,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_KFLOEBLHJNI)
-    CmdRogueType_KFLOEBLHJNI = 1848,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_KKEAJJFMPMH)
-    CmdRogueType_KKEAJJFMPMH = 1806,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_DNIBOPGEFGO)
-    CmdRogueType_DNIBOPGEFGO = 1871,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_MAJDODOOHLI)
-    CmdRogueType_MAJDODOOHLI = 1801,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_EELBMOGDIKP)
-    CmdRogueType_EELBMOGDIKP = 1856,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_PDCAMDMMJCJ)
-    CmdRogueType_PDCAMDMMJCJ = 1854,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_CDFHOPPCPEN)
-    CmdRogueType_CDFHOPPCPEN = 1868,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_LPOEMNMOAED)
-    CmdRogueType_LPOEMNMOAED = 1824,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_FMDIPGPMFAA)
-    CmdRogueType_FMDIPGPMFAA = 1820,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_PJHFMKEBOKA)
-    CmdRogueType_PJHFMKEBOKA = 1849,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_MDACKABJMLF)
-    CmdRogueType_MDACKABJMLF = 1886,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_BJMIFFNCEBK)
-    CmdRogueType_BJMIFFNCEBK = 1821,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_LIADNGPFBHH)
-    CmdRogueType_LIADNGPFBHH = 1813,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_NICPNIPAAME)
-    CmdRogueType_NICPNIPAAME = 1895,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_NPIMMMGDNJO)
-    CmdRogueType_NPIMMMGDNJO = 1803,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_GOBIKAMIKIH)
-    CmdRogueType_GOBIKAMIKIH = 1889,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_GBJJHEMDGHO)
-    CmdRogueType_GBJJHEMDGHO = 1818,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_MGGAICEAGBC)
-    CmdRogueType_MGGAICEAGBC = 1877,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_ACDPEALAGPH)
-    CmdRogueType_ACDPEALAGPH = 1830,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_MHJJEPJPLJD)
-    CmdRogueType_MHJJEPJPLJD = 1812,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_OPHKDABIOCI)
-    CmdRogueType_OPHKDABIOCI = 1870,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_GHGFNFECEMG)
-    CmdRogueType_GHGFNFECEMG = 1802,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_IADHLDCHAKI)
-    CmdRogueType_IADHLDCHAKI = 1881,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_FCCOACFMLFL)
-    CmdRogueType_FCCOACFMLFL = 1862,
-    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdRogueType_OHEJFKJKHKE)
-    CmdRogueType_OHEJFKJKHKE = 1831,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.OEELNJLOKHK_PCPDHELPKEM)
+    OEELNJLOKHK_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdStartRogueScRsp)
+    CmdStartRogueScRsp = 1895,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdGetRogueInfoScRsp)
+    CmdGetRogueInfoScRsp = 1810,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdLeaveRogueCsReq)
+    CmdLeaveRogueCsReq = 1809,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdExchangeRogueRewardKeyScRsp)
+    CmdExchangeRogueRewardKeyScRsp = 1877,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdEnterRogueMapRoomScRsp)
+    CmdEnterRogueMapRoomScRsp = 1893,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdSyncRogueAeonScNotify)
+    CmdSyncRogueAeonScNotify = 1868,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdLOPOJDAAIPO)
+    CmdLOPOJDAAIPO = 1884,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdPNHGIANGNAE)
+    CmdPNHGIANGNAE = 1822,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdSyncRogueGetItemScNotify)
+    CmdSyncRogueGetItemScNotify = 1860,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdExchangeRogueRewardKeyCsReq)
+    CmdExchangeRogueRewardKeyCsReq = 1812,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdTakeRogueScoreRewardScRsp)
+    CmdTakeRogueScoreRewardScRsp = 1858,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdAABFLGKCHCA)
+    CmdAABFLGKCHCA = 1833,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdStartRogueCsReq)
+    CmdStartRogueCsReq = 1894,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdFinishAeonDialogueGroupScRsp)
+    CmdFinishAeonDialogueGroupScRsp = 1834,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdTakeRogueAeonLevelRewardCsReq)
+    CmdTakeRogueAeonLevelRewardCsReq = 1899,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdGetRogueAeonInfoScRsp)
+    CmdGetRogueAeonInfoScRsp = 1876,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.OEELNJLOKHK_GIEIFOLEOEG)
+    OEELNJLOKHK_GIEIFOLEOEG = 1802,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdJBOELLFBFHB)
+    CmdJBOELLFBFHB = 1815,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdEnterRogueCsReq)
+    CmdEnterRogueCsReq = 1814,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdGLKPCPLBPLN)
+    CmdGLKPCPLBPLN = 1896,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdGetRogueAeonInfoCsReq)
+    CmdGetRogueAeonInfoCsReq = 1848,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdNLLJBGPJFIN)
+    CmdNLLJBGPJFIN = 1872,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdSyncRogueReviveInfoScNotify)
+    CmdSyncRogueReviveInfoScNotify = 1873,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdQuitRogueScRsp)
+    CmdQuitRogueScRsp = 1808,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdEnterRogueMapRoomCsReq)
+    CmdEnterRogueMapRoomCsReq = 1820,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdGJKOPKLDFGB)
+    CmdGJKOPKLDFGB = 1813,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdSyncRogueExploreWinScNotify)
+    CmdSyncRogueExploreWinScNotify = 1851,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdSyncRogueStatusScNotify)
+    CmdSyncRogueStatusScNotify = 1881,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdEnableRogueTalentCsReq)
+    CmdEnableRogueTalentCsReq = 1887,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdFinishAeonDialogueGroupCsReq)
+    CmdFinishAeonDialogueGroupCsReq = 1846,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdQuitRogueCsReq)
+    CmdQuitRogueCsReq = 1853,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdKEPNGMHCNDN)
+    CmdKEPNGMHCNDN = 1889,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdLeaveRogueScRsp)
+    CmdLeaveRogueScRsp = 1898,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdGetRogueTalentInfoCsReq)
+    CmdGetRogueTalentInfoCsReq = 1856,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.OEELNJLOKHK_ODEPOIGBMCB)
+    OEELNJLOKHK_ODEPOIGBMCB = 1807,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdBIDMHOFDCIC)
+    CmdBIDMHOFDCIC = 1900,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdSyncRogueSeasonFinishScNotify)
+    CmdSyncRogueSeasonFinishScNotify = 1825,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdSyncRogueAreaUnlockScNotify)
+    CmdSyncRogueAreaUnlockScNotify = 1882,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdSyncRogueFinishScNotify)
+    CmdSyncRogueFinishScNotify = 1804,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdEnableRogueTalentScRsp)
+    CmdEnableRogueTalentScRsp = 1827,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdGetRogueTalentInfoScRsp)
+    CmdGetRogueTalentInfoScRsp = 1845,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdGetRogueInitialScoreScRsp)
+    CmdGetRogueInitialScoreScRsp = 1849,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdCIGIICEJLJE)
+    CmdCIGIICEJLJE = 1838,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdOpenRogueChestScRsp)
+    CmdOpenRogueChestScRsp = 1829,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdGetRogueScoreRewardInfoScRsp)
+    CmdGetRogueScoreRewardInfoScRsp = 1880,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdDJFICMCBNAE)
+    CmdDJFICMCBNAE = 1861,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdEnterRogueScRsp)
+    CmdEnterRogueScRsp = 1818,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.OEELNJLOKHK_GLGPEFMALPE)
+    OEELNJLOKHK_GLGPEFMALPE = 1886,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdMMIBACFNELB)
+    CmdMMIBACFNELB = 1844,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdOpenRogueChestCsReq)
+    CmdOpenRogueChestCsReq = 1859,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdSyncRogueMapRoomScNotify)
+    CmdSyncRogueMapRoomScNotify = 1866,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdGetRogueInfoCsReq)
+    CmdGetRogueInfoCsReq = 1891,
+    // @@protoc_insertion_point(enum_value:CmdRogueType.CmdSyncRogueVirtualItemInfoScNotify)
+    CmdSyncRogueVirtualItemInfoScNotify = 1847,
 }
 
 impl ::protobuf::Enum for CmdRogueType {
@@ -146,179 +146,179 @@ impl ::protobuf::Enum for CmdRogueType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdRogueType> {
         match value {
-            0 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_MNFEPONEDDJ),
-            1825 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_FJBFDHABKAP),
-            1809 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_PACOFNMMEGG),
-            1888 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_PNODICNMDFB),
-            1823 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_PMDCMDOAMDF),
-            1839 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_HMMBFJGJEPK),
-            1845 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_POIMOLFOKHF),
-            1808 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_EJPCDMIHLPK),
-            1835 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_POMBLNFPEIH),
-            1882 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_FDLMNINHMMB),
-            1900 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_IKKMJJBAOFI),
-            1826 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_KEDEBDIGFPK),
-            1892 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_LEHICEDKHMF),
-            1847 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_OHGKMDOLEHB),
-            1860 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_DANLHFBCHJE),
-            1841 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_HNCIEJIGEPN),
-            1822 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_EIFIBBHBPBO),
-            1866 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_LNLJOAIMKMK),
-            1807 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_HHCDHAJPPMD),
-            1833 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_OAFFOBBOIOB),
-            1883 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_GEDDAJGPCIF),
-            1864 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_AKCAFOANKPM),
-            1837 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_JCCLLKIPMFF),
-            1851 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_CJEJHEMMGMA),
-            1804 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_IDMDNFHKEKE),
-            1893 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_GGJJHFNAJCM),
-            1842 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_NBAPKPBKFDA),
-            1887 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_NFFOJGFGGOG),
-            1832 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_MEEIAMEBLOF),
-            1848 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_KFLOEBLHJNI),
-            1806 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_KKEAJJFMPMH),
-            1871 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_DNIBOPGEFGO),
-            1801 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_MAJDODOOHLI),
-            1856 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_EELBMOGDIKP),
-            1854 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_PDCAMDMMJCJ),
-            1868 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_CDFHOPPCPEN),
-            1824 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_LPOEMNMOAED),
-            1820 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_FMDIPGPMFAA),
-            1849 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_PJHFMKEBOKA),
-            1886 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_MDACKABJMLF),
-            1821 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_BJMIFFNCEBK),
-            1813 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_LIADNGPFBHH),
-            1895 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_NICPNIPAAME),
-            1803 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_NPIMMMGDNJO),
-            1889 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_GOBIKAMIKIH),
-            1818 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_GBJJHEMDGHO),
-            1877 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_MGGAICEAGBC),
-            1830 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_ACDPEALAGPH),
-            1812 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_MHJJEPJPLJD),
-            1870 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_OPHKDABIOCI),
-            1802 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_GHGFNFECEMG),
-            1881 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_IADHLDCHAKI),
-            1862 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_FCCOACFMLFL),
-            1831 => ::std::option::Option::Some(CmdRogueType::CmdRogueType_OHEJFKJKHKE),
+            0 => ::std::option::Option::Some(CmdRogueType::OEELNJLOKHK_PCPDHELPKEM),
+            1895 => ::std::option::Option::Some(CmdRogueType::CmdStartRogueScRsp),
+            1810 => ::std::option::Option::Some(CmdRogueType::CmdGetRogueInfoScRsp),
+            1809 => ::std::option::Option::Some(CmdRogueType::CmdLeaveRogueCsReq),
+            1877 => ::std::option::Option::Some(CmdRogueType::CmdExchangeRogueRewardKeyScRsp),
+            1893 => ::std::option::Option::Some(CmdRogueType::CmdEnterRogueMapRoomScRsp),
+            1868 => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueAeonScNotify),
+            1884 => ::std::option::Option::Some(CmdRogueType::CmdLOPOJDAAIPO),
+            1822 => ::std::option::Option::Some(CmdRogueType::CmdPNHGIANGNAE),
+            1860 => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueGetItemScNotify),
+            1812 => ::std::option::Option::Some(CmdRogueType::CmdExchangeRogueRewardKeyCsReq),
+            1858 => ::std::option::Option::Some(CmdRogueType::CmdTakeRogueScoreRewardScRsp),
+            1833 => ::std::option::Option::Some(CmdRogueType::CmdAABFLGKCHCA),
+            1894 => ::std::option::Option::Some(CmdRogueType::CmdStartRogueCsReq),
+            1834 => ::std::option::Option::Some(CmdRogueType::CmdFinishAeonDialogueGroupScRsp),
+            1899 => ::std::option::Option::Some(CmdRogueType::CmdTakeRogueAeonLevelRewardCsReq),
+            1876 => ::std::option::Option::Some(CmdRogueType::CmdGetRogueAeonInfoScRsp),
+            1802 => ::std::option::Option::Some(CmdRogueType::OEELNJLOKHK_GIEIFOLEOEG),
+            1815 => ::std::option::Option::Some(CmdRogueType::CmdJBOELLFBFHB),
+            1814 => ::std::option::Option::Some(CmdRogueType::CmdEnterRogueCsReq),
+            1896 => ::std::option::Option::Some(CmdRogueType::CmdGLKPCPLBPLN),
+            1848 => ::std::option::Option::Some(CmdRogueType::CmdGetRogueAeonInfoCsReq),
+            1872 => ::std::option::Option::Some(CmdRogueType::CmdNLLJBGPJFIN),
+            1873 => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueReviveInfoScNotify),
+            1808 => ::std::option::Option::Some(CmdRogueType::CmdQuitRogueScRsp),
+            1820 => ::std::option::Option::Some(CmdRogueType::CmdEnterRogueMapRoomCsReq),
+            1813 => ::std::option::Option::Some(CmdRogueType::CmdGJKOPKLDFGB),
+            1851 => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueExploreWinScNotify),
+            1881 => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueStatusScNotify),
+            1887 => ::std::option::Option::Some(CmdRogueType::CmdEnableRogueTalentCsReq),
+            1846 => ::std::option::Option::Some(CmdRogueType::CmdFinishAeonDialogueGroupCsReq),
+            1853 => ::std::option::Option::Some(CmdRogueType::CmdQuitRogueCsReq),
+            1889 => ::std::option::Option::Some(CmdRogueType::CmdKEPNGMHCNDN),
+            1898 => ::std::option::Option::Some(CmdRogueType::CmdLeaveRogueScRsp),
+            1856 => ::std::option::Option::Some(CmdRogueType::CmdGetRogueTalentInfoCsReq),
+            1807 => ::std::option::Option::Some(CmdRogueType::OEELNJLOKHK_ODEPOIGBMCB),
+            1900 => ::std::option::Option::Some(CmdRogueType::CmdBIDMHOFDCIC),
+            1825 => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueSeasonFinishScNotify),
+            1882 => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueAreaUnlockScNotify),
+            1804 => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueFinishScNotify),
+            1827 => ::std::option::Option::Some(CmdRogueType::CmdEnableRogueTalentScRsp),
+            1845 => ::std::option::Option::Some(CmdRogueType::CmdGetRogueTalentInfoScRsp),
+            1849 => ::std::option::Option::Some(CmdRogueType::CmdGetRogueInitialScoreScRsp),
+            1838 => ::std::option::Option::Some(CmdRogueType::CmdCIGIICEJLJE),
+            1829 => ::std::option::Option::Some(CmdRogueType::CmdOpenRogueChestScRsp),
+            1880 => ::std::option::Option::Some(CmdRogueType::CmdGetRogueScoreRewardInfoScRsp),
+            1861 => ::std::option::Option::Some(CmdRogueType::CmdDJFICMCBNAE),
+            1818 => ::std::option::Option::Some(CmdRogueType::CmdEnterRogueScRsp),
+            1886 => ::std::option::Option::Some(CmdRogueType::OEELNJLOKHK_GLGPEFMALPE),
+            1844 => ::std::option::Option::Some(CmdRogueType::CmdMMIBACFNELB),
+            1859 => ::std::option::Option::Some(CmdRogueType::CmdOpenRogueChestCsReq),
+            1866 => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueMapRoomScNotify),
+            1891 => ::std::option::Option::Some(CmdRogueType::CmdGetRogueInfoCsReq),
+            1847 => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueVirtualItemInfoScNotify),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdRogueType> {
         match str {
-            "CmdRogueType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_MNFEPONEDDJ),
-            "CmdRogueType_FJBFDHABKAP" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_FJBFDHABKAP),
-            "CmdRogueType_PACOFNMMEGG" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_PACOFNMMEGG),
-            "CmdRogueType_PNODICNMDFB" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_PNODICNMDFB),
-            "CmdRogueType_PMDCMDOAMDF" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_PMDCMDOAMDF),
-            "CmdRogueType_HMMBFJGJEPK" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_HMMBFJGJEPK),
-            "CmdRogueType_POIMOLFOKHF" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_POIMOLFOKHF),
-            "CmdRogueType_EJPCDMIHLPK" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_EJPCDMIHLPK),
-            "CmdRogueType_POMBLNFPEIH" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_POMBLNFPEIH),
-            "CmdRogueType_FDLMNINHMMB" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_FDLMNINHMMB),
-            "CmdRogueType_IKKMJJBAOFI" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_IKKMJJBAOFI),
-            "CmdRogueType_KEDEBDIGFPK" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_KEDEBDIGFPK),
-            "CmdRogueType_LEHICEDKHMF" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_LEHICEDKHMF),
-            "CmdRogueType_OHGKMDOLEHB" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_OHGKMDOLEHB),
-            "CmdRogueType_DANLHFBCHJE" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_DANLHFBCHJE),
-            "CmdRogueType_HNCIEJIGEPN" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_HNCIEJIGEPN),
-            "CmdRogueType_EIFIBBHBPBO" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_EIFIBBHBPBO),
-            "CmdRogueType_LNLJOAIMKMK" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_LNLJOAIMKMK),
-            "CmdRogueType_HHCDHAJPPMD" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_HHCDHAJPPMD),
-            "CmdRogueType_OAFFOBBOIOB" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_OAFFOBBOIOB),
-            "CmdRogueType_GEDDAJGPCIF" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_GEDDAJGPCIF),
-            "CmdRogueType_AKCAFOANKPM" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_AKCAFOANKPM),
-            "CmdRogueType_JCCLLKIPMFF" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_JCCLLKIPMFF),
-            "CmdRogueType_CJEJHEMMGMA" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_CJEJHEMMGMA),
-            "CmdRogueType_IDMDNFHKEKE" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_IDMDNFHKEKE),
-            "CmdRogueType_GGJJHFNAJCM" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_GGJJHFNAJCM),
-            "CmdRogueType_NBAPKPBKFDA" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_NBAPKPBKFDA),
-            "CmdRogueType_NFFOJGFGGOG" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_NFFOJGFGGOG),
-            "CmdRogueType_MEEIAMEBLOF" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_MEEIAMEBLOF),
-            "CmdRogueType_KFLOEBLHJNI" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_KFLOEBLHJNI),
-            "CmdRogueType_KKEAJJFMPMH" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_KKEAJJFMPMH),
-            "CmdRogueType_DNIBOPGEFGO" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_DNIBOPGEFGO),
-            "CmdRogueType_MAJDODOOHLI" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_MAJDODOOHLI),
-            "CmdRogueType_EELBMOGDIKP" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_EELBMOGDIKP),
-            "CmdRogueType_PDCAMDMMJCJ" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_PDCAMDMMJCJ),
-            "CmdRogueType_CDFHOPPCPEN" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_CDFHOPPCPEN),
-            "CmdRogueType_LPOEMNMOAED" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_LPOEMNMOAED),
-            "CmdRogueType_FMDIPGPMFAA" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_FMDIPGPMFAA),
-            "CmdRogueType_PJHFMKEBOKA" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_PJHFMKEBOKA),
-            "CmdRogueType_MDACKABJMLF" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_MDACKABJMLF),
-            "CmdRogueType_BJMIFFNCEBK" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_BJMIFFNCEBK),
-            "CmdRogueType_LIADNGPFBHH" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_LIADNGPFBHH),
-            "CmdRogueType_NICPNIPAAME" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_NICPNIPAAME),
-            "CmdRogueType_NPIMMMGDNJO" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_NPIMMMGDNJO),
-            "CmdRogueType_GOBIKAMIKIH" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_GOBIKAMIKIH),
-            "CmdRogueType_GBJJHEMDGHO" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_GBJJHEMDGHO),
-            "CmdRogueType_MGGAICEAGBC" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_MGGAICEAGBC),
-            "CmdRogueType_ACDPEALAGPH" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_ACDPEALAGPH),
-            "CmdRogueType_MHJJEPJPLJD" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_MHJJEPJPLJD),
-            "CmdRogueType_OPHKDABIOCI" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_OPHKDABIOCI),
-            "CmdRogueType_GHGFNFECEMG" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_GHGFNFECEMG),
-            "CmdRogueType_IADHLDCHAKI" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_IADHLDCHAKI),
-            "CmdRogueType_FCCOACFMLFL" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_FCCOACFMLFL),
-            "CmdRogueType_OHEJFKJKHKE" => ::std::option::Option::Some(CmdRogueType::CmdRogueType_OHEJFKJKHKE),
+            "OEELNJLOKHK_PCPDHELPKEM" => ::std::option::Option::Some(CmdRogueType::OEELNJLOKHK_PCPDHELPKEM),
+            "CmdStartRogueScRsp" => ::std::option::Option::Some(CmdRogueType::CmdStartRogueScRsp),
+            "CmdGetRogueInfoScRsp" => ::std::option::Option::Some(CmdRogueType::CmdGetRogueInfoScRsp),
+            "CmdLeaveRogueCsReq" => ::std::option::Option::Some(CmdRogueType::CmdLeaveRogueCsReq),
+            "CmdExchangeRogueRewardKeyScRsp" => ::std::option::Option::Some(CmdRogueType::CmdExchangeRogueRewardKeyScRsp),
+            "CmdEnterRogueMapRoomScRsp" => ::std::option::Option::Some(CmdRogueType::CmdEnterRogueMapRoomScRsp),
+            "CmdSyncRogueAeonScNotify" => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueAeonScNotify),
+            "CmdLOPOJDAAIPO" => ::std::option::Option::Some(CmdRogueType::CmdLOPOJDAAIPO),
+            "CmdPNHGIANGNAE" => ::std::option::Option::Some(CmdRogueType::CmdPNHGIANGNAE),
+            "CmdSyncRogueGetItemScNotify" => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueGetItemScNotify),
+            "CmdExchangeRogueRewardKeyCsReq" => ::std::option::Option::Some(CmdRogueType::CmdExchangeRogueRewardKeyCsReq),
+            "CmdTakeRogueScoreRewardScRsp" => ::std::option::Option::Some(CmdRogueType::CmdTakeRogueScoreRewardScRsp),
+            "CmdAABFLGKCHCA" => ::std::option::Option::Some(CmdRogueType::CmdAABFLGKCHCA),
+            "CmdStartRogueCsReq" => ::std::option::Option::Some(CmdRogueType::CmdStartRogueCsReq),
+            "CmdFinishAeonDialogueGroupScRsp" => ::std::option::Option::Some(CmdRogueType::CmdFinishAeonDialogueGroupScRsp),
+            "CmdTakeRogueAeonLevelRewardCsReq" => ::std::option::Option::Some(CmdRogueType::CmdTakeRogueAeonLevelRewardCsReq),
+            "CmdGetRogueAeonInfoScRsp" => ::std::option::Option::Some(CmdRogueType::CmdGetRogueAeonInfoScRsp),
+            "OEELNJLOKHK_GIEIFOLEOEG" => ::std::option::Option::Some(CmdRogueType::OEELNJLOKHK_GIEIFOLEOEG),
+            "CmdJBOELLFBFHB" => ::std::option::Option::Some(CmdRogueType::CmdJBOELLFBFHB),
+            "CmdEnterRogueCsReq" => ::std::option::Option::Some(CmdRogueType::CmdEnterRogueCsReq),
+            "CmdGLKPCPLBPLN" => ::std::option::Option::Some(CmdRogueType::CmdGLKPCPLBPLN),
+            "CmdGetRogueAeonInfoCsReq" => ::std::option::Option::Some(CmdRogueType::CmdGetRogueAeonInfoCsReq),
+            "CmdNLLJBGPJFIN" => ::std::option::Option::Some(CmdRogueType::CmdNLLJBGPJFIN),
+            "CmdSyncRogueReviveInfoScNotify" => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueReviveInfoScNotify),
+            "CmdQuitRogueScRsp" => ::std::option::Option::Some(CmdRogueType::CmdQuitRogueScRsp),
+            "CmdEnterRogueMapRoomCsReq" => ::std::option::Option::Some(CmdRogueType::CmdEnterRogueMapRoomCsReq),
+            "CmdGJKOPKLDFGB" => ::std::option::Option::Some(CmdRogueType::CmdGJKOPKLDFGB),
+            "CmdSyncRogueExploreWinScNotify" => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueExploreWinScNotify),
+            "CmdSyncRogueStatusScNotify" => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueStatusScNotify),
+            "CmdEnableRogueTalentCsReq" => ::std::option::Option::Some(CmdRogueType::CmdEnableRogueTalentCsReq),
+            "CmdFinishAeonDialogueGroupCsReq" => ::std::option::Option::Some(CmdRogueType::CmdFinishAeonDialogueGroupCsReq),
+            "CmdQuitRogueCsReq" => ::std::option::Option::Some(CmdRogueType::CmdQuitRogueCsReq),
+            "CmdKEPNGMHCNDN" => ::std::option::Option::Some(CmdRogueType::CmdKEPNGMHCNDN),
+            "CmdLeaveRogueScRsp" => ::std::option::Option::Some(CmdRogueType::CmdLeaveRogueScRsp),
+            "CmdGetRogueTalentInfoCsReq" => ::std::option::Option::Some(CmdRogueType::CmdGetRogueTalentInfoCsReq),
+            "OEELNJLOKHK_ODEPOIGBMCB" => ::std::option::Option::Some(CmdRogueType::OEELNJLOKHK_ODEPOIGBMCB),
+            "CmdBIDMHOFDCIC" => ::std::option::Option::Some(CmdRogueType::CmdBIDMHOFDCIC),
+            "CmdSyncRogueSeasonFinishScNotify" => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueSeasonFinishScNotify),
+            "CmdSyncRogueAreaUnlockScNotify" => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueAreaUnlockScNotify),
+            "CmdSyncRogueFinishScNotify" => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueFinishScNotify),
+            "CmdEnableRogueTalentScRsp" => ::std::option::Option::Some(CmdRogueType::CmdEnableRogueTalentScRsp),
+            "CmdGetRogueTalentInfoScRsp" => ::std::option::Option::Some(CmdRogueType::CmdGetRogueTalentInfoScRsp),
+            "CmdGetRogueInitialScoreScRsp" => ::std::option::Option::Some(CmdRogueType::CmdGetRogueInitialScoreScRsp),
+            "CmdCIGIICEJLJE" => ::std::option::Option::Some(CmdRogueType::CmdCIGIICEJLJE),
+            "CmdOpenRogueChestScRsp" => ::std::option::Option::Some(CmdRogueType::CmdOpenRogueChestScRsp),
+            "CmdGetRogueScoreRewardInfoScRsp" => ::std::option::Option::Some(CmdRogueType::CmdGetRogueScoreRewardInfoScRsp),
+            "CmdDJFICMCBNAE" => ::std::option::Option::Some(CmdRogueType::CmdDJFICMCBNAE),
+            "CmdEnterRogueScRsp" => ::std::option::Option::Some(CmdRogueType::CmdEnterRogueScRsp),
+            "OEELNJLOKHK_GLGPEFMALPE" => ::std::option::Option::Some(CmdRogueType::OEELNJLOKHK_GLGPEFMALPE),
+            "CmdMMIBACFNELB" => ::std::option::Option::Some(CmdRogueType::CmdMMIBACFNELB),
+            "CmdOpenRogueChestCsReq" => ::std::option::Option::Some(CmdRogueType::CmdOpenRogueChestCsReq),
+            "CmdSyncRogueMapRoomScNotify" => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueMapRoomScNotify),
+            "CmdGetRogueInfoCsReq" => ::std::option::Option::Some(CmdRogueType::CmdGetRogueInfoCsReq),
+            "CmdSyncRogueVirtualItemInfoScNotify" => ::std::option::Option::Some(CmdRogueType::CmdSyncRogueVirtualItemInfoScNotify),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdRogueType] = &[
-        CmdRogueType::CmdRogueType_MNFEPONEDDJ,
-        CmdRogueType::CmdRogueType_FJBFDHABKAP,
-        CmdRogueType::CmdRogueType_PACOFNMMEGG,
-        CmdRogueType::CmdRogueType_PNODICNMDFB,
-        CmdRogueType::CmdRogueType_PMDCMDOAMDF,
-        CmdRogueType::CmdRogueType_HMMBFJGJEPK,
-        CmdRogueType::CmdRogueType_POIMOLFOKHF,
-        CmdRogueType::CmdRogueType_EJPCDMIHLPK,
-        CmdRogueType::CmdRogueType_POMBLNFPEIH,
-        CmdRogueType::CmdRogueType_FDLMNINHMMB,
-        CmdRogueType::CmdRogueType_IKKMJJBAOFI,
-        CmdRogueType::CmdRogueType_KEDEBDIGFPK,
-        CmdRogueType::CmdRogueType_LEHICEDKHMF,
-        CmdRogueType::CmdRogueType_OHGKMDOLEHB,
-        CmdRogueType::CmdRogueType_DANLHFBCHJE,
-        CmdRogueType::CmdRogueType_HNCIEJIGEPN,
-        CmdRogueType::CmdRogueType_EIFIBBHBPBO,
-        CmdRogueType::CmdRogueType_LNLJOAIMKMK,
-        CmdRogueType::CmdRogueType_HHCDHAJPPMD,
-        CmdRogueType::CmdRogueType_OAFFOBBOIOB,
-        CmdRogueType::CmdRogueType_GEDDAJGPCIF,
-        CmdRogueType::CmdRogueType_AKCAFOANKPM,
-        CmdRogueType::CmdRogueType_JCCLLKIPMFF,
-        CmdRogueType::CmdRogueType_CJEJHEMMGMA,
-        CmdRogueType::CmdRogueType_IDMDNFHKEKE,
-        CmdRogueType::CmdRogueType_GGJJHFNAJCM,
-        CmdRogueType::CmdRogueType_NBAPKPBKFDA,
-        CmdRogueType::CmdRogueType_NFFOJGFGGOG,
-        CmdRogueType::CmdRogueType_MEEIAMEBLOF,
-        CmdRogueType::CmdRogueType_KFLOEBLHJNI,
-        CmdRogueType::CmdRogueType_KKEAJJFMPMH,
-        CmdRogueType::CmdRogueType_DNIBOPGEFGO,
-        CmdRogueType::CmdRogueType_MAJDODOOHLI,
-        CmdRogueType::CmdRogueType_EELBMOGDIKP,
-        CmdRogueType::CmdRogueType_PDCAMDMMJCJ,
-        CmdRogueType::CmdRogueType_CDFHOPPCPEN,
-        CmdRogueType::CmdRogueType_LPOEMNMOAED,
-        CmdRogueType::CmdRogueType_FMDIPGPMFAA,
-        CmdRogueType::CmdRogueType_PJHFMKEBOKA,
-        CmdRogueType::CmdRogueType_MDACKABJMLF,
-        CmdRogueType::CmdRogueType_BJMIFFNCEBK,
-        CmdRogueType::CmdRogueType_LIADNGPFBHH,
-        CmdRogueType::CmdRogueType_NICPNIPAAME,
-        CmdRogueType::CmdRogueType_NPIMMMGDNJO,
-        CmdRogueType::CmdRogueType_GOBIKAMIKIH,
-        CmdRogueType::CmdRogueType_GBJJHEMDGHO,
-        CmdRogueType::CmdRogueType_MGGAICEAGBC,
-        CmdRogueType::CmdRogueType_ACDPEALAGPH,
-        CmdRogueType::CmdRogueType_MHJJEPJPLJD,
-        CmdRogueType::CmdRogueType_OPHKDABIOCI,
-        CmdRogueType::CmdRogueType_GHGFNFECEMG,
-        CmdRogueType::CmdRogueType_IADHLDCHAKI,
-        CmdRogueType::CmdRogueType_FCCOACFMLFL,
-        CmdRogueType::CmdRogueType_OHEJFKJKHKE,
+        CmdRogueType::OEELNJLOKHK_PCPDHELPKEM,
+        CmdRogueType::CmdStartRogueScRsp,
+        CmdRogueType::CmdGetRogueInfoScRsp,
+        CmdRogueType::CmdLeaveRogueCsReq,
+        CmdRogueType::CmdExchangeRogueRewardKeyScRsp,
+        CmdRogueType::CmdEnterRogueMapRoomScRsp,
+        CmdRogueType::CmdSyncRogueAeonScNotify,
+        CmdRogueType::CmdLOPOJDAAIPO,
+        CmdRogueType::CmdPNHGIANGNAE,
+        CmdRogueType::CmdSyncRogueGetItemScNotify,
+        CmdRogueType::CmdExchangeRogueRewardKeyCsReq,
+        CmdRogueType::CmdTakeRogueScoreRewardScRsp,
+        CmdRogueType::CmdAABFLGKCHCA,
+        CmdRogueType::CmdStartRogueCsReq,
+        CmdRogueType::CmdFinishAeonDialogueGroupScRsp,
+        CmdRogueType::CmdTakeRogueAeonLevelRewardCsReq,
+        CmdRogueType::CmdGetRogueAeonInfoScRsp,
+        CmdRogueType::OEELNJLOKHK_GIEIFOLEOEG,
+        CmdRogueType::CmdJBOELLFBFHB,
+        CmdRogueType::CmdEnterRogueCsReq,
+        CmdRogueType::CmdGLKPCPLBPLN,
+        CmdRogueType::CmdGetRogueAeonInfoCsReq,
+        CmdRogueType::CmdNLLJBGPJFIN,
+        CmdRogueType::CmdSyncRogueReviveInfoScNotify,
+        CmdRogueType::CmdQuitRogueScRsp,
+        CmdRogueType::CmdEnterRogueMapRoomCsReq,
+        CmdRogueType::CmdGJKOPKLDFGB,
+        CmdRogueType::CmdSyncRogueExploreWinScNotify,
+        CmdRogueType::CmdSyncRogueStatusScNotify,
+        CmdRogueType::CmdEnableRogueTalentCsReq,
+        CmdRogueType::CmdFinishAeonDialogueGroupCsReq,
+        CmdRogueType::CmdQuitRogueCsReq,
+        CmdRogueType::CmdKEPNGMHCNDN,
+        CmdRogueType::CmdLeaveRogueScRsp,
+        CmdRogueType::CmdGetRogueTalentInfoCsReq,
+        CmdRogueType::OEELNJLOKHK_ODEPOIGBMCB,
+        CmdRogueType::CmdBIDMHOFDCIC,
+        CmdRogueType::CmdSyncRogueSeasonFinishScNotify,
+        CmdRogueType::CmdSyncRogueAreaUnlockScNotify,
+        CmdRogueType::CmdSyncRogueFinishScNotify,
+        CmdRogueType::CmdEnableRogueTalentScRsp,
+        CmdRogueType::CmdGetRogueTalentInfoScRsp,
+        CmdRogueType::CmdGetRogueInitialScoreScRsp,
+        CmdRogueType::CmdCIGIICEJLJE,
+        CmdRogueType::CmdOpenRogueChestScRsp,
+        CmdRogueType::CmdGetRogueScoreRewardInfoScRsp,
+        CmdRogueType::CmdDJFICMCBNAE,
+        CmdRogueType::CmdEnterRogueScRsp,
+        CmdRogueType::OEELNJLOKHK_GLGPEFMALPE,
+        CmdRogueType::CmdMMIBACFNELB,
+        CmdRogueType::CmdOpenRogueChestCsReq,
+        CmdRogueType::CmdSyncRogueMapRoomScNotify,
+        CmdRogueType::CmdGetRogueInfoCsReq,
+        CmdRogueType::CmdSyncRogueVirtualItemInfoScNotify,
     ];
 }
 
@@ -330,60 +330,60 @@ impl ::protobuf::EnumFull for CmdRogueType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdRogueType::CmdRogueType_MNFEPONEDDJ => 0,
-            CmdRogueType::CmdRogueType_FJBFDHABKAP => 1,
-            CmdRogueType::CmdRogueType_PACOFNMMEGG => 2,
-            CmdRogueType::CmdRogueType_PNODICNMDFB => 3,
-            CmdRogueType::CmdRogueType_PMDCMDOAMDF => 4,
-            CmdRogueType::CmdRogueType_HMMBFJGJEPK => 5,
-            CmdRogueType::CmdRogueType_POIMOLFOKHF => 6,
-            CmdRogueType::CmdRogueType_EJPCDMIHLPK => 7,
-            CmdRogueType::CmdRogueType_POMBLNFPEIH => 8,
-            CmdRogueType::CmdRogueType_FDLMNINHMMB => 9,
-            CmdRogueType::CmdRogueType_IKKMJJBAOFI => 10,
-            CmdRogueType::CmdRogueType_KEDEBDIGFPK => 11,
-            CmdRogueType::CmdRogueType_LEHICEDKHMF => 12,
-            CmdRogueType::CmdRogueType_OHGKMDOLEHB => 13,
-            CmdRogueType::CmdRogueType_DANLHFBCHJE => 14,
-            CmdRogueType::CmdRogueType_HNCIEJIGEPN => 15,
-            CmdRogueType::CmdRogueType_EIFIBBHBPBO => 16,
-            CmdRogueType::CmdRogueType_LNLJOAIMKMK => 17,
-            CmdRogueType::CmdRogueType_HHCDHAJPPMD => 18,
-            CmdRogueType::CmdRogueType_OAFFOBBOIOB => 19,
-            CmdRogueType::CmdRogueType_GEDDAJGPCIF => 20,
-            CmdRogueType::CmdRogueType_AKCAFOANKPM => 21,
-            CmdRogueType::CmdRogueType_JCCLLKIPMFF => 22,
-            CmdRogueType::CmdRogueType_CJEJHEMMGMA => 23,
-            CmdRogueType::CmdRogueType_IDMDNFHKEKE => 24,
-            CmdRogueType::CmdRogueType_GGJJHFNAJCM => 25,
-            CmdRogueType::CmdRogueType_NBAPKPBKFDA => 26,
-            CmdRogueType::CmdRogueType_NFFOJGFGGOG => 27,
-            CmdRogueType::CmdRogueType_MEEIAMEBLOF => 28,
-            CmdRogueType::CmdRogueType_KFLOEBLHJNI => 29,
-            CmdRogueType::CmdRogueType_KKEAJJFMPMH => 30,
-            CmdRogueType::CmdRogueType_DNIBOPGEFGO => 31,
-            CmdRogueType::CmdRogueType_MAJDODOOHLI => 32,
-            CmdRogueType::CmdRogueType_EELBMOGDIKP => 33,
-            CmdRogueType::CmdRogueType_PDCAMDMMJCJ => 34,
-            CmdRogueType::CmdRogueType_CDFHOPPCPEN => 35,
-            CmdRogueType::CmdRogueType_LPOEMNMOAED => 36,
-            CmdRogueType::CmdRogueType_FMDIPGPMFAA => 37,
-            CmdRogueType::CmdRogueType_PJHFMKEBOKA => 38,
-            CmdRogueType::CmdRogueType_MDACKABJMLF => 39,
-            CmdRogueType::CmdRogueType_BJMIFFNCEBK => 40,
-            CmdRogueType::CmdRogueType_LIADNGPFBHH => 41,
-            CmdRogueType::CmdRogueType_NICPNIPAAME => 42,
-            CmdRogueType::CmdRogueType_NPIMMMGDNJO => 43,
-            CmdRogueType::CmdRogueType_GOBIKAMIKIH => 44,
-            CmdRogueType::CmdRogueType_GBJJHEMDGHO => 45,
-            CmdRogueType::CmdRogueType_MGGAICEAGBC => 46,
-            CmdRogueType::CmdRogueType_ACDPEALAGPH => 47,
-            CmdRogueType::CmdRogueType_MHJJEPJPLJD => 48,
-            CmdRogueType::CmdRogueType_OPHKDABIOCI => 49,
-            CmdRogueType::CmdRogueType_GHGFNFECEMG => 50,
-            CmdRogueType::CmdRogueType_IADHLDCHAKI => 51,
-            CmdRogueType::CmdRogueType_FCCOACFMLFL => 52,
-            CmdRogueType::CmdRogueType_OHEJFKJKHKE => 53,
+            CmdRogueType::OEELNJLOKHK_PCPDHELPKEM => 0,
+            CmdRogueType::CmdStartRogueScRsp => 1,
+            CmdRogueType::CmdGetRogueInfoScRsp => 2,
+            CmdRogueType::CmdLeaveRogueCsReq => 3,
+            CmdRogueType::CmdExchangeRogueRewardKeyScRsp => 4,
+            CmdRogueType::CmdEnterRogueMapRoomScRsp => 5,
+            CmdRogueType::CmdSyncRogueAeonScNotify => 6,
+            CmdRogueType::CmdLOPOJDAAIPO => 7,
+            CmdRogueType::CmdPNHGIANGNAE => 8,
+            CmdRogueType::CmdSyncRogueGetItemScNotify => 9,
+            CmdRogueType::CmdExchangeRogueRewardKeyCsReq => 10,
+            CmdRogueType::CmdTakeRogueScoreRewardScRsp => 11,
+            CmdRogueType::CmdAABFLGKCHCA => 12,
+            CmdRogueType::CmdStartRogueCsReq => 13,
+            CmdRogueType::CmdFinishAeonDialogueGroupScRsp => 14,
+            CmdRogueType::CmdTakeRogueAeonLevelRewardCsReq => 15,
+            CmdRogueType::CmdGetRogueAeonInfoScRsp => 16,
+            CmdRogueType::OEELNJLOKHK_GIEIFOLEOEG => 17,
+            CmdRogueType::CmdJBOELLFBFHB => 18,
+            CmdRogueType::CmdEnterRogueCsReq => 19,
+            CmdRogueType::CmdGLKPCPLBPLN => 20,
+            CmdRogueType::CmdGetRogueAeonInfoCsReq => 21,
+            CmdRogueType::CmdNLLJBGPJFIN => 22,
+            CmdRogueType::CmdSyncRogueReviveInfoScNotify => 23,
+            CmdRogueType::CmdQuitRogueScRsp => 24,
+            CmdRogueType::CmdEnterRogueMapRoomCsReq => 25,
+            CmdRogueType::CmdGJKOPKLDFGB => 26,
+            CmdRogueType::CmdSyncRogueExploreWinScNotify => 27,
+            CmdRogueType::CmdSyncRogueStatusScNotify => 28,
+            CmdRogueType::CmdEnableRogueTalentCsReq => 29,
+            CmdRogueType::CmdFinishAeonDialogueGroupCsReq => 30,
+            CmdRogueType::CmdQuitRogueCsReq => 31,
+            CmdRogueType::CmdKEPNGMHCNDN => 32,
+            CmdRogueType::CmdLeaveRogueScRsp => 33,
+            CmdRogueType::CmdGetRogueTalentInfoCsReq => 34,
+            CmdRogueType::OEELNJLOKHK_ODEPOIGBMCB => 35,
+            CmdRogueType::CmdBIDMHOFDCIC => 36,
+            CmdRogueType::CmdSyncRogueSeasonFinishScNotify => 37,
+            CmdRogueType::CmdSyncRogueAreaUnlockScNotify => 38,
+            CmdRogueType::CmdSyncRogueFinishScNotify => 39,
+            CmdRogueType::CmdEnableRogueTalentScRsp => 40,
+            CmdRogueType::CmdGetRogueTalentInfoScRsp => 41,
+            CmdRogueType::CmdGetRogueInitialScoreScRsp => 42,
+            CmdRogueType::CmdCIGIICEJLJE => 43,
+            CmdRogueType::CmdOpenRogueChestScRsp => 44,
+            CmdRogueType::CmdGetRogueScoreRewardInfoScRsp => 45,
+            CmdRogueType::CmdDJFICMCBNAE => 46,
+            CmdRogueType::CmdEnterRogueScRsp => 47,
+            CmdRogueType::OEELNJLOKHK_GLGPEFMALPE => 48,
+            CmdRogueType::CmdMMIBACFNELB => 49,
+            CmdRogueType::CmdOpenRogueChestCsReq => 50,
+            CmdRogueType::CmdSyncRogueMapRoomScNotify => 51,
+            CmdRogueType::CmdGetRogueInfoCsReq => 52,
+            CmdRogueType::CmdSyncRogueVirtualItemInfoScNotify => 53,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -391,7 +391,7 @@ impl ::protobuf::EnumFull for CmdRogueType {
 
 impl ::std::default::Default for CmdRogueType {
     fn default() -> Self {
-        CmdRogueType::CmdRogueType_MNFEPONEDDJ
+        CmdRogueType::OEELNJLOKHK_PCPDHELPKEM
     }
 }
 
@@ -402,45 +402,43 @@ impl CmdRogueType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x12CmdRogueType.proto*\x97\r\n\x0cCmdRogueType\x12\x1c\n\x18CmdRogueT\
-    ype_MNFEPONEDDJ\x10\0\x12\x1d\n\x18CmdRogueType_FJBFDHABKAP\x10\xa1\x0e\
-    \x12\x1d\n\x18CmdRogueType_PACOFNMMEGG\x10\x91\x0e\x12\x1d\n\x18CmdRogue\
-    Type_PNODICNMDFB\x10\xe0\x0e\x12\x1d\n\x18CmdRogueType_PMDCMDOAMDF\x10\
-    \x9f\x0e\x12\x1d\n\x18CmdRogueType_HMMBFJGJEPK\x10\xaf\x0e\x12\x1d\n\x18\
-    CmdRogueType_POIMOLFOKHF\x10\xb5\x0e\x12\x1d\n\x18CmdRogueType_EJPCDMIHL\
-    PK\x10\x90\x0e\x12\x1d\n\x18CmdRogueType_POMBLNFPEIH\x10\xab\x0e\x12\x1d\
-    \n\x18CmdRogueType_FDLMNINHMMB\x10\xda\x0e\x12\x1d\n\x18CmdRogueType_IKK\
-    MJJBAOFI\x10\xec\x0e\x12\x1d\n\x18CmdRogueType_KEDEBDIGFPK\x10\xa2\x0e\
-    \x12\x1d\n\x18CmdRogueType_LEHICEDKHMF\x10\xe4\x0e\x12\x1d\n\x18CmdRogue\
-    Type_OHGKMDOLEHB\x10\xb7\x0e\x12\x1d\n\x18CmdRogueType_DANLHFBCHJE\x10\
-    \xc4\x0e\x12\x1d\n\x18CmdRogueType_HNCIEJIGEPN\x10\xb1\x0e\x12\x1d\n\x18\
-    CmdRogueType_EIFIBBHBPBO\x10\x9e\x0e\x12\x1d\n\x18CmdRogueType_LNLJOAIMK\
-    MK\x10\xca\x0e\x12\x1d\n\x18CmdRogueType_HHCDHAJPPMD\x10\x8f\x0e\x12\x1d\
-    \n\x18CmdRogueType_OAFFOBBOIOB\x10\xa9\x0e\x12\x1d\n\x18CmdRogueType_GED\
-    DAJGPCIF\x10\xdb\x0e\x12\x1d\n\x18CmdRogueType_AKCAFOANKPM\x10\xc8\x0e\
-    \x12\x1d\n\x18CmdRogueType_JCCLLKIPMFF\x10\xad\x0e\x12\x1d\n\x18CmdRogue\
-    Type_CJEJHEMMGMA\x10\xbb\x0e\x12\x1d\n\x18CmdRogueType_IDMDNFHKEKE\x10\
-    \x8c\x0e\x12\x1d\n\x18CmdRogueType_GGJJHFNAJCM\x10\xe5\x0e\x12\x1d\n\x18\
-    CmdRogueType_NBAPKPBKFDA\x10\xb2\x0e\x12\x1d\n\x18CmdRogueType_NFFOJGFGG\
-    OG\x10\xdf\x0e\x12\x1d\n\x18CmdRogueType_MEEIAMEBLOF\x10\xa8\x0e\x12\x1d\
-    \n\x18CmdRogueType_KFLOEBLHJNI\x10\xb8\x0e\x12\x1d\n\x18CmdRogueType_KKE\
-    AJJFMPMH\x10\x8e\x0e\x12\x1d\n\x18CmdRogueType_DNIBOPGEFGO\x10\xcf\x0e\
-    \x12\x1d\n\x18CmdRogueType_MAJDODOOHLI\x10\x89\x0e\x12\x1d\n\x18CmdRogue\
-    Type_EELBMOGDIKP\x10\xc0\x0e\x12\x1d\n\x18CmdRogueType_PDCAMDMMJCJ\x10\
-    \xbe\x0e\x12\x1d\n\x18CmdRogueType_CDFHOPPCPEN\x10\xcc\x0e\x12\x1d\n\x18\
-    CmdRogueType_LPOEMNMOAED\x10\xa0\x0e\x12\x1d\n\x18CmdRogueType_FMDIPGPMF\
-    AA\x10\x9c\x0e\x12\x1d\n\x18CmdRogueType_PJHFMKEBOKA\x10\xb9\x0e\x12\x1d\
-    \n\x18CmdRogueType_MDACKABJMLF\x10\xde\x0e\x12\x1d\n\x18CmdRogueType_BJM\
-    IFFNCEBK\x10\x9d\x0e\x12\x1d\n\x18CmdRogueType_LIADNGPFBHH\x10\x95\x0e\
-    \x12\x1d\n\x18CmdRogueType_NICPNIPAAME\x10\xe7\x0e\x12\x1d\n\x18CmdRogue\
-    Type_NPIMMMGDNJO\x10\x8b\x0e\x12\x1d\n\x18CmdRogueType_GOBIKAMIKIH\x10\
-    \xe1\x0e\x12\x1d\n\x18CmdRogueType_GBJJHEMDGHO\x10\x9a\x0e\x12\x1d\n\x18\
-    CmdRogueType_MGGAICEAGBC\x10\xd5\x0e\x12\x1d\n\x18CmdRogueType_ACDPEALAG\
-    PH\x10\xa6\x0e\x12\x1d\n\x18CmdRogueType_MHJJEPJPLJD\x10\x94\x0e\x12\x1d\
-    \n\x18CmdRogueType_OPHKDABIOCI\x10\xce\x0e\x12\x1d\n\x18CmdRogueType_GHG\
-    FNFECEMG\x10\x8a\x0e\x12\x1d\n\x18CmdRogueType_IADHLDCHAKI\x10\xd9\x0e\
-    \x12\x1d\n\x18CmdRogueType_FCCOACFMLFL\x10\xc6\x0e\x12\x1d\n\x18CmdRogue\
-    Type_OHEJFKJKHKE\x10\xa7\x0eb\x06proto3\
+    \n\x12CmdRogueType.proto*\xc5\x0c\n\x0cCmdRogueType\x12\x1b\n\x17OEELNJL\
+    OKHK_PCPDHELPKEM\x10\0\x12\x17\n\x12CmdStartRogueScRsp\x10\xe7\x0e\x12\
+    \x19\n\x14CmdGetRogueInfoScRsp\x10\x92\x0e\x12\x17\n\x12CmdLeaveRogueCsR\
+    eq\x10\x91\x0e\x12#\n\x1eCmdExchangeRogueRewardKeyScRsp\x10\xd5\x0e\x12\
+    \x1e\n\x19CmdEnterRogueMapRoomScRsp\x10\xe5\x0e\x12\x1d\n\x18CmdSyncRogu\
+    eAeonScNotify\x10\xcc\x0e\x12\x13\n\x0eCmdLOPOJDAAIPO\x10\xdc\x0e\x12\
+    \x13\n\x0eCmdPNHGIANGNAE\x10\x9e\x0e\x12\x20\n\x1bCmdSyncRogueGetItemScN\
+    otify\x10\xc4\x0e\x12#\n\x1eCmdExchangeRogueRewardKeyCsReq\x10\x94\x0e\
+    \x12!\n\x1cCmdTakeRogueScoreRewardScRsp\x10\xc2\x0e\x12\x13\n\x0eCmdAABF\
+    LGKCHCA\x10\xa9\x0e\x12\x17\n\x12CmdStartRogueCsReq\x10\xe6\x0e\x12$\n\
+    \x1fCmdFinishAeonDialogueGroupScRsp\x10\xaa\x0e\x12%\n\x20CmdTakeRogueAe\
+    onLevelRewardCsReq\x10\xeb\x0e\x12\x1d\n\x18CmdGetRogueAeonInfoScRsp\x10\
+    \xd4\x0e\x12\x1c\n\x17OEELNJLOKHK_GIEIFOLEOEG\x10\x8a\x0e\x12\x13\n\x0eC\
+    mdJBOELLFBFHB\x10\x97\x0e\x12\x17\n\x12CmdEnterRogueCsReq\x10\x96\x0e\
+    \x12\x13\n\x0eCmdGLKPCPLBPLN\x10\xe8\x0e\x12\x1d\n\x18CmdGetRogueAeonInf\
+    oCsReq\x10\xb8\x0e\x12\x13\n\x0eCmdNLLJBGPJFIN\x10\xd0\x0e\x12#\n\x1eCmd\
+    SyncRogueReviveInfoScNotify\x10\xd1\x0e\x12\x16\n\x11CmdQuitRogueScRsp\
+    \x10\x90\x0e\x12\x1e\n\x19CmdEnterRogueMapRoomCsReq\x10\x9c\x0e\x12\x13\
+    \n\x0eCmdGJKOPKLDFGB\x10\x95\x0e\x12#\n\x1eCmdSyncRogueExploreWinScNotif\
+    y\x10\xbb\x0e\x12\x1f\n\x1aCmdSyncRogueStatusScNotify\x10\xd9\x0e\x12\
+    \x1e\n\x19CmdEnableRogueTalentCsReq\x10\xdf\x0e\x12$\n\x1fCmdFinishAeonD\
+    ialogueGroupCsReq\x10\xb6\x0e\x12\x16\n\x11CmdQuitRogueCsReq\x10\xbd\x0e\
+    \x12\x13\n\x0eCmdKEPNGMHCNDN\x10\xe1\x0e\x12\x17\n\x12CmdLeaveRogueScRsp\
+    \x10\xea\x0e\x12\x1f\n\x1aCmdGetRogueTalentInfoCsReq\x10\xc0\x0e\x12\x1c\
+    \n\x17OEELNJLOKHK_ODEPOIGBMCB\x10\x8f\x0e\x12\x13\n\x0eCmdBIDMHOFDCIC\
+    \x10\xec\x0e\x12%\n\x20CmdSyncRogueSeasonFinishScNotify\x10\xa1\x0e\x12#\
+    \n\x1eCmdSyncRogueAreaUnlockScNotify\x10\xda\x0e\x12\x1f\n\x1aCmdSyncRog\
+    ueFinishScNotify\x10\x8c\x0e\x12\x1e\n\x19CmdEnableRogueTalentScRsp\x10\
+    \xa3\x0e\x12\x1f\n\x1aCmdGetRogueTalentInfoScRsp\x10\xb5\x0e\x12!\n\x1cC\
+    mdGetRogueInitialScoreScRsp\x10\xb9\x0e\x12\x13\n\x0eCmdCIGIICEJLJE\x10\
+    \xae\x0e\x12\x1b\n\x16CmdOpenRogueChestScRsp\x10\xa5\x0e\x12$\n\x1fCmdGe\
+    tRogueScoreRewardInfoScRsp\x10\xd8\x0e\x12\x13\n\x0eCmdDJFICMCBNAE\x10\
+    \xc5\x0e\x12\x17\n\x12CmdEnterRogueScRsp\x10\x9a\x0e\x12\x1c\n\x17OEELNJ\
+    LOKHK_GLGPEFMALPE\x10\xde\x0e\x12\x13\n\x0eCmdMMIBACFNELB\x10\xb4\x0e\
+    \x12\x1b\n\x16CmdOpenRogueChestCsReq\x10\xc3\x0e\x12\x20\n\x1bCmdSyncRog\
+    ueMapRoomScNotify\x10\xca\x0e\x12\x19\n\x14CmdGetRogueInfoCsReq\x10\xe3\
+    \x0e\x12(\n#CmdSyncRogueVirtualItemInfoScNotify\x10\xb7\x0eb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

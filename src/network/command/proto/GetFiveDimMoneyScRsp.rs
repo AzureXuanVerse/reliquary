@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GetFiveDimMoneyScRsp {
     // message fields
-    // @@protoc_insertion_point(field:GetFiveDimMoneyScRsp.GBCKPMPADCF)
-    pub GBCKPMPADCF: u32,
+    // @@protoc_insertion_point(field:GetFiveDimMoneyScRsp.HLLKKGIFIPC)
+    pub HLLKKGIFIPC: u32,
     // @@protoc_insertion_point(field:GetFiveDimMoneyScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:GetFiveDimMoneyScRsp.LEDDBOANBKH)
-    pub LEDDBOANBKH: u32,
+    // @@protoc_insertion_point(field:GetFiveDimMoneyScRsp.HFMLMJALLPC)
+    pub HFMLMJALLPC: u32,
     // special fields
     // @@protoc_insertion_point(special_field:GetFiveDimMoneyScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -54,9 +54,9 @@ impl GetFiveDimMoneyScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "GBCKPMPADCF",
-            |m: &GetFiveDimMoneyScRsp| { &m.GBCKPMPADCF },
-            |m: &mut GetFiveDimMoneyScRsp| { &mut m.GBCKPMPADCF },
+            "HLLKKGIFIPC",
+            |m: &GetFiveDimMoneyScRsp| { &m.HLLKKGIFIPC },
+            |m: &mut GetFiveDimMoneyScRsp| { &mut m.HLLKKGIFIPC },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
@@ -64,9 +64,9 @@ impl GetFiveDimMoneyScRsp {
             |m: &mut GetFiveDimMoneyScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "LEDDBOANBKH",
-            |m: &GetFiveDimMoneyScRsp| { &m.LEDDBOANBKH },
-            |m: &mut GetFiveDimMoneyScRsp| { &mut m.LEDDBOANBKH },
+            "HFMLMJALLPC",
+            |m: &GetFiveDimMoneyScRsp| { &m.HFMLMJALLPC },
+            |m: &mut GetFiveDimMoneyScRsp| { &mut m.HFMLMJALLPC },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetFiveDimMoneyScRsp>(
             "GetFiveDimMoneyScRsp",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for GetFiveDimMoneyScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                96 => {
-                    self.GBCKPMPADCF = is.read_uint32()?;
+                112 => {
+                    self.HLLKKGIFIPC = is.read_uint32()?;
                 },
-                104 => {
+                96 => {
                     self.retcode = is.read_uint32()?;
                 },
-                64 => {
-                    self.LEDDBOANBKH = is.read_uint32()?;
+                88 => {
+                    self.HFMLMJALLPC = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -107,14 +107,14 @@ impl ::protobuf::Message for GetFiveDimMoneyScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.GBCKPMPADCF != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.GBCKPMPADCF);
+        if self.HLLKKGIFIPC != 0 {
+            my_size += ::protobuf::rt::uint32_size(14, self.HLLKKGIFIPC);
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(13, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(12, self.retcode);
         }
-        if self.LEDDBOANBKH != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.LEDDBOANBKH);
+        if self.HFMLMJALLPC != 0 {
+            my_size += ::protobuf::rt::uint32_size(11, self.HFMLMJALLPC);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -122,14 +122,14 @@ impl ::protobuf::Message for GetFiveDimMoneyScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.GBCKPMPADCF != 0 {
-            os.write_uint32(12, self.GBCKPMPADCF)?;
+        if self.HLLKKGIFIPC != 0 {
+            os.write_uint32(14, self.HLLKKGIFIPC)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(13, self.retcode)?;
+            os.write_uint32(12, self.retcode)?;
         }
-        if self.LEDDBOANBKH != 0 {
-            os.write_uint32(8, self.LEDDBOANBKH)?;
+        if self.HFMLMJALLPC != 0 {
+            os.write_uint32(11, self.HFMLMJALLPC)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -148,17 +148,17 @@ impl ::protobuf::Message for GetFiveDimMoneyScRsp {
     }
 
     fn clear(&mut self) {
-        self.GBCKPMPADCF = 0;
+        self.HLLKKGIFIPC = 0;
         self.retcode = 0;
-        self.LEDDBOANBKH = 0;
+        self.HFMLMJALLPC = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetFiveDimMoneyScRsp {
         static instance: GetFiveDimMoneyScRsp = GetFiveDimMoneyScRsp {
-            GBCKPMPADCF: 0,
+            HLLKKGIFIPC: 0,
             retcode: 0,
-            LEDDBOANBKH: 0,
+            HFMLMJALLPC: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -184,9 +184,9 @@ impl ::protobuf::reflect::ProtobufValue for GetFiveDimMoneyScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1aGetFiveDimMoneyScRsp.proto\"t\n\x14GetFiveDimMoneyScRsp\x12\x20\n\
-    \x0bGBCKPMPADCF\x18\x0c\x20\x01(\rR\x0bGBCKPMPADCF\x12\x18\n\x07retcode\
-    \x18\r\x20\x01(\rR\x07retcode\x12\x20\n\x0bLEDDBOANBKH\x18\x08\x20\x01(\
-    \rR\x0bLEDDBOANBKHb\x06proto3\
+    \x0bHLLKKGIFIPC\x18\x0e\x20\x01(\rR\x0bHLLKKGIFIPC\x12\x18\n\x07retcode\
+    \x18\x0c\x20\x01(\rR\x07retcode\x12\x20\n\x0bHFMLMJALLPC\x18\x0b\x20\x01\
+    (\rR\x0bHFMLMJALLPCb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

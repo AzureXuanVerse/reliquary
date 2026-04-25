@@ -40,8 +40,8 @@ pub struct RegionInfo {
     pub display_name: ::std::string::String,
     // @@protoc_insertion_point(field:RegionInfo.stop_desc)
     pub stop_desc: ::std::string::String,
-    // @@protoc_insertion_point(field:RegionInfo.OHFKCBGBGPO)
-    pub OHFKCBGBGPO: ::std::string::String,
+    // @@protoc_insertion_point(field:RegionInfo.MPDILONJDEH)
+    pub MPDILONJDEH: ::std::string::String,
     // special fields
     // @@protoc_insertion_point(special_field:RegionInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -92,9 +92,9 @@ impl RegionInfo {
             |m: &mut RegionInfo| { &mut m.stop_desc },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "OHFKCBGBGPO",
-            |m: &RegionInfo| { &m.OHFKCBGBGPO },
-            |m: &mut RegionInfo| { &mut m.OHFKCBGBGPO },
+            "MPDILONJDEH",
+            |m: &RegionInfo| { &m.MPDILONJDEH },
+            |m: &mut RegionInfo| { &mut m.MPDILONJDEH },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<RegionInfo>(
             "RegionInfo",
@@ -133,7 +133,7 @@ impl ::protobuf::Message for RegionInfo {
                     self.stop_desc = is.read_string()?;
                 },
                 58 => {
-                    self.OHFKCBGBGPO = is.read_string()?;
+                    self.MPDILONJDEH = is.read_string()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -165,8 +165,8 @@ impl ::protobuf::Message for RegionInfo {
         if !self.stop_desc.is_empty() {
             my_size += ::protobuf::rt::string_size(6, &self.stop_desc);
         }
-        if !self.OHFKCBGBGPO.is_empty() {
-            my_size += ::protobuf::rt::string_size(7, &self.OHFKCBGBGPO);
+        if !self.MPDILONJDEH.is_empty() {
+            my_size += ::protobuf::rt::string_size(7, &self.MPDILONJDEH);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -192,8 +192,8 @@ impl ::protobuf::Message for RegionInfo {
         if !self.stop_desc.is_empty() {
             os.write_string(6, &self.stop_desc)?;
         }
-        if !self.OHFKCBGBGPO.is_empty() {
-            os.write_string(7, &self.OHFKCBGBGPO)?;
+        if !self.MPDILONJDEH.is_empty() {
+            os.write_string(7, &self.MPDILONJDEH)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -218,7 +218,7 @@ impl ::protobuf::Message for RegionInfo {
         self.env_type.clear();
         self.display_name.clear();
         self.stop_desc.clear();
-        self.OHFKCBGBGPO.clear();
+        self.MPDILONJDEH.clear();
         self.special_fields.clear();
     }
 
@@ -230,7 +230,7 @@ impl ::protobuf::Message for RegionInfo {
             env_type: ::std::string::String::new(),
             display_name: ::std::string::String::new(),
             stop_desc: ::std::string::String::new(),
-            OHFKCBGBGPO: ::std::string::String::new(),
+            MPDILONJDEH: ::std::string::String::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -260,7 +260,7 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     !\n\x0cdispatch_url\x18\x03\x20\x01(\tR\x0bdispatchUrl\x12\x19\n\x08env_\
     type\x18\x04\x20\x01(\tR\x07envType\x12!\n\x0cdisplay_name\x18\x05\x20\
     \x01(\tR\x0bdisplayName\x12\x1b\n\tstop_desc\x18\x06\x20\x01(\tR\x08stop\
-    Desc\x12\x20\n\x0bOHFKCBGBGPO\x18\x07\x20\x01(\tR\x0bOHFKCBGBGPOb\x06pro\
+    Desc\x12\x20\n\x0bMPDILONJDEH\x18\x07\x20\x01(\tR\x0bMPDILONJDEHb\x06pro\
     to3\
 ";
 

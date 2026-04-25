@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct FarmElementSweepCsReq {
     // message fields
-    // @@protoc_insertion_point(field:FarmElementSweepCsReq.CMFPEABAKPB)
-    pub CMFPEABAKPB: u32,
+    // @@protoc_insertion_point(field:FarmElementSweepCsReq.JIABAGAFEEA)
+    pub JIABAGAFEEA: u32,
     // @@protoc_insertion_point(field:FarmElementSweepCsReq.world_level)
     pub world_level: u32,
     // special fields
@@ -52,9 +52,9 @@ impl FarmElementSweepCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "CMFPEABAKPB",
-            |m: &FarmElementSweepCsReq| { &m.CMFPEABAKPB },
-            |m: &mut FarmElementSweepCsReq| { &mut m.CMFPEABAKPB },
+            "JIABAGAFEEA",
+            |m: &FarmElementSweepCsReq| { &m.JIABAGAFEEA },
+            |m: &mut FarmElementSweepCsReq| { &mut m.JIABAGAFEEA },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "world_level",
@@ -79,10 +79,10 @@ impl ::protobuf::Message for FarmElementSweepCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                88 => {
-                    self.CMFPEABAKPB = is.read_uint32()?;
+                8 => {
+                    self.JIABAGAFEEA = is.read_uint32()?;
                 },
-                64 => {
+                48 => {
                     self.world_level = is.read_uint32()?;
                 },
                 tag => {
@@ -97,11 +97,11 @@ impl ::protobuf::Message for FarmElementSweepCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.CMFPEABAKPB != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.CMFPEABAKPB);
+        if self.JIABAGAFEEA != 0 {
+            my_size += ::protobuf::rt::uint32_size(1, self.JIABAGAFEEA);
         }
         if self.world_level != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.world_level);
+            my_size += ::protobuf::rt::uint32_size(6, self.world_level);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for FarmElementSweepCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.CMFPEABAKPB != 0 {
-            os.write_uint32(11, self.CMFPEABAKPB)?;
+        if self.JIABAGAFEEA != 0 {
+            os.write_uint32(1, self.JIABAGAFEEA)?;
         }
         if self.world_level != 0 {
-            os.write_uint32(8, self.world_level)?;
+            os.write_uint32(6, self.world_level)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,14 +132,14 @@ impl ::protobuf::Message for FarmElementSweepCsReq {
     }
 
     fn clear(&mut self) {
-        self.CMFPEABAKPB = 0;
+        self.JIABAGAFEEA = 0;
         self.world_level = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static FarmElementSweepCsReq {
         static instance: FarmElementSweepCsReq = FarmElementSweepCsReq {
-            CMFPEABAKPB: 0,
+            JIABAGAFEEA: 0,
             world_level: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for FarmElementSweepCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1bFarmElementSweepCsReq.proto\"Z\n\x15FarmElementSweepCsReq\x12\x20\
-    \n\x0bCMFPEABAKPB\x18\x0b\x20\x01(\rR\x0bCMFPEABAKPB\x12\x1f\n\x0bworld_\
-    level\x18\x08\x20\x01(\rR\nworldLevelb\x06proto3\
+    \n\x0bJIABAGAFEEA\x18\x01\x20\x01(\rR\x0bJIABAGAFEEA\x12\x1f\n\x0bworld_\
+    level\x18\x06\x20\x01(\rR\nworldLevelb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -27,20 +27,20 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdActivityRewardStatType)
 pub enum CmdActivityRewardStatType {
-    // @@protoc_insertion_point(enum_value:CmdActivityRewardStatType.CmdActivityRewardStatType_JDCCJOFIILH)
-    CmdActivityRewardStatType_JDCCJOFIILH = 0,
-    // @@protoc_insertion_point(enum_value:CmdActivityRewardStatType.CmdActivityRewardStatType_EADFGPBHHOP)
-    CmdActivityRewardStatType_EADFGPBHHOP = 9113,
-    // @@protoc_insertion_point(enum_value:CmdActivityRewardStatType.CmdActivityRewardStatType_OEDINHGMHEA)
-    CmdActivityRewardStatType_OEDINHGMHEA = 9118,
-    // @@protoc_insertion_point(enum_value:CmdActivityRewardStatType.CmdActivityRewardStatType_GANIBHMDJMF)
-    CmdActivityRewardStatType_GANIBHMDJMF = 9111,
-    // @@protoc_insertion_point(enum_value:CmdActivityRewardStatType.CmdActivityRewardStatType_IHCHMLKNIHH)
-    CmdActivityRewardStatType_IHCHMLKNIHH = 9112,
-    // @@protoc_insertion_point(enum_value:CmdActivityRewardStatType.CmdActivityRewardStatType_FCLOMIDJBKK)
-    CmdActivityRewardStatType_FCLOMIDJBKK = 9120,
-    // @@protoc_insertion_point(enum_value:CmdActivityRewardStatType.CmdActivityRewardStatType_JDAPOKBLIOD)
-    CmdActivityRewardStatType_JDAPOKBLIOD = 9116,
+    // @@protoc_insertion_point(enum_value:CmdActivityRewardStatType.GMGGDILEKBN_IHBKKJGNDOF)
+    GMGGDILEKBN_IHBKKJGNDOF = 0,
+    // @@protoc_insertion_point(enum_value:CmdActivityRewardStatType.CmdGetActivityRewardCountDataScRsp)
+    CmdGetActivityRewardCountDataScRsp = 9114,
+    // @@protoc_insertion_point(enum_value:CmdActivityRewardStatType.CmdGetActivityHotDataCsReq)
+    CmdGetActivityHotDataCsReq = 9119,
+    // @@protoc_insertion_point(enum_value:CmdActivityRewardStatType.CmdGetActivityHotDataScRsp)
+    CmdGetActivityHotDataScRsp = 9120,
+    // @@protoc_insertion_point(enum_value:CmdActivityRewardStatType.CmdGetActivityRewardCountDataCsReq)
+    CmdGetActivityRewardCountDataCsReq = 9115,
+    // @@protoc_insertion_point(enum_value:CmdActivityRewardStatType.CmdGetAllActivityRewardCountDataScRsp)
+    CmdGetAllActivityRewardCountDataScRsp = 9117,
+    // @@protoc_insertion_point(enum_value:CmdActivityRewardStatType.CmdGetAllActivityRewardCountDataCsReq)
+    CmdGetAllActivityRewardCountDataCsReq = 9111,
 }
 
 impl ::protobuf::Enum for CmdActivityRewardStatType {
@@ -52,38 +52,38 @@ impl ::protobuf::Enum for CmdActivityRewardStatType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdActivityRewardStatType> {
         match value {
-            0 => ::std::option::Option::Some(CmdActivityRewardStatType::CmdActivityRewardStatType_JDCCJOFIILH),
-            9113 => ::std::option::Option::Some(CmdActivityRewardStatType::CmdActivityRewardStatType_EADFGPBHHOP),
-            9118 => ::std::option::Option::Some(CmdActivityRewardStatType::CmdActivityRewardStatType_OEDINHGMHEA),
-            9111 => ::std::option::Option::Some(CmdActivityRewardStatType::CmdActivityRewardStatType_GANIBHMDJMF),
-            9112 => ::std::option::Option::Some(CmdActivityRewardStatType::CmdActivityRewardStatType_IHCHMLKNIHH),
-            9120 => ::std::option::Option::Some(CmdActivityRewardStatType::CmdActivityRewardStatType_FCLOMIDJBKK),
-            9116 => ::std::option::Option::Some(CmdActivityRewardStatType::CmdActivityRewardStatType_JDAPOKBLIOD),
+            0 => ::std::option::Option::Some(CmdActivityRewardStatType::GMGGDILEKBN_IHBKKJGNDOF),
+            9114 => ::std::option::Option::Some(CmdActivityRewardStatType::CmdGetActivityRewardCountDataScRsp),
+            9119 => ::std::option::Option::Some(CmdActivityRewardStatType::CmdGetActivityHotDataCsReq),
+            9120 => ::std::option::Option::Some(CmdActivityRewardStatType::CmdGetActivityHotDataScRsp),
+            9115 => ::std::option::Option::Some(CmdActivityRewardStatType::CmdGetActivityRewardCountDataCsReq),
+            9117 => ::std::option::Option::Some(CmdActivityRewardStatType::CmdGetAllActivityRewardCountDataScRsp),
+            9111 => ::std::option::Option::Some(CmdActivityRewardStatType::CmdGetAllActivityRewardCountDataCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdActivityRewardStatType> {
         match str {
-            "CmdActivityRewardStatType_JDCCJOFIILH" => ::std::option::Option::Some(CmdActivityRewardStatType::CmdActivityRewardStatType_JDCCJOFIILH),
-            "CmdActivityRewardStatType_EADFGPBHHOP" => ::std::option::Option::Some(CmdActivityRewardStatType::CmdActivityRewardStatType_EADFGPBHHOP),
-            "CmdActivityRewardStatType_OEDINHGMHEA" => ::std::option::Option::Some(CmdActivityRewardStatType::CmdActivityRewardStatType_OEDINHGMHEA),
-            "CmdActivityRewardStatType_GANIBHMDJMF" => ::std::option::Option::Some(CmdActivityRewardStatType::CmdActivityRewardStatType_GANIBHMDJMF),
-            "CmdActivityRewardStatType_IHCHMLKNIHH" => ::std::option::Option::Some(CmdActivityRewardStatType::CmdActivityRewardStatType_IHCHMLKNIHH),
-            "CmdActivityRewardStatType_FCLOMIDJBKK" => ::std::option::Option::Some(CmdActivityRewardStatType::CmdActivityRewardStatType_FCLOMIDJBKK),
-            "CmdActivityRewardStatType_JDAPOKBLIOD" => ::std::option::Option::Some(CmdActivityRewardStatType::CmdActivityRewardStatType_JDAPOKBLIOD),
+            "GMGGDILEKBN_IHBKKJGNDOF" => ::std::option::Option::Some(CmdActivityRewardStatType::GMGGDILEKBN_IHBKKJGNDOF),
+            "CmdGetActivityRewardCountDataScRsp" => ::std::option::Option::Some(CmdActivityRewardStatType::CmdGetActivityRewardCountDataScRsp),
+            "CmdGetActivityHotDataCsReq" => ::std::option::Option::Some(CmdActivityRewardStatType::CmdGetActivityHotDataCsReq),
+            "CmdGetActivityHotDataScRsp" => ::std::option::Option::Some(CmdActivityRewardStatType::CmdGetActivityHotDataScRsp),
+            "CmdGetActivityRewardCountDataCsReq" => ::std::option::Option::Some(CmdActivityRewardStatType::CmdGetActivityRewardCountDataCsReq),
+            "CmdGetAllActivityRewardCountDataScRsp" => ::std::option::Option::Some(CmdActivityRewardStatType::CmdGetAllActivityRewardCountDataScRsp),
+            "CmdGetAllActivityRewardCountDataCsReq" => ::std::option::Option::Some(CmdActivityRewardStatType::CmdGetAllActivityRewardCountDataCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdActivityRewardStatType] = &[
-        CmdActivityRewardStatType::CmdActivityRewardStatType_JDCCJOFIILH,
-        CmdActivityRewardStatType::CmdActivityRewardStatType_EADFGPBHHOP,
-        CmdActivityRewardStatType::CmdActivityRewardStatType_OEDINHGMHEA,
-        CmdActivityRewardStatType::CmdActivityRewardStatType_GANIBHMDJMF,
-        CmdActivityRewardStatType::CmdActivityRewardStatType_IHCHMLKNIHH,
-        CmdActivityRewardStatType::CmdActivityRewardStatType_FCLOMIDJBKK,
-        CmdActivityRewardStatType::CmdActivityRewardStatType_JDAPOKBLIOD,
+        CmdActivityRewardStatType::GMGGDILEKBN_IHBKKJGNDOF,
+        CmdActivityRewardStatType::CmdGetActivityRewardCountDataScRsp,
+        CmdActivityRewardStatType::CmdGetActivityHotDataCsReq,
+        CmdActivityRewardStatType::CmdGetActivityHotDataScRsp,
+        CmdActivityRewardStatType::CmdGetActivityRewardCountDataCsReq,
+        CmdActivityRewardStatType::CmdGetAllActivityRewardCountDataScRsp,
+        CmdActivityRewardStatType::CmdGetAllActivityRewardCountDataCsReq,
     ];
 }
 
@@ -95,13 +95,13 @@ impl ::protobuf::EnumFull for CmdActivityRewardStatType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdActivityRewardStatType::CmdActivityRewardStatType_JDCCJOFIILH => 0,
-            CmdActivityRewardStatType::CmdActivityRewardStatType_EADFGPBHHOP => 1,
-            CmdActivityRewardStatType::CmdActivityRewardStatType_OEDINHGMHEA => 2,
-            CmdActivityRewardStatType::CmdActivityRewardStatType_GANIBHMDJMF => 3,
-            CmdActivityRewardStatType::CmdActivityRewardStatType_IHCHMLKNIHH => 4,
-            CmdActivityRewardStatType::CmdActivityRewardStatType_FCLOMIDJBKK => 5,
-            CmdActivityRewardStatType::CmdActivityRewardStatType_JDAPOKBLIOD => 6,
+            CmdActivityRewardStatType::GMGGDILEKBN_IHBKKJGNDOF => 0,
+            CmdActivityRewardStatType::CmdGetActivityRewardCountDataScRsp => 1,
+            CmdActivityRewardStatType::CmdGetActivityHotDataCsReq => 2,
+            CmdActivityRewardStatType::CmdGetActivityHotDataScRsp => 3,
+            CmdActivityRewardStatType::CmdGetActivityRewardCountDataCsReq => 4,
+            CmdActivityRewardStatType::CmdGetAllActivityRewardCountDataScRsp => 5,
+            CmdActivityRewardStatType::CmdGetAllActivityRewardCountDataCsReq => 6,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -109,7 +109,7 @@ impl ::protobuf::EnumFull for CmdActivityRewardStatType {
 
 impl ::std::default::Default for CmdActivityRewardStatType {
     fn default() -> Self {
-        CmdActivityRewardStatType::CmdActivityRewardStatType_JDCCJOFIILH
+        CmdActivityRewardStatType::GMGGDILEKBN_IHBKKJGNDOF
     }
 }
 
@@ -120,13 +120,13 @@ impl CmdActivityRewardStatType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1fCmdActivityRewardStatType.proto*\xce\x02\n\x19CmdActivityRewardSta\
-    tType\x12)\n%CmdActivityRewardStatType_JDCCJOFIILH\x10\0\x12*\n%CmdActiv\
-    ityRewardStatType_EADFGPBHHOP\x10\x99G\x12*\n%CmdActivityRewardStatType_\
-    OEDINHGMHEA\x10\x9eG\x12*\n%CmdActivityRewardStatType_GANIBHMDJMF\x10\
-    \x97G\x12*\n%CmdActivityRewardStatType_IHCHMLKNIHH\x10\x98G\x12*\n%CmdAc\
-    tivityRewardStatType_FCLOMIDJBKK\x10\xa0G\x12*\n%CmdActivityRewardStatTy\
-    pe_JDAPOKBLIOD\x10\x9cGb\x06proto3\
+    \n\x1fCmdActivityRewardStatType.proto*\xa4\x02\n\x19CmdActivityRewardSta\
+    tType\x12\x1b\n\x17GMGGDILEKBN_IHBKKJGNDOF\x10\0\x12'\n\"CmdGetActivityR\
+    ewardCountDataScRsp\x10\x9aG\x12\x1f\n\x1aCmdGetActivityHotDataCsReq\x10\
+    \x9fG\x12\x1f\n\x1aCmdGetActivityHotDataScRsp\x10\xa0G\x12'\n\"CmdGetAct\
+    ivityRewardCountDataCsReq\x10\x9bG\x12*\n%CmdGetAllActivityRewardCountDa\
+    taScRsp\x10\x9dG\x12*\n%CmdGetAllActivityRewardCountDataCsReq\x10\x97Gb\
+    \x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

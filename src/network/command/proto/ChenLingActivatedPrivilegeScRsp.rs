@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ChenLingActivatedPrivilegeScRsp {
     // message fields
-    // @@protoc_insertion_point(field:ChenLingActivatedPrivilegeScRsp.CHOFGLDIGJA)
-    pub CHOFGLDIGJA: u32,
     // @@protoc_insertion_point(field:ChenLingActivatedPrivilegeScRsp.retcode)
     pub retcode: u32,
+    // @@protoc_insertion_point(field:ChenLingActivatedPrivilegeScRsp.HCEOMBKCDDM)
+    pub HCEOMBKCDDM: u32,
     // special fields
     // @@protoc_insertion_point(special_field:ChenLingActivatedPrivilegeScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl ChenLingActivatedPrivilegeScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "CHOFGLDIGJA",
-            |m: &ChenLingActivatedPrivilegeScRsp| { &m.CHOFGLDIGJA },
-            |m: &mut ChenLingActivatedPrivilegeScRsp| { &mut m.CHOFGLDIGJA },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &ChenLingActivatedPrivilegeScRsp| { &m.retcode },
             |m: &mut ChenLingActivatedPrivilegeScRsp| { &mut m.retcode },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "HCEOMBKCDDM",
+            |m: &ChenLingActivatedPrivilegeScRsp| { &m.HCEOMBKCDDM },
+            |m: &mut ChenLingActivatedPrivilegeScRsp| { &mut m.HCEOMBKCDDM },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ChenLingActivatedPrivilegeScRsp>(
             "ChenLingActivatedPrivilegeScRsp",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for ChenLingActivatedPrivilegeScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                104 => {
-                    self.CHOFGLDIGJA = is.read_uint32()?;
-                },
                 24 => {
                     self.retcode = is.read_uint32()?;
+                },
+                40 => {
+                    self.HCEOMBKCDDM = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for ChenLingActivatedPrivilegeScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.CHOFGLDIGJA != 0 {
-            my_size += ::protobuf::rt::uint32_size(13, self.CHOFGLDIGJA);
-        }
         if self.retcode != 0 {
             my_size += ::protobuf::rt::uint32_size(3, self.retcode);
+        }
+        if self.HCEOMBKCDDM != 0 {
+            my_size += ::protobuf::rt::uint32_size(5, self.HCEOMBKCDDM);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for ChenLingActivatedPrivilegeScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.CHOFGLDIGJA != 0 {
-            os.write_uint32(13, self.CHOFGLDIGJA)?;
-        }
         if self.retcode != 0 {
             os.write_uint32(3, self.retcode)?;
+        }
+        if self.HCEOMBKCDDM != 0 {
+            os.write_uint32(5, self.HCEOMBKCDDM)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,15 +132,15 @@ impl ::protobuf::Message for ChenLingActivatedPrivilegeScRsp {
     }
 
     fn clear(&mut self) {
-        self.CHOFGLDIGJA = 0;
         self.retcode = 0;
+        self.HCEOMBKCDDM = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ChenLingActivatedPrivilegeScRsp {
         static instance: ChenLingActivatedPrivilegeScRsp = ChenLingActivatedPrivilegeScRsp {
-            CHOFGLDIGJA: 0,
             retcode: 0,
+            HCEOMBKCDDM: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for ChenLingActivatedPrivilegeScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n%ChenLingActivatedPrivilegeScRsp.proto\"]\n\x1fChenLingActivatedPrivil\
-    egeScRsp\x12\x20\n\x0bCHOFGLDIGJA\x18\r\x20\x01(\rR\x0bCHOFGLDIGJA\x12\
-    \x18\n\x07retcode\x18\x03\x20\x01(\rR\x07retcodeb\x06proto3\
+    egeScRsp\x12\x18\n\x07retcode\x18\x03\x20\x01(\rR\x07retcode\x12\x20\n\
+    \x0bHCEOMBKCDDM\x18\x05\x20\x01(\rR\x0bHCEOMBKCDDMb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

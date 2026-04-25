@@ -79,10 +79,10 @@ impl ::protobuf::Message for MonopolyGiveUpCurContentScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                96 => {
+                40 => {
                     self.content_id = is.read_uint32()?;
                 },
-                40 => {
+                96 => {
                     self.retcode = is.read_uint32()?;
                 },
                 tag => {
@@ -98,10 +98,10 @@ impl ::protobuf::Message for MonopolyGiveUpCurContentScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.content_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.content_id);
+            my_size += ::protobuf::rt::uint32_size(5, self.content_id);
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(5, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(12, self.retcode);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,10 +110,10 @@ impl ::protobuf::Message for MonopolyGiveUpCurContentScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.content_id != 0 {
-            os.write_uint32(12, self.content_id)?;
+            os.write_uint32(5, self.content_id)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(5, self.retcode)?;
+            os.write_uint32(12, self.retcode)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for MonopolyGiveUpCurContentScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n#MonopolyGiveUpCurContentScRsp.proto\"X\n\x1dMonopolyGiveUpCurContentS\
-    cRsp\x12\x1d\n\ncontent_id\x18\x0c\x20\x01(\rR\tcontentId\x12\x18\n\x07r\
-    etcode\x18\x05\x20\x01(\rR\x07retcodeb\x06proto3\
+    cRsp\x12\x1d\n\ncontent_id\x18\x05\x20\x01(\rR\tcontentId\x12\x18\n\x07r\
+    etcode\x18\x0c\x20\x01(\rR\x07retcodeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

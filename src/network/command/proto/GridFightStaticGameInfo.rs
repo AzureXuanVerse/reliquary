@@ -28,22 +28,22 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightStaticGameInfo {
     // message fields
-    // @@protoc_insertion_point(field:GridFightStaticGameInfo.division_id)
-    pub division_id: u32,
-    // @@protoc_insertion_point(field:GridFightStaticGameInfo.HMPMKCCMFCK)
-    pub HMPMKCCMFCK: u32,
+    // @@protoc_insertion_point(field:GridFightStaticGameInfo.CALIMAKGGHJ)
+    pub CALIMAKGGHJ: u32,
+    // @@protoc_insertion_point(field:GridFightStaticGameInfo.EJCFDAABLOC)
+    pub EJCFDAABLOC: ::protobuf::MessageField<super::GridFightHandBookInfo::GridFightHandBookInfo>,
+    // @@protoc_insertion_point(field:GridFightStaticGameInfo.EDIGFNFPBKA)
+    pub EDIGFNFPBKA: u32,
     // @@protoc_insertion_point(field:GridFightStaticGameInfo.grid_fight_combo_win_num)
     pub grid_fight_combo_win_num: u32,
-    // @@protoc_insertion_point(field:GridFightStaticGameInfo.KNBOBBFFIFN)
-    pub KNBOBBFFIFN: u32,
+    // @@protoc_insertion_point(field:GridFightStaticGameInfo.OJLAODIALLE)
+    pub OJLAODIALLE: ::protobuf::MessageField<super::GridFightTalentInfo::GridFightTalentInfo>,
     // @@protoc_insertion_point(field:GridFightStaticGameInfo.exp)
-    pub exp: ::protobuf::MessageField<super::OBPDKPHAKLG::OBPDKPHAKLG>,
-    // @@protoc_insertion_point(field:GridFightStaticGameInfo.ODOAJIJBCEB)
-    pub ODOAJIJBCEB: u32,
-    // @@protoc_insertion_point(field:GridFightStaticGameInfo.FALPCFLDIML)
-    pub FALPCFLDIML: ::protobuf::MessageField<super::GridFightTalentInfo::GridFightTalentInfo>,
-    // @@protoc_insertion_point(field:GridFightStaticGameInfo.CGNBFAJOAFK)
-    pub CGNBFAJOAFK: ::protobuf::MessageField<super::GridFightHandBookInfo::GridFightHandBookInfo>,
+    pub exp: ::protobuf::MessageField<super::JIBAKJGOPJM::JIBAKJGOPJM>,
+    // @@protoc_insertion_point(field:GridFightStaticGameInfo.division_id)
+    pub division_id: u32,
+    // @@protoc_insertion_point(field:GridFightStaticGameInfo.CKFIACKHNAE)
+    pub CKFIACKHNAE: u32,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightStaticGameInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -64,44 +64,44 @@ impl GridFightStaticGameInfo {
         let mut fields = ::std::vec::Vec::with_capacity(8);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "division_id",
-            |m: &GridFightStaticGameInfo| { &m.division_id },
-            |m: &mut GridFightStaticGameInfo| { &mut m.division_id },
+            "CALIMAKGGHJ",
+            |m: &GridFightStaticGameInfo| { &m.CALIMAKGGHJ },
+            |m: &mut GridFightStaticGameInfo| { &mut m.CALIMAKGGHJ },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GridFightHandBookInfo::GridFightHandBookInfo>(
+            "EJCFDAABLOC",
+            |m: &GridFightStaticGameInfo| { &m.EJCFDAABLOC },
+            |m: &mut GridFightStaticGameInfo| { &mut m.EJCFDAABLOC },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "HMPMKCCMFCK",
-            |m: &GridFightStaticGameInfo| { &m.HMPMKCCMFCK },
-            |m: &mut GridFightStaticGameInfo| { &mut m.HMPMKCCMFCK },
+            "EDIGFNFPBKA",
+            |m: &GridFightStaticGameInfo| { &m.EDIGFNFPBKA },
+            |m: &mut GridFightStaticGameInfo| { &mut m.EDIGFNFPBKA },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "grid_fight_combo_win_num",
             |m: &GridFightStaticGameInfo| { &m.grid_fight_combo_win_num },
             |m: &mut GridFightStaticGameInfo| { &mut m.grid_fight_combo_win_num },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "KNBOBBFFIFN",
-            |m: &GridFightStaticGameInfo| { &m.KNBOBBFFIFN },
-            |m: &mut GridFightStaticGameInfo| { &mut m.KNBOBBFFIFN },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GridFightTalentInfo::GridFightTalentInfo>(
+            "OJLAODIALLE",
+            |m: &GridFightStaticGameInfo| { &m.OJLAODIALLE },
+            |m: &mut GridFightStaticGameInfo| { &mut m.OJLAODIALLE },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::OBPDKPHAKLG::OBPDKPHAKLG>(
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::JIBAKJGOPJM::JIBAKJGOPJM>(
             "exp",
             |m: &GridFightStaticGameInfo| { &m.exp },
             |m: &mut GridFightStaticGameInfo| { &mut m.exp },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "ODOAJIJBCEB",
-            |m: &GridFightStaticGameInfo| { &m.ODOAJIJBCEB },
-            |m: &mut GridFightStaticGameInfo| { &mut m.ODOAJIJBCEB },
+            "division_id",
+            |m: &GridFightStaticGameInfo| { &m.division_id },
+            |m: &mut GridFightStaticGameInfo| { &mut m.division_id },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GridFightTalentInfo::GridFightTalentInfo>(
-            "FALPCFLDIML",
-            |m: &GridFightStaticGameInfo| { &m.FALPCFLDIML },
-            |m: &mut GridFightStaticGameInfo| { &mut m.FALPCFLDIML },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GridFightHandBookInfo::GridFightHandBookInfo>(
-            "CGNBFAJOAFK",
-            |m: &GridFightStaticGameInfo| { &m.CGNBFAJOAFK },
-            |m: &mut GridFightStaticGameInfo| { &mut m.CGNBFAJOAFK },
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "CKFIACKHNAE",
+            |m: &GridFightStaticGameInfo| { &m.CKFIACKHNAE },
+            |m: &mut GridFightStaticGameInfo| { &mut m.CKFIACKHNAE },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightStaticGameInfo>(
             "GridFightStaticGameInfo",
@@ -121,29 +121,29 @@ impl ::protobuf::Message for GridFightStaticGameInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                32 => {
-                    self.division_id = is.read_uint32()?;
+                120 => {
+                    self.CALIMAKGGHJ = is.read_uint32()?;
                 },
-                88 => {
-                    self.HMPMKCCMFCK = is.read_uint32()?;
+                66 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.EJCFDAABLOC)?;
                 },
-                64 => {
+                24 => {
+                    self.EDIGFNFPBKA = is.read_uint32()?;
+                },
+                48 => {
                     self.grid_fight_combo_win_num = is.read_uint32()?;
                 },
-                8 => {
-                    self.KNBOBBFFIFN = is.read_uint32()?;
-                },
                 106 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.OJLAODIALLE)?;
+                },
+                18 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.exp)?;
                 },
-                120 => {
-                    self.ODOAJIJBCEB = is.read_uint32()?;
+                88 => {
+                    self.division_id = is.read_uint32()?;
                 },
-                114 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.FALPCFLDIML)?;
-                },
-                50 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.CGNBFAJOAFK)?;
+                72 => {
+                    self.CKFIACKHNAE = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -157,32 +157,32 @@ impl ::protobuf::Message for GridFightStaticGameInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.division_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.division_id);
+        if self.CALIMAKGGHJ != 0 {
+            my_size += ::protobuf::rt::uint32_size(15, self.CALIMAKGGHJ);
         }
-        if self.HMPMKCCMFCK != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.HMPMKCCMFCK);
+        if let Some(v) = self.EJCFDAABLOC.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if self.EDIGFNFPBKA != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.EDIGFNFPBKA);
         }
         if self.grid_fight_combo_win_num != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.grid_fight_combo_win_num);
+            my_size += ::protobuf::rt::uint32_size(6, self.grid_fight_combo_win_num);
         }
-        if self.KNBOBBFFIFN != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.KNBOBBFFIFN);
+        if let Some(v) = self.OJLAODIALLE.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
         if let Some(v) = self.exp.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.ODOAJIJBCEB != 0 {
-            my_size += ::protobuf::rt::uint32_size(15, self.ODOAJIJBCEB);
+        if self.division_id != 0 {
+            my_size += ::protobuf::rt::uint32_size(11, self.division_id);
         }
-        if let Some(v) = self.FALPCFLDIML.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.CGNBFAJOAFK.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        if self.CKFIACKHNAE != 0 {
+            my_size += ::protobuf::rt::uint32_size(9, self.CKFIACKHNAE);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -190,29 +190,29 @@ impl ::protobuf::Message for GridFightStaticGameInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.division_id != 0 {
-            os.write_uint32(4, self.division_id)?;
+        if self.CALIMAKGGHJ != 0 {
+            os.write_uint32(15, self.CALIMAKGGHJ)?;
         }
-        if self.HMPMKCCMFCK != 0 {
-            os.write_uint32(11, self.HMPMKCCMFCK)?;
+        if let Some(v) = self.EJCFDAABLOC.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+        }
+        if self.EDIGFNFPBKA != 0 {
+            os.write_uint32(3, self.EDIGFNFPBKA)?;
         }
         if self.grid_fight_combo_win_num != 0 {
-            os.write_uint32(8, self.grid_fight_combo_win_num)?;
+            os.write_uint32(6, self.grid_fight_combo_win_num)?;
         }
-        if self.KNBOBBFFIFN != 0 {
-            os.write_uint32(1, self.KNBOBBFFIFN)?;
-        }
-        if let Some(v) = self.exp.as_ref() {
+        if let Some(v) = self.OJLAODIALLE.as_ref() {
             ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
         }
-        if self.ODOAJIJBCEB != 0 {
-            os.write_uint32(15, self.ODOAJIJBCEB)?;
+        if let Some(v) = self.exp.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
         }
-        if let Some(v) = self.FALPCFLDIML.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
+        if self.division_id != 0 {
+            os.write_uint32(11, self.division_id)?;
         }
-        if let Some(v) = self.CGNBFAJOAFK.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
+        if self.CKFIACKHNAE != 0 {
+            os.write_uint32(9, self.CKFIACKHNAE)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -231,27 +231,27 @@ impl ::protobuf::Message for GridFightStaticGameInfo {
     }
 
     fn clear(&mut self) {
-        self.division_id = 0;
-        self.HMPMKCCMFCK = 0;
+        self.CALIMAKGGHJ = 0;
+        self.EJCFDAABLOC.clear();
+        self.EDIGFNFPBKA = 0;
         self.grid_fight_combo_win_num = 0;
-        self.KNBOBBFFIFN = 0;
+        self.OJLAODIALLE.clear();
         self.exp.clear();
-        self.ODOAJIJBCEB = 0;
-        self.FALPCFLDIML.clear();
-        self.CGNBFAJOAFK.clear();
+        self.division_id = 0;
+        self.CKFIACKHNAE = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightStaticGameInfo {
         static instance: GridFightStaticGameInfo = GridFightStaticGameInfo {
-            division_id: 0,
-            HMPMKCCMFCK: 0,
+            CALIMAKGGHJ: 0,
+            EJCFDAABLOC: ::protobuf::MessageField::none(),
+            EDIGFNFPBKA: 0,
             grid_fight_combo_win_num: 0,
-            KNBOBBFFIFN: 0,
+            OJLAODIALLE: ::protobuf::MessageField::none(),
             exp: ::protobuf::MessageField::none(),
-            ODOAJIJBCEB: 0,
-            FALPCFLDIML: ::protobuf::MessageField::none(),
-            CGNBFAJOAFK: ::protobuf::MessageField::none(),
+            division_id: 0,
+            CKFIACKHNAE: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -277,16 +277,16 @@ impl ::protobuf::reflect::ProtobufValue for GridFightStaticGameInfo {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1dGridFightStaticGameInfo.proto\x1a\x1bGridFightHandBookInfo.proto\
-    \x1a\x19GridFightTalentInfo.proto\x1a\x11OBPDKPHAKLG.proto\"\xea\x02\n\
-    \x17GridFightStaticGameInfo\x12\x1f\n\x0bdivision_id\x18\x04\x20\x01(\rR\
-    \ndivisionId\x12\x20\n\x0bHMPMKCCMFCK\x18\x0b\x20\x01(\rR\x0bHMPMKCCMFCK\
-    \x126\n\x18grid_fight_combo_win_num\x18\x08\x20\x01(\rR\x14gridFightComb\
-    oWinNum\x12\x20\n\x0bKNBOBBFFIFN\x18\x01\x20\x01(\rR\x0bKNBOBBFFIFN\x12\
-    \x1e\n\x03exp\x18\r\x20\x01(\x0b2\x0c.OBPDKPHAKLGR\x03exp\x12\x20\n\x0bO\
-    DOAJIJBCEB\x18\x0f\x20\x01(\rR\x0bODOAJIJBCEB\x126\n\x0bFALPCFLDIML\x18\
-    \x0e\x20\x01(\x0b2\x14.GridFightTalentInfoR\x0bFALPCFLDIML\x128\n\x0bCGN\
-    BFAJOAFK\x18\x06\x20\x01(\x0b2\x16.GridFightHandBookInfoR\x0bCGNBFAJOAFK\
-    b\x06proto3\
+    \x1a\x19GridFightTalentInfo.proto\x1a\x11JIBAKJGOPJM.proto\"\xea\x02\n\
+    \x17GridFightStaticGameInfo\x12\x20\n\x0bCALIMAKGGHJ\x18\x0f\x20\x01(\rR\
+    \x0bCALIMAKGGHJ\x128\n\x0bEJCFDAABLOC\x18\x08\x20\x01(\x0b2\x16.GridFigh\
+    tHandBookInfoR\x0bEJCFDAABLOC\x12\x20\n\x0bEDIGFNFPBKA\x18\x03\x20\x01(\
+    \rR\x0bEDIGFNFPBKA\x126\n\x18grid_fight_combo_win_num\x18\x06\x20\x01(\r\
+    R\x14gridFightComboWinNum\x126\n\x0bOJLAODIALLE\x18\r\x20\x01(\x0b2\x14.\
+    GridFightTalentInfoR\x0bOJLAODIALLE\x12\x1e\n\x03exp\x18\x02\x20\x01(\
+    \x0b2\x0c.JIBAKJGOPJMR\x03exp\x12\x1f\n\x0bdivision_id\x18\x0b\x20\x01(\
+    \rR\ndivisionId\x12\x20\n\x0bCKFIACKHNAE\x18\t\x20\x01(\rR\x0bCKFIACKHNA\
+    Eb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -306,7 +306,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
             let mut deps = ::std::vec::Vec::with_capacity(3);
             deps.push(super::GridFightHandBookInfo::file_descriptor().clone());
             deps.push(super::GridFightTalentInfo::file_descriptor().clone());
-            deps.push(super::OBPDKPHAKLG::file_descriptor().clone());
+            deps.push(super::JIBAKJGOPJM::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GridFightStaticGameInfo::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

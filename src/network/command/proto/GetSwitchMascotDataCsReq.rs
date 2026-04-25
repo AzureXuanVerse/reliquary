@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GetSwitchMascotDataCsReq {
     // message fields
-    // @@protoc_insertion_point(field:GetSwitchMascotDataCsReq.MIIKBNAJEDK)
-    pub MIIKBNAJEDK: u32,
+    // @@protoc_insertion_point(field:GetSwitchMascotDataCsReq.CPMOOKFKBEG)
+    pub CPMOOKFKBEG: u32,
     // special fields
     // @@protoc_insertion_point(special_field:GetSwitchMascotDataCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl GetSwitchMascotDataCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MIIKBNAJEDK",
-            |m: &GetSwitchMascotDataCsReq| { &m.MIIKBNAJEDK },
-            |m: &mut GetSwitchMascotDataCsReq| { &mut m.MIIKBNAJEDK },
+            "CPMOOKFKBEG",
+            |m: &GetSwitchMascotDataCsReq| { &m.CPMOOKFKBEG },
+            |m: &mut GetSwitchMascotDataCsReq| { &mut m.CPMOOKFKBEG },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetSwitchMascotDataCsReq>(
             "GetSwitchMascotDataCsReq",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for GetSwitchMascotDataCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                48 => {
-                    self.MIIKBNAJEDK = is.read_uint32()?;
+                24 => {
+                    self.CPMOOKFKBEG = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,8 +87,8 @@ impl ::protobuf::Message for GetSwitchMascotDataCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.MIIKBNAJEDK != 0 {
-            my_size += ::protobuf::rt::uint32_size(6, self.MIIKBNAJEDK);
+        if self.CPMOOKFKBEG != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.CPMOOKFKBEG);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -96,8 +96,8 @@ impl ::protobuf::Message for GetSwitchMascotDataCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.MIIKBNAJEDK != 0 {
-            os.write_uint32(6, self.MIIKBNAJEDK)?;
+        if self.CPMOOKFKBEG != 0 {
+            os.write_uint32(3, self.CPMOOKFKBEG)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -116,13 +116,13 @@ impl ::protobuf::Message for GetSwitchMascotDataCsReq {
     }
 
     fn clear(&mut self) {
-        self.MIIKBNAJEDK = 0;
+        self.CPMOOKFKBEG = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetSwitchMascotDataCsReq {
         static instance: GetSwitchMascotDataCsReq = GetSwitchMascotDataCsReq {
-            MIIKBNAJEDK: 0,
+            CPMOOKFKBEG: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -148,7 +148,7 @@ impl ::protobuf::reflect::ProtobufValue for GetSwitchMascotDataCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1eGetSwitchMascotDataCsReq.proto\"<\n\x18GetSwitchMascotDataCsReq\
-    \x12\x20\n\x0bMIIKBNAJEDK\x18\x06\x20\x01(\rR\x0bMIIKBNAJEDKb\x06proto3\
+    \x12\x20\n\x0bCPMOOKFKBEG\x18\x03\x20\x01(\rR\x0bCPMOOKFKBEGb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

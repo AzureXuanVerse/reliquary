@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ChenLingMoveEntityCsReq {
     // message fields
-    // @@protoc_insertion_point(field:ChenLingMoveEntityCsReq.JEONKLKOCIM)
-    pub JEONKLKOCIM: ::protobuf::MessageField<super::KNNPOMIFGLJ::KNNPOMIFGLJ>,
-    // @@protoc_insertion_point(field:ChenLingMoveEntityCsReq.ABNLBABFHEE)
-    pub ABNLBABFHEE: u32,
+    // @@protoc_insertion_point(field:ChenLingMoveEntityCsReq.JDPHGEJLPPH)
+    pub JDPHGEJLPPH: ::protobuf::MessageField<super::FDOEMKPGHFL::FDOEMKPGHFL>,
+    // @@protoc_insertion_point(field:ChenLingMoveEntityCsReq.PENLMEIJIFK)
+    pub PENLMEIJIFK: u32,
     // special fields
     // @@protoc_insertion_point(special_field:ChenLingMoveEntityCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -51,15 +51,15 @@ impl ChenLingMoveEntityCsReq {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::KNNPOMIFGLJ::KNNPOMIFGLJ>(
-            "JEONKLKOCIM",
-            |m: &ChenLingMoveEntityCsReq| { &m.JEONKLKOCIM },
-            |m: &mut ChenLingMoveEntityCsReq| { &mut m.JEONKLKOCIM },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::FDOEMKPGHFL::FDOEMKPGHFL>(
+            "JDPHGEJLPPH",
+            |m: &ChenLingMoveEntityCsReq| { &m.JDPHGEJLPPH },
+            |m: &mut ChenLingMoveEntityCsReq| { &mut m.JDPHGEJLPPH },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "ABNLBABFHEE",
-            |m: &ChenLingMoveEntityCsReq| { &m.ABNLBABFHEE },
-            |m: &mut ChenLingMoveEntityCsReq| { &mut m.ABNLBABFHEE },
+            "PENLMEIJIFK",
+            |m: &ChenLingMoveEntityCsReq| { &m.PENLMEIJIFK },
+            |m: &mut ChenLingMoveEntityCsReq| { &mut m.PENLMEIJIFK },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ChenLingMoveEntityCsReq>(
             "ChenLingMoveEntityCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for ChenLingMoveEntityCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                106 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.JEONKLKOCIM)?;
+                114 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.JDPHGEJLPPH)?;
                 },
-                96 => {
-                    self.ABNLBABFHEE = is.read_uint32()?;
+                80 => {
+                    self.PENLMEIJIFK = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,12 +97,12 @@ impl ::protobuf::Message for ChenLingMoveEntityCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.JEONKLKOCIM.as_ref() {
+        if let Some(v) = self.JDPHGEJLPPH.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.ABNLBABFHEE != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.ABNLBABFHEE);
+        if self.PENLMEIJIFK != 0 {
+            my_size += ::protobuf::rt::uint32_size(10, self.PENLMEIJIFK);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,11 +110,11 @@ impl ::protobuf::Message for ChenLingMoveEntityCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.JEONKLKOCIM.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
+        if let Some(v) = self.JDPHGEJLPPH.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
         }
-        if self.ABNLBABFHEE != 0 {
-            os.write_uint32(12, self.ABNLBABFHEE)?;
+        if self.PENLMEIJIFK != 0 {
+            os.write_uint32(10, self.PENLMEIJIFK)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -133,15 +133,15 @@ impl ::protobuf::Message for ChenLingMoveEntityCsReq {
     }
 
     fn clear(&mut self) {
-        self.JEONKLKOCIM.clear();
-        self.ABNLBABFHEE = 0;
+        self.JDPHGEJLPPH.clear();
+        self.PENLMEIJIFK = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ChenLingMoveEntityCsReq {
         static instance: ChenLingMoveEntityCsReq = ChenLingMoveEntityCsReq {
-            JEONKLKOCIM: ::protobuf::MessageField::none(),
-            ABNLBABFHEE: 0,
+            JDPHGEJLPPH: ::protobuf::MessageField::none(),
+            PENLMEIJIFK: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,10 +166,10 @@ impl ::protobuf::reflect::ProtobufValue for ChenLingMoveEntityCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1dChenLingMoveEntityCsReq.proto\x1a\x11KNNPOMIFGLJ.proto\"k\n\x17Che\
-    nLingMoveEntityCsReq\x12.\n\x0bJEONKLKOCIM\x18\r\x20\x01(\x0b2\x0c.KNNPO\
-    MIFGLJR\x0bJEONKLKOCIM\x12\x20\n\x0bABNLBABFHEE\x18\x0c\x20\x01(\rR\x0bA\
-    BNLBABFHEEb\x06proto3\
+    \n\x1dChenLingMoveEntityCsReq.proto\x1a\x11FDOEMKPGHFL.proto\"k\n\x17Che\
+    nLingMoveEntityCsReq\x12.\n\x0bJDPHGEJLPPH\x18\x0e\x20\x01(\x0b2\x0c.FDO\
+    EMKPGHFLR\x0bJDPHGEJLPPH\x12\x20\n\x0bPENLMEIJIFK\x18\n\x20\x01(\rR\x0bP\
+    ENLMEIJIFKb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -187,7 +187,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::KNNPOMIFGLJ::file_descriptor().clone());
+            deps.push(super::FDOEMKPGHFL::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(ChenLingMoveEntityCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

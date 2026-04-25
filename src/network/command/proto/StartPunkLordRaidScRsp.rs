@@ -28,18 +28,18 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct StartPunkLordRaidScRsp {
     // message fields
+    // @@protoc_insertion_point(field:StartPunkLordRaidScRsp.GDBIIMNJLBA)
+    pub GDBIIMNJLBA: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:StartPunkLordRaidScRsp.KGJJCABAHOG)
+    pub KGJJCABAHOG: i64,
+    // @@protoc_insertion_point(field:StartPunkLordRaidScRsp.FFCDPHMJJKG)
+    pub FFCDPHMJJKG: ::protobuf::MessageField<super::CIKJHLMOOIK::CIKJHLMOOIK>,
+    // @@protoc_insertion_point(field:StartPunkLordRaidScRsp.scene)
+    pub scene: ::protobuf::MessageField<super::FNJJCIGJIKC::FNJJCIGJIKC>,
     // @@protoc_insertion_point(field:StartPunkLordRaidScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:StartPunkLordRaidScRsp.scene)
-    pub scene: ::protobuf::MessageField<super::EJFCPMHJLDO::EJFCPMHJLDO>,
-    // @@protoc_insertion_point(field:StartPunkLordRaidScRsp.LNDDKEOCIEK)
-    pub LNDDKEOCIEK: ::protobuf::MessageField<super::FDMBOGOMCHG::FDMBOGOMCHG>,
-    // @@protoc_insertion_point(field:StartPunkLordRaidScRsp.MEGAELKJCLL)
-    pub MEGAELKJCLL: ::std::vec::Vec<u32>,
-    // @@protoc_insertion_point(field:StartPunkLordRaidScRsp.IMKACKHEMJN)
-    pub IMKACKHEMJN: bool,
-    // @@protoc_insertion_point(field:StartPunkLordRaidScRsp.OFJJNIDKFMG)
-    pub OFJJNIDKFMG: i64,
+    // @@protoc_insertion_point(field:StartPunkLordRaidScRsp.GEALJOJCJFN)
+    pub GEALJOJCJFN: bool,
     // special fields
     // @@protoc_insertion_point(special_field:StartPunkLordRaidScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -59,35 +59,35 @@ impl StartPunkLordRaidScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(6);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "GDBIIMNJLBA",
+            |m: &StartPunkLordRaidScRsp| { &m.GDBIIMNJLBA },
+            |m: &mut StartPunkLordRaidScRsp| { &mut m.GDBIIMNJLBA },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "KGJJCABAHOG",
+            |m: &StartPunkLordRaidScRsp| { &m.KGJJCABAHOG },
+            |m: &mut StartPunkLordRaidScRsp| { &mut m.KGJJCABAHOG },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::CIKJHLMOOIK::CIKJHLMOOIK>(
+            "FFCDPHMJJKG",
+            |m: &StartPunkLordRaidScRsp| { &m.FFCDPHMJJKG },
+            |m: &mut StartPunkLordRaidScRsp| { &mut m.FFCDPHMJJKG },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::FNJJCIGJIKC::FNJJCIGJIKC>(
+            "scene",
+            |m: &StartPunkLordRaidScRsp| { &m.scene },
+            |m: &mut StartPunkLordRaidScRsp| { &mut m.scene },
+        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &StartPunkLordRaidScRsp| { &m.retcode },
             |m: &mut StartPunkLordRaidScRsp| { &mut m.retcode },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::EJFCPMHJLDO::EJFCPMHJLDO>(
-            "scene",
-            |m: &StartPunkLordRaidScRsp| { &m.scene },
-            |m: &mut StartPunkLordRaidScRsp| { &mut m.scene },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::FDMBOGOMCHG::FDMBOGOMCHG>(
-            "LNDDKEOCIEK",
-            |m: &StartPunkLordRaidScRsp| { &m.LNDDKEOCIEK },
-            |m: &mut StartPunkLordRaidScRsp| { &mut m.LNDDKEOCIEK },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "MEGAELKJCLL",
-            |m: &StartPunkLordRaidScRsp| { &m.MEGAELKJCLL },
-            |m: &mut StartPunkLordRaidScRsp| { &mut m.MEGAELKJCLL },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "IMKACKHEMJN",
-            |m: &StartPunkLordRaidScRsp| { &m.IMKACKHEMJN },
-            |m: &mut StartPunkLordRaidScRsp| { &mut m.IMKACKHEMJN },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "OFJJNIDKFMG",
-            |m: &StartPunkLordRaidScRsp| { &m.OFJJNIDKFMG },
-            |m: &mut StartPunkLordRaidScRsp| { &mut m.OFJJNIDKFMG },
+            "GEALJOJCJFN",
+            |m: &StartPunkLordRaidScRsp| { &m.GEALJOJCJFN },
+            |m: &mut StartPunkLordRaidScRsp| { &mut m.GEALJOJCJFN },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<StartPunkLordRaidScRsp>(
             "StartPunkLordRaidScRsp",
@@ -107,26 +107,26 @@ impl ::protobuf::Message for StartPunkLordRaidScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                56 => {
-                    self.retcode = is.read_uint32()?;
+                74 => {
+                    is.read_repeated_packed_uint32_into(&mut self.GDBIIMNJLBA)?;
                 },
-                66 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.scene)?;
+                72 => {
+                    self.GDBIIMNJLBA.push(is.read_uint32()?);
+                },
+                64 => {
+                    self.KGJJCABAHOG = is.read_int64()?;
                 },
                 34 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.LNDDKEOCIEK)?;
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.FFCDPHMJJKG)?;
                 },
-                10 => {
-                    is.read_repeated_packed_uint32_into(&mut self.MEGAELKJCLL)?;
+                122 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.scene)?;
                 },
-                8 => {
-                    self.MEGAELKJCLL.push(is.read_uint32()?);
+                48 => {
+                    self.retcode = is.read_uint32()?;
                 },
-                16 => {
-                    self.IMKACKHEMJN = is.read_bool()?;
-                },
-                120 => {
-                    self.OFJJNIDKFMG = is.read_int64()?;
+                96 => {
+                    self.GEALJOJCJFN = is.read_bool()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -140,23 +140,23 @@ impl ::protobuf::Message for StartPunkLordRaidScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(7, self.retcode);
+        my_size += ::protobuf::rt::vec_packed_uint32_size(9, &self.GDBIIMNJLBA);
+        if self.KGJJCABAHOG != 0 {
+            my_size += ::protobuf::rt::int64_size(8, self.KGJJCABAHOG);
+        }
+        if let Some(v) = self.FFCDPHMJJKG.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
         if let Some(v) = self.scene.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if let Some(v) = self.LNDDKEOCIEK.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(6, self.retcode);
         }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(1, &self.MEGAELKJCLL);
-        if self.IMKACKHEMJN != false {
+        if self.GEALJOJCJFN != false {
             my_size += 1 + 1;
-        }
-        if self.OFJJNIDKFMG != 0 {
-            my_size += ::protobuf::rt::int64_size(15, self.OFJJNIDKFMG);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -164,21 +164,21 @@ impl ::protobuf::Message for StartPunkLordRaidScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.retcode != 0 {
-            os.write_uint32(7, self.retcode)?;
+        os.write_repeated_packed_uint32(9, &self.GDBIIMNJLBA)?;
+        if self.KGJJCABAHOG != 0 {
+            os.write_int64(8, self.KGJJCABAHOG)?;
         }
-        if let Some(v) = self.scene.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
-        }
-        if let Some(v) = self.LNDDKEOCIEK.as_ref() {
+        if let Some(v) = self.FFCDPHMJJKG.as_ref() {
             ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
         }
-        os.write_repeated_packed_uint32(1, &self.MEGAELKJCLL)?;
-        if self.IMKACKHEMJN != false {
-            os.write_bool(2, self.IMKACKHEMJN)?;
+        if let Some(v) = self.scene.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
         }
-        if self.OFJJNIDKFMG != 0 {
-            os.write_int64(15, self.OFJJNIDKFMG)?;
+        if self.retcode != 0 {
+            os.write_uint32(6, self.retcode)?;
+        }
+        if self.GEALJOJCJFN != false {
+            os.write_bool(12, self.GEALJOJCJFN)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -197,23 +197,23 @@ impl ::protobuf::Message for StartPunkLordRaidScRsp {
     }
 
     fn clear(&mut self) {
-        self.retcode = 0;
+        self.GDBIIMNJLBA.clear();
+        self.KGJJCABAHOG = 0;
+        self.FFCDPHMJJKG.clear();
         self.scene.clear();
-        self.LNDDKEOCIEK.clear();
-        self.MEGAELKJCLL.clear();
-        self.IMKACKHEMJN = false;
-        self.OFJJNIDKFMG = 0;
+        self.retcode = 0;
+        self.GEALJOJCJFN = false;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static StartPunkLordRaidScRsp {
         static instance: StartPunkLordRaidScRsp = StartPunkLordRaidScRsp {
-            retcode: 0,
+            GDBIIMNJLBA: ::std::vec::Vec::new(),
+            KGJJCABAHOG: 0,
+            FFCDPHMJJKG: ::protobuf::MessageField::none(),
             scene: ::protobuf::MessageField::none(),
-            LNDDKEOCIEK: ::protobuf::MessageField::none(),
-            MEGAELKJCLL: ::std::vec::Vec::new(),
-            IMKACKHEMJN: false,
-            OFJJNIDKFMG: 0,
+            retcode: 0,
+            GEALJOJCJFN: false,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -238,14 +238,14 @@ impl ::protobuf::reflect::ProtobufValue for StartPunkLordRaidScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1cStartPunkLordRaidScRsp.proto\x1a\x11EJFCPMHJLDO.proto\x1a\x11FDMBO\
-    GOMCHG.proto\"\xec\x01\n\x16StartPunkLordRaidScRsp\x12\x18\n\x07retcode\
-    \x18\x07\x20\x01(\rR\x07retcode\x12\"\n\x05scene\x18\x08\x20\x01(\x0b2\
-    \x0c.EJFCPMHJLDOR\x05scene\x12.\n\x0bLNDDKEOCIEK\x18\x04\x20\x01(\x0b2\
-    \x0c.FDMBOGOMCHGR\x0bLNDDKEOCIEK\x12\x20\n\x0bMEGAELKJCLL\x18\x01\x20\
-    \x03(\rR\x0bMEGAELKJCLL\x12\x20\n\x0bIMKACKHEMJN\x18\x02\x20\x01(\x08R\
-    \x0bIMKACKHEMJN\x12\x20\n\x0bOFJJNIDKFMG\x18\x0f\x20\x01(\x03R\x0bOFJJNI\
-    DKFMGb\x06proto3\
+    \n\x1cStartPunkLordRaidScRsp.proto\x1a\x11CIKJHLMOOIK.proto\x1a\x11FNJJC\
+    IGJIKC.proto\"\xec\x01\n\x16StartPunkLordRaidScRsp\x12\x20\n\x0bGDBIIMNJ\
+    LBA\x18\t\x20\x03(\rR\x0bGDBIIMNJLBA\x12\x20\n\x0bKGJJCABAHOG\x18\x08\
+    \x20\x01(\x03R\x0bKGJJCABAHOG\x12.\n\x0bFFCDPHMJJKG\x18\x04\x20\x01(\x0b\
+    2\x0c.CIKJHLMOOIKR\x0bFFCDPHMJJKG\x12\"\n\x05scene\x18\x0f\x20\x01(\x0b2\
+    \x0c.FNJJCIGJIKCR\x05scene\x12\x18\n\x07retcode\x18\x06\x20\x01(\rR\x07r\
+    etcode\x12\x20\n\x0bGEALJOJCJFN\x18\x0c\x20\x01(\x08R\x0bGEALJOJCJFNb\
+    \x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -263,8 +263,8 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
-            deps.push(super::EJFCPMHJLDO::file_descriptor().clone());
-            deps.push(super::FDMBOGOMCHG::file_descriptor().clone());
+            deps.push(super::CIKJHLMOOIK::file_descriptor().clone());
+            deps.push(super::FNJJCIGJIKC::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(StartPunkLordRaidScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

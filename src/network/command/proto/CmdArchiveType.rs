@@ -27,16 +27,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdArchiveType)
 pub enum CmdArchiveType {
-    // @@protoc_insertion_point(enum_value:CmdArchiveType.CmdArchiveType_MNFEPONEDDJ)
-    CmdArchiveType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdArchiveType.CmdArchiveType_FGABDLHOEAI)
-    CmdArchiveType_FGABDLHOEAI = 2304,
-    // @@protoc_insertion_point(enum_value:CmdArchiveType.CmdArchiveType_KCFFKOGPEGA)
-    CmdArchiveType_KCFFKOGPEGA = 2324,
-    // @@protoc_insertion_point(enum_value:CmdArchiveType.CmdArchiveType_BEKNMNLCHHB)
-    CmdArchiveType_BEKNMNLCHHB = 2383,
-    // @@protoc_insertion_point(enum_value:CmdArchiveType.CmdArchiveType_KAPCLNNNGHN)
-    CmdArchiveType_KAPCLNNNGHN = 2381,
+    // @@protoc_insertion_point(enum_value:CmdArchiveType.CBLODEEHFJF_PCPDHELPKEM)
+    CBLODEEHFJF_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdArchiveType.CmdGetArchiveDataScRsp)
+    CmdGetArchiveDataScRsp = 2310,
+    // @@protoc_insertion_point(enum_value:CmdArchiveType.CmdGHILICHODLN)
+    CmdGHILICHODLN = 2395,
+    // @@protoc_insertion_point(enum_value:CmdArchiveType.CmdGetUpdatedArchiveDataCsReq)
+    CmdGetUpdatedArchiveDataCsReq = 2394,
+    // @@protoc_insertion_point(enum_value:CmdArchiveType.CmdGetArchiveDataCsReq)
+    CmdGetArchiveDataCsReq = 2391,
 }
 
 impl ::protobuf::Enum for CmdArchiveType {
@@ -48,32 +48,32 @@ impl ::protobuf::Enum for CmdArchiveType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdArchiveType> {
         match value {
-            0 => ::std::option::Option::Some(CmdArchiveType::CmdArchiveType_MNFEPONEDDJ),
-            2304 => ::std::option::Option::Some(CmdArchiveType::CmdArchiveType_FGABDLHOEAI),
-            2324 => ::std::option::Option::Some(CmdArchiveType::CmdArchiveType_KCFFKOGPEGA),
-            2383 => ::std::option::Option::Some(CmdArchiveType::CmdArchiveType_BEKNMNLCHHB),
-            2381 => ::std::option::Option::Some(CmdArchiveType::CmdArchiveType_KAPCLNNNGHN),
+            0 => ::std::option::Option::Some(CmdArchiveType::CBLODEEHFJF_PCPDHELPKEM),
+            2310 => ::std::option::Option::Some(CmdArchiveType::CmdGetArchiveDataScRsp),
+            2395 => ::std::option::Option::Some(CmdArchiveType::CmdGHILICHODLN),
+            2394 => ::std::option::Option::Some(CmdArchiveType::CmdGetUpdatedArchiveDataCsReq),
+            2391 => ::std::option::Option::Some(CmdArchiveType::CmdGetArchiveDataCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdArchiveType> {
         match str {
-            "CmdArchiveType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdArchiveType::CmdArchiveType_MNFEPONEDDJ),
-            "CmdArchiveType_FGABDLHOEAI" => ::std::option::Option::Some(CmdArchiveType::CmdArchiveType_FGABDLHOEAI),
-            "CmdArchiveType_KCFFKOGPEGA" => ::std::option::Option::Some(CmdArchiveType::CmdArchiveType_KCFFKOGPEGA),
-            "CmdArchiveType_BEKNMNLCHHB" => ::std::option::Option::Some(CmdArchiveType::CmdArchiveType_BEKNMNLCHHB),
-            "CmdArchiveType_KAPCLNNNGHN" => ::std::option::Option::Some(CmdArchiveType::CmdArchiveType_KAPCLNNNGHN),
+            "CBLODEEHFJF_PCPDHELPKEM" => ::std::option::Option::Some(CmdArchiveType::CBLODEEHFJF_PCPDHELPKEM),
+            "CmdGetArchiveDataScRsp" => ::std::option::Option::Some(CmdArchiveType::CmdGetArchiveDataScRsp),
+            "CmdGHILICHODLN" => ::std::option::Option::Some(CmdArchiveType::CmdGHILICHODLN),
+            "CmdGetUpdatedArchiveDataCsReq" => ::std::option::Option::Some(CmdArchiveType::CmdGetUpdatedArchiveDataCsReq),
+            "CmdGetArchiveDataCsReq" => ::std::option::Option::Some(CmdArchiveType::CmdGetArchiveDataCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdArchiveType] = &[
-        CmdArchiveType::CmdArchiveType_MNFEPONEDDJ,
-        CmdArchiveType::CmdArchiveType_FGABDLHOEAI,
-        CmdArchiveType::CmdArchiveType_KCFFKOGPEGA,
-        CmdArchiveType::CmdArchiveType_BEKNMNLCHHB,
-        CmdArchiveType::CmdArchiveType_KAPCLNNNGHN,
+        CmdArchiveType::CBLODEEHFJF_PCPDHELPKEM,
+        CmdArchiveType::CmdGetArchiveDataScRsp,
+        CmdArchiveType::CmdGHILICHODLN,
+        CmdArchiveType::CmdGetUpdatedArchiveDataCsReq,
+        CmdArchiveType::CmdGetArchiveDataCsReq,
     ];
 }
 
@@ -85,11 +85,11 @@ impl ::protobuf::EnumFull for CmdArchiveType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdArchiveType::CmdArchiveType_MNFEPONEDDJ => 0,
-            CmdArchiveType::CmdArchiveType_FGABDLHOEAI => 1,
-            CmdArchiveType::CmdArchiveType_KCFFKOGPEGA => 2,
-            CmdArchiveType::CmdArchiveType_BEKNMNLCHHB => 3,
-            CmdArchiveType::CmdArchiveType_KAPCLNNNGHN => 4,
+            CmdArchiveType::CBLODEEHFJF_PCPDHELPKEM => 0,
+            CmdArchiveType::CmdGetArchiveDataScRsp => 1,
+            CmdArchiveType::CmdGHILICHODLN => 2,
+            CmdArchiveType::CmdGetUpdatedArchiveDataCsReq => 3,
+            CmdArchiveType::CmdGetArchiveDataCsReq => 4,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -97,7 +97,7 @@ impl ::protobuf::EnumFull for CmdArchiveType {
 
 impl ::std::default::Default for CmdArchiveType {
     fn default() -> Self {
-        CmdArchiveType::CmdArchiveType_MNFEPONEDDJ
+        CmdArchiveType::CBLODEEHFJF_PCPDHELPKEM
     }
 }
 
@@ -108,11 +108,11 @@ impl CmdArchiveType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x14CmdArchiveType.proto*\xb4\x01\n\x0eCmdArchiveType\x12\x1e\n\x1aCmd\
-    ArchiveType_MNFEPONEDDJ\x10\0\x12\x1f\n\x1aCmdArchiveType_FGABDLHOEAI\
-    \x10\x80\x12\x12\x1f\n\x1aCmdArchiveType_KCFFKOGPEGA\x10\x94\x12\x12\x1f\
-    \n\x1aCmdArchiveType_BEKNMNLCHHB\x10\xcf\x12\x12\x1f\n\x1aCmdArchiveType\
-    _KAPCLNNNGHN\x10\xcd\x12b\x06proto3\
+    \n\x14CmdArchiveType.proto*\xa0\x01\n\x0eCmdArchiveType\x12\x1b\n\x17CBL\
+    ODEEHFJF_PCPDHELPKEM\x10\0\x12\x1b\n\x16CmdGetArchiveDataScRsp\x10\x86\
+    \x12\x12\x13\n\x0eCmdGHILICHODLN\x10\xdb\x12\x12\"\n\x1dCmdGetUpdatedArc\
+    hiveDataCsReq\x10\xda\x12\x12\x1b\n\x16CmdGetArchiveDataCsReq\x10\xd7\
+    \x12b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

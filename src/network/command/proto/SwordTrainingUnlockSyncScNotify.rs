@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct SwordTrainingUnlockSyncScNotify {
     // message fields
-    // @@protoc_insertion_point(field:SwordTrainingUnlockSyncScNotify.MLNKPELNHCI)
-    pub MLNKPELNHCI: ::std::vec::Vec<super::JALAIKPKOGO::JALAIKPKOGO>,
-    // @@protoc_insertion_point(field:SwordTrainingUnlockSyncScNotify.PNALHAFPMLA)
-    pub PNALHAFPMLA: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:SwordTrainingUnlockSyncScNotify.IFEJLJCINCI)
+    pub IFEJLJCINCI: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:SwordTrainingUnlockSyncScNotify.NKJHKMBLIBL)
+    pub NKJHKMBLIBL: ::std::vec::Vec<super::PPDPDGCBDEH::PPDPDGCBDEH>,
     // special fields
     // @@protoc_insertion_point(special_field:SwordTrainingUnlockSyncScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl SwordTrainingUnlockSyncScNotify {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "MLNKPELNHCI",
-            |m: &SwordTrainingUnlockSyncScNotify| { &m.MLNKPELNHCI },
-            |m: &mut SwordTrainingUnlockSyncScNotify| { &mut m.MLNKPELNHCI },
+            "IFEJLJCINCI",
+            |m: &SwordTrainingUnlockSyncScNotify| { &m.IFEJLJCINCI },
+            |m: &mut SwordTrainingUnlockSyncScNotify| { &mut m.IFEJLJCINCI },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "PNALHAFPMLA",
-            |m: &SwordTrainingUnlockSyncScNotify| { &m.PNALHAFPMLA },
-            |m: &mut SwordTrainingUnlockSyncScNotify| { &mut m.PNALHAFPMLA },
+            "NKJHKMBLIBL",
+            |m: &SwordTrainingUnlockSyncScNotify| { &m.NKJHKMBLIBL },
+            |m: &mut SwordTrainingUnlockSyncScNotify| { &mut m.NKJHKMBLIBL },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<SwordTrainingUnlockSyncScNotify>(
             "SwordTrainingUnlockSyncScNotify",
@@ -79,14 +79,14 @@ impl ::protobuf::Message for SwordTrainingUnlockSyncScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                10 => {
-                    self.MLNKPELNHCI.push(is.read_message()?);
+                82 => {
+                    is.read_repeated_packed_uint32_into(&mut self.IFEJLJCINCI)?;
                 },
-                58 => {
-                    is.read_repeated_packed_uint32_into(&mut self.PNALHAFPMLA)?;
+                80 => {
+                    self.IFEJLJCINCI.push(is.read_uint32()?);
                 },
-                56 => {
-                    self.PNALHAFPMLA.push(is.read_uint32()?);
+                26 => {
+                    self.NKJHKMBLIBL.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -100,21 +100,21 @@ impl ::protobuf::Message for SwordTrainingUnlockSyncScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        for value in &self.MLNKPELNHCI {
+        my_size += ::protobuf::rt::vec_packed_uint32_size(10, &self.IFEJLJCINCI);
+        for value in &self.NKJHKMBLIBL {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        my_size += ::protobuf::rt::vec_packed_uint32_size(7, &self.PNALHAFPMLA);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.MLNKPELNHCI {
-            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
+        os.write_repeated_packed_uint32(10, &self.IFEJLJCINCI)?;
+        for v in &self.NKJHKMBLIBL {
+            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
         };
-        os.write_repeated_packed_uint32(7, &self.PNALHAFPMLA)?;
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -132,15 +132,15 @@ impl ::protobuf::Message for SwordTrainingUnlockSyncScNotify {
     }
 
     fn clear(&mut self) {
-        self.MLNKPELNHCI.clear();
-        self.PNALHAFPMLA.clear();
+        self.IFEJLJCINCI.clear();
+        self.NKJHKMBLIBL.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static SwordTrainingUnlockSyncScNotify {
         static instance: SwordTrainingUnlockSyncScNotify = SwordTrainingUnlockSyncScNotify {
-            MLNKPELNHCI: ::std::vec::Vec::new(),
-            PNALHAFPMLA: ::std::vec::Vec::new(),
+            IFEJLJCINCI: ::std::vec::Vec::new(),
+            NKJHKMBLIBL: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -165,10 +165,10 @@ impl ::protobuf::reflect::ProtobufValue for SwordTrainingUnlockSyncScNotify {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n%SwordTrainingUnlockSyncScNotify.proto\x1a\x11JALAIKPKOGO.proto\"s\n\
-    \x1fSwordTrainingUnlockSyncScNotify\x12.\n\x0bMLNKPELNHCI\x18\x01\x20\
-    \x03(\x0b2\x0c.JALAIKPKOGOR\x0bMLNKPELNHCI\x12\x20\n\x0bPNALHAFPMLA\x18\
-    \x07\x20\x03(\rR\x0bPNALHAFPMLAb\x06proto3\
+    \n%SwordTrainingUnlockSyncScNotify.proto\x1a\x11PPDPDGCBDEH.proto\"s\n\
+    \x1fSwordTrainingUnlockSyncScNotify\x12\x20\n\x0bIFEJLJCINCI\x18\n\x20\
+    \x03(\rR\x0bIFEJLJCINCI\x12.\n\x0bNKJHKMBLIBL\x18\x03\x20\x03(\x0b2\x0c.\
+    PPDPDGCBDEHR\x0bNKJHKMBLIBLb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -186,7 +186,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::JALAIKPKOGO::file_descriptor().clone());
+            deps.push(super::PPDPDGCBDEH::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(SwordTrainingUnlockSyncScNotify::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

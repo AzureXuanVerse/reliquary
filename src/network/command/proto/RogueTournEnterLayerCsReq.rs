@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct RogueTournEnterLayerCsReq {
     // message fields
-    // @@protoc_insertion_point(field:RogueTournEnterLayerCsReq.DBJPLCANIJD)
-    pub DBJPLCANIJD: u32,
-    // @@protoc_insertion_point(field:RogueTournEnterLayerCsReq.IPOEHBBFKDO)
-    pub IPOEHBBFKDO: u32,
+    // @@protoc_insertion_point(field:RogueTournEnterLayerCsReq.MNMAFKLOJCC)
+    pub MNMAFKLOJCC: u32,
+    // @@protoc_insertion_point(field:RogueTournEnterLayerCsReq.APMIAKDPHJL)
+    pub APMIAKDPHJL: u32,
     // special fields
     // @@protoc_insertion_point(special_field:RogueTournEnterLayerCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl RogueTournEnterLayerCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "DBJPLCANIJD",
-            |m: &RogueTournEnterLayerCsReq| { &m.DBJPLCANIJD },
-            |m: &mut RogueTournEnterLayerCsReq| { &mut m.DBJPLCANIJD },
+            "MNMAFKLOJCC",
+            |m: &RogueTournEnterLayerCsReq| { &m.MNMAFKLOJCC },
+            |m: &mut RogueTournEnterLayerCsReq| { &mut m.MNMAFKLOJCC },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "IPOEHBBFKDO",
-            |m: &RogueTournEnterLayerCsReq| { &m.IPOEHBBFKDO },
-            |m: &mut RogueTournEnterLayerCsReq| { &mut m.IPOEHBBFKDO },
+            "APMIAKDPHJL",
+            |m: &RogueTournEnterLayerCsReq| { &m.APMIAKDPHJL },
+            |m: &mut RogueTournEnterLayerCsReq| { &mut m.APMIAKDPHJL },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<RogueTournEnterLayerCsReq>(
             "RogueTournEnterLayerCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for RogueTournEnterLayerCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                112 => {
-                    self.DBJPLCANIJD = is.read_uint32()?;
+                16 => {
+                    self.MNMAFKLOJCC = is.read_uint32()?;
                 },
                 64 => {
-                    self.IPOEHBBFKDO = is.read_uint32()?;
+                    self.APMIAKDPHJL = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for RogueTournEnterLayerCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.DBJPLCANIJD != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.DBJPLCANIJD);
+        if self.MNMAFKLOJCC != 0 {
+            my_size += ::protobuf::rt::uint32_size(2, self.MNMAFKLOJCC);
         }
-        if self.IPOEHBBFKDO != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.IPOEHBBFKDO);
+        if self.APMIAKDPHJL != 0 {
+            my_size += ::protobuf::rt::uint32_size(8, self.APMIAKDPHJL);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for RogueTournEnterLayerCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.DBJPLCANIJD != 0 {
-            os.write_uint32(14, self.DBJPLCANIJD)?;
+        if self.MNMAFKLOJCC != 0 {
+            os.write_uint32(2, self.MNMAFKLOJCC)?;
         }
-        if self.IPOEHBBFKDO != 0 {
-            os.write_uint32(8, self.IPOEHBBFKDO)?;
+        if self.APMIAKDPHJL != 0 {
+            os.write_uint32(8, self.APMIAKDPHJL)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,15 +132,15 @@ impl ::protobuf::Message for RogueTournEnterLayerCsReq {
     }
 
     fn clear(&mut self) {
-        self.DBJPLCANIJD = 0;
-        self.IPOEHBBFKDO = 0;
+        self.MNMAFKLOJCC = 0;
+        self.APMIAKDPHJL = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static RogueTournEnterLayerCsReq {
         static instance: RogueTournEnterLayerCsReq = RogueTournEnterLayerCsReq {
-            DBJPLCANIJD: 0,
-            IPOEHBBFKDO: 0,
+            MNMAFKLOJCC: 0,
+            APMIAKDPHJL: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for RogueTournEnterLayerCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1fRogueTournEnterLayerCsReq.proto\"_\n\x19RogueTournEnterLayerCsReq\
-    \x12\x20\n\x0bDBJPLCANIJD\x18\x0e\x20\x01(\rR\x0bDBJPLCANIJD\x12\x20\n\
-    \x0bIPOEHBBFKDO\x18\x08\x20\x01(\rR\x0bIPOEHBBFKDOb\x06proto3\
+    \x12\x20\n\x0bMNMAFKLOJCC\x18\x02\x20\x01(\rR\x0bMNMAFKLOJCC\x12\x20\n\
+    \x0bAPMIAKDPHJL\x18\x08\x20\x01(\rR\x0bAPMIAKDPHJLb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

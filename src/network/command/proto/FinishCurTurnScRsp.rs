@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct FinishCurTurnScRsp {
     // message fields
-    // @@protoc_insertion_point(field:FinishCurTurnScRsp.MJGOCDMIGMJ)
-    pub MJGOCDMIGMJ: u32,
+    // @@protoc_insertion_point(field:FinishCurTurnScRsp.KDOIMEHEEOG)
+    pub KDOIMEHEEOG: u32,
     // @@protoc_insertion_point(field:FinishCurTurnScRsp.retcode)
     pub retcode: u32,
     // special fields
@@ -52,9 +52,9 @@ impl FinishCurTurnScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MJGOCDMIGMJ",
-            |m: &FinishCurTurnScRsp| { &m.MJGOCDMIGMJ },
-            |m: &mut FinishCurTurnScRsp| { &mut m.MJGOCDMIGMJ },
+            "KDOIMEHEEOG",
+            |m: &FinishCurTurnScRsp| { &m.KDOIMEHEEOG },
+            |m: &mut FinishCurTurnScRsp| { &mut m.KDOIMEHEEOG },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
@@ -79,10 +79,10 @@ impl ::protobuf::Message for FinishCurTurnScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                112 => {
-                    self.MJGOCDMIGMJ = is.read_uint32()?;
+                88 => {
+                    self.KDOIMEHEEOG = is.read_uint32()?;
                 },
-                96 => {
+                104 => {
                     self.retcode = is.read_uint32()?;
                 },
                 tag => {
@@ -97,11 +97,11 @@ impl ::protobuf::Message for FinishCurTurnScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.MJGOCDMIGMJ != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.MJGOCDMIGMJ);
+        if self.KDOIMEHEEOG != 0 {
+            my_size += ::protobuf::rt::uint32_size(11, self.KDOIMEHEEOG);
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(13, self.retcode);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for FinishCurTurnScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.MJGOCDMIGMJ != 0 {
-            os.write_uint32(14, self.MJGOCDMIGMJ)?;
+        if self.KDOIMEHEEOG != 0 {
+            os.write_uint32(11, self.KDOIMEHEEOG)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(12, self.retcode)?;
+            os.write_uint32(13, self.retcode)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,14 +132,14 @@ impl ::protobuf::Message for FinishCurTurnScRsp {
     }
 
     fn clear(&mut self) {
-        self.MJGOCDMIGMJ = 0;
+        self.KDOIMEHEEOG = 0;
         self.retcode = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static FinishCurTurnScRsp {
         static instance: FinishCurTurnScRsp = FinishCurTurnScRsp {
-            MJGOCDMIGMJ: 0,
+            KDOIMEHEEOG: 0,
             retcode: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -165,9 +165,9 @@ impl ::protobuf::reflect::ProtobufValue for FinishCurTurnScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x18FinishCurTurnScRsp.proto\"P\n\x12FinishCurTurnScRsp\x12\x20\n\x0bM\
-    JGOCDMIGMJ\x18\x0e\x20\x01(\rR\x0bMJGOCDMIGMJ\x12\x18\n\x07retcode\x18\
-    \x0c\x20\x01(\rR\x07retcodeb\x06proto3\
+    \n\x18FinishCurTurnScRsp.proto\"P\n\x12FinishCurTurnScRsp\x12\x20\n\x0bK\
+    DOIMEHEEOG\x18\x0b\x20\x01(\rR\x0bKDOIMEHEEOG\x12\x18\n\x07retcode\x18\r\
+    \x20\x01(\rR\x07retcodeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

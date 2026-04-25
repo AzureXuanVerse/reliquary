@@ -28,22 +28,22 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightCurrentInfo {
     // message fields
-    // @@protoc_insertion_point(field:GridFightCurrentInfo.rogue_current_game_info)
-    pub rogue_current_game_info: ::std::vec::Vec<super::GridFightGameInfo::GridFightGameInfo>,
-    // @@protoc_insertion_point(field:GridFightCurrentInfo.season)
-    pub season: u32,
     // @@protoc_insertion_point(field:GridFightCurrentInfo.pending_action)
     pub pending_action: ::protobuf::MessageField<super::GridFightPendingAction::GridFightPendingAction>,
-    // @@protoc_insertion_point(field:GridFightCurrentInfo.grid_fight_game_data)
-    pub grid_fight_game_data: ::protobuf::MessageField<super::GridFightGameData::GridFightGameData>,
-    // @@protoc_insertion_point(field:GridFightCurrentInfo.division_id)
-    pub division_id: u32,
-    // @@protoc_insertion_point(field:GridFightCurrentInfo.DEBNGDHLCEN)
-    pub DEBNGDHLCEN: ::protobuf::MessageField<super::CFCJMLKFGPO::CFCJMLKFGPO>,
+    // @@protoc_insertion_point(field:GridFightCurrentInfo.rogue_current_game_info)
+    pub rogue_current_game_info: ::std::vec::Vec<super::GridFightGameInfo::GridFightGameInfo>,
     // @@protoc_insertion_point(field:GridFightCurrentInfo.is_overlock)
     pub is_overlock: bool,
     // @@protoc_insertion_point(field:GridFightCurrentInfo.unique_id)
     pub unique_id: u32,
+    // @@protoc_insertion_point(field:GridFightCurrentInfo.division_id)
+    pub division_id: u32,
+    // @@protoc_insertion_point(field:GridFightCurrentInfo.grid_fight_game_data)
+    pub grid_fight_game_data: ::protobuf::MessageField<super::GridFightGameData::GridFightGameData>,
+    // @@protoc_insertion_point(field:GridFightCurrentInfo.season)
+    pub season: u32,
+    // @@protoc_insertion_point(field:GridFightCurrentInfo.BCHPAOCOHIL)
+    pub BCHPAOCOHIL: ::protobuf::MessageField<super::FCBEHGJBJCN::FCBEHGJBJCN>,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightCurrentInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -63,35 +63,15 @@ impl GridFightCurrentInfo {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(8);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "rogue_current_game_info",
-            |m: &GridFightCurrentInfo| { &m.rogue_current_game_info },
-            |m: &mut GridFightCurrentInfo| { &mut m.rogue_current_game_info },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "season",
-            |m: &GridFightCurrentInfo| { &m.season },
-            |m: &mut GridFightCurrentInfo| { &mut m.season },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GridFightPendingAction::GridFightPendingAction>(
             "pending_action",
             |m: &GridFightCurrentInfo| { &m.pending_action },
             |m: &mut GridFightCurrentInfo| { &mut m.pending_action },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GridFightGameData::GridFightGameData>(
-            "grid_fight_game_data",
-            |m: &GridFightCurrentInfo| { &m.grid_fight_game_data },
-            |m: &mut GridFightCurrentInfo| { &mut m.grid_fight_game_data },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "division_id",
-            |m: &GridFightCurrentInfo| { &m.division_id },
-            |m: &mut GridFightCurrentInfo| { &mut m.division_id },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::CFCJMLKFGPO::CFCJMLKFGPO>(
-            "DEBNGDHLCEN",
-            |m: &GridFightCurrentInfo| { &m.DEBNGDHLCEN },
-            |m: &mut GridFightCurrentInfo| { &mut m.DEBNGDHLCEN },
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "rogue_current_game_info",
+            |m: &GridFightCurrentInfo| { &m.rogue_current_game_info },
+            |m: &mut GridFightCurrentInfo| { &mut m.rogue_current_game_info },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "is_overlock",
@@ -102,6 +82,26 @@ impl GridFightCurrentInfo {
             "unique_id",
             |m: &GridFightCurrentInfo| { &m.unique_id },
             |m: &mut GridFightCurrentInfo| { &mut m.unique_id },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "division_id",
+            |m: &GridFightCurrentInfo| { &m.division_id },
+            |m: &mut GridFightCurrentInfo| { &mut m.division_id },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GridFightGameData::GridFightGameData>(
+            "grid_fight_game_data",
+            |m: &GridFightCurrentInfo| { &m.grid_fight_game_data },
+            |m: &mut GridFightCurrentInfo| { &mut m.grid_fight_game_data },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "season",
+            |m: &GridFightCurrentInfo| { &m.season },
+            |m: &mut GridFightCurrentInfo| { &mut m.season },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::FCBEHGJBJCN::FCBEHGJBJCN>(
+            "BCHPAOCOHIL",
+            |m: &GridFightCurrentInfo| { &m.BCHPAOCOHIL },
+            |m: &mut GridFightCurrentInfo| { &mut m.BCHPAOCOHIL },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightCurrentInfo>(
             "GridFightCurrentInfo",
@@ -121,29 +121,29 @@ impl ::protobuf::Message for GridFightCurrentInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                82 => {
-                    self.rogue_current_game_info.push(is.read_message()?);
-                },
-                48 => {
-                    self.season = is.read_uint32()?;
-                },
-                122 => {
+                18 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.pending_action)?;
                 },
-                90 => {
+                66 => {
+                    self.rogue_current_game_info.push(is.read_message()?);
+                },
+                72 => {
+                    self.is_overlock = is.read_bool()?;
+                },
+                24 => {
+                    self.unique_id = is.read_uint32()?;
+                },
+                88 => {
+                    self.division_id = is.read_uint32()?;
+                },
+                98 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.grid_fight_game_data)?;
                 },
                 104 => {
-                    self.division_id = is.read_uint32()?;
+                    self.season = is.read_uint32()?;
                 },
-                58 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.DEBNGDHLCEN)?;
-                },
-                96 => {
-                    self.is_overlock = is.read_bool()?;
-                },
-                112 => {
-                    self.unique_id = is.read_uint32()?;
+                114 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.BCHPAOCOHIL)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -157,33 +157,33 @@ impl ::protobuf::Message for GridFightCurrentInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
+        if let Some(v) = self.pending_action.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
         for value in &self.rogue_current_game_info {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.season != 0 {
-            my_size += ::protobuf::rt::uint32_size(6, self.season);
+        if self.is_overlock != false {
+            my_size += 1 + 1;
         }
-        if let Some(v) = self.pending_action.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        if self.unique_id != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.unique_id);
+        }
+        if self.division_id != 0 {
+            my_size += ::protobuf::rt::uint32_size(11, self.division_id);
         }
         if let Some(v) = self.grid_fight_game_data.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.division_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(13, self.division_id);
+        if self.season != 0 {
+            my_size += ::protobuf::rt::uint32_size(13, self.season);
         }
-        if let Some(v) = self.DEBNGDHLCEN.as_ref() {
+        if let Some(v) = self.BCHPAOCOHIL.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if self.is_overlock != false {
-            my_size += 1 + 1;
-        }
-        if self.unique_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.unique_id);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -191,29 +191,29 @@ impl ::protobuf::Message for GridFightCurrentInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.rogue_current_game_info {
-            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
-        };
-        if self.season != 0 {
-            os.write_uint32(6, self.season)?;
-        }
         if let Some(v) = self.pending_action.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
         }
-        if let Some(v) = self.grid_fight_game_data.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
-        }
-        if self.division_id != 0 {
-            os.write_uint32(13, self.division_id)?;
-        }
-        if let Some(v) = self.DEBNGDHLCEN.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
-        }
+        for v in &self.rogue_current_game_info {
+            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+        };
         if self.is_overlock != false {
-            os.write_bool(12, self.is_overlock)?;
+            os.write_bool(9, self.is_overlock)?;
         }
         if self.unique_id != 0 {
-            os.write_uint32(14, self.unique_id)?;
+            os.write_uint32(3, self.unique_id)?;
+        }
+        if self.division_id != 0 {
+            os.write_uint32(11, self.division_id)?;
+        }
+        if let Some(v) = self.grid_fight_game_data.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
+        }
+        if self.season != 0 {
+            os.write_uint32(13, self.season)?;
+        }
+        if let Some(v) = self.BCHPAOCOHIL.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -232,27 +232,27 @@ impl ::protobuf::Message for GridFightCurrentInfo {
     }
 
     fn clear(&mut self) {
-        self.rogue_current_game_info.clear();
-        self.season = 0;
         self.pending_action.clear();
-        self.grid_fight_game_data.clear();
-        self.division_id = 0;
-        self.DEBNGDHLCEN.clear();
+        self.rogue_current_game_info.clear();
         self.is_overlock = false;
         self.unique_id = 0;
+        self.division_id = 0;
+        self.grid_fight_game_data.clear();
+        self.season = 0;
+        self.BCHPAOCOHIL.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightCurrentInfo {
         static instance: GridFightCurrentInfo = GridFightCurrentInfo {
-            rogue_current_game_info: ::std::vec::Vec::new(),
-            season: 0,
             pending_action: ::protobuf::MessageField::none(),
-            grid_fight_game_data: ::protobuf::MessageField::none(),
-            division_id: 0,
-            DEBNGDHLCEN: ::protobuf::MessageField::none(),
+            rogue_current_game_info: ::std::vec::Vec::new(),
             is_overlock: false,
             unique_id: 0,
+            division_id: 0,
+            grid_fight_game_data: ::protobuf::MessageField::none(),
+            season: 0,
+            BCHPAOCOHIL: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -277,17 +277,17 @@ impl ::protobuf::reflect::ProtobufValue for GridFightCurrentInfo {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1aGridFightCurrentInfo.proto\x1a\x11CFCJMLKFGPO.proto\x1a\x17GridFig\
+    \n\x1aGridFightCurrentInfo.proto\x1a\x11FCBEHGJBJCN.proto\x1a\x17GridFig\
     htGameData.proto\x1a\x17GridFightGameInfo.proto\x1a\x1cGridFightPendingA\
-    ction.proto\"\x8d\x03\n\x14GridFightCurrentInfo\x12I\n\x17rogue_current_\
-    game_info\x18\n\x20\x03(\x0b2\x12.GridFightGameInfoR\x14rogueCurrentGame\
-    Info\x12\x16\n\x06season\x18\x06\x20\x01(\rR\x06season\x12>\n\x0epending\
-    _action\x18\x0f\x20\x01(\x0b2\x17.GridFightPendingActionR\rpendingAction\
-    \x12C\n\x14grid_fight_game_data\x18\x0b\x20\x01(\x0b2\x12.GridFightGameD\
-    ataR\x11gridFightGameData\x12\x1f\n\x0bdivision_id\x18\r\x20\x01(\rR\ndi\
-    visionId\x12.\n\x0bDEBNGDHLCEN\x18\x07\x20\x01(\x0b2\x0c.CFCJMLKFGPOR\
-    \x0bDEBNGDHLCEN\x12\x1f\n\x0bis_overlock\x18\x0c\x20\x01(\x08R\nisOverlo\
-    ck\x12\x1b\n\tunique_id\x18\x0e\x20\x01(\rR\x08uniqueIdb\x06proto3\
+    ction.proto\"\x8d\x03\n\x14GridFightCurrentInfo\x12>\n\x0epending_action\
+    \x18\x02\x20\x01(\x0b2\x17.GridFightPendingActionR\rpendingAction\x12I\n\
+    \x17rogue_current_game_info\x18\x08\x20\x03(\x0b2\x12.GridFightGameInfoR\
+    \x14rogueCurrentGameInfo\x12\x1f\n\x0bis_overlock\x18\t\x20\x01(\x08R\ni\
+    sOverlock\x12\x1b\n\tunique_id\x18\x03\x20\x01(\rR\x08uniqueId\x12\x1f\n\
+    \x0bdivision_id\x18\x0b\x20\x01(\rR\ndivisionId\x12C\n\x14grid_fight_gam\
+    e_data\x18\x0c\x20\x01(\x0b2\x12.GridFightGameDataR\x11gridFightGameData\
+    \x12\x16\n\x06season\x18\r\x20\x01(\rR\x06season\x12.\n\x0bBCHPAOCOHIL\
+    \x18\x0e\x20\x01(\x0b2\x0c.FCBEHGJBJCNR\x0bBCHPAOCOHILb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -305,7 +305,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(4);
-            deps.push(super::CFCJMLKFGPO::file_descriptor().clone());
+            deps.push(super::FCBEHGJBJCN::file_descriptor().clone());
             deps.push(super::GridFightGameData::file_descriptor().clone());
             deps.push(super::GridFightGameInfo::file_descriptor().clone());
             deps.push(super::GridFightPendingAction::file_descriptor().clone());

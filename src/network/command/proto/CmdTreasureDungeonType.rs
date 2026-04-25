@@ -27,40 +27,40 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdTreasureDungeonType)
 pub enum CmdTreasureDungeonType {
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_MNFEPONEDDJ)
-    CmdTreasureDungeonType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_KBLAPCDLMGO)
-    CmdTreasureDungeonType_KBLAPCDLMGO = 4488,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_BKNIDPBGJFI)
-    CmdTreasureDungeonType_BKNIDPBGJFI = 4484,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_AGOACANPJAN)
-    CmdTreasureDungeonType_AGOACANPJAN = 4446,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_GDCJNANCPLH)
-    CmdTreasureDungeonType_GDCJNANCPLH = 4457,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_FBIPCCEGMPH)
-    CmdTreasureDungeonType_FBIPCCEGMPH = 4403,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_IKOJAFKFDNL)
-    CmdTreasureDungeonType_IKOJAFKFDNL = 4423,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_OKMPLNDFKML)
-    CmdTreasureDungeonType_OKMPLNDFKML = 4409,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_PAIKOOFOKFF)
-    CmdTreasureDungeonType_PAIKOOFOKFF = 4481,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_IELGPNKBNJM)
-    CmdTreasureDungeonType_IELGPNKBNJM = 4448,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_IONBEJHIPOI)
-    CmdTreasureDungeonType_IONBEJHIPOI = 4456,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_PCGLGPFJJGF)
-    CmdTreasureDungeonType_PCGLGPFJJGF = 4483,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_GIEGAKGDKKH)
-    CmdTreasureDungeonType_GIEGAKGDKKH = 4434,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_MICCFLMHPMK)
-    CmdTreasureDungeonType_MICCFLMHPMK = 4419,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_ECHAJMNDJED)
-    CmdTreasureDungeonType_ECHAJMNDJED = 4431,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_DJGNBFLOHAG)
-    CmdTreasureDungeonType_DJGNBFLOHAG = 4418,
-    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonType_CDAEBDJLPKI)
-    CmdTreasureDungeonType_CDAEBDJLPKI = 4486,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CEPPBODAFLG_PCPDHELPKEM)
+    CEPPBODAFLG_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdFightTreasureDungeonMonsterCsReq)
+    CmdFightTreasureDungeonMonsterCsReq = 4472,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdOpenTreasureDungeonGridScRsp)
+    CmdOpenTreasureDungeonGridScRsp = 4438,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdQuitTreasureDungeonCsReq)
+    CmdQuitTreasureDungeonCsReq = 4444,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdFightTreasureDungeonMonsterScRsp)
+    CmdFightTreasureDungeonMonsterScRsp = 4432,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdGHNHLNICAOI)
+    CmdGHNHLNICAOI = 4500,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdUseTreasureDungeonItemScRsp)
+    CmdUseTreasureDungeonItemScRsp = 4458,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdGetTreasureDungeonActivityDataScRsp)
+    CmdGetTreasureDungeonActivityDataScRsp = 4401,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdInteractTreasureDungeonGridScRsp)
+    CmdInteractTreasureDungeonGridScRsp = 4461,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdEnterTreasureDungeonCsReq)
+    CmdEnterTreasureDungeonCsReq = 4474,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdInteractTreasureDungeonGridCsReq)
+    CmdInteractTreasureDungeonGridCsReq = 4433,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonFinishScNotify)
+    CmdTreasureDungeonFinishScNotify = 4410,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdEnterTreasureDungeonScRsp)
+    CmdEnterTreasureDungeonScRsp = 4437,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdTreasureDungeonDataScNotify)
+    CmdTreasureDungeonDataScNotify = 4491,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdUseTreasureDungeonItemCsReq)
+    CmdUseTreasureDungeonItemCsReq = 4407,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdOpenTreasureDungeonGridCsReq)
+    CmdOpenTreasureDungeonGridCsReq = 4404,
+    // @@protoc_insertion_point(enum_value:CmdTreasureDungeonType.CmdGetTreasureDungeonActivityDataCsReq)
+    CmdGetTreasureDungeonActivityDataCsReq = 4439,
 }
 
 impl ::protobuf::Enum for CmdTreasureDungeonType {
@@ -72,68 +72,68 @@ impl ::protobuf::Enum for CmdTreasureDungeonType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdTreasureDungeonType> {
         match value {
-            0 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_MNFEPONEDDJ),
-            4488 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_KBLAPCDLMGO),
-            4484 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_BKNIDPBGJFI),
-            4446 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_AGOACANPJAN),
-            4457 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_GDCJNANCPLH),
-            4403 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_FBIPCCEGMPH),
-            4423 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_IKOJAFKFDNL),
-            4409 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_OKMPLNDFKML),
-            4481 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_PAIKOOFOKFF),
-            4448 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_IELGPNKBNJM),
-            4456 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_IONBEJHIPOI),
-            4483 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_PCGLGPFJJGF),
-            4434 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_GIEGAKGDKKH),
-            4419 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_MICCFLMHPMK),
-            4431 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_ECHAJMNDJED),
-            4418 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_DJGNBFLOHAG),
-            4486 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_CDAEBDJLPKI),
+            0 => ::std::option::Option::Some(CmdTreasureDungeonType::CEPPBODAFLG_PCPDHELPKEM),
+            4472 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdFightTreasureDungeonMonsterCsReq),
+            4438 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdOpenTreasureDungeonGridScRsp),
+            4444 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdQuitTreasureDungeonCsReq),
+            4432 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdFightTreasureDungeonMonsterScRsp),
+            4500 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdGHNHLNICAOI),
+            4458 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdUseTreasureDungeonItemScRsp),
+            4401 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdGetTreasureDungeonActivityDataScRsp),
+            4461 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdInteractTreasureDungeonGridScRsp),
+            4474 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdEnterTreasureDungeonCsReq),
+            4433 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdInteractTreasureDungeonGridCsReq),
+            4410 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonFinishScNotify),
+            4437 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdEnterTreasureDungeonScRsp),
+            4491 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonDataScNotify),
+            4407 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdUseTreasureDungeonItemCsReq),
+            4404 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdOpenTreasureDungeonGridCsReq),
+            4439 => ::std::option::Option::Some(CmdTreasureDungeonType::CmdGetTreasureDungeonActivityDataCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdTreasureDungeonType> {
         match str {
-            "CmdTreasureDungeonType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_MNFEPONEDDJ),
-            "CmdTreasureDungeonType_KBLAPCDLMGO" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_KBLAPCDLMGO),
-            "CmdTreasureDungeonType_BKNIDPBGJFI" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_BKNIDPBGJFI),
-            "CmdTreasureDungeonType_AGOACANPJAN" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_AGOACANPJAN),
-            "CmdTreasureDungeonType_GDCJNANCPLH" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_GDCJNANCPLH),
-            "CmdTreasureDungeonType_FBIPCCEGMPH" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_FBIPCCEGMPH),
-            "CmdTreasureDungeonType_IKOJAFKFDNL" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_IKOJAFKFDNL),
-            "CmdTreasureDungeonType_OKMPLNDFKML" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_OKMPLNDFKML),
-            "CmdTreasureDungeonType_PAIKOOFOKFF" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_PAIKOOFOKFF),
-            "CmdTreasureDungeonType_IELGPNKBNJM" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_IELGPNKBNJM),
-            "CmdTreasureDungeonType_IONBEJHIPOI" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_IONBEJHIPOI),
-            "CmdTreasureDungeonType_PCGLGPFJJGF" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_PCGLGPFJJGF),
-            "CmdTreasureDungeonType_GIEGAKGDKKH" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_GIEGAKGDKKH),
-            "CmdTreasureDungeonType_MICCFLMHPMK" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_MICCFLMHPMK),
-            "CmdTreasureDungeonType_ECHAJMNDJED" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_ECHAJMNDJED),
-            "CmdTreasureDungeonType_DJGNBFLOHAG" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_DJGNBFLOHAG),
-            "CmdTreasureDungeonType_CDAEBDJLPKI" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonType_CDAEBDJLPKI),
+            "CEPPBODAFLG_PCPDHELPKEM" => ::std::option::Option::Some(CmdTreasureDungeonType::CEPPBODAFLG_PCPDHELPKEM),
+            "CmdFightTreasureDungeonMonsterCsReq" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdFightTreasureDungeonMonsterCsReq),
+            "CmdOpenTreasureDungeonGridScRsp" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdOpenTreasureDungeonGridScRsp),
+            "CmdQuitTreasureDungeonCsReq" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdQuitTreasureDungeonCsReq),
+            "CmdFightTreasureDungeonMonsterScRsp" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdFightTreasureDungeonMonsterScRsp),
+            "CmdGHNHLNICAOI" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdGHNHLNICAOI),
+            "CmdUseTreasureDungeonItemScRsp" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdUseTreasureDungeonItemScRsp),
+            "CmdGetTreasureDungeonActivityDataScRsp" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdGetTreasureDungeonActivityDataScRsp),
+            "CmdInteractTreasureDungeonGridScRsp" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdInteractTreasureDungeonGridScRsp),
+            "CmdEnterTreasureDungeonCsReq" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdEnterTreasureDungeonCsReq),
+            "CmdInteractTreasureDungeonGridCsReq" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdInteractTreasureDungeonGridCsReq),
+            "CmdTreasureDungeonFinishScNotify" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonFinishScNotify),
+            "CmdEnterTreasureDungeonScRsp" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdEnterTreasureDungeonScRsp),
+            "CmdTreasureDungeonDataScNotify" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdTreasureDungeonDataScNotify),
+            "CmdUseTreasureDungeonItemCsReq" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdUseTreasureDungeonItemCsReq),
+            "CmdOpenTreasureDungeonGridCsReq" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdOpenTreasureDungeonGridCsReq),
+            "CmdGetTreasureDungeonActivityDataCsReq" => ::std::option::Option::Some(CmdTreasureDungeonType::CmdGetTreasureDungeonActivityDataCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdTreasureDungeonType] = &[
-        CmdTreasureDungeonType::CmdTreasureDungeonType_MNFEPONEDDJ,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_KBLAPCDLMGO,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_BKNIDPBGJFI,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_AGOACANPJAN,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_GDCJNANCPLH,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_FBIPCCEGMPH,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_IKOJAFKFDNL,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_OKMPLNDFKML,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_PAIKOOFOKFF,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_IELGPNKBNJM,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_IONBEJHIPOI,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_PCGLGPFJJGF,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_GIEGAKGDKKH,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_MICCFLMHPMK,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_ECHAJMNDJED,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_DJGNBFLOHAG,
-        CmdTreasureDungeonType::CmdTreasureDungeonType_CDAEBDJLPKI,
+        CmdTreasureDungeonType::CEPPBODAFLG_PCPDHELPKEM,
+        CmdTreasureDungeonType::CmdFightTreasureDungeonMonsterCsReq,
+        CmdTreasureDungeonType::CmdOpenTreasureDungeonGridScRsp,
+        CmdTreasureDungeonType::CmdQuitTreasureDungeonCsReq,
+        CmdTreasureDungeonType::CmdFightTreasureDungeonMonsterScRsp,
+        CmdTreasureDungeonType::CmdGHNHLNICAOI,
+        CmdTreasureDungeonType::CmdUseTreasureDungeonItemScRsp,
+        CmdTreasureDungeonType::CmdGetTreasureDungeonActivityDataScRsp,
+        CmdTreasureDungeonType::CmdInteractTreasureDungeonGridScRsp,
+        CmdTreasureDungeonType::CmdEnterTreasureDungeonCsReq,
+        CmdTreasureDungeonType::CmdInteractTreasureDungeonGridCsReq,
+        CmdTreasureDungeonType::CmdTreasureDungeonFinishScNotify,
+        CmdTreasureDungeonType::CmdEnterTreasureDungeonScRsp,
+        CmdTreasureDungeonType::CmdTreasureDungeonDataScNotify,
+        CmdTreasureDungeonType::CmdUseTreasureDungeonItemCsReq,
+        CmdTreasureDungeonType::CmdOpenTreasureDungeonGridCsReq,
+        CmdTreasureDungeonType::CmdGetTreasureDungeonActivityDataCsReq,
     ];
 }
 
@@ -145,23 +145,23 @@ impl ::protobuf::EnumFull for CmdTreasureDungeonType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdTreasureDungeonType::CmdTreasureDungeonType_MNFEPONEDDJ => 0,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_KBLAPCDLMGO => 1,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_BKNIDPBGJFI => 2,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_AGOACANPJAN => 3,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_GDCJNANCPLH => 4,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_FBIPCCEGMPH => 5,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_IKOJAFKFDNL => 6,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_OKMPLNDFKML => 7,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_PAIKOOFOKFF => 8,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_IELGPNKBNJM => 9,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_IONBEJHIPOI => 10,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_PCGLGPFJJGF => 11,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_GIEGAKGDKKH => 12,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_MICCFLMHPMK => 13,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_ECHAJMNDJED => 14,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_DJGNBFLOHAG => 15,
-            CmdTreasureDungeonType::CmdTreasureDungeonType_CDAEBDJLPKI => 16,
+            CmdTreasureDungeonType::CEPPBODAFLG_PCPDHELPKEM => 0,
+            CmdTreasureDungeonType::CmdFightTreasureDungeonMonsterCsReq => 1,
+            CmdTreasureDungeonType::CmdOpenTreasureDungeonGridScRsp => 2,
+            CmdTreasureDungeonType::CmdQuitTreasureDungeonCsReq => 3,
+            CmdTreasureDungeonType::CmdFightTreasureDungeonMonsterScRsp => 4,
+            CmdTreasureDungeonType::CmdGHNHLNICAOI => 5,
+            CmdTreasureDungeonType::CmdUseTreasureDungeonItemScRsp => 6,
+            CmdTreasureDungeonType::CmdGetTreasureDungeonActivityDataScRsp => 7,
+            CmdTreasureDungeonType::CmdInteractTreasureDungeonGridScRsp => 8,
+            CmdTreasureDungeonType::CmdEnterTreasureDungeonCsReq => 9,
+            CmdTreasureDungeonType::CmdInteractTreasureDungeonGridCsReq => 10,
+            CmdTreasureDungeonType::CmdTreasureDungeonFinishScNotify => 11,
+            CmdTreasureDungeonType::CmdEnterTreasureDungeonScRsp => 12,
+            CmdTreasureDungeonType::CmdTreasureDungeonDataScNotify => 13,
+            CmdTreasureDungeonType::CmdUseTreasureDungeonItemCsReq => 14,
+            CmdTreasureDungeonType::CmdOpenTreasureDungeonGridCsReq => 15,
+            CmdTreasureDungeonType::CmdGetTreasureDungeonActivityDataCsReq => 16,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -169,7 +169,7 @@ impl ::protobuf::EnumFull for CmdTreasureDungeonType {
 
 impl ::std::default::Default for CmdTreasureDungeonType {
     fn default() -> Self {
-        CmdTreasureDungeonType::CmdTreasureDungeonType_MNFEPONEDDJ
+        CmdTreasureDungeonType::CEPPBODAFLG_PCPDHELPKEM
     }
 }
 
@@ -180,20 +180,20 @@ impl CmdTreasureDungeonType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1cCmdTreasureDungeonType.proto*\xd0\x05\n\x16CmdTreasureDungeonType\
-    \x12&\n\"CmdTreasureDungeonType_MNFEPONEDDJ\x10\0\x12'\n\"CmdTreasureDun\
-    geonType_KBLAPCDLMGO\x10\x88#\x12'\n\"CmdTreasureDungeonType_BKNIDPBGJFI\
-    \x10\x84#\x12'\n\"CmdTreasureDungeonType_AGOACANPJAN\x10\xde\"\x12'\n\"C\
-    mdTreasureDungeonType_GDCJNANCPLH\x10\xe9\"\x12'\n\"CmdTreasureDungeonTy\
-    pe_FBIPCCEGMPH\x10\xb3\"\x12'\n\"CmdTreasureDungeonType_IKOJAFKFDNL\x10\
-    \xc7\"\x12'\n\"CmdTreasureDungeonType_OKMPLNDFKML\x10\xb9\"\x12'\n\"CmdT\
-    reasureDungeonType_PAIKOOFOKFF\x10\x81#\x12'\n\"CmdTreasureDungeonType_I\
-    ELGPNKBNJM\x10\xe0\"\x12'\n\"CmdTreasureDungeonType_IONBEJHIPOI\x10\xe8\
-    \"\x12'\n\"CmdTreasureDungeonType_PCGLGPFJJGF\x10\x83#\x12'\n\"CmdTreasu\
-    reDungeonType_GIEGAKGDKKH\x10\xd2\"\x12'\n\"CmdTreasureDungeonType_MICCF\
-    LMHPMK\x10\xc3\"\x12'\n\"CmdTreasureDungeonType_ECHAJMNDJED\x10\xcf\"\
-    \x12'\n\"CmdTreasureDungeonType_DJGNBFLOHAG\x10\xc2\"\x12'\n\"CmdTreasur\
-    eDungeonType_CDAEBDJLPKI\x10\x86#b\x06proto3\
+    \n\x1cCmdTreasureDungeonType.proto*\x96\x05\n\x16CmdTreasureDungeonType\
+    \x12\x1b\n\x17CEPPBODAFLG_PCPDHELPKEM\x10\0\x12(\n#CmdFightTreasureDunge\
+    onMonsterCsReq\x10\xf8\"\x12$\n\x1fCmdOpenTreasureDungeonGridScRsp\x10\
+    \xd6\"\x12\x20\n\x1bCmdQuitTreasureDungeonCsReq\x10\xdc\"\x12(\n#CmdFigh\
+    tTreasureDungeonMonsterScRsp\x10\xd0\"\x12\x13\n\x0eCmdGHNHLNICAOI\x10\
+    \x94#\x12#\n\x1eCmdUseTreasureDungeonItemScRsp\x10\xea\"\x12+\n&CmdGetTr\
+    easureDungeonActivityDataScRsp\x10\xb1\"\x12(\n#CmdInteractTreasureDunge\
+    onGridScRsp\x10\xed\"\x12!\n\x1cCmdEnterTreasureDungeonCsReq\x10\xfa\"\
+    \x12(\n#CmdInteractTreasureDungeonGridCsReq\x10\xd1\"\x12%\n\x20CmdTreas\
+    ureDungeonFinishScNotify\x10\xba\"\x12!\n\x1cCmdEnterTreasureDungeonScRs\
+    p\x10\xd5\"\x12#\n\x1eCmdTreasureDungeonDataScNotify\x10\x8b#\x12#\n\x1e\
+    CmdUseTreasureDungeonItemCsReq\x10\xb7\"\x12$\n\x1fCmdOpenTreasureDungeo\
+    nGridCsReq\x10\xb4\"\x12+\n&CmdGetTreasureDungeonActivityDataCsReq\x10\
+    \xd7\"b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

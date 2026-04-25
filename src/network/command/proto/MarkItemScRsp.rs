@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct MarkItemScRsp {
     // message fields
-    // @@protoc_insertion_point(field:MarkItemScRsp.item_id)
-    pub item_id: u32,
     // @@protoc_insertion_point(field:MarkItemScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:MarkItemScRsp.FLJAGKCIKIJ)
-    pub FLJAGKCIKIJ: bool,
+    // @@protoc_insertion_point(field:MarkItemScRsp.item_id)
+    pub item_id: u32,
+    // @@protoc_insertion_point(field:MarkItemScRsp.EKLCFBIPGGO)
+    pub EKLCFBIPGGO: bool,
     // special fields
     // @@protoc_insertion_point(special_field:MarkItemScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -54,19 +54,19 @@ impl MarkItemScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "item_id",
-            |m: &MarkItemScRsp| { &m.item_id },
-            |m: &mut MarkItemScRsp| { &mut m.item_id },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &MarkItemScRsp| { &m.retcode },
             |m: &mut MarkItemScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "FLJAGKCIKIJ",
-            |m: &MarkItemScRsp| { &m.FLJAGKCIKIJ },
-            |m: &mut MarkItemScRsp| { &mut m.FLJAGKCIKIJ },
+            "item_id",
+            |m: &MarkItemScRsp| { &m.item_id },
+            |m: &mut MarkItemScRsp| { &mut m.item_id },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "EKLCFBIPGGO",
+            |m: &MarkItemScRsp| { &m.EKLCFBIPGGO },
+            |m: &mut MarkItemScRsp| { &mut m.EKLCFBIPGGO },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<MarkItemScRsp>(
             "MarkItemScRsp",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for MarkItemScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
+                32 => {
+                    self.retcode = is.read_uint32()?;
+                },
                 8 => {
                     self.item_id = is.read_uint32()?;
                 },
-                16 => {
-                    self.retcode = is.read_uint32()?;
-                },
-                80 => {
-                    self.FLJAGKCIKIJ = is.read_bool()?;
+                72 => {
+                    self.EKLCFBIPGGO = is.read_bool()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -107,13 +107,13 @@ impl ::protobuf::Message for MarkItemScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(4, self.retcode);
+        }
         if self.item_id != 0 {
             my_size += ::protobuf::rt::uint32_size(1, self.item_id);
         }
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.retcode);
-        }
-        if self.FLJAGKCIKIJ != false {
+        if self.EKLCFBIPGGO != false {
             my_size += 1 + 1;
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
@@ -122,14 +122,14 @@ impl ::protobuf::Message for MarkItemScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
+        if self.retcode != 0 {
+            os.write_uint32(4, self.retcode)?;
+        }
         if self.item_id != 0 {
             os.write_uint32(1, self.item_id)?;
         }
-        if self.retcode != 0 {
-            os.write_uint32(2, self.retcode)?;
-        }
-        if self.FLJAGKCIKIJ != false {
-            os.write_bool(10, self.FLJAGKCIKIJ)?;
+        if self.EKLCFBIPGGO != false {
+            os.write_bool(9, self.EKLCFBIPGGO)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -148,17 +148,17 @@ impl ::protobuf::Message for MarkItemScRsp {
     }
 
     fn clear(&mut self) {
-        self.item_id = 0;
         self.retcode = 0;
-        self.FLJAGKCIKIJ = false;
+        self.item_id = 0;
+        self.EKLCFBIPGGO = false;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static MarkItemScRsp {
         static instance: MarkItemScRsp = MarkItemScRsp {
-            item_id: 0,
             retcode: 0,
-            FLJAGKCIKIJ: false,
+            item_id: 0,
+            EKLCFBIPGGO: false,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -183,9 +183,9 @@ impl ::protobuf::reflect::ProtobufValue for MarkItemScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x13MarkItemScRsp.proto\"d\n\rMarkItemScRsp\x12\x17\n\x07item_id\x18\
-    \x01\x20\x01(\rR\x06itemId\x12\x18\n\x07retcode\x18\x02\x20\x01(\rR\x07r\
-    etcode\x12\x20\n\x0bFLJAGKCIKIJ\x18\n\x20\x01(\x08R\x0bFLJAGKCIKIJb\x06p\
+    \n\x13MarkItemScRsp.proto\"d\n\rMarkItemScRsp\x12\x18\n\x07retcode\x18\
+    \x04\x20\x01(\rR\x07retcode\x12\x17\n\x07item_id\x18\x01\x20\x01(\rR\x06\
+    itemId\x12\x20\n\x0bEKLCFBIPGGO\x18\t\x20\x01(\x08R\x0bEKLCFBIPGGOb\x06p\
     roto3\
 ";
 

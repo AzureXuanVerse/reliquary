@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct RotateMapInfo {
     // message fields
-    // @@protoc_insertion_point(field:RotateMapInfo.CBGJJJMGACI)
-    pub CBGJJJMGACI: ::protobuf::MessageField<super::Vector4::Vector4>,
-    // @@protoc_insertion_point(field:RotateMapInfo.MKNFGECIECC)
-    pub MKNFGECIECC: ::protobuf::MessageField<super::Vector::Vector>,
+    // @@protoc_insertion_point(field:RotateMapInfo.JOGBJIBEEEB)
+    pub JOGBJIBEEEB: ::protobuf::MessageField<super::Vector4::Vector4>,
+    // @@protoc_insertion_point(field:RotateMapInfo.LGKMEPOJACI)
+    pub LGKMEPOJACI: ::protobuf::MessageField<super::Vector::Vector>,
     // special fields
     // @@protoc_insertion_point(special_field:RotateMapInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl RotateMapInfo {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::Vector4::Vector4>(
-            "CBGJJJMGACI",
-            |m: &RotateMapInfo| { &m.CBGJJJMGACI },
-            |m: &mut RotateMapInfo| { &mut m.CBGJJJMGACI },
+            "JOGBJIBEEEB",
+            |m: &RotateMapInfo| { &m.JOGBJIBEEEB },
+            |m: &mut RotateMapInfo| { &mut m.JOGBJIBEEEB },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::Vector::Vector>(
-            "MKNFGECIECC",
-            |m: &RotateMapInfo| { &m.MKNFGECIECC },
-            |m: &mut RotateMapInfo| { &mut m.MKNFGECIECC },
+            "LGKMEPOJACI",
+            |m: &RotateMapInfo| { &m.LGKMEPOJACI },
+            |m: &mut RotateMapInfo| { &mut m.LGKMEPOJACI },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<RotateMapInfo>(
             "RotateMapInfo",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for RotateMapInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                34 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.CBGJJJMGACI)?;
+                66 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.JOGBJIBEEEB)?;
                 },
-                82 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.MKNFGECIECC)?;
+                90 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.LGKMEPOJACI)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for RotateMapInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.CBGJJJMGACI.as_ref() {
+        if let Some(v) = self.JOGBJIBEEEB.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if let Some(v) = self.MKNFGECIECC.as_ref() {
+        if let Some(v) = self.LGKMEPOJACI.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -111,11 +111,11 @@ impl ::protobuf::Message for RotateMapInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.CBGJJJMGACI.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
+        if let Some(v) = self.JOGBJIBEEEB.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
         }
-        if let Some(v) = self.MKNFGECIECC.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
+        if let Some(v) = self.LGKMEPOJACI.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -134,15 +134,15 @@ impl ::protobuf::Message for RotateMapInfo {
     }
 
     fn clear(&mut self) {
-        self.CBGJJJMGACI.clear();
-        self.MKNFGECIECC.clear();
+        self.JOGBJIBEEEB.clear();
+        self.LGKMEPOJACI.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static RotateMapInfo {
         static instance: RotateMapInfo = RotateMapInfo {
-            CBGJJJMGACI: ::protobuf::MessageField::none(),
-            MKNFGECIECC: ::protobuf::MessageField::none(),
+            JOGBJIBEEEB: ::protobuf::MessageField::none(),
+            LGKMEPOJACI: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -168,9 +168,9 @@ impl ::protobuf::reflect::ProtobufValue for RotateMapInfo {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x13RotateMapInfo.proto\x1a\x0cVector.proto\x1a\rVector4.proto\"f\n\rR\
-    otateMapInfo\x12*\n\x0bCBGJJJMGACI\x18\x04\x20\x01(\x0b2\x08.Vector4R\
-    \x0bCBGJJJMGACI\x12)\n\x0bMKNFGECIECC\x18\n\x20\x01(\x0b2\x07.VectorR\
-    \x0bMKNFGECIECCb\x06proto3\
+    otateMapInfo\x12*\n\x0bJOGBJIBEEEB\x18\x08\x20\x01(\x0b2\x08.Vector4R\
+    \x0bJOGBJIBEEEB\x12)\n\x0bLGKMEPOJACI\x18\x0b\x20\x01(\x0b2\x07.VectorR\
+    \x0bLGKMEPOJACIb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct SetRelicBoxCustomCsReq {
     // message fields
-    // @@protoc_insertion_point(field:SetRelicBoxCustomCsReq.OAKBNOBPDNI)
-    pub OAKBNOBPDNI: ::protobuf::MessageField<super::NMJPEPLHEJA::NMJPEPLHEJA>,
-    // @@protoc_insertion_point(field:SetRelicBoxCustomCsReq.ENEPHGGMADB)
-    pub ENEPHGGMADB: ::std::vec::Vec<super::NMJPEPLHEJA::NMJPEPLHEJA>,
+    // @@protoc_insertion_point(field:SetRelicBoxCustomCsReq.IAHIEBCFPCD)
+    pub IAHIEBCFPCD: ::protobuf::MessageField<super::NBIOEKILHEN::NBIOEKILHEN>,
+    // @@protoc_insertion_point(field:SetRelicBoxCustomCsReq.FFJDCNKPGOO)
+    pub FFJDCNKPGOO: ::std::vec::Vec<super::NBIOEKILHEN::NBIOEKILHEN>,
     // special fields
     // @@protoc_insertion_point(special_field:SetRelicBoxCustomCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -51,15 +51,15 @@ impl SetRelicBoxCustomCsReq {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::NMJPEPLHEJA::NMJPEPLHEJA>(
-            "OAKBNOBPDNI",
-            |m: &SetRelicBoxCustomCsReq| { &m.OAKBNOBPDNI },
-            |m: &mut SetRelicBoxCustomCsReq| { &mut m.OAKBNOBPDNI },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::NBIOEKILHEN::NBIOEKILHEN>(
+            "IAHIEBCFPCD",
+            |m: &SetRelicBoxCustomCsReq| { &m.IAHIEBCFPCD },
+            |m: &mut SetRelicBoxCustomCsReq| { &mut m.IAHIEBCFPCD },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "ENEPHGGMADB",
-            |m: &SetRelicBoxCustomCsReq| { &m.ENEPHGGMADB },
-            |m: &mut SetRelicBoxCustomCsReq| { &mut m.ENEPHGGMADB },
+            "FFJDCNKPGOO",
+            |m: &SetRelicBoxCustomCsReq| { &m.FFJDCNKPGOO },
+            |m: &mut SetRelicBoxCustomCsReq| { &mut m.FFJDCNKPGOO },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<SetRelicBoxCustomCsReq>(
             "SetRelicBoxCustomCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for SetRelicBoxCustomCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                34 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.OAKBNOBPDNI)?;
+                90 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.IAHIEBCFPCD)?;
                 },
-                42 => {
-                    self.ENEPHGGMADB.push(is.read_message()?);
+                58 => {
+                    self.FFJDCNKPGOO.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for SetRelicBoxCustomCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.OAKBNOBPDNI.as_ref() {
+        if let Some(v) = self.IAHIEBCFPCD.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        for value in &self.ENEPHGGMADB {
+        for value in &self.FFJDCNKPGOO {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
@@ -111,11 +111,11 @@ impl ::protobuf::Message for SetRelicBoxCustomCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.OAKBNOBPDNI.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
+        if let Some(v) = self.IAHIEBCFPCD.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
         }
-        for v in &self.ENEPHGGMADB {
-            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
+        for v in &self.FFJDCNKPGOO {
+            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
         };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -134,15 +134,15 @@ impl ::protobuf::Message for SetRelicBoxCustomCsReq {
     }
 
     fn clear(&mut self) {
-        self.OAKBNOBPDNI.clear();
-        self.ENEPHGGMADB.clear();
+        self.IAHIEBCFPCD.clear();
+        self.FFJDCNKPGOO.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static SetRelicBoxCustomCsReq {
         static instance: SetRelicBoxCustomCsReq = SetRelicBoxCustomCsReq {
-            OAKBNOBPDNI: ::protobuf::MessageField::none(),
-            ENEPHGGMADB: ::std::vec::Vec::new(),
+            IAHIEBCFPCD: ::protobuf::MessageField::none(),
+            FFJDCNKPGOO: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -167,10 +167,10 @@ impl ::protobuf::reflect::ProtobufValue for SetRelicBoxCustomCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1cSetRelicBoxCustomCsReq.proto\x1a\x11NMJPEPLHEJA.proto\"x\n\x16SetR\
-    elicBoxCustomCsReq\x12.\n\x0bOAKBNOBPDNI\x18\x04\x20\x01(\x0b2\x0c.NMJPE\
-    PLHEJAR\x0bOAKBNOBPDNI\x12.\n\x0bENEPHGGMADB\x18\x05\x20\x03(\x0b2\x0c.N\
-    MJPEPLHEJAR\x0bENEPHGGMADBb\x06proto3\
+    \n\x1cSetRelicBoxCustomCsReq.proto\x1a\x11NBIOEKILHEN.proto\"x\n\x16SetR\
+    elicBoxCustomCsReq\x12.\n\x0bIAHIEBCFPCD\x18\x0b\x20\x01(\x0b2\x0c.NBIOE\
+    KILHENR\x0bIAHIEBCFPCD\x12.\n\x0bFFJDCNKPGOO\x18\x07\x20\x03(\x0b2\x0c.N\
+    BIOEKILHENR\x0bFFJDCNKPGOOb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -188,7 +188,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::NMJPEPLHEJA::file_descriptor().clone());
+            deps.push(super::NBIOEKILHEN::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(SetRelicBoxCustomCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

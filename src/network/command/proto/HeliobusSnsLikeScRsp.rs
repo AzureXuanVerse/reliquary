@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct HeliobusSnsLikeScRsp {
     // message fields
-    // @@protoc_insertion_point(field:HeliobusSnsLikeScRsp.HCNCEDGKIKH)
-    pub HCNCEDGKIKH: u32,
+    // @@protoc_insertion_point(field:HeliobusSnsLikeScRsp.BOLCAEPIHJH)
+    pub BOLCAEPIHJH: bool,
     // @@protoc_insertion_point(field:HeliobusSnsLikeScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:HeliobusSnsLikeScRsp.BCFPDCEIFDC)
-    pub BCFPDCEIFDC: bool,
+    // @@protoc_insertion_point(field:HeliobusSnsLikeScRsp.CDKEDFPEFIJ)
+    pub CDKEDFPEFIJ: u32,
     // special fields
     // @@protoc_insertion_point(special_field:HeliobusSnsLikeScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -54,9 +54,9 @@ impl HeliobusSnsLikeScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "HCNCEDGKIKH",
-            |m: &HeliobusSnsLikeScRsp| { &m.HCNCEDGKIKH },
-            |m: &mut HeliobusSnsLikeScRsp| { &mut m.HCNCEDGKIKH },
+            "BOLCAEPIHJH",
+            |m: &HeliobusSnsLikeScRsp| { &m.BOLCAEPIHJH },
+            |m: &mut HeliobusSnsLikeScRsp| { &mut m.BOLCAEPIHJH },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
@@ -64,9 +64,9 @@ impl HeliobusSnsLikeScRsp {
             |m: &mut HeliobusSnsLikeScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BCFPDCEIFDC",
-            |m: &HeliobusSnsLikeScRsp| { &m.BCFPDCEIFDC },
-            |m: &mut HeliobusSnsLikeScRsp| { &mut m.BCFPDCEIFDC },
+            "CDKEDFPEFIJ",
+            |m: &HeliobusSnsLikeScRsp| { &m.CDKEDFPEFIJ },
+            |m: &mut HeliobusSnsLikeScRsp| { &mut m.CDKEDFPEFIJ },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<HeliobusSnsLikeScRsp>(
             "HeliobusSnsLikeScRsp",
@@ -87,13 +87,13 @@ impl ::protobuf::Message for HeliobusSnsLikeScRsp {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
                 64 => {
-                    self.HCNCEDGKIKH = is.read_uint32()?;
+                    self.BOLCAEPIHJH = is.read_bool()?;
                 },
-                16 => {
+                120 => {
                     self.retcode = is.read_uint32()?;
                 },
-                80 => {
-                    self.BCFPDCEIFDC = is.read_bool()?;
+                40 => {
+                    self.CDKEDFPEFIJ = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -107,14 +107,14 @@ impl ::protobuf::Message for HeliobusSnsLikeScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.HCNCEDGKIKH != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.HCNCEDGKIKH);
+        if self.BOLCAEPIHJH != false {
+            my_size += 1 + 1;
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(15, self.retcode);
         }
-        if self.BCFPDCEIFDC != false {
-            my_size += 1 + 1;
+        if self.CDKEDFPEFIJ != 0 {
+            my_size += ::protobuf::rt::uint32_size(5, self.CDKEDFPEFIJ);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -122,14 +122,14 @@ impl ::protobuf::Message for HeliobusSnsLikeScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.HCNCEDGKIKH != 0 {
-            os.write_uint32(8, self.HCNCEDGKIKH)?;
+        if self.BOLCAEPIHJH != false {
+            os.write_bool(8, self.BOLCAEPIHJH)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(2, self.retcode)?;
+            os.write_uint32(15, self.retcode)?;
         }
-        if self.BCFPDCEIFDC != false {
-            os.write_bool(10, self.BCFPDCEIFDC)?;
+        if self.CDKEDFPEFIJ != 0 {
+            os.write_uint32(5, self.CDKEDFPEFIJ)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -148,17 +148,17 @@ impl ::protobuf::Message for HeliobusSnsLikeScRsp {
     }
 
     fn clear(&mut self) {
-        self.HCNCEDGKIKH = 0;
+        self.BOLCAEPIHJH = false;
         self.retcode = 0;
-        self.BCFPDCEIFDC = false;
+        self.CDKEDFPEFIJ = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static HeliobusSnsLikeScRsp {
         static instance: HeliobusSnsLikeScRsp = HeliobusSnsLikeScRsp {
-            HCNCEDGKIKH: 0,
+            BOLCAEPIHJH: false,
             retcode: 0,
-            BCFPDCEIFDC: false,
+            CDKEDFPEFIJ: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -184,9 +184,9 @@ impl ::protobuf::reflect::ProtobufValue for HeliobusSnsLikeScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1aHeliobusSnsLikeScRsp.proto\"t\n\x14HeliobusSnsLikeScRsp\x12\x20\n\
-    \x0bHCNCEDGKIKH\x18\x08\x20\x01(\rR\x0bHCNCEDGKIKH\x12\x18\n\x07retcode\
-    \x18\x02\x20\x01(\rR\x07retcode\x12\x20\n\x0bBCFPDCEIFDC\x18\n\x20\x01(\
-    \x08R\x0bBCFPDCEIFDCb\x06proto3\
+    \x0bBOLCAEPIHJH\x18\x08\x20\x01(\x08R\x0bBOLCAEPIHJH\x12\x18\n\x07retcod\
+    e\x18\x0f\x20\x01(\rR\x07retcode\x12\x20\n\x0bCDKEDFPEFIJ\x18\x05\x20\
+    \x01(\rR\x0bCDKEDFPEFIJb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

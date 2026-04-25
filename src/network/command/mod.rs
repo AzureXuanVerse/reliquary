@@ -48,7 +48,6 @@ pub mod proto {
     pub mod GetBagScRsp;
     pub mod GetGachaInfoScRsp;
     pub mod GroupStatus;
-    pub mod GrowthTargetFunctionType;
     pub mod HeadFrameInfo;
     pub mod HeadIconData;
     pub mod Item;
@@ -58,7 +57,6 @@ pub mod proto {
     pub mod MessageSectionStatus;
     pub mod Mission;
     pub mod MissionCustomValue;
-    pub mod MissionCustomValueList;
     pub mod MissionStatus;
     pub mod MissionSync;
     pub mod MissionSyncRecord;
@@ -70,7 +68,6 @@ pub mod proto {
     pub mod PlayerSyncScNotify;
     pub mod Quest;
     pub mod QuestStatus;
-    pub mod RecycleMaterial;
     pub mod Relic;
     pub mod RelicAffix;
     pub mod SectionStatus;
@@ -80,16 +77,19 @@ pub mod proto {
     pub mod WaitDelResource;
 
     // Untranslated dependencies
-    pub mod EAIOLADLFKL;
-    pub mod EDLDOOAILPM;
-    pub mod EGAJNMIIAPJ;
-    pub mod FCFAGFDBKIH;
-    pub mod GCEMNNEICDP;
-    pub mod HICAPOJEBJJ;
-    pub mod JFKBNADPDEE;
-    pub mod JMDPCOPDNNH;
-    pub mod JOGMADAMFNI;
-    pub mod MJHHEOEEAJD;
+    pub mod ANDMLIEGPKE;
+    pub mod DPBEGBNICPG;
+    pub mod EPNCDFBAHEA;
+    pub mod GKDEKJKOIJN;
+    pub mod IEBAILGKMLB;
+    pub mod IFBLMCNFIEO;
+    pub mod JLAEDKMBGEK;
+    pub mod KFLKNDHJILI;
+    pub mod LAEHDNHPGCC;
+    pub mod MCNDBBEBKMJ;
+    pub mod OEIEJHBCOOM;
+    pub mod OKEPFGMNJAO;
+    pub mod PFFDAFJLNOO;
 }
 
 /// Game command header.

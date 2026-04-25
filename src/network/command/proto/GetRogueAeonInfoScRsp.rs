@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GetRogueAeonInfoScRsp {
     // message fields
-    // @@protoc_insertion_point(field:GetRogueAeonInfoScRsp.BOPDLDDNNFE)
-    pub BOPDLDDNNFE: ::std::vec::Vec<super::GHDDFEBCNNJ::GHDDFEBCNNJ>,
+    // @@protoc_insertion_point(field:GetRogueAeonInfoScRsp.OFENICFJANC)
+    pub OFENICFJANC: ::std::vec::Vec<super::CNHNGLEEBKP::CNHNGLEEBKP>,
     // @@protoc_insertion_point(field:GetRogueAeonInfoScRsp.retcode)
     pub retcode: u32,
     // special fields
@@ -52,9 +52,9 @@ impl GetRogueAeonInfoScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "BOPDLDDNNFE",
-            |m: &GetRogueAeonInfoScRsp| { &m.BOPDLDDNNFE },
-            |m: &mut GetRogueAeonInfoScRsp| { &mut m.BOPDLDDNNFE },
+            "OFENICFJANC",
+            |m: &GetRogueAeonInfoScRsp| { &m.OFENICFJANC },
+            |m: &mut GetRogueAeonInfoScRsp| { &mut m.OFENICFJANC },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
@@ -79,10 +79,10 @@ impl ::protobuf::Message for GetRogueAeonInfoScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                26 => {
-                    self.BOPDLDDNNFE.push(is.read_message()?);
+                10 => {
+                    self.OFENICFJANC.push(is.read_message()?);
                 },
-                80 => {
+                56 => {
                     self.retcode = is.read_uint32()?;
                 },
                 tag => {
@@ -97,12 +97,12 @@ impl ::protobuf::Message for GetRogueAeonInfoScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        for value in &self.BOPDLDDNNFE {
+        for value in &self.OFENICFJANC {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(7, self.retcode);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,11 +110,11 @@ impl ::protobuf::Message for GetRogueAeonInfoScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.BOPDLDDNNFE {
-            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
+        for v in &self.OFENICFJANC {
+            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
         };
         if self.retcode != 0 {
-            os.write_uint32(10, self.retcode)?;
+            os.write_uint32(7, self.retcode)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -133,14 +133,14 @@ impl ::protobuf::Message for GetRogueAeonInfoScRsp {
     }
 
     fn clear(&mut self) {
-        self.BOPDLDDNNFE.clear();
+        self.OFENICFJANC.clear();
         self.retcode = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetRogueAeonInfoScRsp {
         static instance: GetRogueAeonInfoScRsp = GetRogueAeonInfoScRsp {
-            BOPDLDDNNFE: ::std::vec::Vec::new(),
+            OFENICFJANC: ::std::vec::Vec::new(),
             retcode: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -166,10 +166,10 @@ impl ::protobuf::reflect::ProtobufValue for GetRogueAeonInfoScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1bGetRogueAeonInfoScRsp.proto\x1a\x11GHDDFEBCNNJ.proto\"a\n\x15GetRo\
-    gueAeonInfoScRsp\x12.\n\x0bBOPDLDDNNFE\x18\x03\x20\x03(\x0b2\x0c.GHDDFEB\
-    CNNJR\x0bBOPDLDDNNFE\x12\x18\n\x07retcode\x18\n\x20\x01(\rR\x07retcodeb\
-    \x06proto3\
+    \n\x1bGetRogueAeonInfoScRsp.proto\x1a\x11CNHNGLEEBKP.proto\"a\n\x15GetRo\
+    gueAeonInfoScRsp\x12.\n\x0bOFENICFJANC\x18\x01\x20\x03(\x0b2\x0c.CNHNGLE\
+    EBKPR\x0bOFENICFJANC\x12\x18\n\x07retcode\x18\x07\x20\x01(\rR\x07retcode\
+    b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -187,7 +187,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::GHDDFEBCNNJ::file_descriptor().clone());
+            deps.push(super::CNHNGLEEBKP::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GetRogueAeonInfoScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

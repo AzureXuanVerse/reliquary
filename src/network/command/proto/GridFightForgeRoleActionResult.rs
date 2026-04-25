@@ -72,7 +72,7 @@ impl ::protobuf::Message for GridFightForgeRoleActionResult {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                96 => {
+                72 => {
                     self.forge_target_index = is.read_uint32()?;
                 },
                 tag => {
@@ -88,7 +88,7 @@ impl ::protobuf::Message for GridFightForgeRoleActionResult {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.forge_target_index != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.forge_target_index);
+            my_size += ::protobuf::rt::uint32_size(9, self.forge_target_index);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -97,7 +97,7 @@ impl ::protobuf::Message for GridFightForgeRoleActionResult {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.forge_target_index != 0 {
-            os.write_uint32(12, self.forge_target_index)?;
+            os.write_uint32(9, self.forge_target_index)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -148,8 +148,8 @@ impl ::protobuf::reflect::ProtobufValue for GridFightForgeRoleActionResult {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n$GridFightForgeRoleActionResult.proto\"N\n\x1eGridFightForgeRoleAction\
-    Result\x12,\n\x12forge_target_index\x18\x0c\x20\x01(\rR\x10forgeTargetIn\
-    dexb\x06proto3\
+    Result\x12,\n\x12forge_target_index\x18\t\x20\x01(\rR\x10forgeTargetInde\
+    xb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

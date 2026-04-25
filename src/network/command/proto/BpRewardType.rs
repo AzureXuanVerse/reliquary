@@ -27,16 +27,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:BpRewardType)
 pub enum BpRewardType {
-    // @@protoc_insertion_point(enum_value:BpRewardType.BP_REWARAD_TYPE_NONE)
-    BP_REWARAD_TYPE_NONE = 0,
-    // @@protoc_insertion_point(enum_value:BpRewardType.BP_REWARAD_TYPE_FREE)
-    BP_REWARAD_TYPE_FREE = 1,
-    // @@protoc_insertion_point(enum_value:BpRewardType.BP_REWARAD_TYPE_PREMIUM_1)
-    BP_REWARAD_TYPE_PREMIUM_1 = 2,
-    // @@protoc_insertion_point(enum_value:BpRewardType.BP_REWARAD_TYPE_PREMIUM_2)
-    BP_REWARAD_TYPE_PREMIUM_2 = 3,
-    // @@protoc_insertion_point(enum_value:BpRewardType.BP_REWARAD_TYPE_PREMIUM_OPTIONAL)
-    BP_REWARAD_TYPE_PREMIUM_OPTIONAL = 4,
+    // @@protoc_insertion_point(enum_value:BpRewardType.FAAJKCACGCD_OEJCECBCHLC)
+    FAAJKCACGCD_OEJCECBCHLC = 0,
+    // @@protoc_insertion_point(enum_value:BpRewardType.FAAJKCACGCD_FOOHDABHDKM)
+    FAAJKCACGCD_FOOHDABHDKM = 1,
+    // @@protoc_insertion_point(enum_value:BpRewardType.FAAJKCACGCD_GIIMBEOPDFB)
+    FAAJKCACGCD_GIIMBEOPDFB = 2,
+    // @@protoc_insertion_point(enum_value:BpRewardType.FAAJKCACGCD_PBOMGOKANJD)
+    FAAJKCACGCD_PBOMGOKANJD = 3,
+    // @@protoc_insertion_point(enum_value:BpRewardType.FAAJKCACGCD_JFMBNEMIDFK)
+    FAAJKCACGCD_JFMBNEMIDFK = 4,
 }
 
 impl ::protobuf::Enum for BpRewardType {
@@ -48,32 +48,32 @@ impl ::protobuf::Enum for BpRewardType {
 
     fn from_i32(value: i32) -> ::std::option::Option<BpRewardType> {
         match value {
-            0 => ::std::option::Option::Some(BpRewardType::BP_REWARAD_TYPE_NONE),
-            1 => ::std::option::Option::Some(BpRewardType::BP_REWARAD_TYPE_FREE),
-            2 => ::std::option::Option::Some(BpRewardType::BP_REWARAD_TYPE_PREMIUM_1),
-            3 => ::std::option::Option::Some(BpRewardType::BP_REWARAD_TYPE_PREMIUM_2),
-            4 => ::std::option::Option::Some(BpRewardType::BP_REWARAD_TYPE_PREMIUM_OPTIONAL),
+            0 => ::std::option::Option::Some(BpRewardType::FAAJKCACGCD_OEJCECBCHLC),
+            1 => ::std::option::Option::Some(BpRewardType::FAAJKCACGCD_FOOHDABHDKM),
+            2 => ::std::option::Option::Some(BpRewardType::FAAJKCACGCD_GIIMBEOPDFB),
+            3 => ::std::option::Option::Some(BpRewardType::FAAJKCACGCD_PBOMGOKANJD),
+            4 => ::std::option::Option::Some(BpRewardType::FAAJKCACGCD_JFMBNEMIDFK),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<BpRewardType> {
         match str {
-            "BP_REWARAD_TYPE_NONE" => ::std::option::Option::Some(BpRewardType::BP_REWARAD_TYPE_NONE),
-            "BP_REWARAD_TYPE_FREE" => ::std::option::Option::Some(BpRewardType::BP_REWARAD_TYPE_FREE),
-            "BP_REWARAD_TYPE_PREMIUM_1" => ::std::option::Option::Some(BpRewardType::BP_REWARAD_TYPE_PREMIUM_1),
-            "BP_REWARAD_TYPE_PREMIUM_2" => ::std::option::Option::Some(BpRewardType::BP_REWARAD_TYPE_PREMIUM_2),
-            "BP_REWARAD_TYPE_PREMIUM_OPTIONAL" => ::std::option::Option::Some(BpRewardType::BP_REWARAD_TYPE_PREMIUM_OPTIONAL),
+            "FAAJKCACGCD_OEJCECBCHLC" => ::std::option::Option::Some(BpRewardType::FAAJKCACGCD_OEJCECBCHLC),
+            "FAAJKCACGCD_FOOHDABHDKM" => ::std::option::Option::Some(BpRewardType::FAAJKCACGCD_FOOHDABHDKM),
+            "FAAJKCACGCD_GIIMBEOPDFB" => ::std::option::Option::Some(BpRewardType::FAAJKCACGCD_GIIMBEOPDFB),
+            "FAAJKCACGCD_PBOMGOKANJD" => ::std::option::Option::Some(BpRewardType::FAAJKCACGCD_PBOMGOKANJD),
+            "FAAJKCACGCD_JFMBNEMIDFK" => ::std::option::Option::Some(BpRewardType::FAAJKCACGCD_JFMBNEMIDFK),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [BpRewardType] = &[
-        BpRewardType::BP_REWARAD_TYPE_NONE,
-        BpRewardType::BP_REWARAD_TYPE_FREE,
-        BpRewardType::BP_REWARAD_TYPE_PREMIUM_1,
-        BpRewardType::BP_REWARAD_TYPE_PREMIUM_2,
-        BpRewardType::BP_REWARAD_TYPE_PREMIUM_OPTIONAL,
+        BpRewardType::FAAJKCACGCD_OEJCECBCHLC,
+        BpRewardType::FAAJKCACGCD_FOOHDABHDKM,
+        BpRewardType::FAAJKCACGCD_GIIMBEOPDFB,
+        BpRewardType::FAAJKCACGCD_PBOMGOKANJD,
+        BpRewardType::FAAJKCACGCD_JFMBNEMIDFK,
     ];
 }
 
@@ -91,7 +91,7 @@ impl ::protobuf::EnumFull for BpRewardType {
 
 impl ::std::default::Default for BpRewardType {
     fn default() -> Self {
-        BpRewardType::BP_REWARAD_TYPE_NONE
+        BpRewardType::FAAJKCACGCD_OEJCECBCHLC
     }
 }
 
@@ -102,11 +102,10 @@ impl BpRewardType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x12BpRewardType.proto*\xa6\x01\n\x0cBpRewardType\x12\x18\n\x14BP_REWA\
-    RAD_TYPE_NONE\x10\0\x12\x18\n\x14BP_REWARAD_TYPE_FREE\x10\x01\x12\x1d\n\
-    \x19BP_REWARAD_TYPE_PREMIUM_1\x10\x02\x12\x1d\n\x19BP_REWARAD_TYPE_PREMI\
-    UM_2\x10\x03\x12$\n\x20BP_REWARAD_TYPE_PREMIUM_OPTIONAL\x10\x04b\x06prot\
-    o3\
+    \n\x12BpRewardType.proto*\x9f\x01\n\x0cBpRewardType\x12\x1b\n\x17FAAJKCA\
+    CGCD_OEJCECBCHLC\x10\0\x12\x1b\n\x17FAAJKCACGCD_FOOHDABHDKM\x10\x01\x12\
+    \x1b\n\x17FAAJKCACGCD_GIIMBEOPDFB\x10\x02\x12\x1b\n\x17FAAJKCACGCD_PBOMG\
+    OKANJD\x10\x03\x12\x1b\n\x17FAAJKCACGCD_JFMBNEMIDFK\x10\x04b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

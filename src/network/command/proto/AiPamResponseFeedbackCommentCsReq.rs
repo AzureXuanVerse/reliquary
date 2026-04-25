@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct AiPamResponseFeedbackCommentCsReq {
     // message fields
-    // @@protoc_insertion_point(field:AiPamResponseFeedbackCommentCsReq.MBBNLMEJEND)
-    pub MBBNLMEJEND: ::std::string::String,
-    // @@protoc_insertion_point(field:AiPamResponseFeedbackCommentCsReq.EKGPICNNGOD)
-    pub EKGPICNNGOD: u32,
+    // @@protoc_insertion_point(field:AiPamResponseFeedbackCommentCsReq.MPCOLHBJPBP)
+    pub MPCOLHBJPBP: ::std::string::String,
+    // @@protoc_insertion_point(field:AiPamResponseFeedbackCommentCsReq.HELHPDMDLBO)
+    pub HELHPDMDLBO: u32,
     // special fields
     // @@protoc_insertion_point(special_field:AiPamResponseFeedbackCommentCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl AiPamResponseFeedbackCommentCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MBBNLMEJEND",
-            |m: &AiPamResponseFeedbackCommentCsReq| { &m.MBBNLMEJEND },
-            |m: &mut AiPamResponseFeedbackCommentCsReq| { &mut m.MBBNLMEJEND },
+            "MPCOLHBJPBP",
+            |m: &AiPamResponseFeedbackCommentCsReq| { &m.MPCOLHBJPBP },
+            |m: &mut AiPamResponseFeedbackCommentCsReq| { &mut m.MPCOLHBJPBP },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "EKGPICNNGOD",
-            |m: &AiPamResponseFeedbackCommentCsReq| { &m.EKGPICNNGOD },
-            |m: &mut AiPamResponseFeedbackCommentCsReq| { &mut m.EKGPICNNGOD },
+            "HELHPDMDLBO",
+            |m: &AiPamResponseFeedbackCommentCsReq| { &m.HELHPDMDLBO },
+            |m: &mut AiPamResponseFeedbackCommentCsReq| { &mut m.HELHPDMDLBO },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<AiPamResponseFeedbackCommentCsReq>(
             "AiPamResponseFeedbackCommentCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for AiPamResponseFeedbackCommentCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                10 => {
-                    self.MBBNLMEJEND = is.read_string()?;
+                98 => {
+                    self.MPCOLHBJPBP = is.read_string()?;
                 },
-                88 => {
-                    self.EKGPICNNGOD = is.read_uint32()?;
+                56 => {
+                    self.HELHPDMDLBO = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for AiPamResponseFeedbackCommentCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if !self.MBBNLMEJEND.is_empty() {
-            my_size += ::protobuf::rt::string_size(1, &self.MBBNLMEJEND);
+        if !self.MPCOLHBJPBP.is_empty() {
+            my_size += ::protobuf::rt::string_size(12, &self.MPCOLHBJPBP);
         }
-        if self.EKGPICNNGOD != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.EKGPICNNGOD);
+        if self.HELHPDMDLBO != 0 {
+            my_size += ::protobuf::rt::uint32_size(7, self.HELHPDMDLBO);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for AiPamResponseFeedbackCommentCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if !self.MBBNLMEJEND.is_empty() {
-            os.write_string(1, &self.MBBNLMEJEND)?;
+        if !self.MPCOLHBJPBP.is_empty() {
+            os.write_string(12, &self.MPCOLHBJPBP)?;
         }
-        if self.EKGPICNNGOD != 0 {
-            os.write_uint32(11, self.EKGPICNNGOD)?;
+        if self.HELHPDMDLBO != 0 {
+            os.write_uint32(7, self.HELHPDMDLBO)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,15 +132,15 @@ impl ::protobuf::Message for AiPamResponseFeedbackCommentCsReq {
     }
 
     fn clear(&mut self) {
-        self.MBBNLMEJEND.clear();
-        self.EKGPICNNGOD = 0;
+        self.MPCOLHBJPBP.clear();
+        self.HELHPDMDLBO = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static AiPamResponseFeedbackCommentCsReq {
         static instance: AiPamResponseFeedbackCommentCsReq = AiPamResponseFeedbackCommentCsReq {
-            MBBNLMEJEND: ::std::string::String::new(),
-            EKGPICNNGOD: 0,
+            MPCOLHBJPBP: ::std::string::String::new(),
+            HELHPDMDLBO: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for AiPamResponseFeedbackCommentCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n'AiPamResponseFeedbackCommentCsReq.proto\"g\n!AiPamResponseFeedbackCom\
-    mentCsReq\x12\x20\n\x0bMBBNLMEJEND\x18\x01\x20\x01(\tR\x0bMBBNLMEJEND\
-    \x12\x20\n\x0bEKGPICNNGOD\x18\x0b\x20\x01(\rR\x0bEKGPICNNGODb\x06proto3\
+    mentCsReq\x12\x20\n\x0bMPCOLHBJPBP\x18\x0c\x20\x01(\tR\x0bMPCOLHBJPBP\
+    \x12\x20\n\x0bHELHPDMDLBO\x18\x07\x20\x01(\rR\x0bHELHPDMDLBOb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

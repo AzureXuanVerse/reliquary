@@ -27,10 +27,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdClientCustomOpType)
 pub enum CmdClientCustomOpType {
-    // @@protoc_insertion_point(enum_value:CmdClientCustomOpType.CmdClientCustomOpType_NAPIAMMDCHN)
-    CmdClientCustomOpType_NAPIAMMDCHN = 0,
-    // @@protoc_insertion_point(enum_value:CmdClientCustomOpType.CmdClientCustomOpType_NJDCHBFOOHE)
-    CmdClientCustomOpType_NJDCHBFOOHE = 9838,
+    // @@protoc_insertion_point(enum_value:CmdClientCustomOpType.ALPPHEHNPLE_BEENDIPKKNJ)
+    ALPPHEHNPLE_BEENDIPKKNJ = 0,
+    // @@protoc_insertion_point(enum_value:CmdClientCustomOpType.CmdKOIPHJFENIN)
+    CmdKOIPHJFENIN = 9839,
 }
 
 impl ::protobuf::Enum for CmdClientCustomOpType {
@@ -42,23 +42,23 @@ impl ::protobuf::Enum for CmdClientCustomOpType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdClientCustomOpType> {
         match value {
-            0 => ::std::option::Option::Some(CmdClientCustomOpType::CmdClientCustomOpType_NAPIAMMDCHN),
-            9838 => ::std::option::Option::Some(CmdClientCustomOpType::CmdClientCustomOpType_NJDCHBFOOHE),
+            0 => ::std::option::Option::Some(CmdClientCustomOpType::ALPPHEHNPLE_BEENDIPKKNJ),
+            9839 => ::std::option::Option::Some(CmdClientCustomOpType::CmdKOIPHJFENIN),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdClientCustomOpType> {
         match str {
-            "CmdClientCustomOpType_NAPIAMMDCHN" => ::std::option::Option::Some(CmdClientCustomOpType::CmdClientCustomOpType_NAPIAMMDCHN),
-            "CmdClientCustomOpType_NJDCHBFOOHE" => ::std::option::Option::Some(CmdClientCustomOpType::CmdClientCustomOpType_NJDCHBFOOHE),
+            "ALPPHEHNPLE_BEENDIPKKNJ" => ::std::option::Option::Some(CmdClientCustomOpType::ALPPHEHNPLE_BEENDIPKKNJ),
+            "CmdKOIPHJFENIN" => ::std::option::Option::Some(CmdClientCustomOpType::CmdKOIPHJFENIN),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdClientCustomOpType] = &[
-        CmdClientCustomOpType::CmdClientCustomOpType_NAPIAMMDCHN,
-        CmdClientCustomOpType::CmdClientCustomOpType_NJDCHBFOOHE,
+        CmdClientCustomOpType::ALPPHEHNPLE_BEENDIPKKNJ,
+        CmdClientCustomOpType::CmdKOIPHJFENIN,
     ];
 }
 
@@ -70,8 +70,8 @@ impl ::protobuf::EnumFull for CmdClientCustomOpType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdClientCustomOpType::CmdClientCustomOpType_NAPIAMMDCHN => 0,
-            CmdClientCustomOpType::CmdClientCustomOpType_NJDCHBFOOHE => 1,
+            CmdClientCustomOpType::ALPPHEHNPLE_BEENDIPKKNJ => 0,
+            CmdClientCustomOpType::CmdKOIPHJFENIN => 1,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -79,7 +79,7 @@ impl ::protobuf::EnumFull for CmdClientCustomOpType {
 
 impl ::std::default::Default for CmdClientCustomOpType {
     fn default() -> Self {
-        CmdClientCustomOpType::CmdClientCustomOpType_NAPIAMMDCHN
+        CmdClientCustomOpType::ALPPHEHNPLE_BEENDIPKKNJ
     }
 }
 
@@ -90,9 +90,9 @@ impl CmdClientCustomOpType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1bCmdClientCustomOpType.proto*f\n\x15CmdClientCustomOpType\x12%\n!Cm\
-    dClientCustomOpType_NAPIAMMDCHN\x10\0\x12&\n!CmdClientCustomOpType_NJDCH\
-    BFOOHE\x10\xeeLb\x06proto3\
+    \n\x1bCmdClientCustomOpType.proto*I\n\x15CmdClientCustomOpType\x12\x1b\n\
+    \x17ALPPHEHNPLE_BEENDIPKKNJ\x10\0\x12\x13\n\x0eCmdKOIPHJFENIN\x10\xefLb\
+    \x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

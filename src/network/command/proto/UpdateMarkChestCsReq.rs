@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct UpdateMarkChestCsReq {
     // message fields
-    // @@protoc_insertion_point(field:UpdateMarkChestCsReq.trigger_param_id)
-    pub trigger_param_id: u32,
     // @@protoc_insertion_point(field:UpdateMarkChestCsReq.func_id)
     pub func_id: u32,
+    // @@protoc_insertion_point(field:UpdateMarkChestCsReq.trigger_param_id)
+    pub trigger_param_id: u32,
     // @@protoc_insertion_point(field:UpdateMarkChestCsReq.mark_chest_info_list)
     pub mark_chest_info_list: ::std::vec::Vec<super::MarkChestInfo::MarkChestInfo>,
     // special fields
@@ -54,14 +54,14 @@ impl UpdateMarkChestCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "trigger_param_id",
-            |m: &UpdateMarkChestCsReq| { &m.trigger_param_id },
-            |m: &mut UpdateMarkChestCsReq| { &mut m.trigger_param_id },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "func_id",
             |m: &UpdateMarkChestCsReq| { &m.func_id },
             |m: &mut UpdateMarkChestCsReq| { &mut m.func_id },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "trigger_param_id",
+            |m: &UpdateMarkChestCsReq| { &m.trigger_param_id },
+            |m: &mut UpdateMarkChestCsReq| { &mut m.trigger_param_id },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "mark_chest_info_list",
@@ -86,13 +86,13 @@ impl ::protobuf::Message for UpdateMarkChestCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                88 => {
-                    self.trigger_param_id = is.read_uint32()?;
-                },
-                72 => {
+                16 => {
                     self.func_id = is.read_uint32()?;
                 },
-                106 => {
+                8 => {
+                    self.trigger_param_id = is.read_uint32()?;
+                },
+                82 => {
                     self.mark_chest_info_list.push(is.read_message()?);
                 },
                 tag => {
@@ -107,11 +107,11 @@ impl ::protobuf::Message for UpdateMarkChestCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.trigger_param_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.trigger_param_id);
-        }
         if self.func_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.func_id);
+            my_size += ::protobuf::rt::uint32_size(2, self.func_id);
+        }
+        if self.trigger_param_id != 0 {
+            my_size += ::protobuf::rt::uint32_size(1, self.trigger_param_id);
         }
         for value in &self.mark_chest_info_list {
             let len = value.compute_size();
@@ -123,14 +123,14 @@ impl ::protobuf::Message for UpdateMarkChestCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.trigger_param_id != 0 {
-            os.write_uint32(11, self.trigger_param_id)?;
-        }
         if self.func_id != 0 {
-            os.write_uint32(9, self.func_id)?;
+            os.write_uint32(2, self.func_id)?;
+        }
+        if self.trigger_param_id != 0 {
+            os.write_uint32(1, self.trigger_param_id)?;
         }
         for v in &self.mark_chest_info_list {
-            ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
         };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -149,16 +149,16 @@ impl ::protobuf::Message for UpdateMarkChestCsReq {
     }
 
     fn clear(&mut self) {
-        self.trigger_param_id = 0;
         self.func_id = 0;
+        self.trigger_param_id = 0;
         self.mark_chest_info_list.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static UpdateMarkChestCsReq {
         static instance: UpdateMarkChestCsReq = UpdateMarkChestCsReq {
-            trigger_param_id: 0,
             func_id: 0,
+            trigger_param_id: 0,
             mark_chest_info_list: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -185,10 +185,10 @@ impl ::protobuf::reflect::ProtobufValue for UpdateMarkChestCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1aUpdateMarkChestCsReq.proto\x1a\x13MarkChestInfo.proto\"\x9a\x01\n\
-    \x14UpdateMarkChestCsReq\x12(\n\x10trigger_param_id\x18\x0b\x20\x01(\rR\
-    \x0etriggerParamId\x12\x17\n\x07func_id\x18\t\x20\x01(\rR\x06funcId\x12?\
-    \n\x14mark_chest_info_list\x18\r\x20\x03(\x0b2\x0e.MarkChestInfoR\x11mar\
-    kChestInfoListb\x06proto3\
+    \x14UpdateMarkChestCsReq\x12\x17\n\x07func_id\x18\x02\x20\x01(\rR\x06fun\
+    cId\x12(\n\x10trigger_param_id\x18\x01\x20\x01(\rR\x0etriggerParamId\x12\
+    ?\n\x14mark_chest_info_list\x18\n\x20\x03(\x0b2\x0e.MarkChestInfoR\x11ma\
+    rkChestInfoListb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

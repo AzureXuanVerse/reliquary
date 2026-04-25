@@ -28,20 +28,20 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct TravelBrochureUpdatePasterPosCsReq {
     // message fields
-    // @@protoc_insertion_point(field:TravelBrochureUpdatePasterPosCsReq.NPNNMLOKMNN)
-    pub NPNNMLOKMNN: u32,
     // @@protoc_insertion_point(field:TravelBrochureUpdatePasterPosCsReq.unique_id)
     pub unique_id: u64,
+    // @@protoc_insertion_point(field:TravelBrochureUpdatePasterPosCsReq.HKIOMCOCDNF)
+    pub HKIOMCOCDNF: i32,
+    // @@protoc_insertion_point(field:TravelBrochureUpdatePasterPosCsReq.KPGMBKKOGJG)
+    pub KPGMBKKOGJG: u32,
     // @@protoc_insertion_point(field:TravelBrochureUpdatePasterPosCsReq.item_id)
     pub item_id: u32,
-    // @@protoc_insertion_point(field:TravelBrochureUpdatePasterPosCsReq.LPNIFNPKNEK)
-    pub LPNIFNPKNEK: i32,
-    // @@protoc_insertion_point(field:TravelBrochureUpdatePasterPosCsReq.KEPDCKMCHDF)
-    pub KEPDCKMCHDF: i32,
-    // @@protoc_insertion_point(field:TravelBrochureUpdatePasterPosCsReq.PANNKDPLADL)
-    pub PANNKDPLADL: u32,
-    // @@protoc_insertion_point(field:TravelBrochureUpdatePasterPosCsReq.AKGJJEFCGKB)
-    pub AKGJJEFCGKB: u32,
+    // @@protoc_insertion_point(field:TravelBrochureUpdatePasterPosCsReq.CFIDMMFFBOE)
+    pub CFIDMMFFBOE: i32,
+    // @@protoc_insertion_point(field:TravelBrochureUpdatePasterPosCsReq.HBCJPCMJPHE)
+    pub HBCJPCMJPHE: u32,
+    // @@protoc_insertion_point(field:TravelBrochureUpdatePasterPosCsReq.AEHKNGBKPBE)
+    pub AEHKNGBKPBE: u32,
     // special fields
     // @@protoc_insertion_point(special_field:TravelBrochureUpdatePasterPosCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -62,14 +62,19 @@ impl TravelBrochureUpdatePasterPosCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(7);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "NPNNMLOKMNN",
-            |m: &TravelBrochureUpdatePasterPosCsReq| { &m.NPNNMLOKMNN },
-            |m: &mut TravelBrochureUpdatePasterPosCsReq| { &mut m.NPNNMLOKMNN },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "unique_id",
             |m: &TravelBrochureUpdatePasterPosCsReq| { &m.unique_id },
             |m: &mut TravelBrochureUpdatePasterPosCsReq| { &mut m.unique_id },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "HKIOMCOCDNF",
+            |m: &TravelBrochureUpdatePasterPosCsReq| { &m.HKIOMCOCDNF },
+            |m: &mut TravelBrochureUpdatePasterPosCsReq| { &mut m.HKIOMCOCDNF },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "KPGMBKKOGJG",
+            |m: &TravelBrochureUpdatePasterPosCsReq| { &m.KPGMBKKOGJG },
+            |m: &mut TravelBrochureUpdatePasterPosCsReq| { &mut m.KPGMBKKOGJG },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "item_id",
@@ -77,24 +82,19 @@ impl TravelBrochureUpdatePasterPosCsReq {
             |m: &mut TravelBrochureUpdatePasterPosCsReq| { &mut m.item_id },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "LPNIFNPKNEK",
-            |m: &TravelBrochureUpdatePasterPosCsReq| { &m.LPNIFNPKNEK },
-            |m: &mut TravelBrochureUpdatePasterPosCsReq| { &mut m.LPNIFNPKNEK },
+            "CFIDMMFFBOE",
+            |m: &TravelBrochureUpdatePasterPosCsReq| { &m.CFIDMMFFBOE },
+            |m: &mut TravelBrochureUpdatePasterPosCsReq| { &mut m.CFIDMMFFBOE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "KEPDCKMCHDF",
-            |m: &TravelBrochureUpdatePasterPosCsReq| { &m.KEPDCKMCHDF },
-            |m: &mut TravelBrochureUpdatePasterPosCsReq| { &mut m.KEPDCKMCHDF },
+            "HBCJPCMJPHE",
+            |m: &TravelBrochureUpdatePasterPosCsReq| { &m.HBCJPCMJPHE },
+            |m: &mut TravelBrochureUpdatePasterPosCsReq| { &mut m.HBCJPCMJPHE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "PANNKDPLADL",
-            |m: &TravelBrochureUpdatePasterPosCsReq| { &m.PANNKDPLADL },
-            |m: &mut TravelBrochureUpdatePasterPosCsReq| { &mut m.PANNKDPLADL },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "AKGJJEFCGKB",
-            |m: &TravelBrochureUpdatePasterPosCsReq| { &m.AKGJJEFCGKB },
-            |m: &mut TravelBrochureUpdatePasterPosCsReq| { &mut m.AKGJJEFCGKB },
+            "AEHKNGBKPBE",
+            |m: &TravelBrochureUpdatePasterPosCsReq| { &m.AEHKNGBKPBE },
+            |m: &mut TravelBrochureUpdatePasterPosCsReq| { &mut m.AEHKNGBKPBE },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<TravelBrochureUpdatePasterPosCsReq>(
             "TravelBrochureUpdatePasterPosCsReq",
@@ -114,26 +114,26 @@ impl ::protobuf::Message for TravelBrochureUpdatePasterPosCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                96 => {
-                    self.NPNNMLOKMNN = is.read_uint32()?;
-                },
-                56 => {
+                112 => {
                     self.unique_id = is.read_uint64()?;
                 },
                 40 => {
+                    self.HKIOMCOCDNF = is.read_int32()?;
+                },
+                48 => {
+                    self.KPGMBKKOGJG = is.read_uint32()?;
+                },
+                24 => {
                     self.item_id = is.read_uint32()?;
                 },
-                64 => {
-                    self.LPNIFNPKNEK = is.read_int32()?;
-                },
                 104 => {
-                    self.KEPDCKMCHDF = is.read_int32()?;
+                    self.CFIDMMFFBOE = is.read_int32()?;
                 },
-                72 => {
-                    self.PANNKDPLADL = is.read_uint32()?;
+                56 => {
+                    self.HBCJPCMJPHE = is.read_uint32()?;
                 },
                 88 => {
-                    self.AKGJJEFCGKB = is.read_uint32()?;
+                    self.AEHKNGBKPBE = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -147,26 +147,26 @@ impl ::protobuf::Message for TravelBrochureUpdatePasterPosCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.NPNNMLOKMNN != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.NPNNMLOKMNN);
-        }
         if self.unique_id != 0 {
-            my_size += ::protobuf::rt::uint64_size(7, self.unique_id);
+            my_size += ::protobuf::rt::uint64_size(14, self.unique_id);
+        }
+        if self.HKIOMCOCDNF != 0 {
+            my_size += ::protobuf::rt::int32_size(5, self.HKIOMCOCDNF);
+        }
+        if self.KPGMBKKOGJG != 0 {
+            my_size += ::protobuf::rt::uint32_size(6, self.KPGMBKKOGJG);
         }
         if self.item_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(5, self.item_id);
+            my_size += ::protobuf::rt::uint32_size(3, self.item_id);
         }
-        if self.LPNIFNPKNEK != 0 {
-            my_size += ::protobuf::rt::int32_size(8, self.LPNIFNPKNEK);
+        if self.CFIDMMFFBOE != 0 {
+            my_size += ::protobuf::rt::int32_size(13, self.CFIDMMFFBOE);
         }
-        if self.KEPDCKMCHDF != 0 {
-            my_size += ::protobuf::rt::int32_size(13, self.KEPDCKMCHDF);
+        if self.HBCJPCMJPHE != 0 {
+            my_size += ::protobuf::rt::uint32_size(7, self.HBCJPCMJPHE);
         }
-        if self.PANNKDPLADL != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.PANNKDPLADL);
-        }
-        if self.AKGJJEFCGKB != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.AKGJJEFCGKB);
+        if self.AEHKNGBKPBE != 0 {
+            my_size += ::protobuf::rt::uint32_size(11, self.AEHKNGBKPBE);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -174,26 +174,26 @@ impl ::protobuf::Message for TravelBrochureUpdatePasterPosCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.NPNNMLOKMNN != 0 {
-            os.write_uint32(12, self.NPNNMLOKMNN)?;
-        }
         if self.unique_id != 0 {
-            os.write_uint64(7, self.unique_id)?;
+            os.write_uint64(14, self.unique_id)?;
+        }
+        if self.HKIOMCOCDNF != 0 {
+            os.write_int32(5, self.HKIOMCOCDNF)?;
+        }
+        if self.KPGMBKKOGJG != 0 {
+            os.write_uint32(6, self.KPGMBKKOGJG)?;
         }
         if self.item_id != 0 {
-            os.write_uint32(5, self.item_id)?;
+            os.write_uint32(3, self.item_id)?;
         }
-        if self.LPNIFNPKNEK != 0 {
-            os.write_int32(8, self.LPNIFNPKNEK)?;
+        if self.CFIDMMFFBOE != 0 {
+            os.write_int32(13, self.CFIDMMFFBOE)?;
         }
-        if self.KEPDCKMCHDF != 0 {
-            os.write_int32(13, self.KEPDCKMCHDF)?;
+        if self.HBCJPCMJPHE != 0 {
+            os.write_uint32(7, self.HBCJPCMJPHE)?;
         }
-        if self.PANNKDPLADL != 0 {
-            os.write_uint32(9, self.PANNKDPLADL)?;
-        }
-        if self.AKGJJEFCGKB != 0 {
-            os.write_uint32(11, self.AKGJJEFCGKB)?;
+        if self.AEHKNGBKPBE != 0 {
+            os.write_uint32(11, self.AEHKNGBKPBE)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -212,25 +212,25 @@ impl ::protobuf::Message for TravelBrochureUpdatePasterPosCsReq {
     }
 
     fn clear(&mut self) {
-        self.NPNNMLOKMNN = 0;
         self.unique_id = 0;
+        self.HKIOMCOCDNF = 0;
+        self.KPGMBKKOGJG = 0;
         self.item_id = 0;
-        self.LPNIFNPKNEK = 0;
-        self.KEPDCKMCHDF = 0;
-        self.PANNKDPLADL = 0;
-        self.AKGJJEFCGKB = 0;
+        self.CFIDMMFFBOE = 0;
+        self.HBCJPCMJPHE = 0;
+        self.AEHKNGBKPBE = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static TravelBrochureUpdatePasterPosCsReq {
         static instance: TravelBrochureUpdatePasterPosCsReq = TravelBrochureUpdatePasterPosCsReq {
-            NPNNMLOKMNN: 0,
             unique_id: 0,
+            HKIOMCOCDNF: 0,
+            KPGMBKKOGJG: 0,
             item_id: 0,
-            LPNIFNPKNEK: 0,
-            KEPDCKMCHDF: 0,
-            PANNKDPLADL: 0,
-            AKGJJEFCGKB: 0,
+            CFIDMMFFBOE: 0,
+            HBCJPCMJPHE: 0,
+            AEHKNGBKPBE: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -256,13 +256,13 @@ impl ::protobuf::reflect::ProtobufValue for TravelBrochureUpdatePasterPosCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n(TravelBrochureUpdatePasterPosCsReq.proto\"\x84\x02\n\"TravelBrochureU\
-    pdatePasterPosCsReq\x12\x20\n\x0bNPNNMLOKMNN\x18\x0c\x20\x01(\rR\x0bNPNN\
-    MLOKMNN\x12\x1b\n\tunique_id\x18\x07\x20\x01(\x04R\x08uniqueId\x12\x17\n\
-    \x07item_id\x18\x05\x20\x01(\rR\x06itemId\x12\x20\n\x0bLPNIFNPKNEK\x18\
-    \x08\x20\x01(\x05R\x0bLPNIFNPKNEK\x12\x20\n\x0bKEPDCKMCHDF\x18\r\x20\x01\
-    (\x05R\x0bKEPDCKMCHDF\x12\x20\n\x0bPANNKDPLADL\x18\t\x20\x01(\rR\x0bPANN\
-    KDPLADL\x12\x20\n\x0bAKGJJEFCGKB\x18\x0b\x20\x01(\rR\x0bAKGJJEFCGKBb\x06\
-    proto3\
+    pdatePasterPosCsReq\x12\x1b\n\tunique_id\x18\x0e\x20\x01(\x04R\x08unique\
+    Id\x12\x20\n\x0bHKIOMCOCDNF\x18\x05\x20\x01(\x05R\x0bHKIOMCOCDNF\x12\x20\
+    \n\x0bKPGMBKKOGJG\x18\x06\x20\x01(\rR\x0bKPGMBKKOGJG\x12\x17\n\x07item_i\
+    d\x18\x03\x20\x01(\rR\x06itemId\x12\x20\n\x0bCFIDMMFFBOE\x18\r\x20\x01(\
+    \x05R\x0bCFIDMMFFBOE\x12\x20\n\x0bHBCJPCMJPHE\x18\x07\x20\x01(\rR\x0bHBC\
+    JPCMJPHE\x12\x20\n\x0bAEHKNGBKPBE\x18\x0b\x20\x01(\rR\x0bAEHKNGBKPBEb\
+    \x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -27,24 +27,24 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdTrackPhotoActivityType)
 pub enum CmdTrackPhotoActivityType {
-    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdTrackPhotoActivityType_MNFEPONEDDJ)
-    CmdTrackPhotoActivityType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdTrackPhotoActivityType_LNEIFFBGMLG)
-    CmdTrackPhotoActivityType_LNEIFFBGMLG = 7558,
-    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdTrackPhotoActivityType_ELDDMFLENIJ)
-    CmdTrackPhotoActivityType_ELDDMFLENIJ = 7556,
-    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdTrackPhotoActivityType_DMGNHDOLMGI)
-    CmdTrackPhotoActivityType_DMGNHDOLMGI = 7557,
-    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdTrackPhotoActivityType_IEDOKILAIPK)
-    CmdTrackPhotoActivityType_IEDOKILAIPK = 7552,
-    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdTrackPhotoActivityType_FMNHAGEHNIP)
-    CmdTrackPhotoActivityType_FMNHAGEHNIP = 7555,
-    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdTrackPhotoActivityType_AEIKMDGCIMH)
-    CmdTrackPhotoActivityType_AEIKMDGCIMH = 7560,
-    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdTrackPhotoActivityType_EAJPCDDAPNC)
-    CmdTrackPhotoActivityType_EAJPCDDAPNC = 7551,
-    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdTrackPhotoActivityType_LOOAIFDHKBB)
-    CmdTrackPhotoActivityType_LOOAIFDHKBB = 7553,
+    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.IGNAEJEMBFO_PCPDHELPKEM)
+    IGNAEJEMBFO_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdStartTrackPhotoStageCsReq)
+    CmdStartTrackPhotoStageCsReq = 7555,
+    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdSettleTrackPhotoStageCsReq)
+    CmdSettleTrackPhotoStageCsReq = 7551,
+    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdEAAHNDOHPPH)
+    CmdEAAHNDOHPPH = 7556,
+    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdSettleTrackPhotoStageScRsp)
+    CmdSettleTrackPhotoStageScRsp = 7557,
+    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdGetTrackPhotoActivityDataCsReq)
+    CmdGetTrackPhotoActivityDataCsReq = 7559,
+    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdQuitTrackPhotoStageCsReq)
+    CmdQuitTrackPhotoStageCsReq = 7552,
+    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdGetTrackPhotoActivityDataScRsp)
+    CmdGetTrackPhotoActivityDataScRsp = 7560,
+    // @@protoc_insertion_point(enum_value:CmdTrackPhotoActivityType.CmdStartTrackPhotoStageScRsp)
+    CmdStartTrackPhotoStageScRsp = 7554,
 }
 
 impl ::protobuf::Enum for CmdTrackPhotoActivityType {
@@ -56,44 +56,44 @@ impl ::protobuf::Enum for CmdTrackPhotoActivityType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdTrackPhotoActivityType> {
         match value {
-            0 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_MNFEPONEDDJ),
-            7558 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_LNEIFFBGMLG),
-            7556 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_ELDDMFLENIJ),
-            7557 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_DMGNHDOLMGI),
-            7552 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_IEDOKILAIPK),
-            7555 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_FMNHAGEHNIP),
-            7560 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_AEIKMDGCIMH),
-            7551 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_EAJPCDDAPNC),
-            7553 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_LOOAIFDHKBB),
+            0 => ::std::option::Option::Some(CmdTrackPhotoActivityType::IGNAEJEMBFO_PCPDHELPKEM),
+            7555 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdStartTrackPhotoStageCsReq),
+            7551 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdSettleTrackPhotoStageCsReq),
+            7556 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdEAAHNDOHPPH),
+            7557 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdSettleTrackPhotoStageScRsp),
+            7559 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdGetTrackPhotoActivityDataCsReq),
+            7552 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdQuitTrackPhotoStageCsReq),
+            7560 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdGetTrackPhotoActivityDataScRsp),
+            7554 => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdStartTrackPhotoStageScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdTrackPhotoActivityType> {
         match str {
-            "CmdTrackPhotoActivityType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_MNFEPONEDDJ),
-            "CmdTrackPhotoActivityType_LNEIFFBGMLG" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_LNEIFFBGMLG),
-            "CmdTrackPhotoActivityType_ELDDMFLENIJ" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_ELDDMFLENIJ),
-            "CmdTrackPhotoActivityType_DMGNHDOLMGI" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_DMGNHDOLMGI),
-            "CmdTrackPhotoActivityType_IEDOKILAIPK" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_IEDOKILAIPK),
-            "CmdTrackPhotoActivityType_FMNHAGEHNIP" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_FMNHAGEHNIP),
-            "CmdTrackPhotoActivityType_AEIKMDGCIMH" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_AEIKMDGCIMH),
-            "CmdTrackPhotoActivityType_EAJPCDDAPNC" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_EAJPCDDAPNC),
-            "CmdTrackPhotoActivityType_LOOAIFDHKBB" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_LOOAIFDHKBB),
+            "IGNAEJEMBFO_PCPDHELPKEM" => ::std::option::Option::Some(CmdTrackPhotoActivityType::IGNAEJEMBFO_PCPDHELPKEM),
+            "CmdStartTrackPhotoStageCsReq" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdStartTrackPhotoStageCsReq),
+            "CmdSettleTrackPhotoStageCsReq" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdSettleTrackPhotoStageCsReq),
+            "CmdEAAHNDOHPPH" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdEAAHNDOHPPH),
+            "CmdSettleTrackPhotoStageScRsp" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdSettleTrackPhotoStageScRsp),
+            "CmdGetTrackPhotoActivityDataCsReq" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdGetTrackPhotoActivityDataCsReq),
+            "CmdQuitTrackPhotoStageCsReq" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdQuitTrackPhotoStageCsReq),
+            "CmdGetTrackPhotoActivityDataScRsp" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdGetTrackPhotoActivityDataScRsp),
+            "CmdStartTrackPhotoStageScRsp" => ::std::option::Option::Some(CmdTrackPhotoActivityType::CmdStartTrackPhotoStageScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdTrackPhotoActivityType] = &[
-        CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_MNFEPONEDDJ,
-        CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_LNEIFFBGMLG,
-        CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_ELDDMFLENIJ,
-        CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_DMGNHDOLMGI,
-        CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_IEDOKILAIPK,
-        CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_FMNHAGEHNIP,
-        CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_AEIKMDGCIMH,
-        CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_EAJPCDDAPNC,
-        CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_LOOAIFDHKBB,
+        CmdTrackPhotoActivityType::IGNAEJEMBFO_PCPDHELPKEM,
+        CmdTrackPhotoActivityType::CmdStartTrackPhotoStageCsReq,
+        CmdTrackPhotoActivityType::CmdSettleTrackPhotoStageCsReq,
+        CmdTrackPhotoActivityType::CmdEAAHNDOHPPH,
+        CmdTrackPhotoActivityType::CmdSettleTrackPhotoStageScRsp,
+        CmdTrackPhotoActivityType::CmdGetTrackPhotoActivityDataCsReq,
+        CmdTrackPhotoActivityType::CmdQuitTrackPhotoStageCsReq,
+        CmdTrackPhotoActivityType::CmdGetTrackPhotoActivityDataScRsp,
+        CmdTrackPhotoActivityType::CmdStartTrackPhotoStageScRsp,
     ];
 }
 
@@ -105,15 +105,15 @@ impl ::protobuf::EnumFull for CmdTrackPhotoActivityType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_MNFEPONEDDJ => 0,
-            CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_LNEIFFBGMLG => 1,
-            CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_ELDDMFLENIJ => 2,
-            CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_DMGNHDOLMGI => 3,
-            CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_IEDOKILAIPK => 4,
-            CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_FMNHAGEHNIP => 5,
-            CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_AEIKMDGCIMH => 6,
-            CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_EAJPCDDAPNC => 7,
-            CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_LOOAIFDHKBB => 8,
+            CmdTrackPhotoActivityType::IGNAEJEMBFO_PCPDHELPKEM => 0,
+            CmdTrackPhotoActivityType::CmdStartTrackPhotoStageCsReq => 1,
+            CmdTrackPhotoActivityType::CmdSettleTrackPhotoStageCsReq => 2,
+            CmdTrackPhotoActivityType::CmdEAAHNDOHPPH => 3,
+            CmdTrackPhotoActivityType::CmdSettleTrackPhotoStageScRsp => 4,
+            CmdTrackPhotoActivityType::CmdGetTrackPhotoActivityDataCsReq => 5,
+            CmdTrackPhotoActivityType::CmdQuitTrackPhotoStageCsReq => 6,
+            CmdTrackPhotoActivityType::CmdGetTrackPhotoActivityDataScRsp => 7,
+            CmdTrackPhotoActivityType::CmdStartTrackPhotoStageScRsp => 8,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -121,7 +121,7 @@ impl ::protobuf::EnumFull for CmdTrackPhotoActivityType {
 
 impl ::std::default::Default for CmdTrackPhotoActivityType {
     fn default() -> Self {
-        CmdTrackPhotoActivityType::CmdTrackPhotoActivityType_MNFEPONEDDJ
+        CmdTrackPhotoActivityType::IGNAEJEMBFO_PCPDHELPKEM
     }
 }
 
@@ -132,14 +132,14 @@ impl CmdTrackPhotoActivityType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1fCmdTrackPhotoActivityType.proto*\xa6\x03\n\x19CmdTrackPhotoActivit\
-    yType\x12)\n%CmdTrackPhotoActivityType_MNFEPONEDDJ\x10\0\x12*\n%CmdTrack\
-    PhotoActivityType_LNEIFFBGMLG\x10\x86;\x12*\n%CmdTrackPhotoActivityType_\
-    ELDDMFLENIJ\x10\x84;\x12*\n%CmdTrackPhotoActivityType_DMGNHDOLMGI\x10\
-    \x85;\x12*\n%CmdTrackPhotoActivityType_IEDOKILAIPK\x10\x80;\x12*\n%CmdTr\
-    ackPhotoActivityType_FMNHAGEHNIP\x10\x83;\x12*\n%CmdTrackPhotoActivityTy\
-    pe_AEIKMDGCIMH\x10\x88;\x12*\n%CmdTrackPhotoActivityType_EAJPCDDAPNC\x10\
-    \xff:\x12*\n%CmdTrackPhotoActivityType_LOOAIFDHKBB\x10\x81;b\x06proto3\
+    \n\x1fCmdTrackPhotoActivityType.proto*\xcd\x02\n\x19CmdTrackPhotoActivit\
+    yType\x12\x1b\n\x17IGNAEJEMBFO_PCPDHELPKEM\x10\0\x12!\n\x1cCmdStartTrack\
+    PhotoStageCsReq\x10\x83;\x12\"\n\x1dCmdSettleTrackPhotoStageCsReq\x10\
+    \xff:\x12\x13\n\x0eCmdEAAHNDOHPPH\x10\x84;\x12\"\n\x1dCmdSettleTrackPhot\
+    oStageScRsp\x10\x85;\x12&\n!CmdGetTrackPhotoActivityDataCsReq\x10\x87;\
+    \x12\x20\n\x1bCmdQuitTrackPhotoStageCsReq\x10\x80;\x12&\n!CmdGetTrackPho\
+    toActivityDataScRsp\x10\x88;\x12!\n\x1cCmdStartTrackPhotoStageScRsp\x10\
+    \x82;b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

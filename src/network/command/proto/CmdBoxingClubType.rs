@@ -27,40 +27,40 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdBoxingClubType)
 pub enum CmdBoxingClubType {
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_MNFEPONEDDJ)
-    CmdBoxingClubType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_DGGNNHJOHDG)
-    CmdBoxingClubType_DGGNNHJOHDG = 4262,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_OEAELPPHFPE)
-    CmdBoxingClubType_OEAELPPHFPE = 4269,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_PEIBDDOKMFN)
-    CmdBoxingClubType_PEIBDDOKMFN = 4213,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_OBHMDIPBGOP)
-    CmdBoxingClubType_OBHMDIPBGOP = 4256,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_GNGEEJHGCBC)
-    CmdBoxingClubType_GNGEEJHGCBC = 4284,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_PDOIHMEAFGJ)
-    CmdBoxingClubType_PDOIHMEAFGJ = 4223,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_CFOHGPHKIHP)
-    CmdBoxingClubType_CFOHGPHKIHP = 4235,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_JGPCENJBACK)
-    CmdBoxingClubType_JGPCENJBACK = 4281,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_KHOIKPJGMBB)
-    CmdBoxingClubType_KHOIKPJGMBB = 4219,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_BJHIIOFIGBC)
-    CmdBoxingClubType_BJHIIOFIGBC = 4224,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_GEFCCCMKCNO)
-    CmdBoxingClubType_GEFCCCMKCNO = 4283,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_PAKFGGBPFBI)
-    CmdBoxingClubType_PAKFGGBPFBI = 4204,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_AAGMEDNBEJF)
-    CmdBoxingClubType_AAGMEDNBEJF = 4257,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_JNMLCHCLEJK)
-    CmdBoxingClubType_JNMLCHCLEJK = 4240,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_BCICBENMKDB)
-    CmdBoxingClubType_BCICBENMKDB = 4246,
-    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubType_FPBBMIAMMGP)
-    CmdBoxingClubType_FPBBMIAMMGP = 4300,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.NCGDADBFAOA_PCPDHELPKEM)
+    NCGDADBFAOA_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdGiveUpBoxingClubChallengeCsReq)
+    CmdGiveUpBoxingClubChallengeCsReq = 4209,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdChooseBoxingClubStageOptionalBuffScRsp)
+    CmdChooseBoxingClubStageOptionalBuffScRsp = 4238,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdGetBoxingClubInfoScRsp)
+    CmdGetBoxingClubInfoScRsp = 4210,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdGiveUpBoxingClubChallengeScRsp)
+    CmdGiveUpBoxingClubChallengeScRsp = 4298,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdMatchBoxingClubOpponentScRsp)
+    CmdMatchBoxingClubOpponentScRsp = 4295,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdStartBoxingClubBattleScRsp)
+    CmdStartBoxingClubBattleScRsp = 4218,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdChooseBoxingClubResonanceScRsp)
+    CmdChooseBoxingClubResonanceScRsp = 4201,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdGetBoxingClubInfoCsReq)
+    CmdGetBoxingClubInfoCsReq = 4291,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubChallengeUpdateScNotify)
+    CmdBoxingClubChallengeUpdateScNotify = 4226,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdChooseBoxingClubResonanceCsReq)
+    CmdChooseBoxingClubResonanceCsReq = 4239,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdMatchBoxingClubOpponentCsReq)
+    CmdMatchBoxingClubOpponentCsReq = 4294,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdStartBoxingClubBattleCsReq)
+    CmdStartBoxingClubBattleCsReq = 4214,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdSetBoxingClubResonanceLineupCsReq)
+    CmdSetBoxingClubResonanceLineupCsReq = 4274,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdChooseBoxingClubStageOptionalBuffCsReq)
+    CmdChooseBoxingClubStageOptionalBuffCsReq = 4204,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdBoxingClubRewardScNotify)
+    CmdBoxingClubRewardScNotify = 4263,
+    // @@protoc_insertion_point(enum_value:CmdBoxingClubType.CmdSetBoxingClubResonanceScRsp)
+    CmdSetBoxingClubResonanceScRsp = 4237,
 }
 
 impl ::protobuf::Enum for CmdBoxingClubType {
@@ -72,68 +72,68 @@ impl ::protobuf::Enum for CmdBoxingClubType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdBoxingClubType> {
         match value {
-            0 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_MNFEPONEDDJ),
-            4262 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_DGGNNHJOHDG),
-            4269 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_OEAELPPHFPE),
-            4213 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_PEIBDDOKMFN),
-            4256 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_OBHMDIPBGOP),
-            4284 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_GNGEEJHGCBC),
-            4223 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_PDOIHMEAFGJ),
-            4235 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_CFOHGPHKIHP),
-            4281 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_JGPCENJBACK),
-            4219 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_KHOIKPJGMBB),
-            4224 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_BJHIIOFIGBC),
-            4283 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_GEFCCCMKCNO),
-            4204 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_PAKFGGBPFBI),
-            4257 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_AAGMEDNBEJF),
-            4240 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_JNMLCHCLEJK),
-            4246 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_BCICBENMKDB),
-            4300 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_FPBBMIAMMGP),
+            0 => ::std::option::Option::Some(CmdBoxingClubType::NCGDADBFAOA_PCPDHELPKEM),
+            4209 => ::std::option::Option::Some(CmdBoxingClubType::CmdGiveUpBoxingClubChallengeCsReq),
+            4238 => ::std::option::Option::Some(CmdBoxingClubType::CmdChooseBoxingClubStageOptionalBuffScRsp),
+            4210 => ::std::option::Option::Some(CmdBoxingClubType::CmdGetBoxingClubInfoScRsp),
+            4298 => ::std::option::Option::Some(CmdBoxingClubType::CmdGiveUpBoxingClubChallengeScRsp),
+            4295 => ::std::option::Option::Some(CmdBoxingClubType::CmdMatchBoxingClubOpponentScRsp),
+            4218 => ::std::option::Option::Some(CmdBoxingClubType::CmdStartBoxingClubBattleScRsp),
+            4201 => ::std::option::Option::Some(CmdBoxingClubType::CmdChooseBoxingClubResonanceScRsp),
+            4291 => ::std::option::Option::Some(CmdBoxingClubType::CmdGetBoxingClubInfoCsReq),
+            4226 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubChallengeUpdateScNotify),
+            4239 => ::std::option::Option::Some(CmdBoxingClubType::CmdChooseBoxingClubResonanceCsReq),
+            4294 => ::std::option::Option::Some(CmdBoxingClubType::CmdMatchBoxingClubOpponentCsReq),
+            4214 => ::std::option::Option::Some(CmdBoxingClubType::CmdStartBoxingClubBattleCsReq),
+            4274 => ::std::option::Option::Some(CmdBoxingClubType::CmdSetBoxingClubResonanceLineupCsReq),
+            4204 => ::std::option::Option::Some(CmdBoxingClubType::CmdChooseBoxingClubStageOptionalBuffCsReq),
+            4263 => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubRewardScNotify),
+            4237 => ::std::option::Option::Some(CmdBoxingClubType::CmdSetBoxingClubResonanceScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdBoxingClubType> {
         match str {
-            "CmdBoxingClubType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_MNFEPONEDDJ),
-            "CmdBoxingClubType_DGGNNHJOHDG" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_DGGNNHJOHDG),
-            "CmdBoxingClubType_OEAELPPHFPE" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_OEAELPPHFPE),
-            "CmdBoxingClubType_PEIBDDOKMFN" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_PEIBDDOKMFN),
-            "CmdBoxingClubType_OBHMDIPBGOP" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_OBHMDIPBGOP),
-            "CmdBoxingClubType_GNGEEJHGCBC" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_GNGEEJHGCBC),
-            "CmdBoxingClubType_PDOIHMEAFGJ" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_PDOIHMEAFGJ),
-            "CmdBoxingClubType_CFOHGPHKIHP" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_CFOHGPHKIHP),
-            "CmdBoxingClubType_JGPCENJBACK" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_JGPCENJBACK),
-            "CmdBoxingClubType_KHOIKPJGMBB" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_KHOIKPJGMBB),
-            "CmdBoxingClubType_BJHIIOFIGBC" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_BJHIIOFIGBC),
-            "CmdBoxingClubType_GEFCCCMKCNO" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_GEFCCCMKCNO),
-            "CmdBoxingClubType_PAKFGGBPFBI" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_PAKFGGBPFBI),
-            "CmdBoxingClubType_AAGMEDNBEJF" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_AAGMEDNBEJF),
-            "CmdBoxingClubType_JNMLCHCLEJK" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_JNMLCHCLEJK),
-            "CmdBoxingClubType_BCICBENMKDB" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_BCICBENMKDB),
-            "CmdBoxingClubType_FPBBMIAMMGP" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubType_FPBBMIAMMGP),
+            "NCGDADBFAOA_PCPDHELPKEM" => ::std::option::Option::Some(CmdBoxingClubType::NCGDADBFAOA_PCPDHELPKEM),
+            "CmdGiveUpBoxingClubChallengeCsReq" => ::std::option::Option::Some(CmdBoxingClubType::CmdGiveUpBoxingClubChallengeCsReq),
+            "CmdChooseBoxingClubStageOptionalBuffScRsp" => ::std::option::Option::Some(CmdBoxingClubType::CmdChooseBoxingClubStageOptionalBuffScRsp),
+            "CmdGetBoxingClubInfoScRsp" => ::std::option::Option::Some(CmdBoxingClubType::CmdGetBoxingClubInfoScRsp),
+            "CmdGiveUpBoxingClubChallengeScRsp" => ::std::option::Option::Some(CmdBoxingClubType::CmdGiveUpBoxingClubChallengeScRsp),
+            "CmdMatchBoxingClubOpponentScRsp" => ::std::option::Option::Some(CmdBoxingClubType::CmdMatchBoxingClubOpponentScRsp),
+            "CmdStartBoxingClubBattleScRsp" => ::std::option::Option::Some(CmdBoxingClubType::CmdStartBoxingClubBattleScRsp),
+            "CmdChooseBoxingClubResonanceScRsp" => ::std::option::Option::Some(CmdBoxingClubType::CmdChooseBoxingClubResonanceScRsp),
+            "CmdGetBoxingClubInfoCsReq" => ::std::option::Option::Some(CmdBoxingClubType::CmdGetBoxingClubInfoCsReq),
+            "CmdBoxingClubChallengeUpdateScNotify" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubChallengeUpdateScNotify),
+            "CmdChooseBoxingClubResonanceCsReq" => ::std::option::Option::Some(CmdBoxingClubType::CmdChooseBoxingClubResonanceCsReq),
+            "CmdMatchBoxingClubOpponentCsReq" => ::std::option::Option::Some(CmdBoxingClubType::CmdMatchBoxingClubOpponentCsReq),
+            "CmdStartBoxingClubBattleCsReq" => ::std::option::Option::Some(CmdBoxingClubType::CmdStartBoxingClubBattleCsReq),
+            "CmdSetBoxingClubResonanceLineupCsReq" => ::std::option::Option::Some(CmdBoxingClubType::CmdSetBoxingClubResonanceLineupCsReq),
+            "CmdChooseBoxingClubStageOptionalBuffCsReq" => ::std::option::Option::Some(CmdBoxingClubType::CmdChooseBoxingClubStageOptionalBuffCsReq),
+            "CmdBoxingClubRewardScNotify" => ::std::option::Option::Some(CmdBoxingClubType::CmdBoxingClubRewardScNotify),
+            "CmdSetBoxingClubResonanceScRsp" => ::std::option::Option::Some(CmdBoxingClubType::CmdSetBoxingClubResonanceScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdBoxingClubType] = &[
-        CmdBoxingClubType::CmdBoxingClubType_MNFEPONEDDJ,
-        CmdBoxingClubType::CmdBoxingClubType_DGGNNHJOHDG,
-        CmdBoxingClubType::CmdBoxingClubType_OEAELPPHFPE,
-        CmdBoxingClubType::CmdBoxingClubType_PEIBDDOKMFN,
-        CmdBoxingClubType::CmdBoxingClubType_OBHMDIPBGOP,
-        CmdBoxingClubType::CmdBoxingClubType_GNGEEJHGCBC,
-        CmdBoxingClubType::CmdBoxingClubType_PDOIHMEAFGJ,
-        CmdBoxingClubType::CmdBoxingClubType_CFOHGPHKIHP,
-        CmdBoxingClubType::CmdBoxingClubType_JGPCENJBACK,
-        CmdBoxingClubType::CmdBoxingClubType_KHOIKPJGMBB,
-        CmdBoxingClubType::CmdBoxingClubType_BJHIIOFIGBC,
-        CmdBoxingClubType::CmdBoxingClubType_GEFCCCMKCNO,
-        CmdBoxingClubType::CmdBoxingClubType_PAKFGGBPFBI,
-        CmdBoxingClubType::CmdBoxingClubType_AAGMEDNBEJF,
-        CmdBoxingClubType::CmdBoxingClubType_JNMLCHCLEJK,
-        CmdBoxingClubType::CmdBoxingClubType_BCICBENMKDB,
-        CmdBoxingClubType::CmdBoxingClubType_FPBBMIAMMGP,
+        CmdBoxingClubType::NCGDADBFAOA_PCPDHELPKEM,
+        CmdBoxingClubType::CmdGiveUpBoxingClubChallengeCsReq,
+        CmdBoxingClubType::CmdChooseBoxingClubStageOptionalBuffScRsp,
+        CmdBoxingClubType::CmdGetBoxingClubInfoScRsp,
+        CmdBoxingClubType::CmdGiveUpBoxingClubChallengeScRsp,
+        CmdBoxingClubType::CmdMatchBoxingClubOpponentScRsp,
+        CmdBoxingClubType::CmdStartBoxingClubBattleScRsp,
+        CmdBoxingClubType::CmdChooseBoxingClubResonanceScRsp,
+        CmdBoxingClubType::CmdGetBoxingClubInfoCsReq,
+        CmdBoxingClubType::CmdBoxingClubChallengeUpdateScNotify,
+        CmdBoxingClubType::CmdChooseBoxingClubResonanceCsReq,
+        CmdBoxingClubType::CmdMatchBoxingClubOpponentCsReq,
+        CmdBoxingClubType::CmdStartBoxingClubBattleCsReq,
+        CmdBoxingClubType::CmdSetBoxingClubResonanceLineupCsReq,
+        CmdBoxingClubType::CmdChooseBoxingClubStageOptionalBuffCsReq,
+        CmdBoxingClubType::CmdBoxingClubRewardScNotify,
+        CmdBoxingClubType::CmdSetBoxingClubResonanceScRsp,
     ];
 }
 
@@ -145,23 +145,23 @@ impl ::protobuf::EnumFull for CmdBoxingClubType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdBoxingClubType::CmdBoxingClubType_MNFEPONEDDJ => 0,
-            CmdBoxingClubType::CmdBoxingClubType_DGGNNHJOHDG => 1,
-            CmdBoxingClubType::CmdBoxingClubType_OEAELPPHFPE => 2,
-            CmdBoxingClubType::CmdBoxingClubType_PEIBDDOKMFN => 3,
-            CmdBoxingClubType::CmdBoxingClubType_OBHMDIPBGOP => 4,
-            CmdBoxingClubType::CmdBoxingClubType_GNGEEJHGCBC => 5,
-            CmdBoxingClubType::CmdBoxingClubType_PDOIHMEAFGJ => 6,
-            CmdBoxingClubType::CmdBoxingClubType_CFOHGPHKIHP => 7,
-            CmdBoxingClubType::CmdBoxingClubType_JGPCENJBACK => 8,
-            CmdBoxingClubType::CmdBoxingClubType_KHOIKPJGMBB => 9,
-            CmdBoxingClubType::CmdBoxingClubType_BJHIIOFIGBC => 10,
-            CmdBoxingClubType::CmdBoxingClubType_GEFCCCMKCNO => 11,
-            CmdBoxingClubType::CmdBoxingClubType_PAKFGGBPFBI => 12,
-            CmdBoxingClubType::CmdBoxingClubType_AAGMEDNBEJF => 13,
-            CmdBoxingClubType::CmdBoxingClubType_JNMLCHCLEJK => 14,
-            CmdBoxingClubType::CmdBoxingClubType_BCICBENMKDB => 15,
-            CmdBoxingClubType::CmdBoxingClubType_FPBBMIAMMGP => 16,
+            CmdBoxingClubType::NCGDADBFAOA_PCPDHELPKEM => 0,
+            CmdBoxingClubType::CmdGiveUpBoxingClubChallengeCsReq => 1,
+            CmdBoxingClubType::CmdChooseBoxingClubStageOptionalBuffScRsp => 2,
+            CmdBoxingClubType::CmdGetBoxingClubInfoScRsp => 3,
+            CmdBoxingClubType::CmdGiveUpBoxingClubChallengeScRsp => 4,
+            CmdBoxingClubType::CmdMatchBoxingClubOpponentScRsp => 5,
+            CmdBoxingClubType::CmdStartBoxingClubBattleScRsp => 6,
+            CmdBoxingClubType::CmdChooseBoxingClubResonanceScRsp => 7,
+            CmdBoxingClubType::CmdGetBoxingClubInfoCsReq => 8,
+            CmdBoxingClubType::CmdBoxingClubChallengeUpdateScNotify => 9,
+            CmdBoxingClubType::CmdChooseBoxingClubResonanceCsReq => 10,
+            CmdBoxingClubType::CmdMatchBoxingClubOpponentCsReq => 11,
+            CmdBoxingClubType::CmdStartBoxingClubBattleCsReq => 12,
+            CmdBoxingClubType::CmdSetBoxingClubResonanceLineupCsReq => 13,
+            CmdBoxingClubType::CmdChooseBoxingClubStageOptionalBuffCsReq => 14,
+            CmdBoxingClubType::CmdBoxingClubRewardScNotify => 15,
+            CmdBoxingClubType::CmdSetBoxingClubResonanceScRsp => 16,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -169,7 +169,7 @@ impl ::protobuf::EnumFull for CmdBoxingClubType {
 
 impl ::std::default::Default for CmdBoxingClubType {
     fn default() -> Self {
-        CmdBoxingClubType::CmdBoxingClubType_MNFEPONEDDJ
+        CmdBoxingClubType::NCGDADBFAOA_PCPDHELPKEM
     }
 }
 
@@ -180,19 +180,20 @@ impl CmdBoxingClubType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x17CmdBoxingClubType.proto*\xf6\x04\n\x11CmdBoxingClubType\x12!\n\x1d\
-    CmdBoxingClubType_MNFEPONEDDJ\x10\0\x12\"\n\x1dCmdBoxingClubType_DGGNNHJ\
-    OHDG\x10\xa6!\x12\"\n\x1dCmdBoxingClubType_OEAELPPHFPE\x10\xad!\x12\"\n\
-    \x1dCmdBoxingClubType_PEIBDDOKMFN\x10\xf5\x20\x12\"\n\x1dCmdBoxingClubTy\
-    pe_OBHMDIPBGOP\x10\xa0!\x12\"\n\x1dCmdBoxingClubType_GNGEEJHGCBC\x10\xbc\
-    !\x12\"\n\x1dCmdBoxingClubType_PDOIHMEAFGJ\x10\xff\x20\x12\"\n\x1dCmdBox\
-    ingClubType_CFOHGPHKIHP\x10\x8b!\x12\"\n\x1dCmdBoxingClubType_JGPCENJBAC\
-    K\x10\xb9!\x12\"\n\x1dCmdBoxingClubType_KHOIKPJGMBB\x10\xfb\x20\x12\"\n\
-    \x1dCmdBoxingClubType_BJHIIOFIGBC\x10\x80!\x12\"\n\x1dCmdBoxingClubType_\
-    GEFCCCMKCNO\x10\xbb!\x12\"\n\x1dCmdBoxingClubType_PAKFGGBPFBI\x10\xec\
-    \x20\x12\"\n\x1dCmdBoxingClubType_AAGMEDNBEJF\x10\xa1!\x12\"\n\x1dCmdBox\
-    ingClubType_JNMLCHCLEJK\x10\x90!\x12\"\n\x1dCmdBoxingClubType_BCICBENMKD\
-    B\x10\x96!\x12\"\n\x1dCmdBoxingClubType_FPBBMIAMMGP\x10\xcc!b\x06proto3\
+    \n\x17CmdBoxingClubType.proto*\xa1\x05\n\x11CmdBoxingClubType\x12\x1b\n\
+    \x17NCGDADBFAOA_PCPDHELPKEM\x10\0\x12&\n!CmdGiveUpBoxingClubChallengeCsR\
+    eq\x10\xf1\x20\x12.\n)CmdChooseBoxingClubStageOptionalBuffScRsp\x10\x8e!\
+    \x12\x1e\n\x19CmdGetBoxingClubInfoScRsp\x10\xf2\x20\x12&\n!CmdGiveUpBoxi\
+    ngClubChallengeScRsp\x10\xca!\x12$\n\x1fCmdMatchBoxingClubOpponentScRsp\
+    \x10\xc7!\x12\"\n\x1dCmdStartBoxingClubBattleScRsp\x10\xfa\x20\x12&\n!Cm\
+    dChooseBoxingClubResonanceScRsp\x10\xe9\x20\x12\x1e\n\x19CmdGetBoxingClu\
+    bInfoCsReq\x10\xc3!\x12)\n$CmdBoxingClubChallengeUpdateScNotify\x10\x82!\
+    \x12&\n!CmdChooseBoxingClubResonanceCsReq\x10\x8f!\x12$\n\x1fCmdMatchBox\
+    ingClubOpponentCsReq\x10\xc6!\x12\"\n\x1dCmdStartBoxingClubBattleCsReq\
+    \x10\xf6\x20\x12)\n$CmdSetBoxingClubResonanceLineupCsReq\x10\xb2!\x12.\n\
+    )CmdChooseBoxingClubStageOptionalBuffCsReq\x10\xec\x20\x12\x20\n\x1bCmdB\
+    oxingClubRewardScNotify\x10\xa7!\x12#\n\x1eCmdSetBoxingClubResonanceScRs\
+    p\x10\x8d!b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

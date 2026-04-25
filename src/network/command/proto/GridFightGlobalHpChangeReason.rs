@@ -27,18 +27,18 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:GridFightGlobalHpChangeReason)
 pub enum GridFightGlobalHpChangeReason {
-    // @@protoc_insertion_point(enum_value:GridFightGlobalHpChangeReason.GridFightGlobalHpChangeReason_ELFOHIKFMBC)
-    GridFightGlobalHpChangeReason_ELFOHIKFMBC = 0,
-    // @@protoc_insertion_point(enum_value:GridFightGlobalHpChangeReason.GridFightGlobalHpChangeReason_IDJMFOBNPGI)
-    GridFightGlobalHpChangeReason_IDJMFOBNPGI = 1,
-    // @@protoc_insertion_point(enum_value:GridFightGlobalHpChangeReason.GridFightGlobalHpChangeReason_FFAHADFLBDL)
-    GridFightGlobalHpChangeReason_FFAHADFLBDL = 2,
-    // @@protoc_insertion_point(enum_value:GridFightGlobalHpChangeReason.GridFightGlobalHpChangeReason_KAOCJLHKLEE)
-    GridFightGlobalHpChangeReason_KAOCJLHKLEE = 3,
-    // @@protoc_insertion_point(enum_value:GridFightGlobalHpChangeReason.GridFightGlobalHpChangeReason_LAGCBKJMEII)
-    GridFightGlobalHpChangeReason_LAGCBKJMEII = 4,
-    // @@protoc_insertion_point(enum_value:GridFightGlobalHpChangeReason.GridFightGlobalHpChangeReason_LNILOKAJLDO)
-    GridFightGlobalHpChangeReason_LNILOKAJLDO = 5,
+    // @@protoc_insertion_point(enum_value:GridFightGlobalHpChangeReason.FOOHMNAFKBN_EIGONMAEFPJ)
+    FOOHMNAFKBN_EIGONMAEFPJ = 0,
+    // @@protoc_insertion_point(enum_value:GridFightGlobalHpChangeReason.FOOHMNAFKBN_IFNIEEAFFNE)
+    FOOHMNAFKBN_IFNIEEAFFNE = 1,
+    // @@protoc_insertion_point(enum_value:GridFightGlobalHpChangeReason.FOOHMNAFKBN_KCGPJKLLFFG)
+    FOOHMNAFKBN_KCGPJKLLFFG = 2,
+    // @@protoc_insertion_point(enum_value:GridFightGlobalHpChangeReason.FOOHMNAFKBN_HICPJJNIAJI)
+    FOOHMNAFKBN_HICPJJNIAJI = 3,
+    // @@protoc_insertion_point(enum_value:GridFightGlobalHpChangeReason.FOOHMNAFKBN_ALACCAFMGHE)
+    FOOHMNAFKBN_ALACCAFMGHE = 4,
+    // @@protoc_insertion_point(enum_value:GridFightGlobalHpChangeReason.FOOHMNAFKBN_FAKADNNGLCH)
+    FOOHMNAFKBN_FAKADNNGLCH = 5,
 }
 
 impl ::protobuf::Enum for GridFightGlobalHpChangeReason {
@@ -50,35 +50,35 @@ impl ::protobuf::Enum for GridFightGlobalHpChangeReason {
 
     fn from_i32(value: i32) -> ::std::option::Option<GridFightGlobalHpChangeReason> {
         match value {
-            0 => ::std::option::Option::Some(GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_ELFOHIKFMBC),
-            1 => ::std::option::Option::Some(GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_IDJMFOBNPGI),
-            2 => ::std::option::Option::Some(GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_FFAHADFLBDL),
-            3 => ::std::option::Option::Some(GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_KAOCJLHKLEE),
-            4 => ::std::option::Option::Some(GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_LAGCBKJMEII),
-            5 => ::std::option::Option::Some(GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_LNILOKAJLDO),
+            0 => ::std::option::Option::Some(GridFightGlobalHpChangeReason::FOOHMNAFKBN_EIGONMAEFPJ),
+            1 => ::std::option::Option::Some(GridFightGlobalHpChangeReason::FOOHMNAFKBN_IFNIEEAFFNE),
+            2 => ::std::option::Option::Some(GridFightGlobalHpChangeReason::FOOHMNAFKBN_KCGPJKLLFFG),
+            3 => ::std::option::Option::Some(GridFightGlobalHpChangeReason::FOOHMNAFKBN_HICPJJNIAJI),
+            4 => ::std::option::Option::Some(GridFightGlobalHpChangeReason::FOOHMNAFKBN_ALACCAFMGHE),
+            5 => ::std::option::Option::Some(GridFightGlobalHpChangeReason::FOOHMNAFKBN_FAKADNNGLCH),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<GridFightGlobalHpChangeReason> {
         match str {
-            "GridFightGlobalHpChangeReason_ELFOHIKFMBC" => ::std::option::Option::Some(GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_ELFOHIKFMBC),
-            "GridFightGlobalHpChangeReason_IDJMFOBNPGI" => ::std::option::Option::Some(GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_IDJMFOBNPGI),
-            "GridFightGlobalHpChangeReason_FFAHADFLBDL" => ::std::option::Option::Some(GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_FFAHADFLBDL),
-            "GridFightGlobalHpChangeReason_KAOCJLHKLEE" => ::std::option::Option::Some(GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_KAOCJLHKLEE),
-            "GridFightGlobalHpChangeReason_LAGCBKJMEII" => ::std::option::Option::Some(GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_LAGCBKJMEII),
-            "GridFightGlobalHpChangeReason_LNILOKAJLDO" => ::std::option::Option::Some(GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_LNILOKAJLDO),
+            "FOOHMNAFKBN_EIGONMAEFPJ" => ::std::option::Option::Some(GridFightGlobalHpChangeReason::FOOHMNAFKBN_EIGONMAEFPJ),
+            "FOOHMNAFKBN_IFNIEEAFFNE" => ::std::option::Option::Some(GridFightGlobalHpChangeReason::FOOHMNAFKBN_IFNIEEAFFNE),
+            "FOOHMNAFKBN_KCGPJKLLFFG" => ::std::option::Option::Some(GridFightGlobalHpChangeReason::FOOHMNAFKBN_KCGPJKLLFFG),
+            "FOOHMNAFKBN_HICPJJNIAJI" => ::std::option::Option::Some(GridFightGlobalHpChangeReason::FOOHMNAFKBN_HICPJJNIAJI),
+            "FOOHMNAFKBN_ALACCAFMGHE" => ::std::option::Option::Some(GridFightGlobalHpChangeReason::FOOHMNAFKBN_ALACCAFMGHE),
+            "FOOHMNAFKBN_FAKADNNGLCH" => ::std::option::Option::Some(GridFightGlobalHpChangeReason::FOOHMNAFKBN_FAKADNNGLCH),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [GridFightGlobalHpChangeReason] = &[
-        GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_ELFOHIKFMBC,
-        GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_IDJMFOBNPGI,
-        GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_FFAHADFLBDL,
-        GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_KAOCJLHKLEE,
-        GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_LAGCBKJMEII,
-        GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_LNILOKAJLDO,
+        GridFightGlobalHpChangeReason::FOOHMNAFKBN_EIGONMAEFPJ,
+        GridFightGlobalHpChangeReason::FOOHMNAFKBN_IFNIEEAFFNE,
+        GridFightGlobalHpChangeReason::FOOHMNAFKBN_KCGPJKLLFFG,
+        GridFightGlobalHpChangeReason::FOOHMNAFKBN_HICPJJNIAJI,
+        GridFightGlobalHpChangeReason::FOOHMNAFKBN_ALACCAFMGHE,
+        GridFightGlobalHpChangeReason::FOOHMNAFKBN_FAKADNNGLCH,
     ];
 }
 
@@ -96,7 +96,7 @@ impl ::protobuf::EnumFull for GridFightGlobalHpChangeReason {
 
 impl ::std::default::Default for GridFightGlobalHpChangeReason {
     fn default() -> Self {
-        GridFightGlobalHpChangeReason::GridFightGlobalHpChangeReason_ELFOHIKFMBC
+        GridFightGlobalHpChangeReason::FOOHMNAFKBN_EIGONMAEFPJ
     }
 }
 
@@ -107,13 +107,12 @@ impl GridFightGlobalHpChangeReason {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n#GridFightGlobalHpChangeReason.proto*\xb9\x02\n\x1dGridFightGlobalHpCh\
-    angeReason\x12-\n)GridFightGlobalHpChangeReason_ELFOHIKFMBC\x10\0\x12-\n\
-    )GridFightGlobalHpChangeReason_IDJMFOBNPGI\x10\x01\x12-\n)GridFightGloba\
-    lHpChangeReason_FFAHADFLBDL\x10\x02\x12-\n)GridFightGlobalHpChangeReason\
-    _KAOCJLHKLEE\x10\x03\x12-\n)GridFightGlobalHpChangeReason_LAGCBKJMEII\
-    \x10\x04\x12-\n)GridFightGlobalHpChangeReason_LNILOKAJLDO\x10\x05b\x06pr\
-    oto3\
+    \n#GridFightGlobalHpChangeReason.proto*\xcd\x01\n\x1dGridFightGlobalHpCh\
+    angeReason\x12\x1b\n\x17FOOHMNAFKBN_EIGONMAEFPJ\x10\0\x12\x1b\n\x17FOOHM\
+    NAFKBN_IFNIEEAFFNE\x10\x01\x12\x1b\n\x17FOOHMNAFKBN_KCGPJKLLFFG\x10\x02\
+    \x12\x1b\n\x17FOOHMNAFKBN_HICPJJNIAJI\x10\x03\x12\x1b\n\x17FOOHMNAFKBN_A\
+    LACCAFMGHE\x10\x04\x12\x1b\n\x17FOOHMNAFKBN_FAKADNNGLCH\x10\x05b\x06prot\
+    o3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

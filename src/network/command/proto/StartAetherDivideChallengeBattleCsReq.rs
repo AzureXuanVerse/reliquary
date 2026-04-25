@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct StartAetherDivideChallengeBattleCsReq {
     // message fields
-    // @@protoc_insertion_point(field:StartAetherDivideChallengeBattleCsReq.IEGPNBDMGCI)
-    pub IEGPNBDMGCI: u32,
+    // @@protoc_insertion_point(field:StartAetherDivideChallengeBattleCsReq.FNCINGFDLPA)
+    pub FNCINGFDLPA: u32,
     // @@protoc_insertion_point(field:StartAetherDivideChallengeBattleCsReq.challenge_id)
     pub challenge_id: u32,
     // special fields
@@ -52,9 +52,9 @@ impl StartAetherDivideChallengeBattleCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "IEGPNBDMGCI",
-            |m: &StartAetherDivideChallengeBattleCsReq| { &m.IEGPNBDMGCI },
-            |m: &mut StartAetherDivideChallengeBattleCsReq| { &mut m.IEGPNBDMGCI },
+            "FNCINGFDLPA",
+            |m: &StartAetherDivideChallengeBattleCsReq| { &m.FNCINGFDLPA },
+            |m: &mut StartAetherDivideChallengeBattleCsReq| { &mut m.FNCINGFDLPA },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "challenge_id",
@@ -79,10 +79,10 @@ impl ::protobuf::Message for StartAetherDivideChallengeBattleCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                56 => {
-                    self.IEGPNBDMGCI = is.read_uint32()?;
+                112 => {
+                    self.FNCINGFDLPA = is.read_uint32()?;
                 },
-                64 => {
+                96 => {
                     self.challenge_id = is.read_uint32()?;
                 },
                 tag => {
@@ -97,11 +97,11 @@ impl ::protobuf::Message for StartAetherDivideChallengeBattleCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.IEGPNBDMGCI != 0 {
-            my_size += ::protobuf::rt::uint32_size(7, self.IEGPNBDMGCI);
+        if self.FNCINGFDLPA != 0 {
+            my_size += ::protobuf::rt::uint32_size(14, self.FNCINGFDLPA);
         }
         if self.challenge_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.challenge_id);
+            my_size += ::protobuf::rt::uint32_size(12, self.challenge_id);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for StartAetherDivideChallengeBattleCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.IEGPNBDMGCI != 0 {
-            os.write_uint32(7, self.IEGPNBDMGCI)?;
+        if self.FNCINGFDLPA != 0 {
+            os.write_uint32(14, self.FNCINGFDLPA)?;
         }
         if self.challenge_id != 0 {
-            os.write_uint32(8, self.challenge_id)?;
+            os.write_uint32(12, self.challenge_id)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,14 +132,14 @@ impl ::protobuf::Message for StartAetherDivideChallengeBattleCsReq {
     }
 
     fn clear(&mut self) {
-        self.IEGPNBDMGCI = 0;
+        self.FNCINGFDLPA = 0;
         self.challenge_id = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static StartAetherDivideChallengeBattleCsReq {
         static instance: StartAetherDivideChallengeBattleCsReq = StartAetherDivideChallengeBattleCsReq {
-            IEGPNBDMGCI: 0,
+            FNCINGFDLPA: 0,
             challenge_id: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for StartAetherDivideChallengeBattleCsRe
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n+StartAetherDivideChallengeBattleCsReq.proto\"l\n%StartAetherDivideCha\
-    llengeBattleCsReq\x12\x20\n\x0bIEGPNBDMGCI\x18\x07\x20\x01(\rR\x0bIEGPNB\
-    DMGCI\x12!\n\x0cchallenge_id\x18\x08\x20\x01(\rR\x0bchallengeIdb\x06prot\
+    llengeBattleCsReq\x12\x20\n\x0bFNCINGFDLPA\x18\x0e\x20\x01(\rR\x0bFNCING\
+    FDLPA\x12!\n\x0cchallenge_id\x18\x0c\x20\x01(\rR\x0bchallengeIdb\x06prot\
     o3\
 ";
 

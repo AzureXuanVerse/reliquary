@@ -27,22 +27,22 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdFightActivityType)
 pub enum CmdFightActivityType {
-    // @@protoc_insertion_point(enum_value:CmdFightActivityType.CmdFightActivityType_MNFEPONEDDJ)
-    CmdFightActivityType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdFightActivityType.CmdFightActivityType_AKFOFMEMLDD)
-    CmdFightActivityType_AKFOFMEMLDD = 3681,
-    // @@protoc_insertion_point(enum_value:CmdFightActivityType.CmdFightActivityType_GIJIBAHHNPO)
-    CmdFightActivityType_GIJIBAHHNPO = 3624,
-    // @@protoc_insertion_point(enum_value:CmdFightActivityType.CmdFightActivityType_PMBFJLPNGPH)
-    CmdFightActivityType_PMBFJLPNGPH = 3604,
-    // @@protoc_insertion_point(enum_value:CmdFightActivityType.CmdFightActivityType_PDILABNLCLG)
-    CmdFightActivityType_PDILABNLCLG = 3635,
-    // @@protoc_insertion_point(enum_value:CmdFightActivityType.CmdFightActivityType_GCKMLKGAJBK)
-    CmdFightActivityType_GCKMLKGAJBK = 3613,
-    // @@protoc_insertion_point(enum_value:CmdFightActivityType.CmdFightActivityType_IJEFCNBEFLN)
-    CmdFightActivityType_IJEFCNBEFLN = 3662,
-    // @@protoc_insertion_point(enum_value:CmdFightActivityType.CmdFightActivityType_PPNAFDAOINN)
-    CmdFightActivityType_PPNAFDAOINN = 3683,
+    // @@protoc_insertion_point(enum_value:CmdFightActivityType.NACBOEPEICM_PCPDHELPKEM)
+    NACBOEPEICM_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdFightActivityType.CmdTakeFightActivityRewardScRsp)
+    CmdTakeFightActivityRewardScRsp = 3609,
+    // @@protoc_insertion_point(enum_value:CmdFightActivityType.CmdTakeFightActivityRewardCsReq)
+    CmdTakeFightActivityRewardCsReq = 3618,
+    // @@protoc_insertion_point(enum_value:CmdFightActivityType.CmdGetFightActivityDataCsReq)
+    CmdGetFightActivityDataCsReq = 3691,
+    // @@protoc_insertion_point(enum_value:CmdFightActivityType.CmdGetFightActivityDataScRsp)
+    CmdGetFightActivityDataScRsp = 3610,
+    // @@protoc_insertion_point(enum_value:CmdFightActivityType.CmdEnterFightActivityStageCsReq)
+    CmdEnterFightActivityStageCsReq = 3695,
+    // @@protoc_insertion_point(enum_value:CmdFightActivityType.CmdEnterFightActivityStageScRsp)
+    CmdEnterFightActivityStageScRsp = 3614,
+    // @@protoc_insertion_point(enum_value:CmdFightActivityType.CmdFightActivityDataChangeScNotify)
+    CmdFightActivityDataChangeScNotify = 3694,
 }
 
 impl ::protobuf::Enum for CmdFightActivityType {
@@ -54,41 +54,41 @@ impl ::protobuf::Enum for CmdFightActivityType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdFightActivityType> {
         match value {
-            0 => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_MNFEPONEDDJ),
-            3681 => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_AKFOFMEMLDD),
-            3624 => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_GIJIBAHHNPO),
-            3604 => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_PMBFJLPNGPH),
-            3635 => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_PDILABNLCLG),
-            3613 => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_GCKMLKGAJBK),
-            3662 => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_IJEFCNBEFLN),
-            3683 => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_PPNAFDAOINN),
+            0 => ::std::option::Option::Some(CmdFightActivityType::NACBOEPEICM_PCPDHELPKEM),
+            3609 => ::std::option::Option::Some(CmdFightActivityType::CmdTakeFightActivityRewardScRsp),
+            3618 => ::std::option::Option::Some(CmdFightActivityType::CmdTakeFightActivityRewardCsReq),
+            3691 => ::std::option::Option::Some(CmdFightActivityType::CmdGetFightActivityDataCsReq),
+            3610 => ::std::option::Option::Some(CmdFightActivityType::CmdGetFightActivityDataScRsp),
+            3695 => ::std::option::Option::Some(CmdFightActivityType::CmdEnterFightActivityStageCsReq),
+            3614 => ::std::option::Option::Some(CmdFightActivityType::CmdEnterFightActivityStageScRsp),
+            3694 => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityDataChangeScNotify),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdFightActivityType> {
         match str {
-            "CmdFightActivityType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_MNFEPONEDDJ),
-            "CmdFightActivityType_AKFOFMEMLDD" => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_AKFOFMEMLDD),
-            "CmdFightActivityType_GIJIBAHHNPO" => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_GIJIBAHHNPO),
-            "CmdFightActivityType_PMBFJLPNGPH" => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_PMBFJLPNGPH),
-            "CmdFightActivityType_PDILABNLCLG" => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_PDILABNLCLG),
-            "CmdFightActivityType_GCKMLKGAJBK" => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_GCKMLKGAJBK),
-            "CmdFightActivityType_IJEFCNBEFLN" => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_IJEFCNBEFLN),
-            "CmdFightActivityType_PPNAFDAOINN" => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityType_PPNAFDAOINN),
+            "NACBOEPEICM_PCPDHELPKEM" => ::std::option::Option::Some(CmdFightActivityType::NACBOEPEICM_PCPDHELPKEM),
+            "CmdTakeFightActivityRewardScRsp" => ::std::option::Option::Some(CmdFightActivityType::CmdTakeFightActivityRewardScRsp),
+            "CmdTakeFightActivityRewardCsReq" => ::std::option::Option::Some(CmdFightActivityType::CmdTakeFightActivityRewardCsReq),
+            "CmdGetFightActivityDataCsReq" => ::std::option::Option::Some(CmdFightActivityType::CmdGetFightActivityDataCsReq),
+            "CmdGetFightActivityDataScRsp" => ::std::option::Option::Some(CmdFightActivityType::CmdGetFightActivityDataScRsp),
+            "CmdEnterFightActivityStageCsReq" => ::std::option::Option::Some(CmdFightActivityType::CmdEnterFightActivityStageCsReq),
+            "CmdEnterFightActivityStageScRsp" => ::std::option::Option::Some(CmdFightActivityType::CmdEnterFightActivityStageScRsp),
+            "CmdFightActivityDataChangeScNotify" => ::std::option::Option::Some(CmdFightActivityType::CmdFightActivityDataChangeScNotify),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdFightActivityType] = &[
-        CmdFightActivityType::CmdFightActivityType_MNFEPONEDDJ,
-        CmdFightActivityType::CmdFightActivityType_AKFOFMEMLDD,
-        CmdFightActivityType::CmdFightActivityType_GIJIBAHHNPO,
-        CmdFightActivityType::CmdFightActivityType_PMBFJLPNGPH,
-        CmdFightActivityType::CmdFightActivityType_PDILABNLCLG,
-        CmdFightActivityType::CmdFightActivityType_GCKMLKGAJBK,
-        CmdFightActivityType::CmdFightActivityType_IJEFCNBEFLN,
-        CmdFightActivityType::CmdFightActivityType_PPNAFDAOINN,
+        CmdFightActivityType::NACBOEPEICM_PCPDHELPKEM,
+        CmdFightActivityType::CmdTakeFightActivityRewardScRsp,
+        CmdFightActivityType::CmdTakeFightActivityRewardCsReq,
+        CmdFightActivityType::CmdGetFightActivityDataCsReq,
+        CmdFightActivityType::CmdGetFightActivityDataScRsp,
+        CmdFightActivityType::CmdEnterFightActivityStageCsReq,
+        CmdFightActivityType::CmdEnterFightActivityStageScRsp,
+        CmdFightActivityType::CmdFightActivityDataChangeScNotify,
     ];
 }
 
@@ -100,14 +100,14 @@ impl ::protobuf::EnumFull for CmdFightActivityType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdFightActivityType::CmdFightActivityType_MNFEPONEDDJ => 0,
-            CmdFightActivityType::CmdFightActivityType_AKFOFMEMLDD => 1,
-            CmdFightActivityType::CmdFightActivityType_GIJIBAHHNPO => 2,
-            CmdFightActivityType::CmdFightActivityType_PMBFJLPNGPH => 3,
-            CmdFightActivityType::CmdFightActivityType_PDILABNLCLG => 4,
-            CmdFightActivityType::CmdFightActivityType_GCKMLKGAJBK => 5,
-            CmdFightActivityType::CmdFightActivityType_IJEFCNBEFLN => 6,
-            CmdFightActivityType::CmdFightActivityType_PPNAFDAOINN => 7,
+            CmdFightActivityType::NACBOEPEICM_PCPDHELPKEM => 0,
+            CmdFightActivityType::CmdTakeFightActivityRewardScRsp => 1,
+            CmdFightActivityType::CmdTakeFightActivityRewardCsReq => 2,
+            CmdFightActivityType::CmdGetFightActivityDataCsReq => 3,
+            CmdFightActivityType::CmdGetFightActivityDataScRsp => 4,
+            CmdFightActivityType::CmdEnterFightActivityStageCsReq => 5,
+            CmdFightActivityType::CmdEnterFightActivityStageScRsp => 6,
+            CmdFightActivityType::CmdFightActivityDataChangeScNotify => 7,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -115,7 +115,7 @@ impl ::protobuf::EnumFull for CmdFightActivityType {
 
 impl ::std::default::Default for CmdFightActivityType {
     fn default() -> Self {
-        CmdFightActivityType::CmdFightActivityType_MNFEPONEDDJ
+        CmdFightActivityType::NACBOEPEICM_PCPDHELPKEM
     }
 }
 
@@ -126,14 +126,13 @@ impl CmdFightActivityType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1aCmdFightActivityType.proto*\xcd\x02\n\x14CmdFightActivityType\x12$\
-    \n\x20CmdFightActivityType_MNFEPONEDDJ\x10\0\x12%\n\x20CmdFightActivityT\
-    ype_AKFOFMEMLDD\x10\xe1\x1c\x12%\n\x20CmdFightActivityType_GIJIBAHHNPO\
-    \x10\xa8\x1c\x12%\n\x20CmdFightActivityType_PMBFJLPNGPH\x10\x94\x1c\x12%\
-    \n\x20CmdFightActivityType_PDILABNLCLG\x10\xb3\x1c\x12%\n\x20CmdFightAct\
-    ivityType_GCKMLKGAJBK\x10\x9d\x1c\x12%\n\x20CmdFightActivityType_IJEFCNB\
-    EFLN\x10\xce\x1c\x12%\n\x20CmdFightActivityType_PPNAFDAOINN\x10\xe3\x1cb\
-    \x06proto3\
+    \n\x1aCmdFightActivityType.proto*\xba\x02\n\x14CmdFightActivityType\x12\
+    \x1b\n\x17NACBOEPEICM_PCPDHELPKEM\x10\0\x12$\n\x1fCmdTakeFightActivityRe\
+    wardScRsp\x10\x99\x1c\x12$\n\x1fCmdTakeFightActivityRewardCsReq\x10\xa2\
+    \x1c\x12!\n\x1cCmdGetFightActivityDataCsReq\x10\xeb\x1c\x12!\n\x1cCmdGet\
+    FightActivityDataScRsp\x10\x9a\x1c\x12$\n\x1fCmdEnterFightActivityStageC\
+    sReq\x10\xef\x1c\x12$\n\x1fCmdEnterFightActivityStageScRsp\x10\x9e\x1c\
+    \x12'\n\"CmdFightActivityDataChangeScNotify\x10\xee\x1cb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

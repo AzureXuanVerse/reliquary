@@ -28,22 +28,22 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GetPunkLordDataScRsp {
     // message fields
-    // @@protoc_insertion_point(field:GetPunkLordDataScRsp.CDNCHALPHAN)
-    pub CDNCHALPHAN: ::std::vec::Vec<u32>,
-    // @@protoc_insertion_point(field:GetPunkLordDataScRsp.KNHJCOOPHPG)
-    pub KNHJCOOPHPG: u32,
-    // @@protoc_insertion_point(field:GetPunkLordDataScRsp.NCBEMJAJGNA)
-    pub NCBEMJAJGNA: u32,
-    // @@protoc_insertion_point(field:GetPunkLordDataScRsp.IJFDBEHPDBK)
-    pub IJFDBEHPDBK: u32,
-    // @@protoc_insertion_point(field:GetPunkLordDataScRsp.MCOLJJHBNHK)
-    pub MCOLJJHBNHK: i64,
-    // @@protoc_insertion_point(field:GetPunkLordDataScRsp.AHIINKIMDDK)
-    pub AHIINKIMDDK: u32,
-    // @@protoc_insertion_point(field:GetPunkLordDataScRsp.OPOIKIOMLAP)
-    pub OPOIKIOMLAP: u32,
+    // @@protoc_insertion_point(field:GetPunkLordDataScRsp.KFACMIDMBFF)
+    pub KFACMIDMBFF: u32,
+    // @@protoc_insertion_point(field:GetPunkLordDataScRsp.EJFEBCKDNNH)
+    pub EJFEBCKDNNH: u32,
+    // @@protoc_insertion_point(field:GetPunkLordDataScRsp.CLMONEEIEJE)
+    pub CLMONEEIEJE: u32,
     // @@protoc_insertion_point(field:GetPunkLordDataScRsp.retcode)
     pub retcode: u32,
+    // @@protoc_insertion_point(field:GetPunkLordDataScRsp.DBAKNBHLNJK)
+    pub DBAKNBHLNJK: u32,
+    // @@protoc_insertion_point(field:GetPunkLordDataScRsp.EDANKPHGKKK)
+    pub EDANKPHGKKK: i64,
+    // @@protoc_insertion_point(field:GetPunkLordDataScRsp.MOGBNJOHKLA)
+    pub MOGBNJOHKLA: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:GetPunkLordDataScRsp.MPICOHMFGOA)
+    pub MPICOHMFGOA: u32,
     // special fields
     // @@protoc_insertion_point(special_field:GetPunkLordDataScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -63,45 +63,45 @@ impl GetPunkLordDataScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(8);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "CDNCHALPHAN",
-            |m: &GetPunkLordDataScRsp| { &m.CDNCHALPHAN },
-            |m: &mut GetPunkLordDataScRsp| { &mut m.CDNCHALPHAN },
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "KFACMIDMBFF",
+            |m: &GetPunkLordDataScRsp| { &m.KFACMIDMBFF },
+            |m: &mut GetPunkLordDataScRsp| { &mut m.KFACMIDMBFF },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "KNHJCOOPHPG",
-            |m: &GetPunkLordDataScRsp| { &m.KNHJCOOPHPG },
-            |m: &mut GetPunkLordDataScRsp| { &mut m.KNHJCOOPHPG },
+            "EJFEBCKDNNH",
+            |m: &GetPunkLordDataScRsp| { &m.EJFEBCKDNNH },
+            |m: &mut GetPunkLordDataScRsp| { &mut m.EJFEBCKDNNH },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "NCBEMJAJGNA",
-            |m: &GetPunkLordDataScRsp| { &m.NCBEMJAJGNA },
-            |m: &mut GetPunkLordDataScRsp| { &mut m.NCBEMJAJGNA },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "IJFDBEHPDBK",
-            |m: &GetPunkLordDataScRsp| { &m.IJFDBEHPDBK },
-            |m: &mut GetPunkLordDataScRsp| { &mut m.IJFDBEHPDBK },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MCOLJJHBNHK",
-            |m: &GetPunkLordDataScRsp| { &m.MCOLJJHBNHK },
-            |m: &mut GetPunkLordDataScRsp| { &mut m.MCOLJJHBNHK },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "AHIINKIMDDK",
-            |m: &GetPunkLordDataScRsp| { &m.AHIINKIMDDK },
-            |m: &mut GetPunkLordDataScRsp| { &mut m.AHIINKIMDDK },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "OPOIKIOMLAP",
-            |m: &GetPunkLordDataScRsp| { &m.OPOIKIOMLAP },
-            |m: &mut GetPunkLordDataScRsp| { &mut m.OPOIKIOMLAP },
+            "CLMONEEIEJE",
+            |m: &GetPunkLordDataScRsp| { &m.CLMONEEIEJE },
+            |m: &mut GetPunkLordDataScRsp| { &mut m.CLMONEEIEJE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &GetPunkLordDataScRsp| { &m.retcode },
             |m: &mut GetPunkLordDataScRsp| { &mut m.retcode },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "DBAKNBHLNJK",
+            |m: &GetPunkLordDataScRsp| { &m.DBAKNBHLNJK },
+            |m: &mut GetPunkLordDataScRsp| { &mut m.DBAKNBHLNJK },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "EDANKPHGKKK",
+            |m: &GetPunkLordDataScRsp| { &m.EDANKPHGKKK },
+            |m: &mut GetPunkLordDataScRsp| { &mut m.EDANKPHGKKK },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "MOGBNJOHKLA",
+            |m: &GetPunkLordDataScRsp| { &m.MOGBNJOHKLA },
+            |m: &mut GetPunkLordDataScRsp| { &mut m.MOGBNJOHKLA },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "MPICOHMFGOA",
+            |m: &GetPunkLordDataScRsp| { &m.MPICOHMFGOA },
+            |m: &mut GetPunkLordDataScRsp| { &mut m.MPICOHMFGOA },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetPunkLordDataScRsp>(
             "GetPunkLordDataScRsp",
@@ -121,32 +121,32 @@ impl ::protobuf::Message for GetPunkLordDataScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                106 => {
-                    is.read_repeated_packed_uint32_into(&mut self.CDNCHALPHAN)?;
-                },
-                104 => {
-                    self.CDNCHALPHAN.push(is.read_uint32()?);
-                },
-                16 => {
-                    self.KNHJCOOPHPG = is.read_uint32()?;
-                },
-                32 => {
-                    self.NCBEMJAJGNA = is.read_uint32()?;
+                24 => {
+                    self.KFACMIDMBFF = is.read_uint32()?;
                 },
                 96 => {
-                    self.IJFDBEHPDBK = is.read_uint32()?;
+                    self.EJFEBCKDNNH = is.read_uint32()?;
                 },
-                120 => {
-                    self.MCOLJJHBNHK = is.read_int64()?;
+                104 => {
+                    self.CLMONEEIEJE = is.read_uint32()?;
                 },
-                112 => {
-                    self.AHIINKIMDDK = is.read_uint32()?;
-                },
-                88 => {
-                    self.OPOIKIOMLAP = is.read_uint32()?;
-                },
-                24 => {
+                8 => {
                     self.retcode = is.read_uint32()?;
+                },
+                48 => {
+                    self.DBAKNBHLNJK = is.read_uint32()?;
+                },
+                64 => {
+                    self.EDANKPHGKKK = is.read_int64()?;
+                },
+                34 => {
+                    is.read_repeated_packed_uint32_into(&mut self.MOGBNJOHKLA)?;
+                },
+                32 => {
+                    self.MOGBNJOHKLA.push(is.read_uint32()?);
+                },
+                16 => {
+                    self.MPICOHMFGOA = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -160,27 +160,27 @@ impl ::protobuf::Message for GetPunkLordDataScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        my_size += ::protobuf::rt::vec_packed_uint32_size(13, &self.CDNCHALPHAN);
-        if self.KNHJCOOPHPG != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.KNHJCOOPHPG);
+        if self.KFACMIDMBFF != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.KFACMIDMBFF);
         }
-        if self.NCBEMJAJGNA != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.NCBEMJAJGNA);
+        if self.EJFEBCKDNNH != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.EJFEBCKDNNH);
         }
-        if self.IJFDBEHPDBK != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.IJFDBEHPDBK);
-        }
-        if self.MCOLJJHBNHK != 0 {
-            my_size += ::protobuf::rt::int64_size(15, self.MCOLJJHBNHK);
-        }
-        if self.AHIINKIMDDK != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.AHIINKIMDDK);
-        }
-        if self.OPOIKIOMLAP != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.OPOIKIOMLAP);
+        if self.CLMONEEIEJE != 0 {
+            my_size += ::protobuf::rt::uint32_size(13, self.CLMONEEIEJE);
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(1, self.retcode);
+        }
+        if self.DBAKNBHLNJK != 0 {
+            my_size += ::protobuf::rt::uint32_size(6, self.DBAKNBHLNJK);
+        }
+        if self.EDANKPHGKKK != 0 {
+            my_size += ::protobuf::rt::int64_size(8, self.EDANKPHGKKK);
+        }
+        my_size += ::protobuf::rt::vec_packed_uint32_size(4, &self.MOGBNJOHKLA);
+        if self.MPICOHMFGOA != 0 {
+            my_size += ::protobuf::rt::uint32_size(2, self.MPICOHMFGOA);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -188,27 +188,27 @@ impl ::protobuf::Message for GetPunkLordDataScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        os.write_repeated_packed_uint32(13, &self.CDNCHALPHAN)?;
-        if self.KNHJCOOPHPG != 0 {
-            os.write_uint32(2, self.KNHJCOOPHPG)?;
+        if self.KFACMIDMBFF != 0 {
+            os.write_uint32(3, self.KFACMIDMBFF)?;
         }
-        if self.NCBEMJAJGNA != 0 {
-            os.write_uint32(4, self.NCBEMJAJGNA)?;
+        if self.EJFEBCKDNNH != 0 {
+            os.write_uint32(12, self.EJFEBCKDNNH)?;
         }
-        if self.IJFDBEHPDBK != 0 {
-            os.write_uint32(12, self.IJFDBEHPDBK)?;
-        }
-        if self.MCOLJJHBNHK != 0 {
-            os.write_int64(15, self.MCOLJJHBNHK)?;
-        }
-        if self.AHIINKIMDDK != 0 {
-            os.write_uint32(14, self.AHIINKIMDDK)?;
-        }
-        if self.OPOIKIOMLAP != 0 {
-            os.write_uint32(11, self.OPOIKIOMLAP)?;
+        if self.CLMONEEIEJE != 0 {
+            os.write_uint32(13, self.CLMONEEIEJE)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(3, self.retcode)?;
+            os.write_uint32(1, self.retcode)?;
+        }
+        if self.DBAKNBHLNJK != 0 {
+            os.write_uint32(6, self.DBAKNBHLNJK)?;
+        }
+        if self.EDANKPHGKKK != 0 {
+            os.write_int64(8, self.EDANKPHGKKK)?;
+        }
+        os.write_repeated_packed_uint32(4, &self.MOGBNJOHKLA)?;
+        if self.MPICOHMFGOA != 0 {
+            os.write_uint32(2, self.MPICOHMFGOA)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -227,27 +227,27 @@ impl ::protobuf::Message for GetPunkLordDataScRsp {
     }
 
     fn clear(&mut self) {
-        self.CDNCHALPHAN.clear();
-        self.KNHJCOOPHPG = 0;
-        self.NCBEMJAJGNA = 0;
-        self.IJFDBEHPDBK = 0;
-        self.MCOLJJHBNHK = 0;
-        self.AHIINKIMDDK = 0;
-        self.OPOIKIOMLAP = 0;
+        self.KFACMIDMBFF = 0;
+        self.EJFEBCKDNNH = 0;
+        self.CLMONEEIEJE = 0;
         self.retcode = 0;
+        self.DBAKNBHLNJK = 0;
+        self.EDANKPHGKKK = 0;
+        self.MOGBNJOHKLA.clear();
+        self.MPICOHMFGOA = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetPunkLordDataScRsp {
         static instance: GetPunkLordDataScRsp = GetPunkLordDataScRsp {
-            CDNCHALPHAN: ::std::vec::Vec::new(),
-            KNHJCOOPHPG: 0,
-            NCBEMJAJGNA: 0,
-            IJFDBEHPDBK: 0,
-            MCOLJJHBNHK: 0,
-            AHIINKIMDDK: 0,
-            OPOIKIOMLAP: 0,
+            KFACMIDMBFF: 0,
+            EJFEBCKDNNH: 0,
+            CLMONEEIEJE: 0,
             retcode: 0,
+            DBAKNBHLNJK: 0,
+            EDANKPHGKKK: 0,
+            MOGBNJOHKLA: ::std::vec::Vec::new(),
+            MPICOHMFGOA: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -273,13 +273,13 @@ impl ::protobuf::reflect::ProtobufValue for GetPunkLordDataScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1aGetPunkLordDataScRsp.proto\"\x9e\x02\n\x14GetPunkLordDataScRsp\x12\
-    \x20\n\x0bCDNCHALPHAN\x18\r\x20\x03(\rR\x0bCDNCHALPHAN\x12\x20\n\x0bKNHJ\
-    COOPHPG\x18\x02\x20\x01(\rR\x0bKNHJCOOPHPG\x12\x20\n\x0bNCBEMJAJGNA\x18\
-    \x04\x20\x01(\rR\x0bNCBEMJAJGNA\x12\x20\n\x0bIJFDBEHPDBK\x18\x0c\x20\x01\
-    (\rR\x0bIJFDBEHPDBK\x12\x20\n\x0bMCOLJJHBNHK\x18\x0f\x20\x01(\x03R\x0bMC\
-    OLJJHBNHK\x12\x20\n\x0bAHIINKIMDDK\x18\x0e\x20\x01(\rR\x0bAHIINKIMDDK\
-    \x12\x20\n\x0bOPOIKIOMLAP\x18\x0b\x20\x01(\rR\x0bOPOIKIOMLAP\x12\x18\n\
-    \x07retcode\x18\x03\x20\x01(\rR\x07retcodeb\x06proto3\
+    \x20\n\x0bKFACMIDMBFF\x18\x03\x20\x01(\rR\x0bKFACMIDMBFF\x12\x20\n\x0bEJ\
+    FEBCKDNNH\x18\x0c\x20\x01(\rR\x0bEJFEBCKDNNH\x12\x20\n\x0bCLMONEEIEJE\
+    \x18\r\x20\x01(\rR\x0bCLMONEEIEJE\x12\x18\n\x07retcode\x18\x01\x20\x01(\
+    \rR\x07retcode\x12\x20\n\x0bDBAKNBHLNJK\x18\x06\x20\x01(\rR\x0bDBAKNBHLN\
+    JK\x12\x20\n\x0bEDANKPHGKKK\x18\x08\x20\x01(\x03R\x0bEDANKPHGKKK\x12\x20\
+    \n\x0bMOGBNJOHKLA\x18\x04\x20\x03(\rR\x0bMOGBNJOHKLA\x12\x20\n\x0bMPICOH\
+    MFGOA\x18\x02\x20\x01(\rR\x0bMPICOHMFGOAb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

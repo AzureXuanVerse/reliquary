@@ -28,52 +28,52 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightEndBattleStageNotify {
     // message fields
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.LLPNAOFEGGI)
-    pub LLPNAOFEGGI: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.FMKOPEDJCKP)
-    pub FMKOPEDJCKP: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.CPJCOBCMNHK)
-    pub CPJCOBCMNHK: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.KAPFFLAEFOJ)
-    pub KAPFFLAEFOJ: ::std::collections::HashMap<u32, super::GridFightDropInfo::GridFightDropInfo>,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.section_id)
-    pub section_id: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.HPOPADMBLLD)
-    pub HPOPADMBLLD: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.FACOJCDAMKJ)
-    pub FACOJCDAMKJ: bool,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.PGIKKPPENBG)
-    pub PGIKKPPENBG: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.DHCEMLHNDLM)
-    pub DHCEMLHNDLM: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.LMNBANHMNHP)
-    pub LMNBANHMNHP: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.DHAMAAEIOLE)
-    pub DHAMAAEIOLE: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.CGFIFPJCFLB)
-    pub CGFIFPJCFLB: ::protobuf::MessageField<super::DAHFFDAFKJJ::DAHFFDAFKJJ>,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.KMMFPCMFILK)
-    pub KMMFPCMFILK: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.JFFNOKCBHFJ)
-    pub JFFNOKCBHFJ: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.JFMHNEKKBEI)
-    pub JFMHNEKKBEI: ::std::vec::Vec<super::DAAHHGENGDC::DAAHHGENGDC>,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.JKCNLDODJDM)
-    pub JKCNLDODJDM: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.JFILIIKGFJB)
-    pub JFILIIKGFJB: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.KFNHEENCOGG)
-    pub KFNHEENCOGG: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.JGDJMFOBLAN)
-    pub JGDJMFOBLAN: ::std::vec::Vec<super::GridFightHpModifyInfo::GridFightHpModifyInfo>,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.GCBBEEGANEG)
+    pub GCBBEEGANEG: ::protobuf::MessageField<super::MIOMFOAEHEC::MIOMFOAEHEC>,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.FHHPDFKLJKC)
+    pub FHHPDFKLJKC: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.MKCHLGOGJNB)
+    pub MKCHLGOGJNB: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.DHHPEBDPKJJ)
+    pub DHHPEBDPKJJ: ::std::vec::Vec<super::ILGOPHIAJIG::ILGOPHIAJIG>,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.IPCFJBAKLCG)
+    pub IPCFJBAKLCG: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.HPOACJCPJHN)
+    pub HPOACJCPJHN: bool,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.PNOJLNNHBIH)
+    pub PNOJLNNHBIH: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.PACIAIJBOHO)
+    pub PACIAIJBOHO: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.DHMBKAPKJFN)
+    pub DHMBKAPKJFN: ::std::collections::HashMap<u32, super::GridFightDropInfo::GridFightDropInfo>,
     // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.grid_fight_damage_stt_info)
     pub grid_fight_damage_stt_info: ::protobuf::MessageField<super::GridFightDamageSttInfo::GridFightDamageSttInfo>,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.AFBAOGJPMAH)
-    pub AFBAOGJPMAH: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.DBJAKJKGFAE)
-    pub DBJAKJKGFAE: u32,
-    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.HDABBOHFEOM)
-    pub HDABBOHFEOM: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.IJEIEJLPGGJ)
+    pub IJEIEJLPGGJ: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.BCOLJFHDLLD)
+    pub BCOLJFHDLLD: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.EJEIBPEKHLD)
+    pub EJEIBPEKHLD: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.JGLEDADBNGP)
+    pub JGLEDADBNGP: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.NNFAFGCGMBB)
+    pub NNFAFGCGMBB: ::std::vec::Vec<super::GridFightHpModifyInfo::GridFightHpModifyInfo>,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.section_id)
+    pub section_id: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.NDOCIKPLKIF)
+    pub NDOCIKPLKIF: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.IDEAAPCCFPF)
+    pub IDEAAPCCFPF: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.KIAFMFGAONA)
+    pub KIAFMFGAONA: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.MAGCGPMHHEA)
+    pub MAGCGPMHHEA: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.KDOINLGKMBI)
+    pub KDOINLGKMBI: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.FGEDKOINMAG)
+    pub FGEDKOINMAG: u32,
+    // @@protoc_insertion_point(field:GridFightEndBattleStageNotify.DCPKPNLKGMM)
+    pub DCPKPNLKGMM: u32,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightEndBattleStageNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -93,100 +93,50 @@ impl GridFightEndBattleStageNotify {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(23);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "LLPNAOFEGGI",
-            |m: &GridFightEndBattleStageNotify| { &m.LLPNAOFEGGI },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.LLPNAOFEGGI },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::MIOMFOAEHEC::MIOMFOAEHEC>(
+            "GCBBEEGANEG",
+            |m: &GridFightEndBattleStageNotify| { &m.GCBBEEGANEG },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.GCBBEEGANEG },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "FMKOPEDJCKP",
-            |m: &GridFightEndBattleStageNotify| { &m.FMKOPEDJCKP },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.FMKOPEDJCKP },
+            "FHHPDFKLJKC",
+            |m: &GridFightEndBattleStageNotify| { &m.FHHPDFKLJKC },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.FHHPDFKLJKC },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "CPJCOBCMNHK",
-            |m: &GridFightEndBattleStageNotify| { &m.CPJCOBCMNHK },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.CPJCOBCMNHK },
+            "MKCHLGOGJNB",
+            |m: &GridFightEndBattleStageNotify| { &m.MKCHLGOGJNB },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.MKCHLGOGJNB },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "DHHPEBDPKJJ",
+            |m: &GridFightEndBattleStageNotify| { &m.DHHPEBDPKJJ },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.DHHPEBDPKJJ },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "IPCFJBAKLCG",
+            |m: &GridFightEndBattleStageNotify| { &m.IPCFJBAKLCG },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.IPCFJBAKLCG },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "HPOACJCPJHN",
+            |m: &GridFightEndBattleStageNotify| { &m.HPOACJCPJHN },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.HPOACJCPJHN },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "PNOJLNNHBIH",
+            |m: &GridFightEndBattleStageNotify| { &m.PNOJLNNHBIH },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.PNOJLNNHBIH },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "PACIAIJBOHO",
+            |m: &GridFightEndBattleStageNotify| { &m.PACIAIJBOHO },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.PACIAIJBOHO },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_map_simpler_accessor_new::<_, _>(
-            "KAPFFLAEFOJ",
-            |m: &GridFightEndBattleStageNotify| { &m.KAPFFLAEFOJ },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.KAPFFLAEFOJ },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "section_id",
-            |m: &GridFightEndBattleStageNotify| { &m.section_id },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.section_id },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "HPOPADMBLLD",
-            |m: &GridFightEndBattleStageNotify| { &m.HPOPADMBLLD },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.HPOPADMBLLD },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "FACOJCDAMKJ",
-            |m: &GridFightEndBattleStageNotify| { &m.FACOJCDAMKJ },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.FACOJCDAMKJ },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "PGIKKPPENBG",
-            |m: &GridFightEndBattleStageNotify| { &m.PGIKKPPENBG },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.PGIKKPPENBG },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "DHCEMLHNDLM",
-            |m: &GridFightEndBattleStageNotify| { &m.DHCEMLHNDLM },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.DHCEMLHNDLM },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "LMNBANHMNHP",
-            |m: &GridFightEndBattleStageNotify| { &m.LMNBANHMNHP },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.LMNBANHMNHP },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "DHAMAAEIOLE",
-            |m: &GridFightEndBattleStageNotify| { &m.DHAMAAEIOLE },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.DHAMAAEIOLE },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::DAHFFDAFKJJ::DAHFFDAFKJJ>(
-            "CGFIFPJCFLB",
-            |m: &GridFightEndBattleStageNotify| { &m.CGFIFPJCFLB },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.CGFIFPJCFLB },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "KMMFPCMFILK",
-            |m: &GridFightEndBattleStageNotify| { &m.KMMFPCMFILK },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.KMMFPCMFILK },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "JFFNOKCBHFJ",
-            |m: &GridFightEndBattleStageNotify| { &m.JFFNOKCBHFJ },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.JFFNOKCBHFJ },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "JFMHNEKKBEI",
-            |m: &GridFightEndBattleStageNotify| { &m.JFMHNEKKBEI },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.JFMHNEKKBEI },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "JKCNLDODJDM",
-            |m: &GridFightEndBattleStageNotify| { &m.JKCNLDODJDM },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.JKCNLDODJDM },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "JFILIIKGFJB",
-            |m: &GridFightEndBattleStageNotify| { &m.JFILIIKGFJB },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.JFILIIKGFJB },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "KFNHEENCOGG",
-            |m: &GridFightEndBattleStageNotify| { &m.KFNHEENCOGG },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.KFNHEENCOGG },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "JGDJMFOBLAN",
-            |m: &GridFightEndBattleStageNotify| { &m.JGDJMFOBLAN },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.JGDJMFOBLAN },
+            "DHMBKAPKJFN",
+            |m: &GridFightEndBattleStageNotify| { &m.DHMBKAPKJFN },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.DHMBKAPKJFN },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GridFightDamageSttInfo::GridFightDamageSttInfo>(
             "grid_fight_damage_stt_info",
@@ -194,19 +144,69 @@ impl GridFightEndBattleStageNotify {
             |m: &mut GridFightEndBattleStageNotify| { &mut m.grid_fight_damage_stt_info },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "AFBAOGJPMAH",
-            |m: &GridFightEndBattleStageNotify| { &m.AFBAOGJPMAH },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.AFBAOGJPMAH },
+            "IJEIEJLPGGJ",
+            |m: &GridFightEndBattleStageNotify| { &m.IJEIEJLPGGJ },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.IJEIEJLPGGJ },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "DBJAKJKGFAE",
-            |m: &GridFightEndBattleStageNotify| { &m.DBJAKJKGFAE },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.DBJAKJKGFAE },
+            "BCOLJFHDLLD",
+            |m: &GridFightEndBattleStageNotify| { &m.BCOLJFHDLLD },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.BCOLJFHDLLD },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "HDABBOHFEOM",
-            |m: &GridFightEndBattleStageNotify| { &m.HDABBOHFEOM },
-            |m: &mut GridFightEndBattleStageNotify| { &mut m.HDABBOHFEOM },
+            "EJEIBPEKHLD",
+            |m: &GridFightEndBattleStageNotify| { &m.EJEIBPEKHLD },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.EJEIBPEKHLD },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "JGLEDADBNGP",
+            |m: &GridFightEndBattleStageNotify| { &m.JGLEDADBNGP },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.JGLEDADBNGP },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "NNFAFGCGMBB",
+            |m: &GridFightEndBattleStageNotify| { &m.NNFAFGCGMBB },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.NNFAFGCGMBB },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "section_id",
+            |m: &GridFightEndBattleStageNotify| { &m.section_id },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.section_id },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "NDOCIKPLKIF",
+            |m: &GridFightEndBattleStageNotify| { &m.NDOCIKPLKIF },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.NDOCIKPLKIF },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "IDEAAPCCFPF",
+            |m: &GridFightEndBattleStageNotify| { &m.IDEAAPCCFPF },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.IDEAAPCCFPF },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "KIAFMFGAONA",
+            |m: &GridFightEndBattleStageNotify| { &m.KIAFMFGAONA },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.KIAFMFGAONA },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "MAGCGPMHHEA",
+            |m: &GridFightEndBattleStageNotify| { &m.MAGCGPMHHEA },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.MAGCGPMHHEA },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "KDOINLGKMBI",
+            |m: &GridFightEndBattleStageNotify| { &m.KDOINLGKMBI },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.KDOINLGKMBI },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "FGEDKOINMAG",
+            |m: &GridFightEndBattleStageNotify| { &m.FGEDKOINMAG },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.FGEDKOINMAG },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "DCPKPNLKGMM",
+            |m: &GridFightEndBattleStageNotify| { &m.DCPKPNLKGMM },
+            |m: &mut GridFightEndBattleStageNotify| { &mut m.DCPKPNLKGMM },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightEndBattleStageNotify>(
             "GridFightEndBattleStageNotify",
@@ -226,16 +226,31 @@ impl ::protobuf::Message for GridFightEndBattleStageNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                104 => {
-                    self.LLPNAOFEGGI = is.read_uint32()?;
+                14282 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.GCBBEEGANEG)?;
                 },
-                5648 => {
-                    self.FMKOPEDJCKP = is.read_uint32()?;
+                24 => {
+                    self.FHHPDFKLJKC = is.read_uint32()?;
+                },
+                48 => {
+                    self.MKCHLGOGJNB = is.read_uint32()?;
+                },
+                5234 => {
+                    self.DHHPEBDPKJJ.push(is.read_message()?);
+                },
+                8232 => {
+                    self.IPCFJBAKLCG = is.read_uint32()?;
+                },
+                104 => {
+                    self.HPOACJCPJHN = is.read_bool()?;
                 },
                 32 => {
-                    self.CPJCOBCMNHK = is.read_uint32()?;
+                    self.PNOJLNNHBIH = is.read_uint32()?;
                 },
-                10 => {
+                88 => {
+                    self.PACIAIJBOHO = is.read_uint32()?;
+                },
+                114 => {
                     let len = is.read_raw_varint32()?;
                     let old_limit = is.push_limit(len as u64)?;
                     let mut key = ::std::default::Default::default();
@@ -248,64 +263,49 @@ impl ::protobuf::Message for GridFightEndBattleStageNotify {
                         };
                     }
                     is.pop_limit(old_limit);
-                    self.KAPFFLAEFOJ.insert(key, value);
+                    self.DHMBKAPKJFN.insert(key, value);
                 },
-                40 => {
-                    self.section_id = is.read_uint32()?;
-                },
-                120 => {
-                    self.HPOPADMBLLD = is.read_uint32()?;
-                },
-                24 => {
-                    self.FACOJCDAMKJ = is.read_bool()?;
-                },
-                2496 => {
-                    self.PGIKKPPENBG = is.read_uint32()?;
-                },
-                72 => {
-                    self.DHCEMLHNDLM = is.read_uint32()?;
-                },
-                64 => {
-                    self.LMNBANHMNHP = is.read_uint32()?;
-                },
-                6584 => {
-                    self.DHAMAAEIOLE = is.read_uint32()?;
-                },
-                690 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.CGFIFPJCFLB)?;
-                },
-                15088 => {
-                    self.KMMFPCMFILK = is.read_uint32()?;
-                },
-                112 => {
-                    self.JFFNOKCBHFJ = is.read_uint32()?;
-                },
-                7242 => {
-                    self.JFMHNEKKBEI.push(is.read_message()?);
-                },
-                48 => {
-                    self.JKCNLDODJDM = is.read_uint32()?;
-                },
-                16 => {
-                    self.JFILIIKGFJB = is.read_uint32()?;
-                },
-                80 => {
-                    self.KFNHEENCOGG = is.read_uint32()?;
-                },
-                3338 => {
-                    self.JGDJMFOBLAN.push(is.read_message()?);
-                },
-                90 => {
+                10 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.grid_fight_damage_stt_info)?;
                 },
-                6992 => {
-                    self.AFBAOGJPMAH = is.read_uint32()?;
+                2960 => {
+                    self.IJEIEJLPGGJ = is.read_uint32()?;
                 },
-                8688 => {
-                    self.DBJAKJKGFAE = is.read_uint32()?;
+                552 => {
+                    self.BCOLJFHDLLD = is.read_uint32()?;
+                },
+                16352 => {
+                    self.EJEIBPEKHLD = is.read_uint32()?;
+                },
+                64 => {
+                    self.JGLEDADBNGP = is.read_uint32()?;
+                },
+                11306 => {
+                    self.NNFAFGCGMBB.push(is.read_message()?);
+                },
+                72 => {
+                    self.section_id = is.read_uint32()?;
+                },
+                16 => {
+                    self.NDOCIKPLKIF = is.read_uint32()?;
+                },
+                7232 => {
+                    self.IDEAAPCCFPF = is.read_uint32()?;
                 },
                 96 => {
-                    self.HDABBOHFEOM = is.read_uint32()?;
+                    self.KIAFMFGAONA = is.read_uint32()?;
+                },
+                120 => {
+                    self.MAGCGPMHHEA = is.read_uint32()?;
+                },
+                56 => {
+                    self.KDOINLGKMBI = is.read_uint32()?;
+                },
+                13880 => {
+                    self.FGEDKOINMAG = is.read_uint32()?;
+                },
+                40 => {
+                    self.DCPKPNLKGMM = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -319,82 +319,82 @@ impl ::protobuf::Message for GridFightEndBattleStageNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.LLPNAOFEGGI != 0 {
-            my_size += ::protobuf::rt::uint32_size(13, self.LLPNAOFEGGI);
+        if let Some(v) = self.GCBBEEGANEG.as_ref() {
+            let len = v.compute_size();
+            my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.FMKOPEDJCKP != 0 {
-            my_size += ::protobuf::rt::uint32_size(706, self.FMKOPEDJCKP);
+        if self.FHHPDFKLJKC != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.FHHPDFKLJKC);
         }
-        if self.CPJCOBCMNHK != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.CPJCOBCMNHK);
+        if self.MKCHLGOGJNB != 0 {
+            my_size += ::protobuf::rt::uint32_size(6, self.MKCHLGOGJNB);
         }
-        for (k, v) in &self.KAPFFLAEFOJ {
+        for value in &self.DHHPEBDPKJJ {
+            let len = value.compute_size();
+            my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        };
+        if self.IPCFJBAKLCG != 0 {
+            my_size += ::protobuf::rt::uint32_size(1029, self.IPCFJBAKLCG);
+        }
+        if self.HPOACJCPJHN != false {
+            my_size += 1 + 1;
+        }
+        if self.PNOJLNNHBIH != 0 {
+            my_size += ::protobuf::rt::uint32_size(4, self.PNOJLNNHBIH);
+        }
+        if self.PACIAIJBOHO != 0 {
+            my_size += ::protobuf::rt::uint32_size(11, self.PACIAIJBOHO);
+        }
+        for (k, v) in &self.DHMBKAPKJFN {
             let mut entry_size = 0;
             entry_size += ::protobuf::rt::uint32_size(1, *k);
             let len = v.compute_size();
             entry_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(entry_size) + entry_size
         };
-        if self.section_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(5, self.section_id);
-        }
-        if self.HPOPADMBLLD != 0 {
-            my_size += ::protobuf::rt::uint32_size(15, self.HPOPADMBLLD);
-        }
-        if self.FACOJCDAMKJ != false {
-            my_size += 1 + 1;
-        }
-        if self.PGIKKPPENBG != 0 {
-            my_size += ::protobuf::rt::uint32_size(312, self.PGIKKPPENBG);
-        }
-        if self.DHCEMLHNDLM != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.DHCEMLHNDLM);
-        }
-        if self.LMNBANHMNHP != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.LMNBANHMNHP);
-        }
-        if self.DHAMAAEIOLE != 0 {
-            my_size += ::protobuf::rt::uint32_size(823, self.DHAMAAEIOLE);
-        }
-        if let Some(v) = self.CGFIFPJCFLB.as_ref() {
-            let len = v.compute_size();
-            my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if self.KMMFPCMFILK != 0 {
-            my_size += ::protobuf::rt::uint32_size(1886, self.KMMFPCMFILK);
-        }
-        if self.JFFNOKCBHFJ != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.JFFNOKCBHFJ);
-        }
-        for value in &self.JFMHNEKKBEI {
-            let len = value.compute_size();
-            my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        };
-        if self.JKCNLDODJDM != 0 {
-            my_size += ::protobuf::rt::uint32_size(6, self.JKCNLDODJDM);
-        }
-        if self.JFILIIKGFJB != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.JFILIIKGFJB);
-        }
-        if self.KFNHEENCOGG != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.KFNHEENCOGG);
-        }
-        for value in &self.JGDJMFOBLAN {
-            let len = value.compute_size();
-            my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        };
         if let Some(v) = self.grid_fight_damage_stt_info.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.AFBAOGJPMAH != 0 {
-            my_size += ::protobuf::rt::uint32_size(874, self.AFBAOGJPMAH);
+        if self.IJEIEJLPGGJ != 0 {
+            my_size += ::protobuf::rt::uint32_size(370, self.IJEIEJLPGGJ);
         }
-        if self.DBJAKJKGFAE != 0 {
-            my_size += ::protobuf::rt::uint32_size(1086, self.DBJAKJKGFAE);
+        if self.BCOLJFHDLLD != 0 {
+            my_size += ::protobuf::rt::uint32_size(69, self.BCOLJFHDLLD);
         }
-        if self.HDABBOHFEOM != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.HDABBOHFEOM);
+        if self.EJEIBPEKHLD != 0 {
+            my_size += ::protobuf::rt::uint32_size(2044, self.EJEIBPEKHLD);
+        }
+        if self.JGLEDADBNGP != 0 {
+            my_size += ::protobuf::rt::uint32_size(8, self.JGLEDADBNGP);
+        }
+        for value in &self.NNFAFGCGMBB {
+            let len = value.compute_size();
+            my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        };
+        if self.section_id != 0 {
+            my_size += ::protobuf::rt::uint32_size(9, self.section_id);
+        }
+        if self.NDOCIKPLKIF != 0 {
+            my_size += ::protobuf::rt::uint32_size(2, self.NDOCIKPLKIF);
+        }
+        if self.IDEAAPCCFPF != 0 {
+            my_size += ::protobuf::rt::uint32_size(904, self.IDEAAPCCFPF);
+        }
+        if self.KIAFMFGAONA != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.KIAFMFGAONA);
+        }
+        if self.MAGCGPMHHEA != 0 {
+            my_size += ::protobuf::rt::uint32_size(15, self.MAGCGPMHHEA);
+        }
+        if self.KDOINLGKMBI != 0 {
+            my_size += ::protobuf::rt::uint32_size(7, self.KDOINLGKMBI);
+        }
+        if self.FGEDKOINMAG != 0 {
+            my_size += ::protobuf::rt::uint32_size(1735, self.FGEDKOINMAG);
+        }
+        if self.DCPKPNLKGMM != 0 {
+            my_size += ::protobuf::rt::uint32_size(5, self.DCPKPNLKGMM);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -402,81 +402,81 @@ impl ::protobuf::Message for GridFightEndBattleStageNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.LLPNAOFEGGI != 0 {
-            os.write_uint32(13, self.LLPNAOFEGGI)?;
+        if let Some(v) = self.GCBBEEGANEG.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(1785, v, os)?;
         }
-        if self.FMKOPEDJCKP != 0 {
-            os.write_uint32(706, self.FMKOPEDJCKP)?;
+        if self.FHHPDFKLJKC != 0 {
+            os.write_uint32(3, self.FHHPDFKLJKC)?;
         }
-        if self.CPJCOBCMNHK != 0 {
-            os.write_uint32(4, self.CPJCOBCMNHK)?;
+        if self.MKCHLGOGJNB != 0 {
+            os.write_uint32(6, self.MKCHLGOGJNB)?;
         }
-        for (k, v) in &self.KAPFFLAEFOJ {
+        for v in &self.DHHPEBDPKJJ {
+            ::protobuf::rt::write_message_field_with_cached_size(654, v, os)?;
+        };
+        if self.IPCFJBAKLCG != 0 {
+            os.write_uint32(1029, self.IPCFJBAKLCG)?;
+        }
+        if self.HPOACJCPJHN != false {
+            os.write_bool(13, self.HPOACJCPJHN)?;
+        }
+        if self.PNOJLNNHBIH != 0 {
+            os.write_uint32(4, self.PNOJLNNHBIH)?;
+        }
+        if self.PACIAIJBOHO != 0 {
+            os.write_uint32(11, self.PACIAIJBOHO)?;
+        }
+        for (k, v) in &self.DHMBKAPKJFN {
             let mut entry_size = 0;
             entry_size += ::protobuf::rt::uint32_size(1, *k);
             let len = v.cached_size() as u64;
             entry_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-            os.write_raw_varint32(10)?; // Tag.
+            os.write_raw_varint32(114)?; // Tag.
             os.write_raw_varint32(entry_size as u32)?;
             os.write_uint32(1, *k)?;
             ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
         };
-        if self.section_id != 0 {
-            os.write_uint32(5, self.section_id)?;
-        }
-        if self.HPOPADMBLLD != 0 {
-            os.write_uint32(15, self.HPOPADMBLLD)?;
-        }
-        if self.FACOJCDAMKJ != false {
-            os.write_bool(3, self.FACOJCDAMKJ)?;
-        }
-        if self.PGIKKPPENBG != 0 {
-            os.write_uint32(312, self.PGIKKPPENBG)?;
-        }
-        if self.DHCEMLHNDLM != 0 {
-            os.write_uint32(9, self.DHCEMLHNDLM)?;
-        }
-        if self.LMNBANHMNHP != 0 {
-            os.write_uint32(8, self.LMNBANHMNHP)?;
-        }
-        if self.DHAMAAEIOLE != 0 {
-            os.write_uint32(823, self.DHAMAAEIOLE)?;
-        }
-        if let Some(v) = self.CGFIFPJCFLB.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(86, v, os)?;
-        }
-        if self.KMMFPCMFILK != 0 {
-            os.write_uint32(1886, self.KMMFPCMFILK)?;
-        }
-        if self.JFFNOKCBHFJ != 0 {
-            os.write_uint32(14, self.JFFNOKCBHFJ)?;
-        }
-        for v in &self.JFMHNEKKBEI {
-            ::protobuf::rt::write_message_field_with_cached_size(905, v, os)?;
-        };
-        if self.JKCNLDODJDM != 0 {
-            os.write_uint32(6, self.JKCNLDODJDM)?;
-        }
-        if self.JFILIIKGFJB != 0 {
-            os.write_uint32(2, self.JFILIIKGFJB)?;
-        }
-        if self.KFNHEENCOGG != 0 {
-            os.write_uint32(10, self.KFNHEENCOGG)?;
-        }
-        for v in &self.JGDJMFOBLAN {
-            ::protobuf::rt::write_message_field_with_cached_size(417, v, os)?;
-        };
         if let Some(v) = self.grid_fight_damage_stt_info.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
         }
-        if self.AFBAOGJPMAH != 0 {
-            os.write_uint32(874, self.AFBAOGJPMAH)?;
+        if self.IJEIEJLPGGJ != 0 {
+            os.write_uint32(370, self.IJEIEJLPGGJ)?;
         }
-        if self.DBJAKJKGFAE != 0 {
-            os.write_uint32(1086, self.DBJAKJKGFAE)?;
+        if self.BCOLJFHDLLD != 0 {
+            os.write_uint32(69, self.BCOLJFHDLLD)?;
         }
-        if self.HDABBOHFEOM != 0 {
-            os.write_uint32(12, self.HDABBOHFEOM)?;
+        if self.EJEIBPEKHLD != 0 {
+            os.write_uint32(2044, self.EJEIBPEKHLD)?;
+        }
+        if self.JGLEDADBNGP != 0 {
+            os.write_uint32(8, self.JGLEDADBNGP)?;
+        }
+        for v in &self.NNFAFGCGMBB {
+            ::protobuf::rt::write_message_field_with_cached_size(1413, v, os)?;
+        };
+        if self.section_id != 0 {
+            os.write_uint32(9, self.section_id)?;
+        }
+        if self.NDOCIKPLKIF != 0 {
+            os.write_uint32(2, self.NDOCIKPLKIF)?;
+        }
+        if self.IDEAAPCCFPF != 0 {
+            os.write_uint32(904, self.IDEAAPCCFPF)?;
+        }
+        if self.KIAFMFGAONA != 0 {
+            os.write_uint32(12, self.KIAFMFGAONA)?;
+        }
+        if self.MAGCGPMHHEA != 0 {
+            os.write_uint32(15, self.MAGCGPMHHEA)?;
+        }
+        if self.KDOINLGKMBI != 0 {
+            os.write_uint32(7, self.KDOINLGKMBI)?;
+        }
+        if self.FGEDKOINMAG != 0 {
+            os.write_uint32(1735, self.FGEDKOINMAG)?;
+        }
+        if self.DCPKPNLKGMM != 0 {
+            os.write_uint32(5, self.DCPKPNLKGMM)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -495,29 +495,29 @@ impl ::protobuf::Message for GridFightEndBattleStageNotify {
     }
 
     fn clear(&mut self) {
-        self.LLPNAOFEGGI = 0;
-        self.FMKOPEDJCKP = 0;
-        self.CPJCOBCMNHK = 0;
-        self.KAPFFLAEFOJ.clear();
-        self.section_id = 0;
-        self.HPOPADMBLLD = 0;
-        self.FACOJCDAMKJ = false;
-        self.PGIKKPPENBG = 0;
-        self.DHCEMLHNDLM = 0;
-        self.LMNBANHMNHP = 0;
-        self.DHAMAAEIOLE = 0;
-        self.CGFIFPJCFLB.clear();
-        self.KMMFPCMFILK = 0;
-        self.JFFNOKCBHFJ = 0;
-        self.JFMHNEKKBEI.clear();
-        self.JKCNLDODJDM = 0;
-        self.JFILIIKGFJB = 0;
-        self.KFNHEENCOGG = 0;
-        self.JGDJMFOBLAN.clear();
+        self.GCBBEEGANEG.clear();
+        self.FHHPDFKLJKC = 0;
+        self.MKCHLGOGJNB = 0;
+        self.DHHPEBDPKJJ.clear();
+        self.IPCFJBAKLCG = 0;
+        self.HPOACJCPJHN = false;
+        self.PNOJLNNHBIH = 0;
+        self.PACIAIJBOHO = 0;
+        self.DHMBKAPKJFN.clear();
         self.grid_fight_damage_stt_info.clear();
-        self.AFBAOGJPMAH = 0;
-        self.DBJAKJKGFAE = 0;
-        self.HDABBOHFEOM = 0;
+        self.IJEIEJLPGGJ = 0;
+        self.BCOLJFHDLLD = 0;
+        self.EJEIBPEKHLD = 0;
+        self.JGLEDADBNGP = 0;
+        self.NNFAFGCGMBB.clear();
+        self.section_id = 0;
+        self.NDOCIKPLKIF = 0;
+        self.IDEAAPCCFPF = 0;
+        self.KIAFMFGAONA = 0;
+        self.MAGCGPMHHEA = 0;
+        self.KDOINLGKMBI = 0;
+        self.FGEDKOINMAG = 0;
+        self.DCPKPNLKGMM = 0;
         self.special_fields.clear();
     }
 
@@ -545,34 +545,34 @@ impl ::protobuf::reflect::ProtobufValue for GridFightEndBattleStageNotify {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n#GridFightEndBattleStageNotify.proto\x1a\x11DAAHHGENGDC.proto\x1a\x11D\
-    AHFFDAFKJJ.proto\x1a\x1cGridFightDamageSttInfo.proto\x1a\x17GridFightDro\
-    pInfo.proto\x1a\x1bGridFightHpModifyInfo.proto\"\x9e\x08\n\x1dGridFightE\
-    ndBattleStageNotify\x12\x20\n\x0bLLPNAOFEGGI\x18\r\x20\x01(\rR\x0bLLPNAO\
-    FEGGI\x12!\n\x0bFMKOPEDJCKP\x18\xc2\x05\x20\x01(\rR\x0bFMKOPEDJCKP\x12\
-    \x20\n\x0bCPJCOBCMNHK\x18\x04\x20\x01(\rR\x0bCPJCOBCMNHK\x12Q\n\x0bKAPFF\
-    LAEFOJ\x18\x01\x20\x03(\x0b2/.GridFightEndBattleStageNotify.KAPFFLAEFOJE\
-    ntryR\x0bKAPFFLAEFOJ\x12\x1d\n\nsection_id\x18\x05\x20\x01(\rR\tsectionI\
-    d\x12\x20\n\x0bHPOPADMBLLD\x18\x0f\x20\x01(\rR\x0bHPOPADMBLLD\x12\x20\n\
-    \x0bFACOJCDAMKJ\x18\x03\x20\x01(\x08R\x0bFACOJCDAMKJ\x12!\n\x0bPGIKKPPEN\
-    BG\x18\xb8\x02\x20\x01(\rR\x0bPGIKKPPENBG\x12\x20\n\x0bDHCEMLHNDLM\x18\t\
-    \x20\x01(\rR\x0bDHCEMLHNDLM\x12\x20\n\x0bLMNBANHMNHP\x18\x08\x20\x01(\rR\
-    \x0bLMNBANHMNHP\x12!\n\x0bDHAMAAEIOLE\x18\xb7\x06\x20\x01(\rR\x0bDHAMAAE\
-    IOLE\x12.\n\x0bCGFIFPJCFLB\x18V\x20\x01(\x0b2\x0c.DAHFFDAFKJJR\x0bCGFIFP\
-    JCFLB\x12!\n\x0bKMMFPCMFILK\x18\xde\x0e\x20\x01(\rR\x0bKMMFPCMFILK\x12\
-    \x20\n\x0bJFFNOKCBHFJ\x18\x0e\x20\x01(\rR\x0bJFFNOKCBHFJ\x12/\n\x0bJFMHN\
-    EKKBEI\x18\x89\x07\x20\x03(\x0b2\x0c.DAAHHGENGDCR\x0bJFMHNEKKBEI\x12\x20\
-    \n\x0bJKCNLDODJDM\x18\x06\x20\x01(\rR\x0bJKCNLDODJDM\x12\x20\n\x0bJFILII\
-    KGFJB\x18\x02\x20\x01(\rR\x0bJFILIIKGFJB\x12\x20\n\x0bKFNHEENCOGG\x18\n\
-    \x20\x01(\rR\x0bKFNHEENCOGG\x129\n\x0bJGDJMFOBLAN\x18\xa1\x03\x20\x03(\
-    \x0b2\x16.GridFightHpModifyInfoR\x0bJGDJMFOBLAN\x12S\n\x1agrid_fight_dam\
-    age_stt_info\x18\x0b\x20\x01(\x0b2\x17.GridFightDamageSttInfoR\x16gridFi\
-    ghtDamageSttInfo\x12!\n\x0bAFBAOGJPMAH\x18\xea\x06\x20\x01(\rR\x0bAFBAOG\
-    JPMAH\x12!\n\x0bDBJAKJKGFAE\x18\xbe\x08\x20\x01(\rR\x0bDBJAKJKGFAE\x12\
-    \x20\n\x0bHDABBOHFEOM\x18\x0c\x20\x01(\rR\x0bHDABBOHFEOM\x1aR\n\x10KAPFF\
-    LAEFOJEntry\x12\x10\n\x03key\x18\x01\x20\x01(\rR\x03key\x12(\n\x05value\
-    \x18\x02\x20\x01(\x0b2\x12.GridFightDropInfoR\x05value:\x028\x01b\x06pro\
-    to3\
+    \n#GridFightEndBattleStageNotify.proto\x1a\x1cGridFightDamageSttInfo.pro\
+    to\x1a\x17GridFightDropInfo.proto\x1a\x1bGridFightHpModifyInfo.proto\x1a\
+    \x11ILGOPHIAJIG.proto\x1a\x11MIOMFOAEHEC.proto\"\x9e\x08\n\x1dGridFightE\
+    ndBattleStageNotify\x12/\n\x0bGCBBEEGANEG\x18\xf9\r\x20\x01(\x0b2\x0c.MI\
+    OMFOAEHECR\x0bGCBBEEGANEG\x12\x20\n\x0bFHHPDFKLJKC\x18\x03\x20\x01(\rR\
+    \x0bFHHPDFKLJKC\x12\x20\n\x0bMKCHLGOGJNB\x18\x06\x20\x01(\rR\x0bMKCHLGOG\
+    JNB\x12/\n\x0bDHHPEBDPKJJ\x18\x8e\x05\x20\x03(\x0b2\x0c.ILGOPHIAJIGR\x0b\
+    DHHPEBDPKJJ\x12!\n\x0bIPCFJBAKLCG\x18\x85\x08\x20\x01(\rR\x0bIPCFJBAKLCG\
+    \x12\x20\n\x0bHPOACJCPJHN\x18\r\x20\x01(\x08R\x0bHPOACJCPJHN\x12\x20\n\
+    \x0bPNOJLNNHBIH\x18\x04\x20\x01(\rR\x0bPNOJLNNHBIH\x12\x20\n\x0bPACIAIJB\
+    OHO\x18\x0b\x20\x01(\rR\x0bPACIAIJBOHO\x12Q\n\x0bDHMBKAPKJFN\x18\x0e\x20\
+    \x03(\x0b2/.GridFightEndBattleStageNotify.DHMBKAPKJFNEntryR\x0bDHMBKAPKJ\
+    FN\x12S\n\x1agrid_fight_damage_stt_info\x18\x01\x20\x01(\x0b2\x17.GridFi\
+    ghtDamageSttInfoR\x16gridFightDamageSttInfo\x12!\n\x0bIJEIEJLPGGJ\x18\
+    \xf2\x02\x20\x01(\rR\x0bIJEIEJLPGGJ\x12\x20\n\x0bBCOLJFHDLLD\x18E\x20\
+    \x01(\rR\x0bBCOLJFHDLLD\x12!\n\x0bEJEIBPEKHLD\x18\xfc\x0f\x20\x01(\rR\
+    \x0bEJEIBPEKHLD\x12\x20\n\x0bJGLEDADBNGP\x18\x08\x20\x01(\rR\x0bJGLEDADB\
+    NGP\x129\n\x0bNNFAFGCGMBB\x18\x85\x0b\x20\x03(\x0b2\x16.GridFightHpModif\
+    yInfoR\x0bNNFAFGCGMBB\x12\x1d\n\nsection_id\x18\t\x20\x01(\rR\tsectionId\
+    \x12\x20\n\x0bNDOCIKPLKIF\x18\x02\x20\x01(\rR\x0bNDOCIKPLKIF\x12!\n\x0bI\
+    DEAAPCCFPF\x18\x88\x07\x20\x01(\rR\x0bIDEAAPCCFPF\x12\x20\n\x0bKIAFMFGAO\
+    NA\x18\x0c\x20\x01(\rR\x0bKIAFMFGAONA\x12\x20\n\x0bMAGCGPMHHEA\x18\x0f\
+    \x20\x01(\rR\x0bMAGCGPMHHEA\x12\x20\n\x0bKDOINLGKMBI\x18\x07\x20\x01(\rR\
+    \x0bKDOINLGKMBI\x12!\n\x0bFGEDKOINMAG\x18\xc7\r\x20\x01(\rR\x0bFGEDKOINM\
+    AG\x12\x20\n\x0bDCPKPNLKGMM\x18\x05\x20\x01(\rR\x0bDCPKPNLKGMM\x1aR\n\
+    \x10DHMBKAPKJFNEntry\x12\x10\n\x03key\x18\x01\x20\x01(\rR\x03key\x12(\n\
+    \x05value\x18\x02\x20\x01(\x0b2\x12.GridFightDropInfoR\x05value:\x028\
+    \x01b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -590,11 +590,11 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(5);
-            deps.push(super::DAAHHGENGDC::file_descriptor().clone());
-            deps.push(super::DAHFFDAFKJJ::file_descriptor().clone());
             deps.push(super::GridFightDamageSttInfo::file_descriptor().clone());
             deps.push(super::GridFightDropInfo::file_descriptor().clone());
             deps.push(super::GridFightHpModifyInfo::file_descriptor().clone());
+            deps.push(super::ILGOPHIAJIG::file_descriptor().clone());
+            deps.push(super::MIOMFOAEHEC::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GridFightEndBattleStageNotify::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

@@ -28,14 +28,14 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridGameNpcInfo {
     // message fields
-    // @@protoc_insertion_point(field:GridGameNpcInfo.id)
-    pub id: u32,
-    // @@protoc_insertion_point(field:GridGameNpcInfo.unique_id)
-    pub unique_id: u32,
-    // @@protoc_insertion_point(field:GridGameNpcInfo.update_equips_component)
-    pub update_equips_component: ::std::vec::Vec<u32>,
     // @@protoc_insertion_point(field:GridGameNpcInfo.pos)
     pub pos: u32,
+    // @@protoc_insertion_point(field:GridGameNpcInfo.unique_id)
+    pub unique_id: u32,
+    // @@protoc_insertion_point(field:GridGameNpcInfo.id)
+    pub id: u32,
+    // @@protoc_insertion_point(field:GridGameNpcInfo.update_equips_component)
+    pub update_equips_component: ::std::vec::Vec<u32>,
     // special fields
     // @@protoc_insertion_point(special_field:GridGameNpcInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -56,24 +56,24 @@ impl GridGameNpcInfo {
         let mut fields = ::std::vec::Vec::with_capacity(4);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "id",
-            |m: &GridGameNpcInfo| { &m.id },
-            |m: &mut GridGameNpcInfo| { &mut m.id },
+            "pos",
+            |m: &GridGameNpcInfo| { &m.pos },
+            |m: &mut GridGameNpcInfo| { &mut m.pos },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "unique_id",
             |m: &GridGameNpcInfo| { &m.unique_id },
             |m: &mut GridGameNpcInfo| { &mut m.unique_id },
         ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "id",
+            |m: &GridGameNpcInfo| { &m.id },
+            |m: &mut GridGameNpcInfo| { &mut m.id },
+        ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "update_equips_component",
             |m: &GridGameNpcInfo| { &m.update_equips_component },
             |m: &mut GridGameNpcInfo| { &mut m.update_equips_component },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "pos",
-            |m: &GridGameNpcInfo| { &m.pos },
-            |m: &mut GridGameNpcInfo| { &mut m.pos },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridGameNpcInfo>(
             "GridGameNpcInfo",
@@ -93,20 +93,20 @@ impl ::protobuf::Message for GridGameNpcInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                64 => {
-                    self.id = is.read_uint32()?;
+                104 => {
+                    self.pos = is.read_uint32()?;
                 },
-                24 => {
+                64 => {
                     self.unique_id = is.read_uint32()?;
                 },
-                58 => {
+                80 => {
+                    self.id = is.read_uint32()?;
+                },
+                18 => {
                     is.read_repeated_packed_uint32_into(&mut self.update_equips_component)?;
                 },
-                56 => {
-                    self.update_equips_component.push(is.read_uint32()?);
-                },
                 16 => {
-                    self.pos = is.read_uint32()?;
+                    self.update_equips_component.push(is.read_uint32()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -120,32 +120,32 @@ impl ::protobuf::Message for GridGameNpcInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.id != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.id);
+        if self.pos != 0 {
+            my_size += ::protobuf::rt::uint32_size(13, self.pos);
         }
         if self.unique_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.unique_id);
+            my_size += ::protobuf::rt::uint32_size(8, self.unique_id);
         }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(7, &self.update_equips_component);
-        if self.pos != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.pos);
+        if self.id != 0 {
+            my_size += ::protobuf::rt::uint32_size(10, self.id);
         }
+        my_size += ::protobuf::rt::vec_packed_uint32_size(2, &self.update_equips_component);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.id != 0 {
-            os.write_uint32(8, self.id)?;
+        if self.pos != 0 {
+            os.write_uint32(13, self.pos)?;
         }
         if self.unique_id != 0 {
-            os.write_uint32(3, self.unique_id)?;
+            os.write_uint32(8, self.unique_id)?;
         }
-        os.write_repeated_packed_uint32(7, &self.update_equips_component)?;
-        if self.pos != 0 {
-            os.write_uint32(2, self.pos)?;
+        if self.id != 0 {
+            os.write_uint32(10, self.id)?;
         }
+        os.write_repeated_packed_uint32(2, &self.update_equips_component)?;
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -163,19 +163,19 @@ impl ::protobuf::Message for GridGameNpcInfo {
     }
 
     fn clear(&mut self) {
-        self.id = 0;
-        self.unique_id = 0;
-        self.update_equips_component.clear();
         self.pos = 0;
+        self.unique_id = 0;
+        self.id = 0;
+        self.update_equips_component.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridGameNpcInfo {
         static instance: GridGameNpcInfo = GridGameNpcInfo {
-            id: 0,
-            unique_id: 0,
-            update_equips_component: ::std::vec::Vec::new(),
             pos: 0,
+            unique_id: 0,
+            id: 0,
+            update_equips_component: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -200,11 +200,10 @@ impl ::protobuf::reflect::ProtobufValue for GridGameNpcInfo {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x15GridGameNpcInfo.proto\"\x88\x01\n\x0fGridGameNpcInfo\x12\x0e\n\x02\
-    id\x18\x08\x20\x01(\rR\x02id\x12\x1b\n\tunique_id\x18\x03\x20\x01(\rR\
-    \x08uniqueId\x126\n\x17update_equips_component\x18\x07\x20\x03(\rR\x15up\
-    dateEquipsComponent\x12\x10\n\x03pos\x18\x02\x20\x01(\rR\x03posb\x06prot\
-    o3\
+    \n\x15GridGameNpcInfo.proto\"\x88\x01\n\x0fGridGameNpcInfo\x12\x10\n\x03\
+    pos\x18\r\x20\x01(\rR\x03pos\x12\x1b\n\tunique_id\x18\x08\x20\x01(\rR\
+    \x08uniqueId\x12\x0e\n\x02id\x18\n\x20\x01(\rR\x02id\x126\n\x17update_eq\
+    uips_component\x18\x02\x20\x03(\rR\x15updateEquipsComponentb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct MonopolyTakePhaseRewardCsReq {
     // message fields
-    // @@protoc_insertion_point(field:MonopolyTakePhaseRewardCsReq.JOODHEAEACJ)
-    pub JOODHEAEACJ: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:MonopolyTakePhaseRewardCsReq.FFJECAMIEDL)
+    pub FFJECAMIEDL: ::std::vec::Vec<u32>,
     // special fields
     // @@protoc_insertion_point(special_field:MonopolyTakePhaseRewardCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl MonopolyTakePhaseRewardCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "JOODHEAEACJ",
-            |m: &MonopolyTakePhaseRewardCsReq| { &m.JOODHEAEACJ },
-            |m: &mut MonopolyTakePhaseRewardCsReq| { &mut m.JOODHEAEACJ },
+            "FFJECAMIEDL",
+            |m: &MonopolyTakePhaseRewardCsReq| { &m.FFJECAMIEDL },
+            |m: &mut MonopolyTakePhaseRewardCsReq| { &mut m.FFJECAMIEDL },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<MonopolyTakePhaseRewardCsReq>(
             "MonopolyTakePhaseRewardCsReq",
@@ -73,10 +73,10 @@ impl ::protobuf::Message for MonopolyTakePhaseRewardCsReq {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
                 82 => {
-                    is.read_repeated_packed_uint32_into(&mut self.JOODHEAEACJ)?;
+                    is.read_repeated_packed_uint32_into(&mut self.FFJECAMIEDL)?;
                 },
                 80 => {
-                    self.JOODHEAEACJ.push(is.read_uint32()?);
+                    self.FFJECAMIEDL.push(is.read_uint32()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -90,14 +90,14 @@ impl ::protobuf::Message for MonopolyTakePhaseRewardCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        my_size += ::protobuf::rt::vec_packed_uint32_size(10, &self.JOODHEAEACJ);
+        my_size += ::protobuf::rt::vec_packed_uint32_size(10, &self.FFJECAMIEDL);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        os.write_repeated_packed_uint32(10, &self.JOODHEAEACJ)?;
+        os.write_repeated_packed_uint32(10, &self.FFJECAMIEDL)?;
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -115,13 +115,13 @@ impl ::protobuf::Message for MonopolyTakePhaseRewardCsReq {
     }
 
     fn clear(&mut self) {
-        self.JOODHEAEACJ.clear();
+        self.FFJECAMIEDL.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static MonopolyTakePhaseRewardCsReq {
         static instance: MonopolyTakePhaseRewardCsReq = MonopolyTakePhaseRewardCsReq {
-            JOODHEAEACJ: ::std::vec::Vec::new(),
+            FFJECAMIEDL: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -147,7 +147,7 @@ impl ::protobuf::reflect::ProtobufValue for MonopolyTakePhaseRewardCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\"MonopolyTakePhaseRewardCsReq.proto\"@\n\x1cMonopolyTakePhaseRewardCs\
-    Req\x12\x20\n\x0bJOODHEAEACJ\x18\n\x20\x03(\rR\x0bJOODHEAEACJb\x06proto3\
+    Req\x12\x20\n\x0bFFJECAMIEDL\x18\n\x20\x03(\rR\x0bFFJECAMIEDLb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

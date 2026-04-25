@@ -28,16 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct SyncRogueSeasonFinishScNotify {
     // message fields
-    // @@protoc_insertion_point(field:SyncRogueSeasonFinishScNotify.finish_info)
-    pub finish_info: ::protobuf::MessageField<super::LCFACEGIJMA::LCFACEGIJMA>,
-    // @@protoc_insertion_point(field:SyncRogueSeasonFinishScNotify.OHJHNHBDMNN)
-    pub OHJHNHBDMNN: ::protobuf::MessageField<super::GDGKAODOAMH::GDGKAODOAMH>,
+    // @@protoc_insertion_point(field:SyncRogueSeasonFinishScNotify.OIFKNJAFGDC)
+    pub OIFKNJAFGDC: bool,
     // @@protoc_insertion_point(field:SyncRogueSeasonFinishScNotify.scene)
     pub scene: ::protobuf::MessageField<super::SceneInfo::SceneInfo>,
-    // @@protoc_insertion_point(field:SyncRogueSeasonFinishScNotify.OCLDAAIPGNM)
-    pub OCLDAAIPGNM: bool,
+    // @@protoc_insertion_point(field:SyncRogueSeasonFinishScNotify.AHBFAAMNKNO)
+    pub AHBFAAMNKNO: ::protobuf::MessageField<super::BGKINCFGKGI::BGKINCFGKGI>,
     // @@protoc_insertion_point(field:SyncRogueSeasonFinishScNotify.lineup)
     pub lineup: ::protobuf::MessageField<super::LineupInfo::LineupInfo>,
+    // @@protoc_insertion_point(field:SyncRogueSeasonFinishScNotify.finish_info)
+    pub finish_info: ::protobuf::MessageField<super::JMIIFOMFOGO::JMIIFOMFOGO>,
     // special fields
     // @@protoc_insertion_point(special_field:SyncRogueSeasonFinishScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,30 +57,30 @@ impl SyncRogueSeasonFinishScNotify {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::LCFACEGIJMA::LCFACEGIJMA>(
-            "finish_info",
-            |m: &SyncRogueSeasonFinishScNotify| { &m.finish_info },
-            |m: &mut SyncRogueSeasonFinishScNotify| { &mut m.finish_info },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GDGKAODOAMH::GDGKAODOAMH>(
-            "OHJHNHBDMNN",
-            |m: &SyncRogueSeasonFinishScNotify| { &m.OHJHNHBDMNN },
-            |m: &mut SyncRogueSeasonFinishScNotify| { &mut m.OHJHNHBDMNN },
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "OIFKNJAFGDC",
+            |m: &SyncRogueSeasonFinishScNotify| { &m.OIFKNJAFGDC },
+            |m: &mut SyncRogueSeasonFinishScNotify| { &mut m.OIFKNJAFGDC },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::SceneInfo::SceneInfo>(
             "scene",
             |m: &SyncRogueSeasonFinishScNotify| { &m.scene },
             |m: &mut SyncRogueSeasonFinishScNotify| { &mut m.scene },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "OCLDAAIPGNM",
-            |m: &SyncRogueSeasonFinishScNotify| { &m.OCLDAAIPGNM },
-            |m: &mut SyncRogueSeasonFinishScNotify| { &mut m.OCLDAAIPGNM },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::BGKINCFGKGI::BGKINCFGKGI>(
+            "AHBFAAMNKNO",
+            |m: &SyncRogueSeasonFinishScNotify| { &m.AHBFAAMNKNO },
+            |m: &mut SyncRogueSeasonFinishScNotify| { &mut m.AHBFAAMNKNO },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::LineupInfo::LineupInfo>(
             "lineup",
             |m: &SyncRogueSeasonFinishScNotify| { &m.lineup },
             |m: &mut SyncRogueSeasonFinishScNotify| { &mut m.lineup },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::JMIIFOMFOGO::JMIIFOMFOGO>(
+            "finish_info",
+            |m: &SyncRogueSeasonFinishScNotify| { &m.finish_info },
+            |m: &mut SyncRogueSeasonFinishScNotify| { &mut m.finish_info },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<SyncRogueSeasonFinishScNotify>(
             "SyncRogueSeasonFinishScNotify",
@@ -100,20 +100,20 @@ impl ::protobuf::Message for SyncRogueSeasonFinishScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                114 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.finish_info)?;
-                },
-                58 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.OHJHNHBDMNN)?;
+                40 => {
+                    self.OIFKNJAFGDC = is.read_bool()?;
                 },
                 106 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.scene)?;
                 },
-                48 => {
-                    self.OCLDAAIPGNM = is.read_bool()?;
+                50 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.AHBFAAMNKNO)?;
                 },
-                90 => {
+                82 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.lineup)?;
+                },
+                18 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.finish_info)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -127,22 +127,22 @@ impl ::protobuf::Message for SyncRogueSeasonFinishScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.finish_info.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.OHJHNHBDMNN.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        if self.OIFKNJAFGDC != false {
+            my_size += 1 + 1;
         }
         if let Some(v) = self.scene.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.OCLDAAIPGNM != false {
-            my_size += 1 + 1;
+        if let Some(v) = self.AHBFAAMNKNO.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
         if let Some(v) = self.lineup.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if let Some(v) = self.finish_info.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -152,20 +152,20 @@ impl ::protobuf::Message for SyncRogueSeasonFinishScNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.finish_info.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
-        }
-        if let Some(v) = self.OHJHNHBDMNN.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
+        if self.OIFKNJAFGDC != false {
+            os.write_bool(5, self.OIFKNJAFGDC)?;
         }
         if let Some(v) = self.scene.as_ref() {
             ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
         }
-        if self.OCLDAAIPGNM != false {
-            os.write_bool(6, self.OCLDAAIPGNM)?;
+        if let Some(v) = self.AHBFAAMNKNO.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
         }
         if let Some(v) = self.lineup.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
+        }
+        if let Some(v) = self.finish_info.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -184,21 +184,21 @@ impl ::protobuf::Message for SyncRogueSeasonFinishScNotify {
     }
 
     fn clear(&mut self) {
-        self.finish_info.clear();
-        self.OHJHNHBDMNN.clear();
+        self.OIFKNJAFGDC = false;
         self.scene.clear();
-        self.OCLDAAIPGNM = false;
+        self.AHBFAAMNKNO.clear();
         self.lineup.clear();
+        self.finish_info.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static SyncRogueSeasonFinishScNotify {
         static instance: SyncRogueSeasonFinishScNotify = SyncRogueSeasonFinishScNotify {
-            finish_info: ::protobuf::MessageField::none(),
-            OHJHNHBDMNN: ::protobuf::MessageField::none(),
+            OIFKNJAFGDC: false,
             scene: ::protobuf::MessageField::none(),
-            OCLDAAIPGNM: false,
+            AHBFAAMNKNO: ::protobuf::MessageField::none(),
             lineup: ::protobuf::MessageField::none(),
+            finish_info: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -223,14 +223,14 @@ impl ::protobuf::reflect::ProtobufValue for SyncRogueSeasonFinishScNotify {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n#SyncRogueSeasonFinishScNotify.proto\x1a\x11GDGKAODOAMH.proto\x1a\x11L\
-    CFACEGIJMA.proto\x1a\x10LineupInfo.proto\x1a\x0fSceneInfo.proto\"\xe7\
-    \x01\n\x1dSyncRogueSeasonFinishScNotify\x12-\n\x0bfinish_info\x18\x0e\
-    \x20\x01(\x0b2\x0c.LCFACEGIJMAR\nfinishInfo\x12.\n\x0bOHJHNHBDMNN\x18\
-    \x07\x20\x01(\x0b2\x0c.GDGKAODOAMHR\x0bOHJHNHBDMNN\x12\x20\n\x05scene\
-    \x18\r\x20\x01(\x0b2\n.SceneInfoR\x05scene\x12\x20\n\x0bOCLDAAIPGNM\x18\
-    \x06\x20\x01(\x08R\x0bOCLDAAIPGNM\x12#\n\x06lineup\x18\x0b\x20\x01(\x0b2\
-    \x0b.LineupInfoR\x06lineupb\x06proto3\
+    \n#SyncRogueSeasonFinishScNotify.proto\x1a\x11BGKINCFGKGI.proto\x1a\x11J\
+    MIIFOMFOGO.proto\x1a\x10LineupInfo.proto\x1a\x0fSceneInfo.proto\"\xe7\
+    \x01\n\x1dSyncRogueSeasonFinishScNotify\x12\x20\n\x0bOIFKNJAFGDC\x18\x05\
+    \x20\x01(\x08R\x0bOIFKNJAFGDC\x12\x20\n\x05scene\x18\r\x20\x01(\x0b2\n.S\
+    ceneInfoR\x05scene\x12.\n\x0bAHBFAAMNKNO\x18\x06\x20\x01(\x0b2\x0c.BGKIN\
+    CFGKGIR\x0bAHBFAAMNKNO\x12#\n\x06lineup\x18\n\x20\x01(\x0b2\x0b.LineupIn\
+    foR\x06lineup\x12-\n\x0bfinish_info\x18\x02\x20\x01(\x0b2\x0c.JMIIFOMFOG\
+    OR\nfinishInfob\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -248,8 +248,8 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(4);
-            deps.push(super::GDGKAODOAMH::file_descriptor().clone());
-            deps.push(super::LCFACEGIJMA::file_descriptor().clone());
+            deps.push(super::BGKINCFGKGI::file_descriptor().clone());
+            deps.push(super::JMIIFOMFOGO::file_descriptor().clone());
             deps.push(super::LineupInfo::file_descriptor().clone());
             deps.push(super::SceneInfo::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);

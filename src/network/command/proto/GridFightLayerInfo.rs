@@ -79,10 +79,10 @@ impl ::protobuf::Message for GridFightLayerInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                8 => {
+                88 => {
                     self.route_is_pending = is.read_bool()?;
                 },
-                12826 => {
+                15722 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.route_info)?;
                 },
                 tag => {
@@ -111,10 +111,10 @@ impl ::protobuf::Message for GridFightLayerInfo {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.route_is_pending != false {
-            os.write_bool(1, self.route_is_pending)?;
+            os.write_bool(11, self.route_is_pending)?;
         }
         if let Some(v) = self.route_info.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(1603, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(1965, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -167,8 +167,8 @@ impl ::protobuf::reflect::ProtobufValue for GridFightLayerInfo {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x18GridFightLayerInfo.proto\x1a\x18GridFightRouteInfo.proto\"s\n\x12G\
-    ridFightLayerInfo\x12(\n\x10route_is_pending\x18\x01\x20\x01(\x08R\x0ero\
-    uteIsPending\x123\n\nroute_info\x18\xc3\x0c\x20\x01(\x0b2\x13.GridFightR\
+    ridFightLayerInfo\x12(\n\x10route_is_pending\x18\x0b\x20\x01(\x08R\x0ero\
+    uteIsPending\x123\n\nroute_info\x18\xad\x0f\x20\x01(\x0b2\x13.GridFightR\
     outeInfoR\trouteInfob\x06proto3\
 ";
 

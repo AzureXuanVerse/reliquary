@@ -29,11 +29,11 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 pub struct FateShopRefreshGoodsScRsp {
     // message fields
     // @@protoc_insertion_point(field:FateShopRefreshGoodsScRsp.shop_goods_list)
-    pub shop_goods_list: ::std::vec::Vec<super::FCGLFKAPNHH::FCGLFKAPNHH>,
+    pub shop_goods_list: ::std::vec::Vec<super::JCFDCEKLBFH::JCFDCEKLBFH>,
     // @@protoc_insertion_point(field:FateShopRefreshGoodsScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:FateShopRefreshGoodsScRsp.LKNELCCLKFN)
-    pub LKNELCCLKFN: bool,
+    // @@protoc_insertion_point(field:FateShopRefreshGoodsScRsp.EBKLPKNANLN)
+    pub EBKLPKNANLN: bool,
     // special fields
     // @@protoc_insertion_point(special_field:FateShopRefreshGoodsScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -64,9 +64,9 @@ impl FateShopRefreshGoodsScRsp {
             |m: &mut FateShopRefreshGoodsScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "LKNELCCLKFN",
-            |m: &FateShopRefreshGoodsScRsp| { &m.LKNELCCLKFN },
-            |m: &mut FateShopRefreshGoodsScRsp| { &mut m.LKNELCCLKFN },
+            "EBKLPKNANLN",
+            |m: &FateShopRefreshGoodsScRsp| { &m.EBKLPKNANLN },
+            |m: &mut FateShopRefreshGoodsScRsp| { &mut m.EBKLPKNANLN },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<FateShopRefreshGoodsScRsp>(
             "FateShopRefreshGoodsScRsp",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for FateShopRefreshGoodsScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                122 => {
+                90 => {
                     self.shop_goods_list.push(is.read_message()?);
                 },
-                48 => {
+                104 => {
                     self.retcode = is.read_uint32()?;
                 },
-                104 => {
-                    self.LKNELCCLKFN = is.read_bool()?;
+                16 => {
+                    self.EBKLPKNANLN = is.read_bool()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -112,9 +112,9 @@ impl ::protobuf::Message for FateShopRefreshGoodsScRsp {
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(6, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(13, self.retcode);
         }
-        if self.LKNELCCLKFN != false {
+        if self.EBKLPKNANLN != false {
             my_size += 1 + 1;
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
@@ -124,13 +124,13 @@ impl ::protobuf::Message for FateShopRefreshGoodsScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         for v in &self.shop_goods_list {
-            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
         };
         if self.retcode != 0 {
-            os.write_uint32(6, self.retcode)?;
+            os.write_uint32(13, self.retcode)?;
         }
-        if self.LKNELCCLKFN != false {
-            os.write_bool(13, self.LKNELCCLKFN)?;
+        if self.EBKLPKNANLN != false {
+            os.write_bool(2, self.EBKLPKNANLN)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -151,7 +151,7 @@ impl ::protobuf::Message for FateShopRefreshGoodsScRsp {
     fn clear(&mut self) {
         self.shop_goods_list.clear();
         self.retcode = 0;
-        self.LKNELCCLKFN = false;
+        self.EBKLPKNANLN = false;
         self.special_fields.clear();
     }
 
@@ -159,7 +159,7 @@ impl ::protobuf::Message for FateShopRefreshGoodsScRsp {
         static instance: FateShopRefreshGoodsScRsp = FateShopRefreshGoodsScRsp {
             shop_goods_list: ::std::vec::Vec::new(),
             retcode: 0,
-            LKNELCCLKFN: false,
+            EBKLPKNANLN: false,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -184,11 +184,11 @@ impl ::protobuf::reflect::ProtobufValue for FateShopRefreshGoodsScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1fFateShopRefreshGoodsScRsp.proto\x1a\x11FCGLFKAPNHH.proto\"\x8d\x01\
-    \n\x19FateShopRefreshGoodsScRsp\x124\n\x0fshop_goods_list\x18\x0f\x20\
-    \x03(\x0b2\x0c.FCGLFKAPNHHR\rshopGoodsList\x12\x18\n\x07retcode\x18\x06\
-    \x20\x01(\rR\x07retcode\x12\x20\n\x0bLKNELCCLKFN\x18\r\x20\x01(\x08R\x0b\
-    LKNELCCLKFNb\x06proto3\
+    \n\x1fFateShopRefreshGoodsScRsp.proto\x1a\x11JCFDCEKLBFH.proto\"\x8d\x01\
+    \n\x19FateShopRefreshGoodsScRsp\x124\n\x0fshop_goods_list\x18\x0b\x20\
+    \x03(\x0b2\x0c.JCFDCEKLBFHR\rshopGoodsList\x12\x18\n\x07retcode\x18\r\
+    \x20\x01(\rR\x07retcode\x12\x20\n\x0bEBKLPKNANLN\x18\x02\x20\x01(\x08R\
+    \x0bEBKLPKNANLNb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -206,7 +206,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::FCGLFKAPNHH::file_descriptor().clone());
+            deps.push(super::JCFDCEKLBFH::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(FateShopRefreshGoodsScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ChessRogueCheatRollCsReq {
     // message fields
-    // @@protoc_insertion_point(field:ChessRogueCheatRollCsReq.KDFAKOPBEIL)
-    pub KDFAKOPBEIL: u32,
-    // @@protoc_insertion_point(field:ChessRogueCheatRollCsReq.BCJKOMPBDPB)
-    pub BCJKOMPBDPB: u32,
+    // @@protoc_insertion_point(field:ChessRogueCheatRollCsReq.CCOGFKLOFKL)
+    pub CCOGFKLOFKL: u32,
+    // @@protoc_insertion_point(field:ChessRogueCheatRollCsReq.BGPBIMDCBBL)
+    pub BGPBIMDCBBL: u32,
     // special fields
     // @@protoc_insertion_point(special_field:ChessRogueCheatRollCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl ChessRogueCheatRollCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "KDFAKOPBEIL",
-            |m: &ChessRogueCheatRollCsReq| { &m.KDFAKOPBEIL },
-            |m: &mut ChessRogueCheatRollCsReq| { &mut m.KDFAKOPBEIL },
+            "CCOGFKLOFKL",
+            |m: &ChessRogueCheatRollCsReq| { &m.CCOGFKLOFKL },
+            |m: &mut ChessRogueCheatRollCsReq| { &mut m.CCOGFKLOFKL },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BCJKOMPBDPB",
-            |m: &ChessRogueCheatRollCsReq| { &m.BCJKOMPBDPB },
-            |m: &mut ChessRogueCheatRollCsReq| { &mut m.BCJKOMPBDPB },
+            "BGPBIMDCBBL",
+            |m: &ChessRogueCheatRollCsReq| { &m.BGPBIMDCBBL },
+            |m: &mut ChessRogueCheatRollCsReq| { &mut m.BGPBIMDCBBL },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ChessRogueCheatRollCsReq>(
             "ChessRogueCheatRollCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for ChessRogueCheatRollCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                40 => {
-                    self.KDFAKOPBEIL = is.read_uint32()?;
-                },
                 80 => {
-                    self.BCJKOMPBDPB = is.read_uint32()?;
+                    self.CCOGFKLOFKL = is.read_uint32()?;
+                },
+                24 => {
+                    self.BGPBIMDCBBL = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for ChessRogueCheatRollCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.KDFAKOPBEIL != 0 {
-            my_size += ::protobuf::rt::uint32_size(5, self.KDFAKOPBEIL);
+        if self.CCOGFKLOFKL != 0 {
+            my_size += ::protobuf::rt::uint32_size(10, self.CCOGFKLOFKL);
         }
-        if self.BCJKOMPBDPB != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.BCJKOMPBDPB);
+        if self.BGPBIMDCBBL != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.BGPBIMDCBBL);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for ChessRogueCheatRollCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.KDFAKOPBEIL != 0 {
-            os.write_uint32(5, self.KDFAKOPBEIL)?;
+        if self.CCOGFKLOFKL != 0 {
+            os.write_uint32(10, self.CCOGFKLOFKL)?;
         }
-        if self.BCJKOMPBDPB != 0 {
-            os.write_uint32(10, self.BCJKOMPBDPB)?;
+        if self.BGPBIMDCBBL != 0 {
+            os.write_uint32(3, self.BGPBIMDCBBL)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,15 +132,15 @@ impl ::protobuf::Message for ChessRogueCheatRollCsReq {
     }
 
     fn clear(&mut self) {
-        self.KDFAKOPBEIL = 0;
-        self.BCJKOMPBDPB = 0;
+        self.CCOGFKLOFKL = 0;
+        self.BGPBIMDCBBL = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ChessRogueCheatRollCsReq {
         static instance: ChessRogueCheatRollCsReq = ChessRogueCheatRollCsReq {
-            KDFAKOPBEIL: 0,
-            BCJKOMPBDPB: 0,
+            CCOGFKLOFKL: 0,
+            BGPBIMDCBBL: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for ChessRogueCheatRollCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1eChessRogueCheatRollCsReq.proto\"^\n\x18ChessRogueCheatRollCsReq\
-    \x12\x20\n\x0bKDFAKOPBEIL\x18\x05\x20\x01(\rR\x0bKDFAKOPBEIL\x12\x20\n\
-    \x0bBCJKOMPBDPB\x18\n\x20\x01(\rR\x0bBCJKOMPBDPBb\x06proto3\
+    \x12\x20\n\x0bCCOGFKLOFKL\x18\n\x20\x01(\rR\x0bCCOGFKLOFKL\x12\x20\n\x0b\
+    BGPBIMDCBBL\x18\x03\x20\x01(\rR\x0bBGPBIMDCBBLb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

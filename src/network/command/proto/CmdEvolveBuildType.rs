@@ -27,52 +27,52 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdEvolveBuildType)
 pub enum CmdEvolveBuildType {
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_IINBLPOACOC)
-    CmdEvolveBuildType_IINBLPOACOC = 0,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_KAPLENCCCBG)
-    CmdEvolveBuildType_KAPLENCCCBG = 7128,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_MCEJEKEECCN)
-    CmdEvolveBuildType_MCEJEKEECCN = 7101,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_HLPEAGKHMFL)
-    CmdEvolveBuildType_HLPEAGKHMFL = 7112,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_PGGMADMLGEJ)
-    CmdEvolveBuildType_PGGMADMLGEJ = 7124,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_JAGCJECMGML)
-    CmdEvolveBuildType_JAGCJECMGML = 7107,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_PFAAKDMGMKC)
-    CmdEvolveBuildType_PFAAKDMGMKC = 7119,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_MEACONLEBEG)
-    CmdEvolveBuildType_MEACONLEBEG = 7140,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_NLKADELBGFK)
-    CmdEvolveBuildType_NLKADELBGFK = 7134,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_OIJGLNHDFPP)
-    CmdEvolveBuildType_OIJGLNHDFPP = 7130,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_LELOBDMGJDB)
-    CmdEvolveBuildType_LELOBDMGJDB = 7109,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_IEBFEDOMNKM)
-    CmdEvolveBuildType_IEBFEDOMNKM = 7114,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_EMICHDMFBOF)
-    CmdEvolveBuildType_EMICHDMFBOF = 7108,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_IBPNCBPMFOE)
-    CmdEvolveBuildType_IBPNCBPMFOE = 7141,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_LONNAFPGDHF)
-    CmdEvolveBuildType_LONNAFPGDHF = 7129,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_OBKJGAKFHFO)
-    CmdEvolveBuildType_OBKJGAKFHFO = 7138,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_CBEPCLLEBMG)
-    CmdEvolveBuildType_CBEPCLLEBMG = 7104,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_DAELCLFMPEN)
-    CmdEvolveBuildType_DAELCLFMPEN = 7146,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_GBPOGNFBNHP)
-    CmdEvolveBuildType_GBPOGNFBNHP = 7102,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_JGCDHKNDKCN)
-    CmdEvolveBuildType_JGCDHKNDKCN = 7123,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_EBHCKENHKON)
-    CmdEvolveBuildType_EBHCKENHKON = 7103,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_DMALHBBDIBB)
-    CmdEvolveBuildType_DMALHBBDIBB = 7139,
-    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildType_BHHNBMBNJOK)
-    CmdEvolveBuildType_BHHNBMBNJOK = 7118,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.JDDDPNDFNIH_HOJEEPOEDHC)
+    JDDDPNDFNIH_HOJEEPOEDHC = 0,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildStartLevelScRsp)
+    CmdEvolveBuildStartLevelScRsp = 7127,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildSkipTeachLevelScRsp)
+    CmdEvolveBuildSkipTeachLevelScRsp = 7109,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.JDDDPNDFNIH_LFHECPEAEDC)
+    JDDDPNDFNIH_LFHECPEAEDC = 7147,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildSkipTeachLevelCsReq)
+    CmdEvolveBuildSkipTeachLevelCsReq = 7133,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildStartStageCsReq)
+    CmdEvolveBuildStartStageCsReq = 7135,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildShopAbilityDownCsReq)
+    CmdEvolveBuildShopAbilityDownCsReq = 7116,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildShopAbilityUpCsReq)
+    CmdEvolveBuildShopAbilityUpCsReq = 7103,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdGetEvolveBuildShopAbilityResetScRsp)
+    CmdGetEvolveBuildShopAbilityResetScRsp = 7106,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdGetEvolveBuildShopAbilityDownScRsp)
+    CmdGetEvolveBuildShopAbilityDownScRsp = 7131,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdGetEvolveBuildCoinNotify)
+    CmdGetEvolveBuildCoinNotify = 7126,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildStartLevelCsReq)
+    CmdEvolveBuildStartLevelCsReq = 7130,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdGetEvolveBuildShopAbilityUpScRsp)
+    CmdGetEvolveBuildShopAbilityUpScRsp = 7150,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildGiveupCsReq)
+    CmdEvolveBuildGiveupCsReq = 7105,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdGetEvolveBuildQueryInfoScRsp)
+    CmdGetEvolveBuildQueryInfoScRsp = 7107,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdGetEvolveBuildGiveupScRsp)
+    CmdGetEvolveBuildGiveupScRsp = 7101,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildShopAbilityResetCsReq)
+    CmdEvolveBuildShopAbilityResetCsReq = 7115,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildReRandomStageCsReq)
+    CmdEvolveBuildReRandomStageCsReq = 7144,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdGetEvolveBuildFinishScNotify)
+    CmdGetEvolveBuildFinishScNotify = 7102,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdPCKNAJOFGLD)
+    CmdPCKNAJOFGLD = 7119,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildQueryInfoCsReq)
+    CmdEvolveBuildQueryInfoCsReq = 7113,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdEvolveBuildStartStageScRsp)
+    CmdEvolveBuildStartStageScRsp = 7138,
+    // @@protoc_insertion_point(enum_value:CmdEvolveBuildType.CmdGetEvolveBuildReRandomStageScRsp)
+    CmdGetEvolveBuildReRandomStageScRsp = 7118,
 }
 
 impl ::protobuf::Enum for CmdEvolveBuildType {
@@ -84,86 +84,86 @@ impl ::protobuf::Enum for CmdEvolveBuildType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdEvolveBuildType> {
         match value {
-            0 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_IINBLPOACOC),
-            7128 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_KAPLENCCCBG),
-            7101 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_MCEJEKEECCN),
-            7112 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_HLPEAGKHMFL),
-            7124 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_PGGMADMLGEJ),
-            7107 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_JAGCJECMGML),
-            7119 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_PFAAKDMGMKC),
-            7140 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_MEACONLEBEG),
-            7134 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_NLKADELBGFK),
-            7130 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_OIJGLNHDFPP),
-            7109 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_LELOBDMGJDB),
-            7114 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_IEBFEDOMNKM),
-            7108 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_EMICHDMFBOF),
-            7141 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_IBPNCBPMFOE),
-            7129 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_LONNAFPGDHF),
-            7138 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_OBKJGAKFHFO),
-            7104 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_CBEPCLLEBMG),
-            7146 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_DAELCLFMPEN),
-            7102 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_GBPOGNFBNHP),
-            7123 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_JGCDHKNDKCN),
-            7103 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_EBHCKENHKON),
-            7139 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_DMALHBBDIBB),
-            7118 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_BHHNBMBNJOK),
+            0 => ::std::option::Option::Some(CmdEvolveBuildType::JDDDPNDFNIH_HOJEEPOEDHC),
+            7127 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildStartLevelScRsp),
+            7109 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildSkipTeachLevelScRsp),
+            7147 => ::std::option::Option::Some(CmdEvolveBuildType::JDDDPNDFNIH_LFHECPEAEDC),
+            7133 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildSkipTeachLevelCsReq),
+            7135 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildStartStageCsReq),
+            7116 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildShopAbilityDownCsReq),
+            7103 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildShopAbilityUpCsReq),
+            7106 => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildShopAbilityResetScRsp),
+            7131 => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildShopAbilityDownScRsp),
+            7126 => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildCoinNotify),
+            7130 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildStartLevelCsReq),
+            7150 => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildShopAbilityUpScRsp),
+            7105 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildGiveupCsReq),
+            7107 => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildQueryInfoScRsp),
+            7101 => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildGiveupScRsp),
+            7115 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildShopAbilityResetCsReq),
+            7144 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildReRandomStageCsReq),
+            7102 => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildFinishScNotify),
+            7119 => ::std::option::Option::Some(CmdEvolveBuildType::CmdPCKNAJOFGLD),
+            7113 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildQueryInfoCsReq),
+            7138 => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildStartStageScRsp),
+            7118 => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildReRandomStageScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdEvolveBuildType> {
         match str {
-            "CmdEvolveBuildType_IINBLPOACOC" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_IINBLPOACOC),
-            "CmdEvolveBuildType_KAPLENCCCBG" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_KAPLENCCCBG),
-            "CmdEvolveBuildType_MCEJEKEECCN" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_MCEJEKEECCN),
-            "CmdEvolveBuildType_HLPEAGKHMFL" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_HLPEAGKHMFL),
-            "CmdEvolveBuildType_PGGMADMLGEJ" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_PGGMADMLGEJ),
-            "CmdEvolveBuildType_JAGCJECMGML" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_JAGCJECMGML),
-            "CmdEvolveBuildType_PFAAKDMGMKC" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_PFAAKDMGMKC),
-            "CmdEvolveBuildType_MEACONLEBEG" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_MEACONLEBEG),
-            "CmdEvolveBuildType_NLKADELBGFK" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_NLKADELBGFK),
-            "CmdEvolveBuildType_OIJGLNHDFPP" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_OIJGLNHDFPP),
-            "CmdEvolveBuildType_LELOBDMGJDB" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_LELOBDMGJDB),
-            "CmdEvolveBuildType_IEBFEDOMNKM" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_IEBFEDOMNKM),
-            "CmdEvolveBuildType_EMICHDMFBOF" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_EMICHDMFBOF),
-            "CmdEvolveBuildType_IBPNCBPMFOE" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_IBPNCBPMFOE),
-            "CmdEvolveBuildType_LONNAFPGDHF" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_LONNAFPGDHF),
-            "CmdEvolveBuildType_OBKJGAKFHFO" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_OBKJGAKFHFO),
-            "CmdEvolveBuildType_CBEPCLLEBMG" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_CBEPCLLEBMG),
-            "CmdEvolveBuildType_DAELCLFMPEN" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_DAELCLFMPEN),
-            "CmdEvolveBuildType_GBPOGNFBNHP" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_GBPOGNFBNHP),
-            "CmdEvolveBuildType_JGCDHKNDKCN" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_JGCDHKNDKCN),
-            "CmdEvolveBuildType_EBHCKENHKON" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_EBHCKENHKON),
-            "CmdEvolveBuildType_DMALHBBDIBB" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_DMALHBBDIBB),
-            "CmdEvolveBuildType_BHHNBMBNJOK" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildType_BHHNBMBNJOK),
+            "JDDDPNDFNIH_HOJEEPOEDHC" => ::std::option::Option::Some(CmdEvolveBuildType::JDDDPNDFNIH_HOJEEPOEDHC),
+            "CmdEvolveBuildStartLevelScRsp" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildStartLevelScRsp),
+            "CmdEvolveBuildSkipTeachLevelScRsp" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildSkipTeachLevelScRsp),
+            "JDDDPNDFNIH_LFHECPEAEDC" => ::std::option::Option::Some(CmdEvolveBuildType::JDDDPNDFNIH_LFHECPEAEDC),
+            "CmdEvolveBuildSkipTeachLevelCsReq" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildSkipTeachLevelCsReq),
+            "CmdEvolveBuildStartStageCsReq" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildStartStageCsReq),
+            "CmdEvolveBuildShopAbilityDownCsReq" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildShopAbilityDownCsReq),
+            "CmdEvolveBuildShopAbilityUpCsReq" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildShopAbilityUpCsReq),
+            "CmdGetEvolveBuildShopAbilityResetScRsp" => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildShopAbilityResetScRsp),
+            "CmdGetEvolveBuildShopAbilityDownScRsp" => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildShopAbilityDownScRsp),
+            "CmdGetEvolveBuildCoinNotify" => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildCoinNotify),
+            "CmdEvolveBuildStartLevelCsReq" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildStartLevelCsReq),
+            "CmdGetEvolveBuildShopAbilityUpScRsp" => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildShopAbilityUpScRsp),
+            "CmdEvolveBuildGiveupCsReq" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildGiveupCsReq),
+            "CmdGetEvolveBuildQueryInfoScRsp" => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildQueryInfoScRsp),
+            "CmdGetEvolveBuildGiveupScRsp" => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildGiveupScRsp),
+            "CmdEvolveBuildShopAbilityResetCsReq" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildShopAbilityResetCsReq),
+            "CmdEvolveBuildReRandomStageCsReq" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildReRandomStageCsReq),
+            "CmdGetEvolveBuildFinishScNotify" => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildFinishScNotify),
+            "CmdPCKNAJOFGLD" => ::std::option::Option::Some(CmdEvolveBuildType::CmdPCKNAJOFGLD),
+            "CmdEvolveBuildQueryInfoCsReq" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildQueryInfoCsReq),
+            "CmdEvolveBuildStartStageScRsp" => ::std::option::Option::Some(CmdEvolveBuildType::CmdEvolveBuildStartStageScRsp),
+            "CmdGetEvolveBuildReRandomStageScRsp" => ::std::option::Option::Some(CmdEvolveBuildType::CmdGetEvolveBuildReRandomStageScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdEvolveBuildType] = &[
-        CmdEvolveBuildType::CmdEvolveBuildType_IINBLPOACOC,
-        CmdEvolveBuildType::CmdEvolveBuildType_KAPLENCCCBG,
-        CmdEvolveBuildType::CmdEvolveBuildType_MCEJEKEECCN,
-        CmdEvolveBuildType::CmdEvolveBuildType_HLPEAGKHMFL,
-        CmdEvolveBuildType::CmdEvolveBuildType_PGGMADMLGEJ,
-        CmdEvolveBuildType::CmdEvolveBuildType_JAGCJECMGML,
-        CmdEvolveBuildType::CmdEvolveBuildType_PFAAKDMGMKC,
-        CmdEvolveBuildType::CmdEvolveBuildType_MEACONLEBEG,
-        CmdEvolveBuildType::CmdEvolveBuildType_NLKADELBGFK,
-        CmdEvolveBuildType::CmdEvolveBuildType_OIJGLNHDFPP,
-        CmdEvolveBuildType::CmdEvolveBuildType_LELOBDMGJDB,
-        CmdEvolveBuildType::CmdEvolveBuildType_IEBFEDOMNKM,
-        CmdEvolveBuildType::CmdEvolveBuildType_EMICHDMFBOF,
-        CmdEvolveBuildType::CmdEvolveBuildType_IBPNCBPMFOE,
-        CmdEvolveBuildType::CmdEvolveBuildType_LONNAFPGDHF,
-        CmdEvolveBuildType::CmdEvolveBuildType_OBKJGAKFHFO,
-        CmdEvolveBuildType::CmdEvolveBuildType_CBEPCLLEBMG,
-        CmdEvolveBuildType::CmdEvolveBuildType_DAELCLFMPEN,
-        CmdEvolveBuildType::CmdEvolveBuildType_GBPOGNFBNHP,
-        CmdEvolveBuildType::CmdEvolveBuildType_JGCDHKNDKCN,
-        CmdEvolveBuildType::CmdEvolveBuildType_EBHCKENHKON,
-        CmdEvolveBuildType::CmdEvolveBuildType_DMALHBBDIBB,
-        CmdEvolveBuildType::CmdEvolveBuildType_BHHNBMBNJOK,
+        CmdEvolveBuildType::JDDDPNDFNIH_HOJEEPOEDHC,
+        CmdEvolveBuildType::CmdEvolveBuildStartLevelScRsp,
+        CmdEvolveBuildType::CmdEvolveBuildSkipTeachLevelScRsp,
+        CmdEvolveBuildType::JDDDPNDFNIH_LFHECPEAEDC,
+        CmdEvolveBuildType::CmdEvolveBuildSkipTeachLevelCsReq,
+        CmdEvolveBuildType::CmdEvolveBuildStartStageCsReq,
+        CmdEvolveBuildType::CmdEvolveBuildShopAbilityDownCsReq,
+        CmdEvolveBuildType::CmdEvolveBuildShopAbilityUpCsReq,
+        CmdEvolveBuildType::CmdGetEvolveBuildShopAbilityResetScRsp,
+        CmdEvolveBuildType::CmdGetEvolveBuildShopAbilityDownScRsp,
+        CmdEvolveBuildType::CmdGetEvolveBuildCoinNotify,
+        CmdEvolveBuildType::CmdEvolveBuildStartLevelCsReq,
+        CmdEvolveBuildType::CmdGetEvolveBuildShopAbilityUpScRsp,
+        CmdEvolveBuildType::CmdEvolveBuildGiveupCsReq,
+        CmdEvolveBuildType::CmdGetEvolveBuildQueryInfoScRsp,
+        CmdEvolveBuildType::CmdGetEvolveBuildGiveupScRsp,
+        CmdEvolveBuildType::CmdEvolveBuildShopAbilityResetCsReq,
+        CmdEvolveBuildType::CmdEvolveBuildReRandomStageCsReq,
+        CmdEvolveBuildType::CmdGetEvolveBuildFinishScNotify,
+        CmdEvolveBuildType::CmdPCKNAJOFGLD,
+        CmdEvolveBuildType::CmdEvolveBuildQueryInfoCsReq,
+        CmdEvolveBuildType::CmdEvolveBuildStartStageScRsp,
+        CmdEvolveBuildType::CmdGetEvolveBuildReRandomStageScRsp,
     ];
 }
 
@@ -175,29 +175,29 @@ impl ::protobuf::EnumFull for CmdEvolveBuildType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdEvolveBuildType::CmdEvolveBuildType_IINBLPOACOC => 0,
-            CmdEvolveBuildType::CmdEvolveBuildType_KAPLENCCCBG => 1,
-            CmdEvolveBuildType::CmdEvolveBuildType_MCEJEKEECCN => 2,
-            CmdEvolveBuildType::CmdEvolveBuildType_HLPEAGKHMFL => 3,
-            CmdEvolveBuildType::CmdEvolveBuildType_PGGMADMLGEJ => 4,
-            CmdEvolveBuildType::CmdEvolveBuildType_JAGCJECMGML => 5,
-            CmdEvolveBuildType::CmdEvolveBuildType_PFAAKDMGMKC => 6,
-            CmdEvolveBuildType::CmdEvolveBuildType_MEACONLEBEG => 7,
-            CmdEvolveBuildType::CmdEvolveBuildType_NLKADELBGFK => 8,
-            CmdEvolveBuildType::CmdEvolveBuildType_OIJGLNHDFPP => 9,
-            CmdEvolveBuildType::CmdEvolveBuildType_LELOBDMGJDB => 10,
-            CmdEvolveBuildType::CmdEvolveBuildType_IEBFEDOMNKM => 11,
-            CmdEvolveBuildType::CmdEvolveBuildType_EMICHDMFBOF => 12,
-            CmdEvolveBuildType::CmdEvolveBuildType_IBPNCBPMFOE => 13,
-            CmdEvolveBuildType::CmdEvolveBuildType_LONNAFPGDHF => 14,
-            CmdEvolveBuildType::CmdEvolveBuildType_OBKJGAKFHFO => 15,
-            CmdEvolveBuildType::CmdEvolveBuildType_CBEPCLLEBMG => 16,
-            CmdEvolveBuildType::CmdEvolveBuildType_DAELCLFMPEN => 17,
-            CmdEvolveBuildType::CmdEvolveBuildType_GBPOGNFBNHP => 18,
-            CmdEvolveBuildType::CmdEvolveBuildType_JGCDHKNDKCN => 19,
-            CmdEvolveBuildType::CmdEvolveBuildType_EBHCKENHKON => 20,
-            CmdEvolveBuildType::CmdEvolveBuildType_DMALHBBDIBB => 21,
-            CmdEvolveBuildType::CmdEvolveBuildType_BHHNBMBNJOK => 22,
+            CmdEvolveBuildType::JDDDPNDFNIH_HOJEEPOEDHC => 0,
+            CmdEvolveBuildType::CmdEvolveBuildStartLevelScRsp => 1,
+            CmdEvolveBuildType::CmdEvolveBuildSkipTeachLevelScRsp => 2,
+            CmdEvolveBuildType::JDDDPNDFNIH_LFHECPEAEDC => 3,
+            CmdEvolveBuildType::CmdEvolveBuildSkipTeachLevelCsReq => 4,
+            CmdEvolveBuildType::CmdEvolveBuildStartStageCsReq => 5,
+            CmdEvolveBuildType::CmdEvolveBuildShopAbilityDownCsReq => 6,
+            CmdEvolveBuildType::CmdEvolveBuildShopAbilityUpCsReq => 7,
+            CmdEvolveBuildType::CmdGetEvolveBuildShopAbilityResetScRsp => 8,
+            CmdEvolveBuildType::CmdGetEvolveBuildShopAbilityDownScRsp => 9,
+            CmdEvolveBuildType::CmdGetEvolveBuildCoinNotify => 10,
+            CmdEvolveBuildType::CmdEvolveBuildStartLevelCsReq => 11,
+            CmdEvolveBuildType::CmdGetEvolveBuildShopAbilityUpScRsp => 12,
+            CmdEvolveBuildType::CmdEvolveBuildGiveupCsReq => 13,
+            CmdEvolveBuildType::CmdGetEvolveBuildQueryInfoScRsp => 14,
+            CmdEvolveBuildType::CmdGetEvolveBuildGiveupScRsp => 15,
+            CmdEvolveBuildType::CmdEvolveBuildShopAbilityResetCsReq => 16,
+            CmdEvolveBuildType::CmdEvolveBuildReRandomStageCsReq => 17,
+            CmdEvolveBuildType::CmdGetEvolveBuildFinishScNotify => 18,
+            CmdEvolveBuildType::CmdPCKNAJOFGLD => 19,
+            CmdEvolveBuildType::CmdEvolveBuildQueryInfoCsReq => 20,
+            CmdEvolveBuildType::CmdEvolveBuildStartStageScRsp => 21,
+            CmdEvolveBuildType::CmdGetEvolveBuildReRandomStageScRsp => 22,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -205,7 +205,7 @@ impl ::protobuf::EnumFull for CmdEvolveBuildType {
 
 impl ::std::default::Default for CmdEvolveBuildType {
     fn default() -> Self {
-        CmdEvolveBuildType::CmdEvolveBuildType_IINBLPOACOC
+        CmdEvolveBuildType::JDDDPNDFNIH_HOJEEPOEDHC
     }
 }
 
@@ -216,24 +216,23 @@ impl CmdEvolveBuildType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x18CmdEvolveBuildType.proto*\xe6\x06\n\x12CmdEvolveBuildType\x12\"\n\
-    \x1eCmdEvolveBuildType_IINBLPOACOC\x10\0\x12#\n\x1eCmdEvolveBuildType_KA\
-    PLENCCCBG\x10\xd87\x12#\n\x1eCmdEvolveBuildType_MCEJEKEECCN\x10\xbd7\x12\
-    #\n\x1eCmdEvolveBuildType_HLPEAGKHMFL\x10\xc87\x12#\n\x1eCmdEvolveBuildT\
-    ype_PGGMADMLGEJ\x10\xd47\x12#\n\x1eCmdEvolveBuildType_JAGCJECMGML\x10\
-    \xc37\x12#\n\x1eCmdEvolveBuildType_PFAAKDMGMKC\x10\xcf7\x12#\n\x1eCmdEvo\
-    lveBuildType_MEACONLEBEG\x10\xe47\x12#\n\x1eCmdEvolveBuildType_NLKADELBG\
-    FK\x10\xde7\x12#\n\x1eCmdEvolveBuildType_OIJGLNHDFPP\x10\xda7\x12#\n\x1e\
-    CmdEvolveBuildType_LELOBDMGJDB\x10\xc57\x12#\n\x1eCmdEvolveBuildType_IEB\
-    FEDOMNKM\x10\xca7\x12#\n\x1eCmdEvolveBuildType_EMICHDMFBOF\x10\xc47\x12#\
-    \n\x1eCmdEvolveBuildType_IBPNCBPMFOE\x10\xe57\x12#\n\x1eCmdEvolveBuildTy\
-    pe_LONNAFPGDHF\x10\xd97\x12#\n\x1eCmdEvolveBuildType_OBKJGAKFHFO\x10\xe2\
-    7\x12#\n\x1eCmdEvolveBuildType_CBEPCLLEBMG\x10\xc07\x12#\n\x1eCmdEvolveB\
-    uildType_DAELCLFMPEN\x10\xea7\x12#\n\x1eCmdEvolveBuildType_GBPOGNFBNHP\
-    \x10\xbe7\x12#\n\x1eCmdEvolveBuildType_JGCDHKNDKCN\x10\xd37\x12#\n\x1eCm\
-    dEvolveBuildType_EBHCKENHKON\x10\xbf7\x12#\n\x1eCmdEvolveBuildType_DMALH\
-    BBDIBB\x10\xe37\x12#\n\x1eCmdEvolveBuildType_BHHNBMBNJOK\x10\xce7b\x06pr\
-    oto3\
+    \n\x18CmdEvolveBuildType.proto*\xe6\x06\n\x12CmdEvolveBuildType\x12\x1b\
+    \n\x17JDDDPNDFNIH_HOJEEPOEDHC\x10\0\x12\"\n\x1dCmdEvolveBuildStartLevelS\
+    cRsp\x10\xd77\x12&\n!CmdEvolveBuildSkipTeachLevelScRsp\x10\xc57\x12\x1c\
+    \n\x17JDDDPNDFNIH_LFHECPEAEDC\x10\xeb7\x12&\n!CmdEvolveBuildSkipTeachLev\
+    elCsReq\x10\xdd7\x12\"\n\x1dCmdEvolveBuildStartStageCsReq\x10\xdf7\x12'\
+    \n\"CmdEvolveBuildShopAbilityDownCsReq\x10\xcc7\x12%\n\x20CmdEvolveBuild\
+    ShopAbilityUpCsReq\x10\xbf7\x12+\n&CmdGetEvolveBuildShopAbilityResetScRs\
+    p\x10\xc27\x12*\n%CmdGetEvolveBuildShopAbilityDownScRsp\x10\xdb7\x12\x20\
+    \n\x1bCmdGetEvolveBuildCoinNotify\x10\xd67\x12\"\n\x1dCmdEvolveBuildStar\
+    tLevelCsReq\x10\xda7\x12(\n#CmdGetEvolveBuildShopAbilityUpScRsp\x10\xee7\
+    \x12\x1e\n\x19CmdEvolveBuildGiveupCsReq\x10\xc17\x12$\n\x1fCmdGetEvolveB\
+    uildQueryInfoScRsp\x10\xc37\x12!\n\x1cCmdGetEvolveBuildGiveupScRsp\x10\
+    \xbd7\x12(\n#CmdEvolveBuildShopAbilityResetCsReq\x10\xcb7\x12%\n\x20CmdE\
+    volveBuildReRandomStageCsReq\x10\xe87\x12$\n\x1fCmdGetEvolveBuildFinishS\
+    cNotify\x10\xbe7\x12\x13\n\x0eCmdPCKNAJOFGLD\x10\xcf7\x12!\n\x1cCmdEvolv\
+    eBuildQueryInfoCsReq\x10\xc97\x12\"\n\x1dCmdEvolveBuildStartStageScRsp\
+    \x10\xe27\x12(\n#CmdGetEvolveBuildReRandomStageScRsp\x10\xce7b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

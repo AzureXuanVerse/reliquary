@@ -28,16 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ChenLingFinishBattleCsReq {
     // message fields
-    // @@protoc_insertion_point(field:ChenLingFinishBattleCsReq.NEMNKNEPEED)
-    pub NEMNKNEPEED: ::std::vec::Vec<super::MLNPJFEHDMP::MLNPJFEHDMP>,
+    // @@protoc_insertion_point(field:ChenLingFinishBattleCsReq.PJLADGOOFKE)
+    pub PJLADGOOFKE: u32,
     // @@protoc_insertion_point(field:ChenLingFinishBattleCsReq.is_win)
     pub is_win: bool,
-    // @@protoc_insertion_point(field:ChenLingFinishBattleCsReq.LCKDBDEOKBD)
-    pub LCKDBDEOKBD: u32,
-    // @@protoc_insertion_point(field:ChenLingFinishBattleCsReq.FNGCNJICGID)
-    pub FNGCNJICGID: u32,
-    // @@protoc_insertion_point(field:ChenLingFinishBattleCsReq.BOFGAPCJMHF)
-    pub BOFGAPCJMHF: u32,
+    // @@protoc_insertion_point(field:ChenLingFinishBattleCsReq.DKMPDLPEIJB)
+    pub DKMPDLPEIJB: u32,
+    // @@protoc_insertion_point(field:ChenLingFinishBattleCsReq.LMIICENMOBI)
+    pub LMIICENMOBI: u32,
+    // @@protoc_insertion_point(field:ChenLingFinishBattleCsReq.HAIOHANDIKI)
+    pub HAIOHANDIKI: ::std::vec::Vec<super::LKFNDAOGMMO::LKFNDAOGMMO>,
     // special fields
     // @@protoc_insertion_point(special_field:ChenLingFinishBattleCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,10 +57,10 @@ impl ChenLingFinishBattleCsReq {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "NEMNKNEPEED",
-            |m: &ChenLingFinishBattleCsReq| { &m.NEMNKNEPEED },
-            |m: &mut ChenLingFinishBattleCsReq| { &mut m.NEMNKNEPEED },
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "PJLADGOOFKE",
+            |m: &ChenLingFinishBattleCsReq| { &m.PJLADGOOFKE },
+            |m: &mut ChenLingFinishBattleCsReq| { &mut m.PJLADGOOFKE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "is_win",
@@ -68,19 +68,19 @@ impl ChenLingFinishBattleCsReq {
             |m: &mut ChenLingFinishBattleCsReq| { &mut m.is_win },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "LCKDBDEOKBD",
-            |m: &ChenLingFinishBattleCsReq| { &m.LCKDBDEOKBD },
-            |m: &mut ChenLingFinishBattleCsReq| { &mut m.LCKDBDEOKBD },
+            "DKMPDLPEIJB",
+            |m: &ChenLingFinishBattleCsReq| { &m.DKMPDLPEIJB },
+            |m: &mut ChenLingFinishBattleCsReq| { &mut m.DKMPDLPEIJB },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "FNGCNJICGID",
-            |m: &ChenLingFinishBattleCsReq| { &m.FNGCNJICGID },
-            |m: &mut ChenLingFinishBattleCsReq| { &mut m.FNGCNJICGID },
+            "LMIICENMOBI",
+            |m: &ChenLingFinishBattleCsReq| { &m.LMIICENMOBI },
+            |m: &mut ChenLingFinishBattleCsReq| { &mut m.LMIICENMOBI },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BOFGAPCJMHF",
-            |m: &ChenLingFinishBattleCsReq| { &m.BOFGAPCJMHF },
-            |m: &mut ChenLingFinishBattleCsReq| { &mut m.BOFGAPCJMHF },
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "HAIOHANDIKI",
+            |m: &ChenLingFinishBattleCsReq| { &m.HAIOHANDIKI },
+            |m: &mut ChenLingFinishBattleCsReq| { &mut m.HAIOHANDIKI },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ChenLingFinishBattleCsReq>(
             "ChenLingFinishBattleCsReq",
@@ -100,20 +100,20 @@ impl ::protobuf::Message for ChenLingFinishBattleCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                58 => {
-                    self.NEMNKNEPEED.push(is.read_message()?);
+                48 => {
+                    self.PJLADGOOFKE = is.read_uint32()?;
                 },
-                8 => {
+                112 => {
                     self.is_win = is.read_bool()?;
                 },
-                96 => {
-                    self.LCKDBDEOKBD = is.read_uint32()?;
+                64 => {
+                    self.DKMPDLPEIJB = is.read_uint32()?;
                 },
-                24 => {
-                    self.FNGCNJICGID = is.read_uint32()?;
+                80 => {
+                    self.LMIICENMOBI = is.read_uint32()?;
                 },
-                16 => {
-                    self.BOFGAPCJMHF = is.read_uint32()?;
+                74 => {
+                    self.HAIOHANDIKI.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -127,43 +127,43 @@ impl ::protobuf::Message for ChenLingFinishBattleCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        for value in &self.NEMNKNEPEED {
-            let len = value.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        };
+        if self.PJLADGOOFKE != 0 {
+            my_size += ::protobuf::rt::uint32_size(6, self.PJLADGOOFKE);
+        }
         if self.is_win != false {
             my_size += 1 + 1;
         }
-        if self.LCKDBDEOKBD != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.LCKDBDEOKBD);
+        if self.DKMPDLPEIJB != 0 {
+            my_size += ::protobuf::rt::uint32_size(8, self.DKMPDLPEIJB);
         }
-        if self.FNGCNJICGID != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.FNGCNJICGID);
+        if self.LMIICENMOBI != 0 {
+            my_size += ::protobuf::rt::uint32_size(10, self.LMIICENMOBI);
         }
-        if self.BOFGAPCJMHF != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.BOFGAPCJMHF);
-        }
+        for value in &self.HAIOHANDIKI {
+            let len = value.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        };
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.NEMNKNEPEED {
-            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
-        };
+        if self.PJLADGOOFKE != 0 {
+            os.write_uint32(6, self.PJLADGOOFKE)?;
+        }
         if self.is_win != false {
-            os.write_bool(1, self.is_win)?;
+            os.write_bool(14, self.is_win)?;
         }
-        if self.LCKDBDEOKBD != 0 {
-            os.write_uint32(12, self.LCKDBDEOKBD)?;
+        if self.DKMPDLPEIJB != 0 {
+            os.write_uint32(8, self.DKMPDLPEIJB)?;
         }
-        if self.FNGCNJICGID != 0 {
-            os.write_uint32(3, self.FNGCNJICGID)?;
+        if self.LMIICENMOBI != 0 {
+            os.write_uint32(10, self.LMIICENMOBI)?;
         }
-        if self.BOFGAPCJMHF != 0 {
-            os.write_uint32(2, self.BOFGAPCJMHF)?;
-        }
+        for v in &self.HAIOHANDIKI {
+            ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
+        };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -181,21 +181,21 @@ impl ::protobuf::Message for ChenLingFinishBattleCsReq {
     }
 
     fn clear(&mut self) {
-        self.NEMNKNEPEED.clear();
+        self.PJLADGOOFKE = 0;
         self.is_win = false;
-        self.LCKDBDEOKBD = 0;
-        self.FNGCNJICGID = 0;
-        self.BOFGAPCJMHF = 0;
+        self.DKMPDLPEIJB = 0;
+        self.LMIICENMOBI = 0;
+        self.HAIOHANDIKI.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ChenLingFinishBattleCsReq {
         static instance: ChenLingFinishBattleCsReq = ChenLingFinishBattleCsReq {
-            NEMNKNEPEED: ::std::vec::Vec::new(),
+            PJLADGOOFKE: 0,
             is_win: false,
-            LCKDBDEOKBD: 0,
-            FNGCNJICGID: 0,
-            BOFGAPCJMHF: 0,
+            DKMPDLPEIJB: 0,
+            LMIICENMOBI: 0,
+            HAIOHANDIKI: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -220,12 +220,12 @@ impl ::protobuf::reflect::ProtobufValue for ChenLingFinishBattleCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1fChenLingFinishBattleCsReq.proto\x1a\x11MLNPJFEHDMP.proto\"\xc8\x01\
-    \n\x19ChenLingFinishBattleCsReq\x12.\n\x0bNEMNKNEPEED\x18\x07\x20\x03(\
-    \x0b2\x0c.MLNPJFEHDMPR\x0bNEMNKNEPEED\x12\x15\n\x06is_win\x18\x01\x20\
-    \x01(\x08R\x05isWin\x12\x20\n\x0bLCKDBDEOKBD\x18\x0c\x20\x01(\rR\x0bLCKD\
-    BDEOKBD\x12\x20\n\x0bFNGCNJICGID\x18\x03\x20\x01(\rR\x0bFNGCNJICGID\x12\
-    \x20\n\x0bBOFGAPCJMHF\x18\x02\x20\x01(\rR\x0bBOFGAPCJMHFb\x06proto3\
+    \n\x1fChenLingFinishBattleCsReq.proto\x1a\x11LKFNDAOGMMO.proto\"\xc8\x01\
+    \n\x19ChenLingFinishBattleCsReq\x12\x20\n\x0bPJLADGOOFKE\x18\x06\x20\x01\
+    (\rR\x0bPJLADGOOFKE\x12\x15\n\x06is_win\x18\x0e\x20\x01(\x08R\x05isWin\
+    \x12\x20\n\x0bDKMPDLPEIJB\x18\x08\x20\x01(\rR\x0bDKMPDLPEIJB\x12\x20\n\
+    \x0bLMIICENMOBI\x18\n\x20\x01(\rR\x0bLMIICENMOBI\x12.\n\x0bHAIOHANDIKI\
+    \x18\t\x20\x03(\x0b2\x0c.LKFNDAOGMMOR\x0bHAIOHANDIKIb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -243,7 +243,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::MLNPJFEHDMP::file_descriptor().clone());
+            deps.push(super::LKFNDAOGMMO::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(ChenLingFinishBattleCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

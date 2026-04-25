@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ChessRogueNousEnableRogueTalentCsReq {
     // message fields
-    // @@protoc_insertion_point(field:ChessRogueNousEnableRogueTalentCsReq.EHAJMKFJCCM)
-    pub EHAJMKFJCCM: u32,
+    // @@protoc_insertion_point(field:ChessRogueNousEnableRogueTalentCsReq.KFJEMIOJLPJ)
+    pub KFJEMIOJLPJ: u32,
     // special fields
     // @@protoc_insertion_point(special_field:ChessRogueNousEnableRogueTalentCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl ChessRogueNousEnableRogueTalentCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "EHAJMKFJCCM",
-            |m: &ChessRogueNousEnableRogueTalentCsReq| { &m.EHAJMKFJCCM },
-            |m: &mut ChessRogueNousEnableRogueTalentCsReq| { &mut m.EHAJMKFJCCM },
+            "KFJEMIOJLPJ",
+            |m: &ChessRogueNousEnableRogueTalentCsReq| { &m.KFJEMIOJLPJ },
+            |m: &mut ChessRogueNousEnableRogueTalentCsReq| { &mut m.KFJEMIOJLPJ },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ChessRogueNousEnableRogueTalentCsReq>(
             "ChessRogueNousEnableRogueTalentCsReq",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for ChessRogueNousEnableRogueTalentCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                8 => {
-                    self.EHAJMKFJCCM = is.read_uint32()?;
+                48 => {
+                    self.KFJEMIOJLPJ = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,8 +87,8 @@ impl ::protobuf::Message for ChessRogueNousEnableRogueTalentCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.EHAJMKFJCCM != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.EHAJMKFJCCM);
+        if self.KFJEMIOJLPJ != 0 {
+            my_size += ::protobuf::rt::uint32_size(6, self.KFJEMIOJLPJ);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -96,8 +96,8 @@ impl ::protobuf::Message for ChessRogueNousEnableRogueTalentCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.EHAJMKFJCCM != 0 {
-            os.write_uint32(1, self.EHAJMKFJCCM)?;
+        if self.KFJEMIOJLPJ != 0 {
+            os.write_uint32(6, self.KFJEMIOJLPJ)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -116,13 +116,13 @@ impl ::protobuf::Message for ChessRogueNousEnableRogueTalentCsReq {
     }
 
     fn clear(&mut self) {
-        self.EHAJMKFJCCM = 0;
+        self.KFJEMIOJLPJ = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ChessRogueNousEnableRogueTalentCsReq {
         static instance: ChessRogueNousEnableRogueTalentCsReq = ChessRogueNousEnableRogueTalentCsReq {
-            EHAJMKFJCCM: 0,
+            KFJEMIOJLPJ: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -148,8 +148,8 @@ impl ::protobuf::reflect::ProtobufValue for ChessRogueNousEnableRogueTalentCsReq
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n*ChessRogueNousEnableRogueTalentCsReq.proto\"H\n$ChessRogueNousEnableR\
-    ogueTalentCsReq\x12\x20\n\x0bEHAJMKFJCCM\x18\x01\x20\x01(\rR\x0bEHAJMKFJ\
-    CCMb\x06proto3\
+    ogueTalentCsReq\x12\x20\n\x0bKFJEMIOJLPJ\x18\x06\x20\x01(\rR\x0bKFJEMIOJ\
+    LPJb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

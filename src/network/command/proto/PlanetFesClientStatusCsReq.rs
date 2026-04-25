@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct PlanetFesClientStatusCsReq {
     // message fields
-    // @@protoc_insertion_point(field:PlanetFesClientStatusCsReq.IJKNMJIMHFL)
-    pub IJKNMJIMHFL: bool,
+    // @@protoc_insertion_point(field:PlanetFesClientStatusCsReq.HCBEDECLAIC)
+    pub HCBEDECLAIC: bool,
     // special fields
     // @@protoc_insertion_point(special_field:PlanetFesClientStatusCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl PlanetFesClientStatusCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "IJKNMJIMHFL",
-            |m: &PlanetFesClientStatusCsReq| { &m.IJKNMJIMHFL },
-            |m: &mut PlanetFesClientStatusCsReq| { &mut m.IJKNMJIMHFL },
+            "HCBEDECLAIC",
+            |m: &PlanetFesClientStatusCsReq| { &m.HCBEDECLAIC },
+            |m: &mut PlanetFesClientStatusCsReq| { &mut m.HCBEDECLAIC },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<PlanetFesClientStatusCsReq>(
             "PlanetFesClientStatusCsReq",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for PlanetFesClientStatusCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                72 => {
-                    self.IJKNMJIMHFL = is.read_bool()?;
+                8 => {
+                    self.HCBEDECLAIC = is.read_bool()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,7 +87,7 @@ impl ::protobuf::Message for PlanetFesClientStatusCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.IJKNMJIMHFL != false {
+        if self.HCBEDECLAIC != false {
             my_size += 1 + 1;
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
@@ -96,8 +96,8 @@ impl ::protobuf::Message for PlanetFesClientStatusCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.IJKNMJIMHFL != false {
-            os.write_bool(9, self.IJKNMJIMHFL)?;
+        if self.HCBEDECLAIC != false {
+            os.write_bool(1, self.HCBEDECLAIC)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -116,13 +116,13 @@ impl ::protobuf::Message for PlanetFesClientStatusCsReq {
     }
 
     fn clear(&mut self) {
-        self.IJKNMJIMHFL = false;
+        self.HCBEDECLAIC = false;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static PlanetFesClientStatusCsReq {
         static instance: PlanetFesClientStatusCsReq = PlanetFesClientStatusCsReq {
-            IJKNMJIMHFL: false,
+            HCBEDECLAIC: false,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -148,7 +148,8 @@ impl ::protobuf::reflect::ProtobufValue for PlanetFesClientStatusCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x20PlanetFesClientStatusCsReq.proto\">\n\x1aPlanetFesClientStatusCsRe\
-    q\x12\x20\n\x0bIJKNMJIMHFL\x18\t\x20\x01(\x08R\x0bIJKNMJIMHFLb\x06proto3\
+    q\x12\x20\n\x0bHCBEDECLAIC\x18\x01\x20\x01(\x08R\x0bHCBEDECLAICb\x06prot\
+    o3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

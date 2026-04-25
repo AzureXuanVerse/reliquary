@@ -27,48 +27,48 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdMapRotationType)
 pub enum CmdMapRotationType {
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_MNFEPONEDDJ)
-    CmdMapRotationType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_PJIPBKEABEN)
-    CmdMapRotationType_PJIPBKEABEN = 6819,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_CJFPPCPDAEK)
-    CmdMapRotationType_CJFPPCPDAEK = 6824,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_MPENIJFDDAC)
-    CmdMapRotationType_MPENIJFDDAC = 6804,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_HLLHDOOJGJG)
-    CmdMapRotationType_HLLHDOOJGJG = 6888,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_MKCPAHAFBPJ)
-    CmdMapRotationType_MKCPAHAFBPJ = 6813,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_EHPCLFMLNJO)
-    CmdMapRotationType_EHPCLFMLNJO = 6856,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_NPPPIJEMEPH)
-    CmdMapRotationType_NPPPIJEMEPH = 6884,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_NBBEIOFLIKA)
-    CmdMapRotationType_NBBEIOFLIKA = 6869,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_IAIEFKEMDKA)
-    CmdMapRotationType_IAIEFKEMDKA = 6840,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_JFAJHLNCAAA)
-    CmdMapRotationType_JFAJHLNCAAA = 6881,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_IMBGOJAMAHC)
-    CmdMapRotationType_IMBGOJAMAHC = 6834,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_IFIPBPNIJCO)
-    CmdMapRotationType_IFIPBPNIJCO = 6857,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_BCBNHIPDING)
-    CmdMapRotationType_BCBNHIPDING = 6883,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_BIDFGPPDGML)
-    CmdMapRotationType_BIDFGPPDGML = 6886,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_AMOBMLGMKLC)
-    CmdMapRotationType_AMOBMLGMKLC = 6862,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_KAFKJLHMNGD)
-    CmdMapRotationType_KAFKJLHMNGD = 6823,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_CAIMLGCJPDL)
-    CmdMapRotationType_CAIMLGCJPDL = 6900,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_HCBECMPICCM)
-    CmdMapRotationType_HCBECMPICCM = 6835,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_MKFPFJMBGDM)
-    CmdMapRotationType_MKFPFJMBGDM = 6848,
-    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdMapRotationType_LPIAKJLHBEH)
-    CmdMapRotationType_LPIAKJLHBEH = 6846,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.BCLPPGOKGGC_PCPDHELPKEM)
+    BCLPPGOKGGC_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdPLIEDJPPCPF)
+    CmdPLIEDJPPCPF = 6810,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdGetMapRotationDataCsReq)
+    CmdGetMapRotationDataCsReq = 6839,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdDHKGDFNBKDD)
+    CmdDHKGDFNBKDD = 6872,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdRemoveRotatorCsReq)
+    CmdRemoveRotatorCsReq = 6832,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdBHKJAFGHMID)
+    CmdBHKJAFGHMID = 6833,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdResetMapRotationRegionCsReq)
+    CmdResetMapRotationRegionCsReq = 6874,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdGDFPENLOOFL)
+    CmdGDFPENLOOFL = 6804,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdRotateMapCsReq)
+    CmdRotateMapCsReq = 6809,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdJDLDLGJPNEO)
+    CmdJDLDLGJPNEO = 6837,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdIBFANGLHMEA)
+    CmdIBFANGLHMEA = 6898,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdLeaveMapRotationRegionCsReq)
+    CmdLeaveMapRotationRegionCsReq = 6863,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdJMGMOACPCCH)
+    CmdJMGMOACPCCH = 6818,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdGAEJBMCFBMJ)
+    CmdGAEJBMCFBMJ = 6895,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdOMPICHHJDKO)
+    CmdOMPICHHJDKO = 6838,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdEnterMapRotationRegionCsReq)
+    CmdEnterMapRotationRegionCsReq = 6891,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdDeployRotatorCsReq)
+    CmdDeployRotatorCsReq = 6814,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdGOKDLLADELB)
+    CmdGOKDLLADELB = 6861,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdInteractChargerCsReq)
+    CmdInteractChargerCsReq = 6894,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdCEMJJCNMCBI)
+    CmdCEMJJCNMCBI = 6826,
+    // @@protoc_insertion_point(enum_value:CmdMapRotationType.CmdJMMCBDAGEKP)
+    CmdJMMCBDAGEKP = 6801,
 }
 
 impl ::protobuf::Enum for CmdMapRotationType {
@@ -80,80 +80,80 @@ impl ::protobuf::Enum for CmdMapRotationType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdMapRotationType> {
         match value {
-            0 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_MNFEPONEDDJ),
-            6819 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_PJIPBKEABEN),
-            6824 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_CJFPPCPDAEK),
-            6804 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_MPENIJFDDAC),
-            6888 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_HLLHDOOJGJG),
-            6813 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_MKCPAHAFBPJ),
-            6856 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_EHPCLFMLNJO),
-            6884 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_NPPPIJEMEPH),
-            6869 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_NBBEIOFLIKA),
-            6840 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_IAIEFKEMDKA),
-            6881 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_JFAJHLNCAAA),
-            6834 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_IMBGOJAMAHC),
-            6857 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_IFIPBPNIJCO),
-            6883 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_BCBNHIPDING),
-            6886 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_BIDFGPPDGML),
-            6862 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_AMOBMLGMKLC),
-            6823 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_KAFKJLHMNGD),
-            6900 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_CAIMLGCJPDL),
-            6835 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_HCBECMPICCM),
-            6848 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_MKFPFJMBGDM),
-            6846 => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_LPIAKJLHBEH),
+            0 => ::std::option::Option::Some(CmdMapRotationType::BCLPPGOKGGC_PCPDHELPKEM),
+            6810 => ::std::option::Option::Some(CmdMapRotationType::CmdPLIEDJPPCPF),
+            6839 => ::std::option::Option::Some(CmdMapRotationType::CmdGetMapRotationDataCsReq),
+            6872 => ::std::option::Option::Some(CmdMapRotationType::CmdDHKGDFNBKDD),
+            6832 => ::std::option::Option::Some(CmdMapRotationType::CmdRemoveRotatorCsReq),
+            6833 => ::std::option::Option::Some(CmdMapRotationType::CmdBHKJAFGHMID),
+            6874 => ::std::option::Option::Some(CmdMapRotationType::CmdResetMapRotationRegionCsReq),
+            6804 => ::std::option::Option::Some(CmdMapRotationType::CmdGDFPENLOOFL),
+            6809 => ::std::option::Option::Some(CmdMapRotationType::CmdRotateMapCsReq),
+            6837 => ::std::option::Option::Some(CmdMapRotationType::CmdJDLDLGJPNEO),
+            6898 => ::std::option::Option::Some(CmdMapRotationType::CmdIBFANGLHMEA),
+            6863 => ::std::option::Option::Some(CmdMapRotationType::CmdLeaveMapRotationRegionCsReq),
+            6818 => ::std::option::Option::Some(CmdMapRotationType::CmdJMGMOACPCCH),
+            6895 => ::std::option::Option::Some(CmdMapRotationType::CmdGAEJBMCFBMJ),
+            6838 => ::std::option::Option::Some(CmdMapRotationType::CmdOMPICHHJDKO),
+            6891 => ::std::option::Option::Some(CmdMapRotationType::CmdEnterMapRotationRegionCsReq),
+            6814 => ::std::option::Option::Some(CmdMapRotationType::CmdDeployRotatorCsReq),
+            6861 => ::std::option::Option::Some(CmdMapRotationType::CmdGOKDLLADELB),
+            6894 => ::std::option::Option::Some(CmdMapRotationType::CmdInteractChargerCsReq),
+            6826 => ::std::option::Option::Some(CmdMapRotationType::CmdCEMJJCNMCBI),
+            6801 => ::std::option::Option::Some(CmdMapRotationType::CmdJMMCBDAGEKP),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdMapRotationType> {
         match str {
-            "CmdMapRotationType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_MNFEPONEDDJ),
-            "CmdMapRotationType_PJIPBKEABEN" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_PJIPBKEABEN),
-            "CmdMapRotationType_CJFPPCPDAEK" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_CJFPPCPDAEK),
-            "CmdMapRotationType_MPENIJFDDAC" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_MPENIJFDDAC),
-            "CmdMapRotationType_HLLHDOOJGJG" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_HLLHDOOJGJG),
-            "CmdMapRotationType_MKCPAHAFBPJ" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_MKCPAHAFBPJ),
-            "CmdMapRotationType_EHPCLFMLNJO" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_EHPCLFMLNJO),
-            "CmdMapRotationType_NPPPIJEMEPH" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_NPPPIJEMEPH),
-            "CmdMapRotationType_NBBEIOFLIKA" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_NBBEIOFLIKA),
-            "CmdMapRotationType_IAIEFKEMDKA" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_IAIEFKEMDKA),
-            "CmdMapRotationType_JFAJHLNCAAA" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_JFAJHLNCAAA),
-            "CmdMapRotationType_IMBGOJAMAHC" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_IMBGOJAMAHC),
-            "CmdMapRotationType_IFIPBPNIJCO" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_IFIPBPNIJCO),
-            "CmdMapRotationType_BCBNHIPDING" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_BCBNHIPDING),
-            "CmdMapRotationType_BIDFGPPDGML" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_BIDFGPPDGML),
-            "CmdMapRotationType_AMOBMLGMKLC" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_AMOBMLGMKLC),
-            "CmdMapRotationType_KAFKJLHMNGD" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_KAFKJLHMNGD),
-            "CmdMapRotationType_CAIMLGCJPDL" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_CAIMLGCJPDL),
-            "CmdMapRotationType_HCBECMPICCM" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_HCBECMPICCM),
-            "CmdMapRotationType_MKFPFJMBGDM" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_MKFPFJMBGDM),
-            "CmdMapRotationType_LPIAKJLHBEH" => ::std::option::Option::Some(CmdMapRotationType::CmdMapRotationType_LPIAKJLHBEH),
+            "BCLPPGOKGGC_PCPDHELPKEM" => ::std::option::Option::Some(CmdMapRotationType::BCLPPGOKGGC_PCPDHELPKEM),
+            "CmdPLIEDJPPCPF" => ::std::option::Option::Some(CmdMapRotationType::CmdPLIEDJPPCPF),
+            "CmdGetMapRotationDataCsReq" => ::std::option::Option::Some(CmdMapRotationType::CmdGetMapRotationDataCsReq),
+            "CmdDHKGDFNBKDD" => ::std::option::Option::Some(CmdMapRotationType::CmdDHKGDFNBKDD),
+            "CmdRemoveRotatorCsReq" => ::std::option::Option::Some(CmdMapRotationType::CmdRemoveRotatorCsReq),
+            "CmdBHKJAFGHMID" => ::std::option::Option::Some(CmdMapRotationType::CmdBHKJAFGHMID),
+            "CmdResetMapRotationRegionCsReq" => ::std::option::Option::Some(CmdMapRotationType::CmdResetMapRotationRegionCsReq),
+            "CmdGDFPENLOOFL" => ::std::option::Option::Some(CmdMapRotationType::CmdGDFPENLOOFL),
+            "CmdRotateMapCsReq" => ::std::option::Option::Some(CmdMapRotationType::CmdRotateMapCsReq),
+            "CmdJDLDLGJPNEO" => ::std::option::Option::Some(CmdMapRotationType::CmdJDLDLGJPNEO),
+            "CmdIBFANGLHMEA" => ::std::option::Option::Some(CmdMapRotationType::CmdIBFANGLHMEA),
+            "CmdLeaveMapRotationRegionCsReq" => ::std::option::Option::Some(CmdMapRotationType::CmdLeaveMapRotationRegionCsReq),
+            "CmdJMGMOACPCCH" => ::std::option::Option::Some(CmdMapRotationType::CmdJMGMOACPCCH),
+            "CmdGAEJBMCFBMJ" => ::std::option::Option::Some(CmdMapRotationType::CmdGAEJBMCFBMJ),
+            "CmdOMPICHHJDKO" => ::std::option::Option::Some(CmdMapRotationType::CmdOMPICHHJDKO),
+            "CmdEnterMapRotationRegionCsReq" => ::std::option::Option::Some(CmdMapRotationType::CmdEnterMapRotationRegionCsReq),
+            "CmdDeployRotatorCsReq" => ::std::option::Option::Some(CmdMapRotationType::CmdDeployRotatorCsReq),
+            "CmdGOKDLLADELB" => ::std::option::Option::Some(CmdMapRotationType::CmdGOKDLLADELB),
+            "CmdInteractChargerCsReq" => ::std::option::Option::Some(CmdMapRotationType::CmdInteractChargerCsReq),
+            "CmdCEMJJCNMCBI" => ::std::option::Option::Some(CmdMapRotationType::CmdCEMJJCNMCBI),
+            "CmdJMMCBDAGEKP" => ::std::option::Option::Some(CmdMapRotationType::CmdJMMCBDAGEKP),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdMapRotationType] = &[
-        CmdMapRotationType::CmdMapRotationType_MNFEPONEDDJ,
-        CmdMapRotationType::CmdMapRotationType_PJIPBKEABEN,
-        CmdMapRotationType::CmdMapRotationType_CJFPPCPDAEK,
-        CmdMapRotationType::CmdMapRotationType_MPENIJFDDAC,
-        CmdMapRotationType::CmdMapRotationType_HLLHDOOJGJG,
-        CmdMapRotationType::CmdMapRotationType_MKCPAHAFBPJ,
-        CmdMapRotationType::CmdMapRotationType_EHPCLFMLNJO,
-        CmdMapRotationType::CmdMapRotationType_NPPPIJEMEPH,
-        CmdMapRotationType::CmdMapRotationType_NBBEIOFLIKA,
-        CmdMapRotationType::CmdMapRotationType_IAIEFKEMDKA,
-        CmdMapRotationType::CmdMapRotationType_JFAJHLNCAAA,
-        CmdMapRotationType::CmdMapRotationType_IMBGOJAMAHC,
-        CmdMapRotationType::CmdMapRotationType_IFIPBPNIJCO,
-        CmdMapRotationType::CmdMapRotationType_BCBNHIPDING,
-        CmdMapRotationType::CmdMapRotationType_BIDFGPPDGML,
-        CmdMapRotationType::CmdMapRotationType_AMOBMLGMKLC,
-        CmdMapRotationType::CmdMapRotationType_KAFKJLHMNGD,
-        CmdMapRotationType::CmdMapRotationType_CAIMLGCJPDL,
-        CmdMapRotationType::CmdMapRotationType_HCBECMPICCM,
-        CmdMapRotationType::CmdMapRotationType_MKFPFJMBGDM,
-        CmdMapRotationType::CmdMapRotationType_LPIAKJLHBEH,
+        CmdMapRotationType::BCLPPGOKGGC_PCPDHELPKEM,
+        CmdMapRotationType::CmdPLIEDJPPCPF,
+        CmdMapRotationType::CmdGetMapRotationDataCsReq,
+        CmdMapRotationType::CmdDHKGDFNBKDD,
+        CmdMapRotationType::CmdRemoveRotatorCsReq,
+        CmdMapRotationType::CmdBHKJAFGHMID,
+        CmdMapRotationType::CmdResetMapRotationRegionCsReq,
+        CmdMapRotationType::CmdGDFPENLOOFL,
+        CmdMapRotationType::CmdRotateMapCsReq,
+        CmdMapRotationType::CmdJDLDLGJPNEO,
+        CmdMapRotationType::CmdIBFANGLHMEA,
+        CmdMapRotationType::CmdLeaveMapRotationRegionCsReq,
+        CmdMapRotationType::CmdJMGMOACPCCH,
+        CmdMapRotationType::CmdGAEJBMCFBMJ,
+        CmdMapRotationType::CmdOMPICHHJDKO,
+        CmdMapRotationType::CmdEnterMapRotationRegionCsReq,
+        CmdMapRotationType::CmdDeployRotatorCsReq,
+        CmdMapRotationType::CmdGOKDLLADELB,
+        CmdMapRotationType::CmdInteractChargerCsReq,
+        CmdMapRotationType::CmdCEMJJCNMCBI,
+        CmdMapRotationType::CmdJMMCBDAGEKP,
     ];
 }
 
@@ -165,27 +165,27 @@ impl ::protobuf::EnumFull for CmdMapRotationType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdMapRotationType::CmdMapRotationType_MNFEPONEDDJ => 0,
-            CmdMapRotationType::CmdMapRotationType_PJIPBKEABEN => 1,
-            CmdMapRotationType::CmdMapRotationType_CJFPPCPDAEK => 2,
-            CmdMapRotationType::CmdMapRotationType_MPENIJFDDAC => 3,
-            CmdMapRotationType::CmdMapRotationType_HLLHDOOJGJG => 4,
-            CmdMapRotationType::CmdMapRotationType_MKCPAHAFBPJ => 5,
-            CmdMapRotationType::CmdMapRotationType_EHPCLFMLNJO => 6,
-            CmdMapRotationType::CmdMapRotationType_NPPPIJEMEPH => 7,
-            CmdMapRotationType::CmdMapRotationType_NBBEIOFLIKA => 8,
-            CmdMapRotationType::CmdMapRotationType_IAIEFKEMDKA => 9,
-            CmdMapRotationType::CmdMapRotationType_JFAJHLNCAAA => 10,
-            CmdMapRotationType::CmdMapRotationType_IMBGOJAMAHC => 11,
-            CmdMapRotationType::CmdMapRotationType_IFIPBPNIJCO => 12,
-            CmdMapRotationType::CmdMapRotationType_BCBNHIPDING => 13,
-            CmdMapRotationType::CmdMapRotationType_BIDFGPPDGML => 14,
-            CmdMapRotationType::CmdMapRotationType_AMOBMLGMKLC => 15,
-            CmdMapRotationType::CmdMapRotationType_KAFKJLHMNGD => 16,
-            CmdMapRotationType::CmdMapRotationType_CAIMLGCJPDL => 17,
-            CmdMapRotationType::CmdMapRotationType_HCBECMPICCM => 18,
-            CmdMapRotationType::CmdMapRotationType_MKFPFJMBGDM => 19,
-            CmdMapRotationType::CmdMapRotationType_LPIAKJLHBEH => 20,
+            CmdMapRotationType::BCLPPGOKGGC_PCPDHELPKEM => 0,
+            CmdMapRotationType::CmdPLIEDJPPCPF => 1,
+            CmdMapRotationType::CmdGetMapRotationDataCsReq => 2,
+            CmdMapRotationType::CmdDHKGDFNBKDD => 3,
+            CmdMapRotationType::CmdRemoveRotatorCsReq => 4,
+            CmdMapRotationType::CmdBHKJAFGHMID => 5,
+            CmdMapRotationType::CmdResetMapRotationRegionCsReq => 6,
+            CmdMapRotationType::CmdGDFPENLOOFL => 7,
+            CmdMapRotationType::CmdRotateMapCsReq => 8,
+            CmdMapRotationType::CmdJDLDLGJPNEO => 9,
+            CmdMapRotationType::CmdIBFANGLHMEA => 10,
+            CmdMapRotationType::CmdLeaveMapRotationRegionCsReq => 11,
+            CmdMapRotationType::CmdJMGMOACPCCH => 12,
+            CmdMapRotationType::CmdGAEJBMCFBMJ => 13,
+            CmdMapRotationType::CmdOMPICHHJDKO => 14,
+            CmdMapRotationType::CmdEnterMapRotationRegionCsReq => 15,
+            CmdMapRotationType::CmdDeployRotatorCsReq => 16,
+            CmdMapRotationType::CmdGOKDLLADELB => 17,
+            CmdMapRotationType::CmdInteractChargerCsReq => 18,
+            CmdMapRotationType::CmdCEMJJCNMCBI => 19,
+            CmdMapRotationType::CmdJMMCBDAGEKP => 20,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -193,7 +193,7 @@ impl ::protobuf::EnumFull for CmdMapRotationType {
 
 impl ::std::default::Default for CmdMapRotationType {
     fn default() -> Self {
-        CmdMapRotationType::CmdMapRotationType_MNFEPONEDDJ
+        CmdMapRotationType::BCLPPGOKGGC_PCPDHELPKEM
     }
 }
 
@@ -204,22 +204,20 @@ impl CmdMapRotationType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x18CmdMapRotationType.proto*\x9c\x06\n\x12CmdMapRotationType\x12\"\n\
-    \x1eCmdMapRotationType_MNFEPONEDDJ\x10\0\x12#\n\x1eCmdMapRotationType_PJ\
-    IPBKEABEN\x10\xa35\x12#\n\x1eCmdMapRotationType_CJFPPCPDAEK\x10\xa85\x12\
-    #\n\x1eCmdMapRotationType_MPENIJFDDAC\x10\x945\x12#\n\x1eCmdMapRotationT\
-    ype_HLLHDOOJGJG\x10\xe85\x12#\n\x1eCmdMapRotationType_MKCPAHAFBPJ\x10\
-    \x9d5\x12#\n\x1eCmdMapRotationType_EHPCLFMLNJO\x10\xc85\x12#\n\x1eCmdMap\
-    RotationType_NPPPIJEMEPH\x10\xe45\x12#\n\x1eCmdMapRotationType_NBBEIOFLI\
-    KA\x10\xd55\x12#\n\x1eCmdMapRotationType_IAIEFKEMDKA\x10\xb85\x12#\n\x1e\
-    CmdMapRotationType_JFAJHLNCAAA\x10\xe15\x12#\n\x1eCmdMapRotationType_IMB\
-    GOJAMAHC\x10\xb25\x12#\n\x1eCmdMapRotationType_IFIPBPNIJCO\x10\xc95\x12#\
-    \n\x1eCmdMapRotationType_BCBNHIPDING\x10\xe35\x12#\n\x1eCmdMapRotationTy\
-    pe_BIDFGPPDGML\x10\xe65\x12#\n\x1eCmdMapRotationType_AMOBMLGMKLC\x10\xce\
-    5\x12#\n\x1eCmdMapRotationType_KAFKJLHMNGD\x10\xa75\x12#\n\x1eCmdMapRota\
-    tionType_CAIMLGCJPDL\x10\xf45\x12#\n\x1eCmdMapRotationType_HCBECMPICCM\
-    \x10\xb35\x12#\n\x1eCmdMapRotationType_MKFPFJMBGDM\x10\xc05\x12#\n\x1eCm\
-    dMapRotationType_LPIAKJLHBEH\x10\xbe5b\x06proto3\
+    \n\x18CmdMapRotationType.proto*\xab\x04\n\x12CmdMapRotationType\x12\x1b\
+    \n\x17BCLPPGOKGGC_PCPDHELPKEM\x10\0\x12\x13\n\x0eCmdPLIEDJPPCPF\x10\x9a5\
+    \x12\x1f\n\x1aCmdGetMapRotationDataCsReq\x10\xb75\x12\x13\n\x0eCmdDHKGDF\
+    NBKDD\x10\xd85\x12\x1a\n\x15CmdRemoveRotatorCsReq\x10\xb05\x12\x13\n\x0e\
+    CmdBHKJAFGHMID\x10\xb15\x12#\n\x1eCmdResetMapRotationRegionCsReq\x10\xda\
+    5\x12\x13\n\x0eCmdGDFPENLOOFL\x10\x945\x12\x16\n\x11CmdRotateMapCsReq\
+    \x10\x995\x12\x13\n\x0eCmdJDLDLGJPNEO\x10\xb55\x12\x13\n\x0eCmdIBFANGLHM\
+    EA\x10\xf25\x12#\n\x1eCmdLeaveMapRotationRegionCsReq\x10\xcf5\x12\x13\n\
+    \x0eCmdJMGMOACPCCH\x10\xa25\x12\x13\n\x0eCmdGAEJBMCFBMJ\x10\xef5\x12\x13\
+    \n\x0eCmdOMPICHHJDKO\x10\xb65\x12#\n\x1eCmdEnterMapRotationRegionCsReq\
+    \x10\xeb5\x12\x1a\n\x15CmdDeployRotatorCsReq\x10\x9e5\x12\x13\n\x0eCmdGO\
+    KDLLADELB\x10\xcd5\x12\x1c\n\x17CmdInteractChargerCsReq\x10\xee5\x12\x13\
+    \n\x0eCmdCEMJJCNMCBI\x10\xaa5\x12\x13\n\x0eCmdJMMCBDAGEKP\x10\x915b\x06p\
+    roto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

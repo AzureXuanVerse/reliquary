@@ -28,20 +28,20 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ChessRogueQuitScRsp {
     // message fields
+    // @@protoc_insertion_point(field:ChessRogueQuitScRsp.MODDIBHCPPD)
+    pub MODDIBHCPPD: ::protobuf::MessageField<super::CGDFGMMKJAH::CGDFGMMKJAH>,
+    // @@protoc_insertion_point(field:ChessRogueQuitScRsp.IMPBELJGDJH)
+    pub IMPBELJGDJH: ::protobuf::MessageField<super::JMOGPMCJGLE::JMOGPMCJGLE>,
+    // @@protoc_insertion_point(field:ChessRogueQuitScRsp.NDMLEGLIOGN)
+    pub NDMLEGLIOGN: ::protobuf::MessageField<super::FIILPHKLFEK::FIILPHKLFEK>,
     // @@protoc_insertion_point(field:ChessRogueQuitScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:ChessRogueQuitScRsp.GAHICMJOCEC)
-    pub GAHICMJOCEC: ::protobuf::MessageField<super::AKALKFEDNJN::AKALKFEDNJN>,
-    // @@protoc_insertion_point(field:ChessRogueQuitScRsp.AEGIPNEFMBM)
-    pub AEGIPNEFMBM: ::protobuf::MessageField<super::DCHFEDGLCON::DCHFEDGLCON>,
     // @@protoc_insertion_point(field:ChessRogueQuitScRsp.stage_info)
-    pub stage_info: ::protobuf::MessageField<super::CJOOMOBNBPB::CJOOMOBNBPB>,
-    // @@protoc_insertion_point(field:ChessRogueQuitScRsp.AKBPOOAJFIJ)
-    pub AKBPOOAJFIJ: ::protobuf::MessageField<super::CDIONCOFFCD::CDIONCOFFCD>,
-    // @@protoc_insertion_point(field:ChessRogueQuitScRsp.GGKOGOOOFJE)
-    pub GGKOGOOOFJE: ::protobuf::MessageField<super::ANLFCNFOKLE::ANLFCNFOKLE>,
+    pub stage_info: ::protobuf::MessageField<super::EJCCHHAAGNH::EJCCHHAAGNH>,
+    // @@protoc_insertion_point(field:ChessRogueQuitScRsp.OCLLADBFKHP)
+    pub OCLLADBFKHP: ::protobuf::MessageField<super::PDAMBCFFPDI::PDAMBCFFPDI>,
     // @@protoc_insertion_point(field:ChessRogueQuitScRsp.rogue_get_info)
-    pub rogue_get_info: ::protobuf::MessageField<super::MFCDGOCBEMK::MFCDGOCBEMK>,
+    pub rogue_get_info: ::protobuf::MessageField<super::BABAGEDCCBG::BABAGEDCCBG>,
     // special fields
     // @@protoc_insertion_point(special_field:ChessRogueQuitScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -61,37 +61,37 @@ impl ChessRogueQuitScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(7);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::CGDFGMMKJAH::CGDFGMMKJAH>(
+            "MODDIBHCPPD",
+            |m: &ChessRogueQuitScRsp| { &m.MODDIBHCPPD },
+            |m: &mut ChessRogueQuitScRsp| { &mut m.MODDIBHCPPD },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::JMOGPMCJGLE::JMOGPMCJGLE>(
+            "IMPBELJGDJH",
+            |m: &ChessRogueQuitScRsp| { &m.IMPBELJGDJH },
+            |m: &mut ChessRogueQuitScRsp| { &mut m.IMPBELJGDJH },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::FIILPHKLFEK::FIILPHKLFEK>(
+            "NDMLEGLIOGN",
+            |m: &ChessRogueQuitScRsp| { &m.NDMLEGLIOGN },
+            |m: &mut ChessRogueQuitScRsp| { &mut m.NDMLEGLIOGN },
+        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &ChessRogueQuitScRsp| { &m.retcode },
             |m: &mut ChessRogueQuitScRsp| { &mut m.retcode },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::AKALKFEDNJN::AKALKFEDNJN>(
-            "GAHICMJOCEC",
-            |m: &ChessRogueQuitScRsp| { &m.GAHICMJOCEC },
-            |m: &mut ChessRogueQuitScRsp| { &mut m.GAHICMJOCEC },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::DCHFEDGLCON::DCHFEDGLCON>(
-            "AEGIPNEFMBM",
-            |m: &ChessRogueQuitScRsp| { &m.AEGIPNEFMBM },
-            |m: &mut ChessRogueQuitScRsp| { &mut m.AEGIPNEFMBM },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::CJOOMOBNBPB::CJOOMOBNBPB>(
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::EJCCHHAAGNH::EJCCHHAAGNH>(
             "stage_info",
             |m: &ChessRogueQuitScRsp| { &m.stage_info },
             |m: &mut ChessRogueQuitScRsp| { &mut m.stage_info },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::CDIONCOFFCD::CDIONCOFFCD>(
-            "AKBPOOAJFIJ",
-            |m: &ChessRogueQuitScRsp| { &m.AKBPOOAJFIJ },
-            |m: &mut ChessRogueQuitScRsp| { &mut m.AKBPOOAJFIJ },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::PDAMBCFFPDI::PDAMBCFFPDI>(
+            "OCLLADBFKHP",
+            |m: &ChessRogueQuitScRsp| { &m.OCLLADBFKHP },
+            |m: &mut ChessRogueQuitScRsp| { &mut m.OCLLADBFKHP },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ANLFCNFOKLE::ANLFCNFOKLE>(
-            "GGKOGOOOFJE",
-            |m: &ChessRogueQuitScRsp| { &m.GGKOGOOOFJE },
-            |m: &mut ChessRogueQuitScRsp| { &mut m.GGKOGOOOFJE },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::MFCDGOCBEMK::MFCDGOCBEMK>(
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::BABAGEDCCBG::BABAGEDCCBG>(
             "rogue_get_info",
             |m: &ChessRogueQuitScRsp| { &m.rogue_get_info },
             |m: &mut ChessRogueQuitScRsp| { &mut m.rogue_get_info },
@@ -114,25 +114,25 @@ impl ::protobuf::Message for ChessRogueQuitScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                48 => {
-                    self.retcode = is.read_uint32()?;
+                18 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.MODDIBHCPPD)?;
                 },
                 122 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.GAHICMJOCEC)?;
-                },
-                26 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.AEGIPNEFMBM)?;
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.IMPBELJGDJH)?;
                 },
                 58 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.NDMLEGLIOGN)?;
+                },
+                72 => {
+                    self.retcode = is.read_uint32()?;
+                },
+                90 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.stage_info)?;
                 },
-                106 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.AKBPOOAJFIJ)?;
+                98 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.OCLLADBFKHP)?;
                 },
-                42 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.GGKOGOOOFJE)?;
-                },
-                18 => {
+                26 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.rogue_get_info)?;
                 },
                 tag => {
@@ -147,26 +147,26 @@ impl ::protobuf::Message for ChessRogueQuitScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
+        if let Some(v) = self.MODDIBHCPPD.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if let Some(v) = self.IMPBELJGDJH.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if let Some(v) = self.NDMLEGLIOGN.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(6, self.retcode);
-        }
-        if let Some(v) = self.GAHICMJOCEC.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.AEGIPNEFMBM.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+            my_size += ::protobuf::rt::uint32_size(9, self.retcode);
         }
         if let Some(v) = self.stage_info.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if let Some(v) = self.AKBPOOAJFIJ.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.GGKOGOOOFJE.as_ref() {
+        if let Some(v) = self.OCLLADBFKHP.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -180,26 +180,26 @@ impl ::protobuf::Message for ChessRogueQuitScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.retcode != 0 {
-            os.write_uint32(6, self.retcode)?;
+        if let Some(v) = self.MODDIBHCPPD.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
         }
-        if let Some(v) = self.GAHICMJOCEC.as_ref() {
+        if let Some(v) = self.IMPBELJGDJH.as_ref() {
             ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
         }
-        if let Some(v) = self.AEGIPNEFMBM.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
-        }
-        if let Some(v) = self.stage_info.as_ref() {
+        if let Some(v) = self.NDMLEGLIOGN.as_ref() {
             ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
         }
-        if let Some(v) = self.AKBPOOAJFIJ.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
+        if self.retcode != 0 {
+            os.write_uint32(9, self.retcode)?;
         }
-        if let Some(v) = self.GGKOGOOOFJE.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
+        if let Some(v) = self.stage_info.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
+        }
+        if let Some(v) = self.OCLLADBFKHP.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
         }
         if let Some(v) = self.rogue_get_info.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -218,24 +218,24 @@ impl ::protobuf::Message for ChessRogueQuitScRsp {
     }
 
     fn clear(&mut self) {
+        self.MODDIBHCPPD.clear();
+        self.IMPBELJGDJH.clear();
+        self.NDMLEGLIOGN.clear();
         self.retcode = 0;
-        self.GAHICMJOCEC.clear();
-        self.AEGIPNEFMBM.clear();
         self.stage_info.clear();
-        self.AKBPOOAJFIJ.clear();
-        self.GGKOGOOOFJE.clear();
+        self.OCLLADBFKHP.clear();
         self.rogue_get_info.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ChessRogueQuitScRsp {
         static instance: ChessRogueQuitScRsp = ChessRogueQuitScRsp {
+            MODDIBHCPPD: ::protobuf::MessageField::none(),
+            IMPBELJGDJH: ::protobuf::MessageField::none(),
+            NDMLEGLIOGN: ::protobuf::MessageField::none(),
             retcode: 0,
-            GAHICMJOCEC: ::protobuf::MessageField::none(),
-            AEGIPNEFMBM: ::protobuf::MessageField::none(),
             stage_info: ::protobuf::MessageField::none(),
-            AKBPOOAJFIJ: ::protobuf::MessageField::none(),
-            GGKOGOOOFJE: ::protobuf::MessageField::none(),
+            OCLLADBFKHP: ::protobuf::MessageField::none(),
             rogue_get_info: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -261,17 +261,17 @@ impl ::protobuf::reflect::ProtobufValue for ChessRogueQuitScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x19ChessRogueQuitScRsp.proto\x1a\x11AKALKFEDNJN.proto\x1a\x11ANLFCNFO\
-    KLE.proto\x1a\x11CDIONCOFFCD.proto\x1a\x11CJOOMOBNBPB.proto\x1a\x11DCHFE\
-    DGLCON.proto\x1a\x11MFCDGOCBEMK.proto\"\xd0\x02\n\x13ChessRogueQuitScRsp\
-    \x12\x18\n\x07retcode\x18\x06\x20\x01(\rR\x07retcode\x12.\n\x0bGAHICMJOC\
-    EC\x18\x0f\x20\x01(\x0b2\x0c.AKALKFEDNJNR\x0bGAHICMJOCEC\x12.\n\x0bAEGIP\
-    NEFMBM\x18\x03\x20\x01(\x0b2\x0c.DCHFEDGLCONR\x0bAEGIPNEFMBM\x12+\n\nsta\
-    ge_info\x18\x07\x20\x01(\x0b2\x0c.CJOOMOBNBPBR\tstageInfo\x12.\n\x0bAKBP\
-    OOAJFIJ\x18\r\x20\x01(\x0b2\x0c.CDIONCOFFCDR\x0bAKBPOOAJFIJ\x12.\n\x0bGG\
-    KOGOOOFJE\x18\x05\x20\x01(\x0b2\x0c.ANLFCNFOKLER\x0bGGKOGOOOFJE\x122\n\
-    \x0erogue_get_info\x18\x02\x20\x01(\x0b2\x0c.MFCDGOCBEMKR\x0crogueGetInf\
-    ob\x06proto3\
+    \n\x19ChessRogueQuitScRsp.proto\x1a\x11BABAGEDCCBG.proto\x1a\x11CGDFGMMK\
+    JAH.proto\x1a\x11EJCCHHAAGNH.proto\x1a\x11FIILPHKLFEK.proto\x1a\x11JMOGP\
+    MCJGLE.proto\x1a\x11PDAMBCFFPDI.proto\"\xd0\x02\n\x13ChessRogueQuitScRsp\
+    \x12.\n\x0bMODDIBHCPPD\x18\x02\x20\x01(\x0b2\x0c.CGDFGMMKJAHR\x0bMODDIBH\
+    CPPD\x12.\n\x0bIMPBELJGDJH\x18\x0f\x20\x01(\x0b2\x0c.JMOGPMCJGLER\x0bIMP\
+    BELJGDJH\x12.\n\x0bNDMLEGLIOGN\x18\x07\x20\x01(\x0b2\x0c.FIILPHKLFEKR\
+    \x0bNDMLEGLIOGN\x12\x18\n\x07retcode\x18\t\x20\x01(\rR\x07retcode\x12+\n\
+    \nstage_info\x18\x0b\x20\x01(\x0b2\x0c.EJCCHHAAGNHR\tstageInfo\x12.\n\
+    \x0bOCLLADBFKHP\x18\x0c\x20\x01(\x0b2\x0c.PDAMBCFFPDIR\x0bOCLLADBFKHP\
+    \x122\n\x0erogue_get_info\x18\x03\x20\x01(\x0b2\x0c.BABAGEDCCBGR\x0crogu\
+    eGetInfob\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -289,12 +289,12 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(6);
-            deps.push(super::AKALKFEDNJN::file_descriptor().clone());
-            deps.push(super::ANLFCNFOKLE::file_descriptor().clone());
-            deps.push(super::CDIONCOFFCD::file_descriptor().clone());
-            deps.push(super::CJOOMOBNBPB::file_descriptor().clone());
-            deps.push(super::DCHFEDGLCON::file_descriptor().clone());
-            deps.push(super::MFCDGOCBEMK::file_descriptor().clone());
+            deps.push(super::BABAGEDCCBG::file_descriptor().clone());
+            deps.push(super::CGDFGMMKJAH::file_descriptor().clone());
+            deps.push(super::EJCCHHAAGNH::file_descriptor().clone());
+            deps.push(super::FIILPHKLFEK::file_descriptor().clone());
+            deps.push(super::JMOGPMCJGLE::file_descriptor().clone());
+            deps.push(super::PDAMBCFFPDI::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(ChessRogueQuitScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

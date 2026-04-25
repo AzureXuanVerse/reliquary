@@ -27,20 +27,20 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdFantasticStoryActivityType)
 pub enum CmdFantasticStoryActivityType {
-    // @@protoc_insertion_point(enum_value:CmdFantasticStoryActivityType.CmdFantasticStoryActivityType_MNFEPONEDDJ)
-    CmdFantasticStoryActivityType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdFantasticStoryActivityType.CmdFantasticStoryActivityType_GICFDCLLMJO)
-    CmdFantasticStoryActivityType_GICFDCLLMJO = 4981,
-    // @@protoc_insertion_point(enum_value:CmdFantasticStoryActivityType.CmdFantasticStoryActivityType_GEPLKOFBPCI)
-    CmdFantasticStoryActivityType_GEPLKOFBPCI = 4983,
-    // @@protoc_insertion_point(enum_value:CmdFantasticStoryActivityType.CmdFantasticStoryActivityType_IPLHJFPOALF)
-    CmdFantasticStoryActivityType_IPLHJFPOALF = 4913,
-    // @@protoc_insertion_point(enum_value:CmdFantasticStoryActivityType.CmdFantasticStoryActivityType_KDHAAGODFIO)
-    CmdFantasticStoryActivityType_KDHAAGODFIO = 4935,
-    // @@protoc_insertion_point(enum_value:CmdFantasticStoryActivityType.CmdFantasticStoryActivityType_EMJFCKINMGG)
-    CmdFantasticStoryActivityType_EMJFCKINMGG = 4924,
-    // @@protoc_insertion_point(enum_value:CmdFantasticStoryActivityType.CmdFantasticStoryActivityType_JBGFBEFOCJB)
-    CmdFantasticStoryActivityType_JBGFBEFOCJB = 4904,
+    // @@protoc_insertion_point(enum_value:CmdFantasticStoryActivityType.PGEKJIEDHHD_PCPDHELPKEM)
+    PGEKJIEDHHD_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdFantasticStoryActivityType.CmdFantasticStoryActivityBattleEndScNotify)
+    CmdFantasticStoryActivityBattleEndScNotify = 4918,
+    // @@protoc_insertion_point(enum_value:CmdFantasticStoryActivityType.CmdEnterActivityFantasticStoryCsReq)
+    CmdEnterActivityFantasticStoryCsReq = 4995,
+    // @@protoc_insertion_point(enum_value:CmdFantasticStoryActivityType.CmdNDKKAGKCFGH)
+    CmdNDKKAGKCFGH = 4994,
+    // @@protoc_insertion_point(enum_value:CmdFantasticStoryActivityType.CmdEnterFantasticStoryActivityStageScRsp)
+    CmdEnterFantasticStoryActivityStageScRsp = 4914,
+    // @@protoc_insertion_point(enum_value:CmdFantasticStoryActivityType.CmdGetFantasticStoryActivityDataScRsp)
+    CmdGetFantasticStoryActivityDataScRsp = 4910,
+    // @@protoc_insertion_point(enum_value:CmdFantasticStoryActivityType.CmdGetFantasticStoryActivityDataCsReq)
+    CmdGetFantasticStoryActivityDataCsReq = 4991,
 }
 
 impl ::protobuf::Enum for CmdFantasticStoryActivityType {
@@ -52,38 +52,38 @@ impl ::protobuf::Enum for CmdFantasticStoryActivityType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdFantasticStoryActivityType> {
         match value {
-            0 => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_MNFEPONEDDJ),
-            4981 => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_GICFDCLLMJO),
-            4983 => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_GEPLKOFBPCI),
-            4913 => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_IPLHJFPOALF),
-            4935 => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_KDHAAGODFIO),
-            4924 => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_EMJFCKINMGG),
-            4904 => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_JBGFBEFOCJB),
+            0 => ::std::option::Option::Some(CmdFantasticStoryActivityType::PGEKJIEDHHD_PCPDHELPKEM),
+            4918 => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityBattleEndScNotify),
+            4995 => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdEnterActivityFantasticStoryCsReq),
+            4994 => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdNDKKAGKCFGH),
+            4914 => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdEnterFantasticStoryActivityStageScRsp),
+            4910 => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdGetFantasticStoryActivityDataScRsp),
+            4991 => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdGetFantasticStoryActivityDataCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdFantasticStoryActivityType> {
         match str {
-            "CmdFantasticStoryActivityType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_MNFEPONEDDJ),
-            "CmdFantasticStoryActivityType_GICFDCLLMJO" => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_GICFDCLLMJO),
-            "CmdFantasticStoryActivityType_GEPLKOFBPCI" => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_GEPLKOFBPCI),
-            "CmdFantasticStoryActivityType_IPLHJFPOALF" => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_IPLHJFPOALF),
-            "CmdFantasticStoryActivityType_KDHAAGODFIO" => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_KDHAAGODFIO),
-            "CmdFantasticStoryActivityType_EMJFCKINMGG" => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_EMJFCKINMGG),
-            "CmdFantasticStoryActivityType_JBGFBEFOCJB" => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_JBGFBEFOCJB),
+            "PGEKJIEDHHD_PCPDHELPKEM" => ::std::option::Option::Some(CmdFantasticStoryActivityType::PGEKJIEDHHD_PCPDHELPKEM),
+            "CmdFantasticStoryActivityBattleEndScNotify" => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdFantasticStoryActivityBattleEndScNotify),
+            "CmdEnterActivityFantasticStoryCsReq" => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdEnterActivityFantasticStoryCsReq),
+            "CmdNDKKAGKCFGH" => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdNDKKAGKCFGH),
+            "CmdEnterFantasticStoryActivityStageScRsp" => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdEnterFantasticStoryActivityStageScRsp),
+            "CmdGetFantasticStoryActivityDataScRsp" => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdGetFantasticStoryActivityDataScRsp),
+            "CmdGetFantasticStoryActivityDataCsReq" => ::std::option::Option::Some(CmdFantasticStoryActivityType::CmdGetFantasticStoryActivityDataCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdFantasticStoryActivityType] = &[
-        CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_MNFEPONEDDJ,
-        CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_GICFDCLLMJO,
-        CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_GEPLKOFBPCI,
-        CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_IPLHJFPOALF,
-        CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_KDHAAGODFIO,
-        CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_EMJFCKINMGG,
-        CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_JBGFBEFOCJB,
+        CmdFantasticStoryActivityType::PGEKJIEDHHD_PCPDHELPKEM,
+        CmdFantasticStoryActivityType::CmdFantasticStoryActivityBattleEndScNotify,
+        CmdFantasticStoryActivityType::CmdEnterActivityFantasticStoryCsReq,
+        CmdFantasticStoryActivityType::CmdNDKKAGKCFGH,
+        CmdFantasticStoryActivityType::CmdEnterFantasticStoryActivityStageScRsp,
+        CmdFantasticStoryActivityType::CmdGetFantasticStoryActivityDataScRsp,
+        CmdFantasticStoryActivityType::CmdGetFantasticStoryActivityDataCsReq,
     ];
 }
 
@@ -95,13 +95,13 @@ impl ::protobuf::EnumFull for CmdFantasticStoryActivityType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_MNFEPONEDDJ => 0,
-            CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_GICFDCLLMJO => 1,
-            CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_GEPLKOFBPCI => 2,
-            CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_IPLHJFPOALF => 3,
-            CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_KDHAAGODFIO => 4,
-            CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_EMJFCKINMGG => 5,
-            CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_JBGFBEFOCJB => 6,
+            CmdFantasticStoryActivityType::PGEKJIEDHHD_PCPDHELPKEM => 0,
+            CmdFantasticStoryActivityType::CmdFantasticStoryActivityBattleEndScNotify => 1,
+            CmdFantasticStoryActivityType::CmdEnterActivityFantasticStoryCsReq => 2,
+            CmdFantasticStoryActivityType::CmdNDKKAGKCFGH => 3,
+            CmdFantasticStoryActivityType::CmdEnterFantasticStoryActivityStageScRsp => 4,
+            CmdFantasticStoryActivityType::CmdGetFantasticStoryActivityDataScRsp => 5,
+            CmdFantasticStoryActivityType::CmdGetFantasticStoryActivityDataCsReq => 6,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -109,7 +109,7 @@ impl ::protobuf::EnumFull for CmdFantasticStoryActivityType {
 
 impl ::std::default::Default for CmdFantasticStoryActivityType {
     fn default() -> Self {
-        CmdFantasticStoryActivityType::CmdFantasticStoryActivityType_MNFEPONEDDJ
+        CmdFantasticStoryActivityType::PGEKJIEDHHD_PCPDHELPKEM
     }
 }
 
@@ -120,13 +120,13 @@ impl CmdFantasticStoryActivityType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n#CmdFantasticStoryActivityType.proto*\xee\x02\n\x1dCmdFantasticStoryAc\
-    tivityType\x12-\n)CmdFantasticStoryActivityType_MNFEPONEDDJ\x10\0\x12.\n\
-    )CmdFantasticStoryActivityType_GICFDCLLMJO\x10\xf5&\x12.\n)CmdFantasticS\
-    toryActivityType_GEPLKOFBPCI\x10\xf7&\x12.\n)CmdFantasticStoryActivityTy\
-    pe_IPLHJFPOALF\x10\xb1&\x12.\n)CmdFantasticStoryActivityType_KDHAAGODFIO\
-    \x10\xc7&\x12.\n)CmdFantasticStoryActivityType_EMJFCKINMGG\x10\xbc&\x12.\
-    \n)CmdFantasticStoryActivityType_JBGFBEFOCJB\x10\xa8&b\x06proto3\
+    \n#CmdFantasticStoryActivityType.proto*\xb3\x02\n\x1dCmdFantasticStoryAc\
+    tivityType\x12\x1b\n\x17PGEKJIEDHHD_PCPDHELPKEM\x10\0\x12/\n*CmdFantasti\
+    cStoryActivityBattleEndScNotify\x10\xb6&\x12(\n#CmdEnterActivityFantasti\
+    cStoryCsReq\x10\x83'\x12\x13\n\x0eCmdNDKKAGKCFGH\x10\x82'\x12-\n(CmdEnte\
+    rFantasticStoryActivityStageScRsp\x10\xb2&\x12*\n%CmdGetFantasticStoryAc\
+    tivityDataScRsp\x10\xae&\x12*\n%CmdGetFantasticStoryActivityDataCsReq\
+    \x10\xff&b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

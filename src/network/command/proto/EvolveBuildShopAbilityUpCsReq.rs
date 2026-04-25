@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct EvolveBuildShopAbilityUpCsReq {
     // message fields
-    // @@protoc_insertion_point(field:EvolveBuildShopAbilityUpCsReq.LHMDFNFKBPC)
-    pub LHMDFNFKBPC: u32,
+    // @@protoc_insertion_point(field:EvolveBuildShopAbilityUpCsReq.NJPCMDNHOFL)
+    pub NJPCMDNHOFL: u32,
     // @@protoc_insertion_point(field:EvolveBuildShopAbilityUpCsReq.level)
     pub level: u32,
     // special fields
@@ -52,9 +52,9 @@ impl EvolveBuildShopAbilityUpCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "LHMDFNFKBPC",
-            |m: &EvolveBuildShopAbilityUpCsReq| { &m.LHMDFNFKBPC },
-            |m: &mut EvolveBuildShopAbilityUpCsReq| { &mut m.LHMDFNFKBPC },
+            "NJPCMDNHOFL",
+            |m: &EvolveBuildShopAbilityUpCsReq| { &m.NJPCMDNHOFL },
+            |m: &mut EvolveBuildShopAbilityUpCsReq| { &mut m.NJPCMDNHOFL },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "level",
@@ -79,8 +79,8 @@ impl ::protobuf::Message for EvolveBuildShopAbilityUpCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                56 => {
-                    self.LHMDFNFKBPC = is.read_uint32()?;
+                24 => {
+                    self.NJPCMDNHOFL = is.read_uint32()?;
                 },
                 40 => {
                     self.level = is.read_uint32()?;
@@ -97,8 +97,8 @@ impl ::protobuf::Message for EvolveBuildShopAbilityUpCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.LHMDFNFKBPC != 0 {
-            my_size += ::protobuf::rt::uint32_size(7, self.LHMDFNFKBPC);
+        if self.NJPCMDNHOFL != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.NJPCMDNHOFL);
         }
         if self.level != 0 {
             my_size += ::protobuf::rt::uint32_size(5, self.level);
@@ -109,8 +109,8 @@ impl ::protobuf::Message for EvolveBuildShopAbilityUpCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.LHMDFNFKBPC != 0 {
-            os.write_uint32(7, self.LHMDFNFKBPC)?;
+        if self.NJPCMDNHOFL != 0 {
+            os.write_uint32(3, self.NJPCMDNHOFL)?;
         }
         if self.level != 0 {
             os.write_uint32(5, self.level)?;
@@ -132,14 +132,14 @@ impl ::protobuf::Message for EvolveBuildShopAbilityUpCsReq {
     }
 
     fn clear(&mut self) {
-        self.LHMDFNFKBPC = 0;
+        self.NJPCMDNHOFL = 0;
         self.level = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static EvolveBuildShopAbilityUpCsReq {
         static instance: EvolveBuildShopAbilityUpCsReq = EvolveBuildShopAbilityUpCsReq {
-            LHMDFNFKBPC: 0,
+            NJPCMDNHOFL: 0,
             level: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -166,7 +166,7 @@ impl ::protobuf::reflect::ProtobufValue for EvolveBuildShopAbilityUpCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n#EvolveBuildShopAbilityUpCsReq.proto\"W\n\x1dEvolveBuildShopAbilityUpC\
-    sReq\x12\x20\n\x0bLHMDFNFKBPC\x18\x07\x20\x01(\rR\x0bLHMDFNFKBPC\x12\x14\
+    sReq\x12\x20\n\x0bNJPCMDNHOFL\x18\x03\x20\x01(\rR\x0bNJPCMDNHOFL\x12\x14\
     \n\x05level\x18\x05\x20\x01(\rR\x05levelb\x06proto3\
 ";
 

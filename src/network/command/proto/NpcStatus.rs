@@ -79,7 +79,7 @@ impl ::protobuf::Message for NpcStatus {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                64 => {
+                120 => {
                     self.is_finish = is.read_bool()?;
                 },
                 32 => {
@@ -110,7 +110,7 @@ impl ::protobuf::Message for NpcStatus {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.is_finish != false {
-            os.write_bool(8, self.is_finish)?;
+            os.write_bool(15, self.is_finish)?;
         }
         if self.npc_id != 0 {
             os.write_uint32(4, self.npc_id)?;
@@ -165,7 +165,7 @@ impl ::protobuf::reflect::ProtobufValue for NpcStatus {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x0fNpcStatus.proto\"?\n\tNpcStatus\x12\x1b\n\tis_finish\x18\x08\x20\
+    \n\x0fNpcStatus.proto\"?\n\tNpcStatus\x12\x1b\n\tis_finish\x18\x0f\x20\
     \x01(\x08R\x08isFinish\x12\x15\n\x06npc_id\x18\x04\x20\x01(\rR\x05npcIdb\
     \x06proto3\
 ";

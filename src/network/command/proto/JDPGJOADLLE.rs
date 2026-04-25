@@ -31,7 +31,7 @@ pub struct JDPGJOADLLE {
     // @@protoc_insertion_point(field:JDPGJOADLLE.NIHAJMHKOBC)
     pub NIHAJMHKOBC: ::protobuf::EnumOrUnknown<super::BKACBGFDDDA::BKACBGFDDDA>,
     // message oneof groups
-    pub MHHBNFFOPOJ: ::std::option::Option<jdpgjoadlle::MHHBNFFOPOJ>,
+    pub FPCDPDPHKJJ: ::std::option::Option<jdpgjoadlle::FPCDPDPHKJJ>,
     // special fields
     // @@protoc_insertion_point(special_field:JDPGJOADLLE.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -51,51 +51,51 @@ impl JDPGJOADLLE {
     // uint32 uid = 11;
 
     pub fn uid(&self) -> u32 {
-        match self.MHHBNFFOPOJ {
-            ::std::option::Option::Some(jdpgjoadlle::MHHBNFFOPOJ::Uid(v)) => v,
+        match self.FPCDPDPHKJJ {
+            ::std::option::Option::Some(jdpgjoadlle::FPCDPDPHKJJ::Uid(v)) => v,
             _ => 0,
         }
     }
 
     pub fn clear_uid(&mut self) {
-        self.MHHBNFFOPOJ = ::std::option::Option::None;
+        self.FPCDPDPHKJJ = ::std::option::Option::None;
     }
 
     pub fn has_uid(&self) -> bool {
-        match self.MHHBNFFOPOJ {
-            ::std::option::Option::Some(jdpgjoadlle::MHHBNFFOPOJ::Uid(..)) => true,
+        match self.FPCDPDPHKJJ {
+            ::std::option::Option::Some(jdpgjoadlle::FPCDPDPHKJJ::Uid(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_uid(&mut self, v: u32) {
-        self.MHHBNFFOPOJ = ::std::option::Option::Some(jdpgjoadlle::MHHBNFFOPOJ::Uid(v))
+        self.FPCDPDPHKJJ = ::std::option::Option::Some(jdpgjoadlle::FPCDPDPHKJJ::Uid(v))
     }
 
-    // .KGKFNNLMJLP role_goods_info = 12;
+    // .COOCLIPGCEH role_goods_info = 12;
 
-    pub fn role_goods_info(&self) -> super::KGKFNNLMJLP::KGKFNNLMJLP {
-        match self.MHHBNFFOPOJ {
-            ::std::option::Option::Some(jdpgjoadlle::MHHBNFFOPOJ::RoleGoodsInfo(v)) => ::protobuf::EnumOrUnknown::enum_value_or_default(&v),
-            _ => super::KGKFNNLMJLP::KGKFNNLMJLP::KGKFNNLMJLP_MNFEPONEDDJ,
+    pub fn role_goods_info(&self) -> super::COOCLIPGCEH::COOCLIPGCEH {
+        match self.FPCDPDPHKJJ {
+            ::std::option::Option::Some(jdpgjoadlle::FPCDPDPHKJJ::RoleGoodsInfo(v)) => ::protobuf::EnumOrUnknown::enum_value_or_default(&v),
+            _ => super::COOCLIPGCEH::COOCLIPGCEH::COOCLIPGCEH_PCPDHELPKEM,
         }
     }
 
     pub fn clear_role_goods_info(&mut self) {
-        self.MHHBNFFOPOJ = ::std::option::Option::None;
+        self.FPCDPDPHKJJ = ::std::option::Option::None;
     }
 
     pub fn has_role_goods_info(&self) -> bool {
-        match self.MHHBNFFOPOJ {
-            ::std::option::Option::Some(jdpgjoadlle::MHHBNFFOPOJ::RoleGoodsInfo(..)) => true,
+        match self.FPCDPDPHKJJ {
+            ::std::option::Option::Some(jdpgjoadlle::FPCDPDPHKJJ::RoleGoodsInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_role_goods_info(&mut self, v: super::KGKFNNLMJLP::KGKFNNLMJLP) {
-        self.MHHBNFFOPOJ = ::std::option::Option::Some(jdpgjoadlle::MHHBNFFOPOJ::RoleGoodsInfo(::protobuf::EnumOrUnknown::new(v)))
+    pub fn set_role_goods_info(&mut self, v: super::COOCLIPGCEH::COOCLIPGCEH) {
+        self.FPCDPDPHKJJ = ::std::option::Option::Some(jdpgjoadlle::FPCDPDPHKJJ::RoleGoodsInfo(::protobuf::EnumOrUnknown::new(v)))
     }
 
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
@@ -114,16 +114,16 @@ impl JDPGJOADLLE {
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_enum_accessors::<_, _>(
             "role_goods_info",
-            |message: &JDPGJOADLLE| match &message.MHHBNFFOPOJ {
-                ::std::option::Option::Some(jdpgjoadlle::MHHBNFFOPOJ::RoleGoodsInfo(e)) => ::std::option::Option::Some(*e),
+            |message: &JDPGJOADLLE| match &message.FPCDPDPHKJJ {
+                ::std::option::Option::Some(jdpgjoadlle::FPCDPDPHKJJ::RoleGoodsInfo(e)) => ::std::option::Option::Some(*e),
                 _ => ::std::option::Option::None,
             },
-            |message: &mut JDPGJOADLLE, e: ::protobuf::EnumOrUnknown<super::KGKFNNLMJLP::KGKFNNLMJLP>| {
-                message.MHHBNFFOPOJ = ::std::option::Option::Some(jdpgjoadlle::MHHBNFFOPOJ::RoleGoodsInfo(e));
+            |message: &mut JDPGJOADLLE, e: ::protobuf::EnumOrUnknown<super::COOCLIPGCEH::COOCLIPGCEH>| {
+                message.FPCDPDPHKJJ = ::std::option::Option::Some(jdpgjoadlle::FPCDPDPHKJJ::RoleGoodsInfo(e));
             },
-            super::KGKFNNLMJLP::KGKFNNLMJLP::KGKFNNLMJLP_MNFEPONEDDJ,
+            super::COOCLIPGCEH::COOCLIPGCEH::COOCLIPGCEH_PCPDHELPKEM,
         ));
-        oneofs.push(jdpgjoadlle::MHHBNFFOPOJ::generated_oneof_descriptor_data());
+        oneofs.push(jdpgjoadlle::FPCDPDPHKJJ::generated_oneof_descriptor_data());
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<JDPGJOADLLE>(
             "JDPGJOADLLE",
             fields,
@@ -146,10 +146,10 @@ impl ::protobuf::Message for JDPGJOADLLE {
                     self.NIHAJMHKOBC = is.read_enum_or_unknown()?;
                 },
                 88 => {
-                    self.MHHBNFFOPOJ = ::std::option::Option::Some(jdpgjoadlle::MHHBNFFOPOJ::Uid(is.read_uint32()?));
+                    self.FPCDPDPHKJJ = ::std::option::Option::Some(jdpgjoadlle::FPCDPDPHKJJ::Uid(is.read_uint32()?));
                 },
                 96 => {
-                    self.MHHBNFFOPOJ = ::std::option::Option::Some(jdpgjoadlle::MHHBNFFOPOJ::RoleGoodsInfo(is.read_enum_or_unknown()?));
+                    self.FPCDPDPHKJJ = ::std::option::Option::Some(jdpgjoadlle::FPCDPDPHKJJ::RoleGoodsInfo(is.read_enum_or_unknown()?));
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -163,15 +163,15 @@ impl ::protobuf::Message for JDPGJOADLLE {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.NIHAJMHKOBC != ::protobuf::EnumOrUnknown::new(super::BKACBGFDDDA::BKACBGFDDDA::BKACBGFDDDA_MNFEPONEDDJ) {
+        if self.NIHAJMHKOBC != ::protobuf::EnumOrUnknown::new(super::BKACBGFDDDA::BKACBGFDDDA::BJLEJCIGLAO_PCPDHELPKEM) {
             my_size += ::protobuf::rt::int32_size(1, self.NIHAJMHKOBC.value());
         }
-        if let ::std::option::Option::Some(ref v) = self.MHHBNFFOPOJ {
+        if let ::std::option::Option::Some(ref v) = self.FPCDPDPHKJJ {
             match v {
-                &jdpgjoadlle::MHHBNFFOPOJ::Uid(v) => {
+                &jdpgjoadlle::FPCDPDPHKJJ::Uid(v) => {
                     my_size += ::protobuf::rt::uint32_size(11, v);
                 },
-                &jdpgjoadlle::MHHBNFFOPOJ::RoleGoodsInfo(v) => {
+                &jdpgjoadlle::FPCDPDPHKJJ::RoleGoodsInfo(v) => {
                     my_size += ::protobuf::rt::int32_size(12, v.value());
                 },
             };
@@ -182,15 +182,15 @@ impl ::protobuf::Message for JDPGJOADLLE {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.NIHAJMHKOBC != ::protobuf::EnumOrUnknown::new(super::BKACBGFDDDA::BKACBGFDDDA::BKACBGFDDDA_MNFEPONEDDJ) {
+        if self.NIHAJMHKOBC != ::protobuf::EnumOrUnknown::new(super::BKACBGFDDDA::BKACBGFDDDA::BJLEJCIGLAO_PCPDHELPKEM) {
             os.write_enum(1, ::protobuf::EnumOrUnknown::value(&self.NIHAJMHKOBC))?;
         }
-        if let ::std::option::Option::Some(ref v) = self.MHHBNFFOPOJ {
+        if let ::std::option::Option::Some(ref v) = self.FPCDPDPHKJJ {
             match v {
-                &jdpgjoadlle::MHHBNFFOPOJ::Uid(v) => {
+                &jdpgjoadlle::FPCDPDPHKJJ::Uid(v) => {
                     os.write_uint32(11, v)?;
                 },
-                &jdpgjoadlle::MHHBNFFOPOJ::RoleGoodsInfo(v) => {
+                &jdpgjoadlle::FPCDPDPHKJJ::RoleGoodsInfo(v) => {
                     os.write_enum(12, ::protobuf::EnumOrUnknown::value(&v))?;
                 },
             };
@@ -212,16 +212,16 @@ impl ::protobuf::Message for JDPGJOADLLE {
     }
 
     fn clear(&mut self) {
-        self.NIHAJMHKOBC = ::protobuf::EnumOrUnknown::new(super::BKACBGFDDDA::BKACBGFDDDA::BKACBGFDDDA_MNFEPONEDDJ);
-        self.MHHBNFFOPOJ = ::std::option::Option::None;
-        self.MHHBNFFOPOJ = ::std::option::Option::None;
+        self.NIHAJMHKOBC = ::protobuf::EnumOrUnknown::new(super::BKACBGFDDDA::BKACBGFDDDA::BJLEJCIGLAO_PCPDHELPKEM);
+        self.FPCDPDPHKJJ = ::std::option::Option::None;
+        self.FPCDPDPHKJJ = ::std::option::Option::None;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static JDPGJOADLLE {
         static instance: JDPGJOADLLE = JDPGJOADLLE {
             NIHAJMHKOBC: ::protobuf::EnumOrUnknown::from_i32(0),
-            MHHBNFFOPOJ: ::std::option::Option::None,
+            FPCDPDPHKJJ: ::std::option::Option::None,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -250,37 +250,37 @@ pub mod jdpgjoadlle {
 
     #[derive(Clone,PartialEq,Debug)]
     #[non_exhaustive]
-    // @@protoc_insertion_point(oneof:JDPGJOADLLE.MHHBNFFOPOJ)
-    pub enum MHHBNFFOPOJ {
+    // @@protoc_insertion_point(oneof:JDPGJOADLLE.FPCDPDPHKJJ)
+    pub enum FPCDPDPHKJJ {
         // @@protoc_insertion_point(oneof_field:JDPGJOADLLE.uid)
         Uid(u32),
         // @@protoc_insertion_point(oneof_field:JDPGJOADLLE.role_goods_info)
-        RoleGoodsInfo(::protobuf::EnumOrUnknown<super::super::KGKFNNLMJLP::KGKFNNLMJLP>),
+        RoleGoodsInfo(::protobuf::EnumOrUnknown<super::super::COOCLIPGCEH::COOCLIPGCEH>),
     }
 
-    impl ::protobuf::Oneof for MHHBNFFOPOJ {
+    impl ::protobuf::Oneof for FPCDPDPHKJJ {
     }
 
-    impl ::protobuf::OneofFull for MHHBNFFOPOJ {
+    impl ::protobuf::OneofFull for FPCDPDPHKJJ {
         fn descriptor() -> ::protobuf::reflect::OneofDescriptor {
             static descriptor: ::protobuf::rt::Lazy<::protobuf::reflect::OneofDescriptor> = ::protobuf::rt::Lazy::new();
-            descriptor.get(|| <super::JDPGJOADLLE as ::protobuf::MessageFull>::descriptor().oneof_by_name("MHHBNFFOPOJ").unwrap()).clone()
+            descriptor.get(|| <super::JDPGJOADLLE as ::protobuf::MessageFull>::descriptor().oneof_by_name("FPCDPDPHKJJ").unwrap()).clone()
         }
     }
 
-    impl MHHBNFFOPOJ {
+    impl FPCDPDPHKJJ {
         pub(in super) fn generated_oneof_descriptor_data() -> ::protobuf::reflect::GeneratedOneofDescriptorData {
-            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<MHHBNFFOPOJ>("MHHBNFFOPOJ")
+            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<FPCDPDPHKJJ>("FPCDPDPHKJJ")
         }
     }
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x11JDPGJOADLLE.proto\x1a\x11BKACBGFDDDA.proto\x1a\x11KGKFNNLMJLP.prot\
+    \n\x11JDPGJOADLLE.proto\x1a\x11BKACBGFDDDA.proto\x1a\x11COOCLIPGCEH.prot\
     o\"\x98\x01\n\x0bJDPGJOADLLE\x12.\n\x0bNIHAJMHKOBC\x18\x01\x20\x01(\x0e2\
     \x0c.BKACBGFDDDAR\x0bNIHAJMHKOBC\x12\x12\n\x03uid\x18\x0b\x20\x01(\rH\0R\
-    \x03uid\x126\n\x0frole_goods_info\x18\x0c\x20\x01(\x0e2\x0c.KGKFNNLMJLPH\
-    \0R\rroleGoodsInfoB\r\n\x0bMHHBNFFOPOJb\x06proto3\
+    \x03uid\x126\n\x0frole_goods_info\x18\x0c\x20\x01(\x0e2\x0c.COOCLIPGCEHH\
+    \0R\rroleGoodsInfoB\r\n\x0bFPCDPDPHKJJb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -299,7 +299,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
             deps.push(super::BKACBGFDDDA::file_descriptor().clone());
-            deps.push(super::KGKFNNLMJLP::file_descriptor().clone());
+            deps.push(super::COOCLIPGCEH::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(JDPGJOADLLE::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

@@ -30,8 +30,8 @@ pub struct ChenLingHandlePendingActionsCsReq {
     // message fields
     // @@protoc_insertion_point(field:ChenLingHandlePendingActionsCsReq.unique_id)
     pub unique_id: u32,
-    // @@protoc_insertion_point(field:ChenLingHandlePendingActionsCsReq.AEHMELMLNEM)
-    pub AEHMELMLNEM: ::protobuf::MessageField<super::OHFECLCHPPN::OHFECLCHPPN>,
+    // @@protoc_insertion_point(field:ChenLingHandlePendingActionsCsReq.ICKIIBGJMNM)
+    pub ICKIIBGJMNM: ::protobuf::MessageField<super::NGDOLHONKIA::NGDOLHONKIA>,
     // special fields
     // @@protoc_insertion_point(special_field:ChenLingHandlePendingActionsCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -56,10 +56,10 @@ impl ChenLingHandlePendingActionsCsReq {
             |m: &ChenLingHandlePendingActionsCsReq| { &m.unique_id },
             |m: &mut ChenLingHandlePendingActionsCsReq| { &mut m.unique_id },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::OHFECLCHPPN::OHFECLCHPPN>(
-            "AEHMELMLNEM",
-            |m: &ChenLingHandlePendingActionsCsReq| { &m.AEHMELMLNEM },
-            |m: &mut ChenLingHandlePendingActionsCsReq| { &mut m.AEHMELMLNEM },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::NGDOLHONKIA::NGDOLHONKIA>(
+            "ICKIIBGJMNM",
+            |m: &ChenLingHandlePendingActionsCsReq| { &m.ICKIIBGJMNM },
+            |m: &mut ChenLingHandlePendingActionsCsReq| { &mut m.ICKIIBGJMNM },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ChenLingHandlePendingActionsCsReq>(
             "ChenLingHandlePendingActionsCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for ChenLingHandlePendingActionsCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                8 => {
+                96 => {
                     self.unique_id = is.read_uint32()?;
                 },
-                16378 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.AEHMELMLNEM)?;
+                8306 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.ICKIIBGJMNM)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -98,9 +98,9 @@ impl ::protobuf::Message for ChenLingHandlePendingActionsCsReq {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.unique_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.unique_id);
+            my_size += ::protobuf::rt::uint32_size(12, self.unique_id);
         }
-        if let Some(v) = self.AEHMELMLNEM.as_ref() {
+        if let Some(v) = self.ICKIIBGJMNM.as_ref() {
             let len = v.compute_size();
             my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -111,10 +111,10 @@ impl ::protobuf::Message for ChenLingHandlePendingActionsCsReq {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.unique_id != 0 {
-            os.write_uint32(1, self.unique_id)?;
+            os.write_uint32(12, self.unique_id)?;
         }
-        if let Some(v) = self.AEHMELMLNEM.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(2047, v, os)?;
+        if let Some(v) = self.ICKIIBGJMNM.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(1038, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -134,14 +134,14 @@ impl ::protobuf::Message for ChenLingHandlePendingActionsCsReq {
 
     fn clear(&mut self) {
         self.unique_id = 0;
-        self.AEHMELMLNEM.clear();
+        self.ICKIIBGJMNM.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ChenLingHandlePendingActionsCsReq {
         static instance: ChenLingHandlePendingActionsCsReq = ChenLingHandlePendingActionsCsReq {
             unique_id: 0,
-            AEHMELMLNEM: ::protobuf::MessageField::none(),
+            ICKIIBGJMNM: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,10 +166,10 @@ impl ::protobuf::reflect::ProtobufValue for ChenLingHandlePendingActionsCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n'ChenLingHandlePendingActionsCsReq.proto\x1a\x11OHFECLCHPPN.proto\"q\n\
-    !ChenLingHandlePendingActionsCsReq\x12\x1b\n\tunique_id\x18\x01\x20\x01(\
-    \rR\x08uniqueId\x12/\n\x0bAEHMELMLNEM\x18\xff\x0f\x20\x01(\x0b2\x0c.OHFE\
-    CLCHPPNR\x0bAEHMELMLNEMb\x06proto3\
+    \n'ChenLingHandlePendingActionsCsReq.proto\x1a\x11NGDOLHONKIA.proto\"q\n\
+    !ChenLingHandlePendingActionsCsReq\x12\x1b\n\tunique_id\x18\x0c\x20\x01(\
+    \rR\x08uniqueId\x12/\n\x0bICKIIBGJMNM\x18\x8e\x08\x20\x01(\x0b2\x0c.NGDO\
+    LHONKIAR\x0bICKIIBGJMNMb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -187,7 +187,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::OHFECLCHPPN::file_descriptor().clone());
+            deps.push(super::NGDOLHONKIA::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(ChenLingHandlePendingActionsCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

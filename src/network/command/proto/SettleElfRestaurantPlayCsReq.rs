@@ -28,30 +28,30 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct SettleElfRestaurantPlayCsReq {
     // message fields
-    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.ILBLCHFFOJP)
-    pub ILBLCHFFOJP: ::std::vec::Vec<super::APJGNEAIHCL::APJGNEAIHCL>,
-    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.KBGEPCCJAKA)
-    pub KBGEPCCJAKA: u32,
+    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.CNGEJMNPJPM)
+    pub CNGEJMNPJPM: ::std::vec::Vec<super::KPNDMCHCBPI::KPNDMCHCBPI>,
+    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.IOIBCNHAOKG)
+    pub IOIBCNHAOKG: u32,
+    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.BEOAPNBFOCI)
+    pub BEOAPNBFOCI: u32,
+    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.DNJEEOENMAA)
+    pub DNJEEOENMAA: u32,
+    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.DNDGPEPOLNM)
+    pub DNDGPEPOLNM: u32,
+    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.NGJKIIIJBIB)
+    pub NGJKIIIJBIB: u32,
+    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.ONGHHAPHCEM)
+    pub ONGHHAPHCEM: ::std::vec::Vec<super::KILNLEDAHOC::KILNLEDAHOC>,
     // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.cost_time)
     pub cost_time: u32,
-    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.LCINJKLOPCD)
-    pub LCINJKLOPCD: ::std::vec::Vec<super::PGMJHOHJJOE::PGMJHOHJJOE>,
-    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.HABBOIPFLDD)
-    pub HABBOIPFLDD: u32,
-    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.FNDIJBAMJPA)
-    pub FNDIJBAMJPA: ::std::vec::Vec<super::GHLPLLEKGBO::GHLPLLEKGBO>,
-    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.KBNBNEFKLAG)
-    pub KBNBNEFKLAG: u32,
-    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.FNMCKILLPFB)
-    pub FNMCKILLPFB: u32,
-    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.HHMJKJJMDLO)
-    pub HHMJKJJMDLO: ::std::vec::Vec<super::GDGFGHJLNPH::GDGFGHJLNPH>,
-    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.BGGPEBJACHE)
-    pub BGGPEBJACHE: u32,
-    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.ODFDMBNFAFE)
-    pub ODFDMBNFAFE: ::std::vec::Vec<super::NJCFMHFPCNF::NJCFMHFPCNF>,
-    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.CLNBJCAJNNL)
-    pub CLNBJCAJNNL: u32,
+    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.HLKMMJLCJEC)
+    pub HLKMMJLCJEC: ::std::vec::Vec<super::FLIPDLFKMLB::FLIPDLFKMLB>,
+    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.ALHGBBFBKJG)
+    pub ALHGBBFBKJG: ::std::vec::Vec<super::BJMHMKBBJGH::BJMHMKBBJGH>,
+    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.PIGFMOMEPHE)
+    pub PIGFMOMEPHE: ::std::vec::Vec<super::OAHNIFMDLCJ::OAHNIFMDLCJ>,
+    // @@protoc_insertion_point(field:SettleElfRestaurantPlayCsReq.AOAEKPAPHOK)
+    pub AOAEKPAPHOK: u32,
     // special fields
     // @@protoc_insertion_point(special_field:SettleElfRestaurantPlayCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -72,14 +72,39 @@ impl SettleElfRestaurantPlayCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(12);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "ILBLCHFFOJP",
-            |m: &SettleElfRestaurantPlayCsReq| { &m.ILBLCHFFOJP },
-            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.ILBLCHFFOJP },
+            "CNGEJMNPJPM",
+            |m: &SettleElfRestaurantPlayCsReq| { &m.CNGEJMNPJPM },
+            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.CNGEJMNPJPM },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "KBGEPCCJAKA",
-            |m: &SettleElfRestaurantPlayCsReq| { &m.KBGEPCCJAKA },
-            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.KBGEPCCJAKA },
+            "IOIBCNHAOKG",
+            |m: &SettleElfRestaurantPlayCsReq| { &m.IOIBCNHAOKG },
+            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.IOIBCNHAOKG },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "BEOAPNBFOCI",
+            |m: &SettleElfRestaurantPlayCsReq| { &m.BEOAPNBFOCI },
+            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.BEOAPNBFOCI },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "DNJEEOENMAA",
+            |m: &SettleElfRestaurantPlayCsReq| { &m.DNJEEOENMAA },
+            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.DNJEEOENMAA },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "DNDGPEPOLNM",
+            |m: &SettleElfRestaurantPlayCsReq| { &m.DNDGPEPOLNM },
+            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.DNDGPEPOLNM },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "NGJKIIIJBIB",
+            |m: &SettleElfRestaurantPlayCsReq| { &m.NGJKIIIJBIB },
+            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.NGJKIIIJBIB },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "ONGHHAPHCEM",
+            |m: &SettleElfRestaurantPlayCsReq| { &m.ONGHHAPHCEM },
+            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.ONGHHAPHCEM },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "cost_time",
@@ -87,49 +112,24 @@ impl SettleElfRestaurantPlayCsReq {
             |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.cost_time },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "LCINJKLOPCD",
-            |m: &SettleElfRestaurantPlayCsReq| { &m.LCINJKLOPCD },
-            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.LCINJKLOPCD },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "HABBOIPFLDD",
-            |m: &SettleElfRestaurantPlayCsReq| { &m.HABBOIPFLDD },
-            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.HABBOIPFLDD },
+            "HLKMMJLCJEC",
+            |m: &SettleElfRestaurantPlayCsReq| { &m.HLKMMJLCJEC },
+            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.HLKMMJLCJEC },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "FNDIJBAMJPA",
-            |m: &SettleElfRestaurantPlayCsReq| { &m.FNDIJBAMJPA },
-            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.FNDIJBAMJPA },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "KBNBNEFKLAG",
-            |m: &SettleElfRestaurantPlayCsReq| { &m.KBNBNEFKLAG },
-            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.KBNBNEFKLAG },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "FNMCKILLPFB",
-            |m: &SettleElfRestaurantPlayCsReq| { &m.FNMCKILLPFB },
-            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.FNMCKILLPFB },
+            "ALHGBBFBKJG",
+            |m: &SettleElfRestaurantPlayCsReq| { &m.ALHGBBFBKJG },
+            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.ALHGBBFBKJG },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "HHMJKJJMDLO",
-            |m: &SettleElfRestaurantPlayCsReq| { &m.HHMJKJJMDLO },
-            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.HHMJKJJMDLO },
+            "PIGFMOMEPHE",
+            |m: &SettleElfRestaurantPlayCsReq| { &m.PIGFMOMEPHE },
+            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.PIGFMOMEPHE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BGGPEBJACHE",
-            |m: &SettleElfRestaurantPlayCsReq| { &m.BGGPEBJACHE },
-            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.BGGPEBJACHE },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "ODFDMBNFAFE",
-            |m: &SettleElfRestaurantPlayCsReq| { &m.ODFDMBNFAFE },
-            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.ODFDMBNFAFE },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "CLNBJCAJNNL",
-            |m: &SettleElfRestaurantPlayCsReq| { &m.CLNBJCAJNNL },
-            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.CLNBJCAJNNL },
+            "AOAEKPAPHOK",
+            |m: &SettleElfRestaurantPlayCsReq| { &m.AOAEKPAPHOK },
+            |m: &mut SettleElfRestaurantPlayCsReq| { &mut m.AOAEKPAPHOK },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<SettleElfRestaurantPlayCsReq>(
             "SettleElfRestaurantPlayCsReq",
@@ -149,41 +149,41 @@ impl ::protobuf::Message for SettleElfRestaurantPlayCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                122 => {
-                    self.ILBLCHFFOJP.push(is.read_message()?);
+                50 => {
+                    self.CNGEJMNPJPM.push(is.read_message()?);
                 },
-                64 => {
-                    self.KBGEPCCJAKA = is.read_uint32()?;
+                88 => {
+                    self.IOIBCNHAOKG = is.read_uint32()?;
+                },
+                8 => {
+                    self.BEOAPNBFOCI = is.read_uint32()?;
+                },
+                120 => {
+                    self.DNJEEOENMAA = is.read_uint32()?;
+                },
+                80 => {
+                    self.DNDGPEPOLNM = is.read_uint32()?;
                 },
                 112 => {
+                    self.NGJKIIIJBIB = is.read_uint32()?;
+                },
+                66 => {
+                    self.ONGHHAPHCEM.push(is.read_message()?);
+                },
+                40 => {
                     self.cost_time = is.read_uint32()?;
                 },
-                90 => {
-                    self.LCINJKLOPCD.push(is.read_message()?);
+                74 => {
+                    self.HLKMMJLCJEC.push(is.read_message()?);
                 },
-                24 => {
-                    self.HABBOIPFLDD = is.read_uint32()?;
+                58 => {
+                    self.ALHGBBFBKJG.push(is.read_message()?);
                 },
-                82 => {
-                    self.FNDIJBAMJPA.push(is.read_message()?);
+                18 => {
+                    self.PIGFMOMEPHE.push(is.read_message()?);
                 },
-                56 => {
-                    self.KBNBNEFKLAG = is.read_uint32()?;
-                },
-                32 => {
-                    self.FNMCKILLPFB = is.read_uint32()?;
-                },
-                10 => {
-                    self.HHMJKJJMDLO.push(is.read_message()?);
-                },
-                72 => {
-                    self.BGGPEBJACHE = is.read_uint32()?;
-                },
-                98 => {
-                    self.ODFDMBNFAFE.push(is.read_message()?);
-                },
-                104 => {
-                    self.CLNBJCAJNNL = is.read_uint32()?;
+                96 => {
+                    self.AOAEKPAPHOK = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -197,46 +197,46 @@ impl ::protobuf::Message for SettleElfRestaurantPlayCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        for value in &self.ILBLCHFFOJP {
+        for value in &self.CNGEJMNPJPM {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.KBGEPCCJAKA != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.KBGEPCCJAKA);
+        if self.IOIBCNHAOKG != 0 {
+            my_size += ::protobuf::rt::uint32_size(11, self.IOIBCNHAOKG);
         }
+        if self.BEOAPNBFOCI != 0 {
+            my_size += ::protobuf::rt::uint32_size(1, self.BEOAPNBFOCI);
+        }
+        if self.DNJEEOENMAA != 0 {
+            my_size += ::protobuf::rt::uint32_size(15, self.DNJEEOENMAA);
+        }
+        if self.DNDGPEPOLNM != 0 {
+            my_size += ::protobuf::rt::uint32_size(10, self.DNDGPEPOLNM);
+        }
+        if self.NGJKIIIJBIB != 0 {
+            my_size += ::protobuf::rt::uint32_size(14, self.NGJKIIIJBIB);
+        }
+        for value in &self.ONGHHAPHCEM {
+            let len = value.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        };
         if self.cost_time != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.cost_time);
+            my_size += ::protobuf::rt::uint32_size(5, self.cost_time);
         }
-        for value in &self.LCINJKLOPCD {
+        for value in &self.HLKMMJLCJEC {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.HABBOIPFLDD != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.HABBOIPFLDD);
-        }
-        for value in &self.FNDIJBAMJPA {
+        for value in &self.ALHGBBFBKJG {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.KBNBNEFKLAG != 0 {
-            my_size += ::protobuf::rt::uint32_size(7, self.KBNBNEFKLAG);
-        }
-        if self.FNMCKILLPFB != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.FNMCKILLPFB);
-        }
-        for value in &self.HHMJKJJMDLO {
+        for value in &self.PIGFMOMEPHE {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.BGGPEBJACHE != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.BGGPEBJACHE);
-        }
-        for value in &self.ODFDMBNFAFE {
-            let len = value.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        };
-        if self.CLNBJCAJNNL != 0 {
-            my_size += ::protobuf::rt::uint32_size(13, self.CLNBJCAJNNL);
+        if self.AOAEKPAPHOK != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.AOAEKPAPHOK);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -244,41 +244,41 @@ impl ::protobuf::Message for SettleElfRestaurantPlayCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.ILBLCHFFOJP {
-            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
+        for v in &self.CNGEJMNPJPM {
+            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
         };
-        if self.KBGEPCCJAKA != 0 {
-            os.write_uint32(8, self.KBGEPCCJAKA)?;
+        if self.IOIBCNHAOKG != 0 {
+            os.write_uint32(11, self.IOIBCNHAOKG)?;
         }
+        if self.BEOAPNBFOCI != 0 {
+            os.write_uint32(1, self.BEOAPNBFOCI)?;
+        }
+        if self.DNJEEOENMAA != 0 {
+            os.write_uint32(15, self.DNJEEOENMAA)?;
+        }
+        if self.DNDGPEPOLNM != 0 {
+            os.write_uint32(10, self.DNDGPEPOLNM)?;
+        }
+        if self.NGJKIIIJBIB != 0 {
+            os.write_uint32(14, self.NGJKIIIJBIB)?;
+        }
+        for v in &self.ONGHHAPHCEM {
+            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+        };
         if self.cost_time != 0 {
-            os.write_uint32(14, self.cost_time)?;
+            os.write_uint32(5, self.cost_time)?;
         }
-        for v in &self.LCINJKLOPCD {
-            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
+        for v in &self.HLKMMJLCJEC {
+            ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
         };
-        if self.HABBOIPFLDD != 0 {
-            os.write_uint32(3, self.HABBOIPFLDD)?;
-        }
-        for v in &self.FNDIJBAMJPA {
-            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
+        for v in &self.ALHGBBFBKJG {
+            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
         };
-        if self.KBNBNEFKLAG != 0 {
-            os.write_uint32(7, self.KBNBNEFKLAG)?;
-        }
-        if self.FNMCKILLPFB != 0 {
-            os.write_uint32(4, self.FNMCKILLPFB)?;
-        }
-        for v in &self.HHMJKJJMDLO {
-            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
+        for v in &self.PIGFMOMEPHE {
+            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
         };
-        if self.BGGPEBJACHE != 0 {
-            os.write_uint32(9, self.BGGPEBJACHE)?;
-        }
-        for v in &self.ODFDMBNFAFE {
-            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
-        };
-        if self.CLNBJCAJNNL != 0 {
-            os.write_uint32(13, self.CLNBJCAJNNL)?;
+        if self.AOAEKPAPHOK != 0 {
+            os.write_uint32(12, self.AOAEKPAPHOK)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -297,35 +297,35 @@ impl ::protobuf::Message for SettleElfRestaurantPlayCsReq {
     }
 
     fn clear(&mut self) {
-        self.ILBLCHFFOJP.clear();
-        self.KBGEPCCJAKA = 0;
+        self.CNGEJMNPJPM.clear();
+        self.IOIBCNHAOKG = 0;
+        self.BEOAPNBFOCI = 0;
+        self.DNJEEOENMAA = 0;
+        self.DNDGPEPOLNM = 0;
+        self.NGJKIIIJBIB = 0;
+        self.ONGHHAPHCEM.clear();
         self.cost_time = 0;
-        self.LCINJKLOPCD.clear();
-        self.HABBOIPFLDD = 0;
-        self.FNDIJBAMJPA.clear();
-        self.KBNBNEFKLAG = 0;
-        self.FNMCKILLPFB = 0;
-        self.HHMJKJJMDLO.clear();
-        self.BGGPEBJACHE = 0;
-        self.ODFDMBNFAFE.clear();
-        self.CLNBJCAJNNL = 0;
+        self.HLKMMJLCJEC.clear();
+        self.ALHGBBFBKJG.clear();
+        self.PIGFMOMEPHE.clear();
+        self.AOAEKPAPHOK = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static SettleElfRestaurantPlayCsReq {
         static instance: SettleElfRestaurantPlayCsReq = SettleElfRestaurantPlayCsReq {
-            ILBLCHFFOJP: ::std::vec::Vec::new(),
-            KBGEPCCJAKA: 0,
+            CNGEJMNPJPM: ::std::vec::Vec::new(),
+            IOIBCNHAOKG: 0,
+            BEOAPNBFOCI: 0,
+            DNJEEOENMAA: 0,
+            DNDGPEPOLNM: 0,
+            NGJKIIIJBIB: 0,
+            ONGHHAPHCEM: ::std::vec::Vec::new(),
             cost_time: 0,
-            LCINJKLOPCD: ::std::vec::Vec::new(),
-            HABBOIPFLDD: 0,
-            FNDIJBAMJPA: ::std::vec::Vec::new(),
-            KBNBNEFKLAG: 0,
-            FNMCKILLPFB: 0,
-            HHMJKJJMDLO: ::std::vec::Vec::new(),
-            BGGPEBJACHE: 0,
-            ODFDMBNFAFE: ::std::vec::Vec::new(),
-            CLNBJCAJNNL: 0,
+            HLKMMJLCJEC: ::std::vec::Vec::new(),
+            ALHGBBFBKJG: ::std::vec::Vec::new(),
+            PIGFMOMEPHE: ::std::vec::Vec::new(),
+            AOAEKPAPHOK: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -350,21 +350,21 @@ impl ::protobuf::reflect::ProtobufValue for SettleElfRestaurantPlayCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\"SettleElfRestaurantPlayCsReq.proto\x1a\x11APJGNEAIHCL.proto\x1a\x11G\
-    DGFGHJLNPH.proto\x1a\x11GHLPLLEKGBO.proto\x1a\x11NJCFMHFPCNF.proto\x1a\
-    \x11PGMJHOHJJOE.proto\"\xf7\x03\n\x1cSettleElfRestaurantPlayCsReq\x12.\n\
-    \x0bILBLCHFFOJP\x18\x0f\x20\x03(\x0b2\x0c.APJGNEAIHCLR\x0bILBLCHFFOJP\
-    \x12\x20\n\x0bKBGEPCCJAKA\x18\x08\x20\x01(\rR\x0bKBGEPCCJAKA\x12\x1b\n\t\
-    cost_time\x18\x0e\x20\x01(\rR\x08costTime\x12.\n\x0bLCINJKLOPCD\x18\x0b\
-    \x20\x03(\x0b2\x0c.PGMJHOHJJOER\x0bLCINJKLOPCD\x12\x20\n\x0bHABBOIPFLDD\
-    \x18\x03\x20\x01(\rR\x0bHABBOIPFLDD\x12.\n\x0bFNDIJBAMJPA\x18\n\x20\x03(\
-    \x0b2\x0c.GHLPLLEKGBOR\x0bFNDIJBAMJPA\x12\x20\n\x0bKBNBNEFKLAG\x18\x07\
-    \x20\x01(\rR\x0bKBNBNEFKLAG\x12\x20\n\x0bFNMCKILLPFB\x18\x04\x20\x01(\rR\
-    \x0bFNMCKILLPFB\x12.\n\x0bHHMJKJJMDLO\x18\x01\x20\x03(\x0b2\x0c.GDGFGHJL\
-    NPHR\x0bHHMJKJJMDLO\x12\x20\n\x0bBGGPEBJACHE\x18\t\x20\x01(\rR\x0bBGGPEB\
-    JACHE\x12.\n\x0bODFDMBNFAFE\x18\x0c\x20\x03(\x0b2\x0c.NJCFMHFPCNFR\x0bOD\
-    FDMBNFAFE\x12\x20\n\x0bCLNBJCAJNNL\x18\r\x20\x01(\rR\x0bCLNBJCAJNNLb\x06\
-    proto3\
+    \n\"SettleElfRestaurantPlayCsReq.proto\x1a\x11BJMHMKBBJGH.proto\x1a\x11F\
+    LIPDLFKMLB.proto\x1a\x11KILNLEDAHOC.proto\x1a\x11KPNDMCHCBPI.proto\x1a\
+    \x11OAHNIFMDLCJ.proto\"\xf7\x03\n\x1cSettleElfRestaurantPlayCsReq\x12.\n\
+    \x0bCNGEJMNPJPM\x18\x06\x20\x03(\x0b2\x0c.KPNDMCHCBPIR\x0bCNGEJMNPJPM\
+    \x12\x20\n\x0bIOIBCNHAOKG\x18\x0b\x20\x01(\rR\x0bIOIBCNHAOKG\x12\x20\n\
+    \x0bBEOAPNBFOCI\x18\x01\x20\x01(\rR\x0bBEOAPNBFOCI\x12\x20\n\x0bDNJEEOEN\
+    MAA\x18\x0f\x20\x01(\rR\x0bDNJEEOENMAA\x12\x20\n\x0bDNDGPEPOLNM\x18\n\
+    \x20\x01(\rR\x0bDNDGPEPOLNM\x12\x20\n\x0bNGJKIIIJBIB\x18\x0e\x20\x01(\rR\
+    \x0bNGJKIIIJBIB\x12.\n\x0bONGHHAPHCEM\x18\x08\x20\x03(\x0b2\x0c.KILNLEDA\
+    HOCR\x0bONGHHAPHCEM\x12\x1b\n\tcost_time\x18\x05\x20\x01(\rR\x08costTime\
+    \x12.\n\x0bHLKMMJLCJEC\x18\t\x20\x03(\x0b2\x0c.FLIPDLFKMLBR\x0bHLKMMJLCJ\
+    EC\x12.\n\x0bALHGBBFBKJG\x18\x07\x20\x03(\x0b2\x0c.BJMHMKBBJGHR\x0bALHGB\
+    BFBKJG\x12.\n\x0bPIGFMOMEPHE\x18\x02\x20\x03(\x0b2\x0c.OAHNIFMDLCJR\x0bP\
+    IGFMOMEPHE\x12\x20\n\x0bAOAEKPAPHOK\x18\x0c\x20\x01(\rR\x0bAOAEKPAPHOKb\
+    \x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -382,11 +382,11 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(5);
-            deps.push(super::APJGNEAIHCL::file_descriptor().clone());
-            deps.push(super::GDGFGHJLNPH::file_descriptor().clone());
-            deps.push(super::GHLPLLEKGBO::file_descriptor().clone());
-            deps.push(super::NJCFMHFPCNF::file_descriptor().clone());
-            deps.push(super::PGMJHOHJJOE::file_descriptor().clone());
+            deps.push(super::BJMHMKBBJGH::file_descriptor().clone());
+            deps.push(super::FLIPDLFKMLB::file_descriptor().clone());
+            deps.push(super::KILNLEDAHOC::file_descriptor().clone());
+            deps.push(super::KPNDMCHCBPI::file_descriptor().clone());
+            deps.push(super::OAHNIFMDLCJ::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(SettleElfRestaurantPlayCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

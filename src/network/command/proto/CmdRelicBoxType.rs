@@ -27,32 +27,34 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdRelicBoxType)
 pub enum CmdRelicBoxType {
-    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdRelicBoxType_MNFEPONEDDJ)
-    CmdRelicBoxType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdRelicBoxType_NMCHJNCCKHN)
-    CmdRelicBoxType_NMCHJNCCKHN = 8951,
-    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdRelicBoxType_CIMJFNGENKB)
-    CmdRelicBoxType_CIMJFNGENKB = 8966,
-    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdRelicBoxType_OPKLCAJAIGM)
-    CmdRelicBoxType_OPKLCAJAIGM = 8956,
-    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdRelicBoxType_LNJIHEGBCEE)
-    CmdRelicBoxType_LNJIHEGBCEE = 8959,
-    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdRelicBoxType_JJALGJFHLPP)
-    CmdRelicBoxType_JJALGJFHLPP = 8969,
-    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdRelicBoxType_OICKJPCGCAE)
-    CmdRelicBoxType_OICKJPCGCAE = 8960,
-    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdRelicBoxType_DPPPBCCHCLB)
-    CmdRelicBoxType_DPPPBCCHCLB = 8967,
-    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdRelicBoxType_IFCOOCMELAE)
-    CmdRelicBoxType_IFCOOCMELAE = 8954,
-    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdRelicBoxType_KICLLFLMKPN)
-    CmdRelicBoxType_KICLLFLMKPN = 8953,
-    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdRelicBoxType_AAGHHAMPHLK)
-    CmdRelicBoxType_AAGHHAMPHLK = 8965,
-    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdRelicBoxType_EFHLKFFGILN)
-    CmdRelicBoxType_EFHLKFFGILN = 8955,
-    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdRelicBoxType_NINNDMNDBIO)
-    CmdRelicBoxType_NINNDMNDBIO = 8957,
+    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.EOICCPKPFPB_PCPDHELPKEM)
+    EOICCPKPFPB_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdSetRelicBoxTargetScRsp)
+    CmdSetRelicBoxTargetScRsp = 8958,
+    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdSetRelicBoxCustomCsReq)
+    CmdSetRelicBoxCustomCsReq = 8952,
+    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdSetRelicBoxCustomScRsp)
+    CmdSetRelicBoxCustomScRsp = 8960,
+    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdRelicBoxRegularScNotify)
+    CmdRelicBoxRegularScNotify = 8963,
+    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdSetRelicBoxTargetCsReq)
+    CmdSetRelicBoxTargetCsReq = 8965,
+    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdConfirmRelicBoxScRsp)
+    CmdConfirmRelicBoxScRsp = 8968,
+    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdConfirmRelicBoxCsReq)
+    CmdConfirmRelicBoxCsReq = 8961,
+    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdOpenRelicBoxScRsp)
+    CmdOpenRelicBoxScRsp = 8969,
+    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdOpenRelicBoxCsReq)
+    CmdOpenRelicBoxCsReq = 8957,
+    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdGetRelicBoxDataScRsp)
+    CmdGetRelicBoxDataScRsp = 8970,
+    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdReportRelicBoxActionScRsp)
+    CmdReportRelicBoxActionScRsp = 8959,
+    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdGetRelicBoxDataCsReq)
+    CmdGetRelicBoxDataCsReq = 8951,
+    // @@protoc_insertion_point(enum_value:CmdRelicBoxType.CmdReportRelicBoxActionCsReq)
+    CmdReportRelicBoxActionCsReq = 8953,
 }
 
 impl ::protobuf::Enum for CmdRelicBoxType {
@@ -64,56 +66,59 @@ impl ::protobuf::Enum for CmdRelicBoxType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdRelicBoxType> {
         match value {
-            0 => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_MNFEPONEDDJ),
-            8951 => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_NMCHJNCCKHN),
-            8966 => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_CIMJFNGENKB),
-            8956 => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_OPKLCAJAIGM),
-            8959 => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_LNJIHEGBCEE),
-            8969 => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_JJALGJFHLPP),
-            8960 => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_OICKJPCGCAE),
-            8967 => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_DPPPBCCHCLB),
-            8954 => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_IFCOOCMELAE),
-            8953 => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_KICLLFLMKPN),
-            8965 => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_AAGHHAMPHLK),
-            8955 => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_EFHLKFFGILN),
-            8957 => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_NINNDMNDBIO),
+            0 => ::std::option::Option::Some(CmdRelicBoxType::EOICCPKPFPB_PCPDHELPKEM),
+            8958 => ::std::option::Option::Some(CmdRelicBoxType::CmdSetRelicBoxTargetScRsp),
+            8952 => ::std::option::Option::Some(CmdRelicBoxType::CmdSetRelicBoxCustomCsReq),
+            8960 => ::std::option::Option::Some(CmdRelicBoxType::CmdSetRelicBoxCustomScRsp),
+            8963 => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxRegularScNotify),
+            8965 => ::std::option::Option::Some(CmdRelicBoxType::CmdSetRelicBoxTargetCsReq),
+            8968 => ::std::option::Option::Some(CmdRelicBoxType::CmdConfirmRelicBoxScRsp),
+            8961 => ::std::option::Option::Some(CmdRelicBoxType::CmdConfirmRelicBoxCsReq),
+            8969 => ::std::option::Option::Some(CmdRelicBoxType::CmdOpenRelicBoxScRsp),
+            8957 => ::std::option::Option::Some(CmdRelicBoxType::CmdOpenRelicBoxCsReq),
+            8970 => ::std::option::Option::Some(CmdRelicBoxType::CmdGetRelicBoxDataScRsp),
+            8959 => ::std::option::Option::Some(CmdRelicBoxType::CmdReportRelicBoxActionScRsp),
+            8951 => ::std::option::Option::Some(CmdRelicBoxType::CmdGetRelicBoxDataCsReq),
+            8953 => ::std::option::Option::Some(CmdRelicBoxType::CmdReportRelicBoxActionCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdRelicBoxType> {
         match str {
-            "CmdRelicBoxType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_MNFEPONEDDJ),
-            "CmdRelicBoxType_NMCHJNCCKHN" => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_NMCHJNCCKHN),
-            "CmdRelicBoxType_CIMJFNGENKB" => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_CIMJFNGENKB),
-            "CmdRelicBoxType_OPKLCAJAIGM" => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_OPKLCAJAIGM),
-            "CmdRelicBoxType_LNJIHEGBCEE" => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_LNJIHEGBCEE),
-            "CmdRelicBoxType_JJALGJFHLPP" => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_JJALGJFHLPP),
-            "CmdRelicBoxType_OICKJPCGCAE" => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_OICKJPCGCAE),
-            "CmdRelicBoxType_DPPPBCCHCLB" => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_DPPPBCCHCLB),
-            "CmdRelicBoxType_IFCOOCMELAE" => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_IFCOOCMELAE),
-            "CmdRelicBoxType_KICLLFLMKPN" => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_KICLLFLMKPN),
-            "CmdRelicBoxType_AAGHHAMPHLK" => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_AAGHHAMPHLK),
-            "CmdRelicBoxType_EFHLKFFGILN" => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_EFHLKFFGILN),
-            "CmdRelicBoxType_NINNDMNDBIO" => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxType_NINNDMNDBIO),
+            "EOICCPKPFPB_PCPDHELPKEM" => ::std::option::Option::Some(CmdRelicBoxType::EOICCPKPFPB_PCPDHELPKEM),
+            "CmdSetRelicBoxTargetScRsp" => ::std::option::Option::Some(CmdRelicBoxType::CmdSetRelicBoxTargetScRsp),
+            "CmdSetRelicBoxCustomCsReq" => ::std::option::Option::Some(CmdRelicBoxType::CmdSetRelicBoxCustomCsReq),
+            "CmdSetRelicBoxCustomScRsp" => ::std::option::Option::Some(CmdRelicBoxType::CmdSetRelicBoxCustomScRsp),
+            "CmdRelicBoxRegularScNotify" => ::std::option::Option::Some(CmdRelicBoxType::CmdRelicBoxRegularScNotify),
+            "CmdSetRelicBoxTargetCsReq" => ::std::option::Option::Some(CmdRelicBoxType::CmdSetRelicBoxTargetCsReq),
+            "CmdConfirmRelicBoxScRsp" => ::std::option::Option::Some(CmdRelicBoxType::CmdConfirmRelicBoxScRsp),
+            "CmdConfirmRelicBoxCsReq" => ::std::option::Option::Some(CmdRelicBoxType::CmdConfirmRelicBoxCsReq),
+            "CmdOpenRelicBoxScRsp" => ::std::option::Option::Some(CmdRelicBoxType::CmdOpenRelicBoxScRsp),
+            "CmdOpenRelicBoxCsReq" => ::std::option::Option::Some(CmdRelicBoxType::CmdOpenRelicBoxCsReq),
+            "CmdGetRelicBoxDataScRsp" => ::std::option::Option::Some(CmdRelicBoxType::CmdGetRelicBoxDataScRsp),
+            "CmdReportRelicBoxActionScRsp" => ::std::option::Option::Some(CmdRelicBoxType::CmdReportRelicBoxActionScRsp),
+            "CmdGetRelicBoxDataCsReq" => ::std::option::Option::Some(CmdRelicBoxType::CmdGetRelicBoxDataCsReq),
+            "CmdReportRelicBoxActionCsReq" => ::std::option::Option::Some(CmdRelicBoxType::CmdReportRelicBoxActionCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdRelicBoxType] = &[
-        CmdRelicBoxType::CmdRelicBoxType_MNFEPONEDDJ,
-        CmdRelicBoxType::CmdRelicBoxType_NMCHJNCCKHN,
-        CmdRelicBoxType::CmdRelicBoxType_CIMJFNGENKB,
-        CmdRelicBoxType::CmdRelicBoxType_OPKLCAJAIGM,
-        CmdRelicBoxType::CmdRelicBoxType_LNJIHEGBCEE,
-        CmdRelicBoxType::CmdRelicBoxType_JJALGJFHLPP,
-        CmdRelicBoxType::CmdRelicBoxType_OICKJPCGCAE,
-        CmdRelicBoxType::CmdRelicBoxType_DPPPBCCHCLB,
-        CmdRelicBoxType::CmdRelicBoxType_IFCOOCMELAE,
-        CmdRelicBoxType::CmdRelicBoxType_KICLLFLMKPN,
-        CmdRelicBoxType::CmdRelicBoxType_AAGHHAMPHLK,
-        CmdRelicBoxType::CmdRelicBoxType_EFHLKFFGILN,
-        CmdRelicBoxType::CmdRelicBoxType_NINNDMNDBIO,
+        CmdRelicBoxType::EOICCPKPFPB_PCPDHELPKEM,
+        CmdRelicBoxType::CmdSetRelicBoxTargetScRsp,
+        CmdRelicBoxType::CmdSetRelicBoxCustomCsReq,
+        CmdRelicBoxType::CmdSetRelicBoxCustomScRsp,
+        CmdRelicBoxType::CmdRelicBoxRegularScNotify,
+        CmdRelicBoxType::CmdSetRelicBoxTargetCsReq,
+        CmdRelicBoxType::CmdConfirmRelicBoxScRsp,
+        CmdRelicBoxType::CmdConfirmRelicBoxCsReq,
+        CmdRelicBoxType::CmdOpenRelicBoxScRsp,
+        CmdRelicBoxType::CmdOpenRelicBoxCsReq,
+        CmdRelicBoxType::CmdGetRelicBoxDataScRsp,
+        CmdRelicBoxType::CmdReportRelicBoxActionScRsp,
+        CmdRelicBoxType::CmdGetRelicBoxDataCsReq,
+        CmdRelicBoxType::CmdReportRelicBoxActionCsReq,
     ];
 }
 
@@ -125,19 +130,20 @@ impl ::protobuf::EnumFull for CmdRelicBoxType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdRelicBoxType::CmdRelicBoxType_MNFEPONEDDJ => 0,
-            CmdRelicBoxType::CmdRelicBoxType_NMCHJNCCKHN => 1,
-            CmdRelicBoxType::CmdRelicBoxType_CIMJFNGENKB => 2,
-            CmdRelicBoxType::CmdRelicBoxType_OPKLCAJAIGM => 3,
-            CmdRelicBoxType::CmdRelicBoxType_LNJIHEGBCEE => 4,
-            CmdRelicBoxType::CmdRelicBoxType_JJALGJFHLPP => 5,
-            CmdRelicBoxType::CmdRelicBoxType_OICKJPCGCAE => 6,
-            CmdRelicBoxType::CmdRelicBoxType_DPPPBCCHCLB => 7,
-            CmdRelicBoxType::CmdRelicBoxType_IFCOOCMELAE => 8,
-            CmdRelicBoxType::CmdRelicBoxType_KICLLFLMKPN => 9,
-            CmdRelicBoxType::CmdRelicBoxType_AAGHHAMPHLK => 10,
-            CmdRelicBoxType::CmdRelicBoxType_EFHLKFFGILN => 11,
-            CmdRelicBoxType::CmdRelicBoxType_NINNDMNDBIO => 12,
+            CmdRelicBoxType::EOICCPKPFPB_PCPDHELPKEM => 0,
+            CmdRelicBoxType::CmdSetRelicBoxTargetScRsp => 1,
+            CmdRelicBoxType::CmdSetRelicBoxCustomCsReq => 2,
+            CmdRelicBoxType::CmdSetRelicBoxCustomScRsp => 3,
+            CmdRelicBoxType::CmdRelicBoxRegularScNotify => 4,
+            CmdRelicBoxType::CmdSetRelicBoxTargetCsReq => 5,
+            CmdRelicBoxType::CmdConfirmRelicBoxScRsp => 6,
+            CmdRelicBoxType::CmdConfirmRelicBoxCsReq => 7,
+            CmdRelicBoxType::CmdOpenRelicBoxScRsp => 8,
+            CmdRelicBoxType::CmdOpenRelicBoxCsReq => 9,
+            CmdRelicBoxType::CmdGetRelicBoxDataScRsp => 10,
+            CmdRelicBoxType::CmdReportRelicBoxActionScRsp => 11,
+            CmdRelicBoxType::CmdGetRelicBoxDataCsReq => 12,
+            CmdRelicBoxType::CmdReportRelicBoxActionCsReq => 13,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -145,7 +151,7 @@ impl ::protobuf::EnumFull for CmdRelicBoxType {
 
 impl ::std::default::Default for CmdRelicBoxType {
     fn default() -> Self {
-        CmdRelicBoxType::CmdRelicBoxType_MNFEPONEDDJ
+        CmdRelicBoxType::EOICCPKPFPB_PCPDHELPKEM
     }
 }
 
@@ -156,16 +162,17 @@ impl CmdRelicBoxType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x15CmdRelicBoxType.proto*\xca\x03\n\x0fCmdRelicBoxType\x12\x1f\n\x1bC\
-    mdRelicBoxType_MNFEPONEDDJ\x10\0\x12\x20\n\x1bCmdRelicBoxType_NMCHJNCCKH\
-    N\x10\xf7E\x12\x20\n\x1bCmdRelicBoxType_CIMJFNGENKB\x10\x86F\x12\x20\n\
-    \x1bCmdRelicBoxType_OPKLCAJAIGM\x10\xfcE\x12\x20\n\x1bCmdRelicBoxType_LN\
-    JIHEGBCEE\x10\xffE\x12\x20\n\x1bCmdRelicBoxType_JJALGJFHLPP\x10\x89F\x12\
-    \x20\n\x1bCmdRelicBoxType_OICKJPCGCAE\x10\x80F\x12\x20\n\x1bCmdRelicBoxT\
-    ype_DPPPBCCHCLB\x10\x87F\x12\x20\n\x1bCmdRelicBoxType_IFCOOCMELAE\x10\
-    \xfaE\x12\x20\n\x1bCmdRelicBoxType_KICLLFLMKPN\x10\xf9E\x12\x20\n\x1bCmd\
-    RelicBoxType_AAGHHAMPHLK\x10\x85F\x12\x20\n\x1bCmdRelicBoxType_EFHLKFFGI\
-    LN\x10\xfbE\x12\x20\n\x1bCmdRelicBoxType_NINNDMNDBIO\x10\xfdEb\x06proto3\
+    \n\x15CmdRelicBoxType.proto*\xc3\x03\n\x0fCmdRelicBoxType\x12\x1b\n\x17E\
+    OICCPKPFPB_PCPDHELPKEM\x10\0\x12\x1e\n\x19CmdSetRelicBoxTargetScRsp\x10\
+    \xfeE\x12\x1e\n\x19CmdSetRelicBoxCustomCsReq\x10\xf8E\x12\x1e\n\x19CmdSe\
+    tRelicBoxCustomScRsp\x10\x80F\x12\x1f\n\x1aCmdRelicBoxRegularScNotify\
+    \x10\x83F\x12\x1e\n\x19CmdSetRelicBoxTargetCsReq\x10\x85F\x12\x1c\n\x17C\
+    mdConfirmRelicBoxScRsp\x10\x88F\x12\x1c\n\x17CmdConfirmRelicBoxCsReq\x10\
+    \x81F\x12\x19\n\x14CmdOpenRelicBoxScRsp\x10\x89F\x12\x19\n\x14CmdOpenRel\
+    icBoxCsReq\x10\xfdE\x12\x1c\n\x17CmdGetRelicBoxDataScRsp\x10\x8aF\x12!\n\
+    \x1cCmdReportRelicBoxActionScRsp\x10\xffE\x12\x1c\n\x17CmdGetRelicBoxDat\
+    aCsReq\x10\xf7E\x12!\n\x1cCmdReportRelicBoxActionCsReq\x10\xf9Eb\x06prot\
+    o3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

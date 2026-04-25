@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct LobbyGameExtInfo {
     // message fields
-    // @@protoc_insertion_point(field:LobbyGameExtInfo.JALINBMHGIF)
-    pub JALINBMHGIF: ::std::vec::Vec<::std::string::String>,
-    // @@protoc_insertion_point(field:LobbyGameExtInfo.FPFNELHGOND)
-    pub FPFNELHGOND: bool,
+    // @@protoc_insertion_point(field:LobbyGameExtInfo.BHILEPGIFNE)
+    pub BHILEPGIFNE: ::std::vec::Vec<::std::string::String>,
+    // @@protoc_insertion_point(field:LobbyGameExtInfo.HMPCFJPJDOE)
+    pub HMPCFJPJDOE: bool,
     // message oneof groups
-    pub ODBBDHFFOAC: ::std::option::Option<lobby_game_ext_info::ODBBDHFFOAC>,
+    pub JNJJJGBCEDG: ::std::option::Option<lobby_game_ext_info::JNJJJGBCEDG>,
     // special fields
     // @@protoc_insertion_point(special_field:LobbyGameExtInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -53,36 +53,36 @@ impl LobbyGameExtInfo {
     // .LobbyMarchInfo lobby_march_info = 1001;
 
     pub fn lobby_march_info(&self) -> &super::LobbyMarchInfo::LobbyMarchInfo {
-        match self.ODBBDHFFOAC {
-            ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarchInfo(ref v)) => v,
+        match self.JNJJJGBCEDG {
+            ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarchInfo(ref v)) => v,
             _ => <super::LobbyMarchInfo::LobbyMarchInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_lobby_march_info(&mut self) {
-        self.ODBBDHFFOAC = ::std::option::Option::None;
+        self.JNJJJGBCEDG = ::std::option::Option::None;
     }
 
     pub fn has_lobby_march_info(&self) -> bool {
-        match self.ODBBDHFFOAC {
-            ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarchInfo(..)) => true,
+        match self.JNJJJGBCEDG {
+            ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarchInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_lobby_march_info(&mut self, v: super::LobbyMarchInfo::LobbyMarchInfo) {
-        self.ODBBDHFFOAC = ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarchInfo(v))
+        self.JNJJJGBCEDG = ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarchInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_lobby_march_info(&mut self) -> &mut super::LobbyMarchInfo::LobbyMarchInfo {
-        if let ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarchInfo(_)) = self.ODBBDHFFOAC {
+        if let ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarchInfo(_)) = self.JNJJJGBCEDG {
         } else {
-            self.ODBBDHFFOAC = ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarchInfo(super::LobbyMarchInfo::LobbyMarchInfo::new()));
+            self.JNJJJGBCEDG = ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarchInfo(super::LobbyMarchInfo::LobbyMarchInfo::new()));
         }
-        match self.ODBBDHFFOAC {
-            ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarchInfo(ref mut v)) => v,
+        match self.JNJJJGBCEDG {
+            ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarchInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -90,8 +90,8 @@ impl LobbyGameExtInfo {
     // Take field
     pub fn take_lobby_march_info(&mut self) -> super::LobbyMarchInfo::LobbyMarchInfo {
         if self.has_lobby_march_info() {
-            match self.ODBBDHFFOAC.take() {
-                ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarchInfo(v)) => v,
+            match self.JNJJJGBCEDG.take() {
+                ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarchInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -102,36 +102,36 @@ impl LobbyGameExtInfo {
     // .LobbyMarbleInfo lobby_marble_info = 1002;
 
     pub fn lobby_marble_info(&self) -> &super::LobbyMarbleInfo::LobbyMarbleInfo {
-        match self.ODBBDHFFOAC {
-            ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarbleInfo(ref v)) => v,
+        match self.JNJJJGBCEDG {
+            ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarbleInfo(ref v)) => v,
             _ => <super::LobbyMarbleInfo::LobbyMarbleInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_lobby_marble_info(&mut self) {
-        self.ODBBDHFFOAC = ::std::option::Option::None;
+        self.JNJJJGBCEDG = ::std::option::Option::None;
     }
 
     pub fn has_lobby_marble_info(&self) -> bool {
-        match self.ODBBDHFFOAC {
-            ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarbleInfo(..)) => true,
+        match self.JNJJJGBCEDG {
+            ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarbleInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_lobby_marble_info(&mut self, v: super::LobbyMarbleInfo::LobbyMarbleInfo) {
-        self.ODBBDHFFOAC = ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarbleInfo(v))
+        self.JNJJJGBCEDG = ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarbleInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_lobby_marble_info(&mut self) -> &mut super::LobbyMarbleInfo::LobbyMarbleInfo {
-        if let ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarbleInfo(_)) = self.ODBBDHFFOAC {
+        if let ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarbleInfo(_)) = self.JNJJJGBCEDG {
         } else {
-            self.ODBBDHFFOAC = ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarbleInfo(super::LobbyMarbleInfo::LobbyMarbleInfo::new()));
+            self.JNJJJGBCEDG = ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarbleInfo(super::LobbyMarbleInfo::LobbyMarbleInfo::new()));
         }
-        match self.ODBBDHFFOAC {
-            ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarbleInfo(ref mut v)) => v,
+        match self.JNJJJGBCEDG {
+            ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarbleInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -139,8 +139,8 @@ impl LobbyGameExtInfo {
     // Take field
     pub fn take_lobby_marble_info(&mut self) -> super::LobbyMarbleInfo::LobbyMarbleInfo {
         if self.has_lobby_marble_info() {
-            match self.ODBBDHFFOAC.take() {
-                ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarbleInfo(v)) => v,
+            match self.JNJJJGBCEDG.take() {
+                ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarbleInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -148,88 +148,88 @@ impl LobbyGameExtInfo {
         }
     }
 
-    // .GFIAKFBGBMK HECADEDKOOL = 1003;
+    // .OIFJHEPAFOO NIFBKKNFKEG = 1003;
 
-    pub fn HECADEDKOOL(&self) -> &super::GFIAKFBGBMK::GFIAKFBGBMK {
-        match self.ODBBDHFFOAC {
-            ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::HECADEDKOOL(ref v)) => v,
-            _ => <super::GFIAKFBGBMK::GFIAKFBGBMK as ::protobuf::Message>::default_instance(),
+    pub fn NIFBKKNFKEG(&self) -> &super::OIFJHEPAFOO::OIFJHEPAFOO {
+        match self.JNJJJGBCEDG {
+            ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::NIFBKKNFKEG(ref v)) => v,
+            _ => <super::OIFJHEPAFOO::OIFJHEPAFOO as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_HECADEDKOOL(&mut self) {
-        self.ODBBDHFFOAC = ::std::option::Option::None;
+    pub fn clear_NIFBKKNFKEG(&mut self) {
+        self.JNJJJGBCEDG = ::std::option::Option::None;
     }
 
-    pub fn has_HECADEDKOOL(&self) -> bool {
-        match self.ODBBDHFFOAC {
-            ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::HECADEDKOOL(..)) => true,
+    pub fn has_NIFBKKNFKEG(&self) -> bool {
+        match self.JNJJJGBCEDG {
+            ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::NIFBKKNFKEG(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_HECADEDKOOL(&mut self, v: super::GFIAKFBGBMK::GFIAKFBGBMK) {
-        self.ODBBDHFFOAC = ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::HECADEDKOOL(v))
+    pub fn set_NIFBKKNFKEG(&mut self, v: super::OIFJHEPAFOO::OIFJHEPAFOO) {
+        self.JNJJJGBCEDG = ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::NIFBKKNFKEG(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_HECADEDKOOL(&mut self) -> &mut super::GFIAKFBGBMK::GFIAKFBGBMK {
-        if let ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::HECADEDKOOL(_)) = self.ODBBDHFFOAC {
+    pub fn mut_NIFBKKNFKEG(&mut self) -> &mut super::OIFJHEPAFOO::OIFJHEPAFOO {
+        if let ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::NIFBKKNFKEG(_)) = self.JNJJJGBCEDG {
         } else {
-            self.ODBBDHFFOAC = ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::HECADEDKOOL(super::GFIAKFBGBMK::GFIAKFBGBMK::new()));
+            self.JNJJJGBCEDG = ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::NIFBKKNFKEG(super::OIFJHEPAFOO::OIFJHEPAFOO::new()));
         }
-        match self.ODBBDHFFOAC {
-            ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::HECADEDKOOL(ref mut v)) => v,
+        match self.JNJJJGBCEDG {
+            ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::NIFBKKNFKEG(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_HECADEDKOOL(&mut self) -> super::GFIAKFBGBMK::GFIAKFBGBMK {
-        if self.has_HECADEDKOOL() {
-            match self.ODBBDHFFOAC.take() {
-                ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::HECADEDKOOL(v)) => v,
+    pub fn take_NIFBKKNFKEG(&mut self) -> super::OIFJHEPAFOO::OIFJHEPAFOO {
+        if self.has_NIFBKKNFKEG() {
+            match self.JNJJJGBCEDG.take() {
+                ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::NIFBKKNFKEG(v)) => v,
                 _ => panic!(),
             }
         } else {
-            super::GFIAKFBGBMK::GFIAKFBGBMK::new()
+            super::OIFJHEPAFOO::OIFJHEPAFOO::new()
         }
     }
 
     // .LobbyGridFightInfo lobby_grid_fight_info = 1004;
 
     pub fn lobby_grid_fight_info(&self) -> &super::LobbyGridFightInfo::LobbyGridFightInfo {
-        match self.ODBBDHFFOAC {
-            ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyGridFightInfo(ref v)) => v,
+        match self.JNJJJGBCEDG {
+            ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyGridFightInfo(ref v)) => v,
             _ => <super::LobbyGridFightInfo::LobbyGridFightInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_lobby_grid_fight_info(&mut self) {
-        self.ODBBDHFFOAC = ::std::option::Option::None;
+        self.JNJJJGBCEDG = ::std::option::Option::None;
     }
 
     pub fn has_lobby_grid_fight_info(&self) -> bool {
-        match self.ODBBDHFFOAC {
-            ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyGridFightInfo(..)) => true,
+        match self.JNJJJGBCEDG {
+            ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyGridFightInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_lobby_grid_fight_info(&mut self, v: super::LobbyGridFightInfo::LobbyGridFightInfo) {
-        self.ODBBDHFFOAC = ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyGridFightInfo(v))
+        self.JNJJJGBCEDG = ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyGridFightInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_lobby_grid_fight_info(&mut self) -> &mut super::LobbyGridFightInfo::LobbyGridFightInfo {
-        if let ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyGridFightInfo(_)) = self.ODBBDHFFOAC {
+        if let ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyGridFightInfo(_)) = self.JNJJJGBCEDG {
         } else {
-            self.ODBBDHFFOAC = ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyGridFightInfo(super::LobbyGridFightInfo::LobbyGridFightInfo::new()));
+            self.JNJJJGBCEDG = ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyGridFightInfo(super::LobbyGridFightInfo::LobbyGridFightInfo::new()));
         }
-        match self.ODBBDHFFOAC {
-            ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyGridFightInfo(ref mut v)) => v,
+        match self.JNJJJGBCEDG {
+            ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyGridFightInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -237,8 +237,8 @@ impl LobbyGameExtInfo {
     // Take field
     pub fn take_lobby_grid_fight_info(&mut self) -> super::LobbyGridFightInfo::LobbyGridFightInfo {
         if self.has_lobby_grid_fight_info() {
-            match self.ODBBDHFFOAC.take() {
-                ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyGridFightInfo(v)) => v,
+            match self.JNJJJGBCEDG.take() {
+                ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyGridFightInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -246,52 +246,52 @@ impl LobbyGameExtInfo {
         }
     }
 
-    // .LCCPODJNIED DDHKFBBAIOL = 1005;
+    // .GCJAMHEGKGE PCFNJJCOJED = 1005;
 
-    pub fn DDHKFBBAIOL(&self) -> &super::LCCPODJNIED::LCCPODJNIED {
-        match self.ODBBDHFFOAC {
-            ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::DDHKFBBAIOL(ref v)) => v,
-            _ => <super::LCCPODJNIED::LCCPODJNIED as ::protobuf::Message>::default_instance(),
+    pub fn PCFNJJCOJED(&self) -> &super::GCJAMHEGKGE::GCJAMHEGKGE {
+        match self.JNJJJGBCEDG {
+            ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::PCFNJJCOJED(ref v)) => v,
+            _ => <super::GCJAMHEGKGE::GCJAMHEGKGE as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_DDHKFBBAIOL(&mut self) {
-        self.ODBBDHFFOAC = ::std::option::Option::None;
+    pub fn clear_PCFNJJCOJED(&mut self) {
+        self.JNJJJGBCEDG = ::std::option::Option::None;
     }
 
-    pub fn has_DDHKFBBAIOL(&self) -> bool {
-        match self.ODBBDHFFOAC {
-            ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::DDHKFBBAIOL(..)) => true,
+    pub fn has_PCFNJJCOJED(&self) -> bool {
+        match self.JNJJJGBCEDG {
+            ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::PCFNJJCOJED(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_DDHKFBBAIOL(&mut self, v: super::LCCPODJNIED::LCCPODJNIED) {
-        self.ODBBDHFFOAC = ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::DDHKFBBAIOL(v))
+    pub fn set_PCFNJJCOJED(&mut self, v: super::GCJAMHEGKGE::GCJAMHEGKGE) {
+        self.JNJJJGBCEDG = ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::PCFNJJCOJED(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_DDHKFBBAIOL(&mut self) -> &mut super::LCCPODJNIED::LCCPODJNIED {
-        if let ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::DDHKFBBAIOL(_)) = self.ODBBDHFFOAC {
+    pub fn mut_PCFNJJCOJED(&mut self) -> &mut super::GCJAMHEGKGE::GCJAMHEGKGE {
+        if let ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::PCFNJJCOJED(_)) = self.JNJJJGBCEDG {
         } else {
-            self.ODBBDHFFOAC = ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::DDHKFBBAIOL(super::LCCPODJNIED::LCCPODJNIED::new()));
+            self.JNJJJGBCEDG = ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::PCFNJJCOJED(super::GCJAMHEGKGE::GCJAMHEGKGE::new()));
         }
-        match self.ODBBDHFFOAC {
-            ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::DDHKFBBAIOL(ref mut v)) => v,
+        match self.JNJJJGBCEDG {
+            ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::PCFNJJCOJED(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_DDHKFBBAIOL(&mut self) -> super::LCCPODJNIED::LCCPODJNIED {
-        if self.has_DDHKFBBAIOL() {
-            match self.ODBBDHFFOAC.take() {
-                ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::DDHKFBBAIOL(v)) => v,
+    pub fn take_PCFNJJCOJED(&mut self) -> super::GCJAMHEGKGE::GCJAMHEGKGE {
+        if self.has_PCFNJJCOJED() {
+            match self.JNJJJGBCEDG.take() {
+                ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::PCFNJJCOJED(v)) => v,
                 _ => panic!(),
             }
         } else {
-            super::LCCPODJNIED::LCCPODJNIED::new()
+            super::GCJAMHEGKGE::GCJAMHEGKGE::new()
         }
     }
 
@@ -299,14 +299,14 @@ impl LobbyGameExtInfo {
         let mut fields = ::std::vec::Vec::with_capacity(7);
         let mut oneofs = ::std::vec::Vec::with_capacity(1);
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "JALINBMHGIF",
-            |m: &LobbyGameExtInfo| { &m.JALINBMHGIF },
-            |m: &mut LobbyGameExtInfo| { &mut m.JALINBMHGIF },
+            "BHILEPGIFNE",
+            |m: &LobbyGameExtInfo| { &m.BHILEPGIFNE },
+            |m: &mut LobbyGameExtInfo| { &mut m.BHILEPGIFNE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "FPFNELHGOND",
-            |m: &LobbyGameExtInfo| { &m.FPFNELHGOND },
-            |m: &mut LobbyGameExtInfo| { &mut m.FPFNELHGOND },
+            "HMPCFJPJDOE",
+            |m: &LobbyGameExtInfo| { &m.HMPCFJPJDOE },
+            |m: &mut LobbyGameExtInfo| { &mut m.HMPCFJPJDOE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::LobbyMarchInfo::LobbyMarchInfo>(
             "lobby_march_info",
@@ -322,12 +322,12 @@ impl LobbyGameExtInfo {
             LobbyGameExtInfo::mut_lobby_marble_info,
             LobbyGameExtInfo::set_lobby_marble_info,
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::GFIAKFBGBMK::GFIAKFBGBMK>(
-            "HECADEDKOOL",
-            LobbyGameExtInfo::has_HECADEDKOOL,
-            LobbyGameExtInfo::HECADEDKOOL,
-            LobbyGameExtInfo::mut_HECADEDKOOL,
-            LobbyGameExtInfo::set_HECADEDKOOL,
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::OIFJHEPAFOO::OIFJHEPAFOO>(
+            "NIFBKKNFKEG",
+            LobbyGameExtInfo::has_NIFBKKNFKEG,
+            LobbyGameExtInfo::NIFBKKNFKEG,
+            LobbyGameExtInfo::mut_NIFBKKNFKEG,
+            LobbyGameExtInfo::set_NIFBKKNFKEG,
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::LobbyGridFightInfo::LobbyGridFightInfo>(
             "lobby_grid_fight_info",
@@ -336,14 +336,14 @@ impl LobbyGameExtInfo {
             LobbyGameExtInfo::mut_lobby_grid_fight_info,
             LobbyGameExtInfo::set_lobby_grid_fight_info,
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::LCCPODJNIED::LCCPODJNIED>(
-            "DDHKFBBAIOL",
-            LobbyGameExtInfo::has_DDHKFBBAIOL,
-            LobbyGameExtInfo::DDHKFBBAIOL,
-            LobbyGameExtInfo::mut_DDHKFBBAIOL,
-            LobbyGameExtInfo::set_DDHKFBBAIOL,
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::GCJAMHEGKGE::GCJAMHEGKGE>(
+            "PCFNJJCOJED",
+            LobbyGameExtInfo::has_PCFNJJCOJED,
+            LobbyGameExtInfo::PCFNJJCOJED,
+            LobbyGameExtInfo::mut_PCFNJJCOJED,
+            LobbyGameExtInfo::set_PCFNJJCOJED,
         ));
-        oneofs.push(lobby_game_ext_info::ODBBDHFFOAC::generated_oneof_descriptor_data());
+        oneofs.push(lobby_game_ext_info::JNJJJGBCEDG::generated_oneof_descriptor_data());
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<LobbyGameExtInfo>(
             "LobbyGameExtInfo",
             fields,
@@ -363,25 +363,25 @@ impl ::protobuf::Message for LobbyGameExtInfo {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
                 10 => {
-                    self.JALINBMHGIF.push(is.read_string()?);
+                    self.BHILEPGIFNE.push(is.read_string()?);
                 },
                 16 => {
-                    self.FPFNELHGOND = is.read_bool()?;
+                    self.HMPCFJPJDOE = is.read_bool()?;
                 },
                 8010 => {
-                    self.ODBBDHFFOAC = ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarchInfo(is.read_message()?));
+                    self.JNJJJGBCEDG = ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarchInfo(is.read_message()?));
                 },
                 8018 => {
-                    self.ODBBDHFFOAC = ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyMarbleInfo(is.read_message()?));
+                    self.JNJJJGBCEDG = ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyMarbleInfo(is.read_message()?));
                 },
                 8026 => {
-                    self.ODBBDHFFOAC = ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::HECADEDKOOL(is.read_message()?));
+                    self.JNJJJGBCEDG = ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::NIFBKKNFKEG(is.read_message()?));
                 },
                 8034 => {
-                    self.ODBBDHFFOAC = ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::LobbyGridFightInfo(is.read_message()?));
+                    self.JNJJJGBCEDG = ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::LobbyGridFightInfo(is.read_message()?));
                 },
                 8042 => {
-                    self.ODBBDHFFOAC = ::std::option::Option::Some(lobby_game_ext_info::ODBBDHFFOAC::DDHKFBBAIOL(is.read_message()?));
+                    self.JNJJJGBCEDG = ::std::option::Option::Some(lobby_game_ext_info::JNJJJGBCEDG::PCFNJJCOJED(is.read_message()?));
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -395,31 +395,31 @@ impl ::protobuf::Message for LobbyGameExtInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        for value in &self.JALINBMHGIF {
+        for value in &self.BHILEPGIFNE {
             my_size += ::protobuf::rt::string_size(1, &value);
         };
-        if self.FPFNELHGOND != false {
+        if self.HMPCFJPJDOE != false {
             my_size += 1 + 1;
         }
-        if let ::std::option::Option::Some(ref v) = self.ODBBDHFFOAC {
+        if let ::std::option::Option::Some(ref v) = self.JNJJJGBCEDG {
             match v {
-                &lobby_game_ext_info::ODBBDHFFOAC::LobbyMarchInfo(ref v) => {
+                &lobby_game_ext_info::JNJJJGBCEDG::LobbyMarchInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &lobby_game_ext_info::ODBBDHFFOAC::LobbyMarbleInfo(ref v) => {
+                &lobby_game_ext_info::JNJJJGBCEDG::LobbyMarbleInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &lobby_game_ext_info::ODBBDHFFOAC::HECADEDKOOL(ref v) => {
+                &lobby_game_ext_info::JNJJJGBCEDG::NIFBKKNFKEG(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &lobby_game_ext_info::ODBBDHFFOAC::LobbyGridFightInfo(ref v) => {
+                &lobby_game_ext_info::JNJJJGBCEDG::LobbyGridFightInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &lobby_game_ext_info::ODBBDHFFOAC::DDHKFBBAIOL(ref v) => {
+                &lobby_game_ext_info::JNJJJGBCEDG::PCFNJJCOJED(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
@@ -431,27 +431,27 @@ impl ::protobuf::Message for LobbyGameExtInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.JALINBMHGIF {
+        for v in &self.BHILEPGIFNE {
             os.write_string(1, &v)?;
         };
-        if self.FPFNELHGOND != false {
-            os.write_bool(2, self.FPFNELHGOND)?;
+        if self.HMPCFJPJDOE != false {
+            os.write_bool(2, self.HMPCFJPJDOE)?;
         }
-        if let ::std::option::Option::Some(ref v) = self.ODBBDHFFOAC {
+        if let ::std::option::Option::Some(ref v) = self.JNJJJGBCEDG {
             match v {
-                &lobby_game_ext_info::ODBBDHFFOAC::LobbyMarchInfo(ref v) => {
+                &lobby_game_ext_info::JNJJJGBCEDG::LobbyMarchInfo(ref v) => {
                     ::protobuf::rt::write_message_field_with_cached_size(1001, v, os)?;
                 },
-                &lobby_game_ext_info::ODBBDHFFOAC::LobbyMarbleInfo(ref v) => {
+                &lobby_game_ext_info::JNJJJGBCEDG::LobbyMarbleInfo(ref v) => {
                     ::protobuf::rt::write_message_field_with_cached_size(1002, v, os)?;
                 },
-                &lobby_game_ext_info::ODBBDHFFOAC::HECADEDKOOL(ref v) => {
+                &lobby_game_ext_info::JNJJJGBCEDG::NIFBKKNFKEG(ref v) => {
                     ::protobuf::rt::write_message_field_with_cached_size(1003, v, os)?;
                 },
-                &lobby_game_ext_info::ODBBDHFFOAC::LobbyGridFightInfo(ref v) => {
+                &lobby_game_ext_info::JNJJJGBCEDG::LobbyGridFightInfo(ref v) => {
                     ::protobuf::rt::write_message_field_with_cached_size(1004, v, os)?;
                 },
-                &lobby_game_ext_info::ODBBDHFFOAC::DDHKFBBAIOL(ref v) => {
+                &lobby_game_ext_info::JNJJJGBCEDG::PCFNJJCOJED(ref v) => {
                     ::protobuf::rt::write_message_field_with_cached_size(1005, v, os)?;
                 },
             };
@@ -473,21 +473,21 @@ impl ::protobuf::Message for LobbyGameExtInfo {
     }
 
     fn clear(&mut self) {
-        self.JALINBMHGIF.clear();
-        self.FPFNELHGOND = false;
-        self.ODBBDHFFOAC = ::std::option::Option::None;
-        self.ODBBDHFFOAC = ::std::option::Option::None;
-        self.ODBBDHFFOAC = ::std::option::Option::None;
-        self.ODBBDHFFOAC = ::std::option::Option::None;
-        self.ODBBDHFFOAC = ::std::option::Option::None;
+        self.BHILEPGIFNE.clear();
+        self.HMPCFJPJDOE = false;
+        self.JNJJJGBCEDG = ::std::option::Option::None;
+        self.JNJJJGBCEDG = ::std::option::Option::None;
+        self.JNJJJGBCEDG = ::std::option::Option::None;
+        self.JNJJJGBCEDG = ::std::option::Option::None;
+        self.JNJJJGBCEDG = ::std::option::Option::None;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static LobbyGameExtInfo {
         static instance: LobbyGameExtInfo = LobbyGameExtInfo {
-            JALINBMHGIF: ::std::vec::Vec::new(),
-            FPFNELHGOND: false,
-            ODBBDHFFOAC: ::std::option::Option::None,
+            BHILEPGIFNE: ::std::vec::Vec::new(),
+            HMPCFJPJDOE: false,
+            JNJJJGBCEDG: ::std::option::Option::None,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -516,50 +516,50 @@ pub mod lobby_game_ext_info {
 
     #[derive(Clone,PartialEq,Debug)]
     #[non_exhaustive]
-    // @@protoc_insertion_point(oneof:LobbyGameExtInfo.ODBBDHFFOAC)
-    pub enum ODBBDHFFOAC {
+    // @@protoc_insertion_point(oneof:LobbyGameExtInfo.JNJJJGBCEDG)
+    pub enum JNJJJGBCEDG {
         // @@protoc_insertion_point(oneof_field:LobbyGameExtInfo.lobby_march_info)
         LobbyMarchInfo(super::super::LobbyMarchInfo::LobbyMarchInfo),
         // @@protoc_insertion_point(oneof_field:LobbyGameExtInfo.lobby_marble_info)
         LobbyMarbleInfo(super::super::LobbyMarbleInfo::LobbyMarbleInfo),
-        // @@protoc_insertion_point(oneof_field:LobbyGameExtInfo.HECADEDKOOL)
-        HECADEDKOOL(super::super::GFIAKFBGBMK::GFIAKFBGBMK),
+        // @@protoc_insertion_point(oneof_field:LobbyGameExtInfo.NIFBKKNFKEG)
+        NIFBKKNFKEG(super::super::OIFJHEPAFOO::OIFJHEPAFOO),
         // @@protoc_insertion_point(oneof_field:LobbyGameExtInfo.lobby_grid_fight_info)
         LobbyGridFightInfo(super::super::LobbyGridFightInfo::LobbyGridFightInfo),
-        // @@protoc_insertion_point(oneof_field:LobbyGameExtInfo.DDHKFBBAIOL)
-        DDHKFBBAIOL(super::super::LCCPODJNIED::LCCPODJNIED),
+        // @@protoc_insertion_point(oneof_field:LobbyGameExtInfo.PCFNJJCOJED)
+        PCFNJJCOJED(super::super::GCJAMHEGKGE::GCJAMHEGKGE),
     }
 
-    impl ::protobuf::Oneof for ODBBDHFFOAC {
+    impl ::protobuf::Oneof for JNJJJGBCEDG {
     }
 
-    impl ::protobuf::OneofFull for ODBBDHFFOAC {
+    impl ::protobuf::OneofFull for JNJJJGBCEDG {
         fn descriptor() -> ::protobuf::reflect::OneofDescriptor {
             static descriptor: ::protobuf::rt::Lazy<::protobuf::reflect::OneofDescriptor> = ::protobuf::rt::Lazy::new();
-            descriptor.get(|| <super::LobbyGameExtInfo as ::protobuf::MessageFull>::descriptor().oneof_by_name("ODBBDHFFOAC").unwrap()).clone()
+            descriptor.get(|| <super::LobbyGameExtInfo as ::protobuf::MessageFull>::descriptor().oneof_by_name("JNJJJGBCEDG").unwrap()).clone()
         }
     }
 
-    impl ODBBDHFFOAC {
+    impl JNJJJGBCEDG {
         pub(in super) fn generated_oneof_descriptor_data() -> ::protobuf::reflect::GeneratedOneofDescriptorData {
-            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<ODBBDHFFOAC>("ODBBDHFFOAC")
+            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<JNJJJGBCEDG>("JNJJJGBCEDG")
         }
     }
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x16LobbyGameExtInfo.proto\x1a\x11GFIAKFBGBMK.proto\x1a\x11LCCPODJNIED\
-    .proto\x1a\x18LobbyGridFightInfo.proto\x1a\x15LobbyMarbleInfo.proto\x1a\
-    \x14LobbyMarchInfo.proto\"\x95\x03\n\x10LobbyGameExtInfo\x12\x20\n\x0bJA\
-    LINBMHGIF\x18\x01\x20\x03(\tR\x0bJALINBMHGIF\x12\x20\n\x0bFPFNELHGOND\
-    \x18\x02\x20\x01(\x08R\x0bFPFNELHGOND\x12<\n\x10lobby_march_info\x18\xe9\
+    \n\x16LobbyGameExtInfo.proto\x1a\x11GCJAMHEGKGE.proto\x1a\x18LobbyGridFi\
+    ghtInfo.proto\x1a\x15LobbyMarbleInfo.proto\x1a\x14LobbyMarchInfo.proto\
+    \x1a\x11OIFJHEPAFOO.proto\"\x95\x03\n\x10LobbyGameExtInfo\x12\x20\n\x0bB\
+    HILEPGIFNE\x18\x01\x20\x03(\tR\x0bBHILEPGIFNE\x12\x20\n\x0bHMPCFJPJDOE\
+    \x18\x02\x20\x01(\x08R\x0bHMPCFJPJDOE\x12<\n\x10lobby_march_info\x18\xe9\
     \x07\x20\x01(\x0b2\x0f.LobbyMarchInfoH\0R\x0elobbyMarchInfo\x12?\n\x11lo\
     bby_marble_info\x18\xea\x07\x20\x01(\x0b2\x10.LobbyMarbleInfoH\0R\x0flob\
-    byMarbleInfo\x121\n\x0bHECADEDKOOL\x18\xeb\x07\x20\x01(\x0b2\x0c.GFIAKFB\
-    GBMKH\0R\x0bHECADEDKOOL\x12I\n\x15lobby_grid_fight_info\x18\xec\x07\x20\
-    \x01(\x0b2\x13.LobbyGridFightInfoH\0R\x12lobbyGridFightInfo\x121\n\x0bDD\
-    HKFBBAIOL\x18\xed\x07\x20\x01(\x0b2\x0c.LCCPODJNIEDH\0R\x0bDDHKFBBAIOLB\
-    \r\n\x0bODBBDHFFOACb\x06proto3\
+    byMarbleInfo\x121\n\x0bNIFBKKNFKEG\x18\xeb\x07\x20\x01(\x0b2\x0c.OIFJHEP\
+    AFOOH\0R\x0bNIFBKKNFKEG\x12I\n\x15lobby_grid_fight_info\x18\xec\x07\x20\
+    \x01(\x0b2\x13.LobbyGridFightInfoH\0R\x12lobbyGridFightInfo\x121\n\x0bPC\
+    FNJJCOJED\x18\xed\x07\x20\x01(\x0b2\x0c.GCJAMHEGKGEH\0R\x0bPCFNJJCOJEDB\
+    \r\n\x0bJNJJJGBCEDGb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -577,11 +577,11 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(5);
-            deps.push(super::GFIAKFBGBMK::file_descriptor().clone());
-            deps.push(super::LCCPODJNIED::file_descriptor().clone());
+            deps.push(super::GCJAMHEGKGE::file_descriptor().clone());
             deps.push(super::LobbyGridFightInfo::file_descriptor().clone());
             deps.push(super::LobbyMarbleInfo::file_descriptor().clone());
             deps.push(super::LobbyMarchInfo::file_descriptor().clone());
+            deps.push(super::OIFJHEPAFOO::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(LobbyGameExtInfo::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

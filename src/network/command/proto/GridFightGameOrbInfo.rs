@@ -29,9 +29,9 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 pub struct GridFightGameOrbInfo {
     // message fields
     // @@protoc_insertion_point(field:GridFightGameOrbInfo.grid_game_orb_list)
-    pub grid_game_orb_list: ::std::vec::Vec<super::GridGameOrbInfoa::GridGameOrbInfoa>,
-    // @@protoc_insertion_point(field:GridFightGameOrbInfo.grid_game_orba_list)
-    pub grid_game_orba_list: ::std::vec::Vec<super::GridGameOrbInfo::GridGameOrbInfo>,
+    pub grid_game_orb_list: ::std::vec::Vec<super::GridGameOrbInfo::GridGameOrbInfo>,
+    // @@protoc_insertion_point(field:GridFightGameOrbInfo.grid_game_orb1_list)
+    pub grid_game_orb1_list: ::std::vec::Vec<super::GridGameOrbInfo1::GridGameOrbInfo1>,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightGameOrbInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,9 +57,9 @@ impl GridFightGameOrbInfo {
             |m: &mut GridFightGameOrbInfo| { &mut m.grid_game_orb_list },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "grid_game_orba_list",
-            |m: &GridFightGameOrbInfo| { &m.grid_game_orba_list },
-            |m: &mut GridFightGameOrbInfo| { &mut m.grid_game_orba_list },
+            "grid_game_orb1_list",
+            |m: &GridFightGameOrbInfo| { &m.grid_game_orb1_list },
+            |m: &mut GridFightGameOrbInfo| { &mut m.grid_game_orb1_list },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightGameOrbInfo>(
             "GridFightGameOrbInfo",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for GridFightGameOrbInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                66 => {
+                114 => {
                     self.grid_game_orb_list.push(is.read_message()?);
                 },
-                114 => {
-                    self.grid_game_orba_list.push(is.read_message()?);
+                82 => {
+                    self.grid_game_orb1_list.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -101,7 +101,7 @@ impl ::protobuf::Message for GridFightGameOrbInfo {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        for value in &self.grid_game_orba_list {
+        for value in &self.grid_game_orb1_list {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
@@ -112,10 +112,10 @@ impl ::protobuf::Message for GridFightGameOrbInfo {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         for v in &self.grid_game_orb_list {
-            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
-        };
-        for v in &self.grid_game_orba_list {
             ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
+        };
+        for v in &self.grid_game_orb1_list {
+            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
         };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -135,14 +135,14 @@ impl ::protobuf::Message for GridFightGameOrbInfo {
 
     fn clear(&mut self) {
         self.grid_game_orb_list.clear();
-        self.grid_game_orba_list.clear();
+        self.grid_game_orb1_list.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightGameOrbInfo {
         static instance: GridFightGameOrbInfo = GridFightGameOrbInfo {
             grid_game_orb_list: ::std::vec::Vec::new(),
-            grid_game_orba_list: ::std::vec::Vec::new(),
+            grid_game_orb1_list: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -168,10 +168,10 @@ impl ::protobuf::reflect::ProtobufValue for GridFightGameOrbInfo {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1aGridFightGameOrbInfo.proto\x1a\x15GridGameOrbInfo.proto\x1a\x16Gri\
-    dGameOrbInfoa.proto\"\x97\x01\n\x14GridFightGameOrbInfo\x12>\n\x12grid_g\
-    ame_orb_list\x18\x08\x20\x03(\x0b2\x11.GridGameOrbInfoaR\x0fgridGameOrbL\
-    ist\x12?\n\x13grid_game_orba_list\x18\x0e\x20\x03(\x0b2\x10.GridGameOrbI\
-    nfoR\x10gridGameOrbaListb\x06proto3\
+    dGameOrbInfo1.proto\"\x97\x01\n\x14GridFightGameOrbInfo\x12=\n\x12grid_g\
+    ame_orb_list\x18\x0e\x20\x03(\x0b2\x10.GridGameOrbInfoR\x0fgridGameOrbLi\
+    st\x12@\n\x13grid_game_orb1_list\x18\n\x20\x03(\x0b2\x11.GridGameOrbInfo\
+    1R\x10gridGameOrb1Listb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -190,7 +190,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
             deps.push(super::GridGameOrbInfo::file_descriptor().clone());
-            deps.push(super::GridGameOrbInfoa::file_descriptor().clone());
+            deps.push(super::GridGameOrbInfo1::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GridFightGameOrbInfo::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

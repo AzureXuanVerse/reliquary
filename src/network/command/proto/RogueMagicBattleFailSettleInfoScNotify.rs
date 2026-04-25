@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct RogueMagicBattleFailSettleInfoScNotify {
     // message fields
-    // @@protoc_insertion_point(field:RogueMagicBattleFailSettleInfoScNotify.DACAGELDCPM)
-    pub DACAGELDCPM: ::protobuf::MessageField<super::LGGANOJJOEC::LGGANOJJOEC>,
-    // @@protoc_insertion_point(field:RogueMagicBattleFailSettleInfoScNotify.FNHOJKNAPFA)
-    pub FNHOJKNAPFA: ::protobuf::MessageField<super::HGOAJHCGGCO::HGOAJHCGGCO>,
+    // @@protoc_insertion_point(field:RogueMagicBattleFailSettleInfoScNotify.AFLJJJFCBIN)
+    pub AFLJJJFCBIN: ::protobuf::MessageField<super::JKAIDKIGEGP::JKAIDKIGEGP>,
+    // @@protoc_insertion_point(field:RogueMagicBattleFailSettleInfoScNotify.EDKJMPACHNJ)
+    pub EDKJMPACHNJ: ::protobuf::MessageField<super::BHMJAJGOJPM::BHMJAJGOJPM>,
     // special fields
     // @@protoc_insertion_point(special_field:RogueMagicBattleFailSettleInfoScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -51,15 +51,15 @@ impl RogueMagicBattleFailSettleInfoScNotify {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::LGGANOJJOEC::LGGANOJJOEC>(
-            "DACAGELDCPM",
-            |m: &RogueMagicBattleFailSettleInfoScNotify| { &m.DACAGELDCPM },
-            |m: &mut RogueMagicBattleFailSettleInfoScNotify| { &mut m.DACAGELDCPM },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::JKAIDKIGEGP::JKAIDKIGEGP>(
+            "AFLJJJFCBIN",
+            |m: &RogueMagicBattleFailSettleInfoScNotify| { &m.AFLJJJFCBIN },
+            |m: &mut RogueMagicBattleFailSettleInfoScNotify| { &mut m.AFLJJJFCBIN },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::HGOAJHCGGCO::HGOAJHCGGCO>(
-            "FNHOJKNAPFA",
-            |m: &RogueMagicBattleFailSettleInfoScNotify| { &m.FNHOJKNAPFA },
-            |m: &mut RogueMagicBattleFailSettleInfoScNotify| { &mut m.FNHOJKNAPFA },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::BHMJAJGOJPM::BHMJAJGOJPM>(
+            "EDKJMPACHNJ",
+            |m: &RogueMagicBattleFailSettleInfoScNotify| { &m.EDKJMPACHNJ },
+            |m: &mut RogueMagicBattleFailSettleInfoScNotify| { &mut m.EDKJMPACHNJ },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<RogueMagicBattleFailSettleInfoScNotify>(
             "RogueMagicBattleFailSettleInfoScNotify",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for RogueMagicBattleFailSettleInfoScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                66 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.DACAGELDCPM)?;
+                10 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.AFLJJJFCBIN)?;
                 },
-                82 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.FNHOJKNAPFA)?;
+                90 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.EDKJMPACHNJ)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for RogueMagicBattleFailSettleInfoScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.DACAGELDCPM.as_ref() {
+        if let Some(v) = self.AFLJJJFCBIN.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if let Some(v) = self.FNHOJKNAPFA.as_ref() {
+        if let Some(v) = self.EDKJMPACHNJ.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -111,11 +111,11 @@ impl ::protobuf::Message for RogueMagicBattleFailSettleInfoScNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.DACAGELDCPM.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+        if let Some(v) = self.AFLJJJFCBIN.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
         }
-        if let Some(v) = self.FNHOJKNAPFA.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
+        if let Some(v) = self.EDKJMPACHNJ.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -134,15 +134,15 @@ impl ::protobuf::Message for RogueMagicBattleFailSettleInfoScNotify {
     }
 
     fn clear(&mut self) {
-        self.DACAGELDCPM.clear();
-        self.FNHOJKNAPFA.clear();
+        self.AFLJJJFCBIN.clear();
+        self.EDKJMPACHNJ.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static RogueMagicBattleFailSettleInfoScNotify {
         static instance: RogueMagicBattleFailSettleInfoScNotify = RogueMagicBattleFailSettleInfoScNotify {
-            DACAGELDCPM: ::protobuf::MessageField::none(),
-            FNHOJKNAPFA: ::protobuf::MessageField::none(),
+            AFLJJJFCBIN: ::protobuf::MessageField::none(),
+            EDKJMPACHNJ: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -167,11 +167,11 @@ impl ::protobuf::reflect::ProtobufValue for RogueMagicBattleFailSettleInfoScNoti
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n,RogueMagicBattleFailSettleInfoScNotify.proto\x1a\x11HGOAJHCGGCO.proto\
-    \x1a\x11LGGANOJJOEC.proto\"\x88\x01\n&RogueMagicBattleFailSettleInfoScNo\
-    tify\x12.\n\x0bDACAGELDCPM\x18\x08\x20\x01(\x0b2\x0c.LGGANOJJOECR\x0bDAC\
-    AGELDCPM\x12.\n\x0bFNHOJKNAPFA\x18\n\x20\x01(\x0b2\x0c.HGOAJHCGGCOR\x0bF\
-    NHOJKNAPFAb\x06proto3\
+    \n,RogueMagicBattleFailSettleInfoScNotify.proto\x1a\x11BHMJAJGOJPM.proto\
+    \x1a\x11JKAIDKIGEGP.proto\"\x88\x01\n&RogueMagicBattleFailSettleInfoScNo\
+    tify\x12.\n\x0bAFLJJJFCBIN\x18\x01\x20\x01(\x0b2\x0c.JKAIDKIGEGPR\x0bAFL\
+    JJJFCBIN\x12.\n\x0bEDKJMPACHNJ\x18\x0b\x20\x01(\x0b2\x0c.BHMJAJGOJPMR\
+    \x0bEDKJMPACHNJb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -189,8 +189,8 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
-            deps.push(super::HGOAJHCGGCO::file_descriptor().clone());
-            deps.push(super::LGGANOJJOEC::file_descriptor().clone());
+            deps.push(super::BHMJAJGOJPM::file_descriptor().clone());
+            deps.push(super::JKAIDKIGEGP::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(RogueMagicBattleFailSettleInfoScNotify::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

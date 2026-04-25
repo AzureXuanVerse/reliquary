@@ -28,24 +28,24 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct PlayerRecordInfo {
     // message fields
-    // @@protoc_insertion_point(field:PlayerRecordInfo.FLFPPFOJINM)
-    pub FLFPPFOJINM: u32,
-    // @@protoc_insertion_point(field:PlayerRecordInfo.EJKPPBGAPCB)
-    pub EJKPPBGAPCB: u32,
-    // @@protoc_insertion_point(field:PlayerRecordInfo.LMJMAKMMEEB)
-    pub LMJMAKMMEEB: u32,
-    // @@protoc_insertion_point(field:PlayerRecordInfo.AELFFNKICFH)
-    pub AELFFNKICFH: u32,
-    // @@protoc_insertion_point(field:PlayerRecordInfo.BHCAJJFJIJO)
-    pub BHCAJJFJIJO: u32,
-    // @@protoc_insertion_point(field:PlayerRecordInfo.BFLAMMMCGHA)
-    pub BFLAMMMCGHA: u32,
-    // @@protoc_insertion_point(field:PlayerRecordInfo.collection_info)
-    pub collection_info: ::protobuf::MessageField<super::PlayerCollectionInfo::PlayerCollectionInfo>,
-    // @@protoc_insertion_point(field:PlayerRecordInfo.BHNAMGFELLI)
-    pub BHNAMGFELLI: u32,
-    // @@protoc_insertion_point(field:PlayerRecordInfo.GIGPPODLHAH)
-    pub GIGPPODLHAH: u32,
+    // @@protoc_insertion_point(field:PlayerRecordInfo.MPNIKBAFPEM)
+    pub MPNIKBAFPEM: u32,
+    // @@protoc_insertion_point(field:PlayerRecordInfo.LCEEKBAJPHA)
+    pub LCEEKBAJPHA: u32,
+    // @@protoc_insertion_point(field:PlayerRecordInfo.LBKCIEBGMAJ)
+    pub LBKCIEBGMAJ: u32,
+    // @@protoc_insertion_point(field:PlayerRecordInfo.CEAKOOAOJLF)
+    pub CEAKOOAOJLF: ::protobuf::MessageField<super::BJKJKGAGDAC::BJKJKGAGDAC>,
+    // @@protoc_insertion_point(field:PlayerRecordInfo.GPJGLLANPIF)
+    pub GPJGLLANPIF: u32,
+    // @@protoc_insertion_point(field:PlayerRecordInfo.KHDJDCELNPF)
+    pub KHDJDCELNPF: u32,
+    // @@protoc_insertion_point(field:PlayerRecordInfo.KEBOJOIBOKE)
+    pub KEBOJOIBOKE: u32,
+    // @@protoc_insertion_point(field:PlayerRecordInfo.MMFGIPPNEEF)
+    pub MMFGIPPNEEF: u32,
+    // @@protoc_insertion_point(field:PlayerRecordInfo.MIMIPDMIPNO)
+    pub MIMIPDMIPNO: u32,
     // special fields
     // @@protoc_insertion_point(special_field:PlayerRecordInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -66,49 +66,49 @@ impl PlayerRecordInfo {
         let mut fields = ::std::vec::Vec::with_capacity(9);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "FLFPPFOJINM",
-            |m: &PlayerRecordInfo| { &m.FLFPPFOJINM },
-            |m: &mut PlayerRecordInfo| { &mut m.FLFPPFOJINM },
+            "MPNIKBAFPEM",
+            |m: &PlayerRecordInfo| { &m.MPNIKBAFPEM },
+            |m: &mut PlayerRecordInfo| { &mut m.MPNIKBAFPEM },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "EJKPPBGAPCB",
-            |m: &PlayerRecordInfo| { &m.EJKPPBGAPCB },
-            |m: &mut PlayerRecordInfo| { &mut m.EJKPPBGAPCB },
+            "LCEEKBAJPHA",
+            |m: &PlayerRecordInfo| { &m.LCEEKBAJPHA },
+            |m: &mut PlayerRecordInfo| { &mut m.LCEEKBAJPHA },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "LMJMAKMMEEB",
-            |m: &PlayerRecordInfo| { &m.LMJMAKMMEEB },
-            |m: &mut PlayerRecordInfo| { &mut m.LMJMAKMMEEB },
+            "LBKCIEBGMAJ",
+            |m: &PlayerRecordInfo| { &m.LBKCIEBGMAJ },
+            |m: &mut PlayerRecordInfo| { &mut m.LBKCIEBGMAJ },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::BJKJKGAGDAC::BJKJKGAGDAC>(
+            "CEAKOOAOJLF",
+            |m: &PlayerRecordInfo| { &m.CEAKOOAOJLF },
+            |m: &mut PlayerRecordInfo| { &mut m.CEAKOOAOJLF },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "AELFFNKICFH",
-            |m: &PlayerRecordInfo| { &m.AELFFNKICFH },
-            |m: &mut PlayerRecordInfo| { &mut m.AELFFNKICFH },
+            "GPJGLLANPIF",
+            |m: &PlayerRecordInfo| { &m.GPJGLLANPIF },
+            |m: &mut PlayerRecordInfo| { &mut m.GPJGLLANPIF },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BHCAJJFJIJO",
-            |m: &PlayerRecordInfo| { &m.BHCAJJFJIJO },
-            |m: &mut PlayerRecordInfo| { &mut m.BHCAJJFJIJO },
+            "KHDJDCELNPF",
+            |m: &PlayerRecordInfo| { &m.KHDJDCELNPF },
+            |m: &mut PlayerRecordInfo| { &mut m.KHDJDCELNPF },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BFLAMMMCGHA",
-            |m: &PlayerRecordInfo| { &m.BFLAMMMCGHA },
-            |m: &mut PlayerRecordInfo| { &mut m.BFLAMMMCGHA },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::PlayerCollectionInfo::PlayerCollectionInfo>(
-            "collection_info",
-            |m: &PlayerRecordInfo| { &m.collection_info },
-            |m: &mut PlayerRecordInfo| { &mut m.collection_info },
+            "KEBOJOIBOKE",
+            |m: &PlayerRecordInfo| { &m.KEBOJOIBOKE },
+            |m: &mut PlayerRecordInfo| { &mut m.KEBOJOIBOKE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BHNAMGFELLI",
-            |m: &PlayerRecordInfo| { &m.BHNAMGFELLI },
-            |m: &mut PlayerRecordInfo| { &mut m.BHNAMGFELLI },
+            "MMFGIPPNEEF",
+            |m: &PlayerRecordInfo| { &m.MMFGIPPNEEF },
+            |m: &mut PlayerRecordInfo| { &mut m.MMFGIPPNEEF },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "GIGPPODLHAH",
-            |m: &PlayerRecordInfo| { &m.GIGPPODLHAH },
-            |m: &mut PlayerRecordInfo| { &mut m.GIGPPODLHAH },
+            "MIMIPDMIPNO",
+            |m: &PlayerRecordInfo| { &m.MIMIPDMIPNO },
+            |m: &mut PlayerRecordInfo| { &mut m.MIMIPDMIPNO },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<PlayerRecordInfo>(
             "PlayerRecordInfo",
@@ -128,32 +128,32 @@ impl ::protobuf::Message for PlayerRecordInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                80 => {
-                    self.FLFPPFOJINM = is.read_uint32()?;
+                112 => {
+                    self.MPNIKBAFPEM = is.read_uint32()?;
                 },
                 32 => {
-                    self.EJKPPBGAPCB = is.read_uint32()?;
-                },
-                64 => {
-                    self.LMJMAKMMEEB = is.read_uint32()?;
+                    self.LCEEKBAJPHA = is.read_uint32()?;
                 },
                 72 => {
-                    self.AELFFNKICFH = is.read_uint32()?;
+                    self.LBKCIEBGMAJ = is.read_uint32()?;
+                },
+                82 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.CEAKOOAOJLF)?;
                 },
                 88 => {
-                    self.BHCAJJFJIJO = is.read_uint32()?;
+                    self.GPJGLLANPIF = is.read_uint32()?;
                 },
-                120 => {
-                    self.BFLAMMMCGHA = is.read_uint32()?;
+                96 => {
+                    self.KHDJDCELNPF = is.read_uint32()?;
                 },
-                58 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.collection_info)?;
+                48 => {
+                    self.KEBOJOIBOKE = is.read_uint32()?;
+                },
+                24 => {
+                    self.MMFGIPPNEEF = is.read_uint32()?;
                 },
                 104 => {
-                    self.BHNAMGFELLI = is.read_uint32()?;
-                },
-                112 => {
-                    self.GIGPPODLHAH = is.read_uint32()?;
+                    self.MIMIPDMIPNO = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -167,33 +167,33 @@ impl ::protobuf::Message for PlayerRecordInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.FLFPPFOJINM != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.FLFPPFOJINM);
+        if self.MPNIKBAFPEM != 0 {
+            my_size += ::protobuf::rt::uint32_size(14, self.MPNIKBAFPEM);
         }
-        if self.EJKPPBGAPCB != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.EJKPPBGAPCB);
+        if self.LCEEKBAJPHA != 0 {
+            my_size += ::protobuf::rt::uint32_size(4, self.LCEEKBAJPHA);
         }
-        if self.LMJMAKMMEEB != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.LMJMAKMMEEB);
+        if self.LBKCIEBGMAJ != 0 {
+            my_size += ::protobuf::rt::uint32_size(9, self.LBKCIEBGMAJ);
         }
-        if self.AELFFNKICFH != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.AELFFNKICFH);
-        }
-        if self.BHCAJJFJIJO != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.BHCAJJFJIJO);
-        }
-        if self.BFLAMMMCGHA != 0 {
-            my_size += ::protobuf::rt::uint32_size(15, self.BFLAMMMCGHA);
-        }
-        if let Some(v) = self.collection_info.as_ref() {
+        if let Some(v) = self.CEAKOOAOJLF.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.BHNAMGFELLI != 0 {
-            my_size += ::protobuf::rt::uint32_size(13, self.BHNAMGFELLI);
+        if self.GPJGLLANPIF != 0 {
+            my_size += ::protobuf::rt::uint32_size(11, self.GPJGLLANPIF);
         }
-        if self.GIGPPODLHAH != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.GIGPPODLHAH);
+        if self.KHDJDCELNPF != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.KHDJDCELNPF);
+        }
+        if self.KEBOJOIBOKE != 0 {
+            my_size += ::protobuf::rt::uint32_size(6, self.KEBOJOIBOKE);
+        }
+        if self.MMFGIPPNEEF != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.MMFGIPPNEEF);
+        }
+        if self.MIMIPDMIPNO != 0 {
+            my_size += ::protobuf::rt::uint32_size(13, self.MIMIPDMIPNO);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -201,32 +201,32 @@ impl ::protobuf::Message for PlayerRecordInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.FLFPPFOJINM != 0 {
-            os.write_uint32(10, self.FLFPPFOJINM)?;
+        if self.MPNIKBAFPEM != 0 {
+            os.write_uint32(14, self.MPNIKBAFPEM)?;
         }
-        if self.EJKPPBGAPCB != 0 {
-            os.write_uint32(4, self.EJKPPBGAPCB)?;
+        if self.LCEEKBAJPHA != 0 {
+            os.write_uint32(4, self.LCEEKBAJPHA)?;
         }
-        if self.LMJMAKMMEEB != 0 {
-            os.write_uint32(8, self.LMJMAKMMEEB)?;
+        if self.LBKCIEBGMAJ != 0 {
+            os.write_uint32(9, self.LBKCIEBGMAJ)?;
         }
-        if self.AELFFNKICFH != 0 {
-            os.write_uint32(9, self.AELFFNKICFH)?;
+        if let Some(v) = self.CEAKOOAOJLF.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
         }
-        if self.BHCAJJFJIJO != 0 {
-            os.write_uint32(11, self.BHCAJJFJIJO)?;
+        if self.GPJGLLANPIF != 0 {
+            os.write_uint32(11, self.GPJGLLANPIF)?;
         }
-        if self.BFLAMMMCGHA != 0 {
-            os.write_uint32(15, self.BFLAMMMCGHA)?;
+        if self.KHDJDCELNPF != 0 {
+            os.write_uint32(12, self.KHDJDCELNPF)?;
         }
-        if let Some(v) = self.collection_info.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
+        if self.KEBOJOIBOKE != 0 {
+            os.write_uint32(6, self.KEBOJOIBOKE)?;
         }
-        if self.BHNAMGFELLI != 0 {
-            os.write_uint32(13, self.BHNAMGFELLI)?;
+        if self.MMFGIPPNEEF != 0 {
+            os.write_uint32(3, self.MMFGIPPNEEF)?;
         }
-        if self.GIGPPODLHAH != 0 {
-            os.write_uint32(14, self.GIGPPODLHAH)?;
+        if self.MIMIPDMIPNO != 0 {
+            os.write_uint32(13, self.MIMIPDMIPNO)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -245,29 +245,29 @@ impl ::protobuf::Message for PlayerRecordInfo {
     }
 
     fn clear(&mut self) {
-        self.FLFPPFOJINM = 0;
-        self.EJKPPBGAPCB = 0;
-        self.LMJMAKMMEEB = 0;
-        self.AELFFNKICFH = 0;
-        self.BHCAJJFJIJO = 0;
-        self.BFLAMMMCGHA = 0;
-        self.collection_info.clear();
-        self.BHNAMGFELLI = 0;
-        self.GIGPPODLHAH = 0;
+        self.MPNIKBAFPEM = 0;
+        self.LCEEKBAJPHA = 0;
+        self.LBKCIEBGMAJ = 0;
+        self.CEAKOOAOJLF.clear();
+        self.GPJGLLANPIF = 0;
+        self.KHDJDCELNPF = 0;
+        self.KEBOJOIBOKE = 0;
+        self.MMFGIPPNEEF = 0;
+        self.MIMIPDMIPNO = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static PlayerRecordInfo {
         static instance: PlayerRecordInfo = PlayerRecordInfo {
-            FLFPPFOJINM: 0,
-            EJKPPBGAPCB: 0,
-            LMJMAKMMEEB: 0,
-            AELFFNKICFH: 0,
-            BHCAJJFJIJO: 0,
-            BFLAMMMCGHA: 0,
-            collection_info: ::protobuf::MessageField::none(),
-            BHNAMGFELLI: 0,
-            GIGPPODLHAH: 0,
+            MPNIKBAFPEM: 0,
+            LCEEKBAJPHA: 0,
+            LBKCIEBGMAJ: 0,
+            CEAKOOAOJLF: ::protobuf::MessageField::none(),
+            GPJGLLANPIF: 0,
+            KHDJDCELNPF: 0,
+            KEBOJOIBOKE: 0,
+            MMFGIPPNEEF: 0,
+            MIMIPDMIPNO: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -292,16 +292,16 @@ impl ::protobuf::reflect::ProtobufValue for PlayerRecordInfo {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x16PlayerRecordInfo.proto\x1a\x1aPlayerCollectionInfo.proto\"\xe2\x02\
-    \n\x10PlayerRecordInfo\x12\x20\n\x0bFLFPPFOJINM\x18\n\x20\x01(\rR\x0bFLF\
-    PPFOJINM\x12\x20\n\x0bEJKPPBGAPCB\x18\x04\x20\x01(\rR\x0bEJKPPBGAPCB\x12\
-    \x20\n\x0bLMJMAKMMEEB\x18\x08\x20\x01(\rR\x0bLMJMAKMMEEB\x12\x20\n\x0bAE\
-    LFFNKICFH\x18\t\x20\x01(\rR\x0bAELFFNKICFH\x12\x20\n\x0bBHCAJJFJIJO\x18\
-    \x0b\x20\x01(\rR\x0bBHCAJJFJIJO\x12\x20\n\x0bBFLAMMMCGHA\x18\x0f\x20\x01\
-    (\rR\x0bBFLAMMMCGHA\x12>\n\x0fcollection_info\x18\x07\x20\x01(\x0b2\x15.\
-    PlayerCollectionInfoR\x0ecollectionInfo\x12\x20\n\x0bBHNAMGFELLI\x18\r\
-    \x20\x01(\rR\x0bBHNAMGFELLI\x12\x20\n\x0bGIGPPODLHAH\x18\x0e\x20\x01(\rR\
-    \x0bGIGPPODLHAHb\x06proto3\
+    \n\x16PlayerRecordInfo.proto\x1a\x11BJKJKGAGDAC.proto\"\xd2\x02\n\x10Pla\
+    yerRecordInfo\x12\x20\n\x0bMPNIKBAFPEM\x18\x0e\x20\x01(\rR\x0bMPNIKBAFPE\
+    M\x12\x20\n\x0bLCEEKBAJPHA\x18\x04\x20\x01(\rR\x0bLCEEKBAJPHA\x12\x20\n\
+    \x0bLBKCIEBGMAJ\x18\t\x20\x01(\rR\x0bLBKCIEBGMAJ\x12.\n\x0bCEAKOOAOJLF\
+    \x18\n\x20\x01(\x0b2\x0c.BJKJKGAGDACR\x0bCEAKOOAOJLF\x12\x20\n\x0bGPJGLL\
+    ANPIF\x18\x0b\x20\x01(\rR\x0bGPJGLLANPIF\x12\x20\n\x0bKHDJDCELNPF\x18\
+    \x0c\x20\x01(\rR\x0bKHDJDCELNPF\x12\x20\n\x0bKEBOJOIBOKE\x18\x06\x20\x01\
+    (\rR\x0bKEBOJOIBOKE\x12\x20\n\x0bMMFGIPPNEEF\x18\x03\x20\x01(\rR\x0bMMFG\
+    IPPNEEF\x12\x20\n\x0bMIMIPDMIPNO\x18\r\x20\x01(\rR\x0bMIMIPDMIPNOb\x06pr\
+    oto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -319,7 +319,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::PlayerCollectionInfo::file_descriptor().clone());
+            deps.push(super::BJKJKGAGDAC::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(PlayerRecordInfo::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

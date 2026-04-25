@@ -27,26 +27,26 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdRogueEndlessType)
 pub enum CmdRogueEndlessType {
-    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdRogueEndlessType_IFJOMAMPHPJ)
-    CmdRogueEndlessType_IFJOMAMPHPJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdRogueEndlessType_OJBHIBBKEFD)
-    CmdRogueEndlessType_OJBHIBBKEFD = 6007,
-    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdRogueEndlessType_IKKAFNIBIIN)
-    CmdRogueEndlessType_IKKAFNIBIIN = 6006,
-    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdRogueEndlessType_MNLAHGHJAFH)
-    CmdRogueEndlessType_MNLAHGHJAFH = 6004,
-    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdRogueEndlessType_DAODAJMJHKN)
-    CmdRogueEndlessType_DAODAJMJHKN = 6008,
-    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdRogueEndlessType_AJNILEIEMPD)
-    CmdRogueEndlessType_AJNILEIEMPD = 6005,
-    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdRogueEndlessType_JAMOKMODCBE)
-    CmdRogueEndlessType_JAMOKMODCBE = 6010,
-    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdRogueEndlessType_DJOFPFEJMBF)
-    CmdRogueEndlessType_DJOFPFEJMBF = 6001,
-    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdRogueEndlessType_DKIABNLIBKF)
-    CmdRogueEndlessType_DKIABNLIBKF = 6003,
-    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdRogueEndlessType_JOECDAPAJHA)
-    CmdRogueEndlessType_JOECDAPAJHA = 6002,
+    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.GBIEIHAAFFI_IEMIGJIKEIJ)
+    GBIEIHAAFFI_IEMIGJIKEIJ = 0,
+    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdRogueEndlessActivityBattleEndScNotify)
+    CmdRogueEndlessActivityBattleEndScNotify = 6005,
+    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdTakeRogueEndlessActivityPointRewardScRsp)
+    CmdTakeRogueEndlessActivityPointRewardScRsp = 6002,
+    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdEnterRogueEndlessActivityStageScRsp)
+    CmdEnterRogueEndlessActivityStageScRsp = 6007,
+    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdGetRogueEndlessActivityDataCsReq)
+    CmdGetRogueEndlessActivityDataCsReq = 6009,
+    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdGetRogueEndlessActivityDataScRsp)
+    CmdGetRogueEndlessActivityDataScRsp = 6010,
+    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdTakeRogueEndlessActivityAllBonusRewardCsReq)
+    CmdTakeRogueEndlessActivityAllBonusRewardCsReq = 6006,
+    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdTakeRogueEndlessActivityPointRewardCsReq)
+    CmdTakeRogueEndlessActivityPointRewardCsReq = 6004,
+    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdTakeRogueEndlessActivityAllBonusRewardScRsp)
+    CmdTakeRogueEndlessActivityAllBonusRewardScRsp = 6003,
+    // @@protoc_insertion_point(enum_value:CmdRogueEndlessType.CmdEnterRogueEndlessActivityStageCsReq)
+    CmdEnterRogueEndlessActivityStageCsReq = 6001,
 }
 
 impl ::protobuf::Enum for CmdRogueEndlessType {
@@ -58,47 +58,47 @@ impl ::protobuf::Enum for CmdRogueEndlessType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdRogueEndlessType> {
         match value {
-            0 => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_IFJOMAMPHPJ),
-            6007 => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_OJBHIBBKEFD),
-            6006 => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_IKKAFNIBIIN),
-            6004 => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_MNLAHGHJAFH),
-            6008 => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_DAODAJMJHKN),
-            6005 => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_AJNILEIEMPD),
-            6010 => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_JAMOKMODCBE),
-            6001 => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_DJOFPFEJMBF),
-            6003 => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_DKIABNLIBKF),
-            6002 => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_JOECDAPAJHA),
+            0 => ::std::option::Option::Some(CmdRogueEndlessType::GBIEIHAAFFI_IEMIGJIKEIJ),
+            6005 => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessActivityBattleEndScNotify),
+            6002 => ::std::option::Option::Some(CmdRogueEndlessType::CmdTakeRogueEndlessActivityPointRewardScRsp),
+            6007 => ::std::option::Option::Some(CmdRogueEndlessType::CmdEnterRogueEndlessActivityStageScRsp),
+            6009 => ::std::option::Option::Some(CmdRogueEndlessType::CmdGetRogueEndlessActivityDataCsReq),
+            6010 => ::std::option::Option::Some(CmdRogueEndlessType::CmdGetRogueEndlessActivityDataScRsp),
+            6006 => ::std::option::Option::Some(CmdRogueEndlessType::CmdTakeRogueEndlessActivityAllBonusRewardCsReq),
+            6004 => ::std::option::Option::Some(CmdRogueEndlessType::CmdTakeRogueEndlessActivityPointRewardCsReq),
+            6003 => ::std::option::Option::Some(CmdRogueEndlessType::CmdTakeRogueEndlessActivityAllBonusRewardScRsp),
+            6001 => ::std::option::Option::Some(CmdRogueEndlessType::CmdEnterRogueEndlessActivityStageCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdRogueEndlessType> {
         match str {
-            "CmdRogueEndlessType_IFJOMAMPHPJ" => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_IFJOMAMPHPJ),
-            "CmdRogueEndlessType_OJBHIBBKEFD" => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_OJBHIBBKEFD),
-            "CmdRogueEndlessType_IKKAFNIBIIN" => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_IKKAFNIBIIN),
-            "CmdRogueEndlessType_MNLAHGHJAFH" => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_MNLAHGHJAFH),
-            "CmdRogueEndlessType_DAODAJMJHKN" => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_DAODAJMJHKN),
-            "CmdRogueEndlessType_AJNILEIEMPD" => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_AJNILEIEMPD),
-            "CmdRogueEndlessType_JAMOKMODCBE" => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_JAMOKMODCBE),
-            "CmdRogueEndlessType_DJOFPFEJMBF" => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_DJOFPFEJMBF),
-            "CmdRogueEndlessType_DKIABNLIBKF" => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_DKIABNLIBKF),
-            "CmdRogueEndlessType_JOECDAPAJHA" => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessType_JOECDAPAJHA),
+            "GBIEIHAAFFI_IEMIGJIKEIJ" => ::std::option::Option::Some(CmdRogueEndlessType::GBIEIHAAFFI_IEMIGJIKEIJ),
+            "CmdRogueEndlessActivityBattleEndScNotify" => ::std::option::Option::Some(CmdRogueEndlessType::CmdRogueEndlessActivityBattleEndScNotify),
+            "CmdTakeRogueEndlessActivityPointRewardScRsp" => ::std::option::Option::Some(CmdRogueEndlessType::CmdTakeRogueEndlessActivityPointRewardScRsp),
+            "CmdEnterRogueEndlessActivityStageScRsp" => ::std::option::Option::Some(CmdRogueEndlessType::CmdEnterRogueEndlessActivityStageScRsp),
+            "CmdGetRogueEndlessActivityDataCsReq" => ::std::option::Option::Some(CmdRogueEndlessType::CmdGetRogueEndlessActivityDataCsReq),
+            "CmdGetRogueEndlessActivityDataScRsp" => ::std::option::Option::Some(CmdRogueEndlessType::CmdGetRogueEndlessActivityDataScRsp),
+            "CmdTakeRogueEndlessActivityAllBonusRewardCsReq" => ::std::option::Option::Some(CmdRogueEndlessType::CmdTakeRogueEndlessActivityAllBonusRewardCsReq),
+            "CmdTakeRogueEndlessActivityPointRewardCsReq" => ::std::option::Option::Some(CmdRogueEndlessType::CmdTakeRogueEndlessActivityPointRewardCsReq),
+            "CmdTakeRogueEndlessActivityAllBonusRewardScRsp" => ::std::option::Option::Some(CmdRogueEndlessType::CmdTakeRogueEndlessActivityAllBonusRewardScRsp),
+            "CmdEnterRogueEndlessActivityStageCsReq" => ::std::option::Option::Some(CmdRogueEndlessType::CmdEnterRogueEndlessActivityStageCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdRogueEndlessType] = &[
-        CmdRogueEndlessType::CmdRogueEndlessType_IFJOMAMPHPJ,
-        CmdRogueEndlessType::CmdRogueEndlessType_OJBHIBBKEFD,
-        CmdRogueEndlessType::CmdRogueEndlessType_IKKAFNIBIIN,
-        CmdRogueEndlessType::CmdRogueEndlessType_MNLAHGHJAFH,
-        CmdRogueEndlessType::CmdRogueEndlessType_DAODAJMJHKN,
-        CmdRogueEndlessType::CmdRogueEndlessType_AJNILEIEMPD,
-        CmdRogueEndlessType::CmdRogueEndlessType_JAMOKMODCBE,
-        CmdRogueEndlessType::CmdRogueEndlessType_DJOFPFEJMBF,
-        CmdRogueEndlessType::CmdRogueEndlessType_DKIABNLIBKF,
-        CmdRogueEndlessType::CmdRogueEndlessType_JOECDAPAJHA,
+        CmdRogueEndlessType::GBIEIHAAFFI_IEMIGJIKEIJ,
+        CmdRogueEndlessType::CmdRogueEndlessActivityBattleEndScNotify,
+        CmdRogueEndlessType::CmdTakeRogueEndlessActivityPointRewardScRsp,
+        CmdRogueEndlessType::CmdEnterRogueEndlessActivityStageScRsp,
+        CmdRogueEndlessType::CmdGetRogueEndlessActivityDataCsReq,
+        CmdRogueEndlessType::CmdGetRogueEndlessActivityDataScRsp,
+        CmdRogueEndlessType::CmdTakeRogueEndlessActivityAllBonusRewardCsReq,
+        CmdRogueEndlessType::CmdTakeRogueEndlessActivityPointRewardCsReq,
+        CmdRogueEndlessType::CmdTakeRogueEndlessActivityAllBonusRewardScRsp,
+        CmdRogueEndlessType::CmdEnterRogueEndlessActivityStageCsReq,
     ];
 }
 
@@ -110,16 +110,16 @@ impl ::protobuf::EnumFull for CmdRogueEndlessType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdRogueEndlessType::CmdRogueEndlessType_IFJOMAMPHPJ => 0,
-            CmdRogueEndlessType::CmdRogueEndlessType_OJBHIBBKEFD => 1,
-            CmdRogueEndlessType::CmdRogueEndlessType_IKKAFNIBIIN => 2,
-            CmdRogueEndlessType::CmdRogueEndlessType_MNLAHGHJAFH => 3,
-            CmdRogueEndlessType::CmdRogueEndlessType_DAODAJMJHKN => 4,
-            CmdRogueEndlessType::CmdRogueEndlessType_AJNILEIEMPD => 5,
-            CmdRogueEndlessType::CmdRogueEndlessType_JAMOKMODCBE => 6,
-            CmdRogueEndlessType::CmdRogueEndlessType_DJOFPFEJMBF => 7,
-            CmdRogueEndlessType::CmdRogueEndlessType_DKIABNLIBKF => 8,
-            CmdRogueEndlessType::CmdRogueEndlessType_JOECDAPAJHA => 9,
+            CmdRogueEndlessType::GBIEIHAAFFI_IEMIGJIKEIJ => 0,
+            CmdRogueEndlessType::CmdRogueEndlessActivityBattleEndScNotify => 1,
+            CmdRogueEndlessType::CmdTakeRogueEndlessActivityPointRewardScRsp => 2,
+            CmdRogueEndlessType::CmdEnterRogueEndlessActivityStageScRsp => 3,
+            CmdRogueEndlessType::CmdGetRogueEndlessActivityDataCsReq => 4,
+            CmdRogueEndlessType::CmdGetRogueEndlessActivityDataScRsp => 5,
+            CmdRogueEndlessType::CmdTakeRogueEndlessActivityAllBonusRewardCsReq => 6,
+            CmdRogueEndlessType::CmdTakeRogueEndlessActivityPointRewardCsReq => 7,
+            CmdRogueEndlessType::CmdTakeRogueEndlessActivityAllBonusRewardScRsp => 8,
+            CmdRogueEndlessType::CmdEnterRogueEndlessActivityStageCsReq => 9,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -127,7 +127,7 @@ impl ::protobuf::EnumFull for CmdRogueEndlessType {
 
 impl ::std::default::Default for CmdRogueEndlessType {
     fn default() -> Self {
-        CmdRogueEndlessType::CmdRogueEndlessType_IFJOMAMPHPJ
+        CmdRogueEndlessType::GBIEIHAAFFI_IEMIGJIKEIJ
     }
 }
 
@@ -138,15 +138,15 @@ impl CmdRogueEndlessType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x19CmdRogueEndlessType.proto*\x90\x03\n\x13CmdRogueEndlessType\x12#\n\
-    \x1fCmdRogueEndlessType_IFJOMAMPHPJ\x10\0\x12$\n\x1fCmdRogueEndlessType_\
-    OJBHIBBKEFD\x10\xf7.\x12$\n\x1fCmdRogueEndlessType_IKKAFNIBIIN\x10\xf6.\
-    \x12$\n\x1fCmdRogueEndlessType_MNLAHGHJAFH\x10\xf4.\x12$\n\x1fCmdRogueEn\
-    dlessType_DAODAJMJHKN\x10\xf8.\x12$\n\x1fCmdRogueEndlessType_AJNILEIEMPD\
-    \x10\xf5.\x12$\n\x1fCmdRogueEndlessType_JAMOKMODCBE\x10\xfa.\x12$\n\x1fC\
-    mdRogueEndlessType_DJOFPFEJMBF\x10\xf1.\x12$\n\x1fCmdRogueEndlessType_DK\
-    IABNLIBKF\x10\xf3.\x12$\n\x1fCmdRogueEndlessType_JOECDAPAJHA\x10\xf2.b\
-    \x06proto3\
+    \n\x19CmdRogueEndlessType.proto*\xdd\x03\n\x13CmdRogueEndlessType\x12\
+    \x1b\n\x17GBIEIHAAFFI_IEMIGJIKEIJ\x10\0\x12-\n(CmdRogueEndlessActivityBa\
+    ttleEndScNotify\x10\xf5.\x120\n+CmdTakeRogueEndlessActivityPointRewardSc\
+    Rsp\x10\xf2.\x12+\n&CmdEnterRogueEndlessActivityStageScRsp\x10\xf7.\x12(\
+    \n#CmdGetRogueEndlessActivityDataCsReq\x10\xf9.\x12(\n#CmdGetRogueEndles\
+    sActivityDataScRsp\x10\xfa.\x123\n.CmdTakeRogueEndlessActivityAllBonusRe\
+    wardCsReq\x10\xf6.\x120\n+CmdTakeRogueEndlessActivityPointRewardCsReq\
+    \x10\xf4.\x123\n.CmdTakeRogueEndlessActivityAllBonusRewardScRsp\x10\xf3.\
+    \x12+\n&CmdEnterRogueEndlessActivityStageCsReq\x10\xf1.b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

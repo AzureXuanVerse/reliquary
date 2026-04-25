@@ -28,8 +28,6 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct PlayerGetTokenScRsp {
     // message fields
-    // @@protoc_insertion_point(field:PlayerGetTokenScRsp.retcode)
-    pub retcode: u32,
     // @@protoc_insertion_point(field:PlayerGetTokenScRsp.uid)
     pub uid: u32,
     // @@protoc_insertion_point(field:PlayerGetTokenScRsp.secret_key_seed)
@@ -40,6 +38,8 @@ pub struct PlayerGetTokenScRsp {
     pub stop_desc: ::std::string::String,
     // @@protoc_insertion_point(field:PlayerGetTokenScRsp.authkey)
     pub authkey: ::std::string::String,
+    // @@protoc_insertion_point(field:PlayerGetTokenScRsp.retcode)
+    pub retcode: u32,
     // special fields
     // @@protoc_insertion_point(special_field:PlayerGetTokenScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -59,11 +59,6 @@ impl PlayerGetTokenScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(6);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "retcode",
-            |m: &PlayerGetTokenScRsp| { &m.retcode },
-            |m: &mut PlayerGetTokenScRsp| { &mut m.retcode },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "uid",
             |m: &PlayerGetTokenScRsp| { &m.uid },
@@ -89,6 +84,11 @@ impl PlayerGetTokenScRsp {
             |m: &PlayerGetTokenScRsp| { &m.authkey },
             |m: &mut PlayerGetTokenScRsp| { &mut m.authkey },
         ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "retcode",
+            |m: &PlayerGetTokenScRsp| { &m.retcode },
+            |m: &mut PlayerGetTokenScRsp| { &mut m.retcode },
+        ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<PlayerGetTokenScRsp>(
             "PlayerGetTokenScRsp",
             fields,
@@ -107,23 +107,23 @@ impl ::protobuf::Message for PlayerGetTokenScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                120 => {
-                    self.retcode = is.read_uint32()?;
-                },
-                24 => {
+                88 => {
                     self.uid = is.read_uint32()?;
                 },
-                48 => {
+                64 => {
                     self.secret_key_seed = is.read_uint64()?;
                 },
-                10 => {
+                114 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.black_info)?;
                 },
-                42 => {
+                10 => {
                     self.stop_desc = is.read_string()?;
                 },
-                58 => {
+                18 => {
                     self.authkey = is.read_string()?;
+                },
+                56 => {
+                    self.retcode = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -137,24 +137,24 @@ impl ::protobuf::Message for PlayerGetTokenScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(15, self.retcode);
-        }
         if self.uid != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.uid);
+            my_size += ::protobuf::rt::uint32_size(11, self.uid);
         }
         if self.secret_key_seed != 0 {
-            my_size += ::protobuf::rt::uint64_size(6, self.secret_key_seed);
+            my_size += ::protobuf::rt::uint64_size(8, self.secret_key_seed);
         }
         if let Some(v) = self.black_info.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
         if !self.stop_desc.is_empty() {
-            my_size += ::protobuf::rt::string_size(5, &self.stop_desc);
+            my_size += ::protobuf::rt::string_size(1, &self.stop_desc);
         }
         if !self.authkey.is_empty() {
-            my_size += ::protobuf::rt::string_size(7, &self.authkey);
+            my_size += ::protobuf::rt::string_size(2, &self.authkey);
+        }
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(7, self.retcode);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -162,23 +162,23 @@ impl ::protobuf::Message for PlayerGetTokenScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.retcode != 0 {
-            os.write_uint32(15, self.retcode)?;
-        }
         if self.uid != 0 {
-            os.write_uint32(3, self.uid)?;
+            os.write_uint32(11, self.uid)?;
         }
         if self.secret_key_seed != 0 {
-            os.write_uint64(6, self.secret_key_seed)?;
+            os.write_uint64(8, self.secret_key_seed)?;
         }
         if let Some(v) = self.black_info.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
         }
         if !self.stop_desc.is_empty() {
-            os.write_string(5, &self.stop_desc)?;
+            os.write_string(1, &self.stop_desc)?;
         }
         if !self.authkey.is_empty() {
-            os.write_string(7, &self.authkey)?;
+            os.write_string(2, &self.authkey)?;
+        }
+        if self.retcode != 0 {
+            os.write_uint32(7, self.retcode)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -197,23 +197,23 @@ impl ::protobuf::Message for PlayerGetTokenScRsp {
     }
 
     fn clear(&mut self) {
-        self.retcode = 0;
         self.uid = 0;
         self.secret_key_seed = 0;
         self.black_info.clear();
         self.stop_desc.clear();
         self.authkey.clear();
+        self.retcode = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static PlayerGetTokenScRsp {
         static instance: PlayerGetTokenScRsp = PlayerGetTokenScRsp {
-            retcode: 0,
             uid: 0,
             secret_key_seed: 0,
             black_info: ::protobuf::MessageField::none(),
             stop_desc: ::std::string::String::new(),
             authkey: ::std::string::String::new(),
+            retcode: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -239,12 +239,12 @@ impl ::protobuf::reflect::ProtobufValue for PlayerGetTokenScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x19PlayerGetTokenScRsp.proto\x1a\x0fBlackInfo.proto\"\xcb\x01\n\x13Pl\
-    ayerGetTokenScRsp\x12\x18\n\x07retcode\x18\x0f\x20\x01(\rR\x07retcode\
-    \x12\x10\n\x03uid\x18\x03\x20\x01(\rR\x03uid\x12&\n\x0fsecret_key_seed\
-    \x18\x06\x20\x01(\x04R\rsecretKeySeed\x12)\n\nblack_info\x18\x01\x20\x01\
-    (\x0b2\n.BlackInfoR\tblackInfo\x12\x1b\n\tstop_desc\x18\x05\x20\x01(\tR\
-    \x08stopDesc\x12\x18\n\x07authkey\x18\x07\x20\x01(\tR\x07authkeyb\x06pro\
-    to3\
+    ayerGetTokenScRsp\x12\x10\n\x03uid\x18\x0b\x20\x01(\rR\x03uid\x12&\n\x0f\
+    secret_key_seed\x18\x08\x20\x01(\x04R\rsecretKeySeed\x12)\n\nblack_info\
+    \x18\x0e\x20\x01(\x0b2\n.BlackInfoR\tblackInfo\x12\x1b\n\tstop_desc\x18\
+    \x01\x20\x01(\tR\x08stopDesc\x12\x18\n\x07authkey\x18\x02\x20\x01(\tR\
+    \x07authkey\x12\x18\n\x07retcode\x18\x07\x20\x01(\rR\x07retcodeb\x06prot\
+    o3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -28,20 +28,20 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightArchiveData {
     // message fields
-    // @@protoc_insertion_point(field:GridFightArchiveData.IBBJEJIBCMN)
-    pub IBBJEJIBCMN: u32,
+    // @@protoc_insertion_point(field:GridFightArchiveData.DKCFJNDCBEP)
+    pub DKCFJNDCBEP: i64,
+    // @@protoc_insertion_point(field:GridFightArchiveData.AJMBOLHDGHK)
+    pub AJMBOLHDGHK: u32,
+    // @@protoc_insertion_point(field:GridFightArchiveData.BMPCCPCCJJO)
+    pub BMPCCPCCJJO: u32,
+    // @@protoc_insertion_point(field:GridFightArchiveData.EDKJMPACHNJ)
+    pub EDKJMPACHNJ: ::protobuf::MessageField<super::GridFightFinishInfo::GridFightFinishInfo>,
+    // @@protoc_insertion_point(field:GridFightArchiveData.CALIMAKGGHJ)
+    pub CALIMAKGGHJ: u32,
     // @@protoc_insertion_point(field:GridFightArchiveData.season)
     pub season: u32,
-    // @@protoc_insertion_point(field:GridFightArchiveData.EMPFMNAKGNC)
-    pub EMPFMNAKGNC: u32,
-    // @@protoc_insertion_point(field:GridFightArchiveData.DACAGELDCPM)
-    pub DACAGELDCPM: ::protobuf::MessageField<super::GridFightFinishInfo::GridFightFinishInfo>,
-    // @@protoc_insertion_point(field:GridFightArchiveData.BHBGFDFBDPP)
-    pub BHBGFDFBDPP: i64,
-    // @@protoc_insertion_point(field:GridFightArchiveData.KNBOBBFFIFN)
-    pub KNBOBBFFIFN: u32,
-    // @@protoc_insertion_point(field:GridFightArchiveData.KPKKBGHAABO)
-    pub KPKKBGHAABO: bool,
+    // @@protoc_insertion_point(field:GridFightArchiveData.PDLBECHDJBL)
+    pub PDLBECHDJBL: bool,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightArchiveData.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -62,9 +62,29 @@ impl GridFightArchiveData {
         let mut fields = ::std::vec::Vec::with_capacity(7);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "IBBJEJIBCMN",
-            |m: &GridFightArchiveData| { &m.IBBJEJIBCMN },
-            |m: &mut GridFightArchiveData| { &mut m.IBBJEJIBCMN },
+            "DKCFJNDCBEP",
+            |m: &GridFightArchiveData| { &m.DKCFJNDCBEP },
+            |m: &mut GridFightArchiveData| { &mut m.DKCFJNDCBEP },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "AJMBOLHDGHK",
+            |m: &GridFightArchiveData| { &m.AJMBOLHDGHK },
+            |m: &mut GridFightArchiveData| { &mut m.AJMBOLHDGHK },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "BMPCCPCCJJO",
+            |m: &GridFightArchiveData| { &m.BMPCCPCCJJO },
+            |m: &mut GridFightArchiveData| { &mut m.BMPCCPCCJJO },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GridFightFinishInfo::GridFightFinishInfo>(
+            "EDKJMPACHNJ",
+            |m: &GridFightArchiveData| { &m.EDKJMPACHNJ },
+            |m: &mut GridFightArchiveData| { &mut m.EDKJMPACHNJ },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "CALIMAKGGHJ",
+            |m: &GridFightArchiveData| { &m.CALIMAKGGHJ },
+            |m: &mut GridFightArchiveData| { &mut m.CALIMAKGGHJ },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "season",
@@ -72,29 +92,9 @@ impl GridFightArchiveData {
             |m: &mut GridFightArchiveData| { &mut m.season },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "EMPFMNAKGNC",
-            |m: &GridFightArchiveData| { &m.EMPFMNAKGNC },
-            |m: &mut GridFightArchiveData| { &mut m.EMPFMNAKGNC },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GridFightFinishInfo::GridFightFinishInfo>(
-            "DACAGELDCPM",
-            |m: &GridFightArchiveData| { &m.DACAGELDCPM },
-            |m: &mut GridFightArchiveData| { &mut m.DACAGELDCPM },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BHBGFDFBDPP",
-            |m: &GridFightArchiveData| { &m.BHBGFDFBDPP },
-            |m: &mut GridFightArchiveData| { &mut m.BHBGFDFBDPP },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "KNBOBBFFIFN",
-            |m: &GridFightArchiveData| { &m.KNBOBBFFIFN },
-            |m: &mut GridFightArchiveData| { &mut m.KNBOBBFFIFN },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "KPKKBGHAABO",
-            |m: &GridFightArchiveData| { &m.KPKKBGHAABO },
-            |m: &mut GridFightArchiveData| { &mut m.KPKKBGHAABO },
+            "PDLBECHDJBL",
+            |m: &GridFightArchiveData| { &m.PDLBECHDJBL },
+            |m: &mut GridFightArchiveData| { &mut m.PDLBECHDJBL },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightArchiveData>(
             "GridFightArchiveData",
@@ -114,26 +114,26 @@ impl ::protobuf::Message for GridFightArchiveData {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                80 => {
-                    self.IBBJEJIBCMN = is.read_uint32()?;
-                },
-                32 => {
-                    self.season = is.read_uint32()?;
-                },
-                56 => {
-                    self.EMPFMNAKGNC = is.read_uint32()?;
-                },
-                26 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.DACAGELDCPM)?;
-                },
-                88 => {
-                    self.BHBGFDFBDPP = is.read_int64()?;
-                },
                 120 => {
-                    self.KNBOBBFFIFN = is.read_uint32()?;
+                    self.DKCFJNDCBEP = is.read_int64()?;
                 },
                 16 => {
-                    self.KPKKBGHAABO = is.read_bool()?;
+                    self.AJMBOLHDGHK = is.read_uint32()?;
+                },
+                96 => {
+                    self.BMPCCPCCJJO = is.read_uint32()?;
+                },
+                106 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.EDKJMPACHNJ)?;
+                },
+                112 => {
+                    self.CALIMAKGGHJ = is.read_uint32()?;
+                },
+                72 => {
+                    self.season = is.read_uint32()?;
+                },
+                48 => {
+                    self.PDLBECHDJBL = is.read_bool()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -147,26 +147,26 @@ impl ::protobuf::Message for GridFightArchiveData {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.IBBJEJIBCMN != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.IBBJEJIBCMN);
+        if self.DKCFJNDCBEP != 0 {
+            my_size += ::protobuf::rt::int64_size(15, self.DKCFJNDCBEP);
         }
-        if self.season != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.season);
+        if self.AJMBOLHDGHK != 0 {
+            my_size += ::protobuf::rt::uint32_size(2, self.AJMBOLHDGHK);
         }
-        if self.EMPFMNAKGNC != 0 {
-            my_size += ::protobuf::rt::uint32_size(7, self.EMPFMNAKGNC);
+        if self.BMPCCPCCJJO != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.BMPCCPCCJJO);
         }
-        if let Some(v) = self.DACAGELDCPM.as_ref() {
+        if let Some(v) = self.EDKJMPACHNJ.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.BHBGFDFBDPP != 0 {
-            my_size += ::protobuf::rt::int64_size(11, self.BHBGFDFBDPP);
+        if self.CALIMAKGGHJ != 0 {
+            my_size += ::protobuf::rt::uint32_size(14, self.CALIMAKGGHJ);
         }
-        if self.KNBOBBFFIFN != 0 {
-            my_size += ::protobuf::rt::uint32_size(15, self.KNBOBBFFIFN);
+        if self.season != 0 {
+            my_size += ::protobuf::rt::uint32_size(9, self.season);
         }
-        if self.KPKKBGHAABO != false {
+        if self.PDLBECHDJBL != false {
             my_size += 1 + 1;
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
@@ -175,26 +175,26 @@ impl ::protobuf::Message for GridFightArchiveData {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.IBBJEJIBCMN != 0 {
-            os.write_uint32(10, self.IBBJEJIBCMN)?;
+        if self.DKCFJNDCBEP != 0 {
+            os.write_int64(15, self.DKCFJNDCBEP)?;
+        }
+        if self.AJMBOLHDGHK != 0 {
+            os.write_uint32(2, self.AJMBOLHDGHK)?;
+        }
+        if self.BMPCCPCCJJO != 0 {
+            os.write_uint32(12, self.BMPCCPCCJJO)?;
+        }
+        if let Some(v) = self.EDKJMPACHNJ.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
+        }
+        if self.CALIMAKGGHJ != 0 {
+            os.write_uint32(14, self.CALIMAKGGHJ)?;
         }
         if self.season != 0 {
-            os.write_uint32(4, self.season)?;
+            os.write_uint32(9, self.season)?;
         }
-        if self.EMPFMNAKGNC != 0 {
-            os.write_uint32(7, self.EMPFMNAKGNC)?;
-        }
-        if let Some(v) = self.DACAGELDCPM.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
-        }
-        if self.BHBGFDFBDPP != 0 {
-            os.write_int64(11, self.BHBGFDFBDPP)?;
-        }
-        if self.KNBOBBFFIFN != 0 {
-            os.write_uint32(15, self.KNBOBBFFIFN)?;
-        }
-        if self.KPKKBGHAABO != false {
-            os.write_bool(2, self.KPKKBGHAABO)?;
+        if self.PDLBECHDJBL != false {
+            os.write_bool(6, self.PDLBECHDJBL)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -213,25 +213,25 @@ impl ::protobuf::Message for GridFightArchiveData {
     }
 
     fn clear(&mut self) {
-        self.IBBJEJIBCMN = 0;
+        self.DKCFJNDCBEP = 0;
+        self.AJMBOLHDGHK = 0;
+        self.BMPCCPCCJJO = 0;
+        self.EDKJMPACHNJ.clear();
+        self.CALIMAKGGHJ = 0;
         self.season = 0;
-        self.EMPFMNAKGNC = 0;
-        self.DACAGELDCPM.clear();
-        self.BHBGFDFBDPP = 0;
-        self.KNBOBBFFIFN = 0;
-        self.KPKKBGHAABO = false;
+        self.PDLBECHDJBL = false;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightArchiveData {
         static instance: GridFightArchiveData = GridFightArchiveData {
-            IBBJEJIBCMN: 0,
+            DKCFJNDCBEP: 0,
+            AJMBOLHDGHK: 0,
+            BMPCCPCCJJO: 0,
+            EDKJMPACHNJ: ::protobuf::MessageField::none(),
+            CALIMAKGGHJ: 0,
             season: 0,
-            EMPFMNAKGNC: 0,
-            DACAGELDCPM: ::protobuf::MessageField::none(),
-            BHBGFDFBDPP: 0,
-            KNBOBBFFIFN: 0,
-            KPKKBGHAABO: false,
+            PDLBECHDJBL: false,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -257,13 +257,13 @@ impl ::protobuf::reflect::ProtobufValue for GridFightArchiveData {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1aGridFightArchiveData.proto\x1a\x19GridFightFinishInfo.proto\"\x90\
-    \x02\n\x14GridFightArchiveData\x12\x20\n\x0bIBBJEJIBCMN\x18\n\x20\x01(\r\
-    R\x0bIBBJEJIBCMN\x12\x16\n\x06season\x18\x04\x20\x01(\rR\x06season\x12\
-    \x20\n\x0bEMPFMNAKGNC\x18\x07\x20\x01(\rR\x0bEMPFMNAKGNC\x126\n\x0bDACAG\
-    ELDCPM\x18\x03\x20\x01(\x0b2\x14.GridFightFinishInfoR\x0bDACAGELDCPM\x12\
-    \x20\n\x0bBHBGFDFBDPP\x18\x0b\x20\x01(\x03R\x0bBHBGFDFBDPP\x12\x20\n\x0b\
-    KNBOBBFFIFN\x18\x0f\x20\x01(\rR\x0bKNBOBBFFIFN\x12\x20\n\x0bKPKKBGHAABO\
-    \x18\x02\x20\x01(\x08R\x0bKPKKBGHAABOb\x06proto3\
+    \x02\n\x14GridFightArchiveData\x12\x20\n\x0bDKCFJNDCBEP\x18\x0f\x20\x01(\
+    \x03R\x0bDKCFJNDCBEP\x12\x20\n\x0bAJMBOLHDGHK\x18\x02\x20\x01(\rR\x0bAJM\
+    BOLHDGHK\x12\x20\n\x0bBMPCCPCCJJO\x18\x0c\x20\x01(\rR\x0bBMPCCPCCJJO\x12\
+    6\n\x0bEDKJMPACHNJ\x18\r\x20\x01(\x0b2\x14.GridFightFinishInfoR\x0bEDKJM\
+    PACHNJ\x12\x20\n\x0bCALIMAKGGHJ\x18\x0e\x20\x01(\rR\x0bCALIMAKGGHJ\x12\
+    \x16\n\x06season\x18\t\x20\x01(\rR\x06season\x12\x20\n\x0bPDLBECHDJBL\
+    \x18\x06\x20\x01(\x08R\x0bPDLBECHDJBLb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

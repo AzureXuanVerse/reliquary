@@ -28,16 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct PlanetFesAvatarLevelUpScRsp {
     // message fields
-    // @@protoc_insertion_point(field:PlanetFesAvatarLevelUpScRsp.BHFKCFBIALL)
-    pub BHFKCFBIALL: u32,
-    // @@protoc_insertion_point(field:PlanetFesAvatarLevelUpScRsp.retcode)
-    pub retcode: u32,
-    // @@protoc_insertion_point(field:PlanetFesAvatarLevelUpScRsp.PLDEJLJBBLB)
-    pub PLDEJLJBBLB: u32,
-    // @@protoc_insertion_point(field:PlanetFesAvatarLevelUpScRsp.reward)
-    pub reward: ::protobuf::MessageField<super::IIKELBGGBLL::IIKELBGGBLL>,
     // @@protoc_insertion_point(field:PlanetFesAvatarLevelUpScRsp.avatar_id)
     pub avatar_id: u32,
+    // @@protoc_insertion_point(field:PlanetFesAvatarLevelUpScRsp.ODADJILOEKO)
+    pub ODADJILOEKO: u32,
+    // @@protoc_insertion_point(field:PlanetFesAvatarLevelUpScRsp.IHLLMLLNIFN)
+    pub IHLLMLLNIFN: u32,
+    // @@protoc_insertion_point(field:PlanetFesAvatarLevelUpScRsp.retcode)
+    pub retcode: u32,
+    // @@protoc_insertion_point(field:PlanetFesAvatarLevelUpScRsp.reward)
+    pub reward: ::protobuf::MessageField<super::HLLCDBLCIPK::HLLCDBLCIPK>,
     // special fields
     // @@protoc_insertion_point(special_field:PlanetFesAvatarLevelUpScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -58,29 +58,29 @@ impl PlanetFesAvatarLevelUpScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BHFKCFBIALL",
-            |m: &PlanetFesAvatarLevelUpScRsp| { &m.BHFKCFBIALL },
-            |m: &mut PlanetFesAvatarLevelUpScRsp| { &mut m.BHFKCFBIALL },
+            "avatar_id",
+            |m: &PlanetFesAvatarLevelUpScRsp| { &m.avatar_id },
+            |m: &mut PlanetFesAvatarLevelUpScRsp| { &mut m.avatar_id },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "ODADJILOEKO",
+            |m: &PlanetFesAvatarLevelUpScRsp| { &m.ODADJILOEKO },
+            |m: &mut PlanetFesAvatarLevelUpScRsp| { &mut m.ODADJILOEKO },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "IHLLMLLNIFN",
+            |m: &PlanetFesAvatarLevelUpScRsp| { &m.IHLLMLLNIFN },
+            |m: &mut PlanetFesAvatarLevelUpScRsp| { &mut m.IHLLMLLNIFN },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &PlanetFesAvatarLevelUpScRsp| { &m.retcode },
             |m: &mut PlanetFesAvatarLevelUpScRsp| { &mut m.retcode },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "PLDEJLJBBLB",
-            |m: &PlanetFesAvatarLevelUpScRsp| { &m.PLDEJLJBBLB },
-            |m: &mut PlanetFesAvatarLevelUpScRsp| { &mut m.PLDEJLJBBLB },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::IIKELBGGBLL::IIKELBGGBLL>(
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::HLLCDBLCIPK::HLLCDBLCIPK>(
             "reward",
             |m: &PlanetFesAvatarLevelUpScRsp| { &m.reward },
             |m: &mut PlanetFesAvatarLevelUpScRsp| { &mut m.reward },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "avatar_id",
-            |m: &PlanetFesAvatarLevelUpScRsp| { &m.avatar_id },
-            |m: &mut PlanetFesAvatarLevelUpScRsp| { &mut m.avatar_id },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<PlanetFesAvatarLevelUpScRsp>(
             "PlanetFesAvatarLevelUpScRsp",
@@ -100,20 +100,20 @@ impl ::protobuf::Message for PlanetFesAvatarLevelUpScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                48 => {
-                    self.BHFKCFBIALL = is.read_uint32()?;
+                120 => {
+                    self.avatar_id = is.read_uint32()?;
                 },
                 72 => {
-                    self.retcode = is.read_uint32()?;
+                    self.ODADJILOEKO = is.read_uint32()?;
                 },
                 8 => {
-                    self.PLDEJLJBBLB = is.read_uint32()?;
+                    self.IHLLMLLNIFN = is.read_uint32()?;
                 },
-                58 => {
+                40 => {
+                    self.retcode = is.read_uint32()?;
+                },
+                26 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.reward)?;
-                },
-                112 => {
-                    self.avatar_id = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -127,21 +127,21 @@ impl ::protobuf::Message for PlanetFesAvatarLevelUpScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.BHFKCFBIALL != 0 {
-            my_size += ::protobuf::rt::uint32_size(6, self.BHFKCFBIALL);
+        if self.avatar_id != 0 {
+            my_size += ::protobuf::rt::uint32_size(15, self.avatar_id);
+        }
+        if self.ODADJILOEKO != 0 {
+            my_size += ::protobuf::rt::uint32_size(9, self.ODADJILOEKO);
+        }
+        if self.IHLLMLLNIFN != 0 {
+            my_size += ::protobuf::rt::uint32_size(1, self.IHLLMLLNIFN);
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.retcode);
-        }
-        if self.PLDEJLJBBLB != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.PLDEJLJBBLB);
+            my_size += ::protobuf::rt::uint32_size(5, self.retcode);
         }
         if let Some(v) = self.reward.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if self.avatar_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.avatar_id);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -149,20 +149,20 @@ impl ::protobuf::Message for PlanetFesAvatarLevelUpScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.BHFKCFBIALL != 0 {
-            os.write_uint32(6, self.BHFKCFBIALL)?;
+        if self.avatar_id != 0 {
+            os.write_uint32(15, self.avatar_id)?;
+        }
+        if self.ODADJILOEKO != 0 {
+            os.write_uint32(9, self.ODADJILOEKO)?;
+        }
+        if self.IHLLMLLNIFN != 0 {
+            os.write_uint32(1, self.IHLLMLLNIFN)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(9, self.retcode)?;
-        }
-        if self.PLDEJLJBBLB != 0 {
-            os.write_uint32(1, self.PLDEJLJBBLB)?;
+            os.write_uint32(5, self.retcode)?;
         }
         if let Some(v) = self.reward.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
-        }
-        if self.avatar_id != 0 {
-            os.write_uint32(14, self.avatar_id)?;
+            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -181,21 +181,21 @@ impl ::protobuf::Message for PlanetFesAvatarLevelUpScRsp {
     }
 
     fn clear(&mut self) {
-        self.BHFKCFBIALL = 0;
-        self.retcode = 0;
-        self.PLDEJLJBBLB = 0;
-        self.reward.clear();
         self.avatar_id = 0;
+        self.ODADJILOEKO = 0;
+        self.IHLLMLLNIFN = 0;
+        self.retcode = 0;
+        self.reward.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static PlanetFesAvatarLevelUpScRsp {
         static instance: PlanetFesAvatarLevelUpScRsp = PlanetFesAvatarLevelUpScRsp {
-            BHFKCFBIALL: 0,
-            retcode: 0,
-            PLDEJLJBBLB: 0,
-            reward: ::protobuf::MessageField::none(),
             avatar_id: 0,
+            ODADJILOEKO: 0,
+            IHLLMLLNIFN: 0,
+            retcode: 0,
+            reward: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -220,12 +220,12 @@ impl ::protobuf::reflect::ProtobufValue for PlanetFesAvatarLevelUpScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n!PlanetFesAvatarLevelUpScRsp.proto\x1a\x11IIKELBGGBLL.proto\"\xbe\x01\
-    \n\x1bPlanetFesAvatarLevelUpScRsp\x12\x20\n\x0bBHFKCFBIALL\x18\x06\x20\
-    \x01(\rR\x0bBHFKCFBIALL\x12\x18\n\x07retcode\x18\t\x20\x01(\rR\x07retcod\
-    e\x12\x20\n\x0bPLDEJLJBBLB\x18\x01\x20\x01(\rR\x0bPLDEJLJBBLB\x12$\n\x06\
-    reward\x18\x07\x20\x01(\x0b2\x0c.IIKELBGGBLLR\x06reward\x12\x1b\n\tavata\
-    r_id\x18\x0e\x20\x01(\rR\x08avatarIdb\x06proto3\
+    \n!PlanetFesAvatarLevelUpScRsp.proto\x1a\x11HLLCDBLCIPK.proto\"\xbe\x01\
+    \n\x1bPlanetFesAvatarLevelUpScRsp\x12\x1b\n\tavatar_id\x18\x0f\x20\x01(\
+    \rR\x08avatarId\x12\x20\n\x0bODADJILOEKO\x18\t\x20\x01(\rR\x0bODADJILOEK\
+    O\x12\x20\n\x0bIHLLMLLNIFN\x18\x01\x20\x01(\rR\x0bIHLLMLLNIFN\x12\x18\n\
+    \x07retcode\x18\x05\x20\x01(\rR\x07retcode\x12$\n\x06reward\x18\x03\x20\
+    \x01(\x0b2\x0c.HLLCDBLCIPKR\x06rewardb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -243,7 +243,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::IIKELBGGBLL::file_descriptor().clone());
+            deps.push(super::HLLCDBLCIPK::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(PlanetFesAvatarLevelUpScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

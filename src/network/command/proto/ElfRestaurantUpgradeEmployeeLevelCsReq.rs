@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ElfRestaurantUpgradeEmployeeLevelCsReq {
     // message fields
-    // @@protoc_insertion_point(field:ElfRestaurantUpgradeEmployeeLevelCsReq.IKHANCLDAMO)
-    pub IKHANCLDAMO: u32,
-    // @@protoc_insertion_point(field:ElfRestaurantUpgradeEmployeeLevelCsReq.PLDEJLJBBLB)
-    pub PLDEJLJBBLB: u32,
+    // @@protoc_insertion_point(field:ElfRestaurantUpgradeEmployeeLevelCsReq.ODADJILOEKO)
+    pub ODADJILOEKO: u32,
+    // @@protoc_insertion_point(field:ElfRestaurantUpgradeEmployeeLevelCsReq.MPBBIJMACLL)
+    pub MPBBIJMACLL: u32,
     // special fields
     // @@protoc_insertion_point(special_field:ElfRestaurantUpgradeEmployeeLevelCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl ElfRestaurantUpgradeEmployeeLevelCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "IKHANCLDAMO",
-            |m: &ElfRestaurantUpgradeEmployeeLevelCsReq| { &m.IKHANCLDAMO },
-            |m: &mut ElfRestaurantUpgradeEmployeeLevelCsReq| { &mut m.IKHANCLDAMO },
+            "ODADJILOEKO",
+            |m: &ElfRestaurantUpgradeEmployeeLevelCsReq| { &m.ODADJILOEKO },
+            |m: &mut ElfRestaurantUpgradeEmployeeLevelCsReq| { &mut m.ODADJILOEKO },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "PLDEJLJBBLB",
-            |m: &ElfRestaurantUpgradeEmployeeLevelCsReq| { &m.PLDEJLJBBLB },
-            |m: &mut ElfRestaurantUpgradeEmployeeLevelCsReq| { &mut m.PLDEJLJBBLB },
+            "MPBBIJMACLL",
+            |m: &ElfRestaurantUpgradeEmployeeLevelCsReq| { &m.MPBBIJMACLL },
+            |m: &mut ElfRestaurantUpgradeEmployeeLevelCsReq| { &mut m.MPBBIJMACLL },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ElfRestaurantUpgradeEmployeeLevelCsReq>(
             "ElfRestaurantUpgradeEmployeeLevelCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for ElfRestaurantUpgradeEmployeeLevelCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                64 => {
-                    self.IKHANCLDAMO = is.read_uint32()?;
+                56 => {
+                    self.ODADJILOEKO = is.read_uint32()?;
                 },
-                80 => {
-                    self.PLDEJLJBBLB = is.read_uint32()?;
+                88 => {
+                    self.MPBBIJMACLL = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for ElfRestaurantUpgradeEmployeeLevelCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.IKHANCLDAMO != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.IKHANCLDAMO);
+        if self.ODADJILOEKO != 0 {
+            my_size += ::protobuf::rt::uint32_size(7, self.ODADJILOEKO);
         }
-        if self.PLDEJLJBBLB != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.PLDEJLJBBLB);
+        if self.MPBBIJMACLL != 0 {
+            my_size += ::protobuf::rt::uint32_size(11, self.MPBBIJMACLL);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for ElfRestaurantUpgradeEmployeeLevelCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.IKHANCLDAMO != 0 {
-            os.write_uint32(8, self.IKHANCLDAMO)?;
+        if self.ODADJILOEKO != 0 {
+            os.write_uint32(7, self.ODADJILOEKO)?;
         }
-        if self.PLDEJLJBBLB != 0 {
-            os.write_uint32(10, self.PLDEJLJBBLB)?;
+        if self.MPBBIJMACLL != 0 {
+            os.write_uint32(11, self.MPBBIJMACLL)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,15 +132,15 @@ impl ::protobuf::Message for ElfRestaurantUpgradeEmployeeLevelCsReq {
     }
 
     fn clear(&mut self) {
-        self.IKHANCLDAMO = 0;
-        self.PLDEJLJBBLB = 0;
+        self.ODADJILOEKO = 0;
+        self.MPBBIJMACLL = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ElfRestaurantUpgradeEmployeeLevelCsReq {
         static instance: ElfRestaurantUpgradeEmployeeLevelCsReq = ElfRestaurantUpgradeEmployeeLevelCsReq {
-            IKHANCLDAMO: 0,
-            PLDEJLJBBLB: 0,
+            ODADJILOEKO: 0,
+            MPBBIJMACLL: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,9 +166,9 @@ impl ::protobuf::reflect::ProtobufValue for ElfRestaurantUpgradeEmployeeLevelCsR
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n,ElfRestaurantUpgradeEmployeeLevelCsReq.proto\"l\n&ElfRestaurantUpgrad\
-    eEmployeeLevelCsReq\x12\x20\n\x0bIKHANCLDAMO\x18\x08\x20\x01(\rR\x0bIKHA\
-    NCLDAMO\x12\x20\n\x0bPLDEJLJBBLB\x18\n\x20\x01(\rR\x0bPLDEJLJBBLBb\x06pr\
-    oto3\
+    eEmployeeLevelCsReq\x12\x20\n\x0bODADJILOEKO\x18\x07\x20\x01(\rR\x0bODAD\
+    JILOEKO\x12\x20\n\x0bMPBBIJMACLL\x18\x0b\x20\x01(\rR\x0bMPBBIJMACLLb\x06\
+    proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

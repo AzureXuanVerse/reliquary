@@ -28,16 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct StartRogueCsReq {
     // message fields
-    // @@protoc_insertion_point(field:StartRogueCsReq.AGJKFJCNGGI)
-    pub AGJKFJCNGGI: ::std::vec::Vec<u32>,
     // @@protoc_insertion_point(field:StartRogueCsReq.area_id)
     pub area_id: u32,
     // @@protoc_insertion_point(field:StartRogueCsReq.base_avatar_id_list)
     pub base_avatar_id_list: ::std::vec::Vec<u32>,
     // @@protoc_insertion_point(field:StartRogueCsReq.unfinished_story_line_id_list)
     pub unfinished_story_line_id_list: ::std::vec::Vec<u32>,
-    // @@protoc_insertion_point(field:StartRogueCsReq.ENPIAPKLKNL)
-    pub ENPIAPKLKNL: u32,
+    // @@protoc_insertion_point(field:StartRogueCsReq.LGHOOKMNMCL)
+    pub LGHOOKMNMCL: u32,
+    // @@protoc_insertion_point(field:StartRogueCsReq.KOLBLKEDOGC)
+    pub KOLBLKEDOGC: ::std::vec::Vec<u32>,
     // special fields
     // @@protoc_insertion_point(special_field:StartRogueCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,11 +57,6 @@ impl StartRogueCsReq {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "AGJKFJCNGGI",
-            |m: &StartRogueCsReq| { &m.AGJKFJCNGGI },
-            |m: &mut StartRogueCsReq| { &mut m.AGJKFJCNGGI },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "area_id",
             |m: &StartRogueCsReq| { &m.area_id },
@@ -78,9 +73,14 @@ impl StartRogueCsReq {
             |m: &mut StartRogueCsReq| { &mut m.unfinished_story_line_id_list },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "ENPIAPKLKNL",
-            |m: &StartRogueCsReq| { &m.ENPIAPKLKNL },
-            |m: &mut StartRogueCsReq| { &mut m.ENPIAPKLKNL },
+            "LGHOOKMNMCL",
+            |m: &StartRogueCsReq| { &m.LGHOOKMNMCL },
+            |m: &mut StartRogueCsReq| { &mut m.LGHOOKMNMCL },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "KOLBLKEDOGC",
+            |m: &StartRogueCsReq| { &m.KOLBLKEDOGC },
+            |m: &mut StartRogueCsReq| { &mut m.KOLBLKEDOGC },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<StartRogueCsReq>(
             "StartRogueCsReq",
@@ -100,29 +100,29 @@ impl ::protobuf::Message for StartRogueCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                74 => {
-                    is.read_repeated_packed_uint32_into(&mut self.AGJKFJCNGGI)?;
-                },
-                72 => {
-                    self.AGJKFJCNGGI.push(is.read_uint32()?);
-                },
-                8 => {
+                40 => {
                     self.area_id = is.read_uint32()?;
                 },
-                122 => {
+                114 => {
                     is.read_repeated_packed_uint32_into(&mut self.base_avatar_id_list)?;
                 },
-                120 => {
+                112 => {
                     self.base_avatar_id_list.push(is.read_uint32()?);
                 },
-                82 => {
+                90 => {
                     is.read_repeated_packed_uint32_into(&mut self.unfinished_story_line_id_list)?;
                 },
-                80 => {
+                88 => {
                     self.unfinished_story_line_id_list.push(is.read_uint32()?);
                 },
-                112 => {
-                    self.ENPIAPKLKNL = is.read_uint32()?;
+                16 => {
+                    self.LGHOOKMNMCL = is.read_uint32()?;
+                },
+                26 => {
+                    is.read_repeated_packed_uint32_into(&mut self.KOLBLKEDOGC)?;
+                },
+                24 => {
+                    self.KOLBLKEDOGC.push(is.read_uint32()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -136,30 +136,30 @@ impl ::protobuf::Message for StartRogueCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        my_size += ::protobuf::rt::vec_packed_uint32_size(9, &self.AGJKFJCNGGI);
         if self.area_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.area_id);
+            my_size += ::protobuf::rt::uint32_size(5, self.area_id);
         }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(15, &self.base_avatar_id_list);
-        my_size += ::protobuf::rt::vec_packed_uint32_size(10, &self.unfinished_story_line_id_list);
-        if self.ENPIAPKLKNL != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.ENPIAPKLKNL);
+        my_size += ::protobuf::rt::vec_packed_uint32_size(14, &self.base_avatar_id_list);
+        my_size += ::protobuf::rt::vec_packed_uint32_size(11, &self.unfinished_story_line_id_list);
+        if self.LGHOOKMNMCL != 0 {
+            my_size += ::protobuf::rt::uint32_size(2, self.LGHOOKMNMCL);
         }
+        my_size += ::protobuf::rt::vec_packed_uint32_size(3, &self.KOLBLKEDOGC);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        os.write_repeated_packed_uint32(9, &self.AGJKFJCNGGI)?;
         if self.area_id != 0 {
-            os.write_uint32(1, self.area_id)?;
+            os.write_uint32(5, self.area_id)?;
         }
-        os.write_repeated_packed_uint32(15, &self.base_avatar_id_list)?;
-        os.write_repeated_packed_uint32(10, &self.unfinished_story_line_id_list)?;
-        if self.ENPIAPKLKNL != 0 {
-            os.write_uint32(14, self.ENPIAPKLKNL)?;
+        os.write_repeated_packed_uint32(14, &self.base_avatar_id_list)?;
+        os.write_repeated_packed_uint32(11, &self.unfinished_story_line_id_list)?;
+        if self.LGHOOKMNMCL != 0 {
+            os.write_uint32(2, self.LGHOOKMNMCL)?;
         }
+        os.write_repeated_packed_uint32(3, &self.KOLBLKEDOGC)?;
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -177,21 +177,21 @@ impl ::protobuf::Message for StartRogueCsReq {
     }
 
     fn clear(&mut self) {
-        self.AGJKFJCNGGI.clear();
         self.area_id = 0;
         self.base_avatar_id_list.clear();
         self.unfinished_story_line_id_list.clear();
-        self.ENPIAPKLKNL = 0;
+        self.LGHOOKMNMCL = 0;
+        self.KOLBLKEDOGC.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static StartRogueCsReq {
         static instance: StartRogueCsReq = StartRogueCsReq {
-            AGJKFJCNGGI: ::std::vec::Vec::new(),
             area_id: 0,
             base_avatar_id_list: ::std::vec::Vec::new(),
             unfinished_story_line_id_list: ::std::vec::Vec::new(),
-            ENPIAPKLKNL: 0,
+            LGHOOKMNMCL: 0,
+            KOLBLKEDOGC: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -216,12 +216,12 @@ impl ::protobuf::reflect::ProtobufValue for StartRogueCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x15StartRogueCsReq.proto\"\xdf\x01\n\x0fStartRogueCsReq\x12\x20\n\x0b\
-    AGJKFJCNGGI\x18\t\x20\x03(\rR\x0bAGJKFJCNGGI\x12\x17\n\x07area_id\x18\
-    \x01\x20\x01(\rR\x06areaId\x12-\n\x13base_avatar_id_list\x18\x0f\x20\x03\
-    (\rR\x10baseAvatarIdList\x12@\n\x1dunfinished_story_line_id_list\x18\n\
-    \x20\x03(\rR\x19unfinishedStoryLineIdList\x12\x20\n\x0bENPIAPKLKNL\x18\
-    \x0e\x20\x01(\rR\x0bENPIAPKLKNLb\x06proto3\
+    \n\x15StartRogueCsReq.proto\"\xdf\x01\n\x0fStartRogueCsReq\x12\x17\n\x07\
+    area_id\x18\x05\x20\x01(\rR\x06areaId\x12-\n\x13base_avatar_id_list\x18\
+    \x0e\x20\x03(\rR\x10baseAvatarIdList\x12@\n\x1dunfinished_story_line_id_\
+    list\x18\x0b\x20\x03(\rR\x19unfinishedStoryLineIdList\x12\x20\n\x0bLGHOO\
+    KMNMCL\x18\x02\x20\x01(\rR\x0bLGHOOKMNMCL\x12\x20\n\x0bKOLBLKEDOGC\x18\
+    \x03\x20\x03(\rR\x0bKOLBLKEDOGCb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

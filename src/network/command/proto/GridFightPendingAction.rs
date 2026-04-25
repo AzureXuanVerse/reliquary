@@ -31,7 +31,7 @@ pub struct GridFightPendingAction {
     // @@protoc_insertion_point(field:GridFightPendingAction.queue_position)
     pub queue_position: u32,
     // message oneof groups
-    pub NCEJGDKIBHM: ::std::option::Option<grid_fight_pending_action::NCEJGDKIBHM>,
+    pub BGGBIMBKHEI: ::std::option::Option<grid_fight_pending_action::BGGBIMBKHEI>,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightPendingAction.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -48,39 +48,39 @@ impl GridFightPendingAction {
         ::std::default::Default::default()
     }
 
-    // .GridFightPortalBuffActionInfo portal_buff_action = 1475;
+    // .GridFightPortalBuffActionInfo portal_buff_action = 1843;
 
     pub fn portal_buff_action(&self) -> &super::GridFightPortalBuffActionInfo::GridFightPortalBuffActionInfo {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::PortalBuffAction(ref v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PortalBuffAction(ref v)) => v,
             _ => <super::GridFightPortalBuffActionInfo::GridFightPortalBuffActionInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_portal_buff_action(&mut self) {
-        self.NCEJGDKIBHM = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
     }
 
     pub fn has_portal_buff_action(&self) -> bool {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::PortalBuffAction(..)) => true,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PortalBuffAction(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_portal_buff_action(&mut self, v: super::GridFightPortalBuffActionInfo::GridFightPortalBuffActionInfo) {
-        self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::PortalBuffAction(v))
+        self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PortalBuffAction(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_portal_buff_action(&mut self) -> &mut super::GridFightPortalBuffActionInfo::GridFightPortalBuffActionInfo {
-        if let ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::PortalBuffAction(_)) = self.NCEJGDKIBHM {
+        if let ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PortalBuffAction(_)) = self.BGGBIMBKHEI {
         } else {
-            self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::PortalBuffAction(super::GridFightPortalBuffActionInfo::GridFightPortalBuffActionInfo::new()));
+            self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PortalBuffAction(super::GridFightPortalBuffActionInfo::GridFightPortalBuffActionInfo::new()));
         }
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::PortalBuffAction(ref mut v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PortalBuffAction(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -88,8 +88,8 @@ impl GridFightPendingAction {
     // Take field
     pub fn take_portal_buff_action(&mut self) -> super::GridFightPortalBuffActionInfo::GridFightPortalBuffActionInfo {
         if self.has_portal_buff_action() {
-            match self.NCEJGDKIBHM.take() {
-                ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::PortalBuffAction(v)) => v,
+            match self.BGGBIMBKHEI.take() {
+                ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PortalBuffAction(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -97,39 +97,39 @@ impl GridFightPendingAction {
         }
     }
 
-    // .GridFightAugmentActionInfo augment_action = 86;
+    // .GridFightAugmentActionInfo augment_action = 482;
 
     pub fn augment_action(&self) -> &super::GridFightAugmentActionInfo::GridFightAugmentActionInfo {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::AugmentAction(ref v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::AugmentAction(ref v)) => v,
             _ => <super::GridFightAugmentActionInfo::GridFightAugmentActionInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_augment_action(&mut self) {
-        self.NCEJGDKIBHM = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
     }
 
     pub fn has_augment_action(&self) -> bool {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::AugmentAction(..)) => true,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::AugmentAction(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_augment_action(&mut self, v: super::GridFightAugmentActionInfo::GridFightAugmentActionInfo) {
-        self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::AugmentAction(v))
+        self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::AugmentAction(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_augment_action(&mut self) -> &mut super::GridFightAugmentActionInfo::GridFightAugmentActionInfo {
-        if let ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::AugmentAction(_)) = self.NCEJGDKIBHM {
+        if let ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::AugmentAction(_)) = self.BGGBIMBKHEI {
         } else {
-            self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::AugmentAction(super::GridFightAugmentActionInfo::GridFightAugmentActionInfo::new()));
+            self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::AugmentAction(super::GridFightAugmentActionInfo::GridFightAugmentActionInfo::new()));
         }
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::AugmentAction(ref mut v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::AugmentAction(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -137,8 +137,8 @@ impl GridFightPendingAction {
     // Take field
     pub fn take_augment_action(&mut self) -> super::GridFightAugmentActionInfo::GridFightAugmentActionInfo {
         if self.has_augment_action() {
-            match self.NCEJGDKIBHM.take() {
-                ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::AugmentAction(v)) => v,
+            match self.BGGBIMBKHEI.take() {
+                ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::AugmentAction(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -146,39 +146,39 @@ impl GridFightPendingAction {
         }
     }
 
-    // .GridFightTraitActionInfo trait_action = 1182;
+    // .GridFightTraitActionInfo trait_action = 1800;
 
     pub fn trait_action(&self) -> &super::GridFightTraitActionInfo::GridFightTraitActionInfo {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::TraitAction(ref v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::TraitAction(ref v)) => v,
             _ => <super::GridFightTraitActionInfo::GridFightTraitActionInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_trait_action(&mut self) {
-        self.NCEJGDKIBHM = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
     }
 
     pub fn has_trait_action(&self) -> bool {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::TraitAction(..)) => true,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::TraitAction(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_trait_action(&mut self, v: super::GridFightTraitActionInfo::GridFightTraitActionInfo) {
-        self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::TraitAction(v))
+        self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::TraitAction(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_trait_action(&mut self) -> &mut super::GridFightTraitActionInfo::GridFightTraitActionInfo {
-        if let ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::TraitAction(_)) = self.NCEJGDKIBHM {
+        if let ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::TraitAction(_)) = self.BGGBIMBKHEI {
         } else {
-            self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::TraitAction(super::GridFightTraitActionInfo::GridFightTraitActionInfo::new()));
+            self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::TraitAction(super::GridFightTraitActionInfo::GridFightTraitActionInfo::new()));
         }
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::TraitAction(ref mut v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::TraitAction(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -186,8 +186,8 @@ impl GridFightPendingAction {
     // Take field
     pub fn take_trait_action(&mut self) -> super::GridFightTraitActionInfo::GridFightTraitActionInfo {
         if self.has_trait_action() {
-            match self.NCEJGDKIBHM.take() {
-                ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::TraitAction(v)) => v,
+            match self.BGGBIMBKHEI.take() {
+                ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::TraitAction(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -195,39 +195,39 @@ impl GridFightPendingAction {
         }
     }
 
-    // .GridFightEliteBranchActionInfo elite_branch_action = 1658;
+    // .GridFightEliteBranchActionInfo elite_branch_action = 1893;
 
     pub fn elite_branch_action(&self) -> &super::GridFightEliteBranchActionInfo::GridFightEliteBranchActionInfo {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::EliteBranchAction(ref v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::EliteBranchAction(ref v)) => v,
             _ => <super::GridFightEliteBranchActionInfo::GridFightEliteBranchActionInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_elite_branch_action(&mut self) {
-        self.NCEJGDKIBHM = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
     }
 
     pub fn has_elite_branch_action(&self) -> bool {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::EliteBranchAction(..)) => true,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::EliteBranchAction(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_elite_branch_action(&mut self, v: super::GridFightEliteBranchActionInfo::GridFightEliteBranchActionInfo) {
-        self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::EliteBranchAction(v))
+        self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::EliteBranchAction(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_elite_branch_action(&mut self) -> &mut super::GridFightEliteBranchActionInfo::GridFightEliteBranchActionInfo {
-        if let ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::EliteBranchAction(_)) = self.NCEJGDKIBHM {
+        if let ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::EliteBranchAction(_)) = self.BGGBIMBKHEI {
         } else {
-            self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::EliteBranchAction(super::GridFightEliteBranchActionInfo::GridFightEliteBranchActionInfo::new()));
+            self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::EliteBranchAction(super::GridFightEliteBranchActionInfo::GridFightEliteBranchActionInfo::new()));
         }
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::EliteBranchAction(ref mut v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::EliteBranchAction(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -235,8 +235,8 @@ impl GridFightPendingAction {
     // Take field
     pub fn take_elite_branch_action(&mut self) -> super::GridFightEliteBranchActionInfo::GridFightEliteBranchActionInfo {
         if self.has_elite_branch_action() {
-            match self.NCEJGDKIBHM.take() {
-                ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::EliteBranchAction(v)) => v,
+            match self.BGGBIMBKHEI.take() {
+                ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::EliteBranchAction(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -244,137 +244,137 @@ impl GridFightPendingAction {
         }
     }
 
-    // .FOEHFKGJJPJ LICHOEPBMPO = 762;
+    // .HEPFIAFJAHL APLEGHKNFOK = 1446;
 
-    pub fn LICHOEPBMPO(&self) -> &super::FOEHFKGJJPJ::FOEHFKGJJPJ {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::LICHOEPBMPO(ref v)) => v,
-            _ => <super::FOEHFKGJJPJ::FOEHFKGJJPJ as ::protobuf::Message>::default_instance(),
+    pub fn APLEGHKNFOK(&self) -> &super::HEPFIAFJAHL::HEPFIAFJAHL {
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::APLEGHKNFOK(ref v)) => v,
+            _ => <super::HEPFIAFJAHL::HEPFIAFJAHL as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_LICHOEPBMPO(&mut self) {
-        self.NCEJGDKIBHM = ::std::option::Option::None;
+    pub fn clear_APLEGHKNFOK(&mut self) {
+        self.BGGBIMBKHEI = ::std::option::Option::None;
     }
 
-    pub fn has_LICHOEPBMPO(&self) -> bool {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::LICHOEPBMPO(..)) => true,
+    pub fn has_APLEGHKNFOK(&self) -> bool {
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::APLEGHKNFOK(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_LICHOEPBMPO(&mut self, v: super::FOEHFKGJJPJ::FOEHFKGJJPJ) {
-        self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::LICHOEPBMPO(v))
+    pub fn set_APLEGHKNFOK(&mut self, v: super::HEPFIAFJAHL::HEPFIAFJAHL) {
+        self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::APLEGHKNFOK(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_LICHOEPBMPO(&mut self) -> &mut super::FOEHFKGJJPJ::FOEHFKGJJPJ {
-        if let ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::LICHOEPBMPO(_)) = self.NCEJGDKIBHM {
+    pub fn mut_APLEGHKNFOK(&mut self) -> &mut super::HEPFIAFJAHL::HEPFIAFJAHL {
+        if let ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::APLEGHKNFOK(_)) = self.BGGBIMBKHEI {
         } else {
-            self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::LICHOEPBMPO(super::FOEHFKGJJPJ::FOEHFKGJJPJ::new()));
+            self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::APLEGHKNFOK(super::HEPFIAFJAHL::HEPFIAFJAHL::new()));
         }
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::LICHOEPBMPO(ref mut v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::APLEGHKNFOK(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_LICHOEPBMPO(&mut self) -> super::FOEHFKGJJPJ::FOEHFKGJJPJ {
-        if self.has_LICHOEPBMPO() {
-            match self.NCEJGDKIBHM.take() {
-                ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::LICHOEPBMPO(v)) => v,
+    pub fn take_APLEGHKNFOK(&mut self) -> super::HEPFIAFJAHL::HEPFIAFJAHL {
+        if self.has_APLEGHKNFOK() {
+            match self.BGGBIMBKHEI.take() {
+                ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::APLEGHKNFOK(v)) => v,
                 _ => panic!(),
             }
         } else {
-            super::FOEHFKGJJPJ::FOEHFKGJJPJ::new()
+            super::HEPFIAFJAHL::HEPFIAFJAHL::new()
         }
     }
 
-    // .GDIFLCHHJMP BJBMKDOPFLA = 995;
+    // .EEJAJMNKAMI PKCONHLNMIJ = 1540;
 
-    pub fn BJBMKDOPFLA(&self) -> &super::GDIFLCHHJMP::GDIFLCHHJMP {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::BJBMKDOPFLA(ref v)) => v,
-            _ => <super::GDIFLCHHJMP::GDIFLCHHJMP as ::protobuf::Message>::default_instance(),
+    pub fn PKCONHLNMIJ(&self) -> &super::EEJAJMNKAMI::EEJAJMNKAMI {
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PKCONHLNMIJ(ref v)) => v,
+            _ => <super::EEJAJMNKAMI::EEJAJMNKAMI as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_BJBMKDOPFLA(&mut self) {
-        self.NCEJGDKIBHM = ::std::option::Option::None;
+    pub fn clear_PKCONHLNMIJ(&mut self) {
+        self.BGGBIMBKHEI = ::std::option::Option::None;
     }
 
-    pub fn has_BJBMKDOPFLA(&self) -> bool {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::BJBMKDOPFLA(..)) => true,
+    pub fn has_PKCONHLNMIJ(&self) -> bool {
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PKCONHLNMIJ(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_BJBMKDOPFLA(&mut self, v: super::GDIFLCHHJMP::GDIFLCHHJMP) {
-        self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::BJBMKDOPFLA(v))
+    pub fn set_PKCONHLNMIJ(&mut self, v: super::EEJAJMNKAMI::EEJAJMNKAMI) {
+        self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PKCONHLNMIJ(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_BJBMKDOPFLA(&mut self) -> &mut super::GDIFLCHHJMP::GDIFLCHHJMP {
-        if let ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::BJBMKDOPFLA(_)) = self.NCEJGDKIBHM {
+    pub fn mut_PKCONHLNMIJ(&mut self) -> &mut super::EEJAJMNKAMI::EEJAJMNKAMI {
+        if let ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PKCONHLNMIJ(_)) = self.BGGBIMBKHEI {
         } else {
-            self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::BJBMKDOPFLA(super::GDIFLCHHJMP::GDIFLCHHJMP::new()));
+            self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PKCONHLNMIJ(super::EEJAJMNKAMI::EEJAJMNKAMI::new()));
         }
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::BJBMKDOPFLA(ref mut v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PKCONHLNMIJ(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_BJBMKDOPFLA(&mut self) -> super::GDIFLCHHJMP::GDIFLCHHJMP {
-        if self.has_BJBMKDOPFLA() {
-            match self.NCEJGDKIBHM.take() {
-                ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::BJBMKDOPFLA(v)) => v,
+    pub fn take_PKCONHLNMIJ(&mut self) -> super::EEJAJMNKAMI::EEJAJMNKAMI {
+        if self.has_PKCONHLNMIJ() {
+            match self.BGGBIMBKHEI.take() {
+                ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PKCONHLNMIJ(v)) => v,
                 _ => panic!(),
             }
         } else {
-            super::GDIFLCHHJMP::GDIFLCHHJMP::new()
+            super::EEJAJMNKAMI::EEJAJMNKAMI::new()
         }
     }
 
-    // .GridFightRoundBeginActionInfo round_begin_action = 253;
+    // .GridFightRoundBeginActionInfo round_begin_action = 872;
 
     pub fn round_begin_action(&self) -> &super::GridFightRoundBeginActionInfo::GridFightRoundBeginActionInfo {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RoundBeginAction(ref v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RoundBeginAction(ref v)) => v,
             _ => <super::GridFightRoundBeginActionInfo::GridFightRoundBeginActionInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_round_begin_action(&mut self) {
-        self.NCEJGDKIBHM = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
     }
 
     pub fn has_round_begin_action(&self) -> bool {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RoundBeginAction(..)) => true,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RoundBeginAction(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_round_begin_action(&mut self, v: super::GridFightRoundBeginActionInfo::GridFightRoundBeginActionInfo) {
-        self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RoundBeginAction(v))
+        self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RoundBeginAction(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_round_begin_action(&mut self) -> &mut super::GridFightRoundBeginActionInfo::GridFightRoundBeginActionInfo {
-        if let ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RoundBeginAction(_)) = self.NCEJGDKIBHM {
+        if let ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RoundBeginAction(_)) = self.BGGBIMBKHEI {
         } else {
-            self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RoundBeginAction(super::GridFightRoundBeginActionInfo::GridFightRoundBeginActionInfo::new()));
+            self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RoundBeginAction(super::GridFightRoundBeginActionInfo::GridFightRoundBeginActionInfo::new()));
         }
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RoundBeginAction(ref mut v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RoundBeginAction(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -382,8 +382,8 @@ impl GridFightPendingAction {
     // Take field
     pub fn take_round_begin_action(&mut self) -> super::GridFightRoundBeginActionInfo::GridFightRoundBeginActionInfo {
         if self.has_round_begin_action() {
-            match self.NCEJGDKIBHM.take() {
-                ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RoundBeginAction(v)) => v,
+            match self.BGGBIMBKHEI.take() {
+                ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RoundBeginAction(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -391,39 +391,39 @@ impl GridFightPendingAction {
         }
     }
 
-    // .GridFightReturnPreparationActionInfo return_preparation_action = 1587;
+    // .GridFightReturnPreparationActionInfo return_preparation_action = 38;
 
     pub fn return_preparation_action(&self) -> &super::GridFightReturnPreparationActionInfo::GridFightReturnPreparationActionInfo {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ReturnPreparationAction(ref v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ReturnPreparationAction(ref v)) => v,
             _ => <super::GridFightReturnPreparationActionInfo::GridFightReturnPreparationActionInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_return_preparation_action(&mut self) {
-        self.NCEJGDKIBHM = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
     }
 
     pub fn has_return_preparation_action(&self) -> bool {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ReturnPreparationAction(..)) => true,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ReturnPreparationAction(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_return_preparation_action(&mut self, v: super::GridFightReturnPreparationActionInfo::GridFightReturnPreparationActionInfo) {
-        self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ReturnPreparationAction(v))
+        self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ReturnPreparationAction(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_return_preparation_action(&mut self) -> &mut super::GridFightReturnPreparationActionInfo::GridFightReturnPreparationActionInfo {
-        if let ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ReturnPreparationAction(_)) = self.NCEJGDKIBHM {
+        if let ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ReturnPreparationAction(_)) = self.BGGBIMBKHEI {
         } else {
-            self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ReturnPreparationAction(super::GridFightReturnPreparationActionInfo::GridFightReturnPreparationActionInfo::new()));
+            self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ReturnPreparationAction(super::GridFightReturnPreparationActionInfo::GridFightReturnPreparationActionInfo::new()));
         }
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ReturnPreparationAction(ref mut v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ReturnPreparationAction(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -431,8 +431,8 @@ impl GridFightPendingAction {
     // Take field
     pub fn take_return_preparation_action(&mut self) -> super::GridFightReturnPreparationActionInfo::GridFightReturnPreparationActionInfo {
         if self.has_return_preparation_action() {
-            match self.NCEJGDKIBHM.take() {
-                ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ReturnPreparationAction(v)) => v,
+            match self.BGGBIMBKHEI.take() {
+                ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ReturnPreparationAction(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -440,39 +440,39 @@ impl GridFightPendingAction {
         }
     }
 
-    // .GridFightSupplyActionInfo supply_action = 1537;
+    // .GridFightSupplyActionInfo supply_action = 21;
 
     pub fn supply_action(&self) -> &super::GridFightSupplyActionInfo::GridFightSupplyActionInfo {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::SupplyAction(ref v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::SupplyAction(ref v)) => v,
             _ => <super::GridFightSupplyActionInfo::GridFightSupplyActionInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_supply_action(&mut self) {
-        self.NCEJGDKIBHM = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
     }
 
     pub fn has_supply_action(&self) -> bool {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::SupplyAction(..)) => true,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::SupplyAction(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_supply_action(&mut self, v: super::GridFightSupplyActionInfo::GridFightSupplyActionInfo) {
-        self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::SupplyAction(v))
+        self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::SupplyAction(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_supply_action(&mut self) -> &mut super::GridFightSupplyActionInfo::GridFightSupplyActionInfo {
-        if let ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::SupplyAction(_)) = self.NCEJGDKIBHM {
+        if let ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::SupplyAction(_)) = self.BGGBIMBKHEI {
         } else {
-            self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::SupplyAction(super::GridFightSupplyActionInfo::GridFightSupplyActionInfo::new()));
+            self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::SupplyAction(super::GridFightSupplyActionInfo::GridFightSupplyActionInfo::new()));
         }
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::SupplyAction(ref mut v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::SupplyAction(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -480,8 +480,8 @@ impl GridFightPendingAction {
     // Take field
     pub fn take_supply_action(&mut self) -> super::GridFightSupplyActionInfo::GridFightSupplyActionInfo {
         if self.has_supply_action() {
-            match self.NCEJGDKIBHM.take() {
-                ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::SupplyAction(v)) => v,
+            match self.BGGBIMBKHEI.take() {
+                ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::SupplyAction(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -489,39 +489,39 @@ impl GridFightPendingAction {
         }
     }
 
-    // .GridFightUpgradeEquipActionInfo upgrade_equip_action = 1497;
+    // .GridFightUpgradeEquipActionInfo upgrade_equip_action = 1063;
 
     pub fn upgrade_equip_action(&self) -> &super::GridFightUpgradeEquipActionInfo::GridFightUpgradeEquipActionInfo {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::UpgradeEquipAction(ref v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::UpgradeEquipAction(ref v)) => v,
             _ => <super::GridFightUpgradeEquipActionInfo::GridFightUpgradeEquipActionInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_upgrade_equip_action(&mut self) {
-        self.NCEJGDKIBHM = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
     }
 
     pub fn has_upgrade_equip_action(&self) -> bool {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::UpgradeEquipAction(..)) => true,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::UpgradeEquipAction(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_upgrade_equip_action(&mut self, v: super::GridFightUpgradeEquipActionInfo::GridFightUpgradeEquipActionInfo) {
-        self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::UpgradeEquipAction(v))
+        self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::UpgradeEquipAction(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_upgrade_equip_action(&mut self) -> &mut super::GridFightUpgradeEquipActionInfo::GridFightUpgradeEquipActionInfo {
-        if let ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::UpgradeEquipAction(_)) = self.NCEJGDKIBHM {
+        if let ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::UpgradeEquipAction(_)) = self.BGGBIMBKHEI {
         } else {
-            self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::UpgradeEquipAction(super::GridFightUpgradeEquipActionInfo::GridFightUpgradeEquipActionInfo::new()));
+            self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::UpgradeEquipAction(super::GridFightUpgradeEquipActionInfo::GridFightUpgradeEquipActionInfo::new()));
         }
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::UpgradeEquipAction(ref mut v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::UpgradeEquipAction(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -529,8 +529,8 @@ impl GridFightPendingAction {
     // Take field
     pub fn take_upgrade_equip_action(&mut self) -> super::GridFightUpgradeEquipActionInfo::GridFightUpgradeEquipActionInfo {
         if self.has_upgrade_equip_action() {
-            match self.NCEJGDKIBHM.take() {
-                ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::UpgradeEquipAction(v)) => v,
+            match self.BGGBIMBKHEI.take() {
+                ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::UpgradeEquipAction(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -538,39 +538,39 @@ impl GridFightPendingAction {
         }
     }
 
-    // .GridFightRecommendEquipmentActionInfo recommend_equipment_action = 838;
+    // .GridFightRecommendEquipmentActionInfo recommend_equipment_action = 980;
 
     pub fn recommend_equipment_action(&self) -> &super::GridFightRecommendEquipmentActionInfo::GridFightRecommendEquipmentActionInfo {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RecommendEquipmentAction(ref v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RecommendEquipmentAction(ref v)) => v,
             _ => <super::GridFightRecommendEquipmentActionInfo::GridFightRecommendEquipmentActionInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_recommend_equipment_action(&mut self) {
-        self.NCEJGDKIBHM = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
     }
 
     pub fn has_recommend_equipment_action(&self) -> bool {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RecommendEquipmentAction(..)) => true,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RecommendEquipmentAction(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_recommend_equipment_action(&mut self, v: super::GridFightRecommendEquipmentActionInfo::GridFightRecommendEquipmentActionInfo) {
-        self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RecommendEquipmentAction(v))
+        self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RecommendEquipmentAction(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_recommend_equipment_action(&mut self) -> &mut super::GridFightRecommendEquipmentActionInfo::GridFightRecommendEquipmentActionInfo {
-        if let ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RecommendEquipmentAction(_)) = self.NCEJGDKIBHM {
+        if let ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RecommendEquipmentAction(_)) = self.BGGBIMBKHEI {
         } else {
-            self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RecommendEquipmentAction(super::GridFightRecommendEquipmentActionInfo::GridFightRecommendEquipmentActionInfo::new()));
+            self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RecommendEquipmentAction(super::GridFightRecommendEquipmentActionInfo::GridFightRecommendEquipmentActionInfo::new()));
         }
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RecommendEquipmentAction(ref mut v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RecommendEquipmentAction(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -578,8 +578,8 @@ impl GridFightPendingAction {
     // Take field
     pub fn take_recommend_equipment_action(&mut self) -> super::GridFightRecommendEquipmentActionInfo::GridFightRecommendEquipmentActionInfo {
         if self.has_recommend_equipment_action() {
-            match self.NCEJGDKIBHM.take() {
-                ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RecommendEquipmentAction(v)) => v,
+            match self.BGGBIMBKHEI.take() {
+                ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RecommendEquipmentAction(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -587,39 +587,39 @@ impl GridFightPendingAction {
         }
     }
 
-    // .GridFightForgeRoleActionInfo forge_role_action_info = 921;
+    // .GridFightForgeRoleActionInfo forge_role_action_info = 1151;
 
     pub fn forge_role_action_info(&self) -> &super::GridFightForgeRoleActionInfo::GridFightForgeRoleActionInfo {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ForgeRoleActionInfo(ref v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ForgeRoleActionInfo(ref v)) => v,
             _ => <super::GridFightForgeRoleActionInfo::GridFightForgeRoleActionInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_forge_role_action_info(&mut self) {
-        self.NCEJGDKIBHM = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
     }
 
     pub fn has_forge_role_action_info(&self) -> bool {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ForgeRoleActionInfo(..)) => true,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ForgeRoleActionInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_forge_role_action_info(&mut self, v: super::GridFightForgeRoleActionInfo::GridFightForgeRoleActionInfo) {
-        self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ForgeRoleActionInfo(v))
+        self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ForgeRoleActionInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_forge_role_action_info(&mut self) -> &mut super::GridFightForgeRoleActionInfo::GridFightForgeRoleActionInfo {
-        if let ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ForgeRoleActionInfo(_)) = self.NCEJGDKIBHM {
+        if let ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ForgeRoleActionInfo(_)) = self.BGGBIMBKHEI {
         } else {
-            self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ForgeRoleActionInfo(super::GridFightForgeRoleActionInfo::GridFightForgeRoleActionInfo::new()));
+            self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ForgeRoleActionInfo(super::GridFightForgeRoleActionInfo::GridFightForgeRoleActionInfo::new()));
         }
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ForgeRoleActionInfo(ref mut v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ForgeRoleActionInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -627,8 +627,8 @@ impl GridFightPendingAction {
     // Take field
     pub fn take_forge_role_action_info(&mut self) -> super::GridFightForgeRoleActionInfo::GridFightForgeRoleActionInfo {
         if self.has_forge_role_action_info() {
-            match self.NCEJGDKIBHM.take() {
-                ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ForgeRoleActionInfo(v)) => v,
+            match self.BGGBIMBKHEI.take() {
+                ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ForgeRoleActionInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -636,57 +636,155 @@ impl GridFightPendingAction {
         }
     }
 
-    // .OOMIIEFOJJC JCCAAGPGKCG = 1801;
+    // .KIKMJKNHJGA DJEJJKADBCI = 164;
 
-    pub fn JCCAAGPGKCG(&self) -> &super::OOMIIEFOJJC::OOMIIEFOJJC {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::JCCAAGPGKCG(ref v)) => v,
-            _ => <super::OOMIIEFOJJC::OOMIIEFOJJC as ::protobuf::Message>::default_instance(),
+    pub fn DJEJJKADBCI(&self) -> &super::KIKMJKNHJGA::KIKMJKNHJGA {
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::DJEJJKADBCI(ref v)) => v,
+            _ => <super::KIKMJKNHJGA::KIKMJKNHJGA as ::protobuf::Message>::default_instance(),
         }
     }
 
-    pub fn clear_JCCAAGPGKCG(&mut self) {
-        self.NCEJGDKIBHM = ::std::option::Option::None;
+    pub fn clear_DJEJJKADBCI(&mut self) {
+        self.BGGBIMBKHEI = ::std::option::Option::None;
     }
 
-    pub fn has_JCCAAGPGKCG(&self) -> bool {
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::JCCAAGPGKCG(..)) => true,
+    pub fn has_DJEJJKADBCI(&self) -> bool {
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::DJEJJKADBCI(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_JCCAAGPGKCG(&mut self, v: super::OOMIIEFOJJC::OOMIIEFOJJC) {
-        self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::JCCAAGPGKCG(v))
+    pub fn set_DJEJJKADBCI(&mut self, v: super::KIKMJKNHJGA::KIKMJKNHJGA) {
+        self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::DJEJJKADBCI(v))
     }
 
     // Mutable pointer to the field.
-    pub fn mut_JCCAAGPGKCG(&mut self) -> &mut super::OOMIIEFOJJC::OOMIIEFOJJC {
-        if let ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::JCCAAGPGKCG(_)) = self.NCEJGDKIBHM {
+    pub fn mut_DJEJJKADBCI(&mut self) -> &mut super::KIKMJKNHJGA::KIKMJKNHJGA {
+        if let ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::DJEJJKADBCI(_)) = self.BGGBIMBKHEI {
         } else {
-            self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::JCCAAGPGKCG(super::OOMIIEFOJJC::OOMIIEFOJJC::new()));
+            self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::DJEJJKADBCI(super::KIKMJKNHJGA::KIKMJKNHJGA::new()));
         }
-        match self.NCEJGDKIBHM {
-            ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::JCCAAGPGKCG(ref mut v)) => v,
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::DJEJJKADBCI(ref mut v)) => v,
             _ => panic!(),
         }
     }
 
     // Take field
-    pub fn take_JCCAAGPGKCG(&mut self) -> super::OOMIIEFOJJC::OOMIIEFOJJC {
-        if self.has_JCCAAGPGKCG() {
-            match self.NCEJGDKIBHM.take() {
-                ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::JCCAAGPGKCG(v)) => v,
+    pub fn take_DJEJJKADBCI(&mut self) -> super::KIKMJKNHJGA::KIKMJKNHJGA {
+        if self.has_DJEJJKADBCI() {
+            match self.BGGBIMBKHEI.take() {
+                ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::DJEJJKADBCI(v)) => v,
                 _ => panic!(),
             }
         } else {
-            super::OOMIIEFOJJC::OOMIIEFOJJC::new()
+            super::KIKMJKNHJGA::KIKMJKNHJGA::new()
+        }
+    }
+
+    // .NJJFPLFEEFC KACDGAJHNBI = 1211;
+
+    pub fn KACDGAJHNBI(&self) -> &super::NJJFPLFEEFC::NJJFPLFEEFC {
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::KACDGAJHNBI(ref v)) => v,
+            _ => <super::NJJFPLFEEFC::NJJFPLFEEFC as ::protobuf::Message>::default_instance(),
+        }
+    }
+
+    pub fn clear_KACDGAJHNBI(&mut self) {
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+    }
+
+    pub fn has_KACDGAJHNBI(&self) -> bool {
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::KACDGAJHNBI(..)) => true,
+            _ => false,
+        }
+    }
+
+    // Param is passed by value, moved
+    pub fn set_KACDGAJHNBI(&mut self, v: super::NJJFPLFEEFC::NJJFPLFEEFC) {
+        self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::KACDGAJHNBI(v))
+    }
+
+    // Mutable pointer to the field.
+    pub fn mut_KACDGAJHNBI(&mut self) -> &mut super::NJJFPLFEEFC::NJJFPLFEEFC {
+        if let ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::KACDGAJHNBI(_)) = self.BGGBIMBKHEI {
+        } else {
+            self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::KACDGAJHNBI(super::NJJFPLFEEFC::NJJFPLFEEFC::new()));
+        }
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::KACDGAJHNBI(ref mut v)) => v,
+            _ => panic!(),
+        }
+    }
+
+    // Take field
+    pub fn take_KACDGAJHNBI(&mut self) -> super::NJJFPLFEEFC::NJJFPLFEEFC {
+        if self.has_KACDGAJHNBI() {
+            match self.BGGBIMBKHEI.take() {
+                ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::KACDGAJHNBI(v)) => v,
+                _ => panic!(),
+            }
+        } else {
+            super::NJJFPLFEEFC::NJJFPLFEEFC::new()
+        }
+    }
+
+    // .NHJCELBCFNF HPMNOGGMKKH = 284;
+
+    pub fn HPMNOGGMKKH(&self) -> &super::NHJCELBCFNF::NHJCELBCFNF {
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::HPMNOGGMKKH(ref v)) => v,
+            _ => <super::NHJCELBCFNF::NHJCELBCFNF as ::protobuf::Message>::default_instance(),
+        }
+    }
+
+    pub fn clear_HPMNOGGMKKH(&mut self) {
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+    }
+
+    pub fn has_HPMNOGGMKKH(&self) -> bool {
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::HPMNOGGMKKH(..)) => true,
+            _ => false,
+        }
+    }
+
+    // Param is passed by value, moved
+    pub fn set_HPMNOGGMKKH(&mut self, v: super::NHJCELBCFNF::NHJCELBCFNF) {
+        self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::HPMNOGGMKKH(v))
+    }
+
+    // Mutable pointer to the field.
+    pub fn mut_HPMNOGGMKKH(&mut self) -> &mut super::NHJCELBCFNF::NHJCELBCFNF {
+        if let ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::HPMNOGGMKKH(_)) = self.BGGBIMBKHEI {
+        } else {
+            self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::HPMNOGGMKKH(super::NHJCELBCFNF::NHJCELBCFNF::new()));
+        }
+        match self.BGGBIMBKHEI {
+            ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::HPMNOGGMKKH(ref mut v)) => v,
+            _ => panic!(),
+        }
+    }
+
+    // Take field
+    pub fn take_HPMNOGGMKKH(&mut self) -> super::NHJCELBCFNF::NHJCELBCFNF {
+        if self.has_HPMNOGGMKKH() {
+            match self.BGGBIMBKHEI.take() {
+                ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::HPMNOGGMKKH(v)) => v,
+                _ => panic!(),
+            }
+        } else {
+            super::NHJCELBCFNF::NHJCELBCFNF::new()
         }
     }
 
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
-        let mut fields = ::std::vec::Vec::with_capacity(14);
+        let mut fields = ::std::vec::Vec::with_capacity(16);
         let mut oneofs = ::std::vec::Vec::with_capacity(1);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "queue_position",
@@ -721,19 +819,19 @@ impl GridFightPendingAction {
             GridFightPendingAction::mut_elite_branch_action,
             GridFightPendingAction::set_elite_branch_action,
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::FOEHFKGJJPJ::FOEHFKGJJPJ>(
-            "LICHOEPBMPO",
-            GridFightPendingAction::has_LICHOEPBMPO,
-            GridFightPendingAction::LICHOEPBMPO,
-            GridFightPendingAction::mut_LICHOEPBMPO,
-            GridFightPendingAction::set_LICHOEPBMPO,
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::HEPFIAFJAHL::HEPFIAFJAHL>(
+            "APLEGHKNFOK",
+            GridFightPendingAction::has_APLEGHKNFOK,
+            GridFightPendingAction::APLEGHKNFOK,
+            GridFightPendingAction::mut_APLEGHKNFOK,
+            GridFightPendingAction::set_APLEGHKNFOK,
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::GDIFLCHHJMP::GDIFLCHHJMP>(
-            "BJBMKDOPFLA",
-            GridFightPendingAction::has_BJBMKDOPFLA,
-            GridFightPendingAction::BJBMKDOPFLA,
-            GridFightPendingAction::mut_BJBMKDOPFLA,
-            GridFightPendingAction::set_BJBMKDOPFLA,
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::EEJAJMNKAMI::EEJAJMNKAMI>(
+            "PKCONHLNMIJ",
+            GridFightPendingAction::has_PKCONHLNMIJ,
+            GridFightPendingAction::PKCONHLNMIJ,
+            GridFightPendingAction::mut_PKCONHLNMIJ,
+            GridFightPendingAction::set_PKCONHLNMIJ,
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::GridFightRoundBeginActionInfo::GridFightRoundBeginActionInfo>(
             "round_begin_action",
@@ -777,14 +875,28 @@ impl GridFightPendingAction {
             GridFightPendingAction::mut_forge_role_action_info,
             GridFightPendingAction::set_forge_role_action_info,
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::OOMIIEFOJJC::OOMIIEFOJJC>(
-            "JCCAAGPGKCG",
-            GridFightPendingAction::has_JCCAAGPGKCG,
-            GridFightPendingAction::JCCAAGPGKCG,
-            GridFightPendingAction::mut_JCCAAGPGKCG,
-            GridFightPendingAction::set_JCCAAGPGKCG,
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::KIKMJKNHJGA::KIKMJKNHJGA>(
+            "DJEJJKADBCI",
+            GridFightPendingAction::has_DJEJJKADBCI,
+            GridFightPendingAction::DJEJJKADBCI,
+            GridFightPendingAction::mut_DJEJJKADBCI,
+            GridFightPendingAction::set_DJEJJKADBCI,
         ));
-        oneofs.push(grid_fight_pending_action::NCEJGDKIBHM::generated_oneof_descriptor_data());
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::NJJFPLFEEFC::NJJFPLFEEFC>(
+            "KACDGAJHNBI",
+            GridFightPendingAction::has_KACDGAJHNBI,
+            GridFightPendingAction::KACDGAJHNBI,
+            GridFightPendingAction::mut_KACDGAJHNBI,
+            GridFightPendingAction::set_KACDGAJHNBI,
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_oneof_message_has_get_mut_set_accessor::<_, super::NHJCELBCFNF::NHJCELBCFNF>(
+            "HPMNOGGMKKH",
+            GridFightPendingAction::has_HPMNOGGMKKH,
+            GridFightPendingAction::HPMNOGGMKKH,
+            GridFightPendingAction::mut_HPMNOGGMKKH,
+            GridFightPendingAction::set_HPMNOGGMKKH,
+        ));
+        oneofs.push(grid_fight_pending_action::BGGBIMBKHEI::generated_oneof_descriptor_data());
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightPendingAction>(
             "GridFightPendingAction",
             fields,
@@ -803,47 +915,53 @@ impl ::protobuf::Message for GridFightPendingAction {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                8 => {
+                40 => {
                     self.queue_position = is.read_uint32()?;
                 },
-                11802 => {
-                    self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::PortalBuffAction(is.read_message()?));
+                14746 => {
+                    self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PortalBuffAction(is.read_message()?));
                 },
-                690 => {
-                    self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::AugmentAction(is.read_message()?));
+                3858 => {
+                    self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::AugmentAction(is.read_message()?));
                 },
-                9458 => {
-                    self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::TraitAction(is.read_message()?));
+                14402 => {
+                    self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::TraitAction(is.read_message()?));
                 },
-                13266 => {
-                    self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::EliteBranchAction(is.read_message()?));
+                15146 => {
+                    self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::EliteBranchAction(is.read_message()?));
                 },
-                6098 => {
-                    self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::LICHOEPBMPO(is.read_message()?));
+                11570 => {
+                    self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::APLEGHKNFOK(is.read_message()?));
                 },
-                7962 => {
-                    self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::BJBMKDOPFLA(is.read_message()?));
+                12322 => {
+                    self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::PKCONHLNMIJ(is.read_message()?));
                 },
-                2026 => {
-                    self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RoundBeginAction(is.read_message()?));
+                6978 => {
+                    self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RoundBeginAction(is.read_message()?));
                 },
-                12698 => {
-                    self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ReturnPreparationAction(is.read_message()?));
+                306 => {
+                    self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ReturnPreparationAction(is.read_message()?));
                 },
-                12298 => {
-                    self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::SupplyAction(is.read_message()?));
+                170 => {
+                    self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::SupplyAction(is.read_message()?));
                 },
-                11978 => {
-                    self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::UpgradeEquipAction(is.read_message()?));
+                8506 => {
+                    self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::UpgradeEquipAction(is.read_message()?));
                 },
-                6706 => {
-                    self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::RecommendEquipmentAction(is.read_message()?));
+                7842 => {
+                    self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::RecommendEquipmentAction(is.read_message()?));
                 },
-                7370 => {
-                    self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::ForgeRoleActionInfo(is.read_message()?));
+                9210 => {
+                    self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::ForgeRoleActionInfo(is.read_message()?));
                 },
-                14410 => {
-                    self.NCEJGDKIBHM = ::std::option::Option::Some(grid_fight_pending_action::NCEJGDKIBHM::JCCAAGPGKCG(is.read_message()?));
+                1314 => {
+                    self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::DJEJJKADBCI(is.read_message()?));
+                },
+                9690 => {
+                    self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::KACDGAJHNBI(is.read_message()?));
+                },
+                2274 => {
+                    self.BGGBIMBKHEI = ::std::option::Option::Some(grid_fight_pending_action::BGGBIMBKHEI::HPMNOGGMKKH(is.read_message()?));
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -858,59 +976,67 @@ impl ::protobuf::Message for GridFightPendingAction {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.queue_position != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.queue_position);
+            my_size += ::protobuf::rt::uint32_size(5, self.queue_position);
         }
-        if let ::std::option::Option::Some(ref v) = self.NCEJGDKIBHM {
+        if let ::std::option::Option::Some(ref v) = self.BGGBIMBKHEI {
             match v {
-                &grid_fight_pending_action::NCEJGDKIBHM::PortalBuffAction(ref v) => {
+                &grid_fight_pending_action::BGGBIMBKHEI::PortalBuffAction(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::AugmentAction(ref v) => {
+                &grid_fight_pending_action::BGGBIMBKHEI::AugmentAction(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::TraitAction(ref v) => {
+                &grid_fight_pending_action::BGGBIMBKHEI::TraitAction(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::EliteBranchAction(ref v) => {
+                &grid_fight_pending_action::BGGBIMBKHEI::EliteBranchAction(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::LICHOEPBMPO(ref v) => {
+                &grid_fight_pending_action::BGGBIMBKHEI::APLEGHKNFOK(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::BJBMKDOPFLA(ref v) => {
+                &grid_fight_pending_action::BGGBIMBKHEI::PKCONHLNMIJ(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::RoundBeginAction(ref v) => {
+                &grid_fight_pending_action::BGGBIMBKHEI::RoundBeginAction(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::ReturnPreparationAction(ref v) => {
+                &grid_fight_pending_action::BGGBIMBKHEI::ReturnPreparationAction(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::SupplyAction(ref v) => {
+                &grid_fight_pending_action::BGGBIMBKHEI::SupplyAction(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::UpgradeEquipAction(ref v) => {
+                &grid_fight_pending_action::BGGBIMBKHEI::UpgradeEquipAction(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::RecommendEquipmentAction(ref v) => {
+                &grid_fight_pending_action::BGGBIMBKHEI::RecommendEquipmentAction(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::ForgeRoleActionInfo(ref v) => {
+                &grid_fight_pending_action::BGGBIMBKHEI::ForgeRoleActionInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::JCCAAGPGKCG(ref v) => {
+                &grid_fight_pending_action::BGGBIMBKHEI::DJEJJKADBCI(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_pending_action::BGGBIMBKHEI::KACDGAJHNBI(ref v) => {
+                    let len = v.compute_size();
+                    my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+                },
+                &grid_fight_pending_action::BGGBIMBKHEI::HPMNOGGMKKH(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
@@ -923,48 +1049,54 @@ impl ::protobuf::Message for GridFightPendingAction {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.queue_position != 0 {
-            os.write_uint32(1, self.queue_position)?;
+            os.write_uint32(5, self.queue_position)?;
         }
-        if let ::std::option::Option::Some(ref v) = self.NCEJGDKIBHM {
+        if let ::std::option::Option::Some(ref v) = self.BGGBIMBKHEI {
             match v {
-                &grid_fight_pending_action::NCEJGDKIBHM::PortalBuffAction(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1475, v, os)?;
+                &grid_fight_pending_action::BGGBIMBKHEI::PortalBuffAction(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1843, v, os)?;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::AugmentAction(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(86, v, os)?;
+                &grid_fight_pending_action::BGGBIMBKHEI::AugmentAction(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(482, v, os)?;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::TraitAction(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1182, v, os)?;
+                &grid_fight_pending_action::BGGBIMBKHEI::TraitAction(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1800, v, os)?;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::EliteBranchAction(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1658, v, os)?;
+                &grid_fight_pending_action::BGGBIMBKHEI::EliteBranchAction(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1893, v, os)?;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::LICHOEPBMPO(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(762, v, os)?;
+                &grid_fight_pending_action::BGGBIMBKHEI::APLEGHKNFOK(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1446, v, os)?;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::BJBMKDOPFLA(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(995, v, os)?;
+                &grid_fight_pending_action::BGGBIMBKHEI::PKCONHLNMIJ(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1540, v, os)?;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::RoundBeginAction(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(253, v, os)?;
+                &grid_fight_pending_action::BGGBIMBKHEI::RoundBeginAction(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(872, v, os)?;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::ReturnPreparationAction(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1587, v, os)?;
+                &grid_fight_pending_action::BGGBIMBKHEI::ReturnPreparationAction(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(38, v, os)?;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::SupplyAction(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1537, v, os)?;
+                &grid_fight_pending_action::BGGBIMBKHEI::SupplyAction(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(21, v, os)?;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::UpgradeEquipAction(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1497, v, os)?;
+                &grid_fight_pending_action::BGGBIMBKHEI::UpgradeEquipAction(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1063, v, os)?;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::RecommendEquipmentAction(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(838, v, os)?;
+                &grid_fight_pending_action::BGGBIMBKHEI::RecommendEquipmentAction(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(980, v, os)?;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::ForgeRoleActionInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(921, v, os)?;
+                &grid_fight_pending_action::BGGBIMBKHEI::ForgeRoleActionInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1151, v, os)?;
                 },
-                &grid_fight_pending_action::NCEJGDKIBHM::JCCAAGPGKCG(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1801, v, os)?;
+                &grid_fight_pending_action::BGGBIMBKHEI::DJEJJKADBCI(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(164, v, os)?;
+                },
+                &grid_fight_pending_action::BGGBIMBKHEI::KACDGAJHNBI(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1211, v, os)?;
+                },
+                &grid_fight_pending_action::BGGBIMBKHEI::HPMNOGGMKKH(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(284, v, os)?;
                 },
             };
         }
@@ -986,26 +1118,28 @@ impl ::protobuf::Message for GridFightPendingAction {
 
     fn clear(&mut self) {
         self.queue_position = 0;
-        self.NCEJGDKIBHM = ::std::option::Option::None;
-        self.NCEJGDKIBHM = ::std::option::Option::None;
-        self.NCEJGDKIBHM = ::std::option::Option::None;
-        self.NCEJGDKIBHM = ::std::option::Option::None;
-        self.NCEJGDKIBHM = ::std::option::Option::None;
-        self.NCEJGDKIBHM = ::std::option::Option::None;
-        self.NCEJGDKIBHM = ::std::option::Option::None;
-        self.NCEJGDKIBHM = ::std::option::Option::None;
-        self.NCEJGDKIBHM = ::std::option::Option::None;
-        self.NCEJGDKIBHM = ::std::option::Option::None;
-        self.NCEJGDKIBHM = ::std::option::Option::None;
-        self.NCEJGDKIBHM = ::std::option::Option::None;
-        self.NCEJGDKIBHM = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
+        self.BGGBIMBKHEI = ::std::option::Option::None;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightPendingAction {
         static instance: GridFightPendingAction = GridFightPendingAction {
             queue_position: 0,
-            NCEJGDKIBHM: ::std::option::Option::None,
+            BGGBIMBKHEI: ::std::option::Option::None,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -1034,8 +1168,8 @@ pub mod grid_fight_pending_action {
 
     #[derive(Clone,PartialEq,Debug)]
     #[non_exhaustive]
-    // @@protoc_insertion_point(oneof:GridFightPendingAction.NCEJGDKIBHM)
-    pub enum NCEJGDKIBHM {
+    // @@protoc_insertion_point(oneof:GridFightPendingAction.BGGBIMBKHEI)
+    pub enum BGGBIMBKHEI {
         // @@protoc_insertion_point(oneof_field:GridFightPendingAction.portal_buff_action)
         PortalBuffAction(super::super::GridFightPortalBuffActionInfo::GridFightPortalBuffActionInfo),
         // @@protoc_insertion_point(oneof_field:GridFightPendingAction.augment_action)
@@ -1044,10 +1178,10 @@ pub mod grid_fight_pending_action {
         TraitAction(super::super::GridFightTraitActionInfo::GridFightTraitActionInfo),
         // @@protoc_insertion_point(oneof_field:GridFightPendingAction.elite_branch_action)
         EliteBranchAction(super::super::GridFightEliteBranchActionInfo::GridFightEliteBranchActionInfo),
-        // @@protoc_insertion_point(oneof_field:GridFightPendingAction.LICHOEPBMPO)
-        LICHOEPBMPO(super::super::FOEHFKGJJPJ::FOEHFKGJJPJ),
-        // @@protoc_insertion_point(oneof_field:GridFightPendingAction.BJBMKDOPFLA)
-        BJBMKDOPFLA(super::super::GDIFLCHHJMP::GDIFLCHHJMP),
+        // @@protoc_insertion_point(oneof_field:GridFightPendingAction.APLEGHKNFOK)
+        APLEGHKNFOK(super::super::HEPFIAFJAHL::HEPFIAFJAHL),
+        // @@protoc_insertion_point(oneof_field:GridFightPendingAction.PKCONHLNMIJ)
+        PKCONHLNMIJ(super::super::EEJAJMNKAMI::EEJAJMNKAMI),
         // @@protoc_insertion_point(oneof_field:GridFightPendingAction.round_begin_action)
         RoundBeginAction(super::super::GridFightRoundBeginActionInfo::GridFightRoundBeginActionInfo),
         // @@protoc_insertion_point(oneof_field:GridFightPendingAction.return_preparation_action)
@@ -1060,57 +1194,64 @@ pub mod grid_fight_pending_action {
         RecommendEquipmentAction(super::super::GridFightRecommendEquipmentActionInfo::GridFightRecommendEquipmentActionInfo),
         // @@protoc_insertion_point(oneof_field:GridFightPendingAction.forge_role_action_info)
         ForgeRoleActionInfo(super::super::GridFightForgeRoleActionInfo::GridFightForgeRoleActionInfo),
-        // @@protoc_insertion_point(oneof_field:GridFightPendingAction.JCCAAGPGKCG)
-        JCCAAGPGKCG(super::super::OOMIIEFOJJC::OOMIIEFOJJC),
+        // @@protoc_insertion_point(oneof_field:GridFightPendingAction.DJEJJKADBCI)
+        DJEJJKADBCI(super::super::KIKMJKNHJGA::KIKMJKNHJGA),
+        // @@protoc_insertion_point(oneof_field:GridFightPendingAction.KACDGAJHNBI)
+        KACDGAJHNBI(super::super::NJJFPLFEEFC::NJJFPLFEEFC),
+        // @@protoc_insertion_point(oneof_field:GridFightPendingAction.HPMNOGGMKKH)
+        HPMNOGGMKKH(super::super::NHJCELBCFNF::NHJCELBCFNF),
     }
 
-    impl ::protobuf::Oneof for NCEJGDKIBHM {
+    impl ::protobuf::Oneof for BGGBIMBKHEI {
     }
 
-    impl ::protobuf::OneofFull for NCEJGDKIBHM {
+    impl ::protobuf::OneofFull for BGGBIMBKHEI {
         fn descriptor() -> ::protobuf::reflect::OneofDescriptor {
             static descriptor: ::protobuf::rt::Lazy<::protobuf::reflect::OneofDescriptor> = ::protobuf::rt::Lazy::new();
-            descriptor.get(|| <super::GridFightPendingAction as ::protobuf::MessageFull>::descriptor().oneof_by_name("NCEJGDKIBHM").unwrap()).clone()
+            descriptor.get(|| <super::GridFightPendingAction as ::protobuf::MessageFull>::descriptor().oneof_by_name("BGGBIMBKHEI").unwrap()).clone()
         }
     }
 
-    impl NCEJGDKIBHM {
+    impl BGGBIMBKHEI {
         pub(in super) fn generated_oneof_descriptor_data() -> ::protobuf::reflect::GeneratedOneofDescriptorData {
-            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<NCEJGDKIBHM>("NCEJGDKIBHM")
+            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<BGGBIMBKHEI>("BGGBIMBKHEI")
         }
     }
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1cGridFightPendingAction.proto\x1a\x11FOEHFKGJJPJ.proto\x1a\x11GDIFL\
-    CHHJMP.proto\x1a\x20GridFightAugmentActionInfo.proto\x1a$GridFightEliteB\
-    ranchActionInfo.proto\x1a\"GridFightForgeRoleActionInfo.proto\x1a#GridFi\
-    ghtPortalBuffActionInfo.proto\x1a+GridFightRecommendEquipmentActionInfo.\
-    proto\x1a*GridFightReturnPreparationActionInfo.proto\x1a#GridFightRoundB\
-    eginActionInfo.proto\x1a\x1fGridFightSupplyActionInfo.proto\x1a\x1eGridF\
-    ightTraitActionInfo.proto\x1a%GridFightUpgradeEquipActionInfo.proto\x1a\
-    \x11OOMIIEFOJJC.proto\"\xa5\x08\n\x16GridFightPendingAction\x12%\n\x0equ\
-    eue_position\x18\x01\x20\x01(\rR\rqueuePosition\x12O\n\x12portal_buff_ac\
-    tion\x18\xc3\x0b\x20\x01(\x0b2\x1e.GridFightPortalBuffActionInfoH\0R\x10\
-    portalBuffAction\x12D\n\x0eaugment_action\x18V\x20\x01(\x0b2\x1b.GridFig\
-    htAugmentActionInfoH\0R\raugmentAction\x12?\n\x0ctrait_action\x18\x9e\t\
-    \x20\x01(\x0b2\x19.GridFightTraitActionInfoH\0R\x0btraitAction\x12R\n\
-    \x13elite_branch_action\x18\xfa\x0c\x20\x01(\x0b2\x1f.GridFightEliteBran\
-    chActionInfoH\0R\x11eliteBranchAction\x121\n\x0bLICHOEPBMPO\x18\xfa\x05\
-    \x20\x01(\x0b2\x0c.FOEHFKGJJPJH\0R\x0bLICHOEPBMPO\x121\n\x0bBJBMKDOPFLA\
-    \x18\xe3\x07\x20\x01(\x0b2\x0c.GDIFLCHHJMPH\0R\x0bBJBMKDOPFLA\x12O\n\x12\
-    round_begin_action\x18\xfd\x01\x20\x01(\x0b2\x1e.GridFightRoundBeginActi\
-    onInfoH\0R\x10roundBeginAction\x12d\n\x19return_preparation_action\x18\
-    \xb3\x0c\x20\x01(\x0b2%.GridFightReturnPreparationActionInfoH\0R\x17retu\
-    rnPreparationAction\x12B\n\rsupply_action\x18\x81\x0c\x20\x01(\x0b2\x1a.\
-    GridFightSupplyActionInfoH\0R\x0csupplyAction\x12U\n\x14upgrade_equip_ac\
-    tion\x18\xd9\x0b\x20\x01(\x0b2\x20.GridFightUpgradeEquipActionInfoH\0R\
-    \x12upgradeEquipAction\x12g\n\x1arecommend_equipment_action\x18\xc6\x06\
-    \x20\x01(\x0b2&.GridFightRecommendEquipmentActionInfoH\0R\x18recommendEq\
-    uipmentAction\x12U\n\x16forge_role_action_info\x18\x99\x07\x20\x01(\x0b2\
-    \x1d.GridFightForgeRoleActionInfoH\0R\x13forgeRoleActionInfo\x121\n\x0bJ\
-    CCAAGPGKCG\x18\x89\x0e\x20\x01(\x0b2\x0c.OOMIIEFOJJCH\0R\x0bJCCAAGPGKCGB\
-    \r\n\x0bNCEJGDKIBHMb\x06proto3\
+    \n\x1cGridFightPendingAction.proto\x1a\x11EEJAJMNKAMI.proto\x1a\x20GridF\
+    ightAugmentActionInfo.proto\x1a$GridFightEliteBranchActionInfo.proto\x1a\
+    \"GridFightForgeRoleActionInfo.proto\x1a#GridFightPortalBuffActionInfo.p\
+    roto\x1a+GridFightRecommendEquipmentActionInfo.proto\x1a*GridFightReturn\
+    PreparationActionInfo.proto\x1a#GridFightRoundBeginActionInfo.proto\x1a\
+    \x1fGridFightSupplyActionInfo.proto\x1a\x1eGridFightTraitActionInfo.prot\
+    o\x1a%GridFightUpgradeEquipActionInfo.proto\x1a\x11HEPFIAFJAHL.proto\x1a\
+    \x11KIKMJKNHJGA.proto\x1a\x11NHJCELBCFNF.proto\x1a\x11NJJFPLFEEFC.proto\
+    \"\x8a\t\n\x16GridFightPendingAction\x12%\n\x0equeue_position\x18\x05\
+    \x20\x01(\rR\rqueuePosition\x12O\n\x12portal_buff_action\x18\xb3\x0e\x20\
+    \x01(\x0b2\x1e.GridFightPortalBuffActionInfoH\0R\x10portalBuffAction\x12\
+    E\n\x0eaugment_action\x18\xe2\x03\x20\x01(\x0b2\x1b.GridFightAugmentActi\
+    onInfoH\0R\raugmentAction\x12?\n\x0ctrait_action\x18\x88\x0e\x20\x01(\
+    \x0b2\x19.GridFightTraitActionInfoH\0R\x0btraitAction\x12R\n\x13elite_br\
+    anch_action\x18\xe5\x0e\x20\x01(\x0b2\x1f.GridFightEliteBranchActionInfo\
+    H\0R\x11eliteBranchAction\x121\n\x0bAPLEGHKNFOK\x18\xa6\x0b\x20\x01(\x0b\
+    2\x0c.HEPFIAFJAHLH\0R\x0bAPLEGHKNFOK\x121\n\x0bPKCONHLNMIJ\x18\x84\x0c\
+    \x20\x01(\x0b2\x0c.EEJAJMNKAMIH\0R\x0bPKCONHLNMIJ\x12O\n\x12round_begin_\
+    action\x18\xe8\x06\x20\x01(\x0b2\x1e.GridFightRoundBeginActionInfoH\0R\
+    \x10roundBeginAction\x12c\n\x19return_preparation_action\x18&\x20\x01(\
+    \x0b2%.GridFightReturnPreparationActionInfoH\0R\x17returnPreparationActi\
+    on\x12A\n\rsupply_action\x18\x15\x20\x01(\x0b2\x1a.GridFightSupplyAction\
+    InfoH\0R\x0csupplyAction\x12U\n\x14upgrade_equip_action\x18\xa7\x08\x20\
+    \x01(\x0b2\x20.GridFightUpgradeEquipActionInfoH\0R\x12upgradeEquipAction\
+    \x12g\n\x1arecommend_equipment_action\x18\xd4\x07\x20\x01(\x0b2&.GridFig\
+    htRecommendEquipmentActionInfoH\0R\x18recommendEquipmentAction\x12U\n\
+    \x16forge_role_action_info\x18\xff\x08\x20\x01(\x0b2\x1d.GridFightForgeR\
+    oleActionInfoH\0R\x13forgeRoleActionInfo\x121\n\x0bDJEJJKADBCI\x18\xa4\
+    \x01\x20\x01(\x0b2\x0c.KIKMJKNHJGAH\0R\x0bDJEJJKADBCI\x121\n\x0bKACDGAJH\
+    NBI\x18\xbb\t\x20\x01(\x0b2\x0c.NJJFPLFEEFCH\0R\x0bKACDGAJHNBI\x121\n\
+    \x0bHPMNOGGMKKH\x18\x9c\x02\x20\x01(\x0b2\x0c.NHJCELBCFNFH\0R\x0bHPMNOGG\
+    MKKHB\r\n\x0bBGGBIMBKHEIb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -1127,9 +1268,8 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     static file_descriptor: ::protobuf::rt::Lazy<::protobuf::reflect::FileDescriptor> = ::protobuf::rt::Lazy::new();
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
-            let mut deps = ::std::vec::Vec::with_capacity(13);
-            deps.push(super::FOEHFKGJJPJ::file_descriptor().clone());
-            deps.push(super::GDIFLCHHJMP::file_descriptor().clone());
+            let mut deps = ::std::vec::Vec::with_capacity(15);
+            deps.push(super::EEJAJMNKAMI::file_descriptor().clone());
             deps.push(super::GridFightAugmentActionInfo::file_descriptor().clone());
             deps.push(super::GridFightEliteBranchActionInfo::file_descriptor().clone());
             deps.push(super::GridFightForgeRoleActionInfo::file_descriptor().clone());
@@ -1140,7 +1280,10 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
             deps.push(super::GridFightSupplyActionInfo::file_descriptor().clone());
             deps.push(super::GridFightTraitActionInfo::file_descriptor().clone());
             deps.push(super::GridFightUpgradeEquipActionInfo::file_descriptor().clone());
-            deps.push(super::OOMIIEFOJJC::file_descriptor().clone());
+            deps.push(super::HEPFIAFJAHL::file_descriptor().clone());
+            deps.push(super::KIKMJKNHJGA::file_descriptor().clone());
+            deps.push(super::NHJCELBCFNF::file_descriptor().clone());
+            deps.push(super::NJJFPLFEEFC::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GridFightPendingAction::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

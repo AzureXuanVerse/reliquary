@@ -32,8 +32,8 @@ pub struct TravelBrochureSelectMessageScRsp {
     pub reward: ::protobuf::MessageField<super::ItemList::ItemList>,
     // @@protoc_insertion_point(field:TravelBrochureSelectMessageScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:TravelBrochureSelectMessageScRsp.ADBMMEEPGIE)
-    pub ADBMMEEPGIE: ::protobuf::MessageField<super::OIPOKOPAMPH::OIPOKOPAMPH>,
+    // @@protoc_insertion_point(field:TravelBrochureSelectMessageScRsp.MHMDIDKNCIH)
+    pub MHMDIDKNCIH: ::protobuf::MessageField<super::PBPIOFGODHC::PBPIOFGODHC>,
     // special fields
     // @@protoc_insertion_point(special_field:TravelBrochureSelectMessageScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -63,10 +63,10 @@ impl TravelBrochureSelectMessageScRsp {
             |m: &TravelBrochureSelectMessageScRsp| { &m.retcode },
             |m: &mut TravelBrochureSelectMessageScRsp| { &mut m.retcode },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::OIPOKOPAMPH::OIPOKOPAMPH>(
-            "ADBMMEEPGIE",
-            |m: &TravelBrochureSelectMessageScRsp| { &m.ADBMMEEPGIE },
-            |m: &mut TravelBrochureSelectMessageScRsp| { &mut m.ADBMMEEPGIE },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::PBPIOFGODHC::PBPIOFGODHC>(
+            "MHMDIDKNCIH",
+            |m: &TravelBrochureSelectMessageScRsp| { &m.MHMDIDKNCIH },
+            |m: &mut TravelBrochureSelectMessageScRsp| { &mut m.MHMDIDKNCIH },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<TravelBrochureSelectMessageScRsp>(
             "TravelBrochureSelectMessageScRsp",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for TravelBrochureSelectMessageScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                50 => {
+                10 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.reward)?;
                 },
-                24 => {
+                16 => {
                     self.retcode = is.read_uint32()?;
                 },
-                18 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.ADBMMEEPGIE)?;
+                74 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.MHMDIDKNCIH)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -112,9 +112,9 @@ impl ::protobuf::Message for TravelBrochureSelectMessageScRsp {
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(2, self.retcode);
         }
-        if let Some(v) = self.ADBMMEEPGIE.as_ref() {
+        if let Some(v) = self.MHMDIDKNCIH.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -125,13 +125,13 @@ impl ::protobuf::Message for TravelBrochureSelectMessageScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if let Some(v) = self.reward.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(3, self.retcode)?;
+            os.write_uint32(2, self.retcode)?;
         }
-        if let Some(v) = self.ADBMMEEPGIE.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
+        if let Some(v) = self.MHMDIDKNCIH.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -152,7 +152,7 @@ impl ::protobuf::Message for TravelBrochureSelectMessageScRsp {
     fn clear(&mut self) {
         self.reward.clear();
         self.retcode = 0;
-        self.ADBMMEEPGIE.clear();
+        self.MHMDIDKNCIH.clear();
         self.special_fields.clear();
     }
 
@@ -160,7 +160,7 @@ impl ::protobuf::Message for TravelBrochureSelectMessageScRsp {
         static instance: TravelBrochureSelectMessageScRsp = TravelBrochureSelectMessageScRsp {
             reward: ::protobuf::MessageField::none(),
             retcode: 0,
-            ADBMMEEPGIE: ::protobuf::MessageField::none(),
+            MHMDIDKNCIH: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -185,11 +185,11 @@ impl ::protobuf::reflect::ProtobufValue for TravelBrochureSelectMessageScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n&TravelBrochureSelectMessageScRsp.proto\x1a\x0eItemList.proto\x1a\x11O\
-    IPOKOPAMPH.proto\"\x8f\x01\n\x20TravelBrochureSelectMessageScRsp\x12!\n\
-    \x06reward\x18\x06\x20\x01(\x0b2\t.ItemListR\x06reward\x12\x18\n\x07retc\
-    ode\x18\x03\x20\x01(\rR\x07retcode\x12.\n\x0bADBMMEEPGIE\x18\x02\x20\x01\
-    (\x0b2\x0c.OIPOKOPAMPHR\x0bADBMMEEPGIEb\x06proto3\
+    \n&TravelBrochureSelectMessageScRsp.proto\x1a\x0eItemList.proto\x1a\x11P\
+    BPIOFGODHC.proto\"\x8f\x01\n\x20TravelBrochureSelectMessageScRsp\x12!\n\
+    \x06reward\x18\x01\x20\x01(\x0b2\t.ItemListR\x06reward\x12\x18\n\x07retc\
+    ode\x18\x02\x20\x01(\rR\x07retcode\x12.\n\x0bMHMDIDKNCIH\x18\t\x20\x01(\
+    \x0b2\x0c.PBPIOFGODHCR\x0bMHMDIDKNCIHb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -208,7 +208,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
             deps.push(super::ItemList::file_descriptor().clone());
-            deps.push(super::OIPOKOPAMPH::file_descriptor().clone());
+            deps.push(super::PBPIOFGODHC::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(TravelBrochureSelectMessageScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

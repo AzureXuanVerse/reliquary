@@ -28,6 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightGameTraitInfo {
     // message fields
+    // @@protoc_insertion_point(field:GridFightGameTraitInfo.ALIDDLBDPDH)
+    pub ALIDDLBDPDH: ::std::vec::Vec<super::ELEOGABGBKG::ELEOGABGBKG>,
     // @@protoc_insertion_point(field:GridFightGameTraitInfo.grid_fight_trait_info)
     pub grid_fight_trait_info: ::std::vec::Vec<super::GridGameTraitInfo::GridGameTraitInfo>,
     // special fields
@@ -47,8 +49,13 @@ impl GridFightGameTraitInfo {
     }
 
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
-        let mut fields = ::std::vec::Vec::with_capacity(1);
+        let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "ALIDDLBDPDH",
+            |m: &GridFightGameTraitInfo| { &m.ALIDDLBDPDH },
+            |m: &mut GridFightGameTraitInfo| { &mut m.ALIDDLBDPDH },
+        ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "grid_fight_trait_info",
             |m: &GridFightGameTraitInfo| { &m.grid_fight_trait_info },
@@ -73,6 +80,9 @@ impl ::protobuf::Message for GridFightGameTraitInfo {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
                 106 => {
+                    self.ALIDDLBDPDH.push(is.read_message()?);
+                },
+                42 => {
                     self.grid_fight_trait_info.push(is.read_message()?);
                 },
                 tag => {
@@ -87,6 +97,10 @@ impl ::protobuf::Message for GridFightGameTraitInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
+        for value in &self.ALIDDLBDPDH {
+            let len = value.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        };
         for value in &self.grid_fight_trait_info {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
@@ -97,8 +111,11 @@ impl ::protobuf::Message for GridFightGameTraitInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.grid_fight_trait_info {
+        for v in &self.ALIDDLBDPDH {
             ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
+        };
+        for v in &self.grid_fight_trait_info {
+            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
         };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -117,12 +134,14 @@ impl ::protobuf::Message for GridFightGameTraitInfo {
     }
 
     fn clear(&mut self) {
+        self.ALIDDLBDPDH.clear();
         self.grid_fight_trait_info.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightGameTraitInfo {
         static instance: GridFightGameTraitInfo = GridFightGameTraitInfo {
+            ALIDDLBDPDH: ::std::vec::Vec::new(),
             grid_fight_trait_info: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -148,9 +167,11 @@ impl ::protobuf::reflect::ProtobufValue for GridFightGameTraitInfo {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1cGridFightGameTraitInfo.proto\x1a\x17GridGameTraitInfo.proto\"_\n\
-    \x16GridFightGameTraitInfo\x12E\n\x15grid_fight_trait_info\x18\r\x20\x03\
-    (\x0b2\x12.GridGameTraitInfoR\x12gridFightTraitInfob\x06proto3\
+    \n\x1cGridFightGameTraitInfo.proto\x1a\x11ELEOGABGBKG.proto\x1a\x17GridG\
+    ameTraitInfo.proto\"\x8f\x01\n\x16GridFightGameTraitInfo\x12.\n\x0bALIDD\
+    LBDPDH\x18\r\x20\x03(\x0b2\x0c.ELEOGABGBKGR\x0bALIDDLBDPDH\x12E\n\x15gri\
+    d_fight_trait_info\x18\x05\x20\x03(\x0b2\x12.GridGameTraitInfoR\x12gridF\
+    ightTraitInfob\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -167,7 +188,8 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     static file_descriptor: ::protobuf::rt::Lazy<::protobuf::reflect::FileDescriptor> = ::protobuf::rt::Lazy::new();
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
-            let mut deps = ::std::vec::Vec::with_capacity(1);
+            let mut deps = ::std::vec::Vec::with_capacity(2);
+            deps.push(super::ELEOGABGBKG::file_descriptor().clone());
             deps.push(super::GridGameTraitInfo::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GridFightGameTraitInfo::generated_message_descriptor_data());

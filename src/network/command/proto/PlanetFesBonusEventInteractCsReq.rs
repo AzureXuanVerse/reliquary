@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct PlanetFesBonusEventInteractCsReq {
     // message fields
-    // @@protoc_insertion_point(field:PlanetFesBonusEventInteractCsReq.MMFFIIFMKPB)
-    pub MMFFIIFMKPB: u32,
-    // @@protoc_insertion_point(field:PlanetFesBonusEventInteractCsReq.JNOHCLBODOA)
-    pub JNOHCLBODOA: u32,
+    // @@protoc_insertion_point(field:PlanetFesBonusEventInteractCsReq.PHKAHAHLDAE)
+    pub PHKAHAHLDAE: u32,
+    // @@protoc_insertion_point(field:PlanetFesBonusEventInteractCsReq.BFMAOIDEJCD)
+    pub BFMAOIDEJCD: u32,
     // special fields
     // @@protoc_insertion_point(special_field:PlanetFesBonusEventInteractCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl PlanetFesBonusEventInteractCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MMFFIIFMKPB",
-            |m: &PlanetFesBonusEventInteractCsReq| { &m.MMFFIIFMKPB },
-            |m: &mut PlanetFesBonusEventInteractCsReq| { &mut m.MMFFIIFMKPB },
+            "PHKAHAHLDAE",
+            |m: &PlanetFesBonusEventInteractCsReq| { &m.PHKAHAHLDAE },
+            |m: &mut PlanetFesBonusEventInteractCsReq| { &mut m.PHKAHAHLDAE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "JNOHCLBODOA",
-            |m: &PlanetFesBonusEventInteractCsReq| { &m.JNOHCLBODOA },
-            |m: &mut PlanetFesBonusEventInteractCsReq| { &mut m.JNOHCLBODOA },
+            "BFMAOIDEJCD",
+            |m: &PlanetFesBonusEventInteractCsReq| { &m.BFMAOIDEJCD },
+            |m: &mut PlanetFesBonusEventInteractCsReq| { &mut m.BFMAOIDEJCD },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<PlanetFesBonusEventInteractCsReq>(
             "PlanetFesBonusEventInteractCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for PlanetFesBonusEventInteractCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                16 => {
-                    self.MMFFIIFMKPB = is.read_uint32()?;
-                },
                 120 => {
-                    self.JNOHCLBODOA = is.read_uint32()?;
+                    self.PHKAHAHLDAE = is.read_uint32()?;
+                },
+                40 => {
+                    self.BFMAOIDEJCD = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for PlanetFesBonusEventInteractCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.MMFFIIFMKPB != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.MMFFIIFMKPB);
+        if self.PHKAHAHLDAE != 0 {
+            my_size += ::protobuf::rt::uint32_size(15, self.PHKAHAHLDAE);
         }
-        if self.JNOHCLBODOA != 0 {
-            my_size += ::protobuf::rt::uint32_size(15, self.JNOHCLBODOA);
+        if self.BFMAOIDEJCD != 0 {
+            my_size += ::protobuf::rt::uint32_size(5, self.BFMAOIDEJCD);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -109,11 +109,11 @@ impl ::protobuf::Message for PlanetFesBonusEventInteractCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.MMFFIIFMKPB != 0 {
-            os.write_uint32(2, self.MMFFIIFMKPB)?;
+        if self.PHKAHAHLDAE != 0 {
+            os.write_uint32(15, self.PHKAHAHLDAE)?;
         }
-        if self.JNOHCLBODOA != 0 {
-            os.write_uint32(15, self.JNOHCLBODOA)?;
+        if self.BFMAOIDEJCD != 0 {
+            os.write_uint32(5, self.BFMAOIDEJCD)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -132,15 +132,15 @@ impl ::protobuf::Message for PlanetFesBonusEventInteractCsReq {
     }
 
     fn clear(&mut self) {
-        self.MMFFIIFMKPB = 0;
-        self.JNOHCLBODOA = 0;
+        self.PHKAHAHLDAE = 0;
+        self.BFMAOIDEJCD = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static PlanetFesBonusEventInteractCsReq {
         static instance: PlanetFesBonusEventInteractCsReq = PlanetFesBonusEventInteractCsReq {
-            MMFFIIFMKPB: 0,
-            JNOHCLBODOA: 0,
+            PHKAHAHLDAE: 0,
+            BFMAOIDEJCD: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for PlanetFesBonusEventInteractCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n&PlanetFesBonusEventInteractCsReq.proto\"f\n\x20PlanetFesBonusEventInt\
-    eractCsReq\x12\x20\n\x0bMMFFIIFMKPB\x18\x02\x20\x01(\rR\x0bMMFFIIFMKPB\
-    \x12\x20\n\x0bJNOHCLBODOA\x18\x0f\x20\x01(\rR\x0bJNOHCLBODOAb\x06proto3\
+    eractCsReq\x12\x20\n\x0bPHKAHAHLDAE\x18\x0f\x20\x01(\rR\x0bPHKAHAHLDAE\
+    \x12\x20\n\x0bBFMAOIDEJCD\x18\x05\x20\x01(\rR\x0bBFMAOIDEJCDb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct SendMsgCsReq {
     // message fields
-    // @@protoc_insertion_point(field:SendMsgCsReq.chat_type)
-    pub chat_type: ::protobuf::EnumOrUnknown<super::ChatType::ChatType>,
     // @@protoc_insertion_point(field:SendMsgCsReq.target_list)
     pub target_list: ::std::vec::Vec<u32>,
     // @@protoc_insertion_point(field:SendMsgCsReq.message_datas)
     pub message_datas: ::protobuf::MessageField<super::MessageChatData::MessageChatData>,
+    // @@protoc_insertion_point(field:SendMsgCsReq.chat_type)
+    pub chat_type: ::protobuf::EnumOrUnknown<super::ChatType::ChatType>,
     // special fields
     // @@protoc_insertion_point(special_field:SendMsgCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -53,11 +53,6 @@ impl SendMsgCsReq {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "chat_type",
-            |m: &SendMsgCsReq| { &m.chat_type },
-            |m: &mut SendMsgCsReq| { &mut m.chat_type },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "target_list",
             |m: &SendMsgCsReq| { &m.target_list },
@@ -67,6 +62,11 @@ impl SendMsgCsReq {
             "message_datas",
             |m: &SendMsgCsReq| { &m.message_datas },
             |m: &mut SendMsgCsReq| { &mut m.message_datas },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "chat_type",
+            |m: &SendMsgCsReq| { &m.chat_type },
+            |m: &mut SendMsgCsReq| { &mut m.chat_type },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<SendMsgCsReq>(
             "SendMsgCsReq",
@@ -86,17 +86,17 @@ impl ::protobuf::Message for SendMsgCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                40 => {
-                    self.chat_type = is.read_enum_or_unknown()?;
-                },
-                18 => {
+                74 => {
                     is.read_repeated_packed_uint32_into(&mut self.target_list)?;
                 },
-                16 => {
+                72 => {
                     self.target_list.push(is.read_uint32()?);
                 },
-                98 => {
+                66 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.message_datas)?;
+                },
+                104 => {
+                    self.chat_type = is.read_enum_or_unknown()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -110,13 +110,13 @@ impl ::protobuf::Message for SendMsgCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.chat_type != ::protobuf::EnumOrUnknown::new(super::ChatType::ChatType::CHAT_TYPE_NONE) {
-            my_size += ::protobuf::rt::int32_size(5, self.chat_type.value());
-        }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(2, &self.target_list);
+        my_size += ::protobuf::rt::vec_packed_uint32_size(9, &self.target_list);
         if let Some(v) = self.message_datas.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if self.chat_type != ::protobuf::EnumOrUnknown::new(super::ChatType::ChatType::CHAT_TYPE_NONE) {
+            my_size += ::protobuf::rt::int32_size(13, self.chat_type.value());
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -124,12 +124,12 @@ impl ::protobuf::Message for SendMsgCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.chat_type != ::protobuf::EnumOrUnknown::new(super::ChatType::ChatType::CHAT_TYPE_NONE) {
-            os.write_enum(5, ::protobuf::EnumOrUnknown::value(&self.chat_type))?;
-        }
-        os.write_repeated_packed_uint32(2, &self.target_list)?;
+        os.write_repeated_packed_uint32(9, &self.target_list)?;
         if let Some(v) = self.message_datas.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+        }
+        if self.chat_type != ::protobuf::EnumOrUnknown::new(super::ChatType::ChatType::CHAT_TYPE_NONE) {
+            os.write_enum(13, ::protobuf::EnumOrUnknown::value(&self.chat_type))?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -148,17 +148,17 @@ impl ::protobuf::Message for SendMsgCsReq {
     }
 
     fn clear(&mut self) {
-        self.chat_type = ::protobuf::EnumOrUnknown::new(super::ChatType::ChatType::CHAT_TYPE_NONE);
         self.target_list.clear();
         self.message_datas.clear();
+        self.chat_type = ::protobuf::EnumOrUnknown::new(super::ChatType::ChatType::CHAT_TYPE_NONE);
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static SendMsgCsReq {
         static instance: SendMsgCsReq = SendMsgCsReq {
-            chat_type: ::protobuf::EnumOrUnknown::from_i32(0),
             target_list: ::std::vec::Vec::new(),
             message_datas: ::protobuf::MessageField::none(),
+            chat_type: ::protobuf::EnumOrUnknown::from_i32(0),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -184,10 +184,10 @@ impl ::protobuf::reflect::ProtobufValue for SendMsgCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x12SendMsgCsReq.proto\x1a\x0eChatType.proto\x1a\x15MessageChatData.pr\
-    oto\"\x8e\x01\n\x0cSendMsgCsReq\x12&\n\tchat_type\x18\x05\x20\x01(\x0e2\
-    \t.ChatTypeR\x08chatType\x12\x1f\n\x0btarget_list\x18\x02\x20\x03(\rR\nt\
-    argetList\x125\n\rmessage_datas\x18\x0c\x20\x01(\x0b2\x10.MessageChatDat\
-    aR\x0cmessageDatasb\x06proto3\
+    oto\"\x8e\x01\n\x0cSendMsgCsReq\x12\x1f\n\x0btarget_list\x18\t\x20\x03(\
+    \rR\ntargetList\x125\n\rmessage_datas\x18\x08\x20\x01(\x0b2\x10.MessageC\
+    hatDataR\x0cmessageDatas\x12&\n\tchat_type\x18\r\x20\x01(\x0e2\t.ChatTyp\
+    eR\x08chatTypeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

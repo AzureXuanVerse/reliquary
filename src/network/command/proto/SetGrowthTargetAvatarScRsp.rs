@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct SetGrowthTargetAvatarScRsp {
     // message fields
-    // @@protoc_insertion_point(field:SetGrowthTargetAvatarScRsp.PDABLJKHMBO)
-    pub PDABLJKHMBO: u32,
-    // @@protoc_insertion_point(field:SetGrowthTargetAvatarScRsp.growth_target_type_list)
-    pub growth_target_type_list: ::std::vec::Vec<::protobuf::EnumOrUnknown<super::GrowthTargetFunctionType::GrowthTargetFunctionType>>,
+    // @@protoc_insertion_point(field:SetGrowthTargetAvatarScRsp.DHAIJLJCJAF)
+    pub DHAIJLJCJAF: ::std::vec::Vec<::protobuf::EnumOrUnknown<super::KFLKNDHJILI::KFLKNDHJILI>>,
+    // @@protoc_insertion_point(field:SetGrowthTargetAvatarScRsp.MMOPCKLPHIO)
+    pub MMOPCKLPHIO: u32,
     // @@protoc_insertion_point(field:SetGrowthTargetAvatarScRsp.growth_avatar_id)
     pub growth_avatar_id: u32,
     // @@protoc_insertion_point(field:SetGrowthTargetAvatarScRsp.retcode)
@@ -55,15 +55,15 @@ impl SetGrowthTargetAvatarScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(4);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "PDABLJKHMBO",
-            |m: &SetGrowthTargetAvatarScRsp| { &m.PDABLJKHMBO },
-            |m: &mut SetGrowthTargetAvatarScRsp| { &mut m.PDABLJKHMBO },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "growth_target_type_list",
-            |m: &SetGrowthTargetAvatarScRsp| { &m.growth_target_type_list },
-            |m: &mut SetGrowthTargetAvatarScRsp| { &mut m.growth_target_type_list },
+            "DHAIJLJCJAF",
+            |m: &SetGrowthTargetAvatarScRsp| { &m.DHAIJLJCJAF },
+            |m: &mut SetGrowthTargetAvatarScRsp| { &mut m.DHAIJLJCJAF },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "MMOPCKLPHIO",
+            |m: &SetGrowthTargetAvatarScRsp| { &m.MMOPCKLPHIO },
+            |m: &mut SetGrowthTargetAvatarScRsp| { &mut m.MMOPCKLPHIO },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "growth_avatar_id",
@@ -93,19 +93,19 @@ impl ::protobuf::Message for SetGrowthTargetAvatarScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                56 => {
-                    self.PDABLJKHMBO = is.read_uint32()?;
+                80 => {
+                    self.DHAIJLJCJAF.push(is.read_enum_or_unknown()?);
                 },
-                96 => {
-                    self.growth_target_type_list.push(is.read_enum_or_unknown()?);
-                },
-                98 => {
-                    ::protobuf::rt::read_repeated_packed_enum_or_unknown_into(is, &mut self.growth_target_type_list)?
-                },
-                88 => {
-                    self.growth_avatar_id = is.read_uint32()?;
+                82 => {
+                    ::protobuf::rt::read_repeated_packed_enum_or_unknown_into(is, &mut self.DHAIJLJCJAF)?
                 },
                 120 => {
+                    self.MMOPCKLPHIO = is.read_uint32()?;
+                },
+                48 => {
+                    self.growth_avatar_id = is.read_uint32()?;
+                },
+                40 => {
                     self.retcode = is.read_uint32()?;
                 },
                 tag => {
@@ -120,15 +120,15 @@ impl ::protobuf::Message for SetGrowthTargetAvatarScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.PDABLJKHMBO != 0 {
-            my_size += ::protobuf::rt::uint32_size(7, self.PDABLJKHMBO);
+        my_size += ::protobuf::rt::vec_packed_enum_or_unknown_size(10, &self.DHAIJLJCJAF);
+        if self.MMOPCKLPHIO != 0 {
+            my_size += ::protobuf::rt::uint32_size(15, self.MMOPCKLPHIO);
         }
-        my_size += ::protobuf::rt::vec_packed_enum_or_unknown_size(12, &self.growth_target_type_list);
         if self.growth_avatar_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.growth_avatar_id);
+            my_size += ::protobuf::rt::uint32_size(6, self.growth_avatar_id);
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(15, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(5, self.retcode);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -136,15 +136,15 @@ impl ::protobuf::Message for SetGrowthTargetAvatarScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.PDABLJKHMBO != 0 {
-            os.write_uint32(7, self.PDABLJKHMBO)?;
+        os.write_repeated_packed_enum_or_unknown(10, &self.DHAIJLJCJAF)?;
+        if self.MMOPCKLPHIO != 0 {
+            os.write_uint32(15, self.MMOPCKLPHIO)?;
         }
-        os.write_repeated_packed_enum_or_unknown(12, &self.growth_target_type_list)?;
         if self.growth_avatar_id != 0 {
-            os.write_uint32(11, self.growth_avatar_id)?;
+            os.write_uint32(6, self.growth_avatar_id)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(15, self.retcode)?;
+            os.write_uint32(5, self.retcode)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -163,8 +163,8 @@ impl ::protobuf::Message for SetGrowthTargetAvatarScRsp {
     }
 
     fn clear(&mut self) {
-        self.PDABLJKHMBO = 0;
-        self.growth_target_type_list.clear();
+        self.DHAIJLJCJAF.clear();
+        self.MMOPCKLPHIO = 0;
         self.growth_avatar_id = 0;
         self.retcode = 0;
         self.special_fields.clear();
@@ -172,8 +172,8 @@ impl ::protobuf::Message for SetGrowthTargetAvatarScRsp {
 
     fn default_instance() -> &'static SetGrowthTargetAvatarScRsp {
         static instance: SetGrowthTargetAvatarScRsp = SetGrowthTargetAvatarScRsp {
-            PDABLJKHMBO: 0,
-            growth_target_type_list: ::std::vec::Vec::new(),
+            DHAIJLJCJAF: ::std::vec::Vec::new(),
+            MMOPCKLPHIO: 0,
             growth_avatar_id: 0,
             retcode: 0,
             special_fields: ::protobuf::SpecialFields::new(),
@@ -200,12 +200,12 @@ impl ::protobuf::reflect::ProtobufValue for SetGrowthTargetAvatarScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x20SetGrowthTargetAvatarScRsp.proto\x1a\x1eGrowthTargetFunctionType.p\
-    roto\"\xd4\x01\n\x1aSetGrowthTargetAvatarScRsp\x12\x20\n\x0bPDABLJKHMBO\
-    \x18\x07\x20\x01(\rR\x0bPDABLJKHMBO\x12P\n\x17growth_target_type_list\
-    \x18\x0c\x20\x03(\x0e2\x19.GrowthTargetFunctionTypeR\x14growthTargetType\
-    List\x12(\n\x10growth_avatar_id\x18\x0b\x20\x01(\rR\x0egrowthAvatarId\
-    \x12\x18\n\x07retcode\x18\x0f\x20\x01(\rR\x07retcodeb\x06proto3\
+    \n\x20SetGrowthTargetAvatarScRsp.proto\x1a\x11KFLKNDHJILI.proto\"\xb2\
+    \x01\n\x1aSetGrowthTargetAvatarScRsp\x12.\n\x0bDHAIJLJCJAF\x18\n\x20\x03\
+    (\x0e2\x0c.KFLKNDHJILIR\x0bDHAIJLJCJAF\x12\x20\n\x0bMMOPCKLPHIO\x18\x0f\
+    \x20\x01(\rR\x0bMMOPCKLPHIO\x12(\n\x10growth_avatar_id\x18\x06\x20\x01(\
+    \rR\x0egrowthAvatarId\x12\x18\n\x07retcode\x18\x05\x20\x01(\rR\x07retcod\
+    eb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -223,7 +223,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::GrowthTargetFunctionType::file_descriptor().clone());
+            deps.push(super::KFLKNDHJILI::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(SetGrowthTargetAvatarScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

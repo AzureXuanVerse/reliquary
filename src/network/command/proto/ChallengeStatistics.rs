@@ -30,8 +30,8 @@ pub struct ChallengeStatistics {
     // message fields
     // @@protoc_insertion_point(field:ChallengeStatistics.record_id)
     pub record_id: u32,
-    // @@protoc_insertion_point(field:ChallengeStatistics.stage_tertinggi)
-    pub stage_tertinggi: ::protobuf::MessageField<super::ChallengeStageTertinggi::ChallengeStageTertinggi>,
+    // @@protoc_insertion_point(field:ChallengeStatistics.NCEGEKNLJCE)
+    pub NCEGEKNLJCE: ::protobuf::MessageField<super::FPDKBGJKPFF::FPDKBGJKPFF>,
     // special fields
     // @@protoc_insertion_point(special_field:ChallengeStatistics.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -56,10 +56,10 @@ impl ChallengeStatistics {
             |m: &ChallengeStatistics| { &m.record_id },
             |m: &mut ChallengeStatistics| { &mut m.record_id },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ChallengeStageTertinggi::ChallengeStageTertinggi>(
-            "stage_tertinggi",
-            |m: &ChallengeStatistics| { &m.stage_tertinggi },
-            |m: &mut ChallengeStatistics| { &mut m.stage_tertinggi },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::FPDKBGJKPFF::FPDKBGJKPFF>(
+            "NCEGEKNLJCE",
+            |m: &ChallengeStatistics| { &m.NCEGEKNLJCE },
+            |m: &mut ChallengeStatistics| { &mut m.NCEGEKNLJCE },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ChallengeStatistics>(
             "ChallengeStatistics",
@@ -82,8 +82,8 @@ impl ::protobuf::Message for ChallengeStatistics {
                 80 => {
                     self.record_id = is.read_uint32()?;
                 },
-                18 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.stage_tertinggi)?;
+                114 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.NCEGEKNLJCE)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -100,7 +100,7 @@ impl ::protobuf::Message for ChallengeStatistics {
         if self.record_id != 0 {
             my_size += ::protobuf::rt::uint32_size(10, self.record_id);
         }
-        if let Some(v) = self.stage_tertinggi.as_ref() {
+        if let Some(v) = self.NCEGEKNLJCE.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -113,8 +113,8 @@ impl ::protobuf::Message for ChallengeStatistics {
         if self.record_id != 0 {
             os.write_uint32(10, self.record_id)?;
         }
-        if let Some(v) = self.stage_tertinggi.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
+        if let Some(v) = self.NCEGEKNLJCE.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -134,14 +134,14 @@ impl ::protobuf::Message for ChallengeStatistics {
 
     fn clear(&mut self) {
         self.record_id = 0;
-        self.stage_tertinggi.clear();
+        self.NCEGEKNLJCE.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ChallengeStatistics {
         static instance: ChallengeStatistics = ChallengeStatistics {
             record_id: 0,
-            stage_tertinggi: ::protobuf::MessageField::none(),
+            NCEGEKNLJCE: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,10 +166,10 @@ impl ::protobuf::reflect::ProtobufValue for ChallengeStatistics {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x19ChallengeStatistics.proto\x1a\x1dChallengeStageTertinggi.proto\"u\
-    \n\x13ChallengeStatistics\x12\x1b\n\trecord_id\x18\n\x20\x01(\rR\x08reco\
-    rdId\x12A\n\x0fstage_tertinggi\x18\x02\x20\x01(\x0b2\x18.ChallengeStageT\
-    ertinggiR\x0estageTertinggib\x06proto3\
+    \n\x19ChallengeStatistics.proto\x1a\x11FPDKBGJKPFF.proto\"b\n\x13Challen\
+    geStatistics\x12\x1b\n\trecord_id\x18\n\x20\x01(\rR\x08recordId\x12.\n\
+    \x0bNCEGEKNLJCE\x18\x0e\x20\x01(\x0b2\x0c.FPDKBGJKPFFR\x0bNCEGEKNLJCEb\
+    \x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -187,7 +187,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::ChallengeStageTertinggi::file_descriptor().clone());
+            deps.push(super::FPDKBGJKPFF::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(ChallengeStatistics::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

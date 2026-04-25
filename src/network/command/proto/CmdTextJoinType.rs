@@ -27,20 +27,20 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdTextJoinType)
 pub enum CmdTextJoinType {
-    // @@protoc_insertion_point(enum_value:CmdTextJoinType.CmdTextJoinType_MNFEPONEDDJ)
-    CmdTextJoinType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdTextJoinType.CmdTextJoinType_NCPGPMDMJGD)
-    CmdTextJoinType_NCPGPMDMJGD = 3835,
-    // @@protoc_insertion_point(enum_value:CmdTextJoinType.CmdTextJoinType_KMDGIKKJKJP)
-    CmdTextJoinType_KMDGIKKJKJP = 3883,
-    // @@protoc_insertion_point(enum_value:CmdTextJoinType.CmdTextJoinType_KFAIIFFKFDD)
-    CmdTextJoinType_KFAIIFFKFDD = 3824,
-    // @@protoc_insertion_point(enum_value:CmdTextJoinType.CmdTextJoinType_AAOJNOKKAAN)
-    CmdTextJoinType_AAOJNOKKAAN = 3804,
-    // @@protoc_insertion_point(enum_value:CmdTextJoinType.CmdTextJoinType_MDAKELFHBON)
-    CmdTextJoinType_MDAKELFHBON = 3881,
-    // @@protoc_insertion_point(enum_value:CmdTextJoinType.CmdTextJoinType_FDBOPNFMPFH)
-    CmdTextJoinType_FDBOPNFMPFH = 3813,
+    // @@protoc_insertion_point(enum_value:CmdTextJoinType.CKCEEBOKLJJ_PCPDHELPKEM)
+    CKCEEBOKLJJ_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdTextJoinType.CmdINCJNJGEHCD)
+    CmdINCJNJGEHCD = 3810,
+    // @@protoc_insertion_point(enum_value:CmdTextJoinType.CmdTextJoinBatchSaveScRsp)
+    CmdTextJoinBatchSaveScRsp = 3818,
+    // @@protoc_insertion_point(enum_value:CmdTextJoinType.CmdTextJoinBatchSaveCsReq)
+    CmdTextJoinBatchSaveCsReq = 3814,
+    // @@protoc_insertion_point(enum_value:CmdTextJoinType.CmdTextJoinQueryScRsp)
+    CmdTextJoinQueryScRsp = 3895,
+    // @@protoc_insertion_point(enum_value:CmdTextJoinType.CmdTextJoinQueryCsReq)
+    CmdTextJoinQueryCsReq = 3894,
+    // @@protoc_insertion_point(enum_value:CmdTextJoinType.CKCEEBOKLJJ_LNEAFFIAJJL)
+    CKCEEBOKLJJ_LNEAFFIAJJL = 3891,
 }
 
 impl ::protobuf::Enum for CmdTextJoinType {
@@ -52,38 +52,38 @@ impl ::protobuf::Enum for CmdTextJoinType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdTextJoinType> {
         match value {
-            0 => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinType_MNFEPONEDDJ),
-            3835 => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinType_NCPGPMDMJGD),
-            3883 => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinType_KMDGIKKJKJP),
-            3824 => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinType_KFAIIFFKFDD),
-            3804 => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinType_AAOJNOKKAAN),
-            3881 => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinType_MDAKELFHBON),
-            3813 => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinType_FDBOPNFMPFH),
+            0 => ::std::option::Option::Some(CmdTextJoinType::CKCEEBOKLJJ_PCPDHELPKEM),
+            3810 => ::std::option::Option::Some(CmdTextJoinType::CmdINCJNJGEHCD),
+            3818 => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinBatchSaveScRsp),
+            3814 => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinBatchSaveCsReq),
+            3895 => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinQueryScRsp),
+            3894 => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinQueryCsReq),
+            3891 => ::std::option::Option::Some(CmdTextJoinType::CKCEEBOKLJJ_LNEAFFIAJJL),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdTextJoinType> {
         match str {
-            "CmdTextJoinType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinType_MNFEPONEDDJ),
-            "CmdTextJoinType_NCPGPMDMJGD" => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinType_NCPGPMDMJGD),
-            "CmdTextJoinType_KMDGIKKJKJP" => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinType_KMDGIKKJKJP),
-            "CmdTextJoinType_KFAIIFFKFDD" => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinType_KFAIIFFKFDD),
-            "CmdTextJoinType_AAOJNOKKAAN" => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinType_AAOJNOKKAAN),
-            "CmdTextJoinType_MDAKELFHBON" => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinType_MDAKELFHBON),
-            "CmdTextJoinType_FDBOPNFMPFH" => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinType_FDBOPNFMPFH),
+            "CKCEEBOKLJJ_PCPDHELPKEM" => ::std::option::Option::Some(CmdTextJoinType::CKCEEBOKLJJ_PCPDHELPKEM),
+            "CmdINCJNJGEHCD" => ::std::option::Option::Some(CmdTextJoinType::CmdINCJNJGEHCD),
+            "CmdTextJoinBatchSaveScRsp" => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinBatchSaveScRsp),
+            "CmdTextJoinBatchSaveCsReq" => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinBatchSaveCsReq),
+            "CmdTextJoinQueryScRsp" => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinQueryScRsp),
+            "CmdTextJoinQueryCsReq" => ::std::option::Option::Some(CmdTextJoinType::CmdTextJoinQueryCsReq),
+            "CKCEEBOKLJJ_LNEAFFIAJJL" => ::std::option::Option::Some(CmdTextJoinType::CKCEEBOKLJJ_LNEAFFIAJJL),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdTextJoinType] = &[
-        CmdTextJoinType::CmdTextJoinType_MNFEPONEDDJ,
-        CmdTextJoinType::CmdTextJoinType_NCPGPMDMJGD,
-        CmdTextJoinType::CmdTextJoinType_KMDGIKKJKJP,
-        CmdTextJoinType::CmdTextJoinType_KFAIIFFKFDD,
-        CmdTextJoinType::CmdTextJoinType_AAOJNOKKAAN,
-        CmdTextJoinType::CmdTextJoinType_MDAKELFHBON,
-        CmdTextJoinType::CmdTextJoinType_FDBOPNFMPFH,
+        CmdTextJoinType::CKCEEBOKLJJ_PCPDHELPKEM,
+        CmdTextJoinType::CmdINCJNJGEHCD,
+        CmdTextJoinType::CmdTextJoinBatchSaveScRsp,
+        CmdTextJoinType::CmdTextJoinBatchSaveCsReq,
+        CmdTextJoinType::CmdTextJoinQueryScRsp,
+        CmdTextJoinType::CmdTextJoinQueryCsReq,
+        CmdTextJoinType::CKCEEBOKLJJ_LNEAFFIAJJL,
     ];
 }
 
@@ -95,13 +95,13 @@ impl ::protobuf::EnumFull for CmdTextJoinType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdTextJoinType::CmdTextJoinType_MNFEPONEDDJ => 0,
-            CmdTextJoinType::CmdTextJoinType_NCPGPMDMJGD => 1,
-            CmdTextJoinType::CmdTextJoinType_KMDGIKKJKJP => 2,
-            CmdTextJoinType::CmdTextJoinType_KFAIIFFKFDD => 3,
-            CmdTextJoinType::CmdTextJoinType_AAOJNOKKAAN => 4,
-            CmdTextJoinType::CmdTextJoinType_MDAKELFHBON => 5,
-            CmdTextJoinType::CmdTextJoinType_FDBOPNFMPFH => 6,
+            CmdTextJoinType::CKCEEBOKLJJ_PCPDHELPKEM => 0,
+            CmdTextJoinType::CmdINCJNJGEHCD => 1,
+            CmdTextJoinType::CmdTextJoinBatchSaveScRsp => 2,
+            CmdTextJoinType::CmdTextJoinBatchSaveCsReq => 3,
+            CmdTextJoinType::CmdTextJoinQueryScRsp => 4,
+            CmdTextJoinType::CmdTextJoinQueryCsReq => 5,
+            CmdTextJoinType::CKCEEBOKLJJ_LNEAFFIAJJL => 6,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -109,7 +109,7 @@ impl ::protobuf::EnumFull for CmdTextJoinType {
 
 impl ::std::default::Default for CmdTextJoinType {
     fn default() -> Self {
-        CmdTextJoinType::CmdTextJoinType_MNFEPONEDDJ
+        CmdTextJoinType::CKCEEBOKLJJ_PCPDHELPKEM
     }
 }
 
@@ -120,13 +120,12 @@ impl CmdTextJoinType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x15CmdTextJoinType.proto*\xfe\x01\n\x0fCmdTextJoinType\x12\x1f\n\x1bC\
-    mdTextJoinType_MNFEPONEDDJ\x10\0\x12\x20\n\x1bCmdTextJoinType_NCPGPMDMJG\
-    D\x10\xfb\x1d\x12\x20\n\x1bCmdTextJoinType_KMDGIKKJKJP\x10\xab\x1e\x12\
-    \x20\n\x1bCmdTextJoinType_KFAIIFFKFDD\x10\xf0\x1d\x12\x20\n\x1bCmdTextJo\
-    inType_AAOJNOKKAAN\x10\xdc\x1d\x12\x20\n\x1bCmdTextJoinType_MDAKELFHBON\
-    \x10\xa9\x1e\x12\x20\n\x1bCmdTextJoinType_FDBOPNFMPFH\x10\xe5\x1db\x06pr\
-    oto3\
+    \n\x15CmdTextJoinType.proto*\xd9\x01\n\x0fCmdTextJoinType\x12\x1b\n\x17C\
+    KCEEBOKLJJ_PCPDHELPKEM\x10\0\x12\x13\n\x0eCmdINCJNJGEHCD\x10\xe2\x1d\x12\
+    \x1e\n\x19CmdTextJoinBatchSaveScRsp\x10\xea\x1d\x12\x1e\n\x19CmdTextJoin\
+    BatchSaveCsReq\x10\xe6\x1d\x12\x1a\n\x15CmdTextJoinQueryScRsp\x10\xb7\
+    \x1e\x12\x1a\n\x15CmdTextJoinQueryCsReq\x10\xb6\x1e\x12\x1c\n\x17CKCEEBO\
+    KLJJ_LNEAFFIAJJL\x10\xb3\x1eb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

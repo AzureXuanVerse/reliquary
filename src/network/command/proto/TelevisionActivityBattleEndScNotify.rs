@@ -28,16 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct TelevisionActivityBattleEndScNotify {
     // message fields
-    // @@protoc_insertion_point(field:TelevisionActivityBattleEndScNotify.MNJHJCICLOF)
-    pub MNJHJCICLOF: u32,
-    // @@protoc_insertion_point(field:TelevisionActivityBattleEndScNotify.DHDKKJCHHNM)
-    pub DHDKKJCHHNM: u32,
-    // @@protoc_insertion_point(field:TelevisionActivityBattleEndScNotify.KEDJOPOEAMH)
-    pub KEDJOPOEAMH: ::protobuf::MessageField<super::JBKHJBCMADA::JBKHJBCMADA>,
-    // @@protoc_insertion_point(field:TelevisionActivityBattleEndScNotify.CEGCIEDIBOB)
-    pub CEGCIEDIBOB: u32,
     // @@protoc_insertion_point(field:TelevisionActivityBattleEndScNotify.turn_left)
     pub turn_left: u32,
+    // @@protoc_insertion_point(field:TelevisionActivityBattleEndScNotify.NECABLBKHKN)
+    pub NECABLBKHKN: u32,
+    // @@protoc_insertion_point(field:TelevisionActivityBattleEndScNotify.OLGHPOODENK)
+    pub OLGHPOODENK: u32,
+    // @@protoc_insertion_point(field:TelevisionActivityBattleEndScNotify.EPLBCNFMLIL)
+    pub EPLBCNFMLIL: u32,
+    // @@protoc_insertion_point(field:TelevisionActivityBattleEndScNotify.KAEDEEMOCDA)
+    pub KAEDEEMOCDA: ::protobuf::MessageField<super::CKFHOLKJAGC::CKFHOLKJAGC>,
     // special fields
     // @@protoc_insertion_point(special_field:TelevisionActivityBattleEndScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -58,29 +58,29 @@ impl TelevisionActivityBattleEndScNotify {
         let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MNJHJCICLOF",
-            |m: &TelevisionActivityBattleEndScNotify| { &m.MNJHJCICLOF },
-            |m: &mut TelevisionActivityBattleEndScNotify| { &mut m.MNJHJCICLOF },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "DHDKKJCHHNM",
-            |m: &TelevisionActivityBattleEndScNotify| { &m.DHDKKJCHHNM },
-            |m: &mut TelevisionActivityBattleEndScNotify| { &mut m.DHDKKJCHHNM },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::JBKHJBCMADA::JBKHJBCMADA>(
-            "KEDJOPOEAMH",
-            |m: &TelevisionActivityBattleEndScNotify| { &m.KEDJOPOEAMH },
-            |m: &mut TelevisionActivityBattleEndScNotify| { &mut m.KEDJOPOEAMH },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "CEGCIEDIBOB",
-            |m: &TelevisionActivityBattleEndScNotify| { &m.CEGCIEDIBOB },
-            |m: &mut TelevisionActivityBattleEndScNotify| { &mut m.CEGCIEDIBOB },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "turn_left",
             |m: &TelevisionActivityBattleEndScNotify| { &m.turn_left },
             |m: &mut TelevisionActivityBattleEndScNotify| { &mut m.turn_left },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "NECABLBKHKN",
+            |m: &TelevisionActivityBattleEndScNotify| { &m.NECABLBKHKN },
+            |m: &mut TelevisionActivityBattleEndScNotify| { &mut m.NECABLBKHKN },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "OLGHPOODENK",
+            |m: &TelevisionActivityBattleEndScNotify| { &m.OLGHPOODENK },
+            |m: &mut TelevisionActivityBattleEndScNotify| { &mut m.OLGHPOODENK },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "EPLBCNFMLIL",
+            |m: &TelevisionActivityBattleEndScNotify| { &m.EPLBCNFMLIL },
+            |m: &mut TelevisionActivityBattleEndScNotify| { &mut m.EPLBCNFMLIL },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::CKFHOLKJAGC::CKFHOLKJAGC>(
+            "KAEDEEMOCDA",
+            |m: &TelevisionActivityBattleEndScNotify| { &m.KAEDEEMOCDA },
+            |m: &mut TelevisionActivityBattleEndScNotify| { &mut m.KAEDEEMOCDA },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<TelevisionActivityBattleEndScNotify>(
             "TelevisionActivityBattleEndScNotify",
@@ -100,20 +100,20 @@ impl ::protobuf::Message for TelevisionActivityBattleEndScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                72 => {
-                    self.MNJHJCICLOF = is.read_uint32()?;
+                80 => {
+                    self.turn_left = is.read_uint32()?;
                 },
-                88 => {
-                    self.DHDKKJCHHNM = is.read_uint32()?;
+                64 => {
+                    self.NECABLBKHKN = is.read_uint32()?;
                 },
-                10 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.KEDJOPOEAMH)?;
-                },
-                112 => {
-                    self.CEGCIEDIBOB = is.read_uint32()?;
+                104 => {
+                    self.OLGHPOODENK = is.read_uint32()?;
                 },
                 56 => {
-                    self.turn_left = is.read_uint32()?;
+                    self.EPLBCNFMLIL = is.read_uint32()?;
+                },
+                34 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.KAEDEEMOCDA)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -127,21 +127,21 @@ impl ::protobuf::Message for TelevisionActivityBattleEndScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.MNJHJCICLOF != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.MNJHJCICLOF);
+        if self.turn_left != 0 {
+            my_size += ::protobuf::rt::uint32_size(10, self.turn_left);
         }
-        if self.DHDKKJCHHNM != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.DHDKKJCHHNM);
+        if self.NECABLBKHKN != 0 {
+            my_size += ::protobuf::rt::uint32_size(8, self.NECABLBKHKN);
         }
-        if let Some(v) = self.KEDJOPOEAMH.as_ref() {
+        if self.OLGHPOODENK != 0 {
+            my_size += ::protobuf::rt::uint32_size(13, self.OLGHPOODENK);
+        }
+        if self.EPLBCNFMLIL != 0 {
+            my_size += ::protobuf::rt::uint32_size(7, self.EPLBCNFMLIL);
+        }
+        if let Some(v) = self.KAEDEEMOCDA.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if self.CEGCIEDIBOB != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.CEGCIEDIBOB);
-        }
-        if self.turn_left != 0 {
-            my_size += ::protobuf::rt::uint32_size(7, self.turn_left);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -149,20 +149,20 @@ impl ::protobuf::Message for TelevisionActivityBattleEndScNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.MNJHJCICLOF != 0 {
-            os.write_uint32(9, self.MNJHJCICLOF)?;
-        }
-        if self.DHDKKJCHHNM != 0 {
-            os.write_uint32(11, self.DHDKKJCHHNM)?;
-        }
-        if let Some(v) = self.KEDJOPOEAMH.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
-        }
-        if self.CEGCIEDIBOB != 0 {
-            os.write_uint32(14, self.CEGCIEDIBOB)?;
-        }
         if self.turn_left != 0 {
-            os.write_uint32(7, self.turn_left)?;
+            os.write_uint32(10, self.turn_left)?;
+        }
+        if self.NECABLBKHKN != 0 {
+            os.write_uint32(8, self.NECABLBKHKN)?;
+        }
+        if self.OLGHPOODENK != 0 {
+            os.write_uint32(13, self.OLGHPOODENK)?;
+        }
+        if self.EPLBCNFMLIL != 0 {
+            os.write_uint32(7, self.EPLBCNFMLIL)?;
+        }
+        if let Some(v) = self.KAEDEEMOCDA.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -181,21 +181,21 @@ impl ::protobuf::Message for TelevisionActivityBattleEndScNotify {
     }
 
     fn clear(&mut self) {
-        self.MNJHJCICLOF = 0;
-        self.DHDKKJCHHNM = 0;
-        self.KEDJOPOEAMH.clear();
-        self.CEGCIEDIBOB = 0;
         self.turn_left = 0;
+        self.NECABLBKHKN = 0;
+        self.OLGHPOODENK = 0;
+        self.EPLBCNFMLIL = 0;
+        self.KAEDEEMOCDA.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static TelevisionActivityBattleEndScNotify {
         static instance: TelevisionActivityBattleEndScNotify = TelevisionActivityBattleEndScNotify {
-            MNJHJCICLOF: 0,
-            DHDKKJCHHNM: 0,
-            KEDJOPOEAMH: ::protobuf::MessageField::none(),
-            CEGCIEDIBOB: 0,
             turn_left: 0,
+            NECABLBKHKN: 0,
+            OLGHPOODENK: 0,
+            EPLBCNFMLIL: 0,
+            KAEDEEMOCDA: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -220,13 +220,13 @@ impl ::protobuf::reflect::ProtobufValue for TelevisionActivityBattleEndScNotify 
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n)TelevisionActivityBattleEndScNotify.proto\x1a\x11JBKHJBCMADA.proto\"\
-    \xd8\x01\n#TelevisionActivityBattleEndScNotify\x12\x20\n\x0bMNJHJCICLOF\
-    \x18\t\x20\x01(\rR\x0bMNJHJCICLOF\x12\x20\n\x0bDHDKKJCHHNM\x18\x0b\x20\
-    \x01(\rR\x0bDHDKKJCHHNM\x12.\n\x0bKEDJOPOEAMH\x18\x01\x20\x01(\x0b2\x0c.\
-    JBKHJBCMADAR\x0bKEDJOPOEAMH\x12\x20\n\x0bCEGCIEDIBOB\x18\x0e\x20\x01(\rR\
-    \x0bCEGCIEDIBOB\x12\x1b\n\tturn_left\x18\x07\x20\x01(\rR\x08turnLeftb\
-    \x06proto3\
+    \n)TelevisionActivityBattleEndScNotify.proto\x1a\x11CKFHOLKJAGC.proto\"\
+    \xd8\x01\n#TelevisionActivityBattleEndScNotify\x12\x1b\n\tturn_left\x18\
+    \n\x20\x01(\rR\x08turnLeft\x12\x20\n\x0bNECABLBKHKN\x18\x08\x20\x01(\rR\
+    \x0bNECABLBKHKN\x12\x20\n\x0bOLGHPOODENK\x18\r\x20\x01(\rR\x0bOLGHPOODEN\
+    K\x12\x20\n\x0bEPLBCNFMLIL\x18\x07\x20\x01(\rR\x0bEPLBCNFMLIL\x12.\n\x0b\
+    KAEDEEMOCDA\x18\x04\x20\x01(\x0b2\x0c.CKFHOLKJAGCR\x0bKAEDEEMOCDAb\x06pr\
+    oto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -244,7 +244,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::JBKHJBCMADA::file_descriptor().clone());
+            deps.push(super::CKFHOLKJAGC::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(TelevisionActivityBattleEndScNotify::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

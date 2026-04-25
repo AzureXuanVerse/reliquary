@@ -27,24 +27,24 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdRogueArcadeType)
 pub enum CmdRogueArcadeType {
-    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeType_MNFEPONEDDJ)
-    CmdRogueArcadeType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeType_ILDBMGNKJGE)
-    CmdRogueArcadeType_ILDBMGNKJGE = 7658,
-    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeType_AMIAJPPBMGF)
-    CmdRogueArcadeType_AMIAJPPBMGF = 7651,
-    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeType_KKPKLLMEGBL)
-    CmdRogueArcadeType_KKPKLLMEGBL = 7668,
-    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeType_ILCEFENODDG)
-    CmdRogueArcadeType_ILCEFENODDG = 7657,
-    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeType_DPHEJKAELJI)
-    CmdRogueArcadeType_DPHEJKAELJI = 7673,
-    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeType_DMEIIIKLMKI)
-    CmdRogueArcadeType_DMEIIIKLMKI = 7653,
-    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeType_AKGEEMHMGMN)
-    CmdRogueArcadeType_AKGEEMHMGMN = 7678,
-    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeType_AFLDHJACBMO)
-    CmdRogueArcadeType_AFLDHJACBMO = 7662,
+    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.JEJMOKKEGLI_PCPDHELPKEM)
+    JEJMOKKEGLI_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeGetInfoScRsp)
+    CmdRogueArcadeGetInfoScRsp = 7677,
+    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeRestartCsReq)
+    CmdRogueArcadeRestartCsReq = 7681,
+    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeGetInfoCsReq)
+    CmdRogueArcadeGetInfoCsReq = 7651,
+    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeStartCsReq)
+    CmdRogueArcadeStartCsReq = 7687,
+    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeRestartScRsp)
+    CmdRogueArcadeRestartScRsp = 7698,
+    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeLeaveScRsp)
+    CmdRogueArcadeLeaveScRsp = 7655,
+    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeStartScRsp)
+    CmdRogueArcadeStartScRsp = 7668,
+    // @@protoc_insertion_point(enum_value:CmdRogueArcadeType.CmdRogueArcadeLeaveCsReq)
+    CmdRogueArcadeLeaveCsReq = 7657,
 }
 
 impl ::protobuf::Enum for CmdRogueArcadeType {
@@ -56,44 +56,44 @@ impl ::protobuf::Enum for CmdRogueArcadeType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdRogueArcadeType> {
         match value {
-            0 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_MNFEPONEDDJ),
-            7658 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_ILDBMGNKJGE),
-            7651 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_AMIAJPPBMGF),
-            7668 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_KKPKLLMEGBL),
-            7657 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_ILCEFENODDG),
-            7673 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_DPHEJKAELJI),
-            7653 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_DMEIIIKLMKI),
-            7678 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_AKGEEMHMGMN),
-            7662 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_AFLDHJACBMO),
+            0 => ::std::option::Option::Some(CmdRogueArcadeType::JEJMOKKEGLI_PCPDHELPKEM),
+            7677 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeGetInfoScRsp),
+            7681 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeRestartCsReq),
+            7651 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeGetInfoCsReq),
+            7687 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeStartCsReq),
+            7698 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeRestartScRsp),
+            7655 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeLeaveScRsp),
+            7668 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeStartScRsp),
+            7657 => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeLeaveCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdRogueArcadeType> {
         match str {
-            "CmdRogueArcadeType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_MNFEPONEDDJ),
-            "CmdRogueArcadeType_ILDBMGNKJGE" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_ILDBMGNKJGE),
-            "CmdRogueArcadeType_AMIAJPPBMGF" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_AMIAJPPBMGF),
-            "CmdRogueArcadeType_KKPKLLMEGBL" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_KKPKLLMEGBL),
-            "CmdRogueArcadeType_ILCEFENODDG" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_ILCEFENODDG),
-            "CmdRogueArcadeType_DPHEJKAELJI" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_DPHEJKAELJI),
-            "CmdRogueArcadeType_DMEIIIKLMKI" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_DMEIIIKLMKI),
-            "CmdRogueArcadeType_AKGEEMHMGMN" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_AKGEEMHMGMN),
-            "CmdRogueArcadeType_AFLDHJACBMO" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeType_AFLDHJACBMO),
+            "JEJMOKKEGLI_PCPDHELPKEM" => ::std::option::Option::Some(CmdRogueArcadeType::JEJMOKKEGLI_PCPDHELPKEM),
+            "CmdRogueArcadeGetInfoScRsp" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeGetInfoScRsp),
+            "CmdRogueArcadeRestartCsReq" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeRestartCsReq),
+            "CmdRogueArcadeGetInfoCsReq" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeGetInfoCsReq),
+            "CmdRogueArcadeStartCsReq" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeStartCsReq),
+            "CmdRogueArcadeRestartScRsp" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeRestartScRsp),
+            "CmdRogueArcadeLeaveScRsp" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeLeaveScRsp),
+            "CmdRogueArcadeStartScRsp" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeStartScRsp),
+            "CmdRogueArcadeLeaveCsReq" => ::std::option::Option::Some(CmdRogueArcadeType::CmdRogueArcadeLeaveCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdRogueArcadeType] = &[
-        CmdRogueArcadeType::CmdRogueArcadeType_MNFEPONEDDJ,
-        CmdRogueArcadeType::CmdRogueArcadeType_ILDBMGNKJGE,
-        CmdRogueArcadeType::CmdRogueArcadeType_AMIAJPPBMGF,
-        CmdRogueArcadeType::CmdRogueArcadeType_KKPKLLMEGBL,
-        CmdRogueArcadeType::CmdRogueArcadeType_ILCEFENODDG,
-        CmdRogueArcadeType::CmdRogueArcadeType_DPHEJKAELJI,
-        CmdRogueArcadeType::CmdRogueArcadeType_DMEIIIKLMKI,
-        CmdRogueArcadeType::CmdRogueArcadeType_AKGEEMHMGMN,
-        CmdRogueArcadeType::CmdRogueArcadeType_AFLDHJACBMO,
+        CmdRogueArcadeType::JEJMOKKEGLI_PCPDHELPKEM,
+        CmdRogueArcadeType::CmdRogueArcadeGetInfoScRsp,
+        CmdRogueArcadeType::CmdRogueArcadeRestartCsReq,
+        CmdRogueArcadeType::CmdRogueArcadeGetInfoCsReq,
+        CmdRogueArcadeType::CmdRogueArcadeStartCsReq,
+        CmdRogueArcadeType::CmdRogueArcadeRestartScRsp,
+        CmdRogueArcadeType::CmdRogueArcadeLeaveScRsp,
+        CmdRogueArcadeType::CmdRogueArcadeStartScRsp,
+        CmdRogueArcadeType::CmdRogueArcadeLeaveCsReq,
     ];
 }
 
@@ -105,15 +105,15 @@ impl ::protobuf::EnumFull for CmdRogueArcadeType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdRogueArcadeType::CmdRogueArcadeType_MNFEPONEDDJ => 0,
-            CmdRogueArcadeType::CmdRogueArcadeType_ILDBMGNKJGE => 1,
-            CmdRogueArcadeType::CmdRogueArcadeType_AMIAJPPBMGF => 2,
-            CmdRogueArcadeType::CmdRogueArcadeType_KKPKLLMEGBL => 3,
-            CmdRogueArcadeType::CmdRogueArcadeType_ILCEFENODDG => 4,
-            CmdRogueArcadeType::CmdRogueArcadeType_DPHEJKAELJI => 5,
-            CmdRogueArcadeType::CmdRogueArcadeType_DMEIIIKLMKI => 6,
-            CmdRogueArcadeType::CmdRogueArcadeType_AKGEEMHMGMN => 7,
-            CmdRogueArcadeType::CmdRogueArcadeType_AFLDHJACBMO => 8,
+            CmdRogueArcadeType::JEJMOKKEGLI_PCPDHELPKEM => 0,
+            CmdRogueArcadeType::CmdRogueArcadeGetInfoScRsp => 1,
+            CmdRogueArcadeType::CmdRogueArcadeRestartCsReq => 2,
+            CmdRogueArcadeType::CmdRogueArcadeGetInfoCsReq => 3,
+            CmdRogueArcadeType::CmdRogueArcadeStartCsReq => 4,
+            CmdRogueArcadeType::CmdRogueArcadeRestartScRsp => 5,
+            CmdRogueArcadeType::CmdRogueArcadeLeaveScRsp => 6,
+            CmdRogueArcadeType::CmdRogueArcadeStartScRsp => 7,
+            CmdRogueArcadeType::CmdRogueArcadeLeaveCsReq => 8,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -121,7 +121,7 @@ impl ::protobuf::EnumFull for CmdRogueArcadeType {
 
 impl ::std::default::Default for CmdRogueArcadeType {
     fn default() -> Self {
-        CmdRogueArcadeType::CmdRogueArcadeType_MNFEPONEDDJ
+        CmdRogueArcadeType::JEJMOKKEGLI_PCPDHELPKEM
     }
 }
 
@@ -132,14 +132,13 @@ impl CmdRogueArcadeType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x18CmdRogueArcadeType.proto*\xe0\x02\n\x12CmdRogueArcadeType\x12\"\n\
-    \x1eCmdRogueArcadeType_MNFEPONEDDJ\x10\0\x12#\n\x1eCmdRogueArcadeType_IL\
-    DBMGNKJGE\x10\xea;\x12#\n\x1eCmdRogueArcadeType_AMIAJPPBMGF\x10\xe3;\x12\
-    #\n\x1eCmdRogueArcadeType_KKPKLLMEGBL\x10\xf4;\x12#\n\x1eCmdRogueArcadeT\
-    ype_ILCEFENODDG\x10\xe9;\x12#\n\x1eCmdRogueArcadeType_DPHEJKAELJI\x10\
-    \xf9;\x12#\n\x1eCmdRogueArcadeType_DMEIIIKLMKI\x10\xe5;\x12#\n\x1eCmdRog\
-    ueArcadeType_AKGEEMHMGMN\x10\xfe;\x12#\n\x1eCmdRogueArcadeType_AFLDHJACB\
-    MO\x10\xee;b\x06proto3\
+    \n\x18CmdRogueArcadeType.proto*\xb1\x02\n\x12CmdRogueArcadeType\x12\x1b\
+    \n\x17JEJMOKKEGLI_PCPDHELPKEM\x10\0\x12\x1f\n\x1aCmdRogueArcadeGetInfoSc\
+    Rsp\x10\xfd;\x12\x1f\n\x1aCmdRogueArcadeRestartCsReq\x10\x81<\x12\x1f\n\
+    \x1aCmdRogueArcadeGetInfoCsReq\x10\xe3;\x12\x1d\n\x18CmdRogueArcadeStart\
+    CsReq\x10\x87<\x12\x1f\n\x1aCmdRogueArcadeRestartScRsp\x10\x92<\x12\x1d\
+    \n\x18CmdRogueArcadeLeaveScRsp\x10\xe7;\x12\x1d\n\x18CmdRogueArcadeStart\
+    ScRsp\x10\xf4;\x12\x1d\n\x18CmdRogueArcadeLeaveCsReq\x10\xe9;b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

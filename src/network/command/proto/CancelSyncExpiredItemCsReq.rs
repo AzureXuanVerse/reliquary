@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct CancelSyncExpiredItemCsReq {
     // message fields
-    // @@protoc_insertion_point(field:CancelSyncExpiredItemCsReq.BBODMOKDOKC)
-    pub BBODMOKDOKC: ::std::vec::Vec<u32>,
-    // @@protoc_insertion_point(field:CancelSyncExpiredItemCsReq.BANOOJLMCED)
-    pub BANOOJLMCED: ::std::vec::Vec<::std::string::String>,
+    // @@protoc_insertion_point(field:CancelSyncExpiredItemCsReq.COOOFFKIDMC)
+    pub COOOFFKIDMC: ::std::vec::Vec<u32>,
     // @@protoc_insertion_point(field:CancelSyncExpiredItemCsReq.type)
-    pub type_: ::protobuf::EnumOrUnknown<super::IIEOKCDDIDO::IIEOKCDDIDO>,
+    pub type_: ::protobuf::EnumOrUnknown<super::JMGCDIANLGK::JMGCDIANLGK>,
+    // @@protoc_insertion_point(field:CancelSyncExpiredItemCsReq.JLLKNNFAPEE)
+    pub JLLKNNFAPEE: ::std::vec::Vec<::std::string::String>,
     // special fields
     // @@protoc_insertion_point(special_field:CancelSyncExpiredItemCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -54,19 +54,19 @@ impl CancelSyncExpiredItemCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "BBODMOKDOKC",
-            |m: &CancelSyncExpiredItemCsReq| { &m.BBODMOKDOKC },
-            |m: &mut CancelSyncExpiredItemCsReq| { &mut m.BBODMOKDOKC },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "BANOOJLMCED",
-            |m: &CancelSyncExpiredItemCsReq| { &m.BANOOJLMCED },
-            |m: &mut CancelSyncExpiredItemCsReq| { &mut m.BANOOJLMCED },
+            "COOOFFKIDMC",
+            |m: &CancelSyncExpiredItemCsReq| { &m.COOOFFKIDMC },
+            |m: &mut CancelSyncExpiredItemCsReq| { &mut m.COOOFFKIDMC },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "type",
             |m: &CancelSyncExpiredItemCsReq| { &m.type_ },
             |m: &mut CancelSyncExpiredItemCsReq| { &mut m.type_ },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "JLLKNNFAPEE",
+            |m: &CancelSyncExpiredItemCsReq| { &m.JLLKNNFAPEE },
+            |m: &mut CancelSyncExpiredItemCsReq| { &mut m.JLLKNNFAPEE },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<CancelSyncExpiredItemCsReq>(
             "CancelSyncExpiredItemCsReq",
@@ -86,17 +86,17 @@ impl ::protobuf::Message for CancelSyncExpiredItemCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                10 => {
-                    is.read_repeated_packed_uint32_into(&mut self.BBODMOKDOKC)?;
+                50 => {
+                    is.read_repeated_packed_uint32_into(&mut self.COOOFFKIDMC)?;
                 },
-                8 => {
-                    self.BBODMOKDOKC.push(is.read_uint32()?);
+                48 => {
+                    self.COOOFFKIDMC.push(is.read_uint32()?);
                 },
-                90 => {
-                    self.BANOOJLMCED.push(is.read_string()?);
-                },
-                96 => {
+                24 => {
                     self.type_ = is.read_enum_or_unknown()?;
+                },
+                114 => {
+                    self.JLLKNNFAPEE.push(is.read_string()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -110,26 +110,26 @@ impl ::protobuf::Message for CancelSyncExpiredItemCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        my_size += ::protobuf::rt::vec_packed_uint32_size(1, &self.BBODMOKDOKC);
-        for value in &self.BANOOJLMCED {
-            my_size += ::protobuf::rt::string_size(11, &value);
-        };
-        if self.type_ != ::protobuf::EnumOrUnknown::new(super::IIEOKCDDIDO::IIEOKCDDIDO::IIEOKCDDIDO_MNFEPONEDDJ) {
-            my_size += ::protobuf::rt::int32_size(12, self.type_.value());
+        my_size += ::protobuf::rt::vec_packed_uint32_size(6, &self.COOOFFKIDMC);
+        if self.type_ != ::protobuf::EnumOrUnknown::new(super::JMGCDIANLGK::JMGCDIANLGK::JMGCDIANLGK_PCPDHELPKEM) {
+            my_size += ::protobuf::rt::int32_size(3, self.type_.value());
         }
+        for value in &self.JLLKNNFAPEE {
+            my_size += ::protobuf::rt::string_size(14, &value);
+        };
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        os.write_repeated_packed_uint32(1, &self.BBODMOKDOKC)?;
-        for v in &self.BANOOJLMCED {
-            os.write_string(11, &v)?;
-        };
-        if self.type_ != ::protobuf::EnumOrUnknown::new(super::IIEOKCDDIDO::IIEOKCDDIDO::IIEOKCDDIDO_MNFEPONEDDJ) {
-            os.write_enum(12, ::protobuf::EnumOrUnknown::value(&self.type_))?;
+        os.write_repeated_packed_uint32(6, &self.COOOFFKIDMC)?;
+        if self.type_ != ::protobuf::EnumOrUnknown::new(super::JMGCDIANLGK::JMGCDIANLGK::JMGCDIANLGK_PCPDHELPKEM) {
+            os.write_enum(3, ::protobuf::EnumOrUnknown::value(&self.type_))?;
         }
+        for v in &self.JLLKNNFAPEE {
+            os.write_string(14, &v)?;
+        };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -147,17 +147,17 @@ impl ::protobuf::Message for CancelSyncExpiredItemCsReq {
     }
 
     fn clear(&mut self) {
-        self.BBODMOKDOKC.clear();
-        self.BANOOJLMCED.clear();
-        self.type_ = ::protobuf::EnumOrUnknown::new(super::IIEOKCDDIDO::IIEOKCDDIDO::IIEOKCDDIDO_MNFEPONEDDJ);
+        self.COOOFFKIDMC.clear();
+        self.type_ = ::protobuf::EnumOrUnknown::new(super::JMGCDIANLGK::JMGCDIANLGK::JMGCDIANLGK_PCPDHELPKEM);
+        self.JLLKNNFAPEE.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static CancelSyncExpiredItemCsReq {
         static instance: CancelSyncExpiredItemCsReq = CancelSyncExpiredItemCsReq {
-            BBODMOKDOKC: ::std::vec::Vec::new(),
-            BANOOJLMCED: ::std::vec::Vec::new(),
+            COOOFFKIDMC: ::std::vec::Vec::new(),
             type_: ::protobuf::EnumOrUnknown::from_i32(0),
+            JLLKNNFAPEE: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -182,11 +182,11 @@ impl ::protobuf::reflect::ProtobufValue for CancelSyncExpiredItemCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x20CancelSyncExpiredItemCsReq.proto\x1a\x11IIEOKCDDIDO.proto\"\x82\
-    \x01\n\x1aCancelSyncExpiredItemCsReq\x12\x20\n\x0bBBODMOKDOKC\x18\x01\
-    \x20\x03(\rR\x0bBBODMOKDOKC\x12\x20\n\x0bBANOOJLMCED\x18\x0b\x20\x03(\tR\
-    \x0bBANOOJLMCED\x12\x20\n\x04type\x18\x0c\x20\x01(\x0e2\x0c.IIEOKCDDIDOR\
-    \x04typeb\x06proto3\
+    \n\x20CancelSyncExpiredItemCsReq.proto\x1a\x11JMGCDIANLGK.proto\"\x82\
+    \x01\n\x1aCancelSyncExpiredItemCsReq\x12\x20\n\x0bCOOOFFKIDMC\x18\x06\
+    \x20\x03(\rR\x0bCOOOFFKIDMC\x12\x20\n\x04type\x18\x03\x20\x01(\x0e2\x0c.\
+    JMGCDIANLGKR\x04type\x12\x20\n\x0bJLLKNNFAPEE\x18\x0e\x20\x03(\tR\x0bJLL\
+    KNNFAPEEb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -204,7 +204,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::IIEOKCDDIDO::file_descriptor().clone());
+            deps.push(super::JMGCDIANLGK::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(CancelSyncExpiredItemCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

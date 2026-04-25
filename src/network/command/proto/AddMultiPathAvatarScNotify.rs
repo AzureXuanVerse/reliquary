@@ -28,14 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct AddMultiPathAvatarScNotify {
     // message fields
+    // @@protoc_insertion_point(field:AddMultiPathAvatarScNotify.avatar_id)
+    pub avatar_id: u32,
     // @@protoc_insertion_point(field:AddMultiPathAvatarScNotify.is_new)
     pub is_new: bool,
     // @@protoc_insertion_point(field:AddMultiPathAvatarScNotify.reward)
     pub reward: ::protobuf::MessageField<super::ItemList::ItemList>,
-    // @@protoc_insertion_point(field:AddMultiPathAvatarScNotify.avatar_id)
-    pub avatar_id: u32,
-    // @@protoc_insertion_point(field:AddMultiPathAvatarScNotify.DKBCNMGBIAE)
-    pub DKBCNMGBIAE: ::protobuf::EnumOrUnknown<super::NBFLHLJGABC::NBFLHLJGABC>,
+    // @@protoc_insertion_point(field:AddMultiPathAvatarScNotify.LANGJOJLEOC)
+    pub LANGJOJLEOC: ::protobuf::EnumOrUnknown<super::PJNEFBBLPND::PJNEFBBLPND>,
+    // @@protoc_insertion_point(field:AddMultiPathAvatarScNotify.OIOFPADOGFC)
+    pub OIOFPADOGFC: ::std::vec::Vec<super::DPBEGBNICPG::DPBEGBNICPG>,
     // special fields
     // @@protoc_insertion_point(special_field:AddMultiPathAvatarScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -53,8 +55,13 @@ impl AddMultiPathAvatarScNotify {
     }
 
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
-        let mut fields = ::std::vec::Vec::with_capacity(4);
+        let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "avatar_id",
+            |m: &AddMultiPathAvatarScNotify| { &m.avatar_id },
+            |m: &mut AddMultiPathAvatarScNotify| { &mut m.avatar_id },
+        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "is_new",
             |m: &AddMultiPathAvatarScNotify| { &m.is_new },
@@ -66,14 +73,14 @@ impl AddMultiPathAvatarScNotify {
             |m: &mut AddMultiPathAvatarScNotify| { &mut m.reward },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "avatar_id",
-            |m: &AddMultiPathAvatarScNotify| { &m.avatar_id },
-            |m: &mut AddMultiPathAvatarScNotify| { &mut m.avatar_id },
+            "LANGJOJLEOC",
+            |m: &AddMultiPathAvatarScNotify| { &m.LANGJOJLEOC },
+            |m: &mut AddMultiPathAvatarScNotify| { &mut m.LANGJOJLEOC },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "DKBCNMGBIAE",
-            |m: &AddMultiPathAvatarScNotify| { &m.DKBCNMGBIAE },
-            |m: &mut AddMultiPathAvatarScNotify| { &mut m.DKBCNMGBIAE },
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "OIOFPADOGFC",
+            |m: &AddMultiPathAvatarScNotify| { &m.OIOFPADOGFC },
+            |m: &mut AddMultiPathAvatarScNotify| { &mut m.OIOFPADOGFC },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<AddMultiPathAvatarScNotify>(
             "AddMultiPathAvatarScNotify",
@@ -93,17 +100,20 @@ impl ::protobuf::Message for AddMultiPathAvatarScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                56 => {
-                    self.is_new = is.read_bool()?;
-                },
-                18 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.reward)?;
-                },
-                120 => {
+                96 => {
                     self.avatar_id = is.read_uint32()?;
                 },
-                80 => {
-                    self.DKBCNMGBIAE = is.read_enum_or_unknown()?;
+                32 => {
+                    self.is_new = is.read_bool()?;
+                },
+                114 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.reward)?;
+                },
+                16 => {
+                    self.LANGJOJLEOC = is.read_enum_or_unknown()?;
+                },
+                82 => {
+                    self.OIOFPADOGFC.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -117,6 +127,9 @@ impl ::protobuf::Message for AddMultiPathAvatarScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
+        if self.avatar_id != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.avatar_id);
+        }
         if self.is_new != false {
             my_size += 1 + 1;
         }
@@ -124,30 +137,34 @@ impl ::protobuf::Message for AddMultiPathAvatarScNotify {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.avatar_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(15, self.avatar_id);
+        if self.LANGJOJLEOC != ::protobuf::EnumOrUnknown::new(super::PJNEFBBLPND::PJNEFBBLPND::PJNEFBBLPND_PCPDHELPKEM) {
+            my_size += ::protobuf::rt::int32_size(2, self.LANGJOJLEOC.value());
         }
-        if self.DKBCNMGBIAE != ::protobuf::EnumOrUnknown::new(super::NBFLHLJGABC::NBFLHLJGABC::NBFLHLJGABC_MNFEPONEDDJ) {
-            my_size += ::protobuf::rt::int32_size(10, self.DKBCNMGBIAE.value());
-        }
+        for value in &self.OIOFPADOGFC {
+            let len = value.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        };
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
+        if self.avatar_id != 0 {
+            os.write_uint32(12, self.avatar_id)?;
+        }
         if self.is_new != false {
-            os.write_bool(7, self.is_new)?;
+            os.write_bool(4, self.is_new)?;
         }
         if let Some(v) = self.reward.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
         }
-        if self.avatar_id != 0 {
-            os.write_uint32(15, self.avatar_id)?;
+        if self.LANGJOJLEOC != ::protobuf::EnumOrUnknown::new(super::PJNEFBBLPND::PJNEFBBLPND::PJNEFBBLPND_PCPDHELPKEM) {
+            os.write_enum(2, ::protobuf::EnumOrUnknown::value(&self.LANGJOJLEOC))?;
         }
-        if self.DKBCNMGBIAE != ::protobuf::EnumOrUnknown::new(super::NBFLHLJGABC::NBFLHLJGABC::NBFLHLJGABC_MNFEPONEDDJ) {
-            os.write_enum(10, ::protobuf::EnumOrUnknown::value(&self.DKBCNMGBIAE))?;
-        }
+        for v in &self.OIOFPADOGFC {
+            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
+        };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -165,19 +182,21 @@ impl ::protobuf::Message for AddMultiPathAvatarScNotify {
     }
 
     fn clear(&mut self) {
+        self.avatar_id = 0;
         self.is_new = false;
         self.reward.clear();
-        self.avatar_id = 0;
-        self.DKBCNMGBIAE = ::protobuf::EnumOrUnknown::new(super::NBFLHLJGABC::NBFLHLJGABC::NBFLHLJGABC_MNFEPONEDDJ);
+        self.LANGJOJLEOC = ::protobuf::EnumOrUnknown::new(super::PJNEFBBLPND::PJNEFBBLPND::PJNEFBBLPND_PCPDHELPKEM);
+        self.OIOFPADOGFC.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static AddMultiPathAvatarScNotify {
         static instance: AddMultiPathAvatarScNotify = AddMultiPathAvatarScNotify {
+            avatar_id: 0,
             is_new: false,
             reward: ::protobuf::MessageField::none(),
-            avatar_id: 0,
-            DKBCNMGBIAE: ::protobuf::EnumOrUnknown::from_i32(0),
+            LANGJOJLEOC: ::protobuf::EnumOrUnknown::from_i32(0),
+            OIOFPADOGFC: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -202,12 +221,13 @@ impl ::protobuf::reflect::ProtobufValue for AddMultiPathAvatarScNotify {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x20AddMultiPathAvatarScNotify.proto\x1a\x0eItemList.proto\x1a\x11NBFL\
-    HLJGABC.proto\"\xa3\x01\n\x1aAddMultiPathAvatarScNotify\x12\x15\n\x06is_\
-    new\x18\x07\x20\x01(\x08R\x05isNew\x12!\n\x06reward\x18\x02\x20\x01(\x0b\
-    2\t.ItemListR\x06reward\x12\x1b\n\tavatar_id\x18\x0f\x20\x01(\rR\x08avat\
-    arId\x12.\n\x0bDKBCNMGBIAE\x18\n\x20\x01(\x0e2\x0c.NBFLHLJGABCR\x0bDKBCN\
-    MGBIAEb\x06proto3\
+    \n\x20AddMultiPathAvatarScNotify.proto\x1a\x11DPBEGBNICPG.proto\x1a\x0eI\
+    temList.proto\x1a\x11PJNEFBBLPND.proto\"\xd3\x01\n\x1aAddMultiPathAvatar\
+    ScNotify\x12\x1b\n\tavatar_id\x18\x0c\x20\x01(\rR\x08avatarId\x12\x15\n\
+    \x06is_new\x18\x04\x20\x01(\x08R\x05isNew\x12!\n\x06reward\x18\x0e\x20\
+    \x01(\x0b2\t.ItemListR\x06reward\x12.\n\x0bLANGJOJLEOC\x18\x02\x20\x01(\
+    \x0e2\x0c.PJNEFBBLPNDR\x0bLANGJOJLEOC\x12.\n\x0bOIOFPADOGFC\x18\n\x20\
+    \x03(\x0b2\x0c.DPBEGBNICPGR\x0bOIOFPADOGFCb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -224,9 +244,10 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     static file_descriptor: ::protobuf::rt::Lazy<::protobuf::reflect::FileDescriptor> = ::protobuf::rt::Lazy::new();
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
-            let mut deps = ::std::vec::Vec::with_capacity(2);
+            let mut deps = ::std::vec::Vec::with_capacity(3);
+            deps.push(super::DPBEGBNICPG::file_descriptor().clone());
             deps.push(super::ItemList::file_descriptor().clone());
-            deps.push(super::NBFLHLJGABC::file_descriptor().clone());
+            deps.push(super::PJNEFBBLPND::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(AddMultiPathAvatarScNotify::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

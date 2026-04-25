@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct BenefitData {
     // message fields
-    // @@protoc_insertion_point(field:BenefitData.config)
-    pub config: ::protobuf::MessageField<super::EGEBOOMLDPE::EGEBOOMLDPE>,
-    // @@protoc_insertion_point(field:BenefitData.BBODMOKDOKC)
-    pub BBODMOKDOKC: u32,
+    // @@protoc_insertion_point(field:BenefitData.ODLBOKHDANL)
+    pub ODLBOKHDANL: ::protobuf::MessageField<super::FHBFFIFIPOA::FHBFFIFIPOA>,
+    // @@protoc_insertion_point(field:BenefitData.COOOFFKIDMC)
+    pub COOOFFKIDMC: u32,
     // @@protoc_insertion_point(field:BenefitData.status)
     pub status: u32,
     // @@protoc_insertion_point(field:BenefitData.level)
@@ -55,15 +55,15 @@ impl BenefitData {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(4);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::EGEBOOMLDPE::EGEBOOMLDPE>(
-            "config",
-            |m: &BenefitData| { &m.config },
-            |m: &mut BenefitData| { &mut m.config },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::FHBFFIFIPOA::FHBFFIFIPOA>(
+            "ODLBOKHDANL",
+            |m: &BenefitData| { &m.ODLBOKHDANL },
+            |m: &mut BenefitData| { &mut m.ODLBOKHDANL },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "BBODMOKDOKC",
-            |m: &BenefitData| { &m.BBODMOKDOKC },
-            |m: &mut BenefitData| { &mut m.BBODMOKDOKC },
+            "COOOFFKIDMC",
+            |m: &BenefitData| { &m.COOOFFKIDMC },
+            |m: &mut BenefitData| { &mut m.COOOFFKIDMC },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "status",
@@ -93,16 +93,16 @@ impl ::protobuf::Message for BenefitData {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                74 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.config)?;
+                26 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.ODLBOKHDANL)?;
                 },
-                88 => {
-                    self.BBODMOKDOKC = is.read_uint32()?;
+                56 => {
+                    self.COOOFFKIDMC = is.read_uint32()?;
                 },
-                112 => {
+                32 => {
                     self.status = is.read_uint32()?;
                 },
-                96 => {
+                16 => {
                     self.level = is.read_uint32()?;
                 },
                 tag => {
@@ -117,18 +117,18 @@ impl ::protobuf::Message for BenefitData {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.config.as_ref() {
+        if let Some(v) = self.ODLBOKHDANL.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.BBODMOKDOKC != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.BBODMOKDOKC);
+        if self.COOOFFKIDMC != 0 {
+            my_size += ::protobuf::rt::uint32_size(7, self.COOOFFKIDMC);
         }
         if self.status != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.status);
+            my_size += ::protobuf::rt::uint32_size(4, self.status);
         }
         if self.level != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.level);
+            my_size += ::protobuf::rt::uint32_size(2, self.level);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -136,17 +136,17 @@ impl ::protobuf::Message for BenefitData {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.config.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
+        if let Some(v) = self.ODLBOKHDANL.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
         }
-        if self.BBODMOKDOKC != 0 {
-            os.write_uint32(11, self.BBODMOKDOKC)?;
+        if self.COOOFFKIDMC != 0 {
+            os.write_uint32(7, self.COOOFFKIDMC)?;
         }
         if self.status != 0 {
-            os.write_uint32(14, self.status)?;
+            os.write_uint32(4, self.status)?;
         }
         if self.level != 0 {
-            os.write_uint32(12, self.level)?;
+            os.write_uint32(2, self.level)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -165,8 +165,8 @@ impl ::protobuf::Message for BenefitData {
     }
 
     fn clear(&mut self) {
-        self.config.clear();
-        self.BBODMOKDOKC = 0;
+        self.ODLBOKHDANL.clear();
+        self.COOOFFKIDMC = 0;
         self.status = 0;
         self.level = 0;
         self.special_fields.clear();
@@ -174,8 +174,8 @@ impl ::protobuf::Message for BenefitData {
 
     fn default_instance() -> &'static BenefitData {
         static instance: BenefitData = BenefitData {
-            config: ::protobuf::MessageField::none(),
-            BBODMOKDOKC: 0,
+            ODLBOKHDANL: ::protobuf::MessageField::none(),
+            COOOFFKIDMC: 0,
             status: 0,
             level: 0,
             special_fields: ::protobuf::SpecialFields::new(),
@@ -202,11 +202,11 @@ impl ::protobuf::reflect::ProtobufValue for BenefitData {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x11BenefitData.proto\x1a\x11EGEBOOMLDPE.proto\"\x83\x01\n\x0bBenefitD\
-    ata\x12$\n\x06config\x18\t\x20\x01(\x0b2\x0c.EGEBOOMLDPER\x06config\x12\
-    \x20\n\x0bBBODMOKDOKC\x18\x0b\x20\x01(\rR\x0bBBODMOKDOKC\x12\x16\n\x06st\
-    atus\x18\x0e\x20\x01(\rR\x06status\x12\x14\n\x05level\x18\x0c\x20\x01(\r\
-    R\x05levelb\x06proto3\
+    \n\x11BenefitData.proto\x1a\x11FHBFFIFIPOA.proto\"\x8d\x01\n\x0bBenefitD\
+    ata\x12.\n\x0bODLBOKHDANL\x18\x03\x20\x01(\x0b2\x0c.FHBFFIFIPOAR\x0bODLB\
+    OKHDANL\x12\x20\n\x0bCOOOFFKIDMC\x18\x07\x20\x01(\rR\x0bCOOOFFKIDMC\x12\
+    \x16\n\x06status\x18\x04\x20\x01(\rR\x06status\x12\x14\n\x05level\x18\
+    \x02\x20\x01(\rR\x05levelb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -224,7 +224,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::EGEBOOMLDPE::file_descriptor().clone());
+            deps.push(super::FHBFFIFIPOA::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(BenefitData::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

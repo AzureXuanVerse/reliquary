@@ -27,40 +27,50 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdPlayerReturnType)
 pub enum CmdPlayerReturnType {
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_MNFEPONEDDJ)
-    CmdPlayerReturnType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_JKANJACNBLK)
-    CmdPlayerReturnType_JKANJACNBLK = 4523,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_BOBGPNGIJDI)
-    CmdPlayerReturnType_BOBGPNGIJDI = 4583,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_HCLFAJJHNGH)
-    CmdPlayerReturnType_HCLFAJJHNGH = 4546,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_MFBGAJLACBG)
-    CmdPlayerReturnType_MFBGAJLACBG = 4600,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_ALJGFLPOPAE)
-    CmdPlayerReturnType_ALJGFLPOPAE = 4504,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_BAKMHGHBPFK)
-    CmdPlayerReturnType_BAKMHGHBPFK = 4540,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_FMHHACLLKDB)
-    CmdPlayerReturnType_FMHHACLLKDB = 4513,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_ECGCNHMNCPM)
-    CmdPlayerReturnType_ECGCNHMNCPM = 4562,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_BLMDDADBGBL)
-    CmdPlayerReturnType_BLMDDADBGBL = 4556,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_FHCBBAFOEDM)
-    CmdPlayerReturnType_FHCBBAFOEDM = 4557,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_PDGBFIJBCHG)
-    CmdPlayerReturnType_PDGBFIJBCHG = 4569,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_EFPCMCJIJFO)
-    CmdPlayerReturnType_EFPCMCJIJFO = 4519,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_DOCDOMPNCHA)
-    CmdPlayerReturnType_DOCDOMPNCHA = 4524,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_AJBNIAKNMHO)
-    CmdPlayerReturnType_AJBNIAKNMHO = 4535,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_BOFGNCIEABF)
-    CmdPlayerReturnType_BOFGNCIEABF = 4581,
-    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnType_AKJDOFPPBLA)
-    CmdPlayerReturnType_AKJDOFPPBLA = 4584,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.GKIPMIMPDLE_PCPDHELPKEM)
+    GKIPMIMPDLE_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnTakePointRewardCsReq)
+    CmdPlayerReturnTakePointRewardCsReq = 4514,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdTakeReturnExtraHcoinRewardCsReq)
+    CmdTakeReturnExtraHcoinRewardCsReq = 4533,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdTakeReturnExtraHcoinRewardScRsp)
+    CmdTakeReturnExtraHcoinRewardScRsp = 4561,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnInfoQueryScRsp)
+    CmdPlayerReturnInfoQueryScRsp = 4526,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnPointChangeScNotify)
+    CmdPlayerReturnPointChangeScNotify = 4595,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.GKIPMIMPDLE_MKANLBAGGEO)
+    GKIPMIMPDLE_MKANLBAGGEO = 4558,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnTakeExtraHcoinScNotify)
+    CmdPlayerReturnTakeExtraHcoinScNotify = 4537,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnExtraHcoinProgressScNotify)
+    CmdPlayerReturnExtraHcoinProgressScNotify = 4507,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnSignCsReq)
+    CmdPlayerReturnSignCsReq = 4510,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdHIBLMDNPOMN)
+    CmdHIBLMDNPOMN = 4591,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnInfoQueryCsReq)
+    CmdPlayerReturnInfoQueryCsReq = 4563,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnTakeRelicScRsp)
+    CmdPlayerReturnTakeRelicScRsp = 4574,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnTakePointRewardScRsp)
+    CmdPlayerReturnTakePointRewardScRsp = 4518,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnTakeRelicCsReq)
+    CmdPlayerReturnTakeRelicCsReq = 4501,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnTakeCustomRelicCsReq)
+    CmdPlayerReturnTakeCustomRelicCsReq = 4504,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnTakeCustomRelicScRsp)
+    CmdPlayerReturnTakeCustomRelicScRsp = 4538,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdNEOADMEAIDK)
+    CmdNEOADMEAIDK = 4544,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnTakeRewardCsReq)
+    CmdPlayerReturnTakeRewardCsReq = 4509,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnSignScRsp)
+    CmdPlayerReturnSignScRsp = 4594,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnTakeRewardScRsp)
+    CmdPlayerReturnTakeRewardScRsp = 4598,
+    // @@protoc_insertion_point(enum_value:CmdPlayerReturnType.CmdPlayerReturnForceFinishScNotify)
+    CmdPlayerReturnForceFinishScNotify = 4539,
 }
 
 impl ::protobuf::Enum for CmdPlayerReturnType {
@@ -72,68 +82,83 @@ impl ::protobuf::Enum for CmdPlayerReturnType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdPlayerReturnType> {
         match value {
-            0 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_MNFEPONEDDJ),
-            4523 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_JKANJACNBLK),
-            4583 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_BOBGPNGIJDI),
-            4546 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_HCLFAJJHNGH),
-            4600 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_MFBGAJLACBG),
-            4504 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_ALJGFLPOPAE),
-            4540 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_BAKMHGHBPFK),
-            4513 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_FMHHACLLKDB),
-            4562 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_ECGCNHMNCPM),
-            4556 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_BLMDDADBGBL),
-            4557 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_FHCBBAFOEDM),
-            4569 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_PDGBFIJBCHG),
-            4519 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_EFPCMCJIJFO),
-            4524 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_DOCDOMPNCHA),
-            4535 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_AJBNIAKNMHO),
-            4581 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_BOFGNCIEABF),
-            4584 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_AKJDOFPPBLA),
+            0 => ::std::option::Option::Some(CmdPlayerReturnType::GKIPMIMPDLE_PCPDHELPKEM),
+            4514 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakePointRewardCsReq),
+            4533 => ::std::option::Option::Some(CmdPlayerReturnType::CmdTakeReturnExtraHcoinRewardCsReq),
+            4561 => ::std::option::Option::Some(CmdPlayerReturnType::CmdTakeReturnExtraHcoinRewardScRsp),
+            4526 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnInfoQueryScRsp),
+            4595 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnPointChangeScNotify),
+            4558 => ::std::option::Option::Some(CmdPlayerReturnType::GKIPMIMPDLE_MKANLBAGGEO),
+            4537 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakeExtraHcoinScNotify),
+            4507 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnExtraHcoinProgressScNotify),
+            4510 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnSignCsReq),
+            4591 => ::std::option::Option::Some(CmdPlayerReturnType::CmdHIBLMDNPOMN),
+            4563 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnInfoQueryCsReq),
+            4574 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakeRelicScRsp),
+            4518 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakePointRewardScRsp),
+            4501 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakeRelicCsReq),
+            4504 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakeCustomRelicCsReq),
+            4538 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakeCustomRelicScRsp),
+            4544 => ::std::option::Option::Some(CmdPlayerReturnType::CmdNEOADMEAIDK),
+            4509 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakeRewardCsReq),
+            4594 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnSignScRsp),
+            4598 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakeRewardScRsp),
+            4539 => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnForceFinishScNotify),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdPlayerReturnType> {
         match str {
-            "CmdPlayerReturnType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_MNFEPONEDDJ),
-            "CmdPlayerReturnType_JKANJACNBLK" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_JKANJACNBLK),
-            "CmdPlayerReturnType_BOBGPNGIJDI" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_BOBGPNGIJDI),
-            "CmdPlayerReturnType_HCLFAJJHNGH" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_HCLFAJJHNGH),
-            "CmdPlayerReturnType_MFBGAJLACBG" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_MFBGAJLACBG),
-            "CmdPlayerReturnType_ALJGFLPOPAE" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_ALJGFLPOPAE),
-            "CmdPlayerReturnType_BAKMHGHBPFK" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_BAKMHGHBPFK),
-            "CmdPlayerReturnType_FMHHACLLKDB" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_FMHHACLLKDB),
-            "CmdPlayerReturnType_ECGCNHMNCPM" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_ECGCNHMNCPM),
-            "CmdPlayerReturnType_BLMDDADBGBL" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_BLMDDADBGBL),
-            "CmdPlayerReturnType_FHCBBAFOEDM" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_FHCBBAFOEDM),
-            "CmdPlayerReturnType_PDGBFIJBCHG" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_PDGBFIJBCHG),
-            "CmdPlayerReturnType_EFPCMCJIJFO" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_EFPCMCJIJFO),
-            "CmdPlayerReturnType_DOCDOMPNCHA" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_DOCDOMPNCHA),
-            "CmdPlayerReturnType_AJBNIAKNMHO" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_AJBNIAKNMHO),
-            "CmdPlayerReturnType_BOFGNCIEABF" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_BOFGNCIEABF),
-            "CmdPlayerReturnType_AKJDOFPPBLA" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnType_AKJDOFPPBLA),
+            "GKIPMIMPDLE_PCPDHELPKEM" => ::std::option::Option::Some(CmdPlayerReturnType::GKIPMIMPDLE_PCPDHELPKEM),
+            "CmdPlayerReturnTakePointRewardCsReq" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakePointRewardCsReq),
+            "CmdTakeReturnExtraHcoinRewardCsReq" => ::std::option::Option::Some(CmdPlayerReturnType::CmdTakeReturnExtraHcoinRewardCsReq),
+            "CmdTakeReturnExtraHcoinRewardScRsp" => ::std::option::Option::Some(CmdPlayerReturnType::CmdTakeReturnExtraHcoinRewardScRsp),
+            "CmdPlayerReturnInfoQueryScRsp" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnInfoQueryScRsp),
+            "CmdPlayerReturnPointChangeScNotify" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnPointChangeScNotify),
+            "GKIPMIMPDLE_MKANLBAGGEO" => ::std::option::Option::Some(CmdPlayerReturnType::GKIPMIMPDLE_MKANLBAGGEO),
+            "CmdPlayerReturnTakeExtraHcoinScNotify" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakeExtraHcoinScNotify),
+            "CmdPlayerReturnExtraHcoinProgressScNotify" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnExtraHcoinProgressScNotify),
+            "CmdPlayerReturnSignCsReq" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnSignCsReq),
+            "CmdHIBLMDNPOMN" => ::std::option::Option::Some(CmdPlayerReturnType::CmdHIBLMDNPOMN),
+            "CmdPlayerReturnInfoQueryCsReq" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnInfoQueryCsReq),
+            "CmdPlayerReturnTakeRelicScRsp" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakeRelicScRsp),
+            "CmdPlayerReturnTakePointRewardScRsp" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakePointRewardScRsp),
+            "CmdPlayerReturnTakeRelicCsReq" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakeRelicCsReq),
+            "CmdPlayerReturnTakeCustomRelicCsReq" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakeCustomRelicCsReq),
+            "CmdPlayerReturnTakeCustomRelicScRsp" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakeCustomRelicScRsp),
+            "CmdNEOADMEAIDK" => ::std::option::Option::Some(CmdPlayerReturnType::CmdNEOADMEAIDK),
+            "CmdPlayerReturnTakeRewardCsReq" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakeRewardCsReq),
+            "CmdPlayerReturnSignScRsp" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnSignScRsp),
+            "CmdPlayerReturnTakeRewardScRsp" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnTakeRewardScRsp),
+            "CmdPlayerReturnForceFinishScNotify" => ::std::option::Option::Some(CmdPlayerReturnType::CmdPlayerReturnForceFinishScNotify),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdPlayerReturnType] = &[
-        CmdPlayerReturnType::CmdPlayerReturnType_MNFEPONEDDJ,
-        CmdPlayerReturnType::CmdPlayerReturnType_JKANJACNBLK,
-        CmdPlayerReturnType::CmdPlayerReturnType_BOBGPNGIJDI,
-        CmdPlayerReturnType::CmdPlayerReturnType_HCLFAJJHNGH,
-        CmdPlayerReturnType::CmdPlayerReturnType_MFBGAJLACBG,
-        CmdPlayerReturnType::CmdPlayerReturnType_ALJGFLPOPAE,
-        CmdPlayerReturnType::CmdPlayerReturnType_BAKMHGHBPFK,
-        CmdPlayerReturnType::CmdPlayerReturnType_FMHHACLLKDB,
-        CmdPlayerReturnType::CmdPlayerReturnType_ECGCNHMNCPM,
-        CmdPlayerReturnType::CmdPlayerReturnType_BLMDDADBGBL,
-        CmdPlayerReturnType::CmdPlayerReturnType_FHCBBAFOEDM,
-        CmdPlayerReturnType::CmdPlayerReturnType_PDGBFIJBCHG,
-        CmdPlayerReturnType::CmdPlayerReturnType_EFPCMCJIJFO,
-        CmdPlayerReturnType::CmdPlayerReturnType_DOCDOMPNCHA,
-        CmdPlayerReturnType::CmdPlayerReturnType_AJBNIAKNMHO,
-        CmdPlayerReturnType::CmdPlayerReturnType_BOFGNCIEABF,
-        CmdPlayerReturnType::CmdPlayerReturnType_AKJDOFPPBLA,
+        CmdPlayerReturnType::GKIPMIMPDLE_PCPDHELPKEM,
+        CmdPlayerReturnType::CmdPlayerReturnTakePointRewardCsReq,
+        CmdPlayerReturnType::CmdTakeReturnExtraHcoinRewardCsReq,
+        CmdPlayerReturnType::CmdTakeReturnExtraHcoinRewardScRsp,
+        CmdPlayerReturnType::CmdPlayerReturnInfoQueryScRsp,
+        CmdPlayerReturnType::CmdPlayerReturnPointChangeScNotify,
+        CmdPlayerReturnType::GKIPMIMPDLE_MKANLBAGGEO,
+        CmdPlayerReturnType::CmdPlayerReturnTakeExtraHcoinScNotify,
+        CmdPlayerReturnType::CmdPlayerReturnExtraHcoinProgressScNotify,
+        CmdPlayerReturnType::CmdPlayerReturnSignCsReq,
+        CmdPlayerReturnType::CmdHIBLMDNPOMN,
+        CmdPlayerReturnType::CmdPlayerReturnInfoQueryCsReq,
+        CmdPlayerReturnType::CmdPlayerReturnTakeRelicScRsp,
+        CmdPlayerReturnType::CmdPlayerReturnTakePointRewardScRsp,
+        CmdPlayerReturnType::CmdPlayerReturnTakeRelicCsReq,
+        CmdPlayerReturnType::CmdPlayerReturnTakeCustomRelicCsReq,
+        CmdPlayerReturnType::CmdPlayerReturnTakeCustomRelicScRsp,
+        CmdPlayerReturnType::CmdNEOADMEAIDK,
+        CmdPlayerReturnType::CmdPlayerReturnTakeRewardCsReq,
+        CmdPlayerReturnType::CmdPlayerReturnSignScRsp,
+        CmdPlayerReturnType::CmdPlayerReturnTakeRewardScRsp,
+        CmdPlayerReturnType::CmdPlayerReturnForceFinishScNotify,
     ];
 }
 
@@ -145,23 +170,28 @@ impl ::protobuf::EnumFull for CmdPlayerReturnType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdPlayerReturnType::CmdPlayerReturnType_MNFEPONEDDJ => 0,
-            CmdPlayerReturnType::CmdPlayerReturnType_JKANJACNBLK => 1,
-            CmdPlayerReturnType::CmdPlayerReturnType_BOBGPNGIJDI => 2,
-            CmdPlayerReturnType::CmdPlayerReturnType_HCLFAJJHNGH => 3,
-            CmdPlayerReturnType::CmdPlayerReturnType_MFBGAJLACBG => 4,
-            CmdPlayerReturnType::CmdPlayerReturnType_ALJGFLPOPAE => 5,
-            CmdPlayerReturnType::CmdPlayerReturnType_BAKMHGHBPFK => 6,
-            CmdPlayerReturnType::CmdPlayerReturnType_FMHHACLLKDB => 7,
-            CmdPlayerReturnType::CmdPlayerReturnType_ECGCNHMNCPM => 8,
-            CmdPlayerReturnType::CmdPlayerReturnType_BLMDDADBGBL => 9,
-            CmdPlayerReturnType::CmdPlayerReturnType_FHCBBAFOEDM => 10,
-            CmdPlayerReturnType::CmdPlayerReturnType_PDGBFIJBCHG => 11,
-            CmdPlayerReturnType::CmdPlayerReturnType_EFPCMCJIJFO => 12,
-            CmdPlayerReturnType::CmdPlayerReturnType_DOCDOMPNCHA => 13,
-            CmdPlayerReturnType::CmdPlayerReturnType_AJBNIAKNMHO => 14,
-            CmdPlayerReturnType::CmdPlayerReturnType_BOFGNCIEABF => 15,
-            CmdPlayerReturnType::CmdPlayerReturnType_AKJDOFPPBLA => 16,
+            CmdPlayerReturnType::GKIPMIMPDLE_PCPDHELPKEM => 0,
+            CmdPlayerReturnType::CmdPlayerReturnTakePointRewardCsReq => 1,
+            CmdPlayerReturnType::CmdTakeReturnExtraHcoinRewardCsReq => 2,
+            CmdPlayerReturnType::CmdTakeReturnExtraHcoinRewardScRsp => 3,
+            CmdPlayerReturnType::CmdPlayerReturnInfoQueryScRsp => 4,
+            CmdPlayerReturnType::CmdPlayerReturnPointChangeScNotify => 5,
+            CmdPlayerReturnType::GKIPMIMPDLE_MKANLBAGGEO => 6,
+            CmdPlayerReturnType::CmdPlayerReturnTakeExtraHcoinScNotify => 7,
+            CmdPlayerReturnType::CmdPlayerReturnExtraHcoinProgressScNotify => 8,
+            CmdPlayerReturnType::CmdPlayerReturnSignCsReq => 9,
+            CmdPlayerReturnType::CmdHIBLMDNPOMN => 10,
+            CmdPlayerReturnType::CmdPlayerReturnInfoQueryCsReq => 11,
+            CmdPlayerReturnType::CmdPlayerReturnTakeRelicScRsp => 12,
+            CmdPlayerReturnType::CmdPlayerReturnTakePointRewardScRsp => 13,
+            CmdPlayerReturnType::CmdPlayerReturnTakeRelicCsReq => 14,
+            CmdPlayerReturnType::CmdPlayerReturnTakeCustomRelicCsReq => 15,
+            CmdPlayerReturnType::CmdPlayerReturnTakeCustomRelicScRsp => 16,
+            CmdPlayerReturnType::CmdNEOADMEAIDK => 17,
+            CmdPlayerReturnType::CmdPlayerReturnTakeRewardCsReq => 18,
+            CmdPlayerReturnType::CmdPlayerReturnSignScRsp => 19,
+            CmdPlayerReturnType::CmdPlayerReturnTakeRewardScRsp => 20,
+            CmdPlayerReturnType::CmdPlayerReturnForceFinishScNotify => 21,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -169,7 +199,7 @@ impl ::protobuf::EnumFull for CmdPlayerReturnType {
 
 impl ::std::default::Default for CmdPlayerReturnType {
     fn default() -> Self {
-        CmdPlayerReturnType::CmdPlayerReturnType_MNFEPONEDDJ
+        CmdPlayerReturnType::GKIPMIMPDLE_PCPDHELPKEM
     }
 }
 
@@ -180,20 +210,23 @@ impl CmdPlayerReturnType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x19CmdPlayerReturnType.proto*\x9a\x05\n\x13CmdPlayerReturnType\x12#\n\
-    \x1fCmdPlayerReturnType_MNFEPONEDDJ\x10\0\x12$\n\x1fCmdPlayerReturnType_\
-    JKANJACNBLK\x10\xab#\x12$\n\x1fCmdPlayerReturnType_BOBGPNGIJDI\x10\xe7#\
-    \x12$\n\x1fCmdPlayerReturnType_HCLFAJJHNGH\x10\xc2#\x12$\n\x1fCmdPlayerR\
-    eturnType_MFBGAJLACBG\x10\xf8#\x12$\n\x1fCmdPlayerReturnType_ALJGFLPOPAE\
-    \x10\x98#\x12$\n\x1fCmdPlayerReturnType_BAKMHGHBPFK\x10\xbc#\x12$\n\x1fC\
-    mdPlayerReturnType_FMHHACLLKDB\x10\xa1#\x12$\n\x1fCmdPlayerReturnType_EC\
-    GCNHMNCPM\x10\xd2#\x12$\n\x1fCmdPlayerReturnType_BLMDDADBGBL\x10\xcc#\
-    \x12$\n\x1fCmdPlayerReturnType_FHCBBAFOEDM\x10\xcd#\x12$\n\x1fCmdPlayerR\
-    eturnType_PDGBFIJBCHG\x10\xd9#\x12$\n\x1fCmdPlayerReturnType_EFPCMCJIJFO\
-    \x10\xa7#\x12$\n\x1fCmdPlayerReturnType_DOCDOMPNCHA\x10\xac#\x12$\n\x1fC\
-    mdPlayerReturnType_AJBNIAKNMHO\x10\xb7#\x12$\n\x1fCmdPlayerReturnType_BO\
-    FGNCIEABF\x10\xe5#\x12$\n\x1fCmdPlayerReturnType_AKJDOFPPBLA\x10\xe8#b\
-    \x06proto3\
+    \n\x19CmdPlayerReturnType.proto*\xba\x06\n\x13CmdPlayerReturnType\x12\
+    \x1b\n\x17GKIPMIMPDLE_PCPDHELPKEM\x10\0\x12(\n#CmdPlayerReturnTakePointR\
+    ewardCsReq\x10\xa2#\x12'\n\"CmdTakeReturnExtraHcoinRewardCsReq\x10\xb5#\
+    \x12'\n\"CmdTakeReturnExtraHcoinRewardScRsp\x10\xd1#\x12\"\n\x1dCmdPlaye\
+    rReturnInfoQueryScRsp\x10\xae#\x12'\n\"CmdPlayerReturnPointChangeScNotif\
+    y\x10\xf3#\x12\x1c\n\x17GKIPMIMPDLE_MKANLBAGGEO\x10\xce#\x12*\n%CmdPlaye\
+    rReturnTakeExtraHcoinScNotify\x10\xb9#\x12.\n)CmdPlayerReturnExtraHcoinP\
+    rogressScNotify\x10\x9b#\x12\x1d\n\x18CmdPlayerReturnSignCsReq\x10\x9e#\
+    \x12\x13\n\x0eCmdHIBLMDNPOMN\x10\xef#\x12\"\n\x1dCmdPlayerReturnInfoQuer\
+    yCsReq\x10\xd3#\x12\"\n\x1dCmdPlayerReturnTakeRelicScRsp\x10\xde#\x12(\n\
+    #CmdPlayerReturnTakePointRewardScRsp\x10\xa6#\x12\"\n\x1dCmdPlayerReturn\
+    TakeRelicCsReq\x10\x95#\x12(\n#CmdPlayerReturnTakeCustomRelicCsReq\x10\
+    \x98#\x12(\n#CmdPlayerReturnTakeCustomRelicScRsp\x10\xba#\x12\x13\n\x0eC\
+    mdNEOADMEAIDK\x10\xc0#\x12#\n\x1eCmdPlayerReturnTakeRewardCsReq\x10\x9d#\
+    \x12\x1d\n\x18CmdPlayerReturnSignScRsp\x10\xf2#\x12#\n\x1eCmdPlayerRetur\
+    nTakeRewardScRsp\x10\xf6#\x12'\n\"CmdPlayerReturnForceFinishScNotify\x10\
+    \xbb#b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -27,54 +27,54 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdLobbyType)
 pub enum CmdLobbyType {
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_MNFEPONEDDJ)
-    CmdLobbyType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_GADIKJKLBCH)
-    CmdLobbyType_GADIKJKLBCH = 7388,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_AOBDAODNKPE)
-    CmdLobbyType_AOBDAODNKPE = 7379,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_HDLIICAFOJH)
-    CmdLobbyType_HDLIICAFOJH = 7390,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_FJIMOMJIOJP)
-    CmdLobbyType_FJIMOMJIOJP = 7391,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_CHLAHHFNFIC)
-    CmdLobbyType_CHLAHHFNFIC = 7364,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_DFLIJKGPOHM)
-    CmdLobbyType_DFLIJKGPOHM = 7389,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_AFLMKMGGLFI)
-    CmdLobbyType_AFLMKMGGLFI = 7373,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_MABKHIPBFPJ)
-    CmdLobbyType_MABKHIPBFPJ = 7357,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_FHADGCLKFJN)
-    CmdLobbyType_FHADGCLKFJN = 7368,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_LEPPBPMCFJC)
-    CmdLobbyType_LEPPBPMCFJC = 7351,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_FGINHCBPMJD)
-    CmdLobbyType_FGINHCBPMJD = 7384,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_CPFBDMKBHML)
-    CmdLobbyType_CPFBDMKBHML = 7372,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_DBLCADNCAFL)
-    CmdLobbyType_DBLCADNCAFL = 7378,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_DPPBMOBBDKF)
-    CmdLobbyType_DPPBMOBBDKF = 7361,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_FBNAELGHEGG)
-    CmdLobbyType_FBNAELGHEGG = 7354,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_JOFBNBLJOJP)
-    CmdLobbyType_JOFBNBLJOJP = 7358,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_ICFOGJGOJNC)
-    CmdLobbyType_ICFOGJGOJNC = 7380,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_OCPABHJABDN)
-    CmdLobbyType_OCPABHJABDN = 7362,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_BEMDFIFDLMK)
-    CmdLobbyType_BEMDFIFDLMK = 7356,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_NGFNNBAMFCE)
-    CmdLobbyType_NGFNNBAMFCE = 7353,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_KMADPKCLGFF)
-    CmdLobbyType_KMADPKCLGFF = 7371,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_BGOJPBPODGA)
-    CmdLobbyType_BGOJPBPODGA = 7374,
-    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyType_MABCKMACIAN)
-    CmdLobbyType_MABCKMACIAN = 7352,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.LADMLLPIABE_PCPDHELPKEM)
+    LADMLLPIABE_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyJoinScRsp)
+    CmdLobbyJoinScRsp = 7377,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdOHCJBDGLPMK)
+    CmdOHCJBDGLPMK = 7385,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbySyncInfoScNotify)
+    CmdLobbySyncInfoScNotify = 7352,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyInteractScNotify)
+    CmdLobbyInteractScNotify = 7399,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdOGGBENIJKOF)
+    CmdOGGBENIJKOF = 7388,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdFPDFPCDCKHB)
+    CmdFPDFPCDCKHB = 7365,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdFLNKHEMBJOG)
+    CmdFLNKHEMBJOG = 7369,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdMNHCLKHLAHM)
+    CmdMNHCLKHLAHM = 7368,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdIDLCDBNPCBG)
+    CmdIDLCDBNPCBG = 7386,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdBGKIEFCLGDF)
+    CmdBGKIEFCLGDF = 7353,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyGetInfoScRsp)
+    CmdLobbyGetInfoScRsp = 7366,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyCreateScRsp)
+    CmdLobbyCreateScRsp = 7357,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyKickOutCsReq)
+    CmdLobbyKickOutCsReq = 7397,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyGetInfoCsReq)
+    CmdLobbyGetInfoCsReq = 7400,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyInviteCsReq)
+    CmdLobbyInviteCsReq = 7394,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdPLMMDNCJHBG)
+    CmdPLMMDNCJHBG = 7351,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyModifyPlayerInfoCsReq)
+    CmdLobbyModifyPlayerInfoCsReq = 7355,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdPIJFMEMDDDF)
+    CmdPIJFMEMDDDF = 7356,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyJoinCsReq)
+    CmdLobbyJoinCsReq = 7380,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdCKMIGEIACIO)
+    CmdCKMIGEIACIO = 7371,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyCreateCsReq)
+    CmdLobbyCreateCsReq = 7363,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdLobbyQuitCsReq)
+    CmdLobbyQuitCsReq = 7395,
+    // @@protoc_insertion_point(enum_value:CmdLobbyType.CmdHKFDCBOOEIO)
+    CmdHKFDCBOOEIO = 7381,
 }
 
 impl ::protobuf::Enum for CmdLobbyType {
@@ -86,89 +86,89 @@ impl ::protobuf::Enum for CmdLobbyType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdLobbyType> {
         match value {
-            0 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_MNFEPONEDDJ),
-            7388 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_GADIKJKLBCH),
-            7379 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_AOBDAODNKPE),
-            7390 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_HDLIICAFOJH),
-            7391 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_FJIMOMJIOJP),
-            7364 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_CHLAHHFNFIC),
-            7389 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_DFLIJKGPOHM),
-            7373 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_AFLMKMGGLFI),
-            7357 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_MABKHIPBFPJ),
-            7368 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_FHADGCLKFJN),
-            7351 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_LEPPBPMCFJC),
-            7384 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_FGINHCBPMJD),
-            7372 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_CPFBDMKBHML),
-            7378 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_DBLCADNCAFL),
-            7361 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_DPPBMOBBDKF),
-            7354 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_FBNAELGHEGG),
-            7358 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_JOFBNBLJOJP),
-            7380 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_ICFOGJGOJNC),
-            7362 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_OCPABHJABDN),
-            7356 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_BEMDFIFDLMK),
-            7353 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_NGFNNBAMFCE),
-            7371 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_KMADPKCLGFF),
-            7374 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_BGOJPBPODGA),
-            7352 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_MABCKMACIAN),
+            0 => ::std::option::Option::Some(CmdLobbyType::LADMLLPIABE_PCPDHELPKEM),
+            7377 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyJoinScRsp),
+            7385 => ::std::option::Option::Some(CmdLobbyType::CmdOHCJBDGLPMK),
+            7352 => ::std::option::Option::Some(CmdLobbyType::CmdLobbySyncInfoScNotify),
+            7399 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyInteractScNotify),
+            7388 => ::std::option::Option::Some(CmdLobbyType::CmdOGGBENIJKOF),
+            7365 => ::std::option::Option::Some(CmdLobbyType::CmdFPDFPCDCKHB),
+            7369 => ::std::option::Option::Some(CmdLobbyType::CmdFLNKHEMBJOG),
+            7368 => ::std::option::Option::Some(CmdLobbyType::CmdMNHCLKHLAHM),
+            7386 => ::std::option::Option::Some(CmdLobbyType::CmdIDLCDBNPCBG),
+            7353 => ::std::option::Option::Some(CmdLobbyType::CmdBGKIEFCLGDF),
+            7366 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyGetInfoScRsp),
+            7357 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyCreateScRsp),
+            7397 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyKickOutCsReq),
+            7400 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyGetInfoCsReq),
+            7394 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyInviteCsReq),
+            7351 => ::std::option::Option::Some(CmdLobbyType::CmdPLMMDNCJHBG),
+            7355 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyModifyPlayerInfoCsReq),
+            7356 => ::std::option::Option::Some(CmdLobbyType::CmdPIJFMEMDDDF),
+            7380 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyJoinCsReq),
+            7371 => ::std::option::Option::Some(CmdLobbyType::CmdCKMIGEIACIO),
+            7363 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyCreateCsReq),
+            7395 => ::std::option::Option::Some(CmdLobbyType::CmdLobbyQuitCsReq),
+            7381 => ::std::option::Option::Some(CmdLobbyType::CmdHKFDCBOOEIO),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdLobbyType> {
         match str {
-            "CmdLobbyType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_MNFEPONEDDJ),
-            "CmdLobbyType_GADIKJKLBCH" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_GADIKJKLBCH),
-            "CmdLobbyType_AOBDAODNKPE" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_AOBDAODNKPE),
-            "CmdLobbyType_HDLIICAFOJH" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_HDLIICAFOJH),
-            "CmdLobbyType_FJIMOMJIOJP" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_FJIMOMJIOJP),
-            "CmdLobbyType_CHLAHHFNFIC" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_CHLAHHFNFIC),
-            "CmdLobbyType_DFLIJKGPOHM" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_DFLIJKGPOHM),
-            "CmdLobbyType_AFLMKMGGLFI" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_AFLMKMGGLFI),
-            "CmdLobbyType_MABKHIPBFPJ" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_MABKHIPBFPJ),
-            "CmdLobbyType_FHADGCLKFJN" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_FHADGCLKFJN),
-            "CmdLobbyType_LEPPBPMCFJC" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_LEPPBPMCFJC),
-            "CmdLobbyType_FGINHCBPMJD" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_FGINHCBPMJD),
-            "CmdLobbyType_CPFBDMKBHML" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_CPFBDMKBHML),
-            "CmdLobbyType_DBLCADNCAFL" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_DBLCADNCAFL),
-            "CmdLobbyType_DPPBMOBBDKF" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_DPPBMOBBDKF),
-            "CmdLobbyType_FBNAELGHEGG" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_FBNAELGHEGG),
-            "CmdLobbyType_JOFBNBLJOJP" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_JOFBNBLJOJP),
-            "CmdLobbyType_ICFOGJGOJNC" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_ICFOGJGOJNC),
-            "CmdLobbyType_OCPABHJABDN" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_OCPABHJABDN),
-            "CmdLobbyType_BEMDFIFDLMK" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_BEMDFIFDLMK),
-            "CmdLobbyType_NGFNNBAMFCE" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_NGFNNBAMFCE),
-            "CmdLobbyType_KMADPKCLGFF" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_KMADPKCLGFF),
-            "CmdLobbyType_BGOJPBPODGA" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_BGOJPBPODGA),
-            "CmdLobbyType_MABCKMACIAN" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyType_MABCKMACIAN),
+            "LADMLLPIABE_PCPDHELPKEM" => ::std::option::Option::Some(CmdLobbyType::LADMLLPIABE_PCPDHELPKEM),
+            "CmdLobbyJoinScRsp" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyJoinScRsp),
+            "CmdOHCJBDGLPMK" => ::std::option::Option::Some(CmdLobbyType::CmdOHCJBDGLPMK),
+            "CmdLobbySyncInfoScNotify" => ::std::option::Option::Some(CmdLobbyType::CmdLobbySyncInfoScNotify),
+            "CmdLobbyInteractScNotify" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyInteractScNotify),
+            "CmdOGGBENIJKOF" => ::std::option::Option::Some(CmdLobbyType::CmdOGGBENIJKOF),
+            "CmdFPDFPCDCKHB" => ::std::option::Option::Some(CmdLobbyType::CmdFPDFPCDCKHB),
+            "CmdFLNKHEMBJOG" => ::std::option::Option::Some(CmdLobbyType::CmdFLNKHEMBJOG),
+            "CmdMNHCLKHLAHM" => ::std::option::Option::Some(CmdLobbyType::CmdMNHCLKHLAHM),
+            "CmdIDLCDBNPCBG" => ::std::option::Option::Some(CmdLobbyType::CmdIDLCDBNPCBG),
+            "CmdBGKIEFCLGDF" => ::std::option::Option::Some(CmdLobbyType::CmdBGKIEFCLGDF),
+            "CmdLobbyGetInfoScRsp" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyGetInfoScRsp),
+            "CmdLobbyCreateScRsp" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyCreateScRsp),
+            "CmdLobbyKickOutCsReq" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyKickOutCsReq),
+            "CmdLobbyGetInfoCsReq" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyGetInfoCsReq),
+            "CmdLobbyInviteCsReq" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyInviteCsReq),
+            "CmdPLMMDNCJHBG" => ::std::option::Option::Some(CmdLobbyType::CmdPLMMDNCJHBG),
+            "CmdLobbyModifyPlayerInfoCsReq" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyModifyPlayerInfoCsReq),
+            "CmdPIJFMEMDDDF" => ::std::option::Option::Some(CmdLobbyType::CmdPIJFMEMDDDF),
+            "CmdLobbyJoinCsReq" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyJoinCsReq),
+            "CmdCKMIGEIACIO" => ::std::option::Option::Some(CmdLobbyType::CmdCKMIGEIACIO),
+            "CmdLobbyCreateCsReq" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyCreateCsReq),
+            "CmdLobbyQuitCsReq" => ::std::option::Option::Some(CmdLobbyType::CmdLobbyQuitCsReq),
+            "CmdHKFDCBOOEIO" => ::std::option::Option::Some(CmdLobbyType::CmdHKFDCBOOEIO),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdLobbyType] = &[
-        CmdLobbyType::CmdLobbyType_MNFEPONEDDJ,
-        CmdLobbyType::CmdLobbyType_GADIKJKLBCH,
-        CmdLobbyType::CmdLobbyType_AOBDAODNKPE,
-        CmdLobbyType::CmdLobbyType_HDLIICAFOJH,
-        CmdLobbyType::CmdLobbyType_FJIMOMJIOJP,
-        CmdLobbyType::CmdLobbyType_CHLAHHFNFIC,
-        CmdLobbyType::CmdLobbyType_DFLIJKGPOHM,
-        CmdLobbyType::CmdLobbyType_AFLMKMGGLFI,
-        CmdLobbyType::CmdLobbyType_MABKHIPBFPJ,
-        CmdLobbyType::CmdLobbyType_FHADGCLKFJN,
-        CmdLobbyType::CmdLobbyType_LEPPBPMCFJC,
-        CmdLobbyType::CmdLobbyType_FGINHCBPMJD,
-        CmdLobbyType::CmdLobbyType_CPFBDMKBHML,
-        CmdLobbyType::CmdLobbyType_DBLCADNCAFL,
-        CmdLobbyType::CmdLobbyType_DPPBMOBBDKF,
-        CmdLobbyType::CmdLobbyType_FBNAELGHEGG,
-        CmdLobbyType::CmdLobbyType_JOFBNBLJOJP,
-        CmdLobbyType::CmdLobbyType_ICFOGJGOJNC,
-        CmdLobbyType::CmdLobbyType_OCPABHJABDN,
-        CmdLobbyType::CmdLobbyType_BEMDFIFDLMK,
-        CmdLobbyType::CmdLobbyType_NGFNNBAMFCE,
-        CmdLobbyType::CmdLobbyType_KMADPKCLGFF,
-        CmdLobbyType::CmdLobbyType_BGOJPBPODGA,
-        CmdLobbyType::CmdLobbyType_MABCKMACIAN,
+        CmdLobbyType::LADMLLPIABE_PCPDHELPKEM,
+        CmdLobbyType::CmdLobbyJoinScRsp,
+        CmdLobbyType::CmdOHCJBDGLPMK,
+        CmdLobbyType::CmdLobbySyncInfoScNotify,
+        CmdLobbyType::CmdLobbyInteractScNotify,
+        CmdLobbyType::CmdOGGBENIJKOF,
+        CmdLobbyType::CmdFPDFPCDCKHB,
+        CmdLobbyType::CmdFLNKHEMBJOG,
+        CmdLobbyType::CmdMNHCLKHLAHM,
+        CmdLobbyType::CmdIDLCDBNPCBG,
+        CmdLobbyType::CmdBGKIEFCLGDF,
+        CmdLobbyType::CmdLobbyGetInfoScRsp,
+        CmdLobbyType::CmdLobbyCreateScRsp,
+        CmdLobbyType::CmdLobbyKickOutCsReq,
+        CmdLobbyType::CmdLobbyGetInfoCsReq,
+        CmdLobbyType::CmdLobbyInviteCsReq,
+        CmdLobbyType::CmdPLMMDNCJHBG,
+        CmdLobbyType::CmdLobbyModifyPlayerInfoCsReq,
+        CmdLobbyType::CmdPIJFMEMDDDF,
+        CmdLobbyType::CmdLobbyJoinCsReq,
+        CmdLobbyType::CmdCKMIGEIACIO,
+        CmdLobbyType::CmdLobbyCreateCsReq,
+        CmdLobbyType::CmdLobbyQuitCsReq,
+        CmdLobbyType::CmdHKFDCBOOEIO,
     ];
 }
 
@@ -180,30 +180,30 @@ impl ::protobuf::EnumFull for CmdLobbyType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdLobbyType::CmdLobbyType_MNFEPONEDDJ => 0,
-            CmdLobbyType::CmdLobbyType_GADIKJKLBCH => 1,
-            CmdLobbyType::CmdLobbyType_AOBDAODNKPE => 2,
-            CmdLobbyType::CmdLobbyType_HDLIICAFOJH => 3,
-            CmdLobbyType::CmdLobbyType_FJIMOMJIOJP => 4,
-            CmdLobbyType::CmdLobbyType_CHLAHHFNFIC => 5,
-            CmdLobbyType::CmdLobbyType_DFLIJKGPOHM => 6,
-            CmdLobbyType::CmdLobbyType_AFLMKMGGLFI => 7,
-            CmdLobbyType::CmdLobbyType_MABKHIPBFPJ => 8,
-            CmdLobbyType::CmdLobbyType_FHADGCLKFJN => 9,
-            CmdLobbyType::CmdLobbyType_LEPPBPMCFJC => 10,
-            CmdLobbyType::CmdLobbyType_FGINHCBPMJD => 11,
-            CmdLobbyType::CmdLobbyType_CPFBDMKBHML => 12,
-            CmdLobbyType::CmdLobbyType_DBLCADNCAFL => 13,
-            CmdLobbyType::CmdLobbyType_DPPBMOBBDKF => 14,
-            CmdLobbyType::CmdLobbyType_FBNAELGHEGG => 15,
-            CmdLobbyType::CmdLobbyType_JOFBNBLJOJP => 16,
-            CmdLobbyType::CmdLobbyType_ICFOGJGOJNC => 17,
-            CmdLobbyType::CmdLobbyType_OCPABHJABDN => 18,
-            CmdLobbyType::CmdLobbyType_BEMDFIFDLMK => 19,
-            CmdLobbyType::CmdLobbyType_NGFNNBAMFCE => 20,
-            CmdLobbyType::CmdLobbyType_KMADPKCLGFF => 21,
-            CmdLobbyType::CmdLobbyType_BGOJPBPODGA => 22,
-            CmdLobbyType::CmdLobbyType_MABCKMACIAN => 23,
+            CmdLobbyType::LADMLLPIABE_PCPDHELPKEM => 0,
+            CmdLobbyType::CmdLobbyJoinScRsp => 1,
+            CmdLobbyType::CmdOHCJBDGLPMK => 2,
+            CmdLobbyType::CmdLobbySyncInfoScNotify => 3,
+            CmdLobbyType::CmdLobbyInteractScNotify => 4,
+            CmdLobbyType::CmdOGGBENIJKOF => 5,
+            CmdLobbyType::CmdFPDFPCDCKHB => 6,
+            CmdLobbyType::CmdFLNKHEMBJOG => 7,
+            CmdLobbyType::CmdMNHCLKHLAHM => 8,
+            CmdLobbyType::CmdIDLCDBNPCBG => 9,
+            CmdLobbyType::CmdBGKIEFCLGDF => 10,
+            CmdLobbyType::CmdLobbyGetInfoScRsp => 11,
+            CmdLobbyType::CmdLobbyCreateScRsp => 12,
+            CmdLobbyType::CmdLobbyKickOutCsReq => 13,
+            CmdLobbyType::CmdLobbyGetInfoCsReq => 14,
+            CmdLobbyType::CmdLobbyInviteCsReq => 15,
+            CmdLobbyType::CmdPLMMDNCJHBG => 16,
+            CmdLobbyType::CmdLobbyModifyPlayerInfoCsReq => 17,
+            CmdLobbyType::CmdPIJFMEMDDDF => 18,
+            CmdLobbyType::CmdLobbyJoinCsReq => 19,
+            CmdLobbyType::CmdCKMIGEIACIO => 20,
+            CmdLobbyType::CmdLobbyCreateCsReq => 21,
+            CmdLobbyType::CmdLobbyQuitCsReq => 22,
+            CmdLobbyType::CmdHKFDCBOOEIO => 23,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -211,7 +211,7 @@ impl ::protobuf::EnumFull for CmdLobbyType {
 
 impl ::std::default::Default for CmdLobbyType {
     fn default() -> Self {
-        CmdLobbyType::CmdLobbyType_MNFEPONEDDJ
+        CmdLobbyType::LADMLLPIABE_PCPDHELPKEM
     }
 }
 
@@ -222,23 +222,21 @@ impl CmdLobbyType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x12CmdLobbyType.proto*\xf5\x05\n\x0cCmdLobbyType\x12\x1c\n\x18CmdLobb\
-    yType_MNFEPONEDDJ\x10\0\x12\x1d\n\x18CmdLobbyType_GADIKJKLBCH\x10\xdc9\
-    \x12\x1d\n\x18CmdLobbyType_AOBDAODNKPE\x10\xd39\x12\x1d\n\x18CmdLobbyTyp\
-    e_HDLIICAFOJH\x10\xde9\x12\x1d\n\x18CmdLobbyType_FJIMOMJIOJP\x10\xdf9\
-    \x12\x1d\n\x18CmdLobbyType_CHLAHHFNFIC\x10\xc49\x12\x1d\n\x18CmdLobbyTyp\
-    e_DFLIJKGPOHM\x10\xdd9\x12\x1d\n\x18CmdLobbyType_AFLMKMGGLFI\x10\xcd9\
-    \x12\x1d\n\x18CmdLobbyType_MABKHIPBFPJ\x10\xbd9\x12\x1d\n\x18CmdLobbyTyp\
-    e_FHADGCLKFJN\x10\xc89\x12\x1d\n\x18CmdLobbyType_LEPPBPMCFJC\x10\xb79\
-    \x12\x1d\n\x18CmdLobbyType_FGINHCBPMJD\x10\xd89\x12\x1d\n\x18CmdLobbyTyp\
-    e_CPFBDMKBHML\x10\xcc9\x12\x1d\n\x18CmdLobbyType_DBLCADNCAFL\x10\xd29\
-    \x12\x1d\n\x18CmdLobbyType_DPPBMOBBDKF\x10\xc19\x12\x1d\n\x18CmdLobbyTyp\
-    e_FBNAELGHEGG\x10\xba9\x12\x1d\n\x18CmdLobbyType_JOFBNBLJOJP\x10\xbe9\
-    \x12\x1d\n\x18CmdLobbyType_ICFOGJGOJNC\x10\xd49\x12\x1d\n\x18CmdLobbyTyp\
-    e_OCPABHJABDN\x10\xc29\x12\x1d\n\x18CmdLobbyType_BEMDFIFDLMK\x10\xbc9\
-    \x12\x1d\n\x18CmdLobbyType_NGFNNBAMFCE\x10\xb99\x12\x1d\n\x18CmdLobbyTyp\
-    e_KMADPKCLGFF\x10\xcb9\x12\x1d\n\x18CmdLobbyType_BGOJPBPODGA\x10\xce9\
-    \x12\x1d\n\x18CmdLobbyType_MABCKMACIAN\x10\xb89b\x06proto3\
+    \n\x12CmdLobbyType.proto*\xdb\x04\n\x0cCmdLobbyType\x12\x1b\n\x17LADMLLP\
+    IABE_PCPDHELPKEM\x10\0\x12\x16\n\x11CmdLobbyJoinScRsp\x10\xd19\x12\x13\n\
+    \x0eCmdOHCJBDGLPMK\x10\xd99\x12\x1d\n\x18CmdLobbySyncInfoScNotify\x10\
+    \xb89\x12\x1d\n\x18CmdLobbyInteractScNotify\x10\xe79\x12\x13\n\x0eCmdOGG\
+    BENIJKOF\x10\xdc9\x12\x13\n\x0eCmdFPDFPCDCKHB\x10\xc59\x12\x13\n\x0eCmdF\
+    LNKHEMBJOG\x10\xc99\x12\x13\n\x0eCmdMNHCLKHLAHM\x10\xc89\x12\x13\n\x0eCm\
+    dIDLCDBNPCBG\x10\xda9\x12\x13\n\x0eCmdBGKIEFCLGDF\x10\xb99\x12\x19\n\x14\
+    CmdLobbyGetInfoScRsp\x10\xc69\x12\x18\n\x13CmdLobbyCreateScRsp\x10\xbd9\
+    \x12\x19\n\x14CmdLobbyKickOutCsReq\x10\xe59\x12\x19\n\x14CmdLobbyGetInfo\
+    CsReq\x10\xe89\x12\x18\n\x13CmdLobbyInviteCsReq\x10\xe29\x12\x13\n\x0eCm\
+    dPLMMDNCJHBG\x10\xb79\x12\"\n\x1dCmdLobbyModifyPlayerInfoCsReq\x10\xbb9\
+    \x12\x13\n\x0eCmdPIJFMEMDDDF\x10\xbc9\x12\x16\n\x11CmdLobbyJoinCsReq\x10\
+    \xd49\x12\x13\n\x0eCmdCKMIGEIACIO\x10\xcb9\x12\x18\n\x13CmdLobbyCreateCs\
+    Req\x10\xc39\x12\x16\n\x11CmdLobbyQuitCsReq\x10\xe39\x12\x13\n\x0eCmdHKF\
+    DCBOOEIO\x10\xd59b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

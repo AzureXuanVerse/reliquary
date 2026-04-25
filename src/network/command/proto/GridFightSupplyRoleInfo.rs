@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightSupplyRoleInfo {
     // message fields
-    // @@protoc_insertion_point(field:GridFightSupplyRoleInfo.role_id)
-    pub role_id: u32,
     // @@protoc_insertion_point(field:GridFightSupplyRoleInfo.grid_fight_item_list)
     pub grid_fight_item_list: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:GridFightSupplyRoleInfo.role_id)
+    pub role_id: u32,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightSupplyRoleInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -51,15 +51,15 @@ impl GridFightSupplyRoleInfo {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "role_id",
-            |m: &GridFightSupplyRoleInfo| { &m.role_id },
-            |m: &mut GridFightSupplyRoleInfo| { &mut m.role_id },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "grid_fight_item_list",
             |m: &GridFightSupplyRoleInfo| { &m.grid_fight_item_list },
             |m: &mut GridFightSupplyRoleInfo| { &mut m.grid_fight_item_list },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "role_id",
+            |m: &GridFightSupplyRoleInfo| { &m.role_id },
+            |m: &mut GridFightSupplyRoleInfo| { &mut m.role_id },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightSupplyRoleInfo>(
             "GridFightSupplyRoleInfo",
@@ -79,14 +79,14 @@ impl ::protobuf::Message for GridFightSupplyRoleInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                40 => {
-                    self.role_id = is.read_uint32()?;
-                },
-                98 => {
+                18 => {
                     is.read_repeated_packed_uint32_into(&mut self.grid_fight_item_list)?;
                 },
-                96 => {
+                16 => {
                     self.grid_fight_item_list.push(is.read_uint32()?);
+                },
+                24 => {
+                    self.role_id = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -100,20 +100,20 @@ impl ::protobuf::Message for GridFightSupplyRoleInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
+        my_size += ::protobuf::rt::vec_packed_uint32_size(2, &self.grid_fight_item_list);
         if self.role_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(5, self.role_id);
+            my_size += ::protobuf::rt::uint32_size(3, self.role_id);
         }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(12, &self.grid_fight_item_list);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
+        os.write_repeated_packed_uint32(2, &self.grid_fight_item_list)?;
         if self.role_id != 0 {
-            os.write_uint32(5, self.role_id)?;
+            os.write_uint32(3, self.role_id)?;
         }
-        os.write_repeated_packed_uint32(12, &self.grid_fight_item_list)?;
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -131,15 +131,15 @@ impl ::protobuf::Message for GridFightSupplyRoleInfo {
     }
 
     fn clear(&mut self) {
-        self.role_id = 0;
         self.grid_fight_item_list.clear();
+        self.role_id = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightSupplyRoleInfo {
         static instance: GridFightSupplyRoleInfo = GridFightSupplyRoleInfo {
-            role_id: 0,
             grid_fight_item_list: ::std::vec::Vec::new(),
+            role_id: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -164,9 +164,9 @@ impl ::protobuf::reflect::ProtobufValue for GridFightSupplyRoleInfo {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1dGridFightSupplyRoleInfo.proto\"c\n\x17GridFightSupplyRoleInfo\x12\
-    \x17\n\x07role_id\x18\x05\x20\x01(\rR\x06roleId\x12/\n\x14grid_fight_ite\
-    m_list\x18\x0c\x20\x03(\rR\x11gridFightItemListb\x06proto3\
+    \n\x1dGridFightSupplyRoleInfo.proto\"c\n\x17GridFightSupplyRoleInfo\x12/\
+    \n\x14grid_fight_item_list\x18\x02\x20\x03(\rR\x11gridFightItemList\x12\
+    \x17\n\x07role_id\x18\x03\x20\x01(\rR\x06roleIdb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

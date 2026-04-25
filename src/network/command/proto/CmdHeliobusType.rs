@@ -27,54 +27,54 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdHeliobusType)
 pub enum CmdHeliobusType {
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_MNFEPONEDDJ)
-    CmdHeliobusType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_AOFHBHIKNDE)
-    CmdHeliobusType_AOFHBHIKNDE = 5869,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_GOBKNOGCBIP)
-    CmdHeliobusType_GOBKNOGCBIP = 5803,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_BCMOHPGADLJ)
-    CmdHeliobusType_BCMOHPGADLJ = 5862,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_LAFIGPGFJJO)
-    CmdHeliobusType_LAFIGPGFJJO = 5824,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_JJGAOEOLAKE)
-    CmdHeliobusType_JJGAOEOLAKE = 5857,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_FELBGHJMBAG)
-    CmdHeliobusType_FELBGHJMBAG = 5856,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_KCGFCBEIDAM)
-    CmdHeliobusType_KCGFCBEIDAM = 5813,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_FJEJBDGOMBJ)
-    CmdHeliobusType_FJEJBDGOMBJ = 5883,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_OCDGLGKCJFE)
-    CmdHeliobusType_OCDGLGKCJFE = 5884,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_KABMKHIGNEH)
-    CmdHeliobusType_KABMKHIGNEH = 5848,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_EHJOIDEGLPO)
-    CmdHeliobusType_EHJOIDEGLPO = 5804,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_OCGGAMNJPBO)
-    CmdHeliobusType_OCGGAMNJPBO = 5818,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_BHAHNHNOMME)
-    CmdHeliobusType_BHAHNHNOMME = 5900,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_BEBBAJIPCLP)
-    CmdHeliobusType_BEBBAJIPCLP = 5806,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_EOFCGAPHNDL)
-    CmdHeliobusType_EOFCGAPHNDL = 5881,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_DFCGMDLPPIP)
-    CmdHeliobusType_DFCGMDLPPIP = 5823,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_CBABKOOPLJM)
-    CmdHeliobusType_CBABKOOPLJM = 5831,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_NHJIPEBILDJ)
-    CmdHeliobusType_NHJIPEBILDJ = 5840,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_CGNPJAGALOO)
-    CmdHeliobusType_CGNPJAGALOO = 5809,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_HCOPDGAPNJH)
-    CmdHeliobusType_HCOPDGAPNJH = 5835,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_NDEIOPHGOAK)
-    CmdHeliobusType_NDEIOPHGOAK = 5819,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_EKBOLODKCCC)
-    CmdHeliobusType_EKBOLODKCCC = 5846,
-    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusType_PJNJNKOIIBH)
-    CmdHeliobusType_PJNJNKOIIBH = 5886,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.MJNBDODPDOG_PCPDHELPKEM)
+    MJNBDODPDOG_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusSnsReadScRsp)
+    CmdHeliobusSnsReadScRsp = 5895,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusSnsPostCsReq)
+    CmdHeliobusSnsPostCsReq = 5814,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusEnterBattleCsReq)
+    CmdHeliobusEnterBattleCsReq = 5861,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusSnsCommentCsReq)
+    CmdHeliobusSnsCommentCsReq = 5863,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusSnsLikeCsReq)
+    CmdHeliobusSnsLikeCsReq = 5809,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.MJNBDODPDOG_GFHGNNHOIKJ)
+    MJNBDODPDOG_GFHGNNHOIKJ = 5838,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusUnlockSkillScNotify)
+    CmdHeliobusUnlockSkillScNotify = 5804,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusSnsLikeScRsp)
+    CmdHeliobusSnsLikeScRsp = 5898,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusInfoChangedScNotify)
+    CmdHeliobusInfoChangedScNotify = 5801,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusSnsPostScRsp)
+    CmdHeliobusSnsPostScRsp = 5818,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusActivityDataScRsp)
+    CmdHeliobusActivityDataScRsp = 5810,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusSnsReadCsReq)
+    CmdHeliobusSnsReadCsReq = 5894,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusActivityDataCsReq)
+    CmdHeliobusActivityDataCsReq = 5891,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusSnsUpdateScNotify)
+    CmdHeliobusSnsUpdateScNotify = 5839,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusEnterBattleScRsp)
+    CmdHeliobusEnterBattleScRsp = 5807,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusLineupUpdateScNotify)
+    CmdHeliobusLineupUpdateScNotify = 5889,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusChallengeUpdateScNotify)
+    CmdHeliobusChallengeUpdateScNotify = 5900,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusUpgradeLevelCsReq)
+    CmdHeliobusUpgradeLevelCsReq = 5874,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusStartRaidScRsp)
+    CmdHeliobusStartRaidScRsp = 5844,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusUpgradeLevelScRsp)
+    CmdHeliobusUpgradeLevelScRsp = 5837,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusStartRaidCsReq)
+    CmdHeliobusStartRaidCsReq = 5858,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusSnsCommentScRsp)
+    CmdHeliobusSnsCommentScRsp = 5826,
+    // @@protoc_insertion_point(enum_value:CmdHeliobusType.CmdHeliobusSelectSkillScRsp)
+    CmdHeliobusSelectSkillScRsp = 5872,
 }
 
 impl ::protobuf::Enum for CmdHeliobusType {
@@ -86,89 +86,89 @@ impl ::protobuf::Enum for CmdHeliobusType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdHeliobusType> {
         match value {
-            0 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_MNFEPONEDDJ),
-            5869 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_AOFHBHIKNDE),
-            5803 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_GOBKNOGCBIP),
-            5862 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_BCMOHPGADLJ),
-            5824 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_LAFIGPGFJJO),
-            5857 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_JJGAOEOLAKE),
-            5856 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_FELBGHJMBAG),
-            5813 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_KCGFCBEIDAM),
-            5883 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_FJEJBDGOMBJ),
-            5884 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_OCDGLGKCJFE),
-            5848 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_KABMKHIGNEH),
-            5804 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_EHJOIDEGLPO),
-            5818 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_OCGGAMNJPBO),
-            5900 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_BHAHNHNOMME),
-            5806 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_BEBBAJIPCLP),
-            5881 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_EOFCGAPHNDL),
-            5823 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_DFCGMDLPPIP),
-            5831 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_CBABKOOPLJM),
-            5840 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_NHJIPEBILDJ),
-            5809 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_CGNPJAGALOO),
-            5835 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_HCOPDGAPNJH),
-            5819 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_NDEIOPHGOAK),
-            5846 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_EKBOLODKCCC),
-            5886 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_PJNJNKOIIBH),
+            0 => ::std::option::Option::Some(CmdHeliobusType::MJNBDODPDOG_PCPDHELPKEM),
+            5895 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsReadScRsp),
+            5814 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsPostCsReq),
+            5861 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusEnterBattleCsReq),
+            5863 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsCommentCsReq),
+            5809 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsLikeCsReq),
+            5838 => ::std::option::Option::Some(CmdHeliobusType::MJNBDODPDOG_GFHGNNHOIKJ),
+            5804 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusUnlockSkillScNotify),
+            5898 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsLikeScRsp),
+            5801 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusInfoChangedScNotify),
+            5818 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsPostScRsp),
+            5810 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusActivityDataScRsp),
+            5894 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsReadCsReq),
+            5891 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusActivityDataCsReq),
+            5839 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsUpdateScNotify),
+            5807 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusEnterBattleScRsp),
+            5889 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusLineupUpdateScNotify),
+            5900 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusChallengeUpdateScNotify),
+            5874 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusUpgradeLevelCsReq),
+            5844 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusStartRaidScRsp),
+            5837 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusUpgradeLevelScRsp),
+            5858 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusStartRaidCsReq),
+            5826 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsCommentScRsp),
+            5872 => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSelectSkillScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdHeliobusType> {
         match str {
-            "CmdHeliobusType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_MNFEPONEDDJ),
-            "CmdHeliobusType_AOFHBHIKNDE" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_AOFHBHIKNDE),
-            "CmdHeliobusType_GOBKNOGCBIP" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_GOBKNOGCBIP),
-            "CmdHeliobusType_BCMOHPGADLJ" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_BCMOHPGADLJ),
-            "CmdHeliobusType_LAFIGPGFJJO" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_LAFIGPGFJJO),
-            "CmdHeliobusType_JJGAOEOLAKE" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_JJGAOEOLAKE),
-            "CmdHeliobusType_FELBGHJMBAG" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_FELBGHJMBAG),
-            "CmdHeliobusType_KCGFCBEIDAM" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_KCGFCBEIDAM),
-            "CmdHeliobusType_FJEJBDGOMBJ" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_FJEJBDGOMBJ),
-            "CmdHeliobusType_OCDGLGKCJFE" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_OCDGLGKCJFE),
-            "CmdHeliobusType_KABMKHIGNEH" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_KABMKHIGNEH),
-            "CmdHeliobusType_EHJOIDEGLPO" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_EHJOIDEGLPO),
-            "CmdHeliobusType_OCGGAMNJPBO" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_OCGGAMNJPBO),
-            "CmdHeliobusType_BHAHNHNOMME" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_BHAHNHNOMME),
-            "CmdHeliobusType_BEBBAJIPCLP" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_BEBBAJIPCLP),
-            "CmdHeliobusType_EOFCGAPHNDL" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_EOFCGAPHNDL),
-            "CmdHeliobusType_DFCGMDLPPIP" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_DFCGMDLPPIP),
-            "CmdHeliobusType_CBABKOOPLJM" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_CBABKOOPLJM),
-            "CmdHeliobusType_NHJIPEBILDJ" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_NHJIPEBILDJ),
-            "CmdHeliobusType_CGNPJAGALOO" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_CGNPJAGALOO),
-            "CmdHeliobusType_HCOPDGAPNJH" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_HCOPDGAPNJH),
-            "CmdHeliobusType_NDEIOPHGOAK" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_NDEIOPHGOAK),
-            "CmdHeliobusType_EKBOLODKCCC" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_EKBOLODKCCC),
-            "CmdHeliobusType_PJNJNKOIIBH" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusType_PJNJNKOIIBH),
+            "MJNBDODPDOG_PCPDHELPKEM" => ::std::option::Option::Some(CmdHeliobusType::MJNBDODPDOG_PCPDHELPKEM),
+            "CmdHeliobusSnsReadScRsp" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsReadScRsp),
+            "CmdHeliobusSnsPostCsReq" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsPostCsReq),
+            "CmdHeliobusEnterBattleCsReq" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusEnterBattleCsReq),
+            "CmdHeliobusSnsCommentCsReq" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsCommentCsReq),
+            "CmdHeliobusSnsLikeCsReq" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsLikeCsReq),
+            "MJNBDODPDOG_GFHGNNHOIKJ" => ::std::option::Option::Some(CmdHeliobusType::MJNBDODPDOG_GFHGNNHOIKJ),
+            "CmdHeliobusUnlockSkillScNotify" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusUnlockSkillScNotify),
+            "CmdHeliobusSnsLikeScRsp" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsLikeScRsp),
+            "CmdHeliobusInfoChangedScNotify" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusInfoChangedScNotify),
+            "CmdHeliobusSnsPostScRsp" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsPostScRsp),
+            "CmdHeliobusActivityDataScRsp" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusActivityDataScRsp),
+            "CmdHeliobusSnsReadCsReq" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsReadCsReq),
+            "CmdHeliobusActivityDataCsReq" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusActivityDataCsReq),
+            "CmdHeliobusSnsUpdateScNotify" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsUpdateScNotify),
+            "CmdHeliobusEnterBattleScRsp" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusEnterBattleScRsp),
+            "CmdHeliobusLineupUpdateScNotify" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusLineupUpdateScNotify),
+            "CmdHeliobusChallengeUpdateScNotify" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusChallengeUpdateScNotify),
+            "CmdHeliobusUpgradeLevelCsReq" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusUpgradeLevelCsReq),
+            "CmdHeliobusStartRaidScRsp" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusStartRaidScRsp),
+            "CmdHeliobusUpgradeLevelScRsp" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusUpgradeLevelScRsp),
+            "CmdHeliobusStartRaidCsReq" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusStartRaidCsReq),
+            "CmdHeliobusSnsCommentScRsp" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSnsCommentScRsp),
+            "CmdHeliobusSelectSkillScRsp" => ::std::option::Option::Some(CmdHeliobusType::CmdHeliobusSelectSkillScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdHeliobusType] = &[
-        CmdHeliobusType::CmdHeliobusType_MNFEPONEDDJ,
-        CmdHeliobusType::CmdHeliobusType_AOFHBHIKNDE,
-        CmdHeliobusType::CmdHeliobusType_GOBKNOGCBIP,
-        CmdHeliobusType::CmdHeliobusType_BCMOHPGADLJ,
-        CmdHeliobusType::CmdHeliobusType_LAFIGPGFJJO,
-        CmdHeliobusType::CmdHeliobusType_JJGAOEOLAKE,
-        CmdHeliobusType::CmdHeliobusType_FELBGHJMBAG,
-        CmdHeliobusType::CmdHeliobusType_KCGFCBEIDAM,
-        CmdHeliobusType::CmdHeliobusType_FJEJBDGOMBJ,
-        CmdHeliobusType::CmdHeliobusType_OCDGLGKCJFE,
-        CmdHeliobusType::CmdHeliobusType_KABMKHIGNEH,
-        CmdHeliobusType::CmdHeliobusType_EHJOIDEGLPO,
-        CmdHeliobusType::CmdHeliobusType_OCGGAMNJPBO,
-        CmdHeliobusType::CmdHeliobusType_BHAHNHNOMME,
-        CmdHeliobusType::CmdHeliobusType_BEBBAJIPCLP,
-        CmdHeliobusType::CmdHeliobusType_EOFCGAPHNDL,
-        CmdHeliobusType::CmdHeliobusType_DFCGMDLPPIP,
-        CmdHeliobusType::CmdHeliobusType_CBABKOOPLJM,
-        CmdHeliobusType::CmdHeliobusType_NHJIPEBILDJ,
-        CmdHeliobusType::CmdHeliobusType_CGNPJAGALOO,
-        CmdHeliobusType::CmdHeliobusType_HCOPDGAPNJH,
-        CmdHeliobusType::CmdHeliobusType_NDEIOPHGOAK,
-        CmdHeliobusType::CmdHeliobusType_EKBOLODKCCC,
-        CmdHeliobusType::CmdHeliobusType_PJNJNKOIIBH,
+        CmdHeliobusType::MJNBDODPDOG_PCPDHELPKEM,
+        CmdHeliobusType::CmdHeliobusSnsReadScRsp,
+        CmdHeliobusType::CmdHeliobusSnsPostCsReq,
+        CmdHeliobusType::CmdHeliobusEnterBattleCsReq,
+        CmdHeliobusType::CmdHeliobusSnsCommentCsReq,
+        CmdHeliobusType::CmdHeliobusSnsLikeCsReq,
+        CmdHeliobusType::MJNBDODPDOG_GFHGNNHOIKJ,
+        CmdHeliobusType::CmdHeliobusUnlockSkillScNotify,
+        CmdHeliobusType::CmdHeliobusSnsLikeScRsp,
+        CmdHeliobusType::CmdHeliobusInfoChangedScNotify,
+        CmdHeliobusType::CmdHeliobusSnsPostScRsp,
+        CmdHeliobusType::CmdHeliobusActivityDataScRsp,
+        CmdHeliobusType::CmdHeliobusSnsReadCsReq,
+        CmdHeliobusType::CmdHeliobusActivityDataCsReq,
+        CmdHeliobusType::CmdHeliobusSnsUpdateScNotify,
+        CmdHeliobusType::CmdHeliobusEnterBattleScRsp,
+        CmdHeliobusType::CmdHeliobusLineupUpdateScNotify,
+        CmdHeliobusType::CmdHeliobusChallengeUpdateScNotify,
+        CmdHeliobusType::CmdHeliobusUpgradeLevelCsReq,
+        CmdHeliobusType::CmdHeliobusStartRaidScRsp,
+        CmdHeliobusType::CmdHeliobusUpgradeLevelScRsp,
+        CmdHeliobusType::CmdHeliobusStartRaidCsReq,
+        CmdHeliobusType::CmdHeliobusSnsCommentScRsp,
+        CmdHeliobusType::CmdHeliobusSelectSkillScRsp,
     ];
 }
 
@@ -180,30 +180,30 @@ impl ::protobuf::EnumFull for CmdHeliobusType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdHeliobusType::CmdHeliobusType_MNFEPONEDDJ => 0,
-            CmdHeliobusType::CmdHeliobusType_AOFHBHIKNDE => 1,
-            CmdHeliobusType::CmdHeliobusType_GOBKNOGCBIP => 2,
-            CmdHeliobusType::CmdHeliobusType_BCMOHPGADLJ => 3,
-            CmdHeliobusType::CmdHeliobusType_LAFIGPGFJJO => 4,
-            CmdHeliobusType::CmdHeliobusType_JJGAOEOLAKE => 5,
-            CmdHeliobusType::CmdHeliobusType_FELBGHJMBAG => 6,
-            CmdHeliobusType::CmdHeliobusType_KCGFCBEIDAM => 7,
-            CmdHeliobusType::CmdHeliobusType_FJEJBDGOMBJ => 8,
-            CmdHeliobusType::CmdHeliobusType_OCDGLGKCJFE => 9,
-            CmdHeliobusType::CmdHeliobusType_KABMKHIGNEH => 10,
-            CmdHeliobusType::CmdHeliobusType_EHJOIDEGLPO => 11,
-            CmdHeliobusType::CmdHeliobusType_OCGGAMNJPBO => 12,
-            CmdHeliobusType::CmdHeliobusType_BHAHNHNOMME => 13,
-            CmdHeliobusType::CmdHeliobusType_BEBBAJIPCLP => 14,
-            CmdHeliobusType::CmdHeliobusType_EOFCGAPHNDL => 15,
-            CmdHeliobusType::CmdHeliobusType_DFCGMDLPPIP => 16,
-            CmdHeliobusType::CmdHeliobusType_CBABKOOPLJM => 17,
-            CmdHeliobusType::CmdHeliobusType_NHJIPEBILDJ => 18,
-            CmdHeliobusType::CmdHeliobusType_CGNPJAGALOO => 19,
-            CmdHeliobusType::CmdHeliobusType_HCOPDGAPNJH => 20,
-            CmdHeliobusType::CmdHeliobusType_NDEIOPHGOAK => 21,
-            CmdHeliobusType::CmdHeliobusType_EKBOLODKCCC => 22,
-            CmdHeliobusType::CmdHeliobusType_PJNJNKOIIBH => 23,
+            CmdHeliobusType::MJNBDODPDOG_PCPDHELPKEM => 0,
+            CmdHeliobusType::CmdHeliobusSnsReadScRsp => 1,
+            CmdHeliobusType::CmdHeliobusSnsPostCsReq => 2,
+            CmdHeliobusType::CmdHeliobusEnterBattleCsReq => 3,
+            CmdHeliobusType::CmdHeliobusSnsCommentCsReq => 4,
+            CmdHeliobusType::CmdHeliobusSnsLikeCsReq => 5,
+            CmdHeliobusType::MJNBDODPDOG_GFHGNNHOIKJ => 6,
+            CmdHeliobusType::CmdHeliobusUnlockSkillScNotify => 7,
+            CmdHeliobusType::CmdHeliobusSnsLikeScRsp => 8,
+            CmdHeliobusType::CmdHeliobusInfoChangedScNotify => 9,
+            CmdHeliobusType::CmdHeliobusSnsPostScRsp => 10,
+            CmdHeliobusType::CmdHeliobusActivityDataScRsp => 11,
+            CmdHeliobusType::CmdHeliobusSnsReadCsReq => 12,
+            CmdHeliobusType::CmdHeliobusActivityDataCsReq => 13,
+            CmdHeliobusType::CmdHeliobusSnsUpdateScNotify => 14,
+            CmdHeliobusType::CmdHeliobusEnterBattleScRsp => 15,
+            CmdHeliobusType::CmdHeliobusLineupUpdateScNotify => 16,
+            CmdHeliobusType::CmdHeliobusChallengeUpdateScNotify => 17,
+            CmdHeliobusType::CmdHeliobusUpgradeLevelCsReq => 18,
+            CmdHeliobusType::CmdHeliobusStartRaidScRsp => 19,
+            CmdHeliobusType::CmdHeliobusUpgradeLevelScRsp => 20,
+            CmdHeliobusType::CmdHeliobusStartRaidCsReq => 21,
+            CmdHeliobusType::CmdHeliobusSnsCommentScRsp => 22,
+            CmdHeliobusType::CmdHeliobusSelectSkillScRsp => 23,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -211,7 +211,7 @@ impl ::protobuf::EnumFull for CmdHeliobusType {
 
 impl ::std::default::Default for CmdHeliobusType {
     fn default() -> Self {
-        CmdHeliobusType::CmdHeliobusType_MNFEPONEDDJ
+        CmdHeliobusType::MJNBDODPDOG_PCPDHELPKEM
     }
 }
 
@@ -222,24 +222,24 @@ impl CmdHeliobusType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x15CmdHeliobusType.proto*\xc0\x06\n\x0fCmdHeliobusType\x12\x1f\n\x1bC\
-    mdHeliobusType_MNFEPONEDDJ\x10\0\x12\x20\n\x1bCmdHeliobusType_AOFHBHIKND\
-    E\x10\xed-\x12\x20\n\x1bCmdHeliobusType_GOBKNOGCBIP\x10\xab-\x12\x20\n\
-    \x1bCmdHeliobusType_BCMOHPGADLJ\x10\xe6-\x12\x20\n\x1bCmdHeliobusType_LA\
-    FIGPGFJJO\x10\xc0-\x12\x20\n\x1bCmdHeliobusType_JJGAOEOLAKE\x10\xe1-\x12\
-    \x20\n\x1bCmdHeliobusType_FELBGHJMBAG\x10\xe0-\x12\x20\n\x1bCmdHeliobusT\
-    ype_KCGFCBEIDAM\x10\xb5-\x12\x20\n\x1bCmdHeliobusType_FJEJBDGOMBJ\x10\
-    \xfb-\x12\x20\n\x1bCmdHeliobusType_OCDGLGKCJFE\x10\xfc-\x12\x20\n\x1bCmd\
-    HeliobusType_KABMKHIGNEH\x10\xd8-\x12\x20\n\x1bCmdHeliobusType_EHJOIDEGL\
-    PO\x10\xac-\x12\x20\n\x1bCmdHeliobusType_OCGGAMNJPBO\x10\xba-\x12\x20\n\
-    \x1bCmdHeliobusType_BHAHNHNOMME\x10\x8c.\x12\x20\n\x1bCmdHeliobusType_BE\
-    BBAJIPCLP\x10\xae-\x12\x20\n\x1bCmdHeliobusType_EOFCGAPHNDL\x10\xf9-\x12\
-    \x20\n\x1bCmdHeliobusType_DFCGMDLPPIP\x10\xbf-\x12\x20\n\x1bCmdHeliobusT\
-    ype_CBABKOOPLJM\x10\xc7-\x12\x20\n\x1bCmdHeliobusType_NHJIPEBILDJ\x10\
-    \xd0-\x12\x20\n\x1bCmdHeliobusType_CGNPJAGALOO\x10\xb1-\x12\x20\n\x1bCmd\
-    HeliobusType_HCOPDGAPNJH\x10\xcb-\x12\x20\n\x1bCmdHeliobusType_NDEIOPHGO\
-    AK\x10\xbb-\x12\x20\n\x1bCmdHeliobusType_EKBOLODKCCC\x10\xd6-\x12\x20\n\
-    \x1bCmdHeliobusType_PJNJNKOIIBH\x10\xfe-b\x06proto3\
+    \n\x15CmdHeliobusType.proto*\xb0\x06\n\x0fCmdHeliobusType\x12\x1b\n\x17M\
+    JNBDODPDOG_PCPDHELPKEM\x10\0\x12\x1c\n\x17CmdHeliobusSnsReadScRsp\x10\
+    \x87.\x12\x1c\n\x17CmdHeliobusSnsPostCsReq\x10\xb6-\x12\x20\n\x1bCmdHeli\
+    obusEnterBattleCsReq\x10\xe5-\x12\x1f\n\x1aCmdHeliobusSnsCommentCsReq\
+    \x10\xe7-\x12\x1c\n\x17CmdHeliobusSnsLikeCsReq\x10\xb1-\x12\x1c\n\x17MJN\
+    BDODPDOG_GFHGNNHOIKJ\x10\xce-\x12#\n\x1eCmdHeliobusUnlockSkillScNotify\
+    \x10\xac-\x12\x1c\n\x17CmdHeliobusSnsLikeScRsp\x10\x8a.\x12#\n\x1eCmdHel\
+    iobusInfoChangedScNotify\x10\xa9-\x12\x1c\n\x17CmdHeliobusSnsPostScRsp\
+    \x10\xba-\x12!\n\x1cCmdHeliobusActivityDataScRsp\x10\xb2-\x12\x1c\n\x17C\
+    mdHeliobusSnsReadCsReq\x10\x86.\x12!\n\x1cCmdHeliobusActivityDataCsReq\
+    \x10\x83.\x12!\n\x1cCmdHeliobusSnsUpdateScNotify\x10\xcf-\x12\x20\n\x1bC\
+    mdHeliobusEnterBattleScRsp\x10\xaf-\x12$\n\x1fCmdHeliobusLineupUpdateScN\
+    otify\x10\x81.\x12'\n\"CmdHeliobusChallengeUpdateScNotify\x10\x8c.\x12!\
+    \n\x1cCmdHeliobusUpgradeLevelCsReq\x10\xf2-\x12\x1e\n\x19CmdHeliobusStar\
+    tRaidScRsp\x10\xd4-\x12!\n\x1cCmdHeliobusUpgradeLevelScRsp\x10\xcd-\x12\
+    \x1e\n\x19CmdHeliobusStartRaidCsReq\x10\xe2-\x12\x1f\n\x1aCmdHeliobusSns\
+    CommentScRsp\x10\xc2-\x12\x20\n\x1bCmdHeliobusSelectSkillScRsp\x10\xf0-b\
+    \x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

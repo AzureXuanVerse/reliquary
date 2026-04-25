@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct MonopolyGameSettleScNotify {
     // message fields
-    // @@protoc_insertion_point(field:MonopolyGameSettleScNotify.HJNEDHFBBGF)
-    pub HJNEDHFBBGF: ::protobuf::MessageField<super::JAODODPEFFN::JAODODPEFFN>,
-    // @@protoc_insertion_point(field:MonopolyGameSettleScNotify.EANNJGOJLIG)
-    pub EANNJGOJLIG: ::protobuf::MessageField<super::ItemList::ItemList>,
+    // @@protoc_insertion_point(field:MonopolyGameSettleScNotify.BMKAEFAKNFJ)
+    pub BMKAEFAKNFJ: ::protobuf::MessageField<super::KHCHPPLOFJN::KHCHPPLOFJN>,
     // @@protoc_insertion_point(field:MonopolyGameSettleScNotify.item_list)
     pub item_list: ::protobuf::MessageField<super::ItemList::ItemList>,
+    // @@protoc_insertion_point(field:MonopolyGameSettleScNotify.JEILIIABKLG)
+    pub JEILIIABKLG: ::protobuf::MessageField<super::ItemList::ItemList>,
     // special fields
     // @@protoc_insertion_point(special_field:MonopolyGameSettleScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -53,20 +53,20 @@ impl MonopolyGameSettleScNotify {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::JAODODPEFFN::JAODODPEFFN>(
-            "HJNEDHFBBGF",
-            |m: &MonopolyGameSettleScNotify| { &m.HJNEDHFBBGF },
-            |m: &mut MonopolyGameSettleScNotify| { &mut m.HJNEDHFBBGF },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemList::ItemList>(
-            "EANNJGOJLIG",
-            |m: &MonopolyGameSettleScNotify| { &m.EANNJGOJLIG },
-            |m: &mut MonopolyGameSettleScNotify| { &mut m.EANNJGOJLIG },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::KHCHPPLOFJN::KHCHPPLOFJN>(
+            "BMKAEFAKNFJ",
+            |m: &MonopolyGameSettleScNotify| { &m.BMKAEFAKNFJ },
+            |m: &mut MonopolyGameSettleScNotify| { &mut m.BMKAEFAKNFJ },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemList::ItemList>(
             "item_list",
             |m: &MonopolyGameSettleScNotify| { &m.item_list },
             |m: &mut MonopolyGameSettleScNotify| { &mut m.item_list },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ItemList::ItemList>(
+            "JEILIIABKLG",
+            |m: &MonopolyGameSettleScNotify| { &m.JEILIIABKLG },
+            |m: &mut MonopolyGameSettleScNotify| { &mut m.JEILIIABKLG },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<MonopolyGameSettleScNotify>(
             "MonopolyGameSettleScNotify",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for MonopolyGameSettleScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                42 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.HJNEDHFBBGF)?;
-                },
-                18 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.EANNJGOJLIG)?;
+                114 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.BMKAEFAKNFJ)?;
                 },
                 122 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.item_list)?;
+                },
+                82 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.JEILIIABKLG)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -107,15 +107,15 @@ impl ::protobuf::Message for MonopolyGameSettleScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.HJNEDHFBBGF.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.EANNJGOJLIG.as_ref() {
+        if let Some(v) = self.BMKAEFAKNFJ.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
         if let Some(v) = self.item_list.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if let Some(v) = self.JEILIIABKLG.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -125,14 +125,14 @@ impl ::protobuf::Message for MonopolyGameSettleScNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.HJNEDHFBBGF.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
-        }
-        if let Some(v) = self.EANNJGOJLIG.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
+        if let Some(v) = self.BMKAEFAKNFJ.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
         }
         if let Some(v) = self.item_list.as_ref() {
             ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
+        }
+        if let Some(v) = self.JEILIIABKLG.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -151,17 +151,17 @@ impl ::protobuf::Message for MonopolyGameSettleScNotify {
     }
 
     fn clear(&mut self) {
-        self.HJNEDHFBBGF.clear();
-        self.EANNJGOJLIG.clear();
+        self.BMKAEFAKNFJ.clear();
         self.item_list.clear();
+        self.JEILIIABKLG.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static MonopolyGameSettleScNotify {
         static instance: MonopolyGameSettleScNotify = MonopolyGameSettleScNotify {
-            HJNEDHFBBGF: ::protobuf::MessageField::none(),
-            EANNJGOJLIG: ::protobuf::MessageField::none(),
+            BMKAEFAKNFJ: ::protobuf::MessageField::none(),
             item_list: ::protobuf::MessageField::none(),
+            JEILIIABKLG: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -186,11 +186,11 @@ impl ::protobuf::reflect::ProtobufValue for MonopolyGameSettleScNotify {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x20MonopolyGameSettleScNotify.proto\x1a\x0eItemList.proto\x1a\x11JAOD\
-    ODPEFFN.proto\"\xa1\x01\n\x1aMonopolyGameSettleScNotify\x12.\n\x0bHJNEDH\
-    FBBGF\x18\x05\x20\x01(\x0b2\x0c.JAODODPEFFNR\x0bHJNEDHFBBGF\x12+\n\x0bEA\
-    NNJGOJLIG\x18\x02\x20\x01(\x0b2\t.ItemListR\x0bEANNJGOJLIG\x12&\n\titem_\
-    list\x18\x0f\x20\x01(\x0b2\t.ItemListR\x08itemListb\x06proto3\
+    \n\x20MonopolyGameSettleScNotify.proto\x1a\x0eItemList.proto\x1a\x11KHCH\
+    PPLOFJN.proto\"\xa1\x01\n\x1aMonopolyGameSettleScNotify\x12.\n\x0bBMKAEF\
+    AKNFJ\x18\x0e\x20\x01(\x0b2\x0c.KHCHPPLOFJNR\x0bBMKAEFAKNFJ\x12&\n\titem\
+    _list\x18\x0f\x20\x01(\x0b2\t.ItemListR\x08itemList\x12+\n\x0bJEILIIABKL\
+    G\x18\n\x20\x01(\x0b2\t.ItemListR\x0bJEILIIABKLGb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -209,7 +209,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
             deps.push(super::ItemList::file_descriptor().clone());
-            deps.push(super::JAODODPEFFN::file_descriptor().clone());
+            deps.push(super::KHCHPPLOFJN::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(MonopolyGameSettleScNotify::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

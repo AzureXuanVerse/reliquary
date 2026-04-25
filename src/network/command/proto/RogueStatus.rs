@@ -27,16 +27,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:RogueStatus)
 pub enum RogueStatus {
-    // @@protoc_insertion_point(enum_value:RogueStatus.RogueStatus_MNFEPONEDDJ)
-    RogueStatus_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:RogueStatus.RogueStatus_HFCKLAJODOO)
-    RogueStatus_HFCKLAJODOO = 1,
-    // @@protoc_insertion_point(enum_value:RogueStatus.RogueStatus_MGEIOAIKKON)
-    RogueStatus_MGEIOAIKKON = 2,
-    // @@protoc_insertion_point(enum_value:RogueStatus.RogueStatus_NNAFGFCCFGL)
-    RogueStatus_NNAFGFCCFGL = 3,
-    // @@protoc_insertion_point(enum_value:RogueStatus.RogueStatus_NGPFHCFEHPK)
-    RogueStatus_NGPFHCFEHPK = 4,
+    // @@protoc_insertion_point(enum_value:RogueStatus.JBFMHGKNEGL_PCPDHELPKEM)
+    JBFMHGKNEGL_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:RogueStatus.JBFMHGKNEGL_NMBCDILDGNK)
+    JBFMHGKNEGL_NMBCDILDGNK = 1,
+    // @@protoc_insertion_point(enum_value:RogueStatus.JBFMHGKNEGL_OPNADFKBGNN)
+    JBFMHGKNEGL_OPNADFKBGNN = 2,
+    // @@protoc_insertion_point(enum_value:RogueStatus.JBFMHGKNEGL_OEKFLGEFGPP)
+    JBFMHGKNEGL_OEKFLGEFGPP = 3,
+    // @@protoc_insertion_point(enum_value:RogueStatus.JBFMHGKNEGL_KLHDCOPPLNG)
+    JBFMHGKNEGL_KLHDCOPPLNG = 4,
 }
 
 impl ::protobuf::Enum for RogueStatus {
@@ -48,32 +48,32 @@ impl ::protobuf::Enum for RogueStatus {
 
     fn from_i32(value: i32) -> ::std::option::Option<RogueStatus> {
         match value {
-            0 => ::std::option::Option::Some(RogueStatus::RogueStatus_MNFEPONEDDJ),
-            1 => ::std::option::Option::Some(RogueStatus::RogueStatus_HFCKLAJODOO),
-            2 => ::std::option::Option::Some(RogueStatus::RogueStatus_MGEIOAIKKON),
-            3 => ::std::option::Option::Some(RogueStatus::RogueStatus_NNAFGFCCFGL),
-            4 => ::std::option::Option::Some(RogueStatus::RogueStatus_NGPFHCFEHPK),
+            0 => ::std::option::Option::Some(RogueStatus::JBFMHGKNEGL_PCPDHELPKEM),
+            1 => ::std::option::Option::Some(RogueStatus::JBFMHGKNEGL_NMBCDILDGNK),
+            2 => ::std::option::Option::Some(RogueStatus::JBFMHGKNEGL_OPNADFKBGNN),
+            3 => ::std::option::Option::Some(RogueStatus::JBFMHGKNEGL_OEKFLGEFGPP),
+            4 => ::std::option::Option::Some(RogueStatus::JBFMHGKNEGL_KLHDCOPPLNG),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<RogueStatus> {
         match str {
-            "RogueStatus_MNFEPONEDDJ" => ::std::option::Option::Some(RogueStatus::RogueStatus_MNFEPONEDDJ),
-            "RogueStatus_HFCKLAJODOO" => ::std::option::Option::Some(RogueStatus::RogueStatus_HFCKLAJODOO),
-            "RogueStatus_MGEIOAIKKON" => ::std::option::Option::Some(RogueStatus::RogueStatus_MGEIOAIKKON),
-            "RogueStatus_NNAFGFCCFGL" => ::std::option::Option::Some(RogueStatus::RogueStatus_NNAFGFCCFGL),
-            "RogueStatus_NGPFHCFEHPK" => ::std::option::Option::Some(RogueStatus::RogueStatus_NGPFHCFEHPK),
+            "JBFMHGKNEGL_PCPDHELPKEM" => ::std::option::Option::Some(RogueStatus::JBFMHGKNEGL_PCPDHELPKEM),
+            "JBFMHGKNEGL_NMBCDILDGNK" => ::std::option::Option::Some(RogueStatus::JBFMHGKNEGL_NMBCDILDGNK),
+            "JBFMHGKNEGL_OPNADFKBGNN" => ::std::option::Option::Some(RogueStatus::JBFMHGKNEGL_OPNADFKBGNN),
+            "JBFMHGKNEGL_OEKFLGEFGPP" => ::std::option::Option::Some(RogueStatus::JBFMHGKNEGL_OEKFLGEFGPP),
+            "JBFMHGKNEGL_KLHDCOPPLNG" => ::std::option::Option::Some(RogueStatus::JBFMHGKNEGL_KLHDCOPPLNG),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [RogueStatus] = &[
-        RogueStatus::RogueStatus_MNFEPONEDDJ,
-        RogueStatus::RogueStatus_HFCKLAJODOO,
-        RogueStatus::RogueStatus_MGEIOAIKKON,
-        RogueStatus::RogueStatus_NNAFGFCCFGL,
-        RogueStatus::RogueStatus_NGPFHCFEHPK,
+        RogueStatus::JBFMHGKNEGL_PCPDHELPKEM,
+        RogueStatus::JBFMHGKNEGL_NMBCDILDGNK,
+        RogueStatus::JBFMHGKNEGL_OPNADFKBGNN,
+        RogueStatus::JBFMHGKNEGL_OEKFLGEFGPP,
+        RogueStatus::JBFMHGKNEGL_KLHDCOPPLNG,
     ];
 }
 
@@ -91,7 +91,7 @@ impl ::protobuf::EnumFull for RogueStatus {
 
 impl ::std::default::Default for RogueStatus {
     fn default() -> Self {
-        RogueStatus::RogueStatus_MNFEPONEDDJ
+        RogueStatus::JBFMHGKNEGL_PCPDHELPKEM
     }
 }
 
@@ -102,10 +102,10 @@ impl RogueStatus {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x11RogueStatus.proto*\x9e\x01\n\x0bRogueStatus\x12\x1b\n\x17RogueStat\
-    us_MNFEPONEDDJ\x10\0\x12\x1b\n\x17RogueStatus_HFCKLAJODOO\x10\x01\x12\
-    \x1b\n\x17RogueStatus_MGEIOAIKKON\x10\x02\x12\x1b\n\x17RogueStatus_NNAFG\
-    FCCFGL\x10\x03\x12\x1b\n\x17RogueStatus_NGPFHCFEHPK\x10\x04b\x06proto3\
+    \n\x11RogueStatus.proto*\x9e\x01\n\x0bRogueStatus\x12\x1b\n\x17JBFMHGKNE\
+    GL_PCPDHELPKEM\x10\0\x12\x1b\n\x17JBFMHGKNEGL_NMBCDILDGNK\x10\x01\x12\
+    \x1b\n\x17JBFMHGKNEGL_OPNADFKBGNN\x10\x02\x12\x1b\n\x17JBFMHGKNEGL_OEKFL\
+    GEFGPP\x10\x03\x12\x1b\n\x17JBFMHGKNEGL_KLHDCOPPLNG\x10\x04b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

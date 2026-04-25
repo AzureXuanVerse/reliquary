@@ -30,8 +30,8 @@ pub struct MonopolyCheatDiceScRsp {
     // message fields
     // @@protoc_insertion_point(field:MonopolyCheatDiceScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:MonopolyCheatDiceScRsp.IFEPOBOBPJE)
-    pub IFEPOBOBPJE: u32,
+    // @@protoc_insertion_point(field:MonopolyCheatDiceScRsp.MFHKGPJJGBN)
+    pub MFHKGPJJGBN: u32,
     // special fields
     // @@protoc_insertion_point(special_field:MonopolyCheatDiceScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,9 +57,9 @@ impl MonopolyCheatDiceScRsp {
             |m: &mut MonopolyCheatDiceScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "IFEPOBOBPJE",
-            |m: &MonopolyCheatDiceScRsp| { &m.IFEPOBOBPJE },
-            |m: &mut MonopolyCheatDiceScRsp| { &mut m.IFEPOBOBPJE },
+            "MFHKGPJJGBN",
+            |m: &MonopolyCheatDiceScRsp| { &m.MFHKGPJJGBN },
+            |m: &mut MonopolyCheatDiceScRsp| { &mut m.MFHKGPJJGBN },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<MonopolyCheatDiceScRsp>(
             "MonopolyCheatDiceScRsp",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for MonopolyCheatDiceScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                8 => {
+                16 => {
                     self.retcode = is.read_uint32()?;
                 },
-                112 => {
-                    self.IFEPOBOBPJE = is.read_uint32()?;
+                40 => {
+                    self.MFHKGPJJGBN = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -98,10 +98,10 @@ impl ::protobuf::Message for MonopolyCheatDiceScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(2, self.retcode);
         }
-        if self.IFEPOBOBPJE != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.IFEPOBOBPJE);
+        if self.MFHKGPJJGBN != 0 {
+            my_size += ::protobuf::rt::uint32_size(5, self.MFHKGPJJGBN);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,10 +110,10 @@ impl ::protobuf::Message for MonopolyCheatDiceScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.retcode != 0 {
-            os.write_uint32(1, self.retcode)?;
+            os.write_uint32(2, self.retcode)?;
         }
-        if self.IFEPOBOBPJE != 0 {
-            os.write_uint32(14, self.IFEPOBOBPJE)?;
+        if self.MFHKGPJJGBN != 0 {
+            os.write_uint32(5, self.MFHKGPJJGBN)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -133,14 +133,14 @@ impl ::protobuf::Message for MonopolyCheatDiceScRsp {
 
     fn clear(&mut self) {
         self.retcode = 0;
-        self.IFEPOBOBPJE = 0;
+        self.MFHKGPJJGBN = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static MonopolyCheatDiceScRsp {
         static instance: MonopolyCheatDiceScRsp = MonopolyCheatDiceScRsp {
             retcode: 0,
-            IFEPOBOBPJE: 0,
+            MFHKGPJJGBN: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for MonopolyCheatDiceScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1cMonopolyCheatDiceScRsp.proto\"T\n\x16MonopolyCheatDiceScRsp\x12\
-    \x18\n\x07retcode\x18\x01\x20\x01(\rR\x07retcode\x12\x20\n\x0bIFEPOBOBPJ\
-    E\x18\x0e\x20\x01(\rR\x0bIFEPOBOBPJEb\x06proto3\
+    \x18\n\x07retcode\x18\x02\x20\x01(\rR\x07retcode\x12\x20\n\x0bMFHKGPJJGB\
+    N\x18\x05\x20\x01(\rR\x0bMFHKGPJJGBNb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

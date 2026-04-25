@@ -31,7 +31,7 @@ pub struct GetBoxingClubInfoScRsp {
     // @@protoc_insertion_point(field:GetBoxingClubInfoScRsp.retcode)
     pub retcode: u32,
     // @@protoc_insertion_point(field:GetBoxingClubInfoScRsp.challenge_list)
-    pub challenge_list: ::std::vec::Vec<super::FIGMGLIEKNG::FIGMGLIEKNG>,
+    pub challenge_list: ::std::vec::Vec<super::OOMINGEFPAF::OOMINGEFPAF>,
     // special fields
     // @@protoc_insertion_point(special_field:GetBoxingClubInfoScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -79,10 +79,10 @@ impl ::protobuf::Message for GetBoxingClubInfoScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                104 => {
+                24 => {
                     self.retcode = is.read_uint32()?;
                 },
-                26 => {
+                106 => {
                     self.challenge_list.push(is.read_message()?);
                 },
                 tag => {
@@ -98,7 +98,7 @@ impl ::protobuf::Message for GetBoxingClubInfoScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(13, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(3, self.retcode);
         }
         for value in &self.challenge_list {
             let len = value.compute_size();
@@ -111,10 +111,10 @@ impl ::protobuf::Message for GetBoxingClubInfoScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.retcode != 0 {
-            os.write_uint32(13, self.retcode)?;
+            os.write_uint32(3, self.retcode)?;
         }
         for v in &self.challenge_list {
-            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
         };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -166,10 +166,10 @@ impl ::protobuf::reflect::ProtobufValue for GetBoxingClubInfoScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1cGetBoxingClubInfoScRsp.proto\x1a\x11FIGMGLIEKNG.proto\"g\n\x16GetB\
-    oxingClubInfoScRsp\x12\x18\n\x07retcode\x18\r\x20\x01(\rR\x07retcode\x12\
-    3\n\x0echallenge_list\x18\x03\x20\x03(\x0b2\x0c.FIGMGLIEKNGR\rchallengeL\
-    istb\x06proto3\
+    \n\x1cGetBoxingClubInfoScRsp.proto\x1a\x11OOMINGEFPAF.proto\"g\n\x16GetB\
+    oxingClubInfoScRsp\x12\x18\n\x07retcode\x18\x03\x20\x01(\rR\x07retcode\
+    \x123\n\x0echallenge_list\x18\r\x20\x03(\x0b2\x0c.OOMINGEFPAFR\rchalleng\
+    eListb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -187,7 +187,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::FIGMGLIEKNG::file_descriptor().clone());
+            deps.push(super::OOMINGEFPAF::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GetBoxingClubInfoScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

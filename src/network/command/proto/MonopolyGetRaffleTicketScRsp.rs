@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct MonopolyGetRaffleTicketScRsp {
     // message fields
+    // @@protoc_insertion_point(field:MonopolyGetRaffleTicketScRsp.MBMICCJEBJB)
+    pub MBMICCJEBJB: u32,
     // @@protoc_insertion_point(field:MonopolyGetRaffleTicketScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:MonopolyGetRaffleTicketScRsp.PCDIAKFPOAK)
-    pub PCDIAKFPOAK: ::std::vec::Vec<super::FEMEIEBHAJK::FEMEIEBHAJK>,
-    // @@protoc_insertion_point(field:MonopolyGetRaffleTicketScRsp.LCJKKMHOIMJ)
-    pub LCJKKMHOIMJ: u32,
+    // @@protoc_insertion_point(field:MonopolyGetRaffleTicketScRsp.ELNFNMJMAIL)
+    pub ELNFNMJMAIL: ::std::vec::Vec<super::PNDOKOLEPLC::PNDOKOLEPLC>,
     // special fields
     // @@protoc_insertion_point(special_field:MonopolyGetRaffleTicketScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -54,19 +54,19 @@ impl MonopolyGetRaffleTicketScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "MBMICCJEBJB",
+            |m: &MonopolyGetRaffleTicketScRsp| { &m.MBMICCJEBJB },
+            |m: &mut MonopolyGetRaffleTicketScRsp| { &mut m.MBMICCJEBJB },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &MonopolyGetRaffleTicketScRsp| { &m.retcode },
             |m: &mut MonopolyGetRaffleTicketScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "PCDIAKFPOAK",
-            |m: &MonopolyGetRaffleTicketScRsp| { &m.PCDIAKFPOAK },
-            |m: &mut MonopolyGetRaffleTicketScRsp| { &mut m.PCDIAKFPOAK },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "LCJKKMHOIMJ",
-            |m: &MonopolyGetRaffleTicketScRsp| { &m.LCJKKMHOIMJ },
-            |m: &mut MonopolyGetRaffleTicketScRsp| { &mut m.LCJKKMHOIMJ },
+            "ELNFNMJMAIL",
+            |m: &MonopolyGetRaffleTicketScRsp| { &m.ELNFNMJMAIL },
+            |m: &mut MonopolyGetRaffleTicketScRsp| { &mut m.ELNFNMJMAIL },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<MonopolyGetRaffleTicketScRsp>(
             "MonopolyGetRaffleTicketScRsp",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for MonopolyGetRaffleTicketScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                104 => {
+                80 => {
+                    self.MBMICCJEBJB = is.read_uint32()?;
+                },
+                40 => {
                     self.retcode = is.read_uint32()?;
                 },
-                66 => {
-                    self.PCDIAKFPOAK.push(is.read_message()?);
-                },
-                112 => {
-                    self.LCJKKMHOIMJ = is.read_uint32()?;
+                106 => {
+                    self.ELNFNMJMAIL.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -107,31 +107,31 @@ impl ::protobuf::Message for MonopolyGetRaffleTicketScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(13, self.retcode);
+        if self.MBMICCJEBJB != 0 {
+            my_size += ::protobuf::rt::uint32_size(10, self.MBMICCJEBJB);
         }
-        for value in &self.PCDIAKFPOAK {
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(5, self.retcode);
+        }
+        for value in &self.ELNFNMJMAIL {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.LCJKKMHOIMJ != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.LCJKKMHOIMJ);
-        }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
+        if self.MBMICCJEBJB != 0 {
+            os.write_uint32(10, self.MBMICCJEBJB)?;
+        }
         if self.retcode != 0 {
-            os.write_uint32(13, self.retcode)?;
+            os.write_uint32(5, self.retcode)?;
         }
-        for v in &self.PCDIAKFPOAK {
-            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+        for v in &self.ELNFNMJMAIL {
+            ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
         };
-        if self.LCJKKMHOIMJ != 0 {
-            os.write_uint32(14, self.LCJKKMHOIMJ)?;
-        }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -149,17 +149,17 @@ impl ::protobuf::Message for MonopolyGetRaffleTicketScRsp {
     }
 
     fn clear(&mut self) {
+        self.MBMICCJEBJB = 0;
         self.retcode = 0;
-        self.PCDIAKFPOAK.clear();
-        self.LCJKKMHOIMJ = 0;
+        self.ELNFNMJMAIL.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static MonopolyGetRaffleTicketScRsp {
         static instance: MonopolyGetRaffleTicketScRsp = MonopolyGetRaffleTicketScRsp {
+            MBMICCJEBJB: 0,
             retcode: 0,
-            PCDIAKFPOAK: ::std::vec::Vec::new(),
-            LCJKKMHOIMJ: 0,
+            ELNFNMJMAIL: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -184,11 +184,11 @@ impl ::protobuf::reflect::ProtobufValue for MonopolyGetRaffleTicketScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\"MonopolyGetRaffleTicketScRsp.proto\x1a\x11FEMEIEBHAJK.proto\"\x8a\
-    \x01\n\x1cMonopolyGetRaffleTicketScRsp\x12\x18\n\x07retcode\x18\r\x20\
-    \x01(\rR\x07retcode\x12.\n\x0bPCDIAKFPOAK\x18\x08\x20\x03(\x0b2\x0c.FEME\
-    IEBHAJKR\x0bPCDIAKFPOAK\x12\x20\n\x0bLCJKKMHOIMJ\x18\x0e\x20\x01(\rR\x0b\
-    LCJKKMHOIMJb\x06proto3\
+    \n\"MonopolyGetRaffleTicketScRsp.proto\x1a\x11PNDOKOLEPLC.proto\"\x8a\
+    \x01\n\x1cMonopolyGetRaffleTicketScRsp\x12\x20\n\x0bMBMICCJEBJB\x18\n\
+    \x20\x01(\rR\x0bMBMICCJEBJB\x12\x18\n\x07retcode\x18\x05\x20\x01(\rR\x07\
+    retcode\x12.\n\x0bELNFNMJMAIL\x18\r\x20\x03(\x0b2\x0c.PNDOKOLEPLCR\x0bEL\
+    NFNMJMAILb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -206,7 +206,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::FEMEIEBHAJK::file_descriptor().clone());
+            deps.push(super::PNDOKOLEPLC::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(MonopolyGetRaffleTicketScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

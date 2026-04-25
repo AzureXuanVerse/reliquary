@@ -79,10 +79,10 @@ impl ::protobuf::Message for HeadFrameInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                32 => {
+                72 => {
                     self.head_frame_item_id = is.read_uint32()?;
                 },
-                64 => {
+                96 => {
                     self.head_frame_expire_time = is.read_int64()?;
                 },
                 tag => {
@@ -98,10 +98,10 @@ impl ::protobuf::Message for HeadFrameInfo {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.head_frame_item_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(4, self.head_frame_item_id);
+            my_size += ::protobuf::rt::uint32_size(9, self.head_frame_item_id);
         }
         if self.head_frame_expire_time != 0 {
-            my_size += ::protobuf::rt::int64_size(8, self.head_frame_expire_time);
+            my_size += ::protobuf::rt::int64_size(12, self.head_frame_expire_time);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,10 +110,10 @@ impl ::protobuf::Message for HeadFrameInfo {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.head_frame_item_id != 0 {
-            os.write_uint32(4, self.head_frame_item_id)?;
+            os.write_uint32(9, self.head_frame_item_id)?;
         }
         if self.head_frame_expire_time != 0 {
-            os.write_int64(8, self.head_frame_expire_time)?;
+            os.write_int64(12, self.head_frame_expire_time)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for HeadFrameInfo {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x13HeadFrameInfo.proto\"q\n\rHeadFrameInfo\x12+\n\x12head_frame_item_\
-    id\x18\x04\x20\x01(\rR\x0fheadFrameItemId\x123\n\x16head_frame_expire_ti\
-    me\x18\x08\x20\x01(\x03R\x13headFrameExpireTimeb\x06proto3\
+    id\x18\t\x20\x01(\rR\x0fheadFrameItemId\x123\n\x16head_frame_expire_time\
+    \x18\x0c\x20\x01(\x03R\x13headFrameExpireTimeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

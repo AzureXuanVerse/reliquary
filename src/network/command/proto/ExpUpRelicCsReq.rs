@@ -82,7 +82,7 @@ impl ::protobuf::Message for ExpUpRelicCsReq {
                 8 => {
                     self.relic_unique_id = is.read_uint32()?;
                 },
-                114 => {
+                18 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.cost_data)?;
                 },
                 tag => {
@@ -114,7 +114,7 @@ impl ::protobuf::Message for ExpUpRelicCsReq {
             os.write_uint32(1, self.relic_unique_id)?;
         }
         if let Some(v) = self.cost_data.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -168,7 +168,7 @@ impl ::protobuf::reflect::ProtobufValue for ExpUpRelicCsReq {
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x15ExpUpRelicCsReq.proto\x1a\x12ItemCostData.proto\"e\n\x0fExpUpRelic\
     CsReq\x12&\n\x0frelic_unique_id\x18\x01\x20\x01(\rR\rrelicUniqueId\x12*\
-    \n\tcost_data\x18\x0e\x20\x01(\x0b2\r.ItemCostDataR\x08costDatab\x06prot\
+    \n\tcost_data\x18\x02\x20\x01(\x0b2\r.ItemCostDataR\x08costDatab\x06prot\
     o3\
 ";
 

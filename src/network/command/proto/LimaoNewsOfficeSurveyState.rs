@@ -27,16 +27,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:LimaoNewsOfficeSurveyState)
 pub enum LimaoNewsOfficeSurveyState {
-    // @@protoc_insertion_point(enum_value:LimaoNewsOfficeSurveyState.LimaoNewsOfficeSurveyState_MNFEPONEDDJ)
-    LimaoNewsOfficeSurveyState_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:LimaoNewsOfficeSurveyState.LimaoNewsOfficeSurveyState_LLHGJLHFDMB)
-    LimaoNewsOfficeSurveyState_LLHGJLHFDMB = 1,
-    // @@protoc_insertion_point(enum_value:LimaoNewsOfficeSurveyState.LimaoNewsOfficeSurveyState_MGEIOAIKKON)
-    LimaoNewsOfficeSurveyState_MGEIOAIKKON = 2,
-    // @@protoc_insertion_point(enum_value:LimaoNewsOfficeSurveyState.LimaoNewsOfficeSurveyState_CHIHMAAMFIO)
-    LimaoNewsOfficeSurveyState_CHIHMAAMFIO = 3,
-    // @@protoc_insertion_point(enum_value:LimaoNewsOfficeSurveyState.LimaoNewsOfficeSurveyState_BLMNPNAJAFP)
-    LimaoNewsOfficeSurveyState_BLMNPNAJAFP = 4,
+    // @@protoc_insertion_point(enum_value:LimaoNewsOfficeSurveyState.KMPIHHBLOAB_PCPDHELPKEM)
+    KMPIHHBLOAB_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:LimaoNewsOfficeSurveyState.KMPIHHBLOAB_IHAOKLGOKCH)
+    KMPIHHBLOAB_IHAOKLGOKCH = 1,
+    // @@protoc_insertion_point(enum_value:LimaoNewsOfficeSurveyState.KMPIHHBLOAB_OPNADFKBGNN)
+    KMPIHHBLOAB_OPNADFKBGNN = 2,
+    // @@protoc_insertion_point(enum_value:LimaoNewsOfficeSurveyState.KMPIHHBLOAB_FFLCHLPOFNM)
+    KMPIHHBLOAB_FFLCHLPOFNM = 3,
+    // @@protoc_insertion_point(enum_value:LimaoNewsOfficeSurveyState.KMPIHHBLOAB_POOLAGHGCMG)
+    KMPIHHBLOAB_POOLAGHGCMG = 4,
 }
 
 impl ::protobuf::Enum for LimaoNewsOfficeSurveyState {
@@ -48,32 +48,32 @@ impl ::protobuf::Enum for LimaoNewsOfficeSurveyState {
 
     fn from_i32(value: i32) -> ::std::option::Option<LimaoNewsOfficeSurveyState> {
         match value {
-            0 => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_MNFEPONEDDJ),
-            1 => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_LLHGJLHFDMB),
-            2 => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_MGEIOAIKKON),
-            3 => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_CHIHMAAMFIO),
-            4 => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_BLMNPNAJAFP),
+            0 => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::KMPIHHBLOAB_PCPDHELPKEM),
+            1 => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::KMPIHHBLOAB_IHAOKLGOKCH),
+            2 => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::KMPIHHBLOAB_OPNADFKBGNN),
+            3 => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::KMPIHHBLOAB_FFLCHLPOFNM),
+            4 => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::KMPIHHBLOAB_POOLAGHGCMG),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<LimaoNewsOfficeSurveyState> {
         match str {
-            "LimaoNewsOfficeSurveyState_MNFEPONEDDJ" => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_MNFEPONEDDJ),
-            "LimaoNewsOfficeSurveyState_LLHGJLHFDMB" => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_LLHGJLHFDMB),
-            "LimaoNewsOfficeSurveyState_MGEIOAIKKON" => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_MGEIOAIKKON),
-            "LimaoNewsOfficeSurveyState_CHIHMAAMFIO" => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_CHIHMAAMFIO),
-            "LimaoNewsOfficeSurveyState_BLMNPNAJAFP" => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_BLMNPNAJAFP),
+            "KMPIHHBLOAB_PCPDHELPKEM" => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::KMPIHHBLOAB_PCPDHELPKEM),
+            "KMPIHHBLOAB_IHAOKLGOKCH" => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::KMPIHHBLOAB_IHAOKLGOKCH),
+            "KMPIHHBLOAB_OPNADFKBGNN" => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::KMPIHHBLOAB_OPNADFKBGNN),
+            "KMPIHHBLOAB_FFLCHLPOFNM" => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::KMPIHHBLOAB_FFLCHLPOFNM),
+            "KMPIHHBLOAB_POOLAGHGCMG" => ::std::option::Option::Some(LimaoNewsOfficeSurveyState::KMPIHHBLOAB_POOLAGHGCMG),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [LimaoNewsOfficeSurveyState] = &[
-        LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_MNFEPONEDDJ,
-        LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_LLHGJLHFDMB,
-        LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_MGEIOAIKKON,
-        LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_CHIHMAAMFIO,
-        LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_BLMNPNAJAFP,
+        LimaoNewsOfficeSurveyState::KMPIHHBLOAB_PCPDHELPKEM,
+        LimaoNewsOfficeSurveyState::KMPIHHBLOAB_IHAOKLGOKCH,
+        LimaoNewsOfficeSurveyState::KMPIHHBLOAB_OPNADFKBGNN,
+        LimaoNewsOfficeSurveyState::KMPIHHBLOAB_FFLCHLPOFNM,
+        LimaoNewsOfficeSurveyState::KMPIHHBLOAB_POOLAGHGCMG,
     ];
 }
 
@@ -91,7 +91,7 @@ impl ::protobuf::EnumFull for LimaoNewsOfficeSurveyState {
 
 impl ::std::default::Default for LimaoNewsOfficeSurveyState {
     fn default() -> Self {
-        LimaoNewsOfficeSurveyState::LimaoNewsOfficeSurveyState_MNFEPONEDDJ
+        LimaoNewsOfficeSurveyState::KMPIHHBLOAB_PCPDHELPKEM
     }
 }
 
@@ -102,12 +102,11 @@ impl LimaoNewsOfficeSurveyState {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x20LimaoNewsOfficeSurveyState.proto*\xf8\x01\n\x1aLimaoNewsOfficeSurv\
-    eyState\x12*\n&LimaoNewsOfficeSurveyState_MNFEPONEDDJ\x10\0\x12*\n&Limao\
-    NewsOfficeSurveyState_LLHGJLHFDMB\x10\x01\x12*\n&LimaoNewsOfficeSurveySt\
-    ate_MGEIOAIKKON\x10\x02\x12*\n&LimaoNewsOfficeSurveyState_CHIHMAAMFIO\
-    \x10\x03\x12*\n&LimaoNewsOfficeSurveyState_BLMNPNAJAFP\x10\x04b\x06proto\
-    3\
+    \n\x20LimaoNewsOfficeSurveyState.proto*\xad\x01\n\x1aLimaoNewsOfficeSurv\
+    eyState\x12\x1b\n\x17KMPIHHBLOAB_PCPDHELPKEM\x10\0\x12\x1b\n\x17KMPIHHBL\
+    OAB_IHAOKLGOKCH\x10\x01\x12\x1b\n\x17KMPIHHBLOAB_OPNADFKBGNN\x10\x02\x12\
+    \x1b\n\x17KMPIHHBLOAB_FFLCHLPOFNM\x10\x03\x12\x1b\n\x17KMPIHHBLOAB_POOLA\
+    GHGCMG\x10\x04b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

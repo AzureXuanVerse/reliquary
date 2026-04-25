@@ -27,108 +27,108 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdPlanetFesType)
 pub enum CmdPlanetFesType {
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_MNFEPONEDDJ)
-    CmdPlanetFesType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_JAFGHLKAOEI)
-    CmdPlanetFesType_JAFGHLKAOEI = 8220,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_PAHAIMEGHEK)
-    CmdPlanetFesType_PAHAIMEGHEK = 8227,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_BOMIFNOIKNC)
-    CmdPlanetFesType_BOMIFNOIKNC = 8206,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_DIEACJOANKA)
-    CmdPlanetFesType_DIEACJOANKA = 8216,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_HDAOJIGODMP)
-    CmdPlanetFesType_HDAOJIGODMP = 8218,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_EOAMJLBDCHG)
-    CmdPlanetFesType_EOAMJLBDCHG = 8224,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_JENBJOLGEHG)
-    CmdPlanetFesType_JENBJOLGEHG = 8243,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_EOHAKAFCANF)
-    CmdPlanetFesType_EOHAKAFCANF = 8229,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_HPOIBHBEJIM)
-    CmdPlanetFesType_HPOIBHBEJIM = 8203,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_AFOLENBLHLJ)
-    CmdPlanetFesType_AFOLENBLHLJ = 8244,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_LPKGKACLMKA)
-    CmdPlanetFesType_LPKGKACLMKA = 8202,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_CNLJKJDGCGJ)
-    CmdPlanetFesType_CNLJKJDGCGJ = 8240,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_PPHJLANMEME)
-    CmdPlanetFesType_PPHJLANMEME = 8210,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_JDKNIDLJHDG)
-    CmdPlanetFesType_JDKNIDLJHDG = 8238,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_IJLMBNJNNPO)
-    CmdPlanetFesType_IJLMBNJNNPO = 8242,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_CGCGKKEGIGK)
-    CmdPlanetFesType_CGCGKKEGIGK = 8221,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_JHKHEHJGLBG)
-    CmdPlanetFesType_JHKHEHJGLBG = 8245,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_OINLMNDEKBP)
-    CmdPlanetFesType_OINLMNDEKBP = 8223,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_JDJEIPNNEKG)
-    CmdPlanetFesType_JDJEIPNNEKG = 8241,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_EKKNNKNLLMM)
-    CmdPlanetFesType_EKKNNKNLLMM = 8231,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_PKDEIJPIEPB)
-    CmdPlanetFesType_PKDEIJPIEPB = 8249,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_BJPBHIBKGFI)
-    CmdPlanetFesType_BJPBHIBKGFI = 8237,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_GKCBOMOKNLL)
-    CmdPlanetFesType_GKCBOMOKNLL = 8215,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_GKLKHBALIFF)
-    CmdPlanetFesType_GKLKHBALIFF = 8233,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_FALBKCMCKAI)
-    CmdPlanetFesType_FALBKCMCKAI = 8201,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_NCIPMIMFFPI)
-    CmdPlanetFesType_NCIPMIMFFPI = 8247,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_KOACBLPDHCJ)
-    CmdPlanetFesType_KOACBLPDHCJ = 8236,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_JKCGEIJOODL)
-    CmdPlanetFesType_JKCGEIJOODL = 8230,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_MMFFENIFNJA)
-    CmdPlanetFesType_MMFFENIFNJA = 8246,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_BELADIELECN)
-    CmdPlanetFesType_BELADIELECN = 8212,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_JDNJIPEOCGE)
-    CmdPlanetFesType_JDNJIPEOCGE = 8234,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_CPPOIENHJGP)
-    CmdPlanetFesType_CPPOIENHJGP = 8204,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_GBHCMNBPAEJ)
-    CmdPlanetFesType_GBHCMNBPAEJ = 8226,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_JBNEHNPNBDE)
-    CmdPlanetFesType_JBNEHNPNBDE = 8232,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_LCPHPIDDBFC)
-    CmdPlanetFesType_LCPHPIDDBFC = 8217,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_MJLNICOCPAP)
-    CmdPlanetFesType_MJLNICOCPAP = 8208,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_KKHMMOBKPDG)
-    CmdPlanetFesType_KKHMMOBKPDG = 8248,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_LBDGLOHLFGP)
-    CmdPlanetFesType_LBDGLOHLFGP = 8235,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_IKMLMAGHOJB)
-    CmdPlanetFesType_IKMLMAGHOJB = 8239,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_MAGMGAPNBEL)
-    CmdPlanetFesType_MAGMGAPNBEL = 8214,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_FMAHGAKCDEB)
-    CmdPlanetFesType_FMAHGAKCDEB = 8250,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_AGPLPJDMFID)
-    CmdPlanetFesType_AGPLPJDMFID = 8222,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_CMMHFMBPIFB)
-    CmdPlanetFesType_CMMHFMBPIFB = 8211,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_POLDAEBMIOE)
-    CmdPlanetFesType_POLDAEBMIOE = 8207,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_OGGNCPJNDMJ)
-    CmdPlanetFesType_OGGNCPJNDMJ = 8225,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_FHFCGFECBEJ)
-    CmdPlanetFesType_FHFCGFECBEJ = 8205,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_JOOAGDJFAHA)
-    CmdPlanetFesType_JOOAGDJFAHA = 8213,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_FGIEMJHEFDA)
-    CmdPlanetFesType_FGIEMJHEFDA = 8219,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_BLLIEHEKLAE)
-    CmdPlanetFesType_BLLIEHEKLAE = 8209,
-    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesType_HJPPBICCPEC)
-    CmdPlanetFesType_HJPPBICCPEC = 8228,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.FFBGABCGDDL_PCPDHELPKEM)
+    FFBGABCGDDL_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesGetFriendRankingInfoListCsReq)
+    CmdPlanetFesGetFriendRankingInfoListCsReq = 8212,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdAFKCEOKHGHF)
+    CmdAFKCEOKHGHF = 8235,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesGetBusinessDayInfoCsReq)
+    CmdPlanetFesGetBusinessDayInfoCsReq = 8221,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesBonusEventInteractCsReq)
+    CmdPlanetFesBonusEventInteractCsReq = 8223,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesBuyLandCsReq)
+    CmdPlanetFesBuyLandCsReq = 8201,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesBusinessDayRefreshEventScRsp)
+    CmdPlanetFesBusinessDayRefreshEventScRsp = 8206,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesBonusEventInteractScRsp)
+    CmdPlanetFesBonusEventInteractScRsp = 8214,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesStartMiniGameScRsp)
+    CmdPlanetFesStartMiniGameScRsp = 8222,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesChooseAvatarEventOptionScRsp)
+    CmdPlanetFesChooseAvatarEventOptionScRsp = 8209,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesTakeQuestRewardScRsp)
+    CmdPlanetFesTakeQuestRewardScRsp = 8231,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesSetAvatarWorkCsReq)
+    CmdPlanetFesSetAvatarWorkCsReq = 8238,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesDealAvatarEventOptionItemScRsp)
+    CmdPlanetFesDealAvatarEventOptionItemScRsp = 8237,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesSetCustomKeyValueCsReq)
+    CmdPlanetFesSetCustomKeyValueCsReq = 8210,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesUpgradeFesLevelCsReq)
+    CmdPlanetFesUpgradeFesLevelCsReq = 8241,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesTakeRegionPhaseRewardCsReq)
+    CmdPlanetFesTakeRegionPhaseRewardCsReq = 8243,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesGetAvatarStatScRsp)
+    CmdPlanetFesGetAvatarStatScRsp = 8232,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesGetBusinessDayInfoScRsp)
+    CmdPlanetFesGetBusinessDayInfoScRsp = 8249,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesCollectIncomeCsReq)
+    CmdPlanetFesCollectIncomeCsReq = 8227,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesDoGachaScRsp)
+    CmdPlanetFesDoGachaScRsp = 8236,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesChooseAvatarEventOptionCsReq)
+    CmdPlanetFesChooseAvatarEventOptionCsReq = 8233,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesDoGachaCsReq)
+    CmdPlanetFesDoGachaCsReq = 8245,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesDeliverPamCargoCsReq)
+    CmdPlanetFesDeliverPamCargoCsReq = 8226,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdGetPlanetFesDataScRsp)
+    CmdGetPlanetFesDataScRsp = 8207,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesDealAvatarEventOptionItemCsReq)
+    CmdPlanetFesDealAvatarEventOptionItemCsReq = 8204,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdEMIFFPHBMEI)
+    CmdEMIFFPHBMEI = 8242,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesTakeRegionPhaseRewardScRsp)
+    CmdPlanetFesTakeRegionPhaseRewardScRsp = 8239,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesDeliverPamCargoScRsp)
+    CmdPlanetFesDeliverPamCargoScRsp = 8208,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesSetCustomKeyValueScRsp)
+    CmdPlanetFesSetCustomKeyValueScRsp = 8224,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesClientStatusCsReq)
+    CmdPlanetFesClientStatusCsReq = 8219,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesGetFriendRankingInfoListScRsp)
+    CmdPlanetFesGetFriendRankingInfoListScRsp = 8234,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesFriendRankingInfoChangeScNotify)
+    CmdPlanetFesFriendRankingInfoChangeScNotify = 8225,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesTakeQuestRewardCsReq)
+    CmdPlanetFesTakeQuestRewardCsReq = 8216,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdGetPlanetFesDataCsReq)
+    CmdGetPlanetFesDataCsReq = 8213,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesSyncChangeScNotify)
+    CmdPlanetFesSyncChangeScNotify = 8230,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesSkillLevelUpScRsp)
+    CmdPlanetFesSkillLevelUpScRsp = 8229,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesAvatarLevelUpCsReq)
+    CmdPlanetFesAvatarLevelUpCsReq = 8203,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesCollectAllIncomeCsReq)
+    CmdPlanetFesCollectAllIncomeCsReq = 8244,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdJOMBHCNIEMP)
+    CmdJOMBHCNIEMP = 8218,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesGetAvatarStatCsReq)
+    CmdPlanetFesGetAvatarStatCsReq = 8211,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdKIJGIOKOKPF)
+    CmdKIJGIOKOKPF = 8247,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesBingoGameFlipCardCsReq)
+    CmdPlanetFesBingoGameFlipCardCsReq = 8217,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesStartMiniGameCsReq)
+    CmdPlanetFesStartMiniGameCsReq = 8220,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesGameBingoFlipScRsp)
+    CmdPlanetFesGameBingoFlipScRsp = 8228,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdMDGOBJOFODB)
+    CmdMDGOBJOFODB = 8202,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesAvatarLevelUpScRsp)
+    CmdPlanetFesAvatarLevelUpScRsp = 8250,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesUseItemScRsp)
+    CmdPlanetFesUseItemScRsp = 8240,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdNDKMGIBCAHF)
+    CmdNDKMGIBCAHF = 8205,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesUpgradeSkillLevelCsReq)
+    CmdPlanetFesUpgradeSkillLevelCsReq = 8248,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesBusinessDayRefreshEventCsReq)
+    CmdPlanetFesBusinessDayRefreshEventCsReq = 8215,
+    // @@protoc_insertion_point(enum_value:CmdPlanetFesType.CmdPlanetFesUseItemCsReq)
+    CmdPlanetFesUseItemCsReq = 8246,
 }
 
 impl ::protobuf::Enum for CmdPlanetFesType {
@@ -140,170 +140,170 @@ impl ::protobuf::Enum for CmdPlanetFesType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdPlanetFesType> {
         match value {
-            0 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_MNFEPONEDDJ),
-            8220 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JAFGHLKAOEI),
-            8227 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_PAHAIMEGHEK),
-            8206 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_BOMIFNOIKNC),
-            8216 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_DIEACJOANKA),
-            8218 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_HDAOJIGODMP),
-            8224 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_EOAMJLBDCHG),
-            8243 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JENBJOLGEHG),
-            8229 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_EOHAKAFCANF),
-            8203 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_HPOIBHBEJIM),
-            8244 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_AFOLENBLHLJ),
-            8202 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_LPKGKACLMKA),
-            8240 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_CNLJKJDGCGJ),
-            8210 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_PPHJLANMEME),
-            8238 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JDKNIDLJHDG),
-            8242 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_IJLMBNJNNPO),
-            8221 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_CGCGKKEGIGK),
-            8245 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JHKHEHJGLBG),
-            8223 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_OINLMNDEKBP),
-            8241 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JDJEIPNNEKG),
-            8231 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_EKKNNKNLLMM),
-            8249 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_PKDEIJPIEPB),
-            8237 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_BJPBHIBKGFI),
-            8215 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_GKCBOMOKNLL),
-            8233 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_GKLKHBALIFF),
-            8201 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_FALBKCMCKAI),
-            8247 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_NCIPMIMFFPI),
-            8236 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_KOACBLPDHCJ),
-            8230 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JKCGEIJOODL),
-            8246 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_MMFFENIFNJA),
-            8212 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_BELADIELECN),
-            8234 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JDNJIPEOCGE),
-            8204 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_CPPOIENHJGP),
-            8226 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_GBHCMNBPAEJ),
-            8232 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JBNEHNPNBDE),
-            8217 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_LCPHPIDDBFC),
-            8208 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_MJLNICOCPAP),
-            8248 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_KKHMMOBKPDG),
-            8235 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_LBDGLOHLFGP),
-            8239 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_IKMLMAGHOJB),
-            8214 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_MAGMGAPNBEL),
-            8250 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_FMAHGAKCDEB),
-            8222 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_AGPLPJDMFID),
-            8211 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_CMMHFMBPIFB),
-            8207 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_POLDAEBMIOE),
-            8225 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_OGGNCPJNDMJ),
-            8205 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_FHFCGFECBEJ),
-            8213 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JOOAGDJFAHA),
-            8219 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_FGIEMJHEFDA),
-            8209 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_BLLIEHEKLAE),
-            8228 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_HJPPBICCPEC),
+            0 => ::std::option::Option::Some(CmdPlanetFesType::FFBGABCGDDL_PCPDHELPKEM),
+            8212 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesGetFriendRankingInfoListCsReq),
+            8235 => ::std::option::Option::Some(CmdPlanetFesType::CmdAFKCEOKHGHF),
+            8221 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesGetBusinessDayInfoCsReq),
+            8223 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesBonusEventInteractCsReq),
+            8201 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesBuyLandCsReq),
+            8206 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesBusinessDayRefreshEventScRsp),
+            8214 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesBonusEventInteractScRsp),
+            8222 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesStartMiniGameScRsp),
+            8209 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesChooseAvatarEventOptionScRsp),
+            8231 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesTakeQuestRewardScRsp),
+            8238 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesSetAvatarWorkCsReq),
+            8237 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesDealAvatarEventOptionItemScRsp),
+            8210 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesSetCustomKeyValueCsReq),
+            8241 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesUpgradeFesLevelCsReq),
+            8243 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesTakeRegionPhaseRewardCsReq),
+            8232 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesGetAvatarStatScRsp),
+            8249 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesGetBusinessDayInfoScRsp),
+            8227 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesCollectIncomeCsReq),
+            8236 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesDoGachaScRsp),
+            8233 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesChooseAvatarEventOptionCsReq),
+            8245 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesDoGachaCsReq),
+            8226 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesDeliverPamCargoCsReq),
+            8207 => ::std::option::Option::Some(CmdPlanetFesType::CmdGetPlanetFesDataScRsp),
+            8204 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesDealAvatarEventOptionItemCsReq),
+            8242 => ::std::option::Option::Some(CmdPlanetFesType::CmdEMIFFPHBMEI),
+            8239 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesTakeRegionPhaseRewardScRsp),
+            8208 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesDeliverPamCargoScRsp),
+            8224 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesSetCustomKeyValueScRsp),
+            8219 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesClientStatusCsReq),
+            8234 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesGetFriendRankingInfoListScRsp),
+            8225 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesFriendRankingInfoChangeScNotify),
+            8216 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesTakeQuestRewardCsReq),
+            8213 => ::std::option::Option::Some(CmdPlanetFesType::CmdGetPlanetFesDataCsReq),
+            8230 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesSyncChangeScNotify),
+            8229 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesSkillLevelUpScRsp),
+            8203 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesAvatarLevelUpCsReq),
+            8244 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesCollectAllIncomeCsReq),
+            8218 => ::std::option::Option::Some(CmdPlanetFesType::CmdJOMBHCNIEMP),
+            8211 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesGetAvatarStatCsReq),
+            8247 => ::std::option::Option::Some(CmdPlanetFesType::CmdKIJGIOKOKPF),
+            8217 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesBingoGameFlipCardCsReq),
+            8220 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesStartMiniGameCsReq),
+            8228 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesGameBingoFlipScRsp),
+            8202 => ::std::option::Option::Some(CmdPlanetFesType::CmdMDGOBJOFODB),
+            8250 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesAvatarLevelUpScRsp),
+            8240 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesUseItemScRsp),
+            8205 => ::std::option::Option::Some(CmdPlanetFesType::CmdNDKMGIBCAHF),
+            8248 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesUpgradeSkillLevelCsReq),
+            8215 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesBusinessDayRefreshEventCsReq),
+            8246 => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesUseItemCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdPlanetFesType> {
         match str {
-            "CmdPlanetFesType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_MNFEPONEDDJ),
-            "CmdPlanetFesType_JAFGHLKAOEI" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JAFGHLKAOEI),
-            "CmdPlanetFesType_PAHAIMEGHEK" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_PAHAIMEGHEK),
-            "CmdPlanetFesType_BOMIFNOIKNC" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_BOMIFNOIKNC),
-            "CmdPlanetFesType_DIEACJOANKA" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_DIEACJOANKA),
-            "CmdPlanetFesType_HDAOJIGODMP" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_HDAOJIGODMP),
-            "CmdPlanetFesType_EOAMJLBDCHG" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_EOAMJLBDCHG),
-            "CmdPlanetFesType_JENBJOLGEHG" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JENBJOLGEHG),
-            "CmdPlanetFesType_EOHAKAFCANF" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_EOHAKAFCANF),
-            "CmdPlanetFesType_HPOIBHBEJIM" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_HPOIBHBEJIM),
-            "CmdPlanetFesType_AFOLENBLHLJ" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_AFOLENBLHLJ),
-            "CmdPlanetFesType_LPKGKACLMKA" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_LPKGKACLMKA),
-            "CmdPlanetFesType_CNLJKJDGCGJ" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_CNLJKJDGCGJ),
-            "CmdPlanetFesType_PPHJLANMEME" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_PPHJLANMEME),
-            "CmdPlanetFesType_JDKNIDLJHDG" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JDKNIDLJHDG),
-            "CmdPlanetFesType_IJLMBNJNNPO" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_IJLMBNJNNPO),
-            "CmdPlanetFesType_CGCGKKEGIGK" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_CGCGKKEGIGK),
-            "CmdPlanetFesType_JHKHEHJGLBG" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JHKHEHJGLBG),
-            "CmdPlanetFesType_OINLMNDEKBP" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_OINLMNDEKBP),
-            "CmdPlanetFesType_JDJEIPNNEKG" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JDJEIPNNEKG),
-            "CmdPlanetFesType_EKKNNKNLLMM" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_EKKNNKNLLMM),
-            "CmdPlanetFesType_PKDEIJPIEPB" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_PKDEIJPIEPB),
-            "CmdPlanetFesType_BJPBHIBKGFI" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_BJPBHIBKGFI),
-            "CmdPlanetFesType_GKCBOMOKNLL" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_GKCBOMOKNLL),
-            "CmdPlanetFesType_GKLKHBALIFF" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_GKLKHBALIFF),
-            "CmdPlanetFesType_FALBKCMCKAI" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_FALBKCMCKAI),
-            "CmdPlanetFesType_NCIPMIMFFPI" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_NCIPMIMFFPI),
-            "CmdPlanetFesType_KOACBLPDHCJ" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_KOACBLPDHCJ),
-            "CmdPlanetFesType_JKCGEIJOODL" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JKCGEIJOODL),
-            "CmdPlanetFesType_MMFFENIFNJA" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_MMFFENIFNJA),
-            "CmdPlanetFesType_BELADIELECN" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_BELADIELECN),
-            "CmdPlanetFesType_JDNJIPEOCGE" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JDNJIPEOCGE),
-            "CmdPlanetFesType_CPPOIENHJGP" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_CPPOIENHJGP),
-            "CmdPlanetFesType_GBHCMNBPAEJ" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_GBHCMNBPAEJ),
-            "CmdPlanetFesType_JBNEHNPNBDE" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JBNEHNPNBDE),
-            "CmdPlanetFesType_LCPHPIDDBFC" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_LCPHPIDDBFC),
-            "CmdPlanetFesType_MJLNICOCPAP" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_MJLNICOCPAP),
-            "CmdPlanetFesType_KKHMMOBKPDG" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_KKHMMOBKPDG),
-            "CmdPlanetFesType_LBDGLOHLFGP" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_LBDGLOHLFGP),
-            "CmdPlanetFesType_IKMLMAGHOJB" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_IKMLMAGHOJB),
-            "CmdPlanetFesType_MAGMGAPNBEL" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_MAGMGAPNBEL),
-            "CmdPlanetFesType_FMAHGAKCDEB" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_FMAHGAKCDEB),
-            "CmdPlanetFesType_AGPLPJDMFID" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_AGPLPJDMFID),
-            "CmdPlanetFesType_CMMHFMBPIFB" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_CMMHFMBPIFB),
-            "CmdPlanetFesType_POLDAEBMIOE" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_POLDAEBMIOE),
-            "CmdPlanetFesType_OGGNCPJNDMJ" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_OGGNCPJNDMJ),
-            "CmdPlanetFesType_FHFCGFECBEJ" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_FHFCGFECBEJ),
-            "CmdPlanetFesType_JOOAGDJFAHA" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_JOOAGDJFAHA),
-            "CmdPlanetFesType_FGIEMJHEFDA" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_FGIEMJHEFDA),
-            "CmdPlanetFesType_BLLIEHEKLAE" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_BLLIEHEKLAE),
-            "CmdPlanetFesType_HJPPBICCPEC" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesType_HJPPBICCPEC),
+            "FFBGABCGDDL_PCPDHELPKEM" => ::std::option::Option::Some(CmdPlanetFesType::FFBGABCGDDL_PCPDHELPKEM),
+            "CmdPlanetFesGetFriendRankingInfoListCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesGetFriendRankingInfoListCsReq),
+            "CmdAFKCEOKHGHF" => ::std::option::Option::Some(CmdPlanetFesType::CmdAFKCEOKHGHF),
+            "CmdPlanetFesGetBusinessDayInfoCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesGetBusinessDayInfoCsReq),
+            "CmdPlanetFesBonusEventInteractCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesBonusEventInteractCsReq),
+            "CmdPlanetFesBuyLandCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesBuyLandCsReq),
+            "CmdPlanetFesBusinessDayRefreshEventScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesBusinessDayRefreshEventScRsp),
+            "CmdPlanetFesBonusEventInteractScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesBonusEventInteractScRsp),
+            "CmdPlanetFesStartMiniGameScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesStartMiniGameScRsp),
+            "CmdPlanetFesChooseAvatarEventOptionScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesChooseAvatarEventOptionScRsp),
+            "CmdPlanetFesTakeQuestRewardScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesTakeQuestRewardScRsp),
+            "CmdPlanetFesSetAvatarWorkCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesSetAvatarWorkCsReq),
+            "CmdPlanetFesDealAvatarEventOptionItemScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesDealAvatarEventOptionItemScRsp),
+            "CmdPlanetFesSetCustomKeyValueCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesSetCustomKeyValueCsReq),
+            "CmdPlanetFesUpgradeFesLevelCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesUpgradeFesLevelCsReq),
+            "CmdPlanetFesTakeRegionPhaseRewardCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesTakeRegionPhaseRewardCsReq),
+            "CmdPlanetFesGetAvatarStatScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesGetAvatarStatScRsp),
+            "CmdPlanetFesGetBusinessDayInfoScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesGetBusinessDayInfoScRsp),
+            "CmdPlanetFesCollectIncomeCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesCollectIncomeCsReq),
+            "CmdPlanetFesDoGachaScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesDoGachaScRsp),
+            "CmdPlanetFesChooseAvatarEventOptionCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesChooseAvatarEventOptionCsReq),
+            "CmdPlanetFesDoGachaCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesDoGachaCsReq),
+            "CmdPlanetFesDeliverPamCargoCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesDeliverPamCargoCsReq),
+            "CmdGetPlanetFesDataScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdGetPlanetFesDataScRsp),
+            "CmdPlanetFesDealAvatarEventOptionItemCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesDealAvatarEventOptionItemCsReq),
+            "CmdEMIFFPHBMEI" => ::std::option::Option::Some(CmdPlanetFesType::CmdEMIFFPHBMEI),
+            "CmdPlanetFesTakeRegionPhaseRewardScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesTakeRegionPhaseRewardScRsp),
+            "CmdPlanetFesDeliverPamCargoScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesDeliverPamCargoScRsp),
+            "CmdPlanetFesSetCustomKeyValueScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesSetCustomKeyValueScRsp),
+            "CmdPlanetFesClientStatusCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesClientStatusCsReq),
+            "CmdPlanetFesGetFriendRankingInfoListScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesGetFriendRankingInfoListScRsp),
+            "CmdPlanetFesFriendRankingInfoChangeScNotify" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesFriendRankingInfoChangeScNotify),
+            "CmdPlanetFesTakeQuestRewardCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesTakeQuestRewardCsReq),
+            "CmdGetPlanetFesDataCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdGetPlanetFesDataCsReq),
+            "CmdPlanetFesSyncChangeScNotify" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesSyncChangeScNotify),
+            "CmdPlanetFesSkillLevelUpScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesSkillLevelUpScRsp),
+            "CmdPlanetFesAvatarLevelUpCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesAvatarLevelUpCsReq),
+            "CmdPlanetFesCollectAllIncomeCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesCollectAllIncomeCsReq),
+            "CmdJOMBHCNIEMP" => ::std::option::Option::Some(CmdPlanetFesType::CmdJOMBHCNIEMP),
+            "CmdPlanetFesGetAvatarStatCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesGetAvatarStatCsReq),
+            "CmdKIJGIOKOKPF" => ::std::option::Option::Some(CmdPlanetFesType::CmdKIJGIOKOKPF),
+            "CmdPlanetFesBingoGameFlipCardCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesBingoGameFlipCardCsReq),
+            "CmdPlanetFesStartMiniGameCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesStartMiniGameCsReq),
+            "CmdPlanetFesGameBingoFlipScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesGameBingoFlipScRsp),
+            "CmdMDGOBJOFODB" => ::std::option::Option::Some(CmdPlanetFesType::CmdMDGOBJOFODB),
+            "CmdPlanetFesAvatarLevelUpScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesAvatarLevelUpScRsp),
+            "CmdPlanetFesUseItemScRsp" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesUseItemScRsp),
+            "CmdNDKMGIBCAHF" => ::std::option::Option::Some(CmdPlanetFesType::CmdNDKMGIBCAHF),
+            "CmdPlanetFesUpgradeSkillLevelCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesUpgradeSkillLevelCsReq),
+            "CmdPlanetFesBusinessDayRefreshEventCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesBusinessDayRefreshEventCsReq),
+            "CmdPlanetFesUseItemCsReq" => ::std::option::Option::Some(CmdPlanetFesType::CmdPlanetFesUseItemCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdPlanetFesType] = &[
-        CmdPlanetFesType::CmdPlanetFesType_MNFEPONEDDJ,
-        CmdPlanetFesType::CmdPlanetFesType_JAFGHLKAOEI,
-        CmdPlanetFesType::CmdPlanetFesType_PAHAIMEGHEK,
-        CmdPlanetFesType::CmdPlanetFesType_BOMIFNOIKNC,
-        CmdPlanetFesType::CmdPlanetFesType_DIEACJOANKA,
-        CmdPlanetFesType::CmdPlanetFesType_HDAOJIGODMP,
-        CmdPlanetFesType::CmdPlanetFesType_EOAMJLBDCHG,
-        CmdPlanetFesType::CmdPlanetFesType_JENBJOLGEHG,
-        CmdPlanetFesType::CmdPlanetFesType_EOHAKAFCANF,
-        CmdPlanetFesType::CmdPlanetFesType_HPOIBHBEJIM,
-        CmdPlanetFesType::CmdPlanetFesType_AFOLENBLHLJ,
-        CmdPlanetFesType::CmdPlanetFesType_LPKGKACLMKA,
-        CmdPlanetFesType::CmdPlanetFesType_CNLJKJDGCGJ,
-        CmdPlanetFesType::CmdPlanetFesType_PPHJLANMEME,
-        CmdPlanetFesType::CmdPlanetFesType_JDKNIDLJHDG,
-        CmdPlanetFesType::CmdPlanetFesType_IJLMBNJNNPO,
-        CmdPlanetFesType::CmdPlanetFesType_CGCGKKEGIGK,
-        CmdPlanetFesType::CmdPlanetFesType_JHKHEHJGLBG,
-        CmdPlanetFesType::CmdPlanetFesType_OINLMNDEKBP,
-        CmdPlanetFesType::CmdPlanetFesType_JDJEIPNNEKG,
-        CmdPlanetFesType::CmdPlanetFesType_EKKNNKNLLMM,
-        CmdPlanetFesType::CmdPlanetFesType_PKDEIJPIEPB,
-        CmdPlanetFesType::CmdPlanetFesType_BJPBHIBKGFI,
-        CmdPlanetFesType::CmdPlanetFesType_GKCBOMOKNLL,
-        CmdPlanetFesType::CmdPlanetFesType_GKLKHBALIFF,
-        CmdPlanetFesType::CmdPlanetFesType_FALBKCMCKAI,
-        CmdPlanetFesType::CmdPlanetFesType_NCIPMIMFFPI,
-        CmdPlanetFesType::CmdPlanetFesType_KOACBLPDHCJ,
-        CmdPlanetFesType::CmdPlanetFesType_JKCGEIJOODL,
-        CmdPlanetFesType::CmdPlanetFesType_MMFFENIFNJA,
-        CmdPlanetFesType::CmdPlanetFesType_BELADIELECN,
-        CmdPlanetFesType::CmdPlanetFesType_JDNJIPEOCGE,
-        CmdPlanetFesType::CmdPlanetFesType_CPPOIENHJGP,
-        CmdPlanetFesType::CmdPlanetFesType_GBHCMNBPAEJ,
-        CmdPlanetFesType::CmdPlanetFesType_JBNEHNPNBDE,
-        CmdPlanetFesType::CmdPlanetFesType_LCPHPIDDBFC,
-        CmdPlanetFesType::CmdPlanetFesType_MJLNICOCPAP,
-        CmdPlanetFesType::CmdPlanetFesType_KKHMMOBKPDG,
-        CmdPlanetFesType::CmdPlanetFesType_LBDGLOHLFGP,
-        CmdPlanetFesType::CmdPlanetFesType_IKMLMAGHOJB,
-        CmdPlanetFesType::CmdPlanetFesType_MAGMGAPNBEL,
-        CmdPlanetFesType::CmdPlanetFesType_FMAHGAKCDEB,
-        CmdPlanetFesType::CmdPlanetFesType_AGPLPJDMFID,
-        CmdPlanetFesType::CmdPlanetFesType_CMMHFMBPIFB,
-        CmdPlanetFesType::CmdPlanetFesType_POLDAEBMIOE,
-        CmdPlanetFesType::CmdPlanetFesType_OGGNCPJNDMJ,
-        CmdPlanetFesType::CmdPlanetFesType_FHFCGFECBEJ,
-        CmdPlanetFesType::CmdPlanetFesType_JOOAGDJFAHA,
-        CmdPlanetFesType::CmdPlanetFesType_FGIEMJHEFDA,
-        CmdPlanetFesType::CmdPlanetFesType_BLLIEHEKLAE,
-        CmdPlanetFesType::CmdPlanetFesType_HJPPBICCPEC,
+        CmdPlanetFesType::FFBGABCGDDL_PCPDHELPKEM,
+        CmdPlanetFesType::CmdPlanetFesGetFriendRankingInfoListCsReq,
+        CmdPlanetFesType::CmdAFKCEOKHGHF,
+        CmdPlanetFesType::CmdPlanetFesGetBusinessDayInfoCsReq,
+        CmdPlanetFesType::CmdPlanetFesBonusEventInteractCsReq,
+        CmdPlanetFesType::CmdPlanetFesBuyLandCsReq,
+        CmdPlanetFesType::CmdPlanetFesBusinessDayRefreshEventScRsp,
+        CmdPlanetFesType::CmdPlanetFesBonusEventInteractScRsp,
+        CmdPlanetFesType::CmdPlanetFesStartMiniGameScRsp,
+        CmdPlanetFesType::CmdPlanetFesChooseAvatarEventOptionScRsp,
+        CmdPlanetFesType::CmdPlanetFesTakeQuestRewardScRsp,
+        CmdPlanetFesType::CmdPlanetFesSetAvatarWorkCsReq,
+        CmdPlanetFesType::CmdPlanetFesDealAvatarEventOptionItemScRsp,
+        CmdPlanetFesType::CmdPlanetFesSetCustomKeyValueCsReq,
+        CmdPlanetFesType::CmdPlanetFesUpgradeFesLevelCsReq,
+        CmdPlanetFesType::CmdPlanetFesTakeRegionPhaseRewardCsReq,
+        CmdPlanetFesType::CmdPlanetFesGetAvatarStatScRsp,
+        CmdPlanetFesType::CmdPlanetFesGetBusinessDayInfoScRsp,
+        CmdPlanetFesType::CmdPlanetFesCollectIncomeCsReq,
+        CmdPlanetFesType::CmdPlanetFesDoGachaScRsp,
+        CmdPlanetFesType::CmdPlanetFesChooseAvatarEventOptionCsReq,
+        CmdPlanetFesType::CmdPlanetFesDoGachaCsReq,
+        CmdPlanetFesType::CmdPlanetFesDeliverPamCargoCsReq,
+        CmdPlanetFesType::CmdGetPlanetFesDataScRsp,
+        CmdPlanetFesType::CmdPlanetFesDealAvatarEventOptionItemCsReq,
+        CmdPlanetFesType::CmdEMIFFPHBMEI,
+        CmdPlanetFesType::CmdPlanetFesTakeRegionPhaseRewardScRsp,
+        CmdPlanetFesType::CmdPlanetFesDeliverPamCargoScRsp,
+        CmdPlanetFesType::CmdPlanetFesSetCustomKeyValueScRsp,
+        CmdPlanetFesType::CmdPlanetFesClientStatusCsReq,
+        CmdPlanetFesType::CmdPlanetFesGetFriendRankingInfoListScRsp,
+        CmdPlanetFesType::CmdPlanetFesFriendRankingInfoChangeScNotify,
+        CmdPlanetFesType::CmdPlanetFesTakeQuestRewardCsReq,
+        CmdPlanetFesType::CmdGetPlanetFesDataCsReq,
+        CmdPlanetFesType::CmdPlanetFesSyncChangeScNotify,
+        CmdPlanetFesType::CmdPlanetFesSkillLevelUpScRsp,
+        CmdPlanetFesType::CmdPlanetFesAvatarLevelUpCsReq,
+        CmdPlanetFesType::CmdPlanetFesCollectAllIncomeCsReq,
+        CmdPlanetFesType::CmdJOMBHCNIEMP,
+        CmdPlanetFesType::CmdPlanetFesGetAvatarStatCsReq,
+        CmdPlanetFesType::CmdKIJGIOKOKPF,
+        CmdPlanetFesType::CmdPlanetFesBingoGameFlipCardCsReq,
+        CmdPlanetFesType::CmdPlanetFesStartMiniGameCsReq,
+        CmdPlanetFesType::CmdPlanetFesGameBingoFlipScRsp,
+        CmdPlanetFesType::CmdMDGOBJOFODB,
+        CmdPlanetFesType::CmdPlanetFesAvatarLevelUpScRsp,
+        CmdPlanetFesType::CmdPlanetFesUseItemScRsp,
+        CmdPlanetFesType::CmdNDKMGIBCAHF,
+        CmdPlanetFesType::CmdPlanetFesUpgradeSkillLevelCsReq,
+        CmdPlanetFesType::CmdPlanetFesBusinessDayRefreshEventCsReq,
+        CmdPlanetFesType::CmdPlanetFesUseItemCsReq,
     ];
 }
 
@@ -315,57 +315,57 @@ impl ::protobuf::EnumFull for CmdPlanetFesType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdPlanetFesType::CmdPlanetFesType_MNFEPONEDDJ => 0,
-            CmdPlanetFesType::CmdPlanetFesType_JAFGHLKAOEI => 1,
-            CmdPlanetFesType::CmdPlanetFesType_PAHAIMEGHEK => 2,
-            CmdPlanetFesType::CmdPlanetFesType_BOMIFNOIKNC => 3,
-            CmdPlanetFesType::CmdPlanetFesType_DIEACJOANKA => 4,
-            CmdPlanetFesType::CmdPlanetFesType_HDAOJIGODMP => 5,
-            CmdPlanetFesType::CmdPlanetFesType_EOAMJLBDCHG => 6,
-            CmdPlanetFesType::CmdPlanetFesType_JENBJOLGEHG => 7,
-            CmdPlanetFesType::CmdPlanetFesType_EOHAKAFCANF => 8,
-            CmdPlanetFesType::CmdPlanetFesType_HPOIBHBEJIM => 9,
-            CmdPlanetFesType::CmdPlanetFesType_AFOLENBLHLJ => 10,
-            CmdPlanetFesType::CmdPlanetFesType_LPKGKACLMKA => 11,
-            CmdPlanetFesType::CmdPlanetFesType_CNLJKJDGCGJ => 12,
-            CmdPlanetFesType::CmdPlanetFesType_PPHJLANMEME => 13,
-            CmdPlanetFesType::CmdPlanetFesType_JDKNIDLJHDG => 14,
-            CmdPlanetFesType::CmdPlanetFesType_IJLMBNJNNPO => 15,
-            CmdPlanetFesType::CmdPlanetFesType_CGCGKKEGIGK => 16,
-            CmdPlanetFesType::CmdPlanetFesType_JHKHEHJGLBG => 17,
-            CmdPlanetFesType::CmdPlanetFesType_OINLMNDEKBP => 18,
-            CmdPlanetFesType::CmdPlanetFesType_JDJEIPNNEKG => 19,
-            CmdPlanetFesType::CmdPlanetFesType_EKKNNKNLLMM => 20,
-            CmdPlanetFesType::CmdPlanetFesType_PKDEIJPIEPB => 21,
-            CmdPlanetFesType::CmdPlanetFesType_BJPBHIBKGFI => 22,
-            CmdPlanetFesType::CmdPlanetFesType_GKCBOMOKNLL => 23,
-            CmdPlanetFesType::CmdPlanetFesType_GKLKHBALIFF => 24,
-            CmdPlanetFesType::CmdPlanetFesType_FALBKCMCKAI => 25,
-            CmdPlanetFesType::CmdPlanetFesType_NCIPMIMFFPI => 26,
-            CmdPlanetFesType::CmdPlanetFesType_KOACBLPDHCJ => 27,
-            CmdPlanetFesType::CmdPlanetFesType_JKCGEIJOODL => 28,
-            CmdPlanetFesType::CmdPlanetFesType_MMFFENIFNJA => 29,
-            CmdPlanetFesType::CmdPlanetFesType_BELADIELECN => 30,
-            CmdPlanetFesType::CmdPlanetFesType_JDNJIPEOCGE => 31,
-            CmdPlanetFesType::CmdPlanetFesType_CPPOIENHJGP => 32,
-            CmdPlanetFesType::CmdPlanetFesType_GBHCMNBPAEJ => 33,
-            CmdPlanetFesType::CmdPlanetFesType_JBNEHNPNBDE => 34,
-            CmdPlanetFesType::CmdPlanetFesType_LCPHPIDDBFC => 35,
-            CmdPlanetFesType::CmdPlanetFesType_MJLNICOCPAP => 36,
-            CmdPlanetFesType::CmdPlanetFesType_KKHMMOBKPDG => 37,
-            CmdPlanetFesType::CmdPlanetFesType_LBDGLOHLFGP => 38,
-            CmdPlanetFesType::CmdPlanetFesType_IKMLMAGHOJB => 39,
-            CmdPlanetFesType::CmdPlanetFesType_MAGMGAPNBEL => 40,
-            CmdPlanetFesType::CmdPlanetFesType_FMAHGAKCDEB => 41,
-            CmdPlanetFesType::CmdPlanetFesType_AGPLPJDMFID => 42,
-            CmdPlanetFesType::CmdPlanetFesType_CMMHFMBPIFB => 43,
-            CmdPlanetFesType::CmdPlanetFesType_POLDAEBMIOE => 44,
-            CmdPlanetFesType::CmdPlanetFesType_OGGNCPJNDMJ => 45,
-            CmdPlanetFesType::CmdPlanetFesType_FHFCGFECBEJ => 46,
-            CmdPlanetFesType::CmdPlanetFesType_JOOAGDJFAHA => 47,
-            CmdPlanetFesType::CmdPlanetFesType_FGIEMJHEFDA => 48,
-            CmdPlanetFesType::CmdPlanetFesType_BLLIEHEKLAE => 49,
-            CmdPlanetFesType::CmdPlanetFesType_HJPPBICCPEC => 50,
+            CmdPlanetFesType::FFBGABCGDDL_PCPDHELPKEM => 0,
+            CmdPlanetFesType::CmdPlanetFesGetFriendRankingInfoListCsReq => 1,
+            CmdPlanetFesType::CmdAFKCEOKHGHF => 2,
+            CmdPlanetFesType::CmdPlanetFesGetBusinessDayInfoCsReq => 3,
+            CmdPlanetFesType::CmdPlanetFesBonusEventInteractCsReq => 4,
+            CmdPlanetFesType::CmdPlanetFesBuyLandCsReq => 5,
+            CmdPlanetFesType::CmdPlanetFesBusinessDayRefreshEventScRsp => 6,
+            CmdPlanetFesType::CmdPlanetFesBonusEventInteractScRsp => 7,
+            CmdPlanetFesType::CmdPlanetFesStartMiniGameScRsp => 8,
+            CmdPlanetFesType::CmdPlanetFesChooseAvatarEventOptionScRsp => 9,
+            CmdPlanetFesType::CmdPlanetFesTakeQuestRewardScRsp => 10,
+            CmdPlanetFesType::CmdPlanetFesSetAvatarWorkCsReq => 11,
+            CmdPlanetFesType::CmdPlanetFesDealAvatarEventOptionItemScRsp => 12,
+            CmdPlanetFesType::CmdPlanetFesSetCustomKeyValueCsReq => 13,
+            CmdPlanetFesType::CmdPlanetFesUpgradeFesLevelCsReq => 14,
+            CmdPlanetFesType::CmdPlanetFesTakeRegionPhaseRewardCsReq => 15,
+            CmdPlanetFesType::CmdPlanetFesGetAvatarStatScRsp => 16,
+            CmdPlanetFesType::CmdPlanetFesGetBusinessDayInfoScRsp => 17,
+            CmdPlanetFesType::CmdPlanetFesCollectIncomeCsReq => 18,
+            CmdPlanetFesType::CmdPlanetFesDoGachaScRsp => 19,
+            CmdPlanetFesType::CmdPlanetFesChooseAvatarEventOptionCsReq => 20,
+            CmdPlanetFesType::CmdPlanetFesDoGachaCsReq => 21,
+            CmdPlanetFesType::CmdPlanetFesDeliverPamCargoCsReq => 22,
+            CmdPlanetFesType::CmdGetPlanetFesDataScRsp => 23,
+            CmdPlanetFesType::CmdPlanetFesDealAvatarEventOptionItemCsReq => 24,
+            CmdPlanetFesType::CmdEMIFFPHBMEI => 25,
+            CmdPlanetFesType::CmdPlanetFesTakeRegionPhaseRewardScRsp => 26,
+            CmdPlanetFesType::CmdPlanetFesDeliverPamCargoScRsp => 27,
+            CmdPlanetFesType::CmdPlanetFesSetCustomKeyValueScRsp => 28,
+            CmdPlanetFesType::CmdPlanetFesClientStatusCsReq => 29,
+            CmdPlanetFesType::CmdPlanetFesGetFriendRankingInfoListScRsp => 30,
+            CmdPlanetFesType::CmdPlanetFesFriendRankingInfoChangeScNotify => 31,
+            CmdPlanetFesType::CmdPlanetFesTakeQuestRewardCsReq => 32,
+            CmdPlanetFesType::CmdGetPlanetFesDataCsReq => 33,
+            CmdPlanetFesType::CmdPlanetFesSyncChangeScNotify => 34,
+            CmdPlanetFesType::CmdPlanetFesSkillLevelUpScRsp => 35,
+            CmdPlanetFesType::CmdPlanetFesAvatarLevelUpCsReq => 36,
+            CmdPlanetFesType::CmdPlanetFesCollectAllIncomeCsReq => 37,
+            CmdPlanetFesType::CmdJOMBHCNIEMP => 38,
+            CmdPlanetFesType::CmdPlanetFesGetAvatarStatCsReq => 39,
+            CmdPlanetFesType::CmdKIJGIOKOKPF => 40,
+            CmdPlanetFesType::CmdPlanetFesBingoGameFlipCardCsReq => 41,
+            CmdPlanetFesType::CmdPlanetFesStartMiniGameCsReq => 42,
+            CmdPlanetFesType::CmdPlanetFesGameBingoFlipScRsp => 43,
+            CmdPlanetFesType::CmdMDGOBJOFODB => 44,
+            CmdPlanetFesType::CmdPlanetFesAvatarLevelUpScRsp => 45,
+            CmdPlanetFesType::CmdPlanetFesUseItemScRsp => 46,
+            CmdPlanetFesType::CmdNDKMGIBCAHF => 47,
+            CmdPlanetFesType::CmdPlanetFesUpgradeSkillLevelCsReq => 48,
+            CmdPlanetFesType::CmdPlanetFesBusinessDayRefreshEventCsReq => 49,
+            CmdPlanetFesType::CmdPlanetFesUseItemCsReq => 50,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -373,7 +373,7 @@ impl ::protobuf::EnumFull for CmdPlanetFesType {
 
 impl ::std::default::Default for CmdPlanetFesType {
     fn default() -> Self {
-        CmdPlanetFesType::CmdPlanetFesType_MNFEPONEDDJ
+        CmdPlanetFesType::FFBGABCGDDL_PCPDHELPKEM
     }
 }
 
@@ -384,42 +384,43 @@ impl CmdPlanetFesType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x16CmdPlanetFesType.proto*\x8a\x0e\n\x10CmdPlanetFesType\x12\x20\n\
-    \x1cCmdPlanetFesType_MNFEPONEDDJ\x10\0\x12!\n\x1cCmdPlanetFesType_JAFGHL\
-    KAOEI\x10\x9c@\x12!\n\x1cCmdPlanetFesType_PAHAIMEGHEK\x10\xa3@\x12!\n\
-    \x1cCmdPlanetFesType_BOMIFNOIKNC\x10\x8e@\x12!\n\x1cCmdPlanetFesType_DIE\
-    ACJOANKA\x10\x98@\x12!\n\x1cCmdPlanetFesType_HDAOJIGODMP\x10\x9a@\x12!\n\
-    \x1cCmdPlanetFesType_EOAMJLBDCHG\x10\xa0@\x12!\n\x1cCmdPlanetFesType_JEN\
-    BJOLGEHG\x10\xb3@\x12!\n\x1cCmdPlanetFesType_EOHAKAFCANF\x10\xa5@\x12!\n\
-    \x1cCmdPlanetFesType_HPOIBHBEJIM\x10\x8b@\x12!\n\x1cCmdPlanetFesType_AFO\
-    LENBLHLJ\x10\xb4@\x12!\n\x1cCmdPlanetFesType_LPKGKACLMKA\x10\x8a@\x12!\n\
-    \x1cCmdPlanetFesType_CNLJKJDGCGJ\x10\xb0@\x12!\n\x1cCmdPlanetFesType_PPH\
-    JLANMEME\x10\x92@\x12!\n\x1cCmdPlanetFesType_JDKNIDLJHDG\x10\xae@\x12!\n\
-    \x1cCmdPlanetFesType_IJLMBNJNNPO\x10\xb2@\x12!\n\x1cCmdPlanetFesType_CGC\
-    GKKEGIGK\x10\x9d@\x12!\n\x1cCmdPlanetFesType_JHKHEHJGLBG\x10\xb5@\x12!\n\
-    \x1cCmdPlanetFesType_OINLMNDEKBP\x10\x9f@\x12!\n\x1cCmdPlanetFesType_JDJ\
-    EIPNNEKG\x10\xb1@\x12!\n\x1cCmdPlanetFesType_EKKNNKNLLMM\x10\xa7@\x12!\n\
-    \x1cCmdPlanetFesType_PKDEIJPIEPB\x10\xb9@\x12!\n\x1cCmdPlanetFesType_BJP\
-    BHIBKGFI\x10\xad@\x12!\n\x1cCmdPlanetFesType_GKCBOMOKNLL\x10\x97@\x12!\n\
-    \x1cCmdPlanetFesType_GKLKHBALIFF\x10\xa9@\x12!\n\x1cCmdPlanetFesType_FAL\
-    BKCMCKAI\x10\x89@\x12!\n\x1cCmdPlanetFesType_NCIPMIMFFPI\x10\xb7@\x12!\n\
-    \x1cCmdPlanetFesType_KOACBLPDHCJ\x10\xac@\x12!\n\x1cCmdPlanetFesType_JKC\
-    GEIJOODL\x10\xa6@\x12!\n\x1cCmdPlanetFesType_MMFFENIFNJA\x10\xb6@\x12!\n\
-    \x1cCmdPlanetFesType_BELADIELECN\x10\x94@\x12!\n\x1cCmdPlanetFesType_JDN\
-    JIPEOCGE\x10\xaa@\x12!\n\x1cCmdPlanetFesType_CPPOIENHJGP\x10\x8c@\x12!\n\
-    \x1cCmdPlanetFesType_GBHCMNBPAEJ\x10\xa2@\x12!\n\x1cCmdPlanetFesType_JBN\
-    EHNPNBDE\x10\xa8@\x12!\n\x1cCmdPlanetFesType_LCPHPIDDBFC\x10\x99@\x12!\n\
-    \x1cCmdPlanetFesType_MJLNICOCPAP\x10\x90@\x12!\n\x1cCmdPlanetFesType_KKH\
-    MMOBKPDG\x10\xb8@\x12!\n\x1cCmdPlanetFesType_LBDGLOHLFGP\x10\xab@\x12!\n\
-    \x1cCmdPlanetFesType_IKMLMAGHOJB\x10\xaf@\x12!\n\x1cCmdPlanetFesType_MAG\
-    MGAPNBEL\x10\x96@\x12!\n\x1cCmdPlanetFesType_FMAHGAKCDEB\x10\xba@\x12!\n\
-    \x1cCmdPlanetFesType_AGPLPJDMFID\x10\x9e@\x12!\n\x1cCmdPlanetFesType_CMM\
-    HFMBPIFB\x10\x93@\x12!\n\x1cCmdPlanetFesType_POLDAEBMIOE\x10\x8f@\x12!\n\
-    \x1cCmdPlanetFesType_OGGNCPJNDMJ\x10\xa1@\x12!\n\x1cCmdPlanetFesType_FHF\
-    CGFECBEJ\x10\x8d@\x12!\n\x1cCmdPlanetFesType_JOOAGDJFAHA\x10\x95@\x12!\n\
-    \x1cCmdPlanetFesType_FGIEMJHEFDA\x10\x9b@\x12!\n\x1cCmdPlanetFesType_BLL\
-    IEHEKLAE\x10\x91@\x12!\n\x1cCmdPlanetFesType_HJPPBICCPEC\x10\xa4@b\x06pr\
-    oto3\
+    \n\x16CmdPlanetFesType.proto*\x81\x0f\n\x10CmdPlanetFesType\x12\x1b\n\
+    \x17FFBGABCGDDL_PCPDHELPKEM\x10\0\x12.\n)CmdPlanetFesGetFriendRankingInf\
+    oListCsReq\x10\x94@\x12\x13\n\x0eCmdAFKCEOKHGHF\x10\xab@\x12(\n#CmdPlane\
+    tFesGetBusinessDayInfoCsReq\x10\x9d@\x12(\n#CmdPlanetFesBonusEventIntera\
+    ctCsReq\x10\x9f@\x12\x1d\n\x18CmdPlanetFesBuyLandCsReq\x10\x89@\x12-\n(C\
+    mdPlanetFesBusinessDayRefreshEventScRsp\x10\x8e@\x12(\n#CmdPlanetFesBonu\
+    sEventInteractScRsp\x10\x96@\x12#\n\x1eCmdPlanetFesStartMiniGameScRsp\
+    \x10\x9e@\x12-\n(CmdPlanetFesChooseAvatarEventOptionScRsp\x10\x91@\x12%\
+    \n\x20CmdPlanetFesTakeQuestRewardScRsp\x10\xa7@\x12#\n\x1eCmdPlanetFesSe\
+    tAvatarWorkCsReq\x10\xae@\x12/\n*CmdPlanetFesDealAvatarEventOptionItemSc\
+    Rsp\x10\xad@\x12'\n\"CmdPlanetFesSetCustomKeyValueCsReq\x10\x92@\x12%\n\
+    \x20CmdPlanetFesUpgradeFesLevelCsReq\x10\xb1@\x12+\n&CmdPlanetFesTakeReg\
+    ionPhaseRewardCsReq\x10\xb3@\x12#\n\x1eCmdPlanetFesGetAvatarStatScRsp\
+    \x10\xa8@\x12(\n#CmdPlanetFesGetBusinessDayInfoScRsp\x10\xb9@\x12#\n\x1e\
+    CmdPlanetFesCollectIncomeCsReq\x10\xa3@\x12\x1d\n\x18CmdPlanetFesDoGacha\
+    ScRsp\x10\xac@\x12-\n(CmdPlanetFesChooseAvatarEventOptionCsReq\x10\xa9@\
+    \x12\x1d\n\x18CmdPlanetFesDoGachaCsReq\x10\xb5@\x12%\n\x20CmdPlanetFesDe\
+    liverPamCargoCsReq\x10\xa2@\x12\x1d\n\x18CmdGetPlanetFesDataScRsp\x10\
+    \x8f@\x12/\n*CmdPlanetFesDealAvatarEventOptionItemCsReq\x10\x8c@\x12\x13\
+    \n\x0eCmdEMIFFPHBMEI\x10\xb2@\x12+\n&CmdPlanetFesTakeRegionPhaseRewardSc\
+    Rsp\x10\xaf@\x12%\n\x20CmdPlanetFesDeliverPamCargoScRsp\x10\x90@\x12'\n\
+    \"CmdPlanetFesSetCustomKeyValueScRsp\x10\xa0@\x12\"\n\x1dCmdPlanetFesCli\
+    entStatusCsReq\x10\x9b@\x12.\n)CmdPlanetFesGetFriendRankingInfoListScRsp\
+    \x10\xaa@\x120\n+CmdPlanetFesFriendRankingInfoChangeScNotify\x10\xa1@\
+    \x12%\n\x20CmdPlanetFesTakeQuestRewardCsReq\x10\x98@\x12\x1d\n\x18CmdGet\
+    PlanetFesDataCsReq\x10\x95@\x12#\n\x1eCmdPlanetFesSyncChangeScNotify\x10\
+    \xa6@\x12\"\n\x1dCmdPlanetFesSkillLevelUpScRsp\x10\xa5@\x12#\n\x1eCmdPla\
+    netFesAvatarLevelUpCsReq\x10\x8b@\x12&\n!CmdPlanetFesCollectAllIncomeCsR\
+    eq\x10\xb4@\x12\x13\n\x0eCmdJOMBHCNIEMP\x10\x9a@\x12#\n\x1eCmdPlanetFesG\
+    etAvatarStatCsReq\x10\x93@\x12\x13\n\x0eCmdKIJGIOKOKPF\x10\xb7@\x12'\n\"\
+    CmdPlanetFesBingoGameFlipCardCsReq\x10\x99@\x12#\n\x1eCmdPlanetFesStartM\
+    iniGameCsReq\x10\x9c@\x12#\n\x1eCmdPlanetFesGameBingoFlipScRsp\x10\xa4@\
+    \x12\x13\n\x0eCmdMDGOBJOFODB\x10\x8a@\x12#\n\x1eCmdPlanetFesAvatarLevelU\
+    pScRsp\x10\xba@\x12\x1d\n\x18CmdPlanetFesUseItemScRsp\x10\xb0@\x12\x13\n\
+    \x0eCmdNDKMGIBCAHF\x10\x8d@\x12'\n\"CmdPlanetFesUpgradeSkillLevelCsReq\
+    \x10\xb8@\x12-\n(CmdPlanetFesBusinessDayRefreshEventCsReq\x10\x97@\x12\
+    \x1d\n\x18CmdPlanetFesUseItemCsReq\x10\xb6@b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -28,16 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ElationActivityBattleEndScNotify {
     // message fields
-    // @@protoc_insertion_point(field:ElationActivityBattleEndScNotify.level_data)
-    pub level_data: ::protobuf::MessageField<super::ElationActivityLevelData::ElationActivityLevelData>,
-    // @@protoc_insertion_point(field:ElationActivityBattleEndScNotify.perfect_wave)
-    pub perfect_wave: u32,
-    // @@protoc_insertion_point(field:ElationActivityBattleEndScNotify.EHIINPAPCGL)
-    pub EHIINPAPCGL: u32,
+    // @@protoc_insertion_point(field:ElationActivityBattleEndScNotify.GGCPDPFMAEG)
+    pub GGCPDPFMAEG: u32,
     // @@protoc_insertion_point(field:ElationActivityBattleEndScNotify.level_id)
     pub level_id: u32,
-    // @@protoc_insertion_point(field:ElationActivityBattleEndScNotify.OEICMGEAIEE)
-    pub OEICMGEAIEE: u32,
+    // @@protoc_insertion_point(field:ElationActivityBattleEndScNotify.HJAADAOGAMP)
+    pub HJAADAOGAMP: u32,
+    // @@protoc_insertion_point(field:ElationActivityBattleEndScNotify.perfect_wave)
+    pub perfect_wave: u32,
+    // @@protoc_insertion_point(field:ElationActivityBattleEndScNotify.level_data)
+    pub level_data: ::protobuf::MessageField<super::ElationActivityLevelData::ElationActivityLevelData>,
     // special fields
     // @@protoc_insertion_point(special_field:ElationActivityBattleEndScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,20 +57,10 @@ impl ElationActivityBattleEndScNotify {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ElationActivityLevelData::ElationActivityLevelData>(
-            "level_data",
-            |m: &ElationActivityBattleEndScNotify| { &m.level_data },
-            |m: &mut ElationActivityBattleEndScNotify| { &mut m.level_data },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "perfect_wave",
-            |m: &ElationActivityBattleEndScNotify| { &m.perfect_wave },
-            |m: &mut ElationActivityBattleEndScNotify| { &mut m.perfect_wave },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "EHIINPAPCGL",
-            |m: &ElationActivityBattleEndScNotify| { &m.EHIINPAPCGL },
-            |m: &mut ElationActivityBattleEndScNotify| { &mut m.EHIINPAPCGL },
+            "GGCPDPFMAEG",
+            |m: &ElationActivityBattleEndScNotify| { &m.GGCPDPFMAEG },
+            |m: &mut ElationActivityBattleEndScNotify| { &mut m.GGCPDPFMAEG },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "level_id",
@@ -78,9 +68,19 @@ impl ElationActivityBattleEndScNotify {
             |m: &mut ElationActivityBattleEndScNotify| { &mut m.level_id },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "OEICMGEAIEE",
-            |m: &ElationActivityBattleEndScNotify| { &m.OEICMGEAIEE },
-            |m: &mut ElationActivityBattleEndScNotify| { &mut m.OEICMGEAIEE },
+            "HJAADAOGAMP",
+            |m: &ElationActivityBattleEndScNotify| { &m.HJAADAOGAMP },
+            |m: &mut ElationActivityBattleEndScNotify| { &mut m.HJAADAOGAMP },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "perfect_wave",
+            |m: &ElationActivityBattleEndScNotify| { &m.perfect_wave },
+            |m: &mut ElationActivityBattleEndScNotify| { &mut m.perfect_wave },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ElationActivityLevelData::ElationActivityLevelData>(
+            "level_data",
+            |m: &ElationActivityBattleEndScNotify| { &m.level_data },
+            |m: &mut ElationActivityBattleEndScNotify| { &mut m.level_data },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ElationActivityBattleEndScNotify>(
             "ElationActivityBattleEndScNotify",
@@ -100,20 +100,20 @@ impl ::protobuf::Message for ElationActivityBattleEndScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                106 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.level_data)?;
+                8 => {
+                    self.GGCPDPFMAEG = is.read_uint32()?;
                 },
-                24 => {
-                    self.perfect_wave = is.read_uint32()?;
-                },
-                112 => {
-                    self.EHIINPAPCGL = is.read_uint32()?;
-                },
-                80 => {
+                120 => {
                     self.level_id = is.read_uint32()?;
                 },
                 96 => {
-                    self.OEICMGEAIEE = is.read_uint32()?;
+                    self.HJAADAOGAMP = is.read_uint32()?;
+                },
+                48 => {
+                    self.perfect_wave = is.read_uint32()?;
+                },
+                82 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.level_data)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -127,21 +127,21 @@ impl ::protobuf::Message for ElationActivityBattleEndScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
+        if self.GGCPDPFMAEG != 0 {
+            my_size += ::protobuf::rt::uint32_size(1, self.GGCPDPFMAEG);
+        }
+        if self.level_id != 0 {
+            my_size += ::protobuf::rt::uint32_size(15, self.level_id);
+        }
+        if self.HJAADAOGAMP != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.HJAADAOGAMP);
+        }
+        if self.perfect_wave != 0 {
+            my_size += ::protobuf::rt::uint32_size(6, self.perfect_wave);
+        }
         if let Some(v) = self.level_data.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if self.perfect_wave != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.perfect_wave);
-        }
-        if self.EHIINPAPCGL != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.EHIINPAPCGL);
-        }
-        if self.level_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.level_id);
-        }
-        if self.OEICMGEAIEE != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.OEICMGEAIEE);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -149,20 +149,20 @@ impl ::protobuf::Message for ElationActivityBattleEndScNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.level_data.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
-        }
-        if self.perfect_wave != 0 {
-            os.write_uint32(3, self.perfect_wave)?;
-        }
-        if self.EHIINPAPCGL != 0 {
-            os.write_uint32(14, self.EHIINPAPCGL)?;
+        if self.GGCPDPFMAEG != 0 {
+            os.write_uint32(1, self.GGCPDPFMAEG)?;
         }
         if self.level_id != 0 {
-            os.write_uint32(10, self.level_id)?;
+            os.write_uint32(15, self.level_id)?;
         }
-        if self.OEICMGEAIEE != 0 {
-            os.write_uint32(12, self.OEICMGEAIEE)?;
+        if self.HJAADAOGAMP != 0 {
+            os.write_uint32(12, self.HJAADAOGAMP)?;
+        }
+        if self.perfect_wave != 0 {
+            os.write_uint32(6, self.perfect_wave)?;
+        }
+        if let Some(v) = self.level_data.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -181,21 +181,21 @@ impl ::protobuf::Message for ElationActivityBattleEndScNotify {
     }
 
     fn clear(&mut self) {
-        self.level_data.clear();
-        self.perfect_wave = 0;
-        self.EHIINPAPCGL = 0;
+        self.GGCPDPFMAEG = 0;
         self.level_id = 0;
-        self.OEICMGEAIEE = 0;
+        self.HJAADAOGAMP = 0;
+        self.perfect_wave = 0;
+        self.level_data.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ElationActivityBattleEndScNotify {
         static instance: ElationActivityBattleEndScNotify = ElationActivityBattleEndScNotify {
-            level_data: ::protobuf::MessageField::none(),
-            perfect_wave: 0,
-            EHIINPAPCGL: 0,
+            GGCPDPFMAEG: 0,
             level_id: 0,
-            OEICMGEAIEE: 0,
+            HJAADAOGAMP: 0,
+            perfect_wave: 0,
+            level_data: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -221,12 +221,12 @@ impl ::protobuf::reflect::ProtobufValue for ElationActivityBattleEndScNotify {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n&ElationActivityBattleEndScNotify.proto\x1a\x1eElationActivityLevelDat\
-    a.proto\"\xde\x01\n\x20ElationActivityBattleEndScNotify\x128\n\nlevel_da\
-    ta\x18\r\x20\x01(\x0b2\x19.ElationActivityLevelDataR\tlevelData\x12!\n\
-    \x0cperfect_wave\x18\x03\x20\x01(\rR\x0bperfectWave\x12\x20\n\x0bEHIINPA\
-    PCGL\x18\x0e\x20\x01(\rR\x0bEHIINPAPCGL\x12\x19\n\x08level_id\x18\n\x20\
-    \x01(\rR\x07levelId\x12\x20\n\x0bOEICMGEAIEE\x18\x0c\x20\x01(\rR\x0bOEIC\
-    MGEAIEEb\x06proto3\
+    a.proto\"\xde\x01\n\x20ElationActivityBattleEndScNotify\x12\x20\n\x0bGGC\
+    PDPFMAEG\x18\x01\x20\x01(\rR\x0bGGCPDPFMAEG\x12\x19\n\x08level_id\x18\
+    \x0f\x20\x01(\rR\x07levelId\x12\x20\n\x0bHJAADAOGAMP\x18\x0c\x20\x01(\rR\
+    \x0bHJAADAOGAMP\x12!\n\x0cperfect_wave\x18\x06\x20\x01(\rR\x0bperfectWav\
+    e\x128\n\nlevel_data\x18\n\x20\x01(\x0b2\x19.ElationActivityLevelDataR\t\
+    levelDatab\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

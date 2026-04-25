@@ -29,7 +29,7 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 pub struct UpdateFeatureSwitchScNotify {
     // message fields
     // @@protoc_insertion_point(field:UpdateFeatureSwitchScNotify.switch_info_list)
-    pub switch_info_list: ::std::vec::Vec<super::EAKNDKOMJFD::EAKNDKOMJFD>,
+    pub switch_info_list: ::std::vec::Vec<super::CENOIEMJPKK::CENOIEMJPKK>,
     // special fields
     // @@protoc_insertion_point(special_field:UpdateFeatureSwitchScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -72,7 +72,7 @@ impl ::protobuf::Message for UpdateFeatureSwitchScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                42 => {
+                50 => {
                     self.switch_info_list.push(is.read_message()?);
                 },
                 tag => {
@@ -98,7 +98,7 @@ impl ::protobuf::Message for UpdateFeatureSwitchScNotify {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         for v in &self.switch_info_list {
-            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
         };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -148,9 +148,9 @@ impl ::protobuf::reflect::ProtobufValue for UpdateFeatureSwitchScNotify {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n!UpdateFeatureSwitchScNotify.proto\x1a\x11EAKNDKOMJFD.proto\"U\n\x1bUp\
-    dateFeatureSwitchScNotify\x126\n\x10switch_info_list\x18\x05\x20\x03(\
-    \x0b2\x0c.EAKNDKOMJFDR\x0eswitchInfoListb\x06proto3\
+    \n!UpdateFeatureSwitchScNotify.proto\x1a\x11CENOIEMJPKK.proto\"U\n\x1bUp\
+    dateFeatureSwitchScNotify\x126\n\x10switch_info_list\x18\x06\x20\x03(\
+    \x0b2\x0c.CENOIEMJPKKR\x0eswitchInfoListb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -168,7 +168,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::EAKNDKOMJFD::file_descriptor().clone());
+            deps.push(super::CENOIEMJPKK::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(UpdateFeatureSwitchScNotify::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

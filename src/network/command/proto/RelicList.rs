@@ -79,10 +79,10 @@ impl ::protobuf::Message for RelicList {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                16 => {
+                96 => {
                     self.type_ = is.read_uint32()?;
                 },
-                64 => {
+                72 => {
                     self.set_id = is.read_uint32()?;
                 },
                 tag => {
@@ -98,10 +98,10 @@ impl ::protobuf::Message for RelicList {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.type_ != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.type_);
+            my_size += ::protobuf::rt::uint32_size(12, self.type_);
         }
         if self.set_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.set_id);
+            my_size += ::protobuf::rt::uint32_size(9, self.set_id);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,10 +110,10 @@ impl ::protobuf::Message for RelicList {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.type_ != 0 {
-            os.write_uint32(2, self.type_)?;
+            os.write_uint32(12, self.type_)?;
         }
         if self.set_id != 0 {
-            os.write_uint32(8, self.set_id)?;
+            os.write_uint32(9, self.set_id)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -165,8 +165,8 @@ impl ::protobuf::reflect::ProtobufValue for RelicList {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x0fRelicList.proto\"6\n\tRelicList\x12\x12\n\x04type\x18\x02\x20\x01(\
-    \rR\x04type\x12\x15\n\x06set_id\x18\x08\x20\x01(\rR\x05setIdb\x06proto3\
+    \n\x0fRelicList.proto\"6\n\tRelicList\x12\x12\n\x04type\x18\x0c\x20\x01(\
+    \rR\x04type\x12\x15\n\x06set_id\x18\t\x20\x01(\rR\x05setIdb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

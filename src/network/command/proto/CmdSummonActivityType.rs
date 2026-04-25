@@ -27,18 +27,18 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdSummonActivityType)
 pub enum CmdSummonActivityType {
-    // @@protoc_insertion_point(enum_value:CmdSummonActivityType.CmdSummonActivityType_MNFEPONEDDJ)
-    CmdSummonActivityType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdSummonActivityType.CmdSummonActivityType_PHBAMBKDJGN)
-    CmdSummonActivityType_PHBAMBKDJGN = 7563,
-    // @@protoc_insertion_point(enum_value:CmdSummonActivityType.CmdSummonActivityType_KNJNGJCKDNB)
-    CmdSummonActivityType_KNJNGJCKDNB = 7566,
-    // @@protoc_insertion_point(enum_value:CmdSummonActivityType.CmdSummonActivityType_EEFFLLGFAGB)
-    CmdSummonActivityType_EEFFLLGFAGB = 7562,
-    // @@protoc_insertion_point(enum_value:CmdSummonActivityType.CmdSummonActivityType_PMFOLOILFJF)
-    CmdSummonActivityType_PMFOLOILFJF = 7561,
-    // @@protoc_insertion_point(enum_value:CmdSummonActivityType.CmdSummonActivityType_NLODBEFILJC)
-    CmdSummonActivityType_NLODBEFILJC = 7568,
+    // @@protoc_insertion_point(enum_value:CmdSummonActivityType.JNJIFBCMNEG_PCPDHELPKEM)
+    JNJIFBCMNEG_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdSummonActivityType.CmdGetSummonActivityDataCsReq)
+    CmdGetSummonActivityDataCsReq = 7569,
+    // @@protoc_insertion_point(enum_value:CmdSummonActivityType.CmdSummonActivityBattleEndScNotify)
+    CmdSummonActivityBattleEndScNotify = 7565,
+    // @@protoc_insertion_point(enum_value:CmdSummonActivityType.CmdEnterSummonActivityStageScRsp)
+    CmdEnterSummonActivityStageScRsp = 7567,
+    // @@protoc_insertion_point(enum_value:CmdSummonActivityType.CmdEnterSummonActivityStageCsReq)
+    CmdEnterSummonActivityStageCsReq = 7561,
+    // @@protoc_insertion_point(enum_value:CmdSummonActivityType.CmdGetSummonActivityDataScRsp)
+    CmdGetSummonActivityDataScRsp = 7570,
 }
 
 impl ::protobuf::Enum for CmdSummonActivityType {
@@ -50,35 +50,35 @@ impl ::protobuf::Enum for CmdSummonActivityType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdSummonActivityType> {
         match value {
-            0 => ::std::option::Option::Some(CmdSummonActivityType::CmdSummonActivityType_MNFEPONEDDJ),
-            7563 => ::std::option::Option::Some(CmdSummonActivityType::CmdSummonActivityType_PHBAMBKDJGN),
-            7566 => ::std::option::Option::Some(CmdSummonActivityType::CmdSummonActivityType_KNJNGJCKDNB),
-            7562 => ::std::option::Option::Some(CmdSummonActivityType::CmdSummonActivityType_EEFFLLGFAGB),
-            7561 => ::std::option::Option::Some(CmdSummonActivityType::CmdSummonActivityType_PMFOLOILFJF),
-            7568 => ::std::option::Option::Some(CmdSummonActivityType::CmdSummonActivityType_NLODBEFILJC),
+            0 => ::std::option::Option::Some(CmdSummonActivityType::JNJIFBCMNEG_PCPDHELPKEM),
+            7569 => ::std::option::Option::Some(CmdSummonActivityType::CmdGetSummonActivityDataCsReq),
+            7565 => ::std::option::Option::Some(CmdSummonActivityType::CmdSummonActivityBattleEndScNotify),
+            7567 => ::std::option::Option::Some(CmdSummonActivityType::CmdEnterSummonActivityStageScRsp),
+            7561 => ::std::option::Option::Some(CmdSummonActivityType::CmdEnterSummonActivityStageCsReq),
+            7570 => ::std::option::Option::Some(CmdSummonActivityType::CmdGetSummonActivityDataScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdSummonActivityType> {
         match str {
-            "CmdSummonActivityType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdSummonActivityType::CmdSummonActivityType_MNFEPONEDDJ),
-            "CmdSummonActivityType_PHBAMBKDJGN" => ::std::option::Option::Some(CmdSummonActivityType::CmdSummonActivityType_PHBAMBKDJGN),
-            "CmdSummonActivityType_KNJNGJCKDNB" => ::std::option::Option::Some(CmdSummonActivityType::CmdSummonActivityType_KNJNGJCKDNB),
-            "CmdSummonActivityType_EEFFLLGFAGB" => ::std::option::Option::Some(CmdSummonActivityType::CmdSummonActivityType_EEFFLLGFAGB),
-            "CmdSummonActivityType_PMFOLOILFJF" => ::std::option::Option::Some(CmdSummonActivityType::CmdSummonActivityType_PMFOLOILFJF),
-            "CmdSummonActivityType_NLODBEFILJC" => ::std::option::Option::Some(CmdSummonActivityType::CmdSummonActivityType_NLODBEFILJC),
+            "JNJIFBCMNEG_PCPDHELPKEM" => ::std::option::Option::Some(CmdSummonActivityType::JNJIFBCMNEG_PCPDHELPKEM),
+            "CmdGetSummonActivityDataCsReq" => ::std::option::Option::Some(CmdSummonActivityType::CmdGetSummonActivityDataCsReq),
+            "CmdSummonActivityBattleEndScNotify" => ::std::option::Option::Some(CmdSummonActivityType::CmdSummonActivityBattleEndScNotify),
+            "CmdEnterSummonActivityStageScRsp" => ::std::option::Option::Some(CmdSummonActivityType::CmdEnterSummonActivityStageScRsp),
+            "CmdEnterSummonActivityStageCsReq" => ::std::option::Option::Some(CmdSummonActivityType::CmdEnterSummonActivityStageCsReq),
+            "CmdGetSummonActivityDataScRsp" => ::std::option::Option::Some(CmdSummonActivityType::CmdGetSummonActivityDataScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdSummonActivityType] = &[
-        CmdSummonActivityType::CmdSummonActivityType_MNFEPONEDDJ,
-        CmdSummonActivityType::CmdSummonActivityType_PHBAMBKDJGN,
-        CmdSummonActivityType::CmdSummonActivityType_KNJNGJCKDNB,
-        CmdSummonActivityType::CmdSummonActivityType_EEFFLLGFAGB,
-        CmdSummonActivityType::CmdSummonActivityType_PMFOLOILFJF,
-        CmdSummonActivityType::CmdSummonActivityType_NLODBEFILJC,
+        CmdSummonActivityType::JNJIFBCMNEG_PCPDHELPKEM,
+        CmdSummonActivityType::CmdGetSummonActivityDataCsReq,
+        CmdSummonActivityType::CmdSummonActivityBattleEndScNotify,
+        CmdSummonActivityType::CmdEnterSummonActivityStageScRsp,
+        CmdSummonActivityType::CmdEnterSummonActivityStageCsReq,
+        CmdSummonActivityType::CmdGetSummonActivityDataScRsp,
     ];
 }
 
@@ -90,12 +90,12 @@ impl ::protobuf::EnumFull for CmdSummonActivityType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdSummonActivityType::CmdSummonActivityType_MNFEPONEDDJ => 0,
-            CmdSummonActivityType::CmdSummonActivityType_PHBAMBKDJGN => 1,
-            CmdSummonActivityType::CmdSummonActivityType_KNJNGJCKDNB => 2,
-            CmdSummonActivityType::CmdSummonActivityType_EEFFLLGFAGB => 3,
-            CmdSummonActivityType::CmdSummonActivityType_PMFOLOILFJF => 4,
-            CmdSummonActivityType::CmdSummonActivityType_NLODBEFILJC => 5,
+            CmdSummonActivityType::JNJIFBCMNEG_PCPDHELPKEM => 0,
+            CmdSummonActivityType::CmdGetSummonActivityDataCsReq => 1,
+            CmdSummonActivityType::CmdSummonActivityBattleEndScNotify => 2,
+            CmdSummonActivityType::CmdEnterSummonActivityStageScRsp => 3,
+            CmdSummonActivityType::CmdEnterSummonActivityStageCsReq => 4,
+            CmdSummonActivityType::CmdGetSummonActivityDataScRsp => 5,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -103,7 +103,7 @@ impl ::protobuf::EnumFull for CmdSummonActivityType {
 
 impl ::std::default::Default for CmdSummonActivityType {
     fn default() -> Self {
-        CmdSummonActivityType::CmdSummonActivityType_MNFEPONEDDJ
+        CmdSummonActivityType::JNJIFBCMNEG_PCPDHELPKEM
     }
 }
 
@@ -114,12 +114,12 @@ impl CmdSummonActivityType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1bCmdSummonActivityType.proto*\x86\x02\n\x15CmdSummonActivityType\
-    \x12%\n!CmdSummonActivityType_MNFEPONEDDJ\x10\0\x12&\n!CmdSummonActivity\
-    Type_PHBAMBKDJGN\x10\x8b;\x12&\n!CmdSummonActivityType_KNJNGJCKDNB\x10\
-    \x8e;\x12&\n!CmdSummonActivityType_EEFFLLGFAGB\x10\x8a;\x12&\n!CmdSummon\
-    ActivityType_PMFOLOILFJF\x10\x89;\x12&\n!CmdSummonActivityType_NLODBEFIL\
-    JC\x10\x90;b\x06proto3\
+    \n\x1bCmdSummonActivityType.proto*\xf3\x01\n\x15CmdSummonActivityType\
+    \x12\x1b\n\x17JNJIFBCMNEG_PCPDHELPKEM\x10\0\x12\"\n\x1dCmdGetSummonActiv\
+    ityDataCsReq\x10\x91;\x12'\n\"CmdSummonActivityBattleEndScNotify\x10\x8d\
+    ;\x12%\n\x20CmdEnterSummonActivityStageScRsp\x10\x8f;\x12%\n\x20CmdEnter\
+    SummonActivityStageCsReq\x10\x89;\x12\"\n\x1dCmdGetSummonActivityDataScR\
+    sp\x10\x92;b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

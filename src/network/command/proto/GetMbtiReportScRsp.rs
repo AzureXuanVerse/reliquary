@@ -28,22 +28,22 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GetMbtiReportScRsp {
     // message fields
-    // @@protoc_insertion_point(field:GetMbtiReportScRsp.EABPHGKIKEA)
-    pub EABPHGKIKEA: i32,
-    // @@protoc_insertion_point(field:GetMbtiReportScRsp.progress)
-    pub progress: u32,
-    // @@protoc_insertion_point(field:GetMbtiReportScRsp.FCGNEJAPIFA)
-    pub FCGNEJAPIFA: ::std::vec::Vec<super::HGDCHPGDDDI::HGDCHPGDDDI>,
+    // @@protoc_insertion_point(field:GetMbtiReportScRsp.PMAGOBNHJJD)
+    pub PMAGOBNHJJD: i32,
     // @@protoc_insertion_point(field:GetMbtiReportScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:GetMbtiReportScRsp.JJACFBGLKKC)
-    pub JJACFBGLKKC: i32,
-    // @@protoc_insertion_point(field:GetMbtiReportScRsp.NIMMAJEILHC)
-    pub NIMMAJEILHC: ::std::vec::Vec<super::HCEHNMFIIFB::HCEHNMFIIFB>,
-    // @@protoc_insertion_point(field:GetMbtiReportScRsp.FDFMCHPKIMM)
-    pub FDFMCHPKIMM: bool,
+    // @@protoc_insertion_point(field:GetMbtiReportScRsp.HNLDLOOAPMI)
+    pub HNLDLOOAPMI: ::std::vec::Vec<super::FCJOLMLMKBA::FCJOLMLMKBA>,
+    // @@protoc_insertion_point(field:GetMbtiReportScRsp.EHMEFABLODD)
+    pub EHMEFABLODD: i32,
     // @@protoc_insertion_point(field:GetMbtiReportScRsp.is_taken_reward)
     pub is_taken_reward: bool,
+    // @@protoc_insertion_point(field:GetMbtiReportScRsp.progress)
+    pub progress: u32,
+    // @@protoc_insertion_point(field:GetMbtiReportScRsp.JBLLICOOCAK)
+    pub JBLLICOOCAK: ::std::vec::Vec<super::NPLALEFPIEE::NPLALEFPIEE>,
+    // @@protoc_insertion_point(field:GetMbtiReportScRsp.HHPALHMBLFK)
+    pub HHPALHMBLFK: bool,
     // special fields
     // @@protoc_insertion_point(special_field:GetMbtiReportScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -64,9 +64,29 @@ impl GetMbtiReportScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(8);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "EABPHGKIKEA",
-            |m: &GetMbtiReportScRsp| { &m.EABPHGKIKEA },
-            |m: &mut GetMbtiReportScRsp| { &mut m.EABPHGKIKEA },
+            "PMAGOBNHJJD",
+            |m: &GetMbtiReportScRsp| { &m.PMAGOBNHJJD },
+            |m: &mut GetMbtiReportScRsp| { &mut m.PMAGOBNHJJD },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "retcode",
+            |m: &GetMbtiReportScRsp| { &m.retcode },
+            |m: &mut GetMbtiReportScRsp| { &mut m.retcode },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "HNLDLOOAPMI",
+            |m: &GetMbtiReportScRsp| { &m.HNLDLOOAPMI },
+            |m: &mut GetMbtiReportScRsp| { &mut m.HNLDLOOAPMI },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "EHMEFABLODD",
+            |m: &GetMbtiReportScRsp| { &m.EHMEFABLODD },
+            |m: &mut GetMbtiReportScRsp| { &mut m.EHMEFABLODD },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "is_taken_reward",
+            |m: &GetMbtiReportScRsp| { &m.is_taken_reward },
+            |m: &mut GetMbtiReportScRsp| { &mut m.is_taken_reward },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "progress",
@@ -74,34 +94,14 @@ impl GetMbtiReportScRsp {
             |m: &mut GetMbtiReportScRsp| { &mut m.progress },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "FCGNEJAPIFA",
-            |m: &GetMbtiReportScRsp| { &m.FCGNEJAPIFA },
-            |m: &mut GetMbtiReportScRsp| { &mut m.FCGNEJAPIFA },
+            "JBLLICOOCAK",
+            |m: &GetMbtiReportScRsp| { &m.JBLLICOOCAK },
+            |m: &mut GetMbtiReportScRsp| { &mut m.JBLLICOOCAK },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "retcode",
-            |m: &GetMbtiReportScRsp| { &m.retcode },
-            |m: &mut GetMbtiReportScRsp| { &mut m.retcode },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "JJACFBGLKKC",
-            |m: &GetMbtiReportScRsp| { &m.JJACFBGLKKC },
-            |m: &mut GetMbtiReportScRsp| { &mut m.JJACFBGLKKC },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "NIMMAJEILHC",
-            |m: &GetMbtiReportScRsp| { &m.NIMMAJEILHC },
-            |m: &mut GetMbtiReportScRsp| { &mut m.NIMMAJEILHC },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "FDFMCHPKIMM",
-            |m: &GetMbtiReportScRsp| { &m.FDFMCHPKIMM },
-            |m: &mut GetMbtiReportScRsp| { &mut m.FDFMCHPKIMM },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "is_taken_reward",
-            |m: &GetMbtiReportScRsp| { &m.is_taken_reward },
-            |m: &mut GetMbtiReportScRsp| { &mut m.is_taken_reward },
+            "HHPALHMBLFK",
+            |m: &GetMbtiReportScRsp| { &m.HHPALHMBLFK },
+            |m: &mut GetMbtiReportScRsp| { &mut m.HHPALHMBLFK },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetMbtiReportScRsp>(
             "GetMbtiReportScRsp",
@@ -121,29 +121,29 @@ impl ::protobuf::Message for GetMbtiReportScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                104 => {
-                    self.EABPHGKIKEA = is.read_int32()?;
+                96 => {
+                    self.PMAGOBNHJJD = is.read_int32()?;
                 },
-                120 => {
-                    self.progress = is.read_uint32()?;
-                },
-                98 => {
-                    self.FCGNEJAPIFA.push(is.read_message()?);
-                },
-                80 => {
+                40 => {
                     self.retcode = is.read_uint32()?;
                 },
-                16 => {
-                    self.JJACFBGLKKC = is.read_int32()?;
+                58 => {
+                    self.HNLDLOOAPMI.push(is.read_message()?);
                 },
-                74 => {
-                    self.NIMMAJEILHC.push(is.read_message()?);
+                32 => {
+                    self.EHMEFABLODD = is.read_int32()?;
                 },
-                112 => {
-                    self.FDFMCHPKIMM = is.read_bool()?;
-                },
-                24 => {
+                104 => {
                     self.is_taken_reward = is.read_bool()?;
+                },
+                48 => {
+                    self.progress = is.read_uint32()?;
+                },
+                26 => {
+                    self.JBLLICOOCAK.push(is.read_message()?);
+                },
+                64 => {
+                    self.HHPALHMBLFK = is.read_bool()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -157,30 +157,30 @@ impl ::protobuf::Message for GetMbtiReportScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.EABPHGKIKEA != 0 {
-            my_size += ::protobuf::rt::int32_size(13, self.EABPHGKIKEA);
+        if self.PMAGOBNHJJD != 0 {
+            my_size += ::protobuf::rt::int32_size(12, self.PMAGOBNHJJD);
         }
-        if self.progress != 0 {
-            my_size += ::protobuf::rt::uint32_size(15, self.progress);
-        }
-        for value in &self.FCGNEJAPIFA {
-            let len = value.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        };
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(5, self.retcode);
         }
-        if self.JJACFBGLKKC != 0 {
-            my_size += ::protobuf::rt::int32_size(2, self.JJACFBGLKKC);
-        }
-        for value in &self.NIMMAJEILHC {
+        for value in &self.HNLDLOOAPMI {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.FDFMCHPKIMM != false {
-            my_size += 1 + 1;
+        if self.EHMEFABLODD != 0 {
+            my_size += ::protobuf::rt::int32_size(4, self.EHMEFABLODD);
         }
         if self.is_taken_reward != false {
+            my_size += 1 + 1;
+        }
+        if self.progress != 0 {
+            my_size += ::protobuf::rt::uint32_size(6, self.progress);
+        }
+        for value in &self.JBLLICOOCAK {
+            let len = value.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        };
+        if self.HHPALHMBLFK != false {
             my_size += 1 + 1;
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
@@ -189,29 +189,29 @@ impl ::protobuf::Message for GetMbtiReportScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.EABPHGKIKEA != 0 {
-            os.write_int32(13, self.EABPHGKIKEA)?;
+        if self.PMAGOBNHJJD != 0 {
+            os.write_int32(12, self.PMAGOBNHJJD)?;
         }
-        if self.progress != 0 {
-            os.write_uint32(15, self.progress)?;
-        }
-        for v in &self.FCGNEJAPIFA {
-            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
-        };
         if self.retcode != 0 {
-            os.write_uint32(10, self.retcode)?;
+            os.write_uint32(5, self.retcode)?;
         }
-        if self.JJACFBGLKKC != 0 {
-            os.write_int32(2, self.JJACFBGLKKC)?;
-        }
-        for v in &self.NIMMAJEILHC {
-            ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
+        for v in &self.HNLDLOOAPMI {
+            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
         };
-        if self.FDFMCHPKIMM != false {
-            os.write_bool(14, self.FDFMCHPKIMM)?;
+        if self.EHMEFABLODD != 0 {
+            os.write_int32(4, self.EHMEFABLODD)?;
         }
         if self.is_taken_reward != false {
-            os.write_bool(3, self.is_taken_reward)?;
+            os.write_bool(13, self.is_taken_reward)?;
+        }
+        if self.progress != 0 {
+            os.write_uint32(6, self.progress)?;
+        }
+        for v in &self.JBLLICOOCAK {
+            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
+        };
+        if self.HHPALHMBLFK != false {
+            os.write_bool(8, self.HHPALHMBLFK)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -230,27 +230,27 @@ impl ::protobuf::Message for GetMbtiReportScRsp {
     }
 
     fn clear(&mut self) {
-        self.EABPHGKIKEA = 0;
-        self.progress = 0;
-        self.FCGNEJAPIFA.clear();
+        self.PMAGOBNHJJD = 0;
         self.retcode = 0;
-        self.JJACFBGLKKC = 0;
-        self.NIMMAJEILHC.clear();
-        self.FDFMCHPKIMM = false;
+        self.HNLDLOOAPMI.clear();
+        self.EHMEFABLODD = 0;
         self.is_taken_reward = false;
+        self.progress = 0;
+        self.JBLLICOOCAK.clear();
+        self.HHPALHMBLFK = false;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetMbtiReportScRsp {
         static instance: GetMbtiReportScRsp = GetMbtiReportScRsp {
-            EABPHGKIKEA: 0,
-            progress: 0,
-            FCGNEJAPIFA: ::std::vec::Vec::new(),
+            PMAGOBNHJJD: 0,
             retcode: 0,
-            JJACFBGLKKC: 0,
-            NIMMAJEILHC: ::std::vec::Vec::new(),
-            FDFMCHPKIMM: false,
+            HNLDLOOAPMI: ::std::vec::Vec::new(),
+            EHMEFABLODD: 0,
             is_taken_reward: false,
+            progress: 0,
+            JBLLICOOCAK: ::std::vec::Vec::new(),
+            HHPALHMBLFK: false,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -275,15 +275,15 @@ impl ::protobuf::reflect::ProtobufValue for GetMbtiReportScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x18GetMbtiReportScRsp.proto\x1a\x11HCEHNMFIIFB.proto\x1a\x11HGDCHPGDD\
-    DI.proto\"\xb8\x02\n\x12GetMbtiReportScRsp\x12\x20\n\x0bEABPHGKIKEA\x18\
-    \r\x20\x01(\x05R\x0bEABPHGKIKEA\x12\x1a\n\x08progress\x18\x0f\x20\x01(\r\
-    R\x08progress\x12.\n\x0bFCGNEJAPIFA\x18\x0c\x20\x03(\x0b2\x0c.HGDCHPGDDD\
-    IR\x0bFCGNEJAPIFA\x12\x18\n\x07retcode\x18\n\x20\x01(\rR\x07retcode\x12\
-    \x20\n\x0bJJACFBGLKKC\x18\x02\x20\x01(\x05R\x0bJJACFBGLKKC\x12.\n\x0bNIM\
-    MAJEILHC\x18\t\x20\x03(\x0b2\x0c.HCEHNMFIIFBR\x0bNIMMAJEILHC\x12\x20\n\
-    \x0bFDFMCHPKIMM\x18\x0e\x20\x01(\x08R\x0bFDFMCHPKIMM\x12&\n\x0fis_taken_\
-    reward\x18\x03\x20\x01(\x08R\risTakenRewardb\x06proto3\
+    \n\x18GetMbtiReportScRsp.proto\x1a\x11FCJOLMLMKBA.proto\x1a\x11NPLALEFPI\
+    EE.proto\"\xb8\x02\n\x12GetMbtiReportScRsp\x12\x20\n\x0bPMAGOBNHJJD\x18\
+    \x0c\x20\x01(\x05R\x0bPMAGOBNHJJD\x12\x18\n\x07retcode\x18\x05\x20\x01(\
+    \rR\x07retcode\x12.\n\x0bHNLDLOOAPMI\x18\x07\x20\x03(\x0b2\x0c.FCJOLMLMK\
+    BAR\x0bHNLDLOOAPMI\x12\x20\n\x0bEHMEFABLODD\x18\x04\x20\x01(\x05R\x0bEHM\
+    EFABLODD\x12&\n\x0fis_taken_reward\x18\r\x20\x01(\x08R\risTakenReward\
+    \x12\x1a\n\x08progress\x18\x06\x20\x01(\rR\x08progress\x12.\n\x0bJBLLICO\
+    OCAK\x18\x03\x20\x03(\x0b2\x0c.NPLALEFPIEER\x0bJBLLICOOCAK\x12\x20\n\x0b\
+    HHPALHMBLFK\x18\x08\x20\x01(\x08R\x0bHHPALHMBLFKb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -301,8 +301,8 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
-            deps.push(super::HCEHNMFIIFB::file_descriptor().clone());
-            deps.push(super::HGDCHPGDDDI::file_descriptor().clone());
+            deps.push(super::FCJOLMLMKBA::file_descriptor().clone());
+            deps.push(super::NPLALEFPIEE::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GetMbtiReportScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

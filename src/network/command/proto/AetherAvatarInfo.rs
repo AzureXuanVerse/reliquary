@@ -34,10 +34,10 @@ pub struct AetherAvatarInfo {
     pub index: u32,
     // @@protoc_insertion_point(field:AetherAvatarInfo.promotion)
     pub promotion: u32,
-    // @@protoc_insertion_point(field:AetherAvatarInfo.passive_skill)
-    pub passive_skill: ::std::vec::Vec<u32>,
-    // @@protoc_insertion_point(field:AetherAvatarInfo.spirit_lineup_type)
-    pub spirit_lineup_type: ::protobuf::EnumOrUnknown<super::AetherdivideSpiritLineupType::AetherdivideSpiritLineupType>,
+    // @@protoc_insertion_point(field:AetherAvatarInfo.OKMFEGDIONG)
+    pub OKMFEGDIONG: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:AetherAvatarInfo.KBNCLFCGHCK)
+    pub KBNCLFCGHCK: ::protobuf::EnumOrUnknown<super::HLJMCIBOBJO::HLJMCIBOBJO>,
     // @@protoc_insertion_point(field:AetherAvatarInfo.sp_bar)
     pub sp_bar: ::protobuf::MessageField<super::SpBarInfo::SpBarInfo>,
     // special fields
@@ -75,14 +75,14 @@ impl AetherAvatarInfo {
             |m: &mut AetherAvatarInfo| { &mut m.promotion },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "passive_skill",
-            |m: &AetherAvatarInfo| { &m.passive_skill },
-            |m: &mut AetherAvatarInfo| { &mut m.passive_skill },
+            "OKMFEGDIONG",
+            |m: &AetherAvatarInfo| { &m.OKMFEGDIONG },
+            |m: &mut AetherAvatarInfo| { &mut m.OKMFEGDIONG },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "spirit_lineup_type",
-            |m: &AetherAvatarInfo| { &m.spirit_lineup_type },
-            |m: &mut AetherAvatarInfo| { &mut m.spirit_lineup_type },
+            "KBNCLFCGHCK",
+            |m: &AetherAvatarInfo| { &m.KBNCLFCGHCK },
+            |m: &mut AetherAvatarInfo| { &mut m.KBNCLFCGHCK },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::SpBarInfo::SpBarInfo>(
             "sp_bar",
@@ -117,13 +117,13 @@ impl ::protobuf::Message for AetherAvatarInfo {
                     self.promotion = is.read_uint32()?;
                 },
                 34 => {
-                    is.read_repeated_packed_uint32_into(&mut self.passive_skill)?;
+                    is.read_repeated_packed_uint32_into(&mut self.OKMFEGDIONG)?;
                 },
                 32 => {
-                    self.passive_skill.push(is.read_uint32()?);
+                    self.OKMFEGDIONG.push(is.read_uint32()?);
                 },
                 40 => {
-                    self.spirit_lineup_type = is.read_enum_or_unknown()?;
+                    self.KBNCLFCGHCK = is.read_enum_or_unknown()?;
                 },
                 50 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.sp_bar)?;
@@ -149,9 +149,9 @@ impl ::protobuf::Message for AetherAvatarInfo {
         if self.promotion != 0 {
             my_size += ::protobuf::rt::uint32_size(3, self.promotion);
         }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(4, &self.passive_skill);
-        if self.spirit_lineup_type != ::protobuf::EnumOrUnknown::new(super::AetherdivideSpiritLineupType::AetherdivideSpiritLineupType::AetherdivideSpiritLineupType_NHAFODMNPFL) {
-            my_size += ::protobuf::rt::int32_size(5, self.spirit_lineup_type.value());
+        my_size += ::protobuf::rt::vec_packed_uint32_size(4, &self.OKMFEGDIONG);
+        if self.KBNCLFCGHCK != ::protobuf::EnumOrUnknown::new(super::HLJMCIBOBJO::HLJMCIBOBJO::HLJMCIBOBJO_MPLPALIKJHG) {
+            my_size += ::protobuf::rt::int32_size(5, self.KBNCLFCGHCK.value());
         }
         if let Some(v) = self.sp_bar.as_ref() {
             let len = v.compute_size();
@@ -172,9 +172,9 @@ impl ::protobuf::Message for AetherAvatarInfo {
         if self.promotion != 0 {
             os.write_uint32(3, self.promotion)?;
         }
-        os.write_repeated_packed_uint32(4, &self.passive_skill)?;
-        if self.spirit_lineup_type != ::protobuf::EnumOrUnknown::new(super::AetherdivideSpiritLineupType::AetherdivideSpiritLineupType::AetherdivideSpiritLineupType_NHAFODMNPFL) {
-            os.write_enum(5, ::protobuf::EnumOrUnknown::value(&self.spirit_lineup_type))?;
+        os.write_repeated_packed_uint32(4, &self.OKMFEGDIONG)?;
+        if self.KBNCLFCGHCK != ::protobuf::EnumOrUnknown::new(super::HLJMCIBOBJO::HLJMCIBOBJO::HLJMCIBOBJO_MPLPALIKJHG) {
+            os.write_enum(5, ::protobuf::EnumOrUnknown::value(&self.KBNCLFCGHCK))?;
         }
         if let Some(v) = self.sp_bar.as_ref() {
             ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
@@ -199,8 +199,8 @@ impl ::protobuf::Message for AetherAvatarInfo {
         self.id = 0;
         self.index = 0;
         self.promotion = 0;
-        self.passive_skill.clear();
-        self.spirit_lineup_type = ::protobuf::EnumOrUnknown::new(super::AetherdivideSpiritLineupType::AetherdivideSpiritLineupType::AetherdivideSpiritLineupType_NHAFODMNPFL);
+        self.OKMFEGDIONG.clear();
+        self.KBNCLFCGHCK = ::protobuf::EnumOrUnknown::new(super::HLJMCIBOBJO::HLJMCIBOBJO::HLJMCIBOBJO_MPLPALIKJHG);
         self.sp_bar.clear();
         self.special_fields.clear();
     }
@@ -210,8 +210,8 @@ impl ::protobuf::Message for AetherAvatarInfo {
             id: 0,
             index: 0,
             promotion: 0,
-            passive_skill: ::std::vec::Vec::new(),
-            spirit_lineup_type: ::protobuf::EnumOrUnknown::from_i32(0),
+            OKMFEGDIONG: ::std::vec::Vec::new(),
+            KBNCLFCGHCK: ::protobuf::EnumOrUnknown::from_i32(0),
             sp_bar: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -237,13 +237,13 @@ impl ::protobuf::reflect::ProtobufValue for AetherAvatarInfo {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x16AetherAvatarInfo.proto\x1a\"AetherdivideSpiritLineupType.proto\x1a\
-    \x0fSpBarInfo.proto\"\xeb\x01\n\x10AetherAvatarInfo\x12\x0e\n\x02id\x18\
-    \x01\x20\x01(\rR\x02id\x12\x14\n\x05index\x18\x02\x20\x01(\rR\x05index\
-    \x12\x1c\n\tpromotion\x18\x03\x20\x01(\rR\tpromotion\x12#\n\rpassive_ski\
-    ll\x18\x04\x20\x03(\rR\x0cpassiveSkill\x12K\n\x12spirit_lineup_type\x18\
-    \x05\x20\x01(\x0e2\x1d.AetherdivideSpiritLineupTypeR\x10spiritLineupType\
-    \x12!\n\x06sp_bar\x18\x06\x20\x01(\x0b2\n.SpBarInfoR\x05spBarb\x06proto3\
+    \n\x16AetherAvatarInfo.proto\x1a\x11HLJMCIBOBJO.proto\x1a\x0fSpBarInfo.p\
+    roto\"\xcb\x01\n\x10AetherAvatarInfo\x12\x0e\n\x02id\x18\x01\x20\x01(\rR\
+    \x02id\x12\x14\n\x05index\x18\x02\x20\x01(\rR\x05index\x12\x1c\n\tpromot\
+    ion\x18\x03\x20\x01(\rR\tpromotion\x12\x20\n\x0bOKMFEGDIONG\x18\x04\x20\
+    \x03(\rR\x0bOKMFEGDIONG\x12.\n\x0bKBNCLFCGHCK\x18\x05\x20\x01(\x0e2\x0c.\
+    HLJMCIBOBJOR\x0bKBNCLFCGHCK\x12!\n\x06sp_bar\x18\x06\x20\x01(\x0b2\n.SpB\
+    arInfoR\x05spBarb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -261,7 +261,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
-            deps.push(super::AetherdivideSpiritLineupType::file_descriptor().clone());
+            deps.push(super::HLJMCIBOBJO::file_descriptor().clone());
             deps.push(super::SpBarInfo::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(AetherAvatarInfo::generated_message_descriptor_data());

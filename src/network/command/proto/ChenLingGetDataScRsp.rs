@@ -28,16 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct ChenLingGetDataScRsp {
     // message fields
-    // @@protoc_insertion_point(field:ChenLingGetDataScRsp.CNDOGIMCFCH)
-    pub CNDOGIMCFCH: u32,
-    // @@protoc_insertion_point(field:ChenLingGetDataScRsp.FJAOEGPHPNN)
-    pub FJAOEGPHPNN: ::protobuf::MessageField<super::DAMBFPDIFBB::DAMBFPDIFBB>,
+    // @@protoc_insertion_point(field:ChenLingGetDataScRsp.IKKMNDMELLN)
+    pub IKKMNDMELLN: ::protobuf::MessageField<super::FCLDNHOHPII::FCLDNHOHPII>,
+    // @@protoc_insertion_point(field:ChenLingGetDataScRsp.JJABPPDILOK)
+    pub JJABPPDILOK: u32,
     // @@protoc_insertion_point(field:ChenLingGetDataScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:ChenLingGetDataScRsp.KDFMLPCKDHK)
-    pub KDFMLPCKDHK: ::std::vec::Vec<u32>,
-    // @@protoc_insertion_point(field:ChenLingGetDataScRsp.MBHENKALAPE)
-    pub MBHENKALAPE: ::protobuf::MessageField<super::CNKPEBPKHHK::CNKPEBPKHHK>,
+    // @@protoc_insertion_point(field:ChenLingGetDataScRsp.POGCGMLPEON)
+    pub POGCGMLPEON: ::protobuf::MessageField<super::FMEMPPNNKJH::FMEMPPNNKJH>,
+    // @@protoc_insertion_point(field:ChenLingGetDataScRsp.DOAIHFIFFNO)
+    pub DOAIHFIFFNO: ::std::vec::Vec<u32>,
     // special fields
     // @@protoc_insertion_point(special_field:ChenLingGetDataScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,30 +57,30 @@ impl ChenLingGetDataScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "CNDOGIMCFCH",
-            |m: &ChenLingGetDataScRsp| { &m.CNDOGIMCFCH },
-            |m: &mut ChenLingGetDataScRsp| { &mut m.CNDOGIMCFCH },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::FCLDNHOHPII::FCLDNHOHPII>(
+            "IKKMNDMELLN",
+            |m: &ChenLingGetDataScRsp| { &m.IKKMNDMELLN },
+            |m: &mut ChenLingGetDataScRsp| { &mut m.IKKMNDMELLN },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::DAMBFPDIFBB::DAMBFPDIFBB>(
-            "FJAOEGPHPNN",
-            |m: &ChenLingGetDataScRsp| { &m.FJAOEGPHPNN },
-            |m: &mut ChenLingGetDataScRsp| { &mut m.FJAOEGPHPNN },
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "JJABPPDILOK",
+            |m: &ChenLingGetDataScRsp| { &m.JJABPPDILOK },
+            |m: &mut ChenLingGetDataScRsp| { &mut m.JJABPPDILOK },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &ChenLingGetDataScRsp| { &m.retcode },
             |m: &mut ChenLingGetDataScRsp| { &mut m.retcode },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "KDFMLPCKDHK",
-            |m: &ChenLingGetDataScRsp| { &m.KDFMLPCKDHK },
-            |m: &mut ChenLingGetDataScRsp| { &mut m.KDFMLPCKDHK },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::FMEMPPNNKJH::FMEMPPNNKJH>(
+            "POGCGMLPEON",
+            |m: &ChenLingGetDataScRsp| { &m.POGCGMLPEON },
+            |m: &mut ChenLingGetDataScRsp| { &mut m.POGCGMLPEON },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::CNKPEBPKHHK::CNKPEBPKHHK>(
-            "MBHENKALAPE",
-            |m: &ChenLingGetDataScRsp| { &m.MBHENKALAPE },
-            |m: &mut ChenLingGetDataScRsp| { &mut m.MBHENKALAPE },
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "DOAIHFIFFNO",
+            |m: &ChenLingGetDataScRsp| { &m.DOAIHFIFFNO },
+            |m: &mut ChenLingGetDataScRsp| { &mut m.DOAIHFIFFNO },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ChenLingGetDataScRsp>(
             "ChenLingGetDataScRsp",
@@ -100,23 +100,23 @@ impl ::protobuf::Message for ChenLingGetDataScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                16 => {
-                    self.CNDOGIMCFCH = is.read_uint32()?;
-                },
-                66 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.FJAOEGPHPNN)?;
-                },
-                96 => {
-                    self.retcode = is.read_uint32()?;
-                },
-                50 => {
-                    is.read_repeated_packed_uint32_into(&mut self.KDFMLPCKDHK)?;
+                98 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.IKKMNDMELLN)?;
                 },
                 48 => {
-                    self.KDFMLPCKDHK.push(is.read_uint32()?);
+                    self.JJABPPDILOK = is.read_uint32()?;
                 },
-                122 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.MBHENKALAPE)?;
+                112 => {
+                    self.retcode = is.read_uint32()?;
+                },
+                58 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.POGCGMLPEON)?;
+                },
+                106 => {
+                    is.read_repeated_packed_uint32_into(&mut self.DOAIHFIFFNO)?;
+                },
+                104 => {
+                    self.DOAIHFIFFNO.push(is.read_uint32()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -130,40 +130,40 @@ impl ::protobuf::Message for ChenLingGetDataScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.CNDOGIMCFCH != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.CNDOGIMCFCH);
-        }
-        if let Some(v) = self.FJAOEGPHPNN.as_ref() {
+        if let Some(v) = self.IKKMNDMELLN.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if self.JJABPPDILOK != 0 {
+            my_size += ::protobuf::rt::uint32_size(6, self.JJABPPDILOK);
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(14, self.retcode);
         }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(6, &self.KDFMLPCKDHK);
-        if let Some(v) = self.MBHENKALAPE.as_ref() {
+        if let Some(v) = self.POGCGMLPEON.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
+        my_size += ::protobuf::rt::vec_packed_uint32_size(13, &self.DOAIHFIFFNO);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.CNDOGIMCFCH != 0 {
-            os.write_uint32(2, self.CNDOGIMCFCH)?;
+        if let Some(v) = self.IKKMNDMELLN.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
         }
-        if let Some(v) = self.FJAOEGPHPNN.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+        if self.JJABPPDILOK != 0 {
+            os.write_uint32(6, self.JJABPPDILOK)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(12, self.retcode)?;
+            os.write_uint32(14, self.retcode)?;
         }
-        os.write_repeated_packed_uint32(6, &self.KDFMLPCKDHK)?;
-        if let Some(v) = self.MBHENKALAPE.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
+        if let Some(v) = self.POGCGMLPEON.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
         }
+        os.write_repeated_packed_uint32(13, &self.DOAIHFIFFNO)?;
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -181,21 +181,21 @@ impl ::protobuf::Message for ChenLingGetDataScRsp {
     }
 
     fn clear(&mut self) {
-        self.CNDOGIMCFCH = 0;
-        self.FJAOEGPHPNN.clear();
+        self.IKKMNDMELLN.clear();
+        self.JJABPPDILOK = 0;
         self.retcode = 0;
-        self.KDFMLPCKDHK.clear();
-        self.MBHENKALAPE.clear();
+        self.POGCGMLPEON.clear();
+        self.DOAIHFIFFNO.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ChenLingGetDataScRsp {
         static instance: ChenLingGetDataScRsp = ChenLingGetDataScRsp {
-            CNDOGIMCFCH: 0,
-            FJAOEGPHPNN: ::protobuf::MessageField::none(),
+            IKKMNDMELLN: ::protobuf::MessageField::none(),
+            JJABPPDILOK: 0,
             retcode: 0,
-            KDFMLPCKDHK: ::std::vec::Vec::new(),
-            MBHENKALAPE: ::protobuf::MessageField::none(),
+            POGCGMLPEON: ::protobuf::MessageField::none(),
+            DOAIHFIFFNO: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -220,13 +220,13 @@ impl ::protobuf::reflect::ProtobufValue for ChenLingGetDataScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1aChenLingGetDataScRsp.proto\x1a\x11CNKPEBPKHHK.proto\x1a\x11DAMBFPD\
-    IFBB.proto\"\xd4\x01\n\x14ChenLingGetDataScRsp\x12\x20\n\x0bCNDOGIMCFCH\
-    \x18\x02\x20\x01(\rR\x0bCNDOGIMCFCH\x12.\n\x0bFJAOEGPHPNN\x18\x08\x20\
-    \x01(\x0b2\x0c.DAMBFPDIFBBR\x0bFJAOEGPHPNN\x12\x18\n\x07retcode\x18\x0c\
-    \x20\x01(\rR\x07retcode\x12\x20\n\x0bKDFMLPCKDHK\x18\x06\x20\x03(\rR\x0b\
-    KDFMLPCKDHK\x12.\n\x0bMBHENKALAPE\x18\x0f\x20\x01(\x0b2\x0c.CNKPEBPKHHKR\
-    \x0bMBHENKALAPEb\x06proto3\
+    \n\x1aChenLingGetDataScRsp.proto\x1a\x11FCLDNHOHPII.proto\x1a\x11FMEMPPN\
+    NKJH.proto\"\xd4\x01\n\x14ChenLingGetDataScRsp\x12.\n\x0bIKKMNDMELLN\x18\
+    \x0c\x20\x01(\x0b2\x0c.FCLDNHOHPIIR\x0bIKKMNDMELLN\x12\x20\n\x0bJJABPPDI\
+    LOK\x18\x06\x20\x01(\rR\x0bJJABPPDILOK\x12\x18\n\x07retcode\x18\x0e\x20\
+    \x01(\rR\x07retcode\x12.\n\x0bPOGCGMLPEON\x18\x07\x20\x01(\x0b2\x0c.FMEM\
+    PPNNKJHR\x0bPOGCGMLPEON\x12\x20\n\x0bDOAIHFIFFNO\x18\r\x20\x03(\rR\x0bDO\
+    AIHFIFFNOb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -244,8 +244,8 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
-            deps.push(super::CNKPEBPKHHK::file_descriptor().clone());
-            deps.push(super::DAMBFPDIFBB::file_descriptor().clone());
+            deps.push(super::FCLDNHOHPII::file_descriptor().clone());
+            deps.push(super::FMEMPPNNKJH::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(ChenLingGetDataScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

@@ -27,52 +27,52 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdCakeRaceType)
 pub enum CmdCakeRaceType {
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_MNFEPONEDDJ)
-    CmdCakeRaceType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_EIBKDFJFMKI)
-    CmdCakeRaceType_EIBKDFJFMKI = 9135,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_OIGOIHHFCFH)
-    CmdCakeRaceType_OIGOIHHFCFH = 9124,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_PMEGMIFODAI)
-    CmdCakeRaceType_PMEGMIFODAI = 9132,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_HKDPAOKGLMD)
-    CmdCakeRaceType_HKDPAOKGLMD = 9147,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_OIBALFGGMEE)
-    CmdCakeRaceType_OIBALFGGMEE = 9125,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_DOKKEAONBJE)
-    CmdCakeRaceType_DOKKEAONBJE = 9133,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_BEJEMCEINPG)
-    CmdCakeRaceType_BEJEMCEINPG = 9121,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_BIGHLLLNCOM)
-    CmdCakeRaceType_BIGHLLLNCOM = 9131,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_KIDKDGBILNB)
-    CmdCakeRaceType_KIDKDGBILNB = 9142,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_CFCFEDOHMJK)
-    CmdCakeRaceType_CFCFEDOHMJK = 9149,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_LDMNLPJHEAG)
-    CmdCakeRaceType_LDMNLPJHEAG = 9122,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_JLILOEFMADF)
-    CmdCakeRaceType_JLILOEFMADF = 9129,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_GLINOFGNFJP)
-    CmdCakeRaceType_GLINOFGNFJP = 9130,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_NJPCJOBHIKK)
-    CmdCakeRaceType_NJPCJOBHIKK = 9141,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_HBDDNPBLAKB)
-    CmdCakeRaceType_HBDDNPBLAKB = 9137,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_FMEKFGIILEA)
-    CmdCakeRaceType_FMEKFGIILEA = 9136,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_FPOMABNNCII)
-    CmdCakeRaceType_FPOMABNNCII = 9140,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_COEHJJALKAI)
-    CmdCakeRaceType_COEHJJALKAI = 9134,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_GPMMOOPFNGN)
-    CmdCakeRaceType_GPMMOOPFNGN = 9139,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_MMMCBFGCOBI)
-    CmdCakeRaceType_MMMCBFGCOBI = 9146,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_PLIJACDNJGA)
-    CmdCakeRaceType_PLIJACDNJGA = 9127,
-    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceType_JLMIOKMMKIF)
-    CmdCakeRaceType_JLMIOKMMKIF = 9126,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.EMBLGHMFGEA_PCPDHELPKEM)
+    EMBLGHMFGEA_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceGetDataScRsp)
+    CmdCakeRaceGetDataScRsp = 9138,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceLoanCsReq)
+    CmdCakeRaceLoanCsReq = 9124,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceGetHandbookScRsp)
+    CmdCakeRaceGetHandbookScRsp = 9130,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCMNLIEKBFNJ)
+    CmdCMNLIEKBFNJ = 9133,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceGetDataCsReq)
+    CmdCakeRaceGetDataCsReq = 9122,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdBPLDHDFDIDA)
+    CmdBPLDHDFDIDA = 9145,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceFinishPveCsReq)
+    CmdCakeRaceFinishPveCsReq = 9147,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceFinishFieldRewardScNotify)
+    CmdCakeRaceFinishFieldRewardScNotify = 9149,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceUpdatePveScRsp)
+    CmdCakeRaceUpdatePveScRsp = 9135,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceGetDailyLikeCsReq)
+    CmdCakeRaceGetDailyLikeCsReq = 9146,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceCoinScoreChangeScNotify)
+    CmdCakeRaceCoinScoreChangeScNotify = 9142,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceGetFriendRankingInfoListScRsp)
+    CmdCakeRaceGetFriendRankingInfoListScRsp = 9140,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceLoanScRsp)
+    CmdCakeRaceLoanScRsp = 9139,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceGetFriendRankingInfoListCsReq)
+    CmdCakeRaceGetFriendRankingInfoListCsReq = 9143,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceLikeFriendRankingInfoScRsp)
+    CmdCakeRaceLikeFriendRankingInfoScRsp = 9134,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceStartPveCsReq)
+    CmdCakeRaceStartPveCsReq = 9123,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceGetDailyLikeScRsp)
+    CmdCakeRaceGetDailyLikeScRsp = 9127,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.EMBLGHMFGEA_FGCFGNNDHOF)
+    EMBLGHMFGEA_FGCFGNNDHOF = 9137,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceStartPveScRsp)
+    CmdCakeRaceStartPveScRsp = 9121,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceUpdatePveMeetCatCsReq)
+    CmdCakeRaceUpdatePveMeetCatCsReq = 9150,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceGetHandbookCsReq)
+    CmdCakeRaceGetHandbookCsReq = 9131,
+    // @@protoc_insertion_point(enum_value:CmdCakeRaceType.CmdCakeRaceLikeFriendRankingInfoCsReq)
+    CmdCakeRaceLikeFriendRankingInfoCsReq = 9129,
 }
 
 impl ::protobuf::Enum for CmdCakeRaceType {
@@ -84,86 +84,86 @@ impl ::protobuf::Enum for CmdCakeRaceType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdCakeRaceType> {
         match value {
-            0 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_MNFEPONEDDJ),
-            9135 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_EIBKDFJFMKI),
-            9124 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_OIGOIHHFCFH),
-            9132 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_PMEGMIFODAI),
-            9147 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_HKDPAOKGLMD),
-            9125 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_OIBALFGGMEE),
-            9133 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_DOKKEAONBJE),
-            9121 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_BEJEMCEINPG),
-            9131 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_BIGHLLLNCOM),
-            9142 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_KIDKDGBILNB),
-            9149 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_CFCFEDOHMJK),
-            9122 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_LDMNLPJHEAG),
-            9129 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_JLILOEFMADF),
-            9130 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_GLINOFGNFJP),
-            9141 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_NJPCJOBHIKK),
-            9137 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_HBDDNPBLAKB),
-            9136 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_FMEKFGIILEA),
-            9140 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_FPOMABNNCII),
-            9134 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_COEHJJALKAI),
-            9139 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_GPMMOOPFNGN),
-            9146 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_MMMCBFGCOBI),
-            9127 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_PLIJACDNJGA),
-            9126 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_JLMIOKMMKIF),
+            0 => ::std::option::Option::Some(CmdCakeRaceType::EMBLGHMFGEA_PCPDHELPKEM),
+            9138 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetDataScRsp),
+            9124 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceLoanCsReq),
+            9130 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetHandbookScRsp),
+            9133 => ::std::option::Option::Some(CmdCakeRaceType::CmdCMNLIEKBFNJ),
+            9122 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetDataCsReq),
+            9145 => ::std::option::Option::Some(CmdCakeRaceType::CmdBPLDHDFDIDA),
+            9147 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceFinishPveCsReq),
+            9149 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceFinishFieldRewardScNotify),
+            9135 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceUpdatePveScRsp),
+            9146 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetDailyLikeCsReq),
+            9142 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceCoinScoreChangeScNotify),
+            9140 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetFriendRankingInfoListScRsp),
+            9139 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceLoanScRsp),
+            9143 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetFriendRankingInfoListCsReq),
+            9134 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceLikeFriendRankingInfoScRsp),
+            9123 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceStartPveCsReq),
+            9127 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetDailyLikeScRsp),
+            9137 => ::std::option::Option::Some(CmdCakeRaceType::EMBLGHMFGEA_FGCFGNNDHOF),
+            9121 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceStartPveScRsp),
+            9150 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceUpdatePveMeetCatCsReq),
+            9131 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetHandbookCsReq),
+            9129 => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceLikeFriendRankingInfoCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdCakeRaceType> {
         match str {
-            "CmdCakeRaceType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_MNFEPONEDDJ),
-            "CmdCakeRaceType_EIBKDFJFMKI" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_EIBKDFJFMKI),
-            "CmdCakeRaceType_OIGOIHHFCFH" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_OIGOIHHFCFH),
-            "CmdCakeRaceType_PMEGMIFODAI" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_PMEGMIFODAI),
-            "CmdCakeRaceType_HKDPAOKGLMD" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_HKDPAOKGLMD),
-            "CmdCakeRaceType_OIBALFGGMEE" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_OIBALFGGMEE),
-            "CmdCakeRaceType_DOKKEAONBJE" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_DOKKEAONBJE),
-            "CmdCakeRaceType_BEJEMCEINPG" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_BEJEMCEINPG),
-            "CmdCakeRaceType_BIGHLLLNCOM" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_BIGHLLLNCOM),
-            "CmdCakeRaceType_KIDKDGBILNB" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_KIDKDGBILNB),
-            "CmdCakeRaceType_CFCFEDOHMJK" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_CFCFEDOHMJK),
-            "CmdCakeRaceType_LDMNLPJHEAG" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_LDMNLPJHEAG),
-            "CmdCakeRaceType_JLILOEFMADF" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_JLILOEFMADF),
-            "CmdCakeRaceType_GLINOFGNFJP" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_GLINOFGNFJP),
-            "CmdCakeRaceType_NJPCJOBHIKK" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_NJPCJOBHIKK),
-            "CmdCakeRaceType_HBDDNPBLAKB" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_HBDDNPBLAKB),
-            "CmdCakeRaceType_FMEKFGIILEA" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_FMEKFGIILEA),
-            "CmdCakeRaceType_FPOMABNNCII" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_FPOMABNNCII),
-            "CmdCakeRaceType_COEHJJALKAI" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_COEHJJALKAI),
-            "CmdCakeRaceType_GPMMOOPFNGN" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_GPMMOOPFNGN),
-            "CmdCakeRaceType_MMMCBFGCOBI" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_MMMCBFGCOBI),
-            "CmdCakeRaceType_PLIJACDNJGA" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_PLIJACDNJGA),
-            "CmdCakeRaceType_JLMIOKMMKIF" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceType_JLMIOKMMKIF),
+            "EMBLGHMFGEA_PCPDHELPKEM" => ::std::option::Option::Some(CmdCakeRaceType::EMBLGHMFGEA_PCPDHELPKEM),
+            "CmdCakeRaceGetDataScRsp" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetDataScRsp),
+            "CmdCakeRaceLoanCsReq" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceLoanCsReq),
+            "CmdCakeRaceGetHandbookScRsp" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetHandbookScRsp),
+            "CmdCMNLIEKBFNJ" => ::std::option::Option::Some(CmdCakeRaceType::CmdCMNLIEKBFNJ),
+            "CmdCakeRaceGetDataCsReq" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetDataCsReq),
+            "CmdBPLDHDFDIDA" => ::std::option::Option::Some(CmdCakeRaceType::CmdBPLDHDFDIDA),
+            "CmdCakeRaceFinishPveCsReq" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceFinishPveCsReq),
+            "CmdCakeRaceFinishFieldRewardScNotify" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceFinishFieldRewardScNotify),
+            "CmdCakeRaceUpdatePveScRsp" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceUpdatePveScRsp),
+            "CmdCakeRaceGetDailyLikeCsReq" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetDailyLikeCsReq),
+            "CmdCakeRaceCoinScoreChangeScNotify" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceCoinScoreChangeScNotify),
+            "CmdCakeRaceGetFriendRankingInfoListScRsp" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetFriendRankingInfoListScRsp),
+            "CmdCakeRaceLoanScRsp" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceLoanScRsp),
+            "CmdCakeRaceGetFriendRankingInfoListCsReq" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetFriendRankingInfoListCsReq),
+            "CmdCakeRaceLikeFriendRankingInfoScRsp" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceLikeFriendRankingInfoScRsp),
+            "CmdCakeRaceStartPveCsReq" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceStartPveCsReq),
+            "CmdCakeRaceGetDailyLikeScRsp" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetDailyLikeScRsp),
+            "EMBLGHMFGEA_FGCFGNNDHOF" => ::std::option::Option::Some(CmdCakeRaceType::EMBLGHMFGEA_FGCFGNNDHOF),
+            "CmdCakeRaceStartPveScRsp" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceStartPveScRsp),
+            "CmdCakeRaceUpdatePveMeetCatCsReq" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceUpdatePveMeetCatCsReq),
+            "CmdCakeRaceGetHandbookCsReq" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceGetHandbookCsReq),
+            "CmdCakeRaceLikeFriendRankingInfoCsReq" => ::std::option::Option::Some(CmdCakeRaceType::CmdCakeRaceLikeFriendRankingInfoCsReq),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdCakeRaceType] = &[
-        CmdCakeRaceType::CmdCakeRaceType_MNFEPONEDDJ,
-        CmdCakeRaceType::CmdCakeRaceType_EIBKDFJFMKI,
-        CmdCakeRaceType::CmdCakeRaceType_OIGOIHHFCFH,
-        CmdCakeRaceType::CmdCakeRaceType_PMEGMIFODAI,
-        CmdCakeRaceType::CmdCakeRaceType_HKDPAOKGLMD,
-        CmdCakeRaceType::CmdCakeRaceType_OIBALFGGMEE,
-        CmdCakeRaceType::CmdCakeRaceType_DOKKEAONBJE,
-        CmdCakeRaceType::CmdCakeRaceType_BEJEMCEINPG,
-        CmdCakeRaceType::CmdCakeRaceType_BIGHLLLNCOM,
-        CmdCakeRaceType::CmdCakeRaceType_KIDKDGBILNB,
-        CmdCakeRaceType::CmdCakeRaceType_CFCFEDOHMJK,
-        CmdCakeRaceType::CmdCakeRaceType_LDMNLPJHEAG,
-        CmdCakeRaceType::CmdCakeRaceType_JLILOEFMADF,
-        CmdCakeRaceType::CmdCakeRaceType_GLINOFGNFJP,
-        CmdCakeRaceType::CmdCakeRaceType_NJPCJOBHIKK,
-        CmdCakeRaceType::CmdCakeRaceType_HBDDNPBLAKB,
-        CmdCakeRaceType::CmdCakeRaceType_FMEKFGIILEA,
-        CmdCakeRaceType::CmdCakeRaceType_FPOMABNNCII,
-        CmdCakeRaceType::CmdCakeRaceType_COEHJJALKAI,
-        CmdCakeRaceType::CmdCakeRaceType_GPMMOOPFNGN,
-        CmdCakeRaceType::CmdCakeRaceType_MMMCBFGCOBI,
-        CmdCakeRaceType::CmdCakeRaceType_PLIJACDNJGA,
-        CmdCakeRaceType::CmdCakeRaceType_JLMIOKMMKIF,
+        CmdCakeRaceType::EMBLGHMFGEA_PCPDHELPKEM,
+        CmdCakeRaceType::CmdCakeRaceGetDataScRsp,
+        CmdCakeRaceType::CmdCakeRaceLoanCsReq,
+        CmdCakeRaceType::CmdCakeRaceGetHandbookScRsp,
+        CmdCakeRaceType::CmdCMNLIEKBFNJ,
+        CmdCakeRaceType::CmdCakeRaceGetDataCsReq,
+        CmdCakeRaceType::CmdBPLDHDFDIDA,
+        CmdCakeRaceType::CmdCakeRaceFinishPveCsReq,
+        CmdCakeRaceType::CmdCakeRaceFinishFieldRewardScNotify,
+        CmdCakeRaceType::CmdCakeRaceUpdatePveScRsp,
+        CmdCakeRaceType::CmdCakeRaceGetDailyLikeCsReq,
+        CmdCakeRaceType::CmdCakeRaceCoinScoreChangeScNotify,
+        CmdCakeRaceType::CmdCakeRaceGetFriendRankingInfoListScRsp,
+        CmdCakeRaceType::CmdCakeRaceLoanScRsp,
+        CmdCakeRaceType::CmdCakeRaceGetFriendRankingInfoListCsReq,
+        CmdCakeRaceType::CmdCakeRaceLikeFriendRankingInfoScRsp,
+        CmdCakeRaceType::CmdCakeRaceStartPveCsReq,
+        CmdCakeRaceType::CmdCakeRaceGetDailyLikeScRsp,
+        CmdCakeRaceType::EMBLGHMFGEA_FGCFGNNDHOF,
+        CmdCakeRaceType::CmdCakeRaceStartPveScRsp,
+        CmdCakeRaceType::CmdCakeRaceUpdatePveMeetCatCsReq,
+        CmdCakeRaceType::CmdCakeRaceGetHandbookCsReq,
+        CmdCakeRaceType::CmdCakeRaceLikeFriendRankingInfoCsReq,
     ];
 }
 
@@ -175,29 +175,29 @@ impl ::protobuf::EnumFull for CmdCakeRaceType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdCakeRaceType::CmdCakeRaceType_MNFEPONEDDJ => 0,
-            CmdCakeRaceType::CmdCakeRaceType_EIBKDFJFMKI => 1,
-            CmdCakeRaceType::CmdCakeRaceType_OIGOIHHFCFH => 2,
-            CmdCakeRaceType::CmdCakeRaceType_PMEGMIFODAI => 3,
-            CmdCakeRaceType::CmdCakeRaceType_HKDPAOKGLMD => 4,
-            CmdCakeRaceType::CmdCakeRaceType_OIBALFGGMEE => 5,
-            CmdCakeRaceType::CmdCakeRaceType_DOKKEAONBJE => 6,
-            CmdCakeRaceType::CmdCakeRaceType_BEJEMCEINPG => 7,
-            CmdCakeRaceType::CmdCakeRaceType_BIGHLLLNCOM => 8,
-            CmdCakeRaceType::CmdCakeRaceType_KIDKDGBILNB => 9,
-            CmdCakeRaceType::CmdCakeRaceType_CFCFEDOHMJK => 10,
-            CmdCakeRaceType::CmdCakeRaceType_LDMNLPJHEAG => 11,
-            CmdCakeRaceType::CmdCakeRaceType_JLILOEFMADF => 12,
-            CmdCakeRaceType::CmdCakeRaceType_GLINOFGNFJP => 13,
-            CmdCakeRaceType::CmdCakeRaceType_NJPCJOBHIKK => 14,
-            CmdCakeRaceType::CmdCakeRaceType_HBDDNPBLAKB => 15,
-            CmdCakeRaceType::CmdCakeRaceType_FMEKFGIILEA => 16,
-            CmdCakeRaceType::CmdCakeRaceType_FPOMABNNCII => 17,
-            CmdCakeRaceType::CmdCakeRaceType_COEHJJALKAI => 18,
-            CmdCakeRaceType::CmdCakeRaceType_GPMMOOPFNGN => 19,
-            CmdCakeRaceType::CmdCakeRaceType_MMMCBFGCOBI => 20,
-            CmdCakeRaceType::CmdCakeRaceType_PLIJACDNJGA => 21,
-            CmdCakeRaceType::CmdCakeRaceType_JLMIOKMMKIF => 22,
+            CmdCakeRaceType::EMBLGHMFGEA_PCPDHELPKEM => 0,
+            CmdCakeRaceType::CmdCakeRaceGetDataScRsp => 1,
+            CmdCakeRaceType::CmdCakeRaceLoanCsReq => 2,
+            CmdCakeRaceType::CmdCakeRaceGetHandbookScRsp => 3,
+            CmdCakeRaceType::CmdCMNLIEKBFNJ => 4,
+            CmdCakeRaceType::CmdCakeRaceGetDataCsReq => 5,
+            CmdCakeRaceType::CmdBPLDHDFDIDA => 6,
+            CmdCakeRaceType::CmdCakeRaceFinishPveCsReq => 7,
+            CmdCakeRaceType::CmdCakeRaceFinishFieldRewardScNotify => 8,
+            CmdCakeRaceType::CmdCakeRaceUpdatePveScRsp => 9,
+            CmdCakeRaceType::CmdCakeRaceGetDailyLikeCsReq => 10,
+            CmdCakeRaceType::CmdCakeRaceCoinScoreChangeScNotify => 11,
+            CmdCakeRaceType::CmdCakeRaceGetFriendRankingInfoListScRsp => 12,
+            CmdCakeRaceType::CmdCakeRaceLoanScRsp => 13,
+            CmdCakeRaceType::CmdCakeRaceGetFriendRankingInfoListCsReq => 14,
+            CmdCakeRaceType::CmdCakeRaceLikeFriendRankingInfoScRsp => 15,
+            CmdCakeRaceType::CmdCakeRaceStartPveCsReq => 16,
+            CmdCakeRaceType::CmdCakeRaceGetDailyLikeScRsp => 17,
+            CmdCakeRaceType::EMBLGHMFGEA_FGCFGNNDHOF => 18,
+            CmdCakeRaceType::CmdCakeRaceStartPveScRsp => 19,
+            CmdCakeRaceType::CmdCakeRaceUpdatePveMeetCatCsReq => 20,
+            CmdCakeRaceType::CmdCakeRaceGetHandbookCsReq => 21,
+            CmdCakeRaceType::CmdCakeRaceLikeFriendRankingInfoCsReq => 22,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -205,7 +205,7 @@ impl ::protobuf::EnumFull for CmdCakeRaceType {
 
 impl ::std::default::Default for CmdCakeRaceType {
     fn default() -> Self {
-        CmdCakeRaceType::CmdCakeRaceType_MNFEPONEDDJ
+        CmdCakeRaceType::EMBLGHMFGEA_PCPDHELPKEM
     }
 }
 
@@ -216,23 +216,23 @@ impl CmdCakeRaceType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x15CmdCakeRaceType.proto*\x9e\x06\n\x0fCmdCakeRaceType\x12\x1f\n\x1bC\
-    mdCakeRaceType_MNFEPONEDDJ\x10\0\x12\x20\n\x1bCmdCakeRaceType_EIBKDFJFMK\
-    I\x10\xafG\x12\x20\n\x1bCmdCakeRaceType_OIGOIHHFCFH\x10\xa4G\x12\x20\n\
-    \x1bCmdCakeRaceType_PMEGMIFODAI\x10\xacG\x12\x20\n\x1bCmdCakeRaceType_HK\
-    DPAOKGLMD\x10\xbbG\x12\x20\n\x1bCmdCakeRaceType_OIBALFGGMEE\x10\xa5G\x12\
-    \x20\n\x1bCmdCakeRaceType_DOKKEAONBJE\x10\xadG\x12\x20\n\x1bCmdCakeRaceT\
-    ype_BEJEMCEINPG\x10\xa1G\x12\x20\n\x1bCmdCakeRaceType_BIGHLLLNCOM\x10\
-    \xabG\x12\x20\n\x1bCmdCakeRaceType_KIDKDGBILNB\x10\xb6G\x12\x20\n\x1bCmd\
-    CakeRaceType_CFCFEDOHMJK\x10\xbdG\x12\x20\n\x1bCmdCakeRaceType_LDMNLPJHE\
-    AG\x10\xa2G\x12\x20\n\x1bCmdCakeRaceType_JLILOEFMADF\x10\xa9G\x12\x20\n\
-    \x1bCmdCakeRaceType_GLINOFGNFJP\x10\xaaG\x12\x20\n\x1bCmdCakeRaceType_NJ\
-    PCJOBHIKK\x10\xb5G\x12\x20\n\x1bCmdCakeRaceType_HBDDNPBLAKB\x10\xb1G\x12\
-    \x20\n\x1bCmdCakeRaceType_FMEKFGIILEA\x10\xb0G\x12\x20\n\x1bCmdCakeRaceT\
-    ype_FPOMABNNCII\x10\xb4G\x12\x20\n\x1bCmdCakeRaceType_COEHJJALKAI\x10\
-    \xaeG\x12\x20\n\x1bCmdCakeRaceType_GPMMOOPFNGN\x10\xb3G\x12\x20\n\x1bCmd\
-    CakeRaceType_MMMCBFGCOBI\x10\xbaG\x12\x20\n\x1bCmdCakeRaceType_PLIJACDNJ\
-    GA\x10\xa7G\x12\x20\n\x1bCmdCakeRaceType_JLMIOKMMKIF\x10\xa6Gb\x06proto3\
+    \n\x15CmdCakeRaceType.proto*\xa1\x06\n\x0fCmdCakeRaceType\x12\x1b\n\x17E\
+    MBLGHMFGEA_PCPDHELPKEM\x10\0\x12\x1c\n\x17CmdCakeRaceGetDataScRsp\x10\
+    \xb2G\x12\x19\n\x14CmdCakeRaceLoanCsReq\x10\xa4G\x12\x20\n\x1bCmdCakeRac\
+    eGetHandbookScRsp\x10\xaaG\x12\x13\n\x0eCmdCMNLIEKBFNJ\x10\xadG\x12\x1c\
+    \n\x17CmdCakeRaceGetDataCsReq\x10\xa2G\x12\x13\n\x0eCmdBPLDHDFDIDA\x10\
+    \xb9G\x12\x1e\n\x19CmdCakeRaceFinishPveCsReq\x10\xbbG\x12)\n$CmdCakeRace\
+    FinishFieldRewardScNotify\x10\xbdG\x12\x1e\n\x19CmdCakeRaceUpdatePveScRs\
+    p\x10\xafG\x12!\n\x1cCmdCakeRaceGetDailyLikeCsReq\x10\xbaG\x12'\n\"CmdCa\
+    keRaceCoinScoreChangeScNotify\x10\xb6G\x12-\n(CmdCakeRaceGetFriendRankin\
+    gInfoListScRsp\x10\xb4G\x12\x19\n\x14CmdCakeRaceLoanScRsp\x10\xb3G\x12-\
+    \n(CmdCakeRaceGetFriendRankingInfoListCsReq\x10\xb7G\x12*\n%CmdCakeRaceL\
+    ikeFriendRankingInfoScRsp\x10\xaeG\x12\x1d\n\x18CmdCakeRaceStartPveCsReq\
+    \x10\xa3G\x12!\n\x1cCmdCakeRaceGetDailyLikeScRsp\x10\xa7G\x12\x1c\n\x17E\
+    MBLGHMFGEA_FGCFGNNDHOF\x10\xb1G\x12\x1d\n\x18CmdCakeRaceStartPveScRsp\
+    \x10\xa1G\x12%\n\x20CmdCakeRaceUpdatePveMeetCatCsReq\x10\xbeG\x12\x20\n\
+    \x1bCmdCakeRaceGetHandbookCsReq\x10\xabG\x12*\n%CmdCakeRaceLikeFriendRan\
+    kingInfoCsReq\x10\xa9Gb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

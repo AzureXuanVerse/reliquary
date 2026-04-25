@@ -30,8 +30,8 @@ pub struct PlanetFesBusinessDayRefreshEventScRsp {
     // message fields
     // @@protoc_insertion_point(field:PlanetFesBusinessDayRefreshEventScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:PlanetFesBusinessDayRefreshEventScRsp.KFIIOBLEAFF)
-    pub KFIIOBLEAFF: ::protobuf::MessageField<super::MGAPENEKGLK::MGAPENEKGLK>,
+    // @@protoc_insertion_point(field:PlanetFesBusinessDayRefreshEventScRsp.DIHECIIKELE)
+    pub DIHECIIKELE: ::protobuf::MessageField<super::JIPACDEJKJC::JIPACDEJKJC>,
     // special fields
     // @@protoc_insertion_point(special_field:PlanetFesBusinessDayRefreshEventScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -56,10 +56,10 @@ impl PlanetFesBusinessDayRefreshEventScRsp {
             |m: &PlanetFesBusinessDayRefreshEventScRsp| { &m.retcode },
             |m: &mut PlanetFesBusinessDayRefreshEventScRsp| { &mut m.retcode },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::MGAPENEKGLK::MGAPENEKGLK>(
-            "KFIIOBLEAFF",
-            |m: &PlanetFesBusinessDayRefreshEventScRsp| { &m.KFIIOBLEAFF },
-            |m: &mut PlanetFesBusinessDayRefreshEventScRsp| { &mut m.KFIIOBLEAFF },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::JIPACDEJKJC::JIPACDEJKJC>(
+            "DIHECIIKELE",
+            |m: &PlanetFesBusinessDayRefreshEventScRsp| { &m.DIHECIIKELE },
+            |m: &mut PlanetFesBusinessDayRefreshEventScRsp| { &mut m.DIHECIIKELE },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<PlanetFesBusinessDayRefreshEventScRsp>(
             "PlanetFesBusinessDayRefreshEventScRsp",
@@ -83,7 +83,7 @@ impl ::protobuf::Message for PlanetFesBusinessDayRefreshEventScRsp {
                     self.retcode = is.read_uint32()?;
                 },
                 106 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.KFIIOBLEAFF)?;
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.DIHECIIKELE)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -100,7 +100,7 @@ impl ::protobuf::Message for PlanetFesBusinessDayRefreshEventScRsp {
         if self.retcode != 0 {
             my_size += ::protobuf::rt::uint32_size(8, self.retcode);
         }
-        if let Some(v) = self.KFIIOBLEAFF.as_ref() {
+        if let Some(v) = self.DIHECIIKELE.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -113,7 +113,7 @@ impl ::protobuf::Message for PlanetFesBusinessDayRefreshEventScRsp {
         if self.retcode != 0 {
             os.write_uint32(8, self.retcode)?;
         }
-        if let Some(v) = self.KFIIOBLEAFF.as_ref() {
+        if let Some(v) = self.DIHECIIKELE.as_ref() {
             ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
@@ -134,14 +134,14 @@ impl ::protobuf::Message for PlanetFesBusinessDayRefreshEventScRsp {
 
     fn clear(&mut self) {
         self.retcode = 0;
-        self.KFIIOBLEAFF.clear();
+        self.DIHECIIKELE.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static PlanetFesBusinessDayRefreshEventScRsp {
         static instance: PlanetFesBusinessDayRefreshEventScRsp = PlanetFesBusinessDayRefreshEventScRsp {
             retcode: 0,
-            KFIIOBLEAFF: ::protobuf::MessageField::none(),
+            DIHECIIKELE: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,10 +166,10 @@ impl ::protobuf::reflect::ProtobufValue for PlanetFesBusinessDayRefreshEventScRs
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n+PlanetFesBusinessDayRefreshEventScRsp.proto\x1a\x11MGAPENEKGLK.proto\
+    \n+PlanetFesBusinessDayRefreshEventScRsp.proto\x1a\x11JIPACDEJKJC.proto\
     \"q\n%PlanetFesBusinessDayRefreshEventScRsp\x12\x18\n\x07retcode\x18\x08\
-    \x20\x01(\rR\x07retcode\x12.\n\x0bKFIIOBLEAFF\x18\r\x20\x01(\x0b2\x0c.MG\
-    APENEKGLKR\x0bKFIIOBLEAFFb\x06proto3\
+    \x20\x01(\rR\x07retcode\x12.\n\x0bDIHECIIKELE\x18\r\x20\x01(\x0b2\x0c.JI\
+    PACDEJKJCR\x0bDIHECIIKELEb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -187,7 +187,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::MGAPENEKGLK::file_descriptor().clone());
+            deps.push(super::JIPACDEJKJC::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(PlanetFesBusinessDayRefreshEventScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

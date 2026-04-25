@@ -28,16 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GetRogueEndlessActivityDataScRsp {
     // message fields
-    // @@protoc_insertion_point(field:GetRogueEndlessActivityDataScRsp.KMJBNOFFLHC)
-    pub KMJBNOFFLHC: u32,
-    // @@protoc_insertion_point(field:GetRogueEndlessActivityDataScRsp.KBHBAEPHBJF)
-    pub KBHBAEPHBJF: u32,
-    // @@protoc_insertion_point(field:GetRogueEndlessActivityDataScRsp.CDNCHALPHAN)
-    pub CDNCHALPHAN: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:GetRogueEndlessActivityDataScRsp.LLHGGPJBNIN)
+    pub LLHGGPJBNIN: u32,
+    // @@protoc_insertion_point(field:GetRogueEndlessActivityDataScRsp.NAGLJDCLGGB)
+    pub NAGLJDCLGGB: u32,
+    // @@protoc_insertion_point(field:GetRogueEndlessActivityDataScRsp.data)
+    pub data: ::std::vec::Vec<super::NLPPCFGFFDE::NLPPCFGFFDE>,
     // @@protoc_insertion_point(field:GetRogueEndlessActivityDataScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:GetRogueEndlessActivityDataScRsp.data)
-    pub data: ::std::vec::Vec<super::EMACIOAFOCJ::EMACIOAFOCJ>,
+    // @@protoc_insertion_point(field:GetRogueEndlessActivityDataScRsp.MOGBNJOHKLA)
+    pub MOGBNJOHKLA: ::std::vec::Vec<u32>,
     // special fields
     // @@protoc_insertion_point(special_field:GetRogueEndlessActivityDataScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -58,19 +58,19 @@ impl GetRogueEndlessActivityDataScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "KMJBNOFFLHC",
-            |m: &GetRogueEndlessActivityDataScRsp| { &m.KMJBNOFFLHC },
-            |m: &mut GetRogueEndlessActivityDataScRsp| { &mut m.KMJBNOFFLHC },
+            "LLHGGPJBNIN",
+            |m: &GetRogueEndlessActivityDataScRsp| { &m.LLHGGPJBNIN },
+            |m: &mut GetRogueEndlessActivityDataScRsp| { &mut m.LLHGGPJBNIN },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "KBHBAEPHBJF",
-            |m: &GetRogueEndlessActivityDataScRsp| { &m.KBHBAEPHBJF },
-            |m: &mut GetRogueEndlessActivityDataScRsp| { &mut m.KBHBAEPHBJF },
+            "NAGLJDCLGGB",
+            |m: &GetRogueEndlessActivityDataScRsp| { &m.NAGLJDCLGGB },
+            |m: &mut GetRogueEndlessActivityDataScRsp| { &mut m.NAGLJDCLGGB },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "CDNCHALPHAN",
-            |m: &GetRogueEndlessActivityDataScRsp| { &m.CDNCHALPHAN },
-            |m: &mut GetRogueEndlessActivityDataScRsp| { &mut m.CDNCHALPHAN },
+            "data",
+            |m: &GetRogueEndlessActivityDataScRsp| { &m.data },
+            |m: &mut GetRogueEndlessActivityDataScRsp| { &mut m.data },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
@@ -78,9 +78,9 @@ impl GetRogueEndlessActivityDataScRsp {
             |m: &mut GetRogueEndlessActivityDataScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "data",
-            |m: &GetRogueEndlessActivityDataScRsp| { &m.data },
-            |m: &mut GetRogueEndlessActivityDataScRsp| { &mut m.data },
+            "MOGBNJOHKLA",
+            |m: &GetRogueEndlessActivityDataScRsp| { &m.MOGBNJOHKLA },
+            |m: &mut GetRogueEndlessActivityDataScRsp| { &mut m.MOGBNJOHKLA },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetRogueEndlessActivityDataScRsp>(
             "GetRogueEndlessActivityDataScRsp",
@@ -100,23 +100,23 @@ impl ::protobuf::Message for GetRogueEndlessActivityDataScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                40 => {
-                    self.KMJBNOFFLHC = is.read_uint32()?;
-                },
-                16 => {
-                    self.KBHBAEPHBJF = is.read_uint32()?;
-                },
-                58 => {
-                    is.read_repeated_packed_uint32_into(&mut self.CDNCHALPHAN)?;
+                8 => {
+                    self.LLHGGPJBNIN = is.read_uint32()?;
                 },
                 56 => {
-                    self.CDNCHALPHAN.push(is.read_uint32()?);
+                    self.NAGLJDCLGGB = is.read_uint32()?;
                 },
-                72 => {
+                50 => {
+                    self.data.push(is.read_message()?);
+                },
+                88 => {
                     self.retcode = is.read_uint32()?;
                 },
-                114 => {
-                    self.data.push(is.read_message()?);
+                26 => {
+                    is.read_repeated_packed_uint32_into(&mut self.MOGBNJOHKLA)?;
+                },
+                24 => {
+                    self.MOGBNJOHKLA.push(is.read_uint32()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -130,39 +130,39 @@ impl ::protobuf::Message for GetRogueEndlessActivityDataScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.KMJBNOFFLHC != 0 {
-            my_size += ::protobuf::rt::uint32_size(5, self.KMJBNOFFLHC);
+        if self.LLHGGPJBNIN != 0 {
+            my_size += ::protobuf::rt::uint32_size(1, self.LLHGGPJBNIN);
         }
-        if self.KBHBAEPHBJF != 0 {
-            my_size += ::protobuf::rt::uint32_size(2, self.KBHBAEPHBJF);
-        }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(7, &self.CDNCHALPHAN);
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.retcode);
+        if self.NAGLJDCLGGB != 0 {
+            my_size += ::protobuf::rt::uint32_size(7, self.NAGLJDCLGGB);
         }
         for value in &self.data {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(11, self.retcode);
+        }
+        my_size += ::protobuf::rt::vec_packed_uint32_size(3, &self.MOGBNJOHKLA);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.KMJBNOFFLHC != 0 {
-            os.write_uint32(5, self.KMJBNOFFLHC)?;
+        if self.LLHGGPJBNIN != 0 {
+            os.write_uint32(1, self.LLHGGPJBNIN)?;
         }
-        if self.KBHBAEPHBJF != 0 {
-            os.write_uint32(2, self.KBHBAEPHBJF)?;
-        }
-        os.write_repeated_packed_uint32(7, &self.CDNCHALPHAN)?;
-        if self.retcode != 0 {
-            os.write_uint32(9, self.retcode)?;
+        if self.NAGLJDCLGGB != 0 {
+            os.write_uint32(7, self.NAGLJDCLGGB)?;
         }
         for v in &self.data {
-            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
         };
+        if self.retcode != 0 {
+            os.write_uint32(11, self.retcode)?;
+        }
+        os.write_repeated_packed_uint32(3, &self.MOGBNJOHKLA)?;
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -180,21 +180,21 @@ impl ::protobuf::Message for GetRogueEndlessActivityDataScRsp {
     }
 
     fn clear(&mut self) {
-        self.KMJBNOFFLHC = 0;
-        self.KBHBAEPHBJF = 0;
-        self.CDNCHALPHAN.clear();
-        self.retcode = 0;
+        self.LLHGGPJBNIN = 0;
+        self.NAGLJDCLGGB = 0;
         self.data.clear();
+        self.retcode = 0;
+        self.MOGBNJOHKLA.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetRogueEndlessActivityDataScRsp {
         static instance: GetRogueEndlessActivityDataScRsp = GetRogueEndlessActivityDataScRsp {
-            KMJBNOFFLHC: 0,
-            KBHBAEPHBJF: 0,
-            CDNCHALPHAN: ::std::vec::Vec::new(),
-            retcode: 0,
+            LLHGGPJBNIN: 0,
+            NAGLJDCLGGB: 0,
             data: ::std::vec::Vec::new(),
+            retcode: 0,
+            MOGBNJOHKLA: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -219,12 +219,12 @@ impl ::protobuf::reflect::ProtobufValue for GetRogueEndlessActivityDataScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n&GetRogueEndlessActivityDataScRsp.proto\x1a\x11EMACIOAFOCJ.proto\"\xc4\
-    \x01\n\x20GetRogueEndlessActivityDataScRsp\x12\x20\n\x0bKMJBNOFFLHC\x18\
-    \x05\x20\x01(\rR\x0bKMJBNOFFLHC\x12\x20\n\x0bKBHBAEPHBJF\x18\x02\x20\x01\
-    (\rR\x0bKBHBAEPHBJF\x12\x20\n\x0bCDNCHALPHAN\x18\x07\x20\x03(\rR\x0bCDNC\
-    HALPHAN\x12\x18\n\x07retcode\x18\t\x20\x01(\rR\x07retcode\x12\x20\n\x04d\
-    ata\x18\x0e\x20\x03(\x0b2\x0c.EMACIOAFOCJR\x04datab\x06proto3\
+    \n&GetRogueEndlessActivityDataScRsp.proto\x1a\x11NLPPCFGFFDE.proto\"\xc4\
+    \x01\n\x20GetRogueEndlessActivityDataScRsp\x12\x20\n\x0bLLHGGPJBNIN\x18\
+    \x01\x20\x01(\rR\x0bLLHGGPJBNIN\x12\x20\n\x0bNAGLJDCLGGB\x18\x07\x20\x01\
+    (\rR\x0bNAGLJDCLGGB\x12\x20\n\x04data\x18\x06\x20\x03(\x0b2\x0c.NLPPCFGF\
+    FDER\x04data\x12\x18\n\x07retcode\x18\x0b\x20\x01(\rR\x07retcode\x12\x20\
+    \n\x0bMOGBNJOHKLA\x18\x03\x20\x03(\rR\x0bMOGBNJOHKLAb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -242,7 +242,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::EMACIOAFOCJ::file_descriptor().clone());
+            deps.push(super::NLPPCFGFFDE::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GetRogueEndlessActivityDataScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

@@ -30,8 +30,8 @@ pub struct SetTrainWorldIdCsReq {
     // message fields
     // @@protoc_insertion_point(field:SetTrainWorldIdCsReq.interact_id)
     pub interact_id: u64,
-    // @@protoc_insertion_point(field:SetTrainWorldIdCsReq.IJGLDCNMELH)
-    pub IJGLDCNMELH: u32,
+    // @@protoc_insertion_point(field:SetTrainWorldIdCsReq.LLOLOEHPFHA)
+    pub LLOLOEHPFHA: u32,
     // special fields
     // @@protoc_insertion_point(special_field:SetTrainWorldIdCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,9 +57,9 @@ impl SetTrainWorldIdCsReq {
             |m: &mut SetTrainWorldIdCsReq| { &mut m.interact_id },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "IJGLDCNMELH",
-            |m: &SetTrainWorldIdCsReq| { &m.IJGLDCNMELH },
-            |m: &mut SetTrainWorldIdCsReq| { &mut m.IJGLDCNMELH },
+            "LLOLOEHPFHA",
+            |m: &SetTrainWorldIdCsReq| { &m.LLOLOEHPFHA },
+            |m: &mut SetTrainWorldIdCsReq| { &mut m.LLOLOEHPFHA },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<SetTrainWorldIdCsReq>(
             "SetTrainWorldIdCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for SetTrainWorldIdCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                16 => {
+                120 => {
                     self.interact_id = is.read_uint64()?;
                 },
-                72 => {
-                    self.IJGLDCNMELH = is.read_uint32()?;
+                104 => {
+                    self.LLOLOEHPFHA = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -98,10 +98,10 @@ impl ::protobuf::Message for SetTrainWorldIdCsReq {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.interact_id != 0 {
-            my_size += ::protobuf::rt::uint64_size(2, self.interact_id);
+            my_size += ::protobuf::rt::uint64_size(15, self.interact_id);
         }
-        if self.IJGLDCNMELH != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.IJGLDCNMELH);
+        if self.LLOLOEHPFHA != 0 {
+            my_size += ::protobuf::rt::uint32_size(13, self.LLOLOEHPFHA);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,10 +110,10 @@ impl ::protobuf::Message for SetTrainWorldIdCsReq {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.interact_id != 0 {
-            os.write_uint64(2, self.interact_id)?;
+            os.write_uint64(15, self.interact_id)?;
         }
-        if self.IJGLDCNMELH != 0 {
-            os.write_uint32(9, self.IJGLDCNMELH)?;
+        if self.LLOLOEHPFHA != 0 {
+            os.write_uint32(13, self.LLOLOEHPFHA)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -133,14 +133,14 @@ impl ::protobuf::Message for SetTrainWorldIdCsReq {
 
     fn clear(&mut self) {
         self.interact_id = 0;
-        self.IJGLDCNMELH = 0;
+        self.LLOLOEHPFHA = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static SetTrainWorldIdCsReq {
         static instance: SetTrainWorldIdCsReq = SetTrainWorldIdCsReq {
             interact_id: 0,
-            IJGLDCNMELH: 0,
+            LLOLOEHPFHA: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for SetTrainWorldIdCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1aSetTrainWorldIdCsReq.proto\"Y\n\x14SetTrainWorldIdCsReq\x12\x1f\n\
-    \x0binteract_id\x18\x02\x20\x01(\x04R\ninteractId\x12\x20\n\x0bIJGLDCNME\
-    LH\x18\t\x20\x01(\rR\x0bIJGLDCNMELHb\x06proto3\
+    \x0binteract_id\x18\x0f\x20\x01(\x04R\ninteractId\x12\x20\n\x0bLLOLOEHPF\
+    HA\x18\r\x20\x01(\rR\x0bLLOLOEHPFHAb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -72,7 +72,7 @@ impl ::protobuf::Message for GridFightWeeklyExtraSeasonExpScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                80 => {
+                120 => {
                     self.cur_taken_extra_exp = is.read_uint32()?;
                 },
                 tag => {
@@ -88,7 +88,7 @@ impl ::protobuf::Message for GridFightWeeklyExtraSeasonExpScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.cur_taken_extra_exp != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.cur_taken_extra_exp);
+            my_size += ::protobuf::rt::uint32_size(15, self.cur_taken_extra_exp);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -97,7 +97,7 @@ impl ::protobuf::Message for GridFightWeeklyExtraSeasonExpScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.cur_taken_extra_exp != 0 {
-            os.write_uint32(10, self.cur_taken_extra_exp)?;
+            os.write_uint32(15, self.cur_taken_extra_exp)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -148,8 +148,8 @@ impl ::protobuf::reflect::ProtobufValue for GridFightWeeklyExtraSeasonExpScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n(GridFightWeeklyExtraSeasonExpScRsp.proto\"S\n\"GridFightWeeklyExtraSe\
-    asonExpScRsp\x12-\n\x13cur_taken_extra_exp\x18\n\x20\x01(\rR\x10curTaken\
-    ExtraExpb\x06proto3\
+    asonExpScRsp\x12-\n\x13cur_taken_extra_exp\x18\x0f\x20\x01(\rR\x10curTak\
+    enExtraExpb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

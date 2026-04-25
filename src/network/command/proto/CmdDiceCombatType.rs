@@ -27,40 +27,46 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdDiceCombatType)
 pub enum CmdDiceCombatType {
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_MNFEPONEDDJ)
-    CmdDiceCombatType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_PDFHLJNOKIP)
-    CmdDiceCombatType_PDFHLJNOKIP = 9265,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_CIMPCNEADKC)
-    CmdDiceCombatType_CIMPCNEADKC = 9278,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_FFGDLFJCOIK)
-    CmdDiceCombatType_FFGDLFJCOIK = 9274,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_GJJICDAGFJB)
-    CmdDiceCombatType_GJJICDAGFJB = 9288,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_IFHPEKNIMKA)
-    CmdDiceCombatType_IFHPEKNIMKA = 9262,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_NPNIACFAOJO)
-    CmdDiceCombatType_NPNIACFAOJO = 9261,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_HONCICEHEGO)
-    CmdDiceCombatType_HONCICEHEGO = 9264,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_EMFPLHHIMPE)
-    CmdDiceCombatType_EMFPLHHIMPE = 9268,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_LOPJCJICFOM)
-    CmdDiceCombatType_LOPJCJICFOM = 9266,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_OJFPEDEHDMD)
-    CmdDiceCombatType_OJFPEDEHDMD = 9283,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_DOBDFFLILED)
-    CmdDiceCombatType_DOBDFFLILED = 9272,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_EJBCHGPLMOO)
-    CmdDiceCombatType_EJBCHGPLMOO = 9282,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_EHAPHHFOMBK)
-    CmdDiceCombatType_EHAPHHFOMBK = 9271,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_KCHEALPKELO)
-    CmdDiceCombatType_KCHEALPKELO = 9294,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_IFLNNNFLPEP)
-    CmdDiceCombatType_IFLNNNFLPEP = 9267,
-    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatType_PJKHLOKFGIA)
-    CmdDiceCombatType_PJKHLOKFGIA = 9291,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.JPBCLHJEFMK_PCPDHELPKEM)
+    JPBCLHJEFMK_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdModifyAvatarDiceRsp)
+    CmdModifyAvatarDiceRsp = 9263,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatUpgradeAvatarCsReq)
+    CmdDiceCombatUpgradeAvatarCsReq = 9289,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdGetDiceCombatSystemDataReq)
+    CmdGetDiceCombatSystemDataReq = 9267,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdEJEAJOAAEMB)
+    CmdEJEAJOAAEMB = 9282,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatMainPageRollDiceCsReq)
+    CmdDiceCombatMainPageRollDiceCsReq = 9261,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatBuyShopGoodReq)
+    CmdDiceCombatBuyShopGoodReq = 9290,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdBuyShopGoodScRsp)
+    CmdBuyShopGoodScRsp = 9266,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdAIPEMEEDHAK)
+    CmdAIPEMEEDHAK = 9288,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatFinishPveStageCsReq)
+    CmdDiceCombatFinishPveStageCsReq = 9262,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdLAOOIHPKMOO)
+    CmdLAOOIHPKMOO = 9264,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdGetSystemDataRsp)
+    CmdGetSystemDataRsp = 9275,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdDiceCombatModifyAvatarDiceCsReq)
+    CmdDiceCombatModifyAvatarDiceCsReq = 9268,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdGetDiceCombatShopDataReq)
+    CmdGetDiceCombatShopDataReq = 9273,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdUpgradeAvatarRsp)
+    CmdUpgradeAvatarRsp = 9276,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdGetShopDataScRsp)
+    CmdGetShopDataScRsp = 9277,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdFinishPveStageScRsp)
+    CmdFinishPveStageScRsp = 9265,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdAddItemRsp)
+    CmdAddItemRsp = 9278,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdV2FinishPveStageCsReq)
+    CmdV2FinishPveStageCsReq = 9298,
+    // @@protoc_insertion_point(enum_value:CmdDiceCombatType.CmdV2FinishPveStageScRsp)
+    CmdV2FinishPveStageScRsp = 9280,
 }
 
 impl ::protobuf::Enum for CmdDiceCombatType {
@@ -72,68 +78,77 @@ impl ::protobuf::Enum for CmdDiceCombatType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdDiceCombatType> {
         match value {
-            0 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_MNFEPONEDDJ),
-            9265 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_PDFHLJNOKIP),
-            9278 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_CIMPCNEADKC),
-            9274 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_FFGDLFJCOIK),
-            9288 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_GJJICDAGFJB),
-            9262 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_IFHPEKNIMKA),
-            9261 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_NPNIACFAOJO),
-            9264 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_HONCICEHEGO),
-            9268 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_EMFPLHHIMPE),
-            9266 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_LOPJCJICFOM),
-            9283 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_OJFPEDEHDMD),
-            9272 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_DOBDFFLILED),
-            9282 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_EJBCHGPLMOO),
-            9271 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_EHAPHHFOMBK),
-            9294 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_KCHEALPKELO),
-            9267 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_IFLNNNFLPEP),
-            9291 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_PJKHLOKFGIA),
+            0 => ::std::option::Option::Some(CmdDiceCombatType::JPBCLHJEFMK_PCPDHELPKEM),
+            9263 => ::std::option::Option::Some(CmdDiceCombatType::CmdModifyAvatarDiceRsp),
+            9289 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatUpgradeAvatarCsReq),
+            9267 => ::std::option::Option::Some(CmdDiceCombatType::CmdGetDiceCombatSystemDataReq),
+            9282 => ::std::option::Option::Some(CmdDiceCombatType::CmdEJEAJOAAEMB),
+            9261 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatMainPageRollDiceCsReq),
+            9290 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatBuyShopGoodReq),
+            9266 => ::std::option::Option::Some(CmdDiceCombatType::CmdBuyShopGoodScRsp),
+            9288 => ::std::option::Option::Some(CmdDiceCombatType::CmdAIPEMEEDHAK),
+            9262 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatFinishPveStageCsReq),
+            9264 => ::std::option::Option::Some(CmdDiceCombatType::CmdLAOOIHPKMOO),
+            9275 => ::std::option::Option::Some(CmdDiceCombatType::CmdGetSystemDataRsp),
+            9268 => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatModifyAvatarDiceCsReq),
+            9273 => ::std::option::Option::Some(CmdDiceCombatType::CmdGetDiceCombatShopDataReq),
+            9276 => ::std::option::Option::Some(CmdDiceCombatType::CmdUpgradeAvatarRsp),
+            9277 => ::std::option::Option::Some(CmdDiceCombatType::CmdGetShopDataScRsp),
+            9265 => ::std::option::Option::Some(CmdDiceCombatType::CmdFinishPveStageScRsp),
+            9278 => ::std::option::Option::Some(CmdDiceCombatType::CmdAddItemRsp),
+            9298 => ::std::option::Option::Some(CmdDiceCombatType::CmdV2FinishPveStageCsReq),
+            9280 => ::std::option::Option::Some(CmdDiceCombatType::CmdV2FinishPveStageScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdDiceCombatType> {
         match str {
-            "CmdDiceCombatType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_MNFEPONEDDJ),
-            "CmdDiceCombatType_PDFHLJNOKIP" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_PDFHLJNOKIP),
-            "CmdDiceCombatType_CIMPCNEADKC" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_CIMPCNEADKC),
-            "CmdDiceCombatType_FFGDLFJCOIK" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_FFGDLFJCOIK),
-            "CmdDiceCombatType_GJJICDAGFJB" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_GJJICDAGFJB),
-            "CmdDiceCombatType_IFHPEKNIMKA" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_IFHPEKNIMKA),
-            "CmdDiceCombatType_NPNIACFAOJO" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_NPNIACFAOJO),
-            "CmdDiceCombatType_HONCICEHEGO" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_HONCICEHEGO),
-            "CmdDiceCombatType_EMFPLHHIMPE" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_EMFPLHHIMPE),
-            "CmdDiceCombatType_LOPJCJICFOM" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_LOPJCJICFOM),
-            "CmdDiceCombatType_OJFPEDEHDMD" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_OJFPEDEHDMD),
-            "CmdDiceCombatType_DOBDFFLILED" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_DOBDFFLILED),
-            "CmdDiceCombatType_EJBCHGPLMOO" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_EJBCHGPLMOO),
-            "CmdDiceCombatType_EHAPHHFOMBK" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_EHAPHHFOMBK),
-            "CmdDiceCombatType_KCHEALPKELO" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_KCHEALPKELO),
-            "CmdDiceCombatType_IFLNNNFLPEP" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_IFLNNNFLPEP),
-            "CmdDiceCombatType_PJKHLOKFGIA" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatType_PJKHLOKFGIA),
+            "JPBCLHJEFMK_PCPDHELPKEM" => ::std::option::Option::Some(CmdDiceCombatType::JPBCLHJEFMK_PCPDHELPKEM),
+            "CmdModifyAvatarDiceRsp" => ::std::option::Option::Some(CmdDiceCombatType::CmdModifyAvatarDiceRsp),
+            "CmdDiceCombatUpgradeAvatarCsReq" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatUpgradeAvatarCsReq),
+            "CmdGetDiceCombatSystemDataReq" => ::std::option::Option::Some(CmdDiceCombatType::CmdGetDiceCombatSystemDataReq),
+            "CmdEJEAJOAAEMB" => ::std::option::Option::Some(CmdDiceCombatType::CmdEJEAJOAAEMB),
+            "CmdDiceCombatMainPageRollDiceCsReq" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatMainPageRollDiceCsReq),
+            "CmdDiceCombatBuyShopGoodReq" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatBuyShopGoodReq),
+            "CmdBuyShopGoodScRsp" => ::std::option::Option::Some(CmdDiceCombatType::CmdBuyShopGoodScRsp),
+            "CmdAIPEMEEDHAK" => ::std::option::Option::Some(CmdDiceCombatType::CmdAIPEMEEDHAK),
+            "CmdDiceCombatFinishPveStageCsReq" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatFinishPveStageCsReq),
+            "CmdLAOOIHPKMOO" => ::std::option::Option::Some(CmdDiceCombatType::CmdLAOOIHPKMOO),
+            "CmdGetSystemDataRsp" => ::std::option::Option::Some(CmdDiceCombatType::CmdGetSystemDataRsp),
+            "CmdDiceCombatModifyAvatarDiceCsReq" => ::std::option::Option::Some(CmdDiceCombatType::CmdDiceCombatModifyAvatarDiceCsReq),
+            "CmdGetDiceCombatShopDataReq" => ::std::option::Option::Some(CmdDiceCombatType::CmdGetDiceCombatShopDataReq),
+            "CmdUpgradeAvatarRsp" => ::std::option::Option::Some(CmdDiceCombatType::CmdUpgradeAvatarRsp),
+            "CmdGetShopDataScRsp" => ::std::option::Option::Some(CmdDiceCombatType::CmdGetShopDataScRsp),
+            "CmdFinishPveStageScRsp" => ::std::option::Option::Some(CmdDiceCombatType::CmdFinishPveStageScRsp),
+            "CmdAddItemRsp" => ::std::option::Option::Some(CmdDiceCombatType::CmdAddItemRsp),
+            "CmdV2FinishPveStageCsReq" => ::std::option::Option::Some(CmdDiceCombatType::CmdV2FinishPveStageCsReq),
+            "CmdV2FinishPveStageScRsp" => ::std::option::Option::Some(CmdDiceCombatType::CmdV2FinishPveStageScRsp),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdDiceCombatType] = &[
-        CmdDiceCombatType::CmdDiceCombatType_MNFEPONEDDJ,
-        CmdDiceCombatType::CmdDiceCombatType_PDFHLJNOKIP,
-        CmdDiceCombatType::CmdDiceCombatType_CIMPCNEADKC,
-        CmdDiceCombatType::CmdDiceCombatType_FFGDLFJCOIK,
-        CmdDiceCombatType::CmdDiceCombatType_GJJICDAGFJB,
-        CmdDiceCombatType::CmdDiceCombatType_IFHPEKNIMKA,
-        CmdDiceCombatType::CmdDiceCombatType_NPNIACFAOJO,
-        CmdDiceCombatType::CmdDiceCombatType_HONCICEHEGO,
-        CmdDiceCombatType::CmdDiceCombatType_EMFPLHHIMPE,
-        CmdDiceCombatType::CmdDiceCombatType_LOPJCJICFOM,
-        CmdDiceCombatType::CmdDiceCombatType_OJFPEDEHDMD,
-        CmdDiceCombatType::CmdDiceCombatType_DOBDFFLILED,
-        CmdDiceCombatType::CmdDiceCombatType_EJBCHGPLMOO,
-        CmdDiceCombatType::CmdDiceCombatType_EHAPHHFOMBK,
-        CmdDiceCombatType::CmdDiceCombatType_KCHEALPKELO,
-        CmdDiceCombatType::CmdDiceCombatType_IFLNNNFLPEP,
-        CmdDiceCombatType::CmdDiceCombatType_PJKHLOKFGIA,
+        CmdDiceCombatType::JPBCLHJEFMK_PCPDHELPKEM,
+        CmdDiceCombatType::CmdModifyAvatarDiceRsp,
+        CmdDiceCombatType::CmdDiceCombatUpgradeAvatarCsReq,
+        CmdDiceCombatType::CmdGetDiceCombatSystemDataReq,
+        CmdDiceCombatType::CmdEJEAJOAAEMB,
+        CmdDiceCombatType::CmdDiceCombatMainPageRollDiceCsReq,
+        CmdDiceCombatType::CmdDiceCombatBuyShopGoodReq,
+        CmdDiceCombatType::CmdBuyShopGoodScRsp,
+        CmdDiceCombatType::CmdAIPEMEEDHAK,
+        CmdDiceCombatType::CmdDiceCombatFinishPveStageCsReq,
+        CmdDiceCombatType::CmdLAOOIHPKMOO,
+        CmdDiceCombatType::CmdGetSystemDataRsp,
+        CmdDiceCombatType::CmdDiceCombatModifyAvatarDiceCsReq,
+        CmdDiceCombatType::CmdGetDiceCombatShopDataReq,
+        CmdDiceCombatType::CmdUpgradeAvatarRsp,
+        CmdDiceCombatType::CmdGetShopDataScRsp,
+        CmdDiceCombatType::CmdFinishPveStageScRsp,
+        CmdDiceCombatType::CmdAddItemRsp,
+        CmdDiceCombatType::CmdV2FinishPveStageCsReq,
+        CmdDiceCombatType::CmdV2FinishPveStageScRsp,
     ];
 }
 
@@ -145,23 +160,26 @@ impl ::protobuf::EnumFull for CmdDiceCombatType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdDiceCombatType::CmdDiceCombatType_MNFEPONEDDJ => 0,
-            CmdDiceCombatType::CmdDiceCombatType_PDFHLJNOKIP => 1,
-            CmdDiceCombatType::CmdDiceCombatType_CIMPCNEADKC => 2,
-            CmdDiceCombatType::CmdDiceCombatType_FFGDLFJCOIK => 3,
-            CmdDiceCombatType::CmdDiceCombatType_GJJICDAGFJB => 4,
-            CmdDiceCombatType::CmdDiceCombatType_IFHPEKNIMKA => 5,
-            CmdDiceCombatType::CmdDiceCombatType_NPNIACFAOJO => 6,
-            CmdDiceCombatType::CmdDiceCombatType_HONCICEHEGO => 7,
-            CmdDiceCombatType::CmdDiceCombatType_EMFPLHHIMPE => 8,
-            CmdDiceCombatType::CmdDiceCombatType_LOPJCJICFOM => 9,
-            CmdDiceCombatType::CmdDiceCombatType_OJFPEDEHDMD => 10,
-            CmdDiceCombatType::CmdDiceCombatType_DOBDFFLILED => 11,
-            CmdDiceCombatType::CmdDiceCombatType_EJBCHGPLMOO => 12,
-            CmdDiceCombatType::CmdDiceCombatType_EHAPHHFOMBK => 13,
-            CmdDiceCombatType::CmdDiceCombatType_KCHEALPKELO => 14,
-            CmdDiceCombatType::CmdDiceCombatType_IFLNNNFLPEP => 15,
-            CmdDiceCombatType::CmdDiceCombatType_PJKHLOKFGIA => 16,
+            CmdDiceCombatType::JPBCLHJEFMK_PCPDHELPKEM => 0,
+            CmdDiceCombatType::CmdModifyAvatarDiceRsp => 1,
+            CmdDiceCombatType::CmdDiceCombatUpgradeAvatarCsReq => 2,
+            CmdDiceCombatType::CmdGetDiceCombatSystemDataReq => 3,
+            CmdDiceCombatType::CmdEJEAJOAAEMB => 4,
+            CmdDiceCombatType::CmdDiceCombatMainPageRollDiceCsReq => 5,
+            CmdDiceCombatType::CmdDiceCombatBuyShopGoodReq => 6,
+            CmdDiceCombatType::CmdBuyShopGoodScRsp => 7,
+            CmdDiceCombatType::CmdAIPEMEEDHAK => 8,
+            CmdDiceCombatType::CmdDiceCombatFinishPveStageCsReq => 9,
+            CmdDiceCombatType::CmdLAOOIHPKMOO => 10,
+            CmdDiceCombatType::CmdGetSystemDataRsp => 11,
+            CmdDiceCombatType::CmdDiceCombatModifyAvatarDiceCsReq => 12,
+            CmdDiceCombatType::CmdGetDiceCombatShopDataReq => 13,
+            CmdDiceCombatType::CmdUpgradeAvatarRsp => 14,
+            CmdDiceCombatType::CmdGetShopDataScRsp => 15,
+            CmdDiceCombatType::CmdFinishPveStageScRsp => 16,
+            CmdDiceCombatType::CmdAddItemRsp => 17,
+            CmdDiceCombatType::CmdV2FinishPveStageCsReq => 18,
+            CmdDiceCombatType::CmdV2FinishPveStageScRsp => 19,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -169,7 +187,7 @@ impl ::protobuf::EnumFull for CmdDiceCombatType {
 
 impl ::std::default::Default for CmdDiceCombatType {
     fn default() -> Self {
-        CmdDiceCombatType::CmdDiceCombatType_MNFEPONEDDJ
+        CmdDiceCombatType::JPBCLHJEFMK_PCPDHELPKEM
     }
 }
 
@@ -180,19 +198,20 @@ impl CmdDiceCombatType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x17CmdDiceCombatType.proto*\xf6\x04\n\x11CmdDiceCombatType\x12!\n\x1d\
-    CmdDiceCombatType_MNFEPONEDDJ\x10\0\x12\"\n\x1dCmdDiceCombatType_PDFHLJN\
-    OKIP\x10\xb1H\x12\"\n\x1dCmdDiceCombatType_CIMPCNEADKC\x10\xbeH\x12\"\n\
-    \x1dCmdDiceCombatType_FFGDLFJCOIK\x10\xbaH\x12\"\n\x1dCmdDiceCombatType_\
-    GJJICDAGFJB\x10\xc8H\x12\"\n\x1dCmdDiceCombatType_IFHPEKNIMKA\x10\xaeH\
-    \x12\"\n\x1dCmdDiceCombatType_NPNIACFAOJO\x10\xadH\x12\"\n\x1dCmdDiceCom\
-    batType_HONCICEHEGO\x10\xb0H\x12\"\n\x1dCmdDiceCombatType_EMFPLHHIMPE\
-    \x10\xb4H\x12\"\n\x1dCmdDiceCombatType_LOPJCJICFOM\x10\xb2H\x12\"\n\x1dC\
-    mdDiceCombatType_OJFPEDEHDMD\x10\xc3H\x12\"\n\x1dCmdDiceCombatType_DOBDF\
-    FLILED\x10\xb8H\x12\"\n\x1dCmdDiceCombatType_EJBCHGPLMOO\x10\xc2H\x12\"\
-    \n\x1dCmdDiceCombatType_EHAPHHFOMBK\x10\xb7H\x12\"\n\x1dCmdDiceCombatTyp\
-    e_KCHEALPKELO\x10\xceH\x12\"\n\x1dCmdDiceCombatType_IFLNNNFLPEP\x10\xb3H\
-    \x12\"\n\x1dCmdDiceCombatType_PJKHLOKFGIA\x10\xcbHb\x06proto3\
+    \n\x17CmdDiceCombatType.proto*\xea\x04\n\x11CmdDiceCombatType\x12\x1b\n\
+    \x17JPBCLHJEFMK_PCPDHELPKEM\x10\0\x12\x1b\n\x16CmdModifyAvatarDiceRsp\
+    \x10\xafH\x12$\n\x1fCmdDiceCombatUpgradeAvatarCsReq\x10\xc9H\x12\"\n\x1d\
+    CmdGetDiceCombatSystemDataReq\x10\xb3H\x12\x13\n\x0eCmdEJEAJOAAEMB\x10\
+    \xc2H\x12'\n\"CmdDiceCombatMainPageRollDiceCsReq\x10\xadH\x12\x20\n\x1bC\
+    mdDiceCombatBuyShopGoodReq\x10\xcaH\x12\x18\n\x13CmdBuyShopGoodScRsp\x10\
+    \xb2H\x12\x13\n\x0eCmdAIPEMEEDHAK\x10\xc8H\x12%\n\x20CmdDiceCombatFinish\
+    PveStageCsReq\x10\xaeH\x12\x13\n\x0eCmdLAOOIHPKMOO\x10\xb0H\x12\x18\n\
+    \x13CmdGetSystemDataRsp\x10\xbbH\x12'\n\"CmdDiceCombatModifyAvatarDiceCs\
+    Req\x10\xb4H\x12\x20\n\x1bCmdGetDiceCombatShopDataReq\x10\xb9H\x12\x18\n\
+    \x13CmdUpgradeAvatarRsp\x10\xbcH\x12\x18\n\x13CmdGetShopDataScRsp\x10\
+    \xbdH\x12\x1b\n\x16CmdFinishPveStageScRsp\x10\xb1H\x12\x12\n\rCmdAddItem\
+    Rsp\x10\xbeH\x12\x1d\n\x18CmdV2FinishPveStageCsReq\x10\xd2H\x12\x1d\n\
+    \x18CmdV2FinishPveStageScRsp\x10\xc0Hb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

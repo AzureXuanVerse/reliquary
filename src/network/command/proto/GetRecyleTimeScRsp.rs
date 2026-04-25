@@ -30,8 +30,8 @@ pub struct GetRecyleTimeScRsp {
     // message fields
     // @@protoc_insertion_point(field:GetRecyleTimeScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:GetRecyleTimeScRsp.JGKFHDPPFJE)
-    pub JGKFHDPPFJE: ::std::vec::Vec<super::RecycleMaterial::RecycleMaterial>,
+    // @@protoc_insertion_point(field:GetRecyleTimeScRsp.GHGKCFIFMBB)
+    pub GHGKCFIFMBB: ::std::vec::Vec<super::JLAEDKMBGEK::JLAEDKMBGEK>,
     // special fields
     // @@protoc_insertion_point(special_field:GetRecyleTimeScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,9 +57,9 @@ impl GetRecyleTimeScRsp {
             |m: &mut GetRecyleTimeScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "JGKFHDPPFJE",
-            |m: &GetRecyleTimeScRsp| { &m.JGKFHDPPFJE },
-            |m: &mut GetRecyleTimeScRsp| { &mut m.JGKFHDPPFJE },
+            "GHGKCFIFMBB",
+            |m: &GetRecyleTimeScRsp| { &m.GHGKCFIFMBB },
+            |m: &mut GetRecyleTimeScRsp| { &mut m.GHGKCFIFMBB },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetRecyleTimeScRsp>(
             "GetRecyleTimeScRsp",
@@ -82,8 +82,8 @@ impl ::protobuf::Message for GetRecyleTimeScRsp {
                 8 => {
                     self.retcode = is.read_uint32()?;
                 },
-                50 => {
-                    self.JGKFHDPPFJE.push(is.read_message()?);
+                34 => {
+                    self.GHGKCFIFMBB.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -100,7 +100,7 @@ impl ::protobuf::Message for GetRecyleTimeScRsp {
         if self.retcode != 0 {
             my_size += ::protobuf::rt::uint32_size(1, self.retcode);
         }
-        for value in &self.JGKFHDPPFJE {
+        for value in &self.GHGKCFIFMBB {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
@@ -113,8 +113,8 @@ impl ::protobuf::Message for GetRecyleTimeScRsp {
         if self.retcode != 0 {
             os.write_uint32(1, self.retcode)?;
         }
-        for v in &self.JGKFHDPPFJE {
-            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
+        for v in &self.GHGKCFIFMBB {
+            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
         };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -134,14 +134,14 @@ impl ::protobuf::Message for GetRecyleTimeScRsp {
 
     fn clear(&mut self) {
         self.retcode = 0;
-        self.JGKFHDPPFJE.clear();
+        self.GHGKCFIFMBB.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetRecyleTimeScRsp {
         static instance: GetRecyleTimeScRsp = GetRecyleTimeScRsp {
             retcode: 0,
-            JGKFHDPPFJE: ::std::vec::Vec::new(),
+            GHGKCFIFMBB: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,10 +166,10 @@ impl ::protobuf::reflect::ProtobufValue for GetRecyleTimeScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x18GetRecyleTimeScRsp.proto\x1a\x15RecycleMaterial.proto\"b\n\x12GetR\
-    ecyleTimeScRsp\x12\x18\n\x07retcode\x18\x01\x20\x01(\rR\x07retcode\x122\
-    \n\x0bJGKFHDPPFJE\x18\x06\x20\x03(\x0b2\x10.RecycleMaterialR\x0bJGKFHDPP\
-    FJEb\x06proto3\
+    \n\x18GetRecyleTimeScRsp.proto\x1a\x11JLAEDKMBGEK.proto\"^\n\x12GetRecyl\
+    eTimeScRsp\x12\x18\n\x07retcode\x18\x01\x20\x01(\rR\x07retcode\x12.\n\
+    \x0bGHGKCFIFMBB\x18\x04\x20\x03(\x0b2\x0c.JLAEDKMBGEKR\x0bGHGKCFIFMBBb\
+    \x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -187,7 +187,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::RecycleMaterial::file_descriptor().clone());
+            deps.push(super::JLAEDKMBGEK::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GetRecyleTimeScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

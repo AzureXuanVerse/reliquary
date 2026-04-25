@@ -28,20 +28,20 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct NpcRogueGameInfo {
     // message fields
-    // @@protoc_insertion_point(field:NpcRogueGameInfo.MCOPKBNFMJM)
-    pub MCOPKBNFMJM: u32,
-    // @@protoc_insertion_point(field:NpcRogueGameInfo.IAMDBFCJNCE)
-    pub IAMDBFCJNCE: bool,
-    // @@protoc_insertion_point(field:NpcRogueGameInfo.ACIAIHCHDAL)
-    pub ACIAIHCHDAL: bool,
-    // @@protoc_insertion_point(field:NpcRogueGameInfo.HOJIOHLHAAF)
-    pub HOJIOHLHAAF: u32,
-    // @@protoc_insertion_point(field:NpcRogueGameInfo.DJKDFDHPEEP)
-    pub DJKDFDHPEEP: ::std::collections::HashMap<u32, u32>,
-    // @@protoc_insertion_point(field:NpcRogueGameInfo.IBLMEAHHENI)
-    pub IBLMEAHHENI: u32,
-    // @@protoc_insertion_point(field:NpcRogueGameInfo.ICALEBKJGJJ)
-    pub ICALEBKJGJJ: bool,
+    // @@protoc_insertion_point(field:NpcRogueGameInfo.KIGLLJKDDNE)
+    pub KIGLLJKDDNE: bool,
+    // @@protoc_insertion_point(field:NpcRogueGameInfo.AHKFFCIEPDG)
+    pub AHKFFCIEPDG: u32,
+    // @@protoc_insertion_point(field:NpcRogueGameInfo.HOHANPJNANA)
+    pub HOHANPJNANA: u32,
+    // @@protoc_insertion_point(field:NpcRogueGameInfo.FOEJFEMLPPC)
+    pub FOEJFEMLPPC: ::std::collections::HashMap<u32, u32>,
+    // @@protoc_insertion_point(field:NpcRogueGameInfo.DHILGBCKPCL)
+    pub DHILGBCKPCL: bool,
+    // @@protoc_insertion_point(field:NpcRogueGameInfo.JBEILMFIIGM)
+    pub JBEILMFIIGM: u32,
+    // @@protoc_insertion_point(field:NpcRogueGameInfo.IINHPJNHGAH)
+    pub IINHPJNHGAH: bool,
     // special fields
     // @@protoc_insertion_point(special_field:NpcRogueGameInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -62,39 +62,39 @@ impl NpcRogueGameInfo {
         let mut fields = ::std::vec::Vec::with_capacity(7);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MCOPKBNFMJM",
-            |m: &NpcRogueGameInfo| { &m.MCOPKBNFMJM },
-            |m: &mut NpcRogueGameInfo| { &mut m.MCOPKBNFMJM },
+            "KIGLLJKDDNE",
+            |m: &NpcRogueGameInfo| { &m.KIGLLJKDDNE },
+            |m: &mut NpcRogueGameInfo| { &mut m.KIGLLJKDDNE },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "IAMDBFCJNCE",
-            |m: &NpcRogueGameInfo| { &m.IAMDBFCJNCE },
-            |m: &mut NpcRogueGameInfo| { &mut m.IAMDBFCJNCE },
+            "AHKFFCIEPDG",
+            |m: &NpcRogueGameInfo| { &m.AHKFFCIEPDG },
+            |m: &mut NpcRogueGameInfo| { &mut m.AHKFFCIEPDG },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "ACIAIHCHDAL",
-            |m: &NpcRogueGameInfo| { &m.ACIAIHCHDAL },
-            |m: &mut NpcRogueGameInfo| { &mut m.ACIAIHCHDAL },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "HOJIOHLHAAF",
-            |m: &NpcRogueGameInfo| { &m.HOJIOHLHAAF },
-            |m: &mut NpcRogueGameInfo| { &mut m.HOJIOHLHAAF },
+            "HOHANPJNANA",
+            |m: &NpcRogueGameInfo| { &m.HOHANPJNANA },
+            |m: &mut NpcRogueGameInfo| { &mut m.HOHANPJNANA },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_map_simpler_accessor_new::<_, _>(
-            "DJKDFDHPEEP",
-            |m: &NpcRogueGameInfo| { &m.DJKDFDHPEEP },
-            |m: &mut NpcRogueGameInfo| { &mut m.DJKDFDHPEEP },
+            "FOEJFEMLPPC",
+            |m: &NpcRogueGameInfo| { &m.FOEJFEMLPPC },
+            |m: &mut NpcRogueGameInfo| { &mut m.FOEJFEMLPPC },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "IBLMEAHHENI",
-            |m: &NpcRogueGameInfo| { &m.IBLMEAHHENI },
-            |m: &mut NpcRogueGameInfo| { &mut m.IBLMEAHHENI },
+            "DHILGBCKPCL",
+            |m: &NpcRogueGameInfo| { &m.DHILGBCKPCL },
+            |m: &mut NpcRogueGameInfo| { &mut m.DHILGBCKPCL },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "ICALEBKJGJJ",
-            |m: &NpcRogueGameInfo| { &m.ICALEBKJGJJ },
-            |m: &mut NpcRogueGameInfo| { &mut m.ICALEBKJGJJ },
+            "JBEILMFIIGM",
+            |m: &NpcRogueGameInfo| { &m.JBEILMFIIGM },
+            |m: &mut NpcRogueGameInfo| { &mut m.JBEILMFIIGM },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "IINHPJNHGAH",
+            |m: &NpcRogueGameInfo| { &m.IINHPJNHGAH },
+            |m: &mut NpcRogueGameInfo| { &mut m.IINHPJNHGAH },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<NpcRogueGameInfo>(
             "NpcRogueGameInfo",
@@ -114,19 +114,16 @@ impl ::protobuf::Message for NpcRogueGameInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                88 => {
-                    self.MCOPKBNFMJM = is.read_uint32()?;
-                },
-                32 => {
-                    self.IAMDBFCJNCE = is.read_bool()?;
-                },
-                40 => {
-                    self.ACIAIHCHDAL = is.read_bool()?;
-                },
                 80 => {
-                    self.HOJIOHLHAAF = is.read_uint32()?;
+                    self.KIGLLJKDDNE = is.read_bool()?;
                 },
-                66 => {
+                112 => {
+                    self.AHKFFCIEPDG = is.read_uint32()?;
+                },
+                48 => {
+                    self.HOHANPJNANA = is.read_uint32()?;
+                },
+                106 => {
                     let len = is.read_raw_varint32()?;
                     let old_limit = is.push_limit(len as u64)?;
                     let mut key = ::std::default::Default::default();
@@ -139,13 +136,16 @@ impl ::protobuf::Message for NpcRogueGameInfo {
                         };
                     }
                     is.pop_limit(old_limit);
-                    self.DJKDFDHPEEP.insert(key, value);
+                    self.FOEJFEMLPPC.insert(key, value);
                 },
-                96 => {
-                    self.IBLMEAHHENI = is.read_uint32()?;
+                16 => {
+                    self.DHILGBCKPCL = is.read_bool()?;
                 },
-                120 => {
-                    self.ICALEBKJGJJ = is.read_bool()?;
+                24 => {
+                    self.JBEILMFIIGM = is.read_uint32()?;
+                },
+                8 => {
+                    self.IINHPJNHGAH = is.read_bool()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -159,28 +159,28 @@ impl ::protobuf::Message for NpcRogueGameInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.MCOPKBNFMJM != 0 {
-            my_size += ::protobuf::rt::uint32_size(11, self.MCOPKBNFMJM);
-        }
-        if self.IAMDBFCJNCE != false {
+        if self.KIGLLJKDDNE != false {
             my_size += 1 + 1;
         }
-        if self.ACIAIHCHDAL != false {
-            my_size += 1 + 1;
+        if self.AHKFFCIEPDG != 0 {
+            my_size += ::protobuf::rt::uint32_size(14, self.AHKFFCIEPDG);
         }
-        if self.HOJIOHLHAAF != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.HOJIOHLHAAF);
+        if self.HOHANPJNANA != 0 {
+            my_size += ::protobuf::rt::uint32_size(6, self.HOHANPJNANA);
         }
-        for (k, v) in &self.DJKDFDHPEEP {
+        for (k, v) in &self.FOEJFEMLPPC {
             let mut entry_size = 0;
             entry_size += ::protobuf::rt::uint32_size(1, *k);
             entry_size += ::protobuf::rt::uint32_size(2, *v);
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(entry_size) + entry_size
         };
-        if self.IBLMEAHHENI != 0 {
-            my_size += ::protobuf::rt::uint32_size(12, self.IBLMEAHHENI);
+        if self.DHILGBCKPCL != false {
+            my_size += 1 + 1;
         }
-        if self.ICALEBKJGJJ != false {
+        if self.JBEILMFIIGM != 0 {
+            my_size += ::protobuf::rt::uint32_size(3, self.JBEILMFIIGM);
+        }
+        if self.IINHPJNHGAH != false {
             my_size += 1 + 1;
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
@@ -189,32 +189,32 @@ impl ::protobuf::Message for NpcRogueGameInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.MCOPKBNFMJM != 0 {
-            os.write_uint32(11, self.MCOPKBNFMJM)?;
+        if self.KIGLLJKDDNE != false {
+            os.write_bool(10, self.KIGLLJKDDNE)?;
         }
-        if self.IAMDBFCJNCE != false {
-            os.write_bool(4, self.IAMDBFCJNCE)?;
+        if self.AHKFFCIEPDG != 0 {
+            os.write_uint32(14, self.AHKFFCIEPDG)?;
         }
-        if self.ACIAIHCHDAL != false {
-            os.write_bool(5, self.ACIAIHCHDAL)?;
+        if self.HOHANPJNANA != 0 {
+            os.write_uint32(6, self.HOHANPJNANA)?;
         }
-        if self.HOJIOHLHAAF != 0 {
-            os.write_uint32(10, self.HOJIOHLHAAF)?;
-        }
-        for (k, v) in &self.DJKDFDHPEEP {
+        for (k, v) in &self.FOEJFEMLPPC {
             let mut entry_size = 0;
             entry_size += ::protobuf::rt::uint32_size(1, *k);
             entry_size += ::protobuf::rt::uint32_size(2, *v);
-            os.write_raw_varint32(66)?; // Tag.
+            os.write_raw_varint32(106)?; // Tag.
             os.write_raw_varint32(entry_size as u32)?;
             os.write_uint32(1, *k)?;
             os.write_uint32(2, *v)?;
         };
-        if self.IBLMEAHHENI != 0 {
-            os.write_uint32(12, self.IBLMEAHHENI)?;
+        if self.DHILGBCKPCL != false {
+            os.write_bool(2, self.DHILGBCKPCL)?;
         }
-        if self.ICALEBKJGJJ != false {
-            os.write_bool(15, self.ICALEBKJGJJ)?;
+        if self.JBEILMFIIGM != 0 {
+            os.write_uint32(3, self.JBEILMFIIGM)?;
+        }
+        if self.IINHPJNHGAH != false {
+            os.write_bool(1, self.IINHPJNHGAH)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -233,13 +233,13 @@ impl ::protobuf::Message for NpcRogueGameInfo {
     }
 
     fn clear(&mut self) {
-        self.MCOPKBNFMJM = 0;
-        self.IAMDBFCJNCE = false;
-        self.ACIAIHCHDAL = false;
-        self.HOJIOHLHAAF = 0;
-        self.DJKDFDHPEEP.clear();
-        self.IBLMEAHHENI = 0;
-        self.ICALEBKJGJJ = false;
+        self.KIGLLJKDDNE = false;
+        self.AHKFFCIEPDG = 0;
+        self.HOHANPJNANA = 0;
+        self.FOEJFEMLPPC.clear();
+        self.DHILGBCKPCL = false;
+        self.JBEILMFIIGM = 0;
+        self.IINHPJNHGAH = false;
         self.special_fields.clear();
     }
 
@@ -268,15 +268,15 @@ impl ::protobuf::reflect::ProtobufValue for NpcRogueGameInfo {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x16NpcRogueGameInfo.proto\"\xe4\x02\n\x10NpcRogueGameInfo\x12\x20\n\
-    \x0bMCOPKBNFMJM\x18\x0b\x20\x01(\rR\x0bMCOPKBNFMJM\x12\x20\n\x0bIAMDBFCJ\
-    NCE\x18\x04\x20\x01(\x08R\x0bIAMDBFCJNCE\x12\x20\n\x0bACIAIHCHDAL\x18\
-    \x05\x20\x01(\x08R\x0bACIAIHCHDAL\x12\x20\n\x0bHOJIOHLHAAF\x18\n\x20\x01\
-    (\rR\x0bHOJIOHLHAAF\x12D\n\x0bDJKDFDHPEEP\x18\x08\x20\x03(\x0b2\".NpcRog\
-    ueGameInfo.DJKDFDHPEEPEntryR\x0bDJKDFDHPEEP\x12\x20\n\x0bIBLMEAHHENI\x18\
-    \x0c\x20\x01(\rR\x0bIBLMEAHHENI\x12\x20\n\x0bICALEBKJGJJ\x18\x0f\x20\x01\
-    (\x08R\x0bICALEBKJGJJ\x1a>\n\x10DJKDFDHPEEPEntry\x12\x10\n\x03key\x18\
-    \x01\x20\x01(\rR\x03key\x12\x14\n\x05value\x18\x02\x20\x01(\rR\x05value:\
-    \x028\x01b\x06proto3\
+    \x0bKIGLLJKDDNE\x18\n\x20\x01(\x08R\x0bKIGLLJKDDNE\x12\x20\n\x0bAHKFFCIE\
+    PDG\x18\x0e\x20\x01(\rR\x0bAHKFFCIEPDG\x12\x20\n\x0bHOHANPJNANA\x18\x06\
+    \x20\x01(\rR\x0bHOHANPJNANA\x12D\n\x0bFOEJFEMLPPC\x18\r\x20\x03(\x0b2\".\
+    NpcRogueGameInfo.FOEJFEMLPPCEntryR\x0bFOEJFEMLPPC\x12\x20\n\x0bDHILGBCKP\
+    CL\x18\x02\x20\x01(\x08R\x0bDHILGBCKPCL\x12\x20\n\x0bJBEILMFIIGM\x18\x03\
+    \x20\x01(\rR\x0bJBEILMFIIGM\x12\x20\n\x0bIINHPJNHGAH\x18\x01\x20\x01(\
+    \x08R\x0bIINHPJNHGAH\x1a>\n\x10FOEJFEMLPPCEntry\x12\x10\n\x03key\x18\x01\
+    \x20\x01(\rR\x03key\x12\x14\n\x05value\x18\x02\x20\x01(\rR\x05value:\x02\
+    8\x01b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

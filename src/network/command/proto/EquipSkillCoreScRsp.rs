@@ -30,10 +30,10 @@ pub struct EquipSkillCoreScRsp {
     // message fields
     // @@protoc_insertion_point(field:EquipSkillCoreScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:EquipSkillCoreScRsp.PBGOEKBIANO)
-    pub PBGOEKBIANO: ::protobuf::MessageField<super::HNJLHFJMCBJ::HNJLHFJMCBJ>,
-    // @@protoc_insertion_point(field:EquipSkillCoreScRsp.CELCKCMKJEB)
-    pub CELCKCMKJEB: ::protobuf::MessageField<super::CHEBBNJKNLE::CHEBBNJKNLE>,
+    // @@protoc_insertion_point(field:EquipSkillCoreScRsp.GCNDOIMACAN)
+    pub GCNDOIMACAN: ::protobuf::MessageField<super::JBJIKJGEBAH::JBJIKJGEBAH>,
+    // @@protoc_insertion_point(field:EquipSkillCoreScRsp.HKOHIHCBGAA)
+    pub HKOHIHCBGAA: ::protobuf::MessageField<super::KNHKBHADJGE::KNHKBHADJGE>,
     // special fields
     // @@protoc_insertion_point(special_field:EquipSkillCoreScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -58,15 +58,15 @@ impl EquipSkillCoreScRsp {
             |m: &EquipSkillCoreScRsp| { &m.retcode },
             |m: &mut EquipSkillCoreScRsp| { &mut m.retcode },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::HNJLHFJMCBJ::HNJLHFJMCBJ>(
-            "PBGOEKBIANO",
-            |m: &EquipSkillCoreScRsp| { &m.PBGOEKBIANO },
-            |m: &mut EquipSkillCoreScRsp| { &mut m.PBGOEKBIANO },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::JBJIKJGEBAH::JBJIKJGEBAH>(
+            "GCNDOIMACAN",
+            |m: &EquipSkillCoreScRsp| { &m.GCNDOIMACAN },
+            |m: &mut EquipSkillCoreScRsp| { &mut m.GCNDOIMACAN },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::CHEBBNJKNLE::CHEBBNJKNLE>(
-            "CELCKCMKJEB",
-            |m: &EquipSkillCoreScRsp| { &m.CELCKCMKJEB },
-            |m: &mut EquipSkillCoreScRsp| { &mut m.CELCKCMKJEB },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::KNHKBHADJGE::KNHKBHADJGE>(
+            "HKOHIHCBGAA",
+            |m: &EquipSkillCoreScRsp| { &m.HKOHIHCBGAA },
+            |m: &mut EquipSkillCoreScRsp| { &mut m.HKOHIHCBGAA },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<EquipSkillCoreScRsp>(
             "EquipSkillCoreScRsp",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for EquipSkillCoreScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                72 => {
+                112 => {
                     self.retcode = is.read_uint32()?;
                 },
-                58 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.PBGOEKBIANO)?;
+                90 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.GCNDOIMACAN)?;
                 },
-                50 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.CELCKCMKJEB)?;
+                10 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.HKOHIHCBGAA)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -108,13 +108,13 @@ impl ::protobuf::Message for EquipSkillCoreScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(14, self.retcode);
         }
-        if let Some(v) = self.PBGOEKBIANO.as_ref() {
+        if let Some(v) = self.GCNDOIMACAN.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if let Some(v) = self.CELCKCMKJEB.as_ref() {
+        if let Some(v) = self.HKOHIHCBGAA.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -125,13 +125,13 @@ impl ::protobuf::Message for EquipSkillCoreScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.retcode != 0 {
-            os.write_uint32(9, self.retcode)?;
+            os.write_uint32(14, self.retcode)?;
         }
-        if let Some(v) = self.PBGOEKBIANO.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
+        if let Some(v) = self.GCNDOIMACAN.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
         }
-        if let Some(v) = self.CELCKCMKJEB.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
+        if let Some(v) = self.HKOHIHCBGAA.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -151,16 +151,16 @@ impl ::protobuf::Message for EquipSkillCoreScRsp {
 
     fn clear(&mut self) {
         self.retcode = 0;
-        self.PBGOEKBIANO.clear();
-        self.CELCKCMKJEB.clear();
+        self.GCNDOIMACAN.clear();
+        self.HKOHIHCBGAA.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static EquipSkillCoreScRsp {
         static instance: EquipSkillCoreScRsp = EquipSkillCoreScRsp {
             retcode: 0,
-            PBGOEKBIANO: ::protobuf::MessageField::none(),
-            CELCKCMKJEB: ::protobuf::MessageField::none(),
+            GCNDOIMACAN: ::protobuf::MessageField::none(),
+            HKOHIHCBGAA: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -185,11 +185,11 @@ impl ::protobuf::reflect::ProtobufValue for EquipSkillCoreScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x19EquipSkillCoreScRsp.proto\x1a\x11CHEBBNJKNLE.proto\x1a\x11HNJLHFJM\
-    CBJ.proto\"\x8f\x01\n\x13EquipSkillCoreScRsp\x12\x18\n\x07retcode\x18\t\
-    \x20\x01(\rR\x07retcode\x12.\n\x0bPBGOEKBIANO\x18\x07\x20\x01(\x0b2\x0c.\
-    HNJLHFJMCBJR\x0bPBGOEKBIANO\x12.\n\x0bCELCKCMKJEB\x18\x06\x20\x01(\x0b2\
-    \x0c.CHEBBNJKNLER\x0bCELCKCMKJEBb\x06proto3\
+    \n\x19EquipSkillCoreScRsp.proto\x1a\x11JBJIKJGEBAH.proto\x1a\x11KNHKBHAD\
+    JGE.proto\"\x8f\x01\n\x13EquipSkillCoreScRsp\x12\x18\n\x07retcode\x18\
+    \x0e\x20\x01(\rR\x07retcode\x12.\n\x0bGCNDOIMACAN\x18\x0b\x20\x01(\x0b2\
+    \x0c.JBJIKJGEBAHR\x0bGCNDOIMACAN\x12.\n\x0bHKOHIHCBGAA\x18\x01\x20\x01(\
+    \x0b2\x0c.KNHKBHADJGER\x0bHKOHIHCBGAAb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -207,8 +207,8 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
-            deps.push(super::CHEBBNJKNLE::file_descriptor().clone());
-            deps.push(super::HNJLHFJMCBJ::file_descriptor().clone());
+            deps.push(super::JBJIKJGEBAH::file_descriptor().clone());
+            deps.push(super::KNHKBHADJGE::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(EquipSkillCoreScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

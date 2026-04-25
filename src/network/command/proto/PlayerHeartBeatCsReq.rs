@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct PlayerHeartBeatCsReq {
     // message fields
+    // @@protoc_insertion_point(field:PlayerHeartBeatCsReq.KKCDCIJHJFA)
+    pub KKCDCIJHJFA: u32,
+    // @@protoc_insertion_point(field:PlayerHeartBeatCsReq.sc_data)
+    pub sc_data: ::protobuf::MessageField<super::DODELEAICGI::DODELEAICGI>,
     // @@protoc_insertion_point(field:PlayerHeartBeatCsReq.client_time_ms)
     pub client_time_ms: u64,
-    // @@protoc_insertion_point(field:PlayerHeartBeatCsReq.GLJOIAFAAHF)
-    pub GLJOIAFAAHF: u32,
-    // @@protoc_insertion_point(field:PlayerHeartBeatCsReq.sc_data)
-    pub sc_data: ::protobuf::MessageField<super::ClientUploadData::ClientUploadData>,
     // special fields
     // @@protoc_insertion_point(special_field:PlayerHeartBeatCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -54,19 +54,19 @@ impl PlayerHeartBeatCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "client_time_ms",
-            |m: &PlayerHeartBeatCsReq| { &m.client_time_ms },
-            |m: &mut PlayerHeartBeatCsReq| { &mut m.client_time_ms },
+            "KKCDCIJHJFA",
+            |m: &PlayerHeartBeatCsReq| { &m.KKCDCIJHJFA },
+            |m: &mut PlayerHeartBeatCsReq| { &mut m.KKCDCIJHJFA },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "GLJOIAFAAHF",
-            |m: &PlayerHeartBeatCsReq| { &m.GLJOIAFAAHF },
-            |m: &mut PlayerHeartBeatCsReq| { &mut m.GLJOIAFAAHF },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ClientUploadData::ClientUploadData>(
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::DODELEAICGI::DODELEAICGI>(
             "sc_data",
             |m: &PlayerHeartBeatCsReq| { &m.sc_data },
             |m: &mut PlayerHeartBeatCsReq| { &mut m.sc_data },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "client_time_ms",
+            |m: &PlayerHeartBeatCsReq| { &m.client_time_ms },
+            |m: &mut PlayerHeartBeatCsReq| { &mut m.client_time_ms },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<PlayerHeartBeatCsReq>(
             "PlayerHeartBeatCsReq",
@@ -86,14 +86,14 @@ impl ::protobuf::Message for PlayerHeartBeatCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                16 => {
-                    self.client_time_ms = is.read_uint64()?;
+                72 => {
+                    self.KKCDCIJHJFA = is.read_uint32()?;
+                },
+                90 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.sc_data)?;
                 },
                 24 => {
-                    self.GLJOIAFAAHF = is.read_uint32()?;
-                },
-                74 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.sc_data)?;
+                    self.client_time_ms = is.read_uint64()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -107,15 +107,15 @@ impl ::protobuf::Message for PlayerHeartBeatCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.client_time_ms != 0 {
-            my_size += ::protobuf::rt::uint64_size(2, self.client_time_ms);
-        }
-        if self.GLJOIAFAAHF != 0 {
-            my_size += ::protobuf::rt::uint32_size(3, self.GLJOIAFAAHF);
+        if self.KKCDCIJHJFA != 0 {
+            my_size += ::protobuf::rt::uint32_size(9, self.KKCDCIJHJFA);
         }
         if let Some(v) = self.sc_data.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if self.client_time_ms != 0 {
+            my_size += ::protobuf::rt::uint64_size(3, self.client_time_ms);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -123,14 +123,14 @@ impl ::protobuf::Message for PlayerHeartBeatCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.client_time_ms != 0 {
-            os.write_uint64(2, self.client_time_ms)?;
-        }
-        if self.GLJOIAFAAHF != 0 {
-            os.write_uint32(3, self.GLJOIAFAAHF)?;
+        if self.KKCDCIJHJFA != 0 {
+            os.write_uint32(9, self.KKCDCIJHJFA)?;
         }
         if let Some(v) = self.sc_data.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
+        }
+        if self.client_time_ms != 0 {
+            os.write_uint64(3, self.client_time_ms)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -149,17 +149,17 @@ impl ::protobuf::Message for PlayerHeartBeatCsReq {
     }
 
     fn clear(&mut self) {
-        self.client_time_ms = 0;
-        self.GLJOIAFAAHF = 0;
+        self.KKCDCIJHJFA = 0;
         self.sc_data.clear();
+        self.client_time_ms = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static PlayerHeartBeatCsReq {
         static instance: PlayerHeartBeatCsReq = PlayerHeartBeatCsReq {
-            client_time_ms: 0,
-            GLJOIAFAAHF: 0,
+            KKCDCIJHJFA: 0,
             sc_data: ::protobuf::MessageField::none(),
+            client_time_ms: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -184,11 +184,11 @@ impl ::protobuf::reflect::ProtobufValue for PlayerHeartBeatCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1aPlayerHeartBeatCsReq.proto\x1a\x16ClientUploadData.proto\"\x8a\x01\
-    \n\x14PlayerHeartBeatCsReq\x12$\n\x0eclient_time_ms\x18\x02\x20\x01(\x04\
-    R\x0cclientTimeMs\x12\x20\n\x0bGLJOIAFAAHF\x18\x03\x20\x01(\rR\x0bGLJOIA\
-    FAAHF\x12*\n\x07sc_data\x18\t\x20\x01(\x0b2\x11.ClientUploadDataR\x06scD\
-    atab\x06proto3\
+    \n\x1aPlayerHeartBeatCsReq.proto\x1a\x11DODELEAICGI.proto\"\x85\x01\n\
+    \x14PlayerHeartBeatCsReq\x12\x20\n\x0bKKCDCIJHJFA\x18\t\x20\x01(\rR\x0bK\
+    KCDCIJHJFA\x12%\n\x07sc_data\x18\x0b\x20\x01(\x0b2\x0c.DODELEAICGIR\x06s\
+    cData\x12$\n\x0eclient_time_ms\x18\x03\x20\x01(\x04R\x0cclientTimeMsb\
+    \x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -206,7 +206,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::ClientUploadData::file_descriptor().clone());
+            deps.push(super::DODELEAICGI::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(PlayerHeartBeatCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

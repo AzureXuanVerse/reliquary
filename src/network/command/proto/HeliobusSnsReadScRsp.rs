@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct HeliobusSnsReadScRsp {
     // message fields
-    // @@protoc_insertion_point(field:HeliobusSnsReadScRsp.HCNCEDGKIKH)
-    pub HCNCEDGKIKH: u32,
+    // @@protoc_insertion_point(field:HeliobusSnsReadScRsp.CDKEDFPEFIJ)
+    pub CDKEDFPEFIJ: u32,
     // @@protoc_insertion_point(field:HeliobusSnsReadScRsp.retcode)
     pub retcode: u32,
     // special fields
@@ -52,9 +52,9 @@ impl HeliobusSnsReadScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "HCNCEDGKIKH",
-            |m: &HeliobusSnsReadScRsp| { &m.HCNCEDGKIKH },
-            |m: &mut HeliobusSnsReadScRsp| { &mut m.HCNCEDGKIKH },
+            "CDKEDFPEFIJ",
+            |m: &HeliobusSnsReadScRsp| { &m.CDKEDFPEFIJ },
+            |m: &mut HeliobusSnsReadScRsp| { &mut m.CDKEDFPEFIJ },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
@@ -79,8 +79,8 @@ impl ::protobuf::Message for HeliobusSnsReadScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                8 => {
-                    self.HCNCEDGKIKH = is.read_uint32()?;
+                80 => {
+                    self.CDKEDFPEFIJ = is.read_uint32()?;
                 },
                 40 => {
                     self.retcode = is.read_uint32()?;
@@ -97,8 +97,8 @@ impl ::protobuf::Message for HeliobusSnsReadScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.HCNCEDGKIKH != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.HCNCEDGKIKH);
+        if self.CDKEDFPEFIJ != 0 {
+            my_size += ::protobuf::rt::uint32_size(10, self.CDKEDFPEFIJ);
         }
         if self.retcode != 0 {
             my_size += ::protobuf::rt::uint32_size(5, self.retcode);
@@ -109,8 +109,8 @@ impl ::protobuf::Message for HeliobusSnsReadScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.HCNCEDGKIKH != 0 {
-            os.write_uint32(1, self.HCNCEDGKIKH)?;
+        if self.CDKEDFPEFIJ != 0 {
+            os.write_uint32(10, self.CDKEDFPEFIJ)?;
         }
         if self.retcode != 0 {
             os.write_uint32(5, self.retcode)?;
@@ -132,14 +132,14 @@ impl ::protobuf::Message for HeliobusSnsReadScRsp {
     }
 
     fn clear(&mut self) {
-        self.HCNCEDGKIKH = 0;
+        self.CDKEDFPEFIJ = 0;
         self.retcode = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static HeliobusSnsReadScRsp {
         static instance: HeliobusSnsReadScRsp = HeliobusSnsReadScRsp {
-            HCNCEDGKIKH: 0,
+            CDKEDFPEFIJ: 0,
             retcode: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
@@ -166,7 +166,7 @@ impl ::protobuf::reflect::ProtobufValue for HeliobusSnsReadScRsp {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\x1aHeliobusSnsReadScRsp.proto\"R\n\x14HeliobusSnsReadScRsp\x12\x20\n\
-    \x0bHCNCEDGKIKH\x18\x01\x20\x01(\rR\x0bHCNCEDGKIKH\x12\x18\n\x07retcode\
+    \x0bCDKEDFPEFIJ\x18\n\x20\x01(\rR\x0bCDKEDFPEFIJ\x12\x18\n\x07retcode\
     \x18\x05\x20\x01(\rR\x07retcodeb\x06proto3\
 ";
 

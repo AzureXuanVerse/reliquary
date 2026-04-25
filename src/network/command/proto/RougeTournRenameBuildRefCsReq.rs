@@ -30,8 +30,8 @@ pub struct RougeTournRenameBuildRefCsReq {
     // message fields
     // @@protoc_insertion_point(field:RougeTournRenameBuildRefCsReq.name)
     pub name: ::std::string::String,
-    // @@protoc_insertion_point(field:RougeTournRenameBuildRefCsReq.DJFMBNFLNDJ)
-    pub DJFMBNFLNDJ: u32,
+    // @@protoc_insertion_point(field:RougeTournRenameBuildRefCsReq.KKGIEENCOIC)
+    pub KKGIEENCOIC: u32,
     // special fields
     // @@protoc_insertion_point(special_field:RougeTournRenameBuildRefCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,9 +57,9 @@ impl RougeTournRenameBuildRefCsReq {
             |m: &mut RougeTournRenameBuildRefCsReq| { &mut m.name },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "DJFMBNFLNDJ",
-            |m: &RougeTournRenameBuildRefCsReq| { &m.DJFMBNFLNDJ },
-            |m: &mut RougeTournRenameBuildRefCsReq| { &mut m.DJFMBNFLNDJ },
+            "KKGIEENCOIC",
+            |m: &RougeTournRenameBuildRefCsReq| { &m.KKGIEENCOIC },
+            |m: &mut RougeTournRenameBuildRefCsReq| { &mut m.KKGIEENCOIC },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<RougeTournRenameBuildRefCsReq>(
             "RougeTournRenameBuildRefCsReq",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for RougeTournRenameBuildRefCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                98 => {
+                90 => {
                     self.name = is.read_string()?;
                 },
-                112 => {
-                    self.DJFMBNFLNDJ = is.read_uint32()?;
+                96 => {
+                    self.KKGIEENCOIC = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -98,10 +98,10 @@ impl ::protobuf::Message for RougeTournRenameBuildRefCsReq {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if !self.name.is_empty() {
-            my_size += ::protobuf::rt::string_size(12, &self.name);
+            my_size += ::protobuf::rt::string_size(11, &self.name);
         }
-        if self.DJFMBNFLNDJ != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.DJFMBNFLNDJ);
+        if self.KKGIEENCOIC != 0 {
+            my_size += ::protobuf::rt::uint32_size(12, self.KKGIEENCOIC);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -110,10 +110,10 @@ impl ::protobuf::Message for RougeTournRenameBuildRefCsReq {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if !self.name.is_empty() {
-            os.write_string(12, &self.name)?;
+            os.write_string(11, &self.name)?;
         }
-        if self.DJFMBNFLNDJ != 0 {
-            os.write_uint32(14, self.DJFMBNFLNDJ)?;
+        if self.KKGIEENCOIC != 0 {
+            os.write_uint32(12, self.KKGIEENCOIC)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -133,14 +133,14 @@ impl ::protobuf::Message for RougeTournRenameBuildRefCsReq {
 
     fn clear(&mut self) {
         self.name.clear();
-        self.DJFMBNFLNDJ = 0;
+        self.KKGIEENCOIC = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static RougeTournRenameBuildRefCsReq {
         static instance: RougeTournRenameBuildRefCsReq = RougeTournRenameBuildRefCsReq {
             name: ::std::string::String::new(),
-            DJFMBNFLNDJ: 0,
+            KKGIEENCOIC: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,8 +166,8 @@ impl ::protobuf::reflect::ProtobufValue for RougeTournRenameBuildRefCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n#RougeTournRenameBuildRefCsReq.proto\"U\n\x1dRougeTournRenameBuildRefC\
-    sReq\x12\x12\n\x04name\x18\x0c\x20\x01(\tR\x04name\x12\x20\n\x0bDJFMBNFL\
-    NDJ\x18\x0e\x20\x01(\rR\x0bDJFMBNFLNDJb\x06proto3\
+    sReq\x12\x12\n\x04name\x18\x0b\x20\x01(\tR\x04name\x12\x20\n\x0bKKGIEENC\
+    OIC\x18\x0c\x20\x01(\rR\x0bKKGIEENCOICb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

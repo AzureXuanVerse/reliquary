@@ -27,18 +27,18 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdStrongChallengeActivityType)
 pub enum CmdStrongChallengeActivityType {
-    // @@protoc_insertion_point(enum_value:CmdStrongChallengeActivityType.CmdStrongChallengeActivityType_MNFEPONEDDJ)
-    CmdStrongChallengeActivityType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdStrongChallengeActivityType.CmdStrongChallengeActivityType_JNEIGELBPBO)
-    CmdStrongChallengeActivityType_JNEIGELBPBO = 6604,
-    // @@protoc_insertion_point(enum_value:CmdStrongChallengeActivityType.CmdStrongChallengeActivityType_CJLLLFCDMEF)
-    CmdStrongChallengeActivityType_CJLLLFCDMEF = 6681,
-    // @@protoc_insertion_point(enum_value:CmdStrongChallengeActivityType.CmdStrongChallengeActivityType_BEIDKFOLONM)
-    CmdStrongChallengeActivityType_BEIDKFOLONM = 6624,
-    // @@protoc_insertion_point(enum_value:CmdStrongChallengeActivityType.CmdStrongChallengeActivityType_HMCDGEGPAPI)
-    CmdStrongChallengeActivityType_HMCDGEGPAPI = 6635,
-    // @@protoc_insertion_point(enum_value:CmdStrongChallengeActivityType.CmdStrongChallengeActivityType_FMEPDPDCBGJ)
-    CmdStrongChallengeActivityType_FMEPDPDCBGJ = 6683,
+    // @@protoc_insertion_point(enum_value:CmdStrongChallengeActivityType.IAIFCMLMDAF_PCPDHELPKEM)
+    IAIFCMLMDAF_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdStrongChallengeActivityType.CmdEnterActivityStrongChallengeCsReq)
+    CmdEnterActivityStrongChallengeCsReq = 6694,
+    // @@protoc_insertion_point(enum_value:CmdStrongChallengeActivityType.CmdEnterStrongChallengeActivityStageScRsp)
+    CmdEnterStrongChallengeActivityStageScRsp = 6695,
+    // @@protoc_insertion_point(enum_value:CmdStrongChallengeActivityType.CmdBMILHKCAKEA)
+    CmdBMILHKCAKEA = 6691,
+    // @@protoc_insertion_point(enum_value:CmdStrongChallengeActivityType.CmdLBGODAIEMFC)
+    CmdLBGODAIEMFC = 6610,
+    // @@protoc_insertion_point(enum_value:CmdStrongChallengeActivityType.CmdMGOMBDGDGCP)
+    CmdMGOMBDGDGCP = 6614,
 }
 
 impl ::protobuf::Enum for CmdStrongChallengeActivityType {
@@ -50,35 +50,35 @@ impl ::protobuf::Enum for CmdStrongChallengeActivityType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdStrongChallengeActivityType> {
         match value {
-            0 => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_MNFEPONEDDJ),
-            6604 => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_JNEIGELBPBO),
-            6681 => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_CJLLLFCDMEF),
-            6624 => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_BEIDKFOLONM),
-            6635 => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_HMCDGEGPAPI),
-            6683 => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_FMEPDPDCBGJ),
+            0 => ::std::option::Option::Some(CmdStrongChallengeActivityType::IAIFCMLMDAF_PCPDHELPKEM),
+            6694 => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdEnterActivityStrongChallengeCsReq),
+            6695 => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdEnterStrongChallengeActivityStageScRsp),
+            6691 => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdBMILHKCAKEA),
+            6610 => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdLBGODAIEMFC),
+            6614 => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdMGOMBDGDGCP),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdStrongChallengeActivityType> {
         match str {
-            "CmdStrongChallengeActivityType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_MNFEPONEDDJ),
-            "CmdStrongChallengeActivityType_JNEIGELBPBO" => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_JNEIGELBPBO),
-            "CmdStrongChallengeActivityType_CJLLLFCDMEF" => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_CJLLLFCDMEF),
-            "CmdStrongChallengeActivityType_BEIDKFOLONM" => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_BEIDKFOLONM),
-            "CmdStrongChallengeActivityType_HMCDGEGPAPI" => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_HMCDGEGPAPI),
-            "CmdStrongChallengeActivityType_FMEPDPDCBGJ" => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_FMEPDPDCBGJ),
+            "IAIFCMLMDAF_PCPDHELPKEM" => ::std::option::Option::Some(CmdStrongChallengeActivityType::IAIFCMLMDAF_PCPDHELPKEM),
+            "CmdEnterActivityStrongChallengeCsReq" => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdEnterActivityStrongChallengeCsReq),
+            "CmdEnterStrongChallengeActivityStageScRsp" => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdEnterStrongChallengeActivityStageScRsp),
+            "CmdBMILHKCAKEA" => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdBMILHKCAKEA),
+            "CmdLBGODAIEMFC" => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdLBGODAIEMFC),
+            "CmdMGOMBDGDGCP" => ::std::option::Option::Some(CmdStrongChallengeActivityType::CmdMGOMBDGDGCP),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdStrongChallengeActivityType] = &[
-        CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_MNFEPONEDDJ,
-        CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_JNEIGELBPBO,
-        CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_CJLLLFCDMEF,
-        CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_BEIDKFOLONM,
-        CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_HMCDGEGPAPI,
-        CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_FMEPDPDCBGJ,
+        CmdStrongChallengeActivityType::IAIFCMLMDAF_PCPDHELPKEM,
+        CmdStrongChallengeActivityType::CmdEnterActivityStrongChallengeCsReq,
+        CmdStrongChallengeActivityType::CmdEnterStrongChallengeActivityStageScRsp,
+        CmdStrongChallengeActivityType::CmdBMILHKCAKEA,
+        CmdStrongChallengeActivityType::CmdLBGODAIEMFC,
+        CmdStrongChallengeActivityType::CmdMGOMBDGDGCP,
     ];
 }
 
@@ -90,12 +90,12 @@ impl ::protobuf::EnumFull for CmdStrongChallengeActivityType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_MNFEPONEDDJ => 0,
-            CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_JNEIGELBPBO => 1,
-            CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_CJLLLFCDMEF => 2,
-            CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_BEIDKFOLONM => 3,
-            CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_HMCDGEGPAPI => 4,
-            CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_FMEPDPDCBGJ => 5,
+            CmdStrongChallengeActivityType::IAIFCMLMDAF_PCPDHELPKEM => 0,
+            CmdStrongChallengeActivityType::CmdEnterActivityStrongChallengeCsReq => 1,
+            CmdStrongChallengeActivityType::CmdEnterStrongChallengeActivityStageScRsp => 2,
+            CmdStrongChallengeActivityType::CmdBMILHKCAKEA => 3,
+            CmdStrongChallengeActivityType::CmdLBGODAIEMFC => 4,
+            CmdStrongChallengeActivityType::CmdMGOMBDGDGCP => 5,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -103,7 +103,7 @@ impl ::protobuf::EnumFull for CmdStrongChallengeActivityType {
 
 impl ::std::default::Default for CmdStrongChallengeActivityType {
     fn default() -> Self {
-        CmdStrongChallengeActivityType::CmdStrongChallengeActivityType_MNFEPONEDDJ
+        CmdStrongChallengeActivityType::IAIFCMLMDAF_PCPDHELPKEM
     }
 }
 
@@ -114,13 +114,12 @@ impl CmdStrongChallengeActivityType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n$CmdStrongChallengeActivityType.proto*\xc5\x02\n\x1eCmdStrongChallenge\
-    ActivityType\x12.\n*CmdStrongChallengeActivityType_MNFEPONEDDJ\x10\0\x12\
-    /\n*CmdStrongChallengeActivityType_JNEIGELBPBO\x10\xcc3\x12/\n*CmdStrong\
-    ChallengeActivityType_CJLLLFCDMEF\x10\x994\x12/\n*CmdStrongChallengeActi\
-    vityType_BEIDKFOLONM\x10\xe03\x12/\n*CmdStrongChallengeActivityType_HMCD\
-    GEGPAPI\x10\xeb3\x12/\n*CmdStrongChallengeActivityType_FMEPDPDCBGJ\x10\
-    \x9b4b\x06proto3\
+    \n$CmdStrongChallengeActivityType.proto*\xd7\x01\n\x1eCmdStrongChallenge\
+    ActivityType\x12\x1b\n\x17IAIFCMLMDAF_PCPDHELPKEM\x10\0\x12)\n$CmdEnterA\
+    ctivityStrongChallengeCsReq\x10\xa64\x12.\n)CmdEnterStrongChallengeActiv\
+    ityStageScRsp\x10\xa74\x12\x13\n\x0eCmdBMILHKCAKEA\x10\xa34\x12\x13\n\
+    \x0eCmdLBGODAIEMFC\x10\xd23\x12\x13\n\x0eCmdMGOMBDGDGCP\x10\xd63b\x06pro\
+    to3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -28,12 +28,12 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GetTrainVisitorRegisterScRsp {
     // message fields
-    // @@protoc_insertion_point(field:GetTrainVisitorRegisterScRsp.JLOEONBLIOI)
-    pub JLOEONBLIOI: ::std::vec::Vec<super::GFDHGPPMILH::GFDHGPPMILH>,
     // @@protoc_insertion_point(field:GetTrainVisitorRegisterScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:GetTrainVisitorRegisterScRsp.JDMPAFNMAKJ)
-    pub JDMPAFNMAKJ: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:GetTrainVisitorRegisterScRsp.GLBPLJPPJPA)
+    pub GLBPLJPPJPA: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:GetTrainVisitorRegisterScRsp.LLDAFKHFECA)
+    pub LLDAFKHFECA: ::std::vec::Vec<super::HHIAOANDGAL::HHIAOANDGAL>,
     // special fields
     // @@protoc_insertion_point(special_field:GetTrainVisitorRegisterScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -53,20 +53,20 @@ impl GetTrainVisitorRegisterScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(3);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "JLOEONBLIOI",
-            |m: &GetTrainVisitorRegisterScRsp| { &m.JLOEONBLIOI },
-            |m: &mut GetTrainVisitorRegisterScRsp| { &mut m.JLOEONBLIOI },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &GetTrainVisitorRegisterScRsp| { &m.retcode },
             |m: &mut GetTrainVisitorRegisterScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "JDMPAFNMAKJ",
-            |m: &GetTrainVisitorRegisterScRsp| { &m.JDMPAFNMAKJ },
-            |m: &mut GetTrainVisitorRegisterScRsp| { &mut m.JDMPAFNMAKJ },
+            "GLBPLJPPJPA",
+            |m: &GetTrainVisitorRegisterScRsp| { &m.GLBPLJPPJPA },
+            |m: &mut GetTrainVisitorRegisterScRsp| { &mut m.GLBPLJPPJPA },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "LLDAFKHFECA",
+            |m: &GetTrainVisitorRegisterScRsp| { &m.LLDAFKHFECA },
+            |m: &mut GetTrainVisitorRegisterScRsp| { &mut m.LLDAFKHFECA },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetTrainVisitorRegisterScRsp>(
             "GetTrainVisitorRegisterScRsp",
@@ -86,17 +86,17 @@ impl ::protobuf::Message for GetTrainVisitorRegisterScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                122 => {
-                    self.JLOEONBLIOI.push(is.read_message()?);
-                },
-                112 => {
+                88 => {
                     self.retcode = is.read_uint32()?;
                 },
-                18 => {
-                    is.read_repeated_packed_uint32_into(&mut self.JDMPAFNMAKJ)?;
+                106 => {
+                    is.read_repeated_packed_uint32_into(&mut self.GLBPLJPPJPA)?;
                 },
-                16 => {
-                    self.JDMPAFNMAKJ.push(is.read_uint32()?);
+                104 => {
+                    self.GLBPLJPPJPA.push(is.read_uint32()?);
+                },
+                98 => {
+                    self.LLDAFKHFECA.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -110,27 +110,27 @@ impl ::protobuf::Message for GetTrainVisitorRegisterScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        for value in &self.JLOEONBLIOI {
+        if self.retcode != 0 {
+            my_size += ::protobuf::rt::uint32_size(11, self.retcode);
+        }
+        my_size += ::protobuf::rt::vec_packed_uint32_size(13, &self.GLBPLJPPJPA);
+        for value in &self.LLDAFKHFECA {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.retcode);
-        }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(2, &self.JDMPAFNMAKJ);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        for v in &self.JLOEONBLIOI {
-            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
-        };
         if self.retcode != 0 {
-            os.write_uint32(14, self.retcode)?;
+            os.write_uint32(11, self.retcode)?;
         }
-        os.write_repeated_packed_uint32(2, &self.JDMPAFNMAKJ)?;
+        os.write_repeated_packed_uint32(13, &self.GLBPLJPPJPA)?;
+        for v in &self.LLDAFKHFECA {
+            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
+        };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -148,17 +148,17 @@ impl ::protobuf::Message for GetTrainVisitorRegisterScRsp {
     }
 
     fn clear(&mut self) {
-        self.JLOEONBLIOI.clear();
         self.retcode = 0;
-        self.JDMPAFNMAKJ.clear();
+        self.GLBPLJPPJPA.clear();
+        self.LLDAFKHFECA.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetTrainVisitorRegisterScRsp {
         static instance: GetTrainVisitorRegisterScRsp = GetTrainVisitorRegisterScRsp {
-            JLOEONBLIOI: ::std::vec::Vec::new(),
             retcode: 0,
-            JDMPAFNMAKJ: ::std::vec::Vec::new(),
+            GLBPLJPPJPA: ::std::vec::Vec::new(),
+            LLDAFKHFECA: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -183,11 +183,11 @@ impl ::protobuf::reflect::ProtobufValue for GetTrainVisitorRegisterScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\"GetTrainVisitorRegisterScRsp.proto\x1a\x11GFDHGPPMILH.proto\"\x8a\
-    \x01\n\x1cGetTrainVisitorRegisterScRsp\x12.\n\x0bJLOEONBLIOI\x18\x0f\x20\
-    \x03(\x0b2\x0c.GFDHGPPMILHR\x0bJLOEONBLIOI\x12\x18\n\x07retcode\x18\x0e\
-    \x20\x01(\rR\x07retcode\x12\x20\n\x0bJDMPAFNMAKJ\x18\x02\x20\x03(\rR\x0b\
-    JDMPAFNMAKJb\x06proto3\
+    \n\"GetTrainVisitorRegisterScRsp.proto\x1a\x11HHIAOANDGAL.proto\"\x8a\
+    \x01\n\x1cGetTrainVisitorRegisterScRsp\x12\x18\n\x07retcode\x18\x0b\x20\
+    \x01(\rR\x07retcode\x12\x20\n\x0bGLBPLJPPJPA\x18\r\x20\x03(\rR\x0bGLBPLJ\
+    PPJPA\x12.\n\x0bLLDAFKHFECA\x18\x0c\x20\x03(\x0b2\x0c.HHIAOANDGALR\x0bLL\
+    DAFKHFECAb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -205,7 +205,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::GFDHGPPMILH::file_descriptor().clone());
+            deps.push(super::HHIAOANDGAL::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GetTrainVisitorRegisterScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GetSecretKeyInfoCsReq {
     // message fields
-    // @@protoc_insertion_point(field:GetSecretKeyInfoCsReq.secret_req)
-    pub secret_req: ::std::string::String,
+    // @@protoc_insertion_point(field:GetSecretKeyInfoCsReq.MENHCCNKADB)
+    pub MENHCCNKADB: ::std::string::String,
     // special fields
     // @@protoc_insertion_point(special_field:GetSecretKeyInfoCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl GetSecretKeyInfoCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "secret_req",
-            |m: &GetSecretKeyInfoCsReq| { &m.secret_req },
-            |m: &mut GetSecretKeyInfoCsReq| { &mut m.secret_req },
+            "MENHCCNKADB",
+            |m: &GetSecretKeyInfoCsReq| { &m.MENHCCNKADB },
+            |m: &mut GetSecretKeyInfoCsReq| { &mut m.MENHCCNKADB },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetSecretKeyInfoCsReq>(
             "GetSecretKeyInfoCsReq",
@@ -72,8 +72,8 @@ impl ::protobuf::Message for GetSecretKeyInfoCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                26 => {
-                    self.secret_req = is.read_string()?;
+                114 => {
+                    self.MENHCCNKADB = is.read_string()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -87,8 +87,8 @@ impl ::protobuf::Message for GetSecretKeyInfoCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if !self.secret_req.is_empty() {
-            my_size += ::protobuf::rt::string_size(3, &self.secret_req);
+        if !self.MENHCCNKADB.is_empty() {
+            my_size += ::protobuf::rt::string_size(14, &self.MENHCCNKADB);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -96,8 +96,8 @@ impl ::protobuf::Message for GetSecretKeyInfoCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if !self.secret_req.is_empty() {
-            os.write_string(3, &self.secret_req)?;
+        if !self.MENHCCNKADB.is_empty() {
+            os.write_string(14, &self.MENHCCNKADB)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -116,13 +116,13 @@ impl ::protobuf::Message for GetSecretKeyInfoCsReq {
     }
 
     fn clear(&mut self) {
-        self.secret_req.clear();
+        self.MENHCCNKADB.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetSecretKeyInfoCsReq {
         static instance: GetSecretKeyInfoCsReq = GetSecretKeyInfoCsReq {
-            secret_req: ::std::string::String::new(),
+            MENHCCNKADB: ::std::string::String::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -147,8 +147,8 @@ impl ::protobuf::reflect::ProtobufValue for GetSecretKeyInfoCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1bGetSecretKeyInfoCsReq.proto\"6\n\x15GetSecretKeyInfoCsReq\x12\x1d\
-    \n\nsecret_req\x18\x03\x20\x01(\tR\tsecretReqb\x06proto3\
+    \n\x1bGetSecretKeyInfoCsReq.proto\"9\n\x15GetSecretKeyInfoCsReq\x12\x20\
+    \n\x0bMENHCCNKADB\x18\x0e\x20\x01(\tR\x0bMENHCCNKADBb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

@@ -28,16 +28,16 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct StartFightFestCsReq {
     // message fields
-    // @@protoc_insertion_point(field:StartFightFestCsReq.type)
-    pub type_: ::protobuf::EnumOrUnknown<super::FightFestType::FightFestType>,
-    // @@protoc_insertion_point(field:StartFightFestCsReq.ANIJEEIJFJD)
-    pub ANIJEEIJFJD: ::std::vec::Vec<u32>,
     // @@protoc_insertion_point(field:StartFightFestCsReq.event_id)
     pub event_id: u32,
-    // @@protoc_insertion_point(field:StartFightFestCsReq.avatar_list)
-    pub avatar_list: ::std::vec::Vec<super::BMPKIMNONOG::BMPKIMNONOG>,
     // @@protoc_insertion_point(field:StartFightFestCsReq.id)
     pub id: u32,
+    // @@protoc_insertion_point(field:StartFightFestCsReq.GIGPHJEBDFL)
+    pub GIGPHJEBDFL: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:StartFightFestCsReq.avatar_list)
+    pub avatar_list: ::std::vec::Vec<super::BLKGDGAPBKC::BLKGDGAPBKC>,
+    // @@protoc_insertion_point(field:StartFightFestCsReq.type)
+    pub type_: ::protobuf::EnumOrUnknown<super::FightFestType::FightFestType>,
     // special fields
     // @@protoc_insertion_point(special_field:StartFightFestCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -58,19 +58,19 @@ impl StartFightFestCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(5);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "type",
-            |m: &StartFightFestCsReq| { &m.type_ },
-            |m: &mut StartFightFestCsReq| { &mut m.type_ },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "ANIJEEIJFJD",
-            |m: &StartFightFestCsReq| { &m.ANIJEEIJFJD },
-            |m: &mut StartFightFestCsReq| { &mut m.ANIJEEIJFJD },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "event_id",
             |m: &StartFightFestCsReq| { &m.event_id },
             |m: &mut StartFightFestCsReq| { &mut m.event_id },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "id",
+            |m: &StartFightFestCsReq| { &m.id },
+            |m: &mut StartFightFestCsReq| { &mut m.id },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "GIGPHJEBDFL",
+            |m: &StartFightFestCsReq| { &m.GIGPHJEBDFL },
+            |m: &mut StartFightFestCsReq| { &mut m.GIGPHJEBDFL },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "avatar_list",
@@ -78,9 +78,9 @@ impl StartFightFestCsReq {
             |m: &mut StartFightFestCsReq| { &mut m.avatar_list },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "id",
-            |m: &StartFightFestCsReq| { &m.id },
-            |m: &mut StartFightFestCsReq| { &mut m.id },
+            "type",
+            |m: &StartFightFestCsReq| { &m.type_ },
+            |m: &mut StartFightFestCsReq| { &mut m.type_ },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<StartFightFestCsReq>(
             "StartFightFestCsReq",
@@ -100,23 +100,23 @@ impl ::protobuf::Message for StartFightFestCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                120 => {
-                    self.type_ = is.read_enum_or_unknown()?;
-                },
-                34 => {
-                    is.read_repeated_packed_uint32_into(&mut self.ANIJEEIJFJD)?;
-                },
-                32 => {
-                    self.ANIJEEIJFJD.push(is.read_uint32()?);
-                },
                 64 => {
                     self.event_id = is.read_uint32()?;
                 },
-                74 => {
+                32 => {
+                    self.id = is.read_uint32()?;
+                },
+                82 => {
+                    is.read_repeated_packed_uint32_into(&mut self.GIGPHJEBDFL)?;
+                },
+                80 => {
+                    self.GIGPHJEBDFL.push(is.read_uint32()?);
+                },
+                26 => {
                     self.avatar_list.push(is.read_message()?);
                 },
-                8 => {
-                    self.id = is.read_uint32()?;
+                40 => {
+                    self.type_ = is.read_enum_or_unknown()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -130,19 +130,19 @@ impl ::protobuf::Message for StartFightFestCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.type_ != ::protobuf::EnumOrUnknown::new(super::FightFestType::FightFestType::FightFestType_MNFEPONEDDJ) {
-            my_size += ::protobuf::rt::int32_size(15, self.type_.value());
-        }
-        my_size += ::protobuf::rt::vec_packed_uint32_size(4, &self.ANIJEEIJFJD);
         if self.event_id != 0 {
             my_size += ::protobuf::rt::uint32_size(8, self.event_id);
         }
+        if self.id != 0 {
+            my_size += ::protobuf::rt::uint32_size(4, self.id);
+        }
+        my_size += ::protobuf::rt::vec_packed_uint32_size(10, &self.GIGPHJEBDFL);
         for value in &self.avatar_list {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if self.id != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.id);
+        if self.type_ != ::protobuf::EnumOrUnknown::new(super::FightFestType::FightFestType::MHKEAFAPMFP_PCPDHELPKEM) {
+            my_size += ::protobuf::rt::int32_size(5, self.type_.value());
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -150,18 +150,18 @@ impl ::protobuf::Message for StartFightFestCsReq {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.type_ != ::protobuf::EnumOrUnknown::new(super::FightFestType::FightFestType::FightFestType_MNFEPONEDDJ) {
-            os.write_enum(15, ::protobuf::EnumOrUnknown::value(&self.type_))?;
-        }
-        os.write_repeated_packed_uint32(4, &self.ANIJEEIJFJD)?;
         if self.event_id != 0 {
             os.write_uint32(8, self.event_id)?;
         }
-        for v in &self.avatar_list {
-            ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
-        };
         if self.id != 0 {
-            os.write_uint32(1, self.id)?;
+            os.write_uint32(4, self.id)?;
+        }
+        os.write_repeated_packed_uint32(10, &self.GIGPHJEBDFL)?;
+        for v in &self.avatar_list {
+            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
+        };
+        if self.type_ != ::protobuf::EnumOrUnknown::new(super::FightFestType::FightFestType::MHKEAFAPMFP_PCPDHELPKEM) {
+            os.write_enum(5, ::protobuf::EnumOrUnknown::value(&self.type_))?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -180,21 +180,21 @@ impl ::protobuf::Message for StartFightFestCsReq {
     }
 
     fn clear(&mut self) {
-        self.type_ = ::protobuf::EnumOrUnknown::new(super::FightFestType::FightFestType::FightFestType_MNFEPONEDDJ);
-        self.ANIJEEIJFJD.clear();
         self.event_id = 0;
-        self.avatar_list.clear();
         self.id = 0;
+        self.GIGPHJEBDFL.clear();
+        self.avatar_list.clear();
+        self.type_ = ::protobuf::EnumOrUnknown::new(super::FightFestType::FightFestType::MHKEAFAPMFP_PCPDHELPKEM);
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static StartFightFestCsReq {
         static instance: StartFightFestCsReq = StartFightFestCsReq {
-            type_: ::protobuf::EnumOrUnknown::from_i32(0),
-            ANIJEEIJFJD: ::std::vec::Vec::new(),
             event_id: 0,
-            avatar_list: ::std::vec::Vec::new(),
             id: 0,
+            GIGPHJEBDFL: ::std::vec::Vec::new(),
+            avatar_list: ::std::vec::Vec::new(),
+            type_: ::protobuf::EnumOrUnknown::from_i32(0),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -219,12 +219,12 @@ impl ::protobuf::reflect::ProtobufValue for StartFightFestCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x19StartFightFestCsReq.proto\x1a\x11BMPKIMNONOG.proto\x1a\x13FightFes\
-    tType.proto\"\xb5\x01\n\x13StartFightFestCsReq\x12\"\n\x04type\x18\x0f\
-    \x20\x01(\x0e2\x0e.FightFestTypeR\x04type\x12\x20\n\x0bANIJEEIJFJD\x18\
-    \x04\x20\x03(\rR\x0bANIJEEIJFJD\x12\x19\n\x08event_id\x18\x08\x20\x01(\r\
-    R\x07eventId\x12-\n\x0bavatar_list\x18\t\x20\x03(\x0b2\x0c.BMPKIMNONOGR\
-    \navatarList\x12\x0e\n\x02id\x18\x01\x20\x01(\rR\x02idb\x06proto3\
+    \n\x19StartFightFestCsReq.proto\x1a\x11BLKGDGAPBKC.proto\x1a\x13FightFes\
+    tType.proto\"\xb5\x01\n\x13StartFightFestCsReq\x12\x19\n\x08event_id\x18\
+    \x08\x20\x01(\rR\x07eventId\x12\x0e\n\x02id\x18\x04\x20\x01(\rR\x02id\
+    \x12\x20\n\x0bGIGPHJEBDFL\x18\n\x20\x03(\rR\x0bGIGPHJEBDFL\x12-\n\x0bava\
+    tar_list\x18\x03\x20\x03(\x0b2\x0c.BLKGDGAPBKCR\navatarList\x12\"\n\x04t\
+    ype\x18\x05\x20\x01(\x0e2\x0e.FightFestTypeR\x04typeb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -242,7 +242,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
-            deps.push(super::BMPKIMNONOG::file_descriptor().clone());
+            deps.push(super::BLKGDGAPBKC::file_descriptor().clone());
             deps.push(super::FightFestType::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(StartFightFestCsReq::generated_message_descriptor_data());

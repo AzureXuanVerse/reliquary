@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct RogueTournBattleFailSettleInfoScNotify {
     // message fields
-    // @@protoc_insertion_point(field:RogueTournBattleFailSettleInfoScNotify.FNHOJKNAPFA)
-    pub FNHOJKNAPFA: ::protobuf::MessageField<super::LNLNIGAPDAA::LNLNIGAPDAA>,
-    // @@protoc_insertion_point(field:RogueTournBattleFailSettleInfoScNotify.DACAGELDCPM)
-    pub DACAGELDCPM: ::protobuf::MessageField<super::CFLDBCDMCFG::CFLDBCDMCFG>,
+    // @@protoc_insertion_point(field:RogueTournBattleFailSettleInfoScNotify.AFLJJJFCBIN)
+    pub AFLJJJFCBIN: ::protobuf::MessageField<super::BFEIPELFCDF::BFEIPELFCDF>,
+    // @@protoc_insertion_point(field:RogueTournBattleFailSettleInfoScNotify.EDKJMPACHNJ)
+    pub EDKJMPACHNJ: ::protobuf::MessageField<super::ALGJOMFCLKL::ALGJOMFCLKL>,
     // special fields
     // @@protoc_insertion_point(special_field:RogueTournBattleFailSettleInfoScNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -51,15 +51,15 @@ impl RogueTournBattleFailSettleInfoScNotify {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::LNLNIGAPDAA::LNLNIGAPDAA>(
-            "FNHOJKNAPFA",
-            |m: &RogueTournBattleFailSettleInfoScNotify| { &m.FNHOJKNAPFA },
-            |m: &mut RogueTournBattleFailSettleInfoScNotify| { &mut m.FNHOJKNAPFA },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::BFEIPELFCDF::BFEIPELFCDF>(
+            "AFLJJJFCBIN",
+            |m: &RogueTournBattleFailSettleInfoScNotify| { &m.AFLJJJFCBIN },
+            |m: &mut RogueTournBattleFailSettleInfoScNotify| { &mut m.AFLJJJFCBIN },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::CFLDBCDMCFG::CFLDBCDMCFG>(
-            "DACAGELDCPM",
-            |m: &RogueTournBattleFailSettleInfoScNotify| { &m.DACAGELDCPM },
-            |m: &mut RogueTournBattleFailSettleInfoScNotify| { &mut m.DACAGELDCPM },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::ALGJOMFCLKL::ALGJOMFCLKL>(
+            "EDKJMPACHNJ",
+            |m: &RogueTournBattleFailSettleInfoScNotify| { &m.EDKJMPACHNJ },
+            |m: &mut RogueTournBattleFailSettleInfoScNotify| { &mut m.EDKJMPACHNJ },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<RogueTournBattleFailSettleInfoScNotify>(
             "RogueTournBattleFailSettleInfoScNotify",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for RogueTournBattleFailSettleInfoScNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                98 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.FNHOJKNAPFA)?;
+                50 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.AFLJJJFCBIN)?;
                 },
-                66 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.DACAGELDCPM)?;
+                34 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.EDKJMPACHNJ)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,11 +97,11 @@ impl ::protobuf::Message for RogueTournBattleFailSettleInfoScNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.FNHOJKNAPFA.as_ref() {
+        if let Some(v) = self.AFLJJJFCBIN.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if let Some(v) = self.DACAGELDCPM.as_ref() {
+        if let Some(v) = self.EDKJMPACHNJ.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -111,11 +111,11 @@ impl ::protobuf::Message for RogueTournBattleFailSettleInfoScNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.FNHOJKNAPFA.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
+        if let Some(v) = self.AFLJJJFCBIN.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
         }
-        if let Some(v) = self.DACAGELDCPM.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+        if let Some(v) = self.EDKJMPACHNJ.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -134,15 +134,15 @@ impl ::protobuf::Message for RogueTournBattleFailSettleInfoScNotify {
     }
 
     fn clear(&mut self) {
-        self.FNHOJKNAPFA.clear();
-        self.DACAGELDCPM.clear();
+        self.AFLJJJFCBIN.clear();
+        self.EDKJMPACHNJ.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static RogueTournBattleFailSettleInfoScNotify {
         static instance: RogueTournBattleFailSettleInfoScNotify = RogueTournBattleFailSettleInfoScNotify {
-            FNHOJKNAPFA: ::protobuf::MessageField::none(),
-            DACAGELDCPM: ::protobuf::MessageField::none(),
+            AFLJJJFCBIN: ::protobuf::MessageField::none(),
+            EDKJMPACHNJ: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -167,11 +167,11 @@ impl ::protobuf::reflect::ProtobufValue for RogueTournBattleFailSettleInfoScNoti
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n,RogueTournBattleFailSettleInfoScNotify.proto\x1a\x11CFLDBCDMCFG.proto\
-    \x1a\x11LNLNIGAPDAA.proto\"\x88\x01\n&RogueTournBattleFailSettleInfoScNo\
-    tify\x12.\n\x0bFNHOJKNAPFA\x18\x0c\x20\x01(\x0b2\x0c.LNLNIGAPDAAR\x0bFNH\
-    OJKNAPFA\x12.\n\x0bDACAGELDCPM\x18\x08\x20\x01(\x0b2\x0c.CFLDBCDMCFGR\
-    \x0bDACAGELDCPMb\x06proto3\
+    \n,RogueTournBattleFailSettleInfoScNotify.proto\x1a\x11ALGJOMFCLKL.proto\
+    \x1a\x11BFEIPELFCDF.proto\"\x88\x01\n&RogueTournBattleFailSettleInfoScNo\
+    tify\x12.\n\x0bAFLJJJFCBIN\x18\x06\x20\x01(\x0b2\x0c.BFEIPELFCDFR\x0bAFL\
+    JJJFCBIN\x12.\n\x0bEDKJMPACHNJ\x18\x04\x20\x01(\x0b2\x0c.ALGJOMFCLKLR\
+    \x0bEDKJMPACHNJb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -189,8 +189,8 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(2);
-            deps.push(super::CFLDBCDMCFG::file_descriptor().clone());
-            deps.push(super::LNLNIGAPDAA::file_descriptor().clone());
+            deps.push(super::ALGJOMFCLKL::file_descriptor().clone());
+            deps.push(super::BFEIPELFCDF::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(RogueTournBattleFailSettleInfoScNotify::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

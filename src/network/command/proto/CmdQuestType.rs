@@ -27,34 +27,34 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdQuestType)
 pub enum CmdQuestType {
-    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdQuestType_MNFEPONEDDJ)
-    CmdQuestType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdQuestType_EBDCFHNFJMC)
-    CmdQuestType_EBDCFHNFJMC = 946,
-    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdQuestType_LCKEJJCOFFM)
-    CmdQuestType_LCKEJJCOFFM = 956,
-    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdQuestType_LPJOLMANNPG)
-    CmdQuestType_LPJOLMANNPG = 983,
-    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdQuestType_FCGHCPLOLLA)
-    CmdQuestType_FCGHCPLOLLA = 969,
-    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdQuestType_OIJONDBLLJF)
-    CmdQuestType_OIJONDBLLJF = 923,
-    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdQuestType_DPFAFHOCAJO)
-    CmdQuestType_DPFAFHOCAJO = 962,
-    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdQuestType_PKNKMLNFMCB)
-    CmdQuestType_PKNKMLNFMCB = 1000,
-    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdQuestType_OGOHFGPLABP)
-    CmdQuestType_OGOHFGPLABP = 981,
-    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdQuestType_OGECGOCNJHP)
-    CmdQuestType_OGECGOCNJHP = 940,
-    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdQuestType_PEMEDNFOBMM)
-    CmdQuestType_PEMEDNFOBMM = 984,
-    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdQuestType_ALACJMADNGL)
-    CmdQuestType_ALACJMADNGL = 924,
-    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdQuestType_HCIAMDAPHCM)
-    CmdQuestType_HCIAMDAPHCM = 904,
-    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdQuestType_EMBKMNOKCLB)
-    CmdQuestType_EMBKMNOKCLB = 957,
+    // @@protoc_insertion_point(enum_value:CmdQuestType.OHPJMMPOJEN_PCPDHELPKEM)
+    OHPJMMPOJEN_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdTakeQuestOptionalRewardScRsp)
+    CmdTakeQuestOptionalRewardScRsp = 974,
+    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdTakeQuestRewardCsReq)
+    CmdTakeQuestRewardCsReq = 994,
+    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdCmdFinishQuestCsReq)
+    CmdCmdFinishQuestCsReq = 926,
+    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdGGAMPJLONGD)
+    CmdGGAMPJLONGD = 939,
+    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdGetQuestRecordCsReq)
+    CmdGetQuestRecordCsReq = 909,
+    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdTakeQuestRewardScRsp)
+    CmdTakeQuestRewardScRsp = 995,
+    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdGetQuestDataScRsp)
+    CmdGetQuestDataScRsp = 910,
+    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdGetQuestRecordScRsp)
+    CmdGetQuestRecordScRsp = 998,
+    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdQuestRecordScNotify)
+    CmdQuestRecordScNotify = 963,
+    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdTakeQuestOptionalRewardCsReq)
+    CmdTakeQuestOptionalRewardCsReq = 901,
+    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdPJBEBLNJANM)
+    CmdPJBEBLNJANM = 938,
+    // @@protoc_insertion_point(enum_value:CmdQuestType.CmdGetQuestDataCsReq)
+    CmdGetQuestDataCsReq = 991,
+    // @@protoc_insertion_point(enum_value:CmdQuestType.OHPJMMPOJEN_FGOGDHLLOBF)
+    OHPJMMPOJEN_FGOGDHLLOBF = 904,
 }
 
 impl ::protobuf::Enum for CmdQuestType {
@@ -66,59 +66,59 @@ impl ::protobuf::Enum for CmdQuestType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdQuestType> {
         match value {
-            0 => ::std::option::Option::Some(CmdQuestType::CmdQuestType_MNFEPONEDDJ),
-            946 => ::std::option::Option::Some(CmdQuestType::CmdQuestType_EBDCFHNFJMC),
-            956 => ::std::option::Option::Some(CmdQuestType::CmdQuestType_LCKEJJCOFFM),
-            983 => ::std::option::Option::Some(CmdQuestType::CmdQuestType_LPJOLMANNPG),
-            969 => ::std::option::Option::Some(CmdQuestType::CmdQuestType_FCGHCPLOLLA),
-            923 => ::std::option::Option::Some(CmdQuestType::CmdQuestType_OIJONDBLLJF),
-            962 => ::std::option::Option::Some(CmdQuestType::CmdQuestType_DPFAFHOCAJO),
-            1000 => ::std::option::Option::Some(CmdQuestType::CmdQuestType_PKNKMLNFMCB),
-            981 => ::std::option::Option::Some(CmdQuestType::CmdQuestType_OGOHFGPLABP),
-            940 => ::std::option::Option::Some(CmdQuestType::CmdQuestType_OGECGOCNJHP),
-            984 => ::std::option::Option::Some(CmdQuestType::CmdQuestType_PEMEDNFOBMM),
-            924 => ::std::option::Option::Some(CmdQuestType::CmdQuestType_ALACJMADNGL),
-            904 => ::std::option::Option::Some(CmdQuestType::CmdQuestType_HCIAMDAPHCM),
-            957 => ::std::option::Option::Some(CmdQuestType::CmdQuestType_EMBKMNOKCLB),
+            0 => ::std::option::Option::Some(CmdQuestType::OHPJMMPOJEN_PCPDHELPKEM),
+            974 => ::std::option::Option::Some(CmdQuestType::CmdTakeQuestOptionalRewardScRsp),
+            994 => ::std::option::Option::Some(CmdQuestType::CmdTakeQuestRewardCsReq),
+            926 => ::std::option::Option::Some(CmdQuestType::CmdCmdFinishQuestCsReq),
+            939 => ::std::option::Option::Some(CmdQuestType::CmdGGAMPJLONGD),
+            909 => ::std::option::Option::Some(CmdQuestType::CmdGetQuestRecordCsReq),
+            995 => ::std::option::Option::Some(CmdQuestType::CmdTakeQuestRewardScRsp),
+            910 => ::std::option::Option::Some(CmdQuestType::CmdGetQuestDataScRsp),
+            998 => ::std::option::Option::Some(CmdQuestType::CmdGetQuestRecordScRsp),
+            963 => ::std::option::Option::Some(CmdQuestType::CmdQuestRecordScNotify),
+            901 => ::std::option::Option::Some(CmdQuestType::CmdTakeQuestOptionalRewardCsReq),
+            938 => ::std::option::Option::Some(CmdQuestType::CmdPJBEBLNJANM),
+            991 => ::std::option::Option::Some(CmdQuestType::CmdGetQuestDataCsReq),
+            904 => ::std::option::Option::Some(CmdQuestType::OHPJMMPOJEN_FGOGDHLLOBF),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdQuestType> {
         match str {
-            "CmdQuestType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdQuestType::CmdQuestType_MNFEPONEDDJ),
-            "CmdQuestType_EBDCFHNFJMC" => ::std::option::Option::Some(CmdQuestType::CmdQuestType_EBDCFHNFJMC),
-            "CmdQuestType_LCKEJJCOFFM" => ::std::option::Option::Some(CmdQuestType::CmdQuestType_LCKEJJCOFFM),
-            "CmdQuestType_LPJOLMANNPG" => ::std::option::Option::Some(CmdQuestType::CmdQuestType_LPJOLMANNPG),
-            "CmdQuestType_FCGHCPLOLLA" => ::std::option::Option::Some(CmdQuestType::CmdQuestType_FCGHCPLOLLA),
-            "CmdQuestType_OIJONDBLLJF" => ::std::option::Option::Some(CmdQuestType::CmdQuestType_OIJONDBLLJF),
-            "CmdQuestType_DPFAFHOCAJO" => ::std::option::Option::Some(CmdQuestType::CmdQuestType_DPFAFHOCAJO),
-            "CmdQuestType_PKNKMLNFMCB" => ::std::option::Option::Some(CmdQuestType::CmdQuestType_PKNKMLNFMCB),
-            "CmdQuestType_OGOHFGPLABP" => ::std::option::Option::Some(CmdQuestType::CmdQuestType_OGOHFGPLABP),
-            "CmdQuestType_OGECGOCNJHP" => ::std::option::Option::Some(CmdQuestType::CmdQuestType_OGECGOCNJHP),
-            "CmdQuestType_PEMEDNFOBMM" => ::std::option::Option::Some(CmdQuestType::CmdQuestType_PEMEDNFOBMM),
-            "CmdQuestType_ALACJMADNGL" => ::std::option::Option::Some(CmdQuestType::CmdQuestType_ALACJMADNGL),
-            "CmdQuestType_HCIAMDAPHCM" => ::std::option::Option::Some(CmdQuestType::CmdQuestType_HCIAMDAPHCM),
-            "CmdQuestType_EMBKMNOKCLB" => ::std::option::Option::Some(CmdQuestType::CmdQuestType_EMBKMNOKCLB),
+            "OHPJMMPOJEN_PCPDHELPKEM" => ::std::option::Option::Some(CmdQuestType::OHPJMMPOJEN_PCPDHELPKEM),
+            "CmdTakeQuestOptionalRewardScRsp" => ::std::option::Option::Some(CmdQuestType::CmdTakeQuestOptionalRewardScRsp),
+            "CmdTakeQuestRewardCsReq" => ::std::option::Option::Some(CmdQuestType::CmdTakeQuestRewardCsReq),
+            "CmdCmdFinishQuestCsReq" => ::std::option::Option::Some(CmdQuestType::CmdCmdFinishQuestCsReq),
+            "CmdGGAMPJLONGD" => ::std::option::Option::Some(CmdQuestType::CmdGGAMPJLONGD),
+            "CmdGetQuestRecordCsReq" => ::std::option::Option::Some(CmdQuestType::CmdGetQuestRecordCsReq),
+            "CmdTakeQuestRewardScRsp" => ::std::option::Option::Some(CmdQuestType::CmdTakeQuestRewardScRsp),
+            "CmdGetQuestDataScRsp" => ::std::option::Option::Some(CmdQuestType::CmdGetQuestDataScRsp),
+            "CmdGetQuestRecordScRsp" => ::std::option::Option::Some(CmdQuestType::CmdGetQuestRecordScRsp),
+            "CmdQuestRecordScNotify" => ::std::option::Option::Some(CmdQuestType::CmdQuestRecordScNotify),
+            "CmdTakeQuestOptionalRewardCsReq" => ::std::option::Option::Some(CmdQuestType::CmdTakeQuestOptionalRewardCsReq),
+            "CmdPJBEBLNJANM" => ::std::option::Option::Some(CmdQuestType::CmdPJBEBLNJANM),
+            "CmdGetQuestDataCsReq" => ::std::option::Option::Some(CmdQuestType::CmdGetQuestDataCsReq),
+            "OHPJMMPOJEN_FGOGDHLLOBF" => ::std::option::Option::Some(CmdQuestType::OHPJMMPOJEN_FGOGDHLLOBF),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdQuestType] = &[
-        CmdQuestType::CmdQuestType_MNFEPONEDDJ,
-        CmdQuestType::CmdQuestType_EBDCFHNFJMC,
-        CmdQuestType::CmdQuestType_LCKEJJCOFFM,
-        CmdQuestType::CmdQuestType_LPJOLMANNPG,
-        CmdQuestType::CmdQuestType_FCGHCPLOLLA,
-        CmdQuestType::CmdQuestType_OIJONDBLLJF,
-        CmdQuestType::CmdQuestType_DPFAFHOCAJO,
-        CmdQuestType::CmdQuestType_PKNKMLNFMCB,
-        CmdQuestType::CmdQuestType_OGOHFGPLABP,
-        CmdQuestType::CmdQuestType_OGECGOCNJHP,
-        CmdQuestType::CmdQuestType_PEMEDNFOBMM,
-        CmdQuestType::CmdQuestType_ALACJMADNGL,
-        CmdQuestType::CmdQuestType_HCIAMDAPHCM,
-        CmdQuestType::CmdQuestType_EMBKMNOKCLB,
+        CmdQuestType::OHPJMMPOJEN_PCPDHELPKEM,
+        CmdQuestType::CmdTakeQuestOptionalRewardScRsp,
+        CmdQuestType::CmdTakeQuestRewardCsReq,
+        CmdQuestType::CmdCmdFinishQuestCsReq,
+        CmdQuestType::CmdGGAMPJLONGD,
+        CmdQuestType::CmdGetQuestRecordCsReq,
+        CmdQuestType::CmdTakeQuestRewardScRsp,
+        CmdQuestType::CmdGetQuestDataScRsp,
+        CmdQuestType::CmdGetQuestRecordScRsp,
+        CmdQuestType::CmdQuestRecordScNotify,
+        CmdQuestType::CmdTakeQuestOptionalRewardCsReq,
+        CmdQuestType::CmdPJBEBLNJANM,
+        CmdQuestType::CmdGetQuestDataCsReq,
+        CmdQuestType::OHPJMMPOJEN_FGOGDHLLOBF,
     ];
 }
 
@@ -130,20 +130,20 @@ impl ::protobuf::EnumFull for CmdQuestType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdQuestType::CmdQuestType_MNFEPONEDDJ => 0,
-            CmdQuestType::CmdQuestType_EBDCFHNFJMC => 1,
-            CmdQuestType::CmdQuestType_LCKEJJCOFFM => 2,
-            CmdQuestType::CmdQuestType_LPJOLMANNPG => 3,
-            CmdQuestType::CmdQuestType_FCGHCPLOLLA => 4,
-            CmdQuestType::CmdQuestType_OIJONDBLLJF => 5,
-            CmdQuestType::CmdQuestType_DPFAFHOCAJO => 6,
-            CmdQuestType::CmdQuestType_PKNKMLNFMCB => 7,
-            CmdQuestType::CmdQuestType_OGOHFGPLABP => 8,
-            CmdQuestType::CmdQuestType_OGECGOCNJHP => 9,
-            CmdQuestType::CmdQuestType_PEMEDNFOBMM => 10,
-            CmdQuestType::CmdQuestType_ALACJMADNGL => 11,
-            CmdQuestType::CmdQuestType_HCIAMDAPHCM => 12,
-            CmdQuestType::CmdQuestType_EMBKMNOKCLB => 13,
+            CmdQuestType::OHPJMMPOJEN_PCPDHELPKEM => 0,
+            CmdQuestType::CmdTakeQuestOptionalRewardScRsp => 1,
+            CmdQuestType::CmdTakeQuestRewardCsReq => 2,
+            CmdQuestType::CmdCmdFinishQuestCsReq => 3,
+            CmdQuestType::CmdGGAMPJLONGD => 4,
+            CmdQuestType::CmdGetQuestRecordCsReq => 5,
+            CmdQuestType::CmdTakeQuestRewardScRsp => 6,
+            CmdQuestType::CmdGetQuestDataScRsp => 7,
+            CmdQuestType::CmdGetQuestRecordScRsp => 8,
+            CmdQuestType::CmdQuestRecordScNotify => 9,
+            CmdQuestType::CmdTakeQuestOptionalRewardCsReq => 10,
+            CmdQuestType::CmdPJBEBLNJANM => 11,
+            CmdQuestType::CmdGetQuestDataCsReq => 12,
+            CmdQuestType::OHPJMMPOJEN_FGOGDHLLOBF => 13,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -151,7 +151,7 @@ impl ::protobuf::EnumFull for CmdQuestType {
 
 impl ::std::default::Default for CmdQuestType {
     fn default() -> Self {
-        CmdQuestType::CmdQuestType_MNFEPONEDDJ
+        CmdQuestType::OHPJMMPOJEN_PCPDHELPKEM
     }
 }
 
@@ -162,17 +162,17 @@ impl CmdQuestType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x12CmdQuestType.proto*\xbf\x03\n\x0cCmdQuestType\x12\x1c\n\x18CmdQues\
-    tType_MNFEPONEDDJ\x10\0\x12\x1d\n\x18CmdQuestType_EBDCFHNFJMC\x10\xb2\
-    \x07\x12\x1d\n\x18CmdQuestType_LCKEJJCOFFM\x10\xbc\x07\x12\x1d\n\x18CmdQ\
-    uestType_LPJOLMANNPG\x10\xd7\x07\x12\x1d\n\x18CmdQuestType_FCGHCPLOLLA\
-    \x10\xc9\x07\x12\x1d\n\x18CmdQuestType_OIJONDBLLJF\x10\x9b\x07\x12\x1d\n\
-    \x18CmdQuestType_DPFAFHOCAJO\x10\xc2\x07\x12\x1d\n\x18CmdQuestType_PKNKM\
-    LNFMCB\x10\xe8\x07\x12\x1d\n\x18CmdQuestType_OGOHFGPLABP\x10\xd5\x07\x12\
-    \x1d\n\x18CmdQuestType_OGECGOCNJHP\x10\xac\x07\x12\x1d\n\x18CmdQuestType\
-    _PEMEDNFOBMM\x10\xd8\x07\x12\x1d\n\x18CmdQuestType_ALACJMADNGL\x10\x9c\
-    \x07\x12\x1d\n\x18CmdQuestType_HCIAMDAPHCM\x10\x88\x07\x12\x1d\n\x18CmdQ\
-    uestType_EMBKMNOKCLB\x10\xbd\x07b\x06proto3\
+    \n\x12CmdQuestType.proto*\xa5\x03\n\x0cCmdQuestType\x12\x1b\n\x17OHPJMMP\
+    OJEN_PCPDHELPKEM\x10\0\x12$\n\x1fCmdTakeQuestOptionalRewardScRsp\x10\xce\
+    \x07\x12\x1c\n\x17CmdTakeQuestRewardCsReq\x10\xe2\x07\x12\x1b\n\x16CmdCm\
+    dFinishQuestCsReq\x10\x9e\x07\x12\x13\n\x0eCmdGGAMPJLONGD\x10\xab\x07\
+    \x12\x1b\n\x16CmdGetQuestRecordCsReq\x10\x8d\x07\x12\x1c\n\x17CmdTakeQue\
+    stRewardScRsp\x10\xe3\x07\x12\x19\n\x14CmdGetQuestDataScRsp\x10\x8e\x07\
+    \x12\x1b\n\x16CmdGetQuestRecordScRsp\x10\xe6\x07\x12\x1b\n\x16CmdQuestRe\
+    cordScNotify\x10\xc3\x07\x12$\n\x1fCmdTakeQuestOptionalRewardCsReq\x10\
+    \x85\x07\x12\x13\n\x0eCmdPJBEBLNJANM\x10\xaa\x07\x12\x19\n\x14CmdGetQues\
+    tDataCsReq\x10\xdf\x07\x12\x1c\n\x17OHPJMMPOJEN_FGOGDHLLOBF\x10\x88\x07b\
+    \x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

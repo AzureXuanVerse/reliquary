@@ -31,7 +31,7 @@ pub struct ActivityRaidPlacingGameScRsp {
     // @@protoc_insertion_point(field:ActivityRaidPlacingGameScRsp.retcode)
     pub retcode: u32,
     // message oneof groups
-    pub LOEKIPFIGFK: ::std::option::Option<activity_raid_placing_game_sc_rsp::LOEKIPFIGFK>,
+    pub DLOMKFLEEIC: ::std::option::Option<activity_raid_placing_game_sc_rsp::DLOMKFLEEIC>,
     // special fields
     // @@protoc_insertion_point(special_field:ActivityRaidPlacingGameScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -48,54 +48,54 @@ impl ActivityRaidPlacingGameScRsp {
         ::std::default::Default::default()
     }
 
-    // uint32 FCEBHJEGLPG = 13;
+    // uint32 MFMHHAPPPJJ = 10;
 
-    pub fn FCEBHJEGLPG(&self) -> u32 {
-        match self.LOEKIPFIGFK {
-            ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::LOEKIPFIGFK::FCEBHJEGLPG(v)) => v,
+    pub fn MFMHHAPPPJJ(&self) -> u32 {
+        match self.DLOMKFLEEIC {
+            ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::DLOMKFLEEIC::MFMHHAPPPJJ(v)) => v,
             _ => 0,
         }
     }
 
-    pub fn clear_FCEBHJEGLPG(&mut self) {
-        self.LOEKIPFIGFK = ::std::option::Option::None;
+    pub fn clear_MFMHHAPPPJJ(&mut self) {
+        self.DLOMKFLEEIC = ::std::option::Option::None;
     }
 
-    pub fn has_FCEBHJEGLPG(&self) -> bool {
-        match self.LOEKIPFIGFK {
-            ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::LOEKIPFIGFK::FCEBHJEGLPG(..)) => true,
+    pub fn has_MFMHHAPPPJJ(&self) -> bool {
+        match self.DLOMKFLEEIC {
+            ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::DLOMKFLEEIC::MFMHHAPPPJJ(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_FCEBHJEGLPG(&mut self, v: u32) {
-        self.LOEKIPFIGFK = ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::LOEKIPFIGFK::FCEBHJEGLPG(v))
+    pub fn set_MFMHHAPPPJJ(&mut self, v: u32) {
+        self.DLOMKFLEEIC = ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::DLOMKFLEEIC::MFMHHAPPPJJ(v))
     }
 
-    // uint32 BIJOCNCLINB = 1;
+    // uint32 OBPNDKPPFGG = 8;
 
-    pub fn BIJOCNCLINB(&self) -> u32 {
-        match self.LOEKIPFIGFK {
-            ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::LOEKIPFIGFK::BIJOCNCLINB(v)) => v,
+    pub fn OBPNDKPPFGG(&self) -> u32 {
+        match self.DLOMKFLEEIC {
+            ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::DLOMKFLEEIC::OBPNDKPPFGG(v)) => v,
             _ => 0,
         }
     }
 
-    pub fn clear_BIJOCNCLINB(&mut self) {
-        self.LOEKIPFIGFK = ::std::option::Option::None;
+    pub fn clear_OBPNDKPPFGG(&mut self) {
+        self.DLOMKFLEEIC = ::std::option::Option::None;
     }
 
-    pub fn has_BIJOCNCLINB(&self) -> bool {
-        match self.LOEKIPFIGFK {
-            ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::LOEKIPFIGFK::BIJOCNCLINB(..)) => true,
+    pub fn has_OBPNDKPPFGG(&self) -> bool {
+        match self.DLOMKFLEEIC {
+            ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::DLOMKFLEEIC::OBPNDKPPFGG(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
-    pub fn set_BIJOCNCLINB(&mut self, v: u32) {
-        self.LOEKIPFIGFK = ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::LOEKIPFIGFK::BIJOCNCLINB(v))
+    pub fn set_OBPNDKPPFGG(&mut self, v: u32) {
+        self.DLOMKFLEEIC = ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::DLOMKFLEEIC::OBPNDKPPFGG(v))
     }
 
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
@@ -107,18 +107,18 @@ impl ActivityRaidPlacingGameScRsp {
             |m: &mut ActivityRaidPlacingGameScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_copy_has_get_set_simpler_accessors::<_, _>(
-            "FCEBHJEGLPG",
-            ActivityRaidPlacingGameScRsp::has_FCEBHJEGLPG,
-            ActivityRaidPlacingGameScRsp::FCEBHJEGLPG,
-            ActivityRaidPlacingGameScRsp::set_FCEBHJEGLPG,
+            "MFMHHAPPPJJ",
+            ActivityRaidPlacingGameScRsp::has_MFMHHAPPPJJ,
+            ActivityRaidPlacingGameScRsp::MFMHHAPPPJJ,
+            ActivityRaidPlacingGameScRsp::set_MFMHHAPPPJJ,
         ));
         fields.push(::protobuf::reflect::rt::v2::make_oneof_copy_has_get_set_simpler_accessors::<_, _>(
-            "BIJOCNCLINB",
-            ActivityRaidPlacingGameScRsp::has_BIJOCNCLINB,
-            ActivityRaidPlacingGameScRsp::BIJOCNCLINB,
-            ActivityRaidPlacingGameScRsp::set_BIJOCNCLINB,
+            "OBPNDKPPFGG",
+            ActivityRaidPlacingGameScRsp::has_OBPNDKPPFGG,
+            ActivityRaidPlacingGameScRsp::OBPNDKPPFGG,
+            ActivityRaidPlacingGameScRsp::set_OBPNDKPPFGG,
         ));
-        oneofs.push(activity_raid_placing_game_sc_rsp::LOEKIPFIGFK::generated_oneof_descriptor_data());
+        oneofs.push(activity_raid_placing_game_sc_rsp::DLOMKFLEEIC::generated_oneof_descriptor_data());
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<ActivityRaidPlacingGameScRsp>(
             "ActivityRaidPlacingGameScRsp",
             fields,
@@ -137,14 +137,14 @@ impl ::protobuf::Message for ActivityRaidPlacingGameScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                40 => {
+                8 => {
                     self.retcode = is.read_uint32()?;
                 },
-                104 => {
-                    self.LOEKIPFIGFK = ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::LOEKIPFIGFK::FCEBHJEGLPG(is.read_uint32()?));
+                80 => {
+                    self.DLOMKFLEEIC = ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::DLOMKFLEEIC::MFMHHAPPPJJ(is.read_uint32()?));
                 },
-                8 => {
-                    self.LOEKIPFIGFK = ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::LOEKIPFIGFK::BIJOCNCLINB(is.read_uint32()?));
+                64 => {
+                    self.DLOMKFLEEIC = ::std::option::Option::Some(activity_raid_placing_game_sc_rsp::DLOMKFLEEIC::OBPNDKPPFGG(is.read_uint32()?));
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -159,15 +159,15 @@ impl ::protobuf::Message for ActivityRaidPlacingGameScRsp {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(5, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(1, self.retcode);
         }
-        if let ::std::option::Option::Some(ref v) = self.LOEKIPFIGFK {
+        if let ::std::option::Option::Some(ref v) = self.DLOMKFLEEIC {
             match v {
-                &activity_raid_placing_game_sc_rsp::LOEKIPFIGFK::FCEBHJEGLPG(v) => {
-                    my_size += ::protobuf::rt::uint32_size(13, v);
+                &activity_raid_placing_game_sc_rsp::DLOMKFLEEIC::MFMHHAPPPJJ(v) => {
+                    my_size += ::protobuf::rt::uint32_size(10, v);
                 },
-                &activity_raid_placing_game_sc_rsp::LOEKIPFIGFK::BIJOCNCLINB(v) => {
-                    my_size += ::protobuf::rt::uint32_size(1, v);
+                &activity_raid_placing_game_sc_rsp::DLOMKFLEEIC::OBPNDKPPFGG(v) => {
+                    my_size += ::protobuf::rt::uint32_size(8, v);
                 },
             };
         }
@@ -178,15 +178,15 @@ impl ::protobuf::Message for ActivityRaidPlacingGameScRsp {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.retcode != 0 {
-            os.write_uint32(5, self.retcode)?;
+            os.write_uint32(1, self.retcode)?;
         }
-        if let ::std::option::Option::Some(ref v) = self.LOEKIPFIGFK {
+        if let ::std::option::Option::Some(ref v) = self.DLOMKFLEEIC {
             match v {
-                &activity_raid_placing_game_sc_rsp::LOEKIPFIGFK::FCEBHJEGLPG(v) => {
-                    os.write_uint32(13, v)?;
+                &activity_raid_placing_game_sc_rsp::DLOMKFLEEIC::MFMHHAPPPJJ(v) => {
+                    os.write_uint32(10, v)?;
                 },
-                &activity_raid_placing_game_sc_rsp::LOEKIPFIGFK::BIJOCNCLINB(v) => {
-                    os.write_uint32(1, v)?;
+                &activity_raid_placing_game_sc_rsp::DLOMKFLEEIC::OBPNDKPPFGG(v) => {
+                    os.write_uint32(8, v)?;
                 },
             };
         }
@@ -208,15 +208,15 @@ impl ::protobuf::Message for ActivityRaidPlacingGameScRsp {
 
     fn clear(&mut self) {
         self.retcode = 0;
-        self.LOEKIPFIGFK = ::std::option::Option::None;
-        self.LOEKIPFIGFK = ::std::option::Option::None;
+        self.DLOMKFLEEIC = ::std::option::Option::None;
+        self.DLOMKFLEEIC = ::std::option::Option::None;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static ActivityRaidPlacingGameScRsp {
         static instance: ActivityRaidPlacingGameScRsp = ActivityRaidPlacingGameScRsp {
             retcode: 0,
-            LOEKIPFIGFK: ::std::option::Option::None,
+            DLOMKFLEEIC: ::std::option::Option::None,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -245,36 +245,36 @@ pub mod activity_raid_placing_game_sc_rsp {
 
     #[derive(Clone,PartialEq,Debug)]
     #[non_exhaustive]
-    // @@protoc_insertion_point(oneof:ActivityRaidPlacingGameScRsp.LOEKIPFIGFK)
-    pub enum LOEKIPFIGFK {
-        // @@protoc_insertion_point(oneof_field:ActivityRaidPlacingGameScRsp.FCEBHJEGLPG)
-        FCEBHJEGLPG(u32),
-        // @@protoc_insertion_point(oneof_field:ActivityRaidPlacingGameScRsp.BIJOCNCLINB)
-        BIJOCNCLINB(u32),
+    // @@protoc_insertion_point(oneof:ActivityRaidPlacingGameScRsp.DLOMKFLEEIC)
+    pub enum DLOMKFLEEIC {
+        // @@protoc_insertion_point(oneof_field:ActivityRaidPlacingGameScRsp.MFMHHAPPPJJ)
+        MFMHHAPPPJJ(u32),
+        // @@protoc_insertion_point(oneof_field:ActivityRaidPlacingGameScRsp.OBPNDKPPFGG)
+        OBPNDKPPFGG(u32),
     }
 
-    impl ::protobuf::Oneof for LOEKIPFIGFK {
+    impl ::protobuf::Oneof for DLOMKFLEEIC {
     }
 
-    impl ::protobuf::OneofFull for LOEKIPFIGFK {
+    impl ::protobuf::OneofFull for DLOMKFLEEIC {
         fn descriptor() -> ::protobuf::reflect::OneofDescriptor {
             static descriptor: ::protobuf::rt::Lazy<::protobuf::reflect::OneofDescriptor> = ::protobuf::rt::Lazy::new();
-            descriptor.get(|| <super::ActivityRaidPlacingGameScRsp as ::protobuf::MessageFull>::descriptor().oneof_by_name("LOEKIPFIGFK").unwrap()).clone()
+            descriptor.get(|| <super::ActivityRaidPlacingGameScRsp as ::protobuf::MessageFull>::descriptor().oneof_by_name("DLOMKFLEEIC").unwrap()).clone()
         }
     }
 
-    impl LOEKIPFIGFK {
+    impl DLOMKFLEEIC {
         pub(in super) fn generated_oneof_descriptor_data() -> ::protobuf::reflect::GeneratedOneofDescriptorData {
-            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<LOEKIPFIGFK>("LOEKIPFIGFK")
+            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<DLOMKFLEEIC>("DLOMKFLEEIC")
         }
     }
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n\"ActivityRaidPlacingGameScRsp.proto\"\x8f\x01\n\x1cActivityRaidPlacin\
-    gGameScRsp\x12\x18\n\x07retcode\x18\x05\x20\x01(\rR\x07retcode\x12\"\n\
-    \x0bFCEBHJEGLPG\x18\r\x20\x01(\rH\0R\x0bFCEBHJEGLPG\x12\"\n\x0bBIJOCNCLI\
-    NB\x18\x01\x20\x01(\rH\0R\x0bBIJOCNCLINBB\r\n\x0bLOEKIPFIGFKb\x06proto3\
+    gGameScRsp\x12\x18\n\x07retcode\x18\x01\x20\x01(\rR\x07retcode\x12\"\n\
+    \x0bMFMHHAPPPJJ\x18\n\x20\x01(\rH\0R\x0bMFMHHAPPPJJ\x12\"\n\x0bOBPNDKPPF\
+    GG\x18\x08\x20\x01(\rH\0R\x0bOBPNDKPPFGGB\r\n\x0bDLOMKFLEEICb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

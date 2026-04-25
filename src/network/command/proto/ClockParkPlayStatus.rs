@@ -27,14 +27,14 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:ClockParkPlayStatus)
 pub enum ClockParkPlayStatus {
-    // @@protoc_insertion_point(enum_value:ClockParkPlayStatus.ClockParkPlayStatus_ONDJJFJEDJK)
-    ClockParkPlayStatus_ONDJJFJEDJK = 0,
-    // @@protoc_insertion_point(enum_value:ClockParkPlayStatus.ClockParkPlayStatus_GKHIMBOEGCI)
-    ClockParkPlayStatus_GKHIMBOEGCI = 1,
-    // @@protoc_insertion_point(enum_value:ClockParkPlayStatus.ClockParkPlayStatus_CDDBKNCNMMB)
-    ClockParkPlayStatus_CDDBKNCNMMB = 2,
-    // @@protoc_insertion_point(enum_value:ClockParkPlayStatus.ClockParkPlayStatus_POCOKFEKCBK)
-    ClockParkPlayStatus_POCOKFEKCBK = 5,
+    // @@protoc_insertion_point(enum_value:ClockParkPlayStatus.FOGFBPODIDN_ECFAOMLDDGL)
+    FOGFBPODIDN_ECFAOMLDDGL = 0,
+    // @@protoc_insertion_point(enum_value:ClockParkPlayStatus.FOGFBPODIDN_NLJJDPFDDNG)
+    FOGFBPODIDN_NLJJDPFDDNG = 1,
+    // @@protoc_insertion_point(enum_value:ClockParkPlayStatus.FOGFBPODIDN_CPKIKJBGOLB)
+    FOGFBPODIDN_CPKIKJBGOLB = 2,
+    // @@protoc_insertion_point(enum_value:ClockParkPlayStatus.FOGFBPODIDN_CCIHCBAGIMH)
+    FOGFBPODIDN_CCIHCBAGIMH = 5,
 }
 
 impl ::protobuf::Enum for ClockParkPlayStatus {
@@ -46,29 +46,29 @@ impl ::protobuf::Enum for ClockParkPlayStatus {
 
     fn from_i32(value: i32) -> ::std::option::Option<ClockParkPlayStatus> {
         match value {
-            0 => ::std::option::Option::Some(ClockParkPlayStatus::ClockParkPlayStatus_ONDJJFJEDJK),
-            1 => ::std::option::Option::Some(ClockParkPlayStatus::ClockParkPlayStatus_GKHIMBOEGCI),
-            2 => ::std::option::Option::Some(ClockParkPlayStatus::ClockParkPlayStatus_CDDBKNCNMMB),
-            5 => ::std::option::Option::Some(ClockParkPlayStatus::ClockParkPlayStatus_POCOKFEKCBK),
+            0 => ::std::option::Option::Some(ClockParkPlayStatus::FOGFBPODIDN_ECFAOMLDDGL),
+            1 => ::std::option::Option::Some(ClockParkPlayStatus::FOGFBPODIDN_NLJJDPFDDNG),
+            2 => ::std::option::Option::Some(ClockParkPlayStatus::FOGFBPODIDN_CPKIKJBGOLB),
+            5 => ::std::option::Option::Some(ClockParkPlayStatus::FOGFBPODIDN_CCIHCBAGIMH),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<ClockParkPlayStatus> {
         match str {
-            "ClockParkPlayStatus_ONDJJFJEDJK" => ::std::option::Option::Some(ClockParkPlayStatus::ClockParkPlayStatus_ONDJJFJEDJK),
-            "ClockParkPlayStatus_GKHIMBOEGCI" => ::std::option::Option::Some(ClockParkPlayStatus::ClockParkPlayStatus_GKHIMBOEGCI),
-            "ClockParkPlayStatus_CDDBKNCNMMB" => ::std::option::Option::Some(ClockParkPlayStatus::ClockParkPlayStatus_CDDBKNCNMMB),
-            "ClockParkPlayStatus_POCOKFEKCBK" => ::std::option::Option::Some(ClockParkPlayStatus::ClockParkPlayStatus_POCOKFEKCBK),
+            "FOGFBPODIDN_ECFAOMLDDGL" => ::std::option::Option::Some(ClockParkPlayStatus::FOGFBPODIDN_ECFAOMLDDGL),
+            "FOGFBPODIDN_NLJJDPFDDNG" => ::std::option::Option::Some(ClockParkPlayStatus::FOGFBPODIDN_NLJJDPFDDNG),
+            "FOGFBPODIDN_CPKIKJBGOLB" => ::std::option::Option::Some(ClockParkPlayStatus::FOGFBPODIDN_CPKIKJBGOLB),
+            "FOGFBPODIDN_CCIHCBAGIMH" => ::std::option::Option::Some(ClockParkPlayStatus::FOGFBPODIDN_CCIHCBAGIMH),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [ClockParkPlayStatus] = &[
-        ClockParkPlayStatus::ClockParkPlayStatus_ONDJJFJEDJK,
-        ClockParkPlayStatus::ClockParkPlayStatus_GKHIMBOEGCI,
-        ClockParkPlayStatus::ClockParkPlayStatus_CDDBKNCNMMB,
-        ClockParkPlayStatus::ClockParkPlayStatus_POCOKFEKCBK,
+        ClockParkPlayStatus::FOGFBPODIDN_ECFAOMLDDGL,
+        ClockParkPlayStatus::FOGFBPODIDN_NLJJDPFDDNG,
+        ClockParkPlayStatus::FOGFBPODIDN_CPKIKJBGOLB,
+        ClockParkPlayStatus::FOGFBPODIDN_CCIHCBAGIMH,
     ];
 }
 
@@ -80,10 +80,10 @@ impl ::protobuf::EnumFull for ClockParkPlayStatus {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            ClockParkPlayStatus::ClockParkPlayStatus_ONDJJFJEDJK => 0,
-            ClockParkPlayStatus::ClockParkPlayStatus_GKHIMBOEGCI => 1,
-            ClockParkPlayStatus::ClockParkPlayStatus_CDDBKNCNMMB => 2,
-            ClockParkPlayStatus::ClockParkPlayStatus_POCOKFEKCBK => 3,
+            ClockParkPlayStatus::FOGFBPODIDN_ECFAOMLDDGL => 0,
+            ClockParkPlayStatus::FOGFBPODIDN_NLJJDPFDDNG => 1,
+            ClockParkPlayStatus::FOGFBPODIDN_CPKIKJBGOLB => 2,
+            ClockParkPlayStatus::FOGFBPODIDN_CCIHCBAGIMH => 3,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -91,7 +91,7 @@ impl ::protobuf::EnumFull for ClockParkPlayStatus {
 
 impl ::std::default::Default for ClockParkPlayStatus {
     fn default() -> Self {
-        ClockParkPlayStatus::ClockParkPlayStatus_ONDJJFJEDJK
+        ClockParkPlayStatus::FOGFBPODIDN_ECFAOMLDDGL
     }
 }
 
@@ -102,10 +102,10 @@ impl ClockParkPlayStatus {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x19ClockParkPlayStatus.proto*\xa9\x01\n\x13ClockParkPlayStatus\x12#\n\
-    \x1fClockParkPlayStatus_ONDJJFJEDJK\x10\0\x12#\n\x1fClockParkPlayStatus_\
-    GKHIMBOEGCI\x10\x01\x12#\n\x1fClockParkPlayStatus_CDDBKNCNMMB\x10\x02\
-    \x12#\n\x1fClockParkPlayStatus_POCOKFEKCBK\x10\x05b\x06proto3\
+    \n\x19ClockParkPlayStatus.proto*\x89\x01\n\x13ClockParkPlayStatus\x12\
+    \x1b\n\x17FOGFBPODIDN_ECFAOMLDDGL\x10\0\x12\x1b\n\x17FOGFBPODIDN_NLJJDPF\
+    DDNG\x10\x01\x12\x1b\n\x17FOGFBPODIDN_CPKIKJBGOLB\x10\x02\x12\x1b\n\x17F\
+    OGFBPODIDN_CCIHCBAGIMH\x10\x05b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

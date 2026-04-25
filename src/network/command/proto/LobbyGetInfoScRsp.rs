@@ -28,20 +28,20 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct LobbyGetInfoScRsp {
     // message fields
-    // @@protoc_insertion_point(field:LobbyGetInfoScRsp.MLKKBBFLAHG)
-    pub MLKKBBFLAHG: ::protobuf::EnumOrUnknown<super::FightGameMode::FightGameMode>,
-    // @@protoc_insertion_point(field:LobbyGetInfoScRsp.PMCKGJIIHNL)
-    pub PMCKGJIIHNL: ::std::vec::Vec<super::GCKNBLAJJGP::GCKNBLAJJGP>,
     // @@protoc_insertion_point(field:LobbyGetInfoScRsp.room_id)
     pub room_id: u64,
-    // @@protoc_insertion_point(field:LobbyGetInfoScRsp.DIMFOEHBNIA)
-    pub DIMFOEHBNIA: ::protobuf::MessageField<super::OFCBIGCLMKG::OFCBIGCLMKG>,
-    // @@protoc_insertion_point(field:LobbyGetInfoScRsp.OCKCAFJDHEF)
-    pub OCKCAFJDHEF: u64,
-    // @@protoc_insertion_point(field:LobbyGetInfoScRsp.ILOEBAELDKN)
-    pub ILOEBAELDKN: u32,
+    // @@protoc_insertion_point(field:LobbyGetInfoScRsp.PLOBMBFPNFK)
+    pub PLOBMBFPNFK: ::protobuf::EnumOrUnknown<super::FightGameMode::FightGameMode>,
+    // @@protoc_insertion_point(field:LobbyGetInfoScRsp.BIEBFHECEPM)
+    pub BIEBFHECEPM: ::std::vec::Vec<super::ADHNJADIJAC::ADHNJADIJAC>,
+    // @@protoc_insertion_point(field:LobbyGetInfoScRsp.EIFFDNNBGMC)
+    pub EIFFDNNBGMC: u64,
+    // @@protoc_insertion_point(field:LobbyGetInfoScRsp.POFOCMIHJIA)
+    pub POFOCMIHJIA: ::protobuf::MessageField<super::PBICJCPDLGD::PBICJCPDLGD>,
     // @@protoc_insertion_point(field:LobbyGetInfoScRsp.retcode)
     pub retcode: u32,
+    // @@protoc_insertion_point(field:LobbyGetInfoScRsp.CHEODMKAHJM)
+    pub CHEODMKAHJM: u32,
     // special fields
     // @@protoc_insertion_point(special_field:LobbyGetInfoScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -62,39 +62,39 @@ impl LobbyGetInfoScRsp {
         let mut fields = ::std::vec::Vec::with_capacity(7);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "MLKKBBFLAHG",
-            |m: &LobbyGetInfoScRsp| { &m.MLKKBBFLAHG },
-            |m: &mut LobbyGetInfoScRsp| { &mut m.MLKKBBFLAHG },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "PMCKGJIIHNL",
-            |m: &LobbyGetInfoScRsp| { &m.PMCKGJIIHNL },
-            |m: &mut LobbyGetInfoScRsp| { &mut m.PMCKGJIIHNL },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "room_id",
             |m: &LobbyGetInfoScRsp| { &m.room_id },
             |m: &mut LobbyGetInfoScRsp| { &mut m.room_id },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::OFCBIGCLMKG::OFCBIGCLMKG>(
-            "DIMFOEHBNIA",
-            |m: &LobbyGetInfoScRsp| { &m.DIMFOEHBNIA },
-            |m: &mut LobbyGetInfoScRsp| { &mut m.DIMFOEHBNIA },
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "PLOBMBFPNFK",
+            |m: &LobbyGetInfoScRsp| { &m.PLOBMBFPNFK },
+            |m: &mut LobbyGetInfoScRsp| { &mut m.PLOBMBFPNFK },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
+            "BIEBFHECEPM",
+            |m: &LobbyGetInfoScRsp| { &m.BIEBFHECEPM },
+            |m: &mut LobbyGetInfoScRsp| { &mut m.BIEBFHECEPM },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "OCKCAFJDHEF",
-            |m: &LobbyGetInfoScRsp| { &m.OCKCAFJDHEF },
-            |m: &mut LobbyGetInfoScRsp| { &mut m.OCKCAFJDHEF },
+            "EIFFDNNBGMC",
+            |m: &LobbyGetInfoScRsp| { &m.EIFFDNNBGMC },
+            |m: &mut LobbyGetInfoScRsp| { &mut m.EIFFDNNBGMC },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "ILOEBAELDKN",
-            |m: &LobbyGetInfoScRsp| { &m.ILOEBAELDKN },
-            |m: &mut LobbyGetInfoScRsp| { &mut m.ILOEBAELDKN },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::PBICJCPDLGD::PBICJCPDLGD>(
+            "POFOCMIHJIA",
+            |m: &LobbyGetInfoScRsp| { &m.POFOCMIHJIA },
+            |m: &mut LobbyGetInfoScRsp| { &mut m.POFOCMIHJIA },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &LobbyGetInfoScRsp| { &m.retcode },
             |m: &mut LobbyGetInfoScRsp| { &mut m.retcode },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "CHEODMKAHJM",
+            |m: &LobbyGetInfoScRsp| { &m.CHEODMKAHJM },
+            |m: &mut LobbyGetInfoScRsp| { &mut m.CHEODMKAHJM },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<LobbyGetInfoScRsp>(
             "LobbyGetInfoScRsp",
@@ -114,26 +114,26 @@ impl ::protobuf::Message for LobbyGetInfoScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                40 => {
-                    self.MLKKBBFLAHG = is.read_enum_or_unknown()?;
-                },
-                106 => {
-                    self.PMCKGJIIHNL.push(is.read_message()?);
-                },
                 16 => {
                     self.room_id = is.read_uint64()?;
                 },
-                98 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.DIMFOEHBNIA)?;
-                },
-                32 => {
-                    self.OCKCAFJDHEF = is.read_uint64()?;
-                },
-                80 => {
-                    self.ILOEBAELDKN = is.read_uint32()?;
-                },
                 112 => {
+                    self.PLOBMBFPNFK = is.read_enum_or_unknown()?;
+                },
+                66 => {
+                    self.BIEBFHECEPM.push(is.read_message()?);
+                },
+                104 => {
+                    self.EIFFDNNBGMC = is.read_uint64()?;
+                },
+                90 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.POFOCMIHJIA)?;
+                },
+                72 => {
                     self.retcode = is.read_uint32()?;
+                },
+                48 => {
+                    self.CHEODMKAHJM = is.read_uint32()?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -147,28 +147,28 @@ impl ::protobuf::Message for LobbyGetInfoScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.MLKKBBFLAHG != ::protobuf::EnumOrUnknown::new(super::FightGameMode::FightGameMode::FightGameMode_MNFEPONEDDJ) {
-            my_size += ::protobuf::rt::int32_size(5, self.MLKKBBFLAHG.value());
-        }
-        for value in &self.PMCKGJIIHNL {
-            let len = value.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        };
         if self.room_id != 0 {
             my_size += ::protobuf::rt::uint64_size(2, self.room_id);
         }
-        if let Some(v) = self.DIMFOEHBNIA.as_ref() {
+        if self.PLOBMBFPNFK != ::protobuf::EnumOrUnknown::new(super::FightGameMode::FightGameMode::EJIMIOGAOKL_PCPDHELPKEM) {
+            my_size += ::protobuf::rt::int32_size(14, self.PLOBMBFPNFK.value());
+        }
+        for value in &self.BIEBFHECEPM {
+            let len = value.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        };
+        if self.EIFFDNNBGMC != 0 {
+            my_size += ::protobuf::rt::uint64_size(13, self.EIFFDNNBGMC);
+        }
+        if let Some(v) = self.POFOCMIHJIA.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if self.OCKCAFJDHEF != 0 {
-            my_size += ::protobuf::rt::uint64_size(4, self.OCKCAFJDHEF);
-        }
-        if self.ILOEBAELDKN != 0 {
-            my_size += ::protobuf::rt::uint32_size(10, self.ILOEBAELDKN);
-        }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(14, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(9, self.retcode);
+        }
+        if self.CHEODMKAHJM != 0 {
+            my_size += ::protobuf::rt::uint32_size(6, self.CHEODMKAHJM);
         }
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
@@ -176,26 +176,26 @@ impl ::protobuf::Message for LobbyGetInfoScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.MLKKBBFLAHG != ::protobuf::EnumOrUnknown::new(super::FightGameMode::FightGameMode::FightGameMode_MNFEPONEDDJ) {
-            os.write_enum(5, ::protobuf::EnumOrUnknown::value(&self.MLKKBBFLAHG))?;
-        }
-        for v in &self.PMCKGJIIHNL {
-            ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
-        };
         if self.room_id != 0 {
             os.write_uint64(2, self.room_id)?;
         }
-        if let Some(v) = self.DIMFOEHBNIA.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
+        if self.PLOBMBFPNFK != ::protobuf::EnumOrUnknown::new(super::FightGameMode::FightGameMode::EJIMIOGAOKL_PCPDHELPKEM) {
+            os.write_enum(14, ::protobuf::EnumOrUnknown::value(&self.PLOBMBFPNFK))?;
         }
-        if self.OCKCAFJDHEF != 0 {
-            os.write_uint64(4, self.OCKCAFJDHEF)?;
+        for v in &self.BIEBFHECEPM {
+            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+        };
+        if self.EIFFDNNBGMC != 0 {
+            os.write_uint64(13, self.EIFFDNNBGMC)?;
         }
-        if self.ILOEBAELDKN != 0 {
-            os.write_uint32(10, self.ILOEBAELDKN)?;
+        if let Some(v) = self.POFOCMIHJIA.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
         }
         if self.retcode != 0 {
-            os.write_uint32(14, self.retcode)?;
+            os.write_uint32(9, self.retcode)?;
+        }
+        if self.CHEODMKAHJM != 0 {
+            os.write_uint32(6, self.CHEODMKAHJM)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -214,25 +214,25 @@ impl ::protobuf::Message for LobbyGetInfoScRsp {
     }
 
     fn clear(&mut self) {
-        self.MLKKBBFLAHG = ::protobuf::EnumOrUnknown::new(super::FightGameMode::FightGameMode::FightGameMode_MNFEPONEDDJ);
-        self.PMCKGJIIHNL.clear();
         self.room_id = 0;
-        self.DIMFOEHBNIA.clear();
-        self.OCKCAFJDHEF = 0;
-        self.ILOEBAELDKN = 0;
+        self.PLOBMBFPNFK = ::protobuf::EnumOrUnknown::new(super::FightGameMode::FightGameMode::EJIMIOGAOKL_PCPDHELPKEM);
+        self.BIEBFHECEPM.clear();
+        self.EIFFDNNBGMC = 0;
+        self.POFOCMIHJIA.clear();
         self.retcode = 0;
+        self.CHEODMKAHJM = 0;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static LobbyGetInfoScRsp {
         static instance: LobbyGetInfoScRsp = LobbyGetInfoScRsp {
-            MLKKBBFLAHG: ::protobuf::EnumOrUnknown::from_i32(0),
-            PMCKGJIIHNL: ::std::vec::Vec::new(),
             room_id: 0,
-            DIMFOEHBNIA: ::protobuf::MessageField::none(),
-            OCKCAFJDHEF: 0,
-            ILOEBAELDKN: 0,
+            PLOBMBFPNFK: ::protobuf::EnumOrUnknown::from_i32(0),
+            BIEBFHECEPM: ::std::vec::Vec::new(),
+            EIFFDNNBGMC: 0,
+            POFOCMIHJIA: ::protobuf::MessageField::none(),
             retcode: 0,
+            CHEODMKAHJM: 0,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -257,15 +257,15 @@ impl ::protobuf::reflect::ProtobufValue for LobbyGetInfoScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x17LobbyGetInfoScRsp.proto\x1a\x13FightGameMode.proto\x1a\x11GCKNBLAJ\
-    JGP.proto\x1a\x11OFCBIGCLMKG.proto\"\x9c\x02\n\x11LobbyGetInfoScRsp\x120\
-    \n\x0bMLKKBBFLAHG\x18\x05\x20\x01(\x0e2\x0e.FightGameModeR\x0bMLKKBBFLAH\
-    G\x12.\n\x0bPMCKGJIIHNL\x18\r\x20\x03(\x0b2\x0c.GCKNBLAJJGPR\x0bPMCKGJII\
-    HNL\x12\x17\n\x07room_id\x18\x02\x20\x01(\x04R\x06roomId\x12.\n\x0bDIMFO\
-    EHBNIA\x18\x0c\x20\x01(\x0b2\x0c.OFCBIGCLMKGR\x0bDIMFOEHBNIA\x12\x20\n\
-    \x0bOCKCAFJDHEF\x18\x04\x20\x01(\x04R\x0bOCKCAFJDHEF\x12\x20\n\x0bILOEBA\
-    ELDKN\x18\n\x20\x01(\rR\x0bILOEBAELDKN\x12\x18\n\x07retcode\x18\x0e\x20\
-    \x01(\rR\x07retcodeb\x06proto3\
+    \n\x17LobbyGetInfoScRsp.proto\x1a\x11ADHNJADIJAC.proto\x1a\x13FightGameM\
+    ode.proto\x1a\x11PBICJCPDLGD.proto\"\x9c\x02\n\x11LobbyGetInfoScRsp\x12\
+    \x17\n\x07room_id\x18\x02\x20\x01(\x04R\x06roomId\x120\n\x0bPLOBMBFPNFK\
+    \x18\x0e\x20\x01(\x0e2\x0e.FightGameModeR\x0bPLOBMBFPNFK\x12.\n\x0bBIEBF\
+    HECEPM\x18\x08\x20\x03(\x0b2\x0c.ADHNJADIJACR\x0bBIEBFHECEPM\x12\x20\n\
+    \x0bEIFFDNNBGMC\x18\r\x20\x01(\x04R\x0bEIFFDNNBGMC\x12.\n\x0bPOFOCMIHJIA\
+    \x18\x0b\x20\x01(\x0b2\x0c.PBICJCPDLGDR\x0bPOFOCMIHJIA\x12\x18\n\x07retc\
+    ode\x18\t\x20\x01(\rR\x07retcode\x12\x20\n\x0bCHEODMKAHJM\x18\x06\x20\
+    \x01(\rR\x0bCHEODMKAHJMb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -283,9 +283,9 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(3);
+            deps.push(super::ADHNJADIJAC::file_descriptor().clone());
             deps.push(super::FightGameMode::file_descriptor().clone());
-            deps.push(super::GCKNBLAJJGP::file_descriptor().clone());
-            deps.push(super::OFCBIGCLMKG::file_descriptor().clone());
+            deps.push(super::PBICJCPDLGD::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(LobbyGetInfoScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

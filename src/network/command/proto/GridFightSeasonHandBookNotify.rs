@@ -28,7 +28,7 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GridFightSeasonHandBookNotify {
     // message oneof groups
-    pub OKAIINGCACL: ::std::option::Option<grid_fight_season_hand_book_notify::OKAIINGCACL>,
+    pub BPIHFAJCLOC: ::std::option::Option<grid_fight_season_hand_book_notify::BPIHFAJCLOC>,
     // special fields
     // @@protoc_insertion_point(special_field:GridFightSeasonHandBookNotify.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -45,39 +45,39 @@ impl GridFightSeasonHandBookNotify {
         ::std::default::Default::default()
     }
 
-    // .GridFightHandBookRoleInfo handbook_grid_fight_role_info = 552;
+    // .GridFightHandBookRoleInfo handbook_grid_fight_role_info = 944;
 
     pub fn handbook_grid_fight_role_info(&self) -> &super::GridFightHandBookRoleInfo::GridFightHandBookRoleInfo {
-        match self.OKAIINGCACL {
-            ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightRoleInfo(ref v)) => v,
+        match self.BPIHFAJCLOC {
+            ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightRoleInfo(ref v)) => v,
             _ => <super::GridFightHandBookRoleInfo::GridFightHandBookRoleInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_handbook_grid_fight_role_info(&mut self) {
-        self.OKAIINGCACL = ::std::option::Option::None;
+        self.BPIHFAJCLOC = ::std::option::Option::None;
     }
 
     pub fn has_handbook_grid_fight_role_info(&self) -> bool {
-        match self.OKAIINGCACL {
-            ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightRoleInfo(..)) => true,
+        match self.BPIHFAJCLOC {
+            ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightRoleInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_handbook_grid_fight_role_info(&mut self, v: super::GridFightHandBookRoleInfo::GridFightHandBookRoleInfo) {
-        self.OKAIINGCACL = ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightRoleInfo(v))
+        self.BPIHFAJCLOC = ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightRoleInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_handbook_grid_fight_role_info(&mut self) -> &mut super::GridFightHandBookRoleInfo::GridFightHandBookRoleInfo {
-        if let ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightRoleInfo(_)) = self.OKAIINGCACL {
+        if let ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightRoleInfo(_)) = self.BPIHFAJCLOC {
         } else {
-            self.OKAIINGCACL = ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightRoleInfo(super::GridFightHandBookRoleInfo::GridFightHandBookRoleInfo::new()));
+            self.BPIHFAJCLOC = ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightRoleInfo(super::GridFightHandBookRoleInfo::GridFightHandBookRoleInfo::new()));
         }
-        match self.OKAIINGCACL {
-            ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightRoleInfo(ref mut v)) => v,
+        match self.BPIHFAJCLOC {
+            ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightRoleInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -85,8 +85,8 @@ impl GridFightSeasonHandBookNotify {
     // Take field
     pub fn take_handbook_grid_fight_role_info(&mut self) -> super::GridFightHandBookRoleInfo::GridFightHandBookRoleInfo {
         if self.has_handbook_grid_fight_role_info() {
-            match self.OKAIINGCACL.take() {
-                ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightRoleInfo(v)) => v,
+            match self.BPIHFAJCLOC.take() {
+                ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightRoleInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -94,39 +94,39 @@ impl GridFightSeasonHandBookNotify {
         }
     }
 
-    // .GridFightHandBookEquipInfo handbook_grid_fight_equip_info = 731;
+    // .GridFightHandBookEquipInfo handbook_grid_fight_equip_info = 1614;
 
     pub fn handbook_grid_fight_equip_info(&self) -> &super::GridFightHandBookEquipInfo::GridFightHandBookEquipInfo {
-        match self.OKAIINGCACL {
-            ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightEquipInfo(ref v)) => v,
+        match self.BPIHFAJCLOC {
+            ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightEquipInfo(ref v)) => v,
             _ => <super::GridFightHandBookEquipInfo::GridFightHandBookEquipInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_handbook_grid_fight_equip_info(&mut self) {
-        self.OKAIINGCACL = ::std::option::Option::None;
+        self.BPIHFAJCLOC = ::std::option::Option::None;
     }
 
     pub fn has_handbook_grid_fight_equip_info(&self) -> bool {
-        match self.OKAIINGCACL {
-            ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightEquipInfo(..)) => true,
+        match self.BPIHFAJCLOC {
+            ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightEquipInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_handbook_grid_fight_equip_info(&mut self, v: super::GridFightHandBookEquipInfo::GridFightHandBookEquipInfo) {
-        self.OKAIINGCACL = ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightEquipInfo(v))
+        self.BPIHFAJCLOC = ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightEquipInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_handbook_grid_fight_equip_info(&mut self) -> &mut super::GridFightHandBookEquipInfo::GridFightHandBookEquipInfo {
-        if let ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightEquipInfo(_)) = self.OKAIINGCACL {
+        if let ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightEquipInfo(_)) = self.BPIHFAJCLOC {
         } else {
-            self.OKAIINGCACL = ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightEquipInfo(super::GridFightHandBookEquipInfo::GridFightHandBookEquipInfo::new()));
+            self.BPIHFAJCLOC = ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightEquipInfo(super::GridFightHandBookEquipInfo::GridFightHandBookEquipInfo::new()));
         }
-        match self.OKAIINGCACL {
-            ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightEquipInfo(ref mut v)) => v,
+        match self.BPIHFAJCLOC {
+            ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightEquipInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -134,8 +134,8 @@ impl GridFightSeasonHandBookNotify {
     // Take field
     pub fn take_handbook_grid_fight_equip_info(&mut self) -> super::GridFightHandBookEquipInfo::GridFightHandBookEquipInfo {
         if self.has_handbook_grid_fight_equip_info() {
-            match self.OKAIINGCACL.take() {
-                ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightEquipInfo(v)) => v,
+            match self.BPIHFAJCLOC.take() {
+                ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightEquipInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -143,39 +143,39 @@ impl GridFightSeasonHandBookNotify {
         }
     }
 
-    // .GridFightHandBookAugmentInfo handbook_grid_fight_augment_info = 1918;
+    // .GridFightHandBookAugmentInfo handbook_grid_fight_augment_info = 900;
 
     pub fn handbook_grid_fight_augment_info(&self) -> &super::GridFightHandBookAugmentInfo::GridFightHandBookAugmentInfo {
-        match self.OKAIINGCACL {
-            ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightAugmentInfo(ref v)) => v,
+        match self.BPIHFAJCLOC {
+            ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightAugmentInfo(ref v)) => v,
             _ => <super::GridFightHandBookAugmentInfo::GridFightHandBookAugmentInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_handbook_grid_fight_augment_info(&mut self) {
-        self.OKAIINGCACL = ::std::option::Option::None;
+        self.BPIHFAJCLOC = ::std::option::Option::None;
     }
 
     pub fn has_handbook_grid_fight_augment_info(&self) -> bool {
-        match self.OKAIINGCACL {
-            ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightAugmentInfo(..)) => true,
+        match self.BPIHFAJCLOC {
+            ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightAugmentInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_handbook_grid_fight_augment_info(&mut self, v: super::GridFightHandBookAugmentInfo::GridFightHandBookAugmentInfo) {
-        self.OKAIINGCACL = ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightAugmentInfo(v))
+        self.BPIHFAJCLOC = ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightAugmentInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_handbook_grid_fight_augment_info(&mut self) -> &mut super::GridFightHandBookAugmentInfo::GridFightHandBookAugmentInfo {
-        if let ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightAugmentInfo(_)) = self.OKAIINGCACL {
+        if let ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightAugmentInfo(_)) = self.BPIHFAJCLOC {
         } else {
-            self.OKAIINGCACL = ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightAugmentInfo(super::GridFightHandBookAugmentInfo::GridFightHandBookAugmentInfo::new()));
+            self.BPIHFAJCLOC = ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightAugmentInfo(super::GridFightHandBookAugmentInfo::GridFightHandBookAugmentInfo::new()));
         }
-        match self.OKAIINGCACL {
-            ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightAugmentInfo(ref mut v)) => v,
+        match self.BPIHFAJCLOC {
+            ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightAugmentInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -183,8 +183,8 @@ impl GridFightSeasonHandBookNotify {
     // Take field
     pub fn take_handbook_grid_fight_augment_info(&mut self) -> super::GridFightHandBookAugmentInfo::GridFightHandBookAugmentInfo {
         if self.has_handbook_grid_fight_augment_info() {
-            match self.OKAIINGCACL.take() {
-                ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightAugmentInfo(v)) => v,
+            match self.BPIHFAJCLOC.take() {
+                ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightAugmentInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -192,39 +192,39 @@ impl GridFightSeasonHandBookNotify {
         }
     }
 
-    // .GridFightHandBookPortalInfo handbook_grid_fight_portal_info = 2017;
+    // .GridFightHandBookPortalInfo handbook_grid_fight_portal_info = 1914;
 
     pub fn handbook_grid_fight_portal_info(&self) -> &super::GridFightHandBookPortalInfo::GridFightHandBookPortalInfo {
-        match self.OKAIINGCACL {
-            ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightPortalInfo(ref v)) => v,
+        match self.BPIHFAJCLOC {
+            ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightPortalInfo(ref v)) => v,
             _ => <super::GridFightHandBookPortalInfo::GridFightHandBookPortalInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_handbook_grid_fight_portal_info(&mut self) {
-        self.OKAIINGCACL = ::std::option::Option::None;
+        self.BPIHFAJCLOC = ::std::option::Option::None;
     }
 
     pub fn has_handbook_grid_fight_portal_info(&self) -> bool {
-        match self.OKAIINGCACL {
-            ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightPortalInfo(..)) => true,
+        match self.BPIHFAJCLOC {
+            ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightPortalInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_handbook_grid_fight_portal_info(&mut self, v: super::GridFightHandBookPortalInfo::GridFightHandBookPortalInfo) {
-        self.OKAIINGCACL = ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightPortalInfo(v))
+        self.BPIHFAJCLOC = ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightPortalInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_handbook_grid_fight_portal_info(&mut self) -> &mut super::GridFightHandBookPortalInfo::GridFightHandBookPortalInfo {
-        if let ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightPortalInfo(_)) = self.OKAIINGCACL {
+        if let ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightPortalInfo(_)) = self.BPIHFAJCLOC {
         } else {
-            self.OKAIINGCACL = ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightPortalInfo(super::GridFightHandBookPortalInfo::GridFightHandBookPortalInfo::new()));
+            self.BPIHFAJCLOC = ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightPortalInfo(super::GridFightHandBookPortalInfo::GridFightHandBookPortalInfo::new()));
         }
-        match self.OKAIINGCACL {
-            ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightPortalInfo(ref mut v)) => v,
+        match self.BPIHFAJCLOC {
+            ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightPortalInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -232,8 +232,8 @@ impl GridFightSeasonHandBookNotify {
     // Take field
     pub fn take_handbook_grid_fight_portal_info(&mut self) -> super::GridFightHandBookPortalInfo::GridFightHandBookPortalInfo {
         if self.has_handbook_grid_fight_portal_info() {
-            match self.OKAIINGCACL.take() {
-                ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightPortalInfo(v)) => v,
+            match self.BPIHFAJCLOC.take() {
+                ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightPortalInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -241,39 +241,39 @@ impl GridFightSeasonHandBookNotify {
         }
     }
 
-    // .GridFightHandBookMonsterInfo handbook_grid_fight_monster_info = 1424;
+    // .GridFightHandBookMonsterInfo handbook_grid_fight_monster_info = 326;
 
     pub fn handbook_grid_fight_monster_info(&self) -> &super::GridFightHandBookMonsterInfo::GridFightHandBookMonsterInfo {
-        match self.OKAIINGCACL {
-            ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightMonsterInfo(ref v)) => v,
+        match self.BPIHFAJCLOC {
+            ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightMonsterInfo(ref v)) => v,
             _ => <super::GridFightHandBookMonsterInfo::GridFightHandBookMonsterInfo as ::protobuf::Message>::default_instance(),
         }
     }
 
     pub fn clear_handbook_grid_fight_monster_info(&mut self) {
-        self.OKAIINGCACL = ::std::option::Option::None;
+        self.BPIHFAJCLOC = ::std::option::Option::None;
     }
 
     pub fn has_handbook_grid_fight_monster_info(&self) -> bool {
-        match self.OKAIINGCACL {
-            ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightMonsterInfo(..)) => true,
+        match self.BPIHFAJCLOC {
+            ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightMonsterInfo(..)) => true,
             _ => false,
         }
     }
 
     // Param is passed by value, moved
     pub fn set_handbook_grid_fight_monster_info(&mut self, v: super::GridFightHandBookMonsterInfo::GridFightHandBookMonsterInfo) {
-        self.OKAIINGCACL = ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightMonsterInfo(v))
+        self.BPIHFAJCLOC = ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightMonsterInfo(v))
     }
 
     // Mutable pointer to the field.
     pub fn mut_handbook_grid_fight_monster_info(&mut self) -> &mut super::GridFightHandBookMonsterInfo::GridFightHandBookMonsterInfo {
-        if let ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightMonsterInfo(_)) = self.OKAIINGCACL {
+        if let ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightMonsterInfo(_)) = self.BPIHFAJCLOC {
         } else {
-            self.OKAIINGCACL = ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightMonsterInfo(super::GridFightHandBookMonsterInfo::GridFightHandBookMonsterInfo::new()));
+            self.BPIHFAJCLOC = ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightMonsterInfo(super::GridFightHandBookMonsterInfo::GridFightHandBookMonsterInfo::new()));
         }
-        match self.OKAIINGCACL {
-            ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightMonsterInfo(ref mut v)) => v,
+        match self.BPIHFAJCLOC {
+            ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightMonsterInfo(ref mut v)) => v,
             _ => panic!(),
         }
     }
@@ -281,8 +281,8 @@ impl GridFightSeasonHandBookNotify {
     // Take field
     pub fn take_handbook_grid_fight_monster_info(&mut self) -> super::GridFightHandBookMonsterInfo::GridFightHandBookMonsterInfo {
         if self.has_handbook_grid_fight_monster_info() {
-            match self.OKAIINGCACL.take() {
-                ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightMonsterInfo(v)) => v,
+            match self.BPIHFAJCLOC.take() {
+                ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightMonsterInfo(v)) => v,
                 _ => panic!(),
             }
         } else {
@@ -328,7 +328,7 @@ impl GridFightSeasonHandBookNotify {
             GridFightSeasonHandBookNotify::mut_handbook_grid_fight_monster_info,
             GridFightSeasonHandBookNotify::set_handbook_grid_fight_monster_info,
         ));
-        oneofs.push(grid_fight_season_hand_book_notify::OKAIINGCACL::generated_oneof_descriptor_data());
+        oneofs.push(grid_fight_season_hand_book_notify::BPIHFAJCLOC::generated_oneof_descriptor_data());
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GridFightSeasonHandBookNotify>(
             "GridFightSeasonHandBookNotify",
             fields,
@@ -347,20 +347,20 @@ impl ::protobuf::Message for GridFightSeasonHandBookNotify {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                4418 => {
-                    self.OKAIINGCACL = ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightRoleInfo(is.read_message()?));
+                7554 => {
+                    self.BPIHFAJCLOC = ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightRoleInfo(is.read_message()?));
                 },
-                5850 => {
-                    self.OKAIINGCACL = ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightEquipInfo(is.read_message()?));
+                12914 => {
+                    self.BPIHFAJCLOC = ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightEquipInfo(is.read_message()?));
                 },
-                15346 => {
-                    self.OKAIINGCACL = ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightAugmentInfo(is.read_message()?));
+                7202 => {
+                    self.BPIHFAJCLOC = ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightAugmentInfo(is.read_message()?));
                 },
-                16138 => {
-                    self.OKAIINGCACL = ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightPortalInfo(is.read_message()?));
+                15314 => {
+                    self.BPIHFAJCLOC = ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightPortalInfo(is.read_message()?));
                 },
-                11394 => {
-                    self.OKAIINGCACL = ::std::option::Option::Some(grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightMonsterInfo(is.read_message()?));
+                2610 => {
+                    self.BPIHFAJCLOC = ::std::option::Option::Some(grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightMonsterInfo(is.read_message()?));
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -374,25 +374,25 @@ impl ::protobuf::Message for GridFightSeasonHandBookNotify {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let ::std::option::Option::Some(ref v) = self.OKAIINGCACL {
+        if let ::std::option::Option::Some(ref v) = self.BPIHFAJCLOC {
             match v {
-                &grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightRoleInfo(ref v) => {
+                &grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightRoleInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightEquipInfo(ref v) => {
+                &grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightEquipInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightAugmentInfo(ref v) => {
+                &grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightAugmentInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightPortalInfo(ref v) => {
+                &grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightPortalInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
-                &grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightMonsterInfo(ref v) => {
+                &grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightMonsterInfo(ref v) => {
                     let len = v.compute_size();
                     my_size += 2 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
                 },
@@ -404,22 +404,22 @@ impl ::protobuf::Message for GridFightSeasonHandBookNotify {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let ::std::option::Option::Some(ref v) = self.OKAIINGCACL {
+        if let ::std::option::Option::Some(ref v) = self.BPIHFAJCLOC {
             match v {
-                &grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightRoleInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(552, v, os)?;
+                &grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightRoleInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(944, v, os)?;
                 },
-                &grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightEquipInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(731, v, os)?;
+                &grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightEquipInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1614, v, os)?;
                 },
-                &grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightAugmentInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1918, v, os)?;
+                &grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightAugmentInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(900, v, os)?;
                 },
-                &grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightPortalInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(2017, v, os)?;
+                &grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightPortalInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(1914, v, os)?;
                 },
-                &grid_fight_season_hand_book_notify::OKAIINGCACL::HandbookGridFightMonsterInfo(ref v) => {
-                    ::protobuf::rt::write_message_field_with_cached_size(1424, v, os)?;
+                &grid_fight_season_hand_book_notify::BPIHFAJCLOC::HandbookGridFightMonsterInfo(ref v) => {
+                    ::protobuf::rt::write_message_field_with_cached_size(326, v, os)?;
                 },
             };
         }
@@ -440,17 +440,17 @@ impl ::protobuf::Message for GridFightSeasonHandBookNotify {
     }
 
     fn clear(&mut self) {
-        self.OKAIINGCACL = ::std::option::Option::None;
-        self.OKAIINGCACL = ::std::option::Option::None;
-        self.OKAIINGCACL = ::std::option::Option::None;
-        self.OKAIINGCACL = ::std::option::Option::None;
-        self.OKAIINGCACL = ::std::option::Option::None;
+        self.BPIHFAJCLOC = ::std::option::Option::None;
+        self.BPIHFAJCLOC = ::std::option::Option::None;
+        self.BPIHFAJCLOC = ::std::option::Option::None;
+        self.BPIHFAJCLOC = ::std::option::Option::None;
+        self.BPIHFAJCLOC = ::std::option::Option::None;
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GridFightSeasonHandBookNotify {
         static instance: GridFightSeasonHandBookNotify = GridFightSeasonHandBookNotify {
-            OKAIINGCACL: ::std::option::Option::None,
+            BPIHFAJCLOC: ::std::option::Option::None,
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -479,8 +479,8 @@ pub mod grid_fight_season_hand_book_notify {
 
     #[derive(Clone,PartialEq,Debug)]
     #[non_exhaustive]
-    // @@protoc_insertion_point(oneof:GridFightSeasonHandBookNotify.OKAIINGCACL)
-    pub enum OKAIINGCACL {
+    // @@protoc_insertion_point(oneof:GridFightSeasonHandBookNotify.BPIHFAJCLOC)
+    pub enum BPIHFAJCLOC {
         // @@protoc_insertion_point(oneof_field:GridFightSeasonHandBookNotify.handbook_grid_fight_role_info)
         HandbookGridFightRoleInfo(super::super::GridFightHandBookRoleInfo::GridFightHandBookRoleInfo),
         // @@protoc_insertion_point(oneof_field:GridFightSeasonHandBookNotify.handbook_grid_fight_equip_info)
@@ -493,19 +493,19 @@ pub mod grid_fight_season_hand_book_notify {
         HandbookGridFightMonsterInfo(super::super::GridFightHandBookMonsterInfo::GridFightHandBookMonsterInfo),
     }
 
-    impl ::protobuf::Oneof for OKAIINGCACL {
+    impl ::protobuf::Oneof for BPIHFAJCLOC {
     }
 
-    impl ::protobuf::OneofFull for OKAIINGCACL {
+    impl ::protobuf::OneofFull for BPIHFAJCLOC {
         fn descriptor() -> ::protobuf::reflect::OneofDescriptor {
             static descriptor: ::protobuf::rt::Lazy<::protobuf::reflect::OneofDescriptor> = ::protobuf::rt::Lazy::new();
-            descriptor.get(|| <super::GridFightSeasonHandBookNotify as ::protobuf::MessageFull>::descriptor().oneof_by_name("OKAIINGCACL").unwrap()).clone()
+            descriptor.get(|| <super::GridFightSeasonHandBookNotify as ::protobuf::MessageFull>::descriptor().oneof_by_name("BPIHFAJCLOC").unwrap()).clone()
         }
     }
 
-    impl OKAIINGCACL {
+    impl BPIHFAJCLOC {
         pub(in super) fn generated_oneof_descriptor_data() -> ::protobuf::reflect::GeneratedOneofDescriptorData {
-            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<OKAIINGCACL>("OKAIINGCACL")
+            ::protobuf::reflect::GeneratedOneofDescriptorData::new::<BPIHFAJCLOC>("BPIHFAJCLOC")
         }
     }
 }
@@ -515,16 +515,16 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     .proto\x1a\x20GridFightHandBookEquipInfo.proto\x1a\"GridFightHandBookMon\
     sterInfo.proto\x1a!GridFightHandBookPortalInfo.proto\x1a\x1fGridFightHan\
     dBookRoleInfo.proto\"\xae\x04\n\x1dGridFightSeasonHandBookNotify\x12_\n\
-    \x1dhandbook_grid_fight_role_info\x18\xa8\x04\x20\x01(\x0b2\x1a.GridFigh\
+    \x1dhandbook_grid_fight_role_info\x18\xb0\x07\x20\x01(\x0b2\x1a.GridFigh\
     tHandBookRoleInfoH\0R\x19handbookGridFightRoleInfo\x12b\n\x1ehandbook_gr\
-    id_fight_equip_info\x18\xdb\x05\x20\x01(\x0b2\x1b.GridFightHandBookEquip\
+    id_fight_equip_info\x18\xce\x0c\x20\x01(\x0b2\x1b.GridFightHandBookEquip\
     InfoH\0R\x1ahandbookGridFightEquipInfo\x12h\n\x20handbook_grid_fight_aug\
-    ment_info\x18\xfe\x0e\x20\x01(\x0b2\x1d.GridFightHandBookAugmentInfoH\0R\
+    ment_info\x18\x84\x07\x20\x01(\x0b2\x1d.GridFightHandBookAugmentInfoH\0R\
     \x1chandbookGridFightAugmentInfo\x12e\n\x1fhandbook_grid_fight_portal_in\
-    fo\x18\xe1\x0f\x20\x01(\x0b2\x1c.GridFightHandBookPortalInfoH\0R\x1bhand\
+    fo\x18\xfa\x0e\x20\x01(\x0b2\x1c.GridFightHandBookPortalInfoH\0R\x1bhand\
     bookGridFightPortalInfo\x12h\n\x20handbook_grid_fight_monster_info\x18\
-    \x90\x0b\x20\x01(\x0b2\x1d.GridFightHandBookMonsterInfoH\0R\x1chandbookG\
-    ridFightMonsterInfoB\r\n\x0bOKAIINGCACLb\x06proto3\
+    \xc6\x02\x20\x01(\x0b2\x1d.GridFightHandBookMonsterInfoH\0R\x1chandbookG\
+    ridFightMonsterInfoB\r\n\x0bBPIHFAJCLOCb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

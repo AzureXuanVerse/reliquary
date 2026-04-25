@@ -30,8 +30,8 @@ pub struct CakeRaceGetHandbookScRsp {
     // message fields
     // @@protoc_insertion_point(field:CakeRaceGetHandbookScRsp.retcode)
     pub retcode: u32,
-    // @@protoc_insertion_point(field:CakeRaceGetHandbookScRsp.JHKLHMDEMCK)
-    pub JHKLHMDEMCK: ::std::vec::Vec<super::AMCKLJIPNMF::AMCKLJIPNMF>,
+    // @@protoc_insertion_point(field:CakeRaceGetHandbookScRsp.KJNICMLAPNC)
+    pub KJNICMLAPNC: ::std::vec::Vec<super::DNPJOBHHDDH::DNPJOBHHDDH>,
     // special fields
     // @@protoc_insertion_point(special_field:CakeRaceGetHandbookScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -57,9 +57,9 @@ impl CakeRaceGetHandbookScRsp {
             |m: &mut CakeRaceGetHandbookScRsp| { &mut m.retcode },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "JHKLHMDEMCK",
-            |m: &CakeRaceGetHandbookScRsp| { &m.JHKLHMDEMCK },
-            |m: &mut CakeRaceGetHandbookScRsp| { &mut m.JHKLHMDEMCK },
+            "KJNICMLAPNC",
+            |m: &CakeRaceGetHandbookScRsp| { &m.KJNICMLAPNC },
+            |m: &mut CakeRaceGetHandbookScRsp| { &mut m.KJNICMLAPNC },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<CakeRaceGetHandbookScRsp>(
             "CakeRaceGetHandbookScRsp",
@@ -82,8 +82,8 @@ impl ::protobuf::Message for CakeRaceGetHandbookScRsp {
                 80 => {
                     self.retcode = is.read_uint32()?;
                 },
-                18 => {
-                    self.JHKLHMDEMCK.push(is.read_message()?);
+                42 => {
+                    self.KJNICMLAPNC.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -100,7 +100,7 @@ impl ::protobuf::Message for CakeRaceGetHandbookScRsp {
         if self.retcode != 0 {
             my_size += ::protobuf::rt::uint32_size(10, self.retcode);
         }
-        for value in &self.JHKLHMDEMCK {
+        for value in &self.KJNICMLAPNC {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
@@ -113,8 +113,8 @@ impl ::protobuf::Message for CakeRaceGetHandbookScRsp {
         if self.retcode != 0 {
             os.write_uint32(10, self.retcode)?;
         }
-        for v in &self.JHKLHMDEMCK {
-            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
+        for v in &self.KJNICMLAPNC {
+            ::protobuf::rt::write_message_field_with_cached_size(5, v, os)?;
         };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -134,14 +134,14 @@ impl ::protobuf::Message for CakeRaceGetHandbookScRsp {
 
     fn clear(&mut self) {
         self.retcode = 0;
-        self.JHKLHMDEMCK.clear();
+        self.KJNICMLAPNC.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static CakeRaceGetHandbookScRsp {
         static instance: CakeRaceGetHandbookScRsp = CakeRaceGetHandbookScRsp {
             retcode: 0,
-            JHKLHMDEMCK: ::std::vec::Vec::new(),
+            KJNICMLAPNC: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,10 +166,10 @@ impl ::protobuf::reflect::ProtobufValue for CakeRaceGetHandbookScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1eCakeRaceGetHandbookScRsp.proto\x1a\x11AMCKLJIPNMF.proto\"d\n\x18Ca\
+    \n\x1eCakeRaceGetHandbookScRsp.proto\x1a\x11DNPJOBHHDDH.proto\"d\n\x18Ca\
     keRaceGetHandbookScRsp\x12\x18\n\x07retcode\x18\n\x20\x01(\rR\x07retcode\
-    \x12.\n\x0bJHKLHMDEMCK\x18\x02\x20\x03(\x0b2\x0c.AMCKLJIPNMFR\x0bJHKLHMD\
-    EMCKb\x06proto3\
+    \x12.\n\x0bKJNICMLAPNC\x18\x05\x20\x03(\x0b2\x0c.DNPJOBHHDDHR\x0bKJNICML\
+    APNCb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -187,7 +187,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::AMCKLJIPNMF::file_descriptor().clone());
+            deps.push(super::DNPJOBHHDDH::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(CakeRaceGetHandbookScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

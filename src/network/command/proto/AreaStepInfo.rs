@@ -28,10 +28,10 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct AreaStepInfo {
     // message fields
-    // @@protoc_insertion_point(field:AreaStepInfo.DECGMJJHGIG)
-    pub DECGMJJHGIG: u32,
-    // @@protoc_insertion_point(field:AreaStepInfo.CMPNGIPDHEN)
-    pub CMPNGIPDHEN: ::std::vec::Vec<super::HONGJFGNOND::HONGJFGNOND>,
+    // @@protoc_insertion_point(field:AreaStepInfo.OIGHBOMFGGD)
+    pub OIGHBOMFGGD: u32,
+    // @@protoc_insertion_point(field:AreaStepInfo.GNMOOIOIIAP)
+    pub GNMOOIOIIAP: ::std::vec::Vec<super::IDHNJFPAEGP::IDHNJFPAEGP>,
     // special fields
     // @@protoc_insertion_point(special_field:AreaStepInfo.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -52,14 +52,14 @@ impl AreaStepInfo {
         let mut fields = ::std::vec::Vec::with_capacity(2);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "DECGMJJHGIG",
-            |m: &AreaStepInfo| { &m.DECGMJJHGIG },
-            |m: &mut AreaStepInfo| { &mut m.DECGMJJHGIG },
+            "OIGHBOMFGGD",
+            |m: &AreaStepInfo| { &m.OIGHBOMFGGD },
+            |m: &mut AreaStepInfo| { &mut m.OIGHBOMFGGD },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "CMPNGIPDHEN",
-            |m: &AreaStepInfo| { &m.CMPNGIPDHEN },
-            |m: &mut AreaStepInfo| { &mut m.CMPNGIPDHEN },
+            "GNMOOIOIIAP",
+            |m: &AreaStepInfo| { &m.GNMOOIOIIAP },
+            |m: &mut AreaStepInfo| { &mut m.GNMOOIOIIAP },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<AreaStepInfo>(
             "AreaStepInfo",
@@ -79,11 +79,11 @@ impl ::protobuf::Message for AreaStepInfo {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                72 => {
-                    self.DECGMJJHGIG = is.read_uint32()?;
+                80 => {
+                    self.OIGHBOMFGGD = is.read_uint32()?;
                 },
-                122 => {
-                    self.CMPNGIPDHEN.push(is.read_message()?);
+                74 => {
+                    self.GNMOOIOIIAP.push(is.read_message()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -97,10 +97,10 @@ impl ::protobuf::Message for AreaStepInfo {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if self.DECGMJJHGIG != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.DECGMJJHGIG);
+        if self.OIGHBOMFGGD != 0 {
+            my_size += ::protobuf::rt::uint32_size(10, self.OIGHBOMFGGD);
         }
-        for value in &self.CMPNGIPDHEN {
+        for value in &self.GNMOOIOIIAP {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
@@ -110,11 +110,11 @@ impl ::protobuf::Message for AreaStepInfo {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if self.DECGMJJHGIG != 0 {
-            os.write_uint32(9, self.DECGMJJHGIG)?;
+        if self.OIGHBOMFGGD != 0 {
+            os.write_uint32(10, self.OIGHBOMFGGD)?;
         }
-        for v in &self.CMPNGIPDHEN {
-            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
+        for v in &self.GNMOOIOIIAP {
+            ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
         };
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -133,15 +133,15 @@ impl ::protobuf::Message for AreaStepInfo {
     }
 
     fn clear(&mut self) {
-        self.DECGMJJHGIG = 0;
-        self.CMPNGIPDHEN.clear();
+        self.OIGHBOMFGGD = 0;
+        self.GNMOOIOIIAP.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static AreaStepInfo {
         static instance: AreaStepInfo = AreaStepInfo {
-            DECGMJJHGIG: 0,
-            CMPNGIPDHEN: ::std::vec::Vec::new(),
+            OIGHBOMFGGD: 0,
+            GNMOOIOIIAP: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -166,10 +166,9 @@ impl ::protobuf::reflect::ProtobufValue for AreaStepInfo {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x12AreaStepInfo.proto\x1a\x11HONGJFGNOND.proto\"`\n\x0cAreaStepInfo\
-    \x12\x20\n\x0bDECGMJJHGIG\x18\t\x20\x01(\rR\x0bDECGMJJHGIG\x12.\n\x0bCMP\
-    NGIPDHEN\x18\x0f\x20\x03(\x0b2\x0c.HONGJFGNONDR\x0bCMPNGIPDHENb\x06proto\
-    3\
+    \n\x12AreaStepInfo.proto\x1a\x11IDHNJFPAEGP.proto\"`\n\x0cAreaStepInfo\
+    \x12\x20\n\x0bOIGHBOMFGGD\x18\n\x20\x01(\rR\x0bOIGHBOMFGGD\x12.\n\x0bGNM\
+    OOIOIIAP\x18\t\x20\x03(\x0b2\x0c.IDHNJFPAEGPR\x0bGNMOOIOIIAPb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -187,7 +186,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::HONGJFGNOND::file_descriptor().clone());
+            deps.push(super::IDHNJFPAEGP::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(AreaStepInfo::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

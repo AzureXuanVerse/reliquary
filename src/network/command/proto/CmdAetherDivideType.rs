@@ -27,76 +27,76 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdAetherDivideType)
 pub enum CmdAetherDivideType {
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_MNFEPONEDDJ)
-    CmdAetherDivideType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_JAIDANJFFMM)
-    CmdAetherDivideType_JAIDANJFFMM = 4805,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_FPCDHOFBFAO)
-    CmdAetherDivideType_FPCDHOFBFAO = 4814,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_JNKMFCDGPLD)
-    CmdAetherDivideType_JNKMFCDGPLD = 4822,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_AAOOOPCFNHC)
-    CmdAetherDivideType_AAOOOPCFNHC = 4839,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_LLLMNCNBNOC)
-    CmdAetherDivideType_LLLMNCNBNOC = 4813,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_LJFJMHEBDFL)
-    CmdAetherDivideType_LJFJMHEBDFL = 4842,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_EGEJMBMDNBD)
-    CmdAetherDivideType_EGEJMBMDNBD = 4820,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_ADDIEOCKMAD)
-    CmdAetherDivideType_ADDIEOCKMAD = 4801,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_KAMKBDGAMOB)
-    CmdAetherDivideType_KAMKBDGAMOB = 4846,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_KAIBJFNFMCO)
-    CmdAetherDivideType_KAIBJFNFMCO = 4829,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_KKOMJELKGOA)
-    CmdAetherDivideType_KKOMJELKGOA = 4804,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_EGGOKPMIMKD)
-    CmdAetherDivideType_EGGOKPMIMKD = 4823,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_FHLGAKBFBNO)
-    CmdAetherDivideType_FHLGAKBFBNO = 4821,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_NNECJGOAIJP)
-    CmdAetherDivideType_NNECJGOAIJP = 4849,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_FCBOJCCDJID)
-    CmdAetherDivideType_FCBOJCCDJID = 4803,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_HMDOINHHNPB)
-    CmdAetherDivideType_HMDOINHHNPB = 4812,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_NPMPNKMBFHF)
-    CmdAetherDivideType_NPMPNKMBFHF = 4831,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_BJDPEPINBAJ)
-    CmdAetherDivideType_BJDPEPINBAJ = 4838,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_NNDJAEEIKFL)
-    CmdAetherDivideType_NNDJAEEIKFL = 4834,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_HGAMDCIKGKJ)
-    CmdAetherDivideType_HGAMDCIKGKJ = 4841,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_GJLJGPCAPFF)
-    CmdAetherDivideType_GJLJGPCAPFF = 4802,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_ICJKHPLFJOM)
-    CmdAetherDivideType_ICJKHPLFJOM = 4808,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_NBDBACLIDOM)
-    CmdAetherDivideType_NBDBACLIDOM = 4824,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_FBCDAAPHBCM)
-    CmdAetherDivideType_FBCDAAPHBCM = 4835,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_BIAOLEPBLEO)
-    CmdAetherDivideType_BIAOLEPBLEO = 4819,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_GFNBNCDNGON)
-    CmdAetherDivideType_GFNBNCDNGON = 4832,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_MHABNLDALHK)
-    CmdAetherDivideType_MHABNLDALHK = 4818,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_CNEKELPMAPF)
-    CmdAetherDivideType_CNEKELPMAPF = 4811,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_PALLHMLFKAF)
-    CmdAetherDivideType_PALLHMLFKAF = 4828,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_JINHAJGGHKE)
-    CmdAetherDivideType_JINHAJGGHKE = 4809,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_MDNIKPPDHCK)
-    CmdAetherDivideType_MDNIKPPDHCK = 4806,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_CFPPAOOOOGB)
-    CmdAetherDivideType_CFPPAOOOOGB = 4826,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_NCNJNJBFAPG)
-    CmdAetherDivideType_NCNJNJBFAPG = 4840,
-    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideType_LGMMAABDHJK)
-    CmdAetherDivideType_LGMMAABDHJK = 4817,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.FIBGNBKGHNF_PCPDHELPKEM)
+    FIBGNBKGHNF_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdTakeOffSkillCoreScRsp)
+    CmdTakeOffSkillCoreScRsp = 4816,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdClearAetherDividePassiveSkillCsReq)
+    CmdClearAetherDividePassiveSkillCsReq = 4850,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdSwitchAetherDivideLineUpSlotScRsp)
+    CmdSwitchAetherDivideLineUpSlotScRsp = 4821,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdNPBNPOKGNCI)
+    CmdNPBNPOKGNCI = 4827,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdStartAetherDivideStageBattleScRsp)
+    CmdStartAetherDivideStageBattleScRsp = 4815,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideTakeChallengeRewardScRsp)
+    CmdAetherDivideTakeChallengeRewardScRsp = 4840,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideTainerInfoScNotify)
+    CmdAetherDivideTainerInfoScNotify = 4837,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideRefreshEndlessScRsp)
+    CmdAetherDivideRefreshEndlessScRsp = 4820,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdStartAetherDivideChallengeBattleScRsp)
+    CmdStartAetherDivideChallengeBattleScRsp = 4801,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdGetAetherDivideChallengeInfoScRsp)
+    CmdGetAetherDivideChallengeInfoScRsp = 4809,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideSpiritInfoScNotify)
+    CmdAetherDivideSpiritInfoScNotify = 4808,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideSpiritExpUpScRsp)
+    CmdAetherDivideSpiritExpUpScRsp = 4826,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdGetAetherDivideChallengeInfoCsReq)
+    CmdGetAetherDivideChallengeInfoCsReq = 4833,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdSetAetherDivideLineUpCsReq)
+    CmdSetAetherDivideLineUpCsReq = 4818,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdSwitchAetherDivideLineUpSlotCsReq)
+    CmdSwitchAetherDivideLineUpSlotCsReq = 4831,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideTakeChallengeRewardCsReq)
+    CmdAetherDivideTakeChallengeRewardCsReq = 4846,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdStartAetherDivideChallengeBattleCsReq)
+    CmdStartAetherDivideChallengeBattleCsReq = 4805,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdGetAetherDivideInfoCsReq)
+    CmdGetAetherDivideInfoCsReq = 4802,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideSkillItemScNotify)
+    CmdAetherDivideSkillItemScNotify = 4848,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdSetAetherDivideLineUpScRsp)
+    CmdSetAetherDivideLineUpScRsp = 4845,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideLineupScNotify)
+    CmdAetherDivideLineupScNotify = 4843,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideRefreshEndlessScNotify)
+    CmdAetherDivideRefreshEndlessScNotify = 4822,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdStartAetherDivideSceneBattleScRsp)
+    CmdStartAetherDivideSceneBattleScRsp = 4838,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdIAKBLOMJELJ)
+    CmdIAKBLOMJELJ = 4807,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdEquipSkillCoreScRsp)
+    CmdEquipSkillCoreScRsp = 4803,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdLeaveAetherDivideSceneCsReq)
+    CmdLeaveAetherDivideSceneCsReq = 4830,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdGetAetherDivideInfoScRsp)
+    CmdGetAetherDivideInfoScRsp = 4844,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideFinishChallengeScNotify)
+    CmdAetherDivideFinishChallengeScNotify = 4804,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideRefreshEndlessCsReq)
+    CmdAetherDivideRefreshEndlessCsReq = 4839,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdStartAetherDivideStageBattleCsReq)
+    CmdStartAetherDivideStageBattleCsReq = 4849,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdStartAetherDivideSceneBattleCsReq)
+    CmdStartAetherDivideSceneBattleCsReq = 4835,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdAetherDivideSpiritExpUpCsReq)
+    CmdAetherDivideSpiritExpUpCsReq = 4806,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.CmdEquipAetherDividePassiveSkillCsReq)
+    CmdEquipAetherDividePassiveSkillCsReq = 4836,
+    // @@protoc_insertion_point(enum_value:CmdAetherDivideType.FIBGNBKGHNF_LMEOEKDAMAM)
+    FIBGNBKGHNF_LMEOEKDAMAM = 4813,
 }
 
 impl ::protobuf::Enum for CmdAetherDivideType {
@@ -108,122 +108,122 @@ impl ::protobuf::Enum for CmdAetherDivideType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdAetherDivideType> {
         match value {
-            0 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_MNFEPONEDDJ),
-            4805 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_JAIDANJFFMM),
-            4814 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_FPCDHOFBFAO),
-            4822 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_JNKMFCDGPLD),
-            4839 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_AAOOOPCFNHC),
-            4813 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_LLLMNCNBNOC),
-            4842 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_LJFJMHEBDFL),
-            4820 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_EGEJMBMDNBD),
-            4801 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_ADDIEOCKMAD),
-            4846 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_KAMKBDGAMOB),
-            4829 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_KAIBJFNFMCO),
-            4804 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_KKOMJELKGOA),
-            4823 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_EGGOKPMIMKD),
-            4821 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_FHLGAKBFBNO),
-            4849 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_NNECJGOAIJP),
-            4803 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_FCBOJCCDJID),
-            4812 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_HMDOINHHNPB),
-            4831 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_NPMPNKMBFHF),
-            4838 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_BJDPEPINBAJ),
-            4834 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_NNDJAEEIKFL),
-            4841 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_HGAMDCIKGKJ),
-            4802 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_GJLJGPCAPFF),
-            4808 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_ICJKHPLFJOM),
-            4824 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_NBDBACLIDOM),
-            4835 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_FBCDAAPHBCM),
-            4819 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_BIAOLEPBLEO),
-            4832 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_GFNBNCDNGON),
-            4818 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_MHABNLDALHK),
-            4811 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_CNEKELPMAPF),
-            4828 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_PALLHMLFKAF),
-            4809 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_JINHAJGGHKE),
-            4806 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_MDNIKPPDHCK),
-            4826 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_CFPPAOOOOGB),
-            4840 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_NCNJNJBFAPG),
-            4817 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_LGMMAABDHJK),
+            0 => ::std::option::Option::Some(CmdAetherDivideType::FIBGNBKGHNF_PCPDHELPKEM),
+            4816 => ::std::option::Option::Some(CmdAetherDivideType::CmdTakeOffSkillCoreScRsp),
+            4850 => ::std::option::Option::Some(CmdAetherDivideType::CmdClearAetherDividePassiveSkillCsReq),
+            4821 => ::std::option::Option::Some(CmdAetherDivideType::CmdSwitchAetherDivideLineUpSlotScRsp),
+            4827 => ::std::option::Option::Some(CmdAetherDivideType::CmdNPBNPOKGNCI),
+            4815 => ::std::option::Option::Some(CmdAetherDivideType::CmdStartAetherDivideStageBattleScRsp),
+            4840 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideTakeChallengeRewardScRsp),
+            4837 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideTainerInfoScNotify),
+            4820 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideRefreshEndlessScRsp),
+            4801 => ::std::option::Option::Some(CmdAetherDivideType::CmdStartAetherDivideChallengeBattleScRsp),
+            4809 => ::std::option::Option::Some(CmdAetherDivideType::CmdGetAetherDivideChallengeInfoScRsp),
+            4808 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideSpiritInfoScNotify),
+            4826 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideSpiritExpUpScRsp),
+            4833 => ::std::option::Option::Some(CmdAetherDivideType::CmdGetAetherDivideChallengeInfoCsReq),
+            4818 => ::std::option::Option::Some(CmdAetherDivideType::CmdSetAetherDivideLineUpCsReq),
+            4831 => ::std::option::Option::Some(CmdAetherDivideType::CmdSwitchAetherDivideLineUpSlotCsReq),
+            4846 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideTakeChallengeRewardCsReq),
+            4805 => ::std::option::Option::Some(CmdAetherDivideType::CmdStartAetherDivideChallengeBattleCsReq),
+            4802 => ::std::option::Option::Some(CmdAetherDivideType::CmdGetAetherDivideInfoCsReq),
+            4848 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideSkillItemScNotify),
+            4845 => ::std::option::Option::Some(CmdAetherDivideType::CmdSetAetherDivideLineUpScRsp),
+            4843 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideLineupScNotify),
+            4822 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideRefreshEndlessScNotify),
+            4838 => ::std::option::Option::Some(CmdAetherDivideType::CmdStartAetherDivideSceneBattleScRsp),
+            4807 => ::std::option::Option::Some(CmdAetherDivideType::CmdIAKBLOMJELJ),
+            4803 => ::std::option::Option::Some(CmdAetherDivideType::CmdEquipSkillCoreScRsp),
+            4830 => ::std::option::Option::Some(CmdAetherDivideType::CmdLeaveAetherDivideSceneCsReq),
+            4844 => ::std::option::Option::Some(CmdAetherDivideType::CmdGetAetherDivideInfoScRsp),
+            4804 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideFinishChallengeScNotify),
+            4839 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideRefreshEndlessCsReq),
+            4849 => ::std::option::Option::Some(CmdAetherDivideType::CmdStartAetherDivideStageBattleCsReq),
+            4835 => ::std::option::Option::Some(CmdAetherDivideType::CmdStartAetherDivideSceneBattleCsReq),
+            4806 => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideSpiritExpUpCsReq),
+            4836 => ::std::option::Option::Some(CmdAetherDivideType::CmdEquipAetherDividePassiveSkillCsReq),
+            4813 => ::std::option::Option::Some(CmdAetherDivideType::FIBGNBKGHNF_LMEOEKDAMAM),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdAetherDivideType> {
         match str {
-            "CmdAetherDivideType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_MNFEPONEDDJ),
-            "CmdAetherDivideType_JAIDANJFFMM" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_JAIDANJFFMM),
-            "CmdAetherDivideType_FPCDHOFBFAO" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_FPCDHOFBFAO),
-            "CmdAetherDivideType_JNKMFCDGPLD" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_JNKMFCDGPLD),
-            "CmdAetherDivideType_AAOOOPCFNHC" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_AAOOOPCFNHC),
-            "CmdAetherDivideType_LLLMNCNBNOC" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_LLLMNCNBNOC),
-            "CmdAetherDivideType_LJFJMHEBDFL" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_LJFJMHEBDFL),
-            "CmdAetherDivideType_EGEJMBMDNBD" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_EGEJMBMDNBD),
-            "CmdAetherDivideType_ADDIEOCKMAD" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_ADDIEOCKMAD),
-            "CmdAetherDivideType_KAMKBDGAMOB" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_KAMKBDGAMOB),
-            "CmdAetherDivideType_KAIBJFNFMCO" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_KAIBJFNFMCO),
-            "CmdAetherDivideType_KKOMJELKGOA" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_KKOMJELKGOA),
-            "CmdAetherDivideType_EGGOKPMIMKD" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_EGGOKPMIMKD),
-            "CmdAetherDivideType_FHLGAKBFBNO" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_FHLGAKBFBNO),
-            "CmdAetherDivideType_NNECJGOAIJP" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_NNECJGOAIJP),
-            "CmdAetherDivideType_FCBOJCCDJID" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_FCBOJCCDJID),
-            "CmdAetherDivideType_HMDOINHHNPB" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_HMDOINHHNPB),
-            "CmdAetherDivideType_NPMPNKMBFHF" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_NPMPNKMBFHF),
-            "CmdAetherDivideType_BJDPEPINBAJ" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_BJDPEPINBAJ),
-            "CmdAetherDivideType_NNDJAEEIKFL" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_NNDJAEEIKFL),
-            "CmdAetherDivideType_HGAMDCIKGKJ" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_HGAMDCIKGKJ),
-            "CmdAetherDivideType_GJLJGPCAPFF" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_GJLJGPCAPFF),
-            "CmdAetherDivideType_ICJKHPLFJOM" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_ICJKHPLFJOM),
-            "CmdAetherDivideType_NBDBACLIDOM" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_NBDBACLIDOM),
-            "CmdAetherDivideType_FBCDAAPHBCM" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_FBCDAAPHBCM),
-            "CmdAetherDivideType_BIAOLEPBLEO" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_BIAOLEPBLEO),
-            "CmdAetherDivideType_GFNBNCDNGON" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_GFNBNCDNGON),
-            "CmdAetherDivideType_MHABNLDALHK" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_MHABNLDALHK),
-            "CmdAetherDivideType_CNEKELPMAPF" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_CNEKELPMAPF),
-            "CmdAetherDivideType_PALLHMLFKAF" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_PALLHMLFKAF),
-            "CmdAetherDivideType_JINHAJGGHKE" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_JINHAJGGHKE),
-            "CmdAetherDivideType_MDNIKPPDHCK" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_MDNIKPPDHCK),
-            "CmdAetherDivideType_CFPPAOOOOGB" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_CFPPAOOOOGB),
-            "CmdAetherDivideType_NCNJNJBFAPG" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_NCNJNJBFAPG),
-            "CmdAetherDivideType_LGMMAABDHJK" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideType_LGMMAABDHJK),
+            "FIBGNBKGHNF_PCPDHELPKEM" => ::std::option::Option::Some(CmdAetherDivideType::FIBGNBKGHNF_PCPDHELPKEM),
+            "CmdTakeOffSkillCoreScRsp" => ::std::option::Option::Some(CmdAetherDivideType::CmdTakeOffSkillCoreScRsp),
+            "CmdClearAetherDividePassiveSkillCsReq" => ::std::option::Option::Some(CmdAetherDivideType::CmdClearAetherDividePassiveSkillCsReq),
+            "CmdSwitchAetherDivideLineUpSlotScRsp" => ::std::option::Option::Some(CmdAetherDivideType::CmdSwitchAetherDivideLineUpSlotScRsp),
+            "CmdNPBNPOKGNCI" => ::std::option::Option::Some(CmdAetherDivideType::CmdNPBNPOKGNCI),
+            "CmdStartAetherDivideStageBattleScRsp" => ::std::option::Option::Some(CmdAetherDivideType::CmdStartAetherDivideStageBattleScRsp),
+            "CmdAetherDivideTakeChallengeRewardScRsp" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideTakeChallengeRewardScRsp),
+            "CmdAetherDivideTainerInfoScNotify" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideTainerInfoScNotify),
+            "CmdAetherDivideRefreshEndlessScRsp" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideRefreshEndlessScRsp),
+            "CmdStartAetherDivideChallengeBattleScRsp" => ::std::option::Option::Some(CmdAetherDivideType::CmdStartAetherDivideChallengeBattleScRsp),
+            "CmdGetAetherDivideChallengeInfoScRsp" => ::std::option::Option::Some(CmdAetherDivideType::CmdGetAetherDivideChallengeInfoScRsp),
+            "CmdAetherDivideSpiritInfoScNotify" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideSpiritInfoScNotify),
+            "CmdAetherDivideSpiritExpUpScRsp" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideSpiritExpUpScRsp),
+            "CmdGetAetherDivideChallengeInfoCsReq" => ::std::option::Option::Some(CmdAetherDivideType::CmdGetAetherDivideChallengeInfoCsReq),
+            "CmdSetAetherDivideLineUpCsReq" => ::std::option::Option::Some(CmdAetherDivideType::CmdSetAetherDivideLineUpCsReq),
+            "CmdSwitchAetherDivideLineUpSlotCsReq" => ::std::option::Option::Some(CmdAetherDivideType::CmdSwitchAetherDivideLineUpSlotCsReq),
+            "CmdAetherDivideTakeChallengeRewardCsReq" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideTakeChallengeRewardCsReq),
+            "CmdStartAetherDivideChallengeBattleCsReq" => ::std::option::Option::Some(CmdAetherDivideType::CmdStartAetherDivideChallengeBattleCsReq),
+            "CmdGetAetherDivideInfoCsReq" => ::std::option::Option::Some(CmdAetherDivideType::CmdGetAetherDivideInfoCsReq),
+            "CmdAetherDivideSkillItemScNotify" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideSkillItemScNotify),
+            "CmdSetAetherDivideLineUpScRsp" => ::std::option::Option::Some(CmdAetherDivideType::CmdSetAetherDivideLineUpScRsp),
+            "CmdAetherDivideLineupScNotify" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideLineupScNotify),
+            "CmdAetherDivideRefreshEndlessScNotify" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideRefreshEndlessScNotify),
+            "CmdStartAetherDivideSceneBattleScRsp" => ::std::option::Option::Some(CmdAetherDivideType::CmdStartAetherDivideSceneBattleScRsp),
+            "CmdIAKBLOMJELJ" => ::std::option::Option::Some(CmdAetherDivideType::CmdIAKBLOMJELJ),
+            "CmdEquipSkillCoreScRsp" => ::std::option::Option::Some(CmdAetherDivideType::CmdEquipSkillCoreScRsp),
+            "CmdLeaveAetherDivideSceneCsReq" => ::std::option::Option::Some(CmdAetherDivideType::CmdLeaveAetherDivideSceneCsReq),
+            "CmdGetAetherDivideInfoScRsp" => ::std::option::Option::Some(CmdAetherDivideType::CmdGetAetherDivideInfoScRsp),
+            "CmdAetherDivideFinishChallengeScNotify" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideFinishChallengeScNotify),
+            "CmdAetherDivideRefreshEndlessCsReq" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideRefreshEndlessCsReq),
+            "CmdStartAetherDivideStageBattleCsReq" => ::std::option::Option::Some(CmdAetherDivideType::CmdStartAetherDivideStageBattleCsReq),
+            "CmdStartAetherDivideSceneBattleCsReq" => ::std::option::Option::Some(CmdAetherDivideType::CmdStartAetherDivideSceneBattleCsReq),
+            "CmdAetherDivideSpiritExpUpCsReq" => ::std::option::Option::Some(CmdAetherDivideType::CmdAetherDivideSpiritExpUpCsReq),
+            "CmdEquipAetherDividePassiveSkillCsReq" => ::std::option::Option::Some(CmdAetherDivideType::CmdEquipAetherDividePassiveSkillCsReq),
+            "FIBGNBKGHNF_LMEOEKDAMAM" => ::std::option::Option::Some(CmdAetherDivideType::FIBGNBKGHNF_LMEOEKDAMAM),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdAetherDivideType] = &[
-        CmdAetherDivideType::CmdAetherDivideType_MNFEPONEDDJ,
-        CmdAetherDivideType::CmdAetherDivideType_JAIDANJFFMM,
-        CmdAetherDivideType::CmdAetherDivideType_FPCDHOFBFAO,
-        CmdAetherDivideType::CmdAetherDivideType_JNKMFCDGPLD,
-        CmdAetherDivideType::CmdAetherDivideType_AAOOOPCFNHC,
-        CmdAetherDivideType::CmdAetherDivideType_LLLMNCNBNOC,
-        CmdAetherDivideType::CmdAetherDivideType_LJFJMHEBDFL,
-        CmdAetherDivideType::CmdAetherDivideType_EGEJMBMDNBD,
-        CmdAetherDivideType::CmdAetherDivideType_ADDIEOCKMAD,
-        CmdAetherDivideType::CmdAetherDivideType_KAMKBDGAMOB,
-        CmdAetherDivideType::CmdAetherDivideType_KAIBJFNFMCO,
-        CmdAetherDivideType::CmdAetherDivideType_KKOMJELKGOA,
-        CmdAetherDivideType::CmdAetherDivideType_EGGOKPMIMKD,
-        CmdAetherDivideType::CmdAetherDivideType_FHLGAKBFBNO,
-        CmdAetherDivideType::CmdAetherDivideType_NNECJGOAIJP,
-        CmdAetherDivideType::CmdAetherDivideType_FCBOJCCDJID,
-        CmdAetherDivideType::CmdAetherDivideType_HMDOINHHNPB,
-        CmdAetherDivideType::CmdAetherDivideType_NPMPNKMBFHF,
-        CmdAetherDivideType::CmdAetherDivideType_BJDPEPINBAJ,
-        CmdAetherDivideType::CmdAetherDivideType_NNDJAEEIKFL,
-        CmdAetherDivideType::CmdAetherDivideType_HGAMDCIKGKJ,
-        CmdAetherDivideType::CmdAetherDivideType_GJLJGPCAPFF,
-        CmdAetherDivideType::CmdAetherDivideType_ICJKHPLFJOM,
-        CmdAetherDivideType::CmdAetherDivideType_NBDBACLIDOM,
-        CmdAetherDivideType::CmdAetherDivideType_FBCDAAPHBCM,
-        CmdAetherDivideType::CmdAetherDivideType_BIAOLEPBLEO,
-        CmdAetherDivideType::CmdAetherDivideType_GFNBNCDNGON,
-        CmdAetherDivideType::CmdAetherDivideType_MHABNLDALHK,
-        CmdAetherDivideType::CmdAetherDivideType_CNEKELPMAPF,
-        CmdAetherDivideType::CmdAetherDivideType_PALLHMLFKAF,
-        CmdAetherDivideType::CmdAetherDivideType_JINHAJGGHKE,
-        CmdAetherDivideType::CmdAetherDivideType_MDNIKPPDHCK,
-        CmdAetherDivideType::CmdAetherDivideType_CFPPAOOOOGB,
-        CmdAetherDivideType::CmdAetherDivideType_NCNJNJBFAPG,
-        CmdAetherDivideType::CmdAetherDivideType_LGMMAABDHJK,
+        CmdAetherDivideType::FIBGNBKGHNF_PCPDHELPKEM,
+        CmdAetherDivideType::CmdTakeOffSkillCoreScRsp,
+        CmdAetherDivideType::CmdClearAetherDividePassiveSkillCsReq,
+        CmdAetherDivideType::CmdSwitchAetherDivideLineUpSlotScRsp,
+        CmdAetherDivideType::CmdNPBNPOKGNCI,
+        CmdAetherDivideType::CmdStartAetherDivideStageBattleScRsp,
+        CmdAetherDivideType::CmdAetherDivideTakeChallengeRewardScRsp,
+        CmdAetherDivideType::CmdAetherDivideTainerInfoScNotify,
+        CmdAetherDivideType::CmdAetherDivideRefreshEndlessScRsp,
+        CmdAetherDivideType::CmdStartAetherDivideChallengeBattleScRsp,
+        CmdAetherDivideType::CmdGetAetherDivideChallengeInfoScRsp,
+        CmdAetherDivideType::CmdAetherDivideSpiritInfoScNotify,
+        CmdAetherDivideType::CmdAetherDivideSpiritExpUpScRsp,
+        CmdAetherDivideType::CmdGetAetherDivideChallengeInfoCsReq,
+        CmdAetherDivideType::CmdSetAetherDivideLineUpCsReq,
+        CmdAetherDivideType::CmdSwitchAetherDivideLineUpSlotCsReq,
+        CmdAetherDivideType::CmdAetherDivideTakeChallengeRewardCsReq,
+        CmdAetherDivideType::CmdStartAetherDivideChallengeBattleCsReq,
+        CmdAetherDivideType::CmdGetAetherDivideInfoCsReq,
+        CmdAetherDivideType::CmdAetherDivideSkillItemScNotify,
+        CmdAetherDivideType::CmdSetAetherDivideLineUpScRsp,
+        CmdAetherDivideType::CmdAetherDivideLineupScNotify,
+        CmdAetherDivideType::CmdAetherDivideRefreshEndlessScNotify,
+        CmdAetherDivideType::CmdStartAetherDivideSceneBattleScRsp,
+        CmdAetherDivideType::CmdIAKBLOMJELJ,
+        CmdAetherDivideType::CmdEquipSkillCoreScRsp,
+        CmdAetherDivideType::CmdLeaveAetherDivideSceneCsReq,
+        CmdAetherDivideType::CmdGetAetherDivideInfoScRsp,
+        CmdAetherDivideType::CmdAetherDivideFinishChallengeScNotify,
+        CmdAetherDivideType::CmdAetherDivideRefreshEndlessCsReq,
+        CmdAetherDivideType::CmdStartAetherDivideStageBattleCsReq,
+        CmdAetherDivideType::CmdStartAetherDivideSceneBattleCsReq,
+        CmdAetherDivideType::CmdAetherDivideSpiritExpUpCsReq,
+        CmdAetherDivideType::CmdEquipAetherDividePassiveSkillCsReq,
+        CmdAetherDivideType::FIBGNBKGHNF_LMEOEKDAMAM,
     ];
 }
 
@@ -235,41 +235,41 @@ impl ::protobuf::EnumFull for CmdAetherDivideType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdAetherDivideType::CmdAetherDivideType_MNFEPONEDDJ => 0,
-            CmdAetherDivideType::CmdAetherDivideType_JAIDANJFFMM => 1,
-            CmdAetherDivideType::CmdAetherDivideType_FPCDHOFBFAO => 2,
-            CmdAetherDivideType::CmdAetherDivideType_JNKMFCDGPLD => 3,
-            CmdAetherDivideType::CmdAetherDivideType_AAOOOPCFNHC => 4,
-            CmdAetherDivideType::CmdAetherDivideType_LLLMNCNBNOC => 5,
-            CmdAetherDivideType::CmdAetherDivideType_LJFJMHEBDFL => 6,
-            CmdAetherDivideType::CmdAetherDivideType_EGEJMBMDNBD => 7,
-            CmdAetherDivideType::CmdAetherDivideType_ADDIEOCKMAD => 8,
-            CmdAetherDivideType::CmdAetherDivideType_KAMKBDGAMOB => 9,
-            CmdAetherDivideType::CmdAetherDivideType_KAIBJFNFMCO => 10,
-            CmdAetherDivideType::CmdAetherDivideType_KKOMJELKGOA => 11,
-            CmdAetherDivideType::CmdAetherDivideType_EGGOKPMIMKD => 12,
-            CmdAetherDivideType::CmdAetherDivideType_FHLGAKBFBNO => 13,
-            CmdAetherDivideType::CmdAetherDivideType_NNECJGOAIJP => 14,
-            CmdAetherDivideType::CmdAetherDivideType_FCBOJCCDJID => 15,
-            CmdAetherDivideType::CmdAetherDivideType_HMDOINHHNPB => 16,
-            CmdAetherDivideType::CmdAetherDivideType_NPMPNKMBFHF => 17,
-            CmdAetherDivideType::CmdAetherDivideType_BJDPEPINBAJ => 18,
-            CmdAetherDivideType::CmdAetherDivideType_NNDJAEEIKFL => 19,
-            CmdAetherDivideType::CmdAetherDivideType_HGAMDCIKGKJ => 20,
-            CmdAetherDivideType::CmdAetherDivideType_GJLJGPCAPFF => 21,
-            CmdAetherDivideType::CmdAetherDivideType_ICJKHPLFJOM => 22,
-            CmdAetherDivideType::CmdAetherDivideType_NBDBACLIDOM => 23,
-            CmdAetherDivideType::CmdAetherDivideType_FBCDAAPHBCM => 24,
-            CmdAetherDivideType::CmdAetherDivideType_BIAOLEPBLEO => 25,
-            CmdAetherDivideType::CmdAetherDivideType_GFNBNCDNGON => 26,
-            CmdAetherDivideType::CmdAetherDivideType_MHABNLDALHK => 27,
-            CmdAetherDivideType::CmdAetherDivideType_CNEKELPMAPF => 28,
-            CmdAetherDivideType::CmdAetherDivideType_PALLHMLFKAF => 29,
-            CmdAetherDivideType::CmdAetherDivideType_JINHAJGGHKE => 30,
-            CmdAetherDivideType::CmdAetherDivideType_MDNIKPPDHCK => 31,
-            CmdAetherDivideType::CmdAetherDivideType_CFPPAOOOOGB => 32,
-            CmdAetherDivideType::CmdAetherDivideType_NCNJNJBFAPG => 33,
-            CmdAetherDivideType::CmdAetherDivideType_LGMMAABDHJK => 34,
+            CmdAetherDivideType::FIBGNBKGHNF_PCPDHELPKEM => 0,
+            CmdAetherDivideType::CmdTakeOffSkillCoreScRsp => 1,
+            CmdAetherDivideType::CmdClearAetherDividePassiveSkillCsReq => 2,
+            CmdAetherDivideType::CmdSwitchAetherDivideLineUpSlotScRsp => 3,
+            CmdAetherDivideType::CmdNPBNPOKGNCI => 4,
+            CmdAetherDivideType::CmdStartAetherDivideStageBattleScRsp => 5,
+            CmdAetherDivideType::CmdAetherDivideTakeChallengeRewardScRsp => 6,
+            CmdAetherDivideType::CmdAetherDivideTainerInfoScNotify => 7,
+            CmdAetherDivideType::CmdAetherDivideRefreshEndlessScRsp => 8,
+            CmdAetherDivideType::CmdStartAetherDivideChallengeBattleScRsp => 9,
+            CmdAetherDivideType::CmdGetAetherDivideChallengeInfoScRsp => 10,
+            CmdAetherDivideType::CmdAetherDivideSpiritInfoScNotify => 11,
+            CmdAetherDivideType::CmdAetherDivideSpiritExpUpScRsp => 12,
+            CmdAetherDivideType::CmdGetAetherDivideChallengeInfoCsReq => 13,
+            CmdAetherDivideType::CmdSetAetherDivideLineUpCsReq => 14,
+            CmdAetherDivideType::CmdSwitchAetherDivideLineUpSlotCsReq => 15,
+            CmdAetherDivideType::CmdAetherDivideTakeChallengeRewardCsReq => 16,
+            CmdAetherDivideType::CmdStartAetherDivideChallengeBattleCsReq => 17,
+            CmdAetherDivideType::CmdGetAetherDivideInfoCsReq => 18,
+            CmdAetherDivideType::CmdAetherDivideSkillItemScNotify => 19,
+            CmdAetherDivideType::CmdSetAetherDivideLineUpScRsp => 20,
+            CmdAetherDivideType::CmdAetherDivideLineupScNotify => 21,
+            CmdAetherDivideType::CmdAetherDivideRefreshEndlessScNotify => 22,
+            CmdAetherDivideType::CmdStartAetherDivideSceneBattleScRsp => 23,
+            CmdAetherDivideType::CmdIAKBLOMJELJ => 24,
+            CmdAetherDivideType::CmdEquipSkillCoreScRsp => 25,
+            CmdAetherDivideType::CmdLeaveAetherDivideSceneCsReq => 26,
+            CmdAetherDivideType::CmdGetAetherDivideInfoScRsp => 27,
+            CmdAetherDivideType::CmdAetherDivideFinishChallengeScNotify => 28,
+            CmdAetherDivideType::CmdAetherDivideRefreshEndlessCsReq => 29,
+            CmdAetherDivideType::CmdStartAetherDivideStageBattleCsReq => 30,
+            CmdAetherDivideType::CmdStartAetherDivideSceneBattleCsReq => 31,
+            CmdAetherDivideType::CmdAetherDivideSpiritExpUpCsReq => 32,
+            CmdAetherDivideType::CmdEquipAetherDividePassiveSkillCsReq => 33,
+            CmdAetherDivideType::FIBGNBKGHNF_LMEOEKDAMAM => 34,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -277,7 +277,7 @@ impl ::protobuf::EnumFull for CmdAetherDivideType {
 
 impl ::std::default::Default for CmdAetherDivideType {
     fn default() -> Self {
-        CmdAetherDivideType::CmdAetherDivideType_MNFEPONEDDJ
+        CmdAetherDivideType::FIBGNBKGHNF_PCPDHELPKEM
     }
 }
 
@@ -288,32 +288,32 @@ impl CmdAetherDivideType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x19CmdAetherDivideType.proto*\xc6\n\n\x13CmdAetherDivideType\x12#\n\
-    \x1fCmdAetherDivideType_MNFEPONEDDJ\x10\0\x12$\n\x1fCmdAetherDivideType_\
-    JAIDANJFFMM\x10\xc5%\x12$\n\x1fCmdAetherDivideType_FPCDHOFBFAO\x10\xce%\
-    \x12$\n\x1fCmdAetherDivideType_JNKMFCDGPLD\x10\xd6%\x12$\n\x1fCmdAetherD\
-    ivideType_AAOOOPCFNHC\x10\xe7%\x12$\n\x1fCmdAetherDivideType_LLLMNCNBNOC\
-    \x10\xcd%\x12$\n\x1fCmdAetherDivideType_LJFJMHEBDFL\x10\xea%\x12$\n\x1fC\
-    mdAetherDivideType_EGEJMBMDNBD\x10\xd4%\x12$\n\x1fCmdAetherDivideType_AD\
-    DIEOCKMAD\x10\xc1%\x12$\n\x1fCmdAetherDivideType_KAMKBDGAMOB\x10\xee%\
-    \x12$\n\x1fCmdAetherDivideType_KAIBJFNFMCO\x10\xdd%\x12$\n\x1fCmdAetherD\
-    ivideType_KKOMJELKGOA\x10\xc4%\x12$\n\x1fCmdAetherDivideType_EGGOKPMIMKD\
-    \x10\xd7%\x12$\n\x1fCmdAetherDivideType_FHLGAKBFBNO\x10\xd5%\x12$\n\x1fC\
-    mdAetherDivideType_NNECJGOAIJP\x10\xf1%\x12$\n\x1fCmdAetherDivideType_FC\
-    BOJCCDJID\x10\xc3%\x12$\n\x1fCmdAetherDivideType_HMDOINHHNPB\x10\xcc%\
-    \x12$\n\x1fCmdAetherDivideType_NPMPNKMBFHF\x10\xdf%\x12$\n\x1fCmdAetherD\
-    ivideType_BJDPEPINBAJ\x10\xe6%\x12$\n\x1fCmdAetherDivideType_NNDJAEEIKFL\
-    \x10\xe2%\x12$\n\x1fCmdAetherDivideType_HGAMDCIKGKJ\x10\xe9%\x12$\n\x1fC\
-    mdAetherDivideType_GJLJGPCAPFF\x10\xc2%\x12$\n\x1fCmdAetherDivideType_IC\
-    JKHPLFJOM\x10\xc8%\x12$\n\x1fCmdAetherDivideType_NBDBACLIDOM\x10\xd8%\
-    \x12$\n\x1fCmdAetherDivideType_FBCDAAPHBCM\x10\xe3%\x12$\n\x1fCmdAetherD\
-    ivideType_BIAOLEPBLEO\x10\xd3%\x12$\n\x1fCmdAetherDivideType_GFNBNCDNGON\
-    \x10\xe0%\x12$\n\x1fCmdAetherDivideType_MHABNLDALHK\x10\xd2%\x12$\n\x1fC\
-    mdAetherDivideType_CNEKELPMAPF\x10\xcb%\x12$\n\x1fCmdAetherDivideType_PA\
-    LLHMLFKAF\x10\xdc%\x12$\n\x1fCmdAetherDivideType_JINHAJGGHKE\x10\xc9%\
-    \x12$\n\x1fCmdAetherDivideType_MDNIKPPDHCK\x10\xc6%\x12$\n\x1fCmdAetherD\
-    ivideType_CFPPAOOOOGB\x10\xda%\x12$\n\x1fCmdAetherDivideType_NCNJNJBFAPG\
-    \x10\xe8%\x12$\n\x1fCmdAetherDivideType_LGMMAABDHJK\x10\xd1%b\x06proto3\
+    \n\x19CmdAetherDivideType.proto*\xe3\n\n\x13CmdAetherDivideType\x12\x1b\
+    \n\x17FIBGNBKGHNF_PCPDHELPKEM\x10\0\x12\x1d\n\x18CmdTakeOffSkillCoreScRs\
+    p\x10\xd0%\x12*\n%CmdClearAetherDividePassiveSkillCsReq\x10\xf2%\x12)\n$\
+    CmdSwitchAetherDivideLineUpSlotScRsp\x10\xd5%\x12\x13\n\x0eCmdNPBNPOKGNC\
+    I\x10\xdb%\x12)\n$CmdStartAetherDivideStageBattleScRsp\x10\xcf%\x12,\n'C\
+    mdAetherDivideTakeChallengeRewardScRsp\x10\xe8%\x12&\n!CmdAetherDivideTa\
+    inerInfoScNotify\x10\xe5%\x12'\n\"CmdAetherDivideRefreshEndlessScRsp\x10\
+    \xd4%\x12-\n(CmdStartAetherDivideChallengeBattleScRsp\x10\xc1%\x12)\n$Cm\
+    dGetAetherDivideChallengeInfoScRsp\x10\xc9%\x12&\n!CmdAetherDivideSpirit\
+    InfoScNotify\x10\xc8%\x12$\n\x1fCmdAetherDivideSpiritExpUpScRsp\x10\xda%\
+    \x12)\n$CmdGetAetherDivideChallengeInfoCsReq\x10\xe1%\x12\"\n\x1dCmdSetA\
+    etherDivideLineUpCsReq\x10\xd2%\x12)\n$CmdSwitchAetherDivideLineUpSlotCs\
+    Req\x10\xdf%\x12,\n'CmdAetherDivideTakeChallengeRewardCsReq\x10\xee%\x12\
+    -\n(CmdStartAetherDivideChallengeBattleCsReq\x10\xc5%\x12\x20\n\x1bCmdGe\
+    tAetherDivideInfoCsReq\x10\xc2%\x12%\n\x20CmdAetherDivideSkillItemScNoti\
+    fy\x10\xf0%\x12\"\n\x1dCmdSetAetherDivideLineUpScRsp\x10\xed%\x12\"\n\
+    \x1dCmdAetherDivideLineupScNotify\x10\xeb%\x12*\n%CmdAetherDivideRefresh\
+    EndlessScNotify\x10\xd6%\x12)\n$CmdStartAetherDivideSceneBattleScRsp\x10\
+    \xe6%\x12\x13\n\x0eCmdIAKBLOMJELJ\x10\xc7%\x12\x1b\n\x16CmdEquipSkillCor\
+    eScRsp\x10\xc3%\x12#\n\x1eCmdLeaveAetherDivideSceneCsReq\x10\xde%\x12\
+    \x20\n\x1bCmdGetAetherDivideInfoScRsp\x10\xec%\x12+\n&CmdAetherDivideFin\
+    ishChallengeScNotify\x10\xc4%\x12'\n\"CmdAetherDivideRefreshEndlessCsReq\
+    \x10\xe7%\x12)\n$CmdStartAetherDivideStageBattleCsReq\x10\xf1%\x12)\n$Cm\
+    dStartAetherDivideSceneBattleCsReq\x10\xe3%\x12$\n\x1fCmdAetherDivideSpi\
+    ritExpUpCsReq\x10\xc6%\x12*\n%CmdEquipAetherDividePassiveSkillCsReq\x10\
+    \xe4%\x12\x1c\n\x17FIBGNBKGHNF_LMEOEKDAMAM\x10\xcd%b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

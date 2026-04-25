@@ -27,66 +27,66 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:CmdMissionType)
 pub enum CmdMissionType {
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_MNFEPONEDDJ)
-    CmdMissionType_MNFEPONEDDJ = 0,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_CCOBMEMKHCF)
-    CmdMissionType_CCOBMEMKHCF = 1224,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_KOPHEFOGFHM)
-    CmdMissionType_KOPHEFOGFHM = 1291,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_KOPOHJMEKKP)
-    CmdMissionType_KOPOHJMEKKP = 1235,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_LAGHOBAIIBN)
-    CmdMissionType_LAGHOBAIIBN = 1205,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_EDKPBOOLDPA)
-    CmdMissionType_EDKPBOOLDPA = 1245,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_GNOJACAIAKD)
-    CmdMissionType_GNOJACAIAKD = 1257,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_MMNNGHFFOHC)
-    CmdMissionType_MMNNGHFFOHC = 1213,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_HKCEOPEBLGP)
-    CmdMissionType_HKCEOPEBLGP = 1202,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_ACECACOLBCH)
-    CmdMissionType_ACECACOLBCH = 1284,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_LAEILJDADHL)
-    CmdMissionType_LAEILJDADHL = 1201,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_MEPCPJEILPK)
-    CmdMissionType_MEPCPJEILPK = 1290,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_OHCFONLKMOK)
-    CmdMissionType_OHCFONLKMOK = 1219,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_HCEOOGNBHBE)
-    CmdMissionType_HCEOOGNBHBE = 1208,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_CNHKDFAGMGF)
-    CmdMissionType_CNHKDFAGMGF = 1281,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_HPPIPBKDDJM)
-    CmdMissionType_HPPIPBKDDJM = 1227,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_MDEICIBCFGK)
-    CmdMissionType_MDEICIBCFGK = 1217,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_PPPEPAMGICG)
-    CmdMissionType_PPPEPAMGICG = 1296,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_LMFMABHHPEO)
-    CmdMissionType_LMFMABHHPEO = 1268,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_IAFDMGJLKCC)
-    CmdMissionType_IAFDMGJLKCC = 1203,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_DNAFOPKIILM)
-    CmdMissionType_DNAFOPKIILM = 1243,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_JJFAMPDJDDI)
-    CmdMissionType_JJFAMPDJDDI = 1204,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_BBKAIGJHEFM)
-    CmdMissionType_BBKAIGJHEFM = 1222,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_DNKEAAPODJG)
-    CmdMissionType_DNKEAAPODJG = 1251,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_DJDLEBFNFOG)
-    CmdMissionType_DJDLEBFNFOG = 1262,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_EFIJGLFLHPO)
-    CmdMissionType_EFIJGLFLHPO = 1286,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_OJFOIMFGGPP)
-    CmdMissionType_OJFOIMFGGPP = 1212,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_KGKJPOHJCOP)
-    CmdMissionType_KGKJPOHJCOP = 1264,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_FAOOCGACCPA)
-    CmdMissionType_FAOOCGACCPA = 1283,
-    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionType_FFLHAKAMKHM)
-    CmdMissionType_FFLHAKAMKHM = 1247,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.IFJFCGJJMFK_PCPDHELPKEM)
+    IFJFCGJJMFK_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdGetMissionStatusCsReq)
+    CmdGetMissionStatusCsReq = 1261,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdEPPNLNIBPNA)
+    CmdEPPNLNIBPNA = 1266,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdGetMissionDataScRsp)
+    CmdGetMissionDataScRsp = 1210,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdFinishCosumeItemMissionCsReq)
+    CmdFinishCosumeItemMissionCsReq = 1274,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMainMissionAcceptNotify)
+    CmdMainMissionAcceptNotify = 1251,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdUpdateTrackMainMissionCsReq)
+    CmdUpdateTrackMainMissionCsReq = 1254,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdSyncTaskCsReq)
+    CmdSyncTaskCsReq = 1218,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdAcceptMainMissionScRsp)
+    CmdAcceptMainMissionScRsp = 1253,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdFNAPKBELIFO)
+    CmdFNAPKBELIFO = 1279,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdFinishTalkMissionCsReq)
+    CmdFinishTalkMissionCsReq = 1294,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdStarPerformanceRelayCsReq)
+    CmdStarPerformanceRelayCsReq = 1249,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdUpdateMainMissionCustomValueCsReq)
+    CmdUpdateMainMissionCustomValueCsReq = 1293,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdGetMainMissionCustomValueScRsp)
+    CmdGetMainMissionCustomValueScRsp = 1217,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdStartFinishMainMissionScNotify)
+    CmdStartFinishMainMissionScNotify = 1265,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionGroupWarnScNotify)
+    CmdMissionGroupWarnScNotify = 1201,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdTeleportToMissionResetPointCsReq)
+    CmdTeleportToMissionResetPointCsReq = 1257,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdGetMissionStatusScRsp)
+    CmdGetMissionStatusScRsp = 1207,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdAcceptMainMissionCsReq)
+    CmdAcceptMainMissionCsReq = 1273,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdGetMissionDataCsReq)
+    CmdGetMissionDataCsReq = 1291,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMBMEMBDDJDE)
+    CmdMBMEMBDDJDE = 1237,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdFinishedMissionScNotify)
+    CmdFinishedMissionScNotify = 1220,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdOFCENAHFFEN)
+    CmdOFCENAHFFEN = 1202,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdFinishTalkMissionScRsp)
+    CmdFinishTalkMissionScRsp = 1295,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdHHAHNNOIEIH)
+    CmdHHAHNNOIEIH = 1209,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdTeleportToMissionResetPointScRsp)
+    CmdTeleportToMissionResetPointScRsp = 1221,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdSubMissionRewardScNotify)
+    CmdSubMissionRewardScNotify = 1296,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdGetMainMissionCustomValueCsReq)
+    CmdGetMainMissionCustomValueCsReq = 1208,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdMissionRewardScNotify)
+    CmdMissionRewardScNotify = 1214,
+    // @@protoc_insertion_point(enum_value:CmdMissionType.CmdStartFinishSubMissionScNotify)
+    CmdStartFinishSubMissionScNotify = 1228,
 }
 
 impl ::protobuf::Enum for CmdMissionType {
@@ -98,107 +98,107 @@ impl ::protobuf::Enum for CmdMissionType {
 
     fn from_i32(value: i32) -> ::std::option::Option<CmdMissionType> {
         match value {
-            0 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_MNFEPONEDDJ),
-            1224 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_CCOBMEMKHCF),
-            1291 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_KOPHEFOGFHM),
-            1235 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_KOPOHJMEKKP),
-            1205 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_LAGHOBAIIBN),
-            1245 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_EDKPBOOLDPA),
-            1257 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_GNOJACAIAKD),
-            1213 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_MMNNGHFFOHC),
-            1202 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_HKCEOPEBLGP),
-            1284 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_ACECACOLBCH),
-            1201 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_LAEILJDADHL),
-            1290 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_MEPCPJEILPK),
-            1219 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_OHCFONLKMOK),
-            1208 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_HCEOOGNBHBE),
-            1281 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_CNHKDFAGMGF),
-            1227 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_HPPIPBKDDJM),
-            1217 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_MDEICIBCFGK),
-            1296 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_PPPEPAMGICG),
-            1268 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_LMFMABHHPEO),
-            1203 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_IAFDMGJLKCC),
-            1243 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_DNAFOPKIILM),
-            1204 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_JJFAMPDJDDI),
-            1222 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_BBKAIGJHEFM),
-            1251 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_DNKEAAPODJG),
-            1262 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_DJDLEBFNFOG),
-            1286 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_EFIJGLFLHPO),
-            1212 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_OJFOIMFGGPP),
-            1264 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_KGKJPOHJCOP),
-            1283 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_FAOOCGACCPA),
-            1247 => ::std::option::Option::Some(CmdMissionType::CmdMissionType_FFLHAKAMKHM),
+            0 => ::std::option::Option::Some(CmdMissionType::IFJFCGJJMFK_PCPDHELPKEM),
+            1261 => ::std::option::Option::Some(CmdMissionType::CmdGetMissionStatusCsReq),
+            1266 => ::std::option::Option::Some(CmdMissionType::CmdEPPNLNIBPNA),
+            1210 => ::std::option::Option::Some(CmdMissionType::CmdGetMissionDataScRsp),
+            1274 => ::std::option::Option::Some(CmdMissionType::CmdFinishCosumeItemMissionCsReq),
+            1251 => ::std::option::Option::Some(CmdMissionType::CmdMainMissionAcceptNotify),
+            1254 => ::std::option::Option::Some(CmdMissionType::CmdUpdateTrackMainMissionCsReq),
+            1218 => ::std::option::Option::Some(CmdMissionType::CmdSyncTaskCsReq),
+            1253 => ::std::option::Option::Some(CmdMissionType::CmdAcceptMainMissionScRsp),
+            1279 => ::std::option::Option::Some(CmdMissionType::CmdFNAPKBELIFO),
+            1294 => ::std::option::Option::Some(CmdMissionType::CmdFinishTalkMissionCsReq),
+            1249 => ::std::option::Option::Some(CmdMissionType::CmdStarPerformanceRelayCsReq),
+            1293 => ::std::option::Option::Some(CmdMissionType::CmdUpdateMainMissionCustomValueCsReq),
+            1217 => ::std::option::Option::Some(CmdMissionType::CmdGetMainMissionCustomValueScRsp),
+            1265 => ::std::option::Option::Some(CmdMissionType::CmdStartFinishMainMissionScNotify),
+            1201 => ::std::option::Option::Some(CmdMissionType::CmdMissionGroupWarnScNotify),
+            1257 => ::std::option::Option::Some(CmdMissionType::CmdTeleportToMissionResetPointCsReq),
+            1207 => ::std::option::Option::Some(CmdMissionType::CmdGetMissionStatusScRsp),
+            1273 => ::std::option::Option::Some(CmdMissionType::CmdAcceptMainMissionCsReq),
+            1291 => ::std::option::Option::Some(CmdMissionType::CmdGetMissionDataCsReq),
+            1237 => ::std::option::Option::Some(CmdMissionType::CmdMBMEMBDDJDE),
+            1220 => ::std::option::Option::Some(CmdMissionType::CmdFinishedMissionScNotify),
+            1202 => ::std::option::Option::Some(CmdMissionType::CmdOFCENAHFFEN),
+            1295 => ::std::option::Option::Some(CmdMissionType::CmdFinishTalkMissionScRsp),
+            1209 => ::std::option::Option::Some(CmdMissionType::CmdHHAHNNOIEIH),
+            1221 => ::std::option::Option::Some(CmdMissionType::CmdTeleportToMissionResetPointScRsp),
+            1296 => ::std::option::Option::Some(CmdMissionType::CmdSubMissionRewardScNotify),
+            1208 => ::std::option::Option::Some(CmdMissionType::CmdGetMainMissionCustomValueCsReq),
+            1214 => ::std::option::Option::Some(CmdMissionType::CmdMissionRewardScNotify),
+            1228 => ::std::option::Option::Some(CmdMissionType::CmdStartFinishSubMissionScNotify),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<CmdMissionType> {
         match str {
-            "CmdMissionType_MNFEPONEDDJ" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_MNFEPONEDDJ),
-            "CmdMissionType_CCOBMEMKHCF" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_CCOBMEMKHCF),
-            "CmdMissionType_KOPHEFOGFHM" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_KOPHEFOGFHM),
-            "CmdMissionType_KOPOHJMEKKP" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_KOPOHJMEKKP),
-            "CmdMissionType_LAGHOBAIIBN" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_LAGHOBAIIBN),
-            "CmdMissionType_EDKPBOOLDPA" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_EDKPBOOLDPA),
-            "CmdMissionType_GNOJACAIAKD" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_GNOJACAIAKD),
-            "CmdMissionType_MMNNGHFFOHC" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_MMNNGHFFOHC),
-            "CmdMissionType_HKCEOPEBLGP" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_HKCEOPEBLGP),
-            "CmdMissionType_ACECACOLBCH" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_ACECACOLBCH),
-            "CmdMissionType_LAEILJDADHL" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_LAEILJDADHL),
-            "CmdMissionType_MEPCPJEILPK" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_MEPCPJEILPK),
-            "CmdMissionType_OHCFONLKMOK" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_OHCFONLKMOK),
-            "CmdMissionType_HCEOOGNBHBE" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_HCEOOGNBHBE),
-            "CmdMissionType_CNHKDFAGMGF" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_CNHKDFAGMGF),
-            "CmdMissionType_HPPIPBKDDJM" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_HPPIPBKDDJM),
-            "CmdMissionType_MDEICIBCFGK" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_MDEICIBCFGK),
-            "CmdMissionType_PPPEPAMGICG" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_PPPEPAMGICG),
-            "CmdMissionType_LMFMABHHPEO" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_LMFMABHHPEO),
-            "CmdMissionType_IAFDMGJLKCC" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_IAFDMGJLKCC),
-            "CmdMissionType_DNAFOPKIILM" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_DNAFOPKIILM),
-            "CmdMissionType_JJFAMPDJDDI" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_JJFAMPDJDDI),
-            "CmdMissionType_BBKAIGJHEFM" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_BBKAIGJHEFM),
-            "CmdMissionType_DNKEAAPODJG" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_DNKEAAPODJG),
-            "CmdMissionType_DJDLEBFNFOG" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_DJDLEBFNFOG),
-            "CmdMissionType_EFIJGLFLHPO" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_EFIJGLFLHPO),
-            "CmdMissionType_OJFOIMFGGPP" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_OJFOIMFGGPP),
-            "CmdMissionType_KGKJPOHJCOP" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_KGKJPOHJCOP),
-            "CmdMissionType_FAOOCGACCPA" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_FAOOCGACCPA),
-            "CmdMissionType_FFLHAKAMKHM" => ::std::option::Option::Some(CmdMissionType::CmdMissionType_FFLHAKAMKHM),
+            "IFJFCGJJMFK_PCPDHELPKEM" => ::std::option::Option::Some(CmdMissionType::IFJFCGJJMFK_PCPDHELPKEM),
+            "CmdGetMissionStatusCsReq" => ::std::option::Option::Some(CmdMissionType::CmdGetMissionStatusCsReq),
+            "CmdEPPNLNIBPNA" => ::std::option::Option::Some(CmdMissionType::CmdEPPNLNIBPNA),
+            "CmdGetMissionDataScRsp" => ::std::option::Option::Some(CmdMissionType::CmdGetMissionDataScRsp),
+            "CmdFinishCosumeItemMissionCsReq" => ::std::option::Option::Some(CmdMissionType::CmdFinishCosumeItemMissionCsReq),
+            "CmdMainMissionAcceptNotify" => ::std::option::Option::Some(CmdMissionType::CmdMainMissionAcceptNotify),
+            "CmdUpdateTrackMainMissionCsReq" => ::std::option::Option::Some(CmdMissionType::CmdUpdateTrackMainMissionCsReq),
+            "CmdSyncTaskCsReq" => ::std::option::Option::Some(CmdMissionType::CmdSyncTaskCsReq),
+            "CmdAcceptMainMissionScRsp" => ::std::option::Option::Some(CmdMissionType::CmdAcceptMainMissionScRsp),
+            "CmdFNAPKBELIFO" => ::std::option::Option::Some(CmdMissionType::CmdFNAPKBELIFO),
+            "CmdFinishTalkMissionCsReq" => ::std::option::Option::Some(CmdMissionType::CmdFinishTalkMissionCsReq),
+            "CmdStarPerformanceRelayCsReq" => ::std::option::Option::Some(CmdMissionType::CmdStarPerformanceRelayCsReq),
+            "CmdUpdateMainMissionCustomValueCsReq" => ::std::option::Option::Some(CmdMissionType::CmdUpdateMainMissionCustomValueCsReq),
+            "CmdGetMainMissionCustomValueScRsp" => ::std::option::Option::Some(CmdMissionType::CmdGetMainMissionCustomValueScRsp),
+            "CmdStartFinishMainMissionScNotify" => ::std::option::Option::Some(CmdMissionType::CmdStartFinishMainMissionScNotify),
+            "CmdMissionGroupWarnScNotify" => ::std::option::Option::Some(CmdMissionType::CmdMissionGroupWarnScNotify),
+            "CmdTeleportToMissionResetPointCsReq" => ::std::option::Option::Some(CmdMissionType::CmdTeleportToMissionResetPointCsReq),
+            "CmdGetMissionStatusScRsp" => ::std::option::Option::Some(CmdMissionType::CmdGetMissionStatusScRsp),
+            "CmdAcceptMainMissionCsReq" => ::std::option::Option::Some(CmdMissionType::CmdAcceptMainMissionCsReq),
+            "CmdGetMissionDataCsReq" => ::std::option::Option::Some(CmdMissionType::CmdGetMissionDataCsReq),
+            "CmdMBMEMBDDJDE" => ::std::option::Option::Some(CmdMissionType::CmdMBMEMBDDJDE),
+            "CmdFinishedMissionScNotify" => ::std::option::Option::Some(CmdMissionType::CmdFinishedMissionScNotify),
+            "CmdOFCENAHFFEN" => ::std::option::Option::Some(CmdMissionType::CmdOFCENAHFFEN),
+            "CmdFinishTalkMissionScRsp" => ::std::option::Option::Some(CmdMissionType::CmdFinishTalkMissionScRsp),
+            "CmdHHAHNNOIEIH" => ::std::option::Option::Some(CmdMissionType::CmdHHAHNNOIEIH),
+            "CmdTeleportToMissionResetPointScRsp" => ::std::option::Option::Some(CmdMissionType::CmdTeleportToMissionResetPointScRsp),
+            "CmdSubMissionRewardScNotify" => ::std::option::Option::Some(CmdMissionType::CmdSubMissionRewardScNotify),
+            "CmdGetMainMissionCustomValueCsReq" => ::std::option::Option::Some(CmdMissionType::CmdGetMainMissionCustomValueCsReq),
+            "CmdMissionRewardScNotify" => ::std::option::Option::Some(CmdMissionType::CmdMissionRewardScNotify),
+            "CmdStartFinishSubMissionScNotify" => ::std::option::Option::Some(CmdMissionType::CmdStartFinishSubMissionScNotify),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [CmdMissionType] = &[
-        CmdMissionType::CmdMissionType_MNFEPONEDDJ,
-        CmdMissionType::CmdMissionType_CCOBMEMKHCF,
-        CmdMissionType::CmdMissionType_KOPHEFOGFHM,
-        CmdMissionType::CmdMissionType_KOPOHJMEKKP,
-        CmdMissionType::CmdMissionType_LAGHOBAIIBN,
-        CmdMissionType::CmdMissionType_EDKPBOOLDPA,
-        CmdMissionType::CmdMissionType_GNOJACAIAKD,
-        CmdMissionType::CmdMissionType_MMNNGHFFOHC,
-        CmdMissionType::CmdMissionType_HKCEOPEBLGP,
-        CmdMissionType::CmdMissionType_ACECACOLBCH,
-        CmdMissionType::CmdMissionType_LAEILJDADHL,
-        CmdMissionType::CmdMissionType_MEPCPJEILPK,
-        CmdMissionType::CmdMissionType_OHCFONLKMOK,
-        CmdMissionType::CmdMissionType_HCEOOGNBHBE,
-        CmdMissionType::CmdMissionType_CNHKDFAGMGF,
-        CmdMissionType::CmdMissionType_HPPIPBKDDJM,
-        CmdMissionType::CmdMissionType_MDEICIBCFGK,
-        CmdMissionType::CmdMissionType_PPPEPAMGICG,
-        CmdMissionType::CmdMissionType_LMFMABHHPEO,
-        CmdMissionType::CmdMissionType_IAFDMGJLKCC,
-        CmdMissionType::CmdMissionType_DNAFOPKIILM,
-        CmdMissionType::CmdMissionType_JJFAMPDJDDI,
-        CmdMissionType::CmdMissionType_BBKAIGJHEFM,
-        CmdMissionType::CmdMissionType_DNKEAAPODJG,
-        CmdMissionType::CmdMissionType_DJDLEBFNFOG,
-        CmdMissionType::CmdMissionType_EFIJGLFLHPO,
-        CmdMissionType::CmdMissionType_OJFOIMFGGPP,
-        CmdMissionType::CmdMissionType_KGKJPOHJCOP,
-        CmdMissionType::CmdMissionType_FAOOCGACCPA,
-        CmdMissionType::CmdMissionType_FFLHAKAMKHM,
+        CmdMissionType::IFJFCGJJMFK_PCPDHELPKEM,
+        CmdMissionType::CmdGetMissionStatusCsReq,
+        CmdMissionType::CmdEPPNLNIBPNA,
+        CmdMissionType::CmdGetMissionDataScRsp,
+        CmdMissionType::CmdFinishCosumeItemMissionCsReq,
+        CmdMissionType::CmdMainMissionAcceptNotify,
+        CmdMissionType::CmdUpdateTrackMainMissionCsReq,
+        CmdMissionType::CmdSyncTaskCsReq,
+        CmdMissionType::CmdAcceptMainMissionScRsp,
+        CmdMissionType::CmdFNAPKBELIFO,
+        CmdMissionType::CmdFinishTalkMissionCsReq,
+        CmdMissionType::CmdStarPerformanceRelayCsReq,
+        CmdMissionType::CmdUpdateMainMissionCustomValueCsReq,
+        CmdMissionType::CmdGetMainMissionCustomValueScRsp,
+        CmdMissionType::CmdStartFinishMainMissionScNotify,
+        CmdMissionType::CmdMissionGroupWarnScNotify,
+        CmdMissionType::CmdTeleportToMissionResetPointCsReq,
+        CmdMissionType::CmdGetMissionStatusScRsp,
+        CmdMissionType::CmdAcceptMainMissionCsReq,
+        CmdMissionType::CmdGetMissionDataCsReq,
+        CmdMissionType::CmdMBMEMBDDJDE,
+        CmdMissionType::CmdFinishedMissionScNotify,
+        CmdMissionType::CmdOFCENAHFFEN,
+        CmdMissionType::CmdFinishTalkMissionScRsp,
+        CmdMissionType::CmdHHAHNNOIEIH,
+        CmdMissionType::CmdTeleportToMissionResetPointScRsp,
+        CmdMissionType::CmdSubMissionRewardScNotify,
+        CmdMissionType::CmdGetMainMissionCustomValueCsReq,
+        CmdMissionType::CmdMissionRewardScNotify,
+        CmdMissionType::CmdStartFinishSubMissionScNotify,
     ];
 }
 
@@ -210,36 +210,36 @@ impl ::protobuf::EnumFull for CmdMissionType {
 
     fn descriptor(&self) -> ::protobuf::reflect::EnumValueDescriptor {
         let index = match self {
-            CmdMissionType::CmdMissionType_MNFEPONEDDJ => 0,
-            CmdMissionType::CmdMissionType_CCOBMEMKHCF => 1,
-            CmdMissionType::CmdMissionType_KOPHEFOGFHM => 2,
-            CmdMissionType::CmdMissionType_KOPOHJMEKKP => 3,
-            CmdMissionType::CmdMissionType_LAGHOBAIIBN => 4,
-            CmdMissionType::CmdMissionType_EDKPBOOLDPA => 5,
-            CmdMissionType::CmdMissionType_GNOJACAIAKD => 6,
-            CmdMissionType::CmdMissionType_MMNNGHFFOHC => 7,
-            CmdMissionType::CmdMissionType_HKCEOPEBLGP => 8,
-            CmdMissionType::CmdMissionType_ACECACOLBCH => 9,
-            CmdMissionType::CmdMissionType_LAEILJDADHL => 10,
-            CmdMissionType::CmdMissionType_MEPCPJEILPK => 11,
-            CmdMissionType::CmdMissionType_OHCFONLKMOK => 12,
-            CmdMissionType::CmdMissionType_HCEOOGNBHBE => 13,
-            CmdMissionType::CmdMissionType_CNHKDFAGMGF => 14,
-            CmdMissionType::CmdMissionType_HPPIPBKDDJM => 15,
-            CmdMissionType::CmdMissionType_MDEICIBCFGK => 16,
-            CmdMissionType::CmdMissionType_PPPEPAMGICG => 17,
-            CmdMissionType::CmdMissionType_LMFMABHHPEO => 18,
-            CmdMissionType::CmdMissionType_IAFDMGJLKCC => 19,
-            CmdMissionType::CmdMissionType_DNAFOPKIILM => 20,
-            CmdMissionType::CmdMissionType_JJFAMPDJDDI => 21,
-            CmdMissionType::CmdMissionType_BBKAIGJHEFM => 22,
-            CmdMissionType::CmdMissionType_DNKEAAPODJG => 23,
-            CmdMissionType::CmdMissionType_DJDLEBFNFOG => 24,
-            CmdMissionType::CmdMissionType_EFIJGLFLHPO => 25,
-            CmdMissionType::CmdMissionType_OJFOIMFGGPP => 26,
-            CmdMissionType::CmdMissionType_KGKJPOHJCOP => 27,
-            CmdMissionType::CmdMissionType_FAOOCGACCPA => 28,
-            CmdMissionType::CmdMissionType_FFLHAKAMKHM => 29,
+            CmdMissionType::IFJFCGJJMFK_PCPDHELPKEM => 0,
+            CmdMissionType::CmdGetMissionStatusCsReq => 1,
+            CmdMissionType::CmdEPPNLNIBPNA => 2,
+            CmdMissionType::CmdGetMissionDataScRsp => 3,
+            CmdMissionType::CmdFinishCosumeItemMissionCsReq => 4,
+            CmdMissionType::CmdMainMissionAcceptNotify => 5,
+            CmdMissionType::CmdUpdateTrackMainMissionCsReq => 6,
+            CmdMissionType::CmdSyncTaskCsReq => 7,
+            CmdMissionType::CmdAcceptMainMissionScRsp => 8,
+            CmdMissionType::CmdFNAPKBELIFO => 9,
+            CmdMissionType::CmdFinishTalkMissionCsReq => 10,
+            CmdMissionType::CmdStarPerformanceRelayCsReq => 11,
+            CmdMissionType::CmdUpdateMainMissionCustomValueCsReq => 12,
+            CmdMissionType::CmdGetMainMissionCustomValueScRsp => 13,
+            CmdMissionType::CmdStartFinishMainMissionScNotify => 14,
+            CmdMissionType::CmdMissionGroupWarnScNotify => 15,
+            CmdMissionType::CmdTeleportToMissionResetPointCsReq => 16,
+            CmdMissionType::CmdGetMissionStatusScRsp => 17,
+            CmdMissionType::CmdAcceptMainMissionCsReq => 18,
+            CmdMissionType::CmdGetMissionDataCsReq => 19,
+            CmdMissionType::CmdMBMEMBDDJDE => 20,
+            CmdMissionType::CmdFinishedMissionScNotify => 21,
+            CmdMissionType::CmdOFCENAHFFEN => 22,
+            CmdMissionType::CmdFinishTalkMissionScRsp => 23,
+            CmdMissionType::CmdHHAHNNOIEIH => 24,
+            CmdMissionType::CmdTeleportToMissionResetPointScRsp => 25,
+            CmdMissionType::CmdSubMissionRewardScNotify => 26,
+            CmdMissionType::CmdGetMainMissionCustomValueCsReq => 27,
+            CmdMissionType::CmdMissionRewardScNotify => 28,
+            CmdMissionType::CmdStartFinishSubMissionScNotify => 29,
         };
         Self::enum_descriptor().value_by_index(index)
     }
@@ -247,7 +247,7 @@ impl ::protobuf::EnumFull for CmdMissionType {
 
 impl ::std::default::Default for CmdMissionType {
     fn default() -> Self {
-        CmdMissionType::CmdMissionType_MNFEPONEDDJ
+        CmdMissionType::IFJFCGJJMFK_PCPDHELPKEM
     }
 }
 
@@ -258,28 +258,27 @@ impl CmdMissionType {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x14CmdMissionType.proto*\xed\x07\n\x0eCmdMissionType\x12\x1e\n\x1aCmd\
-    MissionType_MNFEPONEDDJ\x10\0\x12\x1f\n\x1aCmdMissionType_CCOBMEMKHCF\
-    \x10\xc8\t\x12\x1f\n\x1aCmdMissionType_KOPHEFOGFHM\x10\x8b\n\x12\x1f\n\
-    \x1aCmdMissionType_KOPOHJMEKKP\x10\xd3\t\x12\x1f\n\x1aCmdMissionType_LAG\
-    HOBAIIBN\x10\xb5\t\x12\x1f\n\x1aCmdMissionType_EDKPBOOLDPA\x10\xdd\t\x12\
-    \x1f\n\x1aCmdMissionType_GNOJACAIAKD\x10\xe9\t\x12\x1f\n\x1aCmdMissionTy\
-    pe_MMNNGHFFOHC\x10\xbd\t\x12\x1f\n\x1aCmdMissionType_HKCEOPEBLGP\x10\xb2\
-    \t\x12\x1f\n\x1aCmdMissionType_ACECACOLBCH\x10\x84\n\x12\x1f\n\x1aCmdMis\
-    sionType_LAEILJDADHL\x10\xb1\t\x12\x1f\n\x1aCmdMissionType_MEPCPJEILPK\
-    \x10\x8a\n\x12\x1f\n\x1aCmdMissionType_OHCFONLKMOK\x10\xc3\t\x12\x1f\n\
-    \x1aCmdMissionType_HCEOOGNBHBE\x10\xb8\t\x12\x1f\n\x1aCmdMissionType_CNH\
-    KDFAGMGF\x10\x81\n\x12\x1f\n\x1aCmdMissionType_HPPIPBKDDJM\x10\xcb\t\x12\
-    \x1f\n\x1aCmdMissionType_MDEICIBCFGK\x10\xc1\t\x12\x1f\n\x1aCmdMissionTy\
-    pe_PPPEPAMGICG\x10\x90\n\x12\x1f\n\x1aCmdMissionType_LMFMABHHPEO\x10\xf4\
-    \t\x12\x1f\n\x1aCmdMissionType_IAFDMGJLKCC\x10\xb3\t\x12\x1f\n\x1aCmdMis\
-    sionType_DNAFOPKIILM\x10\xdb\t\x12\x1f\n\x1aCmdMissionType_JJFAMPDJDDI\
-    \x10\xb4\t\x12\x1f\n\x1aCmdMissionType_BBKAIGJHEFM\x10\xc6\t\x12\x1f\n\
-    \x1aCmdMissionType_DNKEAAPODJG\x10\xe3\t\x12\x1f\n\x1aCmdMissionType_DJD\
-    LEBFNFOG\x10\xee\t\x12\x1f\n\x1aCmdMissionType_EFIJGLFLHPO\x10\x86\n\x12\
-    \x1f\n\x1aCmdMissionType_OJFOIMFGGPP\x10\xbc\t\x12\x1f\n\x1aCmdMissionTy\
-    pe_KGKJPOHJCOP\x10\xf0\t\x12\x1f\n\x1aCmdMissionType_FAOOCGACCPA\x10\x83\
-    \n\x12\x1f\n\x1aCmdMissionType_FFLHAKAMKHM\x10\xdf\tb\x06proto3\
+    \n\x14CmdMissionType.proto*\xd6\x07\n\x0eCmdMissionType\x12\x1b\n\x17IFJ\
+    FCGJJMFK_PCPDHELPKEM\x10\0\x12\x1d\n\x18CmdGetMissionStatusCsReq\x10\xed\
+    \t\x12\x13\n\x0eCmdEPPNLNIBPNA\x10\xf2\t\x12\x1b\n\x16CmdGetMissionDataS\
+    cRsp\x10\xba\t\x12$\n\x1fCmdFinishCosumeItemMissionCsReq\x10\xfa\t\x12\
+    \x1f\n\x1aCmdMainMissionAcceptNotify\x10\xe3\t\x12#\n\x1eCmdUpdateTrackM\
+    ainMissionCsReq\x10\xe6\t\x12\x15\n\x10CmdSyncTaskCsReq\x10\xc2\t\x12\
+    \x1e\n\x19CmdAcceptMainMissionScRsp\x10\xe5\t\x12\x13\n\x0eCmdFNAPKBELIF\
+    O\x10\xff\t\x12\x1e\n\x19CmdFinishTalkMissionCsReq\x10\x8e\n\x12!\n\x1cC\
+    mdStarPerformanceRelayCsReq\x10\xe1\t\x12)\n$CmdUpdateMainMissionCustomV\
+    alueCsReq\x10\x8d\n\x12&\n!CmdGetMainMissionCustomValueScRsp\x10\xc1\t\
+    \x12&\n!CmdStartFinishMainMissionScNotify\x10\xf1\t\x12\x20\n\x1bCmdMiss\
+    ionGroupWarnScNotify\x10\xb1\t\x12(\n#CmdTeleportToMissionResetPointCsRe\
+    q\x10\xe9\t\x12\x1d\n\x18CmdGetMissionStatusScRsp\x10\xb7\t\x12\x1e\n\
+    \x19CmdAcceptMainMissionCsReq\x10\xf9\t\x12\x1b\n\x16CmdGetMissionDataCs\
+    Req\x10\x8b\n\x12\x13\n\x0eCmdMBMEMBDDJDE\x10\xd5\t\x12\x1f\n\x1aCmdFini\
+    shedMissionScNotify\x10\xc4\t\x12\x13\n\x0eCmdOFCENAHFFEN\x10\xb2\t\x12\
+    \x1e\n\x19CmdFinishTalkMissionScRsp\x10\x8f\n\x12\x13\n\x0eCmdHHAHNNOIEI\
+    H\x10\xb9\t\x12(\n#CmdTeleportToMissionResetPointScRsp\x10\xc5\t\x12\x20\
+    \n\x1bCmdSubMissionRewardScNotify\x10\x90\n\x12&\n!CmdGetMainMissionCust\
+    omValueCsReq\x10\xb8\t\x12\x1d\n\x18CmdMissionRewardScNotify\x10\xbe\t\
+    \x12%\n\x20CmdStartFinishSubMissionScNotify\x10\xcc\tb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

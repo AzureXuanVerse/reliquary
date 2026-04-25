@@ -28,8 +28,8 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct SetElfRestaurantPlayRecipeCsReq {
     // message fields
-    // @@protoc_insertion_point(field:SetElfRestaurantPlayRecipeCsReq.LPDALHLPPOI)
-    pub LPDALHLPPOI: ::std::vec::Vec<u32>,
+    // @@protoc_insertion_point(field:SetElfRestaurantPlayRecipeCsReq.PJEJODHICDK)
+    pub PJEJODHICDK: ::std::vec::Vec<u32>,
     // special fields
     // @@protoc_insertion_point(special_field:SetElfRestaurantPlayRecipeCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -50,9 +50,9 @@ impl SetElfRestaurantPlayRecipeCsReq {
         let mut fields = ::std::vec::Vec::with_capacity(1);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
-            "LPDALHLPPOI",
-            |m: &SetElfRestaurantPlayRecipeCsReq| { &m.LPDALHLPPOI },
-            |m: &mut SetElfRestaurantPlayRecipeCsReq| { &mut m.LPDALHLPPOI },
+            "PJEJODHICDK",
+            |m: &SetElfRestaurantPlayRecipeCsReq| { &m.PJEJODHICDK },
+            |m: &mut SetElfRestaurantPlayRecipeCsReq| { &mut m.PJEJODHICDK },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<SetElfRestaurantPlayRecipeCsReq>(
             "SetElfRestaurantPlayRecipeCsReq",
@@ -72,11 +72,11 @@ impl ::protobuf::Message for SetElfRestaurantPlayRecipeCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                66 => {
-                    is.read_repeated_packed_uint32_into(&mut self.LPDALHLPPOI)?;
+                26 => {
+                    is.read_repeated_packed_uint32_into(&mut self.PJEJODHICDK)?;
                 },
-                64 => {
-                    self.LPDALHLPPOI.push(is.read_uint32()?);
+                24 => {
+                    self.PJEJODHICDK.push(is.read_uint32()?);
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -90,14 +90,14 @@ impl ::protobuf::Message for SetElfRestaurantPlayRecipeCsReq {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        my_size += ::protobuf::rt::vec_packed_uint32_size(8, &self.LPDALHLPPOI);
+        my_size += ::protobuf::rt::vec_packed_uint32_size(3, &self.PJEJODHICDK);
         my_size += ::protobuf::rt::unknown_fields_size(self.special_fields.unknown_fields());
         self.special_fields.cached_size().set(my_size as u32);
         my_size
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        os.write_repeated_packed_uint32(8, &self.LPDALHLPPOI)?;
+        os.write_repeated_packed_uint32(3, &self.PJEJODHICDK)?;
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
     }
@@ -115,13 +115,13 @@ impl ::protobuf::Message for SetElfRestaurantPlayRecipeCsReq {
     }
 
     fn clear(&mut self) {
-        self.LPDALHLPPOI.clear();
+        self.PJEJODHICDK.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static SetElfRestaurantPlayRecipeCsReq {
         static instance: SetElfRestaurantPlayRecipeCsReq = SetElfRestaurantPlayRecipeCsReq {
-            LPDALHLPPOI: ::std::vec::Vec::new(),
+            PJEJODHICDK: ::std::vec::Vec::new(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -147,7 +147,7 @@ impl ::protobuf::reflect::ProtobufValue for SetElfRestaurantPlayRecipeCsReq {
 
 static file_descriptor_proto_data: &'static [u8] = b"\
     \n%SetElfRestaurantPlayRecipeCsReq.proto\"C\n\x1fSetElfRestaurantPlayRec\
-    ipeCsReq\x12\x20\n\x0bLPDALHLPPOI\x18\x08\x20\x03(\rR\x0bLPDALHLPPOIb\
+    ipeCsReq\x12\x20\n\x0bPJEJODHICDK\x18\x03\x20\x03(\rR\x0bPJEJODHICDKb\
     \x06proto3\
 ";
 

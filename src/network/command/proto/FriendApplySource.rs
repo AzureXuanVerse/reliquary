@@ -27,20 +27,20 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
 // @@protoc_insertion_point(enum:FriendApplySource)
 pub enum FriendApplySource {
-    // @@protoc_insertion_point(enum_value:FriendApplySource.FRIEND_APPLY_SOURCE_NONE)
-    FRIEND_APPLY_SOURCE_NONE = 0,
-    // @@protoc_insertion_point(enum_value:FriendApplySource.FRIEND_APPLY_SOURCE_SEARCH)
-    FRIEND_APPLY_SOURCE_SEARCH = 1,
-    // @@protoc_insertion_point(enum_value:FriendApplySource.FRIEND_APPLY_SOURCE_RECOMMEND)
-    FRIEND_APPLY_SOURCE_RECOMMEND = 2,
-    // @@protoc_insertion_point(enum_value:FriendApplySource.FRIEND_APPLY_SOURCE_ASSIST)
-    FRIEND_APPLY_SOURCE_ASSIST = 3,
-    // @@protoc_insertion_point(enum_value:FriendApplySource.FRIEND_APPLY_SOURCE_RECOMMEND_ASSIST)
-    FRIEND_APPLY_SOURCE_RECOMMEND_ASSIST = 4,
-    // @@protoc_insertion_point(enum_value:FriendApplySource.FRIEND_APPLY_SOURCE_PSN_FRIEND)
-    FRIEND_APPLY_SOURCE_PSN_FRIEND = 5,
-    // @@protoc_insertion_point(enum_value:FriendApplySource.FRIEND_APPLY_SOURCE_ASSIST_REWARD)
-    FRIEND_APPLY_SOURCE_ASSIST_REWARD = 6,
+    // @@protoc_insertion_point(enum_value:FriendApplySource.PABBPHOIDBF_PCPDHELPKEM)
+    PABBPHOIDBF_PCPDHELPKEM = 0,
+    // @@protoc_insertion_point(enum_value:FriendApplySource.PABBPHOIDBF_DDEBAHBEKHI)
+    PABBPHOIDBF_DDEBAHBEKHI = 1,
+    // @@protoc_insertion_point(enum_value:FriendApplySource.PABBPHOIDBF_PJEOOMBFNMA)
+    PABBPHOIDBF_PJEOOMBFNMA = 2,
+    // @@protoc_insertion_point(enum_value:FriendApplySource.PABBPHOIDBF_ILPKPBOKMEN)
+    PABBPHOIDBF_ILPKPBOKMEN = 3,
+    // @@protoc_insertion_point(enum_value:FriendApplySource.PABBPHOIDBF_OAMHNEDGEKA)
+    PABBPHOIDBF_OAMHNEDGEKA = 4,
+    // @@protoc_insertion_point(enum_value:FriendApplySource.PABBPHOIDBF_OGENAPDDIDB)
+    PABBPHOIDBF_OGENAPDDIDB = 5,
+    // @@protoc_insertion_point(enum_value:FriendApplySource.PABBPHOIDBF_LDLMBIFNPEP)
+    PABBPHOIDBF_LDLMBIFNPEP = 6,
 }
 
 impl ::protobuf::Enum for FriendApplySource {
@@ -52,38 +52,38 @@ impl ::protobuf::Enum for FriendApplySource {
 
     fn from_i32(value: i32) -> ::std::option::Option<FriendApplySource> {
         match value {
-            0 => ::std::option::Option::Some(FriendApplySource::FRIEND_APPLY_SOURCE_NONE),
-            1 => ::std::option::Option::Some(FriendApplySource::FRIEND_APPLY_SOURCE_SEARCH),
-            2 => ::std::option::Option::Some(FriendApplySource::FRIEND_APPLY_SOURCE_RECOMMEND),
-            3 => ::std::option::Option::Some(FriendApplySource::FRIEND_APPLY_SOURCE_ASSIST),
-            4 => ::std::option::Option::Some(FriendApplySource::FRIEND_APPLY_SOURCE_RECOMMEND_ASSIST),
-            5 => ::std::option::Option::Some(FriendApplySource::FRIEND_APPLY_SOURCE_PSN_FRIEND),
-            6 => ::std::option::Option::Some(FriendApplySource::FRIEND_APPLY_SOURCE_ASSIST_REWARD),
+            0 => ::std::option::Option::Some(FriendApplySource::PABBPHOIDBF_PCPDHELPKEM),
+            1 => ::std::option::Option::Some(FriendApplySource::PABBPHOIDBF_DDEBAHBEKHI),
+            2 => ::std::option::Option::Some(FriendApplySource::PABBPHOIDBF_PJEOOMBFNMA),
+            3 => ::std::option::Option::Some(FriendApplySource::PABBPHOIDBF_ILPKPBOKMEN),
+            4 => ::std::option::Option::Some(FriendApplySource::PABBPHOIDBF_OAMHNEDGEKA),
+            5 => ::std::option::Option::Some(FriendApplySource::PABBPHOIDBF_OGENAPDDIDB),
+            6 => ::std::option::Option::Some(FriendApplySource::PABBPHOIDBF_LDLMBIFNPEP),
             _ => ::std::option::Option::None
         }
     }
 
     fn from_str(str: &str) -> ::std::option::Option<FriendApplySource> {
         match str {
-            "FRIEND_APPLY_SOURCE_NONE" => ::std::option::Option::Some(FriendApplySource::FRIEND_APPLY_SOURCE_NONE),
-            "FRIEND_APPLY_SOURCE_SEARCH" => ::std::option::Option::Some(FriendApplySource::FRIEND_APPLY_SOURCE_SEARCH),
-            "FRIEND_APPLY_SOURCE_RECOMMEND" => ::std::option::Option::Some(FriendApplySource::FRIEND_APPLY_SOURCE_RECOMMEND),
-            "FRIEND_APPLY_SOURCE_ASSIST" => ::std::option::Option::Some(FriendApplySource::FRIEND_APPLY_SOURCE_ASSIST),
-            "FRIEND_APPLY_SOURCE_RECOMMEND_ASSIST" => ::std::option::Option::Some(FriendApplySource::FRIEND_APPLY_SOURCE_RECOMMEND_ASSIST),
-            "FRIEND_APPLY_SOURCE_PSN_FRIEND" => ::std::option::Option::Some(FriendApplySource::FRIEND_APPLY_SOURCE_PSN_FRIEND),
-            "FRIEND_APPLY_SOURCE_ASSIST_REWARD" => ::std::option::Option::Some(FriendApplySource::FRIEND_APPLY_SOURCE_ASSIST_REWARD),
+            "PABBPHOIDBF_PCPDHELPKEM" => ::std::option::Option::Some(FriendApplySource::PABBPHOIDBF_PCPDHELPKEM),
+            "PABBPHOIDBF_DDEBAHBEKHI" => ::std::option::Option::Some(FriendApplySource::PABBPHOIDBF_DDEBAHBEKHI),
+            "PABBPHOIDBF_PJEOOMBFNMA" => ::std::option::Option::Some(FriendApplySource::PABBPHOIDBF_PJEOOMBFNMA),
+            "PABBPHOIDBF_ILPKPBOKMEN" => ::std::option::Option::Some(FriendApplySource::PABBPHOIDBF_ILPKPBOKMEN),
+            "PABBPHOIDBF_OAMHNEDGEKA" => ::std::option::Option::Some(FriendApplySource::PABBPHOIDBF_OAMHNEDGEKA),
+            "PABBPHOIDBF_OGENAPDDIDB" => ::std::option::Option::Some(FriendApplySource::PABBPHOIDBF_OGENAPDDIDB),
+            "PABBPHOIDBF_LDLMBIFNPEP" => ::std::option::Option::Some(FriendApplySource::PABBPHOIDBF_LDLMBIFNPEP),
             _ => ::std::option::Option::None
         }
     }
 
     const VALUES: &'static [FriendApplySource] = &[
-        FriendApplySource::FRIEND_APPLY_SOURCE_NONE,
-        FriendApplySource::FRIEND_APPLY_SOURCE_SEARCH,
-        FriendApplySource::FRIEND_APPLY_SOURCE_RECOMMEND,
-        FriendApplySource::FRIEND_APPLY_SOURCE_ASSIST,
-        FriendApplySource::FRIEND_APPLY_SOURCE_RECOMMEND_ASSIST,
-        FriendApplySource::FRIEND_APPLY_SOURCE_PSN_FRIEND,
-        FriendApplySource::FRIEND_APPLY_SOURCE_ASSIST_REWARD,
+        FriendApplySource::PABBPHOIDBF_PCPDHELPKEM,
+        FriendApplySource::PABBPHOIDBF_DDEBAHBEKHI,
+        FriendApplySource::PABBPHOIDBF_PJEOOMBFNMA,
+        FriendApplySource::PABBPHOIDBF_ILPKPBOKMEN,
+        FriendApplySource::PABBPHOIDBF_OAMHNEDGEKA,
+        FriendApplySource::PABBPHOIDBF_OGENAPDDIDB,
+        FriendApplySource::PABBPHOIDBF_LDLMBIFNPEP,
     ];
 }
 
@@ -101,7 +101,7 @@ impl ::protobuf::EnumFull for FriendApplySource {
 
 impl ::std::default::Default for FriendApplySource {
     fn default() -> Self {
-        FriendApplySource::FRIEND_APPLY_SOURCE_NONE
+        FriendApplySource::PABBPHOIDBF_PCPDHELPKEM
     }
 }
 
@@ -112,12 +112,12 @@ impl FriendApplySource {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x17FriendApplySource.proto*\x89\x02\n\x11FriendApplySource\x12\x1c\n\
-    \x18FRIEND_APPLY_SOURCE_NONE\x10\0\x12\x1e\n\x1aFRIEND_APPLY_SOURCE_SEAR\
-    CH\x10\x01\x12!\n\x1dFRIEND_APPLY_SOURCE_RECOMMEND\x10\x02\x12\x1e\n\x1a\
-    FRIEND_APPLY_SOURCE_ASSIST\x10\x03\x12(\n$FRIEND_APPLY_SOURCE_RECOMMEND_\
-    ASSIST\x10\x04\x12\"\n\x1eFRIEND_APPLY_SOURCE_PSN_FRIEND\x10\x05\x12%\n!\
-    FRIEND_APPLY_SOURCE_ASSIST_REWARD\x10\x06b\x06proto3\
+    \n\x17FriendApplySource.proto*\xde\x01\n\x11FriendApplySource\x12\x1b\n\
+    \x17PABBPHOIDBF_PCPDHELPKEM\x10\0\x12\x1b\n\x17PABBPHOIDBF_DDEBAHBEKHI\
+    \x10\x01\x12\x1b\n\x17PABBPHOIDBF_PJEOOMBFNMA\x10\x02\x12\x1b\n\x17PABBP\
+    HOIDBF_ILPKPBOKMEN\x10\x03\x12\x1b\n\x17PABBPHOIDBF_OAMHNEDGEKA\x10\x04\
+    \x12\x1b\n\x17PABBPHOIDBF_OGENAPDDIDB\x10\x05\x12\x1b\n\x17PABBPHOIDBF_L\
+    DLMBIFNPEP\x10\x06b\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file

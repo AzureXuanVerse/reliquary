@@ -30,12 +30,12 @@ pub struct UpdateWolfBroShootingDataCsReq {
     // message fields
     // @@protoc_insertion_point(field:UpdateWolfBroShootingDataCsReq.group_id)
     pub group_id: u32,
-    // @@protoc_insertion_point(field:UpdateWolfBroShootingDataCsReq.JCDMAONLOMK)
-    pub JCDMAONLOMK: u32,
     // @@protoc_insertion_point(field:UpdateWolfBroShootingDataCsReq.uuid)
     pub uuid: u64,
-    // @@protoc_insertion_point(field:UpdateWolfBroShootingDataCsReq.HIPDBAEAHGO)
-    pub HIPDBAEAHGO: ::protobuf::MessageField<super::FNAFALOFFNJ::FNAFALOFFNJ>,
+    // @@protoc_insertion_point(field:UpdateWolfBroShootingDataCsReq.ECEACBAGAKD)
+    pub ECEACBAGAKD: u32,
+    // @@protoc_insertion_point(field:UpdateWolfBroShootingDataCsReq.DIFLKHMKHBG)
+    pub DIFLKHMKHBG: ::protobuf::MessageField<super::DEOMNEOMPFE::DEOMNEOMPFE>,
     // special fields
     // @@protoc_insertion_point(special_field:UpdateWolfBroShootingDataCsReq.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -61,19 +61,19 @@ impl UpdateWolfBroShootingDataCsReq {
             |m: &mut UpdateWolfBroShootingDataCsReq| { &mut m.group_id },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
-            "JCDMAONLOMK",
-            |m: &UpdateWolfBroShootingDataCsReq| { &m.JCDMAONLOMK },
-            |m: &mut UpdateWolfBroShootingDataCsReq| { &mut m.JCDMAONLOMK },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "uuid",
             |m: &UpdateWolfBroShootingDataCsReq| { &m.uuid },
             |m: &mut UpdateWolfBroShootingDataCsReq| { &mut m.uuid },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::FNAFALOFFNJ::FNAFALOFFNJ>(
-            "HIPDBAEAHGO",
-            |m: &UpdateWolfBroShootingDataCsReq| { &m.HIPDBAEAHGO },
-            |m: &mut UpdateWolfBroShootingDataCsReq| { &mut m.HIPDBAEAHGO },
+        fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
+            "ECEACBAGAKD",
+            |m: &UpdateWolfBroShootingDataCsReq| { &m.ECEACBAGAKD },
+            |m: &mut UpdateWolfBroShootingDataCsReq| { &mut m.ECEACBAGAKD },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::DEOMNEOMPFE::DEOMNEOMPFE>(
+            "DIFLKHMKHBG",
+            |m: &UpdateWolfBroShootingDataCsReq| { &m.DIFLKHMKHBG },
+            |m: &mut UpdateWolfBroShootingDataCsReq| { &mut m.DIFLKHMKHBG },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<UpdateWolfBroShootingDataCsReq>(
             "UpdateWolfBroShootingDataCsReq",
@@ -93,17 +93,17 @@ impl ::protobuf::Message for UpdateWolfBroShootingDataCsReq {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                8 => {
+                80 => {
                     self.group_id = is.read_uint32()?;
                 },
-                72 => {
-                    self.JCDMAONLOMK = is.read_uint32()?;
-                },
-                120 => {
+                104 => {
                     self.uuid = is.read_uint64()?;
                 },
-                66 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.HIPDBAEAHGO)?;
+                56 => {
+                    self.ECEACBAGAKD = is.read_uint32()?;
+                },
+                26 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.DIFLKHMKHBG)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -118,15 +118,15 @@ impl ::protobuf::Message for UpdateWolfBroShootingDataCsReq {
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
         if self.group_id != 0 {
-            my_size += ::protobuf::rt::uint32_size(1, self.group_id);
-        }
-        if self.JCDMAONLOMK != 0 {
-            my_size += ::protobuf::rt::uint32_size(9, self.JCDMAONLOMK);
+            my_size += ::protobuf::rt::uint32_size(10, self.group_id);
         }
         if self.uuid != 0 {
-            my_size += ::protobuf::rt::uint64_size(15, self.uuid);
+            my_size += ::protobuf::rt::uint64_size(13, self.uuid);
         }
-        if let Some(v) = self.HIPDBAEAHGO.as_ref() {
+        if self.ECEACBAGAKD != 0 {
+            my_size += ::protobuf::rt::uint32_size(7, self.ECEACBAGAKD);
+        }
+        if let Some(v) = self.DIFLKHMKHBG.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -137,16 +137,16 @@ impl ::protobuf::Message for UpdateWolfBroShootingDataCsReq {
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
         if self.group_id != 0 {
-            os.write_uint32(1, self.group_id)?;
-        }
-        if self.JCDMAONLOMK != 0 {
-            os.write_uint32(9, self.JCDMAONLOMK)?;
+            os.write_uint32(10, self.group_id)?;
         }
         if self.uuid != 0 {
-            os.write_uint64(15, self.uuid)?;
+            os.write_uint64(13, self.uuid)?;
         }
-        if let Some(v) = self.HIPDBAEAHGO.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+        if self.ECEACBAGAKD != 0 {
+            os.write_uint32(7, self.ECEACBAGAKD)?;
+        }
+        if let Some(v) = self.DIFLKHMKHBG.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -166,18 +166,18 @@ impl ::protobuf::Message for UpdateWolfBroShootingDataCsReq {
 
     fn clear(&mut self) {
         self.group_id = 0;
-        self.JCDMAONLOMK = 0;
         self.uuid = 0;
-        self.HIPDBAEAHGO.clear();
+        self.ECEACBAGAKD = 0;
+        self.DIFLKHMKHBG.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static UpdateWolfBroShootingDataCsReq {
         static instance: UpdateWolfBroShootingDataCsReq = UpdateWolfBroShootingDataCsReq {
             group_id: 0,
-            JCDMAONLOMK: 0,
             uuid: 0,
-            HIPDBAEAHGO: ::protobuf::MessageField::none(),
+            ECEACBAGAKD: 0,
+            DIFLKHMKHBG: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -202,11 +202,11 @@ impl ::protobuf::reflect::ProtobufValue for UpdateWolfBroShootingDataCsReq {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n$UpdateWolfBroShootingDataCsReq.proto\x1a\x11FNAFALOFFNJ.proto\"\xa1\
-    \x01\n\x1eUpdateWolfBroShootingDataCsReq\x12\x19\n\x08group_id\x18\x01\
-    \x20\x01(\rR\x07groupId\x12\x20\n\x0bJCDMAONLOMK\x18\t\x20\x01(\rR\x0bJC\
-    DMAONLOMK\x12\x12\n\x04uuid\x18\x0f\x20\x01(\x04R\x04uuid\x12.\n\x0bHIPD\
-    BAEAHGO\x18\x08\x20\x01(\x0b2\x0c.FNAFALOFFNJR\x0bHIPDBAEAHGOb\x06proto3\
+    \n$UpdateWolfBroShootingDataCsReq.proto\x1a\x11DEOMNEOMPFE.proto\"\xa1\
+    \x01\n\x1eUpdateWolfBroShootingDataCsReq\x12\x19\n\x08group_id\x18\n\x20\
+    \x01(\rR\x07groupId\x12\x12\n\x04uuid\x18\r\x20\x01(\x04R\x04uuid\x12\
+    \x20\n\x0bECEACBAGAKD\x18\x07\x20\x01(\rR\x0bECEACBAGAKD\x12.\n\x0bDIFLK\
+    HMKHBG\x18\x03\x20\x01(\x0b2\x0c.DEOMNEOMPFER\x0bDIFLKHMKHBGb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -224,7 +224,7 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(1);
-            deps.push(super::FNAFALOFFNJ::file_descriptor().clone());
+            deps.push(super::DEOMNEOMPFE::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(UpdateWolfBroShootingDataCsReq::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);

@@ -28,32 +28,32 @@ const _PROTOBUF_VERSION_CHECK: () = ::protobuf::VERSION_3_7_1;
 #[derive(PartialEq,Clone,Default,Debug)]
 pub struct GetPlanetFesDataScRsp {
     // message fields
-    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.BMNOJAEHKEE)
-    pub BMNOJAEHKEE: ::protobuf::MessageField<super::MBHDHLGFPOO::MBHDHLGFPOO>,
-    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.HKGJILLACAF)
-    pub HKGJILLACAF: ::protobuf::MessageField<super::GDFLIKHLLME::GDFLIKHLLME>,
     // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.custom_value_list)
-    pub custom_value_list: ::std::vec::Vec<super::JOGMADAMFNI::JOGMADAMFNI>,
-    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.GAHICMJOCEC)
-    pub GAHICMJOCEC: ::protobuf::MessageField<super::NIILLJEILIG::NIILLJEILIG>,
-    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.IILOOMCENFB)
-    pub IILOOMCENFB: ::protobuf::MessageField<super::LLKFFCAHIFF::LLKFFCAHIFF>,
-    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.MOHOGLJNHDM)
-    pub MOHOGLJNHDM: ::protobuf::MessageField<super::CHGCGEIKGMN::CHGCGEIKGMN>,
-    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.PPKMDJPMPAM)
-    pub PPKMDJPMPAM: ::protobuf::MessageField<super::HMPEIOLFKNA::HMPEIOLFKNA>,
-    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.CECFAHKNCIH)
-    pub CECFAHKNCIH: ::protobuf::MessageField<super::NFLEFJAPIKN::NFLEFJAPIKN>,
-    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.DDBPGFPDAJC)
-    pub DDBPGFPDAJC: ::protobuf::MessageField<super::CIEMCNCFNGI::CIEMCNCFNGI>,
-    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.HPGPHGIHFGN)
-    pub HPGPHGIHFGN: ::protobuf::MessageField<super::AHNJPBANGLA::AHNJPBANGLA>,
-    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.MHFJHLLLPFI)
-    pub MHFJHLLLPFI: ::protobuf::MessageField<super::GPHKFJEAEDD::GPHKFJEAEDD>,
+    pub custom_value_list: ::std::vec::Vec<super::GKDEKJKOIJN::GKDEKJKOIJN>,
+    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.GOFFALBLHHN)
+    pub GOFFALBLHHN: ::protobuf::MessageField<super::NOAMCBLCAMH::NOAMCBLCAMH>,
+    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.PEABLDFCMIC)
+    pub PEABLDFCMIC: ::protobuf::MessageField<super::OGACFIPDECD::OGACFIPDECD>,
+    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.MODDIBHCPPD)
+    pub MODDIBHCPPD: ::protobuf::MessageField<super::JBMMIPAGDCE::JBMMIPAGDCE>,
     // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.retcode)
     pub retcode: u32,
+    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.FKEHOGMGLJF)
+    pub FKEHOGMGLJF: ::protobuf::MessageField<super::IPBGEGBFFHK::IPBGEGBFFHK>,
+    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.OPELALIBCIL)
+    pub OPELALIBCIL: ::protobuf::MessageField<super::BKNPGKNIOMG::BKNPGKNIOMG>,
+    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.OBOOODMPBBH)
+    pub OBOOODMPBBH: ::protobuf::MessageField<super::LLAGEIKJBJA::LLAGEIKJBJA>,
+    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.NOLBPBMHOKA)
+    pub NOLBPBMHOKA: ::protobuf::MessageField<super::GKMGHIBOOFE::GKMGHIBOOFE>,
+    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.FCAPBPHLNCJ)
+    pub FCAPBPHLNCJ: ::protobuf::MessageField<super::BCHDPKABMNO::BCHDPKABMNO>,
     // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.skill_info)
-    pub skill_info: ::protobuf::MessageField<super::DAEAAGIAFNF::DAEAAGIAFNF>,
+    pub skill_info: ::protobuf::MessageField<super::IPNPJJPPCCC::IPNPJJPPCCC>,
+    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.EFIMNEGGKMH)
+    pub EFIMNEGGKMH: ::protobuf::MessageField<super::OHLCKLEKPIN::OHLCKLEKPIN>,
+    // @@protoc_insertion_point(field:GetPlanetFesDataScRsp.KKCLNDFBPHB)
+    pub KKCLNDFBPHB: ::protobuf::MessageField<super::EONNKCKPDKI::EONNKCKPDKI>,
     // special fields
     // @@protoc_insertion_point(special_field:GetPlanetFesDataScRsp.special_fields)
     pub special_fields: ::protobuf::SpecialFields,
@@ -73,70 +73,70 @@ impl GetPlanetFesDataScRsp {
     fn generated_message_descriptor_data() -> ::protobuf::reflect::GeneratedMessageDescriptorData {
         let mut fields = ::std::vec::Vec::with_capacity(13);
         let mut oneofs = ::std::vec::Vec::with_capacity(0);
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::MBHDHLGFPOO::MBHDHLGFPOO>(
-            "BMNOJAEHKEE",
-            |m: &GetPlanetFesDataScRsp| { &m.BMNOJAEHKEE },
-            |m: &mut GetPlanetFesDataScRsp| { &mut m.BMNOJAEHKEE },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GDFLIKHLLME::GDFLIKHLLME>(
-            "HKGJILLACAF",
-            |m: &GetPlanetFesDataScRsp| { &m.HKGJILLACAF },
-            |m: &mut GetPlanetFesDataScRsp| { &mut m.HKGJILLACAF },
-        ));
         fields.push(::protobuf::reflect::rt::v2::make_vec_simpler_accessor::<_, _>(
             "custom_value_list",
             |m: &GetPlanetFesDataScRsp| { &m.custom_value_list },
             |m: &mut GetPlanetFesDataScRsp| { &mut m.custom_value_list },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::NIILLJEILIG::NIILLJEILIG>(
-            "GAHICMJOCEC",
-            |m: &GetPlanetFesDataScRsp| { &m.GAHICMJOCEC },
-            |m: &mut GetPlanetFesDataScRsp| { &mut m.GAHICMJOCEC },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::NOAMCBLCAMH::NOAMCBLCAMH>(
+            "GOFFALBLHHN",
+            |m: &GetPlanetFesDataScRsp| { &m.GOFFALBLHHN },
+            |m: &mut GetPlanetFesDataScRsp| { &mut m.GOFFALBLHHN },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::LLKFFCAHIFF::LLKFFCAHIFF>(
-            "IILOOMCENFB",
-            |m: &GetPlanetFesDataScRsp| { &m.IILOOMCENFB },
-            |m: &mut GetPlanetFesDataScRsp| { &mut m.IILOOMCENFB },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::OGACFIPDECD::OGACFIPDECD>(
+            "PEABLDFCMIC",
+            |m: &GetPlanetFesDataScRsp| { &m.PEABLDFCMIC },
+            |m: &mut GetPlanetFesDataScRsp| { &mut m.PEABLDFCMIC },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::CHGCGEIKGMN::CHGCGEIKGMN>(
-            "MOHOGLJNHDM",
-            |m: &GetPlanetFesDataScRsp| { &m.MOHOGLJNHDM },
-            |m: &mut GetPlanetFesDataScRsp| { &mut m.MOHOGLJNHDM },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::HMPEIOLFKNA::HMPEIOLFKNA>(
-            "PPKMDJPMPAM",
-            |m: &GetPlanetFesDataScRsp| { &m.PPKMDJPMPAM },
-            |m: &mut GetPlanetFesDataScRsp| { &mut m.PPKMDJPMPAM },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::NFLEFJAPIKN::NFLEFJAPIKN>(
-            "CECFAHKNCIH",
-            |m: &GetPlanetFesDataScRsp| { &m.CECFAHKNCIH },
-            |m: &mut GetPlanetFesDataScRsp| { &mut m.CECFAHKNCIH },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::CIEMCNCFNGI::CIEMCNCFNGI>(
-            "DDBPGFPDAJC",
-            |m: &GetPlanetFesDataScRsp| { &m.DDBPGFPDAJC },
-            |m: &mut GetPlanetFesDataScRsp| { &mut m.DDBPGFPDAJC },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::AHNJPBANGLA::AHNJPBANGLA>(
-            "HPGPHGIHFGN",
-            |m: &GetPlanetFesDataScRsp| { &m.HPGPHGIHFGN },
-            |m: &mut GetPlanetFesDataScRsp| { &mut m.HPGPHGIHFGN },
-        ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GPHKFJEAEDD::GPHKFJEAEDD>(
-            "MHFJHLLLPFI",
-            |m: &GetPlanetFesDataScRsp| { &m.MHFJHLLLPFI },
-            |m: &mut GetPlanetFesDataScRsp| { &mut m.MHFJHLLLPFI },
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::JBMMIPAGDCE::JBMMIPAGDCE>(
+            "MODDIBHCPPD",
+            |m: &GetPlanetFesDataScRsp| { &m.MODDIBHCPPD },
+            |m: &mut GetPlanetFesDataScRsp| { &mut m.MODDIBHCPPD },
         ));
         fields.push(::protobuf::reflect::rt::v2::make_simpler_field_accessor::<_, _>(
             "retcode",
             |m: &GetPlanetFesDataScRsp| { &m.retcode },
             |m: &mut GetPlanetFesDataScRsp| { &mut m.retcode },
         ));
-        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::DAEAAGIAFNF::DAEAAGIAFNF>(
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::IPBGEGBFFHK::IPBGEGBFFHK>(
+            "FKEHOGMGLJF",
+            |m: &GetPlanetFesDataScRsp| { &m.FKEHOGMGLJF },
+            |m: &mut GetPlanetFesDataScRsp| { &mut m.FKEHOGMGLJF },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::BKNPGKNIOMG::BKNPGKNIOMG>(
+            "OPELALIBCIL",
+            |m: &GetPlanetFesDataScRsp| { &m.OPELALIBCIL },
+            |m: &mut GetPlanetFesDataScRsp| { &mut m.OPELALIBCIL },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::LLAGEIKJBJA::LLAGEIKJBJA>(
+            "OBOOODMPBBH",
+            |m: &GetPlanetFesDataScRsp| { &m.OBOOODMPBBH },
+            |m: &mut GetPlanetFesDataScRsp| { &mut m.OBOOODMPBBH },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::GKMGHIBOOFE::GKMGHIBOOFE>(
+            "NOLBPBMHOKA",
+            |m: &GetPlanetFesDataScRsp| { &m.NOLBPBMHOKA },
+            |m: &mut GetPlanetFesDataScRsp| { &mut m.NOLBPBMHOKA },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::BCHDPKABMNO::BCHDPKABMNO>(
+            "FCAPBPHLNCJ",
+            |m: &GetPlanetFesDataScRsp| { &m.FCAPBPHLNCJ },
+            |m: &mut GetPlanetFesDataScRsp| { &mut m.FCAPBPHLNCJ },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::IPNPJJPPCCC::IPNPJJPPCCC>(
             "skill_info",
             |m: &GetPlanetFesDataScRsp| { &m.skill_info },
             |m: &mut GetPlanetFesDataScRsp| { &mut m.skill_info },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::OHLCKLEKPIN::OHLCKLEKPIN>(
+            "EFIMNEGGKMH",
+            |m: &GetPlanetFesDataScRsp| { &m.EFIMNEGGKMH },
+            |m: &mut GetPlanetFesDataScRsp| { &mut m.EFIMNEGGKMH },
+        ));
+        fields.push(::protobuf::reflect::rt::v2::make_message_field_accessor::<_, super::EONNKCKPDKI::EONNKCKPDKI>(
+            "KKCLNDFBPHB",
+            |m: &GetPlanetFesDataScRsp| { &m.KKCLNDFBPHB },
+            |m: &mut GetPlanetFesDataScRsp| { &mut m.KKCLNDFBPHB },
         ));
         ::protobuf::reflect::GeneratedMessageDescriptorData::new_2::<GetPlanetFesDataScRsp>(
             "GetPlanetFesDataScRsp",
@@ -156,44 +156,44 @@ impl ::protobuf::Message for GetPlanetFesDataScRsp {
     fn merge_from(&mut self, is: &mut ::protobuf::CodedInputStream<'_>) -> ::protobuf::Result<()> {
         while let Some(tag) = is.read_raw_tag_or_eof()? {
             match tag {
-                82 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.BMNOJAEHKEE)?;
-                },
-                98 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.HKGJILLACAF)?;
-                },
-                26 => {
+                50 => {
                     self.custom_value_list.push(is.read_message()?);
                 },
-                90 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.GAHICMJOCEC)?;
+                74 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.GOFFALBLHHN)?;
                 },
-                58 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.IILOOMCENFB)?;
-                },
-                106 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.MOHOGLJNHDM)?;
+                82 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.PEABLDFCMIC)?;
                 },
                 122 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.PPKMDJPMPAM)?;
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.MODDIBHCPPD)?;
                 },
-                114 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.CECFAHKNCIH)?;
-                },
-                34 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.DDBPGFPDAJC)?;
-                },
-                10 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.HPGPHGIHFGN)?;
-                },
-                74 => {
-                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.MHFJHLLLPFI)?;
-                },
-                64 => {
+                8 => {
                     self.retcode = is.read_uint32()?;
                 },
-                50 => {
+                58 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.FKEHOGMGLJF)?;
+                },
+                34 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.OPELALIBCIL)?;
+                },
+                98 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.OBOOODMPBBH)?;
+                },
+                66 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.NOLBPBMHOKA)?;
+                },
+                114 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.FCAPBPHLNCJ)?;
+                },
+                90 => {
                     ::protobuf::rt::read_singular_message_into_field(is, &mut self.skill_info)?;
+                },
+                26 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.EFIMNEGGKMH)?;
+                },
+                18 => {
+                    ::protobuf::rt::read_singular_message_into_field(is, &mut self.KKCLNDFBPHB)?;
                 },
                 tag => {
                     ::protobuf::rt::read_unknown_or_skip_group(tag, is, self.special_fields.mut_unknown_fields())?;
@@ -207,54 +207,54 @@ impl ::protobuf::Message for GetPlanetFesDataScRsp {
     #[allow(unused_variables)]
     fn compute_size(&self) -> u64 {
         let mut my_size = 0;
-        if let Some(v) = self.BMNOJAEHKEE.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.HKGJILLACAF.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
         for value in &self.custom_value_list {
             let len = value.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         };
-        if let Some(v) = self.GAHICMJOCEC.as_ref() {
+        if let Some(v) = self.GOFFALBLHHN.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if let Some(v) = self.IILOOMCENFB.as_ref() {
+        if let Some(v) = self.PEABLDFCMIC.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
-        if let Some(v) = self.MOHOGLJNHDM.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.PPKMDJPMPAM.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.CECFAHKNCIH.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.DDBPGFPDAJC.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.HPGPHGIHFGN.as_ref() {
-            let len = v.compute_size();
-            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
-        }
-        if let Some(v) = self.MHFJHLLLPFI.as_ref() {
+        if let Some(v) = self.MODDIBHCPPD.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
         if self.retcode != 0 {
-            my_size += ::protobuf::rt::uint32_size(8, self.retcode);
+            my_size += ::protobuf::rt::uint32_size(1, self.retcode);
+        }
+        if let Some(v) = self.FKEHOGMGLJF.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if let Some(v) = self.OPELALIBCIL.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if let Some(v) = self.OBOOODMPBBH.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if let Some(v) = self.NOLBPBMHOKA.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if let Some(v) = self.FCAPBPHLNCJ.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
         if let Some(v) = self.skill_info.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if let Some(v) = self.EFIMNEGGKMH.as_ref() {
+            let len = v.compute_size();
+            my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
+        }
+        if let Some(v) = self.KKCLNDFBPHB.as_ref() {
             let len = v.compute_size();
             my_size += 1 + ::protobuf::rt::compute_raw_varint64_size(len) + len;
         }
@@ -264,44 +264,44 @@ impl ::protobuf::Message for GetPlanetFesDataScRsp {
     }
 
     fn write_to_with_cached_sizes(&self, os: &mut ::protobuf::CodedOutputStream<'_>) -> ::protobuf::Result<()> {
-        if let Some(v) = self.BMNOJAEHKEE.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
-        }
-        if let Some(v) = self.HKGJILLACAF.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
-        }
         for v in &self.custom_value_list {
-            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
         };
-        if let Some(v) = self.GAHICMJOCEC.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
-        }
-        if let Some(v) = self.IILOOMCENFB.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
-        }
-        if let Some(v) = self.MOHOGLJNHDM.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(13, v, os)?;
-        }
-        if let Some(v) = self.PPKMDJPMPAM.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
-        }
-        if let Some(v) = self.CECFAHKNCIH.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
-        }
-        if let Some(v) = self.DDBPGFPDAJC.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
-        }
-        if let Some(v) = self.HPGPHGIHFGN.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(1, v, os)?;
-        }
-        if let Some(v) = self.MHFJHLLLPFI.as_ref() {
+        if let Some(v) = self.GOFFALBLHHN.as_ref() {
             ::protobuf::rt::write_message_field_with_cached_size(9, v, os)?;
         }
+        if let Some(v) = self.PEABLDFCMIC.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(10, v, os)?;
+        }
+        if let Some(v) = self.MODDIBHCPPD.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(15, v, os)?;
+        }
         if self.retcode != 0 {
-            os.write_uint32(8, self.retcode)?;
+            os.write_uint32(1, self.retcode)?;
+        }
+        if let Some(v) = self.FKEHOGMGLJF.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(7, v, os)?;
+        }
+        if let Some(v) = self.OPELALIBCIL.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(4, v, os)?;
+        }
+        if let Some(v) = self.OBOOODMPBBH.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(12, v, os)?;
+        }
+        if let Some(v) = self.NOLBPBMHOKA.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(8, v, os)?;
+        }
+        if let Some(v) = self.FCAPBPHLNCJ.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(14, v, os)?;
         }
         if let Some(v) = self.skill_info.as_ref() {
-            ::protobuf::rt::write_message_field_with_cached_size(6, v, os)?;
+            ::protobuf::rt::write_message_field_with_cached_size(11, v, os)?;
+        }
+        if let Some(v) = self.EFIMNEGGKMH.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(3, v, os)?;
+        }
+        if let Some(v) = self.KKCLNDFBPHB.as_ref() {
+            ::protobuf::rt::write_message_field_with_cached_size(2, v, os)?;
         }
         os.write_unknown_fields(self.special_fields.unknown_fields())?;
         ::std::result::Result::Ok(())
@@ -320,37 +320,37 @@ impl ::protobuf::Message for GetPlanetFesDataScRsp {
     }
 
     fn clear(&mut self) {
-        self.BMNOJAEHKEE.clear();
-        self.HKGJILLACAF.clear();
         self.custom_value_list.clear();
-        self.GAHICMJOCEC.clear();
-        self.IILOOMCENFB.clear();
-        self.MOHOGLJNHDM.clear();
-        self.PPKMDJPMPAM.clear();
-        self.CECFAHKNCIH.clear();
-        self.DDBPGFPDAJC.clear();
-        self.HPGPHGIHFGN.clear();
-        self.MHFJHLLLPFI.clear();
+        self.GOFFALBLHHN.clear();
+        self.PEABLDFCMIC.clear();
+        self.MODDIBHCPPD.clear();
         self.retcode = 0;
+        self.FKEHOGMGLJF.clear();
+        self.OPELALIBCIL.clear();
+        self.OBOOODMPBBH.clear();
+        self.NOLBPBMHOKA.clear();
+        self.FCAPBPHLNCJ.clear();
         self.skill_info.clear();
+        self.EFIMNEGGKMH.clear();
+        self.KKCLNDFBPHB.clear();
         self.special_fields.clear();
     }
 
     fn default_instance() -> &'static GetPlanetFesDataScRsp {
         static instance: GetPlanetFesDataScRsp = GetPlanetFesDataScRsp {
-            BMNOJAEHKEE: ::protobuf::MessageField::none(),
-            HKGJILLACAF: ::protobuf::MessageField::none(),
             custom_value_list: ::std::vec::Vec::new(),
-            GAHICMJOCEC: ::protobuf::MessageField::none(),
-            IILOOMCENFB: ::protobuf::MessageField::none(),
-            MOHOGLJNHDM: ::protobuf::MessageField::none(),
-            PPKMDJPMPAM: ::protobuf::MessageField::none(),
-            CECFAHKNCIH: ::protobuf::MessageField::none(),
-            DDBPGFPDAJC: ::protobuf::MessageField::none(),
-            HPGPHGIHFGN: ::protobuf::MessageField::none(),
-            MHFJHLLLPFI: ::protobuf::MessageField::none(),
+            GOFFALBLHHN: ::protobuf::MessageField::none(),
+            PEABLDFCMIC: ::protobuf::MessageField::none(),
+            MODDIBHCPPD: ::protobuf::MessageField::none(),
             retcode: 0,
+            FKEHOGMGLJF: ::protobuf::MessageField::none(),
+            OPELALIBCIL: ::protobuf::MessageField::none(),
+            OBOOODMPBBH: ::protobuf::MessageField::none(),
+            NOLBPBMHOKA: ::protobuf::MessageField::none(),
+            FCAPBPHLNCJ: ::protobuf::MessageField::none(),
             skill_info: ::protobuf::MessageField::none(),
+            EFIMNEGGKMH: ::protobuf::MessageField::none(),
+            KKCLNDFBPHB: ::protobuf::MessageField::none(),
             special_fields: ::protobuf::SpecialFields::new(),
         };
         &instance
@@ -375,25 +375,25 @@ impl ::protobuf::reflect::ProtobufValue for GetPlanetFesDataScRsp {
 }
 
 static file_descriptor_proto_data: &'static [u8] = b"\
-    \n\x1bGetPlanetFesDataScRsp.proto\x1a\x11AHNJPBANGLA.proto\x1a\x11CHGCGE\
-    IKGMN.proto\x1a\x11CIEMCNCFNGI.proto\x1a\x11DAEAAGIAFNF.proto\x1a\x11GDF\
-    LIKHLLME.proto\x1a\x11GPHKFJEAEDD.proto\x1a\x11HMPEIOLFKNA.proto\x1a\x11\
-    JOGMADAMFNI.proto\x1a\x11LLKFFCAHIFF.proto\x1a\x11MBHDHLGFPOO.proto\x1a\
-    \x11NFLEFJAPIKN.proto\x1a\x11NIILLJEILIG.proto\"\xf8\x04\n\x15GetPlanetF\
-    esDataScRsp\x12.\n\x0bBMNOJAEHKEE\x18\n\x20\x01(\x0b2\x0c.MBHDHLGFPOOR\
-    \x0bBMNOJAEHKEE\x12.\n\x0bHKGJILLACAF\x18\x0c\x20\x01(\x0b2\x0c.GDFLIKHL\
-    LMER\x0bHKGJILLACAF\x128\n\x11custom_value_list\x18\x03\x20\x03(\x0b2\
-    \x0c.JOGMADAMFNIR\x0fcustomValueList\x12.\n\x0bGAHICMJOCEC\x18\x0b\x20\
-    \x01(\x0b2\x0c.NIILLJEILIGR\x0bGAHICMJOCEC\x12.\n\x0bIILOOMCENFB\x18\x07\
-    \x20\x01(\x0b2\x0c.LLKFFCAHIFFR\x0bIILOOMCENFB\x12.\n\x0bMOHOGLJNHDM\x18\
-    \r\x20\x01(\x0b2\x0c.CHGCGEIKGMNR\x0bMOHOGLJNHDM\x12.\n\x0bPPKMDJPMPAM\
-    \x18\x0f\x20\x01(\x0b2\x0c.HMPEIOLFKNAR\x0bPPKMDJPMPAM\x12.\n\x0bCECFAHK\
-    NCIH\x18\x0e\x20\x01(\x0b2\x0c.NFLEFJAPIKNR\x0bCECFAHKNCIH\x12.\n\x0bDDB\
-    PGFPDAJC\x18\x04\x20\x01(\x0b2\x0c.CIEMCNCFNGIR\x0bDDBPGFPDAJC\x12.\n\
-    \x0bHPGPHGIHFGN\x18\x01\x20\x01(\x0b2\x0c.AHNJPBANGLAR\x0bHPGPHGIHFGN\
-    \x12.\n\x0bMHFJHLLLPFI\x18\t\x20\x01(\x0b2\x0c.GPHKFJEAEDDR\x0bMHFJHLLLP\
-    FI\x12\x18\n\x07retcode\x18\x08\x20\x01(\rR\x07retcode\x12+\n\nskill_inf\
-    o\x18\x06\x20\x01(\x0b2\x0c.DAEAAGIAFNFR\tskillInfob\x06proto3\
+    \n\x1bGetPlanetFesDataScRsp.proto\x1a\x11BCHDPKABMNO.proto\x1a\x11BKNPGK\
+    NIOMG.proto\x1a\x11EONNKCKPDKI.proto\x1a\x11GKDEKJKOIJN.proto\x1a\x11GKM\
+    GHIBOOFE.proto\x1a\x11IPBGEGBFFHK.proto\x1a\x11IPNPJJPPCCC.proto\x1a\x11\
+    JBMMIPAGDCE.proto\x1a\x11LLAGEIKJBJA.proto\x1a\x11NOAMCBLCAMH.proto\x1a\
+    \x11OGACFIPDECD.proto\x1a\x11OHLCKLEKPIN.proto\"\xf8\x04\n\x15GetPlanetF\
+    esDataScRsp\x128\n\x11custom_value_list\x18\x06\x20\x03(\x0b2\x0c.GKDEKJ\
+    KOIJNR\x0fcustomValueList\x12.\n\x0bGOFFALBLHHN\x18\t\x20\x01(\x0b2\x0c.\
+    NOAMCBLCAMHR\x0bGOFFALBLHHN\x12.\n\x0bPEABLDFCMIC\x18\n\x20\x01(\x0b2\
+    \x0c.OGACFIPDECDR\x0bPEABLDFCMIC\x12.\n\x0bMODDIBHCPPD\x18\x0f\x20\x01(\
+    \x0b2\x0c.JBMMIPAGDCER\x0bMODDIBHCPPD\x12\x18\n\x07retcode\x18\x01\x20\
+    \x01(\rR\x07retcode\x12.\n\x0bFKEHOGMGLJF\x18\x07\x20\x01(\x0b2\x0c.IPBG\
+    EGBFFHKR\x0bFKEHOGMGLJF\x12.\n\x0bOPELALIBCIL\x18\x04\x20\x01(\x0b2\x0c.\
+    BKNPGKNIOMGR\x0bOPELALIBCIL\x12.\n\x0bOBOOODMPBBH\x18\x0c\x20\x01(\x0b2\
+    \x0c.LLAGEIKJBJAR\x0bOBOOODMPBBH\x12.\n\x0bNOLBPBMHOKA\x18\x08\x20\x01(\
+    \x0b2\x0c.GKMGHIBOOFER\x0bNOLBPBMHOKA\x12.\n\x0bFCAPBPHLNCJ\x18\x0e\x20\
+    \x01(\x0b2\x0c.BCHDPKABMNOR\x0bFCAPBPHLNCJ\x12+\n\nskill_info\x18\x0b\
+    \x20\x01(\x0b2\x0c.IPNPJJPPCCCR\tskillInfo\x12.\n\x0bEFIMNEGGKMH\x18\x03\
+    \x20\x01(\x0b2\x0c.OHLCKLEKPINR\x0bEFIMNEGGKMH\x12.\n\x0bKKCLNDFBPHB\x18\
+    \x02\x20\x01(\x0b2\x0c.EONNKCKPDKIR\x0bKKCLNDFBPHBb\x06proto3\
 ";
 
 /// `FileDescriptorProto` object which was a source for this generated file
@@ -411,18 +411,18 @@ pub fn file_descriptor() -> &'static ::protobuf::reflect::FileDescriptor {
     file_descriptor.get(|| {
         let generated_file_descriptor = generated_file_descriptor_lazy.get(|| {
             let mut deps = ::std::vec::Vec::with_capacity(12);
-            deps.push(super::AHNJPBANGLA::file_descriptor().clone());
-            deps.push(super::CHGCGEIKGMN::file_descriptor().clone());
-            deps.push(super::CIEMCNCFNGI::file_descriptor().clone());
-            deps.push(super::DAEAAGIAFNF::file_descriptor().clone());
-            deps.push(super::GDFLIKHLLME::file_descriptor().clone());
-            deps.push(super::GPHKFJEAEDD::file_descriptor().clone());
-            deps.push(super::HMPEIOLFKNA::file_descriptor().clone());
-            deps.push(super::JOGMADAMFNI::file_descriptor().clone());
-            deps.push(super::LLKFFCAHIFF::file_descriptor().clone());
-            deps.push(super::MBHDHLGFPOO::file_descriptor().clone());
-            deps.push(super::NFLEFJAPIKN::file_descriptor().clone());
-            deps.push(super::NIILLJEILIG::file_descriptor().clone());
+            deps.push(super::BCHDPKABMNO::file_descriptor().clone());
+            deps.push(super::BKNPGKNIOMG::file_descriptor().clone());
+            deps.push(super::EONNKCKPDKI::file_descriptor().clone());
+            deps.push(super::GKDEKJKOIJN::file_descriptor().clone());
+            deps.push(super::GKMGHIBOOFE::file_descriptor().clone());
+            deps.push(super::IPBGEGBFFHK::file_descriptor().clone());
+            deps.push(super::IPNPJJPPCCC::file_descriptor().clone());
+            deps.push(super::JBMMIPAGDCE::file_descriptor().clone());
+            deps.push(super::LLAGEIKJBJA::file_descriptor().clone());
+            deps.push(super::NOAMCBLCAMH::file_descriptor().clone());
+            deps.push(super::OGACFIPDECD::file_descriptor().clone());
+            deps.push(super::OHLCKLEKPIN::file_descriptor().clone());
             let mut messages = ::std::vec::Vec::with_capacity(1);
             messages.push(GetPlanetFesDataScRsp::generated_message_descriptor_data());
             let mut enums = ::std::vec::Vec::with_capacity(0);
